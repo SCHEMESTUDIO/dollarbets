@@ -1,0 +1,6 @@
+public/
+node_modules/
+.vercel/
+__pycache__/
+*.pyc
+markets.json

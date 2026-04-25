@@ -1,0 +1,10 @@
+{
+  "buildCommand": "bash build.sh",
+  "outputDirectory": "public",
+  "crons": [
+    {
+      "path": "/api/rebuild",
+      "schedule": "0 10 * * *"
+    }
+  ]
+}
