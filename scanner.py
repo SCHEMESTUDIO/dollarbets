@@ -425,7 +425,7 @@ def build_board(events):
             "volume": volume,
             "category": category,
             "close_time": best_market.get("close_time") or best_market.get("expiration_time", ""),
-            "url": f"https://kalshi.com/markets/{re.sub(r'-\\d+.*$', '', event_ticker)}",
+            "url": f"https://kalshi.com/markets/{event.get('series_ticker', event_ticker)}",
             "score": market_score,
         })
 
