@@ -341,7 +341,7 @@ def render_html(data):
     <div class="signup">
       <div class="signup-heading">get tomorrow's board in your inbox</div>
       <div class="signup-sub">free daily email. no spam. unsubscribe anytime.</div>
-      <form class="signup-form" id="signup-form" method="POST" action="https://subscribe-forms.beehiiv.com/c3a5e668-1de1-4095-b6ab-094a1c0e2764" target="_blank">
+      <form class="signup-form" id="signup-form" method="POST" action="https://subscribe-forms.beehiiv.com/78789979-d89a-4de1-adb9-cb88a40ce0dd" target="_blank">
         <input type="email" name="form[email]" placeholder="you@email.com" required>
         <button type="submit">subscribe</button>
       </form>
