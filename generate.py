@@ -111,17 +111,17 @@ def render_html(data):
     }}
 
     .site-title {{
-      font-size: 22px;
+      font-size: 20px;
       font-weight: 700;
       color: #111;
       letter-spacing: -0.5px;
     }}
 
     .tagline {{
-      font-size: 13px;
+      font-size: 15px;
       color: #777;
       margin-top: 3px;
-      font-style: italic;
+      font-weight: 400;
       letter-spacing: 0.2px;
     }}
 
@@ -321,8 +321,8 @@ def render_html(data):
   <div class="container">
 
     <div class="header">
-      <div class="site-title">dollar bets</div>
-      <div class="tagline">a buck says maybe.</div>
+      <div class="site-title">Dollar Bets</div>
+      <div class="tagline">The world's most interesting $1 wagers. A buck says maybe.</div>
       <div class="date-line">{date_str}</div>
     </div>
 
