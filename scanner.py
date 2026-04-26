@@ -9,6 +9,7 @@ Dollar Bets — Kalshi Market Scanner (v2: Events-first approach)
 
 import json
 import os
+import random
 import re
 import sys
 import hashlib
@@ -122,47 +123,56 @@ def payout_tier(payout):
         return "purple"
 
 
-# ── Event scoring ────────────────────────────────────────────
+# ── Editorial scoring ───────────────────────────────────────
+#
+# Five pillars, scored independently:
+#   1. CULTURAL HOOK — would a normal person get why this is interesting?
+#   2. PAYOUT DRAMA — does the $1 return make the bet feel alive?
+#   3. FRESHNESS — new listing, deadline approaching, or recent price move?
+#   4. VARIETY — enforced at board selection, not individual scoring
+#   5. TRADABILITY — volume, spread, open interest (scored at market level)
+#
 
-def score_event(event):
-    """Score an event for how entertaining/shareable it is."""
+def score_cultural_hook(event):
+    """Pillar 1: Would a normal person understand why this is funny or interesting?"""
     score = 0.0
     title = (event.get("title") or "").lower()
     subtitle = (event.get("sub_title") or "").lower()
     category = (event.get("category") or "").lower()
     full_text = f"{title} {subtitle}"
 
-    # Category bonuses
+    # Categories normal people care about
     fun_categories = ["entertainment", "culture", "science", "climate", "weather",
-                      "sports", "tech", "crypto", "world"]
-    boring_categories = ["fed", "treasury", "gdp", "inflation", "interest rate",
-                         "economics", "financial"]
+                      "sports", "tech", "world"]
+    niche_categories = ["fed", "treasury", "gdp", "inflation", "interest rate",
+                        "economics", "financial"]
 
     for cat in fun_categories:
         if cat in category:
             score += 15
             break
 
-    for cat in boring_categories:
+    for cat in niche_categories:
         if cat in category:
-            score -= 15
+            score -= 20
             break
 
-    # Viral keyword bonuses
-    viral_keywords = ["elon", "trump", "taylor swift", "bitcoin", "snow",
-                      "earthquake", "ufo", "alien", "ai", "robot",
-                      "tiktok", "record", "first", "ever", "celebrity",
-                      "kanye", "drake", "super bowl", "oscar", "grammy",
-                      "olympics", "mars", "moon", "asteroid", "pope",
-                      "viral", "meme", "scandal", "hurricane", "volcano",
-                      "spacex", "tesla", "apple", "google", "netflix",
-                      "nuclear", "war", "peace", "extinct", "banned"]
-    for kw in viral_keywords:
-        if kw in full_text:
-            score += 10
-            break
+    # Names and topics people actually talk about
+    watercooler = [
+        "elon", "trump", "taylor swift", "bitcoin", "snow",
+        "earthquake", "ufo", "alien", "ai", "robot",
+        "tiktok", "record", "first", "ever", "celebrity",
+        "kanye", "drake", "super bowl", "oscar", "grammy",
+        "olympics", "mars", "moon", "asteroid", "pope",
+        "viral", "meme", "scandal", "hurricane", "volcano",
+        "spacex", "tesla", "apple", "google", "netflix",
+        "nuclear", "war", "peace", "extinct", "banned",
+        "nba", "nfl", "mlb", "world cup", "premier league",
+    ]
+    kw_hits = sum(1 for kw in watercooler if kw in full_text)
+    score += min(kw_hits * 8, 20)  # diminishing returns, cap at 20
 
-    # Title quality: shorter, punchier titles are better
+    # Title readability — shorter = punchier = more shareable
     if len(title) < 50:
         score += 10
     elif len(title) < 80:
@@ -170,17 +180,128 @@ def score_event(event):
     elif len(title) > 120:
         score -= 10
 
-    # Question marks are engaging
+    # Questions are engaging ("Will X happen?")
     if "?" in title:
         score += 5
 
-    # Penalize very dry/technical titles
-    dry_keywords = ["basis points", "yield curve", "quarterly", "index",
-                    "benchmark", "fiscal", "monetary", "regulatory"]
-    for kw in dry_keywords:
+    # Penalize jargon that makes eyes glaze over
+    jargon = ["basis points", "yield curve", "quarterly", "index",
+              "benchmark", "fiscal", "monetary", "regulatory",
+              "seasonally adjusted", "year-over-year", "bps"]
+    for kw in jargon:
         if kw in full_text:
-            score -= 15
+            score -= 20
             break
+
+    return score
+
+
+def score_payout_drama(payout):
+    """Pillar 2: Does the $1 return make the bet feel alive?
+    Sweet spot is 5x-100x. Too low = boring, too high = gimmicky."""
+    if payout is None:
+        return -50
+    if 10 <= payout <= 50:
+        return 25          # the sweet spot — dramatic but credible
+    elif 5 <= payout <= 100:
+        return 15           # still interesting
+    elif 3 <= payout <= 200:
+        return 5            # fine
+    elif payout <= 2:
+        return -15          # too likely, no drama
+    elif payout > 1000:
+        return -10          # lottery ticket — fun once, not 7 times
+    return 0
+
+
+def score_freshness(market, event):
+    """Pillar 3: New listing, upcoming deadline, or recent activity."""
+    score = 0.0
+    now = datetime.now(timezone.utc)
+
+    # Deadline urgency — closing within 7 days gets a boost
+    close_str = market.get("close_time") or market.get("expiration_time") or ""
+    if close_str:
+        try:
+            close_dt = datetime.fromisoformat(close_str.replace("Z", "+00:00"))
+            days_left = (close_dt - now).total_seconds() / 86400
+            if days_left <= 1:
+                score += 20   # resolves TODAY — peak urgency
+            elif days_left <= 3:
+                score += 15
+            elif days_left <= 7:
+                score += 10
+            elif days_left <= 14:
+                score += 5
+            # Markets years away feel stale
+            if days_left > 365:
+                score -= 10
+        except (ValueError, TypeError):
+            pass
+
+    # Recent volume = people are actively trading this
+    try:
+        vol_24h = float(market.get("volume_24h_fp") or 0)
+    except (ValueError, TypeError):
+        vol_24h = 0
+
+    if vol_24h > 5000:
+        score += 15    # hot market
+    elif vol_24h > 1000:
+        score += 10
+    elif vol_24h > 100:
+        score += 5
+    elif vol_24h == 0:
+        score -= 10    # dead market, skip
+
+    return score
+
+
+def score_tradability(market):
+    """Pillar 5: Can someone actually trade this without getting ripped off?"""
+    score = 0.0
+
+    # Volume — dead markets are bad UX
+    try:
+        volume = float(market.get("volume_fp") or 0)
+    except (ValueError, TypeError):
+        volume = 0
+
+    if volume > 10000:
+        score += 10
+    elif volume > 1000:
+        score += 5
+    elif volume < 10:
+        score -= 20  # ghost town
+
+    # Open interest — are people actually holding positions?
+    try:
+        oi = float(market.get("open_interest_fp") or 0)
+    except (ValueError, TypeError):
+        oi = 0
+
+    if oi > 5000:
+        score += 10
+    elif oi > 500:
+        score += 5
+    elif oi < 10:
+        score -= 10
+
+    # Spread — gap between bid and ask
+    try:
+        ask = float(market.get("yes_ask_dollars") or 0)
+        bid = float(market.get("yes_bid_dollars") or 0)
+    except (ValueError, TypeError):
+        ask, bid = 0, 0
+
+    if ask > 0 and bid > 0:
+        spread = ask - bid
+        if spread <= 0.03:
+            score += 10   # tight spread, liquid market
+        elif spread <= 0.10:
+            score += 5
+        elif spread > 0.25:
+            score -= 15   # ugly spread, someone's getting fleeced
 
     return score
 
@@ -565,22 +686,23 @@ Respond with ONLY the JSON array of integers. Example: [42, 7, 183, 91, ...]"""
 # ── Board assembly ───────────────────────────────────────────
 
 def build_board(events):
-    """Score events, fetch prices for top candidates, build the board."""
+    """Editorial board assembly — like a newspaper editor picking the front page."""
 
-    # Step 1: Score all events
+    # Step 1: Cultural hook pre-screen
+    # Score all events on "would a normal person care?" before we burn API calls
     scored_events = []
     for e in events:
-        s = score_event(e)
-        scored_events.append((s, e))
+        hook = score_cultural_hook(e)
+        scored_events.append((hook, e))
 
     scored_events.sort(key=lambda x: x[0], reverse=True)
 
-    # Step 2: Fetch markets for top ~50 events to get prices
-    top_n = min(50, len(scored_events))
+    # Step 2: Fetch markets for top ~100 events to get prices + tradability data
+    top_n = min(100, len(scored_events))
     print(f"[scanner] Fetching prices for top {top_n} events...", file=sys.stderr)
 
     candidates = []
-    for i, (event_score, event) in enumerate(scored_events[:top_n]):
+    for i, (hook_score, event) in enumerate(scored_events[:top_n]):
         event_ticker = event.get("event_ticker", "")
         markets = fetch_markets_for_event(event_ticker)
         time.sleep(0.3)  # throttle to avoid 429s
@@ -605,12 +727,10 @@ def build_board(events):
         if not valid_markets:
             continue
 
-        # Pick ONE market per event — the one with the best payout in the sweet spot
-        # Prefer 10x-100x range, then by volume
+        # Pick ONE market per event — best combination of payout drama + tradability
         def market_rank(item):
             m, payout, vol = item
-            sweet = 30 if 10 <= payout <= 100 else (20 if 5 <= payout <= 1000 else 10)
-            return sweet + min(vol / 1000, 20)
+            return score_payout_drama(payout) + score_tradability(m)
 
         valid_markets.sort(key=market_rank, reverse=True)
         best_market, payout, volume = valid_markets[0]
@@ -618,36 +738,24 @@ def build_board(events):
         tier = payout_tier(payout)
         category = event.get("category", "")
 
-        # Build a good title: for multi-market events, use the specific
-        # market title (it's more descriptive). For single-market events,
-        # prefer the event title (cleaner).
+        # Build display title
         event_title = event.get("title", "")
         market_title = best_market.get("title", "")
-
         if len(valid_markets) > 1 and market_title:
-            # Multi-market event — use the specific market title
-            # e.g. "Will Phil Lord & Christopher Miller win Best Director?"
             display_title = market_title
         else:
             display_title = event_title or market_title
 
         quip = generate_quip(display_title, category)
 
-        # Boost event score with market-level signals
-        market_score = event_score
-        if volume > 10000:
-            market_score += 15
-        elif volume > 1000:
-            market_score += 10
-        elif volume > 100:
-            market_score += 5
-        elif volume < 10:
-            market_score -= 10
-
-        if 10 <= payout <= 100:
-            market_score += 20
-        elif 5 <= payout <= 1000:
-            market_score += 10
+        # === COMPOSITE EDITORIAL SCORE ===
+        # All five pillars combined
+        editorial_score = (
+            hook_score                              # cultural hook
+            + score_payout_drama(payout)            # payout drama
+            + score_freshness(best_market, event)   # freshness
+            + score_tradability(best_market)         # tradability
+        )
 
         candidates.append({
             "ticker": best_market.get("ticker", ""),
@@ -661,30 +769,85 @@ def build_board(events):
             "category": category,
             "close_time": best_market.get("close_time") or best_market.get("expiration_time", ""),
             "url": f"https://kalshi.com/markets/{event.get('series_ticker', event_ticker)}",
-            "score": market_score,
+            "score": editorial_score,
         })
 
     print(f"[scanner] {len(candidates)} candidates with valid prices", file=sys.stderr)
 
-    # Step 3: Pick top markets with tier diversity
-    candidates.sort(key=lambda x: x["score"], reverse=True)
+    # Step 3: Daily rotation — "newspaper" selection
+    QUALITY_FLOOR = 15
+    eligible = [c for c in candidates if c["score"] >= QUALITY_FLOOR]
+    eligible.sort(key=lambda x: x["score"], reverse=True)
+
+    if len(eligible) < TARGET_PICKS:
+        eligible = sorted(candidates, key=lambda x: x["score"], reverse=True)
+
+    print(f"[scanner] {len(eligible)} eligible candidates above quality floor", file=sys.stderr)
+
+    # Date-seeded shuffle for daily variety
+    today_seed = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    rng = random.Random(today_seed)
+
+    # Split into quality tiers: headliners / solid / deep cuts
+    third = max(len(eligible) // 3, 1)
+    headliners = eligible[:third]
+    solid = eligible[third:third*2]
+    deep_cuts = eligible[third*2:]
+
+    rng.shuffle(headliners)
+    rng.shuffle(solid)
+    rng.shuffle(deep_cuts)
+
+    # Interleave: ~4 headliners, ~3 solid, ~3 deep cuts
+    shuffled_pool = []
+    h, s, d = 0, 0, 0
+    pattern = ["head", "head", "solid", "head", "solid", "deep", "head", "solid", "deep", "deep"]
+    for slot in pattern:
+        if slot == "head" and h < len(headliners):
+            shuffled_pool.append(headliners[h]); h += 1
+        elif slot == "solid" and s < len(solid):
+            shuffled_pool.append(solid[s]); s += 1
+        elif slot == "deep" and d < len(deep_cuts):
+            shuffled_pool.append(deep_cuts[d]); d += 1
+    remaining = headliners[h:] + solid[s:] + deep_cuts[d:]
+    rng.shuffle(remaining)
+    shuffled_pool.extend(remaining)
+
+    # Step 4: Pick board with VARIETY enforcement
+    # - Payout tier limits (don't let one color dominate)
+    # - Category caps (max 2 per Kalshi category — no "7 crypto ticks")
+    # - Quip dedup
+    CATEGORY_CAP = 2
 
     board = []
     used_quips = set()
     tier_counts = {"green": 0, "yellow": 0, "orange": 0, "red": 0, "purple": 0}
     tier_limits = {"green": 3, "yellow": 3, "orange": 3, "red": 2, "purple": 2}
+    category_counts = {}
 
-    for m in candidates:
+    for m in shuffled_pool:
         tier = m["tier"]
-        if tier_counts.get(tier, 0) < tier_limits.get(tier, 3):
-            # Ensure unique quip — re-roll if duplicate
-            quip = m["quip"]
-            if quip in used_quips:
-                quip = _reroll_quip(m["title"], m["category"], used_quips)
-                m["quip"] = quip
-            used_quips.add(quip)
-            board.append(m)
-            tier_counts[tier] = tier_counts.get(tier, 0) + 1
+        cat = (m.get("category") or "other").lower().strip()
+
+        # Enforce payout tier diversity
+        if tier_counts.get(tier, 0) >= tier_limits.get(tier, 3):
+            continue
+
+        # Enforce category diversity
+        if category_counts.get(cat, 0) >= CATEGORY_CAP:
+            continue
+
+        # Ensure unique quip
+        quip = m["quip"]
+        if quip in used_quips:
+            quip = _reroll_quip(m["title"], m["category"], used_quips)
+            m["quip"] = quip
+        used_quips.add(quip)
+
+        board.append(m)
+        tier_counts[tier] = tier_counts.get(tier, 0) + 1
+        category_counts[cat] = category_counts.get(cat, 0) + 1
+
         if len(board) >= TARGET_PICKS:
             break
 
