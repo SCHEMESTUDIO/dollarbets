@@ -417,6 +417,7 @@ def nav_html(current=""):
         ("/political-prediction-markets/", "politics"),
         ("/crypto-prediction-markets/", "crypto"),
         ("/what-is-a-prediction-market/", "what is this?"),
+        ("/about/", "about"),
     ]
     parts = []
     for href, label in links:
@@ -461,11 +462,11 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
 
     <hr>
 
-    {nav_html(current_nav)}
-
 {body}
 
     <hr>
+
+    {nav_html(current_nav)}
 
 {SIGNUP_HTML}
 
@@ -1107,6 +1108,37 @@ def _archetype_name(bet):
     return "longshot bet"
 
 
+# ── About page ──────────────────────────────────────────────
+
+def generate_about_page():
+    """Generate the /about/ page."""
+    body = """    <div class="page-title">about dollar bets</div>
+    <div class="page-intro">
+      <p>Dollar Bets is a daily discovery board for prediction markets. Every day we scan thousands of markets on Kalshi and pick roughly ten that are actually interesting to a normal human being.</p>
+
+      <p>The idea is simple: frame every wager by what a single dollar could pay out. "$1 pays $20" is more fun than "priced at 5 cents with an implied probability of 5%." One of these sentences makes you lean in. The other makes you close the tab.</p>
+
+      <p>We are not a sportsbook. We are not a tout sheet. We are not here to tell you what to bet on. We are an editorial product that curates markets the way a good newspaper curates headlines — with taste, timing, and a mild disregard for conventional financial advice.</p>
+
+      <p>The markets we feature are real. They have real money behind them, real deadlines, and real outcomes. Most of the longshots will not pay off. That's what makes them longshots. The point is not to win — the point is that these markets exist at all, and they're frequently absurd, occasionally profound, and almost always more entertaining than whatever else you were going to do with a dollar.</p>
+
+      <p>Dollar Bets is built for the person who reads the news and thinks "I wonder if there's a market for that." There usually is. We find it for you.</p>
+
+      <p>The board updates daily. The email is free. The bets are a dollar. The rest is up to the universe.</p>
+    </div>
+"""
+
+    html = page_shell(
+        title="about — dollar bets",
+        description="Dollar Bets is a daily discovery board for prediction markets. We find the internet's most interesting $1 wagers so you don't have to.",
+        body=body,
+        canonical="/about/",
+        current_nav="/about/",
+    )
+
+    write_page("about/index.html", html)
+
+
 # ── Sitemap ─────────────────────────────────────────────────
 
 def generate_sitemap(pages):
@@ -1292,10 +1324,15 @@ def main():
     print("[generate] Building market autopsies...")
     generate_market_autopsies(all_bets)
 
-    # 6. Sitemap + robots.txt
+    # 6. About page
+    print("[generate] Building about page...")
+    generate_about_page()
+
+    # 7. Sitemap + robots.txt
     print("[generate] Building sitemap...")
     sitemap_pages = [
         ("/", 1.0),
+        ("/about/", 0.7),
     ]
     for slug in CATEGORIES:
         sitemap_pages.append((f"/{slug}/", 0.8))
