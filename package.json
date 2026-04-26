@@ -1,12 +1,13 @@
 {
   "name": "dollarbets",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "build": "bash build.sh",
     "scan": "python3 scanner.py",
     "scan:sample": "python3 scanner.py --sample",
-    "generate": "python3 scanner.py --sample | python3 generate.py",
-    "dev": "python3 scanner.py --sample | python3 generate.py && open public/index.html"
+    "generate": "python3 generate.py",
+    "dev": "python3 scanner.py --sample > data/boards/$(date -u +%Y-%m-%d).json && python3 generate.py && open public/index.html",
+    "dev:sample": "mkdir -p data/boards && python3 scanner.py --sample > data/boards/2026-04-26.json && python3 generate.py && open public/index.html"
   }
 }
