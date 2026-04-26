@@ -341,14 +341,11 @@ def render_html(data):
     <div class="signup">
       <div class="signup-heading">get tomorrow's board in your inbox</div>
       <div class="signup-sub">free daily email. no spam. unsubscribe anytime.</div>
-      <form class="signup-form" id="signup-form">
-        <input type="email" name="email" placeholder="you@email.com" required>
+      <form class="signup-form" id="signup-form" method="POST" action="https://subscribe-forms.beehiiv.com/c3a5e668-1de1-4095-b6ab-094a1c0e2764" target="_blank">
+        <input type="email" name="form[email]" placeholder="you@email.com" required>
         <button type="submit">subscribe</button>
       </form>
-      <div id="signup-msg" style="display:none; font-size:12px; margin-top:8px; color:#555;"></div>
     </div>
-
-    <iframe name="beehiiv-frame" style="display:none"></iframe>
 
     <div class="footer">
       <p>dollar bets is entertainment, not financial advice. not a sportsbook. not affiliated with kalshi.<br>
@@ -358,38 +355,6 @@ def render_html(data):
     </div>
 
   </div>
-
-  <script>
-    document.getElementById('signup-form').addEventListener('submit', function(e) {{
-      e.preventDefault();
-      var email = this.email.value;
-      var btn = this.querySelector('button');
-      var msg = document.getElementById('signup-msg');
-      btn.textContent = '...';
-      btn.disabled = true;
-
-      // Submit via hidden iframe to Beehiiv
-      var form = document.createElement('form');
-      form.method = 'POST';
-      form.action = 'https://subscribe-forms.beehiiv.com/c3a5e668-1de1-4095-b6ab-094a1c0e2764';
-      form.target = 'beehiiv-frame';
-      var input = document.createElement('input');
-      input.type = 'hidden';
-      input.name = 'form[email]';
-      input.value = email;
-      form.appendChild(input);
-      document.body.appendChild(form);
-      form.submit();
-      document.body.removeChild(form);
-
-      // Show confirmation after brief delay
-      setTimeout(function() {{
-        document.getElementById('signup-form').style.display = 'none';
-        msg.style.display = 'block';
-        msg.textContent = "you're in. first board drops tomorrow.";
-      }}, 1000);
-    }});
-  </script>
 </body>
 </html>"""
 
