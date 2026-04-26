@@ -201,14 +201,14 @@ def render_html(data):
     }}
 
     .wager-payout {{
-      font-size: 15px;
+      font-size: 13px;
       font-weight: 700;
       color: #111;
       letter-spacing: -0.3px;
     }}
 
     .wager-title {{
-      font-size: 13px;
+      font-size: 15px;
       color: #333;
       font-weight: 700;
       line-height: 1.4;
@@ -310,8 +310,8 @@ def render_html(data):
     @media (max-width: 500px) {{
       .container {{ padding: 16px 12px; }}
       .wager a {{ padding: 9px 10px; }}
-      .wager-payout {{ font-size: 14px; }}
-      .wager-title {{ font-size: 12px; }}
+      .wager-payout {{ font-size: 12px; }}
+      .wager-title {{ font-size: 14px; }}
       .signup-form {{ flex-direction: column; }}
       .signup-form button {{ width: 100%; padding: 12px; }}
     }}
