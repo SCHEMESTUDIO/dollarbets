@@ -81,7 +81,7 @@ SHARED_CSS = """
     .header { margin-bottom: 16px; }
 
     .site-title {
-      font-size: 22px;
+      font-size: 20px;
       font-weight: 700;
       color: #111;
       letter-spacing: -0.5px;
@@ -93,10 +93,10 @@ SHARED_CSS = """
     }
 
     .tagline {
-      font-size: 13px;
+      font-size: 15px;
       color: #777;
       margin-top: 3px;
-      font-style: italic;
+      font-weight: 400;
       letter-spacing: 0.2px;
     }
 
@@ -400,51 +400,12 @@ SHARED_CSS = """
 """
 
 SIGNUP_HTML = """
-    <div class="signup">
-      <div class="signup-heading">get tomorrow's board in your inbox</div>
-      <div class="signup-sub">free daily email. no spam. unsubscribe anytime.</div>
-      <form class="signup-form" id="signup-form">
-        <input type="email" name="email" placeholder="you@email.com" required>
-        <button type="submit">subscribe</button>
-      </form>
-      <div id="signup-msg" style="display:none; font-size:12px; margin-top:8px; color:#555;"></div>
+    <div class="signup" style="padding:0; border:none; background:transparent;">
+      <iframe src="https://subscribe-forms.beehiiv.com/78789979-d89a-4de1-adb9-cb88a40ce0dd" style="width:100%; height:340px; border:none; background:transparent;" scrolling="no"></iframe>
     </div>
-
-    <iframe name="beehiiv-frame" style="display:none"></iframe>
 """
 
-SIGNUP_JS = """
-  <script>
-    var form = document.getElementById('signup-form');
-    if (form) {
-      form.addEventListener('submit', function(e) {
-        e.preventDefault();
-        var email = this.email.value;
-        var btn = this.querySelector('button');
-        var msg = document.getElementById('signup-msg');
-        btn.textContent = '...';
-        btn.disabled = true;
-        var f = document.createElement('form');
-        f.method = 'POST';
-        f.action = 'https://subscribe-forms.beehiiv.com/c3a5e668-1de1-4095-b6ab-094a1c0e2764';
-        f.target = 'beehiiv-frame';
-        var input = document.createElement('input');
-        input.type = 'hidden';
-        input.name = 'email';
-        input.value = email;
-        f.appendChild(input);
-        document.body.appendChild(f);
-        f.submit();
-        document.body.removeChild(f);
-        setTimeout(function() {
-          document.getElementById('signup-form').style.display = 'none';
-          msg.style.display = 'block';
-          msg.textContent = "you're in. first board drops tomorrow.";
-        }, 1000);
-      });
-    }
-  </script>
-"""
+SIGNUP_JS = ""
 
 
 def nav_html(current=""):
@@ -494,8 +455,8 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
   <div class="container">
 
     <div class="header">
-      <div class="site-title"><a href="/">dollar bets</a></div>
-      <div class="tagline">a buck says maybe.</div>
+      <div class="site-title"><a href="/">Dollar Bets</a></div>
+      <div class="tagline">The world's most interesting $1 wagers. A buck says maybe.</div>
     </div>
 
     <hr>
