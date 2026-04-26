@@ -8,6 +8,7 @@ Dollar Bets — Kalshi Market Scanner (v2: Events-first approach)
 """
 
 import json
+import os
 import re
 import sys
 import hashlib
@@ -17,6 +18,7 @@ import urllib.error
 from datetime import datetime, timezone
 
 KALSHI_API = "https://api.elections.kalshi.com/trade-api/v2"
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 TARGET_PICKS = 10
 
 
@@ -327,6 +329,67 @@ def _reroll_quip(title, category, used_quips):
     return "a buck says maybe"
 
 
+def generate_ai_quips(board):
+    """Use Claude to generate unique, funny quips for all board markets at once."""
+    if not ANTHROPIC_API_KEY:
+        print("[scanner] No ANTHROPIC_API_KEY set, using fallback quips", file=sys.stderr)
+        return board
+
+    # Build the prompt with all markets
+    market_lines = []
+    for i, m in enumerate(board):
+        market_lines.append(f"{i+1}. \"{m['title']}\" — $1 pays ${m['payout']}")
+
+    prompt = f"""You write the editorial quips for Dollar Bets, a daily board of the internet's most entertaining prediction market wagers. Each quip appears in italics below the bet title and payout.
+
+Here are today's {len(board)} bets:
+
+{chr(10).join(market_lines)}
+
+Write one quip for each bet. Rules:
+- Each quip must be 2-8 words, all lowercase, no period at the end
+- Tone: dry wit, internet-native, slightly unhinged but never try-hard
+- No quip should repeat within today's board. Across different days a quip can recur, but aim for freshness
+- Reference the specific bet when possible, not generic commentary
+- Think Twitter reply guy energy meets Bloomberg terminal operator
+- Examples of the vibe: "posting through it", "the timeline is undefeated", "emotionally invested", "your uber driver called it", "the conclave vibes are immaculate", "imagine the group chat", "included for comedy only", "a rumour old enough to rent a car", "grim little climate scratcher", "total unknown, national delusion, total perfection", "your mortgage broker just lit a candle", "america presses continue", "may the bracket gods be merciful", "dangerous aura", "intrusive thoughts won today"
+
+Respond with ONLY a JSON array of strings, one quip per bet, in the same order. No other text."""
+
+    body = json.dumps({
+        "model": "claude-haiku-4-5-20251001",
+        "max_tokens": 300,
+        "messages": [{"role": "user", "content": prompt}]
+    }).encode()
+
+    req = urllib.request.Request(
+        "https://api.anthropic.com/v1/messages",
+        data=body,
+        headers={
+            "Content-Type": "application/json",
+            "x-api-key": ANTHROPIC_API_KEY,
+            "anthropic-version": "2023-06-01",
+        },
+        method="POST",
+    )
+
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            result = json.loads(resp.read().decode())
+            text = result["content"][0]["text"].strip()
+            quips = json.loads(text)
+            if isinstance(quips, list) and len(quips) == len(board):
+                for i, q in enumerate(quips):
+                    board[i]["quip"] = q.strip().rstrip(".")
+                print(f"[scanner] AI quips generated for {len(board)} markets", file=sys.stderr)
+            else:
+                print(f"[scanner] AI returned {len(quips)} quips for {len(board)} markets, keeping fallbacks", file=sys.stderr)
+    except Exception as e:
+        print(f"[scanner] AI quip generation failed: {e}, keeping fallbacks", file=sys.stderr)
+
+    return board
+
+
 # ── Board assembly ───────────────────────────────────────────
 
 def build_board(events):
@@ -455,6 +518,9 @@ def build_board(events):
 
     # Sort: smallest to largest payout
     board.sort(key=lambda x: x["payout"])
+
+    # Replace quips with AI-generated ones
+    board = generate_ai_quips(board)
 
     return board
 
