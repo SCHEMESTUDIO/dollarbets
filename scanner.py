@@ -530,9 +530,6 @@ def build_board(events):
     # Sort: smallest to largest payout
     board.sort(key=lambda x: x["payout"])
 
-    # Replace quips with AI-generated ones
-    board = generate_ai_quips(board)
-
     return board
 
 
