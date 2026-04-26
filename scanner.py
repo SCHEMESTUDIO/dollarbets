@@ -374,8 +374,10 @@ Respond with ONLY a JSON array of strings, one quip per bet, in the same order. 
     )
 
     try:
+        print(f"[scanner] Calling Claude API for quips (key starts with {ANTHROPIC_API_KEY[:12]}...)", file=sys.stderr)
         with urllib.request.urlopen(req, timeout=30) as resp:
-            result = json.loads(resp.read().decode())
+            raw = resp.read().decode()
+            result = json.loads(raw)
             text = result["content"][0]["text"].strip()
             quips = json.loads(text)
             if isinstance(quips, list) and len(quips) == len(board):
@@ -384,8 +386,11 @@ Respond with ONLY a JSON array of strings, one quip per bet, in the same order. 
                 print(f"[scanner] AI quips generated for {len(board)} markets", file=sys.stderr)
             else:
                 print(f"[scanner] AI returned {len(quips)} quips for {len(board)} markets, keeping fallbacks", file=sys.stderr)
+    except urllib.error.HTTPError as e:
+        body = e.read().decode() if e.fp else "no body"
+        print(f"[scanner] AI quip HTTP {e.code}: {body[:200]}, keeping fallbacks", file=sys.stderr)
     except Exception as e:
-        print(f"[scanner] AI quip generation failed: {e}, keeping fallbacks", file=sys.stderr)
+        print(f"[scanner] AI quip generation failed: {type(e).__name__}: {e}, keeping fallbacks", file=sys.stderr)
 
     return board
 
