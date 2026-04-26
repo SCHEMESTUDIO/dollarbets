@@ -341,7 +341,7 @@ def render_html(data):
     <div class="signup">
       <div class="signup-heading">get tomorrow's board in your inbox</div>
       <div class="signup-sub">free daily email. no spam. unsubscribe anytime.</div>
-      <iframe src="https://subscribe-forms.beehiiv.com/78789979-d89a-4de1-adb9-cb88a40ce0dd" style="width:100%; height:60px; border:none; overflow:hidden; background:transparent;" scrolling="no"></iframe>
+      <iframe src="https://subscribe-forms.beehiiv.com/78789979-d89a-4de1-adb9-cb88a40ce0dd" style="width:100%; height:200px; border:none; background:transparent;" scrolling="no"></iframe>
     </div>
 
     <div class="footer">
