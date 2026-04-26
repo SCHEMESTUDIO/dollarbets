@@ -375,7 +375,7 @@ def render_html(data):
       form.target = 'beehiiv-frame';
       var input = document.createElement('input');
       input.type = 'hidden';
-      input.name = 'email';
+      input.name = 'form[email]';
       input.value = email;
       form.appendChild(input);
       document.body.appendChild(form);
