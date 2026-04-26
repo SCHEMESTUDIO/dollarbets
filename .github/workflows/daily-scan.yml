@@ -25,7 +25,6 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          cd site
           mkdir -p data/boards
           TODAY=$(date -u +%Y-%m-%d)
           echo "Scanning markets for ${TODAY}..."
@@ -37,7 +36,7 @@ jobs:
         run: |
           git config user.name "Dollar Bets Bot"
           git config user.email "bot@dollarbets.lol"
-          git add site/data/boards/
+          git add data/boards/
           if git diff --staged --quiet; then
             echo "No new data to commit"
           else
