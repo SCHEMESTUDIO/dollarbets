@@ -9,11 +9,5 @@
         { "key": "Content-Type", "value": "application/xml" }
       ]
     }
-  ],
-  "crons": [
-    {
-      "path": "/api/rebuild",
-      "schedule": "0 10 * * *"
-    }
   ]
 }

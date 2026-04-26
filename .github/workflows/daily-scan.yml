@@ -1,0 +1,44 @@
+name: Daily Board Scan
+
+on:
+  schedule:
+    # Run at 10:00 AM UTC every day
+    - cron: '0 10 * * *'
+  workflow_dispatch: # Allow manual trigger from GitHub UI
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run scanner
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          cd site
+          mkdir -p data/boards
+          TODAY=$(date -u +%Y-%m-%d)
+          echo "Scanning markets for ${TODAY}..."
+          python3 scanner.py > "data/boards/${TODAY}.json"
+          echo "Board saved to data/boards/${TODAY}.json"
+          cat "data/boards/${TODAY}.json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(f'{len(d.get(\"board\",[]))} markets on board')"
+
+      - name: Commit and push
+        run: |
+          git config user.name "Dollar Bets Bot"
+          git config user.email "bot@dollarbets.lol"
+          git add site/data/boards/
+          if git diff --staged --quiet; then
+            echo "No new data to commit"
+          else
+            TODAY=$(date -u +%Y-%m-%d)
+            git commit -m "daily board: ${TODAY}"
+            git push
+          fi

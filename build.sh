@@ -1,7 +1,7 @@
 #!/bin/bash
-# Dollar Bets — Build Script (v2: multi-page)
-# 1. Run scanner → save daily board JSON
-# 2. Run generator → build all pages from accumulated data
+# Dollar Bets — Vercel Build Script
+# Generates all pages from accumulated board data in data/boards/
+# (Daily scanning is handled by GitHub Actions, not the build)
 set -e
 
 DIR="$(cd "$(dirname "$0")" && pwd)"
@@ -12,17 +12,14 @@ echo "[build] Starting Dollar Bets build..."
 # Ensure data directory exists
 mkdir -p data/boards
 
-# Today's date
-TODAY=$(date -u +%Y-%m-%d)
-BOARD_FILE="data/boards/${TODAY}.json"
+# If no board files exist yet, run scanner to bootstrap
+if [ -z "$(ls -A data/boards/ 2>/dev/null)" ]; then
+  echo "[build] No board data found, running scanner to bootstrap..."
+  TODAY=$(date -u +%Y-%m-%d)
+  python3 scanner.py > "data/boards/${TODAY}.json" 2>/dev/null || echo "[build] Scanner failed, will generate with empty data"
+fi
 
-# Run scanner → save today's board
-echo "[build] Scanning markets..."
-python3 scanner.py > "$BOARD_FILE"
-echo "[build] Saved board to ${BOARD_FILE}"
-
-# Generate all pages from accumulated board data
-echo "[build] Generating all pages..."
+# Generate all pages
 python3 generate.py
 
 echo "[build] Done."
