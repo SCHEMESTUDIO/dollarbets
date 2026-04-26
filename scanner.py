@@ -470,36 +470,43 @@ def _reroll_quip(title, category, used_quips):
     return "a buck says maybe"
 
 
-def generate_ai_quips(board):
-    """Use Claude to generate unique, funny quips for all board markets at once."""
+def match_quips_ai(board):
+    """Use Claude to pick the best quip from our curated pool for each bet.
+    Falls back to the existing hash-based quips if the API call fails."""
     if not ANTHROPIC_API_KEY:
-        print("[scanner] No ANTHROPIC_API_KEY set, using fallback quips", file=sys.stderr)
+        print("[scanner] No ANTHROPIC_API_KEY set, keeping hash-based quips", file=sys.stderr)
         return board
 
-    # Build the prompt with all markets
+    # Build numbered quip pool (send all quips with indices)
+    quip_lines = [f"{i}. {q}" for i, q in enumerate(ALL_QUIPS)]
+
+    # Build market list
     market_lines = []
     for i, m in enumerate(board):
-        market_lines.append(f"{i+1}. \"{m['title']}\" — $1 pays ${m['payout']}")
+        market_lines.append(f"{i+1}. \"{m['title']}\" (${m['payout']} payout, category: {m.get('category', 'n/a')})")
 
-    prompt = f"""You write the editorial quips for Dollar Bets, a daily board of the internet's most entertaining prediction market wagers. Each quip appears in italics below the bet title and payout.
+    prompt = f"""You are the editorial voice of Dollar Bets, a daily board of prediction market wagers with a Craigslist aesthetic and dry internet humor.
 
-Here are today's {len(board)} bets:
+Your job: pick the single best quip from the numbered pool below for each of today's bets. The quip should feel like an insider comment — wry, observational, culturally aware. The best pairings are slightly oblique, not literal. A bet about snow doesn't need a weather quip — it might need "the vibes are off but the math works."
 
+TODAY'S BETS:
 {chr(10).join(market_lines)}
 
-Write one quip for each bet. Rules:
-- Each quip must be 2-8 words, all lowercase, no period at the end
-- Tone: dry wit, internet-native, slightly unhinged but never try-hard
-- No quip should repeat within today's board. Across different days a quip can recur, but aim for freshness
-- Reference the specific bet when possible, not generic commentary
-- Think Twitter reply guy energy meets Bloomberg terminal operator
-- Examples of the vibe: "posting through it", "the timeline is undefeated", "emotionally invested", "your uber driver called it", "the conclave vibes are immaculate", "imagine the group chat", "included for comedy only", "a rumour old enough to rent a car", "grim little climate scratcher", "total unknown, national delusion, total perfection", "your mortgage broker just lit a candle", "america presses continue", "may the bracket gods be merciful", "dangerous aura", "intrusive thoughts won today"
+QUIP POOL (pick by number):
+{chr(10).join(quip_lines)}
 
-Respond with ONLY a JSON array of strings, one quip per bet, in the same order. No other text."""
+Rules:
+- Return a JSON array of {len(board)} integers — the quip index for each bet, in order
+- Every index must be unique (no quip used twice)
+- Pick quips that are funny *because of* the pairing, not just generically funny
+- Prefer quips that a reader would screenshot and share
+- Do NOT pick the most obvious/literal match — go for the pairing that makes someone smirk
+
+Respond with ONLY the JSON array of integers. Example: [42, 7, 183, 91, ...]"""
 
     body = json.dumps({
         "model": "claude-haiku-4-5-20251001",
-        "max_tokens": 300,
+        "max_tokens": 200,
         "messages": [{"role": "user", "content": prompt}]
     }).encode()
 
@@ -515,7 +522,7 @@ Respond with ONLY a JSON array of strings, one quip per bet, in the same order. 
     )
 
     try:
-        print(f"[scanner] Calling Claude API for quips...", file=sys.stderr)
+        print("[scanner] Calling Claude API for quip matching...", file=sys.stderr)
         with urllib.request.urlopen(req, timeout=30) as resp:
             raw = resp.read().decode()
             result = json.loads(raw)
@@ -525,19 +532,32 @@ Respond with ONLY a JSON array of strings, one quip per bet, in the same order. 
                 text = re.sub(r'^```\w*\n?', '', text)
                 text = re.sub(r'\n?```$', '', text)
                 text = text.strip()
-            print(f"[scanner] Claude response: {text[:100]}...", file=sys.stderr)
-            quips = json.loads(text)
-            if isinstance(quips, list) and len(quips) == len(board):
-                for i, q in enumerate(quips):
-                    board[i]["quip"] = q.strip().rstrip(".")
-                print(f"[scanner] AI quips generated for {len(board)} markets", file=sys.stderr)
+            print(f"[scanner] Claude response: {text[:120]}...", file=sys.stderr)
+            indices = json.loads(text)
+
+            if isinstance(indices, list) and len(indices) == len(board):
+                # Validate: all ints, in range, unique
+                seen = set()
+                valid = True
+                for idx in indices:
+                    if not isinstance(idx, int) or idx < 0 or idx >= len(ALL_QUIPS) or idx in seen:
+                        valid = False
+                        break
+                    seen.add(idx)
+
+                if valid:
+                    for i, idx in enumerate(indices):
+                        board[i]["quip"] = ALL_QUIPS[idx]
+                    print(f"[scanner] AI matched quips for {len(board)} markets", file=sys.stderr)
+                else:
+                    print(f"[scanner] AI returned invalid indices, keeping hash-based quips", file=sys.stderr)
             else:
-                print(f"[scanner] AI returned {len(quips)} quips for {len(board)} markets, keeping fallbacks", file=sys.stderr)
+                print(f"[scanner] AI returned {len(indices) if isinstance(indices, list) else 'non-list'} for {len(board)} markets, keeping hash-based quips", file=sys.stderr)
     except urllib.error.HTTPError as e:
-        body = e.read().decode() if e.fp else "no body"
-        print(f"[scanner] AI quip HTTP {e.code}: {body[:200]}, keeping fallbacks", file=sys.stderr)
+        err_body = e.read().decode() if e.fp else "no body"
+        print(f"[scanner] AI quip match HTTP {e.code}: {err_body[:200]}, keeping hash-based quips", file=sys.stderr)
     except Exception as e:
-        print(f"[scanner] AI quip generation failed: {type(e).__name__}: {e}, keeping fallbacks", file=sys.stderr)
+        print(f"[scanner] AI quip match failed: {type(e).__name__}: {e}, keeping hash-based quips", file=sys.stderr)
 
     return board
 
@@ -670,6 +690,9 @@ def build_board(events):
 
     # Sort: smallest to largest payout
     board.sort(key=lambda x: x["payout"])
+
+    # AI quip matching — pick best quip from pool for each bet
+    board = match_quips_ai(board)
 
     return board
 
