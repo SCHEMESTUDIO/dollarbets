@@ -185,113 +185,134 @@ def score_event(event):
     return score
 
 
-# ── Quip generation ──────────────────────────────────────────
-
-def generate_quip(title, category):
-    """Generate a short, funny editorial quip for a market."""
-    title_lower = title.lower()
-    category_lower = category.lower()
-
-    quip_pools = {
-        "weather": [
-            "emotionally correct", "the weather app is lying again",
-            "dress accordingly", "mother nature's got range",
-            "pack an umbrella and a prayer",
-        ],
-        "crypto": [
-            "number go up technology", "your uber driver called it",
-            "laser eyes optional", "the chart looks like a heartbeat",
-            "hodl or fold",
-        ],
-        "politic": [
-            "democracy is a spectator sport", "the timeline is undefeated",
-            "certified popcorn moment", "stranger than fiction, again",
-            "cable news will be unwatchable",
-        ],
-        "election": [
-            "democracy is a spectator sport", "certified popcorn moment",
-            "the timeline is undefeated", "stranger than fiction, again",
-        ],
-        "entertainment": [
-            "the culture demands it", "manifesting on main",
-            "the stans already know", "this is the timeline we chose",
-            "emotionally invested",
-        ],
-        "sport": [
-            "analytics vs. vibes", "sports are scripted anyway",
-            "the math checks out, barely", "your bracket is already busted",
-            "just for the group chat",
-        ],
-        "tech": [
-            "the future is now, apparently", "silicon valley is at it again",
-            "this timeline is cooked", "the algorithm provides",
-            "move fast, bet things",
-        ],
-        "science": [
-            "peer-reviewed chaos", "nature doesn't care about your plans",
-            "science is just spicy guessing", "the data is concerning",
-            "statistically improbable, emotionally certain",
-        ],
-        "climate": [
-            "emotionally correct", "the planet is running a fever",
-            "nature doesn't negotiate", "the data is concerning",
-        ],
-        "world": [
-            "stranger than fiction", "the timeline is undefeated",
-            "you can't make this up", "history doesn't repeat but it rhymes",
-        ],
-    }
-
-    default_pool = [
-        "emotionally correct", "just for lols", "comedy listing",
-        "it's happened before and it'll happen again",
-        "the vibes are off but the math works",
-        "this is not financial advice, it's a dare",
-        "chaos theory in action", "the universe has a sense of humor",
-        "stranger things have happened", "you heard it here first",
-        "respectable nonsense", "annoyingly plausible",
-        "the market has spoken", "bet with your heart, lose with your wallet",
-    ]
-
-    # Keyword overrides
-    if "elon" in title_lower or "musk" in title_lower:
-        pool = ["the main character of the internet", "posting through it",
-                "this man does not sleep", "elon being elon"]
-    elif "trump" in title_lower:
-        pool = ["certified popcorn moment", "the timeline is undefeated",
-                "stranger than fiction, again", "democracy in 4K"]
-    elif "taylor" in title_lower or "swift" in title_lower:
-        pool = ["the swifties already know", "manifesting on main",
-                "emotionally devastating if true", "she planned this"]
-    elif "bitcoin" in title_lower or "btc" in title_lower:
-        pool = ["number go up technology", "your uber driver called it",
-                "the chart has a plan"]
-    elif "mars" in title_lower:
-        pool = ["the red planet awaits", "elon's working on it",
-                "one small bet for man", "space is the place"]
-    elif "pope" in title_lower:
-        pool = ["holy speculation", "the conclave vibes are immaculate",
-                "white smoke or cope"]
-    elif "snow" in title_lower or "rain" in title_lower:
-        pool = ["emotionally correct", "the weather app is lying again",
-                "dress accordingly", "nature doesn't negotiate"]
-    elif "california" in title_lower:
-        pool = ["the golden state of denial", "only in california",
-                "the vibes are seismic"]
-    else:
-        # Match by category
-        pool = default_pool
-        for key in quip_pools:
-            if key in category_lower or key in title_lower:
-                pool = quip_pools[key]
-                break
-
-    # Deterministic pick based on title hash
-    h = int(hashlib.md5(title.encode()).hexdigest(), 16)
-    return pool[h % len(pool)]
-
+# ── Quip library ────────────────────────────────────────────
 
 ALL_QUIPS = [
+    # === UNIVERSAL ===
+    "the audacity of this market", "technically possible, spiritually unlikely",
+    "the math is mathing", "somebody's thesis just died",
+    "the simulation is glitching", "the internet remains undefeated",
+    "this one sparks joy", "screenshotted for the archives",
+    "a niche concern, nationally", "the prophecy demands it",
+    "someone will be unbearable about this", "the discourse is already exhausting",
+    "filed under controlled chaos", "a beautiful waste of a dollar",
+    "the wrong people are excited about this", "this has thanksgiving dinner energy",
+    "suspiciously specific", "everyone has an opinion, nobody has data",
+    "there will be a podcast about this", "the group chat will not recover",
+    "not even close to the weirdest bet here", "the spreadsheet guys are thriving",
+    "this is someone's entire personality", "unironically compelling",
+    "the timeline will have opinions", "tell your uber driver",
+    "chaotic neutral energy", "peak late capitalism entertainment",
+    "deeply funny or deeply concerning", "a victimless wager",
+    "the algorithm brought you here", "buckle up or log off",
+    "file this under entertainment expenses", "the cowards won't bet this",
+    "a prayer and a dollar", "the news cycle is unwell",
+    "your coworker has opinions about this one", "somebody made a spreadsheet",
+    "the linkedin posts write themselves", "this will be on a quiz",
+    "the reply guys are mobilizing", "an argument waiting to happen",
+    "the interns are watching", "your dad will text you about this",
+    "someone's already writing the substack", "the betting gods demand entertainment",
+    "objectively nobody's business, subjectively everyone's",
+    "already a reddit thread", "the kind of thing you google at 2am",
+    "brought to you by idle curiosity", "overheard at every airport bar",
+    "the pub quiz question of the future", "a solvable problem no one will solve",
+    "everyone's an expert suddenly", "the op-eds are loading",
+    "technically not gambling, technically", "the wikipedia page will be contentious",
+    "someone's career depends on this", "mentioned in passing, obsessed about privately",
+    "your fantasy league is shaking", "a question nobody asked but everyone answered",
+    "the takes are already bad", "surprisingly divisive at dinner parties",
+    "this is how you lose an afternoon", "a perfectly reasonable thing to bet on",
+    "the podcasters are circling", "someone's PowerPoint just got more interesting",
+    "this has wedding speech potential", "the hot take industrial complex is ready",
+    "a slow news day's best friend", "your notifications will be about this",
+    "the kind of news that interrupts lunch", "politely apocalyptic",
+    "the betting equivalent of comfort food", "an entire personality in one wager",
+    "your barber has a take on this", "the office slack channel is about to erupt",
+    "a thing you'll pretend you predicted",
+    "your uber driver has a position on this",
+    "somebody's newsletter just found its hook",
+    "the wrong meeting is about to run long",
+    "a conversation starter nobody asked for",
+    "your cousin's boyfriend is confident about this",
+    "this will be misquoted by thursday",
+    "a strong opinion held loosely",
+    "the comment section will be educational",
+    "someone just opened a new browser tab",
+    "this is why people have trust issues",
+    "your financial advisor doesn't want to know",
+    "the bookmarks folder is growing",
+    "not the hill, but definitely a hill",
+    "a reasonable dollar, an unreasonable outcome",
+    "the people who care really care",
+    "the quiet part said loudly, for a dollar",
+    "somebody's bluffing and it might be you",
+    "the gym bros are divided", "forwarded without context",
+    "this is the plot of a movie nobody made",
+    "the groupthink is forming", "your most unserious investment",
+    "someone is making this their whole week",
+    "the kind of bet you explain poorly at parties",
+    "historians will not care but twitter will",
+    "a footnote in someone's memoir",
+    "the morning news but make it fun",
+    "confidently wagered, nervously refreshed",
+    "an opinion you didn't know you had",
+    "the market for chaos is bullish",
+    "your ex has thoughts about this", "a dollar well wasted",
+    "someone's screenshot folder just got heavier",
+    "this is between you and your search history",
+    "your therapist doesn't need to know about this",
+    "casually existential", "your most informed guess",
+    "the stakes are low but the drama is high",
+    "someone's conspiracy theory just got funding",
+    "a matter of public fascination",
+    "the wrong crowd is paying attention",
+    "a gentle wager against common sense",
+    "the betting slip of a curious mind",
+    "this is going on the fridge at work",
+    "a matter of intense casual interest",
+    "your cab driver was right about this one",
+    "someone's retirement toast just got material",
+    "the most interesting dollar you'll spend today",
+    "a thing that sounds fake but has a market",
+    "the quiet scandal of a well-placed dollar",
+    "someone's going to claim they knew all along",
+    "a footnote that refuses to stay small",
+    "the watercooler is going to be insufferable",
+    "the sort of thing that ends up in a documentary",
+    "the internet is about to have feelings",
+    "a thing that will age either well or terribly",
+    "the most fun you can have for a dollar, legally",
+    "this has after-hours trading energy",
+    "your mother-in-law has a theory",
+    "a wager that punches above its weight class",
+    "someone is going to get this tattooed if it hits",
+    "your most defensible bad decision",
+    "a controlled demolition of your spare change",
+    "the barbershop debate of the week",
+    "this is the plot twist nobody budgeted for",
+    "a thing you'll explain badly to your partner",
+    "the betting equivalent of a side quest",
+    "someone's about to be very right or very quiet",
+    "a perfectly timed distraction from real life",
+    "a one-dollar referendum on the state of things",
+    "the sort of bet that makes you check your phone",
+    "someone's going to bring this up at thanksgiving",
+    "a thing that shouldn't be this interesting but is",
+    "the most democratic use of a dollar",
+    "this is getting brought up at the reunion",
+    "a slow-burning argument with a price tag",
+    "somebody just set a calendar reminder for this",
+    "your lyft driver's analysis was surprisingly sound",
+    "the only market where vibes are a valid indicator",
+    "someone's going to frame the receipt",
+    "a wager for the perpetually curious",
+    "this has emergency press conference energy",
+    "the sort of thing that splits a friend group",
+    "the kind of bet that ages like a screenshot",
+    "a one-dollar ticket to the discourse",
+    "someone's mood board just got weirder",
+    "the rare bet where losing is also entertaining",
+    # === ORIGINALS ===
     "emotionally correct", "just for lols", "comedy listing",
     "it's happened before and it'll happen again",
     "the vibes are off but the math works",
@@ -310,19 +331,139 @@ ALL_QUIPS = [
     "stranger than fiction, again", "the stans already know",
     "number go up technology", "democracy is a spectator sport",
     "statistically improbable, emotionally certain",
+    "imagine the group chat", "included for comedy only",
+    "a rumour old enough to rent a car", "grim little climate scratcher",
+    "total unknown, national delusion, total perfection",
+    "your mortgage broker just lit a candle", "america presses continue",
+    "may the bracket gods be merciful", "dangerous aura",
+    "intrusive thoughts won today",
+    "the main character of the internet", "posting through it",
+    "this man does not sleep", "elon being elon",
+    "democracy in 4K", "the swifties already know",
+    "emotionally devastating if true", "she planned this",
+    "your uber driver called it", "the chart has a plan",
+    "the red planet awaits", "elon's working on it",
+    "one small bet for man", "space is the place",
+    "holy speculation", "the conclave vibes are immaculate",
+    "white smoke or cope", "the weather app is lying again",
+    "dress accordingly", "nature doesn't negotiate",
+    "the golden state of denial", "only in california",
+    "the vibes are seismic", "cable news will be unwatchable",
+    "this is the timeline we chose", "sports are scripted anyway",
+    "the math checks out, barely", "your bracket is already busted",
+    "just for the group chat", "silicon valley is at it again",
+    "the planet is running a fever", "you can't make this up",
+    "history doesn't repeat but it rhymes",
+    "mother nature's got range", "pack an umbrella and a prayer",
+    "laser eyes optional", "the chart looks like a heartbeat",
+    "hodl or fold",
+    # === SPORTS ===
+    "load management for your wallet", "the poster dunk of prediction markets",
+    "someone's parlay just got interesting",
+    "the analytics guys versus the eye test guys",
+    "your fantasy lineup is sweating", "garbage time entertainment",
+    "the hot take furnace is operational",
+    "someone's shoe deal depends on this", "the stat nerds are typing",
+    "a deep bench bet", "this has game 7 energy",
+    "your league's group chat is in shambles",
+    "the couch scouts have assembled",
+    "someone's survivor pool just got complicated",
+    "your bookie's bookie is watching",
+    "the tailgate discourse is heating up",
+    "a fourth quarter kind of bet",
+    "someone just adjusted their mock draft",
+    "a pick six of a wager", "someone's prop bet just got personal",
+    "a seventh inning stretch of the imagination",
+    "the sabermetrics crowd is mobilizing",
+    "a small ball bet with big ball dreams",
+    "a perfectly placed bunt of a wager", "this has rain delay energy",
+    "a walk-off bet if it lands", "VAR would like a word",
+    "your local has picked sides", "the post-match interview writes itself",
+    "this has champions league anthem energy",
+    "a power play for your dollar", "this has overtime energy",
+    "a slapshot of a wager", "the press box is buzzing",
+    "the message board is going to be unreadable",
+    "a quality loss of a dollar", "the boosters are placing calls",
+    "this has rivalry week energy", "your diploma just felt this",
+    "a fourth-and-goal kind of bet", "the NIL implications are unclear",
+    "your bracket is already in hospice", "the Cinderella story is loading",
+    "someone's office pool just got interesting",
+    "a buzzer beater of a dollar bet",
+    "one shining moment of financial irresponsibility",
+    "somebody filled out eight brackets for this",
+    "the stat sheet tells a different story",
+    "someone's dynasty league is panicking",
+    "a garbage time bet with real stakes",
+    "the ref is not going to help you here",
+    "your sports bar just got louder", "a bench player of a bet",
+    "the press conference is going to be good",
+    "someone's career high depends on this",
+    "the highlight reel is pending",
+    "your pick 'em league will remember this",
+    "a timeout called on common sense",
+    "the postgame handshake line of wagers",
 ]
+
+SPORTS_QUIPS = [q for q in ALL_QUIPS[ALL_QUIPS.index("load management for your wallet"):]]
+
+KEYWORD_POOLS = {
+    "elon|musk": ["the main character of the internet", "posting through it",
+                   "this man does not sleep", "elon being elon"],
+    "trump": ["certified popcorn moment", "the timeline is undefeated",
+              "stranger than fiction, again", "democracy in 4K"],
+    "taylor|swift": ["the swifties already know", "manifesting on main",
+                     "emotionally devastating if true", "she planned this"],
+    "bitcoin|btc|crypto": ["number go up technology", "your uber driver called it",
+                           "the chart has a plan", "hodl or fold", "laser eyes optional"],
+    "mars": ["the red planet awaits", "elon's working on it",
+             "one small bet for man", "space is the place"],
+    "pope": ["holy speculation", "the conclave vibes are immaculate",
+             "white smoke or cope"],
+    "snow|rain|weather|hurricane|tornado": ["emotionally correct", "the weather app is lying again",
+                                            "dress accordingly", "nature doesn't negotiate",
+                                            "mother nature's got range", "pack an umbrella and a prayer"],
+    "california|earthquake": ["the golden state of denial", "only in california",
+                              "the vibes are seismic"],
+    "volcano|eruption|climate": ["grim little climate scratcher", "the planet is running a fever",
+                                 "nature doesn't care about your plans"],
+}
+
+
+def generate_quip(title, category):
+    """Pick a quip from the 350+ library, with keyword and category matching."""
+    title_lower = title.lower()
+    category_lower = category.lower()
+
+    # Step 1: Check keyword overrides
+    for keywords, pool in KEYWORD_POOLS.items():
+        if any(kw in title_lower for kw in keywords.split("|")):
+            h = int(hashlib.md5(title.encode()).hexdigest(), 16)
+            return pool[h % len(pool)]
+
+    # Step 2: Sports category gets sports pool + universal
+    if "sport" in category_lower or any(kw in title_lower for kw in [
+        "nba", "nfl", "mlb", "nhl", "soccer", "football", "basketball",
+        "baseball", "hockey", "premier league", "champions league",
+        "playoff", "championship", "tournament", "bracket", "draft",
+        "world cup", "super bowl", "world series", "stanley cup",
+    ]):
+        pool = SPORTS_QUIPS + ALL_QUIPS[:150]  # sports + universal
+    else:
+        pool = ALL_QUIPS
+
+    # Step 3: Deterministic pick based on title hash
+    h = int(hashlib.md5(title.encode()).hexdigest(), 16)
+    return pool[h % len(pool)]
 
 
 def _reroll_quip(title, category, used_quips):
     """Pick a quip that hasn't been used yet."""
-    # Try generating one normally first with a salt
-    for salt in range(1, 20):
+    for salt in range(1, 50):
         salted = f"{title}_{salt}"
         h = int(hashlib.md5(salted.encode()).hexdigest(), 16)
         candidate = ALL_QUIPS[h % len(ALL_QUIPS)]
         if candidate not in used_quips:
             return candidate
-    # Fallback: find any unused quip
     for q in ALL_QUIPS:
         if q not in used_quips:
             return q
