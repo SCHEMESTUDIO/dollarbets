@@ -374,11 +374,17 @@ Respond with ONLY a JSON array of strings, one quip per bet, in the same order. 
     )
 
     try:
-        print(f"[scanner] Calling Claude API for quips (key starts with {ANTHROPIC_API_KEY[:12]}...)", file=sys.stderr)
+        print(f"[scanner] Calling Claude API for quips...", file=sys.stderr)
         with urllib.request.urlopen(req, timeout=30) as resp:
             raw = resp.read().decode()
             result = json.loads(raw)
             text = result["content"][0]["text"].strip()
+            # Strip markdown code fences if present
+            if text.startswith("```"):
+                text = re.sub(r'^```\w*\n?', '', text)
+                text = re.sub(r'\n?```$', '', text)
+                text = text.strip()
+            print(f"[scanner] Claude response: {text[:100]}...", file=sys.stderr)
             quips = json.loads(text)
             if isinstance(quips, list) and len(quips) == len(board):
                 for i, q in enumerate(quips):
