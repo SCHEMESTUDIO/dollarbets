@@ -145,7 +145,7 @@ SHARED_CSS = """
     /* === WAGER LIST === */
     .board { list-style: none; padding: 0; margin: 0; }
 
-    .wager { margin-bottom: 6px; }
+    .wager { margin-bottom: 6px; position: relative; }
 
     .wager a {
       display: flex;
@@ -190,17 +190,18 @@ SHARED_CSS = """
     }
 
     .wager-payout {
-      font-size: 15px;
+      font-size: 12px;
       font-weight: 700;
-      color: #111;
-      letter-spacing: -0.3px;
+      color: #555;
+      letter-spacing: -0.2px;
     }
 
     .wager-title {
-      font-size: 13px;
-      color: #333;
+      font-size: 15px;
+      color: #111;
       font-weight: 700;
       line-height: 1.4;
+      letter-spacing: -0.3px;
     }
 
     .wager-quip {
@@ -209,6 +210,26 @@ SHARED_CSS = """
       font-style: italic;
       letter-spacing: 0.2px;
     }
+
+    /* === SHARE === */
+    .wager-share {
+      position: absolute;
+      bottom: 6px;
+      right: 8px;
+      font-size: 10px;
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      background: none;
+      font-family: 'Courier New', monospace;
+      padding: 2px 4px;
+      letter-spacing: 0.2px;
+      z-index: 2;
+    }
+
+    .wager-share:hover { color: #555; }
+    .wager-share.copied { color: #4a4; }
 
     /* === PAGE CONTENT === */
     .page-title {
@@ -415,6 +436,7 @@ def nav_html(current=""):
         ("/weird-markets/", "black swans"),
         ("/sports-markets/", "underdogs"),
         ("/politics-markets/", "gridlock"),
+        ("/financial-markets/", "ball street"),
         ("/crypto-markets/", "moonshots"),
         ("/about/", "about"),
     ]
@@ -478,6 +500,39 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
 
   </div>
 {SIGNUP_JS}
+<script>
+function shareBet(e, btn) {{
+  e.preventDefault();
+  e.stopPropagation();
+  var t = btn.dataset.title;
+  var q = btn.dataset.quip;
+  var p = btn.dataset.payout;
+  var u = btn.dataset.url;
+  var text = t + '\\n"' + q + '"\\n$1 → ' + p + '\\n' + u;
+  if (navigator.share) {{
+    navigator.share({{ title: 'Dollar Bets', text: text, url: u }}).catch(function(){{}});
+  }} else {{
+    navigator.clipboard.writeText(text).then(function() {{
+      btn.textContent = '[copied]';
+      btn.classList.add('copied');
+      setTimeout(function() {{ btn.textContent = '[share]'; btn.classList.remove('copied'); }}, 1500);
+    }}).catch(function() {{
+      // fallback: select-copy via textarea
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      btn.textContent = '[copied]';
+      btn.classList.add('copied');
+      setTimeout(function() {{ btn.textContent = '[share]'; btn.classList.remove('copied'); }}, 1500);
+    }});
+  }}
+}}
+</script>
 </body>
 </html>"""
 
@@ -506,6 +561,10 @@ def render_bet_card(m):
     quip = m.get("quip", "")
     url = m.get("url", "#")
 
+    # Escape for JS data attributes
+    share_title = title.replace('"', '&quot;').replace("'", "&#39;")
+    share_quip = quip.replace('"', '&quot;').replace("'", "&#39;")
+
     return f"""      <li class="wager">
         <a href="{url}" target="_blank" rel="noopener">
           <span class="wager-emoji">{emoji}</span>
@@ -515,6 +574,7 @@ def render_bet_card(m):
             <span class="wager-quip">{quip}</span>
           </span>
         </a>
+        <button class="wager-share" onclick="shareBet(event, this)" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}">[share]</button>
       </li>"""
 
 
@@ -574,9 +634,11 @@ CATEGORY_MAP = {
     "world": "politics-markets",
     "crypto": "crypto-markets",
     "cryptocurrency": "crypto-markets",
-    "financial": "weird-markets",
-    "economics": "weird-markets",
-    "finance": "weird-markets",
+    "financial": "financial-markets",
+    "economics": "financial-markets",
+    "finance": "financial-markets",
+    "fed": "financial-markets",
+    "treasury": "financial-markets",
 }
 
 # Secondary category detection via keywords in title
@@ -596,6 +658,15 @@ KEYWORD_CATEGORIES = {
     "crypto-markets": [
         "bitcoin", "btc", "ethereum", "eth", "crypto", "blockchain",
         "dogecoin", "solana", "defi",
+    ],
+    "financial-markets": [
+        "s&p", "s&p 500", "sp500", "nasdaq", "dow jones", "dow ",
+        "fed ", "federal reserve", "interest rate", "rate cut", "rate hike",
+        "inflation", "cpi", "gdp", "recession", "treasury", "yield",
+        "stock market", "wall street", "ipo", "earnings",
+        "oil price", "gold price", "commodities",
+        "unemployment", "jobs report", "nonfarm", "housing",
+        "debt ceiling", "tariff",
     ],
 }
 
@@ -685,6 +756,13 @@ CATEGORIES = {
         "description": "Political prediction markets — elections, policy, and gridlock. Real money odds on what happens next in Washington and beyond, framed as $1 payouts.",
         "intro": """<p>Political prediction markets are where public opinion gets a price tag. Elections, legislation, Supreme Court decisions, international crises — if it can be resolved with a yes or no, someone's trading on it.</p>
 <p>These markets often move faster than polls and pundits. When news breaks, the price moves in minutes. Dollar Bets tracks the political markets that are actually interesting to normal people — not the wonky stuff, but the gridlock and chaos that shows up in your group chat.</p>""",
+    },
+    "financial-markets": {
+        "title": "financial prediction markets — dollar bets",
+        "h1": "financial prediction markets",
+        "description": "Financial prediction markets — the Fed, interest rates, recessions, stock market milestones, and economic indicators. What does $1 pay when Wall Street gets weird?",
+        "intro": """<p>These are the markets where the suits meet the spreadsheet degenerates. Will the Fed cut rates? Will the S&P hit a round number? Will a recession technically happen before anyone admits it?</p>
+<p>Financial prediction markets on Kalshi turn the stuff your econ professor made boring into actual wagers with deadlines. Dollar Bets tracks the ones that matter to people who check their portfolio more than their email — framed by what a single dollar could pay out.</p>""",
     },
     "crypto-markets": {
         "title": "crypto prediction markets — dollar bets",
