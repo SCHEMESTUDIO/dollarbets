@@ -480,11 +480,11 @@ function renderBoard() {
 
         <label>tier</label>
         <select data-idx="${i}" data-field="tier" onchange="markDirty(${i})">
-          <option value="green" ${bet.tier==='green'?'selected':''}>🟩 green (&lt;5x)</option>
-          <option value="yellow" ${bet.tier==='yellow'?'selected':''}>🟨 yellow (&lt;10x)</option>
-          <option value="orange" ${bet.tier==='orange'?'selected':''}>🟧 orange (&lt;100x)</option>
-          <option value="red" ${bet.tier==='red'?'selected':''}>🟥 red (&lt;1000x)</option>
-          <option value="purple" ${bet.tier==='purple'?'selected':''}>🟪 purple (∞)</option>
+          <option value="green" ${bet.tier==='green'?'selected':''}>🟩 respectable</option>
+          <option value="yellow" ${bet.tier==='yellow'?'selected':''}>🟨 alive</option>
+          <option value="orange" ${bet.tier==='orange'?'selected':''}>🟧 heater</option>
+          <option value="red" ${bet.tier==='red'?'selected':''}>🟥 filthy</option>
+          <option value="purple" ${bet.tier==='purple'?'selected':''}>🟪 generational</option>
         </select>
 
         <label>category</label>

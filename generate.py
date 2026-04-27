@@ -412,11 +412,10 @@ def nav_html(current=""):
     """Lightweight site nav."""
     links = [
         ("/", "today's board"),
-        ("/weird-prediction-markets/", "weird markets"),
-        ("/sports-longshot-bets/", "sports"),
-        ("/political-prediction-markets/", "politics"),
-        ("/crypto-prediction-markets/", "crypto"),
-        ("/what-is-a-prediction-market/", "what is this?"),
+        ("/weird-markets/", "black swans"),
+        ("/sports-markets/", "underdogs"),
+        ("/politics-markets/", "gridlock"),
+        ("/crypto-markets/", "moonshots"),
         ("/about/", "about"),
     ]
     parts = []
@@ -562,39 +561,39 @@ def flatten_all_bets(boards):
 # Maps Kalshi categories to our SEO categories
 CATEGORY_MAP = {
     # Kalshi category (lowercased) → our slug
-    "climate and weather": "weird-prediction-markets",
-    "weather": "weird-prediction-markets",
-    "entertainment": "weird-prediction-markets",
-    "culture": "weird-prediction-markets",
-    "science and technology": "weird-prediction-markets",
-    "science": "weird-prediction-markets",
-    "tech": "weird-prediction-markets",
-    "sports": "sports-longshot-bets",
-    "politics": "political-prediction-markets",
-    "political": "political-prediction-markets",
-    "world": "political-prediction-markets",
-    "crypto": "crypto-prediction-markets",
-    "cryptocurrency": "crypto-prediction-markets",
-    "financial": "weird-prediction-markets",
-    "economics": "weird-prediction-markets",
-    "finance": "weird-prediction-markets",
+    "climate and weather": "weird-markets",
+    "weather": "weird-markets",
+    "entertainment": "weird-markets",
+    "culture": "weird-markets",
+    "science and technology": "weird-markets",
+    "science": "weird-markets",
+    "tech": "weird-markets",
+    "sports": "sports-markets",
+    "politics": "politics-markets",
+    "political": "politics-markets",
+    "world": "politics-markets",
+    "crypto": "crypto-markets",
+    "cryptocurrency": "crypto-markets",
+    "financial": "weird-markets",
+    "economics": "weird-markets",
+    "finance": "weird-markets",
 }
 
 # Secondary category detection via keywords in title
 KEYWORD_CATEGORIES = {
-    "sports-longshot-bets": [
+    "sports-markets": [
         "nba", "nfl", "mlb", "nhl", "soccer", "football", "basketball",
         "baseball", "hockey", "premier league", "champions league",
         "playoff", "championship", "tournament", "world cup",
         "super bowl", "world series", "stanley cup", "draft", "sweep",
         "olympics", "tennis", "golf", "f1", "formula",
     ],
-    "political-prediction-markets": [
+    "politics-markets": [
         "trump", "biden", "election", "congress", "senate", "governor",
         "president", "vote", "democrat", "republican", "political",
         "legislation", "supreme court", "impeach", "cabinet",
     ],
-    "crypto-prediction-markets": [
+    "crypto-markets": [
         "bitcoin", "btc", "ethereum", "eth", "crypto", "blockchain",
         "dogecoin", "solana", "defi",
     ],
@@ -612,7 +611,7 @@ def categorize_bet(bet):
             return slug
 
     # Fall back to Kalshi category mapping
-    return CATEGORY_MAP.get(kalshi_cat, "weird-prediction-markets")
+    return CATEGORY_MAP.get(kalshi_cat, "weird-markets")
 
 
 # ── Archetype mapping ───────────────────────────────────────
@@ -666,55 +665,33 @@ def get_archetypes(bet):
 # ── Page content definitions ────────────────────────────────
 
 CATEGORIES = {
-    "weird-prediction-markets": {
+    "weird-markets": {
         "title": "weird prediction markets — dollar bets",
         "h1": "weird prediction markets",
-        "description": "The internet's strangest prediction markets. Weather, pop culture, science, tech — real money bets on things you didn't know had odds.",
-        "intro": """<p>Prediction markets let people bet real money on whether something will happen. Most of the time that means boring stuff like interest rates. But sometimes the markets get weird — and that's where it gets interesting.</p>
-<p>These are the markets that make you stop scrolling. Snow in April. Celebrity announcements. AI breakthroughs. Earthquake odds. The kind of stuff that sounds fake but has actual money behind it.</p>
-<p>Dollar Bets tracks the most entertaining prediction markets every day and frames each one by what a single dollar could pay out. Below are some of the strangest markets we've featured.</p>""",
+        "description": "The internet's strangest prediction markets, translated into what a $1 bet could pay. Weather, pop culture, science, tech — the black swans.",
+        "intro": """<p>These are the markets that make you stop scrolling. Snow in April. Celebrity announcements. AI breakthroughs. Earthquake odds. The kind of stuff that sounds fake but has actual money behind it.</p>
+<p>Dollar Bets tracks the most entertaining prediction markets every day and frames each one by what a single dollar could pay out. Below are the strangest markets we've featured — the black swans, the outliers, and the bets that shouldn't exist but do.</p>""",
     },
-    "sports-longshot-bets": {
-        "title": "sports longshot bets — dollar bets",
-        "h1": "sports longshot bets",
-        "description": "Longshot sports prediction markets — playoff sweeps, championship odds, and underdog bets where $1 could pay big.",
+    "sports-markets": {
+        "title": "sports prediction markets — dollar bets",
+        "h1": "sports prediction markets",
+        "description": "Sports prediction markets where $1 could pay big. Playoff sweeps, championship longshots, and underdog bets translated into dollar payouts.",
         "intro": """<p>Sports prediction markets are where drama meets math. A playoff sweep priced at 45 cents. A championship longshot at 3 cents. The kinds of bets your fantasy league group chat argues about.</p>
-<p>Unlike traditional sportsbooks, prediction markets let you trade in and out as odds shift — which means the stories are just as interesting as the outcomes. A bet doesn't have to win to be worth watching.</p>
-<p>Here are the sports markets Dollar Bets has featured — the longshots, the upsets-in-waiting, and the bets that made the group chat go quiet.</p>""",
+<p>Unlike traditional sportsbooks, prediction markets let you trade in and out as odds shift — which means the stories are just as interesting as the outcomes. Here are the underdog markets Dollar Bets has featured — the longshots, the upsets-in-waiting, and the bets that made the group chat go quiet.</p>""",
     },
-    "political-prediction-markets": {
+    "politics-markets": {
         "title": "political prediction markets — dollar bets",
         "h1": "political prediction markets",
-        "description": "Political prediction markets — elections, policy, and chaos. Real money odds on what happens next in Washington and beyond.",
+        "description": "Political prediction markets — elections, policy, and gridlock. Real money odds on what happens next in Washington and beyond, framed as $1 payouts.",
         "intro": """<p>Political prediction markets are where public opinion gets a price tag. Elections, legislation, Supreme Court decisions, international crises — if it can be resolved with a yes or no, someone's trading on it.</p>
-<p>These markets often move faster than polls and pundits. When news breaks, the price moves in minutes. That makes them fascinating to watch even if you never place a trade.</p>
-<p>Dollar Bets tracks the political markets that are actually interesting to normal people — not the wonky stuff, but the markets that show up in your group chat.</p>""",
+<p>These markets often move faster than polls and pundits. When news breaks, the price moves in minutes. Dollar Bets tracks the political markets that are actually interesting to normal people — not the wonky stuff, but the gridlock and chaos that shows up in your group chat.</p>""",
     },
-    "crypto-prediction-markets": {
+    "crypto-markets": {
         "title": "crypto prediction markets — dollar bets",
         "h1": "crypto prediction markets",
-        "description": "Crypto prediction markets — Bitcoin milestones, ETH price targets, and blockchain bets. What does $1 pay if the chart cooperates?",
+        "description": "Crypto prediction markets — Bitcoin milestones, ETH price targets, and blockchain moonshots. What does $1 pay if the chart cooperates?",
         "intro": """<p>Crypto prediction markets are the most volatile corner of an already volatile world. Bitcoin above $100k by Friday? Ethereum flipping something? A memecoin doing something inexplicable?</p>
-<p>The beauty of crypto markets on Kalshi is that they have real expiration dates. No vague "to the moon" — just a yes-or-no question with a deadline and a price. That makes the drama measurable.</p>
-<p>Here are the crypto prediction markets Dollar Bets has featured — the moonshots, the round-number milestones, and the charts that had a plan.</p>""",
-    },
-    "what-is-a-prediction-market": {
-        "title": "what is a prediction market? — dollar bets",
-        "h1": "what is a prediction market?",
-        "description": "Prediction markets explained simply. How they work, why they're interesting, and what it means when Dollar Bets says '$1 pays $20.'",
-        "intro": """<p>A prediction market is a place where people bet real money on whether something will happen. If you think Bitcoin will hit $100k by Friday, you can buy a contract for a few cents. If you're right, it pays out $1. If you're wrong, you lose what you paid.</p>
-<p>The price of a contract tells you what the crowd thinks. A contract trading at 20 cents means the market thinks there's roughly a 20% chance it happens. When news breaks, prices move — sometimes fast.</p>
-<p>Kalshi is a US-regulated prediction market where you can trade on thousands of events: weather, politics, sports, crypto, pop culture, economics, and more. Dollar Bets curates the most entertaining markets from Kalshi every day and frames each one by what a $1 stake could pay out.</p>
-<p>When we say "$1 pays $20," we mean: if you buy one contract at 5 cents and the event happens, you get back $1. That's a 20x return on a dollar. Most of these are longshots — that's what makes them fun.</p>""",
-    },
-    "how-kalshi-odds-work": {
-        "title": "how kalshi odds work — dollar bets",
-        "h1": "how kalshi odds work",
-        "description": "How to read Kalshi odds and prediction market prices. What cents, contracts, and payouts actually mean — explained without jargon.",
-        "intro": """<p>Kalshi prices contracts between $0.01 and $0.99. The price represents what the market thinks the probability is. A contract at $0.05 means the crowd thinks there's about a 5% chance the event happens.</p>
-<p>If the event happens, the contract pays $1.00. If it doesn't, it pays $0. So if you buy at $0.05 and win, you make $0.95 profit on a 5-cent bet — that's a 20x return.</p>
-<p>Dollar Bets simplifies this: we show what $1 would pay if the event happens. "$1 pays $20" means the contract is priced around 5 cents. The higher the payout, the less likely the market thinks it is.</p>
-<p>Our color tiers: 🟩 means under 5x (likely), 🟨 means under 10x, 🟧 means under 100x (longshot), 🟥 means under 1000x (extreme longshot), and 🟪 means the payout is so high we just call it an "infinite money glitch."</p>""",
+<p>The beauty of crypto markets on Kalshi is that they have real expiration dates. No vague "to the moon" — just a yes-or-no question with a deadline and a price. Here are the moonshots Dollar Bets has featured — the round-number milestones, the leveraged bets, and the charts that had a plan.</p>""",
     },
 }
 
@@ -792,7 +769,7 @@ def generate_daily_board(boards):
     except ValueError:
         date_str = latest_date
 
-    legend = '    <div class="legend">🟩 &lt;5x &nbsp; 🟨 &lt;10x &nbsp; 🟧 &lt;100x &nbsp; 🟥 &lt;1000x &nbsp; 🟪 infinite money glitch</div>\n'
+    legend = '    <div class="legend">🟩 respectable &nbsp; 🟨 alive &nbsp; 🟧 heater &nbsp; 🟥 filthy &nbsp; 🟪 generational</div>\n'
     date_line = f'    <div class="date-line" style="margin-bottom:14px">{date_str}</div>\n'
 
     body = date_line + legend + render_bet_list(board)
@@ -829,15 +806,6 @@ def generate_category_pages(all_bets):
 
         # Show up to 15 examples
         display_bets = unique_bets[:15]
-
-        # For explainer pages, show a mix from all categories
-        if slug in ("what-is-a-prediction-market", "how-kalshi-odds-work"):
-            all_unique = {}
-            for b in all_bets:
-                t = b.get("title", "")
-                if t not in all_unique or b.get("date_featured", "") > all_unique[t].get("date_featured", ""):
-                    all_unique[t] = b
-            display_bets = sorted(all_unique.values(), key=lambda x: x.get("payout", 0))[:10]
 
         # Count for section header
         count_note = f"{len(unique_bets)} markets featured" if unique_bets else ""
@@ -1089,8 +1057,8 @@ def generate_market_autopsies(all_bets):
 
 
 def tier_label(tier):
-    return {"green": "under 5x", "yellow": "under 10x", "orange": "under 100x",
-            "red": "under 1000x", "purple": "infinite money glitch"}.get(tier, "unknown")
+    return {"green": "respectable", "yellow": "alive", "orange": "heater",
+            "red": "filthy", "purple": "generational"}.get(tier, "unknown")
 
 
 def _archetype_name(bet):
@@ -1112,13 +1080,25 @@ def _archetype_name(bet):
 
 def generate_about_page():
     """Generate the /about/ page."""
-    body = """    <div class="page-title">about dollar bets</div>
+    body = """    <div class="page-title">what is dollar bets?</div>
     <div class="page-intro">
-      <p>Dollar Bets is a daily discovery board for prediction markets. Every day we scan thousands of markets on Kalshi and pick roughly ten that are actually interesting to a normal human being.</p>
+      <p>A daily board of weird, funny, and culturally relevant prediction markets, translated into what a $1 bet could pay.</p>
 
-      <p>The idea is simple: frame every wager by what a single dollar could pay out. "$1 pays $20" is more fun than "priced at 5 cents with an implied probability of 5%." One of these sentences makes you lean in. The other makes you close the tab.</p>
+      <p>Every day we scan thousands of markets on Kalshi — a US-regulated prediction market exchange — and pick roughly ten that are actually interesting to a normal human being. Then we frame each one by what a single dollar could pay out. "$1 pays $20" is more fun than "priced at 5 cents with an implied probability of 5%." One of these sentences makes you lean in. The other makes you close the tab.</p>
 
-      <p>We are not a sportsbook. We are not a tout sheet. We are not here to tell you what to bet on. We are an editorial product that curates markets the way a good newspaper curates headlines — with taste, timing, and a mild disregard for conventional financial advice.</p>
+      <p style="font-weight:700; margin-top:16px">what's a prediction market?</p>
+
+      <p>A prediction market is a place where people bet real money on whether something will happen. Will Bitcoin hit $100k by Friday? Will it snow in Phoenix? Will a senator resign? You buy a contract for a few cents. If the event happens, it pays out $1. If it doesn't, you lose what you paid.</p>
+
+      <p>The price of a contract tells you what the crowd thinks. A contract at 5 cents means the market thinks there's roughly a 5% chance. When news breaks, prices move — sometimes in minutes. Prediction markets are often faster than polls, pundits, and cable news.</p>
+
+      <p style="font-weight:700; margin-top:16px">what does "$1 pays $20" mean?</p>
+
+      <p>It means the contract is priced around 5 cents. If you buy one contract at 5 cents and the event happens, you get back $1 — a 20x return. The higher the payout, the less likely the market thinks it is. We color-code these: 🟩 respectable, 🟨 alive, 🟧 heater, 🟥 filthy, 🟪 generational.</p>
+
+      <p style="font-weight:700; margin-top:16px">what dollar bets is not</p>
+
+      <p>We are not a sportsbook. We are not a bookmaker. We are not a tout sheet and we are not here to tell you what to bet on. Dollar Bets is a discovery and editorial layer — we curate markets the way a good newspaper curates headlines, with taste, timing, and a mild disregard for conventional financial advice. Every listing links directly to the market on Kalshi. You must be 18+ to trade.</p>
 
       <p>The markets we feature are real. They have real money behind them, real deadlines, and real outcomes. Most of the longshots will not pay off. That's what makes them longshots. The point is not to win — the point is that these markets exist at all, and they're frequently absurd, occasionally profound, and almost always more entertaining than whatever else you were going to do with a dollar.</p>
 
@@ -1129,8 +1109,8 @@ def generate_about_page():
 """
 
     html = page_shell(
-        title="about — dollar bets",
-        description="Dollar Bets is a daily discovery board for prediction markets. We find the internet's most interesting $1 wagers so you don't have to.",
+        title="what is dollar bets? — about",
+        description="Dollar Bets is a daily board of weird, funny, and culturally relevant prediction markets, translated into what a $1 bet could pay. Not a sportsbook — a discovery layer.",
         body=body,
         canonical="/about/",
         current_nav="/about/",
