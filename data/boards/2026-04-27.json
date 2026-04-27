@@ -9,13 +9,13 @@
       "subtitle": "Before Jan 1, 2027",
       "payout": 2.44,
       "tier": "green",
-      "quip": "technically possible, spiritually unlikely",
+      "quip": "The Rise and Fall of a Midwest Princess",
       "yes_price": "0.4100",
       "volume": 1784.61,
       "category": "World",
       "close_time": "2027-01-01T15:00:00Z",
       "url": "https://kalshi.com/markets/KXTRUMPSTATES",
-      "score": 43.0
+      "score": 43
     },
     {
       "ticker": "KXGTEMP-27-P0",
@@ -23,13 +23,13 @@
       "subtitle": "In 2026",
       "payout": 2.5,
       "tier": "green",
-      "quip": "the planet is running a fever",
+      "quip": "probably gravy",
       "yes_price": "0.4000",
       "volume": 7056.74,
       "category": "Climate and Weather",
       "close_time": "2027-01-01T04:59:00Z",
       "url": "https://kalshi.com/markets/KXGTEMP",
-      "score": 53.0
+      "score": 53
     },
     {
       "ticker": "KXGROK-GROK5-26JUL01",
@@ -37,13 +37,13 @@
       "subtitle": "Grok 5",
       "payout": 4.76,
       "tier": "green",
-      "quip": "elon being elon",
+      "quip": "the diet Dr. Pepper of LLMs",
       "yes_price": "0.2100",
       "volume": 17253.75,
       "category": "Science and Technology",
       "close_time": "2026-07-01T03:59:00Z",
       "url": "https://kalshi.com/markets/KXGROK",
-      "score": 73.0
+      "score": 73
     },
     {
       "ticker": "KXOSCARNOMASPLAY-27-SAT",
@@ -51,45 +51,45 @@
       "subtitle": "In 2027",
       "payout": 5.26,
       "tier": "yellow",
-      "quip": "this has wedding speech potential",
+      "quip": "Toy Story 5 > The Odyssey ",
       "yes_price": "0.1900",
       "volume": 666.48,
       "category": "Entertainment",
       "close_time": "2027-12-31T15:00:00Z",
       "url": "https://kalshi.com/markets/KXOSCARNOMASPLAY",
-      "score": 58.0
+      "score": 58
     },
     {
       "ticker": "KXLAMINEYAMAL-27-LYAM",
       "title": "Will Lamine Yamal leave Barcelona before 2027?",
       "subtitle": "Before Jan 1, 2027",
-      "payout": 10.0,
+      "payout": 10,
       "tier": "yellow",
-      "quip": "someone's career depends on this",
+      "quip": "short the club",
       "yes_price": "0.1000",
-      "volume": 2698.0,
+      "volume": 2698,
       "category": "Sports",
       "close_time": "2027-01-08T15:00:00Z",
       "url": "https://kalshi.com/markets/KXLAMINEYAMAL",
-      "score": 68.0
+      "score": 68
     },
     {
       "ticker": "KXHMONTH-26MAY",
       "title": "This May 2026 is the hottest May ever?",
       "subtitle": "In May 2026",
-      "payout": 10.0,
+      "payout": 10,
       "tier": "yellow",
       "quip": "nature doesn't negotiate",
       "yes_price": "0.1000",
-      "volume": 0.0,
+      "volume": 0,
       "category": "Climate and Weather",
       "close_time": "2026-06-16T03:59:00Z",
       "url": "https://kalshi.com/markets/KXHMONTH",
-      "score": 28.0
+      "score": 28
     },
     {
       "ticker": "KXVENUEPERFORMANCEYE-27JAN01-SIL",
-      "title": "Will Kanye West / Ye perform at Silesian Stadium between February 20, 2026 at 10:00 AM ET and December 31, 2026 at 11:59 PM ET?",
+      "title": "Will Ye perform at Silesian Stadium this year?",
       "subtitle": "between February 20, 2026 at 10:00 AM ET and December 31, 2026 at 11:59 PM ET",
       "payout": 11.11,
       "tier": "orange",
@@ -99,7 +99,7 @@
       "category": "Entertainment",
       "close_time": "2027-01-08T15:00:00Z",
       "url": "https://kalshi.com/markets/KXVENUEPERFORMANCEYE",
-      "score": 68.0
+      "score": 68
     },
     {
       "ticker": "KXNBA2KCOVER-27-LEB",
@@ -107,13 +107,13 @@
       "subtitle": "For NBA2K27",
       "payout": 11.11,
       "tier": "orange",
-      "quip": "the analytics guys versus the eye test guys",
+      "quip": "the eye test guys are assembling ",
       "yes_price": "0.0900",
-      "volume": 1615.0,
+      "volume": 1615,
       "category": "Sports",
       "close_time": "2027-01-01T15:00:00Z",
       "url": "https://kalshi.com/markets/KXNBA2KCOVER",
-      "score": 68.0
+      "score": 68
     },
     {
       "ticker": "KXMODELHIGH-27-1550-GROK",
@@ -121,13 +121,13 @@
       "subtitle": "Before 2027",
       "payout": 11.11,
       "tier": "orange",
-      "quip": "number go up technology",
+      "quip": "The Hunger Games but for robots",
       "yes_price": "0.0900",
-      "volume": 4978.0,
+      "volume": 4978,
       "category": "Science and Technology",
       "close_time": "2027-01-01T15:00:00Z",
       "url": "https://kalshi.com/markets/KXMODELHIGH",
-      "score": 81.0
+      "score": 81
     }
   ]
 }
