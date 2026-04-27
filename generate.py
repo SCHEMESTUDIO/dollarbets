@@ -142,10 +142,16 @@ SHARED_CSS = """
       letter-spacing: 0.3px;
     }
 
+    .legend-row2 { white-space: nowrap; }
+
+    @media (max-width: 480px) {
+      .legend-row2 { display: block; }
+    }
+
     /* === WAGER LIST === */
     .board { list-style: none; padding: 0; margin: 0; }
 
-    .wager { margin-bottom: 6px; position: relative; }
+    .wager { margin-bottom: 6px; }
 
     .wager a {
       display: flex;
@@ -212,21 +218,24 @@ SHARED_CSS = """
     }
 
     /* === SHARE === */
+    .wager-payout-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
     .wager-share {
-      position: absolute;
-      bottom: 7px;
-      right: 8px;
       font-size: 10.5px;
       color: #999;
       cursor: pointer;
       border: 1px solid #ddd;
       background: #f5f4f0;
       font-family: 'Courier New', monospace;
-      padding: 2px 7px;
+      padding: 1px 6px;
       letter-spacing: 0.3px;
       border-radius: 2px;
-      z-index: 2;
       transition: all 0.12s ease;
+      flex-shrink: 0;
     }
 
     .wager-share:hover {
@@ -584,11 +593,13 @@ def render_bet_card(m):
           <span class="wager-emoji">{emoji}</span>
           <span class="wager-body">
             <span class="wager-title">{title}</span>
-            <span class="wager-payout">$1 &rarr; {payout_str}</span>
+            <span class="wager-payout-row">
+              <span class="wager-payout">$1 &rarr; {payout_str}</span>
+              <button class="wager-share" onclick="shareBet(event, this)" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}">[share]</button>
+            </span>
             <span class="wager-quip">{quip}</span>
           </span>
         </a>
-        <button class="wager-share" onclick="shareBet(event, this)" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}">[share]</button>
       </li>"""
 
 
@@ -861,7 +872,7 @@ def generate_daily_board(boards):
     except ValueError:
         date_str = latest_date
 
-    legend = '    <div class="legend">🟩 respectable &nbsp; 🟨 alive &nbsp; 🟧 heater &nbsp; 🟥 filthy &nbsp; 🟪 generational</div>\n'
+    legend = '    <div class="legend">🟩 respectable &nbsp; 🟨 alive &nbsp; 🟧 heater &nbsp; <span class="legend-row2">🟥 filthy &nbsp; 🟪 generational</span></div>\n'
     date_line = f'    <div class="date-line" style="margin-bottom:14px">{date_str}</div>\n'
 
     body = date_line + legend + render_bet_list(board)
