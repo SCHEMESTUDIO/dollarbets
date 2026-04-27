@@ -2,11 +2,26 @@
   "buildCommand": "bash build.sh",
   "outputDirectory": "public",
   "trailingSlash": true,
+  "functions": {
+    "api/*.py": {
+      "runtime": "@vercel/python"
+    }
+  },
+  "rewrites": [
+    { "source": "/api/login", "destination": "/api/login.py" },
+    { "source": "/api/board", "destination": "/api/board.py" }
+  ],
   "headers": [
     {
       "source": "/sitemap.xml",
       "headers": [
         { "key": "Content-Type", "value": "application/xml" }
+      ]
+    },
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store" }
       ]
     }
   ]

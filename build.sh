@@ -22,4 +22,10 @@ fi
 # Generate all pages
 python3 generate.py
 
+# Copy static source files (admin CMS, etc.)
+if [ -d "src" ]; then
+  echo "[build] Copying static source files..."
+  cp -r src/* public/
+fi
+
 echo "[build] Done."

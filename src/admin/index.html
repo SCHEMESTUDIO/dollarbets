@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>dollar bets — cms</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔧</text></svg>">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #f4f3ee;
+      color: #2a2a2a;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 13px;
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 24px 16px;
+    }
+
+    .header {
+      margin-bottom: 16px;
+    }
+
+    .site-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #111;
+      letter-spacing: -0.5px;
+    }
+
+    .tagline {
+      font-size: 12px;
+      color: #999;
+      margin-top: 2px;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #d5d4cd;
+      margin: 14px 0;
+    }
+
+    /* === LOGIN === */
+    #login-screen {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    #login-screen .login-label {
+      font-size: 14px;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 12px;
+    }
+
+    .login-row {
+      display: flex;
+      gap: 8px;
+      max-width: 340px;
+      margin: 0 auto;
+    }
+
+    input, select, textarea {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+      color: #222;
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+      padding: 8px 10px;
+    }
+
+    input:focus, select:focus, textarea:focus {
+      outline: none;
+      border-color: #888;
+    }
+
+    .login-row input {
+      flex: 1;
+    }
+
+    button, .btn {
+      background: #222;
+      color: #f4f3ee;
+      border: none;
+      border-radius: 2px;
+      font-family: 'Courier New', monospace;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 8px 16px;
+      cursor: pointer;
+      letter-spacing: 0.3px;
+      transition: background 0.1s;
+    }
+
+    button:hover { background: #444; }
+    button:active { background: #111; }
+    button:disabled { background: #aaa; cursor: not-allowed; }
+
+    .btn-danger { background: #8b0000; }
+    .btn-danger:hover { background: #a00; }
+
+    .btn-outline {
+      background: transparent;
+      color: #333;
+      border: 1px solid #999;
+    }
+    .btn-outline:hover { background: #eee; }
+
+    .error {
+      color: #8b0000;
+      font-size: 12px;
+      margin-top: 8px;
+    }
+
+    .success {
+      color: #2d6a2d;
+      font-size: 12px;
+      margin-top: 8px;
+    }
+
+    /* === EDITOR === */
+    #editor-screen { display: none; }
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+    }
+
+    .toolbar select {
+      min-width: 160px;
+    }
+
+    .toolbar .spacer { flex: 1; }
+
+    .status-bar {
+      font-size: 11px;
+      color: #999;
+      margin-bottom: 14px;
+      letter-spacing: 0.3px;
+    }
+
+    /* === BET CARDS === */
+    .bet-card {
+      background: #faf9f5;
+      border: 1px solid #e8e7e0;
+      border-bottom-width: 2px;
+      border-bottom-color: #d8d7d0;
+      border-radius: 3px;
+      padding: 12px;
+      margin-bottom: 8px;
+    }
+
+    .bet-card.dirty {
+      border-left: 3px solid #c5a030;
+    }
+
+    .bet-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .bet-tier {
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+
+    .bet-title-display {
+      font-size: 13px;
+      font-weight: 700;
+      color: #222;
+      flex: 1;
+    }
+
+    .bet-payout {
+      font-size: 13px;
+      font-weight: 700;
+      color: #555;
+      white-space: nowrap;
+    }
+
+    .bet-fields {
+      display: grid;
+      grid-template-columns: 70px 1fr;
+      gap: 4px 8px;
+      align-items: start;
+    }
+
+    .bet-fields label {
+      font-size: 11px;
+      color: #888;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      padding-top: 6px;
+    }
+
+    .bet-fields input,
+    .bet-fields textarea {
+      width: 100%;
+      font-size: 12px;
+      padding: 6px 8px;
+    }
+
+    .bet-fields textarea {
+      resize: vertical;
+      min-height: 28px;
+      height: 28px;
+    }
+
+    .bet-actions {
+      margin-top: 8px;
+      display: flex;
+      gap: 6px;
+      justify-content: flex-end;
+    }
+
+    .bet-actions button {
+      font-size: 11px;
+      padding: 4px 10px;
+    }
+
+    /* === ADD MARKET === */
+    .add-market-section {
+      background: #faf9f5;
+      border: 1px dashed #ccc;
+      border-radius: 3px;
+      padding: 12px;
+      margin-top: 12px;
+    }
+
+    .add-market-section .section-label {
+      font-size: 12px;
+      font-weight: 700;
+      color: #555;
+      margin-bottom: 8px;
+    }
+
+    .add-row {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .add-row input { flex: 1; }
+
+    /* === FOOTER === */
+    .cms-footer {
+      margin-top: 28px;
+      padding-top: 14px;
+      border-top: 1px solid #d5d4cd;
+      font-size: 10px;
+      color: #b0afa8;
+    }
+
+    /* === MOBILE === */
+    @media (max-width: 500px) {
+      .container { padding: 16px 12px; }
+      .bet-fields { grid-template-columns: 1fr; }
+      .bet-fields label { padding-top: 2px; }
+      .toolbar { flex-direction: column; align-items: stretch; }
+      .login-row { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <div class="site-title">dollar bets — cms</div>
+      <div class="tagline">editorial backend. edit quips, swap markets, publish.</div>
+    </div>
+
+    <hr>
+
+    <!-- LOGIN -->
+    <div id="login-screen">
+      <div class="login-label">editor login</div>
+      <div class="login-row">
+        <input type="password" id="password-input" placeholder="password" autofocus
+               onkeydown="if(event.key==='Enter') doLogin()">
+        <button onclick="doLogin()">enter</button>
+      </div>
+      <div id="login-error" class="error"></div>
+    </div>
+
+    <!-- EDITOR -->
+    <div id="editor-screen">
+      <div class="toolbar">
+        <select id="date-select" onchange="loadBoard(this.value)">
+          <option value="">loading dates...</option>
+        </select>
+        <button onclick="loadBoard(document.getElementById('date-select').value)" class="btn-outline">refresh</button>
+        <span class="spacer"></span>
+        <button id="save-btn" onclick="saveBoard()" disabled>save &amp; publish</button>
+        <button onclick="doLogout()" class="btn-outline">logout</button>
+      </div>
+
+      <div id="status-bar" class="status-bar"></div>
+
+      <div id="board-container"></div>
+
+      <div class="add-market-section">
+        <div class="section-label">+ add a new bet to today's board</div>
+        <div class="add-row">
+          <input type="text" id="new-title" placeholder="bet title">
+          <input type="text" id="new-url" placeholder="kalshi url" style="max-width:200px">
+          <button onclick="addBet()">add</button>
+        </div>
+        <div style="font-size:11px; color:#aaa; margin-top:4px">
+          adds a placeholder bet — fill in payout, quip, etc. after adding
+        </div>
+      </div>
+
+      <div id="save-status"></div>
+    </div>
+
+    <div class="cms-footer">
+      <p>dollar bets cms &middot; edits commit to git &middot; vercel rebuilds automatically</p>
+    </div>
+
+  </div>
+
+<script>
+// ── State ────────────────────────────────────────────────
+let TOKEN = sessionStorage.getItem('cms_token') || '';
+let CURRENT_DATE = '';
+let CURRENT_SHA = '';
+let BOARD_DATA = null;
+let DIRTY = new Set();  // indices of modified bets
+
+const API = '/api';
+const TIER_EMOJI = {green:'🟩', yellow:'🟨', orange:'🟧', red:'🟥', purple:'🟪'};
+
+// ── Auth ─────────────────────────────────────────────────
+async function doLogin() {
+  const pw = document.getElementById('password-input').value;
+  const errEl = document.getElementById('login-error');
+  errEl.textContent = '';
+
+  try {
+    const res = await fetch(`${API}/login`, {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({password: pw}),
+    });
+    const data = await res.json();
+
+    if (!res.ok) {
+      errEl.textContent = data.error || 'login failed';
+      return;
+    }
+
+    TOKEN = data.token;
+    sessionStorage.setItem('cms_token', TOKEN);
+    showEditor();
+  } catch (e) {
+    errEl.textContent = 'connection error';
+  }
+}
+
+function doLogout() {
+  TOKEN = '';
+  sessionStorage.removeItem('cms_token');
+  document.getElementById('editor-screen').style.display = 'none';
+  document.getElementById('login-screen').style.display = 'block';
+  document.getElementById('password-input').value = '';
+}
+
+function authHeaders() {
+  return {
+    'Content-Type': 'application/json',
+    'Authorization': `Bearer ${TOKEN}`,
+  };
+}
+
+// ── Editor init ──────────────────────────────────────────
+async function showEditor() {
+  document.getElementById('login-screen').style.display = 'none';
+  document.getElementById('editor-screen').style.display = 'block';
+  setStatus('loading dates...');
+
+  try {
+    const res = await fetch(`${API}/board`, {headers: authHeaders()});
+    if (res.status === 401) { doLogout(); return; }
+    const data = await res.json();
+
+    const sel = document.getElementById('date-select');
+    sel.innerHTML = '';
+    (data.dates || []).forEach(d => {
+      const opt = document.createElement('option');
+      opt.value = d;
+      opt.textContent = d;
+      sel.appendChild(opt);
+    });
+
+    if (data.dates && data.dates.length > 0) {
+      await loadBoard(data.dates[0]);
+    } else {
+      setStatus('no boards found');
+    }
+  } catch (e) {
+    setStatus('error loading dates: ' + e.message);
+  }
+}
+
+// ── Load board ───────────────────────────────────────────
+async function loadBoard(dateStr) {
+  if (!dateStr) return;
+
+  if (DIRTY.size > 0 && !confirm('You have unsaved changes. Discard them?')) {
+    document.getElementById('date-select').value = CURRENT_DATE;
+    return;
+  }
+
+  setStatus(`loading ${dateStr}...`);
+  DIRTY.clear();
+  updateSaveBtn();
+
+  try {
+    const res = await fetch(`${API}/board?date=${dateStr}`, {headers: authHeaders()});
+    if (res.status === 401) { doLogout(); return; }
+    const data = await res.json();
+
+    if (!res.ok) {
+      setStatus(`error: ${data.error}`);
+      return;
+    }
+
+    CURRENT_DATE = dateStr;
+    CURRENT_SHA = data.sha;
+    BOARD_DATA = data.board;
+    renderBoard();
+    setStatus(`${dateStr} — ${BOARD_DATA.board.length} bets — sha:${CURRENT_SHA.slice(0,7)}`);
+  } catch (e) {
+    setStatus('error: ' + e.message);
+  }
+}
+
+// ── Render board ─────────────────────────────────────────
+function renderBoard() {
+  const container = document.getElementById('board-container');
+  const bets = BOARD_DATA.board || [];
+  container.innerHTML = '';
+
+  bets.forEach((bet, i) => {
+    const card = document.createElement('div');
+    card.className = 'bet-card';
+    card.id = `bet-${i}`;
+    card.innerHTML = `
+      <div class="bet-header">
+        <span class="bet-tier">${TIER_EMOJI[bet.tier] || '⬜'}</span>
+        <span class="bet-title-display">${esc(bet.title)}</span>
+        <span class="bet-payout">$1 → $${formatPayout(bet.payout)}</span>
+      </div>
+      <div class="bet-fields">
+        <label>title</label>
+        <input type="text" value="${esc(bet.title)}" data-idx="${i}" data-field="title" oninput="markDirty(${i})">
+
+        <label>quip</label>
+        <textarea data-idx="${i}" data-field="quip" oninput="markDirty(${i})">${esc(bet.quip)}</textarea>
+
+        <label>url</label>
+        <input type="text" value="${esc(bet.url)}" data-idx="${i}" data-field="url" oninput="markDirty(${i})">
+
+        <label>payout</label>
+        <input type="number" step="0.01" value="${bet.payout}" data-idx="${i}" data-field="payout" oninput="markDirty(${i})" style="max-width:120px">
+
+        <label>tier</label>
+        <select data-idx="${i}" data-field="tier" onchange="markDirty(${i})">
+          <option value="green" ${bet.tier==='green'?'selected':''}>🟩 green (&lt;5x)</option>
+          <option value="yellow" ${bet.tier==='yellow'?'selected':''}>🟨 yellow (&lt;10x)</option>
+          <option value="orange" ${bet.tier==='orange'?'selected':''}>🟧 orange (&lt;100x)</option>
+          <option value="red" ${bet.tier==='red'?'selected':''}>🟥 red (&lt;1000x)</option>
+          <option value="purple" ${bet.tier==='purple'?'selected':''}>🟪 purple (∞)</option>
+        </select>
+
+        <label>category</label>
+        <input type="text" value="${esc(bet.category || '')}" data-idx="${i}" data-field="category" oninput="markDirty(${i})">
+      </div>
+      <div class="bet-actions">
+        <button class="btn-outline" onclick="moveBet(${i}, -1)" ${i===0?'disabled':''}>↑</button>
+        <button class="btn-outline" onclick="moveBet(${i}, 1)" ${i===bets.length-1?'disabled':''}>↓</button>
+        <button class="btn-danger" onclick="removeBet(${i})">remove</button>
+      </div>
+    `;
+    container.appendChild(card);
+  });
+}
+
+// ── Edit tracking ────────────────────────────────────────
+function markDirty(idx) {
+  DIRTY.add(idx);
+  const card = document.getElementById(`bet-${idx}`);
+  if (card) card.classList.add('dirty');
+  updateSaveBtn();
+}
+
+function updateSaveBtn() {
+  const btn = document.getElementById('save-btn');
+  btn.disabled = DIRTY.size === 0;
+  btn.textContent = DIRTY.size > 0
+    ? `save & publish (${DIRTY.size} changed)`
+    : 'save & publish';
+}
+
+// ── Collect edits from DOM ───────────────────────────────
+function collectBoardFromDOM() {
+  const bets = BOARD_DATA.board || [];
+  document.querySelectorAll('[data-idx][data-field]').forEach(el => {
+    const idx = parseInt(el.dataset.idx);
+    const field = el.dataset.field;
+    if (idx >= 0 && idx < bets.length) {
+      let val = el.value;
+      if (field === 'payout') val = parseFloat(val) || 0;
+      bets[idx][field] = val;
+    }
+  });
+  return BOARD_DATA;
+}
+
+// ── Save ─────────────────────────────────────────────────
+async function saveBoard() {
+  const btn = document.getElementById('save-btn');
+  const statusEl = document.getElementById('save-status');
+  btn.disabled = true;
+  btn.textContent = 'saving...';
+  statusEl.innerHTML = '';
+
+  const boardData = collectBoardFromDOM();
+
+  try {
+    const res = await fetch(`${API}/board`, {
+      method: 'POST',
+      headers: authHeaders(),
+      body: JSON.stringify({
+        date: CURRENT_DATE,
+        sha: CURRENT_SHA,
+        board: boardData,
+      }),
+    });
+
+    const data = await res.json();
+
+    if (!res.ok) {
+      statusEl.innerHTML = `<div class="error">${esc(data.error)}</div>`;
+      btn.disabled = false;
+      btn.textContent = 'save & publish';
+      return;
+    }
+
+    DIRTY.clear();
+    updateSaveBtn();
+
+    // Update SHA for next edit
+    statusEl.innerHTML = `<div class="success">published. commit: ${data.commit?.slice(0,7) || '?'}. vercel is rebuilding...</div>`;
+    setStatus(`${CURRENT_DATE} — saved — rebuilding...`);
+
+    // Reload to get fresh SHA
+    setTimeout(() => loadBoard(CURRENT_DATE), 2000);
+
+  } catch (e) {
+    statusEl.innerHTML = `<div class="error">save failed: ${e.message}</div>`;
+    btn.disabled = false;
+    btn.textContent = 'save & publish';
+  }
+}
+
+// ── Add / remove / reorder ───────────────────────────────
+function addBet() {
+  const title = document.getElementById('new-title').value.trim();
+  const url = document.getElementById('new-url').value.trim();
+
+  if (!title) { alert('enter a title'); return; }
+
+  const newBet = {
+    ticker: '',
+    title: title,
+    subtitle: '',
+    payout: 10,
+    tier: 'orange',
+    quip: 'the editors are cooking',
+    yes_price: '0.10',
+    volume: 0,
+    category: '',
+    close_time: '',
+    url: url || '#',
+    score: 0,
+  };
+
+  BOARD_DATA.board.push(newBet);
+  DIRTY.add(BOARD_DATA.board.length - 1);
+  BOARD_DATA.market_count = BOARD_DATA.board.length;
+
+  document.getElementById('new-title').value = '';
+  document.getElementById('new-url').value = '';
+
+  renderBoard();
+  updateSaveBtn();
+  setStatus(`${CURRENT_DATE} — ${BOARD_DATA.board.length} bets — new bet added (unsaved)`);
+}
+
+function removeBet(idx) {
+  if (!confirm(`Remove "${BOARD_DATA.board[idx].title}"?`)) return;
+  BOARD_DATA.board.splice(idx, 1);
+  BOARD_DATA.market_count = BOARD_DATA.board.length;
+  DIRTY.clear();
+  // Mark all as dirty since indices shifted
+  BOARD_DATA.board.forEach((_, i) => DIRTY.add(i));
+  renderBoard();
+  updateSaveBtn();
+}
+
+function moveBet(idx, dir) {
+  const bets = BOARD_DATA.board;
+  const newIdx = idx + dir;
+  if (newIdx < 0 || newIdx >= bets.length) return;
+  [bets[idx], bets[newIdx]] = [bets[newIdx], bets[idx]];
+  DIRTY.add(idx);
+  DIRTY.add(newIdx);
+  renderBoard();
+  updateSaveBtn();
+}
+
+// ── Helpers ──────────────────────────────────────────────
+function setStatus(msg) {
+  document.getElementById('status-bar').textContent = msg;
+}
+
+function formatPayout(p) {
+  if (p >= 1000) return p.toLocaleString('en-US', {maximumFractionDigits: 0});
+  if (p === Math.floor(p)) return String(Math.floor(p));
+  return p.toFixed(2);
+}
+
+function esc(s) {
+  if (!s) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+
+// ── Boot ─────────────────────────────────────────────────
+if (TOKEN) {
+  showEditor();
+}
+</script>
+</body>
+</html>
