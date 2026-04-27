@@ -9,13 +9,13 @@
       "subtitle": "Before 2030",
       "payout": 1.52,
       "tier": "green",
-      "quip": "the vibes are off but the math works",
+      "quip": "predictable as the weather",
       "yes_price": "0.6600",
       "volume": 21304.8,
       "category": "Climate and Weather",
       "close_time": "2030-01-01T04:59:00Z",
       "url": "https://kalshi.com/markets/KXEARTHQUAKEJAPAN",
-      "score": 38.0
+      "score": 38
     },
     {
       "ticker": "KXBLUESPACEX-30",
@@ -23,13 +23,13 @@
       "subtitle": "Before 2030",
       "payout": 1.61,
       "tier": "green",
-      "quip": "the wrong people are excited about this",
+      "quip": "Katy Perry mission lead: unconfirmed",
       "yes_price": "0.6200",
       "volume": 57037.02,
       "category": "Science and Technology",
       "close_time": "2030-01-01T15:00:00Z",
       "url": "https://kalshi.com/markets/KXBLUESPACEX",
-      "score": 46.0
+      "score": 46
     },
     {
       "ticker": "KXWCSQUAD-26ESP-RLEN",
@@ -43,49 +43,49 @@
       "category": "Sports",
       "close_time": "2026-06-16T04:01:00Z",
       "url": "https://kalshi.com/markets/KXWCSQUAD",
-      "score": 61.0
+      "score": 61
     },
     {
       "ticker": "KXPOPEVISIT-27JAN01-USA",
       "title": "Will Pope Leo XIV visit United States before Jan 1, 2027?",
       "subtitle": "Before Jan 1, 2027",
-      "payout": 10.0,
+      "payout": 10,
       "tier": "yellow",
-      "quip": "holy speculation",
+      "quip": "conclave vibes remain immaculate ",
       "yes_price": "0.1000",
       "volume": 46526.88,
       "category": "World",
       "close_time": "2027-01-01T15:00:00Z",
       "url": "https://kalshi.com/markets/KXPOPEVISIT",
-      "score": 78.0
+      "score": 78
     },
     {
       "ticker": "KXELONMARS-99",
       "title": "Will Elon Musk visit Mars in his lifetime?",
       "subtitle": "Before 2099",
-      "payout": 10.0,
+      "payout": 10,
       "tier": "yellow",
-      "quip": "elon's working on it",
+      "quip": "and I think it's gonna be a long, long time",
       "yes_price": "0.1000",
       "volume": 81025.22,
       "category": "World",
       "close_time": "2099-08-01T04:59:00Z",
       "url": "https://kalshi.com/markets/KXELONMARS",
-      "score": 91.0
+      "score": 91
     },
     {
       "ticker": "KXOSCARNOMPIC-27-INK",
       "title": "2027 Best Picture Oscar nominations?",
       "subtitle": "In 2027",
-      "payout": 10.0,
+      "payout": 10,
       "tier": "yellow",
-      "quip": "the discourse is already exhausting",
+      "quip": "the discourse needs another sacrifice",
       "yes_price": "0.1000",
       "volume": 881.28,
       "category": "Entertainment",
       "close_time": "2027-12-31T15:00:00Z",
       "url": "https://kalshi.com/markets/KXOSCARNOMPIC",
-      "score": 63.0
+      "score": 63
     },
     {
       "ticker": "MOON-27DEC31",
@@ -99,7 +99,7 @@
       "category": "Science and Technology",
       "close_time": "2027-12-31T15:00:00Z",
       "url": "https://kalshi.com/markets/KXMOON",
-      "score": 93.0
+      "score": 93
     },
     {
       "ticker": "KXOSCARNOMBCASTING-27-MIC",
@@ -107,27 +107,27 @@
       "subtitle": "In 2027",
       "payout": 16.67,
       "tier": "orange",
-      "quip": "the reply guys are mobilizing",
+      "quip": "how about more love for craft catering ",
       "yes_price": "0.0600",
-      "volume": 79.0,
+      "volume": 79,
       "category": "Entertainment",
       "close_time": "2027-12-31T15:00:00Z",
       "url": "https://kalshi.com/markets/KXOSCARNOMBCASTING",
-      "score": 48.0
+      "score": 48
     },
     {
       "ticker": "KXFIFAUSPULL-26",
       "title": "Will FIFA pull the World Cup out of the USA?",
       "subtitle": "Before World Cup 2026 starts",
-      "payout": 50.0,
+      "payout": 50,
       "tier": "orange",
       "quip": "the cowards won't bet this",
       "yes_price": "0.0200",
-      "volume": 24061.0,
+      "volume": 24061,
       "category": "Sports",
       "close_time": "2026-06-11T03:59:00Z",
       "url": "https://kalshi.com/markets/KXFIFAUSPULL",
-      "score": 73.0
+      "score": 73
     }
   ]
 }
