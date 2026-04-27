@@ -139,6 +139,68 @@ def update_board(date_str, board_data, sha):
     return _gh_put(path, content_str, sha=sha, message=message)
 
 
+# ── Quip override tracking ────────────────────────────────
+
+OVERRIDES_PATH = "data/quip-overrides.json"
+
+
+def extract_overrides(old_board, new_board, date_str):
+    """Compare two boards and return list of quip overrides."""
+    old_bets = {b.get("title", ""): b for b in (old_board.get("board") or [])}
+    overrides = []
+
+    for bet in (new_board.get("board") or []):
+        title = bet.get("title", "")
+        if title in old_bets:
+            old_quip = old_bets[title].get("quip", "")
+            new_quip = bet.get("quip", "")
+            if old_quip and new_quip and old_quip != new_quip:
+                overrides.append({
+                    "date": date_str,
+                    "title": title,
+                    "category": bet.get("category", ""),
+                    "payout": bet.get("payout", 0),
+                    "tier": bet.get("tier", ""),
+                    "original_quip": old_quip,
+                    "editor_quip": new_quip,
+                })
+    return overrides
+
+
+def log_overrides(overrides):
+    """Append quip overrides to the overrides file in the repo."""
+    if not overrides:
+        return
+
+    # Load existing overrides
+    existing = []
+    existing_sha = None
+    result = _gh_get(OVERRIDES_PATH)
+    if result:
+        try:
+            content = base64.b64decode(result["content"]).decode()
+            existing = json.loads(content)
+            existing_sha = result["sha"]
+        except (json.JSONDecodeError, KeyError):
+            pass
+
+    # Append new overrides
+    existing.extend(overrides)
+
+    # Cap at 500 most recent to keep the file manageable
+    if len(existing) > 500:
+        existing = existing[-500:]
+
+    content_str = json.dumps(existing, indent=2) + "\n"
+    message = f"CMS: log {len(overrides)} quip override(s)"
+
+    try:
+        _gh_put(OVERRIDES_PATH, content_str, sha=existing_sha, message=message)
+    except Exception:
+        # Don't let override logging break the main save
+        pass
+
+
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
         # Auth check
@@ -203,7 +265,17 @@ class handler(BaseHTTPRequestHandler):
             return
 
         try:
+            # Fetch current board to diff for quip overrides
+            old_board, _ = get_board(date_str)
+
             result = update_board(date_str, board_data, sha)
+
+            # Log quip overrides (non-blocking — failures won't break save)
+            if old_board:
+                overrides = extract_overrides(old_board, board_data, date_str)
+                if overrides:
+                    log_overrides(overrides)
+
             self._respond(200, {
                 "ok": True,
                 "commit": result.get("commit", {}).get("sha", ""),
