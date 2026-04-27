@@ -214,22 +214,36 @@ SHARED_CSS = """
     /* === SHARE === */
     .wager-share {
       position: absolute;
-      bottom: 6px;
+      bottom: 7px;
       right: 8px;
-      font-size: 10px;
-      color: #bbb;
-      text-decoration: none;
+      font-size: 10.5px;
+      color: #999;
       cursor: pointer;
-      border: none;
-      background: none;
+      border: 1px solid #ddd;
+      background: #f5f4f0;
       font-family: 'Courier New', monospace;
-      padding: 2px 4px;
-      letter-spacing: 0.2px;
+      padding: 2px 7px;
+      letter-spacing: 0.3px;
+      border-radius: 2px;
       z-index: 2;
+      transition: all 0.12s ease;
     }
 
-    .wager-share:hover { color: #555; }
-    .wager-share.copied { color: #4a4; }
+    .wager-share:hover {
+      color: #444;
+      border-color: #bbb;
+      background: #eee;
+    }
+
+    .wager-share:active {
+      background: #e4e3de;
+    }
+
+    .wager-share.copied {
+      color: #5a8a5a;
+      border-color: #b0ccb0;
+      background: #eef5ee;
+    }
 
     /* === PAGE CONTENT === */
     .page-title {
