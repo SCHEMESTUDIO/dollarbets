@@ -16,5 +16,68 @@
     "tier": "orange",
     "original_quip": "how about more love for craft catering ",
     "editor_quip": "more love for craft catering "
+  },
+  {
+    "date": "2026-04-27",
+    "title": "Will Donald Trump visit Minnesota before Jan 1, 2027?",
+    "category": "World",
+    "payout": 2.44,
+    "tier": "green",
+    "original_quip": "technically possible, spiritually unlikely",
+    "editor_quip": "The Rise and Fall of a Midwest Princess"
+  },
+  {
+    "date": "2026-04-27",
+    "title": "Will 2026 be the hottest year ever?",
+    "category": "Climate and Weather",
+    "payout": 2.5,
+    "tier": "green",
+    "original_quip": "the planet is running a fever",
+    "editor_quip": "probably gravy"
+  },
+  {
+    "date": "2026-04-27",
+    "title": "When will xAI release Grok 5?",
+    "category": "Science and Technology",
+    "payout": 4.76,
+    "tier": "green",
+    "original_quip": "elon being elon",
+    "editor_quip": "the diet Dr. Pepper of LLMs"
+  },
+  {
+    "date": "2026-04-27",
+    "title": "2027 Best Adapted Screenplay Oscar nominations?",
+    "category": "Entertainment",
+    "payout": 5.26,
+    "tier": "yellow",
+    "original_quip": "this has wedding speech potential",
+    "editor_quip": "Toy Story 5 > The Odyssey "
+  },
+  {
+    "date": "2026-04-27",
+    "title": "Will Lamine Yamal leave Barcelona before 2027?",
+    "category": "Sports",
+    "payout": 10,
+    "tier": "yellow",
+    "original_quip": "someone's career depends on this",
+    "editor_quip": "short the club"
+  },
+  {
+    "date": "2026-04-27",
+    "title": "Who Will Be on the Cover of NBA 2K27?",
+    "category": "Sports",
+    "payout": 11.11,
+    "tier": "orange",
+    "original_quip": "the analytics guys versus the eye test guys",
+    "editor_quip": "the eye test guys are assembling "
+  },
+  {
+    "date": "2026-04-27",
+    "title": "Will Grok be the first to hit 1550 on Text Arena?",
+    "category": "Science and Technology",
+    "payout": 11.11,
+    "tier": "orange",
+    "original_quip": "number go up technology",
+    "editor_quip": "The Hunger Games but for robots"
   }
 ]
