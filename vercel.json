@@ -2,11 +2,6 @@
   "buildCommand": "bash build.sh",
   "outputDirectory": "public",
   "trailingSlash": true,
-  "functions": {
-    "api/*.py": {
-      "runtime": "@vercel/python"
-    }
-  },
   "rewrites": [
     { "source": "/api/login", "destination": "/api/login.py" },
     { "source": "/api/board", "destination": "/api/board.py" }
