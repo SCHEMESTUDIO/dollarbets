@@ -20,6 +20,7 @@ from datetime import datetime, timezone
 
 KALSHI_API = "https://api.elections.kalshi.com/trade-api/v2"
 KALSHI_REFERRAL = "e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+POLYMARKET_API = "https://gamma-api.polymarket.com"
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 TARGET_PICKS = 10
 
@@ -92,6 +93,214 @@ def fetch_markets_for_event(event_ticker):
     if not data:
         return []
     return data.get("markets", [])
+
+
+# ── Polymarket API helpers ──────────────────────────────────
+
+def _poly_api_get(path, params=None):
+    """Make a GET request to Polymarket's Gamma API."""
+    url = f"{POLYMARKET_API}{path}"
+    if params:
+        qs = "&".join(f"{k}={v}" for k, v in params.items() if v is not None)
+        url += f"?{qs}"
+
+    req = urllib.request.Request(url, headers={
+        "Accept": "application/json",
+        "User-Agent": "DollarBets/1.0"
+    })
+
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                return json.loads(resp.read().decode())
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < 2:
+                wait = 2 * (attempt + 1)
+                print(f"[scanner:poly] Rate limited, waiting {wait}s...", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            print(f"[scanner:poly] API error: {e} ({url})", file=sys.stderr)
+            return None
+        except urllib.error.URLError as e:
+            print(f"[scanner:poly] API error: {e} ({url})", file=sys.stderr)
+            return None
+
+
+def fetch_polymarket_markets():
+    """Fetch active markets from Polymarket's Gamma API.
+
+    Returns a list of normalized market dicts ready for editorial scoring.
+    Polymarket prices are 0-1 floats (same as Kalshi dollar strings).
+    """
+    all_markets = []
+    offset = 0
+    limit = 100
+
+    while True:
+        data = _poly_api_get("/markets", {
+            "active": "true",
+            "closed": "false",
+            "limit": str(limit),
+            "offset": str(offset),
+        })
+        if not data or not isinstance(data, list):
+            break
+
+        all_markets.extend(data)
+        print(f"[scanner:poly] Markets page: {len(data)} (total: {len(all_markets)})", file=sys.stderr)
+
+        if len(data) < limit:
+            break
+        offset += limit
+        time.sleep(0.2)  # respect rate limits
+
+    return all_markets
+
+
+def normalize_poly_market(pm):
+    """Convert a Polymarket market dict into a candidate dict
+    compatible with the Kalshi-based editorial pipeline.
+
+    Returns a candidate dict or None if the market is unsuitable.
+    """
+    question = pm.get("question") or ""
+    if not question:
+        return None
+
+    # Parse outcome prices — outcomePrices is a JSON string like '["0.40","0.60"]'
+    prices_raw = pm.get("outcomePrices")
+    if not prices_raw:
+        return None
+    try:
+        if isinstance(prices_raw, str):
+            prices = json.loads(prices_raw)
+        else:
+            prices = prices_raw
+        yes_price = float(prices[0])
+    except (json.JSONDecodeError, IndexError, ValueError, TypeError):
+        return None
+
+    # Filter: price must be between 0 and 1 (exclusive)
+    if yes_price <= 0 or yes_price >= 1.0:
+        return None
+
+    payout = round(1.0 / yes_price, 2)
+    if payout < 1.5:
+        return None
+
+    # Volume
+    try:
+        volume = float(pm.get("volume") or pm.get("volumeNum") or 0)
+    except (ValueError, TypeError):
+        volume = 0
+
+    # Build slug URL
+    slug = pm.get("slug") or pm.get("conditionId") or ""
+    # Polymarket event URL: use groupSlug if available, else slug
+    group_slug = pm.get("groupSlug") or ""
+    if group_slug:
+        market_url = f"https://polymarket.com/event/{group_slug}"
+    elif slug:
+        market_url = f"https://polymarket.com/event/{slug}"
+    else:
+        return None
+
+    # Map Polymarket tags to Kalshi-style categories
+    tags = pm.get("tags") or []
+    category = _poly_tags_to_category(tags, question)
+
+    # Close time
+    end_date = pm.get("endDate") or pm.get("end_date_iso") or ""
+
+    tier = payout_tier(payout)
+
+    # Build a pseudo-event dict for cultural hook scoring
+    event_proxy = {
+        "title": question,
+        "sub_title": "",
+        "category": category,
+    }
+    hook_score = score_cultural_hook(event_proxy)
+
+    # Tradability scoring — adapt to Polymarket fields
+    trad_score = 0
+    if volume > 100000:
+        trad_score += 10
+    elif volume > 10000:
+        trad_score += 5
+    elif volume < 100:
+        trad_score -= 20
+
+    # Freshness — Polymarket doesn't have 24h volume in Gamma API,
+    # but we can use overall volume as a proxy and deadline urgency
+    fresh_score = 0
+    if end_date:
+        try:
+            close_dt = datetime.fromisoformat(end_date.replace("Z", "+00:00"))
+            days_left = (close_dt - datetime.now(timezone.utc)).total_seconds() / 86400
+            if days_left <= 1:
+                fresh_score += 20
+            elif days_left <= 3:
+                fresh_score += 15
+            elif days_left <= 7:
+                fresh_score += 10
+            elif days_left <= 14:
+                fresh_score += 5
+            if days_left > 365:
+                fresh_score -= 10
+        except (ValueError, TypeError):
+            pass
+
+    editorial_score = (
+        hook_score
+        + score_payout_drama(payout)
+        + fresh_score
+        + trad_score
+    )
+
+    quip = generate_quip(question, category)
+
+    return {
+        "ticker": pm.get("conditionId") or slug,
+        "title": question,
+        "subtitle": "",
+        "payout": payout,
+        "tier": tier,
+        "quip": quip,
+        "yes_price": f"{yes_price:.4f}",
+        "volume": volume,
+        "category": category,
+        "close_time": end_date,
+        "url": market_url,
+        "platform": "polymarket",
+        "score": editorial_score,
+        # Extra fields for cross-platform dedup
+        "_source": "polymarket",
+        "_title_lower": question.lower().strip(),
+    }
+
+
+def _poly_tags_to_category(tags, question):
+    """Map Polymarket tags to Kalshi-style categories for consistent scoring."""
+    tag_str = " ".join(t.lower() for t in tags) if tags else ""
+    q = question.lower()
+
+    mapping = [
+        (["politics", "election", "government", "trump", "biden"], "World"),
+        (["crypto", "bitcoin", "ethereum", "defi"], "Crypto"),
+        (["ai", "artificial intelligence", "llm", "gpt", "model"], "Science and Technology"),
+        (["sports", "nba", "nfl", "mlb", "soccer", "football"], "Sports"),
+        (["climate", "weather", "temperature", "hurricane"], "Climate and Weather"),
+        (["entertainment", "celebrity", "movie", "music", "oscar"], "Entertainment"),
+        (["science", "space", "nasa", "mars"], "Science and Technology"),
+    ]
+
+    combined = f"{tag_str} {q}"
+    for keywords, category in mapping:
+        if any(kw in combined for kw in keywords):
+            return category
+
+    return "Other"
 
 
 # ── Payout calculation ───────────────────────────────────────
@@ -845,10 +1054,108 @@ Respond with ONLY the JSON array of integers. Example: [42, 7, 183, 91, ...]"""
     return board
 
 
+# ── Cross-platform dedup ────────────────────────────────────
+
+def _normalize_title(title):
+    """Normalize a market title for fuzzy matching."""
+    t = title.lower().strip()
+    # Remove common filler words and punctuation
+    t = re.sub(r'[?!.,;:\'"()\[\]{}]', '', t)
+    t = re.sub(r'\b(will|the|a|an|in|on|at|to|for|of|be|by|before|after|this|that)\b', '', t)
+    t = re.sub(r'\s+', ' ', t).strip()
+    return t
+
+
+def _title_similarity(a, b):
+    """Simple word-overlap similarity between two normalized titles.
+    Returns a float 0-1 where 1 = perfect match."""
+    words_a = set(a.split())
+    words_b = set(b.split())
+    if not words_a or not words_b:
+        return 0
+    intersection = words_a & words_b
+    union = words_a | words_b
+    return len(intersection) / len(union)
+
+
+def dedup_cross_platform(kalshi_candidates, poly_candidates, similarity_threshold=0.55):
+    """Merge Kalshi and Polymarket candidates, keeping the better payout
+    when the same market exists on both platforms.
+
+    Returns a single merged list of candidates.
+    """
+    merged = []
+    poly_matched = set()
+
+    # Index Polymarket candidates by normalized title
+    poly_index = []
+    for i, pc in enumerate(poly_candidates):
+        norm = _normalize_title(pc["title"])
+        poly_index.append((i, norm, pc))
+
+    for kc in kalshi_candidates:
+        k_norm = _normalize_title(kc["title"])
+
+        # Find best Polymarket match
+        best_match = None
+        best_sim = 0
+        best_idx = -1
+        for pi, pn, pc in poly_index:
+            if pi in poly_matched:
+                continue
+            sim = _title_similarity(k_norm, pn)
+            if sim > best_sim:
+                best_sim = sim
+                best_match = pc
+                best_idx = pi
+
+        if best_sim >= similarity_threshold and best_match:
+            # Same market on both platforms — pick better payout for users
+            poly_matched.add(best_idx)
+            if best_match["payout"] > kc["payout"]:
+                # Polymarket has better odds — use it but keep the higher score
+                winner = best_match.copy()
+                winner["score"] = max(kc["score"], best_match["score"])
+                winner["_dedup"] = f"poly wins ({best_match['payout']} > {kc['payout']})"
+                merged.append(winner)
+                print(f"[scanner:dedup] '{kc['title'][:50]}' — Polymarket wins "
+                      f"(${best_match['payout']} vs ${kc['payout']})", file=sys.stderr)
+            else:
+                # Kalshi has better or equal odds
+                kc_copy = kc.copy()
+                kc_copy["score"] = max(kc["score"], best_match["score"])
+                kc_copy["_dedup"] = f"kalshi wins ({kc['payout']} >= {best_match['payout']})"
+                merged.append(kc_copy)
+                print(f"[scanner:dedup] '{kc['title'][:50]}' — Kalshi wins "
+                      f"(${kc['payout']} vs ${best_match['payout']})", file=sys.stderr)
+        else:
+            # Kalshi-only market
+            merged.append(kc)
+
+    # Add unmatched Polymarket markets
+    for pi, pn, pc in poly_index:
+        if pi not in poly_matched:
+            merged.append(pc)
+
+    kalshi_count = sum(1 for m in merged if m.get("_source") != "polymarket")
+    poly_count = sum(1 for m in merged if m.get("_source") == "polymarket")
+    dedup_count = sum(1 for m in merged if "_dedup" in m)
+    print(f"[scanner:dedup] Merged: {len(merged)} candidates "
+          f"({kalshi_count} Kalshi, {poly_count} Poly, {dedup_count} cross-platform picks)",
+          file=sys.stderr)
+
+    return merged
+
+
 # ── Board assembly ───────────────────────────────────────────
 
-def build_board(events):
-    """Editorial board assembly — like a newspaper editor picking the front page."""
+def build_board(events, poly_candidates=None):
+    """Editorial board assembly — like a newspaper editor picking the front page.
+
+    Args:
+        events: Kalshi events list (fetched from Kalshi API)
+        poly_candidates: Optional pre-normalized Polymarket candidates
+    """
 
     # Step 1: Cultural hook pre-screen
     # Score all events on "would a normal person care?" before we burn API calls
@@ -934,7 +1241,13 @@ def build_board(events):
             "score": editorial_score,
         })
 
-    print(f"[scanner] {len(candidates)} candidates with valid prices", file=sys.stderr)
+    print(f"[scanner] {len(candidates)} Kalshi candidates with valid prices", file=sys.stderr)
+
+    # Step 2b: Merge Polymarket candidates (cross-platform dedup)
+    if poly_candidates:
+        candidates = dedup_cross_platform(candidates, poly_candidates)
+    else:
+        print("[scanner] No Polymarket candidates to merge", file=sys.stderr)
 
     # Step 3: Daily rotation — "newspaper" selection
     QUALITY_FLOOR = 15
@@ -1048,6 +1361,12 @@ def build_board(events):
     # AI quip matching — pick best quip from pool for each bet
     board = match_quips_ai(board)
 
+    # Clean up internal fields before output
+    for m in board:
+        m.pop("_source", None)
+        m.pop("_title_lower", None)
+        m.pop("_dedup", None)
+
     return board
 
 
@@ -1060,19 +1379,38 @@ def main():
         print("[scanner] Using sample data", file=sys.stderr)
         board = pick_sample_board()
     else:
+        # Fetch from both platforms in parallel (sequential for simplicity)
         print("[scanner] Fetching events from Kalshi...", file=sys.stderr)
         events = fetch_all_events()
-        if not events:
-            print("[scanner] No events fetched, falling back to sample", file=sys.stderr)
+
+        print("[scanner] Fetching markets from Polymarket...", file=sys.stderr)
+        poly_raw = fetch_polymarket_markets()
+        poly_candidates = []
+        for pm in poly_raw:
+            candidate = normalize_poly_market(pm)
+            if candidate:
+                poly_candidates.append(candidate)
+        print(f"[scanner:poly] {len(poly_candidates)} valid Polymarket candidates", file=sys.stderr)
+
+        if not events and not poly_candidates:
+            print("[scanner] No markets from either platform, falling back to sample", file=sys.stderr)
             board = pick_sample_board()
+        elif not events:
+            print("[scanner] No Kalshi events, using Polymarket only", file=sys.stderr)
+            board = build_board([], poly_candidates=poly_candidates)
         else:
-            print(f"[scanner] {len(events)} events found", file=sys.stderr)
-            board = build_board(events)
+            print(f"[scanner] {len(events)} Kalshi events found", file=sys.stderr)
+            board = build_board(events, poly_candidates=poly_candidates)
+
+    # Count platform mix for logging
+    kalshi_on_board = sum(1 for m in board if m.get("platform") != "polymarket")
+    poly_on_board = sum(1 for m in board if m.get("platform") == "polymarket")
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "market_count": len(board),
-        "source": "kalshi",
+        "source": "kalshi+polymarket",
+        "platform_mix": {"kalshi": kalshi_on_board, "polymarket": poly_on_board},
         "board": board,
     }
 
