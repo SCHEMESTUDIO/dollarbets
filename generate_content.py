@@ -391,6 +391,74 @@ def generate_hall_of_filth_index(stories):
     return "hall-of-filth/index.html", html
 
 
+# ── Guides index page ─────────────────────────────────────
+
+def generate_guides_index(pages):
+    """Generate /guides/ index page listing all editorial content articles."""
+    # Filter to editorial content only — exclude trust pages and Hall of Filth
+    TRUST_CLUSTERS = {"Trust Pages"}
+    editorial = [
+        p for p in pages
+        if p.get("cluster") not in TRUST_CLUSTERS
+        and p.get("format") != "historical_story"
+    ]
+
+    # Sort by priority (lower = more important), then alphabetically
+    editorial.sort(key=lambda p: (p.get("priority", 50), p.get("seo", {}).get("h1", "")))
+
+    if not editorial:
+        links_html = '<div class="empty-note">guides coming soon — check back.</div>'
+    else:
+        items = []
+        for page in editorial:
+            seo = page.get("seo", {})
+            canonical = seo.get("canonical", "")
+            h1 = seo.get("h1", "")
+            desc = seo.get("meta_description", "")
+            cluster = page.get("cluster", "")
+
+            items.append(f"""      <li class="wager">
+        <a href="{canonical}" style="display:block; padding:12px;">
+          <span class="wager-body">
+            <span class="wager-title">{h1}</span>
+            <span class="wager-quip">{desc}</span>
+          </span>
+        </a>
+      </li>""")
+
+        links_html = f"""    <ul class="board">
+{chr(10).join(items)}
+    </ul>"""
+
+    # Count for section header
+    count_note = f"{len(editorial)} guides published" if editorial else ""
+
+    body = f"""    <h1 class="page-title">guides</h1>
+    <div class="page-intro">
+      <p>Everything you wanted to know about prediction markets, odds, and $1 bets — explained without jargon, without hype, and without pretending we know the future.</p>
+    </div>
+
+    <h2 class="section-head">all guides</h2>
+    <div class="section-note">{count_note}</div>
+
+{links_html}
+
+    <div style="margin:20px 0;padding:12px;border-top:1px solid #e8e7e0;font-size:11px;color:#999">
+      more: <a href="/" style="color:#666">today's board</a> · <a href="/hall-of-filth/" style="color:#666">hall of filth</a> · <a href="/about/" style="color:#666">about dollar bets</a>
+    </div>
+"""
+
+    html = page_shell(
+        title="Guides — Prediction Markets & Odds Explained | Dollar Bets",
+        description="Dollar Bets guides: prediction markets explained, how odds work, what $1 bets mean, and why longshots are longshots.",
+        body=body,
+        canonical="/guides/",
+        current_nav="/guides/",
+    )
+
+    return "guides/index.html", html
+
+
 # ── Main ────────────────────────────────────────────────────
 
 def write_page(rel_path, content):
@@ -482,6 +550,11 @@ def main():
         out_file, html = generate_hall_of_filth_index(hof_stories)
         write_page(out_file, html)
         generated.append(out_file)
+
+    # Generate Guides index page
+    out_file, html = generate_guides_index(pages)
+    write_page(out_file, html)
+    generated.append(out_file)
 
     # Generate llms.txt for AI crawler discovery
     generate_llms_txt(pages)

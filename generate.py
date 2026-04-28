@@ -478,6 +478,7 @@ def nav_html(current=""):
         ("/politics-markets/", "gridlock"),
         ("/financial-markets/", "ball street"),
         ("/crypto-markets/", "moonshots"),
+        ("/guides/", "guides"),
         ("/about/", "about"),
     ]
     parts = []
