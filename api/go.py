@@ -101,12 +101,16 @@ class handler(BaseHTTPRequestHandler):
         # Get user's country from Vercel header
         user_country = self.headers.get("x-vercel-ip-country")
 
+        # Per-market platform override (from board data) takes precedence
+        # over query-string ?platform= param
+        platform = market.get("platform") or requested_platform
+
         # Resolve to best eligible partner
         result = resolve_market_destination(
             market_id=market_id,
             user_country=user_country,
             market_category=market.get("category"),
-            requested_platform=requested_platform,
+            requested_platform=platform,
             market_url=market.get("url")
         )
 

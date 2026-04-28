@@ -184,7 +184,15 @@ def _build_partner_url(partner, market_id, market_url=None):
         else:
             return f"{base}/{market_id}"
 
-    # Other platforms: construct via market URL format (stub for now)
+    # Other platforms: prefer market_url when available
+    if market_url:
+        clean_url = market_url.split("?")[0]
+        if affiliate_id:
+            return f"{clean_url}?{tracking_param}={affiliate_id}"
+        else:
+            return clean_url
+
+    # Fallback: construct from base_url + market_id
     base = partner.get("base_url", "")
     if affiliate_id:
         return f"{base}/{market_id}?{tracking_param}={affiliate_id}"

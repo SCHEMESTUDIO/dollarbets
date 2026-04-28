@@ -35,14 +35,15 @@
       "ticker": "KXGROK-GROK5-26JUL01",
       "title": "When will xAI release Grok 5?",
       "subtitle": "Grok 5",
-      "payout": 4.76,
+      "payout": 3.03,
       "tier": "green",
       "quip": "the diet Dr. Pepper of LLMs",
-      "yes_price": "0.2100",
+      "yes_price": "0.3300",
       "volume": 17253.75,
       "category": "Science and Technology",
       "close_time": "2026-07-01T03:59:00Z",
-      "url": "https://kalshi.com/markets/KXGROK",
+      "url": "https://polymarket.com/event/grok-5-released-by",
+      "platform": "polymarket",
       "score": 73
     },
     {

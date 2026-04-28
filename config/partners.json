@@ -22,7 +22,7 @@
       "base_url": "https://polymarket.com/event",
       "affiliate_id": "",
       "tracking_param_name": "ref",
-      "enabled": false,
+      "enabled": true,
       "allowed_countries": "all",
       "blocked_countries": [
         "NL",
