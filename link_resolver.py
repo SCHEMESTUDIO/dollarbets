@@ -45,7 +45,7 @@ def is_country_allowed(partner, user_country):
     return True
 
 
-def resolve_market_destination(market_id, user_country=None, market_category=None, requested_platform=None):
+def resolve_market_destination(market_id, user_country=None, market_category=None, requested_platform=None, market_url=None):
     """
     Resolve a market to the best eligible partner and construct destination URL.
 
@@ -54,6 +54,7 @@ def resolve_market_destination(market_id, user_country=None, market_category=Non
         user_country: Two-letter ISO country code (e.g., "US", "GB")
         market_category: The market's category (for future filtering)
         requested_platform: Force a specific platform slug (e.g., "kalshi")
+        market_url: The original market URL from board data (used to extract series ticker)
 
     Returns:
         {
@@ -91,7 +92,7 @@ def resolve_market_destination(market_id, user_country=None, market_category=Non
                         "reason": f"{requested_platform} is not available in your region"
                     }
                 # Build URL for requested platform
-                url = _build_partner_url(partner, market_id)
+                url = _build_partner_url(partner, market_id, market_url)
                 return {
                     "eligible": bool(url),
                     "platform": requested_platform,
@@ -133,7 +134,7 @@ def resolve_market_destination(market_id, user_country=None, market_category=Non
     eligible_partners.sort(key=lambda p: p.get("priority_rank", 999))
     best_partner = eligible_partners[0]
 
-    url = _build_partner_url(best_partner, market_id)
+    url = _build_partner_url(best_partner, market_id, market_url)
     if not url:
         return {
             "eligible": False,
@@ -154,13 +155,29 @@ def resolve_market_destination(market_id, user_country=None, market_category=Non
     }
 
 
-def _build_partner_url(partner, market_id):
-    """Build the final destination URL for a partner."""
+def _build_partner_url(partner, market_id, market_url=None):
+    """Build the final destination URL for a partner.
+
+    Args:
+        partner: Partner config dict from partners.json
+        market_id: Full contract ticker (e.g., "KXLAMINEYAMAL-27-LYAM")
+        market_url: Original market URL from board data (e.g.,
+                    "https://kalshi.com/markets/KXLAMINEYAMAL") — preferred
+                    for Kalshi since it contains the correct series ticker.
+    """
     affiliate_id = partner.get("affiliate_id", "")
     tracking_param = partner.get("tracking_param_name", "ref")
 
-    # Kalshi: uses ticker directly in URL
+    # Kalshi: prefer the original market_url (has correct series ticker)
     if partner.get("slug") == "kalshi":
+        if market_url:
+            # Strip any existing query params from the board URL
+            clean_url = market_url.split("?")[0]
+            if affiliate_id:
+                return f"{clean_url}?{tracking_param}={affiliate_id}"
+            else:
+                return clean_url
+        # Fallback: use market_id directly (may be full contract ticker)
         base = partner.get("base_url", "https://kalshi.com/markets")
         if affiliate_id:
             return f"{base}/{market_id}?{tracking_param}={affiliate_id}"
@@ -168,7 +185,6 @@ def _build_partner_url(partner, market_id):
             return f"{base}/{market_id}"
 
     # Other platforms: construct via market URL format (stub for now)
-    # In future, could look up market_id in sources array to find platform-specific ID
     base = partner.get("base_url", "")
     if affiliate_id:
         return f"{base}/{market_id}?{tracking_param}={affiliate_id}"

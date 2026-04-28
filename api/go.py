@@ -106,7 +106,8 @@ class handler(BaseHTTPRequestHandler):
             market_id=market_id,
             user_country=user_country,
             market_category=market.get("category"),
-            requested_platform=requested_platform
+            requested_platform=requested_platform,
+            market_url=market.get("url")
         )
 
         if not result["eligible"]:
