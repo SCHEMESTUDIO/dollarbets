@@ -272,6 +272,24 @@ SHARED_CSS = """
       margin-top: 2px;
     }
 
+    .platform-logo {
+      display: inline-flex;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .platform-logo img, .platform-logo svg {
+      height: 14px;
+      width: auto;
+      opacity: 0.55;
+      transition: opacity 0.15s ease;
+    }
+
+    .wager:hover .platform-logo img,
+    .wager:hover .platform-logo svg {
+      opacity: 0.85;
+    }
+
     .wager-payout {
       font-size: 13px;
       font-weight: 800;
@@ -317,6 +335,7 @@ SHARED_CSS = """
       transition: all 0.12s ease;
       flex-shrink: 0;
       font-weight: 700;
+      margin-left: auto;
     }
 
     .wager-share:hover {
@@ -640,6 +659,21 @@ function shareBet(e, btn) {{
 
 # ── Bet card renderer ───────────────────────────────────────
 
+# Inline SVG logos for platforms (small, monochrome, ~14px tall)
+PLATFORM_LOGOS = {
+    "kalshi": '<svg class="logo-kalshi" viewBox="0 0 60 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">Kalshi</text></svg>',
+    "polymarket": '<svg class="logo-polymarket" viewBox="0 0 90 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">Polymarket</text></svg>',
+}
+
+
+def platform_logo_html(platform):
+    """Return the inline SVG logo for a platform, wrapped in a span."""
+    svg = PLATFORM_LOGOS.get(platform, PLATFORM_LOGOS.get("kalshi", ""))
+    if svg:
+        return f'<span class="platform-logo">{svg}</span>'
+    return ""
+
+
 def tier_emoji(tier):
     return {"green": "🟩", "yellow": "🟨", "orange": "🟧",
             "red": "🟥", "purple": "🟪"}.get(tier, "⬜")
@@ -679,6 +713,10 @@ def render_bet_card(m):
     share_title = title.replace('"', '&quot;').replace("'", "&#39;")
     share_quip = quip.replace('"', '&quot;').replace("'", "&#39;")
 
+    # Platform logo (defaults to kalshi)
+    platform = m.get("platform", "kalshi")
+    logo_html = platform_logo_html(platform)
+
     tier_class = f" tier-{tier}" if tier else ""
 
     return f"""      <li class="wager{tier_class}">
@@ -689,6 +727,7 @@ def render_bet_card(m):
             <span class="wager-quip">{quip}</span>
             <span class="wager-payout-row">
               <span class="wager-payout"><span class="payout-stake">$1</span> <span class="payout-arrow">&rarr;</span> <span class="payout-return">{payout_str}</span></span>
+              {logo_html}
               <button class="wager-share" onclick="shareBet(event, this)" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}">[share]</button>
             </span>
           </span>
