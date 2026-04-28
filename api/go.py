@@ -3,15 +3,16 @@
 Dollar Bets — Market Link Redirect Handler (/go/ endpoint)
 
 Routes market links through eligible partners based on user location.
-Example: /go?market=KXGROK → resolves to best Kalshi/Polymarket/etc URL → 302 redirect
+Example: /go/KXGROK → resolves to best Kalshi/Polymarket/etc URL → 302 redirect
 
-Vercel serverless function. Export: handler(request)
+Vercel Python serverless function using BaseHTTPRequestHandler.
 """
 
 import json
 import os
 import glob
-from datetime import datetime
+from http.server import BaseHTTPRequestHandler
+from urllib.parse import urlparse, parse_qs
 
 # Add parent directory to path so we can import link_resolver
 import sys
@@ -50,74 +51,72 @@ def find_market_in_board(market_id, board_data):
     return None
 
 
-def handler(request):
-    """
-    Serverless function handler for Vercel.
+class handler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        # Parse query parameters
+        parsed = urlparse(self.path)
+        params = parse_qs(parsed.query)
 
-    Query params:
-      - market: Market ticker/ID (required, e.g., "KXGROK")
-      - platform: Force a specific platform (optional, e.g., "kalshi")
+        market_id = params.get("market", [None])[0]
+        requested_platform = params.get("platform", [None])[0]
 
-    Returns:
-      - 302 redirect to resolved market URL
-      - 404 if market not found
-      - 410 if no eligible partners
-    """
-    # Extract query parameters
-    query_string = request.get("url", "").split("?", 1)
-    params = {}
-    if len(query_string) > 1:
-        for part in query_string[1].split("&"):
-            if "=" in part:
-                k, v = part.split("=", 1)
-                params[k] = v
+        if not market_id:
+            self.send_response(302)
+            self.send_header("Location", "/")
+            self.end_headers()
+            return
 
-    market_id = params.get("market")
-    requested_platform = params.get("platform")
+        # Load current board data
+        board_data = load_latest_board_data()
+        market = find_market_in_board(market_id, board_data)
 
-    if not market_id:
-        return {
-            "statusCode": 400,
-            "body": json.dumps({"error": "missing ?market=TICKER"}),
-            "headers": {"Content-Type": "application/json"}
-        }
+        if not market:
+            # Market not found — fall back to direct Kalshi URL as best guess
+            site_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+            config_path = os.path.join(site_dir, "config", "partners.json")
+            try:
+                with open(config_path) as f:
+                    config = json.load(f)
+                kalshi = next((p for p in config.get("partners", []) if p["slug"] == "kalshi"), None)
+                if kalshi and kalshi.get("enabled"):
+                    affiliate_id = kalshi.get("affiliate_id", "")
+                    param_name = kalshi.get("tracking_param_name", "referral")
+                    url = f"https://kalshi.com/markets/{market_id}"
+                    if affiliate_id:
+                        url += f"?{param_name}={affiliate_id}"
+                    self.send_response(302)
+                    self.send_header("Location", url)
+                    self.send_header("Cache-Control", "no-cache")
+                    self.end_headers()
+                    return
+            except Exception:
+                pass
 
-    # Load current board data
-    board_data = load_latest_board_data()
-    market = find_market_in_board(market_id, board_data)
+            # Last resort: send to Kalshi homepage with affiliate
+            self.send_response(302)
+            self.send_header("Location", "https://kalshi.com/markets/" + market_id + "?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f")
+            self.end_headers()
+            return
 
-    if not market:
-        # Market not found in current board
-        return {
-            "statusCode": 404,
-            "body": json.dumps({"error": f"market {market_id} not found"}),
-            "headers": {"Content-Type": "application/json"}
-        }
+        # Get user's country from Vercel header
+        user_country = self.headers.get("x-vercel-ip-country")
 
-    # Get user's country from Vercel header
-    headers = request.get("headers", {})
-    user_country = headers.get("x-vercel-ip-country")
+        # Resolve to best eligible partner
+        result = resolve_market_destination(
+            market_id=market_id,
+            user_country=user_country,
+            market_category=market.get("category"),
+            requested_platform=requested_platform
+        )
 
-    # Resolve to best eligible partner
-    result = resolve_market_destination(
-        market_id=market_id,
-        user_country=user_country,
-        market_category=market.get("category"),
-        requested_platform=requested_platform
-    )
+        if not result["eligible"]:
+            self.send_response(302)
+            self.send_header("Location", "/unavailable/")
+            self.end_headers()
+            return
 
-    if not result["eligible"]:
-        # No eligible partner for this region
-        return {
-            "statusCode": 302,
-            "headers": {"Location": "/unavailable/"}
-        }
-
-    # Redirect to resolved URL
-    return {
-        "statusCode": 302,
-        "headers": {
-            "Location": result["destination_url"],
-            "Cache-Control": "no-cache"
-        }
-    }
+        # Redirect to resolved URL
+        self.send_response(302)
+        self.send_header("Location", result["destination_url"])
+        self.send_header("Cache-Control", "no-cache")
+        self.end_headers()
