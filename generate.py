@@ -27,6 +27,18 @@ DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "boa
 # Replace with your real GA4 measurement ID after setup
 GA4_ID = "G-W2V9QGFCM5"
 
+# Kalshi referral tracking
+KALSHI_REFERRAL = "e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+
+def kalshi_ref_url(url):
+    """Append referral parameter to any Kalshi URL that doesn't already have one."""
+    if not url or "kalshi.com" not in url:
+        return url
+    if "referral=" in url:
+        return url
+    separator = "&" if "?" in url else "?"
+    return f"{url}{separator}referral={KALSHI_REFERRAL}"
+
 
 # ── Analytics snippet ───────────────────────────────────────
 
@@ -598,7 +610,7 @@ def render_bet_card(m):
     payout_str = format_payout(m.get("payout", 0))
     title = m.get("title", "")
     quip = m.get("quip", "")
-    url = m.get("url", "#")
+    url = kalshi_ref_url(m.get("url", "#"))
 
     # Escape for JS data attributes
     share_title = title.replace('"', '&quot;').replace("'", "&#39;")
@@ -1141,7 +1153,7 @@ def generate_market_autopsies(all_bets):
         quip = bet.get("quip", "")
         category = bet.get("category", "unknown")
         date_featured = bet.get("date_featured", "unknown")
-        url = bet.get("url", "#")
+        url = kalshi_ref_url(bet.get("url", "#"))
 
         body = f"""    <h1 class="page-title">market autopsy: {title}</h1>
     <div class="date-line" style="margin-bottom:14px">featured {date_featured} · {category}</div>
@@ -1514,6 +1526,39 @@ def main():
 
     generate_sitemap(sitemap_pages)
     generate_robots_txt()
+
+    # Post-process: ensure ALL Kalshi URLs in output HTML have referral parameter
+    print("[generate] Post-processing: adding referral parameter to all Kalshi URLs...")
+    import re as _re
+    _ref_pattern = _re.compile(r'https://kalshi\.com(/[^"&\s]*?)(?=")')
+    def _add_referral(match):
+        url = match.group(0)
+        if "referral=" in url:
+            return url
+        sep = "&" if "?" in url else "?"
+        return f"{url}{sep}referral={KALSHI_REFERRAL}"
+    _kalshi_href_pattern = _re.compile(r'(href="|data-url=")https://kalshi\.com([^"]*)"')
+    def _fix_href(match):
+        prefix = match.group(1)
+        url = f"https://kalshi.com{match.group(2)}"
+        if "referral=" in url:
+            return f'{prefix}{url}"'
+        sep = "&" if "?" in url else "?"
+        return f'{prefix}{url}{sep}referral={KALSHI_REFERRAL}"'
+    _fixed_count = 0
+    for root, dirs, files in os.walk(OUTPUT_DIR):
+        for fname in files:
+            if not fname.endswith(".html"):
+                continue
+            fpath = os.path.join(root, fname)
+            with open(fpath, "r") as f:
+                content = f.read()
+            new_content = _kalshi_href_pattern.sub(_fix_href, content)
+            if new_content != content:
+                with open(fpath, "w") as f:
+                    f.write(new_content)
+                _fixed_count += 1
+    print(f"[generate] Referral URLs: patched {_fixed_count} files")
 
     print(f"[generate] Done. {len(sitemap_pages)} pages in sitemap.")
 

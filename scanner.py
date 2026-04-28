@@ -19,8 +19,14 @@ import urllib.error
 from datetime import datetime, timezone
 
 KALSHI_API = "https://api.elections.kalshi.com/trade-api/v2"
+KALSHI_REFERRAL = "e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 TARGET_PICKS = 10
+
+
+def kalshi_url(ticker):
+    """Build a Kalshi market URL with referral tracking."""
+    return f"https://kalshi.com/markets/{ticker}?referral={KALSHI_REFERRAL}"
 
 
 # ── API helpers ──────────────────────────────────────────────
@@ -921,7 +927,7 @@ def build_board(events):
             "volume": volume,
             "category": category,
             "close_time": best_market.get("close_time") or best_market.get("expiration_time", ""),
-            "url": f"https://kalshi.com/markets/{event.get('series_ticker', event_ticker)}",
+            "url": kalshi_url(event.get('series_ticker', event_ticker)),
             "score": editorial_score,
         })
 
@@ -1072,7 +1078,7 @@ def pick_sample_board():
             "volume": m.get("volume", 0),
             "category": m.get("category", ""),
             "close_time": m.get("close_time", ""),
-            "url": f"https://kalshi.com/markets/{m['ticker']}",
+            "url": kalshi_url(m['ticker']),
             "score": 50,
         })
     scored.sort(key=lambda x: x["payout"])
