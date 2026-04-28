@@ -1,0 +1,61 @@
+{
+  "slug": "availability",
+  "format": "explainer",
+  "seo": {
+    "title": "Jurisdiction & Availability | Dollar Bets",
+    "h1": "Jurisdiction & Availability",
+    "meta_description": "Not every market, platform, or offer is available everywhere. What to know about jurisdiction, availability, and eligibility.",
+    "canonical": "/availability/"
+  },
+  "hero_bet": null,
+  "internal_links": [
+    {"text": "about Dollar Bets", "url": "/about/"},
+    {"text": "affiliate disclosure", "url": "/affiliate-disclosure/"},
+    {"text": "responsible gambling", "url": "/responsible-gambling/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Dollar Bets is read by visitors in different countries, but not every market, platform, event contract, sportsbook, or affiliate offer is available everywhere."
+    },
+    {
+      "type": "text",
+      "content": "Markets, odds, event contracts, sign-up offers, and trading or betting availability vary by jurisdiction. Some platforms may be available only in certain US states or countries. Others may not be available to UK, EU, Polish, Dutch, or other non-US visitors."
+    },
+    {
+      "type": "heading",
+      "content": "what a link on Dollar Bets does not mean"
+    },
+    {
+      "type": "list",
+      "content": [
+        "The platform is available where you live.",
+        "You are eligible to open an account.",
+        "The product is legal in your jurisdiction.",
+        "The market is still live.",
+        "The odds or payout are unchanged.",
+        "Dollar Bets recommends participation."
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "what to do"
+    },
+    {
+      "type": "text",
+      "content": "Always check the linked platform's own terms, eligibility rules, location restrictions, and legal disclosures before taking any action. Dollar Bets does not verify jurisdiction-specific availability for individual visitors."
+    },
+    {
+      "type": "heading",
+      "content": "about Dollar Bets"
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets does not take bets, operate markets, set odds, or provide betting, financial, or investment advice. We are an editorial and market-discovery site. We point readers toward interesting markets and third-party platforms. The rest is between you and the platform."
+    }
+  ],
+  "compliance": "Markets, odds, and availability vary by jurisdiction. Dollar Bets does not verify jurisdiction-specific availability. Not advice.",
+  "publish_date": "2026-04-28",
+  "cluster": "Trust Pages",
+  "priority": 40
+}

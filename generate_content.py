@@ -40,9 +40,12 @@ DEFAULT_AUTHOR = {
     "url": "/about/",
     "bio": (
         "James Lamon is the founder and editor of Dollar Bets. "
-        "Previously EVP Content & Operations at Footballco (GOAL, World Soccer) "
-        "and Head of Content Europe at BuzzFeed, where he spent seven years "
-        "building editorial and branded content at scale. "
+        "He spent over a decade building content businesses at scale — "
+        "as EVP Content & Operations at Footballco (GOAL, World Soccer) "
+        "and Head of Content Europe at BuzzFeed, where he ran a portfolio "
+        "of brands across entertainment, food, and travel. He started his "
+        "career as a creative strategist working with brands including "
+        "Sky, Diageo, Google, Samsung, and BMW. "
         "Dollar Bets is entertainment-first: we frame markets through a $1 lens, "
         "explain why longshots are unlikely, and encourage readers to treat "
         "betting as risky entertainment, not income."
@@ -185,12 +188,24 @@ def render_hero_bet(hero):
     note = hero.get("note", "")
     note_html = f'<div style="font-size:10px;color:#aaa;margin-top:4px;font-style:italic">{note}</div>' if note else ""
 
+    # Optional disclaimer fields
+    disclaimer_parts = []
+    if hero.get("sourcePlatform"):
+        disclaimer_parts.append(f'Source: {hero["sourcePlatform"]}.')
+    disclaimer_parts.append("Odds and availability may change.")
+    if hero.get("marketType") == "prediction_market":
+        disclaimer_parts.append("Event contracts may not be available in all jurisdictions.")
+    else:
+        disclaimer_parts.append("Check platform terms before taking action.")
+    disclaimer = " ".join(disclaimer_parts)
+
     return f"""    <div style="margin:18px 0;padding:14px;background:#faf9f5;border:1px solid #e8e7e0;border-bottom-width:2px;border-bottom-color:#d8d7d0;border-radius:3px">
-      <div style="font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px">featured bet</div>
+      <div style="font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px">featured market</div>
       <div style="font-size:15px;font-weight:700;color:#111;margin-bottom:4px">{hero.get('title', '')}</div>
       <div style="font-size:14px;font-weight:700;color:#555">$1 &rarr; ${hero.get('payout', 0):,}</div>
       <div style="font-size:11.5px;color:#777;font-style:italic;margin-top:4px">{hero.get('quip', '')}</div>
       {note_html}
+      <div style="font-size:9px;color:#b0afa8;margin-top:6px;line-height:1.5">{disclaimer}</div>
     </div>"""
 
 

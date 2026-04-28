@@ -1,0 +1,107 @@
+{
+  "slug": "terms",
+  "format": "explainer",
+  "seo": {
+    "title": "Terms of Use | Dollar Bets",
+    "h1": "Terms of Use",
+    "meta_description": "Terms of use for Dollar Bets. What the site is, what it isn't, and your responsibilities as a visitor.",
+    "canonical": "/terms/"
+  },
+  "hero_bet": null,
+  "internal_links": [
+    {"text": "privacy policy", "url": "/privacy/"},
+    {"text": "affiliate disclosure", "url": "/affiliate-disclosure/"},
+    {"text": "responsible gambling", "url": "/responsible-gambling/"},
+    {"text": "jurisdiction & availability", "url": "/availability/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "<em>These terms are a good-faith outline of how Dollar Bets operates. They are not a substitute for formal legal advice and may be updated as the site evolves. Last reviewed: April 2026.</em>"
+    },
+    {
+      "type": "heading",
+      "content": "what Dollar Bets is"
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets is an entertainment and market-discovery website. We publish editorial content about prediction markets, sports markets, and other event-based markets. We are not a sportsbook, bookmaker, exchange, casino, prediction-market operator, financial adviser, or investment platform."
+    },
+    {
+      "type": "heading",
+      "content": "not advice"
+    },
+    {
+      "type": "text",
+      "content": "Nothing on Dollar Bets constitutes betting, financial, investment, legal, or tax advice. Content is provided for informational and entertainment purposes only. All market selections, payout labels, and editorial commentary reflect editorial judgment, not professional recommendations."
+    },
+    {
+      "type": "heading",
+      "content": "no guarantees"
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets does not guarantee the accuracy, completeness, or timeliness of any information on this site. Markets move. Odds change. Platforms update their terms. A payout figure shown on Dollar Bets reflects market pricing at the time of review and may no longer be current."
+    },
+    {
+      "type": "heading",
+      "content": "third-party links and platforms"
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets contains links to third-party platforms. These links may be affiliate links. When you click through to a third-party site, you leave Dollar Bets and are subject to that platform's own terms, eligibility rules, privacy policy, and jurisdiction restrictions. Dollar Bets does not control third-party platforms and is not responsible for their content, availability, or actions."
+    },
+    {
+      "type": "heading",
+      "content": "availability and jurisdiction"
+    },
+    {
+      "type": "text",
+      "content": "Markets, platforms, and offers mentioned on Dollar Bets may not be available in your jurisdiction. A link on Dollar Bets does not mean the linked product is available, legal, or appropriate where you live. You are responsible for checking eligibility and compliance with local laws before taking any action on a third-party platform."
+    },
+    {
+      "type": "heading",
+      "content": "adult use only"
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets is intended for adults only. Do not use this site if you are under the legal age for gambling, trading, or participating in prediction markets in your jurisdiction."
+    },
+    {
+      "type": "heading",
+      "content": "affiliate links"
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets may earn compensation from affiliate links. See our <a href='/affiliate-disclosure/'>affiliate disclosure</a> for details."
+    },
+    {
+      "type": "heading",
+      "content": "risk"
+    },
+    {
+      "type": "text",
+      "content": "Betting, trading, and participating in prediction markets involve real financial risk. Longshots are unlikely by definition. Never risk money you cannot afford to lose. See our <a href='/responsible-gambling/'>responsible gambling</a> page for resources."
+    },
+    {
+      "type": "heading",
+      "content": "changes"
+    },
+    {
+      "type": "text",
+      "content": "These terms may be updated as the site evolves. Material changes will be noted on this page. Continued use of the site after changes constitutes acceptance."
+    },
+    {
+      "type": "heading",
+      "content": "contact"
+    },
+    {
+      "type": "text",
+      "content": "For corrections, compliance inquiries, affiliate or partnership questions, takedown requests, or general questions: <a href='mailto:james.lamon@gmail.com'>james.lamon@gmail.com</a>."
+    }
+  ],
+  "compliance": "These terms are a good-faith outline, not formal legal advice. Marked for legal review.",
+  "publish_date": "2026-04-28",
+  "cluster": "Trust Pages",
+  "priority": 35
+}

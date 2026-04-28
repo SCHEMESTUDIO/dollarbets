@@ -2,15 +2,16 @@
   "slug": "editorial-policy",
   "format": "explainer",
   "seo": {
-    "title": "Editorial Policy — How We Make Content | Dollar Bets",
+    "title": "Editorial Policy — How We Pick Bets & Make Content | Dollar Bets",
     "h1": "Editorial Policy",
-    "meta_description": "How Dollar Bets picks markets, makes content, uses AI tools, and keeps things honest. Our editorial standards, author info, and corrections policy.",
+    "meta_description": "How Dollar Bets picks markets, makes content, uses AI tools, and keeps things honest. Our editorial standards, selection criteria, and corrections policy.",
     "canonical": "/editorial-policy/"
   },
   "internal_links": [
     {"text": "about Dollar Bets", "url": "/about/"},
     {"text": "affiliate disclosure", "url": "/affiliate-disclosure/"},
-    {"text": "responsible gambling", "url": "/responsible-gambling/"}
+    {"text": "responsible gambling", "url": "/responsible-gambling/"},
+    {"text": "jurisdiction & availability", "url": "/availability/"}
   ],
   "body": [
     {
@@ -23,7 +24,7 @@
     },
     {
       "type": "text",
-      "content": "Dollar Bets is written and edited by <a href='https://linkedin.com/in/jameslamon' target='_blank'>James Lamon</a>, founder and editor. Previously EVP Content & Operations at Footballco (GOAL, World Soccer) and Head of Content Europe at BuzzFeed, where he spent seven years building editorial and branded content at scale. He is not a licensed oddsmaker, professional gambler, financial adviser, or prediction-market analyst. He is a content person who finds these markets genuinely fascinating and thinks the $1 framing makes them accessible to everyone."
+      "content": "Dollar Bets is written and edited by <a href='https://linkedin.com/in/jameslamon' target='_blank'>James Lamon</a>, founder and editor. James spent over a decade building content businesses at scale — as EVP Content & Operations at Footballco (GOAL, World Soccer), where he led editorial, video, social, branded content, affiliate, and events globally, and before that as Head of Content Europe at BuzzFeed, running a portfolio of brands across entertainment, food, and travel. He started his career as a creative strategist working with brands including Sky, Diageo, Google, Samsung, and BMW. He is not a licensed oddsmaker, professional gambler, financial adviser, or prediction-market analyst. He is a content person who spent a career turning content into revenue, finds these markets genuinely fascinating, and thinks the $1 framing makes them accessible to everyone."
     },
     {
       "type": "heading",
@@ -31,7 +32,27 @@
     },
     {
       "type": "text",
-      "content": "Every day, Dollar Bets scans thousands of live markets on Kalshi — a US-regulated prediction market exchange — and selects roughly ten that are actually interesting to a normal human being. Selection is based on editorial judgment: Is it funny? Is it culturally relevant? Is the payout absurd enough to make someone lean in? Is there a story behind it? Markets are not selected based on likelihood of winning. Most of the markets we feature are longshots. That's the point."
+      "content": "Dollar Bets looks for markets with one or more of the following traits: a memorable payout from a $1 stake, a funny or absurd premise, a compelling underdog, a weird cultural or political angle, a market that feels like a group-chat argument, a black swan outcome people would remember, or a price that makes the imagination do something stupid."
+    },
+    {
+      "type": "text",
+      "content": "We do not select markets because we think they are guaranteed to win. In fact, many of the best Dollar Bets are interesting precisely because they are unlikely."
+    },
+    {
+      "type": "text",
+      "content": "Our payout labels are editorial shorthand, not betting advice: Respectable = modest upside. Alive = meaningful upside. Heater = now we're cooking. Filthy = very unlikely, very funny. Generational = ridiculous payout, reality may object."
+    },
+    {
+      "type": "heading",
+      "content": "our editorial goal"
+    },
+    {
+      "type": "text",
+      "content": "Find markets that are interesting, funny, culturally relevant, weird, high-upside, or emotionally tempting — then frame them honestly. We do not call picks 'locks.' We do not promise outcomes. We do not encourage oversized stakes. We do not present longshots as income strategies."
+    },
+    {
+      "type": "text",
+      "content": "Every Dollar Bets writeup should explain both why the market is interesting and why the market is probably unlikely."
     },
     {
       "type": "heading",
@@ -48,12 +69,13 @@
     {
       "type": "list",
       "content": [
-        "We do not give betting advice. We curate markets for entertainment.",
+        "We do not give betting, financial, investment, legal, or tax advice.",
         "We do not claim any bet is likely to win. Longshots are longshots for a reason.",
         "We do not fabricate odds, search data, or market statistics.",
         "We do not use language like 'guaranteed,' 'lock,' 'risk-free,' or 'can't lose.'",
         "We do not pretend to have expertise we do not have.",
-        "We do not publish content designed to manipulate search rankings without providing genuine value to readers."
+        "We do not publish content designed to manipulate search rankings without providing genuine value.",
+        "We do not operate sportsbooks, casinos, exchanges, or prediction markets."
       ]
     },
     {
@@ -62,7 +84,7 @@
     },
     {
       "type": "text",
-      "content": "Dollar Bets contains affiliate links to Kalshi. If you click through and trade, we may earn a commission. This does not affect which markets we feature or how we describe them. Our full affiliate disclosure is <a href='/affiliate-disclosure/'>here</a>."
+      "content": "Dollar Bets may contain affiliate links. If you click through and take action on a third-party platform, we may earn a commission. This does not affect which markets we feature or how we describe them. Our full <a href='/affiliate-disclosure/'>affiliate disclosure is here</a>."
     },
     {
       "type": "heading",
@@ -70,7 +92,7 @@
     },
     {
       "type": "text",
-      "content": "Markets move. Facts change. If something on this site is wrong, outdated, or misleading, we want to fix it. Email <a href='mailto:james.lamon@gmail.com'>james.lamon@gmail.com</a> and we'll correct it. Content pages display a last-updated date so you know when they were last reviewed."
+      "content": "Markets move. Facts change. If something on this site is wrong, outdated, or misleading, we want to fix it. Email <a href='mailto:james.lamon@gmail.com'>james.lamon@gmail.com</a> and we'll review it. Content pages display a last-updated date so you know when they were last reviewed."
     },
     {
       "type": "heading",
@@ -78,10 +100,10 @@
     },
     {
       "type": "text",
-      "content": "Betting involves real money and real risk. Dollar Bets encourages small-stake, entertainment-focused participation. Never bet more than you can afford to lose. If gambling is causing problems in your life, visit our <a href='/responsible-gambling/'>responsible gambling resources</a> page."
+      "content": "Betting involves real money and real risk. Dollar Bets encourages small-stake, entertainment-focused participation. Never bet more than you can afford to lose. If gambling is causing problems in your life, visit our <a href='/responsible-gambling/'>responsible gambling & risk</a> page."
     }
   ],
-  "compliance": "Dollar Bets is an editorial and entertainment site. All market links are affiliate links to Kalshi. Not financial or betting advice.",
+  "compliance": "Dollar Bets is an editorial and entertainment site. Not financial, legal, or betting advice.",
   "publish_date": "2026-04-28",
   "cluster": "Trust Pages",
   "priority": 60

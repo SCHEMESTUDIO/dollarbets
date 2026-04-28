@@ -1,0 +1,74 @@
+{
+  "slug": "privacy",
+  "format": "explainer",
+  "seo": {
+    "title": "Privacy Policy | Dollar Bets",
+    "h1": "Privacy Policy",
+    "meta_description": "How Dollar Bets handles visitor data, analytics, cookies, and third-party links.",
+    "canonical": "/privacy/"
+  },
+  "hero_bet": null,
+  "internal_links": [
+    {"text": "about Dollar Bets", "url": "/about/"},
+    {"text": "terms of use", "url": "/terms/"},
+    {"text": "affiliate disclosure", "url": "/affiliate-disclosure/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "<em>This privacy policy is a good-faith summary of how Dollar Bets handles visitor data. It is not a substitute for formal legal advice and may be updated as the site evolves. Last reviewed: April 2026.</em>"
+    },
+    {
+      "type": "heading",
+      "content": "what we collect"
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets uses Google Analytics (GA4) to understand how visitors use the site. This includes anonymized data such as page views, time on site, geographic region, device type, and referral source. We do not collect names, email addresses, or personal information through the site itself, except through our optional email newsletter signup."
+    },
+    {
+      "type": "heading",
+      "content": "email newsletter"
+    },
+    {
+      "type": "text",
+      "content": "If you subscribe to the Dollar Bets newsletter, your email address is collected and processed by Beehiiv, our email platform. Your email is used only to send you the newsletter. You can unsubscribe at any time using the link in any email."
+    },
+    {
+      "type": "heading",
+      "content": "cookies and tracking"
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets uses cookies through Google Analytics and may use cookies through affiliate tracking when you click links to third-party platforms. These cookies help us understand site traffic and attribute affiliate referrals. We do not sell personal data."
+    },
+    {
+      "type": "heading",
+      "content": "third-party links"
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets contains links to third-party platforms including Kalshi and potentially other prediction markets or sportsbooks. When you click these links, you leave Dollar Bets and are subject to the privacy policies and terms of the destination site. We are not responsible for the privacy practices of third-party platforms."
+    },
+    {
+      "type": "heading",
+      "content": "your rights"
+    },
+    {
+      "type": "text",
+      "content": "Depending on your location, you may have rights regarding your personal data, including the right to access, correct, or delete information. For any privacy-related requests, contact <a href='mailto:james.lamon@gmail.com'>james.lamon@gmail.com</a>."
+    },
+    {
+      "type": "heading",
+      "content": "changes"
+    },
+    {
+      "type": "text",
+      "content": "This policy may be updated as the site grows. Material changes will be noted on this page with an updated review date."
+    }
+  ],
+  "compliance": "This privacy policy is a good-faith summary, not formal legal advice. Marked for legal review.",
+  "publish_date": "2026-04-28",
+  "cluster": "Trust Pages",
+  "priority": 35
+}

@@ -4,54 +4,56 @@
   "seo": {
     "title": "Affiliate Disclosure | Dollar Bets",
     "h1": "Affiliate Disclosure",
-    "meta_description": "How Dollar Bets makes money. We may earn commissions from links. Here's exactly how that works.",
+    "meta_description": "How Dollar Bets may earn money. Affiliate links, compensation, and what it does and does not affect.",
     "canonical": "/affiliate-disclosure/"
   },
   "hero_bet": null,
   "internal_links": [
     {"text": "about Dollar Bets", "url": "/about/"},
-    {"text": "today's best $1 bets", "url": "/"}
+    {"text": "editorial policy", "url": "/editorial-policy/"},
+    {"text": "responsible gambling", "url": "/responsible-gambling/"},
+    {"text": "jurisdiction & availability", "url": "/availability/"}
   ],
   "body": [
     {
       "type": "text",
-      "content": "Dollar Bets is funded by affiliate commissions. When you click a link to Kalshi and sign up, Dollar Bets may earn a commission. You should know that upfront."
+      "content": "Dollar Bets may earn compensation when users click links, sign up, or take action with third-party platforms. This compensation may come from referral links, affiliate links, sponsorships, or commercial partnerships."
     },
     {
       "type": "heading",
-      "content": "how the link works"
+      "content": "what compensation does and does not affect"
     },
     {
       "type": "text",
-      "content": "Every link to Kalshi on Dollar Bets is an affiliate link. Kalshi tracks when you sign up through that link and credits Dollar Bets with a commission. That commission doesn't change what you pay — you're not paying extra because you came through Dollar Bets. It's just how Kalshi attributes sign-ups."
+      "content": "Compensation does not determine our editorial voice, market selection, rankings, payout labels, or quips. We feature markets because they are interesting, funny, timely, absurd, high-upside, or culturally relevant — not because a partner paid us to say something is a good idea."
     },
     {
       "type": "heading",
-      "content": "which markets get featured?"
+      "content": "what Dollar Bets is not"
     },
     {
       "type": "text",
-      "content": "Dollar Bets doesn't cherry-pick markets based on commission. The daily scanner picks markets based on entertainment value — what's weird, funny, culturally relevant, or has an insane payout. If Kalshi paid more commission for dumb markets, we still wouldn't feature them. Our only incentive is keeping the board interesting enough that people come back."
-    },
-    {
-      "type": "text",
-      "content": "We're independently operated. Dollar Bets is not owned by Kalshi, not controlled by Kalshi, and not obligated to feature Kalshi over any other platform. Kalshi just happens to be the best US-regulated prediction market that exists, so that's what we link to."
+      "content": "Dollar Bets does not operate sportsbooks, casinos, exchanges, prediction markets, or event-contract platforms. Any account opening, market participation, trading, wagering, eligibility, or payout is handled entirely by the third-party platform you visit."
     },
     {
       "type": "heading",
-      "content": "the philosophy"
+      "content": "availability"
     },
     {
       "type": "text",
-      "content": "Transparency matters. You should know that every link has a financial incentive behind it. That's not a secret — it's just the business model. Some sites hide affiliate links or pretend they're neutral recommendations. We're not doing that. You clicked here, now you know the score."
+      "content": "Availability varies by jurisdiction. A link appearing on Dollar Bets does not mean the linked platform is available, legal, or appropriate for every visitor. Always check the platform's own terms, eligibility rules, and location restrictions before taking any action."
+    },
+    {
+      "type": "heading",
+      "content": "not advice"
     },
     {
       "type": "text",
-      "content": "Dollar Bets exists because prediction markets are interesting. The affiliate model just keeps the lights on while we do it."
+      "content": "Nothing on Dollar Bets is betting, financial, investment, tax, or legal advice. We are an entertainment and market-discovery site. The affiliate model keeps the lights on while we do it — that's the whole arrangement, and now you know."
     }
   ],
-  "compliance": "Legal requirement. Dollar Bets may earn affiliate commissions from Kalshi sign-ups. This disclosure is made in accordance with FTC guidelines.",
+  "compliance": "Dollar Bets may earn affiliate commissions from third-party platforms. This disclosure is made in accordance with FTC guidelines.",
   "publish_date": "2026-04-28",
-  "cluster": "Responsible Betting",
+  "cluster": "Trust Pages",
   "priority": 45
 }

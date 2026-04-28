@@ -521,10 +521,20 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
 {SIGNUP_HTML}
 
     <div class="footer">
-      <p>dollar bets is entertainment, not financial advice. not a sportsbook. not affiliated with kalshi.<br>
-      all markets link to <a href="https://kalshi.com" target="_blank">kalshi.com</a>. you must be 18+ to trade. bet responsibly.<br>
-      "$1 pays" = what one dollar returns if the event happens. actual returns depend on price at purchase.</p>
-      <p style="margin-top:6px">&copy; {year} dollarbets.lol &middot; <a href="mailto:james.lamon@gmail.com">contact</a></p>
+      <p>dollar bets is an entertainment and market-discovery site. we do not operate markets, take bets, or provide betting, financial, investment, or legal advice. markets, odds, and availability vary by jurisdiction. longshots are unlikely by definition. never risk money you cannot afford to lose.</p>
+      <p style="margin-top:6px">"$1 pays" = what one dollar returns if the event happens. actual returns depend on price at purchase. some links may be affiliate links — see our <a href="/affiliate-disclosure/">disclosure</a>.</p>
+      <p style="margin-top:6px">this site is intended for adults only. do not use this site if you are under the legal age for gambling, trading, or participating in prediction markets in your jurisdiction.</p>
+      <p style="margin-top:8px">
+        <a href="/about/">about</a> &middot;
+        <a href="/editorial-policy/">editorial policy</a> &middot;
+        <a href="/affiliate-disclosure/">affiliate disclosure</a> &middot;
+        <a href="/responsible-gambling/">responsible gambling</a> &middot;
+        <a href="/availability/">jurisdiction</a> &middot;
+        <a href="/privacy/">privacy</a> &middot;
+        <a href="/terms/">terms</a> &middot;
+        <a href="mailto:james.lamon@gmail.com">contact</a>
+      </p>
+      <p style="margin-top:6px">&copy; {year} dollarbets.lol</p>
     </div>
 
   </div>
@@ -881,7 +891,13 @@ def generate_daily_board(boards):
     legend = '    <div class="legend">🟩 respectable &nbsp; 🟨 alive &nbsp; 🟧 heater &nbsp; <span class="legend-row2">🟥 filthy &nbsp; 🟪 generational</span></div>\n'
     date_line = f'    <div class="date-line" style="margin-bottom:14px">{date_str}</div>\n'
 
-    body = date_line + legend + render_bet_list(board)
+    trust_strip = """
+    <div style="margin:20px 0;padding:10px;border-top:1px solid #e8e7e0;font-size:10px;color:#999;line-height:1.6">
+      tiny stakes. huge maybes. dollar bets is entertainment-first market discovery — not betting advice, not financial advice, and not a guarantee that any market is available where you live. odds and markets change. <a href="/responsible-gambling/" style="color:#888">gamble responsibly</a>. <a href="/availability/" style="color:#888">check availability</a>.
+    </div>
+"""
+
+    body = date_line + legend + render_bet_list(board) + trust_strip
 
     html = page_shell(
         title="dollar bets — what does $1 pay?",
@@ -1048,7 +1064,7 @@ def generate_weekly_recaps(boards):
 
         if lowest_payout and lowest_payout != highest_payout:
             blocks.append(recap_block(
-                "closest to a sure thing",
+                "lowest payout on the board",
                 lowest_payout,
                 f"$1 pays {format_payout(lowest_payout.get('payout', 0))} — barely worth bragging about"
             ))
@@ -1217,7 +1233,9 @@ def generate_about_page():
 
       <p style="font-weight:700; margin-top:16px">who runs this?</p>
 
-      <p><a href="https://linkedin.com/in/jameslamon" target="_blank" style="color:#333">James Lamon</a> — founder and editor. Previously EVP Content & Operations at <a href="https://footballco.com" target="_blank" style="color:#333">Footballco</a> (GOAL, World Soccer) and Head of Content Europe at <a href="https://buzzfeed.com" target="_blank" style="color:#333">BuzzFeed</a>, where he spent seven years building editorial and branded content at scale. Dollar Bets is what happens when you spend a decade making content for the internet and then discover prediction markets.</p>
+      <p><a href="https://linkedin.com/in/jameslamon" target="_blank" style="color:#333">James Lamon</a> — founder and editor. James spent over a decade building content businesses at scale. As EVP Content & Operations at <a href="https://footballco.com" target="_blank" style="color:#333">Footballco</a>, he led the teams behind GOAL and World Soccer — overseeing editorial, video, social, branded content, affiliate, and events across global offices. Before that, he was Head of Content Europe at <a href="https://buzzfeed.com" target="_blank" style="color:#333">BuzzFeed</a>, where he launched and ran a portfolio of brands in entertainment, food, and travel across both the editorial and commercial sides of the business.</p>
+
+      <p>He started his career as a creative strategist and creative director, working with brands including Sky, Diageo, Google, Samsung, BMW, and Porsche. He graduated summa cum laude from the University of Texas at Austin. Dollar Bets is what happens when someone who spent a career turning content into revenue discovers prediction markets and can't look away.</p>
 
       <p style="margin-top:12px"><a href="/editorial-policy/" style="color:#666">editorial policy</a> · <a href="/affiliate-disclosure/" style="color:#666">affiliate disclosure</a> · <a href="/responsible-gambling/" style="color:#666">responsible gambling</a></p>
     </div>
