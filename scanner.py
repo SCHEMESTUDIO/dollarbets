@@ -117,13 +117,13 @@ def calc_payout(market):
 def payout_tier(payout):
     if payout is None:
         return None
-    if payout <= 5:
+    if payout <= 3:
         return "green"
-    elif payout <= 10:
+    elif payout <= 7:
         return "yellow"
-    elif payout <= 100:
+    elif payout <= 15:
         return "orange"
-    elif payout <= 1000:
+    elif payout <= 50:
         return "red"
     else:
         return "purple"
@@ -204,19 +204,22 @@ def score_cultural_hook(event):
 
 def score_payout_drama(payout):
     """Pillar 2: Does the $1 return make the bet feel alive?
-    Sweet spot is 5x-100x. Too low = boring, too high = gimmicky."""
+    Sweet spot is 5x-50x. Too low = boring, too high = gimmicky.
+    Tiers: green ≤3, yellow 3-7, orange 7-15, red 15-50, purple 50+."""
     if payout is None:
         return -50
-    if 10 <= payout <= 50:
+    if 7 <= payout <= 50:
         return 25          # the sweet spot — dramatic but credible
-    elif 5 <= payout <= 100:
+    elif 3 <= payout <= 100:
         return 15           # still interesting
-    elif 3 <= payout <= 200:
-        return 5            # fine
-    elif payout <= 2:
+    elif 2 <= payout < 3:
+        return 5            # fine, low end of green
+    elif payout < 2:
         return -15          # too likely, no drama
-    elif payout > 1000:
-        return -10          # lottery ticket — fun once, not 7 times
+    elif payout > 500:
+        return -10          # extreme lottery ticket
+    else:
+        return 10           # 100-500 range, solid purple territory
     return 0
 
 
@@ -973,7 +976,8 @@ def build_board(events):
     shuffled_pool.extend(remaining)
 
     # Step 4: Pick board with VARIETY enforcement
-    # - Payout tier limits (don't let one color dominate)
+    # Target mix: 3 green, 2 yellow, 2 orange, 1 red, 1 purple = 9 total
+    # Two passes: first fill targets, then backfill gaps from any tier
     # - Category caps (max 2 per Kalshi category — no "7 crypto ticks")
     # - Quip dedup
     CATEGORY_CAP = 2
@@ -981,15 +985,17 @@ def build_board(events):
     board = []
     used_quips = set()
     tier_counts = {"green": 0, "yellow": 0, "orange": 0, "red": 0, "purple": 0}
-    tier_limits = {"green": 3, "yellow": 3, "orange": 3, "red": 2, "purple": 2}
+    tier_targets = {"green": 3, "yellow": 3, "orange": 2, "red": 1, "purple": 1}
     category_counts = {}
+    used_tickers = set()
 
+    # Pass 1: fill each tier up to its target
     for m in shuffled_pool:
         tier = m["tier"]
         cat = (m.get("category") or "other").lower().strip()
 
-        # Enforce payout tier diversity
-        if tier_counts.get(tier, 0) >= tier_limits.get(tier, 3):
+        # Skip if this tier is already at target
+        if tier_counts.get(tier, 0) >= tier_targets.get(tier, 1):
             continue
 
         # Enforce category diversity
@@ -1004,11 +1010,37 @@ def build_board(events):
         used_quips.add(quip)
 
         board.append(m)
+        used_tickers.add(m.get("ticker"))
         tier_counts[tier] = tier_counts.get(tier, 0) + 1
         category_counts[cat] = category_counts.get(cat, 0) + 1
 
         if len(board) >= TARGET_PICKS:
             break
+
+    # Pass 2: if any tier slots went unfilled, backfill from remaining candidates
+    if len(board) < TARGET_PICKS:
+        for m in shuffled_pool:
+            if m.get("ticker") in used_tickers:
+                continue
+            tier = m["tier"]
+            cat = (m.get("category") or "other").lower().strip()
+
+            if category_counts.get(cat, 0) >= CATEGORY_CAP:
+                continue
+
+            quip = m["quip"]
+            if quip in used_quips:
+                quip = _reroll_quip(m["title"], m["category"], used_quips)
+                m["quip"] = quip
+            used_quips.add(quip)
+
+            board.append(m)
+            used_tickers.add(m.get("ticker"))
+            tier_counts[tier] = tier_counts.get(tier, 0) + 1
+            category_counts[cat] = category_counts.get(cat, 0) + 1
+
+            if len(board) >= TARGET_PICKS:
+                break
 
     # Sort: smallest to largest payout
     board.sort(key=lambda x: x["payout"])
