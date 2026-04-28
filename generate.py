@@ -73,8 +73,8 @@ SHARED_CSS = """
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
-      background: #f4f3ee;
-      color: #2a2a2a;
+      background: #fdf6ee;
+      color: #2d2319;
       font-family: 'Courier New', Courier, monospace;
       font-size: 14px;
       line-height: 1.5;
@@ -93,171 +93,242 @@ SHARED_CSS = """
     .header { margin-bottom: 16px; }
 
     .site-title {
-      font-size: 20px;
+      font-family: 'Georgia', 'Times New Roman', serif;
+      font-size: 28px;
       font-weight: 700;
-      color: #111;
+      color: #e8642c;
       letter-spacing: -0.5px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
     }
 
     .site-title a {
       color: inherit;
       text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .site-logo {
+      font-size: 26px;
+      line-height: 1;
     }
 
     .tagline {
-      font-size: 15px;
-      color: #777;
-      margin-top: 3px;
+      font-size: 14px;
+      color: #6b5744;
+      margin-top: 4px;
       font-weight: 400;
       letter-spacing: 0.2px;
     }
 
     .date-line {
       font-size: 11px;
-      color: #aaa;
+      color: #a08b77;
       margin-top: 4px;
       letter-spacing: 0.3px;
     }
 
     hr {
       border: none;
-      border-top: 1px solid #d5d4cd;
+      border-top: 1.5px solid #e8cdb5;
       margin: 14px 0;
     }
 
-    /* === NAV === */
+    /* === NAV (two-line) === */
     .nav {
       font-size: 11px;
-      color: #999;
+      color: #a08b77;
       margin-bottom: 14px;
-      line-height: 2;
       letter-spacing: 0.3px;
+    }
+
+    .nav-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0;
+      line-height: 2.2;
     }
 
     .nav a {
-      color: #666;
+      color: #6b5744;
       text-decoration: none;
-      margin-right: 12px;
+      margin-right: 14px;
+      padding: 2px 0;
+      border-bottom: 1.5px solid transparent;
+      transition: all 0.15s ease;
     }
 
     .nav a:hover {
-      color: #333;
-      text-decoration: underline;
+      color: #e8642c;
+      border-bottom-color: #e8642c;
+      text-decoration: none;
     }
 
-    /* === LEGEND === */
+    .nav .active {
+      color: #e8642c;
+      font-weight: 700;
+      border-bottom: 1.5px solid #e8642c;
+      padding: 2px 0;
+      margin-right: 14px;
+    }
+
+    /* === LEGEND (tier pills) === */
     .legend {
-      font-size: 11px;
-      color: #888;
-      margin-bottom: 18px;
-      line-height: 1.8;
-      letter-spacing: 0.3px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
     }
 
-    .legend-row2 { white-space: nowrap; }
-
-    @media (max-width: 480px) {
-      .legend-row2 { display: block; }
+    .legend-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 11px;
+      color: #6b5744;
+      background: #fef0e4;
+      border: 1px solid #f0dcc8;
+      border-radius: 100px;
+      padding: 4px 12px 4px 8px;
+      white-space: nowrap;
+      letter-spacing: 0.2px;
     }
 
     /* === WAGER LIST === */
     .board { list-style: none; padding: 0; margin: 0; }
 
-    .wager { margin-bottom: 6px; }
+    .wager { margin-bottom: 10px; }
 
     .wager a {
       display: flex;
       align-items: flex-start;
-      gap: 10px;
+      gap: 12px;
       text-decoration: none;
       color: inherit;
-      padding: 10px 12px;
-      border-radius: 3px;
-      background: #faf9f5;
-      border: 1px solid #e8e7e0;
-      border-bottom-width: 2px;
-      border-bottom-color: #d8d7d0;
-      transition: all 0.12s ease;
+      padding: 14px 16px;
+      border-radius: 8px;
+      background: #ffffff;
+      border: 1.5px solid #e8cdb5;
+      transition: all 0.15s ease;
     }
 
+    /* Tier-colored borders */
+    .wager.tier-green a { border-color: #4caf50; }
+    .wager.tier-yellow a { border-color: #e6c731; }
+    .wager.tier-orange a { border-color: #e8842c; }
+    .wager.tier-red a { border-color: #e05252; }
+    .wager.tier-purple a { border-color: #9c5ec7; }
+
     .wager a:hover {
-      background: #fff;
-      border-color: #ccc;
-      border-bottom-color: #bbb;
       transform: translateY(-1px);
-      box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+      box-shadow: 0 3px 8px rgba(0,0,0,0.06);
     }
+
+    .wager.tier-green a:hover { border-color: #388e3c; box-shadow: 0 3px 8px rgba(76,175,80,0.12); }
+    .wager.tier-yellow a:hover { border-color: #c9a800; box-shadow: 0 3px 8px rgba(230,199,49,0.15); }
+    .wager.tier-orange a:hover { border-color: #d06a1a; box-shadow: 0 3px 8px rgba(232,132,44,0.12); }
+    .wager.tier-red a:hover { border-color: #c62828; box-shadow: 0 3px 8px rgba(224,82,82,0.12); }
+    .wager.tier-purple a:hover { border-color: #7b1fa2; box-shadow: 0 3px 8px rgba(156,94,199,0.12); }
 
     .wager a:active {
       transform: translateY(0);
-      border-bottom-width: 1px;
-      margin-bottom: 1px;
       box-shadow: none;
     }
 
+    .wager a:focus-visible {
+      outline: 2px solid #e8642c;
+      outline-offset: 2px;
+    }
+
     .wager-emoji {
-      font-size: 16px;
+      font-size: 18px;
       flex-shrink: 0;
       line-height: 1.5;
+      margin-top: 1px;
     }
 
     .wager-body {
       display: flex;
       flex-direction: column;
-      gap: 2px;
-    }
-
-    .wager-payout {
-      font-size: 12px;
-      font-weight: 700;
-      color: #555;
-      letter-spacing: -0.2px;
+      gap: 4px;
+      flex: 1;
+      min-width: 0;
     }
 
     .wager-title {
       font-size: 15px;
-      color: #111;
+      color: #2d2319;
       font-weight: 700;
       line-height: 1.4;
       letter-spacing: -0.3px;
     }
 
-    .wager-quip {
-      font-size: 11.5px;
-      color: #777;
-      font-style: italic;
-      letter-spacing: 0.2px;
-    }
-
-    /* === SHARE === */
     .wager-payout-row {
       display: flex;
       align-items: center;
       gap: 8px;
+      margin-top: 2px;
     }
 
+    .wager-payout {
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      display: inline-block;
+    }
+
+    .payout-stake {
+      color: #e8642c;
+    }
+
+    .payout-arrow {
+      color: #a08b77;
+    }
+
+    .payout-return {
+      color: #2a8c4a;
+      background: #e8f5ec;
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid #b8ddc5;
+    }
+
+    .wager-quip {
+      font-size: 12.5px;
+      color: #6b5744;
+      font-style: italic;
+      letter-spacing: 0.1px;
+      line-height: 1.5;
+    }
+
+    /* === SHARE === */
     .wager-share {
       font-size: 10.5px;
-      color: #999;
+      color: #e8642c;
       cursor: pointer;
-      border: 1px solid #ddd;
-      background: #f5f4f0;
+      border: 1px solid #e8642c;
+      background: #fff;
       font-family: 'Courier New', monospace;
-      padding: 1px 6px;
+      padding: 4px 10px;
       letter-spacing: 0.3px;
-      border-radius: 2px;
+      border-radius: 4px;
       transition: all 0.12s ease;
       flex-shrink: 0;
+      font-weight: 700;
     }
 
     .wager-share:hover {
-      color: #444;
-      border-color: #bbb;
-      background: #eee;
+      color: #fff;
+      background: #e8642c;
+      border-color: #e8642c;
     }
 
     .wager-share:active {
-      background: #e4e3de;
+      background: #d45520;
+      border-color: #d45520;
     }
 
     .wager-share.copied {
@@ -275,14 +346,14 @@ SHARED_CSS = """
     .page-title {
       font-size: 18px;
       font-weight: 700;
-      color: #111;
+      color: #2d2319;
       margin-bottom: 8px;
       letter-spacing: -0.3px;
     }
 
     .page-intro {
       font-size: 13px;
-      color: #555;
+      color: #6b5744;
       line-height: 1.7;
       margin-bottom: 18px;
     }
@@ -294,21 +365,21 @@ SHARED_CSS = """
     .section-head {
       font-size: 14px;
       font-weight: 700;
-      color: #333;
+      color: #2d2319;
       margin: 24px 0 10px 0;
       letter-spacing: -0.2px;
     }
 
     .section-note {
       font-size: 12px;
-      color: #888;
+      color: #a08b77;
       font-style: italic;
       margin-bottom: 12px;
     }
 
     .empty-note {
       font-size: 12px;
-      color: #aaa;
+      color: #a08b77;
       font-style: italic;
       padding: 12px;
     }
@@ -316,16 +387,16 @@ SHARED_CSS = """
     /* === RECAP BLOCKS === */
     .recap-block {
       margin-bottom: 20px;
-      padding: 12px;
-      background: #faf9f5;
-      border: 1px solid #e8e7e0;
-      border-radius: 3px;
+      padding: 14px;
+      background: #ffffff;
+      border: 1.5px solid #e8cdb5;
+      border-radius: 8px;
     }
 
     .recap-label {
       font-size: 11px;
       font-weight: 700;
-      color: #999;
+      color: #e8642c;
       text-transform: uppercase;
       letter-spacing: 0.5px;
       margin-bottom: 4px;
@@ -334,18 +405,18 @@ SHARED_CSS = """
     .recap-title {
       font-size: 14px;
       font-weight: 700;
-      color: #222;
+      color: #2d2319;
     }
 
     .recap-detail {
       font-size: 12px;
-      color: #666;
+      color: #6b5744;
       margin-top: 2px;
     }
 
     .recap-quip {
       font-size: 11.5px;
-      color: #777;
+      color: #a08b77;
       font-style: italic;
       margin-top: 4px;
     }
@@ -358,24 +429,24 @@ SHARED_CSS = """
     .autopsy-section h3 {
       font-size: 13px;
       font-weight: 700;
-      color: #444;
+      color: #6b5744;
       margin-bottom: 4px;
     }
 
     .autopsy-section p {
       font-size: 13px;
-      color: #555;
+      color: #6b5744;
       line-height: 1.6;
     }
 
     .autopsy-verdict {
       font-size: 14px;
       font-weight: 700;
-      color: #222;
-      padding: 12px;
-      background: #faf9f5;
-      border: 1px solid #e8e7e0;
-      border-radius: 3px;
+      color: #2d2319;
+      padding: 14px;
+      background: #fef0e4;
+      border: 1.5px solid #e8cdb5;
+      border-radius: 8px;
       margin: 16px 0;
       font-style: italic;
     }
@@ -383,86 +454,81 @@ SHARED_CSS = """
     /* === SIGNUP === */
     .signup {
       margin: 28px 0;
-      padding: 16px;
-      border: 1px solid #d5d4cd;
-      border-bottom-width: 2px;
-      border-bottom-color: #c5c4bd;
-      border-radius: 3px;
-      background: #faf9f5;
+      padding: 20px;
+      border: 1.5px solid #e8cdb5;
+      border-radius: 8px;
+      background: #ffffff;
     }
 
-    .signup-heading {
-      font-size: 13px;
+    .signup-header {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      font-size: 16px;
       font-weight: 700;
-      color: #111;
+      color: #e8642c;
       margin-bottom: 4px;
     }
 
-    .signup-sub {
+    .signup-subtext {
       font-size: 11px;
-      color: #999;
-      margin-bottom: 10px;
+      color: #a08b77;
+      margin-bottom: 12px;
     }
 
-    .signup-form { display: flex; gap: 8px; }
-
-    .signup-form input {
-      flex: 1;
-      background: #fff;
-      border: 1px solid #ccc;
-      border-radius: 2px;
-      color: #222;
-      font-family: 'Courier New', monospace;
-      font-size: 13px;
-      padding: 9px 10px;
-    }
-
-    .signup-form input::placeholder { color: #bbb; }
-    .signup-form input:focus { outline: none; border-color: #999; }
-
-    .signup-form button {
-      background: #222;
-      color: #f4f3ee;
+    .signup iframe {
+      width: 100%;
+      height: 340px;
       border: none;
-      border-radius: 2px;
-      font-family: 'Courier New', monospace;
-      font-size: 12px;
-      font-weight: 700;
-      padding: 9px 20px;
-      cursor: pointer;
-      letter-spacing: 0.3px;
-      transition: background 0.1s;
+      background: transparent;
     }
 
-    .signup-form button:hover { background: #444; }
-    .signup-form button:active { background: #111; }
+    .signup-fallback {
+      display: none;
+      text-align: center;
+      padding: 16px 0;
+    }
+
+    .signup-fallback a {
+      color: #e8642c;
+      font-weight: 700;
+      text-decoration: underline;
+    }
 
     /* === FOOTER === */
     .footer {
-      margin-top: 28px;
-      padding-top: 14px;
-      border-top: 1px solid #d5d4cd;
+      margin-top: 32px;
+      padding-top: 16px;
+      border-top: 1.5px solid #e8cdb5;
       font-size: 10px;
-      color: #b0afa8;
+      color: #a08b77;
       line-height: 1.8;
     }
 
-    .footer a { color: #999; }
+    .footer a {
+      color: #6b5744;
+      transition: color 0.12s;
+    }
+
+    .footer a:hover { color: #e8642c; }
 
     /* === MOBILE === */
     @media (max-width: 500px) {
       .container { padding: 16px 12px; }
-      .wager a { padding: 9px 10px; }
-      .wager-payout { font-size: 14px; }
-      .wager-title { font-size: 12px; }
-      .signup-form { flex-direction: column; }
-      .signup-form button { width: 100%; padding: 12px; }
+      .site-title { font-size: 22px; }
+      .site-logo { font-size: 22px; }
+      .wager a { padding: 12px; }
+      .wager-title { font-size: 14px; }
+      .wager-payout { font-size: 12px; }
+      .wager-quip { font-size: 12px; }
+      .legend { overflow-x: auto; flex-wrap: nowrap; -webkit-overflow-scrolling: touch; padding-bottom: 4px; }
     }
 """
 
 SIGNUP_HTML = """
-    <div class="signup" style="padding:0; border:none; background:transparent;">
-      <iframe src="https://subscribe-forms.beehiiv.com/78789979-d89a-4de1-adb9-cb88a40ce0dd" style="width:100%; height:340px; border:none; background:transparent;" scrolling="no"></iframe>
+    <div class="signup">
+      <div class="signup-header">get the daily board in your inbox</div>
+      <div class="signup-subtext">free &middot; one email per day &middot; no spam</div>
+      <iframe src="https://subscribe-forms.beehiiv.com/78789979-d89a-4de1-adb9-cb88a40ce0dd" scrolling="no"></iframe>
+      <noscript><div class="signup-fallback" style="display:block"><p><a href="https://subscribe-forms.beehiiv.com/78789979-d89a-4de1-adb9-cb88a40ce0dd" target="_blank">subscribe here</a></p></div></noscript>
     </div>
 """
 
@@ -470,24 +536,28 @@ SIGNUP_JS = ""
 
 
 def nav_html(current=""):
-    """Lightweight site nav."""
-    links = [
-        ("/", "today's board"),
+    """Two-line site nav: row 1 = categories, row 2 = site links."""
+    row1_links = [
         ("/weird-markets/", "black swans"),
         ("/sports-markets/", "underdogs"),
         ("/politics-markets/", "gridlock"),
         ("/financial-markets/", "ball street"),
         ("/crypto-markets/", "moonshots"),
+    ]
+    row2_links = [
+        ("/", "today's board"),
         ("/guides/", "guides"),
         ("/about/", "about"),
     ]
-    parts = []
-    for href, label in links:
+
+    def render_link(href, label):
         if href.strip("/") == current.strip("/"):
-            parts.append(f'<span style="color:#333;font-weight:700">{label}</span>')
-        else:
-            parts.append(f'<a href="{href}">{label}</a>')
-    return f'<div class="nav">{" ".join(parts)}</div>'
+            return f'<span class="active">{label}</span>'
+        return f'<a href="{href}">{label}</a>'
+
+    r1 = " ".join(render_link(h, l) for h, l in row1_links)
+    r2 = " ".join(render_link(h, l) for h, l in row2_links)
+    return f'<div class="nav"><div class="nav-row">{r1}</div><div class="nav-row">{r2}</div></div>'
 
 
 def page_shell(title, description, body, canonical="", noindex=False, current_nav="", extra_head=""):
@@ -519,7 +589,7 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
   <div class="container">
 
     <div class="header">
-      <div class="site-title"><a href="/">Dollar Bets</a></div>
+      <div class="site-title"><a href="/"><span class="site-logo">💵</span> Dollar Bets</a></div>
       <div class="tagline">The world's most interesting $1 wagers. A buck says maybe.</div>
     </div>
 
@@ -608,6 +678,7 @@ def format_payout(payout):
 def render_bet_card(m):
     """Render a single bet as an <li> element."""
     emoji = tier_emoji(m.get("tier", ""))
+    tier = m.get("tier", "")
     payout_str = format_payout(m.get("payout", 0))
     title = m.get("title", "")
     quip = m.get("quip", "")
@@ -617,16 +688,18 @@ def render_bet_card(m):
     share_title = title.replace('"', '&quot;').replace("'", "&#39;")
     share_quip = quip.replace('"', '&quot;').replace("'", "&#39;")
 
-    return f"""      <li class="wager">
+    tier_class = f" tier-{tier}" if tier else ""
+
+    return f"""      <li class="wager{tier_class}">
         <a href="{url}" target="_blank" rel="noopener">
           <span class="wager-emoji">{emoji}</span>
           <span class="wager-body">
             <span class="wager-title">{title}</span>
+            <span class="wager-quip">{quip}</span>
             <span class="wager-payout-row">
-              <span class="wager-payout">$1 &rarr; {payout_str}</span>
+              <span class="wager-payout"><span class="payout-stake">$1</span> <span class="payout-arrow">&rarr;</span> <span class="payout-return">{payout_str}</span></span>
               <button class="wager-share" onclick="shareBet(event, this)" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}">[share]</button>
             </span>
-            <span class="wager-quip">{quip}</span>
           </span>
         </a>
       </li>"""
@@ -901,12 +974,19 @@ def generate_daily_board(boards):
     except ValueError:
         date_str = latest_date
 
-    legend = '    <div class="legend">🟩 respectable &nbsp; 🟨 alive &nbsp; 🟧 heater &nbsp; <span class="legend-row2">🟥 filthy &nbsp; 🟪 generational</span></div>\n'
+    legend = """    <div class="legend">
+      <span class="legend-pill">🟩 respectable</span>
+      <span class="legend-pill">🟨 alive</span>
+      <span class="legend-pill">🟧 heater</span>
+      <span class="legend-pill">🟥 filthy</span>
+      <span class="legend-pill">🟪 generational</span>
+    </div>
+"""
     date_line = f'    <div class="date-line" style="margin-bottom:14px">{date_str}</div>\n'
 
     trust_strip = """
-    <div style="margin:20px 0;padding:10px;border-top:1px solid #e8e7e0;font-size:10px;color:#999;line-height:1.6">
-      tiny stakes. huge maybes. dollar bets is entertainment-first market discovery — not betting advice, not financial advice, and not a guarantee that any market is available where you live. odds and markets change. <a href="/responsible-gambling/" style="color:#888">gamble responsibly</a>. <a href="/availability/" style="color:#888">check availability</a>.
+    <div style="margin:20px 0;padding:12px;border-top:1.5px solid #e8cdb5;font-size:10px;color:#a08b77;line-height:1.6">
+      tiny stakes. huge maybes. dollar bets is entertainment-first market discovery — not betting advice, not financial advice, and not a guarantee that any market is available where you live. odds and markets change. <a href="/responsible-gambling/" style="color:#6b5744">gamble responsibly</a>. <a href="/availability/" style="color:#6b5744">check availability</a>.
     </div>
 """
 
