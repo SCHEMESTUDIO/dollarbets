@@ -22,6 +22,9 @@ fi
 # Generate all pages
 python3 generate.py
 
+# Generate content pages (SEO articles, Hall of Filth, explainers)
+python3 generate_content.py
+
 # Copy static source files (admin CMS, etc.)
 if [ -d "src" ]; then
   echo "[build] Copying static source files..."

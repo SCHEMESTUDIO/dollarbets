@@ -1,0 +1,98 @@
+{
+  "slug": "responsible-gambling",
+  "format": "explainer",
+  "seo": {
+    "title": "Responsible Gambling Resources | Dollar Bets",
+    "h1": "Responsible Gambling Resources",
+    "meta_description": "Responsible gambling resources and helplines. Dollar Bets is entertainment — if it stops being fun, here's where to get help.",
+    "canonical": "/responsible-gambling/"
+  },
+  "hero_bet": null,
+  "internal_links": [
+    {"text": "about Dollar Bets", "url": "/about/"},
+    {"text": "why we use the $1 framing", "url": "/why-we-use-the-dollar-framing/"},
+    {"text": "today's best $1 bets", "url": "/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Dollar Bets exists because prediction markets are interesting. The money should never be the point. If betting stops being fun and starts feeling like you need to win to feel okay, that's a signal. Not a judgment. A signal."
+    },
+    {
+      "type": "heading",
+      "content": "why the $1 framing matters"
+    },
+    {
+      "type": "text",
+      "content": "Every market on Dollar Bets is framed as what $1 could return. We do this because $1 is an amount you can afford to lose. It's a story, not an investment. It's entertainment, not income. If you're ever thinking about prediction markets as a way to make money or cover losses, you're playing a different game than the one we built."
+    },
+    {
+      "type": "heading",
+      "content": "about longshots"
+    },
+    {
+      "type": "text",
+      "content": "Longshots are longshots for a reason. A market priced at 2 cents means the crowd thinks there's roughly a 2% chance of something happening. That means 98 times out of 100, you lose your dollar. The payouts are big because the odds are brutal. Understanding that math doesn't make the lottery less fun — it just means you go in with eyes open."
+    },
+    {
+      "type": "text",
+      "content": "We show you the payout tiers (respectable, alive, heater, filthy, generational) so you know what you're looking at. A yellow-tier bet ($11–$50 return) is more likely than a purple-tier bet ($500+). But neither of them is likely. That's what makes them worth a dollar."
+    },
+    {
+      "type": "heading",
+      "content": "is this for you?"
+    },
+    {
+      "type": "text",
+      "content": "Ask yourself these questions honestly. If you answer yes to more than one, it's time to pump the brakes."
+    },
+    {
+      "type": "text",
+      "content": "• Do you bet to escape stress or bad feelings?\n• Have you lied to friends or family about how much you bet?\n• Do you feel anxious when you're not betting?\n• Have you tried to stop or cut back but couldn't?\n• Are you using rent, food, or bill money to bet?\n• Do you chase losses — betting more to try to win back what you lost?"
+    },
+    {
+      "type": "heading",
+      "content": "resources"
+    },
+    {
+      "type": "text",
+      "content": "National Problem Gambling Helpline: 1-800-522-4700. Free, confidential, 24/7. They know what they're doing."
+    },
+    {
+      "type": "text",
+      "content": "NCPG (National Council on Problem Gambling): ncpg.org. Information, self-assessment tools, local resources."
+    },
+    {
+      "type": "text",
+      "content": "Crisis Text Line: Text HOME to 741741. Immediate support if you need someone to talk to right now."
+    },
+    {
+      "type": "text",
+      "content": "Gamblers Anonymous: gamblersanonymous.org. 12-step meetings, support groups, people who get it."
+    },
+    {
+      "type": "heading",
+      "content": "what this isn't"
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets is not a sportsbook. We don't take your money. We're a board that shows you what prediction markets exist. We link to Kalshi, which is a US-regulated platform run by someone else. Kalshi has its own responsible gambling policies, account limits, and self-exclusion tools if you need them."
+    },
+    {
+      "type": "heading",
+      "content": "the philosophy"
+    },
+    {
+      "type": "text",
+      "content": "Betting should be entertainment. If you're spending money you need for life, it's not entertainment anymore. If you're betting to win back losses, the math is against you. If you're hiding bets from people you care about, something's wrong. These aren't moral judgments. They're just facts about what healthy entertainment looks like."
+    },
+    {
+      "type": "text",
+      "content": "A buck says maybe. That's the whole idea. A dollar you can laugh about losing. If that's not you right now, the markets will still be there when it is."
+    }
+  ],
+  "compliance": "Essential compliance page. If you or someone you know struggles with gambling, reach out to the National Problem Gambling Helpline (1-800-522-4700). Gambling involves risk of loss. Dollar Bets is entertainment, not financial advice.",
+  "publish_date": "2026-04-28",
+  "cluster": "Responsible Betting",
+  "priority": 50
+}

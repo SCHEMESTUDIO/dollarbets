@@ -1,0 +1,92 @@
+{
+  "slug": "hall-of-filth-leicester-city",
+  "format": "historical_story",
+  "seo": {
+    "title": "Leicester City at 5000-to-1 — The Hall of Filth | Dollar Bets",
+    "h1": "Leicester City: 5000-to-1 and the Greatest Underdog Story",
+    "meta_description": "Leicester City won the Premier League at 5000-to-1. What $1 would have returned — and why it still matters.",
+    "canonical": "/hall-of-filth/leicester-city/"
+  },
+  "hero_bet": {
+    "title": "Leicester City to win the Premier League (2015-16)",
+    "payout": 5000,
+    "quip": "Five thousand to one. They weren't joking. They should have been.",
+    "tier": "purple",
+    "url": "https://kalshi.com",
+    "category": "sports",
+    "note": "Illustrative — based on widely reported pre-season odds"
+  },
+  "internal_links": [
+    {"text": "today's best underdog bets", "url": "/sports-markets/"},
+    {"text": "today's best $1 bets", "url": "/"},
+    {"text": "more Hall of Filth stories", "url": "/hall-of-filth/"},
+    {"text": "today's biggest payouts", "url": "/"}
+  ],
+  "current_equivalent": {
+    "category": "Underdogs",
+    "text": "See today's sports underdogs",
+    "url": "/sports-markets/"
+  },
+  "body": [
+    {
+      "type": "text",
+      "content": "In August 2015, you could have bet on Leicester City to win the English Premier League at 5000-to-1. Those were the same odds bookmakers gave for finding Elvis alive. For the Loch Ness Monster being confirmed real. For Christmas Day being the hottest day of the year."
+    },
+    {
+      "type": "text",
+      "content": "Leicester City had barely avoided relegation the season before. They were a small club from the East Midlands with a wage bill a fraction of Chelsea's, Manchester City's, or Arsenal's. The experts didn't just think they wouldn't win the league — they thought the question was which month they'd start losing."
+    },
+    {
+      "type": "heading",
+      "content": "what $1 would have returned"
+    },
+    {
+      "type": "text",
+      "content": "$1 at those pre-season odds would have returned approximately $5,000. That's the Generational label. That's the purple square. That's the kind of number that makes you check the calculator twice and then stare at the ceiling for a while."
+    },
+    {
+      "type": "text",
+      "content": "Note: the $5,000 figure is illustrative, based on the 5000-to-1 odds widely reported by multiple UK bookmakers before the 2015-16 season. Actual returns would have depended on the specific bookmaker, timing, and stake."
+    },
+    {
+      "type": "heading",
+      "content": "how it happened"
+    },
+    {
+      "type": "text",
+      "content": "Leicester didn't win by accident or fluke. They played a specific, disciplined style — a compact 4-4-2 with devastating counter-attacks. Jamie Vardy, a striker who had been playing non-league football four years earlier, scored in 11 consecutive Premier League matches. Riyad Mahrez, signed for £400,000, won Player of the Year. N'Golo Kanté, bought for £5.6 million, covered more ground than anyone in the league."
+    },
+    {
+      "type": "text",
+      "content": "Manager Claudio Ranieri, who had been fired by Greece after losing to the Faroe Islands, kept the message simple: take it one game at a time. It became a cliché. Then it became a strategy. Then it became the greatest underdog story in modern sports history."
+    },
+    {
+      "type": "text",
+      "content": "They clinched the title on May 2, 2016, when Tottenham drew with Chelsea. The players watched it happen at Jamie Vardy's house. The party lasted for days. The city went properly insane."
+    },
+    {
+      "type": "heading",
+      "content": "why it matters to bettors"
+    },
+    {
+      "type": "text",
+      "content": "Leicester City is the reason the phrase 'longshots are longshots for a reason' has an asterisk. Yes, longshots almost never hit. Yes, the math is against you. But 'almost never' is not 'never.' And when one does hit at 5000-to-1, it rewrites what people think is possible."
+    },
+    {
+      "type": "text",
+      "content": "Some people reportedly did bet on Leicester at those odds. The amounts were small — a few quid here, a tenner there. Nobody put their life savings on it, because nobody thought it was possible. That's the point. The dollar is the point. You're not betting your rent. You're buying a ticket to a story that might — against all odds — actually happen."
+    },
+    {
+      "type": "heading",
+      "content": "the modern equivalent"
+    },
+    {
+      "type": "text",
+      "content": "Every day, Dollar Bets scans prediction markets for the modern equivalents of Leicester City. Markets priced at a few cents. Events the crowd thinks are nearly impossible. The kind of bets where $1 could return something absurd. Most of them won't hit. That's what longshots are. But every now and then, one of them does — and the people who had a dollar on it have a story nobody else does."
+    }
+  ],
+  "compliance": "Historical odds are illustrative, based on widely reported pre-season bookmaker odds. Actual returns would have varied by bookmaker and timing. Past results do not predict future outcomes. Longshots are longshots for a reason.",
+  "publish_date": "2026-04-28",
+  "cluster": "Hall of Filth",
+  "priority": 78
+}

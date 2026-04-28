@@ -255,6 +255,11 @@ SHARED_CSS = """
     }
 
     /* === PAGE CONTENT === */
+    h1, h2, h3 {
+      font-family: inherit;
+      line-height: inherit;
+    }
+
     .page-title {
       font-size: 18px;
       font-weight: 700;
@@ -472,7 +477,7 @@ def nav_html(current=""):
     return f'<div class="nav">{" ".join(parts)}</div>'
 
 
-def page_shell(title, description, body, canonical="", noindex=False, current_nav=""):
+def page_shell(title, description, body, canonical="", noindex=False, current_nav="", extra_head=""):
     """Wrap body content in the full HTML shell."""
     year = datetime.now().year
     noindex_tag = '<meta name="robots" content="noindex, follow">' if noindex else ""
@@ -493,6 +498,7 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
   <meta property="og:url" content="{SITE_URL}{canonical}">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💵</text></svg>">
   {analytics_head()}
+  {extra_head}
   <style>{SHARED_CSS}
   </style>
 </head>
@@ -913,12 +919,12 @@ def generate_category_pages(all_bets):
         # Count for section header
         count_note = f"{len(unique_bets)} markets featured" if unique_bets else ""
 
-        body = f"""    <div class="page-title">{config['h1']}</div>
+        body = f"""    <h1 class="page-title">{config['h1']}</h1>
     <div class="page-intro">
       {config['intro']}
     </div>
 
-    <div class="section-head">featured markets</div>
+    <h2 class="section-head">featured markets</h2>
     <div class="section-note">{count_note}</div>
 
 {render_bet_list(display_bets, "no markets featured in this category yet — check back soon.")}
@@ -955,12 +961,12 @@ def generate_archetype_pages(all_bets):
         unique_bets = sorted(seen.values(), key=lambda x: x.get("payout", 0), reverse=True)
         display_bets = unique_bets[:12]
 
-        body = f"""    <div class="page-title">{config.get('emoji', '')} {config['h1']}</div>
+        body = f"""    <h1 class="page-title">{config.get('emoji', '')} {config['h1']}</h1>
     <div class="page-intro">
       {config['intro']}
     </div>
 
-    <div class="section-head">examples from the board</div>
+    <h2 class="section-head">examples from the board</h2>
     <div class="section-note">{len(unique_bets)} markets matched this archetype</div>
 
 {render_bet_list(display_bets, "no examples yet — this archetype is waiting for its moment.")}
@@ -1058,7 +1064,7 @@ def generate_weekly_recaps(boards):
 
         blocks_html = "\n".join(blocks)
 
-        body = f"""    <div class="page-title">the week in dollar bets</div>
+        body = f"""    <h1 class="page-title">the week in dollar bets</h1>
     <div class="date-line" style="margin-bottom:14px">{week_label}</div>
     <div class="page-intro">
       <p>{len(unique_week)} markets featured across {len(week_boards)} days. Here's what stood out.</p>
@@ -1066,7 +1072,7 @@ def generate_weekly_recaps(boards):
 
 {blocks_html}
 
-    <div class="section-head">all markets this week</div>
+    <h2 class="section-head">all markets this week</h2>
 
 {render_bet_list(unique_week[:15])}
 """
@@ -1121,7 +1127,7 @@ def generate_market_autopsies(all_bets):
         date_featured = bet.get("date_featured", "unknown")
         url = bet.get("url", "#")
 
-        body = f"""    <div class="page-title">market autopsy: {title}</div>
+        body = f"""    <h1 class="page-title">market autopsy: {title}</h1>
     <div class="date-line" style="margin-bottom:14px">featured {date_featured} · {category}</div>
 
     <div class="autopsy-verdict">
@@ -1183,7 +1189,7 @@ def _archetype_name(bet):
 
 def generate_about_page():
     """Generate the /about/ page."""
-    body = """    <div class="page-title">what is dollar bets?</div>
+    body = """    <h1 class="page-title">what is dollar bets?</h1>
     <div class="page-intro">
       <p>A daily board of weird, funny, and culturally relevant prediction markets, translated into what a $1 bet could pay.</p>
 
@@ -1208,6 +1214,12 @@ def generate_about_page():
       <p>Dollar Bets is built for the person who reads the news and thinks "I wonder if there's a market for that." There usually is. We find it for you.</p>
 
       <p>The board updates daily. The email is free. The bets are a dollar. The rest is up to the universe.</p>
+
+      <p style="font-weight:700; margin-top:16px">who runs this?</p>
+
+      <p><a href="https://linkedin.com/in/jameslamon" target="_blank" style="color:#333">James Lamon</a> — founder and editor. Previously EVP Content & Operations at <a href="https://footballco.com" target="_blank" style="color:#333">Footballco</a> (GOAL, World Soccer) and Head of Content Europe at <a href="https://buzzfeed.com" target="_blank" style="color:#333">BuzzFeed</a>, where he spent seven years building editorial and branded content at scale. Dollar Bets is what happens when you spend a decade making content for the internet and then discover prediction markets.</p>
+
+      <p style="margin-top:12px"><a href="/editorial-policy/" style="color:#666">editorial policy</a> · <a href="/affiliate-disclosure/" style="color:#666">affiliate disclosure</a> · <a href="/responsible-gambling/" style="color:#666">responsible gambling</a></p>
     </div>
 """
 
@@ -1249,6 +1261,19 @@ def generate_robots_txt():
     txt = f"""User-agent: *
 Allow: /
 
+# AI crawlers welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
 Sitemap: {SITE_URL}/sitemap.xml
 """
     write_page("robots.txt", txt)
@@ -1271,7 +1296,7 @@ def generate_archetype_index():
         </a>
       </li>""")
 
-    body = f"""    <div class="page-title">bet archetypes</div>
+    body = f"""    <h1 class="page-title">bet archetypes</h1>
     <div class="page-intro">
       <p>Prediction markets produce the same kinds of bets over and over — weather panics, crypto moonshots, political chaos, celebrity wildcards. We call these archetypes. Each one has its own personality, its own rhythm, and its own kind of drama.</p>
     </div>
@@ -1332,7 +1357,7 @@ def generate_recap_index(boards):
         </a>
       </li>""")
 
-    body = f"""    <div class="page-title">weekly recaps</div>
+    body = f"""    <h1 class="page-title">weekly recaps</h1>
     <div class="page-intro">
       <p>Every week, Dollar Bets looks back at the most interesting prediction markets from the daily board — the biggest longshots, the weirdest bets, and the markets that made people pay attention.</p>
     </div>
@@ -1444,6 +1469,30 @@ def main():
             s = slugify(t)
             if s:
                 sitemap_pages.append((f"/autopsy/{s}/", 0.5))
+
+    # Add content pages (from generate_content.py) to sitemap
+    content_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "content")
+    if os.path.isdir(content_dir):
+        import glob as globmod
+        for filepath in globmod.glob(os.path.join(content_dir, "**", "*.json"), recursive=True):
+            try:
+                with open(filepath) as f:
+                    cdata = json.load(f)
+                canonical = cdata.get("seo", {}).get("canonical", "")
+                if canonical:
+                    priority = 0.7 if cdata.get("format") == "historical_story" else 0.8
+                    entry = (canonical, priority)
+                    if entry not in sitemap_pages:
+                        sitemap_pages.append(entry)
+            except (json.JSONDecodeError, IOError):
+                pass
+        # Hall of Filth index
+        hof_stories = [1 for fp in globmod.glob(os.path.join(content_dir, "hall-of-filth", "*.json"))
+                       if json.load(open(fp)).get("format") == "historical_story"]
+        if hof_stories:
+            entry = ("/hall-of-filth/", 0.8)
+            if entry not in sitemap_pages:
+                sitemap_pages.append(entry)
 
     generate_sitemap(sitemap_pages)
     generate_robots_txt()

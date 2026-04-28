@@ -1,0 +1,94 @@
+{
+  "slug": "what-is-a-prediction-market",
+  "format": "explainer",
+  "seo": {
+    "title": "What Is a Prediction Market? — Plain English Guide | Dollar Bets",
+    "h1": "What Is a Prediction Market?",
+    "meta_description": "What prediction markets are, how they work, and why they're the most interesting way to bet on almost anything.",
+    "canonical": "/what-is-a-prediction-market/"
+  },
+  "summary": "A prediction market is a place where people bet real money on whether something will happen. You buy a contract for a few cents; if the event happens, it pays $1. The price reflects the crowd's estimated probability.",
+  "hero_bet": {
+    "title": "Example: Will it snow in NYC on May 1?",
+    "payout": 33,
+    "quip": "A stock market for opinions. With better jokes.",
+    "tier": "orange",
+    "url": "https://kalshi.com",
+    "category": "weather"
+  },
+  "internal_links": [
+    {"text": "how longshot odds work", "url": "/how-do-longshot-odds-work/"},
+    {"text": "today's best $1 bets", "url": "/"},
+    {"text": "about Dollar Bets", "url": "/about/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "A prediction market is a place where people bet real money on whether something will happen. Not sports scores — things like: Will the Fed cut rates? Will it snow in Phoenix? Will a senator resign by June?"
+    },
+    {
+      "type": "text",
+      "content": "You buy a contract for a few cents. If the event happens, it pays out $1. If it doesn't, you lose what you paid. That's it. The simplicity is the point."
+    },
+    {
+      "type": "heading",
+      "content": "how the price works"
+    },
+    {
+      "type": "text",
+      "content": "The price of a contract tells you what the crowd thinks. A contract at 5 cents means the market estimates roughly a 5% chance. A contract at 80 cents means roughly 80%. When news breaks, prices move — sometimes in minutes. Prediction markets are often faster than polls, pundits, and cable news."
+    },
+    {
+      "type": "text",
+      "content": "Important caveat: market prices reflect what people are willing to pay, not mathematical truth. A 5-cent contract doesn't mean there's exactly a 5% chance. It means that's the price where buyers and sellers currently agree. The crowd has opinions. The crowd is sometimes wrong."
+    },
+    {
+      "type": "heading",
+      "content": "the $1 framing"
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets translates every prediction market into what a $1 bet could return. A contract priced at 5 cents means $1 pays $20. A contract at 3 cents means $1 pays $33. The lower the price, the higher the payout, and the less likely the market thinks it is."
+    },
+    {
+      "type": "text",
+      "content": "We color-code the payouts: 🟩 respectable ($1–$10), 🟨 alive ($11–$50), 🟧 heater ($51–$100), 🟥 filthy ($101–$500), 🟪 generational ($500+). The label tells you how unlikely the market thinks it is — and how entertaining it'll be if it happens."
+    },
+    {
+      "type": "heading",
+      "content": "prediction markets vs sportsbooks"
+    },
+    {
+      "type": "text",
+      "content": "Sportsbooks set odds. Prediction markets let the crowd set prices. On a sportsbook, you bet against the house. On a prediction market like Kalshi, you trade contracts with other people. You can also sell your position before the event resolves — if the odds shift in your favor, you can cash out early."
+    },
+    {
+      "type": "text",
+      "content": "Prediction markets are also regulated differently. Kalshi is regulated by the CFTC (Commodity Futures Trading Commission), not state gaming commissions. This is a distinction that matters if you're the kind of person who reads disclaimers, and you should be."
+    },
+    {
+      "type": "heading",
+      "content": "where to trade"
+    },
+    {
+      "type": "text",
+      "content": "The biggest US-regulated prediction market is Kalshi, which is where Dollar Bets sources its daily board. Kalshi offers contracts on politics, economics, weather, culture, crypto, and more. You can start trading with a few dollars — which is the whole idea behind Dollar Bets. You don't need a bankroll. You need a dollar and a sense of humor."
+    },
+    {
+      "type": "text",
+      "content": "Other platforms exist (Polymarket, PredictIt), each with different market selection and regulatory status. Availability varies by jurisdiction."
+    },
+    {
+      "type": "heading",
+      "content": "the bottom line"
+    },
+    {
+      "type": "text",
+      "content": "Prediction markets take the question you already have — 'will this actually happen?' — and put a price on it. Dollar Bets takes that price and makes it fun. The markets are real. The money is real. The outcomes are uncertain. A buck says maybe."
+    }
+  ],
+  "compliance": "This is educational content. Dollar Bets is not a prediction market platform. Prediction market availability varies by jurisdiction. Trading involves risk of loss. Links to Kalshi may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-04-28",
+  "cluster": "Betting Explainers",
+  "priority": 87
+}

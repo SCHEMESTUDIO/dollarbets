@@ -1,0 +1,90 @@
+{
+  "slug": "how-do-longshot-odds-work",
+  "format": "explainer",
+  "seo": {
+    "title": "How Do Longshot Odds Work? — Big Numbers Explained | Dollar Bets",
+    "h1": "How Do Longshot Odds Work?",
+    "meta_description": "What longshot odds actually mean. +1000, +5000, +10000 — decoded from confusing numbers into $1 returns.",
+    "canonical": "/how-do-longshot-odds-work/"
+  },
+  "summary": "Longshot odds like +1000 or +5000 tell you what you'd win on a $1 bet. +1000 means $1 pays $10. +5000 means $1 pays $50. The bigger the number, the less likely the market thinks it is — and the more it pays if it happens.",
+  "hero_bet": {
+    "title": "Example: Something absurd happens (illustrative)",
+    "payout": 50,
+    "quip": "The plus sign means hope. The number means how much.",
+    "tier": "yellow",
+    "url": "https://kalshi.com",
+    "category": "culture"
+  },
+  "internal_links": [
+    {"text": "today's best $1 bets", "url": "/"},
+    {"text": "how Kalshi odds work", "url": "/how-kalshi-odds-work/"},
+    {"text": "what is a prediction market", "url": "/what-is-a-prediction-market/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Longshot odds look like they're written in a code designed to confuse people. +1000. +5000. +10000. They're not. They're just a way of saying 'if you bet $1, here's what you get back if you're right.'"
+    },
+    {
+      "type": "heading",
+      "content": "the american odds format"
+    },
+    {
+      "type": "text",
+      "content": "+100 odds means even money. You bet $1, you win $1. Simple.\n\n+200 odds means you bet $1, you win $2 (so you get back $3 total).\n\n+1000 odds means you bet $1, you win $10 (so you get back $11 total).\n\nThe pattern: take the number, divide by 100, and that's your multiplier. +300 ÷ 100 = 3x your stake. +500 ÷ 100 = 5x your stake."
+    },
+    {
+      "type": "heading",
+      "content": "a ladder of examples"
+    },
+    {
+      "type": "text",
+      "content": "+100: $1 returns $2 (even money, 50% implied probability)\n+200: $1 returns $3 (2-to-1 odds, 33% implied probability)\n+500: $1 returns $6 (5-to-1 odds, 17% implied probability)\n+1000: $1 returns $11 (10-to-1 odds, 9% implied probability)\n+2000: $1 returns $21 (20-to-1 odds, 5% implied probability)\n+5000: $1 returns $51 (50-to-1 odds, 2% implied probability)\n+10000: $1 returns $101 (100-to-1 odds, 1% implied probability)"
+    },
+    {
+      "type": "text",
+      "content": "Notice: as the number gets bigger, the payout gets bigger and the probability gets smaller. That's the whole trade-off. The less likely something is, the more you win if you're right."
+    },
+    {
+      "type": "heading",
+      "content": "prediction markets work slightly different"
+    },
+    {
+      "type": "text",
+      "content": "Traditional sportsbooks list American odds. Prediction markets like Kalshi work on a contract system instead. You don't bet at +1000. You buy a contract priced at a certain number of cents. A contract at 5 cents means the market estimates a 5% chance of that event. If it happens, the contract pays out $1."
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets translates prediction market contract prices back into American-style odds so you can understand them quickly. A 5-cent contract is equivalent to +1900 odds (roughly, depending on fees). A 2-cent contract is equivalent to +4900 odds."
+    },
+    {
+      "type": "heading",
+      "content": "what implied probability means"
+    },
+    {
+      "type": "text",
+      "content": "The odds also tell you what the market thinks the probability is. +100 odds (even money) implies a 50% chance. +200 odds implies a 33% chance. The math: divide 100 by (the number after the plus sign plus 100)."
+    },
+    {
+      "type": "text",
+      "content": "So +5000 odds: divide 100 by 5100 = roughly 1.96% implied probability. That doesn't mean there's exactly a 1.96% chance. It means that's what the market price implies. The actual probability could be higher or lower. Markets aren't fortune tellers. They're just prices where buyers and sellers agree."
+    },
+    {
+      "type": "heading",
+      "content": "why this matters"
+    },
+    {
+      "type": "text",
+      "content": "Understanding the math doesn't ruin the fun — it adds to it. You see a +5000 payout and it feels insane. Now you know why: the market thinks there's roughly a 2% chance. You're buying a lottery ticket at transparent odds, not a blind hope. That clarity is the whole point."
+    },
+    {
+      "type": "text",
+      "content": "The dollar is also part of the clarity. You're not thinking about whether to risk your rent. You're thinking about what story is worth a dollar. That's entertainment."
+    }
+  ],
+  "compliance": "Educational content. Odds are illustrative and vary by platform, timing, and market conditions. Past results do not predict future outcomes. Prediction markets involve risk of loss.",
+  "publish_date": "2026-04-28",
+  "cluster": "Betting Explainers",
+  "priority": 77
+}

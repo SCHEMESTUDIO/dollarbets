@@ -1,0 +1,110 @@
+{
+  "slug": "weird-prop-bets",
+  "format": "weird_market_roundup",
+  "parent_category": "weird-markets",
+  "seo": {
+    "title": "Weird Prop Bets You Can Make Right Now | Dollar Bets",
+    "h1": "Weird Prop Bets You Can Actually Make",
+    "meta_description": "The weirdest prop bets currently available. Culture, weather, politics, and things that shouldn't be markets but are.",
+    "canonical": "/weird-markets/weird-prop-bets/"
+  },
+  "hero_bet": {
+    "title": "Will an asteroid pass closer to Earth than the Moon this month?",
+    "payout": 25,
+    "quip": "The prop bet gods provide. We merely document.",
+    "tier": "yellow",
+    "url": "https://kalshi.com",
+    "category": "science"
+  },
+  "internal_links": [
+    {"text": "weird bets today", "url": "/weird-markets/"},
+    {"text": "today's best $1 bets", "url": "/"},
+    {"text": "what is a prediction market", "url": "/what-is-a-prediction-market/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Prediction markets turn every question into a bet. Every question. Want to know if it'll rain on Thursday? That's a market. Want to know if a specific celebrity will post on Instagram by Friday? That's a market too. Want to know if the stock market will move 3% in a single day? Also a market."
+    },
+    {
+      "type": "text",
+      "content": "The weirdest ones are the best. Here are the kinds of prop bets that shouldn't exist but absolutely do."
+    },
+    {
+      "type": "heading",
+      "content": "weather markets (the practical weird)"
+    },
+    {
+      "type": "text",
+      "content": "Will Phoenix hit 130°F before August 15? Will it snow in Las Vegas in 2026? Will the Atlantic hurricane season produce more than 20 named storms?"
+    },
+    {
+      "type": "text",
+      "content": "These feel like real insurance contracts until you realize someone's just sitting there betting against the laws of weather. A $1 return of $8 that it snows in Vegas is interesting because Vegas almost never snows — and yet every year, someone does bet it. Because every year, there's a tiny chance."
+    },
+    {
+      "type": "heading",
+      "content": "culture and entertainment markets (the viral weird)"
+    },
+    {
+      "type": "text",
+      "content": "Will Taylor Swift attend the next Super Bowl? Will a specific viral TikTok trend reach 1 billion views? Will a celebrity announce a surprise album this week?"
+    },
+    {
+      "type": "text",
+      "content": "These markets are populated by people who know way more about pop culture than they probably should. The odds move on rumors. A single celebrity Instagram post can swing prices 20%. This is where the crowd becomes a real-time culture scanner. If you bet that Taylor Swift shows up at the Super Bowl and the odds suddenly drop, it means the culture is already sensing it before the announcement."
+    },
+    {
+      "type": "heading",
+      "content": "economic and political markets (the serious weird)"
+    },
+    {
+      "type": "text",
+      "content": "Will the Fed cut rates by June? Will unemployment rise above 5%? Will a specific senator announce they won't seek re-election? Will a country impose new tariffs on US goods?"
+    },
+    {
+      "type": "text",
+      "content": "These markets are usually right about the direction of political or economic movement, but they're rarely right about timing. You can bet on something that's 'definitely happening' but it might happen six months later than the market expects. That's where money gets made and lost."
+    },
+    {
+      "type": "heading",
+      "content": "things that shouldn't be markets (the absurd weird)"
+    },
+    {
+      "type": "text",
+      "content": "Will SpaceX launch more rockets than anyone predicted? Will a specific sports team finish in the bottom 5? Will there be a news story about UFOs this week?"
+    },
+    {
+      "type": "text",
+      "content": "These are the markets that make you laugh. They exist. People trade them. Prices move based on news cycles and random events. A UFO story from a credible source can swing the odds of 'UFO news in May' by 30%. You can't predict that stuff. That's why it pays so much."
+    },
+    {
+      "type": "heading",
+      "content": "why weird props are the point"
+    },
+    {
+      "type": "text",
+      "content": "Prediction markets turn the questions nobody can answer into actual prices. 'Will something weird happen?' is a question people have always asked. Prediction markets just let you put a dollar on your guess and see what the crowd thinks."
+    },
+    {
+      "type": "text",
+      "content": "Most of these bets won't hit. That's fine. You're not betting your rent. You're getting entertainment out of watching something happen (or not happen) that you had a dollar on. If it hits, you have a story. If it doesn't, it was a dollar. That's the entire trade-off."
+    },
+    {
+      "type": "heading",
+      "content": "where to find them"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi updates their markets constantly. Politics markets, weather markets, economics markets, culture markets, all of it. Check back daily to see what new weirdness has been listed. Some markets resolve in hours. Some take weeks or months. The point is there's always something strange to bet on."
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets scans these markets every day and pulls out the weirdest, funniest, highest-payout ones. If you're wondering 'are there really prediction markets for THIS?', the answer is probably yes. And if there are, we'll be linking to them."
+    }
+  ],
+  "compliance": "Entertainment framing. Markets listed are illustrative examples of the types of markets available on Kalshi. Actual market availability, pricing, and odds vary. Past results do not predict future outcomes. Verify market details before trading.",
+  "publish_date": "2026-04-28",
+  "cluster": "Weird Bets",
+  "priority": 84
+}

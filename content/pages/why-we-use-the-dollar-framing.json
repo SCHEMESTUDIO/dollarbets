@@ -1,0 +1,97 @@
+{
+  "slug": "why-we-use-the-dollar-framing",
+  "format": "explainer",
+  "seo": {
+    "title": "Why Dollar Bets Uses the $1 Framing | Dollar Bets",
+    "h1": "Why We Use the $1 Framing",
+    "meta_description": "Why every bet on Dollar Bets is framed as what $1 returns. It's not a gimmick — it's a philosophy about stakes.",
+    "canonical": "/why-we-use-the-dollar-framing/"
+  },
+  "hero_bet": {
+    "title": "Same bet, two ways: $1 returns $33 vs 3% implied probability",
+    "payout": 33,
+    "quip": "A dollar you can afford to lose. That's the whole point.",
+    "tier": "orange",
+    "url": "https://kalshi.com",
+    "category": "culture"
+  },
+  "internal_links": [
+    {"text": "about Dollar Bets", "url": "/about/"},
+    {"text": "responsible gambling resources", "url": "/responsible-gambling/"},
+    {"text": "today's best $1 bets", "url": "/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Every market on Dollar Bets is framed as what $1 could return. We don't show you '%' odds or contract prices or implied probability graphs. We show you: put a buck on it, here's what you get back if you win."
+    },
+    {
+      "type": "text",
+      "content": "This isn't a brand gimmick. It's a philosophy. Here's why we do it."
+    },
+    {
+      "type": "heading",
+      "content": "it makes prediction markets accessible"
+    },
+    {
+      "type": "text",
+      "content": "Prediction market terminology is intimidating. 'Cent price.' 'Implied probability.' 'Contracts.' If you're new, it feels like everyone knows the secret language except you. The $1 framing strips that away. Anyone can understand what '$1 returns $50' means. You don't need to think about what a 2-cent contract really is. You just know the payout."
+    },
+    {
+      "type": "heading",
+      "content": "it keeps stakes tiny"
+    },
+    {
+      "type": "text",
+      "content": "This is the big one. The dollar is a unit that makes sense. It's not too much to laugh about losing. It's not so little that it feels pointless. On Kalshi, you could technically bet $0.01, but that creates a psychological weirdness. On the other end, if someone says 'you could win $5000,' the stakes sound astronomical."
+    },
+    {
+      "type": "text",
+      "content": "The dollar reframes the entire transaction. You're not investing. You're not trying to get rich. You're buying a story. A $1 story about what might happen. Most of them won't hit. That's fine. It was a dollar. It was fun. You're not in a hole."
+    },
+    {
+      "type": "heading",
+      "content": "it's a common unit"
+    },
+    {
+      "type": "text",
+      "content": "Prediction markets have thousands of different events. Weather markets. Politics. Crypto. Sports. Cultural stuff. They all have different price ranges. The $1 framing lets you compare across all of them with one constant. 'This market pays $15 and this one pays $200' tells you immediately which one is riskier. Percentages don't do that as clearly."
+    },
+    {
+      "type": "heading",
+      "content": "it's philosophically honest"
+    },
+    {
+      "type": "text",
+      "content": "Most longshots won't hit. That's not a bug. That's the feature. The markets Dollar Bets shows you are priced that way for a reason — the crowd thinks they're unlikely. So when we frame a bet as '$1 returns $500,' we're being honest about what you're doing: you're buying an extremely cheap ticket to an extremely unlikely event. The dollar is the price of that ticket. The $500 is what makes the story worth a dollar."
+    },
+    {
+      "type": "text",
+      "content": "If we showed you '%' odds and probability graphs, it would feel clinical. Like you should know better. Like only experts should be playing. The $1 framing says: everyone knows $1 is small. Everyone knows longshots are unlikely. The entire setup is built for people who are okay with losing a dollar for the chance at an interesting story."
+    },
+    {
+      "type": "heading",
+      "content": "it's entertainment, not income"
+    },
+    {
+      "type": "text",
+      "content": "The word 'betting' carries baggage. People think of casinos. Addiction. Losses spiraling. The $1 framing defuses that. It recontextualizes the whole thing. You don't go to a sportsbook for entertainment. You go to make money. But a dollar? A dollar is entertainment. It's the price of admission to watch something absurd maybe happen."
+    },
+    {
+      "type": "text",
+      "content": "If you're ever thinking about prediction markets as a way to make money, you're playing a different game. The stakes change. The math changes. The whole thing stops being fun. That's when you need to walk away. The $1 framing is designed to keep that from happening — to keep the emphasis on the story, not the money."
+    },
+    {
+      "type": "heading",
+      "content": "the color codes"
+    },
+    {
+      "type": "text",
+      "content": "Once you understand the $1 framing, the color codes (🟩 respectable, 🟨 alive, 🟧 heater, 🟥 filthy, 🟪 generational) tell you the whole story. A green-tier bet ($1–$10) is an okay bet. An orange-tier bet ($51–$100) is a longshot. A purple-tier bet ($500+) is science fiction. You can see the odds ladder immediately without doing any math."
+    }
+  ],
+  "compliance": "Brand/trust page. The $1 framing is illustrative and does not represent actual betting minimums on Kalshi or other platforms. Betting involves risk of loss.",
+  "publish_date": "2026-04-28",
+  "cluster": "Responsible Betting",
+  "priority": 53
+}

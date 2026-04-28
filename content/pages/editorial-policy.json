@@ -1,0 +1,88 @@
+{
+  "slug": "editorial-policy",
+  "format": "explainer",
+  "seo": {
+    "title": "Editorial Policy — How We Make Content | Dollar Bets",
+    "h1": "Editorial Policy",
+    "meta_description": "How Dollar Bets picks markets, makes content, uses AI tools, and keeps things honest. Our editorial standards, author info, and corrections policy.",
+    "canonical": "/editorial-policy/"
+  },
+  "internal_links": [
+    {"text": "about Dollar Bets", "url": "/about/"},
+    {"text": "affiliate disclosure", "url": "/affiliate-disclosure/"},
+    {"text": "responsible gambling", "url": "/responsible-gambling/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Dollar Bets is a daily editorial board, not a sportsbook, not a tout sheet, and not an algorithm pretending to be a person. Every page on this site reflects human editorial judgment. Here's how that works."
+    },
+    {
+      "type": "heading",
+      "content": "who writes this"
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets is written and edited by <a href='https://linkedin.com/in/jameslamon' target='_blank'>James Lamon</a>, founder and editor. Previously EVP Content & Operations at Footballco (GOAL, World Soccer) and Head of Content Europe at BuzzFeed, where he spent seven years building editorial and branded content at scale. He is not a licensed oddsmaker, professional gambler, financial adviser, or prediction-market analyst. He is a content person who finds these markets genuinely fascinating and thinks the $1 framing makes them accessible to everyone."
+    },
+    {
+      "type": "heading",
+      "content": "how we pick markets"
+    },
+    {
+      "type": "text",
+      "content": "Every day, Dollar Bets scans thousands of live markets on Kalshi — a US-regulated prediction market exchange — and selects roughly ten that are actually interesting to a normal human being. Selection is based on editorial judgment: Is it funny? Is it culturally relevant? Is the payout absurd enough to make someone lean in? Is there a story behind it? Markets are not selected based on likelihood of winning. Most of the markets we feature are longshots. That's the point."
+    },
+    {
+      "type": "heading",
+      "content": "how we use AI tools"
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets uses software and AI tools to help monitor markets, organize research, draft summaries, and format betting-slip cards. Every published page is reviewed, edited, and approved by a human editor. Our market selections and quips reflect editorial judgment, not automated betting advice. We use AI the way a newsroom uses wire services — as inputs to a human editorial process, not as a replacement for it."
+    },
+    {
+      "type": "heading",
+      "content": "what we do not do"
+    },
+    {
+      "type": "list",
+      "content": [
+        "We do not give betting advice. We curate markets for entertainment.",
+        "We do not claim any bet is likely to win. Longshots are longshots for a reason.",
+        "We do not fabricate odds, search data, or market statistics.",
+        "We do not use language like 'guaranteed,' 'lock,' 'risk-free,' or 'can't lose.'",
+        "We do not pretend to have expertise we do not have.",
+        "We do not publish content designed to manipulate search rankings without providing genuine value to readers."
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "affiliate links"
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets contains affiliate links to Kalshi. If you click through and trade, we may earn a commission. This does not affect which markets we feature or how we describe them. Our full affiliate disclosure is <a href='/affiliate-disclosure/'>here</a>."
+    },
+    {
+      "type": "heading",
+      "content": "corrections and updates"
+    },
+    {
+      "type": "text",
+      "content": "Markets move. Facts change. If something on this site is wrong, outdated, or misleading, we want to fix it. Email <a href='mailto:james.lamon@gmail.com'>james.lamon@gmail.com</a> and we'll correct it. Content pages display a last-updated date so you know when they were last reviewed."
+    },
+    {
+      "type": "heading",
+      "content": "responsible gambling"
+    },
+    {
+      "type": "text",
+      "content": "Betting involves real money and real risk. Dollar Bets encourages small-stake, entertainment-focused participation. Never bet more than you can afford to lose. If gambling is causing problems in your life, visit our <a href='/responsible-gambling/'>responsible gambling resources</a> page."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial and entertainment site. All market links are affiliate links to Kalshi. Not financial or betting advice.",
+  "publish_date": "2026-04-28",
+  "cluster": "Trust Pages",
+  "priority": 60
+}
