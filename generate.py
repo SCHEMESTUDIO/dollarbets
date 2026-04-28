@@ -152,12 +152,16 @@ SHARED_CSS = """
       line-height: 2.2;
     }
 
-    .nav a {
-      color: #6b5744;
-      text-decoration: none;
+    .nav a, .nav .active {
+      display: inline-block;
       margin-right: 14px;
       padding: 2px 0;
       border-bottom: 1.5px solid transparent;
+    }
+
+    .nav a {
+      color: #6b5744;
+      text-decoration: none;
       transition: all 0.15s ease;
     }
 
@@ -170,9 +174,7 @@ SHARED_CSS = """
     .nav .active {
       color: #e8642c;
       font-weight: 700;
-      border-bottom: 1.5px solid #e8642c;
-      padding: 2px 0;
-      margin-right: 14px;
+      border-bottom-color: #e8642c;
     }
 
     /* === LEGEND (tier pills) === */
@@ -454,24 +456,6 @@ SHARED_CSS = """
     /* === SIGNUP === */
     .signup {
       margin: 28px 0;
-      padding: 20px;
-      border: 1.5px solid #e8cdb5;
-      border-radius: 8px;
-      background: #ffffff;
-    }
-
-    .signup-header {
-      font-family: 'Georgia', 'Times New Roman', serif;
-      font-size: 16px;
-      font-weight: 700;
-      color: #e8642c;
-      margin-bottom: 4px;
-    }
-
-    .signup-subtext {
-      font-size: 11px;
-      color: #a08b77;
-      margin-bottom: 12px;
     }
 
     .signup iframe {
@@ -525,8 +509,6 @@ SHARED_CSS = """
 
 SIGNUP_HTML = """
     <div class="signup">
-      <div class="signup-header">get the daily board in your inbox</div>
-      <div class="signup-subtext">free &middot; one email per day &middot; no spam</div>
       <iframe src="https://subscribe-forms.beehiiv.com/78789979-d89a-4de1-adb9-cb88a40ce0dd" scrolling="no"></iframe>
       <noscript><div class="signup-fallback" style="display:block"><p><a href="https://subscribe-forms.beehiiv.com/78789979-d89a-4de1-adb9-cb88a40ce0dd" target="_blank">subscribe here</a></p></div></noscript>
     </div>
