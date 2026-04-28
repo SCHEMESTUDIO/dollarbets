@@ -27,17 +27,14 @@ DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "boa
 # Replace with your real GA4 measurement ID after setup
 GA4_ID = "G-W2V9QGFCM5"
 
-# Kalshi referral tracking
-KALSHI_REFERRAL = "e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
-
-def kalshi_ref_url(url):
-    """Append referral parameter to any Kalshi URL that doesn't already have one."""
-    if not url or "kalshi.com" not in url:
-        return url
-    if "referral=" in url:
-        return url
-    separator = "&" if "?" in url else "?"
-    return f"{url}{separator}referral={KALSHI_REFERRAL}"
+# Link resolution — uses /go/ redirects for all market links
+# The /go/ serverless function handles affiliate routing based on user location
+def market_link(market_ticker):
+    """Build a /go/ redirect link for a market."""
+    if not market_ticker:
+        return "#"
+    # URL-encode special characters if needed
+    return f"/go/{market_ticker}/"
 
 
 # ── Analytics snippet ───────────────────────────────────────
@@ -53,9 +50,9 @@ def analytics_head():
     function gtag(){{dataLayer.push(arguments);}}
     gtag('js', new Date());
     gtag('config', '{GA4_ID}');
-    // Track outbound affiliate clicks
+    // Track market link clicks (via /go/ redirects)
     document.addEventListener('click', function(e) {{
-      var link = e.target.closest('a[href^="https://kalshi.com"]');
+      var link = e.target.closest('a[href^="/go/"]');
       if (link) {{
         gtag('event', 'click', {{
           event_category: 'outbound',
@@ -664,7 +661,19 @@ def render_bet_card(m):
     payout_str = format_payout(m.get("payout", 0))
     title = m.get("title", "")
     quip = m.get("quip", "")
-    url = kalshi_ref_url(m.get("url", "#"))
+    # Use market ticker for /go/ link (fallback to old url field for backward compatibility)
+    ticker = m.get("ticker", "")
+    if ticker:
+        url = market_link(ticker)
+    else:
+        # Fallback: extract ticker from old-format URL
+        old_url = m.get("url", "")
+        if old_url and "kalshi.com" in old_url:
+            # Extract ticker from URL like https://kalshi.com/markets/KXGROK
+            ticker = old_url.split("/")[-1].split("?")[0]
+            url = market_link(ticker) if ticker else "#"
+        else:
+            url = "#"
 
     # Escape for JS data attributes
     share_title = title.replace('"', '&quot;').replace("'", "&#39;")
@@ -1216,7 +1225,12 @@ def generate_market_autopsies(all_bets):
         quip = bet.get("quip", "")
         category = bet.get("category", "unknown")
         date_featured = bet.get("date_featured", "unknown")
-        url = kalshi_ref_url(bet.get("url", "#"))
+        # Build /go/ link for market
+        ticker = bet.get("ticker", "")
+        if ticker:
+            url = market_link(ticker)
+        else:
+            url = "#"
 
         body = f"""    <h1 class="page-title">market autopsy: {title}</h1>
     <div class="date-line" style="margin-bottom:14px">featured {date_featured} · {category}</div>
@@ -1590,38 +1604,8 @@ def main():
     generate_sitemap(sitemap_pages)
     generate_robots_txt()
 
-    # Post-process: ensure ALL Kalshi URLs in output HTML have referral parameter
-    print("[generate] Post-processing: adding referral parameter to all Kalshi URLs...")
-    import re as _re
-    _ref_pattern = _re.compile(r'https://kalshi\.com(/[^"&\s]*?)(?=")')
-    def _add_referral(match):
-        url = match.group(0)
-        if "referral=" in url:
-            return url
-        sep = "&" if "?" in url else "?"
-        return f"{url}{sep}referral={KALSHI_REFERRAL}"
-    _kalshi_href_pattern = _re.compile(r'(href="|data-url=")https://kalshi\.com([^"]*)"')
-    def _fix_href(match):
-        prefix = match.group(1)
-        url = f"https://kalshi.com{match.group(2)}"
-        if "referral=" in url:
-            return f'{prefix}{url}"'
-        sep = "&" if "?" in url else "?"
-        return f'{prefix}{url}{sep}referral={KALSHI_REFERRAL}"'
-    _fixed_count = 0
-    for root, dirs, files in os.walk(OUTPUT_DIR):
-        for fname in files:
-            if not fname.endswith(".html"):
-                continue
-            fpath = os.path.join(root, fname)
-            with open(fpath, "r") as f:
-                content = f.read()
-            new_content = _kalshi_href_pattern.sub(_fix_href, content)
-            if new_content != content:
-                with open(fpath, "w") as f:
-                    f.write(new_content)
-                _fixed_count += 1
-    print(f"[generate] Referral URLs: patched {_fixed_count} files")
+    # Note: referral URL handling is now managed by /go/ serverless redirect
+    # No post-processing needed
 
     print(f"[generate] Done. {len(sitemap_pages)} pages in sitemap.")
 

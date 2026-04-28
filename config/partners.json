@@ -1,0 +1,82 @@
+{
+  "partners": [
+    {
+      "slug": "kalshi",
+      "display_name": "Kalshi",
+      "base_url": "https://kalshi.com/markets",
+      "affiliate_id": "e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "tracking_param_name": "referral",
+      "enabled": true,
+      "allowed_countries": "all",
+      "blocked_countries": [
+        "comment: AZ, IL, MA, MD, MI, MT, NV, OH are blocked US states"
+      ],
+      "min_age": 21,
+      "requires_disclaimer": true,
+      "priority_rank": 1,
+      "market_url_format": "{base_url}/{ticker}?{tracking_param_name}={affiliate_id}"
+    },
+    {
+      "slug": "polymarket",
+      "display_name": "Polymarket",
+      "base_url": "https://polymarket.com/event",
+      "affiliate_id": "",
+      "tracking_param_name": "ref",
+      "enabled": false,
+      "allowed_countries": "all",
+      "blocked_countries": [
+        "NL",
+        "PL",
+        "FR",
+        "BE",
+        "CH",
+        "PT",
+        "HU",
+        "IT",
+        "UA",
+        "RU",
+        "IR",
+        "KP",
+        "CU",
+        "SY",
+        "BY",
+        "VE",
+        "MM",
+        "SG",
+        "AR"
+      ],
+      "min_age": 18,
+      "requires_disclaimer": true,
+      "priority_rank": 2,
+      "market_url_format": "{base_url}/{market_id}?{tracking_param_name}={affiliate_id}"
+    },
+    {
+      "slug": "coinbase",
+      "display_name": "Coinbase International",
+      "base_url": "https://www.coinbase.com/intx/markets",
+      "affiliate_id": "",
+      "tracking_param_name": "ref",
+      "enabled": false,
+      "allowed_countries": "all",
+      "blocked_countries": [],
+      "min_age": 18,
+      "requires_disclaimer": true,
+      "priority_rank": 3,
+      "market_url_format": "{base_url}/{market_id}?{tracking_param_name}={affiliate_id}"
+    },
+    {
+      "slug": "sportsbook",
+      "display_name": "Sportsbook",
+      "base_url": "https://www.example.com/markets",
+      "affiliate_id": "",
+      "tracking_param_name": "ref",
+      "enabled": false,
+      "allowed_countries": "all",
+      "blocked_countries": [],
+      "min_age": 21,
+      "requires_disclaimer": true,
+      "priority_rank": 4,
+      "market_url_format": "{base_url}/{market_id}?{tracking_param_name}={affiliate_id}"
+    }
+  ]
+}

@@ -4,7 +4,8 @@
   "trailingSlash": true,
   "rewrites": [
     { "source": "/api/login", "destination": "/api/login.py" },
-    { "source": "/api/board", "destination": "/api/board.py" }
+    { "source": "/api/board", "destination": "/api/board.py" },
+    { "source": "/go/:slug", "destination": "/api/go.py?market=:slug" }
   ],
   "headers": [
     {
