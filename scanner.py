@@ -188,21 +188,37 @@ def normalize_poly_market(pm):
     if payout < 1.5:
         return None
 
-    # Volume
+    # Volume — require minimum to filter out dead/spam markets
     try:
         volume = float(pm.get("volume") or pm.get("volumeNum") or 0)
     except (ValueError, TypeError):
         volume = 0
 
-    # Build slug URL
-    slug = pm.get("slug") or pm.get("conditionId") or ""
-    # Polymarket event URL: use groupSlug if available, else slug
+    if volume < 1000:
+        return None  # Skip low-volume markets
+
+    # Build slug URL — ONLY use groupSlug (event-level pages)
+    # Individual market slugs often produce broken URLs (sub-contracts
+    # like "cl-settle-63-70-jun-2026" don't have standalone pages)
     group_slug = pm.get("groupSlug") or ""
-    if group_slug:
-        market_url = f"https://polymarket.com/event/{group_slug}"
-    elif slug:
-        market_url = f"https://polymarket.com/event/{slug}"
-    else:
+    if not group_slug:
+        return None  # Skip markets without a valid event page
+
+    market_url = f"https://polymarket.com/event/{group_slug}"
+
+    # Filter out sub-markets: commodity contracts, temperature bins,
+    # settlement ranges, etc. — these are parts of larger events
+    # and their questions don't make sense as standalone bets
+    q_lower = question.lower()
+    sub_market_patterns = [
+        "settle above", "settle below", "settle between",
+        "highest temperature", "lowest temperature",
+        "price of", "price on", "close above", "close below",
+        "fail by", "go bankrupt", "basis points",
+        "gdp growth", "inflation rate", "interest rate",
+        "yield curve", "treasury",
+    ]
+    if any(pat in q_lower for pat in sub_market_patterns):
         return None
 
     # Map Polymarket tags to Kalshi-style categories
@@ -261,7 +277,7 @@ def normalize_poly_market(pm):
     quip = generate_quip(question, category)
 
     return {
-        "ticker": pm.get("conditionId") or slug,
+        "ticker": pm.get("conditionId") or group_slug,
         "title": question,
         "subtitle": "",
         "payout": payout,
@@ -1239,6 +1255,7 @@ def build_board(events, poly_candidates=None):
             "close_time": best_market.get("close_time") or best_market.get("expiration_time", ""),
             "url": kalshi_url(event.get('series_ticker', event_ticker)),
             "score": editorial_score,
+            "_source": "kalshi",
         })
 
     print(f"[scanner] {len(candidates)} Kalshi candidates with valid prices", file=sys.stderr)
@@ -1289,33 +1306,43 @@ def build_board(events, poly_candidates=None):
     shuffled_pool.extend(remaining)
 
     # Step 4: Pick board with VARIETY enforcement
-    # Target mix: 3 green, 2 yellow, 2 orange, 1 red, 1 purple = 9 total
-    # Two passes: first fill targets, then backfill gaps from any tier
+    # Target mix: 3 green, 3 yellow, 2 orange, 1 red, 1 purple = 10 total
+    # Three passes: fill tier targets, then backfill gaps, both with platform balance
     # - Category caps (max 2 per Kalshi category — no "7 crypto ticks")
+    # - Platform balance (max 7 from either platform — guarantees 30%+ mix)
     # - Quip dedup
     CATEGORY_CAP = 2
+    PLATFORM_CAP = 7  # max from any single platform (ensures at least 30% mix)
 
     board = []
     used_quips = set()
     tier_counts = {"green": 0, "yellow": 0, "orange": 0, "red": 0, "purple": 0}
     tier_targets = {"green": 3, "yellow": 3, "orange": 2, "red": 1, "purple": 1}
     category_counts = {}
+    platform_counts = {"kalshi": 0, "polymarket": 0}
     used_tickers = set()
 
-    # Pass 1: fill each tier up to its target
-    for m in shuffled_pool:
+    def _can_add(m, enforce_tier_target=True):
+        """Check if a market can be added to the board."""
         tier = m["tier"]
         cat = (m.get("category") or "other").lower().strip()
+        plat = m.get("platform") or m.get("_source") or "kalshi"
 
-        # Skip if this tier is already at target
-        if tier_counts.get(tier, 0) >= tier_targets.get(tier, 1):
-            continue
-
-        # Enforce category diversity
+        if enforce_tier_target:
+            if tier_counts.get(tier, 0) >= tier_targets.get(tier, 1):
+                return False
         if category_counts.get(cat, 0) >= CATEGORY_CAP:
-            continue
+            return False
+        if platform_counts.get(plat, 0) >= PLATFORM_CAP:
+            return False
+        return True
 
-        # Ensure unique quip
+    def _add_to_board(m):
+        """Add a market to the board and update counters."""
+        tier = m["tier"]
+        cat = (m.get("category") or "other").lower().strip()
+        plat = m.get("platform") or m.get("_source") or "kalshi"
+
         quip = m["quip"]
         if quip in used_quips:
             quip = _reroll_quip(m["title"], m["category"], used_quips)
@@ -1326,7 +1353,15 @@ def build_board(events, poly_candidates=None):
         used_tickers.add(m.get("ticker"))
         tier_counts[tier] = tier_counts.get(tier, 0) + 1
         category_counts[cat] = category_counts.get(cat, 0) + 1
+        platform_counts[plat] = platform_counts.get(plat, 0) + 1
 
+    # Pass 1: fill each tier up to its target
+    for m in shuffled_pool:
+        if m.get("ticker") in used_tickers:
+            continue
+        if not _can_add(m, enforce_tier_target=True):
+            continue
+        _add_to_board(m)
         if len(board) >= TARGET_PICKS:
             break
 
@@ -1335,25 +1370,13 @@ def build_board(events, poly_candidates=None):
         for m in shuffled_pool:
             if m.get("ticker") in used_tickers:
                 continue
-            tier = m["tier"]
-            cat = (m.get("category") or "other").lower().strip()
-
-            if category_counts.get(cat, 0) >= CATEGORY_CAP:
+            if not _can_add(m, enforce_tier_target=False):
                 continue
-
-            quip = m["quip"]
-            if quip in used_quips:
-                quip = _reroll_quip(m["title"], m["category"], used_quips)
-                m["quip"] = quip
-            used_quips.add(quip)
-
-            board.append(m)
-            used_tickers.add(m.get("ticker"))
-            tier_counts[tier] = tier_counts.get(tier, 0) + 1
-            category_counts[cat] = category_counts.get(cat, 0) + 1
-
+            _add_to_board(m)
             if len(board) >= TARGET_PICKS:
                 break
+
+    print(f"[scanner] Board platform mix: {platform_counts}", file=sys.stderr)
 
     # Sort: smallest to largest payout
     board.sort(key=lambda x: x["payout"])
