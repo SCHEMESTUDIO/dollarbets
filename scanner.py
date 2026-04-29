@@ -351,6 +351,25 @@ def _poly_tags_to_category(tags, question):
     return "Other"
 
 
+# ── URL validation ──────────────────────────────────────────
+
+def _validate_url(url):
+    """Check if a URL returns a valid page (not 404).
+    Uses a HEAD request for speed. Returns True if reachable."""
+    try:
+        req = urllib.request.Request(url, method="HEAD", headers={
+            "User-Agent": "DollarBets/1.0"
+        })
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            return resp.status < 400
+    except urllib.error.HTTPError as e:
+        # 404, 403, etc. = dead link
+        return False
+    except (urllib.error.URLError, OSError, TimeoutError):
+        # Network error — give benefit of the doubt
+        return True
+
+
 # ── Payout calculation ───────────────────────────────────────
 
 def calc_payout(market):
@@ -1408,7 +1427,41 @@ def build_board(events, poly_candidates=None):
             if len(board) >= TARGET_PICKS:
                 break
 
-    print(f"[scanner] Board platform mix: {platform_counts}", file=sys.stderr)
+    print(f"[scanner] Board platform mix (pre-validation): {platform_counts}", file=sys.stderr)
+
+    # Step 5: Validate Polymarket URLs — replace any 404s with next Kalshi candidate
+    validated_board = []
+    kalshi_backfill = [m for m in shuffled_pool
+                       if m.get("ticker") not in used_tickers
+                       and (m.get("platform") or m.get("_source") or "kalshi") == "kalshi"]
+
+    backfill_idx = 0
+    for m in board:
+        plat = m.get("platform") or m.get("_source") or "kalshi"
+        if plat == "polymarket":
+            url = m.get("url", "")
+            if url and not _validate_url(url):
+                print(f"[scanner:validate] DEAD LINK: {url} — swapping for Kalshi", file=sys.stderr)
+                # Swap in next available Kalshi candidate
+                while backfill_idx < len(kalshi_backfill):
+                    replacement = kalshi_backfill[backfill_idx]
+                    backfill_idx += 1
+                    quip = replacement["quip"]
+                    if quip in used_quips:
+                        quip = _reroll_quip(replacement["title"], replacement["category"], used_quips)
+                        replacement["quip"] = quip
+                    used_quips.add(quip)
+                    validated_board.append(replacement)
+                    break
+                continue
+        validated_board.append(m)
+
+    board = validated_board
+
+    # Recount after validation
+    final_kalshi = sum(1 for m in board if (m.get("platform") or m.get("_source") or "kalshi") == "kalshi")
+    final_poly = sum(1 for m in board if (m.get("platform") or m.get("_source") or "kalshi") == "polymarket")
+    print(f"[scanner] Board platform mix (final): kalshi={final_kalshi}, polymarket={final_poly}", file=sys.stderr)
 
     # Sort: smallest to largest payout
     board.sort(key=lambda x: x["payout"])
@@ -1439,13 +1492,17 @@ def main():
         events = fetch_all_events()
 
         print("[scanner] Fetching markets from Polymarket...", file=sys.stderr)
-        poly_raw = fetch_polymarket_markets()
         poly_candidates = []
-        for pm in poly_raw:
-            candidate = normalize_poly_market(pm)
-            if candidate:
-                poly_candidates.append(candidate)
-        print(f"[scanner:poly] {len(poly_candidates)} valid Polymarket candidates", file=sys.stderr)
+        try:
+            poly_raw = fetch_polymarket_markets()
+            for pm in poly_raw:
+                candidate = normalize_poly_market(pm)
+                if candidate:
+                    poly_candidates.append(candidate)
+            print(f"[scanner:poly] {len(poly_candidates)} valid Polymarket candidates", file=sys.stderr)
+        except Exception as e:
+            print(f"[scanner:poly] FAILED — falling back to Kalshi only: {e}", file=sys.stderr)
+            poly_candidates = []
 
         if not events and not poly_candidates:
             print("[scanner] No markets from either platform, falling back to sample", file=sys.stderr)

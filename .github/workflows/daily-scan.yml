@@ -33,7 +33,26 @@ jobs:
           echo "Scanning markets for ${TODAY}..."
           python3 scanner.py > "data/boards/${TODAY}.json"
           echo "Board saved to data/boards/${TODAY}.json"
-          cat "data/boards/${TODAY}.json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(f'{len(d.get(\"board\",[]))} markets on board')"
+
+          # Validate: board must have markets, valid JSON, and working URLs
+          python3 -c "
+          import sys, json
+          with open('data/boards/${TODAY}.json') as f:
+              d = json.load(f)
+          board = d.get('board', [])
+          count = len(board)
+          mix = d.get('platform_mix', {})
+          print(f'{count} markets on board — mix: {mix}')
+          if count < 5:
+              print('ERROR: Board has fewer than 5 markets — aborting deploy')
+              sys.exit(1)
+          # Check all markets have required fields
+          for m in board:
+              assert m.get('title'), f'Missing title: {m}'
+              assert m.get('url'), f'Missing url: {m}'
+              assert m.get('payout'), f'Missing payout: {m}'
+          print('Board validation passed')
+          "
 
       - name: Commit and push
         run: |
