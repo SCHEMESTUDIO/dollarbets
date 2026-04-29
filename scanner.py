@@ -210,14 +210,15 @@ def normalize_poly_market(pm):
     if volume < 1000:
         return None  # Skip low-volume markets
 
-    # Build slug URL — ONLY use groupSlug (event-level pages)
-    # Individual market slugs often produce broken URLs (sub-contracts
-    # like "cl-settle-63-70-jun-2026" don't have standalone pages)
+    # Build URL — use groupSlug for multi-outcome events, slug for standalone
     group_slug = pm.get("groupSlug") or ""
-    if not group_slug:
-        return None  # Skip markets without a valid event page
-
-    market_url = f"https://polymarket.com/event/{group_slug}"
+    slug = pm.get("slug") or ""
+    if group_slug:
+        market_url = f"https://polymarket.com/event/{group_slug}"
+    elif slug:
+        market_url = f"https://polymarket.com/event/{slug}"
+    else:
+        return None
 
     # Filter out sub-markets: commodity contracts, temperature bins,
     # settlement ranges, etc. — these are parts of larger events
@@ -290,7 +291,7 @@ def normalize_poly_market(pm):
     quip = generate_quip(question, category)
 
     return {
-        "ticker": pm.get("conditionId") or group_slug,
+        "ticker": pm.get("conditionId") or group_slug or slug,
         "title": question,
         "subtitle": "",
         "payout": payout,
