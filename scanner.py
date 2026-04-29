@@ -111,7 +111,7 @@ def _poly_api_get(path, params=None):
 
     for attempt in range(3):
         try:
-            with urllib.request.urlopen(req, timeout=15) as resp:
+            with urllib.request.urlopen(req, timeout=20) as resp:
                 return json.loads(resp.read().decode())
         except urllib.error.HTTPError as e:
             if e.code == 429 and attempt < 2:
@@ -121,28 +121,40 @@ def _poly_api_get(path, params=None):
                 continue
             print(f"[scanner:poly] API error: {e} ({url})", file=sys.stderr)
             return None
-        except urllib.error.URLError as e:
-            print(f"[scanner:poly] API error: {e} ({url})", file=sys.stderr)
+        except (urllib.error.URLError, OSError, TimeoutError) as e:
+            if attempt < 2:
+                print(f"[scanner:poly] Timeout/error (attempt {attempt+1}): {e}", file=sys.stderr)
+                time.sleep(2)
+                continue
+            print(f"[scanner:poly] API error after retries: {e} ({url})", file=sys.stderr)
             return None
 
 
-def fetch_polymarket_markets():
+def fetch_polymarket_markets(max_markets=2000):
     """Fetch active markets from Polymarket's Gamma API.
 
-    Returns a list of normalized market dicts ready for editorial scoring.
-    Polymarket prices are 0-1 floats (same as Kalshi dollar strings).
+    Caps at max_markets to avoid timeouts and excessive API calls.
+    Polymarket has 10,000+ markets — we only need the most liquid ones.
+    Sorted by volume descending so we get the best markets first.
     """
     all_markets = []
     offset = 0
     limit = 100
 
-    while True:
-        data = _poly_api_get("/markets", {
-            "active": "true",
-            "closed": "false",
-            "limit": str(limit),
-            "offset": str(offset),
-        })
+    while len(all_markets) < max_markets:
+        try:
+            data = _poly_api_get("/markets", {
+                "active": "true",
+                "closed": "false",
+                "limit": str(limit),
+                "offset": str(offset),
+                "order": "volume",
+                "ascending": "false",
+            })
+        except Exception as e:
+            print(f"[scanner:poly] Fetch error at offset {offset}: {e}", file=sys.stderr)
+            break
+
         if not data or not isinstance(data, list):
             break
 
@@ -154,6 +166,7 @@ def fetch_polymarket_markets():
         offset += limit
         time.sleep(0.2)  # respect rate limits
 
+    print(f"[scanner:poly] Fetched {len(all_markets)} markets (cap: {max_markets})", file=sys.stderr)
     return all_markets
 
 
