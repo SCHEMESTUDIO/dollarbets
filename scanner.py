@@ -234,16 +234,26 @@ def normalize_poly_market(pm):
         "yield curve", "treasury", "selic rate", "fed funds",
         "no change in the", "rate cut", "rate hike",
         "valuation be between", "valuation be above", "valuation be below",
+        "market cap", "revenue be", "earnings per share",
         # Temperature/weather sub-markets
         "highest temperature", "lowest temperature",
         "temperature in", "temperature on",
+        "precipitation", "rainfall", "snowfall",
+        "mm of rain", "mm of snow", "inches of rain", "inches of snow",
+        "millimeters", "wind speed",
         # Range buckets (multi-outcome sub-markets)
         "be between", "be above $", "be below $",
         "between $", "above $", "below $",
         "more than $", "less than $", "at least $",
+        "have between", "have more than", "have less than",
+        "have above", "have below",
         # Market structure jargon
         "quarterly", "year-over-year", "seasonally adjusted",
         "benchmark", "fiscal", "monetary", "regulatory",
+        # Political sub-markets (individual seat/district outcomes)
+        "democratic party win the", "republican party win the",
+        "win the house seat", "win the senate seat",
+        "congressional district",
     ]
     if any(pat in q_lower for pat in sub_market_patterns):
         return None
@@ -251,6 +261,10 @@ def normalize_poly_market(pm):
     # Filter out range-bucket questions: "Will X be between 1.5T and 1.75T?"
     # These are individual outcomes of multi-outcome events
     if re.search(r'between\s+[\d$£€]+.*and\s+[\d$£€]+', q_lower):
+        return None
+
+    # Filter out measurement-range questions: "150-160mm", "63-70 degrees"
+    if re.search(r'\d+-\d+\s*(mm|cm|°|degrees|inches|mph|kmh)', q_lower):
         return None
 
     # Map Polymarket tags to Kalshi-style categories
@@ -354,20 +368,77 @@ def _poly_tags_to_category(tags, question):
 # ── URL validation ──────────────────────────────────────────
 
 def _validate_url(url):
-    """Check if a URL returns a valid page (not 404).
-    Uses a HEAD request for speed. Returns True if reachable."""
+    """Check if a URL returns a valid page.
+
+    For Polymarket, uses the Gamma API because their SPA returns
+    HTTP 200 for ALL routes (even nonexistent ones).
+    For other platforms, uses a HEAD request.
+    """
+    if "polymarket.com/event/" in url:
+        return _validate_polymarket_url(url)
+
+    # Non-Polymarket: HEAD request
     try:
         req = urllib.request.Request(url, method="HEAD", headers={
             "User-Agent": "DollarBets/1.0"
         })
         with urllib.request.urlopen(req, timeout=8) as resp:
             return resp.status < 400
-    except urllib.error.HTTPError as e:
-        # 404, 403, etc. = dead link
+    except urllib.error.HTTPError:
         return False
     except (urllib.error.URLError, OSError, TimeoutError):
-        # Network error — give benefit of the doubt
-        return True
+        return True  # Network error — benefit of the doubt
+
+
+def _validate_polymarket_url(url):
+    """Validate a Polymarket event URL via the Gamma API.
+
+    Polymarket is a React SPA — HEAD/GET requests return 200 for
+    every route, even pages that show "not found" client-side.
+    The only reliable check is to verify the slug exists in their API.
+    """
+    match = re.search(r'polymarket\.com/event/([^/?#]+)', url)
+    if not match:
+        return False
+    slug = match.group(1)
+
+    # Check events endpoint (covers groupSlug-based URLs)
+    try:
+        api_url = f"{POLYMARKET_API}/events?slug={slug}&limit=1"
+        req = urllib.request.Request(api_url, headers={
+            "Accept": "application/json",
+            "User-Agent": "DollarBets/1.0"
+        })
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            data = json.loads(resp.read().decode())
+            if isinstance(data, list) and len(data) > 0:
+                print(f"[scanner:validate] Polymarket slug OK (events): {slug}", file=sys.stderr)
+                return True
+    except (urllib.error.HTTPError, json.JSONDecodeError):
+        pass
+    except (urllib.error.URLError, OSError, TimeoutError):
+        return True  # Network error — benefit of the doubt
+
+    # Fallback: check markets endpoint (covers standalone market slugs)
+    try:
+        api_url = f"{POLYMARKET_API}/markets?slug={slug}&limit=1"
+        req = urllib.request.Request(api_url, headers={
+            "Accept": "application/json",
+            "User-Agent": "DollarBets/1.0"
+        })
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            data = json.loads(resp.read().decode())
+            if isinstance(data, list) and len(data) > 0:
+                print(f"[scanner:validate] Polymarket slug OK (markets): {slug}", file=sys.stderr)
+                return True
+    except (urllib.error.HTTPError, json.JSONDecodeError):
+        pass
+    except (urllib.error.URLError, OSError, TimeoutError):
+        return True  # Network error — benefit of the doubt
+
+    # Both checks failed — this slug doesn't resolve
+    print(f"[scanner:validate] Polymarket slug NOT FOUND: {slug}", file=sys.stderr)
+    return False
 
 
 # ── Payout calculation ───────────────────────────────────────
@@ -1429,18 +1500,24 @@ def build_board(events, poly_candidates=None):
 
     print(f"[scanner] Board platform mix (pre-validation): {platform_counts}", file=sys.stderr)
 
-    # Step 5: Validate Polymarket URLs — replace any 404s with next Kalshi candidate
+    # Step 5: Validate Polymarket URLs via Gamma API
+    # (Polymarket is an SPA — HTTP status is always 200, so we check the API)
     validated_board = []
     kalshi_backfill = [m for m in shuffled_pool
                        if m.get("ticker") not in used_tickers
                        and (m.get("platform") or m.get("_source") or "kalshi") == "kalshi"]
 
     backfill_idx = 0
+    poly_checked = 0
+    poly_passed = 0
+    poly_failed = 0
     for m in board:
         plat = m.get("platform") or m.get("_source") or "kalshi"
         if plat == "polymarket":
             url = m.get("url", "")
+            poly_checked += 1
             if url and not _validate_url(url):
+                poly_failed += 1
                 print(f"[scanner:validate] DEAD LINK: {url} — swapping for Kalshi", file=sys.stderr)
                 # Swap in next available Kalshi candidate
                 while backfill_idx < len(kalshi_backfill):
@@ -1454,9 +1531,14 @@ def build_board(events, poly_candidates=None):
                     validated_board.append(replacement)
                     break
                 continue
+            else:
+                poly_passed += 1
+                print(f"[scanner:validate] OK: {url}", file=sys.stderr)
         validated_board.append(m)
 
     board = validated_board
+    print(f"[scanner:validate] Polymarket URLs checked: {poly_checked}, "
+          f"passed: {poly_passed}, failed: {poly_failed}", file=sys.stderr)
 
     # Recount after validation
     final_kalshi = sum(1 for m in board if (m.get("platform") or m.get("_source") or "kalshi") == "kalshi")

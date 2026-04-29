@@ -34,9 +34,10 @@ jobs:
           python3 scanner.py > "data/boards/${TODAY}.json"
           echo "Board saved to data/boards/${TODAY}.json"
 
-          # Validate: board must have markets, valid JSON, and working URLs
+          # Validate: board must have markets, valid JSON, working URLs
           python3 -c "
-          import sys, json
+          import sys, json, urllib.request, urllib.error, re
+
           with open('data/boards/${TODAY}.json') as f:
               d = json.load(f)
           board = d.get('board', [])
@@ -46,11 +47,40 @@ jobs:
           if count < 5:
               print('ERROR: Board has fewer than 5 markets — aborting deploy')
               sys.exit(1)
+
           # Check all markets have required fields
           for m in board:
               assert m.get('title'), f'Missing title: {m}'
               assert m.get('url'), f'Missing url: {m}'
               assert m.get('payout'), f'Missing payout: {m}'
+
+          # Spot-check: verify Polymarket URLs resolve in Gamma API
+          poly_markets = [m for m in board if m.get('platform') == 'polymarket']
+          bad = 0
+          for m in poly_markets:
+              url = m['url']
+              match = re.search(r'polymarket\.com/event/([^/?#]+)', url)
+              if not match:
+                  print(f'WARN: Bad Polymarket URL format: {url}')
+                  bad += 1
+                  continue
+              slug = match.group(1)
+              try:
+                  api = f'https://gamma-api.polymarket.com/events?slug={slug}&limit=1'
+                  req = urllib.request.Request(api, headers={'Accept':'application/json','User-Agent':'DollarBets/1.0'})
+                  with urllib.request.urlopen(req, timeout=10) as resp:
+                      data = json.loads(resp.read().decode())
+                      if not (isinstance(data, list) and len(data) > 0):
+                          print(f'WARN: Polymarket slug not found: {slug} ({url})')
+                          bad += 1
+                      else:
+                          print(f'OK: {slug}')
+              except Exception as e:
+                  print(f'WARN: Could not verify {slug}: {e}')
+
+          if bad > 0:
+              print(f'WARNING: {bad} Polymarket URL(s) may be broken — board deployed anyway')
+
           print('Board validation passed')
           "
 
