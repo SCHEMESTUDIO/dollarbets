@@ -355,6 +355,48 @@ SHARED_CSS = """
       background: #eef5ee;
     }
 
+    /* === BOARD PROMO NAV UNIT === */
+    .board-promo {
+      margin: 24px 0;
+      padding: 16px 0;
+      border-top: 1.5px solid #e8cdb5;
+      border-bottom: 1.5px solid #e8cdb5;
+    }
+
+    .board-promo-header {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: #e8642c;
+      margin-bottom: 12px;
+    }
+
+    .board-promo .board {
+      margin-bottom: 12px;
+    }
+
+    .board-promo-cta {
+      display: block;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 700;
+      color: #e8642c;
+      text-decoration: none;
+      padding: 8px 0;
+      letter-spacing: 0.3px;
+      border: 1.5px solid #e8cdb5;
+      border-radius: 6px;
+      background: #fff;
+      transition: all 0.15s ease;
+    }
+
+    .board-promo-cta:hover {
+      background: #e8642c;
+      color: #fff;
+      border-color: #e8642c;
+    }
+
     /* === PAGE CONTENT === */
     h1, h2, h3 {
       font-family: inherit;
@@ -743,6 +785,87 @@ def render_bet_list(bets, empty_msg="no bets yet — check back soon."):
     return f"""    <ul class="board">
 {rows}
     </ul>"""
+
+
+# ── "Today's Board" nav unit ───────────────────────────────
+
+def _pick_promo_bets(board, count=3):
+    """Pick bets for the promo unit — one from each tier where possible,
+    favoring variety and high scores."""
+    if not board:
+        return []
+
+    # Group by tier
+    by_tier = {}
+    for b in board:
+        tier = b.get("tier", "green")
+        by_tier.setdefault(tier, []).append(b)
+
+    # Sort each tier by score descending
+    for tier in by_tier:
+        by_tier[tier].sort(key=lambda x: x.get("score", 0), reverse=True)
+
+    # Pick one from each tier, in visual order
+    picks = []
+    tier_order = ["green", "yellow", "orange", "red", "purple"]
+    for tier in tier_order:
+        if tier in by_tier and by_tier[tier]:
+            picks.append(by_tier[tier][0])
+        if len(picks) >= count:
+            break
+
+    # If we still need more, fill from remaining highest-scored
+    if len(picks) < count:
+        used = {id(p) for p in picks}
+        remaining = sorted(board, key=lambda x: x.get("score", 0), reverse=True)
+        for b in remaining:
+            if id(b) not in used:
+                picks.append(b)
+                used.add(id(b))
+            if len(picks) >= count:
+                break
+
+    return picks
+
+
+def render_board_promo(board_data=None, position="top"):
+    """Render a 'Today on the Board' promo module using real bet cards.
+
+    Uses the exact same bet card HTML/CSS as the homepage so the cards
+    become recognizable brand iconography across the site.
+
+    Args:
+        board_data: The board dict (with "board" key). If None, loads latest.
+        position: "top" or "bottom" — affects the header/CTA phrasing.
+    """
+    if board_data is None:
+        # Load the latest board
+        boards = load_all_boards()
+        if not boards:
+            return ""
+        _, board_data = boards[-1]
+
+    bets = board_data.get("board", [])
+    picks = _pick_promo_bets(bets)
+    if not picks:
+        return ""
+
+    cards = "\n".join(render_bet_card(b) for b in picks)
+
+    if position == "top":
+        header = "today on the board"
+        cta_text = f"see all {len(bets)} of today's bets &rarr;"
+    else:
+        header = "before you go — today's board"
+        cta_text = f"see all {len(bets)} bets &rarr;"
+
+    return f"""    <div class="board-promo">
+      <div class="board-promo-header">{header}</div>
+      <ul class="board">
+{cards}
+      </ul>
+      <a href="/" class="board-promo-cta">{cta_text}</a>
+    </div>"""
 
 
 # ── Data loading ────────────────────────────────────────────

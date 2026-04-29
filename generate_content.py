@@ -28,6 +28,7 @@ from datetime import datetime
 # Import shared components from main generator
 from generate import (
     page_shell, render_bet_card, nav_html,
+    render_board_promo, load_all_boards,
     SITE_URL, OUTPUT_DIR, SHARED_CSS,
 )
 
@@ -298,6 +299,14 @@ def generate_content_page(page_data):
     if hero:
         body_parts.append(render_hero_bet(hero))
 
+    # === TODAY'S BOARD PROMO (top position) ===
+    # Load board data once, reuse for both placements
+    _boards = load_all_boards()
+    _latest_board = _boards[-1][1] if _boards else None
+    top_promo = render_board_promo(_latest_board, position="top")
+    if top_promo:
+        body_parts.append(top_promo)
+
     # Body content
     body_blocks = page_data.get("body", [])
     body_parts.append(render_body(body_blocks))
@@ -312,6 +321,11 @@ def generate_content_page(page_data):
 
     # Internal links
     body_parts.append(render_internal_links(page_data.get("internal_links", [])))
+
+    # === TODAY'S BOARD PROMO (bottom position) ===
+    bottom_promo = render_board_promo(_latest_board, position="bottom")
+    if bottom_promo:
+        body_parts.append(bottom_promo)
 
     # Compliance
     body_parts.append(render_compliance(page_data.get("compliance", "")))
