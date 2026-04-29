@@ -200,13 +200,17 @@ def render_hero_bet(hero):
         disclaimer_parts.append("Check platform terms before taking action.")
     disclaimer = " ".join(disclaimer_parts)
 
-    return f"""    <div style="margin:18px 0;padding:14px;background:#faf9f5;border:1px solid #e8e7e0;border-bottom-width:2px;border-bottom-color:#d8d7d0;border-radius:3px">
-      <div style="font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px">featured market</div>
-      <div style="font-size:15px;font-weight:700;color:#111;margin-bottom:4px">{hero.get('title', '')}</div>
-      <div style="font-size:14px;font-weight:700;color:#555">$1 &rarr; ${hero.get('payout', 0):,}</div>
-      <div style="font-size:11.5px;color:#777;font-style:italic;margin-top:4px">{hero.get('quip', '')}</div>
-      {note_html}
-      <div style="font-size:9px;color:#b0afa8;margin-top:6px;line-height:1.5">{disclaimer}</div>
+    note_html_inv = ""
+    if note:
+        note_html_inv = f'<div style="font-size:10px;color:rgba(255,255,255,0.6);margin-top:4px;font-style:italic">{note}</div>'
+
+    return f"""    <div style="margin:18px 0;padding:14px;background:#e8642c;border-radius:6px">
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:rgba(255,255,255,0.7);margin-bottom:4px">featured market</div>
+      <div style="font-size:15px;font-weight:700;color:#fff;margin-bottom:4px">{hero.get('title', '')}</div>
+      <div style="font-size:14px;font-weight:700;color:#ffecd6">$1 &rarr; ${hero.get('payout', 0):,}</div>
+      <div style="font-size:11.5px;color:rgba(255,255,255,0.65);font-style:italic;margin-top:4px">{hero.get('quip', '')}</div>
+      {note_html_inv}
+      <div style="font-size:9px;color:rgba(255,255,255,0.45);margin-top:6px;line-height:1.5">{disclaimer}</div>
     </div>"""
 
 
@@ -292,7 +296,7 @@ def generate_content_page(page_data):
     # Summary / BLUF (answer-first block for LLM extraction)
     summary = page_data.get("summary", "")
     if summary:
-        body_parts.append(f'    <div style="font-size:13px;color:#333;line-height:1.7;margin:10px 0 16px 0;padding:10px 12px;border-left:3px solid #d8d7d0;background:#faf9f5"><strong>tl;dr:</strong> {summary}</div>')
+        body_parts.append(f'    <div style="font-size:13px;color:#333;line-height:1.7;margin:10px 0 16px 0;padding:10px 12px;border-left:3px solid #e8642c;background:#fff;border:1px solid #e8e7e0;border-left:3px solid #e8642c;border-radius:3px"><strong>tl;dr:</strong> {summary}</div>')
 
     # Hero bet
     hero = page_data.get("hero_bet")
@@ -307,16 +311,20 @@ def generate_content_page(page_data):
     if top_promo:
         body_parts.append(top_promo)
 
-    # Body content
+    # Body content — wrapped in a white card for readability
     body_blocks = page_data.get("body", [])
-    body_parts.append(render_body(body_blocks))
+    article_inner = render_body(body_blocks)
 
-    # Current equivalent (for Hall of Filth)
+    # Current equivalent (for Hall of Filth) — inside the article box
     equiv = page_data.get("current_equivalent")
     if equiv:
-        body_parts.append(f"""    <div style="margin:20px 0;padding:14px;background:#faf9f5;border:1px solid #e8e7e0;border-radius:3px">
+        article_inner += f"""\n\n    <div style="margin:20px 0 0 0;padding:14px;background:#f5f4ef;border:1px solid #e8e7e0;border-radius:3px">
       <div style="font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px">the modern equivalent</div>
       <div style="font-size:13px;color:#333"><a href="{equiv['url']}" style="color:#333;font-weight:700">{equiv['text']} &rarr;</a></div>
+    </div>"""
+
+    body_parts.append(f"""    <div style="background:#fff;border:1.5px solid #e8e7e0;border-radius:8px;padding:20px 18px;margin:16px 0">
+{article_inner}
     </div>""")
 
     # Internal links
