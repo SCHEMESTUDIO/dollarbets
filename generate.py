@@ -412,8 +412,9 @@ SHARED_CSS = """
     }
 
     .page-intro {
-      font-size: 13px;
-      color: #6b5744;
+      font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      color: #3d2e1f;
       line-height: 1.7;
       margin-bottom: 18px;
     }
@@ -423,7 +424,7 @@ SHARED_CSS = """
     }
 
     .section-head {
-      font-size: 14px;
+      font-size: 15px;
       font-weight: 700;
       color: #2d2319;
       margin: 24px 0 10px 0;

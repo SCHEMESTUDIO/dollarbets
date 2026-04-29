@@ -174,7 +174,7 @@ def render_body(body_blocks):
         elif btype == "list":
             items = content if isinstance(content, list) else [content]
             li_html = "\n".join(f"      <li>{item}</li>" for item in items)
-            parts.append(f'    <ul style="font-size:13px;color:#555;line-height:1.7;margin:0 0 14px 20px;list-style:disc">\n{li_html}\n    </ul>')
+            parts.append(f'    <ul style="font-family:-apple-system,\'Segoe UI\',Helvetica,Arial,sans-serif;font-size:15px;color:#3d2e1f;line-height:1.7;margin:0 0 14px 20px;list-style:disc">\n{li_html}\n    </ul>')
 
     return "\n\n".join(parts)
 
