@@ -846,7 +846,8 @@ def render_board_promo(board_data=None, position="top"):
         _, board_data = boards[-1]
 
     bets = board_data.get("board", [])
-    picks = _pick_promo_bets(bets)
+    count = 1 if position == "top" else 3
+    picks = _pick_promo_bets(bets, count=count)
     if not picks:
         return ""
 
