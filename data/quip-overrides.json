@@ -79,5 +79,50 @@
     "tier": "orange",
     "original_quip": "number go up technology",
     "editor_quip": "The Hunger Games but for robots"
+  },
+  {
+    "date": "2026-04-29",
+    "title": "Will SpaceX\u2019s IPO valuation be between 1.50T and 1.75T?",
+    "category": "Science and Technology",
+    "payout": 3,
+    "tier": "green",
+    "original_quip": "comedy listing",
+    "editor_quip": "I miss the earth so much. I miss my wife. "
+  },
+  {
+    "date": "2026-04-29",
+    "title": "Lyon vs Stade Rennais: First Half Winner?",
+    "category": "Sports",
+    "payout": 3.23,
+    "tier": "yellow",
+    "original_quip": "objectively nobody's business, subjectively everyone's",
+    "editor_quip": "60% of the time, it works every time"
+  },
+  {
+    "date": "2026-04-29",
+    "title": "Will Elon Musk visit Mars in his lifetime?",
+    "category": "World",
+    "payout": 12.5,
+    "tier": "orange",
+    "original_quip": "posting through it",
+    "editor_quip": "you know in Prometheus when the old guy was on the ship the entire time"
+  },
+  {
+    "date": "2026-04-29",
+    "title": "No change in the Selic rate after Bank of Brazil\u2019s April 2026 meeting?",
+    "category": "Other",
+    "payout": 41.67,
+    "tier": "red",
+    "original_quip": "the wikipedia page will be contentious",
+    "editor_quip": "wikipedia page currently under construction"
+  },
+  {
+    "date": "2026-04-29",
+    "title": "Russia x Ukraine ceasefire by April 30, 2026?",
+    "category": "Science and Technology",
+    "payout": 666.67,
+    "tier": "purple",
+    "original_quip": "mother nature's got range",
+    "editor_quip": "Drone, drone on the range, where the militants and new recruits play"
   }
 ]
