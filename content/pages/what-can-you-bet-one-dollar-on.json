@@ -1,0 +1,112 @@
+{
+  "slug": "what-can-you-bet-one-dollar-on",
+  "format": "explainer",
+  "seo": {
+    "title": "What Can You Bet $1 On? Every Market Explained | Dollar Bets",
+    "h1": "What Can You Bet $1 On?",
+    "meta_description": "Wondering what you can bet a single dollar on? Sports, politics, weather, crypto — every market where $1 gets interesting.",
+    "canonical": "/what-can-you-bet-one-dollar-on/"
+  },
+  "summary": "You can bet $1 on almost anything with a yes-or-no outcome: weather events, elections, crypto milestones, Fed rate decisions, sports championships, celebrity announcements, and more. Prediction markets like Kalshi let you buy contracts for pennies that pay $1 if you're right.",
+  "hero_bet": {
+    "title": "Will it snow in NYC in May 2026?",
+    "payout": 50,
+    "quip": "One dollar. Infinite bad decisions.",
+    "tier": "orange",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's best $1 bets", "url": "/"},
+    {"text": "what is a prediction market?", "url": "/what-is-a-prediction-market/"},
+    {"text": "how longshot odds work", "url": "/how-do-longshot-odds-work/"},
+    {"text": "weird prediction markets", "url": "/weird-markets/"},
+    {"text": "about Dollar Bets", "url": "/about/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "The short answer is: almost anything. If it has a yes-or-no outcome and a deadline, somebody has probably built a prediction market for it. And on platforms like Kalshi, you can buy in for pennies — which means a single dollar gives you exposure to some genuinely strange corners of reality."
+    },
+    {
+      "type": "heading",
+      "content": "weather markets"
+    },
+    {
+      "type": "text",
+      "content": "Will it snow in a city that never gets snow? Will a hurricane make landfall in Florida this month? Will the temperature in Phoenix break 120°F? Weather markets are some of the most entertaining on Kalshi because nature doesn't negotiate. The forecast changes, the price swings, and resolution is binary — it either happened or it didn't."
+    },
+    {
+      "type": "heading",
+      "content": "political markets"
+    },
+    {
+      "type": "text",
+      "content": "Elections, legislation, Supreme Court decisions, international crises. Political prediction markets move faster than polls because money concentrates opinion. Will a bill pass? Will a governor resign? Will a candidate drop out? These markets often break news before cable does."
+    },
+    {
+      "type": "heading",
+      "content": "sports markets"
+    },
+    {
+      "type": "text",
+      "content": "Championship longshots, playoff sweeps, individual player props. Prediction markets don't replace sportsbooks — they complement them. The framing is different: instead of a point spread, you're buying a contract on whether the Knicks win the title. The current price tells you what the crowd thinks. The $1 payout tells you what happens if the crowd is wrong."
+    },
+    {
+      "type": "heading",
+      "content": "crypto and financial markets"
+    },
+    {
+      "type": "text",
+      "content": "Will Bitcoin hit $200k by December? Will the Fed cut rates? Will the S&P close above a round number? Financial prediction markets take the stuff your econ professor made boring and put a price on it. Crypto markets in particular tend to be volatile, which makes the $1 framing even more entertaining."
+    },
+    {
+      "type": "heading",
+      "content": "culture, entertainment, and everything else"
+    },
+    {
+      "type": "text",
+      "content": "Oscar winners. Reality TV outcomes. Tech product launches. SpaceX landing dates. AI milestones. If a question can be answered with a definitive yes or no by a specific date, there's probably a market for it. The weirder the market, the more fun the board."
+    },
+    {
+      "type": "heading",
+      "content": "how the dollar framing works"
+    },
+    {
+      "type": "text",
+      "content": "Every market Dollar Bets features is translated into what a single dollar could return. A contract priced at 5 cents means $1 pays $20. A contract at 1 cent means $1 pays $100. The lower the price, the more the crowd thinks you're wrong — and the bigger the payout if you're right. We color-code the payouts from 🟩 respectable to 🟪 generational so you can see at a glance how unlikely the market thinks the outcome is."
+    },
+    {
+      "type": "heading",
+      "content": "where to start"
+    },
+    {
+      "type": "text",
+      "content": "Check today's board for the current selection of $1 markets. Every listing links directly to the market on Kalshi. You don't need a bankroll — you need a dollar and a sense of humor. Most of these bets will lose. That's what makes the ones that hit worth talking about."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you actually bet just $1?",
+      "a": "Yes. On prediction markets like Kalshi, contracts can be purchased for as little as a few cents. A single dollar can buy multiple contracts depending on the price."
+    },
+    {
+      "q": "Is betting $1 on prediction markets legal?",
+      "a": "Kalshi is a CFTC-regulated exchange in the US. Availability varies by state and jurisdiction. Always check local regulations before participating."
+    },
+    {
+      "q": "What's the biggest payout you can get from a $1 bet?",
+      "a": "Theoretically unlimited — contracts priced at fractions of a cent can return hundreds or thousands of dollars. In practice, most extreme longshots never pay off. That's why they're called longshots."
+    },
+    {
+      "q": "Are prediction markets the same as sports betting?",
+      "a": "No. Prediction markets are contract-based exchanges regulated differently from sportsbooks. You trade contracts with other participants, not against a house. Learn more in our prediction market explainer."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial discovery site. We do not operate markets, place bets, or provide financial advice. Markets, odds, and availability vary by jurisdiction. Prediction market contracts involve risk of loss. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-04-29",
+  "last_updated": "2026-04-29",
+  "cluster": "$1 Bets",
+  "priority": 88
+}

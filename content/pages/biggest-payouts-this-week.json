@@ -1,0 +1,84 @@
+{
+  "slug": "biggest-payouts-this-week",
+  "format": "ranked_list",
+  "seo": {
+    "title": "Biggest Payouts This Week — Highest $1 Returns | Dollar Bets",
+    "h1": "Biggest Payouts This Week",
+    "meta_description": "This week's biggest potential payouts on prediction markets. The markets where $1 returns the most — and why they probably won't.",
+    "canonical": "/biggest-payouts-this-week/"
+  },
+  "summary": "The prediction markets with the highest potential $1 returns this week. These are the longshots, the generational plays, and the markets where the payout column looks insane because the probability is tiny. Most of these will not hit. That's the point.",
+  "hero_bet": {
+    "title": "This week's biggest payout on the board",
+    "payout": 500,
+    "quip": "The payout is large because reality is rude.",
+    "tier": "purple",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "best bets for a dollar this week", "url": "/best-bets-for-a-dollar-this-week/"},
+    {"text": "how longshot odds work", "url": "/how-do-longshot-odds-work/"},
+    {"text": "what is a prediction market?", "url": "/what-is-a-prediction-market/"},
+    {"text": "Hall of Filth: famous longshots", "url": "/hall-of-filth/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Every week, some markets on the Dollar Bets board offer payouts that look unreasonable. $1 pays $200. $1 pays $500. $1 pays $1,000. These numbers aren't typos — they're what happens when a market prices an event at well under 1% probability. The payout is the reciprocal of the price, and when the price is a fraction of a cent, the math gets dramatic."
+    },
+    {
+      "type": "heading",
+      "content": "why big payouts exist"
+    },
+    {
+      "type": "text",
+      "content": "A $500 payout means the market is pricing the event at roughly 0.2% probability. Not zero — markets don't go to zero because someone always thinks the impossible is slightly possible. But close enough that the payout feels like a lottery ticket. The difference is that prediction markets are transparent: you can see exactly what the crowd thinks, and you can decide whether you think the crowd is wrong."
+    },
+    {
+      "type": "heading",
+      "content": "why they probably won't hit"
+    },
+    {
+      "type": "text",
+      "content": "Markets are priced by people putting real money on the line. When a contract is at half a cent, it means the overwhelming consensus is that this event is not happening. The crowd is not always right — Leicester City proved that — but the crowd is right far more often than it's wrong. The reason these payouts look exciting is precisely because they're unlikely."
+    },
+    {
+      "type": "heading",
+      "content": "the entertainment value"
+    },
+    {
+      "type": "text",
+      "content": "The point of tracking biggest payouts isn't financial strategy. It's the question: what would the world look like if this actually happened? A $1,000 payout on a political event means something so unlikely that if it occurred, you'd hear about it for years. The payout tier tells the story: 🟥 filthy means you'd screenshot the trade. 🟪 generational means you'd frame it."
+    },
+    {
+      "type": "heading",
+      "content": "this week's top payouts"
+    },
+    {
+      "type": "text",
+      "content": "Check today's board for the current highest-payout markets. The weekly list here captures the markets that hit the board's upper tiers — the ones where the dollar return made us pause, laugh, and then check whether the market was actually real. It usually is."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a big payout the same as a good bet?",
+      "a": "No. A big payout reflects low probability. The market is paying you more because it thinks you're almost certainly wrong. Big payouts are entertaining, not reliable."
+    },
+    {
+      "q": "What's the biggest payout Dollar Bets has ever featured?",
+      "a": "Payouts in the generational tier ($500+) appear regularly. Some markets have featured $1,000+ returns — events so unlikely that the payout feels hypothetical."
+    },
+    {
+      "q": "Why do some payouts change during the week?",
+      "a": "Because market prices move as new information emerges and people trade. A $200 payout on Monday might be $50 by Friday if the event suddenly looks more likely. Odds move — always check the market for current pricing."
+    }
+  ],
+  "compliance": "Dollar Bets is editorial entertainment. Big payouts reflect low probability, not opportunity. Markets involve risk. Most longshots do not pay off. Odds move — check the market for current pricing. Some links may be affiliate links.",
+  "publish_date": "2026-04-29",
+  "last_updated": "2026-04-29",
+  "cluster": "Biggest Payouts",
+  "priority": 80
+}

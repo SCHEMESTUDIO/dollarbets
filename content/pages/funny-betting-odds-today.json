@@ -1,0 +1,92 @@
+{
+  "slug": "funny-betting-odds-today",
+  "format": "weird_market_roundup",
+  "seo": {
+    "title": "Funny Betting Odds Today — Bets That Made Us Laugh | Dollar Bets",
+    "h1": "Funny Betting Odds Today",
+    "meta_description": "Today's funniest betting odds. The markets that exist for no good reason — and what $1 would pay.",
+    "canonical": "/funny-betting-odds-today/"
+  },
+  "summary": "The prediction markets that exist purely because someone thought they should. Weather absurdities, celebrity questions, political chaos, and things that shouldn't be bettable but are. Updated daily with the odds that make you laugh before you check the payout.",
+  "hero_bet": {
+    "title": "Today's funniest active market",
+    "payout": 25,
+    "quip": "The betting gods have a sense of humor. The payout label confirms it.",
+    "tier": "yellow",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "weird prediction markets", "url": "/weird-markets/"},
+    {"text": "what can you bet $1 on?", "url": "/what-can-you-bet-one-dollar-on/"},
+    {"text": "craziest bets this week", "url": "/best-bets-for-a-dollar-this-week/"},
+    {"text": "what is a prediction market?", "url": "/what-is-a-prediction-market/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Some prediction markets exist because they're useful. Some exist because they're profitable. And some exist because someone at a prediction market exchange looked at the world and thought: yeah, we should let people bet on that."
+    },
+    {
+      "type": "text",
+      "content": "This page tracks the second kind. The markets that make you laugh before you check the payout. The ones where the question itself is the entertainment, and the $1 return is just the punchline."
+    },
+    {
+      "type": "heading",
+      "content": "what makes odds funny"
+    },
+    {
+      "type": "text",
+      "content": "It's usually one of three things. The market exists at all (someone made a contract on whether a specific celebrity will do a specific thing by a specific date). The odds are absurd (a contract priced at 0.1 cents suggesting a 0.1% chance of something that sounds 50/50 emotionally). Or the resolution criteria is hyper-specific (not 'will it snow' but 'will it snow exactly 4 inches in downtown Tucson on a Tuesday in May')."
+    },
+    {
+      "type": "heading",
+      "content": "today's funniest markets"
+    },
+    {
+      "type": "text",
+      "content": "Check the daily board for today's curated picks — the board always includes at least a few markets that exist primarily because they're absurd. Weather markets, cultural wildcards, and the occasional political market that feels like satire but is backed by real money."
+    },
+    {
+      "type": "heading",
+      "content": "the humor is the point"
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets is an entertainment-first discovery layer. We don't feature funny markets because they're profitable — most of them aren't. We feature them because prediction markets are the only place where the crowd puts a price on absurdity, and that price is often funnier than any headline."
+    },
+    {
+      "type": "text",
+      "content": "The $1 framing helps. There's something inherently entertaining about knowing that a single dollar could pay $200 if something ridiculous happens. You're not risking your rent. You're buying a front-row seat to chaos."
+    },
+    {
+      "type": "heading",
+      "content": "why these markets exist"
+    },
+    {
+      "type": "text",
+      "content": "Prediction market platforms create markets that attract attention and trading volume. Weird markets do both — they go viral on social media, they draw in new users who would never search for 'CFTC-regulated derivatives exchange,' and they keep existing users checking the app daily. The funny markets are the gateway drug."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are funny betting odds real markets with real money?",
+      "a": "Yes. Every market featured on Dollar Bets is a real, live prediction market with actual contracts and real money behind it. The humor comes from the question, not from fake data."
+    },
+    {
+      "q": "Can I actually bet on these?",
+      "a": "If the market is active on Kalshi or another platform and available in your jurisdiction, yes. Each listing links directly to the market. Availability varies."
+    },
+    {
+      "q": "Why would anyone make a market on something so obscure?",
+      "a": "Entertainment, engagement, and because prediction market platforms benefit from unusual markets that attract attention and new users. Weird markets often go viral on social media."
+    }
+  ],
+  "compliance": "Dollar Bets is editorial entertainment. We curate markets for entertainment value, not as financial advice. Markets involve risk. Availability varies by jurisdiction. Some links may be affiliate links.",
+  "publish_date": "2026-04-29",
+  "last_updated": "2026-04-29",
+  "cluster": "Weird Bets",
+  "priority": 80
+}

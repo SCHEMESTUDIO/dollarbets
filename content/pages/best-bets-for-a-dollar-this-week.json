@@ -1,0 +1,92 @@
+{
+  "slug": "best-bets-for-a-dollar-this-week",
+  "format": "ranked_list",
+  "seo": {
+    "title": "Best Bets for a Dollar This Week | Dollar Bets",
+    "h1": "Best Bets for a Dollar This Week",
+    "meta_description": "This week's best $1 bets across every market. Updated weekly with the bets worth watching.",
+    "canonical": "/best-bets-for-a-dollar-this-week/"
+  },
+  "summary": "A weekly curated list of the most interesting $1 bets across prediction markets — sports, politics, weather, crypto, and the genuinely bizarre. Updated every week with markets that are actually worth a dollar and a few minutes of your attention.",
+  "hero_bet": {
+    "title": "Weekly pick: most interesting $1 market this week",
+    "payout": 15,
+    "quip": "Seven days of fiscal irresponsibility, curated.",
+    "tier": "yellow",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "what can you bet $1 on?", "url": "/what-can-you-bet-one-dollar-on/"},
+    {"text": "how longshot odds work", "url": "/how-do-longshot-odds-work/"},
+    {"text": "weird markets", "url": "/weird-markets/"},
+    {"text": "sports markets", "url": "/sports-markets/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Every day, Dollar Bets curates the most interesting prediction markets and frames them by what a single dollar could pay. This page collects the week's highlights — the markets that made the daily board for a reason."
+    },
+    {
+      "type": "heading",
+      "content": "how we pick them"
+    },
+    {
+      "type": "text",
+      "content": "We scan thousands of markets across prediction market platforms and surface the ones that are genuinely interesting to a normal human being. The criteria: cultural relevance, entertainment value, payout drama, and the question 'would you talk about this in a group chat?' If the answer is yes, it makes the list."
+    },
+    {
+      "type": "heading",
+      "content": "this week's board highlights"
+    },
+    {
+      "type": "text",
+      "content": "Check today's board for the latest picks. This page is updated weekly with a recap of the markets that defined the week — the ones that moved, the ones that expired, and the ones that are still cooking."
+    },
+    {
+      "type": "heading",
+      "content": "the payout tiers"
+    },
+    {
+      "type": "text",
+      "content": "Every market is color-coded by what $1 would return: 🟩 respectable ($1–$10), 🟨 alive ($11–$50), 🟧 heater ($51–$100), 🟥 filthy ($101–$500), 🟪 generational ($500+). The tier tells you how unlikely the market thinks it is. Most weeks, the board spans at least three tiers — a mix of reasonable bets and absolute chaos."
+    },
+    {
+      "type": "heading",
+      "content": "why weekly matters"
+    },
+    {
+      "type": "text",
+      "content": "Markets move. A bet that looked insane on Monday might look plausible by Friday — or vice versa. The weekly view lets you see patterns: which categories are heating up, which markets are getting new attention, and which longshots are quietly dying. It's also a good entry point if the daily board feels like too much. Start with the week, then go deeper."
+    },
+    {
+      "type": "heading",
+      "content": "what happened to last week's bets"
+    },
+    {
+      "type": "text",
+      "content": "Some won. Most lost. A few are still open. That's prediction markets. The board doesn't pretend otherwise — we show the payout because it's entertaining, not because we think you should mortgage anything for a weather contract in May."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How often is the weekly list updated?",
+      "a": "The weekly roundup updates every Monday. The daily board updates every day with fresh markets."
+    },
+    {
+      "q": "Are these recommendations?",
+      "a": "No. Dollar Bets is editorial entertainment, not financial advice. We curate interesting markets — we don't tell you what to buy."
+    },
+    {
+      "q": "Can I bet on all of these for $1 total?",
+      "a": "Each market is independent. The '$1 pays' framing shows what a single dollar returns per market, not a combined bet. You can participate in as many or as few as you like."
+    }
+  ],
+  "compliance": "Dollar Bets is editorial entertainment. We do not provide betting advice, financial advice, or guaranteed outcomes. Markets involve risk. Odds move constantly — check the market for current pricing. Some links may be affiliate links.",
+  "publish_date": "2026-04-29",
+  "last_updated": "2026-04-29",
+  "cluster": "$1 Bets",
+  "priority": 82
+}
