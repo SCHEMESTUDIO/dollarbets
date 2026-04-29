@@ -225,14 +225,32 @@ def normalize_poly_market(pm):
     # and their questions don't make sense as standalone bets
     q_lower = question.lower()
     sub_market_patterns = [
+        # Financial/commodity sub-markets
         "settle above", "settle below", "settle between",
-        "highest temperature", "lowest temperature",
-        "price of", "price on", "close above", "close below",
+        "close above", "close below",
+        "price of", "price on", "price be",
         "fail by", "go bankrupt", "basis points",
         "gdp growth", "inflation rate", "interest rate",
-        "yield curve", "treasury",
+        "yield curve", "treasury", "selic rate", "fed funds",
+        "no change in the", "rate cut", "rate hike",
+        "valuation be between", "valuation be above", "valuation be below",
+        # Temperature/weather sub-markets
+        "highest temperature", "lowest temperature",
+        "temperature in", "temperature on",
+        # Range buckets (multi-outcome sub-markets)
+        "be between", "be above $", "be below $",
+        "between $", "above $", "below $",
+        "more than $", "less than $", "at least $",
+        # Market structure jargon
+        "quarterly", "year-over-year", "seasonally adjusted",
+        "benchmark", "fiscal", "monetary", "regulatory",
     ]
     if any(pat in q_lower for pat in sub_market_patterns):
+        return None
+
+    # Filter out range-bucket questions: "Will X be between 1.5T and 1.75T?"
+    # These are individual outcomes of multi-outcome events
+    if re.search(r'between\s+[\d$£€]+.*and\s+[\d$£€]+', q_lower):
         return None
 
     # Map Polymarket tags to Kalshi-style categories
