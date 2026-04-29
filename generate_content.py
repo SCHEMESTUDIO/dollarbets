@@ -179,6 +179,48 @@ def render_body(body_blocks):
     return "\n\n".join(parts)
 
 
+# ── FAQ renderer + schema ─────────────────────────────────
+
+def render_faqs(faqs):
+    """Render visible FAQ section from a list of {q, a} dicts."""
+    if not faqs:
+        return ""
+    items = []
+    for faq in faqs:
+        q = faq.get("q", "")
+        a = faq.get("a", "")
+        items.append(f"""      <div style="margin-bottom:14px">
+        <h3 style="font-size:14px;font-weight:700;color:#2d2319;margin-bottom:4px">{q}</h3>
+        <div class="page-intro"><p>{a}</p></div>
+      </div>""")
+
+    return f"""    <h2 class="section-head">frequently asked questions</h2>
+{chr(10).join(items)}"""
+
+
+def build_faq_schema(faqs):
+    """Build FAQPage JSON-LD from a list of {q, a} dicts.
+    Only call this when FAQs are visibly rendered on the page."""
+    if not faqs:
+        return ""
+    entries = []
+    for faq in faqs:
+        entries.append({
+            "@type": "Question",
+            "name": faq.get("q", ""),
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.get("a", ""),
+            },
+        })
+    schema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": entries,
+    }
+    return f'<script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>'
+
+
 # ── Hero bet renderer ──────────────────────────────────────
 
 def render_hero_bet(hero):
@@ -323,6 +365,11 @@ def generate_content_page(page_data):
       <div style="font-size:13px;color:#333"><a href="{equiv['url']}" style="color:#333;font-weight:700">{equiv['text']} &rarr;</a></div>
     </div>"""
 
+    # FAQs — rendered inside the article box if present
+    faqs = page_data.get("faqs", [])
+    if faqs:
+        article_inner += "\n\n" + render_faqs(faqs)
+
     body_parts.append(f"""    <div style="background:#fff;border:1.5px solid #e8e7e0;border-radius:8px;padding:20px 18px;margin:16px 0">
 {article_inner}
     </div>""")
@@ -342,8 +389,10 @@ def generate_content_page(page_data):
 
     # Build JSON-LD schema for <head>
     article_schema = build_article_schema(page_data, canonical)
+    faq_schema = build_faq_schema(faqs) if faqs else ""
+    faq_tag = f"\n  {faq_schema}" if faq_schema else ""
     schema_tags = f"""<script type="application/ld+json">{article_schema}</script>
-  <script type="application/ld+json">{breadcrumb_schema}</script>"""
+  <script type="application/ld+json">{breadcrumb_schema}</script>{faq_tag}"""
 
     html = page_shell(
         title=seo.get("title", slug),

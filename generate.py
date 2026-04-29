@@ -620,6 +620,12 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
   <meta property="og:description" content="{description}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{SITE_URL}{canonical}">
+  <meta property="og:site_name" content="Dollar Bets">
+  <meta property="og:image" content="{SITE_URL}/og-image.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{title}">
+  <meta name="twitter:description" content="{description}">
+  <meta name="twitter:image" content="{SITE_URL}/og-image.png">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💵</text></svg>">
   {analytics_head()}
   {extra_head}
@@ -1147,12 +1153,51 @@ def generate_daily_board(boards):
 
     body = date_line + legend + render_bet_list(board) + trust_strip
 
+    # Homepage structured data: Organization + WebSite + ItemList
+    market_items = []
+    for i, m in enumerate(board, 1):
+        market_items.append(json.dumps({
+            "@type": "ListItem",
+            "position": i,
+            "name": m.get("title", ""),
+            "url": f"{SITE_URL}{market_link(m.get('ticker', ''))}",
+        }, ensure_ascii=False))
+
+    homepage_schema = f"""<script type="application/ld+json">{{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Dollar Bets",
+  "url": "{SITE_URL}",
+  "description": "A daily discovery board of the internet's most entertaining prediction-market wagers, framed as $1 payouts.",
+  "founder": {{
+    "@type": "Person",
+    "name": "James Lamon",
+    "url": "https://linkedin.com/in/jameslamon",
+    "jobTitle": "Founder & Editor"
+  }}
+}}</script>
+  <script type="application/ld+json">{{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Dollar Bets",
+  "url": "{SITE_URL}",
+  "description": "A buck says maybe. Daily board of the internet's most entertaining wagers."
+}}</script>
+  <script type="application/ld+json">{{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Today's Board — {date_str}",
+  "numberOfItems": {len(board)},
+  "itemListElement": [{", ".join(market_items)}]
+}}</script>"""
+
     html = page_shell(
         title="dollar bets — what does $1 pay?",
         description="A buck says maybe. Daily board of the internet's most entertaining wagers.",
         body=body,
         canonical="/",
         current_nav="/",
+        extra_head=homepage_schema,
     )
 
     write_page("index.html", html)
@@ -1194,12 +1239,45 @@ def generate_category_pages(all_bets):
 {render_bet_list(display_bets, "no markets featured in this category yet — check back soon.")}
 """
 
+        # CollectionPage + ItemList + BreadcrumbList schema
+        cat_items = []
+        for i, m in enumerate(display_bets, 1):
+            cat_items.append(json.dumps({
+                "@type": "ListItem",
+                "position": i,
+                "name": m.get("title", ""),
+                "url": f"{SITE_URL}{market_link(m.get('ticker', ''))}",
+            }, ensure_ascii=False))
+
+        cat_schema = f"""<script type="application/ld+json">{{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "{config['h1']}",
+  "url": "{SITE_URL}/{slug}/",
+  "description": "{config['description']}",
+  "publisher": {{"@type": "Organization", "name": "Dollar Bets", "url": "{SITE_URL}"}},
+  "mainEntity": {{
+    "@type": "ItemList",
+    "numberOfItems": {len(display_bets)},
+    "itemListElement": [{", ".join(cat_items)}]
+  }}
+}}</script>
+  <script type="application/ld+json">{{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {{"@type": "ListItem", "position": 1, "name": "Home", "item": "{SITE_URL}/"}},
+    {{"@type": "ListItem", "position": 2, "name": "{config['h1']}", "item": "{SITE_URL}/{slug}/"}}
+  ]
+}}</script>"""
+
         html = page_shell(
             title=config["title"],
             description=config["description"],
             body=body,
             canonical=f"/{slug}/",
             current_nav=f"/{slug}/",
+            extra_head=cat_schema,
         )
 
         write_page(f"{slug}/index.html", html)
@@ -1494,12 +1572,42 @@ def generate_about_page():
     </div>
 """
 
+    about_schema = f"""<script type="application/ld+json">{{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "About Dollar Bets",
+  "url": "{SITE_URL}/about/",
+  "description": "Dollar Bets is a daily board of weird, funny, and culturally relevant prediction markets, translated into what a $1 bet could pay.",
+  "mainEntity": {{
+    "@type": "Organization",
+    "name": "Dollar Bets",
+    "url": "{SITE_URL}",
+    "description": "A daily discovery board of the internet's most entertaining prediction-market wagers, framed as $1 payouts. Not a sportsbook — an editorial discovery layer.",
+    "founder": {{
+      "@type": "Person",
+      "name": "James Lamon",
+      "url": "https://linkedin.com/in/jameslamon",
+      "jobTitle": "Founder & Editor",
+      "description": "Former EVP Content & Operations at Footballco (GOAL, World Soccer), former Head of Content Europe at BuzzFeed. University of Texas at Austin graduate."
+    }}
+  }}
+}}</script>
+  <script type="application/ld+json">{{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {{"@type": "ListItem", "position": 1, "name": "Home", "item": "{SITE_URL}/"}},
+    {{"@type": "ListItem", "position": 2, "name": "About", "item": "{SITE_URL}/about/"}}
+  ]
+}}</script>"""
+
     html = page_shell(
         title="what is dollar bets? — about",
         description="Dollar Bets is a daily board of weird, funny, and culturally relevant prediction markets, translated into what a $1 bet could pay. Not a sportsbook — a discovery layer.",
         body=body,
         canonical="/about/",
         current_nav="/about/",
+        extra_head=about_schema,
     )
 
     write_page("about/index.html", html)
@@ -1668,6 +1776,35 @@ def write_page(rel_path, content):
     print(f"[generate] Wrote {rel_path}")
 
 
+# ── 404 page ───────────────────────────────────────────────
+
+def generate_404_page():
+    """Generate a custom 404 error page."""
+    body = """    <h1 class="page-title">404 — page not found</h1>
+    <div class="page-intro">
+      <p>This page doesn't exist. Maybe it never did. Maybe the market expired. Either way, the odds of finding what you wanted here are exactly zero — and we don't list markets with zero payout.</p>
+      <p style="margin-top:12px">Try one of these instead:</p>
+      <p style="margin-top:8px">
+        <a href="/" style="color:#e8642c;font-weight:700">today's board</a> ·
+        <a href="/weird-markets/" style="color:#666">weird markets</a> ·
+        <a href="/sports-markets/" style="color:#666">sports markets</a> ·
+        <a href="/about/" style="color:#666">about</a> ·
+        <a href="/guides/" style="color:#666">guides</a>
+      </p>
+    </div>
+"""
+
+    html = page_shell(
+        title="404 — page not found — dollar bets",
+        description="This page doesn't exist on Dollar Bets.",
+        body=body,
+        canonical="",
+        noindex=True,
+    )
+
+    write_page("404.html", html)
+
+
 # ── Main ────────────────────────────────────────────────────
 
 def main():
@@ -1707,7 +1844,11 @@ def main():
     print("[generate] Building about page...")
     generate_about_page()
 
-    # 7. Sitemap + robots.txt
+    # 7. 404 page
+    print("[generate] Building 404 page...")
+    generate_404_page()
+
+    # 8. Sitemap + robots.txt
     print("[generate] Building sitemap...")
     sitemap_pages = [
         ("/", 1.0),
