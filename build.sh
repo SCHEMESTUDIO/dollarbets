@@ -9,13 +9,28 @@ cd "$DIR"
 
 echo "[build] Starting Dollar Bets build..."
 
-# Install fonts + Pillow for OG image generation
-echo "[build] Installing fonts and Pillow..."
-apt-get update -qq && apt-get install -y -qq fonts-dejavu-core fonts-liberation2 2>&1 \
-  || echo "[build] WARNING: Could not install fonts (may already exist)"
+# Install Pillow for OG image generation
+echo "[build] Installing Pillow..."
 uv pip install Pillow --system 2>&1 \
   || python3 -m pip install Pillow --break-system-packages 2>&1 \
   || echo "[build] WARNING: Could not install Pillow, OG images will be skipped"
+
+# Download DejaVu fonts if not already present (Vercel has no system fonts)
+FONT_DIR="$DIR/.fonts"
+if [ ! -f "$FONT_DIR/DejaVuSerif-Bold.ttf" ]; then
+  echo "[build] Downloading DejaVu fonts..."
+  mkdir -p "$FONT_DIR"
+  DEJAVU_URL="https://github.com/dejavu-fonts/dejavu-fonts/releases/download/version_2_37/dejavu-fonts-ttf-2.37.zip"
+  curl -sL "$DEJAVU_URL" -o /tmp/dejavu.zip \
+    && unzip -qo /tmp/dejavu.zip -d /tmp/dejavu \
+    && cp /tmp/dejavu/dejavu-fonts-ttf-2.37/ttf/DejaVuSerif-Bold.ttf "$FONT_DIR/" \
+    && cp /tmp/dejavu/dejavu-fonts-ttf-2.37/ttf/DejaVuSerif-Italic.ttf "$FONT_DIR/" \
+    && cp /tmp/dejavu/dejavu-fonts-ttf-2.37/ttf/DejaVuSansMono.ttf "$FONT_DIR/" \
+    && cp /tmp/dejavu/dejavu-fonts-ttf-2.37/ttf/DejaVuSansMono-Bold.ttf "$FONT_DIR/" \
+    && echo "[build] Fonts downloaded to $FONT_DIR" \
+    || echo "[build] WARNING: Could not download fonts, OG images may be skipped"
+  rm -rf /tmp/dejavu /tmp/dejavu.zip
+fi
 
 # Ensure data directory exists
 mkdir -p data/boards

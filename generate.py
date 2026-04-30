@@ -20,7 +20,7 @@ from collections import defaultdict
 
 # ── Config ──────────────────────────────────────────────────
 
-SITE_URL = "https://dollarbets.lol"
+SITE_URL = "https://www.dollarbets.lol"
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "public")
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "boards")
 
@@ -1899,22 +1899,28 @@ def generate_share_og_image(title, quip, payout_str, output_path):
     FONT_MONO_BOLD = None
 
     # Try multiple font paths (local dev vs Vercel build)
+    # .fonts/ dir is populated by build.sh on Vercel
+    fonts_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".fonts")
     serif_bold_candidates = [
+        os.path.join(fonts_dir, "DejaVuSerif-Bold.ttf"),
         "/usr/share/fonts/truetype/liberation2/LiberationSerif-Bold.ttf",
         "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf",
         "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
     ]
     serif_italic_candidates = [
+        os.path.join(fonts_dir, "DejaVuSerif-Italic.ttf"),
         "/usr/share/fonts/truetype/liberation2/LiberationSerif-Italic.ttf",
         "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf",
         "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf",
     ]
     mono_candidates = [
+        os.path.join(fonts_dir, "DejaVuSansMono.ttf"),
         "/usr/share/fonts/truetype/liberation2/LiberationMono-Regular.ttf",
         "/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf",
         "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
     ]
     mono_bold_candidates = [
+        os.path.join(fonts_dir, "DejaVuSansMono-Bold.ttf"),
         "/usr/share/fonts/truetype/liberation2/LiberationMono-Bold.ttf",
         "/usr/share/fonts/truetype/liberation/LiberationMono-Bold.ttf",
         "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf",
