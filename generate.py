@@ -322,7 +322,13 @@ SHARED_CSS = """
     }
 
     /* === SHARE === */
-    .wager-share {
+    .share-wrap {
+      position: relative;
+      margin-left: auto;
+      flex-shrink: 0;
+    }
+
+    .share-btn {
       font-size: 10.5px;
       color: #e8642c;
       cursor: pointer;
@@ -333,27 +339,61 @@ SHARED_CSS = """
       letter-spacing: 0.3px;
       border-radius: 4px;
       transition: all 0.12s ease;
-      flex-shrink: 0;
       font-weight: 700;
-      margin-left: auto;
     }
 
-    .wager-share:hover {
+    .share-btn:hover {
       color: #fff;
       background: #e8642c;
       border-color: #e8642c;
     }
 
-    .wager-share:active {
-      background: #d45520;
-      border-color: #d45520;
+    .share-menu {
+      display: none;
+      position: absolute;
+      right: 0;
+      bottom: calc(100% + 6px);
+      background: #fff;
+      border: 1.5px solid #e8cdb5;
+      border-radius: 4px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      z-index: 100;
+      min-width: 130px;
+      font-family: 'Courier New', monospace;
+      font-size: 11px;
     }
 
-    .wager-share.copied {
-      color: #5a8a5a;
-      border-color: #b0ccb0;
-      background: #eef5ee;
+    .share-menu.open { display: block; }
+
+    .share-menu button {
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 7px 12px;
+      border: none;
+      background: none;
+      cursor: pointer;
+      font-family: 'Courier New', monospace;
+      font-size: 11px;
+      color: #2d2319;
+      letter-spacing: 0.2px;
+      white-space: nowrap;
     }
+
+    .share-menu button:hover {
+      background: #fdf0e4;
+      color: #e8642c;
+    }
+
+    .share-menu button + button {
+      border-top: 1px solid #f0e0d0;
+    }
+
+    .share-menu .sm-reddit:hover { color: #ff4500; }
+    .share-menu .sm-x:hover { color: #000; }
+    .share-menu .sm-fb:hover { color: #1877f2; }
+    .share-menu .sm-copy:hover { color: #e8642c; }
+    .share-menu .sm-copy.copied { color: #5a8a5a; }
 
     /* === BOARD PROMO NAV UNIT === */
     .board-promo {
@@ -622,7 +662,10 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
   <meta property="og:url" content="{SITE_URL}{canonical}">
   <meta property="og:site_name" content="Dollar Bets">
   <meta property="og:image" content="{SITE_URL}/og-image.png">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{title}">
   <meta name="twitter:description" content="{description}">
   <meta name="twitter:image" content="{SITE_URL}/og-image.png">
@@ -670,23 +713,46 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
   </div>
 {SIGNUP_JS}
 <script>
-function shareBet(e, btn) {{
+// close any open share menu when clicking elsewhere
+document.addEventListener('click', function() {{
+  document.querySelectorAll('.share-menu.open').forEach(function(m) {{ m.classList.remove('open'); }});
+}});
+
+function toggleShare(e, btn) {{
   e.preventDefault();
   e.stopPropagation();
-  var t = btn.dataset.title;
-  var q = btn.dataset.quip;
-  var p = btn.dataset.payout;
-  var u = btn.dataset.url;
-  var text = t + '\\n"' + q + '"\\n$1 → ' + p + '\\n' + u;
-  if (navigator.share) {{
-    navigator.share({{ title: 'Dollar Bets', text: text, url: u }}).catch(function(){{}});
-  }} else {{
+  // close other open menus first
+  document.querySelectorAll('.share-menu.open').forEach(function(m) {{ m.classList.remove('open'); }});
+  var menu = btn.parentElement.querySelector('.share-menu');
+  menu.classList.toggle('open');
+}}
+
+function shareTo(e, platform, btn) {{
+  e.preventDefault();
+  e.stopPropagation();
+  var wrap = btn.closest('.share-wrap');
+  var t = wrap.dataset.title;
+  var q = wrap.dataset.quip;
+  var p = wrap.dataset.payout;
+  var ticker = wrap.dataset.ticker;
+  var shareUrl = ticker ? 'https://dollarbets.lol/share/' + encodeURIComponent(ticker) + '/' : 'https://dollarbets.lol';
+  var menu = wrap.querySelector('.share-menu');
+
+  if (platform === 'reddit') {{
+    var redditTitle = t + ' — $1 pays ' + p + ' | Dollar Bets';
+    window.open('https://www.reddit.com/submit?url=' + encodeURIComponent(shareUrl) + '&title=' + encodeURIComponent(redditTitle), '_blank', 'noopener');
+  }} else if (platform === 'x') {{
+    var tweet = t + '\\n"' + q + '"\\n$1 → ' + p + '\\n' + shareUrl;
+    window.open('https://x.com/intent/tweet?text=' + encodeURIComponent(tweet), '_blank', 'noopener');
+  }} else if (platform === 'fb') {{
+    window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(shareUrl) + '&quote=' + encodeURIComponent(t + ' — $1 pays ' + p), '_blank', 'noopener');
+  }} else if (platform === 'copy') {{
+    var text = t + '\\n"' + q + '"\\n$1 → ' + p + '\\n' + shareUrl;
     navigator.clipboard.writeText(text).then(function() {{
-      btn.textContent = '[copied]';
+      btn.textContent = 'copied!';
       btn.classList.add('copied');
-      setTimeout(function() {{ btn.textContent = '[share]'; btn.classList.remove('copied'); }}, 1500);
+      setTimeout(function() {{ btn.textContent = 'copy link'; btn.classList.remove('copied'); }}, 1500);
     }}).catch(function() {{
-      // fallback: select-copy via textarea
       var ta = document.createElement('textarea');
       ta.value = text;
       ta.style.position = 'fixed';
@@ -695,11 +761,13 @@ function shareBet(e, btn) {{
       ta.select();
       document.execCommand('copy');
       document.body.removeChild(ta);
-      btn.textContent = '[copied]';
+      btn.textContent = 'copied!';
       btn.classList.add('copied');
-      setTimeout(function() {{ btn.textContent = '[share]'; btn.classList.remove('copied'); }}, 1500);
+      setTimeout(function() {{ btn.textContent = 'copy link'; btn.classList.remove('copied'); }}, 1500);
     }});
+    return; // don't close menu on copy
   }}
+  menu.classList.remove('open');
 }}
 </script>
 </body>
@@ -777,7 +845,15 @@ def render_bet_card(m):
             <span class="wager-payout-row">
               <span class="wager-payout"><span class="payout-stake">$1</span> <span class="payout-arrow">&rarr;</span> <span class="payout-return">{payout_str}</span></span>
               {logo_html}
-              <button class="wager-share" onclick="shareBet(event, this)" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}">[share]</button>
+              <span class="share-wrap" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}" data-ticker="{ticker}">
+                <button class="share-btn" onclick="toggleShare(event, this)">[share]</button>
+                <div class="share-menu">
+                  <button class="sm-reddit" onclick="shareTo(event,'reddit',this)">reddit</button>
+                  <button class="sm-x" onclick="shareTo(event,'x',this)">x / twitter</button>
+                  <button class="sm-fb" onclick="shareTo(event,'fb',this)">facebook</button>
+                  <button class="sm-copy" onclick="shareTo(event,'copy',this)">copy link</button>
+                </div>
+              </span>
             </span>
           </span>
         </a>
@@ -1805,6 +1881,196 @@ def generate_404_page():
     write_page("404.html", html)
 
 
+# ── Per-bet share pages & OG images ────────────────────────
+
+def generate_share_og_image(title, quip, payout_str, output_path):
+    """Generate a 1200x630 OG image for a single bet."""
+    try:
+        from PIL import Image, ImageDraw, ImageFont
+    except ImportError:
+        print("[generate] WARNING: Pillow not installed, skipping OG image generation")
+        return False
+
+    import textwrap
+
+    FONT_SERIF_BOLD = None
+    FONT_SERIF_ITALIC = None
+    FONT_MONO = None
+    FONT_MONO_BOLD = None
+
+    # Try multiple font paths (local dev vs Vercel build)
+    serif_bold_candidates = [
+        "/usr/share/fonts/truetype/liberation2/LiberationSerif-Bold.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
+    ]
+    serif_italic_candidates = [
+        "/usr/share/fonts/truetype/liberation2/LiberationSerif-Italic.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf",
+    ]
+    mono_candidates = [
+        "/usr/share/fonts/truetype/liberation2/LiberationMono-Regular.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+    ]
+    mono_bold_candidates = [
+        "/usr/share/fonts/truetype/liberation2/LiberationMono-Bold.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationMono-Bold.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf",
+    ]
+
+    for path in serif_bold_candidates:
+        if os.path.exists(path):
+            FONT_SERIF_BOLD = path
+            break
+    for path in serif_italic_candidates:
+        if os.path.exists(path):
+            FONT_SERIF_ITALIC = path
+            break
+    for path in mono_candidates:
+        if os.path.exists(path):
+            FONT_MONO = path
+            break
+    for path in mono_bold_candidates:
+        if os.path.exists(path):
+            FONT_MONO_BOLD = path
+            break
+
+    if not all([FONT_SERIF_BOLD, FONT_SERIF_ITALIC, FONT_MONO, FONT_MONO_BOLD]):
+        print(f"[generate] WARNING: Missing fonts, skipping OG image for {output_path}")
+        return False
+
+    W, H = 1200, 630
+    BG = (253, 246, 238)
+    ORANGE = (232, 100, 44)
+    DARK = (45, 35, 25)
+    MID = (107, 87, 68)
+    LIGHT = (160, 139, 119)
+
+    img = Image.new("RGB", (W, H), BG)
+    draw = ImageDraw.Draw(img)
+
+    # Orange bars
+    draw.rectangle([(0, 0), (W, 8)], fill=ORANGE)
+    draw.rectangle([(0, H - 8), (W, H)], fill=ORANGE)
+
+    # Branding
+    font_brand = ImageFont.truetype(FONT_SERIF_BOLD, 28)
+    draw.text((60, 40), "Dollar Bets", fill=ORANGE, font=font_brand)
+    font_tag = ImageFont.truetype(FONT_MONO, 14)
+    draw.text((60, 76), "what does $1 pay?", fill=LIGHT, font=font_tag)
+
+    # Separator
+    draw.line([(60, 110), (W - 60, 110)], fill=(232, 205, 181), width=2)
+
+    # Title
+    font_title = ImageFont.truetype(FONT_SERIF_BOLD, 38)
+    wrapped = textwrap.fill(title, width=32)
+    lines = wrapped.split("\n")[:4]  # max 4 lines
+    line_height = 50
+    total_h = len(lines) * line_height
+    title_y = 140 + max(0, (200 - total_h) // 2)
+    for i, line in enumerate(lines):
+        bbox = draw.textbbox((0, 0), line, font=font_title)
+        tw = bbox[2] - bbox[0]
+        draw.text(((W - tw) // 2, title_y + i * line_height), line, fill=DARK, font=font_title)
+
+    # Quip
+    font_quip = ImageFont.truetype(FONT_SERIF_ITALIC, 22)
+    quip_wrapped = textwrap.fill(quip, width=50)
+    quip_lines = quip_wrapped.split("\n")[:2]  # max 2 lines
+    quip_y = title_y + len(lines) * line_height + 20
+    for i, line in enumerate(quip_lines):
+        bbox = draw.textbbox((0, 0), line, font=font_quip)
+        tw = bbox[2] - bbox[0]
+        draw.text(((W - tw) // 2, quip_y + i * 32), line, fill=MID, font=font_quip)
+
+    # Payout
+    font_payout = ImageFont.truetype(FONT_MONO_BOLD, 52)
+    payout_text = f"$1 → {payout_str}"
+    bbox = draw.textbbox((0, 0), payout_text, font=font_payout)
+    tw = bbox[2] - bbox[0]
+    draw.text(((W - tw) // 2, H - 130), payout_text, fill=ORANGE, font=font_payout)
+
+    # URL
+    font_url = ImageFont.truetype(FONT_MONO, 14)
+    draw.text((60, H - 45), "dollarbets.lol", fill=LIGHT, font=font_url)
+
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    img.save(output_path, "PNG", optimize=True)
+    return True
+
+
+def generate_share_pages(boards):
+    """Generate /share/TICKER/ pages with per-bet OG tags + OG images."""
+    if not boards:
+        return
+
+    latest_date, latest_data = boards[-1]
+    board = latest_data.get("board", [])
+
+    count = 0
+    for m in board:
+        ticker = m.get("ticker", "")
+        if not ticker:
+            continue
+
+        title = m.get("title", "")
+        quip = m.get("quip", "")
+        payout = m.get("payout", 0)
+        payout_str = format_payout(payout)
+
+        # Sanitize ticker for filesystem (some tickers have special chars)
+        safe_ticker = ticker.replace("/", "_")
+
+        # Generate OG image
+        og_dir = os.path.join(OUTPUT_DIR, "share", safe_ticker)
+        og_img_path = os.path.join(og_dir, "og.png")
+        generate_share_og_image(title, quip, payout_str, og_img_path)
+
+        # OG description
+        og_desc = f'"{quip}" — $1 pays {payout_str} on Dollar Bets'
+        og_title = f"{title} — $1 → {payout_str}"
+
+        # Build a lightweight share page that redirects to homepage
+        html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{og_title} | Dollar Bets</title>
+  <meta name="description" content="{og_desc}">
+  <meta property="og:title" content="{og_title}">
+  <meta property="og:description" content="{og_desc}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{SITE_URL}/share/{safe_ticker}/">
+  <meta property="og:site_name" content="Dollar Bets">
+  <meta property="og:image" content="{SITE_URL}/share/{safe_ticker}/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{og_title}">
+  <meta name="twitter:description" content="{og_desc}">
+  <meta name="twitter:image" content="{SITE_URL}/share/{safe_ticker}/og.png">
+  <link rel="canonical" href="{SITE_URL}/">
+  <meta http-equiv="refresh" content="0;url=/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💵</text></svg>">
+</head>
+<body style="font-family:'Courier New',monospace;background:#fdf6ee;color:#2d2319;text-align:center;padding:60px 20px">
+  <p>redirecting to <a href="/">dollarbets.lol</a>...</p>
+</body>
+</html>"""
+
+        os.makedirs(og_dir, exist_ok=True)
+        with open(os.path.join(og_dir, "index.html"), "w") as f:
+            f.write(html)
+        count += 1
+
+    print(f"[generate] Wrote {count} share pages with OG images")
+
+
 # ── Main ────────────────────────────────────────────────────
 
 def main():
@@ -1840,7 +2106,11 @@ def main():
     print("[generate] Building market autopsies...")
     generate_market_autopsies(all_bets)
 
-    # 6. About page
+    # 6. Per-bet share pages + OG images
+    print("[generate] Building share pages...")
+    generate_share_pages(boards)
+
+    # 7. About page
     print("[generate] Building about page...")
     generate_about_page()
 
