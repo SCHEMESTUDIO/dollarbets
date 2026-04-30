@@ -838,6 +838,73 @@ ALL_QUIPS = [
     "mother nature's got range", "pack an umbrella and a prayer",
     "laser eyes optional", "the chart looks like a heartbeat",
     "hodl or fold",
+    # === POP CULTURE REFERENCES ===
+    # Film / TV
+    "the Prometheus school of running away from things",
+    "directed by the Coen brothers, apparently",
+    "this has Succession finale energy",
+    "a Wes Anderson montage of a wager",
+    "the Michael Scott of prediction markets",
+    "somehow Palpatine returned",
+    "the prestige, but for your dollar",
+    "we're gonna need a bigger bet",
+    "the Truman Show but for markets",
+    "directed by Christopher Nolan, scored by anxiety",
+    "the Bear kitchen energy is palpable",
+    "a mid-credits scene kind of reveal",
+    "the Office fire drill but for traders",
+    "the Nic Cage movie writes itself",
+    "a post-credits scene for sure",
+    "curb your enthusiasm theme plays",
+    "the Always Sunny title card goes here",
+    "directed by God, edited by chaos",
+    "this is the Bad Place",
+    "a Scorsese runtime kind of bet",
+    # Music / lyrics
+    "I miss the earth so much, I miss my wife",
+    "the Rise and Fall of a Midwest Princess",
+    "running up that hill with no problems",
+    "how do you like them apples",
+    "it's me, hi, I'm the problem",
+    "we didn't start the fire but we bet on it",
+    "mama said knock it out of the park",
+    "somebody once told me the odds were stacked",
+    "bohemian rhapsody but for spreadsheets",
+    "under pressure, pushing down on me",
+    "the sound of silence, statistically",
+    # Internet / memes
+    "the diet Dr. Pepper of prediction markets",
+    "60% of the time, it works every time",
+    "this is fine dot jpg",
+    "the meme wrote itself and then listed",
+    "sir this is a Wendy's",
+    "you vs the bet she told you not to worry about",
+    "the stonks meme but unironically",
+    "main character syndrome, market edition",
+    "task failed successfully",
+    "suffering from success",
+    "Money printer go brrrr",
+    "ight imma head out",
+    "the butterfly effect but with a dollar",
+    "it's giving uncertainty",
+    "understood the assignment, barely",
+    "no thoughts just vibes and a dollar",
+    "chaotic good, financially neutral",
+    "the audacity of hype",
+    # Books / history / general culture
+    "the Moneyball of terrible decisions",
+    "a Freakonomics chapter waiting to happen",
+    "the invisible hand is trembling",
+    "the Hemingway school of short positions",
+    "art of war but for a dollar",
+    "kafka would have placed this bet",
+    "extremely normal and not at all unhinged",
+    "the Wikipedia edit war is already underway",
+    "outrageously plausible",
+    "probably gravy",
+    "short the club",
+    "can't say you didn't see it coming",
+    "fanboys writing congress as we speak",
     # === SPORTS ===
     "load management for your wallet", "the poster dunk of prediction markets",
     "someone's parlay just got interesting",
@@ -1055,18 +1122,23 @@ TODAY'S BETS (write one quip each):
 
 Rules:
 - Write exactly {len(board)} quips, one per bet, in order
-- Each quip must be lowercase, max 8 words, no period at the end
-- Quips should be wry, oblique, and culturally aware — never literal
-- You CAN reference songs, memes, slang, or cultural moments IF the reference adds a specific comedic or observational layer to THIS bet — not as a generic filler
-- Every quip must feel unique to its bet. If a quip could apply to 5 different bets, it's too generic
+- Each quip should be 3-12 words. No period at the end. Natural casing (capitalize proper nouns, song titles, etc — but don't title-case everything)
+- Name a specific thing: a film, a song lyric, a meme, a product, a person. Concrete references > abstract metaphors
+- For near-certain bets (green tier), understate it — breezy acceptance, not analysis
+- For high-payout bets (orange/red/purple tier), go bigger — song lyrics, extended references, committed bits
+- Every quip must feel unique to THIS specific bet. If it could apply to 5 different bets, throw it out
 - Do NOT repeat the same joke structure across multiple quips
+- NEVER write quips that comment on betting itself, the difficulty of predicting, or the community of bettors
+- NEVER use vague irony that hedges without committing to a specific reference or stance
+- NEVER use alarmed or earnest metaphors for serious topics — the voice is dry and flat, seriousness comes through specificity
+- NEVER recycle a formula you've used before — every quip is a unique editorial slot
 - Return a JSON array of {len(board)} strings
 
 Respond with ONLY the JSON array. Example: ["quip one", "quip two", ...]"""
 
     body = json.dumps({
-        "model": "claude-haiku-4-5-20251001",
-        "max_tokens": 500,
+        "model": "claude-sonnet-4-6",
+        "max_tokens": 1000,
         "messages": [{"role": "user", "content": prompt}]
     }).encode()
 
