@@ -124,5 +124,41 @@
     "tier": "purple",
     "original_quip": "mother nature's got range",
     "editor_quip": "Drone, drone on the range, where the militants and new recruits play"
+  },
+  {
+    "date": "2026-04-29",
+    "title": "Will The Batman Part II be delayed again?",
+    "category": "Entertainment",
+    "payout": 2.27,
+    "tier": "green",
+    "original_quip": "technically possible, spiritually unlikely",
+    "editor_quip": "fanboys writing congress as we speak"
+  },
+  {
+    "date": "2026-04-29",
+    "title": "Will inflation reach more than 5% in 2026?",
+    "category": "Sports",
+    "payout": 3.03,
+    "tier": "yellow",
+    "original_quip": "the planet is running a fever",
+    "editor_quip": "Money printer go brrrr"
+  },
+  {
+    "date": "2026-04-29",
+    "title": "Will CA Belgrano vs. CA Sarmiento end in a draw?",
+    "category": "Other",
+    "payout": 3.57,
+    "tier": "yellow",
+    "original_quip": "the sort of thing that splits a friend group",
+    "editor_quip": "outrageously plausible "
+  },
+  {
+    "date": "2026-04-29",
+    "title": "Ukraine coup attempt by June 30?",
+    "category": "Science and Technology",
+    "payout": 13.33,
+    "tier": "orange",
+    "original_quip": "white smoke or cope",
+    "editor_quip": "can't say you didn't see it coming"
   }
 ]
