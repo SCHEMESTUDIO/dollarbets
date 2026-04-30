@@ -2,4 +2,4 @@
 name = "dollarbets"
 version = "0.2.0"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = ["Pillow>=10.0"]
