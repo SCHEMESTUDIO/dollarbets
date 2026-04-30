@@ -1952,56 +1952,62 @@ def generate_share_og_image(title, quip, payout_str, output_path):
     ORANGE = (232, 100, 44)
     DARK = (45, 35, 25)
     MID = (107, 87, 68)
-    LIGHT = (160, 139, 119)
 
     img = Image.new("RGB", (W, H), BG)
     draw = ImageDraw.Draw(img)
 
-    # Orange bars
-    draw.rectangle([(0, 0), (W, 8)], fill=ORANGE)
-    draw.rectangle([(0, H - 8), (W, H)], fill=ORANGE)
+    # Orange bars top and bottom
+    draw.rectangle([(0, 0), (W, 10)], fill=ORANGE)
+    draw.rectangle([(0, H - 10), (W, H)], fill=ORANGE)
 
-    # Branding
-    font_brand = ImageFont.truetype(FONT_SERIF_BOLD, 28)
-    draw.text((60, 40), "Dollar Bets", fill=ORANGE, font=font_brand)
-    font_tag = ImageFont.truetype(FONT_MONO, 14)
-    draw.text((60, 76), "what does $1 pay?", fill=LIGHT, font=font_tag)
+    # Title — Georgia bold, centered
+    font_title = ImageFont.truetype(FONT_SERIF_BOLD, 56)
+    wrapped = textwrap.fill(title, width=26)
+    lines = wrapped.split("\n")[:3]  # max 3 lines
+    line_height = 68
+    total_title_h = len(lines) * line_height
 
-    # Separator
-    draw.line([(60, 110), (W - 60, 110)], fill=(232, 205, 181), width=2)
+    # Quip — Georgia italic, centered, in quotes
+    font_quip = ImageFont.truetype(FONT_SERIF_ITALIC, 48)
+    quip_text = f'"{quip}"' if quip else ""
+    quip_wrapped = textwrap.fill(quip_text, width=34)
+    quip_lines = quip_wrapped.split("\n")[:2]  # max 2 lines
+    quip_line_height = 58
+    total_quip_h = len(quip_lines) * quip_line_height if quip_text else 0
 
-    # Title
-    font_title = ImageFont.truetype(FONT_SERIF_BOLD, 38)
-    wrapped = textwrap.fill(title, width=32)
-    lines = wrapped.split("\n")[:4]  # max 4 lines
-    line_height = 50
-    total_h = len(lines) * line_height
-    title_y = 140 + max(0, (200 - total_h) // 2)
+    # Payout — monospace bold, centered
+    font_payout = ImageFont.truetype(FONT_MONO_BOLD, 56)
+    payout_text = f"$1 pays {payout_str}"
+
+    # Vertical layout: center all three blocks together
+    gap_title_quip = 20
+    gap_quip_payout = 28
+    total_content_h = total_title_h + gap_title_quip + total_quip_h + gap_quip_payout + 56
+    start_y = (H - total_content_h) // 2
+
+    # Draw title
+    title_y = start_y
     for i, line in enumerate(lines):
         bbox = draw.textbbox((0, 0), line, font=font_title)
         tw = bbox[2] - bbox[0]
         draw.text(((W - tw) // 2, title_y + i * line_height), line, fill=DARK, font=font_title)
 
-    # Quip
-    font_quip = ImageFont.truetype(FONT_SERIF_ITALIC, 22)
-    quip_wrapped = textwrap.fill(quip, width=50)
-    quip_lines = quip_wrapped.split("\n")[:2]  # max 2 lines
-    quip_y = title_y + len(lines) * line_height + 20
+    # Draw quip
+    quip_y = title_y + total_title_h + gap_title_quip
     for i, line in enumerate(quip_lines):
         bbox = draw.textbbox((0, 0), line, font=font_quip)
         tw = bbox[2] - bbox[0]
-        draw.text(((W - tw) // 2, quip_y + i * 32), line, fill=MID, font=font_quip)
+        draw.text(((W - tw) // 2, quip_y + i * quip_line_height), line, fill=MID, font=font_quip)
 
-    # Payout
-    font_payout = ImageFont.truetype(FONT_MONO_BOLD, 52)
-    payout_text = f"$1 → {payout_str}"
+    # Draw payout
+    payout_y = quip_y + total_quip_h + gap_quip_payout
     bbox = draw.textbbox((0, 0), payout_text, font=font_payout)
     tw = bbox[2] - bbox[0]
-    draw.text(((W - tw) // 2, H - 130), payout_text, fill=ORANGE, font=font_payout)
+    draw.text(((W - tw) // 2, payout_y), payout_text, fill=ORANGE, font=font_payout)
 
-    # URL
-    font_url = ImageFont.truetype(FONT_MONO, 14)
-    draw.text((60, H - 45), "dollarbets.lol", fill=LIGHT, font=font_url)
+    # Logo — bottom left
+    font_logo = ImageFont.truetype(FONT_SERIF_BOLD, 28)
+    draw.text((40, H - 48), "dollarbets.lol", fill=ORANGE, font=font_logo)
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     img.save(output_path, "PNG", optimize=True)
