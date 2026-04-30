@@ -2036,9 +2036,11 @@ def generate_share_pages(boards):
         else:
             og_image_url = f"{SITE_URL}/og-image.png"
 
-        # OG description
-        og_desc = f'"{quip}" — $1 pays {payout_str} on Dollar Bets'
-        og_title = f"{title} — $1 → {payout_str}"
+        # OG description — escape quotes for HTML attributes
+        safe_quip = quip.replace('"', '&quot;').replace("'", '&#39;')
+        safe_title_og = title.replace('"', '&quot;').replace("'", '&#39;')
+        og_desc = f'&quot;{safe_quip}&quot; — $1 pays {payout_str} on Dollar Bets'
+        og_title = f"{safe_title_og} — $1 → {payout_str}"
 
         # Build a lightweight share page that redirects to homepage via JS
         # (JS redirect so crawlers read OG tags; meta refresh would bypass them)
