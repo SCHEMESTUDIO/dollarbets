@@ -9,11 +9,7 @@ cd "$DIR"
 
 echo "[build] Starting Dollar Bets build..."
 
-# Install Pillow for OG image generation
-echo "[build] Installing Pillow..."
-uv pip install Pillow --system 2>&1 \
-  || python3 -m pip install Pillow --break-system-packages 2>&1 \
-  || echo "[build] WARNING: Could not install Pillow, OG images will be skipped"
+# Pillow is installed by Vercel from requirements.txt
 
 # Download DejaVu fonts if not already present (Vercel has no system fonts)
 FONT_DIR="$DIR/.fonts"

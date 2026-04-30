@@ -1,2 +1,2 @@
 # Dollar Bets — Python dependencies
-# API routes use stdlib only, no external packages needed
+Pillow>=10.0
