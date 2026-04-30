@@ -1,0 +1,124 @@
+{
+  "principles": [
+    {
+      "id": "strip-the-setup",
+      "principle": "Remove leading conjunctions and filler phrases that cushion the punchline \u2014 start mid-thought",
+      "technique": "Delete 'and', 'but', 'so', 'well', 'I think', 'how about' from the front of quips; let the line land without a runway",
+      "examples_for": [
+        "all categories",
+        "all tiers"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "id": "specific-cultural-artifact-over-generic-metaphor",
+      "principle": "Replace generic figurative language with a specific named cultural artifact (film, song, meme, product) that creates meaning through juxtaposition",
+      "technique": "When a quip uses an abstract metaphor ('fever', 'cope', 'posting through it'), swap it for a concrete pop-culture object whose tone or plot rhymes with the bet's actual stakes",
+      "examples_for": [
+        "Science and Technology",
+        "World",
+        "Entertainment",
+        "Climate and Weather"
+      ],
+      "evidence_count": 6
+    },
+    {
+      "id": "financial-vernacular-for-sports-stakes",
+      "principle": "Apply financial or market-native slang to sports bets to signal that the bet is serious even if the subject is trivial",
+      "technique": "Use trader/investor vocabulary ('short the club', 'assembling', 'eye test guys') when the bet concerns player movement, team value, or long-term competitive positioning",
+      "examples_for": [
+        "Sports"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "id": "understate-the-obvious",
+      "principle": "When the outcome of a high-probability bet is nearly certain, respond with breezy, anti-climactic acceptance rather than alarm or analysis",
+      "technique": "For green-tier bets where the answer is nearly foregone, use casual affirmation ('probably gravy', 'outrageously plausible') instead of explaining why the outcome is likely",
+      "examples_for": [
+        "Climate and Weather",
+        "Other",
+        "green tier"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "id": "reframe-the-category-mismatch",
+      "principle": "When a bet is miscategorized or the subject is absurdly mismatched to its context, the quip should acknowledge or exploit that absurdity",
+      "technique": "If a bet appears in a wrong or ironic category (e.g. inflation in Sports, ceasefire in Science and Technology), let the quip play to the subject's real-world weight rather than the listed category",
+      "examples_for": [
+        "Sports",
+        "Science and Technology",
+        "Other"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "id": "meme-format-for-process-bets",
+      "principle": "For bets about slow-moving institutional or technical processes, use an established internet meme format to convey comedic inevitability",
+      "technique": "Match the bet's mechanism (rate decisions, AI benchmarks, money supply) to a well-known phrase or meme template ('Money printer go brrrr', 'wikipedia page currently under construction') rather than inventing a new metaphor",
+      "examples_for": [
+        "Other",
+        "Science and Technology",
+        "category: Other red tier"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "id": "song-lyric-as-structural-rewrite",
+      "principle": "For high-stakes or emotionally resonant bets, a song lyric can carry the entire quip when the original AI line is thematically correct but too flat",
+      "technique": "Lift a lyric that maps directly onto the bet's emotional register; optionally modify one word to localize it to the bet subject. Reserve for purple/orange tiers or bets with obvious musical cognates",
+      "examples_for": [
+        "World",
+        "Science and Technology",
+        "purple tier",
+        "orange tier"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "id": "concrete-prediction-over-meta-commentary",
+      "principle": "Quips should gesture at an actual outcome or named participant, not comment on the act of predicting or the market itself",
+      "technique": "Replace lines that describe the betting dynamic ('analytics vs eye test guys', 'someone's career depends on this') with lines that commit to a stance or name a specific thing at stake",
+      "examples_for": [
+        "Sports",
+        "Entertainment",
+        "all tiers"
+      ],
+      "evidence_count": 3
+    }
+  ],
+  "avoid": [
+    {
+      "id": "avoid-reused-lines",
+      "pattern": "Using the same quip formula across different bets (e.g. 'technically possible, spiritually unlikely' appeared twice)",
+      "why": "Editors treat each bet as a unique editorial slot; recycled constructions signal low effort and collapse the voice into a template"
+    },
+    {
+      "id": "avoid-meta-betting-commentary",
+      "pattern": "Quips that describe the nature of the bet, the difficulty of predicting it, or the community of bettors rather than the subject itself",
+      "why": "Lines like 'the analytics guys versus the eye test guys' or 'the sort of thing that splits a friend group' talk around the subject instead of at it; editors prefer quips that take a position"
+    },
+    {
+      "id": "avoid-topical-alarm",
+      "pattern": "Using urgent or earnest figurative language ('the planet is running a fever', 'mother nature's got range') to describe serious bets",
+      "why": "The editorial voice is dry and deadpan; performing concern or gravity undermines the tone. Seriousness is conveyed through specificity and cultural reference, not through alarmed metaphor"
+    },
+    {
+      "id": "avoid-vague-irony",
+      "pattern": "Quips that signal ironic detachment without any specific content ('comedy listing', 'posting through it', 'elon being elon')",
+      "why": "Vague irony reads as the AI hedging; editors want the quip to commit to a bit, a reference, or a named thing \u2014 even if the tone is sardonic"
+    },
+    {
+      "id": "avoid-process-description",
+      "pattern": "Describing what will happen procedurally or institutionally without any comedic reframe ('the wikipedia page will be contentious', 'white smoke or cope')",
+      "why": "Process descriptions are inert; they tell the reader what they already know about how institutions work. Editors replace them with framings that transpose the bet into a different, funnier context"
+    }
+  ],
+  "voice_notes": "Dollar Bets editorial voice is aggressively low-affect \u2014 it treats geopolitical crises, climate catastrophe, and sports gossip with the same flat, slightly bored wit, and it earns that tone by being specific rather than vague. The humor comes from unexpected precision: a niche film reference, a trader's one-liner, a meme format applied to a central bank meeting. Editors consistently reject quips that explain the joke, perform emotion, or recycle a formula \u2014 the ideal quip sounds like something a very online person muttered under their breath while scrolling, then immediately forgot they said.",
+  "meta": {
+    "generated_at": "2026-04-30T18:13:50.235634+00:00",
+    "override_count": 18,
+    "version": 1
+  }
+}
