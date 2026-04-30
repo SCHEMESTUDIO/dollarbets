@@ -9,8 +9,10 @@ cd "$DIR"
 
 echo "[build] Starting Dollar Bets build..."
 
-# Install Pillow for OG image generation (needed for per-bet share images)
-echo "[build] Installing Pillow..."
+# Install fonts + Pillow for OG image generation
+echo "[build] Installing fonts and Pillow..."
+apt-get update -qq && apt-get install -y -qq fonts-dejavu-core fonts-liberation2 2>&1 \
+  || echo "[build] WARNING: Could not install fonts (may already exist)"
 uv pip install Pillow --system 2>&1 \
   || python3 -m pip install Pillow --break-system-packages 2>&1 \
   || echo "[build] WARNING: Could not install Pillow, OG images will be skipped"

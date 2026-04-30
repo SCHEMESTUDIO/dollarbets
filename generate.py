@@ -2039,7 +2039,7 @@ def generate_share_pages(boards):
         # OG description — escape quotes for HTML attributes
         safe_quip = quip.replace('"', '&quot;').replace("'", '&#39;')
         safe_title_og = title.replace('"', '&quot;').replace("'", '&#39;')
-        og_desc = f'&quot;{safe_quip}&quot; — $1 pays {payout_str} on Dollar Bets'
+        og_desc = f'&quot;{safe_quip}&quot; — $1 pays {payout_str} on Dollar Bets. Daily prediction market picks where every bet starts at a buck.'
         og_title = f"{safe_title_og} — $1 → {payout_str}"
 
         # Build a lightweight share page that redirects to homepage via JS
