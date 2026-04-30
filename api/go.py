@@ -10,7 +10,9 @@ Vercel Python serverless function using BaseHTTPRequestHandler.
 
 import json
 import os
+import re
 import glob
+import urllib.request
 from http.server import BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
 
@@ -19,6 +21,62 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from link_resolver import resolve_market_destination
+
+
+POLYMARKET_GAMMA_API = "https://gamma-api.polymarket.com"
+
+
+def resolve_polymarket_url(market_url):
+    """Fix Polymarket URLs by looking up the correct event slug via Gamma API.
+
+    Polymarket /event/ URLs require the EVENT slug, but board data often stores
+    the MARKET slug (which 404s). This looks up the market by its slug and
+    returns the correct event URL.
+    """
+    if not market_url or "polymarket.com/event/" not in market_url:
+        return market_url
+
+    match = re.search(r'polymarket\.com/event/([^/?#]+)', market_url)
+    if not match:
+        return market_url
+
+    slug = match.group(1)
+
+    # Try markets endpoint — market slug → events[0].slug
+    try:
+        api_url = f"{POLYMARKET_GAMMA_API}/markets?slug={slug}&limit=1"
+        req = urllib.request.Request(api_url, headers={
+            "Accept": "application/json",
+            "User-Agent": "DollarBets/1.0"
+        })
+        with urllib.request.urlopen(req, timeout=5) as resp:
+            data = json.loads(resp.read().decode())
+            if isinstance(data, list) and len(data) > 0:
+                events = data[0].get("events") or []
+                if events and len(events) > 0:
+                    event_slug = events[0].get("slug", "")
+                    if event_slug and event_slug != slug:
+                        return f"https://polymarket.com/event/{event_slug}"
+                # No parent event — slug might already be an event slug
+                return market_url
+    except Exception:
+        pass
+
+    # Try events endpoint — maybe it's already correct
+    try:
+        api_url = f"{POLYMARKET_GAMMA_API}/events?slug={slug}&limit=1"
+        req = urllib.request.Request(api_url, headers={
+            "Accept": "application/json",
+            "User-Agent": "DollarBets/1.0"
+        })
+        with urllib.request.urlopen(req, timeout=5) as resp:
+            data = json.loads(resp.read().decode())
+            if isinstance(data, list) and len(data) > 0:
+                return market_url  # Event slug is valid
+    except Exception:
+        pass
+
+    return market_url  # Can't resolve — return as-is
 
 
 def load_latest_board_data():
@@ -105,13 +163,18 @@ class handler(BaseHTTPRequestHandler):
         # over query-string ?platform= param
         platform = market.get("platform") or requested_platform
 
+        # For Polymarket: resolve the correct event URL via Gamma API
+        market_url = market.get("url", "")
+        if platform == "polymarket":
+            market_url = resolve_polymarket_url(market_url)
+
         # Resolve to best eligible partner
         result = resolve_market_destination(
             market_id=market_id,
             user_country=user_country,
             market_category=market.get("category"),
             requested_platform=platform,
-            market_url=market.get("url")
+            market_url=market_url
         )
 
         if not result["eligible"]:
