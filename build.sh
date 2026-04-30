@@ -9,7 +9,13 @@ cd "$DIR"
 
 echo "[build] Starting Dollar Bets build..."
 
-# Pillow is installed by Vercel from requirements.txt
+# Install Pillow for the Python that actually runs generate.py
+echo "[build] Installing Pillow for $(python3 --version)..."
+python3 -m pip install Pillow --break-system-packages 2>&1 \
+  || uv pip install Pillow --python "$(which python3)" 2>&1 \
+  || echo "[build] WARNING: Could not install Pillow"
+python3 -c "from PIL import Image; print('[build] Pillow OK:', Image.__version__)" 2>&1 \
+  || echo "[build] WARNING: Pillow import check FAILED"
 
 # Download DejaVu fonts if not already present (Vercel has no system fonts)
 FONT_DIR="$DIR/.fonts"
