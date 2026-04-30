@@ -2,8 +2,8 @@ name: Daily Board Scan
 
 on:
   schedule:
-    # Run at 10:00 AM UTC every day
-    - cron: '0 10 * * *'
+    # Run at 07:00 UTC (08:00 London BST) every day — board ready by 9am BST
+    - cron: '0 7 * * *'
   workflow_dispatch: # Allow manual trigger from GitHub UI
 
 env:
