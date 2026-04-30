@@ -210,11 +210,15 @@ def normalize_poly_market(pm):
     if volume < 1000:
         return None  # Skip low-volume markets
 
-    # Build URL — use groupSlug for multi-outcome events, slug for standalone
-    group_slug = pm.get("groupSlug") or ""
+    # Build URL — use parent event slug (from events array) for correct /event/ URL,
+    # fall back to market's own slug only if no parent event exists
+    events_list = pm.get("events") or []
+    event_slug = ""
+    if isinstance(events_list, list) and len(events_list) > 0:
+        event_slug = events_list[0].get("slug", "")
     slug = pm.get("slug") or ""
-    if group_slug:
-        market_url = f"https://polymarket.com/event/{group_slug}"
+    if event_slug:
+        market_url = f"https://polymarket.com/event/{event_slug}"
     elif slug:
         market_url = f"https://polymarket.com/event/{slug}"
     else:
