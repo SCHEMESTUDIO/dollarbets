@@ -9,10 +9,11 @@ cd "$DIR"
 
 echo "[build] Starting Dollar Bets build..."
 
-# Install Pillow for the Python that actually runs generate.py
+# Install Pillow — must match the Python version running build.sh (3.12),
+# not the 3.14 version Vercel pre-installs to .vercel_python_packages
 echo "[build] Installing Pillow for $(python3 --version)..."
-python3 -m pip install Pillow --break-system-packages 2>&1 \
-  || uv pip install Pillow --python "$(which python3)" 2>&1 \
+rm -rf .vercel_python_packages/PIL .vercel_python_packages/Pillow* 2>/dev/null
+python3 -m pip install Pillow --target=.vercel_python_packages --no-cache-dir 2>&1 \
   || echo "[build] WARNING: Could not install Pillow"
 python3 -c "from PIL import Image; print('[build] Pillow OK:', Image.__version__)" 2>&1 \
   || echo "[build] WARNING: Pillow import check FAILED"
