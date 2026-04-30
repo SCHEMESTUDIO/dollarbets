@@ -40,7 +40,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 analyze_taste.py
 
-      - name: Commit style guide
+      - name: Commit style guide and custom clusters
         if: fromJSON(steps.check.outputs.count) >= 5
         run: |
           if [ ! -f data/style-guide.json ]; then
@@ -50,9 +50,13 @@ jobs:
           git config user.name "Dollar Bets Bot"
           git config user.email "bot@dollarbets.lol"
           git add data/style-guide.json
+          # Also commit custom clusters if taste analysis created/updated them
+          if [ -f data/custom-clusters.json ]; then
+            git add data/custom-clusters.json
+          fi
           if git diff --staged --quiet; then
-            echo "No changes to style guide"
+            echo "No changes to style guide or clusters"
           else
-            git commit -m "taste: update editorial style guide ($(date -u +%Y-%m-%d))"
+            git commit -m "taste: update editorial style guide + clusters ($(date -u +%Y-%m-%d))"
             git push
           fi

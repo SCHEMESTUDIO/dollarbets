@@ -1066,12 +1066,154 @@ def build_style_guide_section(guide):
     return "\n\n".join(sections)
 
 
+def _load_custom_clusters():
+    """Load editor-defined clusters from data/custom-clusters.json."""
+    path = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)), "data", "custom-clusters.json"
+    )
+    try:
+        with open(path) as f:
+            data = json.load(f)
+        return data.get("clusters", [])
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+
+# Cache at module level so we don't re-read the file on every classify call
+_CUSTOM_CLUSTERS = _load_custom_clusters()
+
+
+def classify_quip(quip):
+    """Assign a quip to one of ~15+ archetype clusters based on content signals.
+
+    Checks editor-defined custom clusters (from taste analysis) first,
+    then falls back to hardcoded clusters.
+    """
+    q = quip.lower()
+
+    # --- Custom clusters (from taste analysis) take priority ---
+    for cluster in _CUSTOM_CLUSTERS:
+        if any(k.lower() in q for k in cluster.get("keywords", [])):
+            return cluster["id"]
+
+    # --- Specific-reference clusters ---
+    film_tv = ["directed by", "coen", "succession", "wes anderson", "michael scott",
+               "palpatine", "prestige", "truman show", "nolan", "the bear", "credits",
+               "office fire", "nic cage", "curb your", "always sunny", "bad place",
+               "scorsese", "prometheus", "hunger games"]
+    music = ["miss the earth", "miss my wife", "midwest princess", "running up that hill",
+             "them apples", "i'm the problem", "start the fire", "mama said", "somebody once",
+             "bohemian", "under pressure", "sound of silence", "shake it off", "long long time"]
+    internet_meme = ["diet dr. pepper", "60% of the time", "this is fine", "sir this is",
+                     "stonks", "task failed", "suffering from success", "money printer",
+                     "imma head out", "it's giving", "understood the assignment",
+                     "no thoughts just vibes", "chaotic good", "audacity of hype",
+                     "main character", "the meme wrote"]
+    books_hist = ["moneyball", "freakonomics", "invisible hand", "hemingway",
+                  "art of war", "kafka", "wikipedia edit"]
+
+    if any(k in q for k in film_tv):
+        return "film_tv_reference"
+    if any(k in q for k in music):
+        return "music_reference"
+    if any(k in q for k in internet_meme):
+        return "internet_meme"
+    if any(k in q for k in books_hist):
+        return "books_history"
+
+    # --- Sports cluster ---
+    sports_words = ["parlay", "fantasy", "garbage time", "hot take", "stat nerd",
+                    "game 7", "mock draft", "prop bet", "sabermetric", "slapshot",
+                    "overtime", "buzzer", "bracket", "dynasty league", "bench player",
+                    "touchdown", "VAR", "champions league", "pick 'em", "rivalry week",
+                    "bookie", "tailgate", "walk-off", "power play", "shoe deal",
+                    "load management", "poster dunk", "deep bench", "pick six",
+                    "small ball", "bunt", "rain delay", "fourth quarter", "press box",
+                    "boosters", "NIL", "cinderella", "office pool", "ref is not",
+                    "highlight reel", "postgame", "press conference"]
+    if any(k in q for k in sports_words):
+        return "sports"
+
+    # --- Tone / voice clusters ---
+    if any(k in q for k in ["chaos", "chaotic", "unhinged", "cooked", "glitching",
+                             "apocalyptic", "unwell", "demolition", "intrusive"]):
+        return "chaos_energy"
+    if any(k in q for k in ["spreadsheet", "data", "analytics", "math", "chart",
+                             "number go up", "algorithm", "stat sheet", "financial"]):
+        return "data_nerd"
+    if any(k in q for k in ["group chat", "twitter", "reddit", "substack", "podcast",
+                             "linkedin", "slack", "reply guys", "discourse", "timeline",
+                             "notifications", "screenshot", "browser tab", "op-eds"]):
+        return "internet_discourse"
+    if any(k in q for k in ["uber driver", "lyft driver", "barber", "cab driver",
+                             "coworker", "dad will text", "cousin", "mother-in-law",
+                             "partner", "therapist", "your ex"]):
+        return "person_has_opinion"
+    if any(k in q for k in ["comedy", "lol", "funny", "entertainment", "popcorn",
+                             "amusing", "hilarious", "jokes"]):
+        return "comedy_framing"
+    if any(k in q for k in ["existential", "meaning", "universe", "simulation",
+                             "prophecy", "manifesting", "fate", "gods"]):
+        return "cosmic_vibes"
+    if any(k in q for k in ["dollar", "wallet", "wager", "bet ", "invest",
+                             "gambling", "price tag", "spare change", "receipt"]):
+        return "meta_wager"
+    if any(k in q for k in ["whisper", "quiet", "gentle", "slow", "little",
+                             "footnote", "passing", "soft", "plausible",
+                             "reasonable", "defensible"]):
+        return "understated"
+    if any(k in q for k in ["energy", "aura", "vibes", "mood", "feeling",
+                             "emotional", "spirit"]):
+        return "vibes_check"
+
+    return "general_wit"
+
+
 def build_pool_sample():
-    """Pick a representative sample of pool quips as tone anchors."""
-    # Spread across the pool to capture the range of voice
+    """Pick a diverse sample of pool quips using cluster-based random sampling.
+
+    Groups all quips into ~15 archetype clusters (pop culture refs, sports,
+    chaos energy, data nerd, etc.), then samples ~2 from each cluster so
+    the tone anchors always represent the full range of voice. Uses the
+    current date as seed so each day is different but reproducible.
+    """
+    import random
+    from datetime import date
+
+    # Cluster all quips
+    clusters = {}
+    for quip in ALL_QUIPS:
+        label = classify_quip(quip)
+        clusters.setdefault(label, []).append(quip)
+
+    # Date-seeded RNG — different each day, reproducible within a day
+    rng = random.Random(date.today().isoformat())
+
     sample_size = 30
-    step = max(len(ALL_QUIPS) // sample_size, 1)
-    sample = [ALL_QUIPS[i] for i in range(0, len(ALL_QUIPS), step)][:sample_size]
+    per_cluster = max(sample_size // len(clusters), 1)
+    sample = []
+
+    # First pass: guaranteed minimum from each cluster
+    for label in sorted(clusters.keys()):
+        pool = clusters[label]
+        n = min(per_cluster, len(pool))
+        sample.extend(rng.sample(pool, n))
+
+    # Second pass: fill remaining slots from largest clusters
+    remaining = sample_size - len(sample)
+    if remaining > 0:
+        available = [(label, [q for q in quips if q not in sample])
+                     for label, quips in clusters.items()]
+        available = [(l, qs) for l, qs in available if qs]
+        available.sort(key=lambda x: -len(x[1]))
+        for label, pool in available:
+            if remaining <= 0:
+                break
+            pick = min(1, remaining, len(pool))
+            sample.extend(rng.sample(pool, pick))
+            remaining -= pick
+
+    rng.shuffle(sample)
     return sample
 
 
