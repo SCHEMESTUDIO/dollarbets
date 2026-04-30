@@ -2027,13 +2027,21 @@ def generate_share_pages(boards):
         # Generate OG image
         og_dir = os.path.join(OUTPUT_DIR, "share", safe_ticker)
         og_img_path = os.path.join(og_dir, "og.png")
-        generate_share_og_image(title, quip, payout_str, og_img_path)
+        os.makedirs(og_dir, exist_ok=True)
+        has_og_image = generate_share_og_image(title, quip, payout_str, og_img_path)
+
+        # Use per-bet image if generated, otherwise fall back to site-wide
+        if has_og_image:
+            og_image_url = f"{SITE_URL}/share/{safe_ticker}/og.png"
+        else:
+            og_image_url = f"{SITE_URL}/og-image.png"
 
         # OG description
         og_desc = f'"{quip}" — $1 pays {payout_str} on Dollar Bets'
         og_title = f"{title} — $1 → {payout_str}"
 
-        # Build a lightweight share page that redirects to homepage
+        # Build a lightweight share page that redirects to homepage via JS
+        # (JS redirect so crawlers read OG tags; meta refresh would bypass them)
         html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -2046,20 +2054,20 @@ def generate_share_pages(boards):
   <meta property="og:type" content="website">
   <meta property="og:url" content="{SITE_URL}/share/{safe_ticker}/">
   <meta property="og:site_name" content="Dollar Bets">
-  <meta property="og:image" content="{SITE_URL}/share/{safe_ticker}/og.png">
+  <meta property="og:image" content="{og_image_url}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:type" content="image/png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{og_title}">
   <meta name="twitter:description" content="{og_desc}">
-  <meta name="twitter:image" content="{SITE_URL}/share/{safe_ticker}/og.png">
+  <meta name="twitter:image" content="{og_image_url}">
   <link rel="canonical" href="{SITE_URL}/">
-  <meta http-equiv="refresh" content="0;url=/">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💵</text></svg>">
 </head>
 <body style="font-family:'Courier New',monospace;background:#fdf6ee;color:#2d2319;text-align:center;padding:60px 20px">
   <p>redirecting to <a href="/">dollarbets.lol</a>...</p>
+  <script>window.location.replace("/");</script>
 </body>
 </html>"""
 
