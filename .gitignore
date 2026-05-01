@@ -6,3 +6,6 @@ __pycache__/
 .DS_Store
 markets.json
 .fonts/
+!public/favicon*
+!public/apple-touch-icon.png
+!public/android-chrome-*

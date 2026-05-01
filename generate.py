@@ -669,7 +669,11 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
   <meta name="twitter:title" content="{title}">
   <meta name="twitter:description" content="{description}">
   <meta name="twitter:image" content="{SITE_URL}/og-image.png">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💵</text></svg>">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   {analytics_head()}
   {extra_head}
   <style>{SHARED_CSS}
@@ -2077,7 +2081,11 @@ def generate_share_pages(boards):
   <meta name="twitter:description" content="{og_desc}">
   <meta name="twitter:image" content="{og_image_url}">
   <link rel="canonical" href="{SITE_URL}/">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💵</text></svg>">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 </head>
 <body style="font-family:'Courier New',monospace;background:#fdf6ee;color:#2d2319;text-align:center;padding:60px 20px">
   <p>redirecting to <a href="/">dollarbets.lol</a>...</p>
