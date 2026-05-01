@@ -67,8 +67,8 @@ def _describe_availability(partner_config):
 
     if allowed == "all" and blocked:
         # Blocklist model — too many allowed countries to list, describe as "most countries"
-        blocked_names = [_country_name(c) for c in blocked[:15]]
-        suffix = f" and {len(blocked) - 15} others" if len(blocked) > 15 else ""
+        blocked_names = [_country_name(c) for c in blocked]
+        suffix = ""
         return f"most countries except {', '.join(blocked_names)}{suffix}"
 
     return "varies by jurisdiction"
@@ -119,11 +119,12 @@ def unavailable_html(market_id, platform_display, user_country, partner_config):
     padding: 8px 12px; border-left: 3px solid #e8cdb5;
   }}
   a.back {{
-    display: inline-block; margin-top: 12px; padding: 8px 20px;
-    border: 1px solid #e8cdb5; color: #2d2319; text-decoration: none;
-    font-family: 'Courier New', monospace; font-size: 13px;
+    display: block; text-align: center; margin: 16px auto 0; padding: 12px 24px;
+    border: 2px solid #e8642c; color: #e8642c; text-decoration: none;
+    font-family: 'Courier New', monospace; font-size: 15px; font-weight: 700;
+    max-width: 280px;
   }}
-  a.back:hover {{ border-color: #d97c3c; color: #d97c3c; }}
+  a.back:hover {{ background: #e8642c; color: #fdf6ee; }}
   .fine {{ font-size: 11px; color: #a08b77; margin-top: 20px; }}
 </style>
 </head>
@@ -131,11 +132,11 @@ def unavailable_html(market_id, platform_display, user_country, partner_config):
 <div class="box">
   <h1>market not available in your region</h1>
   <p>you appear to be located in <strong>{user_location}</strong>. {reason_html}</p>
-  <div class="available">
-    <strong>{platform_display}</strong> is available in: {available_html}
-  </div>
   <div class="warn">
     <p>dollar bets does not control platform availability. this restriction is set by {platform_display}, not by us.</p>
+  </div>
+  <div class="available">
+    <strong>{platform_display}</strong> is available in: {available_html}
   </div>
   <p>other markets on the <a href="/" style="color:#d97c3c">homepage</a> may be available near you.</p>
   <a class="back" href="/">back to dollar bets</a>
