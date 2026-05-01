@@ -13,13 +13,13 @@
       "subtitle": "FCN vs OM (May 2)",
       "payout": 2.17,
       "tier": "green",
-      "quip": "fine, sure, whatever",
+      "quip": "Crazier thinks have happened, truly",
       "yes_price": "0.4600",
-      "volume": 10.0,
+      "volume": 10,
       "category": "Sports",
       "close_time": "2026-05-16T13:00:00Z",
       "url": "https://kalshi.com/markets/KXLIGUE11H?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 92.0
+      "score": 92
     },
     {
       "ticker": "0x906842f0acae58e8633c17e933010e1662ca6616fbb3de89f61ff7a3718f5cc7",
@@ -27,14 +27,14 @@
       "subtitle": "",
       "payout": 2.56,
       "tier": "green",
-      "quip": "a name your state rep couldn't pick out of a lineup",
+      "quip": "Could you pick your state rep out of a lineup?",
       "yes_price": "0.3900",
       "volume": 8061.557319000002,
       "category": "World",
       "close_time": "2026-06-09T00:00:00Z",
       "url": "https://polymarket.com/event/maine-governor-democratic-primary-winner",
       "platform": "polymarket",
-      "score": 38.0
+      "score": 38
     },
     {
       "ticker": "KXBUNDESLIGA1H-26MAY02LEVRBL-TIE",
@@ -44,11 +44,11 @@
       "tier": "green",
       "quip": "Xabi Alonso's hair demands it",
       "yes_price": "0.3700",
-      "volume": 13.0,
+      "volume": 13,
       "category": "Sports",
       "close_time": "2026-05-16T16:30:00Z",
       "url": "https://kalshi.com/markets/KXBUNDESLIGA1H?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 97.0
+      "score": 97
     },
     {
       "ticker": "0xfbe85201ab2b4acff01cd5a3639039fc813d3448c64db081f70926bd9b9e74e9",
@@ -63,7 +63,7 @@
       "close_time": "2026-06-21T14:00:00Z",
       "url": "https://polymarket.com/event/colombia-presidential-election",
       "platform": "polymarket",
-      "score": 50.0
+      "score": 50
     },
     {
       "ticker": "KXOAISCREEN-27",
@@ -71,13 +71,13 @@
       "subtitle": "Before 2027",
       "payout": 4.35,
       "tier": "yellow",
-      "quip": "Sir Jony spent twenty years removing ports for this",
+      "quip": "the man spent twenty years removing ports for this",
       "yes_price": "0.2300",
       "volume": 16451.15,
       "category": "Science and Technology",
       "close_time": "2027-01-01T15:00:00Z",
       "url": "https://kalshi.com/markets/KXOAISCREEN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 106.0
+      "score": 106
     },
     {
       "ticker": "0x22ff7a0cf934d8dec65168f67aa8e1d76a00fab4d5ce03d181ef860e0f7d79e7",
@@ -85,14 +85,14 @@
       "subtitle": "",
       "payout": 4.56,
       "tier": "yellow",
-      "quip": "surge pricing goes brrrr",
+      "quip": "name a bigger company that exists out of pure spite ",
       "yes_price": "0.2195",
       "volume": 8857.003481999998,
       "category": "Other",
       "close_time": "2026-05-14T00:00:00Z",
       "url": "https://polymarket.com/event/lyft-total-rides-above-in-q1",
       "platform": "polymarket",
-      "score": 35.0
+      "score": 35
     },
     {
       "ticker": "0x7a074521eafcd0c6ebecc8d806bb5fd31ffac5376320572f61fa7fea5205c55f",
@@ -100,14 +100,14 @@
       "subtitle": "",
       "payout": 10.53,
       "tier": "orange",
-      "quip": "Fernando Alonso has waited seventeen years for someone else to get this close",
+      "quip": "Alonso has waited 17 years for someone to get this close",
       "yes_price": "0.0950",
       "volume": 8038.492705999998,
       "category": "Entertainment",
       "close_time": "2026-05-10T20:00:00Z",
       "url": "https://polymarket.com/event/f1-miami-grand-prix-winner-2026-05-03",
       "platform": "polymarket",
-      "score": 63.0
+      "score": 63
     },
     {
       "ticker": "0xf120ef5c3ef7015aa629f5963cc73c83f9ee05c9dc2290dc32aa076869098b29",
@@ -122,27 +122,27 @@
       "close_time": "2027-01-01T05:00:00Z",
       "url": "https://polymarket.com/event/what-price-will-lighter-hit-before-2027",
       "platform": "polymarket",
-      "score": 45.0
+      "score": 45
     },
     {
       "ticker": "KXTOPALBUMRECORDSWAG-SWA-1",
       "title": "SWAG stays number one for a week or more",
       "subtitle": "SWAG",
-      "payout": 50.0,
+      "payout": 50,
       "tier": "red",
-      "quip": "the Shazam charts are an unwell place",
+      "quip": "the charts are unwell ",
       "yes_price": "0.0200",
       "volume": 106291.58,
       "category": "Entertainment",
       "close_time": "2026-12-27T04:59:00Z",
       "url": "https://kalshi.com/markets/KXTOPALBUMRECORDSWAG?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 131.0
+      "score": 131
     },
     {
       "ticker": "0xdf4e5a2bbb9ebb235eb3c35717be36ed8064bf13b614afd2d8c53d06c672e83b",
       "title": "Wesley Said tops Ligue 1 scoring this season",
       "subtitle": "",
-      "payout": 500.0,
+      "payout": 500,
       "tier": "purple",
       "quip": "I want it that way, but the market does not",
       "yes_price": "0.0020",
@@ -151,7 +151,7 @@
       "close_time": "2026-05-30T00:00:00Z",
       "url": "https://polymarket.com/event/ligue-1-top-goalscorer",
       "platform": "polymarket",
-      "score": 48.0
+      "score": 48
     }
   ]
 }
