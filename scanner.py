@@ -1661,6 +1661,7 @@ def build_board(events, poly_candidates=None):
     category_counts = {}
     platform_counts = {"kalshi": 0, "polymarket": 0}
     used_tickers = set()
+    used_titles = set()  # prevent same question appearing twice (e.g. Kalshi price tiers)
 
     def _can_add(m, enforce_tier_target=True):
         """Check if a market can be added to the board."""
@@ -1691,13 +1692,24 @@ def build_board(events, poly_candidates=None):
 
         board.append(m)
         used_tickers.add(m.get("ticker"))
+        used_titles.add(_normalize_title(m.get("title", "")))
         tier_counts[tier] = tier_counts.get(tier, 0) + 1
         category_counts[cat] = category_counts.get(cat, 0) + 1
         platform_counts[plat] = platform_counts.get(plat, 0) + 1
 
+    def _is_title_dupe(m):
+        """Check if a market's title is too similar to one already on the board."""
+        norm = _normalize_title(m.get("title", ""))
+        for existing in used_titles:
+            if _title_similarity(norm, existing) >= 0.55:
+                return True
+        return False
+
     # Pass 1: fill each tier up to its target
     for m in shuffled_pool:
         if m.get("ticker") in used_tickers:
+            continue
+        if _is_title_dupe(m):
             continue
         if not _can_add(m, enforce_tier_target=True):
             continue
@@ -1709,6 +1721,8 @@ def build_board(events, poly_candidates=None):
     if len(board) < TARGET_PICKS:
         for m in shuffled_pool:
             if m.get("ticker") in used_tickers:
+                continue
+            if _is_title_dupe(m):
                 continue
             if not _can_add(m, enforce_tier_target=False):
                 continue
