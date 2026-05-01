@@ -328,6 +328,13 @@ class handler(BaseHTTPRequestHandler):
         # over query-string ?platform= param
         platform = market.get("platform") or requested_platform
 
+        # Infer platform from ticker pattern when board data doesn't set it
+        if not platform:
+            if market_id.startswith("KX"):
+                platform = "kalshi"
+            elif market_id.startswith("0x"):
+                platform = "polymarket"
+
         # For Polymarket: resolve the correct event URL via Gamma API
         market_url = market.get("url", "")
         if platform == "polymarket":
