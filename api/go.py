@@ -26,6 +26,52 @@ from link_resolver import resolve_market_destination
 POLYMARKET_GAMMA_API = "https://gamma-api.polymarket.com"
 
 
+def interstitial_html(platform_name, destination_url, market_id):
+    """Generate a jurisdiction warning interstitial page."""
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>leaving dollar bets</title>
+<style>
+  body {{
+    background: #0a0a0a; color: #b0b0b0; font-family: 'Courier New', monospace;
+    display: flex; justify-content: center; align-items: center;
+    min-height: 100vh; margin: 0; padding: 16px; box-sizing: border-box;
+  }}
+  .box {{
+    max-width: 480px; width: 100%; border: 1px solid #333; padding: 24px;
+  }}
+  h1 {{ color: #e0e0e0; font-size: 16px; margin: 0 0 16px 0; text-transform: lowercase; }}
+  p {{ font-size: 13px; line-height: 1.6; margin: 0 0 12px 0; }}
+  .warn {{ color: #cc8800; border-left: 3px solid #cc8800; padding-left: 12px; margin: 16px 0; }}
+  a.go {{
+    display: inline-block; margin-top: 16px; padding: 8px 20px;
+    border: 1px solid #555; color: #e0e0e0; text-decoration: none;
+    font-family: 'Courier New', monospace; font-size: 13px;
+  }}
+  a.go:hover {{ border-color: #888; }}
+  a.back {{ color: #666; font-size: 12px; margin-left: 16px; }}
+  .fine {{ font-size: 11px; color: #666; margin-top: 20px; }}
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>you are leaving dollar bets</h1>
+  <p>you are about to visit <strong>{platform_name}</strong> to view market <strong>{market_id}</strong>.</p>
+  <div class="warn">
+    <p>availability depends on your location. confirm you are in an eligible jurisdiction before continuing. dollar bets does not verify your eligibility.</p>
+  </div>
+  <p>dollar bets is an editorial site. we are not affiliated with, endorsed by, or acting as an agent of {platform_name}.</p>
+  <a class="go" href="{destination_url}">continue to {platform_name}</a>
+  <a class="back" href="/">go back</a>
+  <p class="fine">by clicking continue you acknowledge that you are solely responsible for complying with the laws and regulations of your jurisdiction.</p>
+</div>
+</body>
+</html>"""
+
+
 def resolve_polymarket_url(market_url):
     """Fix Polymarket URLs by looking up the correct event slug via Gamma API.
 
@@ -183,8 +229,14 @@ class handler(BaseHTTPRequestHandler):
             self.end_headers()
             return
 
-        # Redirect to resolved URL
-        self.send_response(302)
-        self.send_header("Location", result["destination_url"])
+        # Serve jurisdiction interstitial instead of instant redirect
+        platform_name = result.get("platform", "the market platform")
+        display_names = {"kalshi": "Kalshi", "polymarket": "Polymarket", "coinbase": "Coinbase International"}
+        display_name = display_names.get(platform_name, platform_name)
+
+        html = interstitial_html(display_name, result["destination_url"], market_id)
+        self.send_response(200)
+        self.send_header("Content-Type", "text/html; charset=utf-8")
         self.send_header("Cache-Control", "no-cache")
         self.end_headers()
+        self.wfile.write(html.encode("utf-8"))

@@ -593,6 +593,17 @@ SHARED_CSS = """
 
     .footer a:hover { color: #e8642c; }
 
+    .geo-banner {
+      background: #1a1200; border: 1px solid #cc8800; color: #cc8800;
+      padding: 8px 12px; font-size: 11px; margin-bottom: 12px;
+      font-family: 'Courier New', monospace; text-transform: lowercase;
+    }
+
+    .cta-softened {
+      opacity: 0.7;
+      border-color: #555 !important;
+    }
+
     /* === MOBILE === */
     @media (max-width: 500px) {
       .container { padding: 16px 12px; }
@@ -698,7 +709,7 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
 {SIGNUP_HTML}
 
     <div class="footer">
-      <p>dollar bets is an entertainment and market-discovery site. we do not operate markets, take bets, or provide betting, financial, investment, or legal advice. markets, odds, and availability vary by jurisdiction. longshots are unlikely by definition. never risk money you cannot afford to lose.</p>
+      <p>dollar bets is an editorial discovery site, not a broker, exchange, bookmaker, financial adviser, or gambling operator. we do not operate markets, take bets, or provide betting, financial, investment, or legal advice. market availability varies by jurisdiction. users are responsible for complying with local laws and platform eligibility rules. longshots are unlikely by definition. never risk money you cannot afford to lose.</p>
       <p style="margin-top:6px">"$1 pays" = what one dollar returns if the event happens. actual returns depend on price at purchase. some links may be affiliate links — see our <a href="/affiliate-disclosure/">disclosure</a>.</p>
       <p style="margin-top:6px">this site is intended for adults only. do not use this site if you are under the legal age for gambling, trading, or participating in prediction markets in your jurisdiction.</p>
       <p style="margin-top:8px">
@@ -773,6 +784,31 @@ function shareTo(e, platform, btn) {{
   }}
   menu.classList.remove('open');
 }}
+
+// ── geo-aware CTA suppression ──
+(function() {{
+  fetch('/api/geo').then(function(r) {{ return r.json(); }}).then(function(geo) {{
+    if (!geo.commentary_only) return;
+
+    // show banner
+    var banner = document.createElement('div');
+    banner.className = 'geo-banner';
+    banner.textContent = geo.banner || 'market commentary only — trading may not be available in your region';
+    var main = document.querySelector('.container');
+    if (main) main.insertBefore(banner, main.firstChild);
+
+    // soften CTA buttons
+    document.querySelectorAll('a.cta-btn, a.bet-link').forEach(function(a) {{
+      a.textContent = geo.cta_label || 'view market info';
+      a.classList.add('cta-softened');
+    }});
+
+    // hide signup/register elements
+    document.querySelectorAll('.signup-cta, .register-cta').forEach(function(el) {{
+      el.style.display = 'none';
+    }});
+  }}).catch(function() {{ /* geo check failed — show default CTAs */ }});
+}})();
 </script>
 </body>
 </html>"""

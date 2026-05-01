@@ -1,4 +1,13 @@
 {
+  "geo_compliance": {
+    "_description": "Countries where we suppress trading CTAs entirely and show commentary-only mode",
+    "commentary_only_countries": [
+      "GB", "AU", "CN", "HK", "IN", "JP", "KR",
+      "IR", "KP", "CU", "SY", "BY", "RU", "VE", "MM"
+    ],
+    "commentary_only_cta": "view market info",
+    "commentary_only_banner": "market commentary only — trading may not be available in your region"
+  },
   "partners": [
     {
       "slug": "kalshi",
@@ -7,10 +16,10 @@
       "affiliate_id": "e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
       "tracking_param_name": "referral",
       "enabled": true,
-      "allowed_countries": "all",
-      "blocked_countries": [
-        "comment: AZ, IL, MA, MD, MI, MT, NV, OH are blocked US states"
-      ],
+      "allowed_countries": ["US"],
+      "blocked_countries": [],
+      "_blocked_us_states_note": "AZ, IL, MA, MD, MI, MT, NV, OH — state-level blocking not possible via country-level geo-IP",
+      "softened_countries": [],
       "min_age": 21,
       "requires_disclaimer": true,
       "priority_rank": 1,
@@ -25,26 +34,12 @@
       "enabled": true,
       "allowed_countries": "all",
       "blocked_countries": [
-        "NL",
-        "PL",
-        "FR",
-        "BE",
-        "CH",
-        "PT",
-        "HU",
-        "IT",
-        "UA",
-        "RU",
-        "IR",
-        "KP",
-        "CU",
-        "SY",
-        "BY",
-        "VE",
-        "MM",
-        "SG",
-        "AR"
+        "US",
+        "NL", "PL", "FR", "BE", "CH", "PT", "HU", "IT",
+        "UA", "RU", "IR", "KP", "CU", "SY", "BY", "VE", "MM",
+        "SG", "AR", "GB", "CN", "HK", "AU", "IN", "JP", "KR"
       ],
+      "softened_countries": [],
       "min_age": 18,
       "requires_disclaimer": true,
       "priority_rank": 2,
