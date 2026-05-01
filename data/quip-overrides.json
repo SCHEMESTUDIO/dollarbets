@@ -187,5 +187,77 @@
     "tier": "purple",
     "original_quip": "\u6cf0\u52d2\u7d72 could not be reached for comment",
     "editor_quip": "if geopolitics was Catan, this is like blocking longest road with a port"
+  },
+  {
+    "date": "2026-05-01",
+    "title": "Rain in NYC in May 2026?",
+    "category": "Climate and Weather",
+    "payout": 1.82,
+    "tier": "green",
+    "original_quip": "probably gravy",
+    "editor_quip": "just please on the day I bring an umbrella "
+  },
+  {
+    "date": "2026-05-01",
+    "title": "Will OpenAI increase the cost of ChatGPT?",
+    "category": "Science and Technology",
+    "payout": 2.38,
+    "tier": "green",
+    "original_quip": "money printer go brrrr",
+    "editor_quip": "I'll pay anything for my e-girl"
+  },
+  {
+    "date": "2026-05-01",
+    "title": "Will ICEMAN by Drake have At least 30 tracks?",
+    "category": "Entertainment",
+    "payout": 2.94,
+    "tier": "green",
+    "original_quip": "Drake's already got the tracklist in a Notes app screenshot",
+    "editor_quip": "tracklist in a Notes app screenshot in 3...2...1..."
+  },
+  {
+    "date": "2026-05-01",
+    "title": "Will Hamas agree to disarm by June 30?",
+    "category": "Other",
+    "payout": 6.67,
+    "tier": "yellow",
+    "original_quip": "Hamas disarming is not on the roadmap",
+    "editor_quip": "in other news: Al-Qaeda pivoting to champion green energy causes"
+  },
+  {
+    "date": "2026-05-01",
+    "title": "2027 Best Actress Oscar nominations?",
+    "category": "Entertainment",
+    "payout": 8.33,
+    "tier": "orange",
+    "original_quip": "Fernanda Torres is already writing her speech",
+    "editor_quip": "if Toy Story 5 doesn't clinch I'm going on hunger strike"
+  },
+  {
+    "date": "2026-05-01",
+    "title": "Will any AI model have a score of at least 1750 before Jan 1, 2027",
+    "category": "Science and Technology",
+    "payout": 10,
+    "tier": "orange",
+    "original_quip": "GPT-5 looked at this benchmark and said hold my context window",
+    "editor_quip": "The Hunger Games but for robots "
+  },
+  {
+    "date": "2026-05-01",
+    "title": "Will Fran\u00e7ois Hollande win the 2027 French presidential election?",
+    "category": "World",
+    "payout": 20.2,
+    "tier": "red",
+    "original_quip": "Hollande running back like a director's cut nobody asked for",
+    "editor_quip": "this film was meant to be told in one part"
+  },
+  {
+    "date": "2026-05-01",
+    "title": "Will Adam Miller win the 2026 Los Angeles mayoral election?",
+    "category": "World",
+    "payout": 133.33,
+    "tier": "purple",
+    "original_quip": "Adam Miller dot com was registered in 2019 and that's all I'll say",
+    "editor_quip": "you can still write in Will Ferrell on the ballot"
   }
 ]
