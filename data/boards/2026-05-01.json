@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-05-01T10:08:04.724794+00:00",
-  "market_count": 10,
+  "market_count": 9,
   "source": "kalshi+polymarket",
   "platform_mix": {
     "kalshi": 5,
@@ -20,7 +20,7 @@
       "close_time": "2026-12-31T00:00:00Z",
       "url": "https://polymarket.com/event/will-trump-wear-a-yarmulke-in-2026",
       "platform": "polymarket",
-      "score": 43.0
+      "score": 43
     },
     {
       "ticker": "KXFUSION-30-JAN01",
@@ -34,7 +34,7 @@
       "category": "Science and Technology",
       "close_time": "2030-01-01T04:59:00Z",
       "url": "https://kalshi.com/markets/KXFUSION?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 58.0
+      "score": 58
     },
     {
       "ticker": "KXOSCARNOMCIN-27-ADV",
@@ -48,21 +48,7 @@
       "category": "Entertainment",
       "close_time": "2027-12-31T15:00:00Z",
       "url": "https://kalshi.com/markets/KXOSCARNOMCIN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 38.0
-    },
-    {
-      "ticker": "KXTHAIL1GAME-26MAY03LAMCHI-TIE",
-      "title": "Lamphun Warriors vs Chiangrai Winner?",
-      "subtitle": "LAM vs CHI (May 3)",
-      "payout": 3.57,
-      "tier": "yellow",
-      "quip": "long the Warriors, short the vibes",
-      "yes_price": "0.2800",
-      "volume": 0.0,
-      "category": "Sports",
-      "close_time": "2026-05-17T12:00:00Z",
-      "url": "https://kalshi.com/markets/KXTHAIL1GAME?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 21.0
+      "score": 38
     },
     {
       "ticker": "KXRANKLISTGOOGLESEARCH-26DEC-DON",
@@ -70,13 +56,13 @@
       "subtitle": "2026",
       "payout": 4.76,
       "tier": "yellow",
-      "quip": "gravity is a flat circle",
+      "quip": "the simulation is breaking down",
       "yes_price": "0.2100",
       "volume": 62194.66,
       "category": "Entertainment",
       "close_time": "2026-12-31T15:00:00Z",
       "url": "https://kalshi.com/markets/KXRANKLISTGOOGLESEARCH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 88.0
+      "score": 88
     },
     {
       "ticker": "KXHMONTH-26MAY",
@@ -90,7 +76,7 @@
       "category": "Climate and Weather",
       "close_time": "2026-06-16T03:59:00Z",
       "url": "https://kalshi.com/markets/KXHMONTH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 73.0
+      "score": 73
     },
     {
       "ticker": "0x3e332a537d75a5b4e906ea405330441c9d554ed2ebcd2ce64e9bf91b5723187b",
@@ -105,7 +91,7 @@
       "close_time": "2026-05-30T06:00:00Z",
       "url": "https://polymarket.com/event/bc-conservative-party-leadership-election-winner",
       "platform": "polymarket",
-      "score": 53.0
+      "score": 53
     },
     {
       "ticker": "0xf120ef5c3ef7015aa629f5963cc73c83f9ee05c9dc2290dc32aa076869098b29",
@@ -113,14 +99,14 @@
       "subtitle": "",
       "payout": 13.33,
       "tier": "orange",
-      "quip": "number go up",
+      "quip": "in other memecoin news, White House vending machines now accept doge",
       "yes_price": "0.0750",
       "volume": 80346.44093599997,
       "category": "Other",
       "close_time": "2027-01-01T05:00:00Z",
       "url": "https://polymarket.com/event/what-price-will-lighter-hit-before-2027",
       "platform": "polymarket",
-      "score": 45.0
+      "score": 45
     },
     {
       "ticker": "0xae0363bfe26b7de87f4526c47d5de9b324bab3d14690112bd89b34c9ed3552fc",
@@ -135,7 +121,7 @@
       "close_time": "2026-10-31T23:55:00Z",
       "url": "https://polymarket.com/event/mlb-world-series-champion-2026",
       "platform": "polymarket",
-      "score": 50.0
+      "score": 50
     },
     {
       "ticker": "0x0a41fdad163a6627011670f3825b0a7ba6846898edd967bf99e35edaf8e01c39",
@@ -143,14 +129,14 @@
       "subtitle": "",
       "payout": 90.91,
       "tier": "purple",
-      "quip": "\u6cf0\u52d2\u7d72 could not be reached for comment",
+      "quip": "if geopolitics was Catan, this is like blocking longest road with a port",
       "yes_price": "0.0110",
       "volume": 88844.65447500002,
       "category": "Science and Technology",
       "close_time": "2026-06-30T00:00:00Z",
       "url": "https://polymarket.com/event/taiwanese-premier-cho-jung-tai-out-by",
       "platform": "polymarket",
-      "score": 53.0
+      "score": 53
     }
   ]
 }
