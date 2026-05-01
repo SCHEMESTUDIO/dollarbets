@@ -259,5 +259,59 @@
     "tier": "purple",
     "original_quip": "Adam Miller dot com was registered in 2019 and that's all I'll say",
     "editor_quip": "you can still write in Will Ferrell on the ballot"
+  },
+  {
+    "date": "2026-05-01",
+    "title": "Marseille takes the first half in Nantes",
+    "category": "Sports",
+    "payout": 2.17,
+    "tier": "green",
+    "original_quip": "fine, sure, whatever",
+    "editor_quip": "Crazier thinks have happened, truly"
+  },
+  {
+    "date": "2026-05-01",
+    "title": "Nirav Shah wins Maine's Democratic gubernatorial primary",
+    "category": "World",
+    "payout": 2.56,
+    "tier": "green",
+    "original_quip": "a name your state rep couldn't pick out of a lineup",
+    "editor_quip": "Could you pick your state rep out of a lineup?"
+  },
+  {
+    "date": "2026-05-01",
+    "title": "The OpenAI x Jony Ive device has a screen",
+    "category": "Science and Technology",
+    "payout": 4.35,
+    "tier": "yellow",
+    "original_quip": "Sir Jony spent twenty years removing ports for this",
+    "editor_quip": "the man spent twenty years removing ports for this"
+  },
+  {
+    "date": "2026-05-01",
+    "title": "Lyft tops 260 million rides in Q1 2026",
+    "category": "Other",
+    "payout": 4.56,
+    "tier": "yellow",
+    "original_quip": "surge pricing goes brrrr",
+    "editor_quip": "name a bigger company that exists out of pure spite "
+  },
+  {
+    "date": "2026-05-01",
+    "title": "Oscar Piastri wins the Miami Grand Prix",
+    "category": "Entertainment",
+    "payout": 10.53,
+    "tier": "orange",
+    "original_quip": "Fernando Alonso has waited seventeen years for someone else to get this close",
+    "editor_quip": "Alonso has waited 17 years for someone to get this close"
+  },
+  {
+    "date": "2026-05-01",
+    "title": "SWAG stays number one for a week or more",
+    "category": "Entertainment",
+    "payout": 50,
+    "tier": "red",
+    "original_quip": "the Shazam charts are an unwell place",
+    "editor_quip": "the charts are unwell "
   }
 ]
