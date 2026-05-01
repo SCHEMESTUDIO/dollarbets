@@ -160,5 +160,32 @@
     "tier": "orange",
     "original_quip": "white smoke or cope",
     "editor_quip": "can't say you didn't see it coming"
+  },
+  {
+    "date": "2026-05-01",
+    "title": "Will Donald Trump be the #1 rank on Google\u2019s Year in Search 2026 Global \u2013 People?",
+    "category": "Entertainment",
+    "payout": 4.76,
+    "tier": "yellow",
+    "original_quip": "gravity is a flat circle",
+    "editor_quip": "the simulation is breaking down"
+  },
+  {
+    "date": "2026-05-01",
+    "title": "Will Lighter reach $8 before 2027?",
+    "category": "Other",
+    "payout": 13.33,
+    "tier": "orange",
+    "original_quip": "number go up",
+    "editor_quip": "in other memecoin news, White House vending machines now accept doge"
+  },
+  {
+    "date": "2026-05-01",
+    "title": "Taiwanese Premier Cho Jung-tai out by June 30, 2026?",
+    "category": "Science and Technology",
+    "payout": 90.91,
+    "tier": "purple",
+    "original_quip": "\u6cf0\u52d2\u7d72 could not be reached for comment",
+    "editor_quip": "if geopolitics was Catan, this is like blocking longest road with a port"
   }
 ]
