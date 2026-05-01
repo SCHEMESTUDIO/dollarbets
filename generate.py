@@ -594,7 +594,7 @@ SHARED_CSS = """
     .footer a:hover { color: #e8642c; }
 
     .geo-banner {
-      background: #1a1200; border: 1px solid #cc8800; color: #cc8800;
+      background: #fef9e7; border: 1px solid #d4c479; color: #5a4e2f;
       padding: 8px 12px; font-size: 11px; margin-bottom: 12px;
       font-family: 'Courier New', monospace; text-transform: lowercase;
     }

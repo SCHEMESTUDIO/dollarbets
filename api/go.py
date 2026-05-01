@@ -26,6 +26,125 @@ from link_resolver import resolve_market_destination
 POLYMARKET_GAMMA_API = "https://gamma-api.polymarket.com"
 
 
+COUNTRY_NAMES = {
+    "US": "United States", "GB": "United Kingdom", "AU": "Australia",
+    "CA": "Canada", "DE": "Germany", "FR": "France", "IT": "Italy",
+    "ES": "Spain", "NL": "Netherlands", "BE": "Belgium", "CH": "Switzerland",
+    "AT": "Austria", "SE": "Sweden", "NO": "Norway", "DK": "Denmark",
+    "FI": "Finland", "IE": "Ireland", "PT": "Portugal", "PL": "Poland",
+    "CZ": "Czech Republic", "HU": "Hungary", "RO": "Romania", "BG": "Bulgaria",
+    "HR": "Croatia", "SK": "Slovakia", "SI": "Slovenia", "LT": "Lithuania",
+    "LV": "Latvia", "EE": "Estonia", "GR": "Greece", "CY": "Cyprus",
+    "MT": "Malta", "LU": "Luxembourg",
+    "CN": "China", "HK": "Hong Kong", "JP": "Japan", "KR": "South Korea",
+    "IN": "India", "SG": "Singapore", "TW": "Taiwan", "TH": "Thailand",
+    "MY": "Malaysia", "PH": "Philippines", "ID": "Indonesia", "VN": "Vietnam",
+    "BR": "Brazil", "MX": "Mexico", "AR": "Argentina", "CO": "Colombia",
+    "CL": "Chile", "PE": "Peru",
+    "ZA": "South Africa", "NG": "Nigeria", "KE": "Kenya", "EG": "Egypt",
+    "AE": "UAE", "SA": "Saudi Arabia", "IL": "Israel", "TR": "Turkey",
+    "RU": "Russia", "UA": "Ukraine", "BY": "Belarus",
+    "IR": "Iran", "KP": "North Korea", "CU": "Cuba", "SY": "Syria",
+    "VE": "Venezuela", "MM": "Myanmar",
+    "NZ": "New Zealand",
+}
+
+
+def _country_name(code):
+    """Convert ISO country code to readable name."""
+    return COUNTRY_NAMES.get(code.upper(), code.upper()) if code else "your region"
+
+
+def _describe_availability(partner_config):
+    """Build human-readable availability description from partner config."""
+    allowed = partner_config.get("allowed_countries", "all")
+    blocked = partner_config.get("blocked_countries", [])
+
+    if isinstance(allowed, list) and len(allowed) <= 10:
+        # Allowlist model (e.g., Kalshi = US only)
+        names = [_country_name(c) for c in allowed]
+        return ", ".join(names)
+
+    if allowed == "all" and blocked:
+        # Blocklist model — too many allowed countries to list, describe as "most countries"
+        blocked_names = [_country_name(c) for c in blocked[:15]]
+        suffix = f" and {len(blocked) - 15} others" if len(blocked) > 15 else ""
+        return f"most countries except {', '.join(blocked_names)}{suffix}"
+
+    return "varies by jurisdiction"
+
+
+def unavailable_html(market_id, platform_display, user_country, partner_config):
+    """Generate a geo-specific unavailable page."""
+    user_location = _country_name(user_country)
+
+    # Build blocked region description
+    blocked = partner_config.get("blocked_countries", [])
+    allowed = partner_config.get("allowed_countries", "all")
+
+    if isinstance(allowed, list):
+        # Allowlist model — user isn't on the list
+        reason_html = f"<strong>{platform_display}</strong> is only available in: <strong>{_describe_availability(partner_config)}</strong>."
+    elif user_country and user_country.upper() in blocked:
+        reason_html = f"<strong>{platform_display}</strong> is not available in <strong>{user_location}</strong>."
+    else:
+        reason_html = f"<strong>{platform_display}</strong> is not available in your region."
+
+    available_html = _describe_availability(partner_config)
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>not available — dollar bets</title>
+<style>
+  body {{
+    background: #fdf6ee; color: #2d2319; font-family: 'Courier New', monospace;
+    display: flex; justify-content: center; align-items: center;
+    min-height: 100vh; margin: 0; padding: 16px; box-sizing: border-box;
+  }}
+  .box {{
+    max-width: 480px; width: 100%; border: 1px solid #e8cdb5; padding: 24px;
+    background: #faf7f3;
+  }}
+  h1 {{ font-size: 16px; margin: 0 0 16px 0; text-transform: lowercase; color: #2d2319; }}
+  p {{ font-size: 13px; line-height: 1.6; margin: 0 0 12px 0; color: #5a4e2f; }}
+  .warn {{
+    background: #fef9e7; border: 1px solid #d4c479; color: #5a4e2f;
+    padding: 10px 12px; margin: 16px 0; font-size: 12px;
+  }}
+  .available {{
+    font-size: 12px; color: #6b5744; margin: 12px 0;
+    padding: 8px 12px; border-left: 3px solid #e8cdb5;
+  }}
+  a.back {{
+    display: inline-block; margin-top: 12px; padding: 8px 20px;
+    border: 1px solid #e8cdb5; color: #2d2319; text-decoration: none;
+    font-family: 'Courier New', monospace; font-size: 13px;
+  }}
+  a.back:hover {{ border-color: #d97c3c; color: #d97c3c; }}
+  .fine {{ font-size: 11px; color: #a08b77; margin-top: 20px; }}
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>market not available in your region</h1>
+  <p>you appear to be located in <strong>{user_location}</strong>. {reason_html}</p>
+  <div class="available">
+    <strong>{platform_display}</strong> is available in: {available_html}
+  </div>
+  <div class="warn">
+    <p>dollar bets does not control platform availability. this restriction is set by {platform_display}, not by us.</p>
+  </div>
+  <p>other markets on the <a href="/" style="color:#d97c3c">homepage</a> may be available near you.</p>
+  <a class="back" href="/">back to dollar bets</a>
+  <p class="fine">dollar bets is an editorial site. we do not operate markets or verify user eligibility.</p>
+</div>
+</body>
+</html>"""
+
+
 def interstitial_html(platform_name, destination_url, market_id):
     """Generate a jurisdiction warning interstitial page."""
     return f"""<!DOCTYPE html>
@@ -224,9 +343,28 @@ class handler(BaseHTTPRequestHandler):
         )
 
         if not result["eligible"]:
-            self.send_response(302)
-            self.send_header("Location", "/unavailable/")
+            # Load partner config for the blocked platform to show availability info
+            site_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+            config_path = os.path.join(site_dir, "config", "partners.json")
+            partner_config = {}
+            platform_display = platform or "this platform"
+            try:
+                with open(config_path) as f:
+                    config = json.load(f)
+                for p in config.get("partners", []):
+                    if p.get("slug") == platform:
+                        partner_config = p
+                        platform_display = p.get("display_name", platform)
+                        break
+            except Exception:
+                pass
+
+            html = unavailable_html(market_id, platform_display, user_country, partner_config)
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.send_header("Cache-Control", "no-cache")
             self.end_headers()
+            self.wfile.write(html.encode("utf-8"))
             return
 
         # Serve jurisdiction interstitial instead of instant redirect
