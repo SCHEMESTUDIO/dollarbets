@@ -550,6 +550,17 @@ def score_cultural_hook(event):
             score -= 20
             break
 
+    # Penalize niche sports/esports that nobody outside the fandom cares about
+    niche_sports = ["handicap", "esports", "bo3", "bo5", "map 1", "map 2",
+                    "round ", "pistol round", "game handicap", "set handicap",
+                    "corners over", "corners under", "total kills",
+                    "first blood", "first tower", "flyweight", "bantamweight",
+                    "main card", "prelim", "serie b", "ligue 2", "2. bundesliga",
+                    "pisa sc", "championship", "eredivisie"]
+    niche_hits = sum(1 for kw in niche_sports if kw in full_text)
+    if niche_hits:
+        score -= 25 * niche_hits
+
     return score
 
 
@@ -1238,13 +1249,16 @@ def match_quips_ai(board):
     pool_sample = build_pool_sample()
     pool_lines = "\n".join(f"- {q}" for q in pool_sample)
 
-    # Build market list
+    # Build market list with context for title rewriting
     market_lines = []
     for i, m in enumerate(board):
+        yes_price = m.get("yes_price", "?")
         market_lines.append(
             f'{i+1}. "{m["title"]}" '
-            f'(${m["payout"]} payout, category: {m.get("category", "n/a")}, '
-            f'tier: {m.get("tier", "n/a")})'
+            f'(${m["payout"]} payout, yes_price: {yes_price}, '
+            f'category: {m.get("category", "n/a")}, '
+            f'tier: {m.get("tier", "n/a")}, '
+            f'platform: {m.get("platform", "kalshi")})'
         )
 
     # If no style guide exists yet, fall back to pool-picking mode
@@ -1252,18 +1266,31 @@ def match_quips_ai(board):
         return _match_from_pool(board, market_lines)
 
     # Hybrid generation mode
-    prompt = f"""You are the editorial voice of Dollar Bets — a daily prediction market board with a Craigslist/Drudge aesthetic. You write quips: short, wry, one-line editorial comments that sit under each bet.
+    prompt = f"""You are the editorial voice of Dollar Bets — a daily prediction market board with a Craigslist/Drudge aesthetic.
+
+You have TWO jobs for each bet:
+1. REWRITE THE TITLE — turn raw market titles into punchy, declarative editorial headlines
+2. WRITE A QUIP — a short, wry, one-line editorial comment that sits under the title
 
 {guide_section}
+
+TITLE REWRITING RULES:
+- The payout shown is always for the YES outcome. Your title should be a declarative statement framing the YES side as the bet (e.g., "Will X happen?" becomes "X is happening" or "X to happen this week")
+- NEVER phrase as a question. Always declarative: "Raptors beat the Cavs tonight", not "Will the Raptors beat the Cavaliers?"
+- Replace specific dates with common language: "today", "tonight", "this week", "this month", "this year", "on election day", etc. People can see exact details on the platform
+- Drop unnecessary detail, ticker codes, time ranges, and jargon. Give people shorthand
+- For sports "vs." markets: pick a side. The side that makes the best dollar bet story — could be the favourite winning or an underdog pulling it off, depending on cultural context, the news cycle, and what makes a more interesting headline
+- For "Will X do Y?" markets: make it declarative — "X does Y" or "X to do Y"
+- Keep it punchy. Shorter is better. 3-10 words ideal
+- The title should make sense on its own without needing the quip
 
 VOICE REFERENCE — here are example quips that capture the Dollar Bets tone. Your generated quips should feel like they belong alongside these, but do NOT copy them:
 {pool_lines}
 
-TODAY'S BETS (write one quip each):
+TODAY'S BETS (rewrite title + write quip for each):
 {chr(10).join(market_lines)}
 
-Rules:
-- Write exactly {len(board)} quips, one per bet, in order
+QUIP RULES:
 - Each quip should be 3-12 words. No period at the end. Natural casing (capitalize proper nouns, song titles, etc — but don't title-case everything)
 - Name a specific thing: a film, a song lyric, a meme, a product, a person. Concrete references > abstract metaphors
 - For near-certain bets (green tier), understate it — breezy acceptance, not analysis
@@ -1274,13 +1301,15 @@ Rules:
 - NEVER use vague irony that hedges without committing to a specific reference or stance
 - NEVER use alarmed or earnest metaphors for serious topics — the voice is dry and flat, seriousness comes through specificity
 - NEVER recycle a formula you've used before — every quip is a unique editorial slot
-- Return a JSON array of {len(board)} strings
 
-Respond with ONLY the JSON array. Example: ["quip one", "quip two", ...]"""
+Return a JSON array of {len(board)} objects, each with "title" and "quip" keys.
+Example: [{{"title": "Raptors beat the Cavs tonight", "quip": "fine, sure, whatever"}}]
+
+Respond with ONLY the JSON array."""
 
     body = json.dumps({
         "model": "claude-sonnet-4-6",
-        "max_tokens": 1000,
+        "max_tokens": 2000,
         "messages": [{"role": "user", "content": prompt}]
     }).encode()
 
@@ -1308,20 +1337,27 @@ Respond with ONLY the JSON array. Example: ["quip one", "quip two", ...]"""
                 text = text.strip()
 
             print(f"[scanner] Claude response: {text[:120]}...", file=sys.stderr)
-            quips = json.loads(text)
+            entries = json.loads(text)
 
-            if isinstance(quips, list) and len(quips) == len(board):
-                # Validate: all strings, non-empty
-                if all(isinstance(q, str) and q.strip() for q in quips):
-                    for i, q in enumerate(quips):
+            if isinstance(entries, list) and len(entries) == len(board):
+                # Handle both new format (objects with title+quip) and legacy (plain strings)
+                if all(isinstance(e, dict) and e.get("title") and e.get("quip") for e in entries):
+                    for i, e in enumerate(entries):
+                        board[i]["title"] = e["title"].strip()
+                        board[i]["quip"] = e["quip"].strip()
+                    print(f"[scanner] Generated {len(board)} titles + quips", file=sys.stderr)
+                    return board
+                elif all(isinstance(e, str) and e.strip() for e in entries):
+                    # Legacy fallback: plain quip strings
+                    for i, q in enumerate(entries):
                         board[i]["quip"] = q.strip()
-                    print(f"[scanner] Generated {len(board)} custom quips", file=sys.stderr)
+                    print(f"[scanner] Generated {len(board)} quips (legacy format)", file=sys.stderr)
                     return board
                 else:
-                    print("[scanner] Some generated quips were empty, falling back", file=sys.stderr)
+                    print("[scanner] Unexpected entry format, falling back", file=sys.stderr)
             else:
-                count = len(quips) if isinstance(quips, list) else "non-list"
-                print(f"[scanner] Got {count} quips for {len(board)} bets, falling back", file=sys.stderr)
+                count = len(entries) if isinstance(entries, list) else "non-list"
+                print(f"[scanner] Got {count} entries for {len(board)} bets, falling back", file=sys.stderr)
 
     except urllib.error.HTTPError as e:
         err_body = e.read().decode() if e.fp else "no body"
@@ -1576,7 +1612,7 @@ def build_board(events, poly_candidates=None):
         # === COMPOSITE EDITORIAL SCORE ===
         # All five pillars combined
         editorial_score = (
-            hook_score                              # cultural hook
+            hook_score * 2                          # cultural hook (2x weight — most important signal)
             + score_payout_drama(payout)            # payout drama
             + score_freshness(best_market, event)   # freshness
             + score_tradability(best_market)         # tradability
@@ -1607,7 +1643,7 @@ def build_board(events, poly_candidates=None):
         print("[scanner] No Polymarket candidates to merge", file=sys.stderr)
 
     # Step 3: Daily rotation — "newspaper" selection
-    QUALITY_FLOOR = 15
+    QUALITY_FLOOR = 30
     eligible = [c for c in candidates if c["score"] >= QUALITY_FLOOR]
     eligible.sort(key=lambda x: x["score"], reverse=True)
 
@@ -1630,10 +1666,10 @@ def build_board(events, poly_candidates=None):
     rng.shuffle(solid)
     rng.shuffle(deep_cuts)
 
-    # Interleave: ~4 headliners, ~3 solid, ~3 deep cuts
+    # Interleave: ~5 headliners, ~4 solid, ~1 deep cut (wildcard)
     shuffled_pool = []
     h, s, d = 0, 0, 0
-    pattern = ["head", "head", "solid", "head", "solid", "deep", "head", "solid", "deep", "deep"]
+    pattern = ["head", "head", "solid", "head", "solid", "head", "solid", "head", "solid", "deep"]
     for slot in pattern:
         if slot == "head" and h < len(headliners):
             shuffled_pool.append(headliners[h]); h += 1
