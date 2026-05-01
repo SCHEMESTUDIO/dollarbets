@@ -1,0 +1,161 @@
+
+> dollarbets@0.2.0 scan
+> python3 scanner.py
+
+{
+  "generated_at": "2026-04-30T12:36:22.577214+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "platform_mix": {
+    "kalshi": 4,
+    "polymarket": 6
+  },
+  "board": [
+    {
+      "ticker": "0x1c2fffa80aabe16e2667cbc6ea633bc32576bc0924aed07ef4174a1fd0aaac60",
+      "title": "Manchester City FC vs. Crystal Palace FC: Both Teams to Score",
+      "subtitle": "",
+      "payout": 1.98,
+      "tier": "green",
+      "quip": "a fourth-and-goal kind of bet",
+      "yes_price": "0.5050",
+      "volume": 84207.420506,
+      "category": "Other",
+      "close_time": "2026-03-21T15:00:00Z",
+      "url": "https://polymarket.com/event/epl-mac-cry-2026-03-21-more-markets",
+      "platform": "polymarket",
+      "score": 15.0
+    },
+    {
+      "ticker": "KXKXMOVIEDELAYBATMANPT2-27DEC31",
+      "title": "Will The Batman Part II be delayed again?",
+      "subtitle": "Oct 1, 2027",
+      "payout": 2.27,
+      "tier": "green",
+      "quip": "a wager for the perpetually curious",
+      "yes_price": "0.4400",
+      "volume": 1377.34,
+      "category": "Entertainment",
+      "close_time": "2027-12-31T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXKXMOVIEDELAYBATMANPT2?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 38.0
+    },
+    {
+      "ticker": "KXGTEMP-27-P0",
+      "title": "Will 2026 be the hottest year ever?",
+      "subtitle": "In 2026",
+      "payout": 2.5,
+      "tier": "green",
+      "quip": "someone's going to claim they knew all along",
+      "yes_price": "0.4000",
+      "volume": 7330.98,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXGTEMP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 63.0
+    },
+    {
+      "ticker": "0x2ae22e1fd29651ed6f049114672a0be94b907e833485a7a6d0c7df2dc7f03ce9",
+      "title": "Will Google have the best AI model at the end of May 2026?",
+      "subtitle": "",
+      "payout": 3.77,
+      "tier": "yellow",
+      "quip": "pack an umbrella and a prayer",
+      "yes_price": "0.2650",
+      "volume": 99638.17529900011,
+      "category": "Science and Technology",
+      "close_time": "2026-05-31T00:00:00Z",
+      "url": "https://polymarket.com/event/which-company-has-the-best-ai-model-end-of-may",
+      "platform": "polymarket",
+      "score": 61.0
+    },
+    {
+      "ticker": "0xc9948f9ee92fec3fe27285d0f133ba0a4f8cf8a0b47ea7768f8f81c1afeaa2c1",
+      "title": "LoL: Shifters vs Team Vitality (BO3) - Esports World Cup EMEA Qualifier Playoffs",
+      "subtitle": "",
+      "payout": 6.06,
+      "tier": "yellow",
+      "quip": "the boosters are placing calls",
+      "yes_price": "0.1650",
+      "volume": 8574.139501000001,
+      "category": "Sports",
+      "close_time": "2026-04-30T21:00:00Z",
+      "url": "https://polymarket.com/event/lol-shft-vit-2026-04-30",
+      "platform": "polymarket",
+      "score": 58.0
+    },
+    {
+      "ticker": "0x1ffe41da3681b949e203d16bf0fe8e095003ff52b1b65a34dc7bb7bca899fa22",
+      "title": "Trump renames ICE to NICE by June 30?",
+      "subtitle": "",
+      "payout": 6.67,
+      "tier": "yellow",
+      "quip": "stranger than fiction, again",
+      "yes_price": "0.1500",
+      "volume": 96771.4681059997,
+      "category": "World",
+      "close_time": "2026-06-30T00:00:00Z",
+      "url": "https://polymarket.com/event/trump-renames-ice-to-nice-by-june-30",
+      "platform": "polymarket",
+      "score": 58.0
+    },
+    {
+      "ticker": "KXLLM1-26MAY31-OAI",
+      "title": "Best AI in May 2026?",
+      "subtitle": "On May 31, 2026",
+      "payout": 12.5,
+      "tier": "orange",
+      "quip": "your uber driver has a position on this",
+      "yes_price": "0.0800",
+      "volume": 52.22,
+      "category": "Science and Technology",
+      "close_time": "2026-05-31T14:00:00Z",
+      "url": "https://kalshi.com/markets/KXLLM1?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 68.0
+    },
+    {
+      "ticker": "0x15325d9bbd28183ca8a5ce3d54b01c81ce80b0376e02d1b9bf89e6a80142615f",
+      "title": "Will Montenegro be in the top 10 at Eurovision 2026?",
+      "subtitle": "",
+      "payout": 13.33,
+      "tier": "orange",
+      "quip": "the quiet scandal of a well-placed dollar",
+      "yes_price": "0.0750",
+      "volume": 8450.662926,
+      "category": "Other",
+      "close_time": "2026-05-16T00:00:00Z",
+      "url": "https://polymarket.com/event/eurovision-2026-top-10",
+      "platform": "polymarket",
+      "score": 35.0
+    },
+    {
+      "ticker": "KXROASTSUBJECT-30JAN01-SHA",
+      "title": "Will Shane Gillis be the primary target of the roast and whose name appears in the official title or promotional materials of the roast special at the next Netflix-produced live or recorded celebrity roast special released on Netflix?",
+      "subtitle": "Jan 1, 2030",
+      "payout": 16.67,
+      "tier": "red",
+      "quip": "science is just spicy guessing",
+      "yes_price": "0.0600",
+      "volume": 7833.87,
+      "category": "Entertainment",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXROASTSUBJECT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 83.0
+    },
+    {
+      "ticker": "0xe29b33ef5bf351c8a22bfd79f8b58e62649d54ceee6f9735387cef79f52fecae",
+      "title": "Will Wes Moore win the 2028 US Presidential Election?",
+      "subtitle": "",
+      "payout": 133.33,
+      "tier": "purple",
+      "quip": "the comment section will be educational",
+      "yes_price": "0.0075",
+      "volume": 8459843.87494225,
+      "category": "World",
+      "close_time": "2028-11-07T00:00:00Z",
+      "url": "https://polymarket.com/event/presidential-election-winner-2028",
+      "platform": "polymarket",
+      "score": 35.0
+    }
+  ]
+}
