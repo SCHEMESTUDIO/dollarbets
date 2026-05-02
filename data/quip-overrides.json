@@ -349,5 +349,14 @@
     "tier": "orange",
     "original_quip": "a MacBook but it has opinions about your divorce",
     "editor_quip": "a MacBook with opinions about your divorce"
+  },
+  {
+    "date": "2026-05-02",
+    "title": "Aston Villa win this weekend",
+    "category": "Other",
+    "payout": 2.3,
+    "tier": "green",
+    "original_quip": "Who doesn't want to see Spurs go down?",
+    "editor_quip": "are Spurs entering their Brat era"
   }
 ]
