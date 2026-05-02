@@ -313,5 +313,41 @@
     "tier": "red",
     "original_quip": "the Shazam charts are an unwell place",
     "editor_quip": "the charts are unwell "
+  },
+  {
+    "date": "2026-05-02",
+    "title": "Aston Villa win this weekend",
+    "category": "Other",
+    "payout": 2.3,
+    "tier": "green",
+    "original_quip": "fine, sure, whatever",
+    "editor_quip": "Who doesn't want to see Spurs go down?"
+  },
+  {
+    "date": "2026-05-02",
+    "title": "Bitcoin craters to $50K by end of 2026",
+    "category": "Crypto",
+    "payout": 2.53,
+    "tier": "green",
+    "original_quip": "the number go down version of money printer go brrr",
+    "editor_quip": "redeem the tears of crypto bros at your nearest bank branch"
+  },
+  {
+    "date": "2026-05-02",
+    "title": "Crystal Palace takes the first half tonight",
+    "category": "Sports",
+    "payout": 2.78,
+    "tier": "green",
+    "original_quip": "short Everton, bag lunch energy",
+    "editor_quip": "Stranger things have happened at this club"
+  },
+  {
+    "date": "2026-05-02",
+    "title": "OpenAI announces a laptop or desktop in 2026",
+    "category": "Science and Technology",
+    "payout": 11.11,
+    "tier": "orange",
+    "original_quip": "a MacBook but it has opinions about your divorce",
+    "editor_quip": "a MacBook with opinions about your divorce"
   }
 ]
