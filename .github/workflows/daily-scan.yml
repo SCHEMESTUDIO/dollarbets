@@ -88,6 +88,41 @@ jobs:
           print('Board validation passed')
           "
 
+      - name: Run sports scanner (underdogs board)
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          if [ -f "data/boards/sports-${TODAY}.json" ]; then
+            echo "Sports board for ${TODAY} already exists — skipping"
+          elif [ -z "$ODDS_API_KEY" ]; then
+            echo "ODDS_API_KEY not set — skipping sports scan"
+          else
+            echo "Scanning sports markets for ${TODAY}..."
+            python3 sports_scanner.py > "data/boards/sports-${TODAY}.json" 2>&1 || {
+              echo "Sports scanner failed — removing partial output"
+              rm -f "data/boards/sports-${TODAY}.json"
+            }
+            if [ -f "data/boards/sports-${TODAY}.json" ]; then
+              # Quick validation
+              python3 -c "
+          import sys, json
+          with open('data/boards/sports-${TODAY}.json') as f:
+              d = json.load(f)
+          board = d.get('board', [])
+          print(f'Sports board: {len(board)} picks')
+          if len(board) < 3:
+              print('ERROR: Sports board has fewer than 3 picks — removing')
+              sys.exit(1)
+          for m in board:
+              assert m.get('title'), f'Missing title: {m}'
+              assert m.get('payout'), f'Missing payout: {m}'
+          print('Sports board validation passed')
+              " || rm -f "data/boards/sports-${TODAY}.json"
+            fi
+          fi
+
       - name: Commit and push
         run: |
           git config user.name "Dollar Bets Bot"

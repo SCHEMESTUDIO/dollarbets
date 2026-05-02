@@ -631,7 +631,7 @@ def nav_html(current=""):
     """Two-line site nav: row 1 = categories, row 2 = site links."""
     row1_links = [
         ("/weird-markets/", "black swans"),
-        ("/sports-markets/", "underdogs"),
+        ("/underdogs/", "underdogs"),
         ("/politics-markets/", "gridlock"),
         ("/financial-markets/", "ball street"),
         ("/crypto-markets/", "moonshots"),
@@ -820,6 +820,12 @@ function shareTo(e, platform, btn) {{
 PLATFORM_LOGOS = {
     "kalshi": '<svg class="logo-kalshi" viewBox="0 0 60 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">Kalshi</text></svg>',
     "polymarket": '<svg class="logo-polymarket" viewBox="0 0 90 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">Polymarket</text></svg>',
+    "fanduel": '<svg class="logo-sportsbook" viewBox="0 0 70 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">FanDuel</text></svg>',
+    "draftkings": '<svg class="logo-sportsbook" viewBox="0 0 90 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">DraftKings</text></svg>',
+    "betmgm": '<svg class="logo-sportsbook" viewBox="0 0 65 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">BetMGM</text></svg>',
+    "betrivers": '<svg class="logo-sportsbook" viewBox="0 0 80 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">BetRivers</text></svg>',
+    "bovada": '<svg class="logo-sportsbook" viewBox="0 0 65 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">Bovada</text></svg>',
+    "betonlineag": '<svg class="logo-sportsbook" viewBox="0 0 85 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">BetOnline</text></svg>',
 }
 
 
@@ -898,6 +904,65 @@ def render_bet_card(m):
           </span>
         </a>
       </li>"""
+
+
+def render_sports_bet_card(m):
+    """Render a sports bet as an <li> — uses direct deep link URL instead of /go/ redirect."""
+    emoji = tier_emoji(m.get("tier", ""))
+    tier = m.get("tier", "")
+    payout_str = format_payout(m.get("payout", 0))
+    title = m.get("title", "")
+    quip = m.get("quip", "")
+    url = m.get("url", "#")
+    ticker = m.get("ticker", "")
+
+    # Odds badge
+    odds_str = m.get("american_odds", "")
+    odds_badge = f'<span class="odds-badge">{odds_str}</span>' if odds_str else ""
+
+    # Escape for JS data attributes
+    share_title = title.replace('"', '&quot;').replace("'", "&#39;")
+    share_quip = quip.replace('"', '&quot;').replace("'", "&#39;")
+
+    # Platform logo
+    platform = m.get("platform", "")
+    logo_html = platform_logo_html(platform)
+
+    tier_class = f" tier-{tier}" if tier else ""
+
+    return f"""      <li class="wager{tier_class}">
+        <a href="{url}" target="_blank" rel="noopener nofollow">
+          <span class="wager-emoji">{emoji}</span>
+          <span class="wager-body">
+            <span class="wager-title">{title}</span>
+            <span class="wager-quip">{quip}</span>
+            <span class="wager-payout-row">
+              <span class="wager-payout"><span class="payout-stake">$1</span> <span class="payout-arrow">&rarr;</span> <span class="payout-return">{payout_str}</span></span>
+              {odds_badge}
+              {logo_html}
+              <span class="share-wrap" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}" data-ticker="{ticker}">
+                <button class="share-btn" onclick="toggleShare(event, this)">[share]</button>
+                <div class="share-menu">
+                  <button class="sm-reddit" onclick="shareTo(event,'reddit',this)">reddit</button>
+                  <button class="sm-x" onclick="shareTo(event,'x',this)">x / twitter</button>
+                  <button class="sm-fb" onclick="shareTo(event,'fb',this)">facebook</button>
+                  <button class="sm-copy" onclick="shareTo(event,'copy',this)">copy link</button>
+                </div>
+              </span>
+            </span>
+          </span>
+        </a>
+      </li>"""
+
+
+def render_sports_bet_list(bets, empty_msg="no bets yet — check back soon."):
+    """Render a list of sports bets as a <ul>."""
+    if not bets:
+        return f'    <div class="empty-note">{empty_msg}</div>'
+    rows = "\n".join(render_sports_bet_card(b) for b in bets)
+    return f"""    <ul class="board">
+{rows}
+    </ul>"""
 
 
 def render_bet_list(bets, empty_msg="no bets yet — check back soon."):
@@ -1006,6 +1071,26 @@ def load_all_boards():
             boards.append((date_str, data))
         except (json.JSONDecodeError, IOError) as e:
             print(f"[generate] Skipping {filepath}: {e}")
+    return boards
+
+
+SPORTS_DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "boards")
+
+
+def load_sports_boards():
+    """Load sports board JSON files (sports-YYYY-MM-DD.json), return sorted list."""
+    boards = []
+    pattern = os.path.join(SPORTS_DATA_DIR, "sports-*.json")
+    for filepath in sorted(glob.glob(pattern)):
+        try:
+            with open(filepath) as f:
+                data = json.load(f)
+            # Extract date from filename like sports-2026-05-02.json
+            basename = os.path.basename(filepath).replace(".json", "")
+            date_str = basename.replace("sports-", "")
+            boards.append((date_str, data))
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"[generate] Skipping sports board {filepath}: {e}")
     return boards
 
 
@@ -1317,6 +1402,115 @@ def generate_daily_board(boards):
     )
 
     write_page("index.html", html)
+
+
+def generate_underdogs_board(sports_boards):
+    """Generate the /underdogs/ page — today's sports board."""
+    if not sports_boards:
+        print("[generate] No sports boards found, skipping underdogs page")
+        return
+
+    latest_date, latest_data = sports_boards[-1]
+    board = latest_data.get("board", [])
+
+    try:
+        dt = datetime.fromisoformat(latest_date)
+        date_str = dt.strftime("%B %d, %Y")
+    except ValueError:
+        date_str = latest_date
+
+    # Tier counts for subtitle
+    tier_counts = {}
+    for m in board:
+        t = m.get("tier", "unknown")
+        tier_counts[t] = tier_counts.get(t, 0) + 1
+
+    legend = """    <div class="legend">
+      <span class="legend-pill">🟩 respectable</span>
+      <span class="legend-pill">🟨 alive</span>
+      <span class="legend-pill">🟧 heater</span>
+      <span class="legend-pill">🟥 filthy</span>
+      <span class="legend-pill">🟪 generational</span>
+    </div>
+"""
+    date_line = f'    <div class="date-line" style="margin-bottom:14px">{date_str}</div>\n'
+
+    # Sports-specific header
+    header = """    <h1 class="page-title">underdogs</h1>
+    <div class="page-intro">
+      today's sharpest sports wagers, framed as $1 payouts. every tier, every sport, one board.
+    </div>
+"""
+
+    # Odds badge CSS (inline since it's sports-only)
+    odds_css = """    <style>
+      .odds-badge {
+        display: inline-block;
+        font-size: 10px;
+        font-family: monospace;
+        color: #a08b77;
+        border: 1px solid #e8cdb5;
+        border-radius: 3px;
+        padding: 1px 5px;
+        margin-right: 6px;
+        vertical-align: middle;
+      }
+    </style>
+"""
+
+    trust_strip = """
+    <div style="margin:20px 0;padding:12px;border-top:1.5px solid #e8cdb5;font-size:10px;color:#a08b77;line-height:1.6">
+      tiny stakes. huge maybes. dollar bets is entertainment-first market discovery — not betting advice, not financial advice, and not a guarantee that any market is available where you live. odds and markets change. <a href="/responsible-gambling/" style="color:#6b5744">gamble responsibly</a>. <a href="/availability/" style="color:#6b5744">check availability</a>.
+    </div>
+"""
+
+    body = header + date_line + legend + render_sports_bet_list(board) + trust_strip
+
+    # Structured data
+    market_items = []
+    for i, m in enumerate(board, 1):
+        market_items.append(json.dumps({
+            "@type": "ListItem",
+            "position": i,
+            "name": m.get("title", ""),
+            "url": m.get("url", "#"),
+        }, ensure_ascii=False))
+
+    underdogs_schema = f"""<script type="application/ld+json">{{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Underdogs — Sports Board",
+  "url": "{SITE_URL}/underdogs/",
+  "description": "Today's sharpest sports wagers, framed as $1 payouts.",
+  "isPartOf": {{
+    "@type": "WebSite",
+    "name": "Dollar Bets",
+    "url": "{SITE_URL}"
+  }}
+}}</script>
+  <script type="application/ld+json">{{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Underdogs — {date_str}",
+  "numberOfItems": {len(board)},
+  "itemListElement": [{", ".join(market_items)}]
+}}</script>"""
+
+    html = page_shell(
+        title="underdogs — today's sports board | dollar bets",
+        description="Today's sharpest sports wagers, framed as $1 payouts. Every tier, every sport, one board.",
+        body=body,
+        canonical="/underdogs/",
+        current_nav="/underdogs/",
+        extra_head=odds_css + underdogs_schema,
+    )
+
+    # Write to /underdogs/index.html
+    underdogs_dir = os.path.join(OUTPUT_DIR, "underdogs")
+    os.makedirs(underdogs_dir, exist_ok=True)
+    with open(os.path.join(underdogs_dir, "index.html"), "w") as f:
+        f.write(html)
+    print(f"[generate] Wrote underdogs board: {len(board)} picks")
 
 
 def generate_category_pages(all_bets):
@@ -2154,6 +2348,13 @@ def main():
     print("[generate] Building daily board...")
     generate_daily_board(boards)
 
+    # 1b. Underdogs (sports) board
+    print("[generate] Loading sports boards...")
+    sports_boards = load_sports_boards()
+    print(f"[generate] Found {len(sports_boards)} sports boards")
+    print("[generate] Building underdogs board...")
+    generate_underdogs_board(sports_boards)
+
     # 2. Category/SEO hub pages
     print("[generate] Building category pages...")
     generate_category_pages(all_bets)
@@ -2188,6 +2389,7 @@ def main():
     print("[generate] Building sitemap...")
     sitemap_pages = [
         ("/", 1.0),
+        ("/underdogs/", 0.9),
         ("/about/", 0.7),
     ]
     for slug in CATEGORIES:

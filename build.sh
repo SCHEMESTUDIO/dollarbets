@@ -45,6 +45,16 @@ if [ -z "$(ls -A data/boards/ 2>/dev/null)" ]; then
   python3 scanner.py > "data/boards/${TODAY}.json" 2>/dev/null || echo "[build] Scanner failed, will generate with empty data"
 fi
 
+# If no sports board exists and ODDS_API_KEY is set, run sports scanner
+TODAY=$(date -u +%Y-%m-%d)
+if [ ! -f "data/boards/sports-${TODAY}.json" ] && [ -n "$ODDS_API_KEY" ]; then
+  echo "[build] No sports board for today, running sports scanner..."
+  python3 sports_scanner.py > "data/boards/sports-${TODAY}.json" 2>/dev/null || {
+    echo "[build] Sports scanner failed, underdogs page will use latest available"
+    rm -f "data/boards/sports-${TODAY}.json"
+  }
+fi
+
 # Generate all pages
 python3 generate.py
 
