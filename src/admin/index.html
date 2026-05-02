@@ -299,6 +299,10 @@
     <!-- EDITOR -->
     <div id="editor-screen">
       <div class="toolbar">
+        <select id="board-type-select" onchange="switchBoardType(this.value)" style="max-width:130px">
+          <option value="daily">daily board</option>
+          <option value="sports">underdogs</option>
+        </select>
         <select id="date-select" onchange="loadBoard(this.value)">
           <option value="">loading dates...</option>
         </select>
@@ -340,6 +344,7 @@ let CURRENT_DATE = '';
 let CURRENT_SHA = '';
 let BOARD_DATA = null;
 let DIRTY = new Set();  // indices of modified bets
+let BOARD_TYPE = 'daily';  // 'daily' or 'sports'
 
 const API = '/api';
 const TIER_EMOJI = {green:'🟩', yellow:'🟨', orange:'🟧', red:'🟥', purple:'🟪'};
@@ -390,10 +395,19 @@ function authHeaders() {
 async function showEditor() {
   document.getElementById('login-screen').style.display = 'none';
   document.getElementById('editor-screen').style.display = 'block';
-  setStatus('loading dates...');
+  await loadDates();
+}
+
+async function switchBoardType(type) {
+  BOARD_TYPE = type;
+  await loadDates();
+}
+
+async function loadDates() {
+  setStatus(`loading ${BOARD_TYPE} dates...`);
 
   try {
-    const res = await fetch(`${API}/board`, {headers: authHeaders()});
+    const res = await fetch(`${API}/board?type=${BOARD_TYPE}`, {headers: authHeaders()});
     if (res.status === 401) { doLogout(); return; }
     const data = await res.json();
 
@@ -402,14 +416,16 @@ async function showEditor() {
     (data.dates || []).forEach(d => {
       const opt = document.createElement('option');
       opt.value = d;
-      opt.textContent = d;
+      // Show clean date label for sports boards
+      opt.textContent = d.replace('sports-', '');
       sel.appendChild(opt);
     });
 
     if (data.dates && data.dates.length > 0) {
       await loadBoard(data.dates[0]);
     } else {
-      setStatus('no boards found');
+      setStatus(`no ${BOARD_TYPE} boards found`);
+      document.getElementById('board-container').innerHTML = '';
     }
   } catch (e) {
     setStatus('error loading dates: ' + e.message);
@@ -489,6 +505,17 @@ function renderBoard() {
 
         <label>category</label>
         <input type="text" value="${esc(bet.category || '')}" data-idx="${i}" data-field="category" oninput="markDirty(${i})">
+
+        ${BOARD_TYPE === 'sports' ? `
+        <label>platform</label>
+        <input type="text" value="${esc(bet.platform || '')}" data-idx="${i}" data-field="platform" oninput="markDirty(${i})" style="max-width:200px">
+
+        <label>american odds</label>
+        <input type="text" value="${esc(bet.american_odds || '')}" data-idx="${i}" data-field="american_odds" oninput="markDirty(${i})" style="max-width:120px">
+
+        <label>matchup</label>
+        <input type="text" value="${esc(bet.matchup || '')}" data-idx="${i}" data-field="matchup" oninput="markDirty(${i})">
+        ` : ''}
       </div>
       <div class="bet-actions">
         <button class="btn-outline" onclick="moveBet(${i}, -1)" ${i===0?'disabled':''}>↑</button>

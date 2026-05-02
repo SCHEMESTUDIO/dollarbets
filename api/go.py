@@ -277,24 +277,29 @@ def interstitial_html(platform_name, destination_url, market_id):
 <title>leaving dollar bets</title>
 <style>
   body {{
-    background: #0a0a0a; color: #b0b0b0; font-family: 'Courier New', monospace;
+    background: #fdf6ee; color: #2d2319; font-family: 'Courier New', monospace;
     display: flex; justify-content: center; align-items: center;
     min-height: 100vh; margin: 0; padding: 16px; box-sizing: border-box;
   }}
   .box {{
-    max-width: 480px; width: 100%; border: 1px solid #333; padding: 24px;
+    max-width: 480px; width: 100%; border: 1px solid #e8cdb5; padding: 24px;
+    background: #faf7f3;
   }}
-  h1 {{ color: #e0e0e0; font-size: 16px; margin: 0 0 16px 0; text-transform: lowercase; }}
-  p {{ font-size: 13px; line-height: 1.6; margin: 0 0 12px 0; }}
-  .warn {{ color: #cc8800; border-left: 3px solid #cc8800; padding-left: 12px; margin: 16px 0; }}
+  h1 {{ font-size: 16px; margin: 0 0 16px 0; text-transform: lowercase; color: #2d2319; }}
+  p {{ font-size: 13px; line-height: 1.6; margin: 0 0 12px 0; color: #5a4e2f; }}
+  .warn {{
+    background: #fef9e7; border: 1px solid #d4c479; color: #5a4e2f;
+    padding: 10px 12px; margin: 16px 0; font-size: 12px;
+  }}
   a.go {{
-    display: inline-block; margin-top: 16px; padding: 8px 20px;
-    border: 1px solid #555; color: #e0e0e0; text-decoration: none;
-    font-family: 'Courier New', monospace; font-size: 13px;
+    display: inline-block; margin-top: 16px; padding: 10px 24px;
+    border: 2px solid #e8642c; color: #e8642c; text-decoration: none;
+    font-family: 'Courier New', monospace; font-size: 14px; font-weight: 700;
   }}
-  a.go:hover {{ border-color: #888; }}
-  a.back {{ color: #666; font-size: 12px; margin-left: 16px; }}
-  .fine {{ font-size: 11px; color: #666; margin-top: 20px; }}
+  a.go:hover {{ background: #e8642c; color: #fdf6ee; }}
+  a.back {{ color: #a08b77; font-size: 12px; margin-left: 16px; }}
+  a.back:hover {{ color: #6b5744; }}
+  .fine {{ font-size: 11px; color: #a08b77; margin-top: 20px; }}
 </style>
 </head>
 <body>

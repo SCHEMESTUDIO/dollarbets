@@ -95,8 +95,11 @@ def _gh_put(path, content_str, sha=None, message="CMS edit"):
         return json.loads(resp.read().decode())
 
 
-def list_board_dates():
-    """List available board dates from GitHub."""
+def list_board_dates(board_type="daily"):
+    """List available board dates from GitHub.
+
+    board_type: "daily" for prediction market boards, "sports" for underdogs boards.
+    """
     url = f"{GITHUB_API}/repos/{GITHUB_REPO}/contents/{BOARD_PATH}?ref={GITHUB_BRANCH}"
     req = urllib.request.Request(url, headers=_gh_headers())
     try:
@@ -105,20 +108,39 @@ def list_board_dates():
         dates = []
         for f in files:
             name = f.get("name", "")
-            if name.endswith(".json"):
-                dates.append(name.replace(".json", ""))
+            if not name.endswith(".json"):
+                continue
+            if board_type == "sports":
+                if name.startswith("sports-"):
+                    dates.append(name.replace(".json", ""))
+            else:
+                # Daily boards: exclude sports-* files
+                if not name.startswith("sports-"):
+                    dates.append(name.replace(".json", ""))
         dates.sort(reverse=True)
         return dates
     except urllib.error.HTTPError:
         return []
 
 
+def _validate_board_filename(date_str):
+    """Validate and return the filename for a board date string.
+    Accepts '2026-05-02' (daily) or 'sports-2026-05-02' (sports).
+    """
+    if re.match(r"^\d{4}-\d{2}-\d{2}$", date_str):
+        return f"{date_str}.json"
+    if re.match(r"^sports-\d{4}-\d{2}-\d{2}$", date_str):
+        return f"{date_str}.json"
+    return None
+
+
 def get_board(date_str):
     """Fetch a board JSON from GitHub. Returns (data_dict, sha) or (None, None)."""
-    if not re.match(r"^\d{4}-\d{2}-\d{2}$", date_str):
+    filename = _validate_board_filename(date_str)
+    if not filename:
         return None, None
 
-    result = _gh_get(f"{BOARD_PATH}/{date_str}.json")
+    result = _gh_get(f"{BOARD_PATH}/{filename}")
     if not result:
         return None, None
 
@@ -129,12 +151,14 @@ def get_board(date_str):
 
 def update_board(date_str, board_data, sha):
     """Write updated board JSON to GitHub. Returns commit info."""
-    if not re.match(r"^\d{4}-\d{2}-\d{2}$", date_str):
+    filename = _validate_board_filename(date_str)
+    if not filename:
         raise ValueError("invalid date format")
 
     content_str = json.dumps(board_data, indent=2) + "\n"
-    path = f"{BOARD_PATH}/{date_str}.json"
-    message = f"CMS: update board {date_str}"
+    path = f"{BOARD_PATH}/{filename}"
+    board_label = "sports board" if date_str.startswith("sports-") else "board"
+    message = f"CMS: update {board_label} {date_str}"
 
     return _gh_put(path, content_str, sha=sha, message=message)
 
@@ -218,12 +242,13 @@ class handler(BaseHTTPRequestHandler):
         params = urllib.parse.parse_qs(parsed.query)
 
         date_str = params.get("date", [None])[0]
+        board_type = params.get("type", ["daily"])[0]
 
         # If no date, return list of available dates
         if not date_str:
             try:
-                dates = list_board_dates()
-                self._respond(200, {"dates": dates})
+                dates = list_board_dates(board_type=board_type)
+                self._respond(200, {"dates": dates, "board_type": board_type})
             except Exception as e:
                 self._respond(500, {"error": str(e)})
             return

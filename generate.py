@@ -1443,8 +1443,8 @@ def generate_underdogs_board(sports_boards):
 
     # Sports-specific header
     header = """    <h1 class="page-title">underdogs</h1>
-    <div class="page-intro">
-      today's sharpest sports wagers, framed as $1 payouts. every tier, every sport, one board.
+    <div class="tagline" style="margin-bottom:12px">
+      Sports bets for people who believe garbage time is destiny with a shot clock. Every market is translated into what a single dollar could pay — from respectable favorites to franchise miracles.
     </div>
 """
 
