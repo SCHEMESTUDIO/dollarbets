@@ -30,6 +30,10 @@ jobs:
         run: |
           mkdir -p data/boards
           TODAY=$(date -u +%Y-%m-%d)
+          if [ -f "data/boards/${TODAY}.json" ]; then
+            echo "Board for ${TODAY} already exists — skipping scan to preserve manual edits"
+            exit 0
+          fi
           echo "Scanning markets for ${TODAY}..."
           python3 scanner.py > "data/boards/${TODAY}.json"
           echo "Board saved to data/boards/${TODAY}.json"
