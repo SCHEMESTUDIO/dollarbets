@@ -1061,14 +1061,19 @@ def render_board_promo(board_data=None, position="top"):
 # ── Data loading ────────────────────────────────────────────
 
 def load_all_boards():
-    """Load all daily board JSON files, return sorted list of (date, board_data)."""
+    """Load all daily board JSON files, return sorted list of (date, board_data).
+    Excludes sports-*.json files (those are loaded separately by load_sports_boards).
+    """
     boards = []
     pattern = os.path.join(DATA_DIR, "*.json")
     for filepath in sorted(glob.glob(pattern)):
+        basename = os.path.basename(filepath)
+        if basename.startswith("sports-"):
+            continue
         try:
             with open(filepath) as f:
                 data = json.load(f)
-            date_str = os.path.basename(filepath).replace(".json", "")
+            date_str = basename.replace(".json", "")
             boards.append((date_str, data))
         except (json.JSONDecodeError, IOError) as e:
             print(f"[generate] Skipping {filepath}: {e}")

@@ -367,12 +367,13 @@ def resolve_polymarket_url(market_url):
 
 
 def load_latest_board_data():
-    """Load the most recent board JSON file from data/boards/."""
+    """Load the most recent prediction market board JSON (excludes sports-*.json)."""
     site_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     boards_dir = os.path.join(site_dir, "data", "boards")
 
     pattern = os.path.join(boards_dir, "*.json")
-    files = sorted(glob.glob(pattern), reverse=True)
+    files = [f for f in sorted(glob.glob(pattern), reverse=True)
+             if not os.path.basename(f).startswith("sports-")]
 
     if not files:
         return None
