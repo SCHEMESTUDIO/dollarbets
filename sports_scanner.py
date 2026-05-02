@@ -340,29 +340,34 @@ def extract_markets(events, sport_key):
                         replace = True  # same link quality, better odds
 
                     if replace:
-                        # Build description
+                        # Build description — readable fallback title
                         player_desc = outcome.get("description", "")  # player name for props
+                        opponent = away if name == home else home
                         if market_key == "h2h":
-                            desc = f"{name} win"
-                            if name == home:
-                                desc = f"{name} win (home)"
+                            if name == "Draw":
+                                desc = f"{home} and {away} play to a draw"
+                            else:
+                                desc = f"{name} beat {opponent}"
                         elif market_key in ("spreads", "alternate_spreads"):
-                            spread_str = f"+{point}" if point and point > 0 else str(point)
-                            desc = f"{name} {spread_str}"
+                            margin = abs(point) if point else 0
+                            if point and point < 0:
+                                desc = f"{name} beat {opponent} by {margin}+"
+                            else:
+                                desc = f"{name} lose to {opponent} by fewer than {margin}"
                         elif market_key in ("totals", "alternate_totals"):
-                            direction = "Over" if name == "Over" else "Under"
-                            desc = f"{direction} {point} total points"
+                            direction = "over" if name == "Over" else "under"
+                            desc = f"{home} vs {away} goes {direction} {point}"
                         elif market_key == "player_points":
-                            desc = f"{player_desc} {name.lower()} {point} points"
+                            desc = f"{player_desc} scores {point}+ points vs {opponent}"
                         elif market_key == "player_threes":
-                            desc = f"{player_desc} {name.lower()} {point} threes"
+                            desc = f"{player_desc} hits {point}+ threes vs {opponent}"
                         elif market_key == "player_rebounds":
-                            desc = f"{player_desc} {name.lower()} {point} rebounds"
+                            desc = f"{player_desc} grabs {point}+ rebounds vs {opponent}"
                         elif market_key == "player_assists":
-                            desc = f"{player_desc} {name.lower()} {point} assists"
+                            desc = f"{player_desc} dishes {point}+ assists vs {opponent}"
                         elif market_key.startswith("player_"):
                             stat = market_key.replace("player_", "")
-                            desc = f"{player_desc} {name.lower()} {point} {stat}"
+                            desc = f"{player_desc} hits {point}+ {stat} vs {opponent}"
                         else:
                             desc = f"{name}"
 
@@ -573,13 +578,17 @@ You have TWO jobs for each bet:
 2. WRITE A QUIP — a short, wry, one-line editorial comment
 
 TITLE REWRITING RULES:
+- BOTH teams must appear in the title. Never leave a reader asking "who are they playing?"
 - Frame as a declarative statement: "Lakers upset OKC tonight", not "Will the Lakers beat OKC?"
 - Pick the side that makes the best Dollar Bets headline — favourites winning is boring unless the context is interesting
-- For spreads: work the number in naturally — "Celtics cover 6.5 against Philly" not "Boston Celtics -6.5"
-- For totals: make it vivid — "Rockets-Mavs goes over 220" or "defensive slugfest stays under 195"
+- For spreads: translate into English — "Cavs blow out Raptors by 24+" NOT "Cleveland Cavaliers -23.5"
+- For totals: make it vivid — "Rockets-Mavs shootout hits 220+" or "defensive slugfest stays under 195"
+- For moneyline: just say who wins — "Fulham upset Arsenal at the Emirates"
+- For draws: name both teams — "Crystal Palace and Bournemouth play to a draw"
 - Replace dates with "tonight", "tomorrow", etc
-- Keep it punchy: 3-10 words ideal
-- Include the team name(s) — this is sports, people need to know who's playing
+- Keep it punchy: 4-12 words ideal
+- NO raw numbers like -6.5 or +320 in titles — translate everything into plain English
+- Use short team names: "Celtics" not "Boston Celtics", "Arsenal" not "Arsenal FC"
 
 QUIP RULES:
 - 3-12 words. No period at the end. Natural casing
