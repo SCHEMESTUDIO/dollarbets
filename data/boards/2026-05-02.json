@@ -13,14 +13,14 @@
       "subtitle": "",
       "payout": 2.3,
       "tier": "green",
-      "quip": "fine, sure, whatever",
+      "quip": "Who doesn't want to see Spurs go down?",
       "yes_price": "0.4350",
       "volume": 80351.70585300005,
       "category": "Other",
       "close_time": "2026-05-03T18:00:00Z",
       "url": "https://polymarket.com/event/epl-ast-tot-2026-05-03",
       "platform": "polymarket",
-      "score": 40.0
+      "score": 40
     },
     {
       "ticker": "0xce3c54c3e773e8b3bf73e4c12af93205b21195d03b9c386e22f274b9acfc2c56",
@@ -28,14 +28,14 @@
       "subtitle": "",
       "payout": 2.53,
       "tier": "green",
-      "quip": "the number go down version of money printer go brrr",
+      "quip": "redeem the tears of crypto bros at your nearest bank branch",
       "yes_price": "0.3950",
       "volume": 944073.803055999,
       "category": "Crypto",
       "close_time": "2027-01-01T05:00:00Z",
       "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027",
       "platform": "polymarket",
-      "score": 38.0
+      "score": 38
     },
     {
       "ticker": "KXEPL1H-26MAY10CRYEVE-EVE",
@@ -43,27 +43,27 @@
       "subtitle": "CRY vs EVE (May 10)",
       "payout": 2.78,
       "tier": "green",
-      "quip": "short Everton, bag lunch energy",
+      "quip": "Stranger things have happened at this club",
       "yes_price": "0.3600",
-      "volume": 0.0,
+      "volume": 0,
       "category": "Sports",
       "close_time": "2026-05-24T13:00:00Z",
       "url": "https://kalshi.com/markets/KXEPL1H?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 47.0
+      "score": 47
     },
     {
       "ticker": "KXGRAMMYNOMROTY-69-SOE",
-      "title": "Record of the Year nominees are set for 2026 Grammys",
+      "title": "What will win Record of the Year at the 2026 Grammys?",
       "subtitle": "2027",
       "payout": 4.35,
       "tier": "yellow",
-      "quip": "a slow-motion Spotify Wrapped argument",
+      "quip": "Awards shows are just a slow-motion Spotify Wrapped ",
       "yes_price": "0.2300",
       "volume": 599.24,
       "category": "Entertainment",
       "close_time": "2027-11-01T15:00:00Z",
       "url": "https://kalshi.com/markets/KXGRAMMYNOMROTY?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 97.0
+      "score": 97
     },
     {
       "ticker": "KXHMONTH-26MAY",
@@ -77,7 +77,7 @@
       "category": "Climate and Weather",
       "close_time": "2026-06-16T03:59:00Z",
       "url": "https://kalshi.com/markets/KXHMONTH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 116.0
+      "score": 116
     },
     {
       "ticker": "0x6e869845b0ab3ab1e257f31b9ea7c4f4dc6220c001aa456d63dea72d425c6cc6",
@@ -92,11 +92,11 @@
       "close_time": "2026-04-11T16:20:00Z",
       "url": "https://polymarket.com/event/spl-ahl-fat-2026-04-11",
       "platform": "polymarket",
-      "score": 45.0
+      "score": 45
     },
     {
       "ticker": "KXGRAMMYNOMNAOTY-69-JAD",
-      "title": "Best New Artist nominees locked for 2026 Grammys",
+      "title": "Who will win Best New Artist at the 2026 Grammys?",
       "subtitle": "2027",
       "payout": 7.69,
       "tier": "orange",
@@ -106,7 +106,7 @@
       "category": "Entertainment",
       "close_time": "2027-11-01T15:00:00Z",
       "url": "https://kalshi.com/markets/KXGRAMMYNOMNAOTY?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 91.0
+      "score": 91
     },
     {
       "ticker": "0xba3981309bcbbd6c89f44f10354f8b9d26b33cb34ba0b972f62d6268fa6addcd",
@@ -114,14 +114,14 @@
       "subtitle": "",
       "payout": 11.11,
       "tier": "orange",
-      "quip": "a MacBook but it has opinions about your divorce",
+      "quip": "a MacBook with opinions about your divorce",
       "yes_price": "0.0900",
       "volume": 8472.834626999998,
       "category": "Science and Technology",
       "close_time": "2026-12-31T00:00:00Z",
       "url": "https://polymarket.com/event/what-kind-of-product-will-openai-announce-in-2026",
       "platform": "polymarket",
-      "score": 58.0
+      "score": 58
     },
     {
       "ticker": "0xe7449ecf9d921c572c43b3e42283a11e87631a4b7929f4de643a0ae445923693",
@@ -136,7 +136,7 @@
       "close_time": "2026-06-30T00:00:00Z",
       "url": "https://polymarket.com/event/ukraine-coup-attempt-by-june-30",
       "platform": "polymarket",
-      "score": 63.0
+      "score": 63
     },
     {
       "ticker": "0x746481a9f7ac20a4959a11ea5d535522040b0dfd7c21b920d5fe134a93c2c26c",
@@ -151,7 +151,7 @@
       "close_time": "2026-12-31T00:00:00Z",
       "url": "https://polymarket.com/event/venezuela-leader-end-of-2026",
       "platform": "polymarket",
-      "score": 53.0
+      "score": 53
     }
   ]
 }
