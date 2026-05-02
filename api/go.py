@@ -26,6 +26,127 @@ from link_resolver import resolve_market_destination
 POLYMARKET_GAMMA_API = "https://gamma-api.polymarket.com"
 
 
+# ── Sportsbook geo-resolution ─────────────────────────────────
+# BetMGM and BetRivers use {state} placeholders in deep link URLs.
+# Vercel provides the US state via x-vercel-ip-region header.
+
+BETMGM_STATES = {
+    "NJ": "nj", "PA": "pa", "MI": "mi", "WV": "wv", "CO": "co",
+    "IN": "in", "IA": "ia", "VA": "va", "TN": "tn", "AZ": "az",
+    "LA": "la", "WY": "wy", "OH": "oh", "MD": "md", "MA": "ma",
+    "KY": "ky", "KS": "ks", "NC": "nc", "DC": "dc",
+}
+
+BETRIVERS_STATES = {
+    "PA": "pa", "MI": "mi", "WV": "wv", "CO": "co", "IN": "in",
+    "IA": "ia", "VA": "va", "IL": "il", "LA": "la", "OH": "oh",
+    "MD": "md", "AZ": "az", "NJ": "nj", "NY": "ny", "CT": "ct",
+}
+
+SPORTSBOOK_DISPLAY_NAMES = {
+    "fanduel": "FanDuel",
+    "draftkings": "DraftKings",
+    "betmgm": "BetMGM",
+    "betrivers": "BetRivers",
+    "bovada": "Bovada",
+    "betonlineag": "BetOnline",
+}
+
+
+def resolve_sportsbook_state(url, region_code, book_slug):
+    """Replace {state} placeholder in sportsbook URLs with the user's state.
+
+    Returns the resolved URL, or None if the user is in an unsupported state.
+    """
+    if "{state}" not in url:
+        return url
+
+    if not region_code:
+        return None
+
+    state = region_code.upper()
+
+    if "betmgm" in book_slug:
+        state_slug = BETMGM_STATES.get(state)
+    elif "betrivers" in book_slug or "sugarhouse" in book_slug:
+        state_slug = BETRIVERS_STATES.get(state)
+    else:
+        state_slug = state.lower()
+
+    if not state_slug:
+        return None
+
+    return url.replace("{state}", state_slug)
+
+
+def load_latest_sports_board():
+    """Load the most recent sports board JSON file."""
+    site_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    boards_dir = os.path.join(site_dir, "data", "boards")
+
+    pattern = os.path.join(boards_dir, "sports-*.json")
+    files = sorted(glob.glob(pattern), reverse=True)
+
+    if not files:
+        return None
+
+    try:
+        with open(files[0]) as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
+
+
+def sportsbook_unavailable_html(market_title, book_display, user_state):
+    """Unavailable page when a sportsbook isn't available in the user's state."""
+    state_str = user_state.upper() if user_state else "your state"
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>not available — dollar bets</title>
+<style>
+  body {{
+    background: #fdf6ee; color: #2d2319; font-family: 'Courier New', monospace;
+    display: flex; justify-content: center; align-items: center;
+    min-height: 100vh; margin: 0; padding: 16px; box-sizing: border-box;
+  }}
+  .box {{
+    max-width: 480px; width: 100%; border: 1px solid #e8cdb5; padding: 24px;
+    background: #faf7f3;
+  }}
+  h1 {{ font-size: 16px; margin: 0 0 16px 0; text-transform: lowercase; color: #2d2319; }}
+  p {{ font-size: 13px; line-height: 1.6; margin: 0 0 12px 0; color: #5a4e2f; }}
+  .warn {{
+    background: #fef9e7; border: 1px solid #d4c479; color: #5a4e2f;
+    padding: 10px 12px; margin: 16px 0; font-size: 12px;
+  }}
+  a.back {{
+    display: block; text-align: center; margin: 16px auto 0; padding: 12px 24px;
+    border: 2px solid #e8642c; color: #e8642c; text-decoration: none;
+    font-family: 'Courier New', monospace; font-size: 15px; font-weight: 700;
+    max-width: 280px;
+  }}
+  a.back:hover {{ background: #e8642c; color: #fdf6ee; }}
+  .fine {{ font-size: 11px; color: #a08b77; margin-top: 20px; }}
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>sportsbook not available in your state</h1>
+  <p><strong>{book_display}</strong> is not available in <strong>{state_str}</strong> for the wager "{market_title}".</p>
+  <div class="warn">
+    <p>sportsbook availability varies by state. dollar bets does not control which states are supported.</p>
+  </div>
+  <p>check the <a href="/underdogs/" style="color:#d97c3c">underdogs board</a> for wagers available on other sportsbooks.</p>
+  <a class="back" href="/underdogs/">back to underdogs</a>
+  <p class="fine">dollar bets is an editorial site. we do not operate sportsbooks or verify user eligibility.</p>
+</div>
+</body>
+</html>"""
+
+
 COUNTRY_NAMES = {
     "US": "United States", "GB": "United Kingdom", "AU": "Australia",
     "CA": "Canada", "DE": "Germany", "FR": "France", "IT": "Italy",
@@ -290,6 +411,60 @@ class handler(BaseHTTPRequestHandler):
             self.end_headers()
             return
 
+        # ── Sportsbook routing (SB- prefix) ──────────────────
+        if market_id.startswith("SB-"):
+            sports_board = load_latest_sports_board()
+            market = find_market_in_board(market_id, sports_board)
+
+            if not market:
+                # SB ticker not found — send to underdogs page
+                self.send_response(302)
+                self.send_header("Location", "/underdogs/")
+                self.end_headers()
+                return
+
+            url = market.get("url", "")
+            book_slug = market.get("platform", "")
+            book_display = SPORTSBOOK_DISPLAY_NAMES.get(book_slug, book_slug)
+            title = market.get("title", market_id)
+
+            # Resolve {state} placeholder using Vercel geo headers
+            user_country = self.headers.get("x-vercel-ip-country", "")
+            user_region = self.headers.get("x-vercel-ip-region", "")
+
+            if "{state}" in url:
+                if user_country and user_country.upper() != "US":
+                    # Non-US user trying to access US sportsbook
+                    html = sportsbook_unavailable_html(title, book_display, user_country)
+                    self.send_response(200)
+                    self.send_header("Content-Type", "text/html; charset=utf-8")
+                    self.send_header("Cache-Control", "no-cache")
+                    self.end_headers()
+                    self.wfile.write(html.encode("utf-8"))
+                    return
+
+                resolved = resolve_sportsbook_state(url, user_region, book_slug)
+                if not resolved:
+                    # User's state not supported by this sportsbook
+                    html = sportsbook_unavailable_html(title, book_display, user_region)
+                    self.send_response(200)
+                    self.send_header("Content-Type", "text/html; charset=utf-8")
+                    self.send_header("Cache-Control", "no-cache")
+                    self.end_headers()
+                    self.wfile.write(html.encode("utf-8"))
+                    return
+                url = resolved
+
+            # Serve interstitial before redirecting to sportsbook
+            html = interstitial_html(book_display, url, title)
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.send_header("Cache-Control", "no-cache")
+            self.end_headers()
+            self.wfile.write(html.encode("utf-8"))
+            return
+
+        # ── Prediction market routing (KX/0x prefix) ─────────
         # Load current board data
         board_data = load_latest_board_data()
         market = find_market_in_board(market_id, board_data)
@@ -378,6 +553,7 @@ class handler(BaseHTTPRequestHandler):
         # Serve jurisdiction interstitial instead of instant redirect
         platform_name = result.get("platform", "the market platform")
         display_names = {"kalshi": "Kalshi", "polymarket": "Polymarket", "coinbase": "Coinbase International"}
+        display_names.update(SPORTSBOOK_DISPLAY_NAMES)
         display_name = display_names.get(platform_name, platform_name)
 
         html = interstitial_html(display_name, result["destination_url"], market_id)

@@ -907,14 +907,15 @@ def render_bet_card(m):
 
 
 def render_sports_bet_card(m):
-    """Render a sports bet as an <li> — uses direct deep link URL instead of /go/ redirect."""
+    """Render a sports bet as an <li> — routes through /go/ for click tracking + geo-resolution."""
     emoji = tier_emoji(m.get("tier", ""))
     tier = m.get("tier", "")
     payout_str = format_payout(m.get("payout", 0))
     title = m.get("title", "")
     quip = m.get("quip", "")
-    url = m.get("url", "#")
     ticker = m.get("ticker", "")
+    # Route through /go/ for click tracking and {state} geo-resolution
+    url = market_link(ticker) if ticker else m.get("url", "#")
 
     # Odds badge
     odds_str = m.get("american_odds", "")
