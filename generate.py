@@ -1572,18 +1572,27 @@ def generate_tier_pages(boards, sports_boards):
         },
     }
 
-    # Collect all active markets from today's board + sports board
+    # Collect all active markets across ALL boards (not just today's)
+    seen_tickers = set()
     all_markets = []
-    if boards:
-        latest_daily = boards[-1][1].get("board", [])
-        for m in latest_daily:
-            m["_source"] = "today's board"
-        all_markets.extend(latest_daily)
-    if sports_boards:
-        latest_sports = sports_boards[-1][1].get("board", [])
-        for m in latest_sports:
+    for date_str, board_data in reversed(boards):  # newest first, dedup by ticker
+        for m in board_data.get("board", []):
+            ticker = m.get("ticker") or m.get("id") or m.get("url", "")
+            if ticker and ticker in seen_tickers:
+                continue
+            if ticker:
+                seen_tickers.add(ticker)
+            m["_source"] = date_str
+            all_markets.append(m)
+    for _, sports_data in reversed(sports_boards or []):
+        for m in sports_data.get("board", []):
+            ticker = m.get("ticker") or m.get("id") or m.get("url", "")
+            if ticker and ticker in seen_tickers:
+                continue
+            if ticker:
+                seen_tickers.add(ticker)
             m["_source"] = "underdogs"
-        all_markets.extend(latest_sports)
+            all_markets.append(m)
 
     for tier_key, tier_info in TIERS.items():
         tier_markets = [m for m in all_markets if m.get("tier") == tier_key]
