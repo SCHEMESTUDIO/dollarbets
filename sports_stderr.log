@@ -1,0 +1,108 @@
+[sports] Detecting active sports...
+[sports] API quota: 283 used, 217 remaining
+[sports] Active: ['americanfootball_ncaaf', 'baseball_mlb', 'basketball_nba', 'icehockey_nhl', 'mma_mixed_martial_arts', 'soccer_epl', 'soccer_uefa_champs_league', 'soccer_usa_mls']
+
+[sports] Scanning NCAAF...
+[sports] API quota: 286 used, 214 remaining
+[sports] 12 events found
+[sports] 100 market candidates extracted
+
+[sports] Scanning MLB...
+[sports] API quota: 289 used, 211 remaining
+[sports] 15 events found
+[sports] 112 market candidates extracted
+
+[sports] Scanning NBA...
+[sports] API quota: 292 used, 208 remaining
+[sports] 5 events found
+[sports] 70 market candidates extracted
+
+[sports] Scanning NHL...
+[sports] API quota: 295 used, 205 remaining
+[sports] 5 events found
+[sports] 38 market candidates extracted
+
+[sports] Scanning MMA...
+[sports] API quota: 298 used, 202 remaining
+[sports] 64 events found
+[sports] 140 market candidates extracted
+
+[sports] Scanning EPL...
+[sports] API quota: 301 used, 199 remaining
+[sports] 19 events found
+[sports] 187 market candidates extracted
+
+[sports] Scanning UCL...
+[sports] API quota: 304 used, 196 remaining
+[sports] 2 events found
+[sports] 20 market candidates extracted
+
+[sports] Scanning MLS...
+[sports] API quota: 307 used, 193 remaining
+[sports] 30 events found
+[sports] 230 market candidates extracted
+
+[sports] Standard candidates: 897
+[sports] High-tier candidates (orange+): 12
+
+[sports] Fetching props for 6 events...
+[sports]   Props: Philadelphia 76ers @ Boston Celtics
+[sports] API quota: 313 used, 187 remaining
+[sports]   → 71 high-payout props found
+[sports]   Props: Orlando Magic @ Detroit Pistons
+[sports] API quota: 319 used, 181 remaining
+[sports]   → 73 high-payout props found
+[sports]   Props: Toronto Raptors @ Cleveland Cavaliers
+[sports] API quota: 325 used, 175 remaining
+[sports]   → 73 high-payout props found
+[sports]   Props: Baltimore Orioles @ New York Yankees
+[sports] API quota: 327 used, 173 remaining
+[sports]   → 23 high-payout props found
+[sports]   Props: Toronto Blue Jays @ Minnesota Twins
+[sports] API quota: 329 used, 171 remaining
+[sports]   → 23 high-payout props found
+[sports]   Props: Arizona Diamondbacks @ Chicago Cubs
+[sports] API quota: 331 used, 169 remaining
+[sports]   → 25 high-payout props found
+
+[sports] Total candidates (with props): 1185
+[sports] Board assembled: 10 picks
+[sports] Skipping AI quips (--no-ai flag)
+
+[sports] ═══ BOARD SUMMARY ═══
+[sports] Tiers: {'green': 3, 'yellow': 3, 'orange': 3, 'red': 1}
+[sports] Sports: {'MLB': 4, 'NBA': 4, 'EPL': 2}
+[sports] Deep links: 10/10
+[sports] ═══════════════════════
+[sports] 1. [green] Toronto Blue Jays -1.5
+         $2.38 | Toronto Blue Jays @ Minnesota Twins | MLB | 🔗 FanDuel
+         "as sure as gravity"
+[sports] 2. [green] Arizona Diamondbacks win
+         $2.45 | Arizona Diamondbacks @ Chicago Cubs | MLB | 🔗 BetMGM
+         "the due diligence play"
+[sports] 3. [green] Boston Red Sox -1.5
+         $2.60 | Houston Astros @ Boston Red Sox | MLB | 🔗 FanDuel
+         "stranger things have happened"
+[sports] 4. [yellow] Baltimore Orioles -1.5
+         $3.20 | Baltimore Orioles @ New York Yankees | MLB | 🔗 FanDuel
+         "the spreadsheet special"
+[sports] 5. [yellow] Philadelphia 76ers win
+         $3.45 | Philadelphia 76ers @ Boston Celtics | NBA | 🔗 BetRivers
+         "paint drying, but profitable"
+[sports] 6. [yellow] Draw win
+         $4.20 | Crystal Palace @ Bournemouth | EPL | 🔗 BetMGM
+         "calling the long shot from the parking lot"
+[sports] 7. [orange] Cleveland Cavaliers -23.5
+         $7.20 | Toronto Raptors @ Cleveland Cavaliers | NBA | 🔗 DraftKings
+         "paint drying, but profitable"
+[sports] 8. [orange] Fulham win
+         $7.50 | Fulham @ Arsenal | EPL | 🔗 BetRivers
+         "like bringing a calculator to a knife fight"
+[sports] 9. [orange] Los Angeles Lakers win
+         $9.10 | Los Angeles Lakers @ Oklahoma City Thunder | NBA | 🔗 FanDuel
+         "stranger things have happened"
+[sports] 10. [red] Orlando Magic -15.5
+         $19.00 | Orlando Magic @ Detroit Pistons | NBA | 🔗 FanDuel
+         "calling the long shot from the parking lot"
+
+[sports] Done — 10 picks

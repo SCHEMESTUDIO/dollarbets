@@ -1,0 +1,101 @@
+{
+  "slug": "best-futures-bets-right-now",
+  "format": "ranked_list",
+  "seo": {
+    "title": "Best Futures Bets Right Now — Season-Long Longshots | Dollar Bets",
+    "h1": "Best Futures Bets Right Now",
+    "meta_description": "The best futures bets available right now. Championship longshots, MVP dark horses, and season-long $1 plays.",
+    "canonical": "/best-futures-bets-right-now/"
+  },
+  "summary": "Futures bets are the slow burn of the betting world — you place them now and wait weeks or months for the answer. These are the best championship longshots, MVP dark horses, and season-long wagers currently available, all framed as $1 returns.",
+  "hero_bet": {
+    "title": "Championship longshot — check the board for current futures",
+    "payout": 30,
+    "quip": "Futures: where patience meets delusion.",
+    "tier": "red",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "about Dollar Bets", "url": "/about/"},
+    {"text": "prediction market longshots", "url": "/prediction-market-longshots/"},
+    {"text": "best $1 bets this week", "url": "/best-bets-for-a-dollar-this-week/"},
+    {"text": "betting odds explained", "url": "/betting-odds-explained/"},
+    {"text": "biggest payouts this week", "url": "/biggest-payouts-this-week/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Most bets resolve in hours. Futures bets take months. You pick a team to win a championship in October and then spend the entire season watching every game like it matters to you personally — because now it does, even if only to the tune of one dollar. Futures are the most entertaining cost-per-hour proposition in all of betting."
+    },
+    {
+      "type": "heading",
+      "content": "what makes a futures bet a futures bet"
+    },
+    {
+      "type": "text",
+      "content": "A futures bet is any wager on an outcome that won't be decided for a significant period of time — usually weeks to months. Championship winners, league MVPs, award recipients, season win totals. You're locking in a price today based on what the market thinks right now, knowing that the price will move as the season unfolds. Buy early, get better odds. Buy late, get better information. That's the tradeoff."
+    },
+    {
+      "type": "heading",
+      "content": "championship futures"
+    },
+    {
+      "type": "text",
+      "content": "Every major professional league has a championship futures market that opens as soon as the previous season ends. The favorites are priced tightly — a $1 bet on the best team might return $5-8. The fun lives further down the board, where a $1 bet on a middling team returns $30, $50, or $100+. These are the bets that make an entire season worth watching. Every win by your team feels personal. Every loss feels like the universe conspiring against your dollar."
+    },
+    {
+      "type": "heading",
+      "content": "mvp and awards futures"
+    },
+    {
+      "type": "text",
+      "content": "Individual awards markets — MVP, Rookie of the Year, Defensive Player of the Year — are some of the most volatile futures available. A great first week of the season can cut a player's odds in half. An injury can send them to infinity. The narrative swings are enormous, and the early-season prices on dark horse candidates can be wildly generous. A $1 bet on a breakout candidate before anyone notices them is the futures market at its best."
+    },
+    {
+      "type": "heading",
+      "content": "prediction market futures"
+    },
+    {
+      "type": "text",
+      "content": "Beyond sports, prediction markets offer their own version of futures. Will a specific economic indicator hit a target by year-end? Will a tech company launch a product by a certain date? Will a political event happen within a calendar year? These contracts trade daily and their prices drift with the news cycle. A contract that's worth 5 cents in January might be worth 40 cents by June if the underlying probability shifts. Or it might be worth zero."
+    },
+    {
+      "type": "heading",
+      "content": "the case for futures as entertainment"
+    },
+    {
+      "type": "text",
+      "content": "A $1 futures bet bought in preseason gives you months of engagement for the price of a vending machine snack. You'll check scores you wouldn't normally check. You'll read news about a team you've never cared about. You'll develop an opinion on roster moves that have no bearing on your life. The entertainment-per-dollar ratio of a futures longshot is essentially unbeatable — even when you lose, you got a full season of paying attention."
+    },
+    {
+      "type": "heading",
+      "content": "why most futures bets lose"
+    },
+    {
+      "type": "text",
+      "content": "Futures markets have more outcomes than daily markets — there are 30 NBA teams and only one wins the championship. Even the favorite loses most of the time. A team priced at +500 (roughly 17% implied probability) will, by definition, fail to win the title about 83% of the time. The longshots at +5000 fail about 98% of the time. This isn't a flaw — it's the feature. The long odds are what make the payout interesting and the dollar affordable."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "When is the best time to place a futures bet?",
+      "a": "Early in the season you get the best odds but the least information. Late in the season you get better information but worse odds. There's no objectively best time — it depends on whether you value price or certainty more."
+    },
+    {
+      "q": "Can I cash out a futures bet early?",
+      "a": "On prediction markets, yes — you can sell your contracts at any time before resolution. On sportsbooks, some offer early cash-out options but not all. Prediction markets are more flexible for futures trading."
+    },
+    {
+      "q": "What's the difference between futures and regular bets?",
+      "a": "Time horizon. A regular bet resolves today or this week. A futures bet resolves weeks or months from now. The odds tend to be longer on futures because there's more uncertainty, which means bigger potential payouts for $1."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial site. We do not provide betting picks or financial advice. Futures bets involve risk of total loss and long time horizons. Odds change throughout the season. Always verify current pricing before participating. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-05-01",
+  "last_updated": "2026-05-01",
+  "cluster": "Longshot Sports",
+  "priority": 73
+}

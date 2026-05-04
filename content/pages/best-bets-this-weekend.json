@@ -1,0 +1,101 @@
+{
+  "slug": "best-bets-this-weekend",
+  "format": "ranked_list",
+  "seo": {
+    "title": "Best Bets This Weekend — $1 Picks for Saturday & Sunday | Dollar Bets",
+    "h1": "Best Bets This Weekend",
+    "meta_description": "This weekend's best bets. Saturday and Sunday picks across sports, fights, and prediction markets.",
+    "canonical": "/best-bets-this-weekend/"
+  },
+  "summary": "The best bets worth watching this weekend, ranked by entertainment value and what $1 could return. Sports, prediction markets, and weird props — updated weekly with the weekend's most interesting wagers.",
+  "hero_bet": {
+    "title": "Weekend underdog special: check the board",
+    "payout": 8,
+    "quip": "Two days of chaos. One dollar at a time.",
+    "tier": "orange",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "about Dollar Bets", "url": "/about/"},
+    {"text": "best $1 bets this week", "url": "/best-bets-for-a-dollar-this-week/"},
+    {"text": "underdog sports bets", "url": "/prediction-market-longshots/"},
+    {"text": "weird prop bets", "url": "/weird-prop-bets/"},
+    {"text": "biggest payouts this week", "url": "/biggest-payouts-this-week/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Weekends are when the betting board gets loud. More games, more events, more markets — and more opportunities to turn a dollar into a story. This page rounds up the weekend's most interesting bets across every category: sports underdogs, prediction market longshots, and the weird props that exist because somebody at an exchange thought 'why not.'"
+    },
+    {
+      "type": "heading",
+      "content": "how we pick these"
+    },
+    {
+      "type": "text",
+      "content": "We're not running models. We're not pretending to be sharps. The weekend picks are chosen on three criteria: is the payout interesting, is the story entertaining, and would you actually want to check the result on Monday morning? If a bet passes all three, it makes the list. If it only passes two, it probably still makes the list because our standards are enthusiastic, not rigorous."
+    },
+    {
+      "type": "heading",
+      "content": "saturday sports underdogs"
+    },
+    {
+      "type": "text",
+      "content": "Saturday is underdog day. College football in the fall, NBA and NHL matinees year-round, soccer across every timezone. The moneyline dogs with narratives — a team on a losing streak, a backup quarterback getting the start, a squad with nothing to lose and odds to match — these are the picks that make Saturday worth monitoring. Check the board for current Saturday lines; we pull the most entertaining ones each week."
+    },
+    {
+      "type": "heading",
+      "content": "sunday headliners"
+    },
+    {
+      "type": "text",
+      "content": "Sunday is historically the biggest sports betting day of the week. NFL games in the fall dominate the board, but even in the offseason, Sunday brings the marquee matchups. The dogs on Sunday tend to be better known, the props tend to be more creative, and the prediction markets tend to spike in volume as weekend traders pile in before the Monday close."
+    },
+    {
+      "type": "heading",
+      "content": "weekend prediction markets"
+    },
+    {
+      "type": "text",
+      "content": "Prediction markets don't sleep on weekends. Political events, economic data releases, weather deadlines — these contracts keep ticking while the sportsbooks focus on games. Some of the best weekend opportunities come from markets that resolve on Monday morning, when a weather threshold is met or an economic report drops. The pricing on Friday afternoon often doesn't reflect what happens over 48 hours of news."
+    },
+    {
+      "type": "heading",
+      "content": "weekend weird bets"
+    },
+    {
+      "type": "text",
+      "content": "The props get weirder on weekends. Celebrity appearances, entertainment events, social media milestones — the culture markets light up on Saturday and Sunday. These aren't the biggest payouts, but they're the bets you'll actually want to text your friends about. A $1 bet on whether a certain pop star posts on Instagram before Monday is dumb. It's also perfect."
+    },
+    {
+      "type": "heading",
+      "content": "what to check on monday"
+    },
+    {
+      "type": "text",
+      "content": "Most weekend bets resolve by Monday afternoon. The underdog either won or didn't. The prediction market contract either expired in the money or at zero. The weird prop either happened or it was just another beautiful bad idea. We don't promise winners — we promise that you'll have something more interesting to check than your email when the week starts."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "When do you update the weekend picks?",
+      "a": "We refresh the weekend picks on Friday afternoons. Odds and availability shift over the weekend, so always check the live board for current pricing."
+    },
+    {
+      "q": "Are these expert picks?",
+      "a": "No. These are the bets we find most entertaining, ranked by payout and narrative quality. We're not handicappers — we're curators of interesting ways to lose a dollar."
+    },
+    {
+      "q": "Can I bet on prediction markets over the weekend?",
+      "a": "Yes. Prediction markets like Kalshi operate continuously. You can buy and sell contracts at any time, though liquidity may vary outside business hours."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial discovery site. We do not place bets, operate markets, or provide financial advice. All picks are for entertainment purposes. Odds change frequently — always verify current pricing before participating. Some links may be affiliate links.",
+  "publish_date": "2026-04-30",
+  "last_updated": "2026-04-30",
+  "cluster": "Daily/Weekly",
+  "priority": 79
+}

@@ -1,29 +1,27 @@
 {
   "slug": "hall-of-filth-buster-douglas",
   "format": "historical_story",
-  "parent_category": "hall-of-filth",
   "seo": {
-    "title": "Buster Douglas vs Mike Tyson: The 42-to-1 Knockout | Dollar Bets",
-    "h1": "Buster Douglas vs Mike Tyson: The 42-to-1 Knockout",
-    "meta_description": "In 1990, Buster Douglas knocked out Mike Tyson at 42-to-1. What $1 would have returned — and why nobody believed it could happen.",
+    "title": "Buster Douglas at 42-to-1 — The Hall of Filth | Dollar Bets",
+    "h1": "Buster Douglas: 42-to-1 and the Night Tyson Fell",
+    "meta_description": "Buster Douglas knocked out Mike Tyson at 42-to-1. What $1 would have returned — and why nobody bet it.",
     "canonical": "/hall-of-filth/buster-douglas/"
   },
-  "summary": "On February 11, 1990, James 'Buster' Douglas knocked out Mike Tyson in the 10th round in Tokyo. The odds were 42-to-1. A $1 bet would have returned $42. It remains one of the biggest upsets in sports history.",
   "hero_bet": {
-    "title": "Buster Douglas to beat Mike Tyson (Feb 1990)",
+    "title": "Buster Douglas to beat Mike Tyson (Feb 11, 1990)",
     "payout": 42,
-    "quip": "Forty-two to one. The universe had other plans.",
-    "tier": "yellow",
+    "quip": "Forty-two to one. The only thing crazier than the odds was the eighth round.",
+    "tier": "red",
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
     "category": "sports",
     "note": "Illustrative — based on widely reported pre-fight odds"
   },
   "internal_links": [
-    {"text": "Leicester City at 5000-to-1", "url": "/hall-of-filth/leicester-city/"},
-    {"text": "more Hall of Filth stories", "url": "/hall-of-filth/"},
-    {"text": "today's sports underdogs", "url": "/sports-markets/"},
+    {"text": "today's best underdog bets", "url": "/sports-markets/"},
     {"text": "today's best $1 bets", "url": "/"},
-    {"text": "how longshot odds work", "url": "/how-do-longshot-odds-work/"}
+    {"text": "more Hall of Filth stories", "url": "/hall-of-filth/"},
+    {"text": "prediction market longshots", "url": "/prediction-markets/prediction-market-longshots/"},
+    {"text": "how do longshot odds work", "url": "/how-do-longshot-odds-work/"}
   ],
   "current_equivalent": {
     "category": "Underdogs",
@@ -33,82 +31,71 @@
   "body": [
     {
       "type": "text",
-      "content": "Mike Tyson was supposed to be invincible. By February 1990, he was 37-0 with 33 knockouts. He was the undisputed heavyweight champion of the world. He had demolished every opponent the sport could find. The only question before the Buster Douglas fight was how many rounds it would take."
+      "content": "On February 11, 1990, in Tokyo, a boxer named James 'Buster' Douglas knocked out Mike Tyson in the tenth round. The odds were 42-to-1. Some books didn't even bother taking action on the fight because the outcome seemed so obvious. Tyson was 37-0. He had knocked out his last six opponents. He was considered the most dangerous fighter alive."
     },
     {
       "type": "text",
-      "content": "Most Las Vegas sportsbooks didn't even bother setting a line. The ones that did put Douglas at 42-to-1. Some reports put the unofficial odds even higher. In the Dollar Bets framing: $1 would have paid $42. A 🟨 alive tier bet — not even filthy. The odds were generous enough to look ridiculous but not generous enough to capture how impossible the outcome seemed."
+      "content": "Buster Douglas had lost 5 fights. His mother had died 23 days before the bout. His wife had recently left him. The consensus was not that Douglas might lose — it was that he might get hurt. The question sportswriters were asking wasn't 'can Douglas win?' It was 'which round does Tyson end it?'"
     },
     {
       "type": "heading",
-      "content": "the context nobody talks about"
+      "content": "what $1 would have returned"
     },
     {
       "type": "text",
-      "content": "Buster Douglas's mother, Lula Pearl, died 23 days before the fight. He had recently separated from the mother of his son. His trainer was making funeral arrangements the week of the bout. Multiple sources reported that Douglas almost pulled out entirely."
+      "content": "$1 on Buster Douglas at those widely reported odds would have returned approximately $42. That's the Heater label on the Dollar Bets scale. Not quite Filthy. Not quite Generational. But a number that would make you put your phone down and think about your life choices for a second."
     },
     {
       "type": "text",
-      "content": "Tyson, meanwhile, was in Tokyo without his longtime trainer Kevin Rooney, whom he had fired the previous year. He had been partying in Japan. His camp was in disarray. None of this was visible in the odds. The number 42-to-1 told a story about reputation, not preparation."
+      "content": "Note: the $42 figure is illustrative, based on the 42-to-1 odds widely reported before the fight. Some books reportedly offered even longer odds. Actual returns would have depended on the specific sportsbook and timing."
     },
     {
       "type": "heading",
-      "content": "what happened in tokyo"
+      "content": "how it happened"
     },
     {
       "type": "text",
-      "content": "Douglas came out fighting behind a jab that Tyson couldn't solve. For eight rounds, Douglas controlled the distance, the tempo, and the damage. In the eighth round, Tyson landed an uppercut that knocked Douglas to the canvas — and for a moment, the 42-to-1 line looked prophetic."
+      "content": "Douglas fought like a man with nothing left to lose, because he was. His jab — long, stiff, and constant — kept Tyson at distance. Tyson, who had steamrolled every other opponent by getting inside and throwing devastating combinations, couldn't get close enough to land clean. Round after round, Douglas jabbed, moved, and made the most feared man in boxing look confused."
     },
     {
       "type": "text",
-      "content": "Douglas got up. There was a long-count controversy that still gets debated. It didn't matter. In the tenth round, Douglas hit Tyson with a combination that put the heavyweight champion on the canvas for the first time in his professional career. Tyson reached for his mouthpiece, tried to put it back in, and couldn't get up. The referee counted to ten. The 42-to-1 shot had landed."
+      "content": "In the eighth round, Tyson landed an uppercut that put Douglas on the canvas. The count was controversial — some argued Douglas got a long count. He got up. And then, instead of folding the way 42-to-1 underdogs are supposed to fold, Douglas came back harder. In the tenth round, he caught Tyson with a combination that put Iron Mike on the floor for the first time in his career. Tyson reached for his mouthpiece. He couldn't get up in time. It was over."
     },
     {
       "type": "heading",
-      "content": "the payout nobody collected"
+      "content": "why nobody bet it"
     },
     {
       "type": "text",
-      "content": "Almost nobody bet on Douglas. The fight was so lopsided on paper that many sportsbooks treated it as a formality. The few bettors who did take the 42-to-1 line reportedly had trouble getting their bets down — some books weren't accepting action on the fight at all because the outcome seemed predetermined."
+      "content": "This is the detail that haunts every bettor who looks back at Buster Douglas. Almost nobody bet on him. Several Las Vegas sportsbooks reportedly didn't even post odds on the fight because the outcome was considered so certain. The Mirage was one of the few books that took bets, and the action was almost entirely on Tyson."
     },
     {
       "type": "text",
-      "content": "In prediction market terms, a 42-to-1 line implies roughly a 2.4% probability. The market was saying: there is essentially no path for Buster Douglas. The market was wrong — but the market was wrong for understandable reasons. That's the lesson: markets price consensus, and consensus can miss the things that don't fit the spreadsheet. Grief. Motivation. A jab nobody had seen before."
+      "content": "The reason is instructive: when something seems impossible, your brain doesn't process the odds. It doesn't matter if you're getting 42-to-1 if you genuinely believe there's a 0% chance. The number doesn't register as an opportunity. It registers as a joke. That's how longshots hide — behind certainty that isn't certain."
     },
     {
       "type": "heading",
-      "content": "what happened next"
+      "content": "why it matters to bettors"
     },
     {
       "type": "text",
-      "content": "Douglas lost the title in his next fight, knocked out in the third round by Evander Holyfield. He reportedly gained significant weight between fights. The 42-to-1 miracle was a single-night phenomenon — which, if anything, makes it more remarkable. The conditions that created the upset were specific, temporary, and unrepeatable."
+      "content": "Douglas-Tyson is the purest case study in what happens when the public confuses 'very unlikely' with 'impossible.' The crowd's confidence didn't make Tyson invincible. It made the odds longer. And longer odds mean bigger payouts for the people who can see past the consensus."
+    },
+    {
+      "type": "text",
+      "content": "On prediction markets, this dynamic plays out every day on a smaller scale. Contracts trading at 2 or 3 cents because the crowd has decided something can't happen. Most of the time, the crowd is right. But every now and then, there's a tenth round nobody saw coming."
     },
     {
       "type": "heading",
-      "content": "why it belongs in the hall of filth"
+      "content": "the modern equivalent"
     },
     {
       "type": "text",
-      "content": "The Douglas-Tyson fight is the textbook case for why longshots exist. Not because they're profitable — most aren't — but because the universe occasionally produces outcomes that no odds can adequately describe. 42-to-1 was wrong. The truth was somewhere between impossible and inevitable, and the market had no way to price that."
+      "content": "Dollar Bets scans prediction markets for the modern Buster Douglas — events priced like impossibilities that have a real, if small, chance of happening. The payouts won't always be 42-to-1. Sometimes they're bigger. The point is the same: a dollar on the thing nobody believes in, just in case the tenth round comes."
     }
   ],
-  "faqs": [
-    {
-      "q": "What were the actual odds on Buster Douglas?",
-      "a": "Most widely reported odds were 42-to-1. Some sources cite even higher unofficial odds. Several Las Vegas sportsbooks didn't set a line at all because the outcome seemed certain."
-    },
-    {
-      "q": "How much would a $1 bet on Buster Douglas have paid?",
-      "a": "At 42-to-1 odds, a $1 bet would have returned approximately $42. This is illustrative — actual payouts varied by sportsbook."
-    },
-    {
-      "q": "Was the long count controversial?",
-      "a": "Yes. When Douglas was knocked down in the eighth round, there was a delay before the referee began counting. Some argued Douglas was down for longer than ten seconds. The result stood."
-    }
-  ],
-  "compliance": "This is editorial content about a historical sporting event. $1 return figures are illustrative based on widely reported pre-fight odds. Dollar Bets does not verify historical odds to exact precision. Past results do not predict future outcomes.",
-  "publish_date": "2026-04-29",
-  "last_updated": "2026-04-29",
+  "compliance": "Historical odds are illustrative, based on widely reported pre-fight bookmaker odds. Actual returns would have varied by sportsbook and timing. Past results do not predict future outcomes. Longshots are longshots for a reason.",
+  "publish_date": "2026-04-30",
   "cluster": "Hall of Filth",
-  "priority": 75
+  "priority": 79
 }

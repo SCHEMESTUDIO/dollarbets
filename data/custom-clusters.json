@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "updated_at": "2026-04-30"
+  },
+  "clusters": [
+    {
+      "id": "dry_acceptance",
+      "description": "Deadpan acceptance of absurdity",
+      "keywords": [
+        "probably gravy",
+        "outrageously plausible",
+        "fair enough"
+      ]
+    }
+  ]
+}

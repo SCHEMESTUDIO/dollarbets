@@ -1,0 +1,105 @@
+{
+  "slug": "craziest-bets-this-week",
+  "format": "weird_market_roundup",
+  "seo": {
+    "title": "Craziest Bets This Week — Weekly Weird Roundup | Dollar Bets",
+    "h1": "Craziest Bets This Week",
+    "meta_description": "This week's craziest bets from across sports, politics, and prediction markets. Updated every Friday.",
+    "canonical": "/craziest-bets-this-week/"
+  },
+  "summary": "A weekly roundup of the most absurd, entertaining, and improbable bets available across sports, prediction markets, and whatever else the internet decided to price this week. Updated Fridays.",
+  "hero_bet": {
+    "title": "This week's wildest market — check the board",
+    "payout": 25,
+    "quip": "Another week of markets that shouldn't exist but do.",
+    "tier": "red",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "about Dollar Bets", "url": "/about/"},
+    {"text": "weird bets today", "url": "/weird-prop-bets/"},
+    {"text": "weird prediction markets", "url": "/weird-prediction-markets/"},
+    {"text": "best $1 bets this week", "url": "/best-bets-for-a-dollar-this-week/"},
+    {"text": "funny betting odds", "url": "/funny-betting-odds-today/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Every week the betting world produces something that makes you stop and think: someone really built a market for that. This page collects those moments — the bets that are too weird to ignore and too entertaining not to share. We don't recommend any of them. We just want you to know they exist."
+    },
+    {
+      "type": "heading",
+      "content": "what qualifies as crazy"
+    },
+    {
+      "type": "text",
+      "content": "A bet makes this list if it meets at least one of these criteria: the premise is absurd, the payout is outrageous, the underlying event is something nobody should have thought to price, or the market exists and has actual volume despite every logical reason it shouldn't. Bonus points if you'd feel weird explaining it to a coworker."
+    },
+    {
+      "type": "heading",
+      "content": "the prediction market weirdness"
+    },
+    {
+      "type": "text",
+      "content": "Prediction markets are ground zero for crazy bets. Because platforms like Kalshi let anyone propose an event contract, the weird stuff flourishes. Will a specific volcano erupt? Will a tech CEO post something that moves their stock price? Will a government agency miss a reporting deadline? These contracts exist because someone thought the question was worth pricing — and enough people agreed to create a market."
+    },
+    {
+      "type": "heading",
+      "content": "sports props gone wild"
+    },
+    {
+      "type": "text",
+      "content": "Prop bets in sports get increasingly creative as sportsbooks compete for attention. Player-specific props have evolved from basic over/unders into genuinely strange territory. Will a particular pitcher throw a no-hitter this week? Will a specific NBA player score exactly 40 points? Will there be a safety in every NFL game on Sunday? The odds on these are usually enormous because the events are specific, unlikely, and entirely dependent on chaos."
+    },
+    {
+      "type": "heading",
+      "content": "the political and policy circus"
+    },
+    {
+      "type": "text",
+      "content": "Political prediction markets generate their own category of crazy every single week. Who will be named to a cabinet position? Will a specific bill get a floor vote? Will a press conference produce a specific phrase? The political markets are crazy not because the events are unlikely but because the fact that they're priced at all says something about where we are as a civilization."
+    },
+    {
+      "type": "heading",
+      "content": "the one we can't stop thinking about"
+    },
+    {
+      "type": "text",
+      "content": "Every week there's one bet that lives rent-free in our heads. It's usually not the biggest payout or the weirdest topic — it's the one where the price implies something deeply funny about what the market collectively believes. A contract trading at 3 cents means the crowd thinks there's roughly a 3% chance it happens. When that 3% event is something like 'Will a sitting senator reference a meme on the Senate floor,' the implied probability becomes comedy."
+    },
+    {
+      "type": "heading",
+      "content": "why this page exists"
+    },
+    {
+      "type": "text",
+      "content": "Most betting content is about winning. This page is about wondering. The craziest bets aren't bets you should take — they're bets that make you think about how probability, money, and human behavior intersect in increasingly bizarre ways. We update every Friday because the weekend needs a warmup, and nothing warms up a weekend like a market that prices the unthinkable."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How often is this page updated?",
+      "a": "Every Friday. We collect the week's craziest markets and props, rank them by absurdity and entertainment value, and publish the roundup before the weekend."
+    },
+    {
+      "q": "Should I actually bet on these?",
+      "a": "These are among the least likely bets to win. That's kind of the point. If you do participate, use only money you'd happily set on fire for entertainment purposes."
+    },
+    {
+      "q": "Where do you find these crazy bets?",
+      "a": "We monitor prediction market platforms like Kalshi, major sportsbooks, and community tipoffs. The internet is remarkably good at surfacing markets that shouldn't exist."
+    },
+    {
+      "q": "Can I suggest a crazy bet for the roundup?",
+      "a": "We're always looking. If you find a market that makes you question the judgment of everyone involved in creating it, it probably belongs here."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate markets or provide betting advice. All markets mentioned are verified as active at time of publication. Odds and availability change rapidly. Most of these bets will lose. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-04-30",
+  "last_updated": "2026-04-30",
+  "cluster": "Weird Bets",
+  "priority": 76
+}

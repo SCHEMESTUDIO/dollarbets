@@ -1,0 +1,104 @@
+{
+  "slug": "betting-odds-explained",
+  "format": "explainer",
+  "seo": {
+    "title": "Betting Odds Explained — American, Decimal & Fractional | Dollar Bets",
+    "h1": "Betting Odds Explained",
+    "meta_description": "How betting odds work across every format. American, decimal, fractional — all translated into what $1 returns.",
+    "canonical": "/betting-odds-explained/"
+  },
+  "summary": "Betting odds come in three main formats — American (+150), decimal (2.50), and fractional (3/2) — and they all say the same thing differently. This guide translates every format into the only number that matters: what $1 returns.",
+  "hero_bet": {
+    "title": "Same bet, three formats: +200 / 3.00 / 2/1",
+    "payout": 3,
+    "quip": "Three formats. One dollar. Same confusion.",
+    "tier": "green",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "about Dollar Bets", "url": "/about/"},
+    {"text": "how longshot odds work", "url": "/how-do-longshot-odds-work/"},
+    {"text": "what is a prediction market?", "url": "/what-is-a-prediction-market/"},
+    {"text": "best $1 bets this week", "url": "/best-bets-for-a-dollar-this-week/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Odds tell you two things: how likely the market thinks an event is, and how much you get paid if you're right. The problem is that the betting world uses three different formats to express the same idea, and none of them were designed with clarity in mind. Here's how each one works, translated into what a single dollar returns."
+    },
+    {
+      "type": "heading",
+      "content": "american odds (moneyline)"
+    },
+    {
+      "type": "text",
+      "content": "American odds use a plus or minus sign. A positive number like +300 means a $1 bet returns $3 in profit (plus your dollar back, for $4 total). A negative number like -150 means you'd need to bet $1.50 to win $1 in profit. The bigger the plus number, the less likely the market thinks it'll happen. The bigger the minus number, the more likely. American odds are standard in US sportsbooks and are what most people encounter first."
+    },
+    {
+      "type": "heading",
+      "content": "decimal odds"
+    },
+    {
+      "type": "text",
+      "content": "Decimal odds are the simplest format. The number is your total return per dollar bet, including your stake. Decimal odds of 3.00 mean $1 returns $3 total ($2 profit plus your original $1). Decimal odds of 1.50 mean $1 returns $1.50 total ($0.50 profit). To convert your implied probability, divide 1 by the decimal odds: 1 ÷ 3.00 = 33.3% implied probability. Decimal odds are standard in Europe, Australia, and Canada."
+    },
+    {
+      "type": "heading",
+      "content": "fractional odds"
+    },
+    {
+      "type": "text",
+      "content": "Fractional odds show your profit relative to your stake. Odds of 5/1 (spoken as 'five-to-one') mean you win $5 for every $1 you bet. Odds of 1/4 ('one-to-four' or 'four-to-one on') mean you win $0.25 for every $1. Fractional odds are traditional in UK horse racing and older British sportsbooks. They're falling out of favor because decimal odds are easier to calculate, but they persist because tradition is powerful and horse racing is stubborn."
+    },
+    {
+      "type": "heading",
+      "content": "the conversion cheat sheet"
+    },
+    {
+      "type": "text",
+      "content": "Here's the same bet in all three formats, at various probabilities. At roughly 50% implied probability: American -110, decimal 1.91, fractional 10/11. At roughly 33%: American +200, decimal 3.00, fractional 2/1. At roughly 10%: American +900, decimal 10.00, fractional 9/1. At roughly 1%: American +10000, decimal 101.00, fractional 100/1. The Dollar Bets board always shows the $1 payout directly, so you don't need to convert — but knowing how helps when you're reading odds elsewhere."
+    },
+    {
+      "type": "heading",
+      "content": "odds vs probability"
+    },
+    {
+      "type": "text",
+      "content": "Odds reflect the market's implied probability, but they're not pure probability — they include the bookmaker's margin (called the vig, juice, or overround). A fair coin flip should be +100 (2.00 decimal, 1/1 fractional), but a sportsbook might price it at -110 on both sides, guaranteeing themselves a profit regardless of the outcome. Prediction markets work differently: the price is set by supply and demand between traders, not by a house setting the line."
+    },
+    {
+      "type": "heading",
+      "content": "the dollar bets translation"
+    },
+    {
+      "type": "text",
+      "content": "Every bet on the Dollar Bets board is expressed as what $1 could return. We strip away the format confusion entirely. If a contract is priced at 10 cents, your $1 payout is $10. If it's priced at 2 cents, your $1 payout is $50. The color-coded tier labels — from green (respectable) to purple (generational) — give you an instant read on how unlikely the market thinks the outcome is, without needing to parse American, decimal, or fractional anything."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which odds format is best?",
+      "a": "Decimal odds are the most intuitive — multiply by your stake to get your total return. But 'best' depends on what you're used to. American odds dominate the US market, and fractional odds are standard in UK racing."
+    },
+    {
+      "q": "What does -110 mean?",
+      "a": "It means you need to risk $1.10 to win $1 in profit. It's the standard price for roughly even-money bets in American sportsbooks, with the extra 10 cents being the bookmaker's margin."
+    },
+    {
+      "q": "How do prediction market prices relate to odds?",
+      "a": "A prediction market contract priced at 25 cents implies roughly a 25% probability. The $1 payout is $4 (1 ÷ 0.25). In American odds, that's approximately +300. In decimal, 4.00. In fractional, 3/1."
+    },
+    {
+      "q": "Why do different sites show different odds for the same event?",
+      "a": "Different bookmakers and platforms set their own lines based on their exposure, customer base, and margin preferences. Shopping for the best odds across platforms is common practice."
+    }
+  ],
+  "compliance": "This content is educational and for entertainment purposes only. Betting involves risk of loss. Odds and availability vary by platform and jurisdiction. Dollar Bets does not provide financial advice. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-05-01",
+  "last_updated": "2026-05-01",
+  "cluster": "Betting Explainers",
+  "priority": 74
+}

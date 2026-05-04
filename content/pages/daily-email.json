@@ -1,0 +1,91 @@
+{
+  "slug": "daily-email",
+  "format": "affiliate_page",
+  "seo": {
+    "title": "Dollar Bets Daily Email — Wake Up to Chaos | Dollar Bets",
+    "h1": "The Dollar Bets Daily Email",
+    "meta_description": "Get the Dollar Bets daily email. Three bets. Three quips. One dollar framing. Delivered before you're fully awake.",
+    "canonical": "/daily-email/"
+  },
+  "summary": "The Dollar Bets daily email drops three of the day's most interesting $1 bets into your inbox every morning. No picks, no tips, no 14-paragraph analysis — just the bets worth knowing about, the quips they deserve, and a reason to check the board.",
+  "hero_bet": {
+    "title": "Tomorrow's best $1 bet — in your inbox",
+    "payout": 7,
+    "quip": "One email. Three beautiful bad ideas. Zero spam.",
+    "tier": "yellow",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "about Dollar Bets", "url": "/about/"},
+    {"text": "best $1 bets this week", "url": "/best-bets-for-a-dollar-this-week/"},
+    {"text": "what can you bet $1 on?", "url": "/what-can-you-bet-one-dollar-on/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Dollar Bets updates the board every day with the most entertaining $1 bets across prediction markets, sports, and the weird stuff that shouldn't have a market but does. The daily email is the shortcut — three bets, delivered to your inbox, before your first cup of coffee goes cold."
+    },
+    {
+      "type": "heading",
+      "content": "what's in the email"
+    },
+    {
+      "type": "text",
+      "content": "Each morning you get three bets pulled from the day's board. One is usually a prediction market longshot. One is usually a sports underdog or prop. One is usually something weird enough that you'll screenshot it and send it to someone. Each bet comes with the $1 payout, the tier label, and a quip — because a bet without commentary is just a number."
+    },
+    {
+      "type": "heading",
+      "content": "what's not in the email"
+    },
+    {
+      "type": "text",
+      "content": "No picks. No 'expert analysis.' No 'lock of the day.' No multi-paragraph breakdown of why a team's defensive efficiency metric suggests value on the moneyline. The daily email is entertainment, not a tout sheet. We're curating interesting bets, not pretending to be sharps. If you want financial advice, talk to someone who wears a tie."
+    },
+    {
+      "type": "heading",
+      "content": "the format"
+    },
+    {
+      "type": "text",
+      "content": "The email is short. Deliberately short. Three bets, three quips, a link to the full board, done. It takes about 45 seconds to read, which is less time than it takes to explain to your coworker why you just laughed at your phone. We respect your inbox by not filling it with filler, and we respect your intelligence by not explaining what a prediction market is every single morning."
+    },
+    {
+      "type": "heading",
+      "content": "who it's for"
+    },
+    {
+      "type": "text",
+      "content": "The daily email is for people who find prediction markets entertaining, who like knowing that someone made a market for whether it'll snow in April, and who think the most interesting thing about a $1 bet isn't the dollar — it's the story. You don't need to be a bettor. You don't need a Kalshi account. You just need to enjoy the fact that the market prices everything, including things it probably shouldn't."
+    },
+    {
+      "type": "heading",
+      "content": "frequency and unsubscribing"
+    },
+    {
+      "type": "text",
+      "content": "One email per day, every weekday morning. No weekend sends unless something truly outrageous shows up on the board (it happens). Unsubscribing takes one click, and we won't send you a guilt trip or a 'we miss you' follow-up. Life's too short for newsletters that don't know when to stop."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is the daily email free?",
+      "a": "Yes. The daily email is free. Dollar Bets is supported by affiliate links to platforms like Kalshi — the email includes those links, and we're transparent about that."
+    },
+    {
+      "q": "How do I sign up?",
+      "a": "Enter your email in the signup form on this page or on the main board. You'll get a confirmation email, and then the daily bets start arriving the next morning."
+    },
+    {
+      "q": "Will you sell my email address?",
+      "a": "No. Your email is used for the daily newsletter and nothing else. We don't sell, trade, or share subscriber data. See our privacy policy for details."
+    }
+  ],
+  "compliance": "Dollar Bets daily email is an editorial newsletter. We do not provide betting advice, picks, or financial guidance. Bets featured are for entertainment purposes only. The email contains affiliate links — see our affiliate disclosure. You can unsubscribe at any time.",
+  "publish_date": "2026-05-01",
+  "last_updated": "2026-05-01",
+  "cluster": "$1 Bets",
+  "priority": 75
+}

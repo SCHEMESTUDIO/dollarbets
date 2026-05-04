@@ -194,6 +194,14 @@ SHARED_CSS = """
       padding: 4px 12px 4px 8px;
       white-space: nowrap;
       letter-spacing: 0.2px;
+      text-decoration: none;
+      transition: all 0.15s ease;
+    }
+
+    a.legend-pill:hover {
+      color: #e8642c;
+      border-color: #e8642c;
+      text-decoration: none;
     }
 
     /* === WAGER LIST === */
@@ -628,22 +636,25 @@ SIGNUP_JS = ""
 
 
 def nav_html(current=""):
-    """Two-line site nav: row 1 = categories, row 2 = site links."""
+    """Two-line site nav: row 1 = theme boards, row 2 = site links."""
     row1_links = [
-        ("/weird-markets/", "black swans"),
+        ("/", "today's board"),
         ("/underdogs/", "underdogs"),
+        ("/weird-markets/", "black swans"),
         ("/politics-markets/", "gridlock"),
         ("/financial-markets/", "ball street"),
         ("/crypto-markets/", "moonshots"),
     ]
     row2_links = [
-        ("/", "today's board"),
         ("/guides/", "guides"),
         ("/about/", "about"),
     ]
 
     def render_link(href, label):
-        if href.strip("/") == current.strip("/"):
+        # Normalize: "/" -> "/" (homepage), "/foo/" -> "foo"
+        norm_href = href if href == "/" else href.strip("/")
+        norm_cur = current if current == "/" else current.strip("/")
+        if norm_cur and norm_href == norm_cur:
             return f'<span class="active">{label}</span>'
         return f'<a href="{href}">{label}</a>'
 
@@ -700,11 +711,11 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
 
     <hr>
 
+    {nav_html(current_nav)}
+
 {body}
 
     <hr>
-
-    {nav_html(current_nav)}
 
 {SIGNUP_HTML}
 
@@ -840,6 +851,22 @@ def platform_logo_html(platform):
 def tier_emoji(tier):
     return {"green": "🟩", "yellow": "🟨", "orange": "🟧",
             "red": "🟥", "purple": "🟪"}.get(tier, "⬜")
+
+
+def legend_html():
+    """Clickable tier legend — links to /tier/{name}/ pages."""
+    pills = [
+        ("🟩", "respectable"),
+        ("🟨", "alive"),
+        ("🟧", "heater"),
+        ("🟥", "filthy"),
+        ("🟪", "generational"),
+    ]
+    items = "\n      ".join(
+        f'<a href="/tier/{name}/" class="legend-pill">{emoji} {name}</a>'
+        for emoji, name in pills
+    )
+    return f'    <div class="legend">\n      {items}\n    </div>\n'
 
 
 def format_payout(payout):
@@ -1342,14 +1369,7 @@ def generate_daily_board(boards):
     except ValueError:
         date_str = latest_date
 
-    legend = """    <div class="legend">
-      <span class="legend-pill">🟩 respectable</span>
-      <span class="legend-pill">🟨 alive</span>
-      <span class="legend-pill">🟧 heater</span>
-      <span class="legend-pill">🟥 filthy</span>
-      <span class="legend-pill">🟪 generational</span>
-    </div>
-"""
+    legend = legend_html()
     date_line = f'    <div class="date-line" style="margin-bottom:14px">{date_str}</div>\n'
 
     trust_strip = """
@@ -1431,14 +1451,7 @@ def generate_underdogs_board(sports_boards):
         t = m.get("tier", "unknown")
         tier_counts[t] = tier_counts.get(t, 0) + 1
 
-    legend = """    <div class="legend">
-      <span class="legend-pill">🟩 respectable</span>
-      <span class="legend-pill">🟨 alive</span>
-      <span class="legend-pill">🟧 heater</span>
-      <span class="legend-pill">🟥 filthy</span>
-      <span class="legend-pill">🟪 generational</span>
-    </div>
-"""
+    legend = legend_html()
     date_line = f'    <div class="date-line" style="margin-bottom:14px">{date_str}</div>\n'
 
     # Sports-specific header
@@ -1517,6 +1530,96 @@ def generate_underdogs_board(sports_boards):
     with open(os.path.join(underdogs_dir, "index.html"), "w") as f:
         f.write(html)
     print(f"[generate] Wrote underdogs board: {len(board)} picks")
+
+
+def generate_tier_pages(boards, sports_boards):
+    """Generate /tier/{name}/ pages — all active markets filtered by payout tier."""
+    TIERS = {
+        "green": {
+            "label": "respectable",
+            "emoji": "🟩",
+            "title": "respectable bets — $2-3 payouts | dollar bets",
+            "description": "Every active prediction market bet paying $2-3 on a dollar. The board's most grounded wagers — unlikely, but not unreasonable.",
+            "intro": "The green tier. These pay $2–3 on a dollar — the kind of odds that make you think twice before dismissing them. Not moonshots. Not safe bets. Just the ones where the math isn't laughing at you.",
+        },
+        "yellow": {
+            "label": "alive",
+            "emoji": "🟨",
+            "title": "alive bets — $4-6 payouts | dollar bets",
+            "description": "Every active prediction market bet paying $4-6 on a dollar. Longshots that still have a pulse.",
+            "intro": "The yellow tier. $4–6 on a dollar — still breathing, still plausible, still the kind of thing that makes you refresh the news at midnight. These are alive.",
+        },
+        "orange": {
+            "label": "heater",
+            "emoji": "🟧",
+            "title": "heater bets — $7-15 payouts | dollar bets",
+            "description": "Every active prediction market bet paying $7-15 on a dollar. The board's hottest longshots.",
+            "intro": "The orange tier. $7–15 on a dollar — now you're gambling on chaos. These are the bets that make the board interesting. Low probability. High entertainment value.",
+        },
+        "red": {
+            "label": "filthy",
+            "emoji": "🟥",
+            "title": "filthy bets — $20+ payouts | dollar bets",
+            "description": "Every active prediction market bet paying $20+ on a dollar. The filthiest longshots on the board.",
+            "intro": "The red tier. $20+ on a dollar — filthy. The market thinks these are nearly impossible. History disagrees just often enough to keep things interesting.",
+        },
+        "purple": {
+            "label": "generational",
+            "emoji": "🟪",
+            "title": "generational bets — $100+ payouts | dollar bets",
+            "description": "Every active prediction market bet paying $100+ on a dollar. Once-in-a-generation longshots.",
+            "intro": "The purple tier. $100+ on a dollar — generational. If one of these hits, it's the kind of thing people talk about for years. You'd tell your grandchildren.",
+        },
+    }
+
+    # Collect all active markets from today's board + sports board
+    all_markets = []
+    if boards:
+        latest_daily = boards[-1][1].get("board", [])
+        for m in latest_daily:
+            m["_source"] = "today's board"
+        all_markets.extend(latest_daily)
+    if sports_boards:
+        latest_sports = sports_boards[-1][1].get("board", [])
+        for m in latest_sports:
+            m["_source"] = "underdogs"
+        all_markets.extend(latest_sports)
+
+    for tier_key, tier_info in TIERS.items():
+        tier_markets = [m for m in all_markets if m.get("tier") == tier_key]
+
+        header = f"""    <h1 class="page-title">{tier_info['emoji']} {tier_info['label']}</h1>
+    <div class="tagline" style="margin-bottom:12px">
+      {tier_info['intro']}
+    </div>
+"""
+        mkt_word = "market" if len(tier_markets) == 1 else "markets"
+        count_line = f'    <div class="date-line" style="margin-bottom:14px">{len(tier_markets)} active {mkt_word} across all boards</div>\n'
+
+        body = header + count_line + render_bet_list(tier_markets, empty_msg="no active markets at this tier right now — check back tomorrow.")
+
+        tier_schema = f"""<script type="application/ld+json">{{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "{tier_info['label'].title()} Tier — Dollar Bets",
+  "url": "{SITE_URL}/tier/{tier_info['label']}/",
+  "description": "{tier_info['description']}"
+}}</script>"""
+
+        html = page_shell(
+            title=tier_info["title"],
+            description=tier_info["description"],
+            body=body,
+            canonical=f"/tier/{tier_info['label']}/",
+            current_nav="",
+            extra_head=tier_schema,
+        )
+
+        tier_dir = os.path.join(OUTPUT_DIR, "tier", tier_info["label"])
+        os.makedirs(tier_dir, exist_ok=True)
+        with open(os.path.join(tier_dir, "index.html"), "w") as f:
+            f.write(html)
+        print(f"[generate] Wrote tier page: {tier_info['label']} ({len(tier_markets)} markets)")
 
 
 def generate_category_pages(all_bets):
@@ -2361,6 +2464,10 @@ def main():
     print("[generate] Building underdogs board...")
     generate_underdogs_board(sports_boards)
 
+    # 1c. Tier pages (aggregate across all boards)
+    print("[generate] Building tier pages...")
+    generate_tier_pages(boards, sports_boards)
+
     # 2. Category/SEO hub pages
     print("[generate] Building category pages...")
     generate_category_pages(all_bets)
@@ -2400,6 +2507,8 @@ def main():
     ]
     for slug in CATEGORIES:
         sitemap_pages.append((f"/{slug}/", 0.8))
+    for tier_name in ["respectable", "alive", "heater", "filthy", "generational"]:
+        sitemap_pages.append((f"/tier/{tier_name}/", 0.7))
     sitemap_pages.append(("/archetypes/", 0.7))
     for slug in ARCHETYPES:
         sitemap_pages.append((f"/archetypes/{slug}/", 0.6))

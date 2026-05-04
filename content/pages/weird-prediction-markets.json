@@ -1,0 +1,105 @@
+{
+  "slug": "weird-prediction-markets",
+  "format": "weird_market_roundup",
+  "seo": {
+    "title": "Weird Prediction Markets — The Strangest Things You Can Bet On | Dollar Bets",
+    "h1": "Weird Prediction Markets",
+    "meta_description": "The weirdest prediction markets active right now. Asteroid flybys, Fed rate decisions, hot dog contests — all real.",
+    "canonical": "/weird-prediction-markets/"
+  },
+  "summary": "Prediction markets exist for things you'd never expect: temperature records, asteroid detection, government shutdown deadlines, and competitive eating outcomes. These are real contracts on real exchanges, priced in real money. Here's what's currently weird.",
+  "hero_bet": {
+    "title": "Will NOAA confirm 2026 as hottest year on record?",
+    "payout": 4,
+    "quip": "Somebody priced this. Somebody bought it. We're documenting both.",
+    "tier": "yellow",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "about Dollar Bets", "url": "/about/"},
+    {"text": "weird bets today", "url": "/weird-prop-bets/"},
+    {"text": "what is a prediction market?", "url": "/what-is-a-prediction-market/"},
+    {"text": "prediction market longshots", "url": "/prediction-market-longshots/"},
+    {"text": "funny betting odds", "url": "/funny-betting-odds-today/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Traditional betting is about sports. Prediction markets are about everything else — and sometimes the 'everything else' gets genuinely strange. This is a roundup of the weirdest prediction markets we've found that are actually live, actually tradeable, and actually priced by real humans spending real money."
+    },
+    {
+      "type": "heading",
+      "content": "weather markets that feel personal"
+    },
+    {
+      "type": "text",
+      "content": "Will it be the hottest summer on record? Will a named hurricane make landfall in a specific state? Will snowfall in a particular city exceed a threshold by a particular date? These markets turn climate data into contracts, and they move fast because weather forecasts change hourly. There's something visceral about betting on the sky — it's the one market where you can step outside and do your own research."
+    },
+    {
+      "type": "heading",
+      "content": "government and regulatory markets"
+    },
+    {
+      "type": "text",
+      "content": "Prediction markets have contracts on government shutdowns, debt ceiling deadlines, regulatory approvals, and agency decisions. Will the FAA ground a specific aircraft model? Will a merger get DOJ approval? Will Congress pass a specific bill by a deadline? These markets are weird because they turn bureaucracy into entertainment — and sometimes they're more informative than the news coverage."
+    },
+    {
+      "type": "heading",
+      "content": "space and science markets"
+    },
+    {
+      "type": "text",
+      "content": "Will a specific SpaceX launch succeed? Will NASA confirm a particular finding? Will an asteroid pass within a certain distance of Earth? Science prediction markets are niche but fascinating — they price uncertainty in fields where experts genuinely disagree. The payouts tend to be modest because markets for asteroid impacts don't attract the same volume as NFL games, but the concept alone is worth the click."
+    },
+    {
+      "type": "heading",
+      "content": "pop culture contracts nobody asked for"
+    },
+    {
+      "type": "text",
+      "content": "Will a specific movie cross a box office threshold? Will a social media platform hit a user milestone? Will a particular tech product ship by its announced date? Pop culture prediction markets exist in a gray zone between entertainment and information — they're technically pricing probabilities, but they're really pricing collective opinions about celebrity behavior and corporate timelines."
+    },
+    {
+      "type": "heading",
+      "content": "economic indicators as spectator sport"
+    },
+    {
+      "type": "text",
+      "content": "The Federal Reserve's interest rate decisions. Monthly jobs reports. CPI inflation numbers. GDP growth rates. These are the markets that make economics feel like a sporting event — there's a number, there's a deadline, and there's a crowd of people who think they know better than the crowd. The contracts are usually priced tightly because institutional money plays here, but the cheap longshots on surprise outcomes can be genuinely entertaining."
+    },
+    {
+      "type": "heading",
+      "content": "why weird markets matter"
+    },
+    {
+      "type": "text",
+      "content": "Every weird prediction market is a little experiment in collective intelligence. When people put real money on absurd questions, the resulting price contains more information than most polls or pundit takes. The weird markets are also where prediction market platforms test new territory — weather markets on Kalshi started as an experiment and became one of their most popular categories. Today's weird market is tomorrow's mainstream one."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are these prediction markets real?",
+      "a": "Yes. Every market mentioned is a real contract on a regulated or established prediction market platform. We verify that markets are active before including them."
+    },
+    {
+      "q": "Can I actually bet on weather and asteroids?",
+      "a": "On platforms like Kalshi, yes. Weather markets are some of the most popular contracts. Asteroid and space markets are rarer but they exist when relevant events are approaching."
+    },
+    {
+      "q": "Why are some weird markets priced so tightly?",
+      "a": "Markets that attract institutional or informed traders tend to have narrow spreads. Economic indicator markets, for example, draw traders who follow the data professionally. The entertainment value is still there — it's just priced more efficiently."
+    },
+    {
+      "q": "How often do you update this page?",
+      "a": "Weekly. Weird markets come and go as events approach and resolve. We rotate in the freshest, strangest contracts we can find."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial site. We do not operate prediction markets or place bets on behalf of users. All markets mentioned are verified as active at time of publication but availability changes. Prediction market contracts involve risk of loss. Some links are affiliate links — see our disclosure.",
+  "publish_date": "2026-04-30",
+  "last_updated": "2026-04-30",
+  "cluster": "Weird Bets",
+  "priority": 78
+}

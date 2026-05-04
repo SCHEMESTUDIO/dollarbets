@@ -1,0 +1,93 @@
+{
+  "slug": "best-bets-under-5-dollars",
+  "format": "ranked_list",
+  "seo": {
+    "title": "Best Bets Under $5 — Micro Wagers, Maximum Entertainment | Dollar Bets",
+    "h1": "Best Bets You Can Make for Under $5",
+    "meta_description": "The best bets you can make for under $5. Because sometimes a dollar isn't enough chaos.",
+    "canonical": "/best-bets-under-5-dollars/"
+  },
+  "summary": "You don't need a bankroll to have fun with prediction markets. For under $5 you can spread across multiple contracts, stack a few longshots, or just quintuple your exposure to beautiful bad ideas. Here's where micro wagers get interesting.",
+  "hero_bet": {
+    "title": "5 contracts at $1 each across different markets",
+    "payout": 12,
+    "quip": "Five bucks. Five chances to be wrong. Let's go.",
+    "tier": "orange",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "about Dollar Bets", "url": "/about/"},
+    {"text": "what can you bet $1 on?", "url": "/what-can-you-bet-one-dollar-on/"},
+    {"text": "best $1 bets this week", "url": "/best-bets-for-a-dollar-this-week/"},
+    {"text": "how longshot odds work", "url": "/how-do-longshot-odds-work/"},
+    {"text": "prediction market longshots", "url": "/prediction-market-longshots/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Dollar Bets exists because we believe the most entertaining bets are the cheap ones. But sometimes a single dollar isn't quite enough to capture the full range of what's available. Five dollars — the cost of a mediocre coffee — opens the door to diversification. And by diversification we mean losing money in five different categories instead of one."
+    },
+    {
+      "type": "heading",
+      "content": "the $5 portfolio approach"
+    },
+    {
+      "type": "text",
+      "content": "With $5, you can buy contracts across completely unrelated markets. A dollar on a weather threshold. A dollar on a political deadline. A dollar on a sports underdog. A dollar on whether Bitcoin hits a price target. A dollar on something so weird you're embarrassed to explain it. You won't win all five. You almost certainly won't win any. But you'll have five different reasons to check your phone, which is really what we're selling here."
+    },
+    {
+      "type": "heading",
+      "content": "why micro bets hit different"
+    },
+    {
+      "type": "text",
+      "content": "There's a psychological difference between a $5 bet and a $500 bet that goes beyond the money. At $5, you're not stressed — you're entertained. You don't need the outcome, you just want to see what happens. That emotional distance is actually what makes prediction markets fun instead of anxious. The moment the stakes feel real is the moment you should stop."
+    },
+    {
+      "type": "heading",
+      "content": "where to find sub-$5 contracts"
+    },
+    {
+      "type": "text",
+      "content": "Prediction markets like Kalshi let you buy contracts for pennies. A 'yes' share priced at 3 cents means you can buy over 150 contracts for $5 — and if the event happens, each one pays $1. Sportsbooks have higher minimums, but many allow $1 bets on individual props. The key is looking at contract-based platforms where the price of entry is the price of the contract, not a minimum deposit."
+    },
+    {
+      "type": "heading",
+      "content": "the entertainment-per-dollar ratio"
+    },
+    {
+      "type": "text",
+      "content": "We think about bets in terms of entertainment per dollar. A $1 bet on a two-week contract gives you fourteen days of checking the market, reading news that suddenly feels relevant, and texting friends about something they didn't know you could bet on. Compare that to $5 on a movie ticket where you sit in the dark for two hours. The math is clear. The financial outcome is equally bad either way."
+    },
+    {
+      "type": "heading",
+      "content": "the honest disclaimer"
+    },
+    {
+      "type": "text",
+      "content": "Most bets lose. Sub-$5 bets lose at the same rate as expensive ones — they just hurt less. The whole point of micro-staking is that you can afford to be wrong, repeatedly, without it affecting your life. If losing $5 across five markets would bother you, don't do it. If losing $5 sounds like paying for a week of entertainment, welcome to the board."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What's the minimum bet on most platforms?",
+      "a": "On prediction markets like Kalshi, you can buy a single contract for as little as a few cents. Most sportsbooks have minimums around $0.50 to $1. The minimum depends on the platform and the specific market."
+    },
+    {
+      "q": "Can I spread $5 across multiple prediction market contracts?",
+      "a": "Yes. On contract-based platforms, you can buy as many or as few contracts as you want in different markets. A $5 budget lets you take positions in multiple unrelated events."
+    },
+    {
+      "q": "Is it better to put $5 on one bet or $1 on five bets?",
+      "a": "From a pure entertainment standpoint, five separate $1 bets gives you five things to watch instead of one. From a payout standpoint, concentrating on one position gives a higher maximum return. Neither strategy is likely to make you rich."
+    }
+  ],
+  "compliance": "Dollar Bets is for entertainment purposes only. We do not provide financial or betting advice. All wagers involve risk of loss. Bet only what you can afford to lose. Minimum bet amounts vary by platform and jurisdiction. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-04-30",
+  "last_updated": "2026-04-30",
+  "cluster": "Weird Bets",
+  "priority": 77
+}

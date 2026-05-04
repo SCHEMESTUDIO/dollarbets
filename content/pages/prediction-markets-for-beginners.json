@@ -1,0 +1,113 @@
+{
+  "slug": "prediction-markets-for-beginners",
+  "format": "explainer",
+  "seo": {
+    "title": "Prediction Markets for Beginners — Start With $1 | Dollar Bets",
+    "h1": "Prediction Markets for Beginners",
+    "meta_description": "A beginner's guide to prediction markets. What they are, how to trade them, and why $1 is the perfect starting point.",
+    "canonical": "/prediction-markets-for-beginners/"
+  },
+  "summary": "Prediction markets let you buy contracts on real-world events — elections, weather, economics, culture. If the event happens, your contract pays $1. If not, it's worth zero. You can start with pennies, and $1 is all you need to understand how it works.",
+  "hero_bet": {
+    "title": "Your first prediction market contract",
+    "payout": 5,
+    "quip": "Welcome to prediction markets. Your dollar is ready.",
+    "tier": "yellow",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "about Dollar Bets", "url": "/about/"},
+    {"text": "what is a prediction market?", "url": "/what-is-a-prediction-market/"},
+    {"text": "how longshot odds work", "url": "/how-do-longshot-odds-work/"},
+    {"text": "betting odds explained", "url": "/betting-odds-explained/"},
+    {"text": "prediction market longshots", "url": "/prediction-market-longshots/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "If you've never traded a prediction market contract before, this page is for you. We'll walk through what prediction markets are, how they work mechanically, and how to make your first trade — all framed around the idea that $1 is enough to get started and enough to learn everything you need to know."
+    },
+    {
+      "type": "heading",
+      "content": "what you're actually buying"
+    },
+    {
+      "type": "text",
+      "content": "On a prediction market like Kalshi, you buy contracts tied to real-world events. Each contract asks a yes-or-no question: Will it snow in NYC by December 1? Will the Fed raise rates at the next meeting? Will a specific movie gross $100 million opening weekend? If the answer is yes, each 'yes' contract pays $1. If the answer is no, each 'yes' contract pays $0. The price you pay for the contract reflects what the market thinks the probability is."
+    },
+    {
+      "type": "heading",
+      "content": "how pricing works"
+    },
+    {
+      "type": "text",
+      "content": "A contract priced at $0.30 means the market collectively estimates about a 30% chance the event happens. If you buy one 'yes' contract at $0.30 and the event occurs, you receive $1 — a profit of $0.70. If it doesn't happen, you lose your $0.30. The price moves continuously as new information arrives and traders update their positions. When big news breaks, you can watch the price swing in real time."
+    },
+    {
+      "type": "heading",
+      "content": "your first trade: step by step"
+    },
+    {
+      "type": "text",
+      "content": "Pick a market that interests you — something where you have a genuine opinion or just find the question entertaining. Look at the current 'yes' price. If you think the event is more likely than the price suggests, buy 'yes.' If you think it's less likely, buy 'no.' Decide how much you want to spend (we suggest starting at $1, obviously). Place the order. Then wait for the event to resolve. That's it. You're now a prediction market participant."
+    },
+    {
+      "type": "heading",
+      "content": "you can sell before the event resolves"
+    },
+    {
+      "type": "text",
+      "content": "Unlike a traditional bet where you're locked in until the final whistle, prediction market contracts can be sold at any time before the event resolves. If you bought 'yes' at $0.20 and the price moves to $0.50, you can sell for a profit without waiting for the outcome. This makes prediction markets more like trading than traditional betting — you're not just predicting the event, you're predicting how the market will move."
+    },
+    {
+      "type": "heading",
+      "content": "the $1 framing: why it matters for beginners"
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets exists because we think the best way to learn prediction markets is with a dollar. At that stake, every win feels clever and every loss feels like paying for entertainment. You can spread $1 across multiple cheap contracts and watch how they move. You can hold a 5-cent longshot for weeks and check it like a lottery ticket. The dollar framing turns learning into a game, which is exactly how learning should work."
+    },
+    {
+      "type": "heading",
+      "content": "common beginner mistakes"
+    },
+    {
+      "type": "text",
+      "content": "Buying contracts priced at $0.95 because they 'seem safe' — the payout is tiny and you're risking $0.95 to win $0.05. Confusing contract price with a guarantee — a $0.80 contract still has a 20% chance of going to zero. Ignoring the resolution criteria — read the fine print on what exactly needs to happen for the contract to pay out. And the biggest mistake: increasing your stake because you 'feel good' about a position. The market doesn't care about your feelings."
+    },
+    {
+      "type": "heading",
+      "content": "where to start"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi is the primary CFTC-regulated prediction market exchange in the US. You can sign up, deposit a small amount, and start trading contracts in a few minutes. Browse the Dollar Bets board to find markets that interest you — every listing links directly to the corresponding Kalshi contract. Start with $1. If you enjoy it, you'll know. If you don't, you've lost a dollar and gained some knowledge about market mechanics."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much money do I need to start?",
+      "a": "On Kalshi, you can buy a single contract for as little as a few cents. A $5-10 deposit is enough to explore multiple markets. Dollar Bets recommends starting with an amount you'd comfortably spend on a coffee."
+    },
+    {
+      "q": "Are prediction markets legal?",
+      "a": "Kalshi is a CFTC-regulated exchange in the US. Availability varies by state. Other prediction market platforms operate under different regulatory frameworks. Always check the platform's availability in your jurisdiction before signing up."
+    },
+    {
+      "q": "How is this different from sports betting?",
+      "a": "Prediction markets are contract-based exchanges where you trade with other participants. Sportsbooks are run by a house that sets the odds and takes the other side. The mechanics, regulation, and range of available markets are all different."
+    },
+    {
+      "q": "Can I lose more than I invest?",
+      "a": "No. The maximum you can lose on a prediction market contract is the price you paid for it. There are no margin calls, no leverage, and no way to owe more than your initial position."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial site. We do not operate prediction markets, manage accounts, or provide financial advice. Trading prediction market contracts involves risk of loss. Availability varies by jurisdiction. Kalshi is a CFTC-regulated exchange — verify your eligibility before participating. Some links are affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-05-01",
+  "last_updated": "2026-05-01",
+  "cluster": "Prediction Markets",
+  "priority": 73
+}

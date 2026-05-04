@@ -1,0 +1,113 @@
+{
+  "slug": "prediction-market-longshots",
+  "format": "cluster_pillar",
+  "parent_category": "prediction-markets",
+  "seo": {
+    "title": "Prediction Market Longshots — Big Payouts from Small Bets | Dollar Bets",
+    "h1": "Prediction Market Longshots: Where $1 Gets Dangerous",
+    "meta_description": "The best longshot bets on prediction markets right now. Markets priced under 10 cents where $1 could return something absurd.",
+    "canonical": "/prediction-markets/prediction-market-longshots/"
+  },
+  "hero_bet": {
+    "title": "Example: a prediction market contract priced at $0.03",
+    "payout": 33,
+    "quip": "Three cents says it won't happen. Thirty-three dollars says you don't care.",
+    "tier": "red",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+    "category": "prediction-markets",
+    "note": "Illustrative — represents a typical low-priced prediction market contract"
+  },
+  "internal_links": [
+    {"text": "today's best $1 bets", "url": "/"},
+    {"text": "what is a prediction market", "url": "/what-is-a-prediction-market/"},
+    {"text": "how do longshot odds work", "url": "/how-do-longshot-odds-work/"},
+    {"text": "weird prediction markets", "url": "/weird-markets/weird-prop-bets/"},
+    {"text": "Hall of Filth stories", "url": "/hall-of-filth/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "A prediction market longshot is a contract trading for a few cents. The market is saying: this probably won't happen. The crowd has priced it at 3%, or 5%, or 8%. Almost everyone agrees it's unlikely. But 'unlikely' is not 'impossible,' and the gap between those two words is where the interesting money lives."
+    },
+    {
+      "type": "text",
+      "content": "On prediction markets like Kalshi, contracts pay out $1 if the event happens and $0 if it doesn't. So a contract trading at $0.04 means: the crowd thinks there's roughly a 4% chance this happens. If you buy that contract for 4 cents and it resolves yes, you get $1 back. That's a 25x return. On a dollar, that's $25. On the Filthy scale, that's getting warm."
+    },
+    {
+      "type": "heading",
+      "content": "why longshots exist on prediction markets"
+    },
+    {
+      "type": "text",
+      "content": "Traditional sportsbooks set odds to guarantee their margin. Prediction markets are different — the price is set by traders betting against each other. When a contract is trading at 3 cents, it means nobody with real money thinks it's going to happen. Or more precisely, the people who think it might happen aren't willing to pay more than 3 cents for it."
+    },
+    {
+      "type": "text",
+      "content": "That creates opportunities that sportsbooks would never offer. You can bet on whether the Fed raises rates by a specific amount. Whether a CEO steps down this quarter. Whether a specific country imposes tariffs by Friday. These are real-world events with real uncertainty, priced by people who follow them closely. When the crowd is wrong — and the crowd is sometimes wrong — the payout is enormous."
+    },
+    {
+      "type": "heading",
+      "content": "the math of cheap contracts"
+    },
+    {
+      "type": "text",
+      "content": "Here's why longshots are fun at the dollar level. If you buy a contract for $0.05, you can buy 20 contracts for $1. If the event happens, those 20 contracts each pay $1. That's $20 back on a $1 bet. The cheaper the contract, the bigger the potential multiplier."
+    },
+    {
+      "type": "text",
+      "content": "But here's the part that matters: the reason the contract is cheap is because the event is unlikely. A contract at $0.02 means the market thinks there's a 2% chance. That's 1 in 50. You will lose this bet roughly 49 out of 50 times. The payout is large because reality is rude."
+    },
+    {
+      "type": "heading",
+      "content": "what kinds of longshots show up"
+    },
+    {
+      "type": "text",
+      "content": "Prediction market longshots come in flavors. Economic longshots: the S&P drops 5% in a single day, or the Fed does something nobody expects. Political longshots: a specific bill passes this week, or a candidate drops out. Weather longshots: a hurricane makes landfall in a specific state by a specific date. Culture longshots: a specific tech company announces a product nobody saw coming."
+    },
+    {
+      "type": "text",
+      "content": "The variety is the point. Traditional sportsbooks give you games. Prediction markets give you the entire world. Any binary question — will X happen by Y date — can become a market. And some of those markets will be trading at pennies because the crowd thinks X is nearly impossible."
+    },
+    {
+      "type": "heading",
+      "content": "when longshots actually hit"
+    },
+    {
+      "type": "text",
+      "content": "Leicester City was 5000-to-1. Trump winning in 2016 was trading at the equivalent of 15-to-1 on prediction markets in the final weeks. Appalachian State beating Michigan was not even on most books. These things happen. Not often. Not predictably. But they happen."
+    },
+    {
+      "type": "text",
+      "content": "On prediction markets, longshots hitting in real time is a specific kind of thrill. You watch the contract price climb from $0.03 to $0.10 to $0.40 as the unlikely event starts looking plausible. The market moves before the news does. If you're holding contracts you bought at 3 cents, you can sell at 40 cents and take profit before the event even resolves. Or you can hold and see if the impossible actually becomes real."
+    },
+    {
+      "type": "heading",
+      "content": "how dollar bets finds them"
+    },
+    {
+      "type": "text",
+      "content": "Every day, Dollar Bets scans prediction markets for contracts trading under 10 cents — the longshot zone. We filter for markets that are actually interesting (not just obscure), that resolve soon enough to matter, and that have enough trading volume to mean the price is real. Then we frame each one as a $1 bet: what does $1 return if this actually happens?"
+    },
+    {
+      "type": "text",
+      "content": "Most of them won't hit. We know that. You know that. The market knows that. But 'most' is not 'all,' and the ones that do hit are the stories you'll be telling your group chat about for months."
+    },
+    {
+      "type": "heading",
+      "content": "why it probably loses"
+    },
+    {
+      "type": "text",
+      "content": "Longshots are longshots for a reason. The crowd — which includes professional traders, political analysts, and people who literally do this for a living — has looked at this event and said: probably not. They're usually right. Buying cheap contracts is exciting, but it's negative expected value most of the time. You are paying for entertainment and the occasional miracle, not for a reliable income stream."
+    },
+    {
+      "type": "text",
+      "content": "That's why the $1 framing exists. A dollar is the price of seeing what happens. It's not financial advice. It's not a strategy. It's a ticket to a story that might — against all evidence — actually play out."
+    }
+  ],
+  "compliance": "Prediction market contracts are illustrative examples. Actual market availability, pricing, and contract terms vary. Contract prices reflect market sentiment and are not guarantees of probability. Past results do not predict future outcomes. All trading involves risk of loss. Verify market details on Kalshi before trading.",
+  "publish_date": "2026-04-30",
+  "cluster": "Prediction Markets",
+  "priority": 90
+}
