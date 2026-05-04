@@ -1,0 +1,105 @@
+{
+  "slug": "hall-of-filth-appalachian-state-michigan",
+  "format": "historical_story",
+  "seo": {
+    "title": "Appalachian State Beats #5 Michigan — The Hall of Filth | Dollar Bets",
+    "h1": "Appalachian State vs Michigan: The Upset That Broke College Football",
+    "meta_description": "Appalachian State beat #5 Michigan as a 33-point underdog in 2007. What $1 would have returned on the biggest college football upset ever.",
+    "canonical": "/hall-of-filth/appalachian-state-michigan/"
+  },
+  "hero_bet": {
+    "title": "Appalachian State to beat #5 Michigan (Sept 1, 2007)",
+    "payout": 1000,
+    "quip": "An FCS school. In the Big House. Against a top-5 team. On the first day of the season.",
+    "tier": "purple",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+    "category": "sports",
+    "note": "Illustrative — most sportsbooks did not offer a moneyline; 33-point spread implies extreme odds"
+  },
+  "internal_links": [
+    {"text": "today's best underdog bets", "url": "/sports-markets/"},
+    {"text": "today's best $1 bets", "url": "/"},
+    {"text": "more Hall of Filth stories", "url": "/hall-of-filth/"},
+    {"text": "prediction market longshots", "url": "/prediction-markets/prediction-market-longshots/"},
+    {"text": "how do longshot odds work", "url": "/how-do-longshot-odds-work/"}
+  ],
+  "current_equivalent": {
+    "category": "Underdogs",
+    "text": "See today's sports underdogs",
+    "url": "/sports-markets/"
+  },
+  "body": [
+    {
+      "type": "text",
+      "content": "On September 1, 2007, Appalachian State — a team from the Football Championship Subdivision, the lower tier of college football — walked into Michigan Stadium and beat the #5 ranked Michigan Wolverines 34-32. The spread was 33 points. Michigan was a five-time national champion playing at home in front of over 100,000 people. Appalachian State was a school most casual fans had never heard of."
+    },
+    {
+      "type": "text",
+      "content": "Most sportsbooks didn't even offer a moneyline on the game. When the spread is 33 points, the implied moneyline odds are so extreme that they're essentially off the board. This wasn't supposed to be a game. It was supposed to be a warm-up."
+    },
+    {
+      "type": "heading",
+      "content": "what $1 would have returned"
+    },
+    {
+      "type": "text",
+      "content": "$1 on Appalachian State to win outright — if you could have found a book willing to take that bet — would have returned somewhere in the range of hundreds to potentially over a thousand dollars. A 33-point spread implies moneyline odds in the neighborhood of 500-to-1 or longer, though exact figures are speculative because almost no book offered the line."
+    },
+    {
+      "type": "text",
+      "content": "Note: the payout figure is highly approximate and illustrative. Most sportsbooks did not offer a moneyline on this game. The spread-implied odds suggest an extreme longshot, but the actual available moneyline odds — if they existed at all — were not widely documented."
+    },
+    {
+      "type": "heading",
+      "content": "how it happened"
+    },
+    {
+      "type": "text",
+      "content": "Appalachian State was not a bad team. They were the two-time defending FCS national champions. They had talent. They had discipline. They had a quarterback in Armanti Edwards who could run and throw. What they didn't have was any business being competitive against a top-5 FBS program with 85 scholarship players and a budget fifty times their size."
+    },
+    {
+      "type": "text",
+      "content": "But they were competitive. More than competitive. They led for most of the game. Michigan clawed back and took a 32-31 lead with just over four minutes left. Appalachian State drove down the field and kicked a field goal to go up 34-32 with 26 seconds remaining."
+    },
+    {
+      "type": "text",
+      "content": "Michigan still had time. They drove into field goal range. The holder placed the ball. The kick went up. And Corey Lynch — an Appalachian State defensive back — blocked it. Game over. The Big House went silent. One hundred thousand people watched a team they'd never heard of walk off their field as winners."
+    },
+    {
+      "type": "heading",
+      "content": "why it was truly impossible odds"
+    },
+    {
+      "type": "text",
+      "content": "FCS teams were not supposed to beat top-5 FBS teams. It had essentially never happened at this scale. The talent gap between the two divisions is enormous — FBS programs have more scholarships, more money, more coaching staff, more everything. Michigan's offensive line outweighed Appalachian State's defensive line by significant margins. The game existed on Michigan's schedule as a guaranteed win and a revenue generator."
+    },
+    {
+      "type": "text",
+      "content": "Appalachian State didn't care about any of that. They played like a team that hadn't read the odds. They probably hadn't."
+    },
+    {
+      "type": "heading",
+      "content": "why it matters to bettors"
+    },
+    {
+      "type": "text",
+      "content": "Appalachian State vs Michigan is the ultimate 'unbettable' longshot — so extreme that the market essentially refused to price it. When books don't even offer a line, they're saying the outcome is beyond the range of reasonable probability. But 'beyond the range of reasonable probability' still happened on a Saturday afternoon in Ann Arbor."
+    },
+    {
+      "type": "text",
+      "content": "In prediction markets, you sometimes see contracts at 1 cent or 2 cents — events the market considers so unlikely they're barely worth trading. Appalachian State is a reminder that the bottom of the probability scale is not zero. It's just very, very small. And very, very small is still not impossible."
+    },
+    {
+      "type": "heading",
+      "content": "the modern equivalent"
+    },
+    {
+      "type": "text",
+      "content": "The beauty of prediction markets is that they do price the things sportsbooks won't. Every question gets a contract. Every contract gets a price. Even the ones the crowd thinks are absurd. Dollar Bets finds those absurd corners every day — the modern equivalent of Appalachian State walking into the Big House. Most of them lose. One of them blocks the field goal."
+    }
+  ],
+  "compliance": "Historical odds are highly approximate and illustrative. Most sportsbooks did not offer a moneyline on this game; the payout range is inferred from the point spread and is speculative. Past results do not predict future outcomes. Longshots are longshots for a reason.",
+  "publish_date": "2026-04-30",
+  "cluster": "Hall of Filth",
+  "priority": 76
+}

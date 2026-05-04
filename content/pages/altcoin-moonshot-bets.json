@@ -1,0 +1,92 @@
+{
+  "slug": "altcoin-moonshot-bets",
+  "format": "weird_market_roundup",
+  "seo": {
+    "title": "Altcoin Moonshot Bets — Crypto Longshots for $1 | Dollar Bets",
+    "h1": "Altcoin Moonshot Bets",
+    "meta_description": "Altcoin moonshot prediction markets. The crypto longshots where $1 gets you exposure to maximum degeneracy.",
+    "canonical": "/altcoin-moonshot-bets/"
+  },
+  "summary": "Prediction markets now let you bet on whether obscure altcoins, meme tokens, and crypto events will hit absurd price targets. These are the markets where $1 buys a ticket to financial comedy — and occasionally, financial chaos.",
+  "hero_bet": {
+    "title": "Will a Top-20 Altcoin 10x by Year End?",
+    "payout": 35,
+    "quip": "Not financial advice. This is financial comedy.",
+    "tier": "red",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+    "note": "Illustrative — represents the type of crypto moonshot market available"
+  },
+  "internal_links": [
+    {"text": "today's best $1 bets", "url": "/"},
+    {"text": "biggest payouts this week", "url": "/biggest-payouts-this-week/"},
+    {"text": "weird prediction markets", "url": "/weird-prediction-markets/"},
+    {"text": "about Dollar Bets", "url": "/about/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Crypto prediction markets are where the internet's gambling instinct meets its speculation instinct and they produce offspring. Altcoin moonshot bets are contracts on whether a specific token will hit a price target by a certain date — and since most of these targets are hilariously optimistic, the contracts trade for pennies. That makes them perfect $1 territory."
+    },
+    {
+      "type": "heading",
+      "content": "what makes a moonshot a moonshot"
+    },
+    {
+      "type": "text",
+      "content": "A moonshot in this context is any crypto market where the implied probability is under 10%. That usually means the contract is priced at a few cents, which translates to a massive $1 payout if it hits. The reason it's priced that way is simple: the market thinks it almost certainly won't happen. The market is usually correct. But 'usually' has made and destroyed a lot of people in crypto."
+    },
+    {
+      "type": "heading",
+      "content": "meme coins and the prediction market"
+    },
+    {
+      "type": "text",
+      "content": "Meme coins are uniquely suited to prediction market betting because their price action has almost nothing to do with fundamentals and almost everything to do with narrative momentum. Will DOGE hit a dollar? Will PEPE lose another zero? These are questions that no amount of financial modeling can answer — they depend on collective behavior, viral moments, and the mood of a subreddit. Prediction markets price that chaos in real time."
+    },
+    {
+      "type": "heading",
+      "content": "the difference between buying the coin and buying the market"
+    },
+    {
+      "type": "text",
+      "content": "This is the part most people miss. Buying an altcoin gives you unlimited upside but also unlimited exposure — your position moves with every tick. Buying a prediction market contract on that coin's price caps your risk at whatever you paid for the contract. A $1 contract that pays $50 if Solana hits some target means you can't lose more than the dollar. Whether that's smarter than just buying Solana is a separate argument we're not qualified to settle."
+    },
+    {
+      "type": "heading",
+      "content": "the appeal"
+    },
+    {
+      "type": "text",
+      "content": "Nobody buys a $1 moonshot contract because they ran a DCF model. They buy it because the asymmetry is entertaining and the downside is a dollar. It's structurally identical to buying a scratch ticket, except the underlying event is real, the pricing is transparent, and you can sell your position before expiry if you change your mind. Also, nobody at the gas station lets you resell your losing lottery ticket at a reduced price."
+    },
+    {
+      "type": "heading",
+      "content": "where to find these markets"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi lists crypto-adjacent prediction markets that resolve on verifiable price data. The Dollar Bets homepage features the most entertaining current markets daily, including crypto moonshots when they appear. Check the board — if something has a purple payout tag, someone somewhere is pricing in maximum degeneracy."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is betting on altcoins through prediction markets legal?",
+      "a": "Kalshi is a CFTC-regulated exchange in the US. Availability of specific crypto markets varies and may depend on your jurisdiction. Always check your local regulations."
+    },
+    {
+      "q": "What's the difference between buying crypto and betting on crypto prediction markets?",
+      "a": "Buying crypto gives you direct price exposure with unlimited upside and downside. A prediction market contract has a fixed maximum loss (what you paid) and a fixed payout if the outcome occurs."
+    },
+    {
+      "q": "Can you really make money on altcoin moonshot bets?",
+      "a": "You can, if the outcome hits. But these are priced as extreme longshots for a reason — most expire worthless. The entertainment value is real. The expected return is generally negative."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial discovery site. This page is not financial advice. Crypto prediction markets are extremely speculative — most longshot positions expire worthless. Prediction market contracts involve risk of loss. Past crypto performance does not predict future results. Some links may be affiliate links — see our affiliate disclosure. Please gamble responsibly.",
+  "publish_date": "2026-05-04",
+  "last_updated": "2026-05-04",
+  "cluster": "Crypto Moonshots",
+  "priority": 72
+}

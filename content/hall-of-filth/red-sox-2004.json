@@ -1,0 +1,105 @@
+{
+  "slug": "hall-of-filth-red-sox-2004",
+  "format": "historical_story",
+  "seo": {
+    "title": "2004 Red Sox Down 3-0 — The Hall of Filth | Dollar Bets",
+    "h1": "The 2004 Red Sox: Down 3-0 and the Comeback That Shouldn't Exist",
+    "meta_description": "The 2004 Red Sox were down 3-0 to the Yankees in the ALCS. No team had ever come back from that. What $1 would have returned.",
+    "canonical": "/hall-of-filth/red-sox-2004/"
+  },
+  "hero_bet": {
+    "title": "Red Sox to win ALCS after trailing 3-0 (Oct 2004)",
+    "payout": 25,
+    "quip": "Down three games to none. Against the Yankees. In October. Sure.",
+    "tier": "yellow",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+    "category": "sports",
+    "note": "Illustrative — based on estimated in-series odds after falling behind 3-0"
+  },
+  "internal_links": [
+    {"text": "today's best underdog bets", "url": "/sports-markets/"},
+    {"text": "today's best $1 bets", "url": "/"},
+    {"text": "more Hall of Filth stories", "url": "/hall-of-filth/"},
+    {"text": "prediction market longshots", "url": "/prediction-markets/prediction-market-longshots/"},
+    {"text": "how do longshot odds work", "url": "/how-do-longshot-odds-work/"}
+  ],
+  "current_equivalent": {
+    "category": "Underdogs",
+    "text": "See today's sports underdogs",
+    "url": "/sports-markets/"
+  },
+  "body": [
+    {
+      "type": "text",
+      "content": "In October 2004, the Boston Red Sox trailed the New York Yankees 3 games to 0 in the American League Championship Series. In the entire history of Major League Baseball, no team had ever come back from a 3-0 deficit in a best-of-seven postseason series. The record was 0-for-25. Not one comeback. Not once. Over more than a century of baseball."
+    },
+    {
+      "type": "text",
+      "content": "Game 3 had been a 19-8 blowout in favor of New York. The Yankees were heading to their seventh World Series in nine years. The Red Sox were heading to their 86th year without a championship, and the Curse of the Bambino was about to add another chapter. Every analyst, every sportsbook, every reasonable person with a television had written Boston off."
+    },
+    {
+      "type": "heading",
+      "content": "what $1 would have returned"
+    },
+    {
+      "type": "text",
+      "content": "$1 on the Red Sox to win the series after falling behind 3-0 would have returned somewhere in the neighborhood of $20-$30, depending on the book and the exact timing. The precise odds are hard to pin down — many books had already closed their series lines or were offering limited action. But the implied probability was in the low single digits."
+    },
+    {
+      "type": "text",
+      "content": "Note: the payout figure is illustrative and approximate. In-series odds varied by sportsbook and were not widely standardized the way they are today. The 0-for-25 historical record made this a statistical near-impossibility."
+    },
+    {
+      "type": "heading",
+      "content": "how it happened"
+    },
+    {
+      "type": "text",
+      "content": "Game 4. Bottom of the ninth. Red Sox trailing 4-3, three outs from elimination. Dave Roberts stole second base. Bill Mueller singled him home. The game went to extra innings. David Ortiz hit a walk-off home run in the 12th inning. Boston survived."
+    },
+    {
+      "type": "text",
+      "content": "Game 5 went 14 innings. Ortiz again with the walk-off, this time a single. Game 6, Curt Schilling pitched on a sutured ankle — blood seeping through his sock on national television — and Boston won 4-2. Game 7 was a 10-3 demolition. The Yankees, who had been three outs from the pennant, lost four straight games."
+    },
+    {
+      "type": "text",
+      "content": "The Red Sox then swept the St. Louis Cardinals in the World Series. The Curse of the Bambino, 86 years of pain, ended in an eight-game winning streak that started at the absolute bottom."
+    },
+    {
+      "type": "heading",
+      "content": "why the odds were so extreme"
+    },
+    {
+      "type": "text",
+      "content": "The odds weren't just based on one series. They were based on all of baseball history. Zero comebacks in 25 attempts is a dataset. It's small, but it's unanimous. When 25 out of 25 teams in the same situation have failed, the market has a very specific thing to say about the 26th: good luck."
+    },
+    {
+      "type": "text",
+      "content": "But historical precedent has a flaw: every record exists until someone breaks it. The fact that something has never happened is not the same as the fact that it can't happen. It just means nobody has done it yet. The odds reflected history. History was about to update."
+    },
+    {
+      "type": "heading",
+      "content": "why it matters to bettors"
+    },
+    {
+      "type": "text",
+      "content": "The 2004 Red Sox are the best argument against the phrase 'it's never happened before, so it can't happen now.' In prediction markets, you see this logic constantly. A contract trades at 2 cents because the event has no historical precedent. But markets price probability, not history — and sometimes the probability is higher than the history suggests."
+    },
+    {
+      "type": "text",
+      "content": "Dave Roberts stealing second base in the ninth inning of Game 4 is the moment that separated 'impossible' from 'just hadn't happened yet.' One stolen base. Then the whole thing unraveled in Boston's favor. Longshots don't need everything to go right from the start. They just need one moment to crack the door open."
+    },
+    {
+      "type": "heading",
+      "content": "the modern equivalent"
+    },
+    {
+      "type": "text",
+      "content": "Every day, prediction markets list contracts where the crowd has decided something can't happen. Most of the time, the crowd is right. But every now and then, there's a Dave Roberts moment — one small break that changes the math entirely. Dollar Bets is here for those moments. A dollar. A longshot. A story nobody saw coming."
+    }
+  ],
+  "compliance": "Historical odds are illustrative and approximate. In-series betting lines from 2004 were not standardized and varied by sportsbook. Past results do not predict future outcomes. Longshots are longshots for a reason.",
+  "publish_date": "2026-04-30",
+  "cluster": "Hall of Filth",
+  "priority": 77
+}

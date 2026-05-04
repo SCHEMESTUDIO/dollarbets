@@ -1,0 +1,112 @@
+{
+  "slug": "prediction-markets-vs-sports-betting",
+  "format": "comparison",
+  "seo": {
+    "title": "Prediction Markets vs Sports Betting — Key Differences | Dollar Bets",
+    "h1": "Prediction Markets vs Sports Betting: What's the Difference?",
+    "meta_description": "What's the difference between prediction markets and sports betting? Structure, regulation, and what it means for your dollar.",
+    "canonical": "/prediction-markets-vs-sports-betting/"
+  },
+  "summary": "Prediction markets and sports betting both let you wager on outcomes, but they work differently. Prediction markets are exchange-based (you trade contracts with other participants), while sportsbooks set the odds and take the other side. Different regulation, different mechanics, same human desire to be right about things.",
+  "hero_bet": {
+    "title": "Same Event: Prediction Market vs Sportsbook",
+    "payout": 8,
+    "quip": "Same chaos. Different spreadsheets.",
+    "tier": "yellow",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's best $1 bets", "url": "/"},
+    {"text": "what is a prediction market?", "url": "/what-is-a-prediction-market/"},
+    {"text": "how longshot odds work", "url": "/how-do-longshot-odds-work/"},
+    {"text": "prediction markets for beginners", "url": "/prediction-markets-for-beginners/"},
+    {"text": "about Dollar Bets", "url": "/about/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "If you've ever looked at a prediction market price and thought 'this feels like sports betting,' you're not wrong — but you're not right either. Both involve putting money on outcomes. Both involve odds. Both involve losing money more often than you'd like. But the underlying structure is fundamentally different, and the differences matter if you're deciding where your dollar goes."
+    },
+    {
+      "type": "heading",
+      "content": "the basic structural difference"
+    },
+    {
+      "type": "text",
+      "content": "A sportsbook is a house. You bet against the house. The house sets the odds, manages its own risk, and takes a cut (the vig or juice). If everyone bets on one side, the house adjusts the line to balance its book. A prediction market is an exchange. You trade contracts with other participants. The platform matches buyers and sellers and charges a small fee. The price of a contract reflects collective opinion — not the opinion of a bookmaker. This is the difference between buying a stock on the NYSE and placing a bet at a casino."
+    },
+    {
+      "type": "heading",
+      "content": "regulation"
+    },
+    {
+      "type": "text",
+      "content": "Sportsbooks in the US are regulated state by state, licensed under gambling frameworks. Prediction markets like Kalshi are regulated by the CFTC (Commodity Futures Trading Commission) as designated contract markets — the same regulatory category as futures exchanges. This isn't just a technicality. It means different compliance requirements, different consumer protections, and different rules about what events can be wagered on. Sports betting is gambling regulation. Prediction markets are financial regulation. Same bet, different government agency watching."
+    },
+    {
+      "type": "heading",
+      "content": "what you can bet on"
+    },
+    {
+      "type": "text",
+      "content": "Sportsbooks cover sports. That's their lane — games, matches, tournaments, player props, live in-game markets. Prediction markets cover everything with a verifiable yes-or-no outcome: elections, economic data releases, weather events, tech milestones, crypto prices, Fed rate decisions, celebrity events. There's overlap on sports, but prediction markets go much wider. If you want to bet $1 on whether the unemployment rate exceeds a threshold, a sportsbook can't help you."
+    },
+    {
+      "type": "heading",
+      "content": "how odds are expressed"
+    },
+    {
+      "type": "text",
+      "content": "Sportsbooks use American odds (+150, -200), decimal odds, or fractional odds. These formats tell you the return per dollar wagered. Prediction markets express everything as a contract price between $0 and $1. A contract at $0.30 means the market thinks there's roughly a 30% chance the event happens, and if you buy it and it does happen, you collect $1. If it doesn't, you get nothing. Dollar Bets translates everything into the $1 framing: what does a dollar buy, and what does it return? That works across both systems."
+    },
+    {
+      "type": "heading",
+      "content": "the vig question"
+    },
+    {
+      "type": "text",
+      "content": "Sportsbooks build their margin into the odds. If both sides of a coin flip should be +100, a sportsbook might price them both at -110, guaranteeing themselves a profit regardless of the outcome. Prediction markets charge transaction fees instead — typically a few cents per contract. In theory, prediction market pricing is 'cleaner' because the vig isn't baked into the odds. In practice, thin markets can have wide bid-ask spreads that function like a hidden cost. Neither system is free."
+    },
+    {
+      "type": "heading",
+      "content": "liquidity and availability"
+    },
+    {
+      "type": "text",
+      "content": "Major sportsbooks have deep liquidity on popular sports. You can bet thousands on an NFL game and the line barely moves. Prediction markets are thinner — some events might have limited activity, which means your order might not fill at the price you want, or might move the market when it does. The upside of thinner markets is that mispriced contracts are more common. The downside is that getting in and out at the right price requires patience."
+    },
+    {
+      "type": "heading",
+      "content": "which is better for $1 bets"
+    },
+    {
+      "type": "text",
+      "content": "For pure sports bets, sportsbooks usually offer better liquidity and tighter lines. For non-sports events — politics, economics, weather, crypto — prediction markets are the only game in town. For the kind of weird, entertaining, long-odds bets Dollar Bets features, prediction markets win on variety alone. A sportsbook won't let you bet a dollar on whether the Fed raises rates. Kalshi will."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you use both prediction markets and sportsbooks?",
+      "a": "Yes. Many people use sportsbooks for sports and prediction markets for non-sports events. They're complementary, not competing — though they overlap on some markets."
+    },
+    {
+      "q": "Are prediction markets safer than sportsbooks?",
+      "a": "Neither is 'safe' — both involve risk of loss. Prediction markets are regulated by the CFTC, sportsbooks by state gaming commissions. Different regulatory frameworks, both legitimate."
+    },
+    {
+      "q": "Why do some prediction market prices seem off compared to sportsbook lines?",
+      "a": "Prediction markets may have less liquidity, meaning fewer participants setting the price. This can create temporary mispricings. It can also create opportunity, if you're paying attention."
+    },
+    {
+      "q": "Does Dollar Bets cover both prediction markets and sports betting?",
+      "a": "Dollar Bets primarily features prediction market contracts from platforms like Kalshi. We frame everything through the $1 payout lens, regardless of the source market."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial discovery site. This page is for informational and comparison purposes only — it does not constitute financial or legal advice. Regulation of prediction markets and sports betting varies by jurisdiction. Availability varies by state. Both prediction market contracts and sports bets involve risk of loss. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-05-04",
+  "last_updated": "2026-05-04",
+  "cluster": "Prediction Markets",
+  "priority": 71
+}

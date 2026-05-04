@@ -1,0 +1,113 @@
+{
+  "slug": "hall-of-filth",
+  "format": "ranked_list",
+  "seo": {
+    "title": "Hall of Filth — Famous Longshot Wins | Dollar Bets",
+    "h1": "Hall of Filth: The Greatest Longshot Wins Ever",
+    "meta_description": "The Hall of Filth: the greatest longshot wins in history. Each one reframed as what $1 would have returned.",
+    "canonical": "/hall-of-filth/"
+  },
+  "summary": "The Hall of Filth is Dollar Bets' shrine to the most improbable wins in betting history. Leicester City at 5000-to-1. Buster Douglas at 42-to-1. The moments where a single dollar would have returned something generational. All payouts are illustrative.",
+  "hero_bet": {
+    "title": "Leicester City wins the Premier League (2016)",
+    "payout": 5000,
+    "quip": "They said it couldn't happen. It did. We built a shrine.",
+    "tier": "purple",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "about Dollar Bets", "url": "/about/"},
+    {"text": "biggest payouts this week", "url": "/biggest-payouts-this-week/"},
+    {"text": "longshot bets today", "url": "/prediction-market-longshots/"},
+    {"text": "Leicester City story", "url": "/hall-of-filth-leicester-city/"},
+    {"text": "Buster Douglas story", "url": "/hall-of-filth-buster-douglas/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "The Hall of Filth exists because some results are too improbable to file away normally. These are the longshot wins that broke sportsbooks, stunned prediction markets, and made anyone holding the right ticket feel like a time traveler. We reframe each one as a $1 payout — because nothing captures the absurdity like seeing what a single buck would have returned."
+    },
+    {
+      "type": "heading",
+      "content": "the criteria"
+    },
+    {
+      "type": "text",
+      "content": "Not every upset makes the Hall. The win has to have been priced as genuinely unlikely — we're talking triple-digit odds minimum, or a prediction market contract trading in the single digits. It has to have actually happened (we don't induct hypotheticals). And it has to be the kind of story where you tell someone the odds and they assume you're lying."
+    },
+    {
+      "type": "heading",
+      "content": "leicester city — 5000-to-1"
+    },
+    {
+      "type": "text",
+      "content": "The 2015-16 Premier League season. A club that nearly got relegated the year before won the entire league at widely reported 5000-to-1 odds. A dollar on Leicester would have returned an illustrative $5,000. It's the single most cited longshot result in modern sports betting, and it'll probably never be topped. Every underdog story since has been measured against it."
+    },
+    {
+      "type": "heading",
+      "content": "buster douglas knocks out tyson — 42-to-1"
+    },
+    {
+      "type": "text",
+      "content": "February 1990. Mike Tyson was the most terrifying human on the planet. Buster Douglas was a grieving underdog who'd lost his mother weeks before the fight. The odds were approximately 42-to-1. Douglas knocked Tyson out in the tenth round. A dollar on Douglas returns an illustrative $42 — modest by Hall of Filth standards, but the cultural shock was generational."
+    },
+    {
+      "type": "heading",
+      "content": "the miracle on ice — odds unpriced"
+    },
+    {
+      "type": "text",
+      "content": "The 1980 US Olympic hockey team beat the Soviet Union, a squad that had dominated international hockey for decades. Formal betting odds from this era are hard to verify precisely, but the Soviets were overwhelming favorites by any measure. The game wasn't supposed to be competitive. It became the most famous upset in Olympic history."
+    },
+    {
+      "type": "heading",
+      "content": "trump 2016 — prediction markets at ~15-20%"
+    },
+    {
+      "type": "text",
+      "content": "Most prediction markets priced a Trump victory in the 15-20% range by election night 2016. That translates to a $1 return in the $5-7 range — not a massive payout by longshot standards, but the result shattered consensus in polling, media, and financial markets simultaneously. It also put prediction markets on the map as a mainstream tool."
+    },
+    {
+      "type": "heading",
+      "content": "the 2004 red sox — down 0-3, won the series"
+    },
+    {
+      "type": "text",
+      "content": "No MLB team had ever come back from 0-3 in a playoff series. The 2004 Red Sox did it against the Yankees in the ALCS, then swept the World Series. In-series odds after falling 0-3 are difficult to price precisely, but estimates suggest a $1 bet at that moment would have returned somewhere in the high double digits. An illustrative collapse of probability in real time."
+    },
+    {
+      "type": "heading",
+      "content": "why we track these"
+    },
+    {
+      "type": "text",
+      "content": "The Hall of Filth isn't about encouraging longshot bets. Most longshots lose. That's math, not opinion. But once or twice a generation, something happens that the market said was nearly impossible — and the people who had a dollar on it got a story worth more than the payout. These pages exist to document those moments, reframe them through the $1 lens, and remind everyone that probability is a spectrum, not a wall."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are the payouts in the Hall of Filth real?",
+      "a": "The payouts are illustrative — calculated from widely reported odds at the time. Exact returns would depend on which book you used, when you placed the bet, and market movement. We note wherever odds are approximate or unverified."
+    },
+    {
+      "q": "How do you decide what makes the Hall of Filth?",
+      "a": "The result has to have been priced as a significant longshot, it has to have actually happened, and it has to be the kind of upset that changed how people think about probability. We're not inducting every underdog win — just the ones that broke the model."
+    },
+    {
+      "q": "Will you add new entries?",
+      "a": "Yes. When something happens that belongs here, we'll add it. The threshold is high — most upsets are just upsets. Hall of Filth entries are the ones where the odds were so extreme that the story survives the result."
+    },
+    {
+      "q": "Should I bet on longshots because of these stories?",
+      "a": "No. These stories are survivorship bias in its purest form. For every Leicester City, there are thousands of 5000-to-1 bets that lost quietly. The Hall of Filth is entertainment, not a strategy."
+    }
+  ],
+  "compliance": "All payouts listed are illustrative and based on widely reported historical odds. Dollar Bets does not guarantee the accuracy of historical pricing. This content is for entertainment and educational purposes — not betting advice. Past results do not indicate future outcomes.",
+  "publish_date": "2026-04-30",
+  "last_updated": "2026-04-30",
+  "cluster": "Hall of Filth",
+  "priority": 85
+}

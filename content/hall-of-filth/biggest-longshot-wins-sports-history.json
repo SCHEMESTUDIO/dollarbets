@@ -1,0 +1,110 @@
+{
+  "slug": "biggest-longshot-wins-sports-history",
+  "format": "historical_story",
+  "parent_category": "hall-of-filth",
+  "seo": {
+    "title": "Biggest Longshot Wins in Sports History | Dollar Bets",
+    "h1": "Biggest Longshot Wins in Sports History",
+    "meta_description": "The biggest longshot wins in sports history. What $1 would have returned on the most improbable victories ever.",
+    "canonical": "/biggest-longshot-wins-sports-history/"
+  },
+  "summary": "A rundown of the most improbable victories in sports history, reframed through the $1 lens. From Leicester City's 5000-to-1 title to Buster Douglas dropping Tyson at 42-to-1 — what a single buck would have returned on the wins nobody saw coming.",
+  "hero_bet": {
+    "title": "Leicester City wins the Premier League (2016)",
+    "payout": 5000,
+    "quip": "History is written by the underdogs. Sometimes.",
+    "tier": "purple",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "about Dollar Bets", "url": "/about/"},
+    {"text": "Hall of Filth", "url": "/hall-of-filth/"},
+    {"text": "prediction market longshots", "url": "/prediction-market-longshots/"},
+    {"text": "Leicester City story", "url": "/hall-of-filth-leicester-city/"},
+    {"text": "Buster Douglas story", "url": "/hall-of-filth-buster-douglas/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Sports exist because the outcome isn't guaranteed. But some outcomes are so unlikely that the market practically dares you to bet on them. These are the wins that broke the model — the results so improbable that bookmakers either lost fortunes or quietly pretended the lines were always closer than they were. We've reframed each one as a $1 payout, because nothing makes an upset feel more real than seeing what a single dollar would have done."
+    },
+    {
+      "type": "heading",
+      "content": "leicester city — 5000-to-1 (2015-16)"
+    },
+    {
+      "type": "text",
+      "content": "The benchmark. Leicester City were given odds of approximately 5000-to-1 to win the 2015-16 Premier League, a number typically reserved for alien contact and Elvis sightings. They'd nearly been relegated the season before. They had no business being in the conversation, let alone winning the whole thing. A $1 bet would have returned an illustrative $5,000. Multiple bookmakers reported significant payouts. It remains the most improbable title win in the history of major professional sports leagues."
+    },
+    {
+      "type": "heading",
+      "content": "buster douglas knocks out tyson — 42-to-1 (1990)"
+    },
+    {
+      "type": "text",
+      "content": "Mike Tyson was 37-0. He was the undisputed heavyweight champion. Buster Douglas was a heavy underdog at approximately 42-to-1 — a number so large that many Las Vegas sportsbooks didn't even bother posting the fight because nobody was going to bet the other side. Douglas knocked Tyson out in the tenth round. A $1 bet returns an illustrative $42. The payout was modest by longshot standards, but the shock was seismic."
+    },
+    {
+      "type": "heading",
+      "content": "the 1980 miracle on ice"
+    },
+    {
+      "type": "text",
+      "content": "The Soviet hockey team had won four consecutive Olympic gold medals. The American team was a group of college kids. Precise betting odds from 1980 are hard to verify — structured sports betting looked very different then — but the Soviets were enormous favorites by every available measure. The US won 4-3. It became the most famous result in Olympic history, and it happened before most of the audience was old enough to have placed a bet on it."
+    },
+    {
+      "type": "heading",
+      "content": "greece wins euro 2004 — 150-to-1"
+    },
+    {
+      "type": "text",
+      "content": "Greece entered Euro 2004 as a side nobody took seriously, with widely reported pre-tournament odds around 150-to-1. They beat the host nation Portugal in both the opening match and the final, playing a defensive style so disciplined it bordered on performance art. A $1 bet would have returned an illustrative $150. The result was so unlikely that it fundamentally changed how football analysts think about tournament formats and small-sample variance."
+    },
+    {
+      "type": "heading",
+      "content": "the 2004 red sox — back from 0-3"
+    },
+    {
+      "type": "text",
+      "content": "No MLB team had ever come back from 0-3 in a playoff series. In 135 years of professional baseball, it had literally never happened. The 2004 Red Sox did it against the Yankees in the ALCS, then swept the Cardinals to win the World Series. In-series odds after going down 0-3 are hard to price precisely, but the market considered it essentially over. The comeback didn't just break a record — it erased an 86-year championship drought."
+    },
+    {
+      "type": "heading",
+      "content": "appalachian state beats michigan — 2007"
+    },
+    {
+      "type": "text",
+      "content": "A Division I-AA team beating the number 5 ranked team in the country, on the road, in the Big House. Appalachian State's win over Michigan in 2007 is widely considered the biggest upset in college football history. Most sportsbooks didn't offer a line because FCS-vs-FBS matchups were considered non-competitive. The result was so shocking that it changed how sportsbooks approach these games entirely."
+    },
+    {
+      "type": "heading",
+      "content": "what these wins have in common"
+    },
+    {
+      "type": "text",
+      "content": "Every one of these results was priced as absurdly unlikely by the market — and the market was right to price them that way. These things almost never happen. That's the whole point. For every Leicester City, there are thousands of 5000-to-1 shots that lost quietly. These stories survive because they're the exceptions, and survivorship bias makes them feel more common than they are. They're worth remembering, but they're not a strategy."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are these payout numbers exact?",
+      "a": "The payouts are illustrative, calculated from widely reported odds at the time. Exact returns would vary by bookmaker, bet timing, and odds movement. We note wherever figures are approximate."
+    },
+    {
+      "q": "What's the biggest sports longshot ever?",
+      "a": "By widely reported pre-event odds, Leicester City at 5000-to-1 is the most extreme confirmed longshot win in major professional sports. Some historical events may have had longer odds, but verifiable pricing from earlier eras is limited."
+    },
+    {
+      "q": "Do longshots hit often enough to be profitable?",
+      "a": "No. By definition, longshots lose far more often than they win. These stories are survivorship bias in its purest form — memorable because they're rare, not because they're repeatable."
+    }
+  ],
+  "compliance": "All payouts listed are illustrative and based on widely reported historical odds. Dollar Bets does not guarantee the accuracy of historical pricing. This content is for entertainment and educational purposes — not betting advice. Past results do not predict future outcomes.",
+  "publish_date": "2026-05-01",
+  "last_updated": "2026-05-01",
+  "cluster": "Longshot Sports",
+  "priority": 76
+}

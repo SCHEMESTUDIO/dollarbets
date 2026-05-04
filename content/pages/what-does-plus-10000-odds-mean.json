@@ -1,0 +1,95 @@
+{
+  "slug": "what-does-plus-10000-odds-mean",
+  "format": "glossary",
+  "seo": {
+    "title": "What Does +10000 Odds Mean? $1 Returns $100 | Dollar Bets",
+    "h1": "What Does +10000 Odds Mean?",
+    "meta_description": "What +10000 odds actually means: for every $1 you bet, you'd get $100 back. Here's why that number exists.",
+    "canonical": "/what-does-plus-10000-odds-mean/"
+  },
+  "summary": "+10000 odds mean a $1 bet would return $101 total ($100 profit plus your original $1). In implied probability terms, the market thinks this outcome has roughly a 1% chance of happening. The plus sign means you're looking at an underdog. The size of the number tells you how much of an underdog.",
+  "hero_bet": {
+    "title": "+10000 Odds Illustrated",
+    "payout": 100,
+    "quip": "It means unlikely. Very, very unlikely. But $100 for a dollar.",
+    "tier": "purple",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's best $1 bets", "url": "/"},
+    {"text": "how longshot odds work", "url": "/how-do-longshot-odds-work/"},
+    {"text": "betting odds explained", "url": "/betting-odds-explained/"},
+    {"text": "about Dollar Bets", "url": "/about/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "+10000 is American odds format. It means: for every $100 you risk, you'd win $10,000. Scale that down to a dollar and it's cleaner — $1 returns $100 in profit if the bet hits, plus you get your original dollar back. Total return: $101. The reason this number looks so large is that the market believes this outcome is extremely unlikely."
+    },
+    {
+      "type": "heading",
+      "content": "how the math works"
+    },
+    {
+      "type": "text",
+      "content": "American odds use +100 as the baseline. Positive odds tell you how much you'd profit on a $100 wager. So +10000 means $10,000 profit per $100 wagered. Divide by 100 and you get the per-dollar return: $100 profit. The formula is simple: take the number after the plus sign, divide by 100, and that's your profit per dollar. +500 means $5 profit per dollar. +2000 means $20. +10000 means $100."
+    },
+    {
+      "type": "heading",
+      "content": "what it means in probability terms"
+    },
+    {
+      "type": "text",
+      "content": "Every odds number implies a probability. The formula for positive American odds is: implied probability = 100 / (odds + 100). For +10000, that's 100 / 10100 = 0.99%, or roughly 1 in 101. The market is saying this outcome has less than a 1% chance of happening. That's not impossible — it's just very, very unlikely. For context, rolling a specific number on a 100-sided die is about the same probability."
+    },
+    {
+      "type": "heading",
+      "content": "the plus sign vs the minus sign"
+    },
+    {
+      "type": "text",
+      "content": "The plus sign (+) means underdog — the payout is larger than your stake because the outcome is considered unlikely. The minus sign (-) means favorite — you need to risk more than you'd win because the outcome is considered likely. -200 means you risk $200 to win $100. +200 means you risk $100 to win $200. +10000 is deep, deep underdog territory. If you see a minus sign followed by 10000, run — that means risking $10,000 to win $100, and something has gone terribly wrong with your decision-making."
+    },
+    {
+      "type": "heading",
+      "content": "where you'll see +10000 odds"
+    },
+    {
+      "type": "text",
+      "content": "Longshot championship futures (a bottom-tier team winning the title), obscure prop bets, novelty markets. In prediction market terms, a +10000 equivalent is a contract trading at about $0.01 — one penny buys you a contract that pays $1 if the event happens. Dollar Bets features these markets regularly because they're where the $1 framing gets most entertaining. A dollar spent on a +10000 outcome is a dollar that probably disappears. But if it doesn't disappear, it brings friends."
+    },
+    {
+      "type": "heading",
+      "content": "converting to other formats"
+    },
+    {
+      "type": "text",
+      "content": "If someone gives you +10000 American odds and you need to convert: decimal odds would be 101.00 (profit per dollar + 1). Fractional odds would be 100/1. Prediction market price would be approximately $0.01. They all describe the same thing — an outcome the market assigns about a 1% probability. Different formats, same level of skepticism."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is +10000 the highest odds you can get?",
+      "a": "No. You can find +50000 or higher on some platforms, though liquidity at those levels is usually very thin. The higher the number, the more unlikely the outcome and the larger the potential return."
+    },
+    {
+      "q": "If +10000 means 1% probability, does that mean it hits 1 in 100 times?",
+      "a": "On average, over many similar bets, yes — roughly 1 in 100 would be expected to win. But any individual bet is binary: it either happens or it doesn't. The 1% is the market's estimate, not a guarantee of frequency."
+    },
+    {
+      "q": "How does +10000 compare to lottery odds?",
+      "a": "A +10000 bet (roughly 1 in 100) is dramatically better than lottery odds. A Powerball jackpot is roughly 1 in 292 million. +10000 is a longshot by betting standards but a sure thing compared to the lottery."
+    },
+    {
+      "q": "Can I bet $1 at +10000 odds?",
+      "a": "On most sportsbooks and prediction markets, yes. The minimum bet is typically $1 or less. On Kalshi, you can buy contracts for pennies, making $1 bets on extreme longshots straightforward."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial discovery site. Odds and probabilities discussed on this page are for educational purposes. Actual odds vary by platform, market, and timing. All betting involves risk of loss — most longshot bets lose. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-05-04",
+  "last_updated": "2026-05-04",
+  "cluster": "Betting Explainers",
+  "priority": 71
+}

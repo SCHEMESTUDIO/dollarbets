@@ -1,0 +1,101 @@
+{
+  "slug": "hall-of-filth-trump-2016",
+  "format": "historical_story",
+  "seo": {
+    "title": "Trump 2016 at 150-to-1 — The Hall of Filth | Dollar Bets",
+    "h1": "Trump 2016: When the Prediction Markets Got It Wrong",
+    "meta_description": "Trump's 2016 odds started at roughly 150-to-1. What $1 would have returned — and what it taught prediction markets about certainty.",
+    "canonical": "/hall-of-filth/trump-2016/"
+  },
+  "hero_bet": {
+    "title": "Donald Trump to win the 2016 presidential election (early odds)",
+    "payout": 150,
+    "quip": "The escalator ride that broke every model.",
+    "tier": "orange",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+    "category": "politics",
+    "note": "Illustrative — based on early prediction market and bookmaker odds circa June 2015"
+  },
+  "internal_links": [
+    {"text": "today's best $1 bets", "url": "/"},
+    {"text": "more Hall of Filth stories", "url": "/hall-of-filth/"},
+    {"text": "prediction market longshots", "url": "/prediction-markets/prediction-market-longshots/"},
+    {"text": "what is a prediction market", "url": "/what-is-a-prediction-market/"},
+    {"text": "how do longshot odds work", "url": "/how-do-longshot-odds-work/"}
+  ],
+  "current_equivalent": {
+    "category": "Political Markets",
+    "text": "See today's political prediction markets",
+    "url": "/"
+  },
+  "body": [
+    {
+      "type": "text",
+      "content": "In June 2015, when Donald Trump descended the escalator at Trump Tower and announced his presidential campaign, the prediction markets and bookmakers treated it as a publicity stunt. Early odds from various sources placed him somewhere in the range of 100-to-1 to 200-to-1 to win the presidency. The consensus among political analysts, pollsters, and betting markets was nearly unanimous: this was not a serious candidacy."
+    },
+    {
+      "type": "text",
+      "content": "Sixteen months later, he won."
+    },
+    {
+      "type": "heading",
+      "content": "what $1 would have returned"
+    },
+    {
+      "type": "text",
+      "content": "$1 at the earliest available odds — roughly 150-to-1 on some offshore books and prediction market platforms — would have returned approximately $150. That's deep into Filthy territory. The kind of number that makes you scroll back through your bet history wondering if you hallucinated placing it."
+    },
+    {
+      "type": "text",
+      "content": "Note: the $150 figure is illustrative and approximate, based on early prediction market prices and international bookmaker odds from mid-2015. Exact odds varied widely by platform and date. By the time the general election was underway, odds had shortened considerably — prediction markets had him at roughly 15-25% on election night."
+    },
+    {
+      "type": "heading",
+      "content": "how the markets moved"
+    },
+    {
+      "type": "text",
+      "content": "This is the part that matters for prediction market bettors. The odds didn't stay at 150-to-1. They moved. As Trump won primaries, the price crept up. After he secured the Republican nomination, prediction markets had him at roughly 20-30% to win the general election. On election night itself, some platforms still had Clinton at around 80-85%."
+    },
+    {
+      "type": "text",
+      "content": "Every step of the way, the markets adjusted — but not fast enough. People who bought contracts early could have sold at a profit long before election night. That's the prediction market advantage over traditional betting: you don't have to be right about the final outcome. You just have to be early about the direction."
+    },
+    {
+      "type": "heading",
+      "content": "what it taught prediction markets"
+    },
+    {
+      "type": "text",
+      "content": "The 2016 election became the most studied case in prediction market history. The lesson wasn't that markets are bad at forecasting — they still outperform individual pundits most of the time. The lesson was about tails. When prediction markets price something at 15%, they're saying it happens roughly 1 in 7 times. That's not rare. That's roughly the odds of rolling a specific number on a die."
+    },
+    {
+      "type": "text",
+      "content": "The public interpreted '85% Clinton' as 'Clinton wins.' The markets were actually saying 'Clinton is more likely, but Trump wins in a very realistic minority of scenarios.' The market was arguably not that wrong. The public just didn't know how to read it."
+    },
+    {
+      "type": "heading",
+      "content": "why it matters to bettors"
+    },
+    {
+      "type": "text",
+      "content": "Trump 2016 is the clearest modern example of a longshot hiding in plain sight. The information was available. The polls had tightened. Some models gave him a real chance. But the narrative — 'he can't win' — was so strong that the price stayed low longer than it should have."
+    },
+    {
+      "type": "text",
+      "content": "On today's prediction markets, political contracts are among the most actively traded. The 2016 experience made markets sharper, but it didn't eliminate the fundamental dynamic: when the crowd locks into a narrative, the price reflects the narrative, not the probability. That gap is where longshot value lives."
+    },
+    {
+      "type": "heading",
+      "content": "the modern equivalent"
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets doesn't do partisan picks. We're not here to tell you who to vote for or which candidate is going to win. We're here to show you what the markets are pricing and what $1 returns if the crowd turns out to be wrong. Political markets are some of the most liquid and most interesting on prediction platforms — and the history of 2016 is a permanent reminder that the crowd's favorite doesn't always cross the finish line first."
+    }
+  ],
+  "compliance": "Historical odds are illustrative and approximate, based on widely reported early prediction market and bookmaker odds. Exact returns would have varied significantly by platform, timing, and jurisdiction. Dollar Bets does not endorse any political candidate or party. Prediction market prices reflect market sentiment, not guaranteed probabilities. Past results do not predict future outcomes.",
+  "publish_date": "2026-04-30",
+  "cluster": "Hall of Filth",
+  "priority": 80
+}

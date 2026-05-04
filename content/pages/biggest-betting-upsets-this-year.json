@@ -1,0 +1,96 @@
+{
+  "slug": "biggest-betting-upsets-this-year",
+  "format": "ranked_list",
+  "seo": {
+    "title": "Biggest Betting Upsets This Year — 2026's Wildest Results | Dollar Bets",
+    "h1": "Biggest Betting Upsets This Year",
+    "meta_description": "The biggest betting upsets of 2026 so far. What $1 would have returned on each one. Updated as chaos happens.",
+    "canonical": "/biggest-betting-upsets-this-year/"
+  },
+  "summary": "The most shocking betting results of 2026 so far, measured by what a $1 wager would have returned. From sports underdogs to prediction market surprises, these are the outcomes that made the odds look foolish.",
+  "hero_bet": {
+    "title": "Next Major Upset to Happen in 2026",
+    "payout": 75,
+    "quip": "The bettors who had this are still screaming.",
+    "tier": "purple",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+    "note": "Illustrative — represents the type of extreme payout from a major upset"
+  },
+  "internal_links": [
+    {"text": "today's best $1 bets", "url": "/"},
+    {"text": "Hall of Filth", "url": "/hall-of-filth/"},
+    {"text": "biggest payouts this week", "url": "/biggest-payouts-this-week/"},
+    {"text": "about Dollar Bets", "url": "/about/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Every year produces a handful of results so improbable that the betting market essentially said 'no chance' — and then reality walked in anyway. This page tracks the biggest upsets of 2026, ranked by what $1 placed at the pre-event odds would have returned. We update it as new chaos happens."
+    },
+    {
+      "type": "heading",
+      "content": "how we define an upset"
+    },
+    {
+      "type": "text",
+      "content": "An upset, for our purposes, is any outcome where the implied probability was below 10% — meaning the market thought there was less than a one-in-ten shot of it happening. The lower the pre-event probability, the bigger the payout, and the more dramatic the upset. We pull from both sports betting markets and prediction market platforms like Kalshi."
+    },
+    {
+      "type": "heading",
+      "content": "why upsets matter more than you think"
+    },
+    {
+      "type": "text",
+      "content": "Upsets aren't just fun stories. They're evidence that markets — which are supposed to be efficient — get things wrong regularly. The crowd is usually right about the direction but routinely misprices the magnitude. A team given a 3% chance still wins roughly 3 times out of 100. Over a full year, across thousands of markets, a few of those 3% shots will connect. The question is which ones."
+    },
+    {
+      "type": "heading",
+      "content": "what $1 returns tell you about surprise"
+    },
+    {
+      "type": "text",
+      "content": "We frame every upset through the $1 lens because it makes the improbability concrete. When someone says a team was a 'massive underdog,' that's vague. When you say '$1 would have paid $45,' that's specific. You can feel the gap between what the market expected and what actually happened. The bigger the number, the harder the market flinched."
+    },
+    {
+      "type": "heading",
+      "content": "the pattern with annual upsets"
+    },
+    {
+      "type": "text",
+      "content": "If you look at previous years' biggest upsets, a few patterns emerge. Sports upsets tend to cluster in the early rounds of tournaments, where top seeds face unknown opponents and the line is set by reputation more than form. Prediction market upsets tend to involve political events that shift faster than the market can reprice — resignations, surprise policy moves, weather events that beat the model."
+    },
+    {
+      "type": "heading",
+      "content": "how to follow along"
+    },
+    {
+      "type": "text",
+      "content": "Check the Dollar Bets homepage for today's live markets, including current longshots that might end up on this list by December. We color-code every payout from green (respectable) to purple (generational), so the potential scale of any upset is visible at a glance. If something lands on this page, it started as purple."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How often do major betting upsets happen?",
+      "a": "Across all sports and prediction markets, outcomes with less than 10% implied probability hit a few dozen times per year. Truly extreme upsets — 1% or less — happen a handful of times annually."
+    },
+    {
+      "q": "Can you actually bet $1 on these outcomes?",
+      "a": "On prediction market platforms like Kalshi, you can buy contracts for pennies. A $1 position on a long-odds outcome is a real bet you can make."
+    },
+    {
+      "q": "Are the $1 payouts on this page real or hypothetical?",
+      "a": "They're illustrative — based on pre-event market prices. Actual returns depend on when you bought and at what price. We note where numbers are approximate."
+    },
+    {
+      "q": "What was the biggest single upset in betting history?",
+      "a": "Leicester City winning the Premier League at 5000-to-1 in 2016 is widely considered the biggest upset in mainstream betting. Check the Hall of Filth for more."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial discovery site. Payout figures are illustrative based on market prices at the time of the event and may not reflect exact returns. Past upsets do not predict future outcomes. Prediction market contracts involve risk of loss. Some links may be affiliate links — see our affiliate disclosure. Responsible gambling: most longshots lose.",
+  "publish_date": "2026-05-04",
+  "last_updated": "2026-05-04",
+  "cluster": "Biggest Payouts",
+  "priority": 72
+}
