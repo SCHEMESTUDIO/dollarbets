@@ -157,15 +157,26 @@ jobs:
           fi
 
       - name: Commit and push
+        id: commit
         run: |
           git config user.name "Dollar Bets Bot"
           git config user.email "bot@dollarbets.lol"
           git add data/boards/
           if git diff --staged --quiet; then
             echo "No new data to commit"
+            echo "changed=false" >> $GITHUB_OUTPUT
           else
             TODAY=$(date -u +%Y-%m-%d)
             HOUR=$(date -u +%H)
             git commit -m "board update: ${TODAY} ${HOUR}:00 UTC"
             git push
+            echo "changed=true" >> $GITHUB_OUTPUT
           fi
+
+      - name: Trigger Vercel deploy
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          echo "Triggering Vercel deploy..."
+          curl -sS -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}" -o /dev/null 2>&1 \
+            || echo "WARNING: Vercel deploy hook failed"
+          echo "Deploy triggered."
