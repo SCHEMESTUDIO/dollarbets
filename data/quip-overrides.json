@@ -358,5 +358,77 @@
     "tier": "green",
     "original_quip": "Who doesn't want to see Spurs go down?",
     "editor_quip": "are Spurs entering their Brat era"
+  },
+  {
+    "date": "2026-05-05",
+    "title": "ChatGPT gets more expensive",
+    "category": "Science and Technology",
+    "payout": 2.63,
+    "tier": "green",
+    "original_quip": "enshittification speedrun, any%",
+    "editor_quip": "back when i was a kid google searches were free"
+  },
+  {
+    "date": "2026-05-05",
+    "title": "Crystal Palace takes first half vs Everton",
+    "category": "Sports",
+    "payout": 2.78,
+    "tier": "green",
+    "original_quip": "short Everton, hold forever",
+    "editor_quip": "seen this one before"
+  },
+  {
+    "date": "2026-05-05",
+    "title": "PSG wins the 2025\u201326 Champions League",
+    "category": "Other",
+    "payout": 3.17,
+    "tier": "yellow",
+    "original_quip": "money ball, but make it Qatari",
+    "editor_quip": "money ball, but make the ball also money "
+  },
+  {
+    "date": "2026-05-05",
+    "title": "Trump lands Top 5 on Google Year in Search 2026",
+    "category": "Entertainment",
+    "payout": 3.45,
+    "tier": "yellow",
+    "original_quip": "the algorithm has no chill either",
+    "editor_quip": "the algorithm is us and we are it "
+  },
+  {
+    "date": "2026-05-05",
+    "title": "Detroit Pistons reach the Eastern Conference Finals",
+    "category": "Sports",
+    "payout": 3.9,
+    "tier": "yellow",
+    "original_quip": "assembling, apparently",
+    "editor_quip": "the most famous \"Cade\" in league history is looking to make his mark"
+  },
+  {
+    "date": "2026-05-05",
+    "title": "ChatGPT first to hit 1550 on Text Arena",
+    "category": "Science and Technology",
+    "payout": 11.11,
+    "tier": "orange",
+    "original_quip": "there can only be one, unless there can't",
+    "editor_quip": "like the S&P 500 hitting ATH every year but ends in human enslavement"
+  },
+  {
+    "date": "2026-05-05",
+    "title": "Trump and Denmark sign a Greenland deal by June 30",
+    "category": "World",
+    "payout": 11.76,
+    "tier": "orange",
+    "original_quip": "one does not simply buy Greenland",
+    "editor_quip": "how long until Trump proposes renaming it to \"Trump Island\""
+  },
+  {
+    "date": "2026-05-05",
+    "title": "Russia enters Zaporizhia by June 30",
+    "category": "Other",
+    "payout": 23.26,
+    "tier": "red",
+    "original_quip": "Oppenheimer, but the other part",
+    "editor_quip": "what sounds like a Greek sauce but smacks of imperialism "
   }
 ]
