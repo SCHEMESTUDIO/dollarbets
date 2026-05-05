@@ -40,10 +40,16 @@ def market_link(market_ticker):
 # ── Analytics snippet ───────────────────────────────────────
 
 def analytics_head():
-    """GA4 + outbound click tracking. Replace GA4_ID above."""
-    if GA4_ID == "G-XXXXXXXXXX":
-        return "<!-- GA4: replace G-XXXXXXXXXX in generate.py with your measurement ID -->"
-    return f"""<!-- Google Analytics -->
+    """GA4 + Faurya analytics + outbound click tracking."""
+    snippets = []
+
+    # Faurya analytics
+    snippets.append("""<!-- Faurya Analytics -->
+  <script async defer src="https://www.faurya.com/js/script.js" data-domain="dollarbets.lol" data-website-id="cmosekmvz000xl204a7bhm4cm"></script>""")
+
+    # GA4 (kept alongside Faurya)
+    if GA4_ID != "G-XXXXXXXXXX":
+        snippets.append(f"""<!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={GA4_ID}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -61,7 +67,9 @@ def analytics_head():
         }});
       }}
     }});
-  </script>"""
+  </script>""")
+
+    return "\n".join(snippets)
 
 
 # ── Shared layout ───────────────────────────────────────────
@@ -639,13 +647,17 @@ def nav_html(current=""):
     """Two-line site nav: row 1 = theme boards, row 2 = site links."""
     row1_links = [
         ("/", "today's board"),
-        ("/underdogs/", "underdogs"),
+        ("/the-lineup/", "the lineup"),
         ("/weird-markets/", "black swans"),
         ("/politics-markets/", "gridlock"),
         ("/financial-markets/", "ball street"),
         ("/crypto-markets/", "moonshots"),
     ]
     row2_links = [
+        ("/underdogs/", "underdogs"),
+        ("/the-ocho/", "the ocho"),
+        ("/chalk/", "chalk"),
+        ("/combo-meal/", "combo meal"),
         ("/guides/", "guides"),
         ("/about/", "about"),
     ]
@@ -1112,18 +1124,22 @@ SPORTS_DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data
 
 def load_sports_boards():
     """Load sports board JSON files (sports-YYYY-MM-DD.json), return sorted list."""
+    return load_board_files("sports")
+
+
+def load_board_files(prefix):
+    """Load board JSON files ({prefix}-YYYY-MM-DD.json), return sorted list."""
     boards = []
-    pattern = os.path.join(SPORTS_DATA_DIR, "sports-*.json")
+    pattern = os.path.join(SPORTS_DATA_DIR, f"{prefix}-*.json")
     for filepath in sorted(glob.glob(pattern)):
         try:
             with open(filepath) as f:
                 data = json.load(f)
-            # Extract date from filename like sports-2026-05-02.json
             basename = os.path.basename(filepath).replace(".json", "")
-            date_str = basename.replace("sports-", "")
+            date_str = basename.replace(f"{prefix}-", "")
             boards.append((date_str, data))
         except (json.JSONDecodeError, IOError) as e:
-            print(f"[generate] Skipping sports board {filepath}: {e}")
+            print(f"[generate] Skipping {prefix} board {filepath}: {e}")
     return boards
 
 
@@ -1430,10 +1446,10 @@ def generate_daily_board(boards):
     write_page("index.html", html)
 
 
-def generate_underdogs_board(sports_boards):
-    """Generate the /underdogs/ page — today's sports board."""
+def generate_lineup_board(sports_boards):
+    """Generate the /the-lineup/ page — today's curated sports board (formerly underdogs)."""
     if not sports_boards:
-        print("[generate] No sports boards found, skipping underdogs page")
+        print("[generate] No sports boards found, skipping the lineup page")
         return
 
     latest_date, latest_data = sports_boards[-1]
@@ -1455,7 +1471,7 @@ def generate_underdogs_board(sports_boards):
     date_line = f'    <div class="date-line" style="margin-bottom:14px">{date_str}</div>\n'
 
     # Sports-specific header
-    header = """    <h1 class="page-title">underdogs</h1>
+    header = """    <h1 class="page-title">the lineup</h1>
     <div class="tagline" style="margin-bottom:12px">
       Sports bets for people who believe garbage time is destiny with a shot clock. Every market is translated into what a single dollar could pay — from respectable favorites to franchise miracles.
     </div>
@@ -1495,11 +1511,11 @@ def generate_underdogs_board(sports_boards):
             "url": m.get("url", "#"),
         }, ensure_ascii=False))
 
-    underdogs_schema = f"""<script type="application/ld+json">{{
+    lineup_schema = f"""<script type="application/ld+json">{{
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "Underdogs — Sports Board",
-  "url": "{SITE_URL}/underdogs/",
+  "name": "The Lineup — Sports Board",
+  "url": "{SITE_URL}/the-lineup/",
   "description": "Today's sharpest sports wagers, framed as $1 payouts.",
   "isPartOf": {{
     "@type": "WebSite",
@@ -1510,26 +1526,145 @@ def generate_underdogs_board(sports_boards):
   <script type="application/ld+json">{{
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "Underdogs — {date_str}",
+  "name": "The Lineup — {date_str}",
   "numberOfItems": {len(board)},
   "itemListElement": [{", ".join(market_items)}]
 }}</script>"""
 
     html = page_shell(
-        title="underdogs — today's sports board | dollar bets",
+        title="the lineup — today's sports board | dollar bets",
         description="Today's sharpest sports wagers, framed as $1 payouts. Every tier, every sport, one board.",
         body=body,
-        canonical="/underdogs/",
-        current_nav="/underdogs/",
-        extra_head=odds_css + underdogs_schema,
+        canonical="/the-lineup/",
+        current_nav="/the-lineup/",
+        extra_head=odds_css + lineup_schema,
     )
 
-    # Write to /underdogs/index.html
-    underdogs_dir = os.path.join(OUTPUT_DIR, "underdogs")
-    os.makedirs(underdogs_dir, exist_ok=True)
-    with open(os.path.join(underdogs_dir, "index.html"), "w") as f:
+    # Write to /the-lineup/index.html
+    lineup_dir = os.path.join(OUTPUT_DIR, "the-lineup")
+    os.makedirs(lineup_dir, exist_ok=True)
+    with open(os.path.join(lineup_dir, "index.html"), "w") as f:
         f.write(html)
-    print(f"[generate] Wrote underdogs board: {len(board)} picks")
+    print(f"[generate] Wrote the lineup board: {len(board)} picks")
+
+
+# ── Sports sub-board generator (shared by underdogs, ocho, chalk, combo meal) ──
+
+SPORTS_BOARD_CONFIGS = {
+    "underdogs": {
+        "file_prefix": "underdogs",
+        "url_slug": "underdogs",
+        "page_title": "underdogs",
+        "tagline": "Pure moneyline underdogs. Every pick on this board is a team that isn't supposed to win — but what if they do? $1 bets on davids vs goliaths.",
+        "meta_title": "underdogs — moneyline longshots | dollar bets",
+        "meta_description": "Today's best moneyline underdogs, framed as $1 payouts. Every pick is a team that isn't supposed to win.",
+    },
+    "ocho": {
+        "file_prefix": "ocho",
+        "url_slug": "the-ocho",
+        "page_title": "the ocho",
+        "tagline": "If ESPN won't cover it, we will. Cricket, rugby, Aussie rules, handball, lacrosse — the sports your bookie forgot existed, translated into $1 payouts.",
+        "meta_title": "the ocho — obscure sports odds | dollar bets",
+        "meta_description": "Odds on sports you didn't know had odds. Cricket, rugby league, AFL, handball, and more — framed as $1 payouts.",
+    },
+    "chalk": {
+        "file_prefix": "chalk",
+        "url_slug": "chalk",
+        "page_title": "chalk",
+        "tagline": "Heavy favorites only. The bets that should hit. Tiny payouts, high probability, deadpan energy. Boring money is still money.",
+        "meta_title": "chalk — heavy favorites | dollar bets",
+        "meta_description": "Today's heaviest favorites in sports, framed as $1 payouts. Near-locks for people who like boring money.",
+    },
+    "combo-meal": {
+        "file_prefix": "combo",
+        "url_slug": "combo-meal",
+        "page_title": "the combo meal",
+        "tagline": "Pre-built parlays served hot. Each combo stacks 2-3 legs into a single $1 payout — from the value menu to the triple bypass. Would you like to supersize that?",
+        "meta_title": "the combo meal — pre-built parlays | dollar bets",
+        "meta_description": "Pre-built sports parlays framed as $1 payouts. From safe combos to degenerate stacks.",
+    },
+}
+
+
+def generate_sports_sub_board(board_key):
+    """Generate a sports sub-board page (underdogs, ocho, chalk, combo-meal)."""
+    config = SPORTS_BOARD_CONFIGS[board_key]
+    boards = load_board_files(config["file_prefix"])
+
+    if not boards:
+        print(f"[generate] No {board_key} boards found, skipping")
+        return
+
+    latest_date, latest_data = boards[-1]
+    board = latest_data.get("board", [])
+
+    try:
+        dt = datetime.fromisoformat(latest_date)
+        date_str = dt.strftime("%B %d, %Y")
+    except ValueError:
+        date_str = latest_date
+
+    legend = legend_html()
+    date_line = f'    <div class="date-line" style="margin-bottom:14px">{date_str}</div>\n'
+
+    header = f"""    <h1 class="page-title">{config["page_title"]}</h1>
+    <div class="tagline" style="margin-bottom:12px">
+      {config["tagline"]}
+    </div>
+"""
+
+    odds_css = """    <style>
+      .odds-badge {
+        display: inline-block;
+        font-size: 10px;
+        font-family: monospace;
+        color: #a08b77;
+        border: 1px solid #e8cdb5;
+        border-radius: 3px;
+        padding: 1px 5px;
+        margin-right: 6px;
+        vertical-align: middle;
+      }
+    </style>
+"""
+
+    trust_strip = """
+    <div style="margin:20px 0;padding:12px;border-top:1.5px solid #e8cdb5;font-size:10px;color:#a08b77;line-height:1.6">
+      tiny stakes. huge maybes. dollar bets is entertainment-first market discovery — not betting advice, not financial advice, and not a guarantee that any market is available where you live. odds and markets change. <a href="/responsible-gambling/" style="color:#6b5744">gamble responsibly</a>. <a href="/availability/" style="color:#6b5744">check availability</a>.
+    </div>
+"""
+
+    empty_msg = "no picks right now — check back soon. some sports sleep so the board can wake up swinging."
+    body = header + date_line + legend + render_sports_bet_list(board, empty_msg) + trust_strip
+
+    slug = config["url_slug"]
+    schema = f"""<script type="application/ld+json">{{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "{config['page_title']}",
+  "url": "{SITE_URL}/{slug}/",
+  "description": "{config['meta_description']}",
+  "isPartOf": {{
+    "@type": "WebSite",
+    "name": "Dollar Bets",
+    "url": "{SITE_URL}"
+  }}
+}}</script>"""
+
+    html = page_shell(
+        title=config["meta_title"],
+        description=config["meta_description"],
+        body=body,
+        canonical=f"/{slug}/",
+        current_nav=f"/{slug}/",
+        extra_head=odds_css + schema,
+    )
+
+    out_dir = os.path.join(OUTPUT_DIR, slug)
+    os.makedirs(out_dir, exist_ok=True)
+    with open(os.path.join(out_dir, "index.html"), "w") as f:
+        f.write(html)
+    print(f"[generate] Wrote {board_key} board: {len(board)} picks")
 
 
 def generate_tier_pages(boards, sports_boards):
@@ -1591,7 +1726,7 @@ def generate_tier_pages(boards, sports_boards):
                 continue
             if ticker:
                 seen_tickers.add(ticker)
-            m["_source"] = "underdogs"
+            m["_source"] = "the-lineup"
             all_markets.append(m)
 
     for tier_key, tier_info in TIERS.items():
@@ -2470,8 +2605,13 @@ def main():
     print("[generate] Loading sports boards...")
     sports_boards = load_sports_boards()
     print(f"[generate] Found {len(sports_boards)} sports boards")
-    print("[generate] Building underdogs board...")
-    generate_underdogs_board(sports_boards)
+    print("[generate] Building the lineup board...")
+    generate_lineup_board(sports_boards)
+
+    # Sports sub-boards
+    for sub_board in ["underdogs", "ocho", "chalk", "combo-meal"]:
+        print(f"[generate] Building {sub_board} board...")
+        generate_sports_sub_board(sub_board)
 
     # 1c. Tier pages (aggregate across all boards)
     print("[generate] Building tier pages...")
@@ -2511,7 +2651,11 @@ def main():
     print("[generate] Building sitemap...")
     sitemap_pages = [
         ("/", 1.0),
-        ("/underdogs/", 0.9),
+        ("/the-lineup/", 0.9),
+        ("/underdogs/", 0.8),
+        ("/the-ocho/", 0.8),
+        ("/chalk/", 0.8),
+        ("/combo-meal/", 0.8),
         ("/about/", 0.7),
     ]
     for slug in CATEGORIES:

@@ -2,8 +2,10 @@ name: Daily Board Scan
 
 on:
   schedule:
-    # Run at 07:00 UTC (08:00 London BST) every day — board ready by 9am BST
+    # Daily prediction markets scan at 07:00 UTC
     - cron: '0 7 * * *'
+    # Hourly sports odds refresh (all boards)
+    - cron: '0 * * * *'
   workflow_dispatch: # Allow manual trigger from GitHub UI
 
 env:
@@ -24,12 +26,18 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run scanner
+      - name: Run prediction market scanner (daily only)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           mkdir -p data/boards
+          HOUR=$(date -u +%H)
           TODAY=$(date -u +%Y-%m-%d)
+          # Only run prediction market scan at 07:00 UTC or on manual trigger
+          if [ "$HOUR" != "07" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
+            echo "Skipping prediction market scan (hourly run, not 07:00 UTC)"
+            exit 0
+          fi
           if [ -f "data/boards/${TODAY}.json" ]; then
             echo "Board for ${TODAY} already exists — skipping scan to preserve manual edits"
             exit 0
@@ -88,39 +96,64 @@ jobs:
           print('Board validation passed')
           "
 
-      - name: Run sports scanner (underdogs board)
+      - name: Run sports scanners (all boards)
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           TODAY=$(date -u +%Y-%m-%d)
-          if [ -f "data/boards/sports-${TODAY}.json" ]; then
-            echo "Sports board for ${TODAY} already exists — skipping"
-          elif [ -z "$ODDS_API_KEY" ]; then
-            echo "ODDS_API_KEY not set — skipping sports scan"
+          if [ -z "$ODDS_API_KEY" ]; then
+            echo "ODDS_API_KEY not set — skipping all sports scans"
           else
-            echo "Scanning sports markets for ${TODAY}..."
-            python3 sports_scanner.py > "data/boards/sports-${TODAY}.json" 2>&1 || {
-              echo "Sports scanner failed — removing partial output"
-              rm -f "data/boards/sports-${TODAY}.json"
-            }
-            if [ -f "data/boards/sports-${TODAY}.json" ]; then
-              # Quick validation
-              python3 -c "
+            # Run each board mode — sports boards always refresh (hourly)
+            for MODE in lineup underdogs ocho chalk; do
+              PREFIX=""
+              case $MODE in
+                lineup) PREFIX="sports" ;;
+                *) PREFIX="$MODE" ;;
+              esac
+              OUTFILE="data/boards/${PREFIX}-${TODAY}.json"
+              echo "Scanning ${MODE} board..."
+              python3 sports_scanner.py --board=${MODE} > "${OUTFILE}" 2>&1 || {
+                echo "${MODE} scanner failed — removing partial output"
+                rm -f "${OUTFILE}"
+                continue
+              }
+              if [ -f "${OUTFILE}" ]; then
+                python3 -c "
           import sys, json
-          with open('data/boards/sports-${TODAY}.json') as f:
+          with open('${OUTFILE}') as f:
               d = json.load(f)
           board = d.get('board', [])
-          print(f'Sports board: {len(board)} picks')
-          if len(board) < 3:
-              print('ERROR: Sports board has fewer than 3 picks — removing')
+          print(f'${MODE} board: {len(board)} picks')
+          # Allow empty boards for ocho (obscure sports may not always be in season)
+          if len(board) < 1 and '${MODE}' != 'ocho':
+              print('ERROR: ${MODE} board is empty — removing')
               sys.exit(1)
           for m in board:
               assert m.get('title'), f'Missing title: {m}'
               assert m.get('payout'), f'Missing payout: {m}'
-          print('Sports board validation passed')
-              " || rm -f "data/boards/sports-${TODAY}.json"
-            fi
+          print('${MODE} board validation passed')
+                " || rm -f "${OUTFILE}"
+              fi
+            done
+          fi
+
+      - name: Run combo meal scanner (parlays)
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          if [ -z "$ODDS_API_KEY" ]; then
+            echo "ODDS_API_KEY not set — skipping combo meal scan"
+          else
+            OUTFILE="data/boards/combo-${TODAY}.json"
+            echo "Scanning combo meal (parlays)..."
+            python3 parlay_scanner.py > "${OUTFILE}" 2>&1 || {
+              echo "Parlay scanner failed — removing partial output"
+              rm -f "${OUTFILE}"
+            }
           fi
 
       - name: Commit and push
@@ -132,6 +165,7 @@ jobs:
             echo "No new data to commit"
           else
             TODAY=$(date -u +%Y-%m-%d)
-            git commit -m "daily board: ${TODAY}"
+            HOUR=$(date -u +%H)
+            git commit -m "board update: ${TODAY} ${HOUR}:00 UTC"
             git push
           fi

@@ -46,8 +46,10 @@ TARGET_BOOKS = [
 # Preferred book for deep links (used when multiple books have the same market)
 DEEP_LINK_PRIORITY = ["fanduel", "draftkings", "betmgm", "betrivers"]
 
-# Sports to scan
-SPORTS = [
+# ── Sports lists by board mode ──────────────────────────────
+
+# Major sports (used by lineup, underdogs, chalk)
+SPORTS_MAJOR = [
     "basketball_nba",
     "baseball_mlb",
     "icehockey_nhl",
@@ -60,7 +62,41 @@ SPORTS = [
     "soccer_uefa_champs_league",
 ]
 
+# Obscure sports (the ocho)
+SPORTS_OCHO = [
+    "cricket_ipl",
+    "cricket_international_t20",
+    "cricket_odi",
+    "cricket_test_match",
+    "cricket_psl",
+    "cricket_big_bash",
+    "cricket_t20_blast",
+    "cricket_the_hundred",
+    "rugbyleague_nrl",
+    "rugbyunion_six_nations",
+    "aussierules_afl",
+    "handball_germany_bundesliga",
+    "lacrosse_pll",
+    "lacrosse_ncaa",
+    "boxing_boxing",
+    "basketball_wnba",
+    "basketball_nbl",
+    "baseball_npb",
+    "baseball_kbo",
+    "icehockey_liiga",
+    "icehockey_sweden_hockey_league",
+    "americanfootball_cfl",
+    "americanfootball_ufl",
+    "soccer_brazil_campeonato",
+    "soccer_australia_aleague",
+    "soccer_japan_j_league",
+    "soccer_korea_kleague",
+    "soccer_turkey_super_league",
+    "soccer_saudi_professional_league",
+]
+
 SPORT_DISPLAY = {
+    # Major
     "basketball_nba": "NBA",
     "baseball_mlb": "MLB",
     "icehockey_nhl": "NHL",
@@ -71,6 +107,89 @@ SPORT_DISPLAY = {
     "soccer_usa_mls": "MLS",
     "soccer_epl": "EPL",
     "soccer_uefa_champs_league": "UCL",
+    # Ocho
+    "cricket_ipl": "IPL",
+    "cricket_international_t20": "T20",
+    "cricket_odi": "ODI",
+    "cricket_test_match": "Test",
+    "cricket_psl": "PSL",
+    "cricket_big_bash": "BBL",
+    "cricket_t20_blast": "T20 Blast",
+    "cricket_the_hundred": "The 100",
+    "rugbyleague_nrl": "NRL",
+    "rugbyunion_six_nations": "6 Nations",
+    "aussierules_afl": "AFL",
+    "handball_germany_bundesliga": "Handball",
+    "lacrosse_pll": "PLL",
+    "lacrosse_ncaa": "Lax NCAA",
+    "boxing_boxing": "Boxing",
+    "basketball_wnba": "WNBA",
+    "basketball_nbl": "NBL",
+    "baseball_npb": "NPB",
+    "baseball_kbo": "KBO",
+    "icehockey_liiga": "Liiga",
+    "icehockey_sweden_hockey_league": "SHL",
+    "americanfootball_cfl": "CFL",
+    "americanfootball_ufl": "UFL",
+    "soccer_brazil_campeonato": "Brasileirão",
+    "soccer_australia_aleague": "A-League",
+    "soccer_japan_j_league": "J-League",
+    "soccer_korea_kleague": "K-League",
+    "soccer_turkey_super_league": "Süper Lig",
+    "soccer_saudi_professional_league": "SPL",
+}
+
+# ── Board mode configs ──────────────────────────────────────
+
+BOARD_MODES = {
+    "lineup": {
+        "sports": SPORTS_MAJOR,
+        "markets": ["h2h", "spreads", "totals"],
+        "file_prefix": "sports",
+        "board_name": "the lineup",
+        "board_type": "sports",
+        "target_picks": 10,
+        "tier_targets": {"green": 3, "yellow": 3, "orange": 2, "red": 1, "purple": 1},
+        "market_filter": None,  # all markets
+        "odds_filter": None,  # all odds
+        "fetch_props": True,
+    },
+    "underdogs": {
+        "sports": SPORTS_MAJOR,
+        "markets": ["h2h"],
+        "file_prefix": "underdogs",
+        "board_name": "underdogs",
+        "board_type": "underdogs",
+        "target_picks": 10,
+        "tier_targets": {"green": 0, "yellow": 2, "orange": 3, "red": 3, "purple": 2},
+        "market_filter": "h2h_underdog",  # only moneyline underdogs
+        "odds_filter": {"min_american": 110},  # must be + odds (underdog)
+        "fetch_props": False,
+    },
+    "ocho": {
+        "sports": SPORTS_OCHO,
+        "markets": ["h2h", "spreads", "totals"],
+        "file_prefix": "ocho",
+        "board_name": "the ocho",
+        "board_type": "ocho",
+        "target_picks": 10,
+        "tier_targets": {"green": 3, "yellow": 3, "orange": 2, "red": 1, "purple": 1},
+        "market_filter": None,
+        "odds_filter": None,
+        "fetch_props": False,  # save API credits, obscure sports have fewer props
+    },
+    "chalk": {
+        "sports": SPORTS_MAJOR,
+        "markets": ["h2h", "spreads"],
+        "file_prefix": "chalk",
+        "board_name": "chalk",
+        "board_type": "chalk",
+        "target_picks": 10,
+        "tier_targets": {"green": 6, "yellow": 3, "orange": 1, "red": 0, "purple": 0},
+        "market_filter": "favorites",  # only heavy favorites
+        "odds_filter": {"max_american": -150},  # must be strong favorite
+        "fetch_props": False,
+    },
 }
 
 
@@ -400,11 +519,16 @@ def extract_markets(events, sport_key):
 
 # ── Board assembly ───────────────────────────────────────────
 
-def build_sports_board(candidates):
+def build_sports_board(candidates, mode_config=None):
     """
-    Assemble a 10-pick board from scored candidates.
-    Same philosophy as main scanner: tier targets, variety enforcement.
+    Assemble a board from scored candidates.
+    Uses mode_config for tier targets and pick count.
     """
+    if mode_config is None:
+        mode_config = BOARD_MODES["lineup"]
+
+    target_picks = mode_config.get("target_picks", 10)
+
     # Score everything
     for c in candidates:
         c["score"] = score_entertainment(c)
@@ -415,9 +539,7 @@ def build_sports_board(candidates):
 
     board = []
     tier_counts = {"green": 0, "yellow": 0, "orange": 0, "red": 0, "purple": 0}
-    # Sports odds skew shorter than prediction markets, so we shift targets:
-    # More greens/yellows available, but we still WANT reds/purples for drama
-    tier_targets = {"green": 3, "yellow": 3, "orange": 2, "red": 1, "purple": 1}
+    tier_targets = mode_config.get("tier_targets", {"green": 3, "yellow": 3, "orange": 2, "red": 1, "purple": 1})
     sport_counts = {}
     market_type_counts = {}
     used_events = set()
@@ -452,17 +574,17 @@ def build_sports_board(candidates):
     for c in candidates:
         if can_add(c, strict_tiers=True):
             add_to_board(c)
-        if len(board) >= TARGET_PICKS:
+        if len(board) >= target_picks:
             break
 
     # Pass 2: backfill if needed
-    if len(board) < TARGET_PICKS:
+    if len(board) < target_picks:
         for c in candidates:
             if c in board:
                 continue
             if can_add(c, strict_tiers=False):
                 add_to_board(c)
-            if len(board) >= TARGET_PICKS:
+            if len(board) >= target_picks:
                 break
 
     # Sort by payout (smallest to largest, matching main board)
@@ -551,20 +673,79 @@ def _hash_quip(title):
     return SPORTS_FALLBACK_QUIPS[h % len(SPORTS_FALLBACK_QUIPS)]
 
 
+# ── Quip cache ──────────────────────────────────────────────
+
+QUIP_CACHE_PATH = os.path.join(os.path.dirname(__file__), "data", "quip_cache.json")
+QUIP_CACHE_MAX_AGE_DAYS = 3  # evict entries older than this
+
+
+def load_quip_cache():
+    """Load cached quips from disk. Returns dict of ticker -> {title, quip, cached_at}."""
+    try:
+        with open(QUIP_CACHE_PATH, "r") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def save_quip_cache(cache):
+    """Persist quip cache to disk."""
+    os.makedirs(os.path.dirname(QUIP_CACHE_PATH), exist_ok=True)
+    with open(QUIP_CACHE_PATH, "w") as f:
+        json.dump(cache, f, indent=2)
+
+
+def prune_quip_cache(cache):
+    """Remove entries older than QUIP_CACHE_MAX_AGE_DAYS."""
+    now = datetime.now(timezone.utc)
+    pruned = {}
+    for ticker, entry in cache.items():
+        cached_at = entry.get("cached_at", "")
+        try:
+            ts = datetime.fromisoformat(cached_at)
+            if (now - ts).days <= QUIP_CACHE_MAX_AGE_DAYS:
+                pruned[ticker] = entry
+        except (ValueError, TypeError):
+            pass  # drop malformed entries
+    return pruned
+
+
 def generate_quips_ai(board):
     """
     Use Claude to generate editorial quips for each sports pick.
-    Same approach as main scanner's match_quips_ai() but sports-tuned.
+    Caches by ticker so repeated picks reuse existing quips.
+    Only calls Claude for net-new picks.
     """
     if not ANTHROPIC_API_KEY:
         print("[sports] No ANTHROPIC_API_KEY — using fallback quips", file=sys.stderr)
         return board
 
-    market_lines = []
+    # Load and prune cache
+    cache = prune_quip_cache(load_quip_cache())
+
+    # Split board into cached vs new
+    new_indices = []
     for i, m in enumerate(board):
+        ticker = m.get("ticker", "")
+        if ticker in cache:
+            board[i]["title"] = cache[ticker]["title"]
+            board[i]["quip"] = cache[ticker]["quip"]
+        else:
+            new_indices.append(i)
+
+    print(f"[sports] Quip cache: {len(board) - len(new_indices)} cached, {len(new_indices)} new", file=sys.stderr)
+
+    if not new_indices:
+        save_quip_cache(cache)
+        return board
+
+    # Build prompt for only the new picks
+    new_picks = [board[i] for i in new_indices]
+    market_lines = []
+    for idx, m in enumerate(new_picks):
         odds_str = f"+{m['american_odds']}" if m['american_odds'] > 0 else str(m['american_odds'])
         market_lines.append(
-            f'{i+1}. "{m["matchup"]} — {m["title"]}" '
+            f'{idx+1}. "{m["matchup"]} — {m["title"]}" '
             f'(${m["payout"]:.2f} payout on $1, odds: {odds_str}, '
             f'sport: {m.get("sport_display", "")}, '
             f'tier: {m["tier"]}, '
@@ -601,10 +782,10 @@ QUIP RULES:
 - NEVER comment on betting itself or the difficulty of predictions
 - NEVER use vague irony. Commit to the bit
 
-TODAY'S PICKS:
+TODAY'S NEW PICKS ({len(new_picks)} picks needing quips):
 {chr(10).join(market_lines)}
 
-Return a JSON array of {len(board)} objects, each with "title" and "quip" keys.
+Return a JSON array of {len(new_picks)} objects, each with "title" and "quip" keys.
 Example: [{{"title": "Jets somehow beat the Chiefs", "quip": "the brussel sprouts of the league finally season themselves"}}]
 
 Respond with ONLY the JSON array."""
@@ -627,7 +808,7 @@ Respond with ONLY the JSON array."""
     )
 
     try:
-        print("[sports] Generating quips via Claude...", file=sys.stderr)
+        print(f"[sports] Generating quips for {len(new_picks)} new picks via Claude...", file=sys.stderr)
         with urllib.request.urlopen(req, timeout=45) as resp:
             raw = resp.read().decode()
             result = json.loads(raw)
@@ -641,27 +822,86 @@ Respond with ONLY the JSON array."""
 
             entries = json.loads(text)
 
-            if isinstance(entries, list) and len(entries) == len(board):
+            if isinstance(entries, list) and len(entries) == len(new_picks):
                 if all(isinstance(e, dict) and e.get("title") and e.get("quip") for e in entries):
-                    for i, e in enumerate(entries):
-                        board[i]["title"] = e["title"].strip()
-                        board[i]["quip"] = e["quip"].strip()
-                    print(f"[sports] Generated {len(board)} titles + quips", file=sys.stderr)
+                    now_iso = datetime.now(timezone.utc).isoformat()
+                    for idx, e in enumerate(entries):
+                        board_idx = new_indices[idx]
+                        title = e["title"].strip()
+                        quip = e["quip"].strip()
+                        board[board_idx]["title"] = title
+                        board[board_idx]["quip"] = quip
+                        # Cache the new quip
+                        ticker = board[board_idx].get("ticker", "")
+                        if ticker:
+                            cache[ticker] = {
+                                "title": title,
+                                "quip": quip,
+                                "cached_at": now_iso,
+                            }
+                    print(f"[sports] Generated {len(new_picks)} new titles + quips", file=sys.stderr)
+                    save_quip_cache(cache)
                     return board
 
             print(f"[sports] WARN: Claude output didn't match expected format, keeping fallbacks", file=sys.stderr)
+            save_quip_cache(cache)
             return board
 
     except Exception as e:
         print(f"[sports] Claude quip generation failed: {e}", file=sys.stderr)
+        save_quip_cache(cache)
         return board
 
 
 # ── Main ─────────────────────────────────────────────────────
 
+def apply_mode_filters(candidates, mode_config):
+    """Apply board-mode-specific filters to candidates."""
+    filtered = candidates
+    market_filter = mode_config.get("market_filter")
+    odds_filter = mode_config.get("odds_filter")
+
+    if market_filter == "h2h_underdog":
+        # Only moneyline underdogs (positive American odds)
+        filtered = [c for c in filtered
+                    if c["market_type"] == "h2h"
+                    and c["american_odds"] > 0
+                    and c["outcome_name"] != "Draw"]
+    elif market_filter == "favorites":
+        # Only strong favorites (large negative American odds)
+        max_odds = odds_filter.get("max_american", -150) if odds_filter else -150
+        filtered = [c for c in filtered
+                    if c["american_odds"] <= max_odds
+                    and c["outcome_name"] != "Draw"]
+
+    if odds_filter and "min_american" in odds_filter and market_filter != "favorites":
+        min_odds = odds_filter["min_american"]
+        filtered = [c for c in filtered if c["american_odds"] >= min_odds]
+
+    return filtered
+
+
 def main():
     no_ai = "--no-ai" in sys.argv
     use_sample = "--sample" in sys.argv
+
+    # Parse --board flag (default: lineup)
+    board_mode = "lineup"
+    for arg in sys.argv:
+        if arg.startswith("--board="):
+            board_mode = arg.split("=", 1)[1]
+
+    if board_mode not in BOARD_MODES:
+        print(f"[sports] ERROR: Unknown board mode '{board_mode}'", file=sys.stderr)
+        print(f"[sports] Available: {', '.join(BOARD_MODES.keys())}", file=sys.stderr)
+        sys.exit(1)
+
+    mode_config = BOARD_MODES[board_mode]
+    mode_sports = mode_config["sports"]
+    board_name = mode_config["board_name"]
+    file_prefix = mode_config["file_prefix"]
+
+    print(f"[sports] Board mode: {board_name} ({board_mode})", file=sys.stderr)
 
     if use_sample:
         print("[sports] Sample mode not yet implemented — use live API", file=sys.stderr)
@@ -672,26 +912,51 @@ def main():
         print("[sports] Get a free key at https://the-odds-api.com/", file=sys.stderr)
         sys.exit(1)
 
-    # Step 1: Detect active sports
+    # Step 1: Detect active sports (pass all=true for ocho since obscure sports
+    # may not appear in the default "active" list)
     print("[sports] Detecting active sports...", file=sys.stderr)
-    sports_data = odds_api_get("/sports", {"all": "false"})
+    sports_data = odds_api_get("/sports", {"all": "true" if board_mode == "ocho" else "false"})
     if not sports_data:
         print("[sports] ERROR: Couldn't fetch sports list", file=sys.stderr)
         sys.exit(1)
 
-    active_sports = [s["key"] for s in sports_data if s.get("active") and s["key"] in SPORTS]
+    active_sports = [s["key"] for s in sports_data if s.get("active") and s["key"] in mode_sports]
     print(f"[sports] Active: {active_sports}", file=sys.stderr)
 
     if not active_sports:
-        print("[sports] No active sports found in our list", file=sys.stderr)
+        print(f"[sports] No active sports found for {board_name}", file=sys.stderr)
+        # For ocho, this is expected sometimes — output empty board instead of crashing
+        if board_mode == "ocho":
+            output = {
+                "generated_at": datetime.now(timezone.utc).isoformat(),
+                "board_type": mode_config["board_type"],
+                "board_name": board_name,
+                "market_count": 0,
+                "source": "odds_api",
+                "tier_mix": {},
+                "sport_mix": {},
+                "board": [],
+            }
+            json.dump(output, sys.stdout, indent=2)
+            print(f"\n[sports] Done — empty board (no active ocho sports)", file=sys.stderr)
+            return
         sys.exit(1)
 
-    # Step 2: Fetch standard odds for each sport (h2h, spreads, totals)
+    # Step 2: Fetch standard odds for each sport
+    markets_param = ",".join(mode_config["markets"])
     all_candidates = []
-    all_events_by_sport = {}  # track for prop fetching
+    all_events_by_sport = {}
     for sport in active_sports:
         print(f"\n[sports] Scanning {SPORT_DISPLAY.get(sport, sport)}...", file=sys.stderr)
-        events = fetch_sport_odds(sport)
+        params = {
+            "regions": "us,us2",
+            "markets": markets_param,
+            "oddsFormat": "american",
+            "includeLinks": "true",
+            "includeSids": "true",
+            "bookmakers": ",".join(TARGET_BOOKS),
+        }
+        events = odds_api_get(f"/sports/{sport}/odds", params) or []
         if not events:
             print(f"[sports] No events for {sport}", file=sys.stderr)
             continue
@@ -705,21 +970,13 @@ def main():
 
     print(f"\n[sports] Standard candidates: {len(all_candidates)}", file=sys.stderr)
 
-    # Step 2b: Check if we need props/alternates for higher tiers
-    # Count how many orange/red/purple candidates we have
-    high_tier_count = sum(1 for c in all_candidates if payout_tier(c["payout_raw"]) in ("orange", "red", "purple"))
-    print(f"[sports] High-tier candidates (orange+): {high_tier_count}", file=sys.stderr)
-
-    # Always fetch props — standard markets almost never produce red/purple tiers
-    if True:  # was: high_tier_count < 4
-        # Fetch props and alternate lines for top events to fill higher tiers
-        # Pick up to 5 events from the most popular sports (save API credits)
+    # Step 2b: Fetch props if mode calls for it
+    if mode_config.get("fetch_props") and all_events_by_sport:
         prop_sports = [s for s in ["basketball_nba", "baseball_mlb", "icehockey_nhl",
                                     "americanfootball_nfl"] if s in all_events_by_sport]
         prop_events_to_check = []
         for sport in prop_sports:
             events = all_events_by_sport[sport]
-            # Prefer events starting soonest
             for ev in sorted(events, key=lambda e: e.get("commence_time", ""))[:3]:
                 prop_events_to_check.append((sport, ev))
             if len(prop_events_to_check) >= 5:
@@ -734,23 +991,34 @@ def main():
 
             prop_data = fetch_event_props(sport, event_id)
             if prop_data:
-                # The event-level endpoint returns a single event dict, not a list
                 prop_events = [prop_data] if isinstance(prop_data, dict) else prop_data
                 prop_candidates = extract_markets(prop_events, sport)
-                # Only keep the interesting ones (yellow+ payout)
                 prop_high = [c for c in prop_candidates if c["payout_raw"] >= 3.0]
                 print(f"[sports]   → {len(prop_high)} high-payout props found", file=sys.stderr)
                 all_candidates.extend(prop_high)
             time.sleep(0.3)
 
-    print(f"\n[sports] Total candidates (with props): {len(all_candidates)}", file=sys.stderr)
+    # Step 2c: Apply mode-specific filters
+    all_candidates = apply_mode_filters(all_candidates, mode_config)
+    print(f"\n[sports] Candidates after mode filter ({board_mode}): {len(all_candidates)}", file=sys.stderr)
 
     if not all_candidates:
-        print("[sports] No candidates found — no board to build", file=sys.stderr)
-        sys.exit(1)
+        print(f"[sports] No candidates found for {board_name} — outputting empty board", file=sys.stderr)
+        output = {
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "board_type": mode_config["board_type"],
+            "board_name": board_name,
+            "market_count": 0,
+            "source": "odds_api",
+            "tier_mix": {},
+            "sport_mix": {},
+            "board": [],
+        }
+        json.dump(output, sys.stdout, indent=2)
+        return
 
     # Step 3: Build the board
-    board_raw = build_sports_board(all_candidates)
+    board_raw = build_sports_board(all_candidates, mode_config)
     print(f"[sports] Board assembled: {len(board_raw)} picks", file=sys.stderr)
 
     # Step 4: Format entries
@@ -778,7 +1046,7 @@ def main():
         if m.get("has_deep_link"):
             deep_link_count += 1
 
-    print(f"\n[sports] ═══ BOARD SUMMARY ═══", file=sys.stderr)
+    print(f"\n[sports] ═══ {board_name.upper()} SUMMARY ═══", file=sys.stderr)
     print(f"[sports] Tiers: {tier_summary}", file=sys.stderr)
     print(f"[sports] Sports: {sport_summary}", file=sys.stderr)
     print(f"[sports] Deep links: {deep_link_count}/{len(board)}", file=sys.stderr)
@@ -793,8 +1061,8 @@ def main():
     # Output
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "board_type": "sports",
-        "board_name": "underdogs",
+        "board_type": mode_config["board_type"],
+        "board_name": board_name,
         "market_count": len(board),
         "source": "odds_api",
         "tier_mix": tier_summary,
@@ -803,7 +1071,7 @@ def main():
     }
 
     json.dump(output, sys.stdout, indent=2)
-    print(f"\n[sports] Done — {len(board)} picks", file=sys.stderr)
+    print(f"\n[sports] Done — {len(board)} picks for {board_name}", file=sys.stderr)
 
 
 if __name__ == "__main__":
