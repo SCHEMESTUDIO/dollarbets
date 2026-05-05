@@ -1,0 +1,98 @@
+{
+  "slug": "best-dollar-bets-this-month",
+  "format": "ranked_list",
+  "seo": {
+    "title": "Best Dollar Bets This Month | Dollar Bets",
+    "h1": "Best Dollar Bets This Month",
+    "meta_description": "This month's best dollar bets. The picks that made us laugh, cringe, and check the market twice.",
+    "canonical": "/best-dollar-bets-this-month/"
+  },
+  "summary": "A monthly roundup of the most entertaining $1 bets available on prediction markets right now. Ranked by a mix of payout potential, comedic value, and how loudly you'd tell someone at a bar about them.",
+  "hero_bet": {
+    "title": "Will the US enter a recession in 2026?",
+    "payout": 4.5,
+    "quip": "Thirty days of probably not.",
+    "tier": "yellow",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "best bets for a dollar this week", "url": "/best-bets-for-a-dollar-this-week/"},
+    {"text": "about Dollar Bets", "url": "/about/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Every month we pull back and look at the bigger picture. Which markets opened up that weren't there four weeks ago? Which longshots quietly shortened? Which bets have the kind of narrative arc that makes you check them daily even though you know you shouldn't?"
+    },
+    {
+      "type": "heading",
+      "content": "how we pick these"
+    },
+    {
+      "type": "text",
+      "content": "We look for the intersection of three things: a real payout worth caring about, a resolution date that actually arrives this month or soon after, and some reason — entertainment, absurdity, genuine insight — that makes the market worth knowing about. We skip anything that's basically a coin flip at even odds. Those aren't interesting. We want the bets where the crowd has a strong opinion and you're allowed to disagree with it for a dollar."
+    },
+    {
+      "type": "heading",
+      "content": "economic and political markets"
+    },
+    {
+      "type": "text",
+      "content": "This month's macro picture is noisy. Rate cut expectations keep shifting, and every time a Fed governor opens their mouth, markets reprice. The fun part: prediction markets react faster than equities. If you have a take on what the Fed does next, there's a contract for that — and the payout structure tells you exactly how contrarian your view is."
+    },
+    {
+      "type": "heading",
+      "content": "weather and climate"
+    },
+    {
+      "type": "text",
+      "content": "Seasonal weather markets are where this gets beautiful. Will a named storm form this month? Will a city break a temperature record? These resolve cleanly and quickly, and the pricing tends to be volatile because forecasts are volatile. Nature doesn't care what the consensus is."
+    },
+    {
+      "type": "heading",
+      "content": "culture and entertainment"
+    },
+    {
+      "type": "text",
+      "content": "Awards seasons, streaming announcements, celebrity chaos. The markets that make you feel slightly embarrassed to hold a position. These tend to have wider spreads because fewer people trade them, which means the contrarian payout can be surprisingly fat."
+    },
+    {
+      "type": "heading",
+      "content": "crypto markets"
+    },
+    {
+      "type": "text",
+      "content": "Bitcoin price targets are always here. So are ETH milestones, altcoin market cap thresholds, and the perennial 'will this protocol actually ship?' contract. The crypto prediction market crowd trades on vibes, which means the inefficiencies are often larger than anywhere else."
+    },
+    {
+      "type": "heading",
+      "content": "the monthly check-in ritual"
+    },
+    {
+      "type": "text",
+      "content": "We update this page throughout the month as markets open, close, or move dramatically. Think of it as a curated scan — the daily board gives you the full fire hose, this gives you the highlight reel. Bookmark it, come back when you're bored, and remember: most of these will lose. That's the point."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How often is this page updated?",
+      "a": "We refresh throughout the month as new markets open or existing ones move significantly. The daily board is updated more frequently."
+    },
+    {
+      "q": "Are these the 'best' bets because they'll win?",
+      "a": "No. They're the best because they're interesting. Most will lose. We rank by entertainment value and payout structure, not prediction accuracy."
+    },
+    {
+      "q": "Can I actually bet on all of these right now?",
+      "a": "Most are available on Kalshi. Market availability varies by state and some contracts close before month-end. Always verify before buying."
+    }
+  ],
+  "compliance": "Responsible gambling reminder: these are speculative contracts with risk of total loss. Odds move constantly. Dollar Bets does not place bets or provide financial advice. Some links are affiliate links.",
+  "publish_date": "2026-05-05",
+  "last_updated": "2026-05-05",
+  "cluster": "$1 Bets",
+  "priority": 70
+}

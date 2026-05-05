@@ -1,0 +1,95 @@
+{
+  "slug": "celebrity-prediction-markets",
+  "format": "weird_market_roundup",
+  "seo": {
+    "title": "Celebrity Prediction Markets — Bet on Pop Culture | Dollar Bets",
+    "h1": "Celebrity Prediction Markets",
+    "meta_description": "Current celebrity and pop culture prediction markets. Awards, scandals, career moves — all priced at what $1 returns.",
+    "canonical": "/celebrity-prediction-markets/"
+  },
+  "summary": "Prediction markets let you put money on celebrity outcomes — award wins, breakups, career moves, public feuds. It's entertainment gossip with price discovery. Here's what the crowd is pricing in right now.",
+  "hero_bet": {
+    "title": "Will Taylor Swift announce a new album before July 2026?",
+    "payout": 6.5,
+    "quip": "Hollywood doesn't know the odds are posted.",
+    "tier": "yellow",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "weird prop bets", "url": "/weird-prop-bets/"},
+    {"text": "weird prediction markets", "url": "/weird-prediction-markets/"},
+    {"text": "about Dollar Bets", "url": "/about/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "There is something deeply entertaining about watching a crowd of anonymous traders put hard numbers on whether a celebrity will do something chaotic. The market doesn't gossip — it prices. And when the price moves, it means somebody somewhere just put real money on their tabloid-fueled conviction."
+    },
+    {
+      "type": "heading",
+      "content": "awards and nominations"
+    },
+    {
+      "type": "text",
+      "content": "Oscars, Grammys, Emmys — these are the bread and butter of celebrity prediction markets. Before awards season, contracts open on who'll be nominated and who'll win. The fun part isn't the favorites (those are boring coin-flip-ish prices). The fun part is the longshots: the 'will this person even get nominated?' contracts that pay $8+ if you're right and lose a few cents if you're wrong. The crowd is wrong about snubs roughly as often as the Academy is wrong about quality."
+    },
+    {
+      "type": "heading",
+      "content": "career moves and announcements"
+    },
+    {
+      "type": "text",
+      "content": "Will a CEO step down? Will a musician announce a tour? Will a director confirm their next project? These markets reward paying attention. If you're the kind of person who follows entertainment news compulsively anyway, congratulations — your habit now has a price signal attached to it."
+    },
+    {
+      "type": "heading",
+      "content": "public feuds and drama"
+    },
+    {
+      "type": "text",
+      "content": "These markets exist in a gray zone that makes platform operators nervous. Will there be a public response? Will a lawsuit get filed? The resolution criteria tend to be narrow — a specific public statement by a specific date — because drama is hard to quantify. But when they resolve yes, the payouts can be enormous because the crowd generally prices in 'they'll probably stay quiet.'"
+    },
+    {
+      "type": "heading",
+      "content": "reality tv and competition shows"
+    },
+    {
+      "type": "text",
+      "content": "Prediction markets on reality TV outcomes are beautiful because they combine insider knowledge, edit analysis, and pure delusion. The price action during a season of competition TV tells you more about crowd psychology than any economics textbook. People trade these with their feelings and their feelings are wrong approximately half the time."
+    },
+    {
+      "type": "heading",
+      "content": "why celebrity markets are inefficient"
+    },
+    {
+      "type": "text",
+      "content": "Celebrity markets tend to be thinly traded compared to political or financial contracts. That means prices can be stale, spreads can be wide, and a single well-informed trader can move the line. For the $1 bettor, that's a feature: mispricing is where entertainment meets opportunity. Just know that 'opportunity' in this context still usually means losing your dollar."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you bet on celebrity gossip?",
+      "a": "You can bet on verifiable outcomes — awards, announcements, public events. Markets require clear resolution criteria. Vague gossip doesn't qualify."
+    },
+    {
+      "q": "Are celebrity prediction markets legal?",
+      "a": "On CFTC-regulated platforms like Kalshi, yes — where the market meets their listing criteria. Availability varies by state."
+    },
+    {
+      "q": "Why are celebrity market odds so volatile?",
+      "a": "Low liquidity plus emotional traders. A single TMZ headline can move a contract 30% because not many people are on the other side."
+    },
+    {
+      "q": "What's the biggest payout you can get on a celebrity bet?",
+      "a": "Depends on the contract price. A 2-cent contract pays $50 per dollar invested. These exist on deeply unlikely outcomes — think 'will this person win an Oscar' for someone who hasn't been nominated."
+    }
+  ],
+  "compliance": "Entertainment framing only. Dollar Bets does not speculate on private personal matters. All markets reference publicly verifiable outcomes. Not financial advice. Some links are affiliate links.",
+  "publish_date": "2026-05-05",
+  "last_updated": "2026-05-05",
+  "cluster": "Weird Bets",
+  "priority": 70
+}

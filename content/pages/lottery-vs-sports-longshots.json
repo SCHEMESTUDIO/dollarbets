@@ -1,0 +1,99 @@
+{
+  "slug": "lottery-vs-sports-longshots",
+  "format": "comparison",
+  "seo": {
+    "title": "Lottery vs Sports Longshots — Where Does $1 Go Further? | Dollar Bets",
+    "h1": "What Pays Better: Lottery or Sports Longshots?",
+    "meta_description": "Lottery vs sports longshots: which gives your dollar better odds? A comparison of terrible probabilities.",
+    "canonical": "/lottery-vs-sports-longshots/"
+  },
+  "summary": "Both are bad ideas. But one is a statistically worse bad idea than the other. We compare lottery tickets to sports longshot bets on expected value, entertainment per dollar, and how stupid you feel afterward.",
+  "hero_bet": {
+    "title": "Will a 16-seed beat a 1-seed in March Madness 2027?",
+    "payout": 12,
+    "quip": "Both are bad ideas. One is more fun.",
+    "tier": "orange",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "how do longshot odds work", "url": "/how-do-longshot-odds-work/"},
+    {"text": "biggest payouts this week", "url": "/biggest-payouts-this-week/"},
+    {"text": "about Dollar Bets", "url": "/about/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Let's get this out of the way: neither of these is a sound financial strategy. The lottery is a tax on hope. Sports longshots are a tax on optimism. But if you've already decided to light a dollar on fire for entertainment purposes, the question becomes: which fire is prettier?"
+    },
+    {
+      "type": "heading",
+      "content": "the numbers, honestly"
+    },
+    {
+      "type": "text",
+      "content": "A Powerball ticket costs $2 and your odds of the jackpot are roughly 1 in 292 million. The expected value of that ticket fluctuates with jackpot size, but it's almost always negative — deeply, comically negative. A sports longshot on a prediction market might give you 1-in-50 or 1-in-100 odds, which sounds bad until you compare it to 1-in-292-million. Even a +10000 bet is approximately 292 million times more likely to hit than the Powerball jackpot."
+    },
+    {
+      "type": "heading",
+      "content": "expected value comparison"
+    },
+    {
+      "type": "text",
+      "content": "Expected value is what you'd average if you made the same bet infinity times. Lottery tickets typically return 40-60 cents per dollar (depending on the game and jackpot). Sports longshots on prediction markets tend to be more efficiently priced — you're losing less per dollar on average, though you're still losing. The house edge on prediction markets (the platform spread) is typically smaller than the state's cut of lottery revenue."
+    },
+    {
+      "type": "heading",
+      "content": "entertainment value per dollar"
+    },
+    {
+      "type": "text",
+      "content": "Here's where sports longshots win decisively. A lottery ticket gives you a few seconds of fantasy when you buy it and a few seconds of disappointment when the numbers are drawn. A sports longshot gives you an entire game, series, or season of rooting interest. The entertainment-per-dollar on a $1 futures bet is extraordinary. You get to care about outcomes you otherwise wouldn't, check scores obsessively, and tell friends about your 'position.' The lottery gives you nothing to watch."
+    },
+    {
+      "type": "heading",
+      "content": "the payout structure"
+    },
+    {
+      "type": "text",
+      "content": "Lotteries concentrate enormous prizes in near-impossible outcomes. Sports longshots spread smaller (but still exciting) payouts across many unlikely-but-not-impossible outcomes. A $1 prediction market contract on a 50-to-1 longshot pays $50. Nobody's retiring on that. But nobody's retiring on a $2 Powerball ticket either — and the $50 payout actually happens sometimes."
+    },
+    {
+      "type": "heading",
+      "content": "skill vs pure chance"
+    },
+    {
+      "type": "text",
+      "content": "The lottery is random. Full stop. No amount of analysis improves your odds. Sports and prediction markets have at least the illusion of edge — and sometimes actual edge. If you know something the market doesn't, your dollar is working harder. Whether you actually know something or just think you do is a different, more humbling question."
+    },
+    {
+      "type": "heading",
+      "content": "the verdict"
+    },
+    {
+      "type": "text",
+      "content": "Dollar for dollar, sports longshots and prediction markets give you better odds, more entertainment, and a smaller house edge than the lottery. They're still a losing proposition on average. But they're a more interesting losing proposition. And if you're spending a dollar for fun rather than profit, 'more interesting' is the whole game."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is the lottery or sports betting a better use of $1?",
+      "a": "Neither is a good financial decision. But sports longshots offer better odds, more entertainment per dollar, and a smaller house edge. If you're spending for fun, the longshot is the better ticket."
+    },
+    {
+      "q": "What are the actual odds of a sports longshot hitting?",
+      "a": "It varies wildly. A +5000 bet implies roughly 2% probability. A +10000 is about 1%. Compare to Powerball at 0.0000003%. Longshots are unlikely; the lottery is astronomically unlikely."
+    },
+    {
+      "q": "Can you make money on sports longshots long-term?",
+      "a": "Almost certainly not, unless you have genuine edge. Most people overestimate their ability to pick winners. The entertainment value is the real return for most bettors."
+    }
+  ],
+  "compliance": "Both lottery and sports longshots are extremely unlikely to pay off. This comparison is educational and for entertainment. Not financial advice. Dollar Bets does not recommend either as an investment strategy. Gamble responsibly.",
+  "publish_date": "2026-05-05",
+  "last_updated": "2026-05-05",
+  "cluster": "Biggest Payouts",
+  "priority": 70
+}

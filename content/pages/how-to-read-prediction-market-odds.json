@@ -1,0 +1,112 @@
+{
+  "slug": "how-to-read-prediction-market-odds",
+  "format": "explainer",
+  "seo": {
+    "title": "How to Read Prediction Market Odds — A Plain English Guide | Dollar Bets",
+    "h1": "How to Read Prediction Market Odds",
+    "meta_description": "How prediction market odds work, explained without jargon. Yes shares, no shares, and what the price actually means.",
+    "canonical": "/how-to-read-prediction-market-odds/"
+  },
+  "summary": "Prediction market prices look confusing but they're simple: the price is roughly the crowd's probability estimate, and the distance from $1 is your potential profit. Here's how to read them without a finance degree.",
+  "hero_bet": {
+    "title": "Will AI pass a Turing test by 2027?",
+    "payout": 3.3,
+    "quip": "It's a price, not a probability. Kind of. Let us explain.",
+    "tier": "green",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "what is a prediction market", "url": "/what-is-a-prediction-market/"},
+    {"text": "prediction market longshots", "url": "/prediction-market-longshots/"},
+    {"text": "betting odds explained", "url": "/betting-odds-explained/"},
+    {"text": "about Dollar Bets", "url": "/about/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "If you've looked at a prediction market and thought 'what do these numbers mean,' this page is for you. The good news: it's simpler than sportsbook odds. The less good news: the simplicity hides some nuance that matters if you're putting real money in."
+    },
+    {
+      "type": "heading",
+      "content": "the basic mechanic"
+    },
+    {
+      "type": "text",
+      "content": "A prediction market contract pays $1 if the thing happens and $0 if it doesn't. The current price is what people are willing to pay for that contract right now. If a contract is trading at 30 cents, the crowd is saying: there's roughly a 30% chance this happens. If you buy at 30 cents and it resolves yes, you get $1 back — a profit of 70 cents on your 30-cent investment."
+    },
+    {
+      "type": "heading",
+      "content": "price equals probability (sort of)"
+    },
+    {
+      "type": "text",
+      "content": "A 30-cent contract roughly implies 30% probability. A 5-cent contract implies 5%. A 95-cent contract implies 95%. This is approximately true but not perfectly true — platform fees, liquidity, and risk preferences all bend the price slightly away from 'pure' probability. For most purposes though, you can read the price as a percentage and be close enough."
+    },
+    {
+      "type": "heading",
+      "content": "what dollar bets shows you"
+    },
+    {
+      "type": "text",
+      "content": "On our board, we flip the framing. Instead of showing you the contract price, we show you what $1 invested would return if the contract resolves yes. A 5-cent contract becomes '$1 pays $20.' A 2-cent contract becomes '$1 pays $50.' The lower the contract price, the higher the payout — and the less likely the crowd thinks it is. Our color system makes this instant: green payouts are modest (the crowd thinks it's plausible), purple payouts are enormous (the crowd thinks you're dreaming)."
+    },
+    {
+      "type": "heading",
+      "content": "yes shares and no shares"
+    },
+    {
+      "type": "text",
+      "content": "Most prediction markets let you buy 'yes' or 'no' shares. They always add up to $1. If 'yes' is at 30 cents, 'no' is at 70 cents (roughly — there's usually a small spread). Buying 'no' at 70 cents means you profit 30 cents if the thing doesn't happen. This is how contrarians on both sides of a question coexist in the same market."
+    },
+    {
+      "type": "heading",
+      "content": "why prices move"
+    },
+    {
+      "type": "text",
+      "content": "Prediction market prices move for the same reason any market moves: new information plus new money. A breaking news story can push a contract from 10 cents to 60 cents in minutes. A rumor can spike it and a denial can crater it. The price at any moment is the crowd's best real-time estimate — better than polls, because people are staking money on it."
+    },
+    {
+      "type": "heading",
+      "content": "the spread and fees"
+    },
+    {
+      "type": "text",
+      "content": "On most platforms, there's a gap between the buy price and the sell price — the spread. Kalshi also charges fees on certain transactions. This means you can't buy at 30 cents and immediately sell at 30 cents for no loss. The spread is the platform's cut, and it matters more on small positions. For $1 bets held to resolution, the fees are minimal."
+    },
+    {
+      "type": "heading",
+      "content": "reading odds vs reading prices"
+    },
+    {
+      "type": "text",
+      "content": "Traditional sportsbooks use American odds (+500, -200) or decimal odds (6.0, 1.5). Prediction markets use contract prices (5 cents, 80 cents). They encode the same information differently. A +500 sportsbook line is roughly equivalent to a 17-cent prediction market contract. We convert everything to the '$1 pays' format because it's the clearest: you know exactly what your dollar does."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is the contract price the same as the probability?",
+      "a": "Approximately, yes. A 30-cent contract implies about 30% probability. It's not perfect due to fees and liquidity effects, but it's close enough for practical purposes."
+    },
+    {
+      "q": "What happens if I buy a contract and want to sell before it resolves?",
+      "a": "You can sell at the current market price anytime. If the price has gone up since you bought, you profit. If it's gone down, you take a loss. You don't have to hold to resolution."
+    },
+    {
+      "q": "Why do Dollar Bets payouts look different from the contract price?",
+      "a": "We invert the framing. Instead of 'this contract costs 5 cents,' we say '$1 pays $20.' Same math, different presentation. We think the payout framing is more intuitive for casual participants."
+    },
+    {
+      "q": "Can a prediction market be wrong?",
+      "a": "Constantly. The price is the crowd's current estimate, not a guarantee. Markets get surprised all the time — that's literally what creates big payouts. If markets were always right, longshots would never hit."
+    }
+  ],
+  "compliance": "Prediction market prices are not guarantees of probability. Market prices fluctuate and platforms charge fees that affect returns. Not financial advice. Contracts involve risk of total loss. Dollar Bets is editorial, not a trading platform.",
+  "publish_date": "2026-05-05",
+  "last_updated": "2026-05-05",
+  "cluster": "Prediction Markets",
+  "priority": 68
+}

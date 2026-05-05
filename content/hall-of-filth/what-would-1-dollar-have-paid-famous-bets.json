@@ -1,0 +1,113 @@
+{
+  "slug": "what-would-1-dollar-have-paid-famous-bets",
+  "format": "historical_story",
+  "parent_category": "hall-of-filth",
+  "seo": {
+    "title": "What Would $1 Have Paid on Famous Bets? | Dollar Bets",
+    "h1": "What Would $1 Have Paid on Famous Bets?",
+    "meta_description": "What $1 would have returned on the most famous bets in history. Leicester City. Buster Douglas. The Moon landing.",
+    "canonical": "/what-would-1-dollar-have-paid-famous-bets/"
+  },
+  "summary": "A gallery of history's most legendary upsets, reframed through the Dollar Bets lens. What would a single dollar have returned if you'd backed the unthinkable? The numbers are illustrative, the vibes are immaculate.",
+  "hero_bet": {
+    "title": "Leicester City to win the Premier League (2015-16)",
+    "payout": 5000,
+    "quip": "History, reframed as a betting slip.",
+    "tier": "purple",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "Hall of Filth", "url": "/hall-of-filth/"},
+    {"text": "biggest payouts this week", "url": "/biggest-payouts-this-week/"},
+    {"text": "how longshot odds work", "url": "/how-do-longshot-odds-work/"},
+    {"text": "about Dollar Bets", "url": "/about/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Every great upset has a number attached to it. The bookmakers' odds. The preseason line. The 'nobody gave them a chance' probability that, after the fact, becomes the most quoted stat in the story. We took the most famous longshot wins in modern history and ran them through the Dollar Bets framing: what would one dollar — a single contract — have returned?"
+    },
+    {
+      "type": "heading",
+      "content": "leicester city, 2015-16 premier league (illustrative: ~$5,000)"
+    },
+    {
+      "type": "text",
+      "content": "Pre-season odds of 5000-to-1. One dollar on Leicester to win the league would have returned approximately $5,000. Multiple bookmakers confirmed these odds. Several people actually held these tickets. A few cashed out early. A few didn't. The ones who didn't became legends. This remains the single most unlikely outcome in modern team sports history by consensus odds."
+    },
+    {
+      "type": "heading",
+      "content": "buster douglas over mike tyson, 1990 (illustrative: ~$42)"
+    },
+    {
+      "type": "text",
+      "content": "Douglas was a 42-to-1 underdog. Only one Las Vegas casino even posted odds on the fight. A dollar on Douglas returned approximately $42 — which sounds modest until you remember that Tyson hadn't lost in 37 fights and nobody seriously believed this would happen. The framing matters: $42 doesn't sound life-changing, but the shock value was infinite."
+    },
+    {
+      "type": "heading",
+      "content": "miracle on ice, 1980 (illustrative: ~$20-25)"
+    },
+    {
+      "type": "text",
+      "content": "Exact odds are disputed because legal sports betting barely existed for hockey in 1980. Estimates range from 15-to-1 to 25-to-1 for the US over the Soviet Union. A dollar might have paid $20 to $25. The Soviets had won four straight Olympic golds. They'd beaten an NHL all-star team. The US roster was college kids. The payout was modest; the cultural impact was nuclear."
+    },
+    {
+      "type": "heading",
+      "content": "the 2004 red sox (illustrative: ~$200-300)"
+    },
+    {
+      "type": "text",
+      "content": "Down 3-0 in the ALCS to the Yankees. No team had ever come back from 3-0 in MLB postseason history. In-series odds after Game 3 were estimated at 200-to-1 to 300-to-1. A dollar on 'Red Sox win this series' at that point would have been generational. The World Series title odds from preseason were more modest — maybe 8-to-1 — but the in-series comeback is the bet that haunts."
+    },
+    {
+      "type": "heading",
+      "content": "trump winning the 2016 election (illustrative: ~$4-6)"
+    },
+    {
+      "type": "text",
+      "content": "Prediction markets priced Trump at roughly 15-25% on election night eve. That's a $4 to $6 return on a dollar. Modest! But millions of dollars traded on these contracts, and the people on the 'yes' side collected handsomely on volume. The lesson: not every famous upset is a longshot by the numbers. Sometimes the crowd just refuses to believe what the price is telling them."
+    },
+    {
+      "type": "heading",
+      "content": "appalachian state over michigan, 2007 (illustrative: ~$25-33)"
+    },
+    {
+      "type": "text",
+      "content": "An FCS team beating a ranked FBS team in college football. Sportsbooks that even posted odds had Appalachian State somewhere around 25-to-1 to 33-to-1. A dollar returned maybe $30. The number undersells the chaos. This is the kind of upset where the payout is almost irrelevant — you'd hold the ticket forever as a trophy."
+    },
+    {
+      "type": "heading",
+      "content": "the pattern"
+    },
+    {
+      "type": "text",
+      "content": "Notice something: the truly legendary upsets — the ones people still talk about decades later — often paid less than you'd think. Leicester is the exception. Most iconic wins were in the $20 to $50 range per dollar. The story is worth more than the money. That's the whole point of Dollar Bets: the dollar is the excuse to pay attention."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are these exact payout numbers?",
+      "a": "No. These are illustrative approximations based on reported pre-event odds. Exact payouts varied by sportsbook, timing, and market. We note where numbers are estimated."
+    },
+    {
+      "q": "Could you have actually bet $1 on these?",
+      "a": "In most cases, yes — though minimum bet sizes varied. Modern prediction markets make $1 bets standard. Historical sportsbooks sometimes had higher minimums."
+    },
+    {
+      "q": "What's the biggest longshot payout in history?",
+      "a": "Leicester City at 5000-to-1 is the most famous. Some horse racing bets have paid higher multipliers, but team sports at that price is essentially unprecedented."
+    },
+    {
+      "q": "Why do most famous upsets only pay $20-50?",
+      "a": "Because truly astronomical odds (1000-to-1+) are rare in competitive sports. Most 'huge upsets' are more like 20-to-1 or 40-to-1 — unlikely but not unthinkable. The narrative makes them feel more impossible than the odds suggest."
+    }
+  ],
+  "compliance": "All historical returns in this article are marked as illustrative or approximate. Exact odds varied by sportsbook and timing. Dollar Bets does not guarantee accuracy of historical pricing. Not financial advice.",
+  "publish_date": "2026-05-05",
+  "last_updated": "2026-05-05",
+  "cluster": "Biggest Payouts",
+  "priority": 69
+}
