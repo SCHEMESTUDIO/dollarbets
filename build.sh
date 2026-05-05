@@ -84,4 +84,39 @@ if [ -d "src" ]; then
   cp -r src/* public/
 fi
 
+# ── Indexing automation ──────────────────────────────────────
+# Ping search engines after every build so new/updated pages get crawled fast.
+
+SITE_URL="https://www.dollarbets.lol"
+INDEXNOW_KEY="d0b1e5f7a3c94e8b"
+
+# 1. Sitemap ping — Google + Bing
+echo "[build] Pinging search engines with sitemap..."
+curl -sS "https://www.google.com/ping?sitemap=${SITE_URL}/sitemap.xml" -o /dev/null 2>&1 \
+  || echo "[build] WARNING: Google sitemap ping failed"
+curl -sS "https://www.bing.com/ping?sitemap=${SITE_URL}/sitemap.xml" -o /dev/null 2>&1 \
+  || echo "[build] WARNING: Bing sitemap ping failed"
+
+# 2. IndexNow — notify Bing/Yandex/DuckDuckGo of changed URLs
+# Collect all HTML files generated in public/ as URL paths
+echo "[build] Submitting URLs via IndexNow..."
+URL_LIST=$(find public -name "index.html" -type f | sed "s|^public||" | sed "s|/index.html|/|" | head -100)
+JSON_URLS=""
+for u in $URL_LIST; do
+  JSON_URLS="${JSON_URLS}\"${SITE_URL}${u}\","
+done
+# Remove trailing comma
+JSON_URLS="${JSON_URLS%,}"
+
+curl -sS -X POST "https://api.indexnow.org/indexnow" \
+  -H "Content-Type: application/json" \
+  -d "{
+    \"host\": \"www.dollarbets.lol\",
+    \"key\": \"${INDEXNOW_KEY}\",
+    \"keyLocation\": \"${SITE_URL}/${INDEXNOW_KEY}.txt\",
+    \"urlList\": [${JSON_URLS}]
+  }" -o /dev/null 2>&1 \
+  || echo "[build] WARNING: IndexNow submission failed"
+
+echo "[build] Indexing pings sent."
 echo "[build] Done."
