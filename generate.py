@@ -1276,38 +1276,33 @@ def get_archetypes(bet):
 CATEGORIES = {
     "weird-markets": {
         "title": "weird prediction markets — dollar bets",
-        "h1": "weird prediction markets",
+        "h1": "black swans",
         "description": "The internet's strangest prediction markets, translated into what a $1 bet could pay. Weather, pop culture, science, tech — the black swans.",
-        "intro": """<p>These are the markets that make you stop scrolling. Snow in April. Celebrity announcements. AI breakthroughs. Earthquake odds. The kind of stuff that sounds fake but has actual money behind it.</p>
-<p>Dollar Bets tracks the most entertaining prediction markets every day and frames each one by what a single dollar could pay out. Below are the strangest markets we've featured — the black swans, the outliers, and the bets that shouldn't exist but do.</p>""",
+        "tagline": "The internet's strangest prediction markets. Snow in April, celebrity announcements, AI breakthroughs, earthquake odds — the kind of stuff that sounds fake but has actual money behind it. Translated into $1 payouts.",
     },
     "sports-markets": {
         "title": "sports prediction markets — dollar bets",
         "h1": "sports prediction markets",
         "description": "Sports prediction markets where $1 could pay big. Playoff sweeps, championship longshots, and underdog bets translated into dollar payouts.",
-        "intro": """<p>Sports prediction markets are where drama meets math. A playoff sweep priced at 45 cents. A championship longshot at 3 cents. The kinds of bets your fantasy league group chat argues about.</p>
-<p>Unlike traditional sportsbooks, prediction markets let you trade in and out as odds shift — which means the stories are just as interesting as the outcomes. Here are the underdog markets Dollar Bets has featured — the longshots, the upsets-in-waiting, and the bets that made the group chat go quiet.</p>""",
+        "tagline": "Sports prediction markets are where drama meets math. A playoff sweep priced at 45 cents. A championship longshot at 3 cents. The kinds of bets your fantasy league group chat argues about.",
     },
     "politics-markets": {
         "title": "political prediction markets — dollar bets",
-        "h1": "political prediction markets",
+        "h1": "gridlock",
         "description": "Political prediction markets — elections, policy, and gridlock. Real money odds on what happens next in Washington and beyond, framed as $1 payouts.",
-        "intro": """<p>Political prediction markets are where public opinion gets a price tag. Elections, legislation, Supreme Court decisions, international crises — if it can be resolved with a yes or no, someone's trading on it.</p>
-<p>These markets often move faster than polls and pundits. When news breaks, the price moves in minutes. Dollar Bets tracks the political markets that are actually interesting to normal people — not the wonky stuff, but the gridlock and chaos that shows up in your group chat.</p>""",
+        "tagline": "Political prediction markets where public opinion gets a price tag. Elections, legislation, Supreme Court decisions, international crises — if it can be resolved with a yes or no, someone's trading on it. Framed as $1 payouts.",
     },
     "financial-markets": {
         "title": "financial prediction markets — dollar bets",
-        "h1": "financial prediction markets",
+        "h1": "ball street",
         "description": "Financial prediction markets — the Fed, interest rates, recessions, stock market milestones, and economic indicators. What does $1 pay when Wall Street gets weird?",
-        "intro": """<p>These are the markets where the suits meet the spreadsheet degenerates. Will the Fed cut rates? Will the S&P hit a round number? Will a recession technically happen before anyone admits it?</p>
-<p>Financial prediction markets on Kalshi turn the stuff your econ professor made boring into actual wagers with deadlines. Dollar Bets tracks the ones that matter to people who check their portfolio more than their email — framed by what a single dollar could pay out.</p>""",
+        "tagline": "The Fed, interest rates, recessions, stock market milestones. The markets where the suits meet the spreadsheet degenerates — framed by what a single dollar could pay out.",
     },
     "crypto-markets": {
         "title": "crypto prediction markets — dollar bets",
-        "h1": "crypto prediction markets",
+        "h1": "moonshots",
         "description": "Crypto prediction markets — Bitcoin milestones, ETH price targets, and blockchain moonshots. What does $1 pay if the chart cooperates?",
-        "intro": """<p>Crypto prediction markets are the most volatile corner of an already volatile world. Bitcoin above $100k by Friday? Ethereum flipping something? A memecoin doing something inexplicable?</p>
-<p>The beauty of crypto markets on Kalshi is that they have real expiration dates. No vague "to the moon" — just a yes-or-no question with a deadline and a price. Here are the moonshots Dollar Bets has featured — the round-number milestones, the leveraged bets, and the charts that had a plan.</p>""",
+        "tagline": "Bitcoin milestones, ETH price targets, and blockchain moonshots. The most volatile corner of an already volatile world — framed as $1 payouts with real expiration dates.",
     },
 }
 
@@ -1792,8 +1787,8 @@ def generate_category_pages(all_bets):
         count_note = f"{len(unique_bets)} markets featured" if unique_bets else ""
 
         body = f"""    <h1 class="page-title">{config['h1']}</h1>
-    <div class="page-intro">
-      {config['intro']}
+    <div class="tagline" style="margin-bottom:12px">
+      {config['tagline']}
     </div>
 
     <h2 class="section-head">featured markets</h2>

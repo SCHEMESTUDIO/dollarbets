@@ -58,10 +58,10 @@ MIN_LEGS = 2
 MAX_LEGS = 4
 # Implied probability threshold — only use legs where one side is very likely
 # e.g. 0.75 means we only pick outcomes with >= 75% implied probability
-HEAVY_FAVORITE_THRESHOLD = 0.72
-# Target combined payout range for "boring" parlays ($1 → $X)
+HEAVY_FAVORITE_THRESHOLD = 0.55  # lowered to include moderate favorites for spicier combos
+# Target combined payout range for parlays ($1 → $X)
 MIN_COMBINED_PAYOUT = 1.50  # at least +50% return
-MAX_COMBINED_PAYOUT = 4.00  # cap at 4x to keep it "boring"
+MAX_COMBINED_PAYOUT = 25.00  # allow spicy combos for the combo meal
 
 # Quips for "another day at the office" parlays
 OFFICE_QUIPS = [
@@ -373,15 +373,17 @@ def format_parlay_for_board(parlay, index=0):
     leg_ids = "-".join(sorted([leg["event_id"][:8] for leg in legs]))
     ticker = f"PARLAY-{hashlib.md5(leg_ids.encode()).hexdigest()[:8].upper()}"
 
-    # Tier classification (same as main scanner)
-    if payout <= 2.0:
-        tier = "respectable"
-    elif payout <= 3.0:
-        tier = "alive"
-    elif payout <= 4.0:
-        tier = "heater"
+    # Tier classification (matches sports_scanner.py payout_tier)
+    if payout < 3:
+        tier = "green"
+    elif payout < 7:
+        tier = "yellow"
+    elif payout < 15:
+        tier = "orange"
+    elif payout < 50:
+        tier = "red"
     else:
-        tier = "filthy"
+        tier = "purple"
 
     # Pick a quip
     quip_index = hash(ticker) % len(OFFICE_QUIPS)
@@ -407,21 +409,46 @@ def format_parlay_for_board(parlay, index=0):
             primary_link = leg["deep_link"]
             break
 
+    # Build matchup string from all legs
+    matchup_str = " + ".join(leg["matchup"] for leg in legs[:2])
+    if len(legs) > 2:
+        matchup_str += f" +{len(legs) - 2} more"
+
+    # Sport display — use first leg's sport or "Parlay"
+    sport_key = legs[0]["sport"] if legs else ""
+    sport_displays = {
+        "basketball_nba": "NBA", "baseball_mlb": "MLB", "icehockey_nhl": "NHL",
+        "americanfootball_nfl": "NFL", "americanfootball_ncaaf": "NCAAF",
+        "basketball_ncaab": "NCAAB", "mma_mixed_martial_arts": "MMA",
+        "soccer_usa_mls": "MLS",
+    }
+    # Check if multi-sport parlay
+    unique_sports = set(leg["sport"] for leg in legs)
+    if len(unique_sports) > 1:
+        sport_display = "Multi"
+    else:
+        sport_display = sport_displays.get(sport_key, "Parlay")
+
     return {
         "ticker": ticker,
         "title": title,
-        "payout": f"${payout:.2f}",
-        "payout_raw": payout,
+        "payout": payout,
         "tier": tier,
         "quip": quip,
+        "yes_price": f"{parlay['combined_implied_probability']:.2f}",
         "category": "sports-parlay",
         "platform": parlay["bookmaker"],
         "platform_display": parlay["bookmaker_title"],
         "url": primary_link,
+        "sport": sport_key,
+        "sport_display": sport_display,
+        "matchup": matchup_str,
+        "market_type": f"{parlay['num_legs']}-leg parlay",
+        "american_odds": round((payout - 1) * 100) if payout >= 2 else round(-100 / (payout - 1)),
+        "implied_probability": parlay["combined_implied_probability"],
+        "has_deep_link": parlay["has_deep_links"],
         "type": "parlay",
         "num_legs": parlay["num_legs"],
-        "combined_probability": f"{parlay['combined_implied_probability'] * 100:.0f}%",
-        "has_deep_links": parlay["has_deep_links"],
         "legs": matchups,
         "close_time": min(leg["commence_time"] for leg in legs),
     }
@@ -519,12 +546,23 @@ def main():
 
     cards = scan_parlays(sports=sports)
 
-    # Output
+    # Output — matches sports_scanner.py board format
+    tier_summary = {}
+    sport_summary = {}
+    for c in cards:
+        tier_summary[c["tier"]] = tier_summary.get(c["tier"], 0) + 1
+        sd = c.get("sport_display", "?")
+        sport_summary[sd] = sport_summary.get(sd, 0) + 1
+
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "type": "parlay_board",
-        "count": len(cards),
-        "cards": cards,
+        "board_type": "combo-meal",
+        "board_name": "the combo meal",
+        "market_count": len(cards),
+        "source": "odds_api",
+        "tier_mix": tier_summary,
+        "sport_mix": sport_summary,
+        "board": cards,
     }
 
     if args.output:
