@@ -45,14 +45,31 @@ if [ -z "$(ls -A data/boards/ 2>/dev/null)" ]; then
   python3 scanner.py > "data/boards/${TODAY}.json" 2>/dev/null || echo "[build] Scanner failed, will generate with empty data"
 fi
 
-# If no sports board exists and ODDS_API_KEY is set, run sports scanner
+# If sports boards don't exist and ODDS_API_KEY is set, run all sports scanners
 TODAY=$(date -u +%Y-%m-%d)
-if [ ! -f "data/boards/sports-${TODAY}.json" ] && [ -n "$ODDS_API_KEY" ]; then
-  echo "[build] No sports board for today, running sports scanner..."
-  python3 sports_scanner.py > "data/boards/sports-${TODAY}.json" 2>/dev/null || {
-    echo "[build] Sports scanner failed, underdogs page will use latest available"
-    rm -f "data/boards/sports-${TODAY}.json"
-  }
+if [ -n "$ODDS_API_KEY" ]; then
+  for MODE in lineup underdogs ocho chalk; do
+    case $MODE in
+      lineup) PREFIX="sports" ;;
+      *) PREFIX="$MODE" ;;
+    esac
+    OUTFILE="data/boards/${PREFIX}-${TODAY}.json"
+    if [ ! -f "$OUTFILE" ]; then
+      echo "[build] No ${MODE} board for today, running scanner..."
+      python3 sports_scanner.py --board=${MODE} > "$OUTFILE" 2>/dev/null || {
+        echo "[build] ${MODE} scanner failed, page will use latest available"
+        rm -f "$OUTFILE"
+      }
+    fi
+  done
+  # Combo meal (parlays)
+  if [ ! -f "data/boards/combo-${TODAY}.json" ]; then
+    echo "[build] No combo meal board for today, running parlay scanner..."
+    python3 parlay_scanner.py > "data/boards/combo-${TODAY}.json" 2>/dev/null || {
+      echo "[build] Parlay scanner failed, combo meal will use latest available"
+      rm -f "data/boards/combo-${TODAY}.json"
+    }
+  fi
 fi
 
 # Generate all pages
