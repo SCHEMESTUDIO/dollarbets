@@ -378,7 +378,7 @@ def load_latest_board_data():
 
     pattern = os.path.join(boards_dir, "*.json")
     files = [f for f in sorted(glob.glob(pattern), reverse=True)
-             if not os.path.basename(f).startswith("sports-")]
+             if os.path.basename(f)[0].isdigit()]
 
     if not files:
         return None

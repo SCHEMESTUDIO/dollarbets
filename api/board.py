@@ -110,13 +110,14 @@ def list_board_dates(board_type="daily"):
             name = f.get("name", "")
             if not name.endswith(".json"):
                 continue
+            stem = name.replace(".json", "")
             if board_type == "sports":
                 if name.startswith("sports-"):
-                    dates.append(name.replace(".json", ""))
+                    dates.append(stem)
             else:
-                # Daily boards: exclude sports-* files
-                if not name.startswith("sports-"):
-                    dates.append(name.replace(".json", ""))
+                # Daily boards: only pure date files (YYYY-MM-DD.json)
+                if stem[0:1].isdigit():
+                    dates.append(stem)
         dates.sort(reverse=True)
         return dates
     except urllib.error.HTTPError:

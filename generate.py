@@ -1107,7 +1107,9 @@ def load_all_boards():
     pattern = os.path.join(DATA_DIR, "*.json")
     for filepath in sorted(glob.glob(pattern)):
         basename = os.path.basename(filepath)
-        if basename.startswith("sports-"):
+        # Only load pure date files (YYYY-MM-DD.json) — skip any prefixed boards
+        # (sports-, underdogs-, ocho-, chalk-, combo-, etc.)
+        if not basename[0].isdigit():
             continue
         try:
             with open(filepath) as f:
