@@ -1,0 +1,83 @@
+{
+  "slug": "what-is-a-moneyline-bet",
+  "format": "explainer",
+  "publish_date": "2026-05-06",
+  "last_updated": "2026-05-06",
+  "priority": 80,
+  "seo": {
+    "title": "What Is a Moneyline Bet? — Dollar Bets",
+    "h1": "What Is a Moneyline Bet?",
+    "meta_description": "A moneyline bet is the simplest wager in sports: pick who wins. No spreads, no totals, no complications. Here's how it works and what $1 pays.",
+    "canonical": "/what-is-a-moneyline-bet/"
+  },
+  "summary": "A moneyline bet is a straight-up wager on which team or player wins. No point spreads, no over/unders — just pick the winner. The odds tell you what your dollar returns if you're right.",
+  "hero_bet": {
+    "title": "Example: underdog moneyline at +350",
+    "payout": 4.50,
+    "quip": "Pick the winner. Collect the check. Explain it to your friends later.",
+    "tier": "yellow",
+    "sourcePlatform": "FanDuel",
+    "marketType": "sportsbook",
+    "url": "https://fanduel.com"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "today's underdogs", "url": "/underdogs/"},
+    {"text": "what is a spread bet", "url": "/what-is-a-spread-bet/"},
+    {"text": "betting odds explained", "url": "/betting-odds-explained/"},
+    {"text": "what does +10000 odds mean", "url": "/what-does-plus-10000-odds-mean/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "The moneyline is the original bet. Before point spreads and player props turned sports betting into a spreadsheet exercise, there was one question: who wins? That's a moneyline bet. You pick a side, and if they win, you get paid. If they lose, you don't. No margin of victory, no total points, no Pythagorean theorem. Just a winner."
+    },
+    {
+      "type": "heading",
+      "content": "how moneyline odds work"
+    },
+    {
+      "type": "text",
+      "content": "Moneyline odds are expressed as positive or negative numbers in the US. A negative number (like -200) means you need to risk that much to win $100 — the team is favored. A positive number (like +350) means a $100 bet returns $350 in profit — the team is the underdog. At Dollar Bets, we skip the mental math and just tell you what one dollar pays. If a moneyline is +350, your dollar returns $4.50 total. That's the whole trick."
+    },
+    {
+      "type": "heading",
+      "content": "favorites vs. underdogs"
+    },
+    {
+      "type": "text",
+      "content": "A heavy favorite might be -400, which means $1 pays $1.25. You're renting certainty. An underdog at +800 means $1 pays $9. You're buying a lottery ticket with better odds than the actual lottery. The moneyline is where the tension between probability and payout is most naked — there's no spread to hide behind. Either you picked the winner or you watched your dollar evaporate in real time."
+    },
+    {
+      "type": "heading",
+      "content": "when to bet the moneyline"
+    },
+    {
+      "type": "text",
+      "content": "Moneylines are cleanest when you have a strong opinion about who wins but don't want to predict by how much. You think the underdog pulls it off? Moneyline. You think the favorite is bulletproof but don't trust them to cover? Moneyline. It's the bet for conviction without precision — the sports equivalent of saying \"I don't know the score, but I know who's holding the trophy.\""
+    },
+    {
+      "type": "heading",
+      "content": "moneyline vs. spread vs. totals"
+    },
+    {
+      "type": "text",
+      "content": "A spread bet asks by how much. A totals bet asks how many points. A moneyline bet just asks who. That simplicity is the point. Spreads and totals are for people who think they're analysts. Moneylines are for people who think they're prophets. Different energy. Dollar Bets tracks moneylines on the underdogs board because the payout math is cleaner and the emotional stakes are higher — you're either right or wrong, and your dollar knows it immediately."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a moneyline bet the same as betting on who wins?",
+      "a": "Yes. A moneyline bet is simply a wager on which team or player wins the game. No point spread involved."
+    },
+    {
+      "q": "What does a +300 moneyline mean?",
+      "a": "A +300 moneyline means a $1 bet returns $4 total ($3 profit plus your $1 back) if the team wins. It's an underdog — the plus sign means the market thinks they're less likely to win."
+    },
+    {
+      "q": "Can you bet a moneyline on prediction markets?",
+      "a": "Prediction markets like Kalshi and Polymarket work on a similar principle — you're betting on a binary outcome. The framing is different (cents-on-the-dollar pricing instead of +/- odds), but the concept is the same: pick a side, get paid if you're right."
+    }
+  ],
+  "compliance": "Moneyline odds and payouts shown are for illustration. Actual odds vary by sportsbook and change in real time. Dollar Bets is entertainment-first market discovery — not betting advice. Gamble responsibly."
+}

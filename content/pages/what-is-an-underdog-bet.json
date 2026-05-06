@@ -1,0 +1,83 @@
+{
+  "slug": "what-is-an-underdog-bet",
+  "format": "explainer",
+  "publish_date": "2026-05-06",
+  "last_updated": "2026-05-06",
+  "priority": 85,
+  "seo": {
+    "title": "What Is an Underdog Bet? — Dollar Bets",
+    "h1": "What Is an Underdog Bet?",
+    "meta_description": "Underdog bets pay more because they're less likely to win. Here's how underdogs work across sportsbooks and prediction markets — and what $1 pays when chaos delivers.",
+    "canonical": "/what-is-an-underdog-bet/"
+  },
+  "summary": "An underdog bet is a wager on the side the market thinks will lose. Underdogs are priced with positive odds (+200, +500, +1000) because the implied probability is below 50%. The lower the probability, the higher the payout — and the more fun the story if they pull it off.",
+  "hero_bet": {
+    "title": "Example: underdog moneyline at +750",
+    "payout": 8.50,
+    "quip": "The market said no. Your dollar said maybe.",
+    "tier": "orange",
+    "sourcePlatform": "BetRivers",
+    "marketType": "sportsbook",
+    "url": "https://betrivers.com"
+  },
+  "internal_links": [
+    {"text": "today's underdogs", "url": "/underdogs/"},
+    {"text": "today's board", "url": "/"},
+    {"text": "hall of filth", "url": "/hall-of-filth/"},
+    {"text": "what is a moneyline bet", "url": "/what-is-a-moneyline-bet/"},
+    {"text": "biggest betting upsets this year", "url": "/biggest-betting-upsets-this-year/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Every game has a favorite and an underdog. The favorite is the side the market expects to win. The underdog is the other one — the team with worse odds, less momentum, and more doubt swirling around them. Betting on the underdog means you're buying a ticket to a story most people think won't happen. When it does, the payout reflects the disbelief."
+    },
+    {
+      "type": "heading",
+      "content": "how underdog odds work"
+    },
+    {
+      "type": "text",
+      "content": "In American odds, underdogs are marked with a plus sign. A +200 underdog means $1 pays $3. A +500 underdog means $1 pays $6. A +2000 underdog means $1 pays $21 and your friends will talk about it for a month. The plus sign is the market's way of saying \"we don't think this happens, but here's what we'll pay you if it does.\" The bigger the number, the less the market believes — and the more your dollar is worth if it lands."
+    },
+    {
+      "type": "heading",
+      "content": "underdogs on prediction markets"
+    },
+    {
+      "type": "text",
+      "content": "On platforms like Kalshi and Polymarket, underdogs look different but work the same way. Instead of +500, you see a contract priced at 15 cents. That means the market gives the outcome a roughly 15% chance of happening. If it does, you get paid $1 per contract — your 15 cents turns into a dollar. Same math, different packaging. Dollar Bets covers both sportsbook underdogs and prediction market longshots because the psychology is identical: small money, long odds, big story."
+    },
+    {
+      "type": "heading",
+      "content": "the appeal of the underdog"
+    },
+    {
+      "type": "text",
+      "content": "Nobody makes a movie about the favorite winning. Underdogs are interesting because the payout is asymmetric — you risk a little to win a lot. A dollar on a heavy underdog is closer to entertainment than investment. You're not trying to grind out returns. You're buying a front-row seat to the possibility that something wild happens, and if it does, your dollar was there first. The Dollar Bets underdogs board curates these daily: moneylines, spreads, and totals across major sports, all translated into what one dollar pays."
+    },
+    {
+      "type": "heading",
+      "content": "famous underdog wins"
+    },
+    {
+      "type": "text",
+      "content": "Leicester City at 5000-to-1 winning the Premier League. Buster Douglas knocking out Tyson at 42-to-1. The 1980 US hockey team at the Olympics. Appalachian State beating Michigan. These are the stories that make underdog betting feel like more than math — they're proof that markets are confident, not omniscient. Every one of those events had a price, and someone collected. The Hall of Filth on this site is dedicated to them."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do I know which team is the underdog?",
+      "a": "The underdog has positive odds (like +300) in American format. On prediction markets, the underdog is the contract priced below 50 cents. The team or outcome with the higher payout per dollar wagered is the underdog."
+    },
+    {
+      "q": "Do underdog bets hit often?",
+      "a": "By definition, no — underdogs are underdogs because they're less likely to win. A +300 underdog has roughly a 25% implied probability. But they hit often enough that the entire sports industry is built around the tension. One in four isn't nothing."
+    },
+    {
+      "q": "What's the difference between an underdog and a longshot?",
+      "a": "All longshots are underdogs, but not all underdogs are longshots. A +150 team is a slight underdog. A +2000 team is a longshot. Dollar Bets uses tier labels — respectable, alive, heater, filthy, generational — to distinguish between mild underdogs and genuine moonshots."
+    }
+  ],
+  "compliance": "Underdog odds shown are for illustration. Actual odds vary by sportsbook and prediction market. Past longshot wins do not predict future results. Dollar Bets is entertainment-first — not betting advice. Gamble responsibly."
+}

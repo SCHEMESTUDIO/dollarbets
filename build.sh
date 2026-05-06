@@ -46,8 +46,9 @@ if [ -z "$(ls -A data/boards/ 2>/dev/null)" ]; then
 fi
 
 # If sports boards don't exist and ODDS_API_KEY is set, run all sports scanners
+# Skip on Vercel builds — scanning is GitHub Actions' job, Vercel just builds HTML
 TODAY=$(date -u +%Y-%m-%d)
-if [ -n "$ODDS_API_KEY" ]; then
+if [ -n "$ODDS_API_KEY" ] && [ -z "$VERCEL" ]; then
   for MODE in lineup underdogs ocho chalk; do
     case $MODE in
       lineup) PREFIX="sports" ;;

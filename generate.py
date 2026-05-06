@@ -2122,11 +2122,9 @@ def generate_about_page():
 
       <p>The board updates daily. The email is free. The bets are a dollar. The rest is up to the universe.</p>
 
-      <p style="font-weight:700; margin-top:16px">who runs this?</p>
+      <p style="font-weight:700; margin-top:16px">contact us</p>
 
-      <p><a href="https://linkedin.com/in/jameslamon" target="_blank" style="color:#333">James Lamon</a> — founder and editor. James spent over a decade building content businesses at scale. As EVP Content & Operations at <a href="https://footballco.com" target="_blank" style="color:#333">Footballco</a>, he led the teams behind GOAL and World Soccer — overseeing editorial, video, social, branded content, affiliate, and events across global offices. Before that, he was Head of Content Europe at <a href="https://buzzfeed.com" target="_blank" style="color:#333">BuzzFeed</a>, where he launched and ran a portfolio of brands in entertainment, food, and travel across both the editorial and commercial sides of the business.</p>
-
-      <p>He started his career as a creative strategist and creative director, working with brands including Sky, Diageo, Google, Samsung, BMW, and Porsche. He graduated summa cum laude from the University of Texas at Austin. Dollar Bets is what happens when someone who spent a career turning content into revenue discovers prediction markets and can't look away.</p>
+      <p><a href="mailto:james@wearescheme.studio" style="color:#333">james@wearescheme.studio</a></p>
 
       <p style="margin-top:12px"><a href="/editorial-policy/" style="color:#666">editorial policy</a> · <a href="/affiliate-disclosure/" style="color:#666">affiliate disclosure</a> · <a href="/responsible-gambling/" style="color:#666">responsible gambling</a></p>
     </div>

@@ -1,0 +1,83 @@
+{
+  "slug": "weather-betting-markets",
+  "format": "explainer",
+  "publish_date": "2026-05-06",
+  "last_updated": "2026-05-06",
+  "priority": 70,
+  "seo": {
+    "title": "Weather Betting Markets — Can You Bet on the Weather? | Dollar Bets",
+    "h1": "Weather Betting Markets",
+    "meta_description": "Yes, you can bet on the weather. Prediction markets on Kalshi let you wager on rain, temperature, and hurricanes. Here's how weather markets work.",
+    "canonical": "/weather-betting-markets/"
+  },
+  "summary": "Prediction markets like Kalshi now offer contracts on weather events — rainfall, temperature thresholds, hurricanes, and more. Weather markets are one of the fastest-growing categories in prediction markets because the outcomes are binary, verifiable, and completely indifferent to your feelings.",
+  "hero_bet": {
+    "title": "Example: rain in a major city this month",
+    "payout": 2.70,
+    "quip": "The cloud doesn't care about your bankroll.",
+    "tier": "green",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "what is a prediction market", "url": "/what-is-a-prediction-market/"},
+    {"text": "weird prediction markets", "url": "/weird-prediction-markets/"},
+    {"text": "prediction market longshots", "url": "/prediction-market-longshots/"},
+    {"text": "how to read prediction market odds", "url": "/how-to-read-prediction-market-odds/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "For most of history, betting on the weather was something you did by looking at the sky and deciding whether to bring an umbrella. Now it's a real financial market. Kalshi lists contracts on measurable weather events — will it rain more than a certain amount in Houston this month, will the temperature in New York hit 90°F this week, will a named hurricane make landfall. These aren't novelty bets. They're binary contracts with verifiable outcomes resolved by government data, which makes them some of the cleanest markets on any prediction platform."
+    },
+    {
+      "type": "heading",
+      "content": "how weather contracts work"
+    },
+    {
+      "type": "text",
+      "content": "A typical weather contract asks a yes-or-no question: \"Will it rain at least 0.1 inches in Houston during May 2026?\" If you buy a Yes contract at 37 cents, you're paying $0.37 for a contract that pays $1.00 if the answer is yes. Your dollar pays $2.70. The pricing reflects the market's collective estimate of the probability — in this case, roughly a 37% chance. Weather markets resolve based on official data from NOAA or similar government agencies, which means there's no referee controversy, no subjective judgment, and no room for a bad call."
+    },
+    {
+      "type": "heading",
+      "content": "why weather markets are interesting"
+    },
+    {
+      "type": "text",
+      "content": "Weather markets sit at a strange intersection of science, chaos, and money. Meteorological models are good but not perfect. A 7-day forecast has meaningful uncertainty. A 30-day forecast is basically a suggestion. That gap between what the models say and what the atmosphere actually does is where these markets find their edge — or don't. You're not betting against a sportsbook that's watched a thousand games. You're betting against a planet that doesn't know you exist."
+    },
+    {
+      "type": "heading",
+      "content": "types of weather markets"
+    },
+    {
+      "type": "text",
+      "content": "The most common weather contracts cover rainfall (will it rain X inches in city Y this month), temperature (will it hit Z degrees this week), and severe weather (will a Category 3+ hurricane make US landfall this season). Rainfall contracts tend to be the most liquid because they resolve monthly and have clear binary outcomes. Temperature markets move faster — a single day's reading can settle the contract. Hurricane markets are seasonal and trade more like futures, with prices swinging as tropical systems develop."
+    },
+    {
+      "type": "heading",
+      "content": "weather on the dollar bets board"
+    },
+    {
+      "type": "text",
+      "content": "Weather markets show up regularly on the Dollar Bets daily board because they tend to produce interesting payouts and have an inherent absurdity that fits the site's vibe. There's something deeply entertaining about staking a dollar on whether it rains in Houston — a city where the answer is almost always yes, yet the market still prices it like there's doubt. The best weather markets on Dollar Bets are the ones where the payout is just attractive enough to make you check the forecast, and the forecast is just uncertain enough to make you nervous."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is weather betting legal?",
+      "a": "Weather contracts on CFTC-regulated platforms like Kalshi are legal event contracts, not traditional gambling. They're regulated as derivatives. Availability varies by state — check Kalshi's jurisdiction page for details."
+    },
+    {
+      "q": "How are weather bets settled?",
+      "a": "Weather contracts resolve based on official government data, typically from NOAA (National Oceanic and Atmospheric Administration). The data source is specified in the contract terms before trading opens."
+    },
+    {
+      "q": "Can you actually make money betting on weather?",
+      "a": "You can profit if your read on the probability is better than the market's. Some traders use private weather models or local knowledge. But like any market, the pricing generally reflects available information. Dollar Bets frames it as entertainment — a dollar on rain is a conversation starter, not a retirement plan."
+    }
+  ],
+  "compliance": "Weather contract examples are for illustration. Actual contract availability and pricing varies. Prediction market event contracts may not be available in all jurisdictions. Dollar Bets is entertainment-first — not financial or betting advice."
+}

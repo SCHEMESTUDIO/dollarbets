@@ -1,0 +1,83 @@
+{
+  "slug": "what-is-a-spread-bet",
+  "format": "explainer",
+  "publish_date": "2026-05-06",
+  "last_updated": "2026-05-06",
+  "priority": 80,
+  "seo": {
+    "title": "What Is a Spread Bet? — Point Spreads Explained | Dollar Bets",
+    "h1": "What Is a Spread Bet?",
+    "meta_description": "Point spreads level the playing field between favorites and underdogs. Here's how spread betting works, translated into plain English.",
+    "canonical": "/what-is-a-spread-bet/"
+  },
+  "summary": "A spread bet is a wager on the margin of victory. The sportsbook gives the underdog a head start (or handicaps the favorite) so both sides are roughly even money. You're not just picking who wins — you're picking who wins by enough.",
+  "hero_bet": {
+    "title": "Example: underdog +7.5 at -110",
+    "payout": 1.91,
+    "quip": "They don't have to win. They just have to not get embarrassed.",
+    "tier": "green",
+    "sourcePlatform": "DraftKings",
+    "marketType": "sportsbook",
+    "url": "https://draftkings.com"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "what is a moneyline bet", "url": "/what-is-a-moneyline-bet/"},
+    {"text": "what is a parlay bet", "url": "/what-is-a-parlay-bet/"},
+    {"text": "today's underdogs", "url": "/underdogs/"},
+    {"text": "betting odds explained", "url": "/betting-odds-explained/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "If the moneyline is the oldest bet in sports, the spread is the cleverest. It exists because some matchups are so lopsided that \"who wins\" is boring. Nobody wants to bet on whether the top seed beats the 16-seed. But would they beat them by 25? Now you're thinking."
+    },
+    {
+      "type": "heading",
+      "content": "how the point spread works"
+    },
+    {
+      "type": "text",
+      "content": "The sportsbook assigns a number — the spread. The favorite gets a negative number (say, -6.5) and the underdog gets the same number but positive (+6.5). If you bet the favorite, they need to win by 7 or more. If you bet the underdog, they can lose by up to 6 and you still win. The half-point exists specifically to prevent ties, because sportsbooks learned long ago that arguments about pushes are bad for business."
+    },
+    {
+      "type": "heading",
+      "content": "what the numbers actually mean"
+    },
+    {
+      "type": "text",
+      "content": "On Dollar Bets, we translate spreads into English. \"Lakers -6.5\" becomes \"Lakers win by 7 or more.\" \"Celtics +4.5\" becomes \"Celtics lose by fewer than 5.\" The raw numbers are useful for math people, but spreads are really about a single question: is this team better enough to cover the gap? That gap is the entire conversation. Two fans can agree on who wins and still disagree violently on the spread."
+    },
+    {
+      "type": "heading",
+      "content": "why spreads are usually -110"
+    },
+    {
+      "type": "text",
+      "content": "Most spread bets are priced at -110 on both sides. That means you risk $1.10 to win $1. This is the vig — the sportsbook's cut. They set the spread at a number where they expect roughly equal action on both sides, then collect the 10% gap. The spread isn't a prediction of the final margin. It's the number where the sportsbook thinks the money splits evenly. When the spread moves, it's because the money moved, not because someone got smarter."
+    },
+    {
+      "type": "heading",
+      "content": "alternate spreads and big payouts"
+    },
+    {
+      "type": "text",
+      "content": "Standard spreads are close to even money, which is why they don't usually show up on Dollar Bets — a $1.91 payout doesn't exactly light the imagination on fire. But alternate spreads are different. You can take an underdog at +1.5 (they just need to not lose by 2) or a favorite at -15.5 (a blowout). The further you move the line from the standard spread, the more dramatic the payout. That's where the Dollar Bets underdogs board finds its picks: spreads so wide that the sportsbook is basically daring you to believe in a blowout."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does 'covering the spread' mean?",
+      "a": "Covering the spread means the team you bet on performed well enough relative to the point spread. If you bet the favorite at -7, they need to win by 8 or more. If you bet the underdog at +7, they need to lose by 6 or fewer — or win outright."
+    },
+    {
+      "q": "What happens if the final margin lands exactly on the spread?",
+      "a": "If the spread is a whole number (like -7) and the team wins by exactly 7, it's a push. You get your money back. Sportsbooks use half-points (like -7.5) to prevent this."
+    },
+    {
+      "q": "Is a spread bet better than a moneyline bet?",
+      "a": "Different tools for different opinions. Moneylines are cleaner — just pick the winner. Spreads let you bet on how dominant a team will be. If you think a favorite will win but not dominate, the underdog spread might be smarter than the underdog moneyline."
+    }
+  ],
+  "compliance": "Spread examples are for illustration. Actual lines and vig vary by sportsbook and change in real time. Dollar Bets is entertainment-first — not betting advice. Gamble responsibly."
+}

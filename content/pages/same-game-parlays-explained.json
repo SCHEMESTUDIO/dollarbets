@@ -1,0 +1,83 @@
+{
+  "slug": "same-game-parlays-explained",
+  "format": "explainer",
+  "publish_date": "2026-05-06",
+  "last_updated": "2026-05-06",
+  "priority": 75,
+  "seo": {
+    "title": "Same-Game Parlays Explained — Dollar Bets",
+    "h1": "Same-Game Parlays Explained",
+    "meta_description": "A same-game parlay combines multiple bets from one game into a single wager with a bigger payout. Here's how SGPs work, what $1 pays, and why sportsbooks love them.",
+    "canonical": "/same-game-parlays-explained/"
+  },
+  "summary": "A same-game parlay (SGP) bundles multiple bets from a single game — moneyline, spread, player props, totals — into one wager. Every leg must hit for the parlay to pay, but the combined odds create payouts that make regular bets look boring by comparison.",
+  "hero_bet": {
+    "title": "Example: 3-leg same-game parlay",
+    "payout": 12,
+    "quip": "Three things have to go right. Statistically inadvisable. Emotionally mandatory.",
+    "tier": "orange",
+    "sourcePlatform": "DraftKings",
+    "marketType": "sportsbook",
+    "url": "https://draftkings.com"
+  },
+  "internal_links": [
+    {"text": "today's combo meal", "url": "/combo-meal/"},
+    {"text": "what is a parlay bet", "url": "/what-is-a-parlay-bet/"},
+    {"text": "what is a prop bet", "url": "/what-is-a-prop-bet/"},
+    {"text": "today's board", "url": "/"},
+    {"text": "today's underdogs", "url": "/underdogs/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "A regular parlay takes bets from different games and chains them together. A same-game parlay does the same thing, but all the legs come from a single game. You might combine the favorite to win, a player to score over 25 points, and the total to go over 210. All three need to hit. If they do, your dollar pays like it went to business school."
+    },
+    {
+      "type": "heading",
+      "content": "how same-game parlays work"
+    },
+    {
+      "type": "text",
+      "content": "Pick a game. Add multiple outcomes from that game to your bet slip. The sportsbook calculates a combined payout based on the individual odds of each leg, adjusted for correlation. That correlation part is important — some outcomes within a game are related. If a quarterback throws for 350 yards, the team is probably winning. Sportsbooks know this and adjust the combined odds down from what you'd get if the legs were truly independent. The math is proprietary and not in your favor, but the payouts are still large enough to be entertaining."
+    },
+    {
+      "type": "heading",
+      "content": "why sportsbooks push them"
+    },
+    {
+      "type": "text",
+      "content": "Sportsbooks promote same-game parlays aggressively because the hold — the percentage of money the house keeps — is significantly higher than on straight bets. A standard moneyline has a 4-5% vig. A same-game parlay can have a 15-30% effective hold depending on the number of legs and how the correlation adjustments are set. The sportsbook is selling you a dream at a markup, and they've gotten very good at making the dream look cheap. Every app has a \"build your SGP\" feature front and center because it's the most profitable product they offer."
+    },
+    {
+      "type": "heading",
+      "content": "the sweet spot"
+    },
+    {
+      "type": "text",
+      "content": "Two-leg and three-leg same-game parlays are the sweet spot for entertainment value. The payouts are large enough to feel interesting ($5-$15 on a dollar) without requiring five miracles to hit. Once you get past four legs, the probability collapses to the point where you're essentially buying a scratch-off ticket with extra steps. Dollar Bets tracks same-game parlay combinations on the combo meal board — curated multi-leg picks across the day's best games, all priced at what one dollar pays."
+    },
+    {
+      "type": "heading",
+      "content": "SGPs vs. traditional parlays"
+    },
+    {
+      "type": "text",
+      "content": "Traditional parlays combine bets across different games — you need the Lakers AND the Yankees AND the Chiefs to all win. A same-game parlay is contained within one game, which means you're watching one event with multiple stakes riding on it. The entertainment density is higher. You don't need to track three different games across three different time slots. You sit down, turn on one game, and either everything hits or it doesn't. It's a more concentrated form of the parlay experience."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What happens if one leg of my same-game parlay pushes?",
+      "a": "If one leg results in a push (lands exactly on the number), most sportsbooks remove that leg and recalculate the payout based on the remaining legs. Some sportsbooks void the entire parlay — check the house rules."
+    },
+    {
+      "q": "How many legs should a same-game parlay have?",
+      "a": "For entertainment value on a dollar, two to three legs is the sweet spot. The payout is meaningful, and the probability isn't microscopic. Past four legs, you're in lottery territory."
+    },
+    {
+      "q": "Can you cash out a same-game parlay early?",
+      "a": "Many sportsbooks offer early cash-out on SGPs if some legs have hit and the rest are still pending. The cash-out price is usually less than the full payout, reflecting the remaining risk. It's the sportsbook's way of buying back your optimism at a discount."
+    }
+  ],
+  "compliance": "Same-game parlay examples are for illustration. Actual odds and correlation adjustments vary by sportsbook. SGPs have higher house edges than straight bets. Dollar Bets is entertainment-first — not betting advice. Gamble responsibly."
+}
