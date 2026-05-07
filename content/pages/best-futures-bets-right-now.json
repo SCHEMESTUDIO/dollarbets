@@ -18,12 +18,30 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "today's board", "url": "/"},
-    {"text": "about Dollar Bets", "url": "/about/"},
-    {"text": "prediction market longshots", "url": "/prediction-market-longshots/"},
-    {"text": "best $1 bets this week", "url": "/best-bets-for-a-dollar-this-week/"},
-    {"text": "betting odds explained", "url": "/betting-odds-explained/"},
-    {"text": "biggest payouts this week", "url": "/biggest-payouts-this-week/"}
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    },
+    {
+      "text": "prediction market longshots",
+      "url": "/prediction-markets/prediction-market-longshots/"
+    },
+    {
+      "text": "best $1 bets this week",
+      "url": "/best-bets-for-a-dollar-this-week/"
+    },
+    {
+      "text": "betting odds explained",
+      "url": "/betting-odds-explained/"
+    },
+    {
+      "text": "biggest payouts this week",
+      "url": "/biggest-payouts-this-week/"
+    }
   ],
   "body": [
     {

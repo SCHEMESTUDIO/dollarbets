@@ -1,0 +1,95 @@
+{
+  "slug": "will-bitcoin-hit-price-target",
+  "format": "explainer",
+  "seo": {
+    "title": "Will Bitcoin Hit $X? — Prediction Market Odds | Dollar Bets",
+    "h1": "Will Bitcoin Hit the Next Price Target? What the Market Says",
+    "meta_description": "What prediction markets say about Bitcoin's next big price target. Current odds, $1 returns, and why the market is usually wrong.",
+    "canonical": "/will-bitcoin-hit-price-target/"
+  },
+  "summary": "Prediction markets let you bet on whether Bitcoin will hit specific price targets by specific dates. A $1 contract on an unlikely BTC milestone can return serious money if it hits — and the crowd's track record on crypto predictions is, charitably, imperfect.",
+  "hero_bet": {
+    "title": "Will BTC hit the next major price target?",
+    "payout": 12,
+    "quip": "The market has opinions. They're priced accordingly.",
+    "tier": "orange",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "about Dollar Bets", "url": "/about/"},
+    {"text": "crypto prediction markets", "url": "/altcoin-moonshot-bets/"},
+    {"text": "how longshot odds work", "url": "/how-do-longshot-odds-work/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Every few months, a new Bitcoin price target becomes the main character of financial media. $100k. $150k. $250k. $1 million. The numbers keep getting rounder, the predictions keep getting louder, and prediction markets keep quietly pricing all of it."
+    },
+    {
+      "type": "heading",
+      "content": "how bitcoin price target markets work"
+    },
+    {
+      "type": "text",
+      "content": "On platforms like Kalshi, you can buy a contract that pays $1 if Bitcoin hits a specific price by a specific date. The contract price reflects what the crowd believes — a contract at $0.08 means the market thinks there's roughly an 8% chance. Your $1 buys about 12 contracts, and if BTC cooperates, you collect $12. If it doesn't, you're out a buck and a dream."
+    },
+    {
+      "type": "heading",
+      "content": "the crowd is confident until it isn't"
+    },
+    {
+      "type": "text",
+      "content": "Crypto markets have a particular talent for making consensus look ridiculous. In late 2021, prediction markets were pricing Bitcoin at $100k by year-end with surprising confidence. It then spent two years below $30k. Conversely, the 2024 rally blew past targets that markets had priced as near-impossible months earlier. The crowd isn't always wrong — it's just overconfident about being right."
+    },
+    {
+      "type": "heading",
+      "content": "near targets vs. moonshots"
+    },
+    {
+      "type": "text",
+      "content": "Not all BTC price target markets are created equal. A contract on Bitcoin hitting a price 10% above current levels might trade at $0.40 — reasonable, boring, respectable payout. A contract on Bitcoin doubling in three months might trade at $0.03 — deeply unlikely, deeply entertaining. Dollar Bets tends to feature the second kind because that's where the $1 framing gets interesting."
+    },
+    {
+      "type": "heading",
+      "content": "what moves the price of these contracts"
+    },
+    {
+      "type": "text",
+      "content": "Everything. Fed announcements, ETF inflows, Elon tweets, regulatory news, whale wallet movements, vibes. Bitcoin price target contracts are some of the most volatile on any prediction market because the underlying asset is itself volatile. A single day can move a contract from 3 cents to 15 cents or vice versa. This is what makes them fun to watch on the board — the numbers actually change."
+    },
+    {
+      "type": "heading",
+      "content": "the dollar bets angle"
+    },
+    {
+      "type": "text",
+      "content": "We translate every BTC price target market into what $1 could return. That framing cuts through the noise: you're not analyzing charts or reading whitepapers. You're asking a simple question — is this worth a dollar? — and letting the market's answer tell you how crazy the bet is. The bigger the payout, the more the crowd thinks you're delusional. Sometimes the crowd is right. Sometimes the crowd bought Bitcoin at $60k and sold at $16k."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I bet $1 on Bitcoin hitting a specific price?",
+      "a": "Yes. On Kalshi, you can buy contracts on Bitcoin price targets for pennies per contract. A dollar buys multiple contracts depending on the current price."
+    },
+    {
+      "q": "How accurate are prediction markets at forecasting Bitcoin prices?",
+      "a": "Mixed. Prediction markets aggregate crowd sentiment, which can be useful but has historically been both too bullish and too bearish on crypto at different times. They're better thought of as a snapshot of current belief, not a forecast."
+    },
+    {
+      "q": "What happens if Bitcoin hits the target after the contract expires?",
+      "a": "Nothing. Prediction market contracts have expiration dates. If Bitcoin hits the price after the deadline, the contract resolves as No and you don't get paid."
+    },
+    {
+      "q": "Is betting on Bitcoin prices the same as buying Bitcoin?",
+      "a": "No. Prediction market contracts are separate financial instruments. You don't own any Bitcoin — you own a contract that pays out based on Bitcoin's price. Different risk profile, different mechanics."
+    }
+  ],
+  "compliance": "Not financial advice. Prediction market contracts are speculative and involve risk of loss. Bitcoin prices are volatile and unpredictable. Dollar Bets does not operate markets or recommend trades. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-05-06",
+  "last_updated": "2026-05-06",
+  "cluster": "Crypto Moonshots",
+  "priority": 68
+}

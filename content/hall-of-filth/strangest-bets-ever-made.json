@@ -1,0 +1,116 @@
+{
+  "slug": "strangest-bets-ever-made",
+  "format": "historical_story",
+  "parent_category": "hall-of-filth",
+  "seo": {
+    "title": "The Strangest Bets Ever Made — A History of Beautiful Chaos | Dollar Bets",
+    "h1": "Strangest Bets Ever Made",
+    "meta_description": "The strangest bets in history. From a man who ate a plane to predicting the Pope — these wagers actually happened.",
+    "canonical": "/strangest-bets-ever-made/"
+  },
+  "summary": "People have been making absurd wagers for centuries. A man bet he could eat an entire airplane. Someone wagered on the next Pope. A golfer bet against himself making a hole-in-one and lost. These are real bets that really happened.",
+  "hero_bet": {
+    "title": "Illustrative: Stranger-than-fiction historical wager",
+    "payout": 100,
+    "quip": "People have always been like this.",
+    "tier": "purple",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    },
+    {
+      "text": "weird prediction markets",
+      "url": "/weird-prediction-markets/"
+    },
+    {
+      "text": "Hall of Filth",
+      "url": "/hall-of-filth/"
+    },
+    {
+      "text": "biggest longshot wins in sports history",
+      "url": "/biggest-longshot-wins-sports-history/"
+    }
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "The history of gambling is also a history of people staring at perfectly normal situations and thinking: yeah, but what if I put money on something unhinged instead? This is a roundup of real wagers that actually happened, placed by real humans who presumably had other options."
+    },
+    {
+      "type": "heading",
+      "content": "the man who ate an airplane"
+    },
+    {
+      "type": "text",
+      "content": "Michel Lotito, a French entertainer, consumed an entire Cessna 150 over a two-year period from 1978 to 1980. He ate it in small pieces, washing them down with mineral oil. While the specific wager details are murky, Lotito's feat became legendary in betting circles as the kind of thing that sounds fake until you see the documentation. If you'd been offered a contract on 'will a man finish eating this airplane,' the Yes price would have been disrespectfully low."
+    },
+    {
+      "type": "heading",
+      "content": "the papal prediction market of 2005"
+    },
+    {
+      "type": "text",
+      "content": "When Pope John Paul II died in 2005, betting markets immediately opened on his successor. Paddy Power and other books took action on dozens of candidates. Joseph Ratzinger (Benedict XVI) was the favorite and actually won, which was rare for a papal conclave — historically one of the most unpredictable events you can bet on. The cardinals vote in secret, there's no polling, and the field is enormous. It's the closest thing to a prediction market operating in total darkness."
+    },
+    {
+      "type": "heading",
+      "content": "the hole-in-one insurance bet"
+    },
+    {
+      "type": "text",
+      "content": "In the early 2000s, a golf tournament offered a car to anyone who hit a hole-in-one on a specific par-3. The event's insurance company priced the policy based on amateur odds — roughly 12,500-to-1. The problem: professional golfers have significantly better odds, around 2,500-to-1. When a pro hit the shot, the insurer had to pay out. The miscalculation became a famous case study in how badly you can misprice a market by not understanding who's in the field."
+    },
+    {
+      "type": "heading",
+      "content": "the brian zembic implant bet"
+    },
+    {
+      "type": "text",
+      "content": "In 1996, professional gambler Brian Zembic accepted a $100,000 bet that he wouldn't get breast implants and keep them for a year. He got the implants. He kept them for over 20 years. The bet was settled, the money was paid, and Zembic reportedly just never bothered to have them removed. This is the kind of commitment to a wager that prediction markets can only dream of."
+    },
+    {
+      "type": "heading",
+      "content": "the matthew webb channel swim bet"
+    },
+    {
+      "type": "text",
+      "content": "In 1875, Captain Matthew Webb became the first person to swim the English Channel. Lloyd's of London, which had been offering odds against the feat for years, had to pay out. The crossing took nearly 22 hours. At the time, the consensus was that it was physically impossible — which is what made the odds so attractive for anyone willing to bet on human stubbornness."
+    },
+    {
+      "type": "heading",
+      "content": "what these bets have in common"
+    },
+    {
+      "type": "text",
+      "content": "Every one of these wagers involved someone looking at a situation the consensus deemed impossible or absurd and putting money on it anyway. Some were right. Some were just committed. The thread connecting all of them is the same impulse that drives prediction market longshots today: the belief that the crowd is underpricing something, combined with the willingness to look stupid if you're wrong. People have always been like this. Prediction markets just made it easier to do from your phone."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are these bets verified?",
+      "a": "The events described are historically documented, though specific odds and payout amounts for older wagers are approximate or illustrative where exact records aren't available."
+    },
+    {
+      "q": "Can you still bet on things this weird?",
+      "a": "Modern prediction markets and novelty sportsbooks regularly offer markets on unusual events. The specifics change, but the spirit of strange wagers is alive and well."
+    },
+    {
+      "q": "What's the strangest active prediction market right now?",
+      "a": "Check today's board — Dollar Bets features the weirdest active markets daily. The 'weird bets' section specifically highlights markets that feel like they shouldn't exist but do."
+    }
+  ],
+  "compliance": "Historical odds and payouts in this article are illustrative or approximate where exact records are not available. Dollar Bets does not operate markets or place bets. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-05-06",
+  "last_updated": "2026-05-06",
+  "cluster": "Weird Bets",
+  "priority": 67
+}

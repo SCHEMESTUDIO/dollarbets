@@ -22,9 +22,9 @@
     {"text": "today's board", "url": "/"},
     {"text": "about Dollar Bets", "url": "/about/"},
     {"text": "Hall of Filth", "url": "/hall-of-filth/"},
-    {"text": "prediction market longshots", "url": "/prediction-market-longshots/"},
-    {"text": "Leicester City story", "url": "/hall-of-filth-leicester-city/"},
-    {"text": "Buster Douglas story", "url": "/hall-of-filth-buster-douglas/"}
+    {"text": "prediction market longshots", "url": "/prediction-markets/prediction-market-longshots/"},
+    {"text": "Leicester City story", "url": "/hall-of-filth/leicester-city/"},
+    {"text": "Buster Douglas story", "url": "/hall-of-filth/buster-douglas/"}
   ],
   "body": [
     {

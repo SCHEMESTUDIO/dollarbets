@@ -13,7 +13,7 @@
   "summary": "Prediction markets like Kalshi now offer contracts on weather events — rainfall, temperature thresholds, hurricanes, and more. Weather markets are one of the fastest-growing categories in prediction markets because the outcomes are binary, verifiable, and completely indifferent to your feelings.",
   "hero_bet": {
     "title": "Example: rain in a major city this month",
-    "payout": 2.70,
+    "payout": 2.7,
     "quip": "The cloud doesn't care about your bankroll.",
     "tier": "green",
     "sourcePlatform": "Kalshi",
@@ -21,11 +21,26 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "today's board", "url": "/"},
-    {"text": "what is a prediction market", "url": "/what-is-a-prediction-market/"},
-    {"text": "weird prediction markets", "url": "/weird-prediction-markets/"},
-    {"text": "prediction market longshots", "url": "/prediction-market-longshots/"},
-    {"text": "how to read prediction market odds", "url": "/how-to-read-prediction-market-odds/"}
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "what is a prediction market",
+      "url": "/what-is-a-prediction-market/"
+    },
+    {
+      "text": "weird prediction markets",
+      "url": "/weird-prediction-markets/"
+    },
+    {
+      "text": "prediction market longshots",
+      "url": "/prediction-markets/prediction-market-longshots/"
+    },
+    {
+      "text": "how to read prediction market odds",
+      "url": "/how-to-read-prediction-market-odds/"
+    }
   ],
   "body": [
     {

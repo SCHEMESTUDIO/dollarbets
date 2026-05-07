@@ -1445,18 +1445,17 @@ def generate_daily_board(boards):
 
 def generate_lineup_board(sports_boards):
     """Generate the /the-lineup/ page — today's curated sports board (formerly underdogs)."""
-    if not sports_boards:
-        print("[generate] No sports boards found, skipping the lineup page")
-        return
-
-    latest_date, latest_data = sports_boards[-1]
-    board = latest_data.get("board", [])
-
-    try:
-        dt = datetime.fromisoformat(latest_date)
-        date_str = dt.strftime("%B %d, %Y")
-    except ValueError:
-        date_str = latest_date
+    if sports_boards:
+        latest_date, latest_data = sports_boards[-1]
+        board = latest_data.get("board", [])
+        try:
+            dt = datetime.fromisoformat(latest_date)
+            date_str = dt.strftime("%B %d, %Y")
+        except ValueError:
+            date_str = latest_date
+    else:
+        board = []
+        date_str = datetime.now(timezone.utc).strftime("%B %d, %Y")
 
     # Tier counts for subtitle
     tier_counts = {}
@@ -2652,6 +2651,7 @@ def main():
         ("/chalk/", 0.8),
         ("/combo-meal/", 0.8),
         ("/about/", 0.7),
+        ("/guides/", 0.8),
     ]
     for slug in CATEGORIES:
         sitemap_pages.append((f"/{slug}/", 0.8))

@@ -17,9 +17,18 @@
     "category": "culture"
   },
   "internal_links": [
-    {"text": "today's best $1 bets", "url": "/"},
-    {"text": "how Kalshi odds work", "url": "/how-kalshi-odds-work/"},
-    {"text": "what is a prediction market", "url": "/what-is-a-prediction-market/"}
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    },
+    {
+      "text": "how Kalshi odds work",
+      "url": "/how-to-read-prediction-market-odds/"
+    },
+    {
+      "text": "what is a prediction market",
+      "url": "/what-is-a-prediction-market/"
+    }
   ],
   "body": [
     {

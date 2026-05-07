@@ -1,0 +1,115 @@
+{
+  "slug": "best-prediction-market-sites",
+  "format": "comparison",
+  "seo": {
+    "title": "Best Prediction Market Sites — Where to Trade Event Contracts | Dollar Bets",
+    "h1": "Best Prediction Market Sites",
+    "meta_description": "The best prediction market sites compared. Where to trade, minimum bets, available markets, and which ones let you start at $1.",
+    "canonical": "/best-prediction-market-sites/"
+  },
+  "summary": "The main prediction market platforms are Kalshi (CFTC-regulated, US-focused, real money), Polymarket (crypto-based, officially non-US), and Metaculus (no real money, reputation-based). For US users who want to trade event contracts starting at $1, Kalshi is the primary regulated option.",
+  "hero_bet": {
+    "title": "Platform comparison: where does your dollar go?",
+    "payout": 5,
+    "quip": "Where to put the dollar. Decisions, decisions.",
+    "tier": "green",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {
+      "text": "what is a prediction market?",
+      "url": "/what-is-a-prediction-market/"
+    },
+    {
+      "text": "prediction market longshots",
+      "url": "/prediction-markets/prediction-market-longshots/"
+    },
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Prediction markets have gone from academic curiosity to mainstream in about three years. There are now multiple platforms where you can trade contracts on real-world events — politics, weather, economics, sports, culture. The question isn't whether prediction markets are interesting anymore. It's which platform to use."
+    },
+    {
+      "type": "heading",
+      "content": "kalshi"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi is a CFTC-regulated exchange based in the US. It operates as a designated contract market, which means it's regulated like a financial exchange, not a casino. You deposit real USD, buy and sell event contracts priced between $0 and $1, and withdraw real USD. Contracts settle at $1 if the event happens, $0 if it doesn't. Minimum trades are in the cents — a single dollar can buy multiple contracts on the same event."
+    },
+    {
+      "type": "text",
+      "content": "Kalshi's market catalog covers elections, economics (Fed rate decisions, GDP, inflation), weather, tech milestones, and more. They added election markets after winning a federal court battle with the CFTC in 2024. The interface is clean, the fees are built into the spread, and the regulatory framework is the strongest of any US prediction market."
+    },
+    {
+      "type": "heading",
+      "content": "polymarket"
+    },
+    {
+      "type": "text",
+      "content": "Polymarket is a crypto-based prediction market that operates on the Polygon blockchain. It gained massive attention during the 2024 election cycle, with hundreds of millions of dollars in trading volume on presidential race contracts. The platform is officially not available to US users — it blocks US-based accounts — though enforcement of geographic restrictions on crypto platforms is an ongoing regulatory question."
+    },
+    {
+      "type": "text",
+      "content": "For non-US users, Polymarket offers a wide range of markets with high liquidity on popular events. Deposits are in USDC (a stablecoin), and the platform takes no explicit fees — revenue comes from the spread. The market selection tends to skew toward politics, tech, and culture."
+    },
+    {
+      "type": "heading",
+      "content": "metaculus and other forecasting platforms"
+    },
+    {
+      "type": "text",
+      "content": "Metaculus, Good Judgment Open, and Manifold Markets are forecasting platforms, not real-money exchanges. You make predictions and earn reputation points, not cash. They're excellent for building forecasting skills and tracking calibration. If you care about being right more than about getting paid, these are worth your time. If you want skin in the game, they're a practice run."
+    },
+    {
+      "type": "heading",
+      "content": "what to look for in a platform"
+    },
+    {
+      "type": "list",
+      "content": "Regulation and legal status in your jurisdiction; minimum deposit and minimum contract price; market selection breadth (does it cover what you're interested in?); liquidity — can you actually buy and sell at reasonable prices?; fee structure — explicit fees vs. built into the spread; deposit and withdrawal speed and methods; mobile app quality, if that matters to you"
+    },
+    {
+      "type": "heading",
+      "content": "the dollar bets perspective"
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets primarily links to Kalshi because it's the regulated US platform where a literal dollar gets you into real contracts on real events. We're an editorial site, not a platform review service — we scan markets daily and surface the interesting ones. If you're starting from zero and want to put $1 on something weird happening in the world, Kalshi is where we'd point you."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What's the best prediction market for beginners?",
+      "a": "For US users, Kalshi is the most accessible regulated option. You deposit USD, buy contracts in cents, and the interface is straightforward. For non-US users, Polymarket has high liquidity and a wide market selection."
+    },
+    {
+      "q": "Can you use Polymarket in the US?",
+      "a": "Polymarket officially blocks US-based users. It operates on crypto rails and is not regulated by the CFTC. US residents looking for a regulated option should use Kalshi."
+    },
+    {
+      "q": "Do prediction markets charge fees?",
+      "a": "It varies. Kalshi's fees are built into the bid-ask spread. Polymarket also operates on a spread model. Some platforms charge explicit transaction fees. Always check the fee structure before trading."
+    },
+    {
+      "q": "Which prediction market has the most markets?",
+      "a": "Polymarket and Kalshi both have extensive catalogs, though they emphasize different categories. Kalshi is particularly strong on economic and weather markets. Polymarket tends to have more crypto and culture markets."
+    }
+  ],
+  "compliance": "Platform details are accurate as of the publish date and may change. Regulatory status and availability vary by jurisdiction. Dollar Bets is an editorial site and does not operate prediction markets. Some links are affiliate links — see our affiliate disclosure. Trading event contracts involves risk of loss.",
+  "publish_date": "2026-05-07",
+  "last_updated": "2026-05-07",
+  "cluster": "Prediction Markets",
+  "priority": 65
+}

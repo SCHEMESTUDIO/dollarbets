@@ -1,0 +1,91 @@
+{
+  "slug": "supreme-court-prediction-markets",
+  "format": "weird_market_roundup",
+  "seo": {
+    "title": "Supreme Court Prediction Markets — Rulings, Retirements, Nominations | Dollar Bets",
+    "h1": "Supreme Court Prediction Markets",
+    "meta_description": "Supreme Court prediction markets. Ruling outcomes, retirement odds, and nomination markets — what $1 says about SCOTUS.",
+    "canonical": "/supreme-court-prediction-markets/"
+  },
+  "summary": "You can bet on Supreme Court outcomes — rulings, retirements, nominations, and confirmation votes. Prediction markets on SCOTUS tend to be illiquid and opinionated, which makes the $1 payouts surprisingly interesting.",
+  "hero_bet": {
+    "title": "Next SCOTUS retirement or major ruling market",
+    "payout": 8,
+    "quip": "Nine justices. Infinite market possibilities.",
+    "tier": "orange",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "about Dollar Bets", "url": "/about/"},
+    {"text": "weird prediction markets", "url": "/weird-prediction-markets/"},
+    {"text": "can you legally bet on elections?", "url": "/can-you-legally-bet-on-elections/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "The Supreme Court is one of the least predictable institutions in American public life. Nine people, lifetime appointments, no obligation to explain their reasoning in advance, and a calendar that guarantees a handful of consequential decisions every term. Prediction markets love this kind of setup."
+    },
+    {
+      "type": "heading",
+      "content": "ruling outcome markets"
+    },
+    {
+      "type": "text",
+      "content": "When a major case is before the Court, prediction markets sometimes offer contracts on the outcome — will the Court uphold or strike down a law, will a specific party prevail, will the decision be unanimous or split. These markets tend to be thin because SCOTUS watchers are a niche audience, but that thinness is exactly what creates interesting prices. A $1 contract on an outcome the legal consensus considers unlikely can pay handsomely if the Court does what it occasionally loves to do: surprise everyone."
+    },
+    {
+      "type": "heading",
+      "content": "retirement and vacancy markets"
+    },
+    {
+      "type": "text",
+      "content": "Will a justice retire this term? These markets are pure speculation dressed up as probability. Nobody knows when a justice will step down — including, sometimes, the justice. But the market tries to price it anyway, using health rumors, political timing, and vibes. The result is a contract that bounces around based on whispers and op-eds, which is chaotic and entertaining in a way that most financial instruments are not."
+    },
+    {
+      "type": "heading",
+      "content": "nomination and confirmation markets"
+    },
+    {
+      "type": "text",
+      "content": "When a vacancy opens, the prediction market circus begins immediately. Who will be nominated? Will they be confirmed? How many votes? These markets move fast and attract significantly more volume than the pre-vacancy speculation. The 2020 Barrett confirmation and the 2022 Jackson confirmation both generated active prediction market trading. The $1 framing works especially well here because the field of potential nominees is wide and the longshots are genuinely long."
+    },
+    {
+      "type": "heading",
+      "content": "why scotus markets are different"
+    },
+    {
+      "type": "text",
+      "content": "Unlike election markets, which have polling data and historical models to anchor prices, SCOTUS markets are flying mostly blind. Oral arguments offer clues. Clerk hiring patterns offer clues. But the actual deliberation is secret, the timeline is fuzzy, and the justices have shown a willingness to defy expectations in both directions. This uncertainty is what makes the $1 payouts interesting — the market is pricing something it genuinely doesn't know."
+    },
+    {
+      "type": "heading",
+      "content": "what shows up on the board"
+    },
+    {
+      "type": "text",
+      "content": "Dollar Bets features SCOTUS-related markets when they're active and the payouts are compelling. We stick to factual framing — ruling outcomes, vacancy timing, confirmation votes — and skip anything that gets into personal speculation about individual justices. The Court is interesting enough without that. Check the board during term months (October through June) for the best selection."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you actually bet on Supreme Court decisions?",
+      "a": "Yes. Platforms like Kalshi offer contracts on certain SCOTUS-related outcomes. Availability depends on the platform, the specific market, and your jurisdiction."
+    },
+    {
+      "q": "How accurate are prediction markets on SCOTUS rulings?",
+      "a": "There's limited historical data to judge. Prediction markets on SCOTUS tend to have low volume, which can make prices less reliable as probability estimates. They're better treated as gauges of informed sentiment than precise forecasts."
+    },
+    {
+      "q": "When are Supreme Court prediction markets most active?",
+      "a": "During the Court's term, particularly when high-profile cases are being argued or when retirement rumors are circulating. Late June, when major opinions are released, tends to be peak activity."
+    }
+  ],
+  "compliance": "Dollar Bets covers SCOTUS markets with non-partisan, factual framing. We do not speculate on personal matters regarding justices. Prediction market contracts involve risk of loss. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-05-06",
+  "last_updated": "2026-05-06",
+  "cluster": "Political Markets",
+  "priority": 68
+}

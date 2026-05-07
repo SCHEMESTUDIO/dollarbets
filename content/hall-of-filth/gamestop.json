@@ -1,0 +1,106 @@
+{
+  "slug": "hall-of-filth-gamestop",
+  "format": "historical_story",
+  "parent_category": "hall-of-filth",
+  "seo": {
+    "title": "GameStop Short Squeeze — The Hall of Filth | Dollar Bets",
+    "h1": "GameStop: When Reddit Broke the Market",
+    "meta_description": "The GameStop short squeeze of 2021. How Reddit broke the financial markets and what $1 in GME returned.",
+    "canonical": "/hall-of-filth/gamestop/"
+  },
+  "summary": "In January 2021, a subreddit full of self-described degenerates took on the hedge funds shorting GameStop and won — briefly, spectacularly, and in a way that made regulators very uncomfortable. A dollar invested at the right moment returned something obscene.",
+  "hero_bet": {
+    "title": "GameStop (GME) — Jan 2021 price surge",
+    "payout": 120,
+    "quip": "Reddit vs Wall Street. A dollar said maybe. A lot of dollars said maybe.",
+    "tier": "purple",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+    "note": "Illustrative — based on approximate GME price movement from ~$4 to ~$483 intraday peak"
+  },
+  "internal_links": [
+    {"text": "more Hall of Filth stories", "url": "/hall-of-filth/"},
+    {"text": "crypto moonshot bets", "url": "/altcoin-moonshot-bets/"},
+    {"text": "today's best $1 bets", "url": "/"},
+    {"text": "about Dollar Bets", "url": "/about/"}
+  ],
+  "current_equivalent": {
+    "category": "Financial Markets",
+    "text": "See today's financial market longshots",
+    "url": "/"
+  },
+  "body": [
+    {
+      "type": "text",
+      "content": "GameStop was a dying mall retailer. By late 2020, the stock was trading around $4. Hedge funds had shorted it into the ground — more than 100% of the available shares were sold short, which is the financial equivalent of selling a house you don't own twice. A user on r/WallStreetBets noticed. Then a few thousand users noticed. Then the internet happened."
+    },
+    {
+      "type": "heading",
+      "content": "what $1 would have returned"
+    },
+    {
+      "type": "text",
+      "content": "GME traded around $4 in mid-December 2020. On January 28, 2021, it hit an intraday high of approximately $483. That's roughly a 120x return. A single dollar, placed at the right time, would have been worth about $120. That's a purple square. That's Generational. And that's assuming you timed the exit perfectly, which almost nobody did."
+    },
+    {
+      "type": "text",
+      "content": "Note: these returns are illustrative, based on approximate GME share prices. Actual returns would have depended on entry and exit timing, brokerage, and whether your platform restricted trading — which several famously did."
+    },
+    {
+      "type": "heading",
+      "content": "how a subreddit broke finance"
+    },
+    {
+      "type": "text",
+      "content": "The mechanics were simple, even if the execution was chaos. GameStop was heavily shorted. If enough people bought the stock, the price would rise. Rising prices forced short sellers to buy shares to cover their positions, which pushed the price up further. This is a short squeeze, and it's textbook finance. What wasn't textbook was millions of retail traders coordinating on Reddit to make it happen."
+    },
+    {
+      "type": "text",
+      "content": "The memes were relentless. Diamond hands. Apes together strong. Tendies. The language was absurd, the stakes were real, and the hedge fund Melvin Capital lost approximately $6.8 billion. Congressional hearings followed. A Robinhood CEO became a meme. Keith Gill, known as DeepF***ingValue on Reddit and Roaring Kitty on YouTube, became a folk hero for posting his GME position — and holding it."
+    },
+    {
+      "type": "heading",
+      "content": "the trading halt that changed everything"
+    },
+    {
+      "type": "text",
+      "content": "On January 28, Robinhood and several other brokerages restricted buying of GME shares. Users could sell but not buy. The stock cratered. The backlash was immediate and bipartisan — a rare achievement. Lawsuits were filed. Trust in retail trading platforms took a hit it hasn't fully recovered from. The moment crystallized a suspicion many retail traders already had: the game might be rigged, and when you start winning, someone changes the rules."
+    },
+    {
+      "type": "heading",
+      "content": "why it belongs in the hall of filth"
+    },
+    {
+      "type": "text",
+      "content": "GameStop wasn't a traditional bet. It was a stock trade that behaved like a meme, moved like a short squeeze, and felt like a cultural movement. The dollar framing holds up: a trivially small position, placed at the right time, returned something absurd. It's the purest expression of what Dollar Bets tracks — asymmetric outcomes where the story is as valuable as the money."
+    },
+    {
+      "type": "text",
+      "content": "Some people made life-changing money. Some people lost everything by holding too long. Most people watched from the sidelines and refreshed the subreddit. All of them have a story. The ones who had a dollar on it have a better one."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much did GameStop stock actually go up?",
+      "a": "From roughly $4 in mid-December 2020 to an intraday peak of approximately $483 on January 28, 2021. The stock has since fluctuated significantly and split multiple times."
+    },
+    {
+      "q": "Did people actually make money on GameStop?",
+      "a": "Some did — those who bought early and sold near the peak. Many who bought during the peak lost money when the price crashed. Timing and exit strategy determined outcomes more than conviction."
+    },
+    {
+      "q": "Was the GameStop squeeze illegal?",
+      "a": "The SEC investigated and concluded that the price movement was driven by retail buying, not market manipulation. The trading restrictions by brokerages, however, remain controversial and the subject of ongoing legal proceedings."
+    },
+    {
+      "q": "Can something like GameStop happen on prediction markets?",
+      "a": "Prediction markets work differently — contracts settle at $0 or $1 based on real-world outcomes, not stock price. But the underlying appeal is similar: asymmetric payouts on events the crowd thinks are unlikely."
+    }
+  ],
+  "compliance": "This is an editorial retrospective, not investment advice. Returns cited are illustrative based on approximate share prices. Stock trading involves risk of loss. Past performance does not predict future results. Dollar Bets does not operate markets or recommend trades.",
+  "publish_date": "2026-05-07",
+  "last_updated": "2026-05-07",
+  "cluster": "Hall of Filth",
+  "priority": 66
+}

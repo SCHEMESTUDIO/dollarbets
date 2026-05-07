@@ -1,0 +1,103 @@
+{
+  "slug": "can-you-legally-bet-on-elections",
+  "format": "explainer",
+  "seo": {
+    "title": "Can You Legally Bet on Elections? What You Need to Know | Dollar Bets",
+    "h1": "Can You Legally Bet on Elections?",
+    "meta_description": "Can you legally bet on elections in the US? The short answer, the long answer, and what prediction markets actually are.",
+    "canonical": "/can-you-legally-bet-on-elections/"
+  },
+  "summary": "Yes, sort of, it depends. In the US, you can legally trade election contracts on CFTC-regulated prediction markets like Kalshi. Traditional sportsbooks generally can't offer election betting. The legal landscape shifted significantly in 2023-2024 and continues to evolve.",
+  "hero_bet": {
+    "title": "Example election contract on Kalshi",
+    "payout": 3,
+    "quip": "Legal? Complicated. Interesting? Absolutely.",
+    "tier": "green",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "what is a prediction market?", "url": "/what-is-a-prediction-market/"},
+    {"text": "supreme court prediction markets", "url": "/supreme-court-prediction-markets/"},
+    {"text": "today's best $1 bets", "url": "/"},
+    {"text": "about Dollar Bets", "url": "/about/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "The question everyone asks around election season: can you actually put money on who wins? The answer used to be a clean 'no' in the United States. Now it's more like 'yes, but through a specific kind of platform, and the rules are still being written.' Here's what you need to know."
+    },
+    {
+      "type": "heading",
+      "content": "prediction markets vs sportsbooks"
+    },
+    {
+      "type": "text",
+      "content": "Traditional sportsbooks — DraftKings, FanDuel, BetMGM — generally cannot offer election betting in the US. State gaming commissions haven't licensed it, and no major legal sportsbook has rolled out election markets domestically. Prediction markets are different. They operate as exchanges regulated by the Commodity Futures Trading Commission (CFTC), not state gaming boards. The legal framework treats event contracts as derivatives, not wagers."
+    },
+    {
+      "type": "heading",
+      "content": "the kalshi ruling"
+    },
+    {
+      "type": "text",
+      "content": "In 2023, Kalshi sued the CFTC for the right to list election contracts. The CFTC had blocked them, arguing that election betting violated the Commodity Exchange Act's prohibition on gaming. A federal court ruled in Kalshi's favor in September 2024, and the CFTC ultimately did not block the contracts from trading. Kalshi listed election markets for the 2024 presidential race. People traded them. The republic survived."
+    },
+    {
+      "type": "heading",
+      "content": "how election contracts work"
+    },
+    {
+      "type": "text",
+      "content": "An election contract is a yes/no question: Will Candidate X win State Y? Will Party Z control the Senate? You buy a contract at a price between $0 and $1. If the outcome happens, the contract pays $1. If it doesn't, you get nothing. The current price reflects the market's aggregate probability estimate. A contract trading at $0.60 means the crowd thinks there's roughly a 60% chance of that outcome."
+    },
+    {
+      "type": "heading",
+      "content": "state-by-state availability"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi is available in most US states, but not all. Some states have additional restrictions on event contracts. Availability can change as state regulators weigh in. The platform checks your location when you sign up and restricts access accordingly. If you're in a restricted state, you're out of luck — no VPN workarounds, no exceptions."
+    },
+    {
+      "type": "heading",
+      "content": "offshore platforms"
+    },
+    {
+      "type": "text",
+      "content": "Platforms like Polymarket (which is crypto-based and officially not available to US users) and PredictIt (which operated under a limited CFTC no-action letter that expired) have also offered election markets at various times. The legal status of using offshore or crypto-based prediction markets as a US resident is murky at best. Dollar Bets links to regulated platforms."
+    },
+    {
+      "type": "heading",
+      "content": "what this means for $1 bettors"
+    },
+    {
+      "type": "text",
+      "content": "If you're in an eligible state and want to put $1 on a political outcome, you can do that on Kalshi right now. The contracts are real, the payouts are real, and the legal framework — while still evolving — has been validated by a federal court. It's not the Wild West anymore. It's more like the Regulated Midwest."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it legal to bet on the presidential election?",
+      "a": "On CFTC-regulated prediction markets like Kalshi, yes — in most US states. Traditional sportsbooks do not offer election betting in the US. Laws and availability vary by state."
+    },
+    {
+      "q": "Can I bet on elections on DraftKings or FanDuel?",
+      "a": "No. Major US sportsbooks do not currently offer election betting. Election contracts are available on prediction market exchanges like Kalshi, which operate under different regulatory frameworks."
+    },
+    {
+      "q": "How much can I bet on an election?",
+      "a": "On Kalshi, you can buy contracts for as little as a few cents. There are position limits that cap the maximum exposure on certain contracts, but for most retail users, the limits are well above what they'd wager."
+    },
+    {
+      "q": "Are prediction market odds better than polls?",
+      "a": "Different, not necessarily better. Prediction markets aggregate the opinions of people with money at stake, which can capture information polls miss. But markets can also be wrong — they're a probability estimate, not a crystal ball."
+    }
+  ],
+  "compliance": "This page is for informational purposes and does not constitute legal advice. Election contract availability varies by jurisdiction and may change. Consult the specific platform and your local regulations before trading. Prediction market contracts involve risk of loss. Some links are affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-05-07",
+  "last_updated": "2026-05-07",
+  "cluster": "Political Markets",
+  "priority": 65
+}

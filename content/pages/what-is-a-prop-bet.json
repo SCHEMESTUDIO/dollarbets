@@ -1,0 +1,107 @@
+{
+  "slug": "what-is-a-prop-bet",
+  "format": "explainer",
+  "seo": {
+    "title": "What Is a Prop Bet? — Proposition Bets Explained | Dollar Bets",
+    "h1": "What Is a Prop Bet?",
+    "meta_description": "What prop bets are and why they're the most entertaining corner of the betting world.",
+    "canonical": "/what-is-a-prop-bet/"
+  },
+  "summary": "A prop bet (proposition bet) is a wager on a specific event within a game or situation — not on the final outcome. Will a player score first? Will the national anthem run over 2 minutes? Props turn everything into a market.",
+  "hero_bet": {
+    "title": "Example prop: player performance over/under",
+    "payout": 5,
+    "quip": "The bet within the bet. Props make everything a market.",
+    "tier": "yellow",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    },
+    {
+      "text": "weird prop bets",
+      "url": "/weird-markets/weird-prop-bets/"
+    },
+    {
+      "text": "betting odds explained",
+      "url": "/betting-odds-explained/"
+    }
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "A prop bet — short for proposition bet — is a wager on something specific happening within a larger event. Instead of betting on who wins the game, you're betting on who scores first, how many strikeouts a pitcher records, or whether the coin toss lands heads. Props take a single event and fracture it into dozens of micro-markets, each with its own odds."
+    },
+    {
+      "type": "heading",
+      "content": "player props"
+    },
+    {
+      "type": "text",
+      "content": "The most common prop bets are player performance lines. Will a quarterback throw over 275.5 passing yards? Will a basketball player hit more than 2.5 three-pointers? The sportsbook sets a line, and you pick the over or the under. These are popular because they let you bet on individual performance regardless of whether the team wins. You can hate both teams and still have a strong opinion about a running back's yardage."
+    },
+    {
+      "type": "heading",
+      "content": "game props"
+    },
+    {
+      "type": "text",
+      "content": "Game props are about events within the contest that don't directly determine the winner. Will there be a safety? Will the game go to overtime? Will both teams score in the first quarter? These are the props that turn casual fans into interested parties — suddenly you care about the first possession of the second half because you've got a dollar riding on it."
+    },
+    {
+      "type": "heading",
+      "content": "novelty and super bowl props"
+    },
+    {
+      "type": "text",
+      "content": "This is where props get weird and beautiful. Super Bowl prop betting is its own industry: the length of the national anthem, the color of the Gatorade shower, whether a specific commercial will air in the first quarter. These aren't serious analytical exercises. They're group-chat entertainment priced like financial instruments. The fact that someone at a sportsbook had to set a line on Gatorade color is one of the great achievements of modern capitalism."
+    },
+    {
+      "type": "heading",
+      "content": "props and prediction markets — cousins, not twins"
+    },
+    {
+      "type": "text",
+      "content": "Prediction markets work on a similar principle: isolate a specific yes-or-no question and price it. Will the Fed raise rates? Will a movie gross over $500 million? Each contract is essentially a prop bet on reality. Dollar Bets leans into this connection — every market on the board is a proposition, framed as what a $1 answer is worth. The difference is structural (exchanges vs. sportsbooks) but the emotional appeal is identical."
+    },
+    {
+      "type": "heading",
+      "content": "the appeal of the prop"
+    },
+    {
+      "type": "text",
+      "content": "Props work because they give you something to care about when the main event isn't enough. A blowout is boring if you only bet the spread. But if you've got the over on a receiver's receptions, garbage time suddenly matters. Props don't just add stakes — they add attention. And attention, ultimately, is the product."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What's the difference between a prop bet and a regular bet?",
+      "a": "A regular bet (moneyline, spread, total) is on the overall outcome of a game. A prop bet is on a specific event within the game — like a player stat line or an in-game occurrence."
+    },
+    {
+      "q": "Are prop bets harder to win than regular bets?",
+      "a": "Not inherently. Some props have similar house edges to standard lines. Novelty props tend to have wider margins because the books know you're betting for fun, not edge."
+    },
+    {
+      "q": "Can you parlay prop bets?",
+      "a": "Most sportsbooks allow prop parlays, often called same-game parlays (SGPs). These combine multiple props from the same event into one ticket with compounded odds."
+    },
+    {
+      "q": "Are prediction market contracts prop bets?",
+      "a": "Structurally, they're similar — both are yes-or-no propositions with a defined resolution. Prediction markets are exchange-traded contracts rather than sportsbook-offered lines, but the concept is closely related."
+    }
+  ],
+  "compliance": "This page is educational. Dollar Bets does not operate markets, place bets, or recommend wagers. Prop bet availability varies by platform and jurisdiction. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-05-06",
+  "last_updated": "2026-05-06",
+  "cluster": "Betting Explainers",
+  "priority": 66
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "free-dollar-bet-promos",
+  "format": "affiliate_page",
+  "seo": {
+    "title": "Free Dollar Bet Promos — Verified Offers | Dollar Bets",
+    "h1": "Free Dollar Bet Promos",
+    "meta_description": "Current free bet and dollar bet promotions from verified sportsbooks and prediction markets.",
+    "canonical": "/free-dollar-bet-promos/"
+  },
+  "summary": "Some platforms give you free credit to start trading. Here are the current verified promotions where you can get a dollar bet (or equivalent) without reaching for your wallet. Offers change constantly, so we check and update this page regularly.",
+  "hero_bet": {
+    "title": "Kalshi sign-up bonus (check current offer)",
+    "payout": 2,
+    "quip": "Free money is never free. But sometimes it's a dollar.",
+    "tier": "green",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "what can you bet $1 on?", "url": "/what-can-you-bet-one-dollar-on/"},
+    {"text": "today's best $1 bets", "url": "/"},
+    {"text": "what is a prediction market?", "url": "/what-is-a-prediction-market/"},
+    {"text": "about Dollar Bets", "url": "/about/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Platforms want new users. New users want free stuff. Occasionally these interests align and someone gives you a dollar to play with. This page tracks the current promotions from prediction markets and sportsbooks where you can start with house money — or at least a modest subsidy."
+    },
+    {
+      "type": "heading",
+      "content": "prediction market promotions"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi periodically offers sign-up bonuses and referral credits. The specifics change — sometimes it's a deposit match, sometimes it's free contracts, sometimes it's a referral bonus for both parties. Check the current offer through our link, which may include a referral bonus. Other platforms like Polymarket have run similar onboarding incentives at various points."
+    },
+    {
+      "type": "heading",
+      "content": "sportsbook free bets"
+    },
+    {
+      "type": "text",
+      "content": "Major sportsbooks regularly offer new-user promotions: bet $5 get $150 in bonus bets, first-bet insurance, deposit matches. These rotate frequently and vary by state. The catch is always in the terms — bonus bets usually can't be withdrawn directly, and wagering requirements apply. Read the fine print. Then read it again."
+    },
+    {
+      "type": "heading",
+      "content": "what 'free' actually means"
+    },
+    {
+      "type": "text",
+      "content": "No platform is giving you money out of kindness. Free bet promotions are customer acquisition costs — the platform is betting that once you sign up, you'll deposit real money and keep trading. That's fine. That's how business works. Just know the game you're playing before you play it."
+    },
+    {
+      "type": "text",
+      "content": "Bonus bets typically expire within 7-14 days. They usually can't be combined with other offers. Winnings from bonus bets may exclude the stake amount. Some promos require a minimum deposit before the bonus activates. None of this is hidden — it's just buried in terms pages nobody reads."
+    },
+    {
+      "type": "heading",
+      "content": "how to actually use a free bet"
+    },
+    {
+      "type": "text",
+      "content": "If you're getting house money, the mathematically rational move is to use it on the highest-payout longshot available. You're not risking your own cash, so the expected-value calculus shifts. A free $1 on a contract priced at 2 cents has the same downside as not having the dollar — zero — but the upside is $50. This is the one situation where going full degenerate is actually the smart play."
+    },
+    {
+      "type": "heading",
+      "content": "promotions we track"
+    },
+    {
+      "type": "text",
+      "content": "We update this page as offers change. If a promo listed here has expired, let us know. We don't list offers we haven't verified, and we don't inflate the value of promotions to make them sound better than they are. Every link on this page is an affiliate link — we earn a commission if you sign up. That's how we keep the lights on."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are free bet promotions actually free?",
+      "a": "You don't pay cash upfront, but there are always conditions — wagering requirements, expiration dates, withdrawal restrictions. Read the terms before claiming any offer."
+    },
+    {
+      "q": "Can I withdraw a free bet bonus immediately?",
+      "a": "Almost never. Most platforms require you to wager the bonus amount (sometimes multiple times) before any winnings can be withdrawn. The specific requirements vary by platform and promotion."
+    },
+    {
+      "q": "Do prediction markets offer sign-up bonuses?",
+      "a": "Some do, periodically. Kalshi has offered referral bonuses and deposit matches at various times. Offers change frequently — check our links for current promotions."
+    },
+    {
+      "q": "Which free bet promo is the best right now?",
+      "a": "It depends on what's currently active and where you're located. We list verified offers on this page and update regularly. Sportsbook promos tend to be larger but come with more restrictions."
+    }
+  ],
+  "compliance": "This page contains affiliate links. Dollar Bets earns a commission on sign-ups through these links at no additional cost to you. Promotions, terms, and availability change frequently — always verify current offers directly on each platform before claiming. Gambling involves risk of loss. See our affiliate disclosure for full details.",
+  "publish_date": "2026-05-07",
+  "last_updated": "2026-05-07",
+  "cluster": "$1 Bets",
+  "priority": 65
+}

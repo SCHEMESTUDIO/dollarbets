@@ -18,10 +18,22 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "today's board", "url": "/"},
-    {"text": "weird prop bets", "url": "/weird-prop-bets/"},
-    {"text": "weird prediction markets", "url": "/weird-prediction-markets/"},
-    {"text": "about Dollar Bets", "url": "/about/"}
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "weird prop bets",
+      "url": "/weird-markets/weird-prop-bets/"
+    },
+    {
+      "text": "weird prediction markets",
+      "url": "/weird-prediction-markets/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
   ],
   "body": [
     {

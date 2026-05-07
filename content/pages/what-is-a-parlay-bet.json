@@ -1,0 +1,95 @@
+{
+  "slug": "what-is-a-parlay-bet",
+  "format": "explainer",
+  "seo": {
+    "title": "What Is a Parlay? — Multi-Leg Bets Explained | Dollar Bets",
+    "h1": "What Is a Parlay Bet?",
+    "meta_description": "How parlay bets work. Stack multiple bets into one ticket, multiply the odds, and watch the payout fantasy unfold.",
+    "canonical": "/what-is-a-parlay-bet/"
+  },
+  "summary": "A parlay combines multiple individual bets into one ticket. Every leg has to hit for the parlay to pay out. More legs means a bigger payout and a smaller chance of winning — which is exactly why people love them.",
+  "hero_bet": {
+    "title": "Example: 4-leg parlay, $1 in",
+    "payout": 14,
+    "quip": "More legs, more zeros, less chance. That's the deal.",
+    "tier": "orange",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's board", "url": "/"},
+    {"text": "about Dollar Bets", "url": "/about/"},
+    {"text": "betting odds explained", "url": "/betting-odds-explained/"},
+    {"text": "biggest payouts this week", "url": "/biggest-payouts-this-week/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "A parlay is what happens when a single bet isn't exciting enough. You take two, three, five, ten individual picks and chain them together into one ticket. If every single leg hits, the combined odds multiply and the payout blooms into something beautiful. If one leg misses, the whole thing dies. That's the contract."
+    },
+    {
+      "type": "heading",
+      "content": "how parlays actually work"
+    },
+    {
+      "type": "text",
+      "content": "Say you like three outcomes: Team A wins, the over hits, and Player X scores first. Individually, each bet might pay even money or slightly better. But chain them together and the odds compound. A three-leg parlay at even odds on each leg turns $1 into roughly $8. A five-legger? Around $32. A ten-leg same-game parlay posted on social media by someone who hit it? That's the one that gets 40,000 retweets and makes everyone think they can do it too."
+    },
+    {
+      "type": "heading",
+      "content": "the math is not your friend"
+    },
+    {
+      "type": "text",
+      "content": "Here's the thing sportsbooks don't put on the billboard: the house edge compounds with every leg you add. Each individual bet already has a margin built in. Stack five of them and the combined margin gets ugly. This is why sportsbooks promote parlays so aggressively — they're the most profitable product on the menu. The payout looks huge because the probability is small, and the probability is even smaller than the payout suggests."
+    },
+    {
+      "type": "heading",
+      "content": "why people love them anyway"
+    },
+    {
+      "type": "text",
+      "content": "Because a $1 parlay ticket is the cheapest entertainment in gambling. You're buying a few hours of sweating every possession, every at-bat, every drive. The narrative writes itself: three legs down, two to go, and suddenly you're doing math on your phone about what $147 would mean for your weekend. The bet is almost beside the point — the experience is the product."
+    },
+    {
+      "type": "heading",
+      "content": "parlays vs. prediction market contracts"
+    },
+    {
+      "type": "text",
+      "content": "Prediction markets like Kalshi work differently — each contract is standalone, not chained. But the emotional logic is similar. A cheap contract on a longshot outcome gives you the same parlay feeling: low cost, outsized potential return, and that irrational optimism that makes Wednesday interesting. Dollar Bets features individual contracts rather than multi-leg parlays, but if you're the type who builds 8-leg SGPs, you already understand the vibe."
+    },
+    {
+      "type": "heading",
+      "content": "the dollar framing"
+    },
+    {
+      "type": "text",
+      "content": "On Dollar Bets, every market is framed as what $1 could return. That's basically a one-leg parlay — a single binary outcome with a fixed payout. No compounding house edge, no chain of dependencies. Just one question, one dollar, one answer. It's the parlay mentality distilled to its purest form."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What's the minimum number of legs in a parlay?",
+      "a": "Two. A two-leg parlay is the simplest version — two bets combined into one ticket. Both have to win for the parlay to pay."
+    },
+    {
+      "q": "Can you parlay prediction market bets?",
+      "a": "Not directly on most platforms. Prediction market contracts are individual yes/no positions. You can buy multiple contracts separately, but they don't chain into a single parlay ticket with compounded odds."
+    },
+    {
+      "q": "Why do sportsbooks push parlays so hard?",
+      "a": "Because the house edge multiplies with every leg. Parlays are significantly more profitable for the book than straight bets. The big payouts make great marketing but represent a meaningful edge for the house."
+    },
+    {
+      "q": "Has anyone actually won a huge parlay?",
+      "a": "Yes. There are verified five- and six-figure parlay wins. They make the news precisely because they're rare. For every screenshot of a winning ticket, there are thousands of losing ones that nobody posts."
+    }
+  ],
+  "compliance": "Parlays are extremely unlikely to win. The house edge compounds with each additional leg. This page is educational — Dollar Bets does not place bets or recommend wagers. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-05-06",
+  "last_updated": "2026-05-06",
+  "cluster": "Betting Explainers",
+  "priority": 68
+}
