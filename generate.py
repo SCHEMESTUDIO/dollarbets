@@ -337,79 +337,53 @@ SHARED_CSS = """
       line-height: 1.5;
     }
 
-    /* === SHARE === */
-    .share-wrap {
-      position: relative;
+    /* === ACTION TEXT === */
+    .wager-action {
+      font-size: 11px;
+      color: #a08b77;
       margin-left: auto;
       flex-shrink: 0;
+      transition: color 0.12s;
     }
 
-    .share-btn {
-      font-size: 10.5px;
+    .wager:hover .wager-action {
       color: #e8642c;
-      cursor: pointer;
-      border: 1px solid #e8642c;
-      background: #fff;
-      font-family: 'Courier New', monospace;
-      padding: 4px 10px;
-      letter-spacing: 0.3px;
-      border-radius: 4px;
-      transition: all 0.12s ease;
-      font-weight: 700;
     }
 
-    .share-btn:hover {
-      color: #fff;
-      background: #e8642c;
-      border-color: #e8642c;
+    /* === SHARE (inline row) === */
+    .share-row {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      margin-top: 4px;
+      font-size: 10px;
+      color: #a08b77;
     }
 
-    .share-menu {
-      display: none;
-      position: absolute;
-      right: 0;
-      bottom: calc(100% + 6px);
-      background: #fff;
-      border: 1.5px solid #e8cdb5;
-      border-radius: 4px;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-      z-index: 100;
-      min-width: 130px;
-      font-family: 'Courier New', monospace;
-      font-size: 11px;
+    .share-label {
+      color: #a08b77;
     }
 
-    .share-menu.open { display: block; }
-
-    .share-menu button {
-      display: block;
-      width: 100%;
-      text-align: left;
-      padding: 7px 12px;
+    .share-link {
       border: none;
       background: none;
       cursor: pointer;
       font-family: 'Courier New', monospace;
-      font-size: 11px;
-      color: #2d2319;
-      letter-spacing: 0.2px;
-      white-space: nowrap;
+      font-size: 10px;
+      color: #6b5744;
+      padding: 0;
+      transition: color 0.12s;
     }
 
-    .share-menu button:hover {
-      background: #fdf0e4;
-      color: #e8642c;
-    }
+    .share-link:hover { color: #e8642c; }
+    .share-link.sm-reddit:hover { color: #ff4500; }
+    .share-link.sm-x:hover { color: #000; }
+    .share-link.sm-fb:hover { color: #1877f2; }
+    .share-link.sm-copy.copied { color: #5a8a5a; }
 
-    .share-menu button + button {
-      border-top: 1px solid #f0e0d0;
+    .share-dot {
+      color: #d4c4b0;
     }
-
-    .share-menu .sm-reddit:hover { color: #ff4500; }
-    .share-menu .sm-x:hover { color: #000; }
-    .share-menu .sm-fb:hover { color: #1877f2; }
-    .share-menu .sm-copy:hover { color: #e8642c; }
-    .share-menu .sm-copy.copied { color: #5a8a5a; }
 
     /* === BOARD PROMO NAV UNIT === */
     .board-promo {
@@ -468,8 +442,7 @@ SHARED_CSS = """
     }
 
     .page-intro {
-      font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
-      font-size: 15px;
+      font-size: 14px;
       color: #3d2e1f;
       line-height: 1.7;
       margin-bottom: 18px;
@@ -609,6 +582,58 @@ SHARED_CSS = """
 
     .footer a:hover { color: #e8642c; }
 
+    /* === BOARD NAV BOTTOM (repeated browsing nav) === */
+    .board-nav-bottom {
+      text-align: center;
+      font-size: 11px;
+      color: #a08b77;
+      padding: 14px 0;
+      line-height: 2.2;
+      letter-spacing: 0.3px;
+    }
+
+    .board-nav-bottom a {
+      color: #6b5744;
+      text-decoration: none;
+      transition: color 0.12s;
+    }
+
+    .board-nav-bottom a:hover { color: #e8642c; }
+
+    /* === FOOTER INFO NAV (quiet secondary links) === */
+    .footer-info-nav {
+      text-align: center;
+      font-size: 10px;
+      color: #a08b77;
+      padding: 10px 0 16px;
+      line-height: 2.2;
+    }
+
+    .footer-info-nav a {
+      color: #a08b77;
+      text-decoration: none;
+      transition: color 0.12s;
+    }
+
+    .footer-info-nav a:hover { color: #e8642c; }
+
+    /* === FILTHY LITTLE LONGSHOT === */
+    .wager.longshot-pick a {
+      border-width: 2.5px;
+    }
+
+    .longshot-label {
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .longshot-pick .wager-quip {
+      font-weight: 700;
+    }
+
     .geo-banner {
       background: #fef9e7; border: 1px solid #d4c479; color: #5a4e2f;
       padding: 8px 12px; font-size: 11px; margin-bottom: 12px;
@@ -643,27 +668,26 @@ SIGNUP_HTML = """
 SIGNUP_JS = ""
 
 
+BOARD_NAV_LINKS = [
+    ("/", "today's board"),
+    ("/the-lineup/", "the lineup"),
+    ("/weird-markets/", "black swans"),
+    ("/politics-markets/", "gridlock"),
+    ("/financial-markets/", "ball street"),
+    ("/crypto-markets/", "moonshots"),
+    ("/underdogs/", "underdogs"),
+    ("/the-ocho/", "the ocho"),
+    ("/chalk/", "chalk"),
+    ("/combo-meal/", "combo meal"),
+]
+
+
 def nav_html(current=""):
-    """Two-line site nav: row 1 = theme boards, row 2 = site links."""
-    row1_links = [
-        ("/", "today's board"),
-        ("/the-lineup/", "the lineup"),
-        ("/weird-markets/", "black swans"),
-        ("/politics-markets/", "gridlock"),
-        ("/financial-markets/", "ball street"),
-        ("/crypto-markets/", "moonshots"),
-    ]
-    row2_links = [
-        ("/underdogs/", "underdogs"),
-        ("/the-ocho/", "the ocho"),
-        ("/chalk/", "chalk"),
-        ("/combo-meal/", "combo meal"),
-        ("/guides/", "guides"),
-        ("/about/", "about"),
-    ]
+    """Primary board nav — browsing destinations only."""
+    row1_links = BOARD_NAV_LINKS[:6]
+    row2_links = BOARD_NAV_LINKS[6:]
 
     def render_link(href, label):
-        # Normalize: "/" -> "/" (homepage), "/foo/" -> "foo"
         norm_href = href if href == "/" else href.strip("/")
         norm_cur = current if current == "/" else current.strip("/")
         if norm_cur and norm_href == norm_cur:
@@ -673,6 +697,33 @@ def nav_html(current=""):
     r1 = " ".join(render_link(h, l) for h, l in row1_links)
     r2 = " ".join(render_link(h, l) for h, l in row2_links)
     return f'<div class="nav"><div class="nav-row">{r1}</div><div class="nav-row">{r2}</div></div>'
+
+
+def board_nav_bottom(current=""):
+    """Repeated board nav after main content — 'keep browsing' feel."""
+    links = []
+    for href, label in BOARD_NAV_LINKS:
+        norm_href = href if href == "/" else href.strip("/")
+        norm_cur = current if current == "/" else current.strip("/")
+        if norm_cur and norm_href == norm_cur:
+            links.append(label)
+        else:
+            links.append(f'<a href="{href}">{label}</a>')
+    return f'    <div class="board-nav-bottom">{" &middot; ".join(links)}</div>\n'
+
+
+def footer_info_nav():
+    """Quiet footer nav for secondary/info pages."""
+    links = [
+        ("/guides/", "guides"),
+        ("/about/", "about"),
+        ("/affiliate-disclosure/", "affiliate disclosure"),
+        ("/privacy/", "privacy"),
+        ("/terms/", "terms"),
+        ("mailto:james.lamon@gmail.com", "contact"),
+    ]
+    items = " &middot;\n        ".join(f'<a href="{h}">{l}</a>' for h, l in links)
+    return f'    <div class="footer-info-nav">\n        {items}\n    </div>\n'
 
 
 def page_shell(title, description, body, canonical="", noindex=False, current_nav="", extra_head=""):
@@ -729,52 +780,33 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
 
     <hr>
 
+{board_nav_bottom(current_nav)}
+
 {SIGNUP_HTML}
+
+    <div style="font-size:10px;color:#a08b77;text-align:center;padding:6px 0;line-height:1.6">links open third-party markets. prices and availability change.</div>
+
+{footer_info_nav()}
 
     <div class="footer">
       <p>dollar bets is an editorial discovery site, not a broker, exchange, bookmaker, financial adviser, or gambling operator. we do not operate markets, take bets, or provide betting, financial, investment, or legal advice. market availability varies by jurisdiction. users are responsible for complying with local laws and platform eligibility rules. longshots are unlikely by definition. never risk money you cannot afford to lose.</p>
       <p style="margin-top:6px">"$1 pays" = what one dollar returns if the event happens. actual returns depend on price at purchase. some links may be affiliate links — see our <a href="/affiliate-disclosure/">disclosure</a>.</p>
       <p style="margin-top:6px">this site is intended for adults only. do not use this site if you are under the legal age for gambling, trading, or participating in prediction markets in your jurisdiction.</p>
-      <p style="margin-top:8px">
-        <a href="/about/">about</a> &middot;
-        <a href="/editorial-policy/">editorial policy</a> &middot;
-        <a href="/affiliate-disclosure/">affiliate disclosure</a> &middot;
-        <a href="/responsible-gambling/">responsible gambling</a> &middot;
-        <a href="/availability/">jurisdiction</a> &middot;
-        <a href="/privacy/">privacy</a> &middot;
-        <a href="/terms/">terms</a> &middot;
-        <a href="mailto:james.lamon@gmail.com">contact</a>
-      </p>
       <p style="margin-top:6px">&copy; {year} dollarbets.lol</p>
     </div>
 
   </div>
 {SIGNUP_JS}
 <script>
-// close any open share menu when clicking elsewhere
-document.addEventListener('click', function() {{
-  document.querySelectorAll('.share-menu.open').forEach(function(m) {{ m.classList.remove('open'); }});
-}});
-
-function toggleShare(e, btn) {{
-  e.preventDefault();
-  e.stopPropagation();
-  // close other open menus first
-  document.querySelectorAll('.share-menu.open').forEach(function(m) {{ m.classList.remove('open'); }});
-  var menu = btn.parentElement.querySelector('.share-menu');
-  menu.classList.toggle('open');
-}}
-
 function shareTo(e, platform, btn) {{
   e.preventDefault();
   e.stopPropagation();
-  var wrap = btn.closest('.share-wrap');
+  var wrap = btn.closest('.share-row');
   var t = wrap.dataset.title;
   var q = wrap.dataset.quip;
   var p = wrap.dataset.payout;
   var ticker = wrap.dataset.ticker;
   var shareUrl = ticker ? 'https://dollarbets.lol/share/' + encodeURIComponent(ticker) + '/' : 'https://dollarbets.lol';
-  var menu = wrap.querySelector('.share-menu');
 
   if (platform === 'reddit') {{
     var redditTitle = t + ' — $1 pays ' + p + ' | Dollar Bets';
@@ -881,6 +913,65 @@ def legend_html():
     return f'    <div class="legend">\n      {items}\n    </div>\n'
 
 
+def select_filthy_longshot(board):
+    """Select today's filthy little longshot — the weirdest, most absurd market.
+
+    Selection criteria (in priority order):
+    1. Favor markets scored as high-entertainment by the scanner (entertainment_score)
+    2. Favor markets NOT in routine categories (crypto price targets, generic elections,
+       hottest month on record, routine sports outrights)
+    3. Favor higher-tier markets (orange/red/purple over green/yellow) but don't
+       just pick the highest payout — a weird orange beats a boring purple
+    4. If the scanner flagged a market as 'longshot_pick', prefer it
+
+    Returns the index of the chosen bet in the board list, or None if board is empty.
+    """
+    if not board:
+        return None
+
+    BORING_PATTERNS = [
+        r"bitcoin.*\$\d", r"btc.*\$\d", r"eth.*\$\d", r"ethereum.*\$\d",
+        r"hottest.*month", r"warmest.*month", r"temperature.*record",
+        r"who will win the 20\d\d", r"will win the presidency",
+        r"next president", r"price.*above.*\$", r"price.*below.*\$",
+    ]
+
+    TIER_SCORE = {"green": 0, "yellow": 1, "orange": 2, "red": 3, "purple": 4}
+
+    best_idx = 0
+    best_score = -1
+
+    for i, m in enumerate(board):
+        title_lower = m.get("title", "").lower()
+        score = 0
+
+        # Scanner entertainment score (0-10 range typically)
+        score += m.get("entertainment_score", 5) * 2
+
+        # Tier bonus — higher tiers are more dramatic
+        score += TIER_SCORE.get(m.get("tier", ""), 0) * 3
+
+        # Penalty for routine/boring markets
+        is_boring = any(re.search(pat, title_lower) for pat in BORING_PATTERNS)
+        if is_boring:
+            score -= 15
+
+        # Bonus if scanner flagged it
+        if m.get("longshot_pick"):
+            score += 10
+
+        # Bonus for categories that tend to be weird
+        cat = m.get("category", "").lower()
+        if cat in ("science", "entertainment", "culture", "world", "weather"):
+            score += 3
+
+        if score > best_score:
+            best_score = score
+            best_idx = i
+
+    return best_idx
+
+
 def format_payout(payout):
     if payout >= 1000:
         return f"${payout:,.0f}"
@@ -890,7 +981,25 @@ def format_payout(payout):
         return f"${payout:.2f}"
 
 
-def render_bet_card(m):
+TIER_COLORS = {
+    "green": "#4caf50",
+    "yellow": "#e6c731",
+    "orange": "#e8842c",
+    "red": "#e05252",
+    "purple": "#9c5ec7",
+}
+
+PLATFORM_DISPLAY_NAMES = {
+    "kalshi": "Kalshi",
+    "polymarket": "Polymarket",
+    "fanduel": "FanDuel",
+    "draftkings": "DraftKings",
+    "betmgm": "BetMGM",
+    "betrivers": "BetRivers",
+}
+
+
+def render_bet_card(m, is_longshot_pick=False):
     """Render a single bet as an <li> element."""
     emoji = tier_emoji(m.get("tier", ""))
     tier = m.get("tier", "")
@@ -905,7 +1014,6 @@ def render_bet_card(m):
         # Fallback: extract ticker from old-format URL
         old_url = m.get("url", "")
         if old_url and "kalshi.com" in old_url:
-            # Extract ticker from URL like https://kalshi.com/markets/KXGROK
             ticker = old_url.split("/")[-1].split("?")[0]
             url = market_link(ticker) if ticker else "#"
         else:
@@ -918,27 +1026,38 @@ def render_bet_card(m):
     # Platform logo (defaults to kalshi)
     platform = m.get("platform", "kalshi")
     logo_html = platform_logo_html(platform)
+    platform_name = PLATFORM_DISPLAY_NAMES.get(platform, platform.title())
 
     tier_class = f" tier-{tier}" if tier else ""
+    longshot_class = " longshot-pick" if is_longshot_pick else ""
+    tier_color = TIER_COLORS.get(tier, "#a08b77")
 
-    return f"""      <li class="wager{tier_class}">
+    # Longshot label (only on homepage pick)
+    longshot_label = ""
+    if is_longshot_pick:
+        longshot_label = f'<span class="longshot-label" style="color:{tier_color}">today\'s filthy little longshot &#127919;</span>'
+
+    return f"""      <li class="wager{tier_class}{longshot_class}">
         <a href="{url}" target="_blank" rel="noopener">
           <span class="wager-emoji">{emoji}</span>
           <span class="wager-body">
+            {longshot_label}
             <span class="wager-title">{title}</span>
             <span class="wager-quip">{quip}</span>
             <span class="wager-payout-row">
               <span class="wager-payout"><span class="payout-stake">$1</span> <span class="payout-arrow">&rarr;</span> <span class="payout-return">{payout_str}</span></span>
               {logo_html}
-              <span class="share-wrap" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}" data-ticker="{ticker}">
-                <button class="share-btn" onclick="toggleShare(event, this)">[share]</button>
-                <div class="share-menu">
-                  <button class="sm-reddit" onclick="shareTo(event,'reddit',this)">reddit</button>
-                  <button class="sm-x" onclick="shareTo(event,'x',this)">x / twitter</button>
-                  <button class="sm-fb" onclick="shareTo(event,'fb',this)">facebook</button>
-                  <button class="sm-copy" onclick="shareTo(event,'copy',this)">copy link</button>
-                </div>
-              </span>
+              <span class="wager-action">Open on {platform_name} &rarr;</span>
+            </span>
+            <span class="share-row" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}" data-ticker="{ticker}">
+              <span class="share-label">share:</span>
+              <button class="share-link sm-reddit" onclick="shareTo(event,'reddit',this)">reddit</button>
+              <span class="share-dot">&middot;</span>
+              <button class="share-link sm-x" onclick="shareTo(event,'x',this)">x</button>
+              <span class="share-dot">&middot;</span>
+              <button class="share-link sm-fb" onclick="shareTo(event,'fb',this)">facebook</button>
+              <span class="share-dot">&middot;</span>
+              <button class="share-link sm-copy" onclick="shareTo(event,'copy',this)">copy</button>
             </span>
           </span>
         </a>
@@ -953,20 +1072,17 @@ def render_sports_bet_card(m):
     title = m.get("title", "")
     quip = m.get("quip", "")
     ticker = m.get("ticker", "")
-    # Route through /go/ for click tracking and {state} geo-resolution
     url = market_link(ticker) if ticker else m.get("url", "#")
 
-    # Odds badge
     odds_str = m.get("american_odds", "")
     odds_badge = f'<span class="odds-badge">{odds_str}</span>' if odds_str else ""
 
-    # Escape for JS data attributes
     share_title = title.replace('"', '&quot;').replace("'", "&#39;")
     share_quip = quip.replace('"', '&quot;').replace("'", "&#39;")
 
-    # Platform logo
     platform = m.get("platform", "")
     logo_html = platform_logo_html(platform)
+    platform_name = PLATFORM_DISPLAY_NAMES.get(platform, platform.title() if platform else "Sportsbook")
 
     tier_class = f" tier-{tier}" if tier else ""
 
@@ -980,15 +1096,17 @@ def render_sports_bet_card(m):
               <span class="wager-payout"><span class="payout-stake">$1</span> <span class="payout-arrow">&rarr;</span> <span class="payout-return">{payout_str}</span></span>
               {odds_badge}
               {logo_html}
-              <span class="share-wrap" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}" data-ticker="{ticker}">
-                <button class="share-btn" onclick="toggleShare(event, this)">[share]</button>
-                <div class="share-menu">
-                  <button class="sm-reddit" onclick="shareTo(event,'reddit',this)">reddit</button>
-                  <button class="sm-x" onclick="shareTo(event,'x',this)">x / twitter</button>
-                  <button class="sm-fb" onclick="shareTo(event,'fb',this)">facebook</button>
-                  <button class="sm-copy" onclick="shareTo(event,'copy',this)">copy link</button>
-                </div>
-              </span>
+              <span class="wager-action">Open on {platform_name} &rarr;</span>
+            </span>
+            <span class="share-row" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}" data-ticker="{ticker}">
+              <span class="share-label">share:</span>
+              <button class="share-link sm-reddit" onclick="shareTo(event,'reddit',this)">reddit</button>
+              <span class="share-dot">&middot;</span>
+              <button class="share-link sm-x" onclick="shareTo(event,'x',this)">x</button>
+              <span class="share-dot">&middot;</span>
+              <button class="share-link sm-fb" onclick="shareTo(event,'fb',this)">facebook</button>
+              <span class="share-dot">&middot;</span>
+              <button class="share-link sm-copy" onclick="shareTo(event,'copy',this)">copy</button>
             </span>
           </span>
         </a>
@@ -1005,11 +1123,14 @@ def render_sports_bet_list(bets, empty_msg="no bets yet — check back soon."):
     </ul>"""
 
 
-def render_bet_list(bets, empty_msg="no bets yet — check back soon."):
+def render_bet_list(bets, empty_msg="no bets yet — check back soon.", longshot_idx=None):
     """Render a list of bets as a <ul>."""
     if not bets:
         return f'    <div class="empty-note">{empty_msg}</div>'
-    rows = "\n".join(render_bet_card(b) for b in bets)
+    rows = "\n".join(
+        render_bet_card(b, is_longshot_pick=(i == longshot_idx))
+        for i, b in enumerate(bets)
+    )
     return f"""    <ul class="board">
 {rows}
     </ul>"""
@@ -1391,7 +1512,10 @@ def generate_daily_board(boards):
     </div>
 """
 
-    body = date_line + legend + render_bet_list(board) + trust_strip
+    # Select today's filthy little longshot (homepage only)
+    longshot_idx = select_filthy_longshot(board)
+
+    body = date_line + legend + render_bet_list(board, longshot_idx=longshot_idx) + trust_strip
 
     # Homepage structured data: Organization + WebSite + ItemList
     market_items = []
@@ -1776,6 +1900,35 @@ def generate_category_pages(all_bets):
         slug = categorize_bet(bet)
         cat_bets[slug].append(bet)
 
+    # Related board suggestions for each category
+    RELATED_BOARDS = {
+        "weird-markets": [("gridlock", "/politics-markets/"), ("moonshots", "/crypto-markets/"), ("the ocho", "/the-ocho/")],
+        "sports-markets": [("underdogs", "/underdogs/"), ("chalk", "/chalk/"), ("combo meal", "/combo-meal/")],
+        "politics-markets": [("black swans", "/weird-markets/"), ("ball street", "/financial-markets/"), ("chalk", "/chalk/")],
+        "financial-markets": [("moonshots", "/crypto-markets/"), ("gridlock", "/politics-markets/"), ("black swans", "/weird-markets/")],
+        "crypto-markets": [("ball street", "/financial-markets/"), ("black swans", "/weird-markets/"), ("the ocho", "/the-ocho/")],
+    }
+
+    CATEGORY_EMAIL_COPY = {
+        "weird-markets": "get tomorrow's weirdest markets.",
+        "sports-markets": "get tomorrow's sports board.",
+        "politics-markets": "get tomorrow's political chaos board.",
+        "financial-markets": "get tomorrow's financial markets.",
+        "crypto-markets": "get tomorrow's moonshots.",
+    }
+
+    CATEGORY_EMPTY_STATES = {
+        "weird-markets": "no new black swans today. civilization briefly behaved.",
+        "sports-markets": "no sports markets today. everyone stayed in their lane.",
+        "politics-markets": "no new gridlock today. congress must be on recess.",
+        "financial-markets": "no new ball street markets today. the printer rests.",
+        "crypto-markets": "no new moonshots today. number went sideways.",
+    }
+
+    # Figure out today's date for splitting current vs archive
+    from datetime import date as date_type
+    today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
     for slug, config in CATEGORIES.items():
         bets = cat_bets.get(slug, [])
 
@@ -1787,26 +1940,52 @@ def generate_category_pages(all_bets):
                 seen_titles[t] = b
         unique_bets = sorted(seen_titles.values(), key=_tier_then_payout)
 
-        # Show up to 15 examples
-        display_bets = unique_bets[:15]
+        # Split into today's vs archive
+        today_bets = [b for b in unique_bets if b.get("date_featured", "") >= today_str]
+        archive_bets = [b for b in unique_bets if b.get("date_featured", "") < today_str][:15]
 
-        # Count for section header
-        count_note = f"{len(unique_bets)} markets featured" if unique_bets else ""
+        # Build body with today's section + archive section
+        cat_name = config['h1']
+        empty_state = CATEGORY_EMPTY_STATES.get(slug, "no markets in this category today — check back soon.")
+
+        today_section = ""
+        if today_bets:
+            today_section = f"""    <h2 class="section-head">today's {cat_name}</h2>
+{render_bet_list(today_bets)}
+"""
+        else:
+            today_section = f"""    <h2 class="section-head">today's {cat_name}</h2>
+    <div class="empty-note">{empty_state}</div>
+"""
+
+        archive_section = ""
+        if archive_bets:
+            archive_section = f"""    <h2 class="section-head" style="border-top:1.5px solid #e8cdb5;padding-top:16px;margin-top:20px">all {cat_name}</h2>
+{render_bet_list(archive_bets)}
+"""
+
+        # Related boards links
+        related = RELATED_BOARDS.get(slug, [])
+        related_html = ""
+        if related:
+            related_links = " &middot; ".join(f'<a href="{href}" style="color:#e8642c;text-decoration:none">{name}</a>' for name, href in related)
+            related_html = f'    <div style="padding:16px 0;font-size:12px;color:#6b5744;border-top:1.5px solid #e8cdb5;margin-top:16px">more boards: {related_links}</div>\n'
 
         body = f"""    <h1 class="page-title">{config['h1']}</h1>
     <div class="tagline" style="margin-bottom:12px">
       {config['tagline']}
     </div>
 
-    <h2 class="section-head">featured markets</h2>
-    <div class="section-note">{count_note}</div>
+{today_section}
+{archive_section}
+{related_html}"""
 
-{render_bet_list(display_bets, "no markets featured in this category yet — check back soon.")}
-"""
+        # All bets for schema (today + archive combined)
+        all_category_bets = today_bets + archive_bets
 
         # CollectionPage + ItemList + BreadcrumbList schema
         cat_items = []
-        for i, m in enumerate(display_bets, 1):
+        for i, m in enumerate(all_category_bets, 1):
             cat_items.append(json.dumps({
                 "@type": "ListItem",
                 "position": i,
@@ -1823,7 +2002,7 @@ def generate_category_pages(all_bets):
   "publisher": {{"@type": "Organization", "name": "Dollar Bets", "url": "{SITE_URL}"}},
   "mainEntity": {{
     "@type": "ItemList",
-    "numberOfItems": {len(display_bets)},
+    "numberOfItems": {len(all_category_bets)},
     "itemListElement": [{", ".join(cat_items)}]
   }}
 }}</script>
@@ -2101,37 +2280,82 @@ def _archetype_name(bet):
 
 def generate_about_page():
     """Generate the /about/ page."""
-    body = """    <h1 class="page-title">what is dollar bets?</h1>
+    body = """    <h1 class="page-title">about dollar bets</h1>
     <div class="page-intro">
-      <p>A daily board of weird, funny, and culturally relevant prediction markets, translated into what a $1 bet could pay.</p>
+      <p>Dollar Bets is a daily discovery board of the internet's most entertaining wagers, all priced at what a single dollar would pay out.</p>
 
-      <p>Every day we scan thousands of markets on Kalshi — a US-regulated prediction market exchange — and pick roughly ten that are actually interesting to a normal human being. Then we frame each one by what a single dollar could pay out. "$1 pays $20" is more fun than "priced at 5 cents with an implied probability of 5%." One of these sentences makes you lean in. The other makes you close the tab.</p>
+      <p>Every day we scan thousands of prediction markets and surface the 10 weirdest, funniest, and most culturally relevant ones. We translate every market into a simple question: if you put $1 on this, what would you get back?</p>
 
-      <p style="font-weight:700; margin-top:16px">what's a prediction market?</p>
+      <p style="margin-top:16px"><a href="/" style="color:#e8642c;font-weight:700;text-decoration:none;border:1.5px solid #e8cdb5;padding:8px 16px;border-radius:6px;background:#fff">see today's board &rarr;</a></p>
 
-      <p>A prediction market is a place where people bet real money on whether something will happen. Will Bitcoin hit $100k by Friday? Will it snow in Phoenix? Will a senator resign? You buy a contract for a few cents. If the event happens, it pays out $1. If it doesn't, you lose what you paid.</p>
+      <p style="font-weight:700; margin-top:24px">what "$1 pays $80" means</p>
 
-      <p>The price of a contract tells you what the crowd thinks. A contract at 5 cents means the market thinks there's roughly a 5% chance. When news breaks, prices move — sometimes in minutes. Prediction markets are often faster than polls, pundits, and cable news.</p>
+      <p>Prediction markets let you trade on the outcome of real events. Prices move between $0 and $1. If an outcome is trading at $0.0125, a $1 bet pays $80 if it happens. That's it. We frame every market this way so you can instantly compare how weird the odds are.</p>
 
-      <p style="font-weight:700; margin-top:16px">what does "$1 pays $20" mean?</p>
+      <p style="font-size:11px;font-weight:700;color:#e8642c;text-transform:uppercase;letter-spacing:1.2px;margin-top:16px">example</p>
+    </div>
 
-      <p>It means the contract is priced around 5 cents. If you buy one contract at 5 cents and the event happens, you get back $1 — a 20x return. The higher the payout, the less likely the market thinks it is. We color-code these: 🟩 respectable, 🟨 alive, 🟧 heater, 🟥 filthy, 🟪 generational.</p>
+    <ul class="board" style="margin-bottom:18px">
+      <li class="wager tier-orange">
+        <a href="/go/KXSNOW/" target="_blank" rel="noopener">
+          <span class="wager-emoji">🟧</span>
+          <span class="wager-body">
+            <span class="wager-title">Snow in Phoenix before March?</span>
+            <span class="wager-quip">weather channel intern enters witness protection</span>
+            <span class="wager-payout-row">
+              <span class="wager-payout"><span class="payout-stake">$1</span> <span class="payout-arrow">&rarr;</span> <span class="payout-return">$80</span></span>
+              <span class="wager-action">Open on Kalshi &rarr;</span>
+            </span>
+          </span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="page-intro">
+      <p style="font-weight:700">the payout tiers</p>
+
+      <p>🟩 <strong>$1–$10</strong> — respectable<br>
+      🟨 <strong>$11–$50</strong> — alive<br>
+      🟧 <strong>$51–$100</strong> — heater<br>
+      🟥 <strong>$101–$500</strong> — filthy<br>
+      🟪 <strong>$500+</strong> — generational</p>
 
       <p style="font-weight:700; margin-top:16px">what dollar bets is not</p>
 
-      <p>We are not a sportsbook. We are not a bookmaker. We are not a tout sheet and we are not here to tell you what to bet on. Dollar Bets is a discovery and editorial layer — we curate markets the way a good newspaper curates headlines, with taste, timing, and a mild disregard for conventional financial advice. Every listing links directly to the market on Kalshi. You must be 18+ to trade.</p>
+      <div style="background:#fff;border:1.5px solid #e8cdb5;border-radius:8px;padding:14px 16px;font-size:13px;color:#6b5744;line-height:2;margin:8px 0 16px">
+        &#10005;&nbsp; not a sportsbook<br>
+        &#10005;&nbsp; not a bookmaker<br>
+        &#10005;&nbsp; not betting advice<br>
+        &#10005;&nbsp; not a guarantee anything is available where you live
+      </div>
+
+      <p>Dollar Bets is a discovery and editorial layer — we curate markets the way a good newspaper curates headlines, with taste, timing, and a mild disregard for conventional financial advice. Every listing links directly to the market on the relevant platform.</p>
 
       <p>The markets we feature are real. They have real money behind them, real deadlines, and real outcomes. Most of the longshots will not pay off. That's what makes them longshots. The point is not to win — the point is that these markets exist at all, and they're frequently absurd, occasionally profound, and almost always more entertaining than whatever else you were going to do with a dollar.</p>
 
-      <p>Dollar Bets is built for the person who reads the news and thinks "I wonder if there's a market for that." There usually is. We find it for you.</p>
+      <p style="font-weight:700; margin-top:16px">how we pick the board</p>
+
+      <p>we like markets that are:</p>
+      <p style="padding-left:12px;color:#6b5744">
+        — weird enough to screenshot<br>
+        — specific enough to resolve<br>
+        — current enough to matter<br>
+        — funny before they are profitable
+      </p>
+
+      <p>we do not rank markets by what we think will win. we rank them by whether they deserve to exist on the internet.</p>
 
       <p>The board updates daily. The email is free. The bets are a dollar. The rest is up to the universe.</p>
 
+      <p style="margin-top:20px; display:flex; gap:12px; flex-wrap:wrap">
+        <a href="/" style="color:#e8642c;font-weight:700;text-decoration:none;border:1.5px solid #e8cdb5;padding:8px 16px;border-radius:6px;background:#fff">see today's board &rarr;</a>
+      </p>
+
       <p style="font-weight:700; margin-top:16px">contact us</p>
 
-      <p><a href="mailto:james@wearescheme.studio" style="color:#333">james@wearescheme.studio</a></p>
+      <p><a href="mailto:james.lamon@gmail.com" style="color:#6b5744">james.lamon@gmail.com</a></p>
 
-      <p style="margin-top:12px"><a href="/editorial-policy/" style="color:#666">editorial policy</a> · <a href="/affiliate-disclosure/" style="color:#666">affiliate disclosure</a> · <a href="/responsible-gambling/" style="color:#666">responsible gambling</a></p>
+      <p style="margin-top:12px"><a href="/editorial-policy/" style="color:#6b5744">editorial policy</a> · <a href="/affiliate-disclosure/" style="color:#6b5744">affiliate disclosure</a> · <a href="/responsible-gambling/" style="color:#6b5744">responsible gambling</a></p>
     </div>
 """
 
