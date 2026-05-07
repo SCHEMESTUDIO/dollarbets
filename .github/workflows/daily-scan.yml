@@ -114,7 +114,7 @@ jobs:
               esac
               OUTFILE="data/boards/${PREFIX}-${TODAY}.json"
               echo "Scanning ${MODE} board..."
-              python3 sports_scanner.py --board=${MODE} > "${OUTFILE}" 2>&1 || {
+              python3 sports_scanner.py --board=${MODE} > "${OUTFILE}" || {
                 echo "${MODE} scanner failed — removing partial output"
                 rm -f "${OUTFILE}"
                 continue
@@ -150,7 +150,7 @@ jobs:
           else
             OUTFILE="data/boards/combo-${TODAY}.json"
             echo "Scanning combo meal (parlays)..."
-            python3 parlay_scanner.py > "${OUTFILE}" 2>&1 || {
+            python3 parlay_scanner.py > "${OUTFILE}" || {
               echo "Parlay scanner failed — removing partial output"
               rm -f "${OUTFILE}"
             }

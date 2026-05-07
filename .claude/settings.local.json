@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(git stash *)",
+      "Bash(git pull *)",
+      "Bash(git checkout *)",
+      "Bash(git rebase *)",
+      "Bash(GIT_EDITOR=true git rebase --continue)",
+      "Bash(curl -sf https://dollarbets.lol/api/geo)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('data/boards/2026-05-01.json'\\)\\); print\\(json.dumps\\(list\\(d.keys\\(\\)\\)\\)\\); print\\(json.dumps\\(d[list\\(d.keys\\(\\)\\)[0]] if d else {}\\)\\)\")",
+      "Bash(curl -sv https://dollarbets.lol/api/geo)",
+      "Bash(curl *)",
+      "WebFetch(domain:dollarbets.lol)",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('config/partners.json'\\)\\); [print\\(p['slug'], 'blocked:', p.get\\('blocked_countries',[]\\), 'allowed:', p.get\\('allowed_countries','all'\\)\\) for p in d['partners']]\")",
+      "Bash(gh workflow *)",
+      "Bash(python3 -c 'import json; d=json.load\\(open\\('\\\\''data/boards/2026-05-01.json'\\\\''\\)\\); exit\\(0 if d.get\\('\\\\''generated_at'\\\\'','\\\\'''\\\\''\\) != '\\\\''__TRACKED_VAR__'\\\\'' else 1\\)')",
+      "Bash(kill %1)",
+      "Bash(git fetch *)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('generated_at:', d.get\\('generated_at'\\)\\); [print\\(f'  {m.get\\(\\\\\"title\\\\\"\\)} | {m.get\\(\\\\\"quip\\\\\"\\)}'\\) for m in d['board']]\")",
+      "Bash(gh run *)",
+      "Bash(git revert *)",
+      "Bash(rm -f .git/index.lock)",
+      "Bash(git commit *)",
+      "Bash(ODDS_API_KEY=e861ebf1fefb487be0e44c64f4e19de7 python3 sports_scanner.py)",
+      "Bash(git rm *)",
+      "Read(//Users/jameshd/Documents/Claude/Projects/Dog Show/party/**)",
+      "Bash(npx partykit *)",
+      "Read(//Users/jameshd/Documents/Claude/Projects/Dog Show/site/**)",
+      "Read(//Users/jameshd/Documents/Claude/Projects/Dog Show/**)",
+      "Bash(claude config *)",
+      "Skill(update-config)"
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-05-07T19:24:16.880617+00:00",
+  "board_type": "underdogs",
+  "board_name": "underdogs",
+  "market_count": 10,
+  "source": "sample",
+  "tier_mix": {},
+  "sport_mix": {},
+  "board": [
+    {
+      "title": "Wizards upset Celtics",
+      "quip": "the house money play of the century",
+      "tier": "yellow",
+      "payout": 22.0,
+      "ticker": "wiz-bos-ml",
+      "platform": "fanduel",
+      "american_odds": "+2100",
+      "sport_display": "NBA",
+      "category": "nba"
+    },
+    {
+      "title": "Marlins beat Dodgers",
+      "quip": "nobody in LA will see this coming, including LA",
+      "tier": "yellow",
+      "payout": 14.0,
+      "ticker": "mia-lad-ml",
+      "platform": "draftkings",
+      "american_odds": "+1300",
+      "sport_display": "MLB",
+      "category": "mlb"
+    },
+    {
+      "title": "Blackhawks shock Oilers",
+      "quip": "connor mcdavid punches air",
+      "tier": "orange",
+      "payout": 52.0,
+      "ticker": "chi-edm-ml",
+      "platform": "fanduel",
+      "american_odds": "+5100",
+      "sport_display": "NHL",
+      "category": "nhl"
+    },
+    {
+      "title": "Burnley beat Arsenal",
+      "quip": "the beautiful game gets ugly for arsenal twitter",
+      "tier": "orange",
+      "payout": 75.0,
+      "ticker": "bur-ars-ml",
+      "platform": "draftkings",
+      "american_odds": "+7400",
+      "sport_display": "EPL",
+      "category": "epl"
+    },
+    {
+      "title": "Underdog KO in Round 1",
+      "quip": "one punch and suddenly everyone is a fan",
+      "tier": "orange",
+      "payout": 90.0,
+      "ticker": "ufc-dog-r1ko",
+      "platform": "fanduel",
+      "american_odds": "+8900",
+      "sport_display": "MMA",
+      "category": "mma"
+    },
+    {
+      "title": "Tigers sweep Yankees",
+      "quip": "detroit remembers how to play baseball",
+      "tier": "red",
+      "payout": 180.0,
+      "ticker": "det-nyy-sweep",
+      "platform": "fanduel",
+      "american_odds": "+17900",
+      "sport_display": "MLB",
+      "category": "mlb"
+    },
+    {
+      "title": "Last-place team wins by 30",
+      "quip": "tanking takes a vacation day",
+      "tier": "red",
+      "payout": 350.0,
+      "ticker": "nba-dog-blowout",
+      "platform": "draftkings",
+      "american_odds": "+34900",
+      "sport_display": "NBA",
+      "category": "nba"
+    },
+    {
+      "title": "Sheffield United beat Man City",
+      "quip": "the blades show up with actual blades of grass to play on",
+      "tier": "red",
+      "payout": 120.0,
+      "ticker": "shu-mci-ml",
+      "platform": "fanduel",
+      "american_odds": "+11900",
+      "sport_display": "EPL",
+      "category": "epl"
+    },
+    {
+      "title": "Coyotes win in overtime",
+      "quip": "the desert dogs have their day",
+      "tier": "purple",
+      "payout": 550.0,
+      "ticker": "ari-ot-win",
+      "platform": "fanduel",
+      "american_odds": "+54900",
+      "sport_display": "NHL",
+      "category": "nhl"
+    },
+    {
+      "title": "Last seed wins entire tournament",
+      "quip": "cinderella is real and she plays basketball",
+      "tier": "purple",
+      "payout": 900.0,
+      "ticker": "ncaa-cinderella",
+      "platform": "draftkings",
+      "american_odds": "+89900",
+      "sport_display": "NCAAB",
+      "category": "ncaab"
+    }
+  ]
+}

@@ -337,53 +337,102 @@ SHARED_CSS = """
       line-height: 1.5;
     }
 
-    /* === ACTION TEXT === */
-    .wager-action {
-      font-size: 11px;
-      color: #a08b77;
+    /* === OPEN PLATFORM PILL === */
+    .open-platform {
+      font-size: 10.5px;
+      color: #2a8c4a;
+      cursor: pointer;
+      border: 1px solid #2a8c4a;
+      background: #fff;
+      font-family: 'Courier New', monospace;
+      padding: 4px 10px;
+      letter-spacing: 0.3px;
+      border-radius: 4px;
+      transition: all 0.12s ease;
+      font-weight: 700;
+      text-decoration: none;
       margin-left: auto;
       flex-shrink: 0;
-      transition: color 0.12s;
     }
 
-    .wager:hover .wager-action {
+    .wager:hover .open-platform {
+      color: #fff;
+      background: #2a8c4a;
+      border-color: #2a8c4a;
+    }
+
+    /* === SHARE (popup) === */
+    .share-wrap {
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .share-btn {
+      font-size: 10.5px;
       color: #e8642c;
+      cursor: pointer;
+      border: 1px solid #e8642c;
+      background: #fff;
+      font-family: 'Courier New', monospace;
+      padding: 4px 10px;
+      letter-spacing: 0.3px;
+      border-radius: 4px;
+      transition: all 0.12s ease;
+      font-weight: 700;
     }
 
-    /* === SHARE (inline row) === */
-    .share-row {
-      display: flex;
-      align-items: center;
-      gap: 4px;
-      margin-top: 4px;
-      font-size: 10px;
-      color: #a08b77;
+    .share-btn:hover {
+      color: #fff;
+      background: #e8642c;
+      border-color: #e8642c;
     }
 
-    .share-label {
-      color: #a08b77;
+    .share-menu {
+      display: none;
+      position: absolute;
+      right: 0;
+      bottom: calc(100% + 6px);
+      background: #fff;
+      border: 1.5px solid #e8cdb5;
+      border-radius: 4px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      z-index: 100;
+      min-width: 130px;
+      font-family: 'Courier New', monospace;
+      font-size: 11px;
     }
 
-    .share-link {
+    .share-menu.open { display: block; }
+
+    .share-menu button {
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 7px 12px;
       border: none;
       background: none;
       cursor: pointer;
       font-family: 'Courier New', monospace;
-      font-size: 10px;
-      color: #6b5744;
-      padding: 0;
-      transition: color 0.12s;
+      font-size: 11px;
+      color: #2d2319;
+      letter-spacing: 0.2px;
+      white-space: nowrap;
     }
 
-    .share-link:hover { color: #e8642c; }
-    .share-link.sm-reddit:hover { color: #ff4500; }
-    .share-link.sm-x:hover { color: #000; }
-    .share-link.sm-fb:hover { color: #1877f2; }
-    .share-link.sm-copy.copied { color: #5a8a5a; }
-
-    .share-dot {
-      color: #d4c4b0;
+    .share-menu button:hover {
+      background: #fdf0e4;
+      color: #e8642c;
     }
+
+    .share-menu button + button {
+      border-top: 1px solid #f0e0d0;
+    }
+
+    .share-menu .sm-reddit:hover { color: #ff4500; }
+    .share-menu .sm-x:hover { color: #000; }
+    .share-menu .sm-fb:hover { color: #1877f2; }
+    .share-menu .sm-copy:hover { color: #e8642c; }
+    .share-menu .sm-copy.copied { color: #5a8a5a; }
 
     /* === BOARD PROMO NAV UNIT === */
     .board-promo {
@@ -798,15 +847,30 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
   </div>
 {SIGNUP_JS}
 <script>
+// close any open share menu when clicking elsewhere
+document.addEventListener('click', function() {{
+  document.querySelectorAll('.share-menu.open').forEach(function(m) {{ m.classList.remove('open'); }});
+}});
+
+function toggleShare(e, btn) {{
+  e.preventDefault();
+  e.stopPropagation();
+  // close other open menus first
+  document.querySelectorAll('.share-menu.open').forEach(function(m) {{ m.classList.remove('open'); }});
+  var menu = btn.parentElement.querySelector('.share-menu');
+  menu.classList.toggle('open');
+}}
+
 function shareTo(e, platform, btn) {{
   e.preventDefault();
   e.stopPropagation();
-  var wrap = btn.closest('.share-row');
+  var wrap = btn.closest('.share-wrap');
   var t = wrap.dataset.title;
   var q = wrap.dataset.quip;
   var p = wrap.dataset.payout;
   var ticker = wrap.dataset.ticker;
   var shareUrl = ticker ? 'https://dollarbets.lol/share/' + encodeURIComponent(ticker) + '/' : 'https://dollarbets.lol';
+  var menu = wrap.querySelector('.share-menu');
 
   if (platform === 'reddit') {{
     var redditTitle = t + ' — $1 pays ' + p + ' | Dollar Bets';
@@ -1023,9 +1087,8 @@ def render_bet_card(m, is_longshot_pick=False):
     share_title = title.replace('"', '&quot;').replace("'", "&#39;")
     share_quip = quip.replace('"', '&quot;').replace("'", "&#39;")
 
-    # Platform logo (defaults to kalshi)
+    # Platform name for pill button
     platform = m.get("platform", "kalshi")
-    logo_html = platform_logo_html(platform)
     platform_name = PLATFORM_DISPLAY_NAMES.get(platform, platform.title())
 
     tier_class = f" tier-{tier}" if tier else ""
@@ -1046,18 +1109,16 @@ def render_bet_card(m, is_longshot_pick=False):
             <span class="wager-quip">{quip}</span>
             <span class="wager-payout-row">
               <span class="wager-payout"><span class="payout-stake">$1</span> <span class="payout-arrow">&rarr;</span> <span class="payout-return">{payout_str}</span></span>
-              {logo_html}
-              <span class="wager-action">Open on {platform_name} &rarr;</span>
-            </span>
-            <span class="share-row" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}" data-ticker="{ticker}">
-              <span class="share-label">share:</span>
-              <button class="share-link sm-reddit" onclick="shareTo(event,'reddit',this)">reddit</button>
-              <span class="share-dot">&middot;</span>
-              <button class="share-link sm-x" onclick="shareTo(event,'x',this)">x</button>
-              <span class="share-dot">&middot;</span>
-              <button class="share-link sm-fb" onclick="shareTo(event,'fb',this)">facebook</button>
-              <span class="share-dot">&middot;</span>
-              <button class="share-link sm-copy" onclick="shareTo(event,'copy',this)">copy</button>
+              <span class="open-platform">Open on {platform_name} &rarr;</span>
+              <span class="share-wrap" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}" data-ticker="{ticker}">
+                <button class="share-btn" onclick="toggleShare(event, this)">[share]</button>
+                <div class="share-menu">
+                  <button class="sm-reddit" onclick="shareTo(event,'reddit',this)">reddit</button>
+                  <button class="sm-x" onclick="shareTo(event,'x',this)">x / twitter</button>
+                  <button class="sm-fb" onclick="shareTo(event,'fb',this)">facebook</button>
+                  <button class="sm-copy" onclick="shareTo(event,'copy',this)">copy link</button>
+                </div>
+              </span>
             </span>
           </span>
         </a>
@@ -1081,7 +1142,6 @@ def render_sports_bet_card(m):
     share_quip = quip.replace('"', '&quot;').replace("'", "&#39;")
 
     platform = m.get("platform", "")
-    logo_html = platform_logo_html(platform)
     platform_name = PLATFORM_DISPLAY_NAMES.get(platform, platform.title() if platform else "Sportsbook")
 
     tier_class = f" tier-{tier}" if tier else ""
@@ -1095,18 +1155,16 @@ def render_sports_bet_card(m):
             <span class="wager-payout-row">
               <span class="wager-payout"><span class="payout-stake">$1</span> <span class="payout-arrow">&rarr;</span> <span class="payout-return">{payout_str}</span></span>
               {odds_badge}
-              {logo_html}
-              <span class="wager-action">Open on {platform_name} &rarr;</span>
-            </span>
-            <span class="share-row" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}" data-ticker="{ticker}">
-              <span class="share-label">share:</span>
-              <button class="share-link sm-reddit" onclick="shareTo(event,'reddit',this)">reddit</button>
-              <span class="share-dot">&middot;</span>
-              <button class="share-link sm-x" onclick="shareTo(event,'x',this)">x</button>
-              <span class="share-dot">&middot;</span>
-              <button class="share-link sm-fb" onclick="shareTo(event,'fb',this)">facebook</button>
-              <span class="share-dot">&middot;</span>
-              <button class="share-link sm-copy" onclick="shareTo(event,'copy',this)">copy</button>
+              <span class="open-platform">Open on {platform_name} &rarr;</span>
+              <span class="share-wrap" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}" data-ticker="{ticker}">
+                <button class="share-btn" onclick="toggleShare(event, this)">[share]</button>
+                <div class="share-menu">
+                  <button class="sm-reddit" onclick="shareTo(event,'reddit',this)">reddit</button>
+                  <button class="sm-x" onclick="shareTo(event,'x',this)">x / twitter</button>
+                  <button class="sm-fb" onclick="shareTo(event,'fb',this)">facebook</button>
+                  <button class="sm-copy" onclick="shareTo(event,'copy',this)">copy link</button>
+                </div>
+              </span>
             </span>
           </span>
         </a>
@@ -2304,7 +2362,7 @@ def generate_about_page():
             <span class="wager-quip">weather channel intern enters witness protection</span>
             <span class="wager-payout-row">
               <span class="wager-payout"><span class="payout-stake">$1</span> <span class="payout-arrow">&rarr;</span> <span class="payout-return">$80</span></span>
-              <span class="wager-action">Open on Kalshi &rarr;</span>
+              <span class="open-platform">Open on Kalshi &rarr;</span>
             </span>
           </span>
         </a>

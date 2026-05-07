@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-05-07T19:24:16.891401+00:00",
+  "board_type": "chalk",
+  "board_name": "chalk",
+  "market_count": 10,
+  "source": "sample",
+  "tier_mix": {},
+  "sport_mix": {},
+  "board": [
+    {
+      "title": "Celtics beat Wizards",
+      "quip": "the biggest lock since actual locks were invented",
+      "tier": "green",
+      "payout": 1.15,
+      "ticker": "bos-wiz-ml",
+      "platform": "fanduel",
+      "american_odds": "-800",
+      "sport_display": "NBA",
+      "category": "nba"
+    },
+    {
+      "title": "Dodgers beat Marlins",
+      "quip": "shohei ohtani plays against a fish mascot",
+      "tier": "green",
+      "payout": 1.25,
+      "ticker": "lad-mia-ml",
+      "platform": "draftkings",
+      "american_odds": "-550",
+      "sport_display": "MLB",
+      "category": "mlb"
+    },
+    {
+      "title": "Man City beat Sheffield",
+      "quip": "haaland vs lads who have day jobs",
+      "tier": "green",
+      "payout": 1.1,
+      "ticker": "mci-shu-ml",
+      "platform": "fanduel",
+      "american_odds": "-1100",
+      "sport_display": "EPL",
+      "category": "epl"
+    },
+    {
+      "title": "Oilers beat Blackhawks",
+      "quip": "mcdavid adds to the highlight reel",
+      "tier": "green",
+      "payout": 1.3,
+      "ticker": "edm-chi-ml",
+      "platform": "fanduel",
+      "american_odds": "-450",
+      "sport_display": "NHL",
+      "category": "nhl"
+    },
+    {
+      "title": "Chiefs cover -7.5",
+      "quip": "mahomes does mahomes things",
+      "tier": "green",
+      "payout": 1.9,
+      "ticker": "kc-spread",
+      "platform": "draftkings",
+      "american_odds": "-110",
+      "sport_display": "NFL",
+      "category": "nfl"
+    },
+    {
+      "title": "Alabama beats Vanderbilt",
+      "quip": "david vs goliath except goliath has NIL money",
+      "tier": "green",
+      "payout": 1.08,
+      "ticker": "bama-vandy-ml",
+      "platform": "fanduel",
+      "american_odds": "-1500",
+      "sport_display": "NCAAF",
+      "category": "ncaaf"
+    },
+    {
+      "title": "Yankees -1.5 run line",
+      "quip": "the bronx tax on visiting pitchers",
+      "tier": "yellow",
+      "payout": 12.0,
+      "ticker": "nyy-runline",
+      "platform": "fanduel",
+      "american_odds": "+1100",
+      "sport_display": "MLB",
+      "category": "mlb"
+    },
+    {
+      "title": "Celtics -15.5 spread",
+      "quip": "boston could rest starters and still cash",
+      "tier": "yellow",
+      "payout": 22.0,
+      "ticker": "bos-big-spread",
+      "platform": "draftkings",
+      "american_odds": "+2100",
+      "sport_display": "NBA",
+      "category": "nba"
+    },
+    {
+      "title": "Arsenal clean sheet",
+      "quip": "arteta's defense does what arteta's defense does",
+      "tier": "yellow",
+      "payout": 15.0,
+      "ticker": "ars-cs",
+      "platform": "fanduel",
+      "american_odds": "+1400",
+      "sport_display": "EPL",
+      "category": "epl"
+    },
+    {
+      "title": "Heavy favorite wins by TKO R1",
+      "quip": "the fight was shorter than the walkout",
+      "tier": "orange",
+      "payout": 55.0,
+      "ticker": "ufc-chalk-r1",
+      "platform": "fanduel",
+      "american_odds": "+5400",
+      "sport_display": "MMA",
+      "category": "mma"
+    }
+  ]
+}

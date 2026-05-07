@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-05-07T19:24:16.870759+00:00",
+  "board_type": "sports",
+  "board_name": "the lineup",
+  "market_count": 10,
+  "source": "sample",
+  "tier_mix": {},
+  "sport_mix": {},
+  "board": [
+    {
+      "title": "Celtics beat Pacers",
+      "quip": "boston does boston things",
+      "tier": "green",
+      "payout": 2.1,
+      "ticker": "celtics-pacers-ml",
+      "platform": "fanduel",
+      "american_odds": "-190",
+      "sport_display": "NBA",
+      "category": "nba"
+    },
+    {
+      "title": "Yankees over 4.5 runs",
+      "quip": "bronx bombers bombing again",
+      "tier": "green",
+      "payout": 1.95,
+      "ticker": "yankees-o45",
+      "platform": "draftkings",
+      "american_odds": "-105",
+      "sport_display": "MLB",
+      "category": "mlb"
+    },
+    {
+      "title": "Rangers beat Panthers",
+      "quip": "broadway's favorite ice show",
+      "tier": "green",
+      "payout": 3.2,
+      "ticker": "nyr-fla-ml",
+      "platform": "fanduel",
+      "american_odds": "+220",
+      "sport_display": "NHL",
+      "category": "nhl"
+    },
+    {
+      "title": "Inter Miami +1.5 goals",
+      "quip": "messi magic spreads to the suburbs",
+      "tier": "yellow",
+      "payout": 12.0,
+      "ticker": "miami-spread",
+      "platform": "draftkings",
+      "american_odds": "+1100",
+      "sport_display": "MLS",
+      "category": "mls"
+    },
+    {
+      "title": "UFC: Underdog wins by KO",
+      "quip": "somebody's jaw is writing a check",
+      "tier": "yellow",
+      "payout": 18.5,
+      "ticker": "ufc-ko-upset",
+      "platform": "fanduel",
+      "american_odds": "+1750",
+      "sport_display": "MMA",
+      "category": "mma"
+    },
+    {
+      "title": "Red Sox complete sweep",
+      "quip": "even the ghost of the bambino is confused",
+      "tier": "yellow",
+      "payout": 15.0,
+      "ticker": "redsox-sweep",
+      "platform": "fanduel",
+      "american_odds": "+1400",
+      "sport_display": "MLB",
+      "category": "mlb"
+    },
+    {
+      "title": "Pacers win by 20+",
+      "quip": "indiana has entered revenge mode",
+      "tier": "orange",
+      "payout": 65.0,
+      "ticker": "pacers-blowout",
+      "platform": "draftkings",
+      "american_odds": "+6400",
+      "sport_display": "NBA",
+      "category": "nba"
+    },
+    {
+      "title": "No goals scored in EPL match",
+      "quip": "goalkeepers earn their paychecks",
+      "tier": "orange",
+      "payout": 55.0,
+      "ticker": "epl-nil-nil",
+      "platform": "fanduel",
+      "american_odds": "+5400",
+      "sport_display": "EPL",
+      "category": "epl"
+    },
+    {
+      "title": "NHL hat trick from a defenseman",
+      "quip": "when your blue liner forgets his job description",
+      "tier": "red",
+      "payout": 250.0,
+      "ticker": "nhl-dman-hatty",
+      "platform": "fanduel",
+      "american_odds": "+24900",
+      "sport_display": "NHL",
+      "category": "nhl"
+    },
+    {
+      "title": "Perfect game thrown today",
+      "quip": "twenty-seven up, twenty-seven down, one pitcher ascending to godhood",
+      "tier": "purple",
+      "payout": 800.0,
+      "ticker": "mlb-perfect-game",
+      "platform": "fanduel",
+      "american_odds": "+79900",
+      "sport_display": "MLB",
+      "category": "mlb"
+    }
+  ]
+}
