@@ -1762,6 +1762,12 @@ def generate_tier_pages(boards, sports_boards):
         print(f"[generate] Wrote tier page: {tier_info['label']} ({len(tier_markets)} markets)")
 
 
+_TIER_SORT = {"purple": 0, "red": 1, "orange": 2, "yellow": 3, "green": 4}
+
+def _tier_then_payout(bet):
+    """Sort key: group by tier (purple first), then by payout desc within tier."""
+    return (_TIER_SORT.get(bet.get("tier", "green"), 5), -bet.get("payout", 0))
+
 def generate_category_pages(all_bets):
     """Generate category SEO hub pages."""
     # Bucket bets by category
@@ -1779,7 +1785,7 @@ def generate_category_pages(all_bets):
             t = b.get("title", "")
             if t not in seen_titles or b.get("date_featured", "") > seen_titles[t].get("date_featured", ""):
                 seen_titles[t] = b
-        unique_bets = sorted(seen_titles.values(), key=lambda x: x.get("payout", 0), reverse=True)
+        unique_bets = sorted(seen_titles.values(), key=_tier_then_payout)
 
         # Show up to 15 examples
         display_bets = unique_bets[:15]
@@ -1859,7 +1865,7 @@ def generate_archetype_pages(all_bets):
             t = b.get("title", "")
             if t not in seen or b.get("date_featured", "") > seen[t].get("date_featured", ""):
                 seen[t] = b
-        unique_bets = sorted(seen.values(), key=lambda x: x.get("payout", 0), reverse=True)
+        unique_bets = sorted(seen.values(), key=_tier_then_payout)
         display_bets = unique_bets[:12]
 
         body = f"""    <h1 class="page-title">{config.get('emoji', '')} {config['h1']}</h1>
