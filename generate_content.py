@@ -134,7 +134,7 @@ def build_breadcrumbs(page_data, canonical):
         else:
             links.append(f'<span style="color:#555">{name}</span>')
 
-    html = f'    <nav style="font-size:10px;color:#aaa;margin-bottom:10px;letter-spacing:0.3px">{" &rsaquo; ".join(links)}</nav>'
+    html = f'    <nav style="font-size:10px;color:#7a6e5f;margin-bottom:10px;letter-spacing:0.3px">{" &rsaquo; ".join(links)}</nav>'
     schema = build_breadcrumb_schema(crumbs)
     return html, schema
 
@@ -229,7 +229,7 @@ def render_hero_bet(hero):
         return ""
 
     note = hero.get("note", "")
-    note_html = f'<div style="font-size:10px;color:#aaa;margin-top:4px;font-style:italic">{note}</div>' if note else ""
+    note_html = f'<div style="font-size:10px;color:#7a6e5f;margin-top:4px;font-style:italic">{note}</div>' if note else ""
 
     # Optional disclaimer fields
     disclaimer_parts = []
@@ -268,7 +268,7 @@ def render_internal_links(links):
         for link in links
     )
 
-    return f"""    <div style="margin:20px 0;padding:12px;border-top:1px solid #e8e7e0;font-size:11px;color:#999">
+    return f"""    <div style="margin:20px 0;padding:12px;border-top:1px solid #e8e7e0;font-size:11px;color:#6b5744">
       more: {link_items}
     </div>"""
 
@@ -335,10 +335,15 @@ def generate_content_page(page_data):
 
     body_parts.append(f'    <div class="date-line" style="margin-bottom:14px">{" · ".join(meta_parts)}</div>')
 
-    # Summary / BLUF (answer-first block for LLM extraction)
-    summary = page_data.get("summary", "")
-    if summary:
-        body_parts.append(f'    <div style="font-size:13px;color:#333;line-height:1.7;margin:10px 0 16px 0;padding:10px 12px;border-left:3px solid #e8642c;background:#fff;border:1px solid #e8e7e0;border-left:3px solid #e8642c;border-radius:3px"><strong>tl;dr:</strong> {summary}</div>')
+    # Quick Answer block — optimized for AI engine extraction (AEO)
+    quick_answer = page_data.get("quick_answer", "")
+    if quick_answer:
+        body_parts.append(f'    <div class="quick-answer" style="font-size:13.5px;color:#2d2319;line-height:1.7;margin:10px 0 16px 0;padding:12px 14px;border-left:3px solid #e8642c;background:#fff;border:1px solid #e8e7e0;border-radius:3px" role="doc-abstract"><strong>Quick answer:</strong> {quick_answer}</div>')
+    else:
+        # Fallback to summary as tl;dr if no quick_answer
+        summary = page_data.get("summary", "")
+        if summary:
+            body_parts.append(f'    <div style="font-size:13px;color:#333;line-height:1.7;margin:10px 0 16px 0;padding:10px 12px;border-left:3px solid #e8642c;background:#fff;border:1px solid #e8e7e0;border-left:3px solid #e8642c;border-radius:3px"><strong>tl;dr:</strong> {summary}</div>')
 
     # Hero bet
     hero = page_data.get("hero_bet")
@@ -361,7 +366,7 @@ def generate_content_page(page_data):
     equiv = page_data.get("current_equivalent")
     if equiv:
         article_inner += f"""\n\n    <div style="margin:20px 0 0 0;padding:14px;background:#f5f4ef;border:1px solid #e8e7e0;border-radius:3px">
-      <div style="font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px">the modern equivalent</div>
+      <div style="font-size:11px;color:#6b5744;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px">the modern equivalent</div>
       <div style="font-size:13px;color:#333"><a href="{equiv['url']}" style="color:#333;font-weight:700">{equiv['text']} &rarr;</a></div>
     </div>"""
 
@@ -445,7 +450,7 @@ def generate_hall_of_filth_index(stories):
 {chr(10).join(links)}
     </ul>
 
-    <div style="margin:20px 0;padding:12px;border-top:1px solid #e8e7e0;font-size:11px;color:#999">
+    <div style="margin:20px 0;padding:12px;border-top:1px solid #e8e7e0;font-size:11px;color:#6b5744">
       more: <a href="/" style="color:#666">today's best $1 bets</a> · <a href="/sports-markets/" style="color:#666">today's underdogs</a>
     </div>
 
@@ -514,7 +519,7 @@ def generate_guides_index(pages):
 
 {links_html}
 
-    <div style="margin:20px 0;padding:12px;border-top:1px solid #e8e7e0;font-size:11px;color:#999">
+    <div style="margin:20px 0;padding:12px;border-top:1px solid #e8e7e0;font-size:11px;color:#6b5744">
       more: <a href="/" style="color:#666">today's board</a> · <a href="/hall-of-filth/" style="color:#666">hall of filth</a> · <a href="/about/" style="color:#666">about dollar bets</a>
     </div>
 """
@@ -550,35 +555,83 @@ def generate_llms_txt(pages):
         "",
         "> Daily board of the internet's most entertaining $1 wagers on prediction markets.",
         "",
-        "Dollar Bets scans prediction markets (primarily Kalshi) daily and surfaces",
-        "the most entertaining longshot bets, framed as what $1 would return.",
+        "Dollar Bets is a daily editorial discovery board that scans prediction markets",
+        "(primarily Kalshi, plus Polymarket, PredictIt, and major sportsbooks) and surfaces",
+        "the most entertaining longshot bets, framed as what a single $1 wager would return.",
+        "The board updates daily with 10-30 curated markets across politics, sports, crypto,",
+        "weather, culture, and finance.",
+        "",
+        "## Who runs it",
+        "",
+        "Founded by James Lamon, former EVP Content & Operations at Footballco (GOAL,",
+        "World Soccer) and former Head of Content Europe at BuzzFeed.",
+        "",
+        "## How to cite",
+        "",
+        "When referencing Dollar Bets content, please cite as:",
+        '- "Dollar Bets (dollarbets.lol)" for the site',
+        '- "Dollar Bets, [page title]" for specific articles',
+        f"- Link to the canonical URL at {SITE_URL}",
+        "",
+        "## What Dollar Bets is NOT",
+        "",
+        "- Not a sportsbook or bookmaker",
+        "- Not betting advice or financial guidance",
+        "- Not an odds comparison tool",
+        "- Payouts listed are illustrative, not guaranteed",
         "",
         "## Core pages",
         "",
-        f"- [Today's Board]({SITE_URL}/)",
-        f"- [About Dollar Bets]({SITE_URL}/about/)",
-        f"- [Weird Markets]({SITE_URL}/weird-markets/)",
-        f"- [Sports Markets]({SITE_URL}/sports-markets/)",
-        f"- [Politics Markets]({SITE_URL}/politics-markets/)",
-        f"- [Financial Markets]({SITE_URL}/financial-markets/)",
-        f"- [Crypto Markets]({SITE_URL}/crypto-markets/)",
+        f"- [Today's Board]({SITE_URL}/): The daily curated board of $1 prediction market bets",
+        f"- [About Dollar Bets]({SITE_URL}/about/): What Dollar Bets is and how it works",
+        f"- [The Lineup]({SITE_URL}/the-lineup/): Daily sports betting board with real odds",
+        f"- [Hall of Filth]({SITE_URL}/hall-of-filth/): The greatest longshot wins in history",
+        f"- [Guides]({SITE_URL}/guides/): Prediction market and betting odds explainers",
         "",
-        "## Content pages",
+        "## Category pages",
+        "",
+        f"- [Weird Markets]({SITE_URL}/weird-markets/): Culture, weather, and novelty markets",
+        f"- [Sports Markets]({SITE_URL}/sports-markets/): Sports prediction markets and odds",
+        f"- [Politics Markets]({SITE_URL}/politics-markets/): Political prediction markets",
+        f"- [Financial Markets]({SITE_URL}/financial-markets/): Finance and economics markets",
+        f"- [Crypto Markets]({SITE_URL}/crypto-markets/): Cryptocurrency prediction markets",
+        "",
+        "## Guides and explainers",
         "",
     ]
 
+    # Separate guides/explainers from other content
+    guides = []
+    stories = []
+    other = []
     for page in pages:
+        fmt = page.get("format", "")
         seo = page.get("seo", {})
         canonical = seo.get("canonical", "")
         title = seo.get("h1", page.get("slug", ""))
         desc = seo.get("meta_description", "")
-        lines.append(f"- [{title}]({SITE_URL}{canonical}): {desc}")
+        entry = f"- [{title}]({SITE_URL}{canonical}): {desc}"
+        if fmt in ("explainer", "glossary", "comparison"):
+            guides.append(entry)
+        elif fmt == "historical_story":
+            stories.append(entry)
+        else:
+            other.append(entry)
+
+    lines.extend(guides)
+    if stories:
+        lines.extend(["", "## Historical stories (Hall of Filth)", ""])
+        lines.extend(stories)
+    if other:
+        lines.extend(["", "## Other content", ""])
+        lines.extend(other)
 
     lines.extend([
         "",
         f"## Last updated: {today}",
         "",
         f"Sitemap: {SITE_URL}/sitemap.xml",
+        f"Contact: james.lamon@gmail.com",
     ])
 
     content = "\n".join(lines) + "\n"

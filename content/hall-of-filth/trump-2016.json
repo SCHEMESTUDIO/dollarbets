@@ -17,11 +17,26 @@
     "note": "Illustrative — based on early prediction market and bookmaker odds circa June 2015"
   },
   "internal_links": [
-    {"text": "today's best $1 bets", "url": "/"},
-    {"text": "more Hall of Filth stories", "url": "/hall-of-filth/"},
-    {"text": "prediction market longshots", "url": "/prediction-markets/prediction-market-longshots/"},
-    {"text": "what is a prediction market", "url": "/what-is-a-prediction-market/"},
-    {"text": "how do longshot odds work", "url": "/how-do-longshot-odds-work/"}
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    },
+    {
+      "text": "more Hall of Filth stories",
+      "url": "/hall-of-filth/"
+    },
+    {
+      "text": "prediction market longshots",
+      "url": "/prediction-markets/prediction-market-longshots/"
+    },
+    {
+      "text": "what is a prediction market",
+      "url": "/what-is-a-prediction-market/"
+    },
+    {
+      "text": "how do longshot odds work",
+      "url": "/how-do-longshot-odds-work/"
+    }
   ],
   "current_equivalent": {
     "category": "Political Markets",
@@ -97,5 +112,6 @@
   "compliance": "Historical odds are illustrative and approximate, based on widely reported early prediction market and bookmaker odds. Exact returns would have varied significantly by platform, timing, and jurisdiction. Dollar Bets does not endorse any political candidate or party. Prediction market prices reflect market sentiment, not guaranteed probabilities. Past results do not predict future outcomes.",
   "publish_date": "2026-04-30",
   "cluster": "Hall of Filth",
-  "priority": 80
+  "priority": 80,
+  "quick_answer": "Donald Trump's odds to win the 2016 presidential election started at roughly 150-to-1 in some prediction markets. Even on election night, markets had Hillary Clinton at 85%+ probability. A $1 bet on Trump at peak longshot odds would have returned approximately $150."
 }

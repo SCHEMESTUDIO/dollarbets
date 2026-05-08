@@ -18,11 +18,26 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "today's best $1 bets", "url": "/"},
-    {"text": "what is a prediction market?", "url": "/what-is-a-prediction-market/"},
-    {"text": "how longshot odds work", "url": "/how-do-longshot-odds-work/"},
-    {"text": "weird prediction markets", "url": "/weird-markets/"},
-    {"text": "about Dollar Bets", "url": "/about/"}
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    },
+    {
+      "text": "what is a prediction market?",
+      "url": "/what-is-a-prediction-market/"
+    },
+    {
+      "text": "how longshot odds work",
+      "url": "/how-do-longshot-odds-work/"
+    },
+    {
+      "text": "weird prediction markets",
+      "url": "/weird-markets/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
   ],
   "body": [
     {
@@ -79,7 +94,7 @@
     },
     {
       "type": "heading",
-      "content": "where to start"
+      "content": "Where should beginners start?"
     },
     {
       "type": "text",
@@ -108,5 +123,6 @@
   "publish_date": "2026-04-29",
   "last_updated": "2026-04-29",
   "cluster": "$1 Bets",
-  "priority": 88
+  "priority": 88,
+  "quick_answer": "You can bet $1 on almost anything through prediction markets and sportsbooks: elections, weather events, sports games, cryptocurrency prices, celebrity news, Supreme Court rulings, and more. Platforms like Kalshi and Polymarket let you start with as little as $1 per contract."
 }

@@ -42,7 +42,7 @@
     },
     {
       "type": "heading",
-      "content": "player props"
+      "content": "What are player prop bets?"
     },
     {
       "type": "text",
@@ -50,7 +50,7 @@
     },
     {
       "type": "heading",
-      "content": "game props"
+      "content": "What are game prop bets?"
     },
     {
       "type": "text",
@@ -103,5 +103,6 @@
   "publish_date": "2026-05-06",
   "last_updated": "2026-05-06",
   "cluster": "Betting Explainers",
-  "priority": 66
+  "priority": 66,
+  "quick_answer": "A prop bet (proposition bet) is a wager on a specific occurrence within an event, rather than the final outcome. Player props cover individual stats like touchdowns or strikeouts. Game props cover things like first team to score or whether the game goes to overtime. Prop bets let you bet on the details, not just the result."
 }

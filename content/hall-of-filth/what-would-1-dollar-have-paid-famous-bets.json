@@ -19,11 +19,26 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "today's board", "url": "/"},
-    {"text": "Hall of Filth", "url": "/hall-of-filth/"},
-    {"text": "biggest payouts this week", "url": "/biggest-payouts-this-week/"},
-    {"text": "how longshot odds work", "url": "/how-do-longshot-odds-work/"},
-    {"text": "about Dollar Bets", "url": "/about/"}
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "Hall of Filth",
+      "url": "/hall-of-filth/"
+    },
+    {
+      "text": "biggest payouts this week",
+      "url": "/biggest-payouts-this-week/"
+    },
+    {
+      "text": "how longshot odds work",
+      "url": "/how-do-longshot-odds-work/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
   ],
   "body": [
     {
@@ -109,5 +124,6 @@
   "publish_date": "2026-05-05",
   "last_updated": "2026-05-05",
   "cluster": "Biggest Payouts",
-  "priority": 69
+  "priority": 69,
+  "quick_answer": "A $1 bet on Leicester City's 2015-16 title would have returned roughly $5,000. On Buster Douglas over Tyson, about $42. On Trump in 2016 at peak longshot pricing, approximately $150. This page reframes history's most famous upsets through the $1 lens to show what was actually at stake."
 }

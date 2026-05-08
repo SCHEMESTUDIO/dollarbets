@@ -17,11 +17,26 @@
     "note": "Illustrative — based on widely reported pre-fight odds"
   },
   "internal_links": [
-    {"text": "today's best underdog bets", "url": "/sports-markets/"},
-    {"text": "today's best $1 bets", "url": "/"},
-    {"text": "more Hall of Filth stories", "url": "/hall-of-filth/"},
-    {"text": "prediction market longshots", "url": "/prediction-markets/prediction-market-longshots/"},
-    {"text": "how do longshot odds work", "url": "/how-do-longshot-odds-work/"}
+    {
+      "text": "today's best underdog bets",
+      "url": "/sports-markets/"
+    },
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    },
+    {
+      "text": "more Hall of Filth stories",
+      "url": "/hall-of-filth/"
+    },
+    {
+      "text": "prediction market longshots",
+      "url": "/prediction-markets/prediction-market-longshots/"
+    },
+    {
+      "text": "how do longshot odds work",
+      "url": "/how-do-longshot-odds-work/"
+    }
   ],
   "current_equivalent": {
     "category": "Underdogs",
@@ -97,5 +112,6 @@
   "compliance": "Historical odds are illustrative, based on widely reported pre-fight bookmaker odds. Actual returns would have varied by sportsbook and timing. Past results do not predict future outcomes. Longshots are longshots for a reason.",
   "publish_date": "2026-04-30",
   "cluster": "Hall of Filth",
-  "priority": 79
+  "priority": 79,
+  "quick_answer": "Buster Douglas knocked out Mike Tyson in the 10th round on February 11, 1990, at approximately 42-to-1 odds. A $1 bet would have returned roughly $42. Many Las Vegas sportsbooks didn't even post the fight because nobody expected Douglas to compete, let alone win."
 }

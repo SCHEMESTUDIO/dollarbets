@@ -21,11 +21,26 @@
     "url": "https://draftkings.com"
   },
   "internal_links": [
-    {"text": "today's board", "url": "/"},
-    {"text": "what is a moneyline bet", "url": "/what-is-a-moneyline-bet/"},
-    {"text": "what is a parlay bet", "url": "/what-is-a-parlay-bet/"},
-    {"text": "today's underdogs", "url": "/underdogs/"},
-    {"text": "betting odds explained", "url": "/betting-odds-explained/"}
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "what is a moneyline bet",
+      "url": "/what-is-a-moneyline-bet/"
+    },
+    {
+      "text": "what is a parlay bet",
+      "url": "/what-is-a-parlay-bet/"
+    },
+    {
+      "text": "today's underdogs",
+      "url": "/underdogs/"
+    },
+    {
+      "text": "betting odds explained",
+      "url": "/betting-odds-explained/"
+    }
   ],
   "body": [
     {
@@ -34,7 +49,7 @@
     },
     {
       "type": "heading",
-      "content": "how the point spread works"
+      "content": "How does the point spread work?"
     },
     {
       "type": "text",
@@ -42,7 +57,7 @@
     },
     {
       "type": "heading",
-      "content": "what the numbers actually mean"
+      "content": "What do the spread numbers actually mean?"
     },
     {
       "type": "text",
@@ -50,7 +65,7 @@
     },
     {
       "type": "heading",
-      "content": "why spreads are usually -110"
+      "content": "Why are spread bets usually -110?"
     },
     {
       "type": "text",
@@ -58,7 +73,7 @@
     },
     {
       "type": "heading",
-      "content": "alternate spreads and big payouts"
+      "content": "What are alternate spreads and how do they pay?"
     },
     {
       "type": "text",
@@ -79,5 +94,6 @@
       "a": "Different tools for different opinions. Moneylines are cleaner — just pick the winner. Spreads let you bet on how dominant a team will be. If you think a favorite will win but not dominate, the underdog spread might be smarter than the underdog moneyline."
     }
   ],
-  "compliance": "Spread examples are for illustration. Actual lines and vig vary by sportsbook and change in real time. Dollar Bets is entertainment-first — not betting advice. Gamble responsibly."
+  "compliance": "Spread examples are for illustration. Actual lines and vig vary by sportsbook and change in real time. Dollar Bets is entertainment-first — not betting advice. Gamble responsibly.",
+  "quick_answer": "A spread bet adds or subtracts points from a team's final score to level the playing field. If a team is -7.5, they need to win by 8 or more for your bet to pay. If they're +7.5, they can lose by up to 7 and your bet still wins. Spreads make lopsided matchups more interesting to bet on."
 }

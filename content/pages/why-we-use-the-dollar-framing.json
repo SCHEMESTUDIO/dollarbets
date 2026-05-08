@@ -16,9 +16,18 @@
     "category": "culture"
   },
   "internal_links": [
-    {"text": "about Dollar Bets", "url": "/about/"},
-    {"text": "responsible gambling resources", "url": "/responsible-gambling/"},
-    {"text": "today's best $1 bets", "url": "/"}
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    },
+    {
+      "text": "responsible gambling resources",
+      "url": "/responsible-gambling/"
+    },
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    }
   ],
   "body": [
     {
@@ -93,5 +102,6 @@
   "compliance": "Brand/trust page. The $1 framing is illustrative and does not represent actual betting minimums on Kalshi or other platforms. Betting involves risk of loss.",
   "publish_date": "2026-04-28",
   "cluster": "Responsible Betting",
-  "priority": 53
+  "priority": 53,
+  "quick_answer": "Dollar Bets frames every market as what $1 returns because it's the simplest way to compare wildly different bets. Whether it's a prediction market contract at $0.02 or a +5000 sports longshot, translating to '$1 pays $X' makes the payout instantly understandable without knowing how odds formats work."
 }

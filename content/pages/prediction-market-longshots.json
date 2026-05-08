@@ -18,11 +18,26 @@
     "note": "Illustrative — represents a typical low-priced prediction market contract"
   },
   "internal_links": [
-    {"text": "today's best $1 bets", "url": "/"},
-    {"text": "what is a prediction market", "url": "/what-is-a-prediction-market/"},
-    {"text": "how do longshot odds work", "url": "/how-do-longshot-odds-work/"},
-    {"text": "weird prediction markets", "url": "/weird-markets/weird-prop-bets/"},
-    {"text": "Hall of Filth stories", "url": "/hall-of-filth/"}
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    },
+    {
+      "text": "what is a prediction market",
+      "url": "/what-is-a-prediction-market/"
+    },
+    {
+      "text": "how do longshot odds work",
+      "url": "/how-do-longshot-odds-work/"
+    },
+    {
+      "text": "weird prediction markets",
+      "url": "/weird-markets/weird-prop-bets/"
+    },
+    {
+      "text": "Hall of Filth stories",
+      "url": "/hall-of-filth/"
+    }
   ],
   "body": [
     {
@@ -35,7 +50,7 @@
     },
     {
       "type": "heading",
-      "content": "why longshots exist on prediction markets"
+      "content": "Why do longshots exist on prediction markets?"
     },
     {
       "type": "text",
@@ -47,7 +62,7 @@
     },
     {
       "type": "heading",
-      "content": "the math of cheap contracts"
+      "content": "How does the math of cheap contracts work?"
     },
     {
       "type": "text",
@@ -59,7 +74,7 @@
     },
     {
       "type": "heading",
-      "content": "what kinds of longshots show up"
+      "content": "What kinds of longshots show up on prediction markets?"
     },
     {
       "type": "text",
@@ -71,7 +86,7 @@
     },
     {
       "type": "heading",
-      "content": "when longshots actually hit"
+      "content": "When do prediction market longshots actually hit?"
     },
     {
       "type": "text",
@@ -83,7 +98,7 @@
     },
     {
       "type": "heading",
-      "content": "how dollar bets finds them"
+      "content": "How does Dollar Bets find longshots?"
     },
     {
       "type": "text",
@@ -109,5 +124,6 @@
   "compliance": "Prediction market contracts are illustrative examples. Actual market availability, pricing, and contract terms vary. Contract prices reflect market sentiment and are not guarantees of probability. Past results do not predict future outcomes. All trading involves risk of loss. Verify market details on Kalshi before trading.",
   "publish_date": "2026-04-30",
   "cluster": "Prediction Markets",
-  "priority": 90
+  "priority": 90,
+  "quick_answer": "Prediction market longshots are contracts priced under 10 cents — meaning the market thinks there's less than a 10% chance of the event happening. A $1 bet on a contract priced at $0.01 would return $100 if it hits. These are high-risk, high-reward wagers on unlikely outcomes."
 }

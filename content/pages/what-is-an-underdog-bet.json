@@ -13,7 +13,7 @@
   "summary": "An underdog bet is a wager on the side the market thinks will lose. Underdogs are priced with positive odds (+200, +500, +1000) because the implied probability is below 50%. The lower the probability, the higher the payout — and the more fun the story if they pull it off.",
   "hero_bet": {
     "title": "Example: underdog moneyline at +750",
-    "payout": 8.50,
+    "payout": 8.5,
     "quip": "The market said no. Your dollar said maybe.",
     "tier": "orange",
     "sourcePlatform": "BetRivers",
@@ -21,11 +21,26 @@
     "url": "https://betrivers.com"
   },
   "internal_links": [
-    {"text": "today's underdogs", "url": "/underdogs/"},
-    {"text": "today's board", "url": "/"},
-    {"text": "hall of filth", "url": "/hall-of-filth/"},
-    {"text": "what is a moneyline bet", "url": "/what-is-a-moneyline-bet/"},
-    {"text": "biggest betting upsets this year", "url": "/biggest-betting-upsets-this-year/"}
+    {
+      "text": "today's underdogs",
+      "url": "/underdogs/"
+    },
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "hall of filth",
+      "url": "/hall-of-filth/"
+    },
+    {
+      "text": "what is a moneyline bet",
+      "url": "/what-is-a-moneyline-bet/"
+    },
+    {
+      "text": "biggest betting upsets this year",
+      "url": "/biggest-betting-upsets-this-year/"
+    }
   ],
   "body": [
     {
@@ -34,7 +49,7 @@
     },
     {
       "type": "heading",
-      "content": "how underdog odds work"
+      "content": "How do underdog odds work?"
     },
     {
       "type": "text",
@@ -42,7 +57,7 @@
     },
     {
       "type": "heading",
-      "content": "underdogs on prediction markets"
+      "content": "How do underdogs work on prediction markets?"
     },
     {
       "type": "text",
@@ -79,5 +94,6 @@
       "a": "All longshots are underdogs, but not all underdogs are longshots. A +150 team is a slight underdog. A +2000 team is a longshot. Dollar Bets uses tier labels — respectable, alive, heater, filthy, generational — to distinguish between mild underdogs and genuine moonshots."
     }
   ],
-  "compliance": "Underdog odds shown are for illustration. Actual odds vary by sportsbook and prediction market. Past longshot wins do not predict future results. Dollar Bets is entertainment-first — not betting advice. Gamble responsibly."
+  "compliance": "Underdog odds shown are for illustration. Actual odds vary by sportsbook and prediction market. Past longshot wins do not predict future results. Dollar Bets is entertainment-first — not betting advice. Gamble responsibly.",
+  "quick_answer": "An underdog bet is a wager on the side expected to lose. Because underdogs are less likely to win, they pay more when they do. In the $1 framing: a heavy underdog at +1000 means $1 returns $10. The longer the odds, the bigger the potential payout — and the less likely it happens."
 }

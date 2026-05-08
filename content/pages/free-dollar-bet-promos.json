@@ -18,10 +18,22 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "what can you bet $1 on?", "url": "/what-can-you-bet-one-dollar-on/"},
-    {"text": "today's best $1 bets", "url": "/"},
-    {"text": "what is a prediction market?", "url": "/what-is-a-prediction-market/"},
-    {"text": "about Dollar Bets", "url": "/about/"}
+    {
+      "text": "what can you bet $1 on?",
+      "url": "/what-can-you-bet-one-dollar-on/"
+    },
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    },
+    {
+      "text": "what is a prediction market?",
+      "url": "/what-is-a-prediction-market/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
   ],
   "body": [
     {
@@ -95,5 +107,6 @@
   "publish_date": "2026-05-07",
   "last_updated": "2026-05-07",
   "cluster": "$1 Bets",
-  "priority": 65
+  "priority": 65,
+  "quick_answer": "Several sportsbooks and prediction market platforms offer free bet promotions for new users. These let you place a wager without risking your own money. Promotions change frequently — this page tracks current verified offers from regulated platforms."
 }

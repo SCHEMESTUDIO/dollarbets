@@ -18,11 +18,26 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "today's board", "url": "/"},
-    {"text": "about Dollar Bets", "url": "/about/"},
-    {"text": "how longshot odds work", "url": "/how-do-longshot-odds-work/"},
-    {"text": "what is a prediction market?", "url": "/what-is-a-prediction-market/"},
-    {"text": "best $1 bets this week", "url": "/best-bets-for-a-dollar-this-week/"}
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    },
+    {
+      "text": "how longshot odds work",
+      "url": "/how-do-longshot-odds-work/"
+    },
+    {
+      "text": "what is a prediction market?",
+      "url": "/what-is-a-prediction-market/"
+    },
+    {
+      "text": "best $1 bets this week",
+      "url": "/best-bets-for-a-dollar-this-week/"
+    }
   ],
   "body": [
     {
@@ -31,7 +46,7 @@
     },
     {
       "type": "heading",
-      "content": "american odds (moneyline)"
+      "content": "How do American (moneyline) odds work?"
     },
     {
       "type": "text",
@@ -39,7 +54,7 @@
     },
     {
       "type": "heading",
-      "content": "decimal odds"
+      "content": "How do decimal odds work?"
     },
     {
       "type": "text",
@@ -47,7 +62,7 @@
     },
     {
       "type": "heading",
-      "content": "fractional odds"
+      "content": "How do fractional odds work?"
     },
     {
       "type": "text",
@@ -55,7 +70,7 @@
     },
     {
       "type": "heading",
-      "content": "the conversion cheat sheet"
+      "content": "How do you convert between odds formats?"
     },
     {
       "type": "text",
@@ -63,7 +78,7 @@
     },
     {
       "type": "heading",
-      "content": "odds vs probability"
+      "content": "What's the difference between odds and probability?"
     },
     {
       "type": "text",
@@ -71,7 +86,7 @@
     },
     {
       "type": "heading",
-      "content": "the dollar bets translation"
+      "content": "How does Dollar Bets translate odds?"
     },
     {
       "type": "text",
@@ -100,5 +115,6 @@
   "publish_date": "2026-05-01",
   "last_updated": "2026-05-01",
   "cluster": "Betting Explainers",
-  "priority": 74
+  "priority": 74,
+  "quick_answer": "Betting odds represent the probability of an outcome and determine your payout. American odds use + and - signs (+200 means $1 wins $2, -200 means you need $2 to win $1). Decimal odds show your total return per dollar. Fractional odds show profit relative to stake. All three formats express the same underlying probability."
 }

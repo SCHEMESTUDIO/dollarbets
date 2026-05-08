@@ -17,11 +17,26 @@
     "note": "Illustrative — most sportsbooks did not offer a moneyline; 33-point spread implies extreme odds"
   },
   "internal_links": [
-    {"text": "today's best underdog bets", "url": "/sports-markets/"},
-    {"text": "today's best $1 bets", "url": "/"},
-    {"text": "more Hall of Filth stories", "url": "/hall-of-filth/"},
-    {"text": "prediction market longshots", "url": "/prediction-markets/prediction-market-longshots/"},
-    {"text": "how do longshot odds work", "url": "/how-do-longshot-odds-work/"}
+    {
+      "text": "today's best underdog bets",
+      "url": "/sports-markets/"
+    },
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    },
+    {
+      "text": "more Hall of Filth stories",
+      "url": "/hall-of-filth/"
+    },
+    {
+      "text": "prediction market longshots",
+      "url": "/prediction-markets/prediction-market-longshots/"
+    },
+    {
+      "text": "how do longshot odds work",
+      "url": "/how-do-longshot-odds-work/"
+    }
   ],
   "current_equivalent": {
     "category": "Underdogs",
@@ -101,5 +116,6 @@
   "compliance": "Historical odds are highly approximate and illustrative. Most sportsbooks did not offer a moneyline on this game; the payout range is inferred from the point spread and is speculative. Past results do not predict future outcomes. Longshots are longshots for a reason.",
   "publish_date": "2026-04-30",
   "cluster": "Hall of Filth",
-  "priority": 76
+  "priority": 76,
+  "quick_answer": "In 2007, Appalachian State — a Division I-AA team — beat #5 Michigan 34-32 in the Big House, one of the biggest upsets in college football history. Most sportsbooks didn't even post a line because FCS-vs-FBS matchups were considered non-competitive. A $1 bet at the estimated spread would have returned a massive payout."
 }

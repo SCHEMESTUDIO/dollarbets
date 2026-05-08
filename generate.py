@@ -56,13 +56,17 @@ def analytics_head():
     function gtag(){{dataLayer.push(arguments);}}
     gtag('js', new Date());
     gtag('config', '{GA4_ID}');
-    // Track market link clicks (via /go/ redirects)
+    // Track all outbound affiliate clicks with rich dimensions
     document.addEventListener('click', function(e) {{
       var link = e.target.closest('a[href^="/go/"]');
       if (link) {{
-        gtag('event', 'click', {{
-          event_category: 'outbound',
-          event_label: link.href,
+        gtag('event', 'affiliate_click', {{
+          platform: link.dataset.platform || 'unknown',
+          tier: link.dataset.tier || 'unknown',
+          payout: link.dataset.payout || '0',
+          ticker: link.dataset.ticker || '',
+          link_url: link.href,
+          page_path: window.location.pathname,
           transport_type: 'beacon'
         }});
       }}
@@ -131,7 +135,7 @@ SHARED_CSS = """
 
     .date-line {
       font-size: 11px;
-      color: #a08b77;
+      color: #806b5b;
       margin-top: 4px;
       letter-spacing: 0.3px;
     }
@@ -145,7 +149,7 @@ SHARED_CSS = """
     /* === NAV (two-line) === */
     .nav {
       font-size: 11px;
-      color: #a08b77;
+      color: #806b5b;
       margin-bottom: 14px;
       letter-spacing: 0.3px;
     }
@@ -233,7 +237,7 @@ SHARED_CSS = """
     /* Tier-colored borders */
     .wager.tier-green a { border-color: #4caf50; }
     .wager.tier-yellow a { border-color: #e6c731; }
-    .wager.tier-orange a { border-color: #e8842c; }
+    .wager.tier-orange a { border-color: #d06a1a; }
     .wager.tier-red a { border-color: #e05252; }
     .wager.tier-purple a { border-color: #9c5ec7; }
 
@@ -318,11 +322,11 @@ SHARED_CSS = """
     }
 
     .payout-arrow {
-      color: #a08b77;
+      color: #806b5b;
     }
 
     .payout-return {
-      color: #2a8c4a;
+      color: #237a3f;
       background: #e8f5ec;
       padding: 2px 8px;
       border-radius: 4px;
@@ -340,9 +344,9 @@ SHARED_CSS = """
     /* === OPEN PLATFORM PILL === */
     .open-platform {
       font-size: 10.5px;
-      color: #2a8c4a;
+      color: #237a3f;
       cursor: pointer;
-      border: 1px solid #2a8c4a;
+      border: 1px solid #237a3f;
       background: #fff;
       font-family: 'Courier New', monospace;
       padding: 4px 10px;
@@ -357,8 +361,8 @@ SHARED_CSS = """
 
     .wager:hover .open-platform {
       color: #fff;
-      background: #2a8c4a;
-      border-color: #2a8c4a;
+      background: #237a3f;
+      border-color: #237a3f;
     }
 
     /* === SHARE (popup) === */
@@ -511,14 +515,14 @@ SHARED_CSS = """
 
     .section-note {
       font-size: 12px;
-      color: #a08b77;
+      color: #806b5b;
       font-style: italic;
       margin-bottom: 12px;
     }
 
     .empty-note {
       font-size: 12px;
-      color: #a08b77;
+      color: #806b5b;
       font-style: italic;
       padding: 12px;
     }
@@ -555,7 +559,7 @@ SHARED_CSS = """
 
     .recap-quip {
       font-size: 11.5px;
-      color: #a08b77;
+      color: #806b5b;
       font-style: italic;
       margin-top: 4px;
     }
@@ -620,7 +624,7 @@ SHARED_CSS = """
       padding-top: 16px;
       border-top: 1.5px solid #e8cdb5;
       font-size: 10px;
-      color: #a08b77;
+      color: #806b5b;
       line-height: 1.8;
     }
 
@@ -635,7 +639,7 @@ SHARED_CSS = """
     .board-nav-bottom {
       text-align: center;
       font-size: 11px;
-      color: #a08b77;
+      color: #806b5b;
       padding: 14px 0;
       line-height: 2.2;
       letter-spacing: 0.3px;
@@ -653,13 +657,13 @@ SHARED_CSS = """
     .footer-info-nav {
       text-align: center;
       font-size: 10px;
-      color: #a08b77;
+      color: #806b5b;
       padding: 10px 0 16px;
       line-height: 2.2;
     }
 
     .footer-info-nav a {
-      color: #a08b77;
+      color: #806b5b;
       text-decoration: none;
       transition: color 0.12s;
     }
@@ -816,16 +820,18 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
 <body>
   <div class="container">
 
-    <div class="header">
+    <header class="header">
       <div class="site-title"><a href="/"><span class="site-logo">💵</span> Dollar Bets</a></div>
       <div class="tagline">The world's most interesting $1 wagers. A buck says maybe.</div>
-    </div>
+    </header>
 
     <hr>
 
-    {nav_html(current_nav)}
+    <nav aria-label="Main navigation">{nav_html(current_nav)}</nav>
 
+    <main id="content">
 {body}
+    </main>
 
     <hr>
 
@@ -833,16 +839,16 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
 
 {SIGNUP_HTML}
 
-    <div style="font-size:10px;color:#a08b77;text-align:center;padding:6px 0;line-height:1.6">links open third-party markets. prices and availability change.</div>
+    <div style="font-size:10px;color:#7a6e5f;text-align:center;padding:6px 0;line-height:1.6">links open third-party markets. prices and availability change.</div>
 
 {footer_info_nav()}
 
-    <div class="footer">
+    <footer class="footer">
       <p>dollar bets is an editorial discovery site, not a broker, exchange, bookmaker, financial adviser, or gambling operator. we do not operate markets, take bets, or provide betting, financial, investment, or legal advice. market availability varies by jurisdiction. users are responsible for complying with local laws and platform eligibility rules. longshots are unlikely by definition. never risk money you cannot afford to lose.</p>
       <p style="margin-top:6px">"$1 pays" = what one dollar returns if the event happens. actual returns depend on price at purchase. some links may be affiliate links — see our <a href="/affiliate-disclosure/">disclosure</a>.</p>
       <p style="margin-top:6px">this site is intended for adults only. do not use this site if you are under the legal age for gambling, trading, or participating in prediction markets in your jurisdiction.</p>
       <p style="margin-top:6px">&copy; {year} dollarbets.lol</p>
-    </div>
+    </footer>
 
   </div>
 {SIGNUP_JS}
@@ -1048,7 +1054,7 @@ def format_payout(payout):
 TIER_COLORS = {
     "green": "#4caf50",
     "yellow": "#e6c731",
-    "orange": "#e8842c",
+    "orange": "#d06a1a",
     "red": "#e05252",
     "purple": "#9c5ec7",
 }
@@ -1093,7 +1099,7 @@ def render_bet_card(m, is_longshot_pick=False):
 
     tier_class = f" tier-{tier}" if tier else ""
     longshot_class = " longshot-pick" if is_longshot_pick else ""
-    tier_color = TIER_COLORS.get(tier, "#a08b77")
+    tier_color = TIER_COLORS.get(tier, "#806b5b")
 
     # Longshot label (only on homepage pick)
     longshot_label = ""
@@ -1101,7 +1107,7 @@ def render_bet_card(m, is_longshot_pick=False):
         longshot_label = f'<span class="longshot-label" style="color:{tier_color}">today\'s filthy little longshot &#127919;</span>'
 
     return f"""      <li class="wager{tier_class}{longshot_class}">
-        <a href="{url}" target="_blank" rel="noopener">
+        <a href="{url}" target="_blank" rel="noopener" data-platform="{platform}" data-tier="{tier}" data-payout="{m.get('payout', 0)}" data-ticker="{ticker}">
           <span class="wager-emoji">{emoji}</span>
           <span class="wager-body">
             {longshot_label}
@@ -1147,7 +1153,7 @@ def render_sports_bet_card(m):
     tier_class = f" tier-{tier}" if tier else ""
 
     return f"""      <li class="wager{tier_class}">
-        <a href="{url}" target="_blank" rel="noopener nofollow">
+        <a href="{url}" target="_blank" rel="noopener nofollow" data-platform="{platform}" data-tier="{tier}" data-payout="{m.get('payout', 0)}" data-ticker="{ticker}">
           <span class="wager-emoji">{emoji}</span>
           <span class="wager-body">
             <span class="wager-title">{title}</span>
@@ -1176,7 +1182,7 @@ def render_sports_bet_list(bets, empty_msg="no bets yet — check back soon."):
     if not bets:
         return f'    <div class="empty-note">{empty_msg}</div>'
     rows = "\n".join(render_sports_bet_card(b) for b in bets)
-    return f"""    <ul class="board">
+    return f"""    <ul class="board" role="list">
 {rows}
     </ul>"""
 
@@ -1189,7 +1195,7 @@ def render_bet_list(bets, empty_msg="no bets yet — check back soon.", longshot
         render_bet_card(b, is_longshot_pick=(i == longshot_idx))
         for i, b in enumerate(bets)
     )
-    return f"""    <ul class="board">
+    return f"""    <ul class="board" role="list">
 {rows}
     </ul>"""
 
@@ -1269,7 +1275,7 @@ def render_board_promo(board_data=None, position="top"):
 
     return f"""    <div class="board-promo">
       <div class="board-promo-header">{header}</div>
-      <ul class="board">
+      <ul class="board" role="list">
 {cards}
       </ul>
       <a href="/" class="board-promo-cta">{cta_text}</a>
@@ -1565,7 +1571,7 @@ def generate_daily_board(boards):
     date_line = f'    <div class="date-line" style="margin-bottom:14px">{date_str}</div>\n'
 
     trust_strip = """
-    <div style="margin:20px 0;padding:12px;border-top:1.5px solid #e8cdb5;font-size:10px;color:#a08b77;line-height:1.6">
+    <div style="margin:20px 0;padding:12px;border-top:1.5px solid #e8cdb5;font-size:10px;color:#806b5b;line-height:1.6">
       tiny stakes. huge maybes. dollar bets is entertainment-first market discovery — not betting advice, not financial advice, and not a guarantee that any market is available where you live. odds and markets change. <a href="/responsible-gambling/" style="color:#6b5744">gamble responsibly</a>. <a href="/availability/" style="color:#6b5744">check availability</a>.
     </div>
 """
@@ -1661,7 +1667,7 @@ def generate_lineup_board(sports_boards):
         display: inline-block;
         font-size: 10px;
         font-family: monospace;
-        color: #a08b77;
+        color: #806b5b;
         border: 1px solid #e8cdb5;
         border-radius: 3px;
         padding: 1px 5px;
@@ -1672,7 +1678,7 @@ def generate_lineup_board(sports_boards):
 """
 
     trust_strip = """
-    <div style="margin:20px 0;padding:12px;border-top:1.5px solid #e8cdb5;font-size:10px;color:#a08b77;line-height:1.6">
+    <div style="margin:20px 0;padding:12px;border-top:1.5px solid #e8cdb5;font-size:10px;color:#806b5b;line-height:1.6">
       tiny stakes. huge maybes. dollar bets is entertainment-first market discovery — not betting advice, not financial advice, and not a guarantee that any market is available where you live. odds and markets change. <a href="/responsible-gambling/" style="color:#6b5744">gamble responsibly</a>. <a href="/availability/" style="color:#6b5744">check availability</a>.
     </div>
 """
@@ -1796,7 +1802,7 @@ def generate_sports_sub_board(board_key):
         display: inline-block;
         font-size: 10px;
         font-family: monospace;
-        color: #a08b77;
+        color: #806b5b;
         border: 1px solid #e8cdb5;
         border-radius: 3px;
         padding: 1px 5px;
@@ -1807,7 +1813,7 @@ def generate_sports_sub_board(board_key):
 """
 
     trust_strip = """
-    <div style="margin:20px 0;padding:12px;border-top:1.5px solid #e8cdb5;font-size:10px;color:#a08b77;line-height:1.6">
+    <div style="margin:20px 0;padding:12px;border-top:1.5px solid #e8cdb5;font-size:10px;color:#806b5b;line-height:1.6">
       tiny stakes. huge maybes. dollar bets is entertainment-first market discovery — not betting advice, not financial advice, and not a guarantee that any market is available where you live. odds and markets change. <a href="/responsible-gambling/" style="color:#6b5744">gamble responsibly</a>. <a href="/availability/" style="color:#6b5744">check availability</a>.
     </div>
 """
@@ -2428,12 +2434,30 @@ def generate_about_page():
     "name": "Dollar Bets",
     "url": "{SITE_URL}",
     "description": "A daily discovery board of the internet's most entertaining prediction-market wagers, framed as $1 payouts. Not a sportsbook — an editorial discovery layer.",
+    "foundingDate": "2026",
+    "logo": "{SITE_URL}/favicon.svg",
+    "sameAs": [
+      "https://www.reddit.com/r/dollarbets/"
+    ],
+    "contactPoint": {{
+      "@type": "ContactPoint",
+      "email": "james.lamon@gmail.com",
+      "contactType": "customer support"
+    }},
     "founder": {{
       "@type": "Person",
       "name": "James Lamon",
       "url": "https://linkedin.com/in/jameslamon",
       "jobTitle": "Founder & Editor",
-      "description": "Former EVP Content & Operations at Footballco (GOAL, World Soccer), former Head of Content Europe at BuzzFeed. University of Texas at Austin graduate."
+      "description": "Former EVP Content & Operations at Footballco (GOAL, World Soccer), former Head of Content Europe at BuzzFeed. University of Texas at Austin graduate.",
+      "sameAs": [
+        "https://linkedin.com/in/jameslamon"
+      ],
+      "worksFor": {{
+        "@type": "Organization",
+        "name": "Dollar Bets",
+        "url": "{SITE_URL}"
+      }}
     }}
   }}
 }}</script>
@@ -2525,7 +2549,7 @@ def generate_archetype_index():
       <p>Prediction markets produce the same kinds of bets over and over — weather panics, crypto moonshots, political chaos, celebrity wildcards. We call these archetypes. Each one has its own personality, its own rhythm, and its own kind of drama.</p>
     </div>
 
-    <ul class="board">
+    <ul class="board" role="list">
 {chr(10).join(links)}
     </ul>
 """
@@ -2586,7 +2610,7 @@ def generate_recap_index(boards):
       <p>Every week, Dollar Bets looks back at the most interesting prediction markets from the daily board — the biggest longshots, the weirdest bets, and the markets that made people pay attention.</p>
     </div>
 
-    <ul class="board">
+    <ul class="board" role="list">
 {chr(10).join(links)}
     </ul>
 """

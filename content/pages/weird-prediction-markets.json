@@ -50,7 +50,7 @@
     },
     {
       "type": "heading",
-      "content": "weather markets that feel personal"
+      "content": "What weather prediction markets can you bet on?"
     },
     {
       "type": "text",
@@ -58,7 +58,7 @@
     },
     {
       "type": "heading",
-      "content": "government and regulatory markets"
+      "content": "Can you bet on government and regulatory decisions?"
     },
     {
       "type": "text",
@@ -66,7 +66,7 @@
     },
     {
       "type": "heading",
-      "content": "space and science markets"
+      "content": "Can you bet on space and science events?"
     },
     {
       "type": "text",
@@ -74,7 +74,7 @@
     },
     {
       "type": "heading",
-      "content": "pop culture contracts nobody asked for"
+      "content": "What pop culture prediction markets exist?"
     },
     {
       "type": "text",
@@ -82,7 +82,7 @@
     },
     {
       "type": "heading",
-      "content": "economic indicators as spectator sport"
+      "content": "Can you bet on economic indicators?"
     },
     {
       "type": "text",
@@ -90,7 +90,7 @@
     },
     {
       "type": "heading",
-      "content": "why weird markets matter"
+      "content": "Why do weird prediction markets matter?"
     },
     {
       "type": "text",
@@ -119,5 +119,6 @@
   "publish_date": "2026-04-30",
   "last_updated": "2026-04-30",
   "cluster": "Weird Bets",
-  "priority": 78
+  "priority": 78,
+  "quick_answer": "The weirdest active prediction markets include bets on asteroid flybys, Fed interest rate decisions, celebrity baby names, hot dog eating contest records, and whether it will snow in unlikely cities. Platforms like Kalshi and Polymarket turn almost any verifiable event into a tradeable market. Dollar Bets surfaces the strangest ones daily."
 }

@@ -18,10 +18,22 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "today's board", "url": "/"},
-    {"text": "about Dollar Bets", "url": "/about/"},
-    {"text": "crypto prediction markets", "url": "/altcoin-moonshot-bets/"},
-    {"text": "how longshot odds work", "url": "/how-do-longshot-odds-work/"}
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    },
+    {
+      "text": "crypto prediction markets",
+      "url": "/altcoin-moonshot-bets/"
+    },
+    {
+      "text": "how longshot odds work",
+      "url": "/how-do-longshot-odds-work/"
+    }
   ],
   "body": [
     {
@@ -91,5 +103,6 @@
   "publish_date": "2026-05-06",
   "last_updated": "2026-05-06",
   "cluster": "Crypto Moonshots",
-  "priority": 68
+  "priority": 68,
+  "quick_answer": "Prediction markets currently offer contracts on whether Bitcoin will hit various price targets by specific dates. These markets reflect real-time trader sentiment — not analyst predictions. The $1 framing shows what you'd get back if Bitcoin actually hits the target, which makes the bet feel more concrete than a price chart."
 }

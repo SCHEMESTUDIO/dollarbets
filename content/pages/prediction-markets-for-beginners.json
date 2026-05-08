@@ -98,7 +98,7 @@
     },
     {
       "type": "heading",
-      "content": "where to start"
+      "content": "Where should beginners start?"
     },
     {
       "type": "text",
@@ -127,5 +127,6 @@
   "publish_date": "2026-05-01",
   "last_updated": "2026-05-01",
   "cluster": "Prediction Markets",
-  "priority": 73
+  "priority": 73,
+  "quick_answer": "Prediction markets let you trade on the outcome of real events — elections, weather, sports, economics, anything with a verifiable result. You buy Yes or No contracts priced between $0 and $1. The price reflects the market's estimated probability. If you buy Yes at $0.30 and it happens, you get $1 back. Start with $1 to learn how it works."
 }

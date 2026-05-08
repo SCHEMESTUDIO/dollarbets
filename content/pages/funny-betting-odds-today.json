@@ -18,11 +18,26 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "today's board", "url": "/"},
-    {"text": "weird prediction markets", "url": "/weird-markets/"},
-    {"text": "what can you bet $1 on?", "url": "/what-can-you-bet-one-dollar-on/"},
-    {"text": "craziest bets this week", "url": "/best-bets-for-a-dollar-this-week/"},
-    {"text": "what is a prediction market?", "url": "/what-is-a-prediction-market/"}
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "weird prediction markets",
+      "url": "/weird-markets/"
+    },
+    {
+      "text": "what can you bet $1 on?",
+      "url": "/what-can-you-bet-one-dollar-on/"
+    },
+    {
+      "text": "craziest bets this week",
+      "url": "/best-bets-for-a-dollar-this-week/"
+    },
+    {
+      "text": "what is a prediction market?",
+      "url": "/what-is-a-prediction-market/"
+    }
   ],
   "body": [
     {
@@ -88,5 +103,6 @@
   "publish_date": "2026-04-29",
   "last_updated": "2026-04-29",
   "cluster": "Weird Bets",
-  "priority": 80
+  "priority": 80,
+  "quick_answer": "Today's funniest betting odds from prediction markets and sportsbooks — the markets that exist for no good reason and pay surprisingly well if they hit. Updated daily with the wagers most likely to make you laugh before they make you lose a dollar."
 }

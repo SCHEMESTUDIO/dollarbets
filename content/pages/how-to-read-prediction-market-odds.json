@@ -123,5 +123,6 @@
   "publish_date": "2026-05-05",
   "last_updated": "2026-05-05",
   "cluster": "Prediction Markets",
-  "priority": 68
+  "priority": 68,
+  "quick_answer": "Prediction market odds are displayed as contract prices between $0.01 and $0.99. The price represents the market's estimated probability. A contract at $0.10 means the market thinks there's a 10% chance of the event happening. If you buy at $0.10 and it resolves Yes, you get $1 back — a $1 bet returns $10."
 }

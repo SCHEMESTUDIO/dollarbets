@@ -19,10 +19,22 @@
     "note": "Illustrative — represents the type of crypto moonshot market available"
   },
   "internal_links": [
-    {"text": "today's best $1 bets", "url": "/"},
-    {"text": "biggest payouts this week", "url": "/biggest-payouts-this-week/"},
-    {"text": "weird prediction markets", "url": "/weird-prediction-markets/"},
-    {"text": "about Dollar Bets", "url": "/about/"}
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    },
+    {
+      "text": "biggest payouts this week",
+      "url": "/biggest-payouts-this-week/"
+    },
+    {
+      "text": "weird prediction markets",
+      "url": "/weird-prediction-markets/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
   ],
   "body": [
     {
@@ -88,5 +100,6 @@
   "publish_date": "2026-05-04",
   "last_updated": "2026-05-04",
   "cluster": "Crypto Moonshots",
-  "priority": 72
+  "priority": 72,
+  "quick_answer": "Altcoin moonshot prediction markets let you bet on whether specific cryptocurrencies will hit extreme price targets. These are the crypto equivalent of longshot sports bets — low probability, high potential payout. Platforms like Kalshi and Polymarket offer contracts on Bitcoin, Ethereum, and altcoin price milestones."
 }

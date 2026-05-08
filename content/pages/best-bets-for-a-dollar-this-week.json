@@ -18,11 +18,26 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "today's board", "url": "/"},
-    {"text": "what can you bet $1 on?", "url": "/what-can-you-bet-one-dollar-on/"},
-    {"text": "how longshot odds work", "url": "/how-do-longshot-odds-work/"},
-    {"text": "weird markets", "url": "/weird-markets/"},
-    {"text": "sports markets", "url": "/sports-markets/"}
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "what can you bet $1 on?",
+      "url": "/what-can-you-bet-one-dollar-on/"
+    },
+    {
+      "text": "how longshot odds work",
+      "url": "/how-do-longshot-odds-work/"
+    },
+    {
+      "text": "weird markets",
+      "url": "/weird-markets/"
+    },
+    {
+      "text": "sports markets",
+      "url": "/sports-markets/"
+    }
   ],
   "body": [
     {
@@ -88,5 +103,6 @@
   "publish_date": "2026-04-29",
   "last_updated": "2026-04-29",
   "cluster": "$1 Bets",
-  "priority": 82
+  "priority": 82,
+  "quick_answer": "This week's best $1 bets are curated from prediction markets and sportsbooks — the wagers with the most entertaining risk-to-reward ratio right now. Updated weekly with markets that are weird enough to screenshot and cheap enough to not care if they lose."
 }

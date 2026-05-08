@@ -17,11 +17,26 @@
     "note": "Illustrative — based on estimated in-series odds after falling behind 3-0"
   },
   "internal_links": [
-    {"text": "today's best underdog bets", "url": "/sports-markets/"},
-    {"text": "today's best $1 bets", "url": "/"},
-    {"text": "more Hall of Filth stories", "url": "/hall-of-filth/"},
-    {"text": "prediction market longshots", "url": "/prediction-markets/prediction-market-longshots/"},
-    {"text": "how do longshot odds work", "url": "/how-do-longshot-odds-work/"}
+    {
+      "text": "today's best underdog bets",
+      "url": "/sports-markets/"
+    },
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    },
+    {
+      "text": "more Hall of Filth stories",
+      "url": "/hall-of-filth/"
+    },
+    {
+      "text": "prediction market longshots",
+      "url": "/prediction-markets/prediction-market-longshots/"
+    },
+    {
+      "text": "how do longshot odds work",
+      "url": "/how-do-longshot-odds-work/"
+    }
   ],
   "current_equivalent": {
     "category": "Underdogs",
@@ -101,5 +116,6 @@
   "compliance": "Historical odds are illustrative and approximate. In-series betting lines from 2004 were not standardized and varied by sportsbook. Past results do not predict future outcomes. Longshots are longshots for a reason.",
   "publish_date": "2026-04-30",
   "cluster": "Hall of Filth",
-  "priority": 77
+  "priority": 77,
+  "quick_answer": "The 2004 Boston Red Sox became the first MLB team ever to come back from a 0-3 deficit in a playoff series, beating the Yankees in the ALCS and then sweeping the Cardinals to win the World Series. In 135 years of baseball, no team had done it before."
 }

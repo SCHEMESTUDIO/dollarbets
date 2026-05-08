@@ -18,9 +18,18 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "today's board", "url": "/"},
-    {"text": "best bets for a dollar this week", "url": "/best-bets-for-a-dollar-this-week/"},
-    {"text": "about Dollar Bets", "url": "/about/"}
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "best bets for a dollar this week",
+      "url": "/best-bets-for-a-dollar-this-week/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
   ],
   "body": [
     {
@@ -94,5 +103,6 @@
   "publish_date": "2026-05-05",
   "last_updated": "2026-05-05",
   "cluster": "$1 Bets",
-  "priority": 70
+  "priority": 70,
+  "quick_answer": "This month's best dollar bets are the picks that made the daily board for their entertainment value, payout potential, or sheer absurdity. Updated monthly with the bets worth remembering — or forgetting, depending on how they resolve."
 }

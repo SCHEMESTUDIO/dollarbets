@@ -18,10 +18,22 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "today's board", "url": "/"},
-    {"text": "about Dollar Bets", "url": "/about/"},
-    {"text": "best $1 bets this week", "url": "/best-bets-for-a-dollar-this-week/"},
-    {"text": "what can you bet $1 on?", "url": "/what-can-you-bet-one-dollar-on/"}
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    },
+    {
+      "text": "best $1 bets this week",
+      "url": "/best-bets-for-a-dollar-this-week/"
+    },
+    {
+      "text": "what can you bet $1 on?",
+      "url": "/what-can-you-bet-one-dollar-on/"
+    }
   ],
   "body": [
     {
@@ -87,5 +99,6 @@
   "publish_date": "2026-05-01",
   "last_updated": "2026-05-01",
   "cluster": "$1 Bets",
-  "priority": 75
+  "priority": 75,
+  "quick_answer": "The Dollar Bets daily email delivers three curated prediction market picks to your inbox every morning. Three bets, three quips, one dollar framing. It's free, it takes 30 seconds to read, and it's the fastest way to find out what weird things the internet is betting on today."
 }

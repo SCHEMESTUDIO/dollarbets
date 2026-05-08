@@ -49,7 +49,7 @@
     },
     {
       "type": "heading",
-      "content": "how weather contracts work"
+      "content": "How do weather betting contracts work?"
     },
     {
       "type": "text",
@@ -57,7 +57,7 @@
     },
     {
       "type": "heading",
-      "content": "why weather markets are interesting"
+      "content": "Why are weather markets interesting?"
     },
     {
       "type": "text",
@@ -65,7 +65,7 @@
     },
     {
       "type": "heading",
-      "content": "types of weather markets"
+      "content": "What types of weather markets can you bet on?"
     },
     {
       "type": "text",
@@ -94,5 +94,6 @@
       "a": "You can profit if your read on the probability is better than the market's. Some traders use private weather models or local knowledge. But like any market, the pricing generally reflects available information. Dollar Bets frames it as entertainment — a dollar on rain is a conversation starter, not a retirement plan."
     }
   ],
-  "compliance": "Weather contract examples are for illustration. Actual contract availability and pricing varies. Prediction market event contracts may not be available in all jurisdictions. Dollar Bets is entertainment-first — not financial or betting advice."
+  "compliance": "Weather contract examples are for illustration. Actual contract availability and pricing varies. Prediction market event contracts may not be available in all jurisdictions. Dollar Bets is entertainment-first — not financial or betting advice.",
+  "quick_answer": "Yes, you can bet on the weather. Kalshi offers regulated event contracts on temperature, rainfall, snowfall, and hurricanes. You can wager on whether it will rain in a specific city, whether temperatures will break records, or whether a hurricane will make landfall. Weather markets are some of the most entertaining longshots on prediction platforms."
 }

@@ -37,7 +37,7 @@
     },
     {
       "type": "heading",
-      "content": "the american odds format"
+      "content": "How do American odds work?"
     },
     {
       "type": "text",
@@ -45,7 +45,7 @@
     },
     {
       "type": "heading",
-      "content": "a ladder of examples"
+      "content": "What do different longshot odds pay?"
     },
     {
       "type": "text",
@@ -57,7 +57,7 @@
     },
     {
       "type": "heading",
-      "content": "prediction markets work slightly different"
+      "content": "How are prediction market odds different?"
     },
     {
       "type": "text",
@@ -69,7 +69,7 @@
     },
     {
       "type": "heading",
-      "content": "what implied probability means"
+      "content": "What is implied probability?"
     },
     {
       "type": "text",
@@ -81,7 +81,7 @@
     },
     {
       "type": "heading",
-      "content": "why this matters"
+      "content": "Why do longshot odds matter?"
     },
     {
       "type": "text",
@@ -95,5 +95,6 @@
   "compliance": "Educational content. Odds are illustrative and vary by platform, timing, and market conditions. Past results do not predict future outcomes. Prediction markets involve risk of loss.",
   "publish_date": "2026-04-28",
   "cluster": "Betting Explainers",
-  "priority": 77
+  "priority": 77,
+  "quick_answer": "Longshot odds like +1000, +5000, or +10000 tell you how much profit you'd make on a winning bet relative to your stake. +1000 means $1 returns $10 in profit (plus your $1 back). The bigger the number, the less likely the outcome — and the more it pays if it happens."
 }

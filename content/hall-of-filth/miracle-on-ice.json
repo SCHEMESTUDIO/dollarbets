@@ -21,10 +21,22 @@
     "note": "Illustrative — exact historical odds vary by source; commonly cited as 1000-to-1 for gold medal, lower for individual game"
   },
   "internal_links": [
-    {"text": "today's best $1 bets", "url": "/"},
-    {"text": "more Hall of Filth stories", "url": "/hall-of-filth/"},
-    {"text": "biggest longshot wins in sports", "url": "/biggest-longshot-wins-sports-history/"},
-    {"text": "about Dollar Bets", "url": "/about/"}
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    },
+    {
+      "text": "more Hall of Filth stories",
+      "url": "/hall-of-filth/"
+    },
+    {
+      "text": "biggest longshot wins in sports",
+      "url": "/biggest-longshot-wins-sports-history/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
   ],
   "current_equivalent": {
     "category": "Underdogs",
@@ -107,5 +119,6 @@
   "publish_date": "2026-05-04",
   "last_updated": "2026-05-04",
   "cluster": "Hall of Filth",
-  "priority": 72
+  "priority": 72,
+  "quick_answer": "In 1980, a team of American college hockey players beat the four-time defending Olympic gold medalist Soviet Union 4-3 at Lake Placid. Precise betting odds from 1980 are hard to verify, but the Soviets were enormous favorites. It became the most famous upset in Olympic history."
 }

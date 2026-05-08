@@ -19,11 +19,26 @@
     "note": "Illustrative — based on widely-cited approximate moneyline of 42-1 for Douglas"
   },
   "internal_links": [
-    {"text": "today's $1 board", "url": "/"},
-    {"text": "Hall of Filth", "url": "/hall-of-filth/"},
-    {"text": "biggest payouts this week", "url": "/biggest-payouts-this-week/"},
-    {"text": "what is an underdog bet?", "url": "/what-is-an-underdog-bet/"},
-    {"text": "about Dollar Bets", "url": "/about/"}
+    {
+      "text": "today's $1 board",
+      "url": "/"
+    },
+    {
+      "text": "Hall of Filth",
+      "url": "/hall-of-filth/"
+    },
+    {
+      "text": "biggest payouts this week",
+      "url": "/biggest-payouts-this-week/"
+    },
+    {
+      "text": "what is an underdog bet?",
+      "url": "/what-is-an-underdog-bet/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
   ],
   "body": [
     {
@@ -117,5 +132,6 @@
   "publish_date": "2026-05-08",
   "last_updated": "2026-05-08",
   "cluster": "Biggest Payouts",
-  "priority": 63
+  "priority": 63,
+  "quick_answer": "The biggest single-game upset in every major sport: the NFL, NBA, MLB, college football, soccer, boxing, and MMA each have a defining shock result. Every upset is reframed as what a $1 bet would have returned to show the scale of the improbability."
 }

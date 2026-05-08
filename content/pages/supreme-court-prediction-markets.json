@@ -18,10 +18,22 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "today's board", "url": "/"},
-    {"text": "about Dollar Bets", "url": "/about/"},
-    {"text": "weird prediction markets", "url": "/weird-prediction-markets/"},
-    {"text": "can you legally bet on elections?", "url": "/can-you-legally-bet-on-elections/"}
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    },
+    {
+      "text": "weird prediction markets",
+      "url": "/weird-prediction-markets/"
+    },
+    {
+      "text": "can you legally bet on elections?",
+      "url": "/can-you-legally-bet-on-elections/"
+    }
   ],
   "body": [
     {
@@ -87,5 +99,6 @@
   "publish_date": "2026-05-06",
   "last_updated": "2026-05-06",
   "cluster": "Political Markets",
-  "priority": 68
+  "priority": 68,
+  "quick_answer": "Supreme Court prediction markets let you trade on ruling outcomes, justice retirements, and nomination confirmations. Platforms like Kalshi and Polymarket offer contracts on major SCOTUS decisions. These markets often move faster than legal commentary because traders price in information as it emerges."
 }

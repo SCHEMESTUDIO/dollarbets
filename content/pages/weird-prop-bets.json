@@ -17,9 +17,18 @@
     "category": "science"
   },
   "internal_links": [
-    {"text": "weird bets today", "url": "/weird-markets/"},
-    {"text": "today's best $1 bets", "url": "/"},
-    {"text": "what is a prediction market", "url": "/what-is-a-prediction-market/"}
+    {
+      "text": "weird bets today",
+      "url": "/weird-markets/"
+    },
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    },
+    {
+      "text": "what is a prediction market",
+      "url": "/what-is-a-prediction-market/"
+    }
   ],
   "body": [
     {
@@ -92,7 +101,7 @@
     },
     {
       "type": "heading",
-      "content": "where to find them"
+      "content": "Where can you find weird prop bets?"
     },
     {
       "type": "text",
@@ -106,5 +115,6 @@
   "compliance": "Entertainment framing. Markets listed are illustrative examples of the types of markets available on Kalshi. Actual market availability, pricing, and odds vary. Past results do not predict future outcomes. Verify market details before trading.",
   "publish_date": "2026-04-28",
   "cluster": "Weird Bets",
-  "priority": 84
+  "priority": 84,
+  "quick_answer": "The weirdest prop bets available right now span culture, weather, politics, and things that probably shouldn't be markets. You can bet on award show winners, reality TV outcomes, weather records, and political events that sound made up but are real. Prop bets turn the absurd corners of the world into actual wagers."
 }

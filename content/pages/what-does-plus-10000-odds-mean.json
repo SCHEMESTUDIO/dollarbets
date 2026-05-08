@@ -18,10 +18,22 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "today's best $1 bets", "url": "/"},
-    {"text": "how longshot odds work", "url": "/how-do-longshot-odds-work/"},
-    {"text": "betting odds explained", "url": "/betting-odds-explained/"},
-    {"text": "about Dollar Bets", "url": "/about/"}
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    },
+    {
+      "text": "how longshot odds work",
+      "url": "/how-do-longshot-odds-work/"
+    },
+    {
+      "text": "betting odds explained",
+      "url": "/betting-odds-explained/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
   ],
   "body": [
     {
@@ -30,7 +42,7 @@
     },
     {
       "type": "heading",
-      "content": "how the math works"
+      "content": "How does the math behind +10000 odds work?"
     },
     {
       "type": "text",
@@ -38,7 +50,7 @@
     },
     {
       "type": "heading",
-      "content": "what it means in probability terms"
+      "content": "What is the implied probability of +10000 odds?"
     },
     {
       "type": "text",
@@ -46,7 +58,7 @@
     },
     {
       "type": "heading",
-      "content": "the plus sign vs the minus sign"
+      "content": "What's the difference between plus and minus odds?"
     },
     {
       "type": "text",
@@ -54,7 +66,7 @@
     },
     {
       "type": "heading",
-      "content": "where you'll see +10000 odds"
+      "content": "Where do +10000 odds show up?"
     },
     {
       "type": "text",
@@ -62,7 +74,7 @@
     },
     {
       "type": "heading",
-      "content": "converting to other formats"
+      "content": "How do you convert +10000 to decimal or fractional odds?"
     },
     {
       "type": "text",
@@ -91,5 +103,6 @@
   "publish_date": "2026-05-04",
   "last_updated": "2026-05-04",
   "cluster": "Betting Explainers",
-  "priority": 71
+  "priority": 71,
+  "quick_answer": "+10000 odds mean that for every $1 you bet, you'd win $100 in profit if the bet hits. The implied probability is about 1% — the market thinks there's roughly a 1-in-100 chance of this outcome happening. These are extreme longshots with massive potential returns."
 }

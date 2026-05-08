@@ -17,10 +17,22 @@
     "note": "Illustrative — based on widely reported pre-season odds"
   },
   "internal_links": [
-    {"text": "today's best underdog bets", "url": "/sports-markets/"},
-    {"text": "today's best $1 bets", "url": "/"},
-    {"text": "more Hall of Filth stories", "url": "/hall-of-filth/"},
-    {"text": "today's biggest payouts", "url": "/"}
+    {
+      "text": "today's best underdog bets",
+      "url": "/sports-markets/"
+    },
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    },
+    {
+      "text": "more Hall of Filth stories",
+      "url": "/hall-of-filth/"
+    },
+    {
+      "text": "today's biggest payouts",
+      "url": "/"
+    }
   ],
   "current_equivalent": {
     "category": "Underdogs",
@@ -88,5 +100,6 @@
   "compliance": "Historical odds are illustrative, based on widely reported pre-season bookmaker odds. Actual returns would have varied by bookmaker and timing. Past results do not predict future outcomes. Longshots are longshots for a reason.",
   "publish_date": "2026-04-28",
   "cluster": "Hall of Filth",
-  "priority": 78
+  "priority": 78,
+  "quick_answer": "Leicester City won the 2015-16 Premier League at approximately 5000-to-1 odds, the most improbable title win in major professional sports history. They'd nearly been relegated the season before. A $1 bet placed before the season would have returned roughly $5,000."
 }

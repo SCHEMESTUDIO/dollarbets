@@ -18,11 +18,26 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "today's $1 board", "url": "/"},
-    {"text": "weird bets today", "url": "/weird-prediction-markets/"},
-    {"text": "celebrity prediction markets", "url": "/celebrity-prediction-markets/"},
-    {"text": "what is a prop bet?", "url": "/what-is-a-prop-bet/"},
-    {"text": "about Dollar Bets", "url": "/about/"}
+    {
+      "text": "today's $1 board",
+      "url": "/"
+    },
+    {
+      "text": "weird bets today",
+      "url": "/weird-prediction-markets/"
+    },
+    {
+      "text": "celebrity prediction markets",
+      "url": "/celebrity-prediction-markets/"
+    },
+    {
+      "text": "what is a prop bet?",
+      "url": "/what-is-a-prop-bet/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
   ],
   "body": [
     {
@@ -71,7 +86,7 @@
     },
     {
       "type": "heading",
-      "content": "where to find them"
+      "content": "Where can you find weird prop bets?"
     },
     {
       "type": "text",
@@ -100,5 +115,6 @@
   "publish_date": "2026-05-08",
   "last_updated": "2026-05-08",
   "cluster": "Weird Bets",
-  "priority": 64
+  "priority": 64,
+  "quick_answer": "Entertainment prop bets let you wager on Oscars, Emmys, reality TV outcomes, box office numbers, and other Hollywood events. These are proposition bets on specific entertainment occurrences rather than final outcomes. Prediction markets and some sportsbooks offer them year-round."
 }

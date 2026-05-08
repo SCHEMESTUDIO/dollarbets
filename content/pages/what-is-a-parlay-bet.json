@@ -18,10 +18,22 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "today's board", "url": "/"},
-    {"text": "about Dollar Bets", "url": "/about/"},
-    {"text": "betting odds explained", "url": "/betting-odds-explained/"},
-    {"text": "biggest payouts this week", "url": "/biggest-payouts-this-week/"}
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    },
+    {
+      "text": "betting odds explained",
+      "url": "/betting-odds-explained/"
+    },
+    {
+      "text": "biggest payouts this week",
+      "url": "/biggest-payouts-this-week/"
+    }
   ],
   "body": [
     {
@@ -62,7 +74,7 @@
     },
     {
       "type": "heading",
-      "content": "the dollar framing"
+      "content": "Why does Dollar Bets frame everything as $1?"
     },
     {
       "type": "text",
@@ -91,5 +103,6 @@
   "publish_date": "2026-05-06",
   "last_updated": "2026-05-06",
   "cluster": "Betting Explainers",
-  "priority": 68
+  "priority": 68,
+  "quick_answer": "A parlay combines multiple individual bets into a single wager. Every leg must win for the parlay to pay out. The odds multiply together, so payouts grow fast — but so does your chance of losing. A 3-leg parlay at even odds turns $1 into $8, but you need to go 3-for-3."
 }

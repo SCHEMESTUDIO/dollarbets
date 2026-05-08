@@ -18,10 +18,22 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "what is a prediction market?", "url": "/what-is-a-prediction-market/"},
-    {"text": "supreme court prediction markets", "url": "/supreme-court-prediction-markets/"},
-    {"text": "today's best $1 bets", "url": "/"},
-    {"text": "about Dollar Bets", "url": "/about/"}
+    {
+      "text": "what is a prediction market?",
+      "url": "/what-is-a-prediction-market/"
+    },
+    {
+      "text": "supreme court prediction markets",
+      "url": "/supreme-court-prediction-markets/"
+    },
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
   ],
   "body": [
     {
@@ -30,7 +42,7 @@
     },
     {
       "type": "heading",
-      "content": "prediction markets vs sportsbooks"
+      "content": "Can you bet on elections at regular sportsbooks?"
     },
     {
       "type": "text",
@@ -99,5 +111,6 @@
   "publish_date": "2026-05-07",
   "last_updated": "2026-05-07",
   "cluster": "Political Markets",
-  "priority": 65
+  "priority": 65,
+  "quick_answer": "Yes, you can legally bet on US elections through CFTC-regulated prediction markets like Kalshi. A 2024 federal court ruling confirmed that election event contracts are legal. Polymarket also offers election markets but is not available to US users. Traditional sportsbooks do not offer election betting in the United States."
 }

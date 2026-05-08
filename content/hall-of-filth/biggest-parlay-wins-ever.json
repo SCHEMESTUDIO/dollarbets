@@ -20,11 +20,26 @@
     "note": "Illustrative — composite based on reported parlay wins"
   },
   "internal_links": [
-    {"text": "what is a parlay bet?", "url": "/what-is-a-parlay-bet/"},
-    {"text": "same-game parlays explained", "url": "/same-game-parlays-explained/"},
-    {"text": "more Hall of Filth stories", "url": "/hall-of-filth/"},
-    {"text": "today's best $1 bets", "url": "/"},
-    {"text": "about Dollar Bets", "url": "/about/"}
+    {
+      "text": "what is a parlay bet?",
+      "url": "/what-is-a-parlay-bet/"
+    },
+    {
+      "text": "same-game parlays explained",
+      "url": "/same-game-parlays-explained/"
+    },
+    {
+      "text": "more Hall of Filth stories",
+      "url": "/hall-of-filth/"
+    },
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
   ],
   "current_equivalent": {
     "category": "Parlays",
@@ -74,7 +89,7 @@
     },
     {
       "type": "heading",
-      "content": "the dollar framing"
+      "content": "Why does Dollar Bets frame everything as $1?"
     },
     {
       "type": "text",
@@ -103,5 +118,6 @@
   "publish_date": "2026-05-07",
   "last_updated": "2026-05-07",
   "cluster": "Biggest Payouts",
-  "priority": 66
+  "priority": 66,
+  "quick_answer": "The biggest parlay wins in betting history turned tiny stakes into life-changing payouts by stringing together multiple unlikely outcomes on a single ticket. Multi-leg parlays multiply odds together — the more legs, the bigger the payout and the smaller the chance. These are the ones that actually hit."
 }

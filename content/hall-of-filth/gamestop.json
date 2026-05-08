@@ -20,10 +20,22 @@
     "note": "Illustrative — based on approximate GME price movement from ~$4 to ~$483 intraday peak"
   },
   "internal_links": [
-    {"text": "more Hall of Filth stories", "url": "/hall-of-filth/"},
-    {"text": "crypto moonshot bets", "url": "/altcoin-moonshot-bets/"},
-    {"text": "today's best $1 bets", "url": "/"},
-    {"text": "about Dollar Bets", "url": "/about/"}
+    {
+      "text": "more Hall of Filth stories",
+      "url": "/hall-of-filth/"
+    },
+    {
+      "text": "crypto moonshot bets",
+      "url": "/altcoin-moonshot-bets/"
+    },
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
   ],
   "current_equivalent": {
     "category": "Financial Markets",
@@ -102,5 +114,6 @@
   "publish_date": "2026-05-07",
   "last_updated": "2026-05-07",
   "cluster": "Hall of Filth",
-  "priority": 66
+  "priority": 66,
+  "quick_answer": "In January 2021, Reddit's r/WallStreetBets coordinated a massive buying spree of GameStop stock, squeezing hedge funds that had shorted it. GME went from around $17 to $483 in weeks. A $1 investment at $17 would have returned roughly $28 at the peak — a 2,700% gain driven entirely by internet chaos."
 }

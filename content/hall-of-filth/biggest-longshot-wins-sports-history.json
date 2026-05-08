@@ -19,12 +19,30 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "today's board", "url": "/"},
-    {"text": "about Dollar Bets", "url": "/about/"},
-    {"text": "Hall of Filth", "url": "/hall-of-filth/"},
-    {"text": "prediction market longshots", "url": "/prediction-markets/prediction-market-longshots/"},
-    {"text": "Leicester City story", "url": "/hall-of-filth/leicester-city/"},
-    {"text": "Buster Douglas story", "url": "/hall-of-filth/buster-douglas/"}
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    },
+    {
+      "text": "Hall of Filth",
+      "url": "/hall-of-filth/"
+    },
+    {
+      "text": "prediction market longshots",
+      "url": "/prediction-markets/prediction-market-longshots/"
+    },
+    {
+      "text": "Leicester City story",
+      "url": "/hall-of-filth/leicester-city/"
+    },
+    {
+      "text": "Buster Douglas story",
+      "url": "/hall-of-filth/buster-douglas/"
+    }
   ],
   "body": [
     {
@@ -106,5 +124,6 @@
   "publish_date": "2026-05-01",
   "last_updated": "2026-05-01",
   "cluster": "Longshot Sports",
-  "priority": 76
+  "priority": 76,
+  "quick_answer": "The biggest longshot wins in sports history include Leicester City at 5000-to-1 (2015-16 Premier League), Buster Douglas knocking out Mike Tyson at 42-to-1, Greece winning Euro 2004 at 150-to-1, and the 2004 Red Sox coming back from 0-3. Each one is reframed here as what a $1 bet would have returned."
 }

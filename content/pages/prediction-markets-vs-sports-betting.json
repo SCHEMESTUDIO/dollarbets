@@ -18,11 +18,26 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "today's best $1 bets", "url": "/"},
-    {"text": "what is a prediction market?", "url": "/what-is-a-prediction-market/"},
-    {"text": "how longshot odds work", "url": "/how-do-longshot-odds-work/"},
-    {"text": "prediction markets for beginners", "url": "/prediction-markets-for-beginners/"},
-    {"text": "about Dollar Bets", "url": "/about/"}
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    },
+    {
+      "text": "what is a prediction market?",
+      "url": "/what-is-a-prediction-market/"
+    },
+    {
+      "text": "how longshot odds work",
+      "url": "/how-do-longshot-odds-work/"
+    },
+    {
+      "text": "prediction markets for beginners",
+      "url": "/prediction-markets-for-beginners/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
   ],
   "body": [
     {
@@ -39,7 +54,7 @@
     },
     {
       "type": "heading",
-      "content": "regulation"
+      "content": "How are prediction markets and sportsbooks regulated?"
     },
     {
       "type": "text",
@@ -47,7 +62,7 @@
     },
     {
       "type": "heading",
-      "content": "what you can bet on"
+      "content": "What weather events can you bet on?"
     },
     {
       "type": "text",
@@ -108,5 +123,6 @@
   "publish_date": "2026-05-04",
   "last_updated": "2026-05-04",
   "cluster": "Prediction Markets",
-  "priority": 71
+  "priority": 71,
+  "quick_answer": "Prediction markets and sports betting both let you wager on outcomes, but they're structured differently. Sports betting uses a bookmaker who sets odds. Prediction markets use an exchange where traders set prices by buying and selling contracts. Prediction markets cover non-sports events (elections, economics, weather) and are regulated differently in the US."
 }

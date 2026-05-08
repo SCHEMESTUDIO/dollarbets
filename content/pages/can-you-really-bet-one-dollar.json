@@ -18,11 +18,26 @@
     "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
-    {"text": "today's $1 board", "url": "/"},
-    {"text": "what can you bet $1 on?", "url": "/what-can-you-bet-one-dollar-on/"},
-    {"text": "best $1 bets today", "url": "/best-bets-for-a-dollar-this-week/"},
-    {"text": "why we use the dollar framing", "url": "/why-we-use-the-dollar-framing/"},
-    {"text": "about Dollar Bets", "url": "/about/"}
+    {
+      "text": "today's $1 board",
+      "url": "/"
+    },
+    {
+      "text": "what can you bet $1 on?",
+      "url": "/what-can-you-bet-one-dollar-on/"
+    },
+    {
+      "text": "best $1 bets today",
+      "url": "/best-bets-for-a-dollar-this-week/"
+    },
+    {
+      "text": "why we use the dollar framing",
+      "url": "/why-we-use-the-dollar-framing/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
   ],
   "body": [
     {
@@ -71,7 +86,7 @@
     },
     {
       "type": "heading",
-      "content": "where to start"
+      "content": "Where should beginners start?"
     },
     {
       "type": "text",
@@ -100,5 +115,6 @@
   "publish_date": "2026-05-08",
   "last_updated": "2026-05-08",
   "cluster": "$1 Bets",
-  "priority": 62
+  "priority": 62,
+  "quick_answer": "Yes, you can really bet just $1. Kalshi's minimum contract purchase is $1. Polymarket has no minimum. Most major sportsbooks accept $1 bets on standard markets. The $1 entry point is real — it's not a hypothetical framing. One dollar gets you into thousands of active markets across sports, politics, crypto, and culture."
 }
