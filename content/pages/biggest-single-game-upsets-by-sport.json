@@ -1,0 +1,121 @@
+{
+  "slug": "biggest-single-game-upsets-by-sport",
+  "format": "ranked_list",
+  "seo": {
+    "title": "Biggest Single-Game Upsets by Sport — What $1 Would Have Paid | Dollar Bets",
+    "h1": "Biggest Single-Game Upsets by Sport",
+    "meta_description": "The biggest upset in every major sport. NFL, NBA, soccer, boxing, MMA — each one reframed as a $1 payout.",
+    "canonical": "/biggest-single-game-upsets-by-sport/"
+  },
+  "summary": "Every sport has its impossible night. Buster Douglas decked Tyson. Appalachian State outscored Michigan. Saudi Arabia beat Argentina. This is the biggest single-game upset in each major sport, translated into what a single dollar would have returned.",
+  "hero_bet": {
+    "title": "Buster Douglas at Tokyo Dome — 1990 (illustrative)",
+    "payout": 43,
+    "quip": "Every sport has its moment. Here they all are.",
+    "tier": "red",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+    "note": "Illustrative — based on widely-cited approximate moneyline of 42-1 for Douglas"
+  },
+  "internal_links": [
+    {"text": "today's $1 board", "url": "/"},
+    {"text": "Hall of Filth", "url": "/hall-of-filth/"},
+    {"text": "biggest payouts this week", "url": "/biggest-payouts-this-week/"},
+    {"text": "what is an underdog bet?", "url": "/what-is-an-underdog-bet/"},
+    {"text": "about Dollar Bets", "url": "/about/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Every sport produces, eventually, a night that nobody priced correctly. The line was set, the line was wrong, and the world had to file new mental paperwork. Here is the biggest single-game upset in each major sport — translated into what a dollar would have returned at the pre-game number. All payouts are approximate and based on widely-reported lines from the time."
+    },
+    {
+      "type": "heading",
+      "content": "boxing — Buster Douglas KO Mike Tyson, Tokyo, 1990"
+    },
+    {
+      "type": "text",
+      "content": "Tyson was 37-0. Douglas was a club fighter pulled out of obscurity. Multiple US books opened the fight at 42-1 against Douglas; the Mirage in Vegas was reportedly the only place that bothered hanging a line. Douglas knocked Tyson down in round ten. A dollar paid roughly $43. It is the oldest, cleanest reference point in the entire upset canon."
+    },
+    {
+      "type": "heading",
+      "content": "horse racing — Mine That Bird, 2009 Kentucky Derby"
+    },
+    {
+      "type": "text",
+      "content": "A 50-1 morning-line gelding from New Mexico, hauled to Churchill Downs in a borrowed trailer, came up the rail under Calvin Borel and won the Derby by six and three-quarter lengths. A $1 win ticket paid about $51. The footage of the call is one of the most disoriented broadcasts in racing history because the announcer simply does not believe what he is seeing."
+    },
+    {
+      "type": "heading",
+      "content": "tennis — Roberta Vinci d. Serena Williams, 2015 US Open SF"
+    },
+    {
+      "type": "text",
+      "content": "Serena was three matches from a calendar Grand Slam. Vinci was a 33-year-old doubles specialist who had reportedly booked her flight home before the match. Some offshore books listed Vinci as long as 300-1 in pre-tournament outright markets; the match-line itself was a more modest blowout favorite for Serena. Vinci won in three sets and immediately apologized to America in her on-court interview."
+    },
+    {
+      "type": "heading",
+      "content": "college football — Appalachian State 34, Michigan 32 (2007)"
+    },
+    {
+      "type": "text",
+      "content": "Michigan was preseason top-five. App State was an FCS program nobody outside Boone, NC had heard of. The point spread was around 33 points; the moneyline was reportedly in the +1500 to +2000 range depending on the book. App State blocked the game-winning field goal as time expired. A dollar would have paid somewhere around $16-21."
+    },
+    {
+      "type": "heading",
+      "content": "college basketball — UMBC 74, Virginia 54 (2018)"
+    },
+    {
+      "type": "text",
+      "content": "Virginia was the No. 1 overall seed. UMBC was a 16. No 16 had ever beaten a 1 in the men's NCAA tournament. Lines varied, but moneyline reports for UMBC sat in the +2000 to +2500 area. UMBC won by twenty. The bracket pool that year was, statistically, the worst-performing March of the modern era — because everyone had Virginia."
+    },
+    {
+      "type": "heading",
+      "content": "soccer — Saudi Arabia 2, Argentina 1 (2022 World Cup group stage)"
+    },
+    {
+      "type": "text",
+      "content": "Argentina were heavy favorites and on a 36-match unbeaten run. Saudi Arabia were +1400 to +1600 outright depending on the book. They won 2-1 in Lusail. A dollar paid around $15-17. Argentina then went on to win the entire World Cup, which somehow makes the result both worse and funnier in retrospect."
+    },
+    {
+      "type": "heading",
+      "content": "MMA — Holly Holm KO Ronda Rousey, UFC 193 (2015)"
+    },
+    {
+      "type": "text",
+      "content": "Rousey was the biggest star in the sport and a -800 to -1100 favorite depending on where you looked. Holm was reported around +700 to +900. Holm head-kicked Rousey in round two and the cultural pillar of UFC women's bantamweight folded on the spot. A dollar on Holm paid somewhere around $8-10."
+    },
+    {
+      "type": "heading",
+      "content": "the sports without one clean answer"
+    },
+    {
+      "type": "text",
+      "content": "NBA and NHL single-game upsets are harder to canonize because regular-season lines move daily and the playoff format is series-based. The biggest NBA shocks tend to be best remembered as series — 8-over-1 first-round wins, blown 3-0 leads in conference finals — rather than one specific evening with a famous moneyline. Same in hockey, where the Miracle on Ice still owns the genre and nothing single-game has touched it since."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are all the odds on this page exact?",
+      "a": "No — they're approximate, drawn from the most widely-cited reported lines from the time of each event. Pre-game lines varied across books and not every market is well-archived. Treat the dollar payouts as illustrative."
+    },
+    {
+      "q": "Why are some sports missing?",
+      "a": "Some sports — especially NBA basketball and NHL hockey — don't produce a single canonical biggest-upset game the way boxing or college football do. Their famous chaos tends to live across multi-game series, not one night."
+    },
+    {
+      "q": "What's the biggest single-game upset of the modern era?",
+      "a": "By moneyline, Buster Douglas over Tyson is still the cleanest. By sport-shaping cultural impact, Appalachian State over Michigan is right there. By sheer 'where were you' reaction, Saudi Arabia over Argentina."
+    },
+    {
+      "q": "Do single-game upsets like these ever repeat?",
+      "a": "Truly extreme moneyline upsets are rare by definition — they require the favorite to be a near-lock and the underdog to be near-dismissed. A few connect every year across all global sports combined."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial discovery site. Historical moneylines and payouts on this page are approximate and based on widely-reported figures from the time of each event; lines varied across books and full archives are incomplete. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-05-08",
+  "last_updated": "2026-05-08",
+  "cluster": "Biggest Payouts",
+  "priority": 63
+}

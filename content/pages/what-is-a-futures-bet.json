@@ -1,0 +1,110 @@
+{
+  "slug": "what-is-a-futures-bet",
+  "format": "explainer",
+  "seo": {
+    "title": "What Is a Futures Bet? — Season-Long Wagers Explained | Dollar Bets",
+    "h1": "What Is a Futures Bet?",
+    "meta_description": "What futures bets are: long-term wagers on championships, awards, and outcomes that take months to resolve.",
+    "canonical": "/what-is-a-futures-bet/"
+  },
+  "summary": "A futures bet is a long-horizon wager on something that resolves weeks or months from now — a championship, an MVP, a season win total. You lock in your odds today and wait. The price moves around you. The payout doesn't move at all.",
+  "hero_bet": {
+    "title": "Will a wild card team win the next Super Bowl?",
+    "payout": 14,
+    "quip": "Place it in October. Forget about it until June. Maybe win.",
+    "tier": "orange",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's $1 board", "url": "/"},
+    {"text": "best futures bets right now", "url": "/best-futures-bets-right-now/"},
+    {"text": "betting odds explained", "url": "/betting-odds-explained/"},
+    {"text": "what does +10000 odds mean?", "url": "/what-does-plus-10000-odds-mean/"},
+    {"text": "about Dollar Bets", "url": "/about/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "A futures bet is exactly what it sounds like: a wager on something that hasn't happened yet and isn't going to happen for a while. The Super Bowl in February. The NBA MVP in April. The election in November. You buy in at today's odds, your ticket sits there, and the world spends the next several months either confirming you were right or making it very clear you were not."
+    },
+    {
+      "type": "heading",
+      "content": "what makes a bet a future"
+    },
+    {
+      "type": "text",
+      "content": "Time. That's the only meaningful definition. A futures bet has a long time horizon between the moment you place it and the moment it resolves. The bet itself can be pretty much any structure — moneyline (\"team X wins it all\"), prop (\"player X wins MVP\"), yes/no (\"will this happen by year-end\") — but if it doesn't settle in the next few hours or days, sportsbooks call it a future."
+    },
+    {
+      "type": "heading",
+      "content": "how the odds work"
+    },
+    {
+      "type": "text",
+      "content": "Futures odds are usually expressed as American moneyline. A pre-season +800 on a team to win the conference means a $1 bet pays $9 total ($1 stake plus $8 profit) if the team wins. Long-shot futures can run +5000, +10000, even higher. The further out the resolution, the wilder the prices, because the book is pricing more uncertainty into the line."
+    },
+    {
+      "type": "heading",
+      "content": "the locked-in price"
+    },
+    {
+      "type": "text",
+      "content": "The most important quirk of a futures bet is that your price is locked. If you grabbed a team at +5000 in July and they're +800 by December, your ticket still pays at +5000. That's the entire reason people buy futures early — you're not predicting the outcome, you're predicting that the market will move toward your side. The team doesn't even have to win for the ticket to gain value; somebody else might pay you for it (on platforms that allow ticket resale) just because the line shortened."
+    },
+    {
+      "type": "heading",
+      "content": "futures vs prediction markets"
+    },
+    {
+      "type": "text",
+      "content": "Prediction markets like Kalshi do something similar to futures, but with continuous trading. Instead of locking in a fixed moneyline, you buy and sell contracts at fluctuating prices, all settled to a $1 payout if the event resolves yes. The sportsbook futures market is take-it-or-leave-it; the prediction market is more like a stock for an outcome. Both let you take a long-horizon bet for a small dollar amount."
+    },
+    {
+      "type": "heading",
+      "content": "common types of futures"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Championship futures — who wins the league this season",
+        "Division and conference futures — narrower than full championship",
+        "Win totals — over/under on a team's regular-season wins",
+        "Award futures — MVP, Rookie of the Year, Coach of the Year",
+        "Specials — election outcomes, awards shows, year-end milestones"
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "the dollar framing"
+    },
+    {
+      "type": "text",
+      "content": "Futures are where the $1 framing pays off the most. A long-shot championship bet placed before the season can be priced absurdly cheap. Six months later it's either a story or a forgotten line in your account history. That asymmetry — small ticket, big possible story — is the whole appeal of the format."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I cash out a futures bet before it resolves?",
+      "a": "Sometimes. Most US sportsbooks offer a cash-out feature on futures, but the offered amount is usually well below the ticket's theoretical value. On prediction markets, you can sell contracts back into the market at the prevailing price."
+    },
+    {
+      "q": "When are the best odds on a futures bet?",
+      "a": "Earliest, almost always. The further from resolution you buy, the wider the price — because the book is pricing more uncertainty in. As the season narrows, longshot prices shorten."
+    },
+    {
+      "q": "How long do futures bets last?",
+      "a": "Anywhere from a few weeks (a playoff bracket future) to over a year (next year's Super Bowl, opened the night the current one ends). Most major-sport futures resolve within a single season."
+    },
+    {
+      "q": "Are futures available on prediction markets?",
+      "a": "Yes — most long-horizon event contracts on platforms like Kalshi function the same way as a sportsbook future, just structured as a $1-resolving contract instead of a fixed-odds ticket."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial discovery site. This is an educational explainer, not betting or financial advice. Futures markets carry the same risk of loss as any other wager and have the added feature of tying up your stake for an extended period. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-05-08",
+  "last_updated": "2026-05-08",
+  "cluster": "Betting Explainers",
+  "priority": 63
+}

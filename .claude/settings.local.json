@@ -32,7 +32,12 @@
       "Read(//Users/jameshd/Documents/Claude/Projects/Dog Show/site/**)",
       "Read(//Users/jameshd/Documents/Claude/Projects/Dog Show/**)",
       "Bash(claude config *)",
-      "Skill(update-config)"
+      "Skill(update-config)",
+      "Read(//Users/jameshd/Documents/Claude/Projects/seedmoji/**)",
+      "Bash(rm -rf node_modules package-lock.json)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(pkill -f \"astro dev\")"
     ]
   }
 }

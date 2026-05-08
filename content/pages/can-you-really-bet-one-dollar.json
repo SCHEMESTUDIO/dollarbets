@@ -1,0 +1,104 @@
+{
+  "slug": "can-you-really-bet-one-dollar",
+  "format": "explainer",
+  "seo": {
+    "title": "Can You Really Bet Just $1? Yes — Here's Where | Dollar Bets",
+    "h1": "Can You Really Bet Just $1?",
+    "meta_description": "Yes, you can bet $1. Here's where, how, and why the internet's funniest bets start at a buck.",
+    "canonical": "/can-you-really-bet-one-dollar/"
+  },
+  "summary": "Yes, you can bet a single dollar. Prediction markets like Kalshi sell contracts for pennies, so a dollar buys real exposure on real events. Most US sportsbooks accept $1 minimums too. The buck is the floor, not the ceiling — and on the right market, it's the start of a much larger story.",
+  "hero_bet": {
+    "title": "Will the Fed cut rates at the next meeting?",
+    "payout": 3,
+    "quip": "The answer is yes. The follow-up question is why.",
+    "tier": "green",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's $1 board", "url": "/"},
+    {"text": "what can you bet $1 on?", "url": "/what-can-you-bet-one-dollar-on/"},
+    {"text": "best $1 bets today", "url": "/best-bets-for-a-dollar-this-week/"},
+    {"text": "why we use the dollar framing", "url": "/why-we-use-the-dollar-framing/"},
+    {"text": "about Dollar Bets", "url": "/about/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Short version: yes. You can bet a single dollar. The longer version explains where, on what, and why $1 is actually the most interesting unit of bet in the entire industry."
+    },
+    {
+      "type": "heading",
+      "content": "the $1 minimum on prediction markets"
+    },
+    {
+      "type": "text",
+      "content": "On regulated US prediction markets like Kalshi, contracts are bought and sold for fractions of a dollar — sometimes a few cents, sometimes less. Each contract pays out $1 if the event resolves in your favor. That means a single dollar can buy multiple contracts at once, depending on the market's price. A contract trading at 5¢ pays $1 if it hits, so $1 buys you 20 contracts and a possible $20 return. A contract at 1¢ buys you 100 contracts and a possible $100. The dollar isn't the bet size limit. It's the entry fee."
+    },
+    {
+      "type": "heading",
+      "content": "the $1 minimum on sportsbooks"
+    },
+    {
+      "type": "text",
+      "content": "Most regulated US sportsbooks — DraftKings, FanDuel, BetMGM, Caesars, Fanatics — set their wager minimum at $1. You can place a single-dollar moneyline, parlay, or prop bet on any market they offer. The catch is that most modern sportsbooks are designed for parlays and bonus chasing; the $1 ticket isn't the headline product, but it works."
+    },
+    {
+      "type": "heading",
+      "content": "why the dollar bet is interesting"
+    },
+    {
+      "type": "text",
+      "content": "Because the dollar is small enough to be honest. A $50 bet has skin. A $500 bet has consequence. A $1 bet has only entertainment value. There's no rationalization, no recovery math, no chasing — just a question: do you think this thing happens or not? The dollar strips betting back down to its actual purpose, which is paying for the privilege of caring about a result."
+    },
+    {
+      "type": "heading",
+      "content": "where $1 buys the most chaos"
+    },
+    {
+      "type": "text",
+      "content": "Long-shot prediction markets, almost without exception. A 2¢ contract that pays $1 has an implied probability around 2%, which sounds like a long shot until you remember that thousands of these contracts exist across politics, weather, crypto, sports, and culture. A few of them connect every month. On a $50 sports parlay you're hoping for a specific outcome. On 50 different penny contracts you're hoping for any single one of them to break right."
+    },
+    {
+      "type": "heading",
+      "content": "where $1 isn't really enough"
+    },
+    {
+      "type": "text",
+      "content": "Standard moneyline favorites. A -300 favorite (implied ~75% probability) returns about 33¢ on $1. That's a real bet, but the entertainment-per-dollar is poor — you put up a buck to maybe win a third of one. The dollar framing only really sings when the odds are long. The shorter the odds, the more the dollar feels like a tip."
+    },
+    {
+      "type": "heading",
+      "content": "where to start"
+    },
+    {
+      "type": "text",
+      "content": "Today's Dollar Bets board has the live $1 markets, sorted by potential return. Every listing links to the underlying market on Kalshi. You don't need a bankroll, you don't need a strategy, you don't need to know what \"juice\" means. You need a dollar and an opinion."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I really place a bet for just $1?",
+      "a": "Yes. On prediction markets like Kalshi, contracts trade for pennies and a single dollar buys real exposure. Most regulated US sportsbooks also accept a $1 minimum wager."
+    },
+    {
+      "q": "What's the smallest bet possible on a prediction market?",
+      "a": "It depends on contract pricing, but you can effectively be in for cents. A single contract at 1¢ is a real position. Most platforms sell in single-contract increments, though some have small minimum order sizes per trade."
+    },
+    {
+      "q": "Will a $1 bet make me money?",
+      "a": "Probably not — most longshots don't connect. The dollar framing is about entertainment value, not income. Treat any return as a story, not a strategy."
+    },
+    {
+      "q": "Are there places that don't accept $1 bets?",
+      "a": "Some offshore books and some niche markets have higher minimums. Sticking to regulated US prediction markets and the major US sportsbooks is the simplest way to keep the dollar floor."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial discovery site. Availability of $1 minimum betting varies by platform and jurisdiction. Prediction market contracts and sportsbook wagers carry risk of loss. We do not operate markets or place bets. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-05-08",
+  "last_updated": "2026-05-08",
+  "cluster": "$1 Bets",
+  "priority": 62
+}

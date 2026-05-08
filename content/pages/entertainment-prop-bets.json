@@ -1,0 +1,104 @@
+{
+  "slug": "entertainment-prop-bets",
+  "format": "weird_market_roundup",
+  "seo": {
+    "title": "Entertainment Prop Bets — Awards, Shows, Movies | Dollar Bets",
+    "h1": "Entertainment Prop Bets",
+    "meta_description": "Current entertainment prop bets. Oscars, Emmys, reality TV, box office — what $1 says about Hollywood.",
+    "canonical": "/entertainment-prop-bets/"
+  },
+  "summary": "Entertainment prop bets are wagers on cultural outcomes that have nothing to do with sports — Oscar winners, reality TV finales, box office numbers, song-of-the-summer arguments. Prediction markets price all of them. A dollar buys you a stake in the discourse.",
+  "hero_bet": {
+    "title": "Will the next Best Picture winner be a sequel?",
+    "payout": 12,
+    "quip": "The Academy votes. The market prices. We laugh.",
+    "tier": "orange",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "today's $1 board", "url": "/"},
+    {"text": "weird bets today", "url": "/weird-prediction-markets/"},
+    {"text": "celebrity prediction markets", "url": "/celebrity-prediction-markets/"},
+    {"text": "what is a prop bet?", "url": "/what-is-a-prop-bet/"},
+    {"text": "about Dollar Bets", "url": "/about/"}
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Entertainment prop bets are the part of prediction markets where the discourse meets a price tag. Will the show get cancelled? Will the album go number one? Will the host say the thing? Somebody runs the numbers. Somebody else disagrees. The gap between them is your dollar's playground."
+    },
+    {
+      "type": "heading",
+      "content": "awards show markets"
+    },
+    {
+      "type": "text",
+      "content": "Oscars, Emmys, Grammys, Tonys, Globes — every major awards show gets a market. The fun ones aren't \"who wins Best Picture\" (that's usually priced into oblivion by the time the ceremony airs). The fun ones are the props. Will anyone cry on stage? Will the host go after a specific celebrity? Will the runtime exceed four hours? These markets tend to mispricing because the crowd argues about likelihood the way it argues about the show itself: emotionally."
+    },
+    {
+      "type": "heading",
+      "content": "reality TV outcomes"
+    },
+    {
+      "type": "text",
+      "content": "Reality TV is built for prediction markets. Discrete episodes, public villains, predictable arcs, and a fanbase that already runs spreadsheets. The Bachelor, Survivor, Love Island, Drag Race — every one of these has a Reddit thread doing better than the books. Markets on reality TV finales are some of the most efficient on the entire prediction-market internet, which means the genuine longshots are unusually entertaining when they hit."
+    },
+    {
+      "type": "heading",
+      "content": "box office and streaming"
+    },
+    {
+      "type": "text",
+      "content": "Will the new Marvel movie open above $100M? Will the streaming series crack a top-ten weekly chart? Will the prestige drama get a third season? These markets price expectation against reality, and Hollywood is bad at expectation. You don't have to know the industry. You have to know where the industry is delusional."
+    },
+    {
+      "type": "heading",
+      "content": "music and pop culture"
+    },
+    {
+      "type": "text",
+      "content": "Song-of-the-summer markets are the dumbest, funniest things on the prediction-market internet. Album-of-the-year markets are slightly more serious. Tour announcement markets — will an artist add a date? will a reunion happen? — sit somewhere in between. The prices move the second a press release drops, which means the value lives in the silence before."
+    },
+    {
+      "type": "heading",
+      "content": "narrative criticism with skin in the game"
+    },
+    {
+      "type": "text",
+      "content": "Sports bets settle on a final score. Entertainment bets settle on whatever a PR team decided six months ago and forgot to leak. The opacity is the point. A dollar on \"will this celebrity tweet about that other celebrity by July\" is not investing — it's pop-culture commentary that costs the same as a vending-machine soda. The ones that hit make for better dinner-party stories than the Eagles covering."
+    },
+    {
+      "type": "heading",
+      "content": "where to find them"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi's culture section is the most active. Markets come and go fast — they're tied to specific events, premieres, ceremonies. The Dollar Bets daily board features whichever entertainment markets are live and weird enough to qualify. If you're chasing one specific awards show, check the calendar of the ceremony itself; markets usually open about six weeks out and resolve the night of."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are entertainment prop bets legal?",
+      "a": "On regulated prediction markets like Kalshi, many entertainment markets are listed as event contracts. Availability varies by jurisdiction and by individual market. Sportsbook-style entertainment props are restricted in most US states."
+    },
+    {
+      "q": "Why are awards-show markets so volatile?",
+      "a": "Because the underlying signal is gossip. A trade publication posts a rumor, a screener review leaks, a campaign goes negative — and the price jumps before the ceremony even rehearses."
+    },
+    {
+      "q": "What's the cheapest kind of entertainment prop?",
+      "a": "Specific outcome props — \"will the host say X word,\" \"will a particular winner thank a particular person\" — tend to price as deep longshots. They are also the most likely to resolve no."
+    },
+    {
+      "q": "Do these markets ever pay out big?",
+      "a": "Occasionally. The biggest entertainment-market hits tend to be on awards-season surprises that the betting public stopped pricing weeks before the ceremony."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial discovery site. Entertainment prediction markets are time-sensitive and event-specific; availability varies by jurisdiction and platform. We do not operate markets, place bets, or provide financial advice. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-05-08",
+  "last_updated": "2026-05-08",
+  "cluster": "Weird Bets",
+  "priority": 64
+}
