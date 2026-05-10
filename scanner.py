@@ -1111,17 +1111,27 @@ def classify_quip(quip):
     film_tv = ["directed by", "coen", "succession", "wes anderson", "michael scott",
                "palpatine", "prestige", "truman show", "nolan", "the bear", "credits",
                "office fire", "nic cage", "curb your", "always sunny", "bad place",
-               "scorsese", "prometheus", "hunger games"]
+               "scorsese", "prometheus", "hunger games",
+               # added 2026-05-10 — Anchorman quote and meta-film phrasings
+               "60% of the time", "told in one part"]
     music = ["miss the earth", "miss my wife", "midwest princess", "running up that hill",
              "them apples", "i'm the problem", "start the fire", "mama said", "somebody once",
-             "bohemian", "under pressure", "sound of silence", "shake it off", "long long time"]
-    internet_meme = ["diet dr. pepper", "60% of the time", "this is fine", "sir this is",
+             "bohemian", "under pressure", "sound of silence", "shake it off", "long long time",
+             # added 2026-05-10 — Rocket Man w/ comma, Charli XCX, Home on the Range parody
+             "a long, long time", "brat era", "drone on the range"]
+    internet_meme = ["diet dr. pepper", "this is fine", "sir this is",
                      "stonks", "task failed", "suffering from success", "money printer",
                      "imma head out", "it's giving", "understood the assignment",
                      "no thoughts just vibes", "chaotic good", "audacity of hype",
-                     "main character", "the meme wrote"]
+                     "main character", "the meme wrote",
+                     # added 2026-05-10 — wikipedia stub format meme
+                     "wikipedia page", "under construction"]
+    # NB: removed "60% of the time" from internet_meme — it's an Anchorman quote
+    # (film_tv_reference) per editor's cluster_review on 2026-05-10
     books_hist = ["moneyball", "freakonomics", "invisible hand", "hemingway",
-                  "art of war", "kafka", "wikipedia edit"]
+                  "art of war", "kafka", "wikipedia edit",
+                  # added 2026-05-10 — Moneyball with a space
+                  "money ball"]
 
     if any(k in q for k in film_tv):
         return "film_tv_reference"
@@ -1141,27 +1151,42 @@ def classify_quip(quip):
                     "load management", "poster dunk", "deep bench", "pick six",
                     "small ball", "bunt", "rain delay", "fourth quarter", "press box",
                     "boosters", "NIL", "cinderella", "office pool", "ref is not",
-                    "highlight reel", "postgame", "press conference"]
+                    "highlight reel", "postgame", "press conference",
+                    # added 2026-05-10 — covers eye-test debate, named athletes,
+                    # market-vernacular sports framing
+                    "eye test", "league history", "short the club", "alonso",
+                    "see spurs go"]
     if any(k in q for k in sports_words):
         return "sports"
 
     # --- Tone / voice clusters ---
     if any(k in q for k in ["chaos", "chaotic", "unhinged", "cooked", "glitching",
-                             "apocalyptic", "unwell", "demolition", "intrusive"]):
+                             "apocalyptic", "unwell", "demolition", "intrusive",
+                             # added 2026-05-10 — absurdist parallel construction
+                             # ("in other news: ...") + escalation patterns
+                             "in other", "tears of crypto", "ends in human",
+                             "trump island", "with opinions about your"]):
         return "chaos_energy"
     if any(k in q for k in ["spreadsheet", "data", "analytics", "math", "chart",
                              "number go up", "algorithm", "stat sheet", "financial"]):
         return "data_nerd"
     if any(k in q for k in ["group chat", "twitter", "reddit", "substack", "podcast",
                              "linkedin", "slack", "reply guys", "discourse", "timeline",
-                             "notifications", "screenshot", "browser tab", "op-eds"]):
+                             "notifications", "screenshot", "browser tab", "op-eds",
+                             # added 2026-05-10 — collective-online-behavior framing
+                             "fanboys"]):
         return "internet_discourse"
     if any(k in q for k in ["uber driver", "lyft driver", "barber", "cab driver",
                              "coworker", "dad will text", "cousin", "mother-in-law",
-                             "partner", "therapist", "your ex"]):
+                             "partner", "therapist", "your ex",
+                             # added 2026-05-10 — first/second-person reader-implication
+                             "back when i was a kid", "i'll pay anything",
+                             "could you pick", "the day i bring"]):
         return "person_has_opinion"
     if any(k in q for k in ["comedy", "lol", "funny", "entertainment", "popcorn",
-                             "amusing", "hilarious", "jokes"]):
+                             "amusing", "hilarious", "jokes",
+                             # added 2026-05-10 — comedian-as-stand-in framing
+                             "will ferrell"]):
         return "comedy_framing"
     if any(k in q for k in ["existential", "meaning", "universe", "simulation",
                              "prophecy", "manifesting", "fate", "gods"]):
@@ -1171,7 +1196,9 @@ def classify_quip(quip):
         return "meta_wager"
     if any(k in q for k in ["whisper", "quiet", "gentle", "slow", "little",
                              "footnote", "passing", "soft", "plausible",
-                             "reasonable", "defensible"]):
+                             "reasonable", "defensible",
+                             # added 2026-05-10 — dry biographical / quiet inevitability
+                             "see it coming", "more love for", "spent twenty years"]):
         return "understated"
     if any(k in q for k in ["energy", "aura", "vibes", "mood", "feeling",
                              "emotional", "spirit"]):

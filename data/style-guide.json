@@ -1,6 +1,19 @@
 {
   "principles": [
     {
+      "id": "commit-to-a-hot-take",
+      "principle": "When a bet invites a stance, take one — confidently, specifically, slightly provocatively — rather than observing from a distance",
+      "technique": "Frame the quip as a declaration, ultimatum, comparison, or rhetorical challenge ('X > Y', 'name a bigger ___ than Y', 'if X doesn't Y I'm ___'). Pair the stance with an absurd or hyperbolic stake to keep it in voice. The reader should feel the writer planting a flag, not surveying the field. Reserve for bets where editors might genuinely have an opinion (entertainment, sports rivalries, geopolitical micro-takes); avoid for purely procedural or weather bets",
+      "examples_for": [
+        "Entertainment",
+        "Sports",
+        "World",
+        "yellow tier",
+        "orange tier"
+      ],
+      "evidence_count": 4
+    },
+    {
       "id": "strip-the-setup",
       "principle": "Remove leading conjunctions, filler phrases, and softening particles that cushion the punchline \u2014 start mid-thought",
       "technique": "Delete 'and', 'but', 'so', 'well', 'I think', 'how about', 'Sir' from the front of quips; let the line land without a runway. This applies to honorifics too \u2014 'Sir Jony' becomes 'the man'",

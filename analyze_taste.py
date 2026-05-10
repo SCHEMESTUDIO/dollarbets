@@ -16,6 +16,7 @@ Example patterns it might extract:
 
 import json
 import os
+import re
 import sys
 import urllib.request
 import urllib.error
@@ -162,8 +163,17 @@ Rules:
 - Keep principles to 10 or fewer — quality over quantity
 - voice_notes should capture the personality, not just the rules
 - cluster_review: include EVERY editor quip. If auto_cluster is correct, set recommended_cluster to the same value and rationale to "correct"
-- new_clusters: only propose a new cluster if 2+ editor quips share a voice pattern not captured by existing clusters. Include keywords that could power keyword-based classification
+- new_clusters: only propose a new cluster if 2+ editor quips share a voice pattern not captured by existing clusters
 - If "general_wit" is assigned to an editor quip, that's the catch-all — check if it truly doesn't fit elsewhere or if a new cluster is warranted
+
+KEYWORD RULES (critical — failures here pollute downstream classification):
+- Keywords are matched as LITERAL LOWERCASE SUBSTRINGS at runtime via `keyword.lower() in quip.lower()`. There is NO regex, NO templating, NO placeholder expansion.
+- Do NOT use placeholders like X, Y, {{name}}, or [thing]. Single uppercase letters and curly/square brackets in keywords will be matched as literal characters and will not match real quips.
+- Every keyword you propose MUST appear verbatim (lowercased) inside at least one of the cluster's evidence_quips. Before emitting the keyword list, check this yourself.
+- Prefer 3+ word phrases. One- or two-word keywords (e.g. "biggest", "the man who", "could you") are usually too generic and will steal quips out of better-tuned clusters.
+- Custom clusters are checked BEFORE every hardcoded cluster in classify_quip(). A keyword that's even slightly too broad will cannibalize sports/film_tv/music/etc. Err narrow.
+- Derive keywords ONLY from the cluster's own evidence_quips. Do not pull a phrase from a quip whose recommended_cluster is different.
+- If a cluster's evidence quips share semantic posture but no recurring lexical signature, propose FEWER keywords (or zero — the cluster can still be captured by style-guide principles even if classify_quip can't match it).
 
 Respond with ONLY the JSON object."""
 
@@ -229,6 +239,60 @@ Respond with ONLY the JSON object."""
     return None
 
 
+def validate_cluster_keywords(cluster, all_quips_pool=None, other_cluster_keywords=None):
+    """Filter a proposed cluster's keyword list against quality rules.
+
+    Returns (filtered_keywords, warnings_list). Drops keywords that:
+      1. Contain placeholder characters (single uppercase X/Y, curly/square brackets)
+      2. Don't appear verbatim (lowercased) in any of the cluster's evidence_quips
+      3. Match more than 15% of the ALL_QUIPS pool (too generic)
+      4. Are already in another cluster's keyword list (would cause overlap)
+
+    Each filtered-out keyword is recorded in warnings_list so main() can log it.
+    """
+    cid = cluster.get("id", "?")
+    keywords = cluster.get("keywords", [])
+    evidence_quips = [q.lower() for q in cluster.get("evidence_quips", [])]
+    other_kws = other_cluster_keywords or set()
+    pool = all_quips_pool or []
+    pool_threshold = max(int(0.15 * len(pool)), 5) if pool else None
+
+    filtered = []
+    warnings = []
+
+    placeholder_re = re.compile(r'\b[XY]\b|[\{\}\[\]]')
+
+    for kw in keywords:
+        kw_l = kw.lower().strip()
+        if not kw_l:
+            warnings.append(f"[{cid}] dropped empty keyword")
+            continue
+
+        if placeholder_re.search(kw):
+            warnings.append(f"[{cid}] dropped '{kw}' — contains placeholder/template characters")
+            continue
+
+        if evidence_quips and not any(kw_l in eq for eq in evidence_quips):
+            warnings.append(f"[{cid}] dropped '{kw}' — not present in any evidence_quip")
+            continue
+
+        if kw_l in other_kws:
+            warnings.append(f"[{cid}] dropped '{kw}' — already used by another cluster")
+            continue
+
+        if pool_threshold is not None:
+            n_hits = sum(1 for q in pool if kw_l in q.lower())
+            if n_hits > pool_threshold:
+                warnings.append(
+                    f"[{cid}] dropped '{kw}' — matches {n_hits}/{len(pool)} pool quips (too generic)"
+                )
+                continue
+
+        filtered.append(kw)
+
+    return filtered, warnings
+
+
 def main():
     print("[taste] Loading editor overrides...", file=sys.stderr)
     overrides = load_overrides()
@@ -279,6 +343,18 @@ def main():
         except (FileNotFoundError, json.JSONDecodeError):
             pass
 
+        # Build set of keywords already used by OTHER clusters so the validator
+        # can flag overlap. Excludes each new cluster's own previous keywords
+        # (so re-running the loop doesn't reject them as "already used").
+        def _other_kws(this_cid):
+            kws = set()
+            for cid, c in existing_custom.items():
+                if cid == this_cid:
+                    continue
+                for k in c.get("keywords", []):
+                    kws.add(k.lower())
+            return kws
+
         added = 0
         for nc in new_clusters:
             cid = nc["id"]
@@ -286,10 +362,29 @@ def main():
             if not keywords:
                 print(f"[taste] Skipping cluster '{cid}' — no keywords", file=sys.stderr)
                 continue
+
+            # ── Validate keywords before persisting ──
+            filtered, warnings = validate_cluster_keywords(
+                nc,
+                all_quips_pool=ALL_QUIPS,
+                other_cluster_keywords=_other_kws(cid),
+            )
+            for w in warnings:
+                print(f"[taste] {w}", file=sys.stderr)
+
+            if not filtered:
+                print(f"[taste] Skipping cluster '{cid}' — no keywords passed validation",
+                      file=sys.stderr)
+                continue
+
+            if len(filtered) < len(keywords):
+                print(f"[taste] Cluster '{cid}': kept {len(filtered)}/{len(keywords)} "
+                      f"keywords after validation", file=sys.stderr)
+
             existing_custom[cid] = {
                 "id": cid,
                 "description": nc.get("description", ""),
-                "keywords": keywords,
+                "keywords": filtered,
                 "added_at": guide["meta"]["generated_at"],
                 "evidence_quips": nc.get("evidence_quips", []),
             }
