@@ -2,123 +2,471 @@
   "principles": [
     {
       "id": "strip-the-setup",
-      "principle": "Remove leading conjunctions and filler phrases that cushion the punchline \u2014 start mid-thought",
-      "technique": "Delete 'and', 'but', 'so', 'well', 'I think', 'how about' from the front of quips; let the line land without a runway",
+      "principle": "Remove leading conjunctions, filler phrases, and softening particles that cushion the punchline \u2014 start mid-thought",
+      "technique": "Delete 'and', 'but', 'so', 'well', 'I think', 'how about', 'Sir' from the front of quips; let the line land without a runway. This applies to honorifics too \u2014 'Sir Jony' becomes 'the man'",
       "examples_for": [
         "all categories",
         "all tiers"
       ],
-      "evidence_count": 2
+      "evidence_count": 4
     },
     {
       "id": "specific-cultural-artifact-over-generic-metaphor",
-      "principle": "Replace generic figurative language with a specific named cultural artifact (film, song, meme, product) that creates meaning through juxtaposition",
-      "technique": "When a quip uses an abstract metaphor ('fever', 'cope', 'posting through it'), swap it for a concrete pop-culture object whose tone or plot rhymes with the bet's actual stakes",
+      "principle": "Replace generic figurative language with a specific named cultural artifact (film, song, meme, product, character) that creates meaning through juxtaposition",
+      "technique": "When a quip uses an abstract metaphor ('fever', 'cope', 'posting through it', 'elon being elon'), swap it for a concrete pop-culture object whose tone or plot rhymes with the bet's actual stakes. The artifact should require minimal explanation \u2014 if you have to decode it, it's the wrong artifact",
       "examples_for": [
         "Science and Technology",
         "World",
         "Entertainment",
         "Climate and Weather"
       ],
-      "evidence_count": 6
-    },
-    {
-      "id": "financial-vernacular-for-sports-stakes",
-      "principle": "Apply financial or market-native slang to sports bets to signal that the bet is serious even if the subject is trivial",
-      "technique": "Use trader/investor vocabulary ('short the club', 'assembling', 'eye test guys') when the bet concerns player movement, team value, or long-term competitive positioning",
-      "examples_for": [
-        "Sports"
-      ],
-      "evidence_count": 2
+      "evidence_count": 7
     },
     {
       "id": "understate-the-obvious",
       "principle": "When the outcome of a high-probability bet is nearly certain, respond with breezy, anti-climactic acceptance rather than alarm or analysis",
-      "technique": "For green-tier bets where the answer is nearly foregone, use casual affirmation ('probably gravy', 'outrageously plausible') instead of explaining why the outcome is likely",
+      "technique": "For green-tier bets where the answer is nearly foregone, use casual affirmation ('probably gravy', 'outrageously plausible', 'Crazier things have happened') instead of explaining why the outcome is likely. Avoid clever metaphors \u2014 the flatness IS the joke",
       "examples_for": [
         "Climate and Weather",
         "Other",
+        "Sports",
         "green tier"
       ],
-      "evidence_count": 2
+      "evidence_count": 4
     },
     {
-      "id": "reframe-the-category-mismatch",
-      "principle": "When a bet is miscategorized or the subject is absurdly mismatched to its context, the quip should acknowledge or exploit that absurdity",
-      "technique": "If a bet appears in a wrong or ironic category (e.g. inflation in Sports, ceasefire in Science and Technology), let the quip play to the subject's real-world weight rather than the listed category",
+      "id": "concrete-prediction-over-meta-commentary",
+      "principle": "Quips should gesture at an actual outcome, named participant, or specific stake \u2014 not comment on the act of predicting or the market itself",
+      "technique": "Replace lines that describe the betting dynamic ('analytics vs eye test guys', 'someone's career depends on this', 'technically possible, spiritually unlikely') with lines that commit to a stance, name a specific thing at stake, or speak as if one outcome is already unfolding",
       "examples_for": [
         "Sports",
-        "Science and Technology",
-        "Other"
+        "Entertainment",
+        "World",
+        "all tiers"
       ],
-      "evidence_count": 2
+      "evidence_count": 5
     },
     {
       "id": "meme-format-for-process-bets",
       "principle": "For bets about slow-moving institutional or technical processes, use an established internet meme format to convey comedic inevitability",
-      "technique": "Match the bet's mechanism (rate decisions, AI benchmarks, money supply) to a well-known phrase or meme template ('Money printer go brrrr', 'wikipedia page currently under construction') rather than inventing a new metaphor",
+      "technique": "Match the bet's mechanism (rate decisions, AI benchmarks, money supply, product launches) to a well-known phrase or meme template ('Money printer go brrrr', 'wikipedia page currently under construction') rather than inventing a new metaphor. The meme should be widely legible, not niche",
       "examples_for": [
         "Other",
         "Science and Technology",
-        "category: Other red tier"
+        "red tier",
+        "orange tier"
       ],
-      "evidence_count": 2
+      "evidence_count": 3
     },
     {
       "id": "song-lyric-as-structural-rewrite",
-      "principle": "For high-stakes or emotionally resonant bets, a song lyric can carry the entire quip when the original AI line is thematically correct but too flat",
-      "technique": "Lift a lyric that maps directly onto the bet's emotional register; optionally modify one word to localize it to the bet subject. Reserve for purple/orange tiers or bets with obvious musical cognates",
+      "principle": "For high-stakes or emotionally resonant bets, a song lyric or title can carry the entire quip when the original AI line is thematically correct but too flat or too on-the-nose",
+      "technique": "Lift a lyric or album/song title that maps directly onto the bet's emotional register; optionally modify one word to localize it to the bet subject. Reserve for purple/orange tiers, geopolitical bets, or bets with obvious musical cognates. The lyric should do tonal work the prose cannot",
       "examples_for": [
         "World",
         "Science and Technology",
         "purple tier",
         "orange tier"
       ],
+      "evidence_count": 3
+    },
+    {
+      "id": "absurdist-pivot-for-low-probability-bets",
+      "principle": "For bets with extremely low probability, respond with a sideways absurdist comparison rather than direct analysis or dismissal",
+      "technique": "Instead of explaining why something won't happen, juxtapose it with another equally implausible scenario in a parallel structure ('in other news: Al-Qaeda pivoting to champion green energy causes'). The comparison should be tonally dry, not sarcastic",
+      "examples_for": [
+        "Other",
+        "World",
+        "yellow tier",
+        "orange tier"
+      ],
       "evidence_count": 2
     },
     {
-      "id": "concrete-prediction-over-meta-commentary",
-      "principle": "Quips should gesture at an actual outcome or named participant, not comment on the act of predicting or the market itself",
-      "technique": "Replace lines that describe the betting dynamic ('analytics vs eye test guys', 'someone's career depends on this') with lines that commit to a stance or name a specific thing at stake",
+      "id": "trim-for-rhythm",
+      "principle": "Tighten AI quips by cutting words that add length but not meaning, preserving the core image or punchline",
+      "technique": "If an AI quip is structurally correct but wordy, cut from the front or middle rather than rewriting entirely. 'tracklist in a Notes app screenshot in 3...2...1...' beats 'Drake's already got the tracklist in a Notes app screenshot'. 'Alonso has waited 17 years' beats 'Fernando Alonso has waited seventeen years for someone else to get this close'. Remove names when context makes them redundant; remove elaborating clauses after the punchline lands",
+      "examples_for": [
+        "Entertainment",
+        "Sports",
+        "all tiers"
+      ],
+      "evidence_count": 5
+    },
+    {
+      "id": "financial-vernacular-for-sports-stakes",
+      "principle": "Apply financial or market-native slang to sports bets to signal that the bet is serious even if the subject is trivial",
+      "technique": "Use trader/investor vocabulary ('short the club', 'assembling', 'the eye test guys are assembling') when the bet concerns player movement, team value, or long-term competitive positioning. Avoid this for match-result bets where the register feels forced",
       "examples_for": [
         "Sports",
+        "orange tier",
+        "yellow tier"
+      ],
+      "evidence_count": 3
+    },
+    {
+      "id": "second-person-implication-over-observation",
+      "principle": "Quips that implicate the reader land harder than quips that observe the world from a distance",
+      "technique": "Shift from third-person observation ('the algorithm has no chill') to first-person or second-person implication ('the algorithm is us and we are it', 'just please on the day I bring an umbrella'). The reader should feel included in the joke, not lectured at",
+      "examples_for": [
         "Entertainment",
-        "all tiers"
+        "Climate and Weather",
+        "Science and Technology",
+        "green tier",
+        "yellow tier"
       ],
       "evidence_count": 3
     }
   ],
   "avoid": [
     {
-      "id": "avoid-reused-lines",
-      "pattern": "Using the same quip formula across different bets (e.g. 'technically possible, spiritually unlikely' appeared twice)",
-      "why": "Editors treat each bet as a unique editorial slot; recycled constructions signal low effort and collapse the voice into a template"
+      "id": "avoid-generic-fever-metaphors",
+      "pattern": "Abstract metaphors like 'the planet is running a fever', 'gravity is a flat circle', 'posting through it', 'white smoke or cope'",
+      "why": "These feel like filler \u2014 they gesture at stakes without committing to anything specific or funny. Editors consistently replace them with cultural artifacts or concrete images that do actual tonal work"
     },
     {
       "id": "avoid-meta-betting-commentary",
-      "pattern": "Quips that describe the nature of the bet, the difficulty of predicting it, or the community of bettors rather than the subject itself",
-      "why": "Lines like 'the analytics guys versus the eye test guys' or 'the sort of thing that splits a friend group' talk around the subject instead of at it; editors prefer quips that take a position"
+      "pattern": "Quips that comment on the prediction market itself, the act of betting, or the analytical split between camps ('analytics guys versus the eye test guys', 'technically possible, spiritually unlikely', 'the sort of thing that splits a friend group')",
+      "why": "Dollar Bets readers are already inside the market \u2014 they don't need the quip to explain that markets are contested. Editors want quips that take a position on the subject, not the activity of predicting it"
     },
     {
-      "id": "avoid-topical-alarm",
-      "pattern": "Using urgent or earnest figurative language ('the planet is running a fever', 'mother nature's got range') to describe serious bets",
-      "why": "The editorial voice is dry and deadpan; performing concern or gravity undermines the tone. Seriousness is conveyed through specificity and cultural reference, not through alarmed metaphor"
+      "id": "avoid-tired-tech-shorthand",
+      "pattern": "Lazy tech-world shorthand like 'elon being elon', 'number go up', 'enshittification speedrun, any%'",
+      "why": "These feel like Twitter in 2022 \u2014 they're too easy and signal no original thought. Editors replace them with quips that find a fresh angle on the specific subject rather than reaching for a pre-worn phrase"
     },
     {
-      "id": "avoid-vague-irony",
-      "pattern": "Quips that signal ironic detachment without any specific content ('comedy listing', 'posting through it', 'elon being elon')",
-      "why": "Vague irony reads as the AI hedging; editors want the quip to commit to a bit, a reference, or a named thing \u2014 even if the tone is sardonic"
+      "id": "avoid-leading-conjunctions-and-hedges",
+      "pattern": "Starting quips with 'and', 'but', 'so', 'well', 'I think', 'how about', or honorifics like 'Sir'",
+      "why": "These create a windup before the punchline that dilutes impact. The house voice starts mid-thought \u2014 confident, not tentative"
     },
     {
-      "id": "avoid-process-description",
-      "pattern": "Describing what will happen procedurally or institutionally without any comedic reframe ('the wikipedia page will be contentious', 'white smoke or cope')",
-      "why": "Process descriptions are inert; they tell the reader what they already know about how institutions work. Editors replace them with framings that transpose the bet into a different, funnier context"
+      "id": "avoid-explanation-after-punchline",
+      "pattern": "Extending a quip with an explanatory clause after the joke has already landed ('Fernando Alonso has waited seventeen years for someone else to get this close', 'the number go down version of money printer go brrr')",
+      "why": "Editors consistently trim these trailing clauses. The quip should end at maximum compression \u2014 anything after the punchline is a retreat from commitment"
+    },
+    {
+      "id": "avoid-wikipedia-or-discourse-meta",
+      "pattern": "Quips that reference 'the wikipedia page will be contentious', 'there will be a podcast about this', or similar meta-commentary about how a topic will be covered",
+      "why": "These are observations about attention rather than observations about the subject. Editors prefer quips that engage with the subject's actual absurdity \u2014 'wikipedia page currently under construction' is acceptable only because it lands as a dry institutional joke, not commentary on discourse"
     }
   ],
-  "voice_notes": "Dollar Bets editorial voice is aggressively low-affect \u2014 it treats geopolitical crises, climate catastrophe, and sports gossip with the same flat, slightly bored wit, and it earns that tone by being specific rather than vague. The humor comes from unexpected precision: a niche film reference, a trader's one-liner, a meme format applied to a central bank meeting. Editors consistently reject quips that explain the joke, perform emotion, or recycle a formula \u2014 the ideal quip sounds like something a very online person muttered under their breath while scrolling, then immediately forgot they said.",
+  "voice_notes": "Dollar Bets writes like a very online person who has seen everything, is impressed by nothing, and expresses this not through cynicism but through extremely precise comic compression \u2014 the ideal quip sounds like something said aloud to no one in particular at 1am. The editors consistently push away from explanation, abstraction, and meta-commentary toward specificity, implication, and commitment: they want quips that take a position (even a ridiculous one) rather than quips that observe that a position exists. The humor ranges from deadpan acceptance to absurdist pivots to weaponized pop-culture reference, but the throughline is always economy \u2014 every word earns its place or gets cut.",
+  "cluster_review": [
+    {
+      "editor_quip": "I think it's gonna be a long, long time",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "music_reference",
+      "rationale": "Direct lyric lift from Elton John's 'Rocket Man' applied to a Mars travel bet \u2014 same pattern as other music_reference quips. Auto-classification missed the song lyric structure"
+    },
+    {
+      "editor_quip": "more love for craft catering",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "understated",
+      "rationale": "Dry, anti-climactic deflection from the actual Oscar category \u2014 fits the understated register of 'probably gravy' and 'a slow news day's best friend' better than general_wit"
+    },
+    {
+      "editor_quip": "The Rise and Fall of a Midwest Princess",
+      "auto_cluster": "music_reference",
+      "recommended_cluster": "music_reference",
+      "rationale": "correct"
+    },
+    {
+      "editor_quip": "probably gravy",
+      "auto_cluster": "dry_acceptance",
+      "recommended_cluster": "dry_acceptance",
+      "rationale": "correct"
+    },
+    {
+      "editor_quip": "the diet Dr. Pepper of LLMs",
+      "auto_cluster": "internet_meme",
+      "recommended_cluster": "internet_meme",
+      "rationale": "correct"
+    },
+    {
+      "editor_quip": "Toy Story 5 > The Odyssey",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "hot_take",
+      "rationale": "This is a committed, specific opinion stated as a provocation \u2014 fits the emerging hot_take cluster better than general_wit (see also: 'if Toy Story 5 doesn't clinch I'm going on hunger strike')"
+    },
+    {
+      "editor_quip": "short the club",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "sports",
+      "rationale": "Financial vernacular applied to a player/club stakes bet \u2014 matches the sports cluster's market-and-sports register"
+    },
+    {
+      "editor_quip": "the eye test guys are assembling",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "sports",
+      "rationale": "Committed stance on a sports debate with financial-adjacent vocabulary \u2014 belongs in sports cluster, not the catch-all"
+    },
+    {
+      "editor_quip": "The Hunger Games but for robots",
+      "auto_cluster": "film_tv_reference",
+      "recommended_cluster": "film_tv_reference",
+      "rationale": "correct"
+    },
+    {
+      "editor_quip": "I miss the earth so much. I miss my wife.",
+      "auto_cluster": "music_reference",
+      "recommended_cluster": "music_reference",
+      "rationale": "correct"
+    },
+    {
+      "editor_quip": "60% of the time, it works every time",
+      "auto_cluster": "internet_meme",
+      "recommended_cluster": "film_tv_reference",
+      "rationale": "This is a direct quote from Anchorman (2004), not an organic internet meme \u2014 should be film_tv_reference"
+    },
+    {
+      "editor_quip": "you know in Prometheus when the old guy was on the ship the entire time",
+      "auto_cluster": "film_tv_reference",
+      "recommended_cluster": "film_tv_reference",
+      "rationale": "correct"
+    },
+    {
+      "editor_quip": "wikipedia page currently under construction",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "internet_meme",
+      "rationale": "Riffs on a well-known internet format (Wikipedia stub/under construction notices) \u2014 closer to internet_meme than the generic general_wit catch-all"
+    },
+    {
+      "editor_quip": "Drone, drone on the range, where the militants and new recruits play",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "music_reference",
+      "rationale": "Structural song lyric parody ('Home on the Range') applied to a geopolitical bet \u2014 same pattern as other music_reference quips"
+    },
+    {
+      "editor_quip": "fanboys writing congress as we speak",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "internet_discourse",
+      "rationale": "References an online community's collective behavior pattern \u2014 fits internet_discourse's 'the discourse is already exhausting' register"
+    },
+    {
+      "editor_quip": "Money printer go brrrr",
+      "auto_cluster": "internet_meme",
+      "recommended_cluster": "internet_meme",
+      "rationale": "correct"
+    },
+    {
+      "editor_quip": "outrageously plausible",
+      "auto_cluster": "dry_acceptance",
+      "recommended_cluster": "dry_acceptance",
+      "rationale": "correct"
+    },
+    {
+      "editor_quip": "can't say you didn't see it coming",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "understated",
+      "rationale": "Dry, anti-climactic acknowledgment of a foreseeable outcome \u2014 fits the understated cluster's register of quiet inevitability"
+    },
+    {
+      "editor_quip": "the simulation is breaking down",
+      "auto_cluster": "cosmic_vibes",
+      "recommended_cluster": "cosmic_vibes",
+      "rationale": "correct"
+    },
+    {
+      "editor_quip": "in other memecoin news, White House vending machines now accept doge",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "chaos_energy",
+      "rationale": "Absurdist escalation through a fictional but plausible extension of current crypto chaos \u2014 fits chaos_energy's 'the simulation is glitching' register"
+    },
+    {
+      "editor_quip": "if geopolitics was Catan, this is like blocking longest road with a port",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "hot_take",
+      "rationale": "Committed, specific analogical stance on a geopolitical situation using a niche cultural reference \u2014 fits the emerging hot_take cluster pattern of confident, specific opinion"
+    },
+    {
+      "editor_quip": "just please on the day I bring an umbrella",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "person_has_opinion",
+      "rationale": "First-person relatable observation about lived experience \u2014 fits person_has_opinion's register of 'tell your uber driver' and personal stakes framing"
+    },
+    {
+      "editor_quip": "I'll pay anything for my e-girl",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "person_has_opinion",
+      "rationale": "First-person confession/opinion about a product \u2014 fits person_has_opinion's register of expressing personal stakes in a market outcome"
+    },
+    {
+      "editor_quip": "tracklist in a Notes app screenshot in 3...2...1...",
+      "auto_cluster": "internet_discourse",
+      "recommended_cluster": "internet_discourse",
+      "rationale": "correct"
+    },
+    {
+      "editor_quip": "in other news: Al-Qaeda pivoting to champion green energy causes",
+      "auto_cluster": "vibes_check",
+      "recommended_cluster": "chaos_energy",
+      "rationale": "Absurdist parallel construction to underscore implausibility \u2014 fits chaos_energy's chaotic-neutral register better than vibes_check"
+    },
+    {
+      "editor_quip": "if Toy Story 5 doesn't clinch I'm going on hunger strike",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "hot_take",
+      "rationale": "Committed, specific opinion stated with escalating commitment \u2014 fits the emerging hot_take cluster better than general_wit"
+    },
+    {
+      "editor_quip": "The Hunger Games but for robots",
+      "auto_cluster": "film_tv_reference",
+      "recommended_cluster": "film_tv_reference",
+      "rationale": "correct \u2014 appears twice, both correctly classified"
+    },
+    {
+      "editor_quip": "this film was meant to be told in one part",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "film_tv_reference",
+      "rationale": "Structured as a meta-film critique applied to a political 'comeback' narrative \u2014 fits film_tv_reference's pattern of using film language to frame non-film bets"
+    },
+    {
+      "editor_quip": "you can still write in Will Ferrell on the ballot",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "comedy_framing",
+      "rationale": "Reframes a political bet as an entertainment choice by invoking a comedian \u2014 fits comedy_framing's 'peak late capitalism entertainment' register"
+    },
+    {
+      "editor_quip": "Crazier thinks have happened, truly",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "dry_acceptance",
+      "rationale": "Anti-climactic, breezy acknowledgment of a mildly unlikely outcome \u2014 fits dry_acceptance's register of casual affirmation without analysis"
+    },
+    {
+      "editor_quip": "Could you pick your state rep out of a lineup?",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "person_has_opinion",
+      "rationale": "Second-person implication pulling the reader into a relatable observation \u2014 fits person_has_opinion's pattern of implicating the reader"
+    },
+    {
+      "editor_quip": "the man spent twenty years removing ports for this",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "understated",
+      "rationale": "Dry biographical observation delivered with quiet precision \u2014 fits understated's 'mentioned in passing, obsessed about privately' register"
+    },
+    {
+      "editor_quip": "name a bigger company that exists out of pure spite",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "hot_take",
+      "rationale": "Provocative, committed opinion stated as a challenge \u2014 fits the emerging hot_take cluster's pattern of confident, specific stance-taking"
+    },
+    {
+      "editor_quip": "Alonso has waited 17 years for someone to get this close",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "sports",
+      "rationale": "Specific named athlete, specific stakes, specific time reference \u2014 fits the sports cluster's 'emergency press conference energy' register"
+    },
+    {
+      "editor_quip": "the charts are unwell",
+      "auto_cluster": "chaos_energy",
+      "recommended_cluster": "chaos_energy",
+      "rationale": "correct"
+    },
+    {
+      "editor_quip": "Who doesn't want to see Spurs go down?",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "sports",
+      "rationale": "Committed fan-perspective provocation about a specific club outcome \u2014 fits the sports cluster's hot-take register"
+    },
+    {
+      "editor_quip": "redeem the tears of crypto bros at your nearest bank branch",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "chaos_energy",
+      "rationale": "Gleeful absurdist image built around financial chaos \u2014 fits chaos_energy's 'filed under controlled chaos' register"
+    },
+    {
+      "editor_quip": "Stranger things have happened at this club",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "dry_acceptance",
+      "rationale": "Breezy, anti-climactic acknowledgment with a faint club-history implication \u2014 fits dry_acceptance's casual affirmation register"
+    },
+    {
+      "editor_quip": "a MacBook with opinions about your divorce",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "chaos_energy",
+      "rationale": "Absurdist product description that escalates to an unexpectedly personal scenario \u2014 fits chaos_energy's chaotic-neutral register"
+    },
+    {
+      "editor_quip": "are Spurs entering their Brat era",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "music_reference",
+      "rationale": "Direct reference to Charli XCX's 'Brat' as a cultural descriptor applied to a sports team \u2014 same pattern as other music_reference quips"
+    },
+    {
+      "editor_quip": "back when i was a kid google searches were free",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "person_has_opinion",
+      "rationale": "First-person nostalgic observation implicating the reader in the subject's change \u2014 fits person_has_opinion's pattern of personal stakes and reader implication"
+    },
+    {
+      "editor_quip": "seen this one before",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "dry_acceptance",
+      "rationale": "Maximally compressed anti-climactic acceptance of a recurring outcome \u2014 the flattest possible dry_acceptance quip"
+    },
+    {
+      "editor_quip": "money ball, but make the ball also money",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "books_history",
+      "rationale": "Riffs on 'Moneyball' (book/film) as a cultural reference for sports finance \u2014 same pattern as books_history's 'the Moneyball of terrible decisions'"
+    },
+    {
+      "editor_quip": "the algorithm is us and we are it",
+      "auto_cluster": "data_nerd",
+      "recommended_cluster": "data_nerd",
+      "rationale": "correct"
+    },
+    {
+      "editor_quip": "the most famous \"Cade\" in league history is looking to make his mark",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "sports",
+      "rationale": "Specific named player with specific positional stakes in a league narrative \u2014 fits sports cluster's player-spotlight register"
+    },
+    {
+      "editor_quip": "like the S&P 500 hitting ATH every year but ends in human enslavement",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "chaos_energy",
+      "rationale": "Absurdist escalation from a financial metaphor to an apocalyptic endpoint \u2014 fits chaos_energy's 'casually existential' register"
+    },
+    {
+      "editor_quip": "how long until Trump proposes renaming it to \"Trump Island\"",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "chaos_energy",
+      "rationale": "Rhetorical escalation of an already absurd geopolitical situation \u2014 fits chaos_energy's 'the simulation is glitching' register"
+    },
+    {
+      "editor_quip": "what sounds like a Greek sauce but smacks of imperialism",
+      "auto_cluster": "general_wit",
+      "recommended_cluster": "general_wit",
+      "rationale": "Genuinely miscellaneous \u2014 wordplay on a place name with a geopolitical punchline; doesn't cleanly fit any existing cluster and doesn't repeat a pattern strongly enough to warrant a new one"
+    }
+  ],
+  "new_clusters": [
+    {
+      "id": "hot_take",
+      "description": "Quips that commit to a specific, confident, and slightly provocative opinion or prediction \u2014 stated as if it were obvious, often as a challenge or declaration rather than an observation. Distinct from general_wit in that the quip takes a clear side rather than commenting from a distance. Distinct from sports in that it applies across categories.",
+      "keywords": [
+        "if X doesn't Y I'm",
+        "name a",
+        "X > Y",
+        "going on hunger strike",
+        "the man who",
+        "biggest",
+        "pure spite",
+        "could you",
+        "looking to make his mark"
+      ],
+      "evidence_quips": [
+        "Toy Story 5 > The Odyssey",
+        "if Toy Story 5 doesn't clinch I'm going on hunger strike",
+        "name a bigger company that exists out of pure spite",
+        "if geopolitics was Catan, this is like blocking longest road with a port"
+      ]
+    }
+  ],
   "meta": {
-    "generated_at": "2026-04-30T18:13:50.235634+00:00",
-    "override_count": 18,
-    "version": 1
+    "generated_at": "2026-05-10T14:27:46.000150+00:00",
+    "override_count": 48,
+    "version": 2
   }
 }

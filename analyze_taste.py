@@ -169,7 +169,7 @@ Respond with ONLY the JSON object."""
 
     body = json.dumps({
         "model": "claude-sonnet-4-6",
-        "max_tokens": 3000,
+        "max_tokens": 8192,
         "messages": [{"role": "user", "content": prompt}]
     }).encode()
 
@@ -186,7 +186,7 @@ Respond with ONLY the JSON object."""
 
     try:
         print("[taste] Calling Claude for taste analysis...", file=sys.stderr)
-        with urllib.request.urlopen(req, timeout=60) as resp:
+        with urllib.request.urlopen(req, timeout=120) as resp:
             raw = resp.read().decode()
             result = json.loads(raw)
             text = result["content"][0]["text"].strip()
