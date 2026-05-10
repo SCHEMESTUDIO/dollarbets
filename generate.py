@@ -29,11 +29,18 @@ GA4_ID = "G-W2V9QGFCM5"
 
 # Link resolution — uses /go/ redirects for all market links
 # The /go/ serverless function handles affiliate routing based on user location
-def market_link(market_ticker):
-    """Build a /go/ redirect link for a market."""
+def market_link(market_ticker, from_slug=None):
+    """Build a /go/ redirect link for a market.
+
+    `from_slug` (optional) is the URL slug of the originating board
+    (e.g. "underdogs", "ocho", "the-lineup"). It's appended as a
+    ?from= query param so the redirect handler can return users to
+    the right board if a wager isn't available in their state.
+    """
     if not market_ticker:
         return "#"
-    # URL-encode special characters if needed
+    if from_slug:
+        return f"/go/{market_ticker}/?from={from_slug}"
     return f"/go/{market_ticker}/"
 
 
@@ -164,7 +171,7 @@ SHARED_CSS = """
     .nav a, .nav .active {
       display: inline-block;
       margin-right: 14px;
-      padding: 2px 0;
+      padding: 8px 0;
       border-bottom: 1.5px solid transparent;
     }
 
@@ -175,13 +182,13 @@ SHARED_CSS = """
     }
 
     .nav a:hover {
-      color: #e8642c;
+      color: #b5470a;
       border-bottom-color: #e8642c;
       text-decoration: none;
     }
 
     .nav .active {
-      color: #e8642c;
+      color: #b5470a;
       font-weight: 700;
       border-bottom-color: #e8642c;
     }
@@ -211,7 +218,7 @@ SHARED_CSS = """
     }
 
     a.legend-pill:hover {
-      color: #e8642c;
+      color: #b5470a;
       border-color: #e8642c;
       text-decoration: none;
     }
@@ -318,7 +325,7 @@ SHARED_CSS = """
     }
 
     .payout-stake {
-      color: #e8642c;
+      color: #b5470a;
     }
 
     .payout-arrow {
@@ -373,12 +380,12 @@ SHARED_CSS = """
 
     .share-btn {
       font-size: 10.5px;
-      color: #e8642c;
+      color: #b5470a;
       cursor: pointer;
       border: 1px solid #e8642c;
       background: #fff;
       font-family: 'Courier New', monospace;
-      padding: 4px 10px;
+      padding: 8px 12px;
       letter-spacing: 0.3px;
       border-radius: 4px;
       transition: all 0.12s ease;
@@ -425,7 +432,7 @@ SHARED_CSS = """
 
     .share-menu button:hover {
       background: #fdf0e4;
-      color: #e8642c;
+      color: #b5470a;
     }
 
     .share-menu button + button {
@@ -435,7 +442,7 @@ SHARED_CSS = """
     .share-menu .sm-reddit:hover { color: #ff4500; }
     .share-menu .sm-x:hover { color: #000; }
     .share-menu .sm-fb:hover { color: #1877f2; }
-    .share-menu .sm-copy:hover { color: #e8642c; }
+    .share-menu .sm-copy:hover { color: #b5470a; }
     .share-menu .sm-copy.copied { color: #5a8a5a; }
 
     /* === BOARD PROMO NAV UNIT === */
@@ -451,7 +458,7 @@ SHARED_CSS = """
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 1.2px;
-      color: #e8642c;
+      color: #b5470a;
       margin-bottom: 12px;
     }
 
@@ -464,7 +471,7 @@ SHARED_CSS = """
       text-align: center;
       font-size: 12px;
       font-weight: 700;
-      color: #e8642c;
+      color: #b5470a;
       text-decoration: none;
       padding: 8px 0;
       letter-spacing: 0.3px;
@@ -539,7 +546,7 @@ SHARED_CSS = """
     .recap-label {
       font-size: 11px;
       font-weight: 700;
-      color: #e8642c;
+      color: #b5470a;
       text-transform: uppercase;
       letter-spacing: 0.5px;
       margin-bottom: 4px;
@@ -613,7 +620,7 @@ SHARED_CSS = """
     }
 
     .signup-fallback a {
-      color: #e8642c;
+      color: #b5470a;
       font-weight: 700;
       text-decoration: underline;
     }
@@ -633,7 +640,7 @@ SHARED_CSS = """
       transition: color 0.12s;
     }
 
-    .footer a:hover { color: #e8642c; }
+    .footer a:hover { color: #b5470a; }
 
     /* === BOARD NAV BOTTOM (repeated browsing nav) === */
     .board-nav-bottom {
@@ -651,7 +658,7 @@ SHARED_CSS = """
       transition: color 0.12s;
     }
 
-    .board-nav-bottom a:hover { color: #e8642c; }
+    .board-nav-bottom a:hover { color: #b5470a; }
 
     /* === FOOTER INFO NAV (quiet secondary links) === */
     .footer-info-nav {
@@ -668,7 +675,7 @@ SHARED_CSS = """
       transition: color 0.12s;
     }
 
-    .footer-info-nav a:hover { color: #e8642c; }
+    .footer-info-nav a:hover { color: #b5470a; }
 
     /* === FILTHY LITTLE LONGSHOT === */
     .wager.longshot-pick a {
@@ -713,7 +720,7 @@ SHARED_CSS = """
 
 SIGNUP_HTML = """
     <div class="signup">
-      <iframe src="https://subscribe-forms.beehiiv.com/78789979-d89a-4de1-adb9-cb88a40ce0dd" scrolling="no"></iframe>
+      <iframe src="https://subscribe-forms.beehiiv.com/78789979-d89a-4de1-adb9-cb88a40ce0dd" scrolling="no" title="Email newsletter signup form"></iframe>
       <noscript><div class="signup-fallback" style="display:block"><p><a href="https://subscribe-forms.beehiiv.com/78789979-d89a-4de1-adb9-cb88a40ce0dd" target="_blank">subscribe here</a></p></div></noscript>
     </div>
 """
@@ -1131,15 +1138,20 @@ def render_bet_card(m, is_longshot_pick=False):
       </li>"""
 
 
-def render_sports_bet_card(m):
-    """Render a sports bet as an <li> — routes through /go/ for click tracking + geo-resolution."""
+def render_sports_bet_card(m, from_slug=None):
+    """Render a sports bet as an <li> — routes through /go/ for click tracking + geo-resolution.
+
+    `from_slug` is the URL slug of the source board ("underdogs", "ocho",
+    "chalk", "combo-meal", "the-lineup") so the redirect handler can
+    return users to the correct page on geo failure.
+    """
     emoji = tier_emoji(m.get("tier", ""))
     tier = m.get("tier", "")
     payout_str = format_payout(m.get("payout", 0))
     title = m.get("title", "")
     quip = m.get("quip", "")
     ticker = m.get("ticker", "")
-    url = market_link(ticker) if ticker else m.get("url", "#")
+    url = market_link(ticker, from_slug=from_slug) if ticker else m.get("url", "#")
 
     odds_str = m.get("american_odds", "")
     odds_badge = f'<span class="odds-badge">{odds_str}</span>' if odds_str else ""
@@ -1177,11 +1189,15 @@ def render_sports_bet_card(m):
       </li>"""
 
 
-def render_sports_bet_list(bets, empty_msg="no bets yet — check back soon."):
-    """Render a list of sports bets as a <ul>."""
+def render_sports_bet_list(bets, empty_msg="no bets yet — check back soon.", from_slug=None):
+    """Render a list of sports bets as a <ul>.
+
+    `from_slug` is propagated into each card's /go/ link so failure
+    redirects can return users to the correct originating board.
+    """
     if not bets:
         return f'    <div class="empty-note">{empty_msg}</div>'
-    rows = "\n".join(render_sports_bet_card(b) for b in bets)
+    rows = "\n".join(render_sports_bet_card(b, from_slug=from_slug) for b in bets)
     return f"""    <ul class="board" role="list">
 {rows}
     </ul>"""
@@ -1683,7 +1699,7 @@ def generate_lineup_board(sports_boards):
     </div>
 """
 
-    body = header + date_line + legend + render_sports_bet_list(board) + trust_strip
+    body = header + date_line + legend + render_sports_bet_list(board, from_slug="the-lineup") + trust_strip
 
     # Structured data
     market_items = []
@@ -1819,7 +1835,7 @@ def generate_sports_sub_board(board_key):
 """
 
     empty_msg = "no picks right now — check back soon. some sports sleep so the board can wake up swinging."
-    body = header + date_line + legend + render_sports_bet_list(board, empty_msg) + trust_strip
+    body = header + date_line + legend + render_sports_bet_list(board, empty_msg, from_slug=config["url_slug"]) + trust_strip
 
     slug = config["url_slug"]
     schema = f"""<script type="application/ld+json">{{
@@ -2032,7 +2048,7 @@ def generate_category_pages(all_bets):
         related = RELATED_BOARDS.get(slug, [])
         related_html = ""
         if related:
-            related_links = " &middot; ".join(f'<a href="{href}" style="color:#e8642c;text-decoration:none">{name}</a>' for name, href in related)
+            related_links = " &middot; ".join(f'<a href="{href}" style="color:#b5470a;text-decoration:none">{name}</a>' for name, href in related)
             related_html = f'    <div style="padding:16px 0;font-size:12px;color:#6b5744;border-top:1.5px solid #e8cdb5;margin-top:16px">more boards: {related_links}</div>\n'
 
         body = f"""    <h1 class="page-title">{config['h1']}</h1>
@@ -2350,13 +2366,13 @@ def generate_about_page():
 
       <p>Every day we scan thousands of prediction markets and surface the 10 weirdest, funniest, and most culturally relevant ones. We translate every market into a simple question: if you put $1 on this, what would you get back?</p>
 
-      <p style="margin-top:16px"><a href="/" style="color:#e8642c;font-weight:700;text-decoration:none;border:1.5px solid #e8cdb5;padding:8px 16px;border-radius:6px;background:#fff">see today's board &rarr;</a></p>
+      <p style="margin-top:16px"><a href="/" style="color:#b5470a;font-weight:700;text-decoration:none;border:1.5px solid #e8cdb5;padding:8px 16px;border-radius:6px;background:#fff">see today's board &rarr;</a></p>
 
       <p style="font-weight:700; margin-top:24px">what "$1 pays $80" means</p>
 
       <p>Prediction markets let you trade on the outcome of real events. Prices move between $0 and $1. If an outcome is trading at $0.0125, a $1 bet pays $80 if it happens. That's it. We frame every market this way so you can instantly compare how weird the odds are.</p>
 
-      <p style="font-size:11px;font-weight:700;color:#e8642c;text-transform:uppercase;letter-spacing:1.2px;margin-top:16px">example</p>
+      <p style="font-size:11px;font-weight:700;color:#b5470a;text-transform:uppercase;letter-spacing:1.2px;margin-top:16px">example</p>
     </div>
 
     <ul class="board" style="margin-bottom:18px">
@@ -2412,7 +2428,7 @@ def generate_about_page():
       <p>The board updates daily. The email is free. The bets are a dollar. The rest is up to the universe.</p>
 
       <p style="margin-top:20px; display:flex; gap:12px; flex-wrap:wrap">
-        <a href="/" style="color:#e8642c;font-weight:700;text-decoration:none;border:1.5px solid #e8cdb5;padding:8px 16px;border-radius:6px;background:#fff">see today's board &rarr;</a>
+        <a href="/" style="color:#b5470a;font-weight:700;text-decoration:none;border:1.5px solid #e8cdb5;padding:8px 16px;border-radius:6px;background:#fff">see today's board &rarr;</a>
       </p>
 
       <p style="font-weight:700; margin-top:16px">contact us</p>
@@ -2654,7 +2670,7 @@ def generate_404_page():
       <p>This page doesn't exist. Maybe it never did. Maybe the market expired. Either way, the odds of finding what you wanted here are exactly zero — and we don't list markets with zero payout.</p>
       <p style="margin-top:12px">Try one of these instead:</p>
       <p style="margin-top:8px">
-        <a href="/" style="color:#e8642c;font-weight:700">today's board</a> ·
+        <a href="/" style="color:#b5470a;font-weight:700">today's board</a> ·
         <a href="/weird-markets/" style="color:#666">weird markets</a> ·
         <a href="/sports-markets/" style="color:#666">sports markets</a> ·
         <a href="/about/" style="color:#666">about</a> ·

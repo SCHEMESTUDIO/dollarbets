@@ -43,6 +43,48 @@ BETRIVERS_STATES = {
     "MD": "md", "AZ": "az", "NJ": "nj", "NY": "ny", "CT": "ct",
 }
 
+# FanDuel uses state-specific subdomains. Their parent domain shows
+# /select-region for users without a state cookie. Rewrite URLs at
+# redirect time using x-vercel-ip-region.
+FANDUEL_STATES = {
+    "AZ": "az", "CO": "co", "CT": "ct", "DC": "dc", "IA": "ia",
+    "IL": "il", "IN": "in", "KS": "ks", "KY": "ky", "LA": "la",
+    "MA": "ma", "MD": "md", "MI": "mi", "NC": "nc", "NJ": "nj",
+    "NY": "ny", "OH": "oh", "PA": "pa", "TN": "tn", "VT": "vt",
+    "VA": "va", "WV": "wv", "WY": "wy",
+}
+
+# DraftKings uses a single domain with IP/cookie-based geo (no state
+# subdomains). We can't rewrite the URL — only gate by supported state.
+DRAFTKINGS_STATES = {
+    "AZ", "CO", "CT", "DC", "IA", "IL", "IN", "KS", "KY", "LA",
+    "MA", "MD", "MI", "MS", "NH", "NJ", "NY", "OH", "OR", "PA",
+    "TN", "VA", "VT", "WV", "WY", "ND",
+}
+
+# Sport board files we search for SB- tickers. Each entry maps a board
+# file prefix (filename pattern in data/boards/) to the URL slug used as
+# ?from= and as the fallback page. The URL slug must match the actual
+# URL path the user-facing page lives at — see SPORTS_BOARD_CONFIGS in
+# generate.py.
+SPORT_BOARD_PREFIXES = [
+    ("sports", "the-lineup"),     # file: sports-*.json  → page: /the-lineup/
+    ("underdogs", "underdogs"),   # file: underdogs-*.json → page: /underdogs/
+    ("ocho", "the-ocho"),         # file: ocho-*.json    → page: /the-ocho/
+    ("chalk", "chalk"),           # file: chalk-*.json   → page: /chalk/
+    ("combo", "combo-meal"),      # file: combo-*.json   → page: /combo-meal/
+]
+
+# Map ?from= slug → URL path used for fallback redirects.
+# Keys must match the url_slug values emitted by generate.py.
+FROM_SLUG_TO_PATH = {
+    "the-lineup": "/the-lineup/",
+    "underdogs": "/underdogs/",
+    "the-ocho": "/the-ocho/",
+    "chalk": "/chalk/",
+    "combo-meal": "/combo-meal/",
+}
+
 SPORTSBOOK_DISPLAY_NAMES = {
     "fanduel": "FanDuel",
     "draftkings": "DraftKings",
@@ -79,8 +121,88 @@ def resolve_sportsbook_state(url, region_code, book_slug):
     return url.replace("{state}", state_slug)
 
 
+def rewrite_fanduel_url(url, region_code):
+    """Rewrite parent-domain FanDuel URLs to a state-specific subdomain.
+
+    FanDuel's parent domain (sportsbook.fanduel.com) renders /select-region
+    when the user has no state cookie. State subdomains like
+    nj.sportsbook.fanduel.com bypass that page.
+
+    Returns the rewritten URL, or None if the user's state is unsupported.
+    Returns the URL unchanged if it already has a state subdomain or isn't
+    a FanDuel URL.
+    """
+    if not url or "fanduel.com" not in url:
+        return url
+
+    # Already has a two-letter state subdomain — leave alone
+    if re.search(r"https?://[a-z]{2}\.sportsbook\.fanduel\.com", url):
+        return url
+
+    if "sportsbook.fanduel.com" not in url:
+        return url
+
+    if not region_code:
+        return None
+
+    state_slug = FANDUEL_STATES.get(region_code.upper())
+    if not state_slug:
+        return None
+
+    return url.replace(
+        "sportsbook.fanduel.com",
+        f"{state_slug}.sportsbook.fanduel.com",
+        1,
+    )
+
+
+def is_draftkings_state_supported(region_code):
+    """Return True if the user is in a DraftKings-supported state."""
+    if not region_code:
+        return False
+    return region_code.upper() in DRAFTKINGS_STATES
+
+
+def find_sports_market(market_id):
+    """Search every sport board file for an SB- ticker.
+
+    Returns (market_dict, source_slug) where source_slug is the URL slug
+    of the originating board (used for fallback redirects). Returns
+    (None, None) if the ticker isn't found in any sport board.
+    """
+    site_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    boards_dir = os.path.join(site_dir, "data", "boards")
+
+    for prefix, slug in SPORT_BOARD_PREFIXES:
+        pattern = os.path.join(boards_dir, f"{prefix}-*.json")
+        files = sorted(glob.glob(pattern), reverse=True)
+        if not files:
+            continue
+        try:
+            with open(files[0]) as f:
+                data = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            continue
+        for m in data.get("board", []):
+            if m.get("ticker") == market_id:
+                return m, slug
+
+    return None, None
+
+
+def fallback_path(from_slug):
+    """Resolve the ?from= slug to a URL path. Defaults to /the-lineup/."""
+    if from_slug and from_slug in FROM_SLUG_TO_PATH:
+        return FROM_SLUG_TO_PATH[from_slug]
+    return "/the-lineup/"
+
+
 def load_latest_sports_board():
-    """Load the most recent sports board JSON file."""
+    """[Deprecated] Load the most recent lineup board only.
+
+    Kept for any external callers. Use find_sports_market() instead — it
+    searches across all sport board files (sports/underdogs/ocho/chalk/combo).
+    """
     site_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     boards_dir = os.path.join(site_dir, "data", "boards")
 
@@ -97,9 +219,16 @@ def load_latest_sports_board():
         return None
 
 
-def sportsbook_unavailable_html(market_title, book_display, user_state):
-    """Unavailable page when a sportsbook isn't available in the user's state."""
+def sportsbook_unavailable_html(market_title, book_display, user_state, back_path="/the-lineup/"):
+    """Unavailable page when a sportsbook isn't available in the user's state.
+
+    `back_path` is the URL the back-link returns to — typically the originating
+    board (/underdogs/, /ocho/, /chalk/, /combo-meal/, /the-lineup/) so users
+    aren't dumped on a board they didn't come from.
+    """
     state_str = user_state.upper() if user_state else "your state"
+    # Derive a label from the path for the body link copy
+    path_label = back_path.strip("/").replace("-", " ") or "lineup"
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -139,8 +268,8 @@ def sportsbook_unavailable_html(market_title, book_display, user_state):
   <div class="warn">
     <p>sportsbook availability varies by state. dollar bets does not control which states are supported.</p>
   </div>
-  <p>check the <a href="/underdogs/" style="color:#d97c3c">underdogs board</a> for wagers available on other sportsbooks.</p>
-  <a class="back" href="/underdogs/">back to underdogs</a>
+  <p>check the <a href="{back_path}" style="color:#d97c3c">{path_label} board</a> for other wagers, or other boards for different sportsbooks.</p>
+  <a class="back" href="{back_path}">back to {path_label}</a>
   <p class="fine">dollar bets is an editorial site. we do not operate sportsbooks or verify user eligibility.</p>
 </div>
 </body>
@@ -410,22 +539,29 @@ class handler(BaseHTTPRequestHandler):
 
         market_id = params.get("market", [None])[0]
         requested_platform = params.get("platform", [None])[0]
+        from_slug = params.get("from", [None])[0]
+        back_path = fallback_path(from_slug)
 
         if not market_id:
             self.send_response(302)
-            self.send_header("Location", "/")
+            self.send_header("Location", back_path)
             self.end_headers()
             return
 
         # ── Sportsbook routing (SB- prefix) ──────────────────
         if market_id.startswith("SB-"):
-            sports_board = load_latest_sports_board()
-            market = find_market_in_board(market_id, sports_board)
+            # Search across every sport board file (sports/underdogs/ocho/chalk/combo)
+            market, source_slug = find_sports_market(market_id)
+
+            # If the caller passed ?from=, prefer that for the back-link;
+            # otherwise use the board where we actually found the ticker.
+            sb_back_path = back_path if from_slug else fallback_path(source_slug)
 
             if not market:
-                # SB ticker not found — send to underdogs page
+                # SB ticker not found in any sport board — return user to
+                # the originating board (or /the-lineup/ if unknown).
                 self.send_response(302)
-                self.send_header("Location", "/underdogs/")
+                self.send_header("Location", sb_back_path)
                 self.end_headers()
                 return
 
@@ -434,34 +570,111 @@ class handler(BaseHTTPRequestHandler):
             book_display = SPORTSBOOK_DISPLAY_NAMES.get(book_slug, book_slug)
             title = market.get("title", market_id)
 
-            # Resolve {state} placeholder using Vercel geo headers
+            # Resolve geo placeholders / domains using Vercel geo headers
             user_country = self.headers.get("x-vercel-ip-country", "")
             user_region = self.headers.get("x-vercel-ip-region", "")
+            is_us = (user_country or "").upper() == "US"
+
+            def _show_unavailable(state_label):
+                html = sportsbook_unavailable_html(title, book_display, state_label, sb_back_path)
+                self.send_response(200)
+                self.send_header("Content-Type", "text/html; charset=utf-8")
+                self.send_header("Cache-Control", "no-cache")
+                self.end_headers()
+                self.wfile.write(html.encode("utf-8"))
+
+            # 1. {state} placeholder books (BetMGM, BetRivers)
+            if "{state}" in url:
+                if user_country and not is_us:
+                    _show_unavailable(user_country)
+                    return
+                resolved = resolve_sportsbook_state(url, user_region, book_slug)
+                if not resolved:
+                    _show_unavailable(user_region)
+                    return
+                url = resolved
+
+            # 2. FanDuel — rewrite parent domain to state subdomain
+            elif book_slug == "fanduel" or "fanduel.com" in url:
+                if user_country and not is_us:
+                    _show_unavailable(user_country)
+                    return
+                resolved = rewrite_fanduel_url(url, user_region)
+                if not resolved:
+                    _show_unavailable(user_region)
+                    return
+                url = resolved
+
+            # 3. DraftKings — single domain; gate by supported state
+            elif book_slug == "draftkings" or "draftkings.com" in url:
+                if user_country and not is_us:
+                    _show_unavailable(user_country)
+                    return
+                if user_region and not is_draftkings_state_supported(user_region):
+                    _show_unavailable(user_region)
+                    return
+                # If we have no region info, let DraftKings handle it
+                # (their region detector will redirect or block as needed).
+
+            # Serve interstitial before redirecting to sportsbook
+            html = interstitial_html(book_display, url, title)
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.send_header("Cache-Control", "no-cache")
+            self.end_headers()
+            self.wfile.write(html.encode("utf-8"))
+            return
+
+        # ── Parlay routing (PARLAY- prefix) ──────────────────
+        if market_id.startswith("PARLAY-"):
+            # Parlays live in combo-*.json. If the ticker isn't found, send
+            # the user back to the combo meal board.
+            market, source_slug = find_sports_market(market_id)
+            if not market:
+                self.send_response(302)
+                self.send_header("Location", "/combo-meal/")
+                self.end_headers()
+                return
+
+            url = market.get("url", "")
+            book_slug = market.get("platform", "")
+            book_display = SPORTSBOOK_DISPLAY_NAMES.get(book_slug, book_slug or "Sportsbook")
+            title = market.get("title", market_id)
+            parlay_back = "/combo-meal/"
+
+            # Apply the same geo logic as single SB- bets when applicable
+            user_country = self.headers.get("x-vercel-ip-country", "")
+            user_region = self.headers.get("x-vercel-ip-region", "")
+            is_us = (user_country or "").upper() == "US"
 
             if "{state}" in url:
-                if user_country and user_country.upper() != "US":
-                    # Non-US user trying to access US sportsbook
-                    html = sportsbook_unavailable_html(title, book_display, user_country)
+                if user_country and not is_us:
+                    html = sportsbook_unavailable_html(title, book_display, user_country, parlay_back)
                     self.send_response(200)
                     self.send_header("Content-Type", "text/html; charset=utf-8")
-                    self.send_header("Cache-Control", "no-cache")
                     self.end_headers()
                     self.wfile.write(html.encode("utf-8"))
                     return
-
                 resolved = resolve_sportsbook_state(url, user_region, book_slug)
                 if not resolved:
-                    # User's state not supported by this sportsbook
-                    html = sportsbook_unavailable_html(title, book_display, user_region)
+                    html = sportsbook_unavailable_html(title, book_display, user_region, parlay_back)
                     self.send_response(200)
                     self.send_header("Content-Type", "text/html; charset=utf-8")
-                    self.send_header("Cache-Control", "no-cache")
+                    self.end_headers()
+                    self.wfile.write(html.encode("utf-8"))
+                    return
+                url = resolved
+            elif book_slug == "fanduel" or "fanduel.com" in url:
+                resolved = rewrite_fanduel_url(url, user_region) if is_us or not user_country else None
+                if not resolved:
+                    html = sportsbook_unavailable_html(title, book_display, user_region or user_country, parlay_back)
+                    self.send_response(200)
+                    self.send_header("Content-Type", "text/html; charset=utf-8")
                     self.end_headers()
                     self.wfile.write(html.encode("utf-8"))
                     return
                 url = resolved
 
-            # Serve interstitial before redirecting to sportsbook
             html = interstitial_html(book_display, url, title)
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
