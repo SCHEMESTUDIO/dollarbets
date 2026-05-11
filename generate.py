@@ -1114,7 +1114,7 @@ def render_bet_card(m, is_longshot_pick=False):
         longshot_label = f'<span class="longshot-label" style="color:{tier_color}">today\'s filthy little longshot &#127919;</span>'
 
     return f"""      <li class="wager{tier_class}{longshot_class}">
-        <a href="{url}" target="_blank" rel="noopener" data-platform="{platform}" data-tier="{tier}" data-payout="{m.get('payout', 0)}" data-ticker="{ticker}">
+        <a href="{url}" target="_blank" rel="noopener nofollow" data-platform="{platform}" data-tier="{tier}" data-payout="{m.get('payout', 0)}" data-ticker="{ticker}">
           <span class="wager-emoji">{emoji}</span>
           <span class="wager-body">
             {longshot_label}
@@ -2322,7 +2322,7 @@ def generate_market_autopsies(all_bets):
 
     <div class="autopsy-section">
       <h3>see this market</h3>
-      <p><a href="{url}" target="_blank" rel="noopener" style="color:#333">view on kalshi →</a></p>
+      <p><a href="{url}" target="_blank" rel="noopener nofollow" style="color:#333">view on kalshi →</a></p>
     </div>
 """
 
@@ -2377,7 +2377,7 @@ def generate_about_page():
 
     <ul class="board" style="margin-bottom:18px">
       <li class="wager tier-orange">
-        <a href="/go/KXSNOW/" target="_blank" rel="noopener">
+        <a href="/go/KXSNOW/" target="_blank" rel="noopener nofollow">
           <span class="wager-emoji">🟧</span>
           <span class="wager-body">
             <span class="wager-title">Snow in Phoenix before March?</span>
@@ -2524,6 +2524,7 @@ def generate_robots_txt():
     """Generate robots.txt with sitemap reference."""
     txt = f"""User-agent: *
 Allow: /
+Disallow: /go/
 
 # AI crawlers welcome
 User-agent: GPTBot
