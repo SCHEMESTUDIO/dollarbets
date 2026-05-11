@@ -227,6 +227,13 @@ def extract_legs_from_event(event, sport_key):
                 if implied_prob < HEAVY_FAVORITE_THRESHOLD:
                     continue
 
+                # Skip outcomes that need a point but didn't ship one in the
+                # bookmaker payload. Some books return spreads/totals without
+                # a locked line, and `point > 0` against None used to raise
+                # TypeError that killed the whole scan (no enclosing try/except).
+                if market_key in ("spreads", "totals") and point is None:
+                    continue
+
                 # Build human-readable description
                 if market_key == "h2h":
                     desc = f"{name} wins"
@@ -483,9 +490,21 @@ def scan_parlays(sports=None, dry_run=False):
         events = fetch_odds_for_sport(sport, markets="h2h,spreads,totals")
         print(f"[parlay] Found {len(events)} events for {sport}", file=sys.stderr)
 
+        # Wrap per-event extraction so one malformed event from one bookmaker
+        # (missing point, weird market shape, new API field) skips that event
+        # rather than killing the whole scan and failing the cron run.
+        skipped = 0
         for event in events:
-            legs = extract_legs_from_event(event, sport)
-            all_legs.extend(legs)
+            try:
+                legs = extract_legs_from_event(event, sport)
+                all_legs.extend(legs)
+            except Exception as e:
+                skipped += 1
+                print(f"[parlay] WARN: skipping event {event.get('id', '?')} ({sport}): "
+                      f"{type(e).__name__}: {e}", file=sys.stderr)
+                continue
+        if skipped:
+            print(f"[parlay] WARN: {skipped} {sport} events skipped due to data errors", file=sys.stderr)
 
         # Be nice to the API
         time.sleep(0.5)

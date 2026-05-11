@@ -3,7 +3,7 @@
 ## CRITICAL WARNINGS
 
 - **The live site is `site/`** — all code work happens here. The root folder also contains business docs (`.docx`, `.xlsx`, `.md`) and `filthy_bot/` (Reddit bot) — don't confuse these with the site codebase.
-- **`generate.py` is 2700+ lines** — it is the backbone of the entire site. Read before editing. Changes here affect every page.
+- **`generate.py` is 3000+ lines** — it is the backbone of the entire site. Read before editing. Changes here affect every page.
 - **Never hardcode affiliate IDs in HTML** — all market links go through `/go/{ticker}` redirects. Affiliate config lives in `config/partners.json`.
 - **Scanners run via GitHub Actions, NOT during Vercel builds** — `build.sh` skips scanners when `$VERCEL` is set. Don't add scanner calls to the build path.
 - **Design must be old-internet aesthetic** — Drudge/Craigslist energy. Monospace, dark, dense, utilitarian. Never use modern app UI patterns (gradients, rounded cards, hero sections, polished CTAs).
@@ -25,29 +25,50 @@
 
 ## File Map
 
+### Generators / scanners
+
 | File | Lines | Purpose |
 |------|-------|---------|
-| `generate.py` | ~2726 | Main static site generator — builds /today, /category/*, /archetypes/*, /recap/*, /autopsy/*, sitemap |
-| `scanner.py` | ~1921 | Kalshi market scanner — fetches events, scores entertainment value, calculates $1 payouts, generates Claude quips |
+| `generate.py` | ~3147 | Main static site generator — builds /today, /category/*, /archetypes/*, /recap/*, /autopsy/*, share/OG pages, 404, sitemap |
+| `scanner.py` | ~1948 | Kalshi + Polymarket market scanner — fetches events, scores entertainment, calculates $1 payouts, generates Claude quips, dedupes cross-platform |
 | `sports_scanner.py` | ~1078 | Sports odds scanner (The Odds API) — underdogs, lineup, ocho, chalk board modes |
 | `parlay_scanner.py` | ~577 | Parlay builder — combines near-certain outcomes into parlay cards with deep links |
-| `generate_content.py` | ~641 | SEO content page generator — reads JSON from `content/`, outputs HTML using shared layout |
-| `analyze_taste.py` | ~318 | Editorial style analyzer — distills quip overrides into `data/style-guide.json` |
+| `generate_content.py` | ~729 | SEO content page generator — reads JSON from `content/`, outputs HTML using shared layout |
+| `analyze_taste.py` | ~413 | Editorial style analyzer — distills quip overrides into `data/style-guide.json`; classifier guardrails |
 | `link_resolver.py` | ~215 | Geo-aware partner resolution — picks best platform by user country |
 | `gsc_analyze.py` | ~250 | Google Search Console analysis script |
+| `aeo_upgrade.py` | ~119 | One-shot AEO pass — adds `quick_answer` fields, rewrites H2s into question form |
+| `aeo_pass2.py` | ~80 | Second AEO pass — rewrites headings with exact-match question phrasing |
+| `qa_pass3.py` | ~56 | Third QA pass — additional quick_answer entries for historical and roundup pages |
 | `_sample_data.py` | ~18 | Sample board data for local dev |
-| `build.sh` | ~100 | Vercel build script — installs Pillow, downloads fonts, runs generators, pings search engines |
+| `build.sh` | ~123 | Vercel build script — installs Pillow, downloads DejaVu fonts, runs generators, pings search engines |
+
+### API (Vercel serverless)
+
+| File | Lines | Purpose |
+|------|-------|---------|
 | `api/board.py` | ~344 | CMS API — GET/POST board JSON via GitHub commits |
-| `api/go.py` | ~570 | `/go/` redirect handler — geo-aware affiliate routing with interstitial |
+| `api/go.py` | ~968 | `/go/` redirect handler — geo-aware affiliate routing, interstitial, country/state plurals, stale-ticker fallbacks |
 | `api/geo.py` | ~50 | Returns user country from Vercel headers |
 | `api/login.py` | ~80 | CMS login — HMAC token auth |
+
+### CI / config / data
+
+| File | Lines | Purpose |
+|------|-------|---------|
+| `.github/workflows/daily-scan.yml` | ~182 | GitHub Actions: scheduled board scans (Kalshi + sports) → commits JSON to `data/boards/` |
+| `.github/workflows/taste-analysis.yml` | ~62 | GitHub Actions: runs `analyze_taste.py` when overrides accumulate |
+| `tests/test_classify.py` | ~221 | Quip classifier regression test |
 | `config/partners.json` | — | Master affiliate/partner config: IDs, geo rules, priority |
+| `vercel.json` | — | Routing: `/go/:slug` → `api/go.py`, API rewrites, sitemap/api headers |
 | `data/boards/*.json` | — | Daily board data (git-committed, one file per day per board type) |
 | `data/style-guide.json` | — | AI-generated editorial style principles from quip overrides |
 | `data/quip-overrides.json` | — | Editor quip corrections (training data for taste analyzer) |
 | `data/custom-clusters.json` | — | Custom topic clusters for board categorization |
-| `vercel.json` | — | Routing: `/go/:slug` → `api/go.py`, API endpoints, headers |
+| `content/pages/*.json` | — | Source JSON for SEO content pages (consumed by `generate_content.py`) |
+| `content/hall-of-filth/*.json` | — | Source JSON for Hall of Filth historical-upset stories |
 | `public/` | — | Build output directory (generated HTML, favicons, sitemap, robots.txt) |
+| `integrations/` | — | Per-platform helper modules (kalshi, polymarket, coinbase, sportsbook, manual) |
 | `compliance-notes.md` | — | Geo-restriction tiers, CTA language rules, outstanding legal actions |
 | `AFFILIATE-LINKS.md` | — | How the /go/ redirect system works, how to add platforms |
 | `CMS-SETUP.md` | — | CMS architecture, env vars, GitHub token setup |
@@ -64,14 +85,17 @@
 
 ## Key Functions
 
-- `generate.py → page_shell()` — Base HTML template for every page (analytics, nav, footer, CSS)
-- `generate.py → render_bet_card()` — Renders a single bet as HTML card with `/go/` link
-- `generate.py → nav_html()` — Shared navigation bar
-- `generate.py → render_board_promo()` — Board promo widget for content pages
-- `scanner.py → _api_get()` — Kalshi API request wrapper with retry
-- `scanner.py → classify_quip()` — Categorizes quips into clusters
+- `generate.py → page_shell()` (~L848) — Base HTML template for every page (analytics, nav, footer, CSS)
+- `generate.py → render_bet_card()` (~L1177) — Renders a single bet as HTML card with `/go/` link
+- `generate.py → nav_html()` (~L801) — Shared navigation bar
+- `generate.py → render_board_promo()` (~L1358) — Board promo widget for content pages
+- `generate.py → generate_share_og_image()` (~L2794) — Per-bet OG image generation (DejaVu fonts, Pillow)
+- `generate.py → market_link()` (~L32) — Returns `/go/{ticker}/` URL — only correct way to link to markets
+- `scanner.py → _api_get()` / `_poly_api_get()` — Kalshi / Polymarket API wrappers with retry
+- `scanner.py → classify_quip()` — Categorizes quips into clusters (uses style-guide + custom-clusters)
+- `scanner.py → dedup_cross_platform()` — Removes near-duplicate markets across Kalshi/Polymarket
 - `link_resolver.py → resolve_market_destination()` — Core geo/partner resolution logic
-- `analyze_taste.py → load_overrides()` — Loads editor quip corrections for style extraction
+- `analyze_taste.py` — Reads `data/quip-overrides.json`, emits `data/style-guide.json` with guardrails to avoid bad reclassifications
 
 ## Architecture Decisions
 

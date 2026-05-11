@@ -437,6 +437,22 @@ def extract_markets(events, sport_key):
                     if price < -2000:
                         continue
 
+                    # Skip outcomes that need a point but didn't ship one in the
+                    # bookmaker payload. Without this guard, spreads/totals/player_*
+                    # descriptions render as embarrassing garbage on the live board:
+                    #   "Lakers lose to Warriors by fewer than 0"
+                    #   "Yankees vs Red Sox goes over None"
+                    #   "Curry hits None+ threes vs Lakers"
+                    # Skipping the outcome entirely is correct — the data is broken
+                    # at the source, no description we'd render makes sense.
+                    needs_point = (
+                        market_key in ("spreads", "alternate_spreads",
+                                       "totals", "alternate_totals")
+                        or market_key.startswith("player_")
+                    )
+                    if needs_point and point is None:
+                        continue
+
                     out_key = (market_key, name, point)
                     decimal_odds = american_to_decimal(price)
                     implied_prob = american_to_implied_prob(price)
@@ -468,8 +484,11 @@ def extract_markets(events, sport_key):
                             else:
                                 desc = f"{name} beat {opponent}"
                         elif market_key in ("spreads", "alternate_spreads"):
-                            margin = abs(point) if point else 0
-                            if point and point < 0:
+                            # point is guaranteed non-None here (see needs_point
+                            # skip above). Negative spread = team is favored;
+                            # positive spread = team is the underdog.
+                            margin = abs(point)
+                            if point < 0:
                                 desc = f"{name} beat {opponent} by {margin}+"
                             else:
                                 desc = f"{name} lose to {opponent} by fewer than {margin}"
