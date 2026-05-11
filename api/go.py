@@ -219,16 +219,107 @@ def load_latest_sports_board():
         return None
 
 
-def sportsbook_unavailable_html(market_title, book_display, user_state, back_path="/the-lineup/"):
-    """Unavailable page when a sportsbook isn't available in the user's state.
+def _pick_related_markets(board_source_path_prefix, exclude_ticker, n=4):
+    """Pick a few markets from a board file as escape-hatch suggestions.
+
+    `board_source_path_prefix` is e.g. "sports" or "underdogs" or "" (for the
+    main date-stamped prediction-market board). `exclude_ticker` is the
+    ticker that just got blocked — we won't suggest it back to the user.
+
+    Returns a list of {"title": str, "href": str} dicts ready to render.
+    Always returns a list (possibly empty); never raises.
+    """
+    try:
+        site_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        boards_dir = os.path.join(site_dir, "data", "boards")
+        if board_source_path_prefix:
+            pattern = os.path.join(boards_dir, f"{board_source_path_prefix}-*.json")
+        else:
+            # Main board: date-stamped JSON, e.g. 2026-05-11.json
+            pattern = os.path.join(boards_dir, "*.json")
+        candidates = sorted(glob.glob(pattern), reverse=True)
+        if not board_source_path_prefix:
+            candidates = [c for c in candidates if os.path.basename(c)[0].isdigit()]
+        if not candidates:
+            return []
+        with open(candidates[0]) as f:
+            data = json.load(f)
+        out = []
+        for m in data.get("board", []):
+            t = m.get("ticker", "")
+            if not t or t == exclude_ticker:
+                continue
+            title = m.get("title", "").strip()
+            if not title:
+                continue
+            href = f"/go/{t}/"
+            out.append({"title": title, "href": href})
+            if len(out) >= n:
+                break
+        return out
+    except Exception:
+        return []
+
+
+def sportsbook_unavailable_html(market_title, book_display, user_state=None,
+                                 user_country=None, back_path="/the-lineup/",
+                                 related_markets=None):
+    """Unavailable page when a sportsbook isn't available in the user's region.
+
+    Adapts the copy to whether the user is in the US (state-level restriction)
+    or non-US (country-level restriction). Also expands country codes to
+    readable names via COUNTRY_NAMES.
+
+    `related_markets` is an optional list of dicts (title, href) shown as
+    escape-hatch links so the page isn't a dead end. Pass an empty list or
+    None to omit that block.
 
     `back_path` is the URL the back-link returns to — typically the originating
     board (/underdogs/, /ocho/, /chalk/, /combo-meal/, /the-lineup/) so users
     aren't dumped on a board they didn't come from.
     """
-    state_str = user_state.upper() if user_state else "your state"
+    is_us = (user_country or "").upper() == "US"
+
+    # Determine the region label + the noun to use in copy
+    if is_us and user_state:
+        region_label = user_state.upper()
+        region_noun = "state"
+        availability_noun = "state"
+    elif user_country:
+        # Non-US user (or no state info) — use the country name
+        region_label = _country_name(user_country)
+        region_noun = "country"
+        availability_noun = "country"
+    elif user_state:
+        # Have a state code but no country — assume US to preserve old behavior
+        region_label = user_state.upper()
+        region_noun = "state"
+        availability_noun = "state"
+    else:
+        # No location data at all
+        region_label = "your region"
+        region_noun = "region"
+        availability_noun = "region"
+
     # Derive a label from the path for the body link copy
     path_label = back_path.strip("/").replace("-", " ") or "lineup"
+
+    # Optional related-markets escape-hatch block
+    if related_markets:
+        related_items = "".join(
+            f'<li><a href="{m["href"]}" style="color:#d97c3c">{m["title"]}</a></li>'
+            for m in related_markets
+        )
+        related_block = f"""
+  <div class="related">
+    <p style="font-size:12px;color:#6b5744;margin:0 0 6px 0">other wagers on today's board:</p>
+    <ul style="list-style:none;padding:0;margin:0;font-size:13px;line-height:1.7">
+      {related_items}
+    </ul>
+  </div>"""
+    else:
+        related_block = ""
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -251,6 +342,8 @@ def sportsbook_unavailable_html(market_title, book_display, user_state, back_pat
     background: #fef9e7; border: 1px solid #d4c479; color: #5a4e2f;
     padding: 10px 12px; margin: 16px 0; font-size: 12px;
   }}
+  .related {{ margin: 16px 0; padding: 10px 12px; border-left: 3px solid #e8cdb5; }}
+  .related ul li {{ margin-bottom: 4px; }}
   a.back {{
     display: block; text-align: center; margin: 16px auto 0; padding: 12px 24px;
     border: 2px solid #e8642c; color: #e8642c; text-decoration: none;
@@ -263,11 +356,12 @@ def sportsbook_unavailable_html(market_title, book_display, user_state, back_pat
 </head>
 <body>
 <div class="box">
-  <h1>sportsbook not available in your state</h1>
-  <p><strong>{book_display}</strong> is not available in <strong>{state_str}</strong> for the wager "{market_title}".</p>
+  <h1>sportsbook not available in your {region_noun}</h1>
+  <p><strong>{book_display}</strong> is not available in <strong>{region_label}</strong> for the wager "{market_title}".</p>
   <div class="warn">
-    <p>sportsbook availability varies by state. dollar bets does not control which states are supported.</p>
+    <p>sportsbook availability varies by {availability_noun}. dollar bets does not control which {availability_noun}s are supported.</p>
   </div>
+  {related_block}
   <p>check the <a href="{back_path}" style="color:#d97c3c">{path_label} board</a> for other wagers, or other boards for different sportsbooks.</p>
   <a class="back" href="{back_path}">back to {path_label}</a>
   <p class="fine">dollar bets is an editorial site. we do not operate sportsbooks or verify user eligibility.</p>
@@ -324,8 +418,13 @@ def _describe_availability(partner_config):
     return "varies by jurisdiction"
 
 
-def unavailable_html(market_id, platform_display, user_country, partner_config):
-    """Generate a geo-specific unavailable page."""
+def unavailable_html(market_id, platform_display, user_country, partner_config,
+                     related_markets=None):
+    """Generate a geo-specific unavailable page.
+
+    `related_markets` is an optional list of {"title", "href"} dicts shown as
+    escape-hatch links so the page isn't a dead end. Pass None to omit.
+    """
     user_location = _country_name(user_country)
 
     # Build blocked region description
@@ -341,6 +440,22 @@ def unavailable_html(market_id, platform_display, user_country, partner_config):
         reason_html = f"<strong>{platform_display}</strong> is not available in your region."
 
     available_html = _describe_availability(partner_config)
+
+    # Optional related-markets escape-hatch block
+    if related_markets:
+        related_items = "".join(
+            f'<li><a href="{m["href"]}" style="color:#d97c3c">{m["title"]}</a></li>'
+            for m in related_markets
+        )
+        related_block_html = f"""
+  <div class="related">
+    <p style="font-size:12px;color:#6b5744;margin:0 0 6px 0">other markets on today's board:</p>
+    <ul style="list-style:none;padding:0;margin:0;font-size:13px;line-height:1.7">
+      {related_items}
+    </ul>
+  </div>"""
+    else:
+        related_block_html = ""
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -375,6 +490,8 @@ def unavailable_html(market_id, platform_display, user_country, partner_config):
     max-width: 280px;
   }}
   a.back:hover {{ background: #e8642c; color: #fdf6ee; }}
+  .related {{ margin: 16px 0; padding: 10px 12px; border-left: 3px solid #e8cdb5; }}
+  .related ul li {{ margin-bottom: 4px; }}
   .fine {{ font-size: 11px; color: #a08b77; margin-top: 20px; }}
 </style>
 </head>
@@ -388,6 +505,7 @@ def unavailable_html(market_id, platform_display, user_country, partner_config):
   <div class="available">
     <strong>{platform_display}</strong> is available in: {available_html}
   </div>
+  {related_block_html}
   <p>other markets on the <a href="/" style="color:#d97c3c">homepage</a> may be available near you.</p>
   <a class="back" href="/">back to dollar bets</a>
   <p class="fine">dollar bets is an editorial site. we do not operate markets or verify user eligibility.</p>
@@ -575,8 +693,26 @@ class handler(BaseHTTPRequestHandler):
             user_region = self.headers.get("x-vercel-ip-region", "")
             is_us = (user_country or "").upper() == "US"
 
-            def _show_unavailable(state_label):
-                html = sportsbook_unavailable_html(title, book_display, state_label, sb_back_path)
+            def _show_unavailable(_unused=None):
+                # Pull a few related markets from the same sports board so the
+                # page isn't a dead end. source_slug maps to the file prefix:
+                # the-lineup→sports, underdogs→underdogs, the-ocho→ocho, etc.
+                source_to_prefix = {
+                    "the-lineup": "sports",
+                    "underdogs": "underdogs",
+                    "the-ocho": "ocho",
+                    "chalk": "chalk",
+                    "combo-meal": "combo",
+                }
+                prefix = source_to_prefix.get(source_slug, "sports")
+                related = _pick_related_markets(prefix, market_id, n=4)
+                html = sportsbook_unavailable_html(
+                    title, book_display,
+                    user_state=user_region or None,
+                    user_country=user_country or None,
+                    back_path=sb_back_path,
+                    related_markets=related,
+                )
                 self.send_response(200)
                 self.send_header("Content-Type", "text/html; charset=utf-8")
                 self.send_header("Cache-Control", "no-cache")
@@ -647,31 +783,34 @@ class handler(BaseHTTPRequestHandler):
             user_region = self.headers.get("x-vercel-ip-region", "")
             is_us = (user_country or "").upper() == "US"
 
+            def _show_parlay_unavailable():
+                # Parlays come from combo-*.json — suggest other parlays first.
+                related = _pick_related_markets("combo", market_id, n=4)
+                html = sportsbook_unavailable_html(
+                    title, book_display,
+                    user_state=user_region or None,
+                    user_country=user_country or None,
+                    back_path=parlay_back,
+                    related_markets=related,
+                )
+                self.send_response(200)
+                self.send_header("Content-Type", "text/html; charset=utf-8")
+                self.end_headers()
+                self.wfile.write(html.encode("utf-8"))
+
             if "{state}" in url:
                 if user_country and not is_us:
-                    html = sportsbook_unavailable_html(title, book_display, user_country, parlay_back)
-                    self.send_response(200)
-                    self.send_header("Content-Type", "text/html; charset=utf-8")
-                    self.end_headers()
-                    self.wfile.write(html.encode("utf-8"))
+                    _show_parlay_unavailable()
                     return
                 resolved = resolve_sportsbook_state(url, user_region, book_slug)
                 if not resolved:
-                    html = sportsbook_unavailable_html(title, book_display, user_region, parlay_back)
-                    self.send_response(200)
-                    self.send_header("Content-Type", "text/html; charset=utf-8")
-                    self.end_headers()
-                    self.wfile.write(html.encode("utf-8"))
+                    _show_parlay_unavailable()
                     return
                 url = resolved
             elif book_slug == "fanduel" or "fanduel.com" in url:
                 resolved = rewrite_fanduel_url(url, user_region) if is_us or not user_country else None
                 if not resolved:
-                    html = sportsbook_unavailable_html(title, book_display, user_region or user_country, parlay_back)
-                    self.send_response(200)
-                    self.send_header("Content-Type", "text/html; charset=utf-8")
-                    self.end_headers()
-                    self.wfile.write(html.encode("utf-8"))
+                    _show_parlay_unavailable()
                     return
                 url = resolved
 
@@ -689,19 +828,51 @@ class handler(BaseHTTPRequestHandler):
         market = find_market_in_board(market_id, board_data)
 
         if not market:
-            # Market not found — fall back to direct Kalshi URL as best guess
+            # Market not found in current board data (stale link, removed
+            # market, ticker drift, or recap-page reference to a past board).
+            # Infer the platform from the ticker prefix so a card labeled
+            # "Polymarket" doesn't fall through to a Kalshi affiliate URL.
+            #
+            # Convention:
+            #   KX...  → Kalshi
+            #   0x...  → Polymarket
+            #   other  → no safe platform inference; bounce to homepage
+            inferred_slug = None
+            if market_id.startswith("KX"):
+                inferred_slug = "kalshi"
+            elif market_id.startswith("0x"):
+                inferred_slug = "polymarket"
+
+            if inferred_slug is None:
+                # Can't safely infer — return to homepage rather than
+                # crediting an arbitrary affiliate.
+                self.send_response(302)
+                self.send_header("Location", "/")
+                self.send_header("Cache-Control", "no-cache")
+                self.end_headers()
+                return
+
             site_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
             config_path = os.path.join(site_dir, "config", "partners.json")
             try:
                 with open(config_path) as f:
                     config = json.load(f)
-                kalshi = next((p for p in config.get("partners", []) if p["slug"] == "kalshi"), None)
-                if kalshi and kalshi.get("enabled"):
-                    affiliate_id = kalshi.get("affiliate_id", "")
-                    param_name = kalshi.get("tracking_param_name", "referral")
-                    url = f"https://kalshi.com/markets/{market_id}"
+                partner = next((p for p in config.get("partners", []) if p["slug"] == inferred_slug), None)
+                if partner and partner.get("enabled"):
+                    base = partner.get("base_url", "")
+                    affiliate_id = partner.get("affiliate_id", "")
+                    param_name = partner.get("tracking_param_name", "ref")
+                    # Kalshi uses /markets/{ticker}; Polymarket's correct URL
+                    # is /event/{slug} and slug != ticker — we don't have the
+                    # slug here, so send to the platform's market index page
+                    # rather than guessing a 404 deep link.
+                    if inferred_slug == "kalshi":
+                        url = f"{base.rstrip('/')}/{market_id}"
+                    else:
+                        url = base.rstrip("/")  # polymarket.com or markets index
                     if affiliate_id:
-                        url += f"?{param_name}={affiliate_id}"
+                        sep = "&" if "?" in url else "?"
+                        url = f"{url}{sep}{param_name}={affiliate_id}"
                     self.send_response(302)
                     self.send_header("Location", url)
                     self.send_header("Cache-Control", "no-cache")
@@ -710,9 +881,10 @@ class handler(BaseHTTPRequestHandler):
             except Exception:
                 pass
 
-            # Last resort: send to Kalshi homepage with affiliate
+            # Last resort: bounce home rather than guess a destination.
             self.send_response(302)
-            self.send_header("Location", "https://kalshi.com/markets/" + market_id + "?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f")
+            self.send_header("Location", "/")
+            self.send_header("Cache-Control", "no-cache")
             self.end_headers()
             return
 
@@ -761,7 +933,10 @@ class handler(BaseHTTPRequestHandler):
             except Exception:
                 pass
 
-            html = unavailable_html(market_id, platform_display, user_country, partner_config)
+            # Suggest a few other markets from today's main board so the page
+            # isn't a dead end. "" = date-stamped main board (not sports).
+            related = _pick_related_markets("", market_id, n=4)
+            html = unavailable_html(market_id, platform_display, user_country, partner_config, related_markets=related)
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
             self.send_header("Cache-Control", "no-cache")

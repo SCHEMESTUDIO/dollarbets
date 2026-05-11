@@ -117,6 +117,9 @@ SHARED_CSS = """
       display: flex;
       align-items: center;
       gap: 8px;
+      /* margin reset — same rule applies whether site-title renders as div (default)
+         or as h1 (on the homepage), so the user-agent h1 default doesn't shift layout */
+      margin: 0;
     }
 
     .site-title a {
@@ -322,6 +325,8 @@ SHARED_CSS = """
       font-weight: 800;
       letter-spacing: -0.3px;
       display: inline-block;
+      flex-shrink: 0;
+      white-space: nowrap;
     }
 
     .payout-stake {
@@ -714,7 +719,25 @@ SHARED_CSS = """
       .wager-title { font-size: 14px; }
       .wager-payout { font-size: 12px; }
       .wager-quip { font-size: 12px; }
-      .legend { overflow-x: auto; flex-wrap: nowrap; -webkit-overflow-scrolling: touch; padding-bottom: 4px; }
+      .legend {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 4px;
+        /* Fade right edge when content overflows, hinting horizontal scroll */
+        -webkit-mask-image: linear-gradient(to right, black calc(100% - 28px), transparent);
+        mask-image: linear-gradient(to right, black calc(100% - 28px), transparent);
+      }
+      /* Let payout-row wrap on narrow viewports so [share] never overflows the card.
+         When wrap happens (e.g. long platform labels at 320–393px), share drops
+         to a second line, right-aligned. Payout stays inline with open-platform. */
+      .wager-payout-row {
+        flex-wrap: wrap;
+        row-gap: 6px;
+      }
+      .share-wrap {
+        margin-left: auto;
+      }
     }
 """
 
@@ -792,6 +815,17 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
     noindex_tag = '<meta name="robots" content="noindex, follow">' if noindex else ""
     canonical_tag = f'<link rel="canonical" href="{SITE_URL}{canonical}">' if canonical else ""
 
+    # Homepage is the only page that needs Dollar Bets as its semantic h1.
+    # Every other page has its own <h1 class="page-title">; on those pages
+    # the site-title stays a <div> to avoid duplicate h1s.
+    is_homepage = canonical == "/"
+    title_tag = "h1" if is_homepage else "div"
+    site_title_html = (
+        f'<{title_tag} class="site-title">'
+        f'<a href="/"><span class="site-logo">💵</span> Dollar Bets</a>'
+        f'</{title_tag}>'
+    )
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -828,7 +862,7 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
   <div class="container">
 
     <header class="header">
-      <div class="site-title"><a href="/"><span class="site-logo">💵</span> Dollar Bets</a></div>
+      {site_title_html}
       <div class="tagline">The world's most interesting $1 wagers. A buck says maybe.</div>
     </header>
 
@@ -974,8 +1008,32 @@ def tier_emoji(tier):
             "red": "🟥", "purple": "🟪"}.get(tier, "⬜")
 
 
-def legend_html():
-    """Clickable tier legend — links to /tier/{name}/ pages."""
+def legend_html(board=None):
+    """Clickable tier legend — links to /tier/{name}/ pages.
+
+    If a board list is provided, append a per-tier count to each pill
+    (e.g. '🟩 respectable 3'). Counts give the user immediate visibility
+    into how the day's board is distributed, and surface that the funny
+    tier names are also functional filters. Tier name → board key:
+        respectable → green
+        alive → yellow
+        heater → orange
+        filthy → red
+        generational → purple
+    """
+    name_to_tier = {
+        "respectable": "green",
+        "alive": "yellow",
+        "heater": "orange",
+        "filthy": "red",
+        "generational": "purple",
+    }
+    counts = {}
+    if board:
+        for m in board:
+            t = m.get("tier", "")
+            counts[t] = counts.get(t, 0) + 1
+
     pills = [
         ("🟩", "respectable"),
         ("🟨", "alive"),
@@ -983,10 +1041,14 @@ def legend_html():
         ("🟥", "filthy"),
         ("🟪", "generational"),
     ]
-    items = "\n      ".join(
-        f'<a href="/tier/{name}/" class="legend-pill">{emoji} {name}</a>'
-        for emoji, name in pills
-    )
+
+    def render_pill(emoji, name):
+        if board is not None:
+            n = counts.get(name_to_tier[name], 0)
+            return f'<a href="/tier/{name}/" class="legend-pill">{emoji} {name} {n}</a>'
+        return f'<a href="/tier/{name}/" class="legend-pill">{emoji} {name}</a>'
+
+    items = "\n      ".join(render_pill(e, n) for e, n in pills)
     return f'    <div class="legend">\n      {items}\n    </div>\n'
 
 
@@ -1583,7 +1645,7 @@ def generate_daily_board(boards):
     except ValueError:
         date_str = latest_date
 
-    legend = legend_html()
+    legend = legend_html(board)
     date_line = f'    <div class="date-line" style="margin-bottom:14px">{date_str}</div>\n'
 
     trust_strip = """
@@ -1667,7 +1729,7 @@ def generate_lineup_board(sports_boards):
         t = m.get("tier", "unknown")
         tier_counts[t] = tier_counts.get(t, 0) + 1
 
-    legend = legend_html()
+    legend = legend_html(board)
     date_line = f'    <div class="date-line" style="margin-bottom:14px">{date_str}</div>\n'
 
     # Sports-specific header
@@ -1804,7 +1866,7 @@ def generate_sports_sub_board(board_key):
     except ValueError:
         date_str = latest_date
 
-    legend = legend_html()
+    legend = legend_html(board)
     date_line = f'    <div class="date-line" style="margin-bottom:14px">{date_str}</div>\n'
 
     header = f"""    <h1 class="page-title">{config["page_title"]}</h1>

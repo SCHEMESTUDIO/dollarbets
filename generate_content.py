@@ -470,8 +470,14 @@ def generate_hall_of_filth_index(stories):
 # ── Guides index page ─────────────────────────────────────
 
 def generate_guides_index(pages):
-    """Generate /guides/ index page listing all editorial content articles."""
-    # Filter to editorial content only — exclude trust pages and Hall of Filth
+    """Generate /guides/ index page listing all editorial content articles.
+
+    Entries are grouped under named buckets so a 40+ link page reads like an
+    old-internet directory (Yahoo-style) rather than a flat dump. Buckets are
+    derived from each page's `cluster` field via CLUSTER_TO_BUCKET below;
+    unmapped clusters fall into "More guides".
+    """
+    # Filter to editorial content only — exclude trust pages and historical stories
     TRUST_CLUSTERS = {"Trust Pages"}
     editorial = [
         p for p in pages
@@ -479,34 +485,64 @@ def generate_guides_index(pages):
         and p.get("format") != "historical_story"
     ]
 
-    # Sort by priority (lower = more important), then alphabetically
-    editorial.sort(key=lambda p: (p.get("priority", 50), p.get("seo", {}).get("h1", "")))
+    # Bucket order is the display order. Each bucket maps to one or more
+    # clusters from the content data. Adjust here when new clusters appear.
+    BUCKET_ORDER = [
+        ("Start here",              ["Prediction Markets", "Betting Explainers"]),
+        ("$1 framing & payouts",    ["$1 Bets", "Biggest Payouts"]),
+        ("Weird & longshot",        ["Weird Bets", "Crypto Moonshots"]),
+        ("Sports",                  ["Sports Bets", "Longshot Sports"]),
+        ("Politics",                ["Political Markets"]),
+        ("Safety & responsibility", ["Responsible Betting"]),
+        ("Daily & weekly",          ["Daily/Weekly"]),
+    ]
+    cluster_to_bucket = {
+        cluster: bucket
+        for bucket, clusters in BUCKET_ORDER
+        for cluster in clusters
+    }
+    OTHER_BUCKET = "More guides"
 
-    if not editorial:
-        links_html = '<div class="empty-note">guides coming soon — check back.</div>'
-    else:
-        items = []
-        for page in editorial:
-            seo = page.get("seo", {})
-            canonical = seo.get("canonical", "")
-            h1 = seo.get("h1", "")
-            desc = seo.get("meta_description", "")
-            cluster = page.get("cluster", "")
+    # Group entries by bucket
+    grouped = {bucket: [] for bucket, _ in BUCKET_ORDER}
+    grouped[OTHER_BUCKET] = []
+    for p in editorial:
+        bucket = cluster_to_bucket.get(p.get("cluster", ""), OTHER_BUCKET)
+        grouped[bucket].append(p)
 
-            items.append(f"""      <li class="wager">
-        <a href="{canonical}" style="display:block; padding:12px;">
+    # Sort within each bucket by priority (lower = more important), then h1
+    for bucket_items in grouped.values():
+        bucket_items.sort(key=lambda x: (x.get("priority", 50), x.get("seo", {}).get("h1", "")))
+
+    def render_item(page):
+        seo = page.get("seo", {})
+        return f"""      <li class="wager">
+        <a href="{seo.get("canonical", "")}" style="display:block; padding:12px;">
           <span class="wager-body">
-            <span class="wager-title">{h1}</span>
-            <span class="wager-quip">{desc}</span>
+            <span class="wager-title">{seo.get("h1", "")}</span>
+            <span class="wager-quip">{seo.get("meta_description", "")}</span>
           </span>
         </a>
-      </li>""")
+      </li>"""
 
-        links_html = f"""    <ul class="board">
-{chr(10).join(items)}
-    </ul>"""
+    if not editorial:
+        sections_html = '<div class="empty-note">guides coming soon — check back.</div>'
+    else:
+        section_blocks = []
+        # Render buckets in BUCKET_ORDER, then "More guides" at the end if non-empty
+        ordered = [b for b, _ in BUCKET_ORDER] + [OTHER_BUCKET]
+        for bucket in ordered:
+            items = grouped.get(bucket, [])
+            if not items:
+                continue
+            items_html = "\n".join(render_item(p) for p in items)
+            section_blocks.append(f"""    <h2 class="section-head">{bucket}</h2>
+    <ul class="board">
+{items_html}
+    </ul>""")
+        sections_html = "\n\n".join(section_blocks)
 
-    # Count for section header
+    # Count for page intro
     count_note = f"{len(editorial)} guides published" if editorial else ""
 
     body = f"""    <h1 class="page-title">guides</h1>
@@ -514,10 +550,9 @@ def generate_guides_index(pages):
       <p>Everything you wanted to know about prediction markets, odds, and $1 bets — explained without jargon, without hype, and without pretending we know the future.</p>
     </div>
 
-    <h2 class="section-head">all guides</h2>
     <div class="section-note">{count_note}</div>
 
-{links_html}
+{sections_html}
 
     <div style="margin:20px 0;padding:12px;border-top:1px solid #e8e7e0;font-size:11px;color:#6b5744">
       more: <a href="/" style="color:#666">today's board</a> · <a href="/hall-of-filth/" style="color:#666">hall of filth</a> · <a href="/about/" style="color:#666">about dollar bets</a>
