@@ -357,14 +357,21 @@ SHARED_CSS = """
     }
 
     /* === OPEN PLATFORM PILL === */
+    /* Both pills share the same fixed height + inline-flex centering
+       so they render at exactly the same rendered box regardless of
+       inner content (button user-agent line-height vs span line-height
+       used to drift them apart by ~4px). */
     .open-platform {
+      height: 26px;
+      box-sizing: border-box;
       font-size: 10.5px;
       color: #237a3f;
       cursor: pointer;
       border: 1px solid #237a3f;
       background: #fff;
       font-family: 'Courier New', monospace;
-      padding: 4px 10px;
+      padding: 0 12px;
+      line-height: 1;
       letter-spacing: 0.3px;
       border-radius: 4px;
       transition: all 0.12s ease;
@@ -372,6 +379,21 @@ SHARED_CSS = """
       text-decoration: none;
       margin-left: auto;
       flex-shrink: 0;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* Heavier » arrow visual via scale() — scale doesn't affect the
+       element's layout box, so the pill's rendered height stays equal
+       to .share-btn even with a visually larger glyph. */
+    .open-platform .cta-arrow {
+      font-weight: 900;
+      line-height: 1;
+      display: inline-block;
+      transform: scale(1.4);
+      transform-origin: center;
+      margin: 0 2px;
     }
 
     .wager:hover .open-platform {
@@ -387,17 +409,25 @@ SHARED_CSS = """
     }
 
     .share-btn {
+      /* Identical height + flex centering as .open-platform — pills must
+         visually match. line-height:1 + explicit height kills any button
+         user-agent line-height that used to make the share pill ~4px taller. */
+      height: 26px;
+      box-sizing: border-box;
       font-size: 10.5px;
       color: #b5470a;
       cursor: pointer;
       border: 1px solid #e8642c;
       background: #fff;
       font-family: 'Courier New', monospace;
-      padding: 8px 12px;
+      padding: 0 12px;
+      line-height: 1;
       letter-spacing: 0.3px;
       border-radius: 4px;
       transition: all 0.12s ease;
       font-weight: 700;
+      display: inline-flex;
+      align-items: center;
     }
 
     .share-btn:hover {
@@ -1190,7 +1220,7 @@ def render_bet_card(m, is_longshot_pick=False):
             <span class="wager-quip">{quip}</span>
             <span class="wager-payout-row">
               <span class="wager-payout"><span class="payout-stake">$1</span> <span class="payout-arrow">&rarr;</span> <span class="payout-return">{payout_str}</span></span>
-              <span class="open-platform">Open on {platform_name} &rarr;</span>
+              <span class="open-platform">{platform_name} <span class="cta-arrow">&raquo;</span></span>
               <span class="share-wrap" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}" data-ticker="{ticker}">
                 <button class="share-btn" onclick="toggleShare(event, this)">[share]</button>
                 <div class="share-menu">
@@ -1241,7 +1271,7 @@ def render_sports_bet_card(m, from_slug=None):
             <span class="wager-payout-row">
               <span class="wager-payout"><span class="payout-stake">$1</span> <span class="payout-arrow">&rarr;</span> <span class="payout-return">{payout_str}</span></span>
               {odds_badge}
-              <span class="open-platform">Open on {platform_name} &rarr;</span>
+              <span class="open-platform">{platform_name} <span class="cta-arrow">&raquo;</span></span>
               <span class="share-wrap" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}" data-ticker="{ticker}">
                 <button class="share-btn" onclick="toggleShare(event, this)">[share]</button>
                 <div class="share-menu">
@@ -2452,7 +2482,7 @@ def generate_about_page():
             <span class="wager-quip">weather channel intern enters witness protection</span>
             <span class="wager-payout-row">
               <span class="wager-payout"><span class="payout-stake">$1</span> <span class="payout-arrow">&rarr;</span> <span class="payout-return">$80</span></span>
-              <span class="open-platform">Open on Kalshi &rarr;</span>
+              <span class="open-platform">Kalshi <span class="cta-arrow">&raquo;</span></span>
             </span>
           </span>
         </a>
