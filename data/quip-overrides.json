@@ -430,5 +430,77 @@
     "tier": "red",
     "original_quip": "Oppenheimer, but the other part",
     "editor_quip": "what sounds like a Greek sauce but smacks of imperialism "
+  },
+  {
+    "date": "2026-05-11",
+    "title": "Both teams score in Marseille vs Rennais",
+    "category": "Sports",
+    "payout": 1.69,
+    "tier": "green",
+    "original_quip": "outrageously plausible",
+    "editor_quip": "you see it every day"
+  },
+  {
+    "date": "2026-05-11",
+    "title": "Xi and Takaichi meet before 2027",
+    "category": "Science and Technology",
+    "payout": 2.53,
+    "tier": "green",
+    "original_quip": "calendars exist, probably gravy",
+    "editor_quip": "who sends who the Calendly "
+  },
+  {
+    "date": "2026-05-11",
+    "title": "2026 breaks the heat record",
+    "category": "Climate and Weather",
+    "payout": 2.56,
+    "tier": "green",
+    "original_quip": "crazier things have happened",
+    "editor_quip": "something something sweat emoji "
+  },
+  {
+    "date": "2026-05-11",
+    "title": "Trump tops Google's Year in Search 2026",
+    "category": "Entertainment",
+    "payout": 4.76,
+    "tier": "yellow",
+    "original_quip": "the algorithm is us and we are it",
+    "editor_quip": "googles \"is trump going to win the year in search\""
+  },
+  {
+    "date": "2026-05-11",
+    "title": "Lovable gets acquired before 2027",
+    "category": "Other",
+    "payout": 5.71,
+    "tier": "yellow",
+    "original_quip": "money printer go brrr",
+    "editor_quip": "your cousin's micro SaaS hot-girl-ranker.io is now a Berkshire Hathaway company"
+  },
+  {
+    "date": "2026-05-11",
+    "title": "Atlanta Braves win the 2026 World Series",
+    "category": "Other",
+    "payout": 10.47,
+    "tier": "orange",
+    "original_quip": "short the club, assemble the eye test guys",
+    "editor_quip": "October's very own"
+  },
+  {
+    "date": "2026-05-11",
+    "title": "David Reynoso wins Best Costume Design at the Tonys",
+    "category": "Entertainment",
+    "payout": 14.29,
+    "tier": "orange",
+    "original_quip": "seven people in the world have a stake in this",
+    "editor_quip": "approx 7 people in the literal world have a stake in this"
+  },
+  {
+    "date": "2026-05-11",
+    "title": "Trump and Iran hold diplomatic talks by May",
+    "category": "World",
+    "payout": 28.99,
+    "tier": "red",
+    "original_quip": "we didn't start the fire, but someone's definitely holding a garden hose",
+    "editor_quip": "we did start the fire and we're burning refineries and bridges until the world stops turning"
   }
 ]
