@@ -158,10 +158,14 @@ SHARED_CSS = """
 
     /* === NAV (two-line) === */
     .nav {
-      font-size: 11px;
-      color: #806b5b;
+      /* V4 typography: UPPERCASE + bold + brand orange + red active.
+         Drudge-style punch within the old-internet aesthetic. */
+      font-size: 11.5px;
+      color: #b5470a;
       margin-bottom: 14px;
-      letter-spacing: 0.3px;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      font-weight: 700;
     }
 
     .nav-row {
@@ -179,21 +183,20 @@ SHARED_CSS = """
     }
 
     .nav a {
-      color: #6b5744;
+      color: #b5470a;
       text-decoration: none;
       transition: all 0.15s ease;
     }
 
     .nav a:hover {
-      color: #b5470a;
-      border-bottom-color: #e8642c;
+      color: #c4341c;
+      border-bottom-color: #c4341c;
       text-decoration: none;
     }
 
     .nav .active {
-      color: #b5470a;
-      font-weight: 700;
-      border-bottom-color: #e8642c;
+      color: #c4341c;
+      border-bottom-color: #c4341c;
     }
 
     /* === LEGEND (tier pills) === */
@@ -766,10 +769,14 @@ BOARD_NAV_LINKS = [
 
 
 def nav_html(current=""):
-    """Primary board nav — browsing destinations only."""
-    row1_links = BOARD_NAV_LINKS[:6]
-    row2_links = BOARD_NAV_LINKS[6:]
+    """Primary board nav — browsing destinations only.
 
+    Single flex row that wraps naturally based on container width. The
+    earlier hand-coded split (first 6 in row 1, last 4 in row 2) created
+    a half-empty line 2 on mobile because the second container forced a
+    fresh row break. Letting the items flow as one list packs line 2
+    fully before any spill into line 3.
+    """
     def render_link(href, label):
         norm_href = href if href == "/" else href.strip("/")
         norm_cur = current if current == "/" else current.strip("/")
@@ -777,9 +784,8 @@ def nav_html(current=""):
             return f'<span class="active">{label}</span>'
         return f'<a href="{href}">{label}</a>'
 
-    r1 = " ".join(render_link(h, l) for h, l in row1_links)
-    r2 = " ".join(render_link(h, l) for h, l in row2_links)
-    return f'<div class="nav"><div class="nav-row">{r1}</div><div class="nav-row">{r2}</div></div>'
+    items = " ".join(render_link(h, l) for h, l in BOARD_NAV_LINKS)
+    return f'<div class="nav"><div class="nav-row">{items}</div></div>'
 
 
 def board_nav_bottom(current=""):
