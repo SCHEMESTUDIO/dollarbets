@@ -13,13 +13,13 @@
       "subtitle": "OM vs REN (May 17)",
       "payout": 1.69,
       "tier": "green",
-      "quip": "outrageously plausible",
+      "quip": "you see it every day",
       "yes_price": "0.5900",
-      "volume": 8.0,
+      "volume": 8,
       "category": "Sports",
       "close_time": "2026-05-31T19:00:00Z",
       "url": "https://kalshi.com/markets/KXLIGUE1BTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 47.0
+      "score": 47
     },
     {
       "ticker": "0x637ff14bf5b7e81ac906d7488d34492dc39586671e00d064ece47cdd845aa722",
@@ -27,14 +27,14 @@
       "subtitle": "",
       "payout": 2.53,
       "tier": "green",
-      "quip": "calendars exist, probably gravy",
+      "quip": "who sends who the Calendly ",
       "yes_price": "0.3950",
       "volume": 9790.533548999998,
       "category": "Science and Technology",
       "close_time": "2026-12-31T00:00:00Z",
       "url": "https://polymarket.com/event/will-xi-meet-with-takaichi-by",
       "platform": "polymarket",
-      "score": 43.0
+      "score": 43
     },
     {
       "ticker": "KXGTEMP-27-P0",
@@ -42,13 +42,13 @@
       "subtitle": "In 2026",
       "payout": 2.56,
       "tier": "green",
-      "quip": "crazier things have happened",
+      "quip": "something something sweat emoji ",
       "yes_price": "0.3900",
       "volume": 7833.25,
       "category": "Climate and Weather",
       "close_time": "2027-01-01T04:59:00Z",
       "url": "https://kalshi.com/markets/KXGTEMP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 96.0
+      "score": 96
     },
     {
       "ticker": "KXRANKLISTGOOGLESEARCH-26DEC-DON",
@@ -56,13 +56,13 @@
       "subtitle": "2026",
       "payout": 4.76,
       "tier": "yellow",
-      "quip": "the algorithm is us and we are it",
+      "quip": "googles \"is trump going to win the year in search\"",
       "yes_price": "0.2100",
       "volume": 95804.53,
       "category": "Entertainment",
       "close_time": "2026-12-31T15:00:00Z",
       "url": "https://kalshi.com/markets/KXRANKLISTGOOGLESEARCH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 136.0
+      "score": 136
     },
     {
       "ticker": "KXCOLONIZEMARS-50",
@@ -76,7 +76,7 @@
       "category": "Science and Technology",
       "close_time": "2050-01-01T04:59:00Z",
       "url": "https://kalshi.com/markets/KXCOLONIZEMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 111.0
+      "score": 111
     },
     {
       "ticker": "0x8452ab75745818363066cb7ccca1accedb926eb71c3098cc5458395bcbf65c3f",
@@ -84,14 +84,14 @@
       "subtitle": "",
       "payout": 5.71,
       "tier": "yellow",
-      "quip": "money printer go brrr",
+      "quip": "your cousin's micro SaaS hot-girl-ranker.io is now a Berkshire Hathaway company",
       "yes_price": "0.1750",
       "volume": 965051.2108039994,
       "category": "Other",
       "close_time": "2026-12-31T00:00:00Z",
       "url": "https://polymarket.com/event/which-companies-will-be-acquired-before-2027",
       "platform": "polymarket",
-      "score": 40.0
+      "score": 40
     },
     {
       "ticker": "0x7c6d624563d7efee94f7ef54da8d35fd794b3cde9ead02df0d413d6ad3886570",
@@ -99,14 +99,14 @@
       "subtitle": "",
       "payout": 10.47,
       "tier": "orange",
-      "quip": "short the club, assemble the eye test guys",
+      "quip": "October's very own",
       "yes_price": "0.0955",
       "volume": 863805.6161679971,
       "category": "Other",
       "close_time": "2026-10-31T23:55:00Z",
       "url": "https://polymarket.com/event/mlb-world-series-champion-2026",
       "platform": "polymarket",
-      "score": 45.0
+      "score": 45
     },
     {
       "ticker": "KXTONYAWARDS-26BCDOAM-DAV",
@@ -114,13 +114,13 @@
       "subtitle": "2026 | Best Costume Design of a Musical",
       "payout": 14.29,
       "tier": "orange",
-      "quip": "seven people in the world have a stake in this",
+      "quip": "approx 7 people in the literal world have a stake in this",
       "yes_price": "0.0700",
-      "volume": 69.0,
+      "volume": 69,
       "category": "Entertainment",
       "close_time": "2026-12-31T15:00:00Z",
       "url": "https://kalshi.com/markets/KXTONYAWARDS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 101.0
+      "score": 101
     },
     {
       "ticker": "0x46f68d85b8795d58a1b2577333e1446d7a46e52099f6d0056cab5dac8a8c4a05",
@@ -128,29 +128,29 @@
       "subtitle": "",
       "payout": 28.99,
       "tier": "red",
-      "quip": "we didn't start the fire, but someone's definitely holding a garden hose",
+      "quip": "we did start the fire and we're burning refineries and bridges until the world stops turning",
       "yes_price": "0.0345",
       "volume": 8975.867309,
       "category": "World",
       "close_time": "2026-05-31T00:00:00Z",
       "url": "https://polymarket.com/event/who-will-meet-with-iran-by-may-31",
       "platform": "polymarket",
-      "score": 58.0
+      "score": 58
     },
     {
       "ticker": "0x5bd577a7016922d0fa232e5bdfd0a947c176739ea834219bdc65cd69e46e7434",
-      "title": "Trump tries to fire Powell",
+      "title": "Trump tries to fire Powell ",
       "subtitle": "",
-      "payout": 125.0,
+      "payout": 125,
       "tier": "purple",
-      "quip": "forever in blue jeans, brother",
+      "quip": "Special teams, special plays, special players.",
       "yes_price": "0.0080",
       "volume": 88806.47597500001,
       "category": "World",
       "close_time": "2026-06-30T00:00:00Z",
       "url": "https://polymarket.com/event/trump-tries-to-fire-powell-as-fed-chair-before-he-leaves",
       "platform": "polymarket",
-      "score": 56.0
+      "score": 56
     }
   ]
 }
