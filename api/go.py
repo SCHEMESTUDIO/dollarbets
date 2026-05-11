@@ -280,26 +280,28 @@ def sportsbook_unavailable_html(market_title, book_display, user_state=None,
     """
     is_us = (user_country or "").upper() == "US"
 
-    # Determine the region label + the noun to use in copy
+    # Determine the region label + the noun forms (singular and plural)
+    # used in copy. Plural needed for "varies by {x}. ... which {x}s are
+    # supported." Naive +s would produce "countrys" — handle explicitly.
     if is_us and user_state:
         region_label = user_state.upper()
         region_noun = "state"
-        availability_noun = "state"
+        region_plural = "states"
     elif user_country:
         # Non-US user (or no state info) — use the country name
         region_label = _country_name(user_country)
         region_noun = "country"
-        availability_noun = "country"
+        region_plural = "countries"
     elif user_state:
         # Have a state code but no country — assume US to preserve old behavior
         region_label = user_state.upper()
         region_noun = "state"
-        availability_noun = "state"
+        region_plural = "states"
     else:
         # No location data at all
         region_label = "your region"
         region_noun = "region"
-        availability_noun = "region"
+        region_plural = "regions"
 
     # Derive a label from the path for the body link copy
     path_label = back_path.strip("/").replace("-", " ") or "lineup"
@@ -359,7 +361,7 @@ def sportsbook_unavailable_html(market_title, book_display, user_state=None,
   <h1>sportsbook not available in your {region_noun}</h1>
   <p><strong>{book_display}</strong> is not available in <strong>{region_label}</strong> for the wager "{market_title}".</p>
   <div class="warn">
-    <p>sportsbook availability varies by {availability_noun}. dollar bets does not control which {availability_noun}s are supported.</p>
+    <p>sportsbook availability varies by {region_noun}. dollar bets does not control which {region_plural} are supported.</p>
   </div>
   {related_block}
   <p>check the <a href="{back_path}" style="color:#d97c3c">{path_label} board</a> for other wagers, or other boards for different sportsbooks.</p>
@@ -852,6 +854,21 @@ class handler(BaseHTTPRequestHandler):
                 self.end_headers()
                 return
 
+            # For Polymarket we can't construct a working market URL from
+            # just the ticker (Polymarket uses event slugs that don't match
+            # the contract address). Their base_url in partners.json points
+            # at a 404-equivalent page. Bounce stale 0x tickers home instead
+            # of dumping the user on a broken third-party page.
+            if inferred_slug == "polymarket":
+                self.send_response(302)
+                self.send_header("Location", "/")
+                self.send_header("Cache-Control", "no-cache")
+                self.end_headers()
+                return
+
+            # Kalshi case: ticker == market slug, so /markets/{ticker}
+            # generally works (or lands on Kalshi's own "market not found"
+            # page which is at least an on-brand experience).
             site_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
             config_path = os.path.join(site_dir, "config", "partners.json")
             try:
@@ -862,14 +879,7 @@ class handler(BaseHTTPRequestHandler):
                     base = partner.get("base_url", "")
                     affiliate_id = partner.get("affiliate_id", "")
                     param_name = partner.get("tracking_param_name", "ref")
-                    # Kalshi uses /markets/{ticker}; Polymarket's correct URL
-                    # is /event/{slug} and slug != ticker — we don't have the
-                    # slug here, so send to the platform's market index page
-                    # rather than guessing a 404 deep link.
-                    if inferred_slug == "kalshi":
-                        url = f"{base.rstrip('/')}/{market_id}"
-                    else:
-                        url = base.rstrip("/")  # polymarket.com or markets index
+                    url = f"{base.rstrip('/')}/{market_id}"
                     if affiliate_id:
                         sep = "&" if "?" in url else "?"
                         url = f"{url}{sep}{param_name}={affiliate_id}"
