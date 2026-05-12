@@ -1,14 +1,5 @@
 {
-  "geo_compliance": {
-    "_description": "Countries where we suppress trading CTAs entirely and show commentary-only mode",
-    "commentary_only_countries": [
-      "GB", "AU", "CN", "HK", "IN", "JP", "KR",
-      "IR", "KP", "CU", "SY", "BY", "RU", "VE", "MM",
-      "US"
-    ],
-    "commentary_only_cta": "view market info",
-    "commentary_only_banner": "market commentary only — trading may not be available in your region"
-  },
+  "_compliance_note": "Geo gating happens at the /go/ interstitial (api/go.py) using per-partner allowed_countries / blocked_countries. The site itself shows the same content to every visitor; restriction warnings only appear at click-through time against a specific partner.",
   "partners": [
     {
       "slug": "kalshi",

@@ -732,15 +732,15 @@ SHARED_CSS = """
       font-weight: 700;
     }
 
-    .geo-banner {
+    /* Always-visible site disclosure strip — yellow notice box that sits
+       between the tier legend and the first bet on every board page.
+       Geo-compliance is handled at the /go/ interstitial (api/go.py), not
+       on the board pages themselves. */
+    .disclosure-strip {
       background: #fef9e7; border: 1px solid #d4c479; color: #5a4e2f;
-      padding: 8px 12px; font-size: 11px; margin-bottom: 12px;
+      padding: 10px 14px; font-size: 11px; margin: 0 0 18px;
       font-family: 'Courier New', monospace; text-transform: lowercase;
-    }
-
-    .cta-softened {
-      opacity: 0.7;
-      border-color: #555 !important;
+      line-height: 1.6; border-radius: 4px;
     }
 
     /* === MOBILE === */
@@ -778,6 +778,15 @@ SIGNUP_HTML = """
     <div class="signup">
       <iframe src="https://subscribe-forms.beehiiv.com/78789979-d89a-4de1-adb9-cb88a40ce0dd" scrolling="no" title="Email newsletter signup form"></iframe>
       <noscript><div class="signup-fallback" style="display:block"><p><a href="https://subscribe-forms.beehiiv.com/78789979-d89a-4de1-adb9-cb88a40ce0dd" target="_blank">subscribe here</a></p></div></noscript>
+    </div>
+"""
+
+# Always-visible site disclosure shown between the tier legend and the
+# first bet on every board page. Plain-English trust signal — visible to
+# every visitor regardless of region. Geo-restriction warnings happen at
+# the /go/ interstitial.
+DISCLOSURE_STRIP_HTML = """    <div class="disclosure-strip">
+      we earn affiliate commissions when you sign up to kalshi or polymarket through our links. we don't take a cut of any bet, hold any of your money, or get paid more if you lose.
     </div>
 """
 
@@ -988,30 +997,10 @@ function shareTo(e, platform, btn) {{
   menu.classList.remove('open');
 }}
 
-// ── geo-aware CTA suppression ──
-(function() {{
-  fetch('/api/geo').then(function(r) {{ return r.json(); }}).then(function(geo) {{
-    if (!geo.commentary_only) return;
-
-    // show banner
-    var banner = document.createElement('div');
-    banner.className = 'geo-banner';
-    banner.textContent = geo.banner || 'market commentary only — trading may not be available in your region';
-    var main = document.querySelector('.container');
-    if (main) main.insertBefore(banner, main.firstChild);
-
-    // soften CTA buttons
-    document.querySelectorAll('a.cta-btn, a.bet-link').forEach(function(a) {{
-      a.textContent = geo.cta_label || 'view market info';
-      a.classList.add('cta-softened');
-    }});
-
-    // hide signup/register elements
-    document.querySelectorAll('.signup-cta, .register-cta').forEach(function(el) {{
-      el.style.display = 'none';
-    }});
-  }}).catch(function() {{ /* geo check failed — show default CTAs */ }});
-}})();
+// Geo compliance is handled on the /go/ interstitial (see api/go.py).
+// The homepage no longer runs region-aware JS — every visitor sees the
+// same board and the same disclosure strip; restriction warnings appear
+// only at click-through time, against the specific partner being opened.
 </script>
 </body>
 </html>"""
@@ -1048,29 +1037,17 @@ def tier_emoji(tier):
 def legend_html(board=None):
     """Clickable tier legend — links to /tier/{name}/ pages.
 
-    If a board list is provided, append a per-tier count to each pill
-    (e.g. '🟩 respectable 3'). Counts give the user immediate visibility
-    into how the day's board is distributed, and surface that the funny
-    tier names are also functional filters. Tier name → board key:
+    Renders one pill per tier as 'emoji + tier name'. The board argument
+    is accepted for backward compatibility with existing call sites but
+    no longer drives a per-tier count (per-day counts were removed to
+    keep the legend acting as a clean key/filter rather than a stat bar).
+    Tier name → board key:
         respectable → green
         alive → yellow
         heater → orange
         filthy → red
         generational → purple
     """
-    name_to_tier = {
-        "respectable": "green",
-        "alive": "yellow",
-        "heater": "orange",
-        "filthy": "red",
-        "generational": "purple",
-    }
-    counts = {}
-    if board:
-        for m in board:
-            t = m.get("tier", "")
-            counts[t] = counts.get(t, 0) + 1
-
     pills = [
         ("🟩", "respectable"),
         ("🟨", "alive"),
@@ -1080,9 +1057,6 @@ def legend_html(board=None):
     ]
 
     def render_pill(emoji, name):
-        if board is not None:
-            n = counts.get(name_to_tier[name], 0)
-            return f'<a href="/tier/{name}/" class="legend-pill">{emoji} {name} {n}</a>'
         return f'<a href="/tier/{name}/" class="legend-pill">{emoji} {name}</a>'
 
     items = "\n      ".join(render_pill(e, n) for e, n in pills)
@@ -1694,7 +1668,7 @@ def generate_daily_board(boards):
     # Select today's filthy little longshot (homepage only)
     longshot_idx = select_filthy_longshot(board)
 
-    body = date_line + legend + render_bet_list(board, longshot_idx=longshot_idx) + trust_strip
+    body = date_line + legend + DISCLOSURE_STRIP_HTML + render_bet_list(board, longshot_idx=longshot_idx) + trust_strip
 
     # Homepage structured data: Organization + WebSite + ItemList
     market_items = []
@@ -1798,7 +1772,7 @@ def generate_lineup_board(sports_boards):
     </div>
 """
 
-    body = header + date_line + legend + render_sports_bet_list(board, from_slug="the-lineup") + trust_strip
+    body = header + date_line + legend + DISCLOSURE_STRIP_HTML + render_sports_bet_list(board, from_slug="the-lineup") + trust_strip
 
     # Structured data
     market_items = []
@@ -1934,7 +1908,7 @@ def generate_sports_sub_board(board_key):
 """
 
     empty_msg = "no picks right now — check back soon. some sports sleep so the board can wake up swinging."
-    body = header + date_line + legend + render_sports_bet_list(board, empty_msg, from_slug=config["url_slug"]) + trust_strip
+    body = header + date_line + legend + DISCLOSURE_STRIP_HTML + render_sports_bet_list(board, empty_msg, from_slug=config["url_slug"]) + trust_strip
 
     slug = config["url_slug"]
     schema = f"""<script type="application/ld+json">{{
