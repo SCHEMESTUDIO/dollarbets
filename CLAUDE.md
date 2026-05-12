@@ -31,8 +31,8 @@
 |------|-------|---------|
 | `generate.py` | ~3147 | Main static site generator — builds /today, /category/*, /archetypes/*, /recap/*, /autopsy/*, share/OG pages, 404, sitemap |
 | `scanner.py` | ~1948 | Kalshi + Polymarket market scanner — fetches events, scores entertainment, calculates $1 payouts, generates Claude quips, dedupes cross-platform |
-| `sports_scanner.py` | ~1078 | Sports odds scanner (The Odds API) — underdogs, lineup, ocho, chalk board modes |
-| `parlay_scanner.py` | ~577 | Parlay builder — combines near-certain outcomes into parlay cards with deep links |
+| `sports_scanner.py` | ~1097 | Sports odds scanner (The Odds API) — underdogs, lineup, ocho, chalk board modes |
+| `parlay_scanner.py` | ~596 | Parlay builder — combines near-certain outcomes into parlay cards with deep links |
 | `generate_content.py` | ~729 | SEO content page generator — reads JSON from `content/`, outputs HTML using shared layout |
 | `analyze_taste.py` | ~413 | Editorial style analyzer — distills quip overrides into `data/style-guide.json`; classifier guardrails |
 | `link_resolver.py` | ~215 | Geo-aware partner resolution — picks best platform by user country |
@@ -48,8 +48,7 @@
 | File | Lines | Purpose |
 |------|-------|---------|
 | `api/board.py` | ~344 | CMS API — GET/POST board JSON via GitHub commits |
-| `api/go.py` | ~968 | `/go/` redirect handler — geo-aware affiliate routing, interstitial, country/state plurals, stale-ticker fallbacks |
-| `api/geo.py` | ~50 | Returns user country from Vercel headers |
+| `api/go.py` | ~968 | `/go/` redirect handler — geo-aware affiliate routing, interstitial, country/state plurals, stale-ticker fallbacks. All geo-compliance lives here. |
 | `api/login.py` | ~80 | CMS login — HMAC token auth |
 
 ### CI / config / data
@@ -68,6 +67,7 @@
 | `content/pages/*.json` | — | Source JSON for SEO content pages (consumed by `generate_content.py`) |
 | `content/hall-of-filth/*.json` | — | Source JSON for Hall of Filth historical-upset stories |
 | `public/` | — | Build output directory (generated HTML, favicons, sitemap, robots.txt) |
+| `src/` | — | Source assets copied into build: `admin/index.html` (CMS UI), `og-image.png` default, IndexNow key file |
 | `integrations/` | — | Per-platform helper modules (kalshi, polymarket, coinbase, sportsbook, manual) |
 | `compliance-notes.md` | — | Geo-restriction tiers, CTA language rules, outstanding legal actions |
 | `AFFILIATE-LINKS.md` | — | How the /go/ redirect system works, how to add platforms |
@@ -80,8 +80,7 @@
 | GET | `/api/board?date=YYYY-MM-DD` | Returns board JSON for a date |
 | POST | `/api/board` | CMS save — commits updated board JSON to GitHub |
 | POST | `/api/login` | CMS auth — returns HMAC session token |
-| GET | `/api/geo` | Returns user's country code (from Vercel headers) |
-| GET | `/go/{ticker}` | Geo-aware market redirect with affiliate params |
+| GET | `/go/{ticker}` | Geo-aware market redirect with affiliate params (handles all per-region compliance via partner-level allowed/blocked lists) |
 
 ## Key Functions
 

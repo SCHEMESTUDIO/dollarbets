@@ -1,6 +1,6 @@
 # Dollar Bets — Compliance Notes
 
-Last updated: 2026-05-01
+Last updated: 2026-05-12
 
 ## What Dollar Bets is (and isn't)
 
@@ -9,35 +9,29 @@ It does NOT operate markets, take bets, hold funds, provide financial advice, or
 
 ## Geo-restriction strategy
 
-Three tiers of response based on user location:
+Compliance is enforced at the `/go/` redirect layer, not on the board pages. Every visitor sees the same editorial content; partner availability is checked only when a user clicks a market link, and only against the specific partner being opened.
 
-### Tier 1: Full experience (US only for Kalshi; non-blocked countries for Polymarket)
-- Normal CTAs ("view market", "see odds")
-- Outbound `/go/` links active
-- Jurisdiction interstitial shown before redirect
+### What every user sees on the site
+- The same board, same legend, same disclosure strip ("we earn affiliate commissions when you sign up to kalshi or polymarket through our links…")
+- No region-aware copy on the homepage or board pages
 
-### Tier 2: Commentary-only mode (restricted countries)
-- CTAs softened to "view market info"
-- Banner: "market commentary only — trading may not be available in your region"
-- Outbound links still function (interstitial gate applies)
-- No "sign up", "trade now", or "register" language
+### What happens at /go/{ticker}
+The redirect handler (`api/go.py`) reads the user's country from Vercel headers and looks up the destination partner in `config/partners.json`. There are two possible outcomes:
 
-### Tier 3: Blocked (sanctioned / fully restricted)
-- `/go/` redirect sends to `/unavailable/` page
-- Both platforms report ineligible
+1. **Partner is available in this region** → show jurisdiction interstitial → redirect to partner's market URL with affiliate params
+2. **Partner is blocked in this region** → render `unavailable_html()` page explaining why (named partner, named region) and suggesting alternatives where applicable
 
-## Commentary-only countries
+There is no middle "commentary-only" tier any more. The previous client-side banner/CTA-softening behavior was removed on 2026-05-12; geo enforcement happens entirely at click-through against a specific partner.
 
-GB, AU, CN, HK, IN, JP, KR, IR, KP, CU, SY, BY, RU, VE, MM
+## Regional notes (informational — actual enforcement is per-partner)
 
-Rationale:
 - **GB**: FCA regulates prediction markets; Kalshi US-only; Polymarket blocks UK
 - **AU**: ASIC restrictions on binary options / prediction markets
 - **CN, HK**: Gambling/speculative trading broadly restricted
 - **IN**: Legal gray area; FEMA and Public Gambling Act concerns
 - **JP**: Gambling Act restrictions; prediction markets not clearly legal
 - **KR**: National Gambling Control Commission oversight
-- **Sanctioned (IR, KP, CU, SY, BY, RU, VE, MM)**: OFAC/international sanctions; both platforms block these
+- **Sanctioned (IR, KP, CU, SY, BY, RU, VE, MM)**: OFAC/international sanctions; both platforms block these natively
 
 ## Kalshi geo rules
 
@@ -60,18 +54,17 @@ Rationale:
 
 ## Technical implementation
 
-- **Interstitial**: All `/go/` clicks pass through an HTML warning page before redirect (api/go.py)
-- **Geo endpoint**: `/api/geo` returns user's country and commentary-only status (api/geo.py)
-- **Client-side suppression**: JS on page load checks `/api/geo`, softens CTAs and shows banner for restricted countries
-- **Config**: All geo rules live in `config/partners.json` under `geo_compliance` and per-partner `blocked_countries`/`allowed_countries`
+- **Interstitial**: All `/go/` clicks pass through an HTML warning page before redirect (`api/go.py`, `interstitial_html()`)
+- **Unavailable page**: Region/partner mismatches render `unavailable_html()` instead of redirecting (`api/go.py`)
+- **Country detection**: `x-vercel-ip-country` header read directly in `api/go.py`. No separate geo endpoint.
+- **Config**: Per-partner `allowed_countries` and `blocked_countries` arrays in `config/partners.json` are the only source of truth.
 
 ## CTA language rules
 
 | Context | Allowed | Not allowed |
 |---------|---------|-------------|
-| Unrestricted | "view market", "see odds" | "bet now", "trade now", "register now", "wager" |
-| Commentary-only | "view market info" | All of the above + "sign up" |
-| Blocked | N/A (redirected to /unavailable/) | All CTAs |
+| Site-wide | "view market", "see odds" | "bet now", "trade now", "register now", "wager" |
+| Blocked (on /go/ → /unavailable/) | N/A | All CTAs — the page explains the restriction instead |
 
-Note: Existing CTA labels in link_resolver.py already use safe language ("view market", "see odds").
+Note: Existing CTA labels in `link_resolver.py` already use safe language ("view market", "see odds").
 The words "bet" and "wager" appear in editorial copy (quips, headlines) but these are editorial/commentary, not calls to action.
