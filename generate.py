@@ -839,6 +839,7 @@ def footer_info_nav():
         ("/affiliate-disclosure/", "affiliate disclosure"),
         ("/privacy/", "privacy"),
         ("/terms/", "terms"),
+        ("/sitemap/", "sitemap"),
         ("mailto:james.lamon@gmail.com", "contact"),
     ]
     items = " &middot;\n        ".join(f'<a href="{h}">{l}</a>' for h, l in links)
@@ -2618,6 +2619,101 @@ def generate_sitemap(pages):
     write_page("sitemap.xml", xml)
 
 
+def generate_html_sitemap(pages):
+    """Generate /sitemap/ — human-readable HTML sitemap, also a crawl aid.
+
+    Groups all URLs from the XML sitemap into sections so Googlebot has a
+    single page that links to every other page on the site. Cheap fix for
+    the discovery problem on a young domain where category landing pages
+    don't yet list every child page.
+    """
+    # Bucket each path by section. Order matters — first match wins.
+    # (label, prefix_predicate)
+    buckets = [
+        ("front page", lambda p: p == "/"),
+        ("today's boards", lambda p: p in {
+            "/the-lineup/", "/underdogs/", "/chalk/", "/heater/",
+            "/combo-meal/", "/the-ocho/", "/availability/",
+        }),
+        ("categories", lambda p: p in {
+            "/weird-markets/", "/politics-markets/", "/sports-markets/",
+            "/financial-markets/", "/crypto-markets/",
+        }),
+        ("tiers", lambda p: p.startswith("/tier/")),
+        ("archetypes", lambda p: p.startswith("/archetypes")),
+        ("guides", lambda p: p == "/guides/"),
+        ("hall of filth", lambda p: p.startswith("/hall-of-filth")),
+        ("market autopsies", lambda p: p.startswith("/autopsy/")),
+        ("recaps", lambda p: p.startswith("/recap/")),
+        ("info", lambda p: p in {
+            "/about/", "/affiliate-disclosure/", "/privacy/", "/terms/",
+            "/responsible-gambling/", "/sitemap/",
+        }),
+    ]
+
+    # Anything not matched above is treated as a standalone guide/explainer
+    # page (e.g. /what-is-a-prediction-market/, /best-bets-this-weekend/).
+    section_paths = {label: [] for label, _ in buckets}
+    section_paths["guides & explainers"] = []
+    bucketed = set()
+    for path, _priority in pages:
+        if path == "/sitemap/":  # don't list this page on itself
+            continue
+        placed = False
+        for label, pred in buckets:
+            if pred(path):
+                section_paths[label].append(path)
+                bucketed.add(path)
+                placed = True
+                break
+        if not placed:
+            section_paths["guides & explainers"].append(path)
+
+    # Render. Plain monospace list, Drudge-style — no card UI, no icons.
+    section_order = [
+        "front page",
+        "today's boards",
+        "categories",
+        "tiers",
+        "archetypes",
+        "guides",
+        "guides & explainers",
+        "hall of filth",
+        "market autopsies",
+        "recaps",
+        "info",
+    ]
+    body_parts = [
+        '    <h1 class="page-title">sitemap</h1>',
+        '    <div class="page-intro">',
+        '      <p>Every page on dollarbets.lol, plainly listed. If you\'re here from search, this is the table of contents.</p>',
+        '    </div>',
+    ]
+    total = 0
+    for label in section_order:
+        paths = sorted(set(section_paths.get(label, [])))
+        if not paths:
+            continue
+        body_parts.append(f'    <h2 style="font-size:13px;text-transform:uppercase;letter-spacing:1px;margin-top:24px;border-bottom:1px solid #e8e7e0;padding-bottom:4px">{label} <span style="color:#7a6e5f;font-weight:normal">({len(paths)})</span></h2>')
+        body_parts.append('    <ul style="list-style:none;padding-left:0;margin:8px 0 0 0;font-size:12px;line-height:1.7">')
+        for path in paths:
+            label_text = path.strip("/") or "home"
+            body_parts.append(f'      <li><a href="{path}" style="color:#000;text-decoration:underline">{label_text}</a></li>')
+        body_parts.append('    </ul>')
+        total += len(paths)
+
+    body_parts.append(f'    <div style="margin-top:24px;font-size:10px;color:#7a6e5f">{total} pages total. last updated {datetime.now().strftime("%Y-%m-%d")}.</div>')
+
+    body = "\n".join(body_parts)
+    html = page_shell(
+        title="sitemap — dollar bets",
+        description="Every page on dollarbets.lol. The full table of contents.",
+        body=body,
+        canonical="/sitemap/",
+    )
+    write_page("sitemap/index.html", html)
+
+
 def generate_robots_txt():
     """Generate robots.txt with sitemap reference."""
     txt = f"""User-agent: *
@@ -3134,7 +3230,13 @@ def main():
             if entry not in sitemap_pages:
                 sitemap_pages.append(entry)
 
+    # Include the HTML sitemap itself in the XML sitemap so it's indexable.
+    sitemap_entry = ("/sitemap/", 0.3)
+    if sitemap_entry not in sitemap_pages:
+        sitemap_pages.append(sitemap_entry)
+
     generate_sitemap(sitemap_pages)
+    generate_html_sitemap(sitemap_pages)
     generate_robots_txt()
 
     # Note: referral URL handling is now managed by /go/ serverless redirect
