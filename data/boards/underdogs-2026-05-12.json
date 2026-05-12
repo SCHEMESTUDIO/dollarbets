@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T07:02:10.947716+00:00",
+  "generated_at": "2026-05-12T08:15:16.871852+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -17,10 +17,10 @@
   "board": [
     {
       "ticker": "SB-A0D5F318",
-      "title": "Giants pull off the upset in LA tonight",
+      "title": "Giants pull the upset in Dodger Stadium tonight",
       "payout": 3.4,
       "tier": "yellow",
-      "quip": "every Dodger Stadium pilgrimage has one bad night",
+      "quip": "David brought a sling to Chavez Ravine",
       "yes_price": "0.29",
       "category": "MLB",
       "platform": "betmgm",
@@ -37,10 +37,10 @@
     },
     {
       "ticker": "SB-DB10508F",
-      "title": "Timberwolves upset the Spurs tonight",
+      "title": "Timberwolves beat the Spurs in San Antonio tonight",
       "payout": 4.2,
       "tier": "yellow",
-      "quip": "Wembanyama can't carry a whole building by himself yet",
+      "quip": "Wembanyama is incredible and also 21 years old in April",
       "yes_price": "0.24",
       "category": "NBA",
       "platform": "draftkings",
@@ -57,10 +57,10 @@
     },
     {
       "ticker": "SB-E5AAE8AA",
-      "title": "Lins pulls the upset over Ngannou tonight",
+      "title": "Lins pulls off the upset of the century vs Ngannou tonight",
       "payout": 8.5,
       "tier": "orange",
-      "quip": "The Predator has been knocked out before \u2014 ask Ciryl Gane",
+      "quip": "The Predator has never looked mortal \u2014 until someone does",
       "yes_price": "0.12",
       "category": "MMA",
       "platform": "betonlineag",
@@ -77,10 +77,10 @@
     },
     {
       "ticker": "SB-383086C1",
-      "title": "Cross shocks Parnasse in the cage tonight",
+      "title": "Cross shocks Parnasse in Paris tonight",
       "payout": 9.0,
       "tier": "orange",
-      "quip": "Salahdine is undefeated but so was Caesar",
+      "quip": "Nobody tell the Eiffel Tower",
       "yes_price": "0.11",
       "category": "MMA",
       "platform": "betonlineag",
@@ -97,10 +97,10 @@
     },
     {
       "ticker": "SB-D461C4D6",
-      "title": "Crystal Palace stun Man City at the Etihad",
-      "payout": 15.0,
+      "title": "Crystal Palace stun Man City at the Etihad tonight",
+      "payout": 14.0,
       "tier": "orange",
-      "quip": "Guardiola's looking at a squad held together with Pritt Stick",
+      "quip": "Guardiola's pressed linen suit does not deserve this",
       "yes_price": "0.07",
       "category": "EPL",
       "platform": "betrivers",
@@ -111,8 +111,8 @@
       "sport_display": "EPL",
       "matchup": "Crystal Palace @ Manchester City",
       "market_type": "h2h",
-      "american_odds": 1400,
-      "implied_probability": 0.067,
+      "american_odds": 1300,
+      "implied_probability": 0.071,
       "has_deep_link": true
     }
   ]
