@@ -502,5 +502,59 @@
     "tier": "red",
     "original_quip": "we didn't start the fire, but someone's definitely holding a garden hose",
     "editor_quip": "we did start the fire and we're burning refineries and bridges until the world stops turning"
+  },
+  {
+    "date": "2026-05-12",
+    "title": "Ethereum dips to $2,200 this week",
+    "category": "Crypto",
+    "payout": 2.44,
+    "tier": "green",
+    "original_quip": "probably gravy",
+    "editor_quip": "she's let me down before, she's probably going to do it again"
+  },
+  {
+    "date": "2026-05-12",
+    "title": "Baidu leads AI by end of May 2026",
+    "category": "Science and Technology",
+    "payout": 2.82,
+    "tier": "green",
+    "original_quip": "rooting for the underdog like it's 2008 Olympics",
+    "editor_quip": "like watching a 5' 2\" middle-schooler sink a deep 3 at the buzzer"
+  },
+  {
+    "date": "2026-05-12",
+    "title": "Mike Lindell wins Minnesota GOP governor primary",
+    "category": "World",
+    "payout": 7.41,
+    "tier": "orange",
+    "original_quip": "in other news: MyPillow pivoting to campaign finance",
+    "editor_quip": "MyPillow pivoting to campaign finance"
+  },
+  {
+    "date": "2026-05-12",
+    "title": "Lamine Yamal leaves Barcelona before 2027",
+    "category": "Sports",
+    "payout": 10,
+    "tier": "orange",
+    "original_quip": "leaving on a jet plane > leaving Camp Nou",
+    "editor_quip": "Man City offering dedicated little person entertainment stipend "
+  },
+  {
+    "date": "2026-05-12",
+    "title": "Zubimendi leads Champions League yellow cards",
+    "category": "Other",
+    "payout": 38.46,
+    "tier": "red",
+    "original_quip": "in other news: Fabinho placed atop Mount Olympus",
+    "editor_quip": "the man needs 2 more and he has one game. Here we go! "
+  },
+  {
+    "date": "2026-05-12",
+    "title": "Croatia wins Eurovision Semi-Final 1",
+    "category": "Other",
+    "payout": 74.07,
+    "tier": "purple",
+    "original_quip": "Baby Lasagna has left the building",
+    "editor_quip": "Baby Lasagna, the newest addition to the kids menu at Olive Garden "
   }
 ]
