@@ -2,6 +2,14 @@
   "buildCommand": "bash build.sh",
   "outputDirectory": "public",
   "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "dollarbets.lol" }],
+      "destination": "https://www.dollarbets.lol/$1",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     { "source": "/api/login", "destination": "/api/login.py" },
     { "source": "/api/board", "destination": "/api/board.py" },
