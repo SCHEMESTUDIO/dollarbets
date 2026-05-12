@@ -13,14 +13,14 @@
       "subtitle": "",
       "payout": 2.44,
       "tier": "green",
-      "quip": "probably gravy",
+      "quip": "she's let me down before, she's probably going to do it again",
       "yes_price": "0.4100",
       "volume": 9900.693494,
       "category": "Crypto",
       "close_time": "2026-05-18T04:00:00Z",
       "url": "https://polymarket.com/event/what-price-will-ethereum-hit-may-11-17",
       "platform": "polymarket",
-      "score": 30.0
+      "score": 30
     },
     {
       "ticker": "0xdd1c5c73140f0e2c4421ce87768749283ccf47ef162ae01a63614ebfc8c426d5",
@@ -28,71 +28,71 @@
       "subtitle": "",
       "payout": 2.82,
       "tier": "green",
-      "quip": "rooting for the underdog like it's 2008 Olympics",
+      "quip": "like watching a 5' 2\" middle-schooler sink a deep 3 at the buzzer",
       "yes_price": "0.3550",
       "volume": 8069.417232999998,
       "category": "Science and Technology",
       "close_time": "2026-05-31T00:00:00Z",
       "url": "https://polymarket.com/event/best-chinese-ai-company-end-of-may",
       "platform": "polymarket",
-      "score": 38.0
+      "score": 38
     },
     {
       "ticker": "0xf7b5491e70b477d451afe7d9c1fde4bf1a927e69ff289d294b96df164f6c10f0",
-      "title": "Hurricanes win the Stanley Cup",
+      "title": "Hurricanes beat Avalanches to win the Stanley Cup",
       "subtitle": "",
       "payout": 2.82,
       "tier": "green",
-      "quip": "Crazier things have happened",
+      "quip": "A literal natural disaster of a cup. ",
       "yes_price": "0.3550",
       "volume": 923249.4515940085,
       "category": "Climate and Weather",
       "close_time": "2026-06-30T00:00:00Z",
       "url": "https://polymarket.com/event/2026-nhl-stanley-cup-champion",
       "platform": "polymarket",
-      "score": 48.0
+      "score": 48
     },
     {
       "ticker": "KXGRAMMYNOMROTY-69-SOE",
-      "title": "Record of the Year nominees announced",
+      "title": "Which song will win the Grammy for Record of the Year?",
       "subtitle": "2027",
       "payout": 4.35,
       "tier": "yellow",
-      "quip": "tracklist in a Notes app screenshot in 3...2...1...",
+      "quip": "Choosing Texas is So Easy I Just Might.",
       "yes_price": "0.2300",
       "volume": 599.24,
       "category": "Entertainment",
       "close_time": "2027-11-01T15:00:00Z",
       "url": "https://kalshi.com/markets/KXGRAMMYNOMROTY?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 97.0
+      "score": 97
     },
     {
       "ticker": "KXOSCARNOMSPLAY-27-FOR",
-      "title": "Best Original Screenplay Oscar noms revealed",
+      "title": "Which film will win best Original screenplay at the Oscars?",
       "subtitle": "In 2027",
       "payout": 4.35,
       "tier": "yellow",
-      "quip": "the third act is a slow burn",
+      "quip": "any spontaneous musical number is an immediate +3 ",
       "yes_price": "0.2300",
-      "volume": 46.0,
+      "volume": 46,
       "category": "Entertainment",
       "close_time": "2027-12-31T15:00:00Z",
       "url": "https://kalshi.com/markets/KXOSCARNOMSPLAY?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 76.0
+      "score": 76
     },
     {
       "ticker": "KXBUNDESLIGA1H-26MAY16LEVHSV-HSV",
-      "title": "Hamburg wins the first half tonight",
+      "title": "Union Berlin vs Augsburg: one team scores first half winner ",
       "subtitle": "LEV vs HSV (May 16)",
       "payout": 6.25,
       "tier": "yellow",
-      "quip": "short the clean sheet",
+      "quip": "these sheets staying as clean as your college dorm room",
       "yes_price": "0.1600",
-      "volume": 0.0,
+      "volume": 0,
       "category": "Sports",
       "close_time": "2026-05-30T13:30:00Z",
       "url": "https://kalshi.com/markets/KXBUNDESLIGA1H?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 57.0
+      "score": 57
     },
     {
       "ticker": "0xbbd623c4191ca76dec466507375d6df85b403b7e14f9cbd3d09f2c450ae0cd96",
@@ -100,28 +100,28 @@
       "subtitle": "",
       "payout": 7.41,
       "tier": "orange",
-      "quip": "in other news: MyPillow pivoting to campaign finance",
+      "quip": "MyPillow pivoting to campaign finance",
       "yes_price": "0.1350",
       "volume": 88252.24232900004,
       "category": "World",
       "close_time": "2026-08-11T00:00:00Z",
       "url": "https://polymarket.com/event/minnesota-governor-republican-primary-winner",
       "platform": "polymarket",
-      "score": 55.0
+      "score": 55
     },
     {
       "ticker": "KXLAMINEYAMAL-27-LYAM",
       "title": "Lamine Yamal leaves Barcelona before 2027",
       "subtitle": "Before Jan 1, 2027",
-      "payout": 10.0,
+      "payout": 10,
       "tier": "orange",
-      "quip": "leaving on a jet plane > leaving Camp Nou",
+      "quip": "Man City offering dedicated little person entertainment stipend ",
       "yes_price": "0.1000",
-      "volume": 2733.0,
+      "volume": 2733,
       "category": "Sports",
       "close_time": "2027-01-08T15:00:00Z",
       "url": "https://kalshi.com/markets/KXLAMINEYAMAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 106.0
+      "score": 106
     },
     {
       "ticker": "0x2113f0677a4d53aae64f0151746af96aea06a7f6320f4f184ee5da5ca301a43f",
@@ -129,14 +129,14 @@
       "subtitle": "",
       "payout": 38.46,
       "tier": "red",
-      "quip": "in other news: Fabinho placed atop Mount Olympus",
+      "quip": "the man needs 2 more and he has one game. Here we go! ",
       "yes_price": "0.0260",
       "volume": 79687.73198000006,
       "category": "Other",
       "close_time": "2026-05-31T00:00:00Z",
       "url": "https://polymarket.com/event/uefa-champions-league-most-yellow-cards",
       "platform": "polymarket",
-      "score": 43.0
+      "score": 43
     },
     {
       "ticker": "0x04825e6e07178cc91a7b5c9a2d5e883b531b827619358e87ea161043105c5952",
@@ -144,14 +144,14 @@
       "subtitle": "",
       "payout": 74.07,
       "tier": "purple",
-      "quip": "Baby Lasagna has left the building",
+      "quip": "Baby Lasagna, the newest addition to the kids menu at Olive Garden ",
       "yes_price": "0.0135",
       "volume": 7964.866246999999,
       "category": "Other",
       "close_time": "2026-05-12T00:00:00Z",
       "url": "https://polymarket.com/event/eurovision-2026-first-semi-final-winner",
       "platform": "polymarket",
-      "score": 58.0
+      "score": 58
     }
   ]
 }
