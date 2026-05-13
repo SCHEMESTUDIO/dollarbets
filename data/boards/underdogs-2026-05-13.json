@@ -1,13 +1,12 @@
 {
-  "generated_at": "2026-05-13T08:20:44.135918+00:00",
+  "generated_at": "2026-05-13T08:55:28.376777+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
   "source": "odds_api",
   "tier_mix": {
     "yellow": 2,
-    "orange": 2,
-    "red": 1
+    "orange": 3
   },
   "sport_mix": {
     "MLB": 1,
@@ -18,10 +17,10 @@
   "board": [
     {
       "ticker": "SB-EA627D71",
-      "title": "Giants pull the upset in Chavez Ravine tonight",
+      "title": "Giants upset the Dodgers in LA tonight",
       "payout": 3.05,
       "tier": "yellow",
-      "quip": "even the Dodgers have to lose in front of their celebrity section sometimes",
+      "quip": "even the best villain loses one to the neighbors",
       "yes_price": "0.33",
       "category": "MLB",
       "platform": "fanduel",
@@ -38,10 +37,10 @@
     },
     {
       "ticker": "SB-77D906AF",
-      "title": "NYCFC upset Charlotte on the road tonight",
+      "title": "NYCFC steal three points from Charlotte tonight",
       "payout": 3.05,
       "tier": "yellow",
-      "quip": "Yankee confidence in a city that runs on sweet tea",
+      "quip": "The Statue of Liberty has seen bigger upsets",
       "yes_price": "0.33",
       "category": "MLS",
       "platform": "draftkings",
@@ -58,10 +57,10 @@
     },
     {
       "ticker": "SB-E5AAE8AA",
-      "title": "Lins knocks out Ngannou in massive upset",
+      "title": "Lins knocks out Ngannou in stunning upset",
       "payout": 8.5,
       "tier": "orange",
-      "quip": "Ngannou survived Tyson Fury, but has he seen Lins on a Tuesday",
+      "quip": "Nobody tell the Wilder camp this is possible",
       "yes_price": "0.12",
       "category": "MMA",
       "platform": "betonlineag",
@@ -78,10 +77,10 @@
     },
     {
       "ticker": "SB-2408D28F",
-      "title": "Tague shocks Khamzaev tonight",
+      "title": "Tague shocks Khamzaev on the mat tonight",
       "payout": 9.0,
       "tier": "orange",
-      "quip": "the Miracle on Ice had worse odds and we remember that one",
+      "quip": "Khamzaev's highlight reel takes the night off",
       "yes_price": "0.11",
       "category": "MMA",
       "platform": "betonlineag",
@@ -98,22 +97,22 @@
     },
     {
       "ticker": "SB-D461C4D6",
-      "title": "Crystal Palace stun Man City at the Etihad",
-      "payout": 18.0,
-      "tier": "red",
-      "quip": "Guardiola's worst nightmares are always from South London",
-      "yes_price": "0.06",
+      "title": "Crystal Palace slay Man City at the Etihad",
+      "payout": 14.0,
+      "tier": "orange",
+      "quip": "Selhurst Park energy in enemy territory",
+      "yes_price": "0.07",
       "category": "EPL",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027486421?coupon={pickType}|4170034375|{wagerAmount}",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.575749900&selectionId=62523",
       "close_time": "2026-05-13T19:00:00Z",
       "sport": "soccer_epl",
       "sport_display": "EPL",
       "matchup": "Crystal Palace @ Manchester City",
       "market_type": "h2h",
-      "american_odds": 1700,
-      "implied_probability": 0.056,
+      "american_odds": 1300,
+      "implied_probability": 0.071,
       "has_deep_link": true
     }
   ]
