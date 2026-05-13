@@ -10,3 +10,8 @@ markets.json
 !public/apple-touch-icon.png
 !public/android-chrome-*
 sports_stderr.log
+# Local dev settings — may contain accidentally-captured secrets in Bash allowlist entries
+.claude/settings.local.json
+.env
+.env.*
+!.env.example

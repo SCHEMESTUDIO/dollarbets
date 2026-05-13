@@ -7,6 +7,11 @@
     "meta_description": "Terms of use for Dollar Bets. What the site is, what it isn't, and your responsibilities as a visitor.",
     "canonical": "/terms/"
   },
+  "author": {
+    "name": "Dollar Bets",
+    "role": "",
+    "url": "/about/"
+  },
   "hero_bet": null,
   "internal_links": [
     {"text": "privacy policy", "url": "/privacy/"},
@@ -97,7 +102,7 @@
     },
     {
       "type": "text",
-      "content": "For corrections, compliance inquiries, affiliate or partnership questions, takedown requests, or general questions: <a href='mailto:james.lamon@gmail.com'>james.lamon@gmail.com</a>."
+      "content": "For corrections, compliance inquiries, affiliate or partnership questions, takedown requests, or general questions: <a href='mailto:hello@dollarbets.lol'>hello@dollarbets.lol</a>."
     }
   ],
   "compliance": "These terms are a good-faith outline, not formal legal advice. Marked for legal review.",

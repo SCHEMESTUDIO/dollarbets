@@ -8,6 +8,7 @@ Example: /go/KXGROK → resolves to best Kalshi/Polymarket/etc URL → 302 redir
 Vercel Python serverless function using BaseHTTPRequestHandler.
 """
 
+import html
 import json
 import os
 import re
@@ -15,6 +16,59 @@ import glob
 import urllib.request
 from http.server import BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
+
+
+# ── Input validation ──────────────────────────────────────────
+# Market IDs may only contain letters, digits, hyphens, underscores, and dots.
+# This prevents path-traversal, header-splitting, and reflected-XSS attacks via
+# the /go/<slug>/ rewrite — even though Vercel's rewrite is fairly strict, the
+# slug still reaches Python URL-decoded. Length cap is generous but bounded.
+_MARKET_ID_RE = re.compile(r"^[A-Za-z0-9_.\-]{1,80}$")
+
+
+def _is_valid_market_id(value):
+    """True if value looks like a real ticker slug (no whitespace, no scheme)."""
+    return bool(value) and bool(_MARKET_ID_RE.fullmatch(value))
+
+
+# Destination-domain allowlist — any redirect Location must resolve to one of
+# these hosts. Protects against open-redirect if a poisoned board JSON ever
+# slips through the CMS without URL validation.
+_ALLOWED_REDIRECT_HOSTS = {
+    "kalshi.com", "www.kalshi.com",
+    "polymarket.com", "www.polymarket.com",
+    "coinbase.com", "www.coinbase.com",
+    "sportsbook.fanduel.com",
+    "draftkings.com", "www.draftkings.com", "sportsbook.draftkings.com",
+    "sports.betmgm.com",
+    "betmgm.com", "www.betmgm.com",
+    "betrivers.com", "www.betrivers.com",
+    "bovada.lv", "www.bovada.lv",
+    "betonline.ag", "www.betonline.ag",
+}
+
+
+def _is_allowed_destination(url):
+    """True if `url` is https and the host (or its parent) is in the allowlist."""
+    if not url or not isinstance(url, str):
+        return False
+    try:
+        p = urlparse(url)
+    except Exception:
+        return False
+    if p.scheme not in ("https",):
+        return False
+    host = (p.hostname or "").lower()
+    if not host:
+        return False
+    # Exact match
+    if host in _ALLOWED_REDIRECT_HOSTS:
+        return True
+    # Subdomain match: e.g. nj.sportsbook.fanduel.com → sportsbook.fanduel.com
+    for allowed in _ALLOWED_REDIRECT_HOSTS:
+        if host.endswith("." + allowed):
+            return True
+    return False
 
 # Add parent directory to path so we can import link_resolver
 import sys
@@ -306,10 +360,20 @@ def sportsbook_unavailable_html(market_title, book_display, user_state=None,
     # Derive a label from the path for the body link copy
     path_label = back_path.strip("/").replace("-", " ") or "lineup"
 
-    # Optional related-markets escape-hatch block
+    # Escape every dynamic value once. region_label, market_title, book_display,
+    # back_path, and path_label all flow into HTML below. region_label and
+    # market_title in particular originate from board data (market_id is URL-
+    # sourced via find_sports_market lookup but title is data-sourced).
+    safe_region_label = html.escape(str(region_label), quote=True)
+    safe_market_title = html.escape(str(market_title or ""), quote=True)
+    safe_book_display = html.escape(str(book_display or ""), quote=True)
+    safe_back_path = html.escape(str(back_path or "/"), quote=True)
+    safe_path_label = html.escape(str(path_label or "lineup"), quote=True)
+
+    # Optional related-markets escape-hatch block — internal /go/ links only
     if related_markets:
         related_items = "".join(
-            f'<li><a href="{m["href"]}" style="color:#d97c3c">{m["title"]}</a></li>'
+            f'<li><a href="{html.escape(m["href"], quote=True)}" style="color:#d97c3c">{html.escape(m["title"], quote=True)}</a></li>'
             for m in related_markets
         )
         related_block = f"""
@@ -359,13 +423,13 @@ def sportsbook_unavailable_html(market_title, book_display, user_state=None,
 <body>
 <div class="box">
   <h1>sportsbook not available in your {region_noun}</h1>
-  <p><strong>{book_display}</strong> is not available in <strong>{region_label}</strong> for the wager "{market_title}".</p>
+  <p><strong>{safe_book_display}</strong> is not available in <strong>{safe_region_label}</strong> for the wager "{safe_market_title}".</p>
   <div class="warn">
     <p>sportsbook availability varies by {region_noun}. dollar bets does not control which {region_plural} are supported.</p>
   </div>
   {related_block}
-  <p>check the <a href="{back_path}" style="color:#d97c3c">{path_label} board</a> for other wagers, or other boards for different sportsbooks.</p>
-  <a class="back" href="{back_path}">back to {path_label}</a>
+  <p>check the <a href="{safe_back_path}" style="color:#d97c3c">{safe_path_label} board</a> for other wagers, or other boards for different sportsbooks.</p>
+  <a class="back" href="{safe_back_path}">back to {safe_path_label}</a>
   <p class="fine">dollar bets is an editorial site. we do not operate sportsbooks or verify user eligibility.</p>
 </div>
 </body>
@@ -426,27 +490,31 @@ def unavailable_html(market_id, platform_display, user_country, partner_config,
 
     `related_markets` is an optional list of {"title", "href"} dicts shown as
     escape-hatch links so the page isn't a dead end. Pass None to omit.
+
+    All dynamic values are HTML-escaped before interpolation.
     """
-    user_location = _country_name(user_country)
+    user_location = html.escape(_country_name(user_country), quote=True)
+    safe_platform = html.escape(str(platform_display or ""), quote=True)
 
     # Build blocked region description
     blocked = partner_config.get("blocked_countries", [])
     allowed = partner_config.get("allowed_countries", "all")
+    safe_availability = html.escape(_describe_availability(partner_config), quote=True)
 
     if isinstance(allowed, list):
         # Allowlist model — user isn't on the list
-        reason_html = f"<strong>{platform_display}</strong> is only available in: <strong>{_describe_availability(partner_config)}</strong>."
+        reason_html = f"<strong>{safe_platform}</strong> is only available in: <strong>{safe_availability}</strong>."
     elif user_country and user_country.upper() in blocked:
-        reason_html = f"<strong>{platform_display}</strong> is not available in <strong>{user_location}</strong>."
+        reason_html = f"<strong>{safe_platform}</strong> is not available in <strong>{user_location}</strong>."
     else:
-        reason_html = f"<strong>{platform_display}</strong> is not available in your region."
+        reason_html = f"<strong>{safe_platform}</strong> is not available in your region."
 
-    available_html = _describe_availability(partner_config)
+    available_html = safe_availability
 
-    # Optional related-markets escape-hatch block
+    # Optional related-markets escape-hatch block — internal /go/ links only
     if related_markets:
         related_items = "".join(
-            f'<li><a href="{m["href"]}" style="color:#d97c3c">{m["title"]}</a></li>'
+            f'<li><a href="{html.escape(m["href"], quote=True)}" style="color:#d97c3c">{html.escape(m["title"], quote=True)}</a></li>'
             for m in related_markets
         )
         related_block_html = f"""
@@ -502,10 +570,10 @@ def unavailable_html(market_id, platform_display, user_country, partner_config,
   <h1>market not available in your region</h1>
   <p>you appear to be located in <strong>{user_location}</strong>. {reason_html}</p>
   <div class="warn">
-    <p>dollar bets does not control platform availability. this restriction is set by {platform_display}, not by us.</p>
+    <p>dollar bets does not control platform availability. this restriction is set by {safe_platform}, not by us.</p>
   </div>
   <div class="available">
-    <strong>{platform_display}</strong> is available in: {available_html}
+    <strong>{safe_platform}</strong> is available in: {available_html}
   </div>
   {related_block_html}
   <p>other markets on the <a href="/" style="color:#d97c3c">homepage</a> may be available near you.</p>
@@ -517,7 +585,19 @@ def unavailable_html(market_id, platform_display, user_country, partner_config,
 
 
 def interstitial_html(platform_name, destination_url, market_id):
-    """Generate a jurisdiction warning interstitial page."""
+    """Generate a jurisdiction warning interstitial page.
+
+    All dynamic values are HTML-escaped so an attacker can't inject markup via
+    crafted /go/ paths or poisoned board data. The outbound link carries
+    rel="nofollow sponsored noopener noreferrer" — required for affiliate
+    compliance and to strip the Referer header on the third-party hop.
+    """
+    safe_platform = html.escape(str(platform_name or ""), quote=True)
+    safe_market_id = html.escape(str(market_id or ""), quote=True)
+    # destination_url is placed inside an href attribute — escape with quote=True
+    # so embedded quotes can't break out. Scheme is already restricted to https
+    # by _is_allowed_destination before we get here.
+    safe_destination = html.escape(str(destination_url or ""), quote=True)
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -554,12 +634,12 @@ def interstitial_html(platform_name, destination_url, market_id):
 <body>
 <div class="box">
   <h1>you are leaving dollar bets</h1>
-  <p>you are about to visit <strong>{platform_name}</strong> to view market <strong>{market_id}</strong>.</p>
+  <p>you are about to visit <strong>{safe_platform}</strong> to view market <strong>{safe_market_id}</strong>.</p>
   <div class="warn">
     <p>availability depends on your location. confirm you are in an eligible jurisdiction before continuing. dollar bets does not verify your eligibility.</p>
   </div>
-  <p>dollar bets is an editorial site. we are not affiliated with, endorsed by, or acting as an agent of {platform_name}.</p>
-  <a class="go" href="{destination_url}">continue to {platform_name}</a>
+  <p>dollar bets is an editorial site. we are not affiliated with, endorsed by, or acting as an agent of {safe_platform}.</p>
+  <a class="go" href="{safe_destination}" target="_blank" rel="nofollow sponsored noopener noreferrer">continue to {safe_platform}</a>
   <a class="back" href="/">go back</a>
   <p class="fine">by clicking continue you acknowledge that you are solely responsible for complying with the laws and regulations of your jurisdiction.</p>
 </div>
@@ -668,6 +748,22 @@ class handler(BaseHTTPRequestHandler):
             self.end_headers()
             return
 
+        # Reject anything that doesn't look like a ticker slug. This is the
+        # main defense against reflected XSS, header injection, and path
+        # traversal via the /go/<slug>/ rewrite — the slug reaches Python
+        # URL-decoded by parse_qs, so we re-validate the shape here.
+        if not _is_valid_market_id(market_id):
+            self.send_response(302)
+            self.send_header("Location", "/")
+            self.send_header("Cache-Control", "no-cache")
+            self.end_headers()
+            return
+
+        # requested_platform may also be reflected into HTML / consulted in
+        # lookups — keep it strict.
+        if requested_platform and not re.fullmatch(r"[a-z0-9_\-]{1,32}", requested_platform):
+            requested_platform = None
+
         # ── Sportsbook routing (SB- prefix) ──────────────────
         if market_id.startswith("SB-"):
             # Search across every sport board file (sports/underdogs/ocho/chalk/combo)
@@ -754,13 +850,23 @@ class handler(BaseHTTPRequestHandler):
                 # If we have no region info, let DraftKings handle it
                 # (their region detector will redirect or block as needed).
 
+            # Refuse to interstitial any URL that escapes the allowlist —
+            # protects against a poisoned board JSON pointing at an arbitrary
+            # third-party host.
+            if not _is_allowed_destination(url):
+                self.send_response(302)
+                self.send_header("Location", "/the-lineup/")
+                self.send_header("Cache-Control", "no-cache")
+                self.end_headers()
+                return
+
             # Serve interstitial before redirecting to sportsbook
-            html = interstitial_html(book_display, url, title)
+            html_body = interstitial_html(book_display, url, title)
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
             self.send_header("Cache-Control", "no-cache")
             self.end_headers()
-            self.wfile.write(html.encode("utf-8"))
+            self.wfile.write(html_body.encode("utf-8"))
             return
 
         # ── Parlay routing (PARLAY- prefix) ──────────────────
@@ -816,12 +922,19 @@ class handler(BaseHTTPRequestHandler):
                     return
                 url = resolved
 
-            html = interstitial_html(book_display, url, title)
+            if not _is_allowed_destination(url):
+                self.send_response(302)
+                self.send_header("Location", "/combo-meal/")
+                self.send_header("Cache-Control", "no-cache")
+                self.end_headers()
+                return
+
+            html_body = interstitial_html(book_display, url, title)
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
             self.send_header("Cache-Control", "no-cache")
             self.end_headers()
-            self.wfile.write(html.encode("utf-8"))
+            self.wfile.write(html_body.encode("utf-8"))
             return
 
         # ── Prediction market routing (KX/0x prefix) ─────────
@@ -883,6 +996,15 @@ class handler(BaseHTTPRequestHandler):
                     if affiliate_id:
                         sep = "&" if "?" in url else "?"
                         url = f"{url}{sep}{param_name}={affiliate_id}"
+                    # market_id was already shape-validated above, but the
+                    # partner base_url could in principle have drifted. Gate
+                    # the final URL on the allowlist before redirecting.
+                    if not _is_allowed_destination(url):
+                        self.send_response(302)
+                        self.send_header("Location", "/")
+                        self.send_header("Cache-Control", "no-cache")
+                        self.end_headers()
+                        return
                     self.send_response(302)
                     self.send_header("Location", url)
                     self.send_header("Cache-Control", "no-cache")
@@ -960,9 +1082,19 @@ class handler(BaseHTTPRequestHandler):
         display_names.update(SPORTSBOOK_DISPLAY_NAMES)
         display_name = display_names.get(platform_name, platform_name)
 
-        html = interstitial_html(display_name, result["destination_url"], market_id)
+        dest = result["destination_url"]
+        if not _is_allowed_destination(dest):
+            # Destination escapes the allowlist (e.g. poisoned board data).
+            # Refuse to interstitial — bounce the user home instead.
+            self.send_response(302)
+            self.send_header("Location", "/")
+            self.send_header("Cache-Control", "no-cache")
+            self.end_headers()
+            return
+
+        html_body = interstitial_html(display_name, dest, market_id)
         self.send_response(200)
         self.send_header("Content-Type", "text/html; charset=utf-8")
         self.send_header("Cache-Control", "no-cache")
         self.end_headers()
-        self.wfile.write(html.encode("utf-8"))
+        self.wfile.write(html_body.encode("utf-8"))

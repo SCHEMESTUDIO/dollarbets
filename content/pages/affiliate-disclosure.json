@@ -7,6 +7,11 @@
     "meta_description": "How Dollar Bets may earn money. Affiliate links, compensation, and what it does and does not affect.",
     "canonical": "/affiliate-disclosure/"
   },
+  "author": {
+    "name": "Dollar Bets",
+    "role": "",
+    "url": "/about/"
+  },
   "hero_bet": null,
   "internal_links": [
     {"text": "about Dollar Bets", "url": "/about/"},

@@ -61,8 +61,21 @@ def analytics_head():
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){{dataLayer.push(arguments);}}
+    // Google Consent Mode v2 defaults — explicitly deny everything we don't use.
+    // Dollar Bets does not serve ads, so ad_* consents stay denied permanently.
+    // analytics_storage stays granted because measurement is the only purpose;
+    // EU/UK visitors should ideally see a consent banner before this — see
+    // /privacy/ cookie policy and audit follow-ups.
+    gtag('consent', 'default', {{
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      analytics_storage: 'granted',
+      functionality_storage: 'granted',
+      security_storage: 'granted'
+    }});
     gtag('js', new Date());
-    gtag('config', '{GA4_ID}');
+    gtag('config', '{GA4_ID}', {{ anonymize_ip: true }});
     // Track all outbound affiliate clicks with rich dimensions
     document.addEventListener('click', function(e) {{
       var link = e.target.closest('a[href^="/go/"]');
@@ -849,7 +862,7 @@ def footer_info_nav():
         ("/privacy/", "privacy"),
         ("/terms/", "terms"),
         ("/sitemap/", "sitemap"),
-        ("mailto:james.lamon@gmail.com", "contact"),
+        ("mailto:hello@dollarbets.lol", "contact"),
     ]
     items = " &middot;\n        ".join(f'<a href="{h}">{l}</a>' for h, l in links)
     return f'    <div class="footer-info-nav">\n        {items}\n    </div>\n'
@@ -2506,7 +2519,7 @@ def generate_about_page():
 
       <p style="font-weight:700; margin-top:16px">contact us</p>
 
-      <p><a href="mailto:james.lamon@gmail.com" style="color:#6b5744">james.lamon@gmail.com</a></p>
+      <p><a href="mailto:hello@dollarbets.lol" style="color:#6b5744">hello@dollarbets.lol</a></p>
 
       <p style="margin-top:12px"><a href="/editorial-policy/" style="color:#6b5744">editorial policy</a> · <a href="/affiliate-disclosure/" style="color:#6b5744">affiliate disclosure</a> · <a href="/responsible-gambling/" style="color:#6b5744">responsible gambling</a></p>
     </div>
@@ -2530,7 +2543,7 @@ def generate_about_page():
     ],
     "contactPoint": {{
       "@type": "ContactPoint",
-      "email": "james.lamon@gmail.com",
+      "email": "hello@dollarbets.lol",
       "contactType": "customer support"
     }},
     "founder": {{

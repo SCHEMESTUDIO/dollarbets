@@ -7,6 +7,11 @@
     "meta_description": "How Dollar Bets handles visitor data, analytics, cookies, and third-party links.",
     "canonical": "/privacy/"
   },
+  "author": {
+    "name": "Dollar Bets",
+    "role": "",
+    "url": "/about/"
+  },
   "hero_bet": null,
   "internal_links": [
     {"text": "about Dollar Bets", "url": "/about/"},
@@ -40,7 +45,7 @@
     },
     {
       "type": "text",
-      "content": "Dollar Bets uses cookies through Google Analytics and may use cookies through affiliate tracking when you click links to third-party platforms. These cookies help us understand site traffic and attribute affiliate referrals. We do not sell personal data."
+      "content": "Dollar Bets uses cookies through Google Analytics (GA4) for site measurement. We use Google Consent Mode v2 with advertising consents (ad_storage, ad_user_data, ad_personalization) denied by default — we do not run ads and do not share data with ad networks. Analytics cookies (_ga, _ga_*) are used to count visitors and understand traffic patterns; these typically expire within 2 years. Affiliate platforms may set their own cookies on their domains after you click through; that activity is governed by their privacy policies, not ours. We do not sell personal data. If you are in the EU/UK and would prefer that analytics not run, you can block cookies in your browser or use a privacy-respecting browser extension; a site-level consent banner is on our roadmap."
     },
     {
       "type": "heading",
@@ -56,7 +61,7 @@
     },
     {
       "type": "text",
-      "content": "Depending on your location, you may have rights regarding your personal data, including the right to access, correct, or delete information. For any privacy-related requests, contact <a href='mailto:james.lamon@gmail.com'>james.lamon@gmail.com</a>."
+      "content": "Depending on your location, you may have rights regarding your personal data, including the right to access, correct, or delete information. For any privacy-related requests, contact <a href='mailto:hello@dollarbets.lol'>hello@dollarbets.lol</a>."
     },
     {
       "type": "heading",

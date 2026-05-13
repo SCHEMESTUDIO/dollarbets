@@ -666,7 +666,7 @@ def generate_llms_txt(pages):
         f"## Last updated: {today}",
         "",
         f"Sitemap: {SITE_URL}/sitemap.xml",
-        f"Contact: james.lamon@gmail.com",
+        f"Contact: hello@dollarbets.lol",
     ])
 
     content = "\n".join(lines) + "\n"
