@@ -523,27 +523,33 @@ def scan_parlays(sports=None, dry_run=False):
         parlays = []
     print(f"[parlay] Built {len(parlays)} parlays", file=sys.stderr)
 
-    # Format for board — per-parlay try/except so one bad parlay doesn't drop
-    # the rest. The known footgun is format_parlay_for_board's american_odds
-    # divide-by-zero when payout == 1.0 exactly; less obvious shapes from new
-    # market types (player_props, alt lines) are the other likely failure mode.
+    # Format for board — wrap the entire per-parlay block (format + debug print)
+    # in one try/except so any failure on a single parlay drops only that one,
+    # not the whole scan. Past footguns: divide-by-zero in american_odds when
+    # payout == 1.0, key-shape drift between intermediate parlay dict and card
+    # dict (e.g. has_deep_links vs has_deep_link).
     cards = []
     for i, parlay in enumerate(parlays):
         try:
             card = format_parlay_for_board(parlay, i)
+            cards.append(card)
+            print(f"\n[parlay] Card {i+1}: {card['title']}", file=sys.stderr)
+            print(f"         Payout: $1 → {card['payout']} ({card['tier']})", file=sys.stderr)
+            print(f"         Quip: \"{card['quip']}\"", file=sys.stderr)
+            print(f"         Book: {card['platform_display']}", file=sys.stderr)
+            print(f"         Deep links: {'YES' if card.get('has_deep_link') else 'NO'}", file=sys.stderr)
+            for leg in card.get("legs", []):
+                print(f"         → {leg.get('pick','?')} ({leg.get('matchup','?')}) "
+                      f"[{leg.get('odds','?')}] {leg.get('implied_prob','?')}", file=sys.stderr)
         except Exception as e:
-            print(f"[parlay] WARN: skipping parlay {i} ({parlay.get('bookmaker','?')}, "
+            print(f"[parlay] WARN: dropping parlay {i} ({parlay.get('bookmaker','?')}, "
                   f"{parlay.get('num_legs','?')} legs, payout={parlay.get('payout_per_dollar','?')}): "
                   f"{type(e).__name__}: {e}", file=sys.stderr)
+            # If the card was already appended before the crash, remove it
+            if cards and cards[-1].get("ticker", "").startswith("PARLAY-") and \
+               len(cards) > i:  # defensive: only pop if we just added
+                cards.pop()
             continue
-        cards.append(card)
-        print(f"\n[parlay] Card {i+1}: {card['title']}", file=sys.stderr)
-        print(f"         Payout: $1 → {card['payout']} ({card['tier']})", file=sys.stderr)
-        print(f"         Quip: \"{card['quip']}\"", file=sys.stderr)
-        print(f"         Book: {card['platform_display']}", file=sys.stderr)
-        print(f"         Deep links: {'YES' if card['has_deep_links'] else 'NO'}", file=sys.stderr)
-        for leg in card["legs"]:
-            print(f"         → {leg['pick']} ({leg['matchup']}) [{leg['odds']}] {leg['implied_prob']}", file=sys.stderr)
 
     return cards
 
