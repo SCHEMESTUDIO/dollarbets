@@ -2,11 +2,13 @@ name: Daily Board Scan
 
 on:
   schedule:
-    # Hourly during US peak hours (13:00–04:00 UTC = 8am–11pm ET). 16 runs/day
-    # instead of 24 — ~33% reduction in Odds API token consumption with
-    # negligible data-quality cost (US sports odds barely move overnight).
-    # 13:00 UTC also triggers the daily prediction-market scan (moved from 07:00).
-    - cron: '0 13-23,0-4 * * *'
+    # Every 3 hours during US peak (13/16/19/22 UTC + 01/04 UTC next day).
+    # 6 runs/day, covering 9am ET morning through midnight ET late-night.
+    # ~75% reduction vs hourly. At ~100 Odds tokens/run × 6 runs = ~600/day,
+    # which lands ~13,200 tokens over a 22-day stretch — close to the
+    # remaining budget but with room for the occasional manual workflow_dispatch.
+    # 13:00 UTC also triggers the daily prediction-market scan (Kalshi/Polymarket).
+    - cron: '0 13,16,19,22,1,4 * * *'
   workflow_dispatch: # Allow manual trigger from GitHub UI
 
 env:
