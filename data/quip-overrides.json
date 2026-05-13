@@ -556,5 +556,86 @@
     "tier": "purple",
     "original_quip": "Baby Lasagna has left the building",
     "editor_quip": "Baby Lasagna, the newest addition to the kids menu at Olive Garden "
+  },
+  {
+    "date": "2026-05-13",
+    "title": "Carolina Hurricanes win the 2026 Stanley Cup",
+    "category": "Climate and Weather",
+    "payout": 2.78,
+    "tier": "green",
+    "original_quip": "outrageously plausible",
+    "editor_quip": "your insurance broker's least favorite team"
+  },
+  {
+    "date": "2026-05-13",
+    "title": "US and Iran sign permanent peace deal by June",
+    "category": "Other",
+    "payout": 2.9,
+    "tier": "green",
+    "original_quip": "in other news: the Hatfields and McCoys launch a joint podcast",
+    "editor_quip": "permanent = until we decide it's not anymore"
+  },
+  {
+    "date": "2026-05-13",
+    "title": "These artists land 2026 Grammy Album of the Year nods",
+    "category": "Entertainment",
+    "payout": 3.12,
+    "tier": "yellow",
+    "original_quip": "tracklist in a Notes app screenshot in 3...2...1...",
+    "editor_quip": "The Romantic, Art of Loving, Kiss All The Time... the field is 100% horny."
+  },
+  {
+    "date": "2026-05-13",
+    "title": "Michael Echols wins the Republican nomination for LA-05",
+    "category": "Other",
+    "payout": 4.83,
+    "tier": "yellow",
+    "original_quip": "short the incumbent, long the dark horse",
+    "editor_quip": "in the grate state uh lu-wheez-ee-ann-nah"
+  },
+  {
+    "date": "2026-05-13",
+    "title": "40 ships transit the Strait of Hormuz in a single day",
+    "category": "Science and Technology",
+    "payout": 5.88,
+    "tier": "yellow",
+    "original_quip": "a lot of boats need to be somewhere fast",
+    "editor_quip": "let me catch you up: a lot of boats need to be somewhere fast"
+  },
+  {
+    "date": "2026-05-13",
+    "title": "Lear deBessonet wins Best Direction of a Musical at the Tonys",
+    "category": "Entertainment",
+    "payout": 10,
+    "tier": "orange",
+    "original_quip": "one night only, except it's the whole career",
+    "editor_quip": "truly a name for show biz "
+  },
+  {
+    "date": "2026-05-13",
+    "title": "Trump announces another presidential run before 2027",
+    "category": "World",
+    "payout": 13.7,
+    "tier": "orange",
+    "original_quip": "here we go again \u2014 Whitesnake, probably",
+    "editor_quip": "Ok Go - \"Here It Goes Again\" as performed by the Supreme Court"
+  },
+  {
+    "date": "2026-05-13",
+    "title": "Trump meets Iran diplomats by May 31",
+    "category": "World",
+    "payout": 32.26,
+    "tier": "red",
+    "original_quip": "the Art of the Deal has a very funny next chapter",
+    "editor_quip": "the Art of the Deal, inshallah "
+  },
+  {
+    "date": "2026-05-13",
+    "title": "Bitcoin crashes to $70K this week",
+    "category": "Crypto",
+    "payout": 105.26,
+    "tier": "purple",
+    "original_quip": "number go down version of money printer go brrr",
+    "editor_quip": "computer, load file folder titled \"sad memes\""
   }
 ]
