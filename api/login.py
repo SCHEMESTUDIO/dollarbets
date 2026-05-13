@@ -25,18 +25,20 @@ def make_token(password):
 
 
 def verify_token(token):
-    """Verify the token is valid for today (or yesterday, for timezone grace)."""
+    """Verify the token is valid for the current UTC day.
+
+    Token TTL is one UTC day. Editors must re-authenticate each day. Earlier
+    versions accepted yesterday's token as well for a 48h window — that's now
+    closed because /api/login has no rate limiting, so a captured token
+    shouldn't grant a second day of CMS write access.
+    """
     if not CMS_PASSWORD or not token:
         return False
     today = str(int(time.time()) // 86400)
-    yesterday = str(int(time.time()) // 86400 - 1)
-    for day in [today, yesterday]:
-        expected = hmac.new(
-            CMS_SECRET.encode(), f"{CMS_PASSWORD}:{day}".encode(), hashlib.sha256
-        ).hexdigest()
-        if hmac.compare_digest(token, expected):
-            return True
-    return False
+    expected = hmac.new(
+        CMS_SECRET.encode(), f"{CMS_PASSWORD}:{today}".encode(), hashlib.sha256
+    ).hexdigest()
+    return hmac.compare_digest(token, expected)
 
 
 class handler(BaseHTTPRequestHandler):

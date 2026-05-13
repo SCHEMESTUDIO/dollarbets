@@ -36,20 +36,14 @@ from generate import (
 # ── Author config ─────────────────────────────────────────
 
 DEFAULT_AUTHOR = {
-    "name": "James Lamon",
-    "role": "Founder & Editor, Dollar Bets",
+    "name": "Dollar Bets",
+    "role": "Editorial",
     "url": "/about/",
     "bio": (
-        "James Lamon is the founder and editor of Dollar Bets. "
-        "He spent over a decade building content businesses at scale — "
-        "as EVP Content & Operations at Footballco (GOAL, World Soccer) "
-        "and Head of Content Europe at BuzzFeed, where he ran a portfolio "
-        "of brands across entertainment, food, and travel. He started his "
-        "career as a creative strategist working with brands including "
-        "Sky, Diageo, Google, Samsung, and BMW. "
-        "Dollar Bets is entertainment-first: we frame markets through a $1 lens, "
-        "explain why longshots are unlikely, and encourage readers to treat "
-        "betting as risky entertainment, not income."
+        "Dollar Bets is an editorial discovery layer for prediction markets. "
+        "We frame every market through a $1 lens, explain why longshots are "
+        "unlikely, and encourage readers to treat betting as risky entertainment, "
+        "not income."
     ),
 }
 
@@ -595,11 +589,6 @@ def generate_llms_txt(pages):
         "the most entertaining longshot bets, framed as what a single $1 wager would return.",
         "The board updates daily with 10-30 curated markets across politics, sports, crypto,",
         "weather, culture, and finance.",
-        "",
-        "## Who runs it",
-        "",
-        "Founded by James Lamon, former EVP Content & Operations at Footballco (GOAL,",
-        "World Soccer) and former Head of Content Europe at BuzzFeed.",
         "",
         "## How to cite",
         "",

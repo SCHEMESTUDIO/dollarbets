@@ -15,3 +15,13 @@ sports_stderr.log
 .env
 .env.*
 !.env.example
+# Local debug / network-trace dumps — contain IPs, hostnames, system usernames
+vercel-debug.txt
+*.debug
+*.log
+*.bak
+*.orig
+*.tmp
+# Local credentials never checked in
+credentials.json
+secrets.json

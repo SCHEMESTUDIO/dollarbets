@@ -11,12 +11,36 @@ Reads accumulated daily board JSON files from data/boards/ and generates:
   6. /sitemap.xml    — for Google
 """
 
+import html
 import json
 import os
 import re
 import glob
 from datetime import datetime, timezone, timedelta
 from collections import defaultdict
+
+
+def _e(s):
+    """HTML-escape a value for safe interpolation into element text/attributes.
+
+    Board data (title, quip, category, etc.) comes from external APIs
+    (Kalshi, Polymarket, The Odds API), AI-generated text (Claude quips),
+    and CMS editor input. None of those sources is trusted to be HTML-safe,
+    so every interpolation of dynamic text must be escaped to prevent
+    stored XSS in the rendered static site.
+    """
+    return html.escape("" if s is None else str(s), quote=True)
+
+
+def _json_for_script(value):
+    """json.dumps a value for safe embedding in a <script> block.
+
+    json.dumps does not escape the forward slash in </script>, so a market
+    title containing the literal string </script> would close the script tag
+    and let attacker-controlled content escape into HTML. Replace </ with
+    <\\/ (a JSON-valid escape) to prevent that.
+    """
+    return json.dumps(value, ensure_ascii=False).replace("</", "<\\/")
 
 # ── Config ──────────────────────────────────────────────────
 
@@ -869,10 +893,20 @@ def footer_info_nav():
 
 
 def page_shell(title, description, body, canonical="", noindex=False, current_nav="", extra_head=""):
-    """Wrap body content in the full HTML shell."""
+    """Wrap body content in the full HTML shell.
+
+    `title` and `description` are treated as raw strings (callers pass plain
+    text, not pre-escaped HTML); page_shell HTML-escapes them on the way out
+    so untrusted market titles cannot break the <title> tag or meta content
+    attributes. `body` is assumed to be already-safe HTML produced by other
+    renderers (which do their own escaping at interpolation points).
+    """
     year = datetime.now().year
+    safe_title = _e(title)
+    safe_desc = _e(description)
+    safe_canonical = _e(canonical, ) if canonical else ""
     noindex_tag = '<meta name="robots" content="noindex, follow">' if noindex else ""
-    canonical_tag = f'<link rel="canonical" href="{SITE_URL}{canonical}">' if canonical else ""
+    canonical_tag = f'<link rel="canonical" href="{SITE_URL}{safe_canonical}">' if canonical else ""
 
     # Homepage is the only page that needs Dollar Bets as its semantic h1.
     # Every other page has its own <h1 class="page-title">; on those pages
@@ -890,22 +924,22 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{title}</title>
-  <meta name="description" content="{description}">
+  <title>{safe_title}</title>
+  <meta name="description" content="{safe_desc}">
   {noindex_tag}
   {canonical_tag}
-  <meta property="og:title" content="{title}">
-  <meta property="og:description" content="{description}">
+  <meta property="og:title" content="{safe_title}">
+  <meta property="og:description" content="{safe_desc}">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{SITE_URL}{canonical}">
+  <meta property="og:url" content="{SITE_URL}{safe_canonical}">
   <meta property="og:site_name" content="Dollar Bets">
   <meta property="og:image" content="{SITE_URL}/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:type" content="image/png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{title}">
-  <meta name="twitter:description" content="{description}">
+  <meta name="twitter:title" content="{safe_title}">
+  <meta name="twitter:description" content="{safe_desc}">
   <meta name="twitter:image" content="{SITE_URL}/og-image.png">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -1167,8 +1201,10 @@ def render_bet_card(m, is_longshot_pick=False):
     emoji = tier_emoji(m.get("tier", ""))
     tier = m.get("tier", "")
     payout_str = format_payout(m.get("payout", 0))
-    title = m.get("title", "")
-    quip = m.get("quip", "")
+    raw_title = m.get("title", "")
+    raw_quip = m.get("quip", "")
+    title = _e(raw_title)
+    quip = _e(raw_quip)
     # Use market ticker for /go/ link (fallback to old url field for backward compatibility)
     ticker = m.get("ticker", "")
     if ticker:
@@ -1182,9 +1218,9 @@ def render_bet_card(m, is_longshot_pick=False):
         else:
             url = "#"
 
-    # Escape for JS data attributes
-    share_title = title.replace('"', '&quot;').replace("'", "&#39;")
-    share_quip = quip.replace('"', '&quot;').replace("'", "&#39;")
+    # data-* attributes — html.escape with quote=True is correct for attribute values
+    share_title = _e(raw_title)
+    share_quip = _e(raw_quip)
 
     # Platform name for pill button
     platform = m.get("platform", "kalshi")
@@ -1234,16 +1270,18 @@ def render_sports_bet_card(m, from_slug=None):
     emoji = tier_emoji(m.get("tier", ""))
     tier = m.get("tier", "")
     payout_str = format_payout(m.get("payout", 0))
-    title = m.get("title", "")
-    quip = m.get("quip", "")
+    raw_title = m.get("title", "")
+    raw_quip = m.get("quip", "")
+    title = _e(raw_title)
+    quip = _e(raw_quip)
     ticker = m.get("ticker", "")
     url = market_link(ticker, from_slug=from_slug) if ticker else m.get("url", "#")
 
     odds_str = m.get("american_odds", "")
-    odds_badge = f'<span class="odds-badge">{odds_str}</span>' if odds_str else ""
+    odds_badge = f'<span class="odds-badge">{_e(odds_str)}</span>' if odds_str else ""
 
-    share_title = title.replace('"', '&quot;').replace("'", "&#39;")
-    share_quip = quip.replace('"', '&quot;').replace("'", "&#39;")
+    share_title = _e(raw_title)
+    share_quip = _e(raw_quip)
 
     platform = m.get("platform", "")
     platform_name = PLATFORM_DISPLAY_NAMES.get(platform, platform.title() if platform else "Sportsbook")
@@ -1686,25 +1724,19 @@ def generate_daily_board(boards):
     # Homepage structured data: Organization + WebSite + ItemList
     market_items = []
     for i, m in enumerate(board, 1):
-        market_items.append(json.dumps({
+        market_items.append(_json_for_script({
             "@type": "ListItem",
             "position": i,
             "name": m.get("title", ""),
             "url": f"{SITE_URL}{market_link(m.get('ticker', ''))}",
-        }, ensure_ascii=False))
+        }))
 
     homepage_schema = f"""<script type="application/ld+json">{{
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Dollar Bets",
   "url": "{SITE_URL}",
-  "description": "A daily discovery board of the internet's most entertaining prediction-market wagers, framed as $1 payouts.",
-  "founder": {{
-    "@type": "Person",
-    "name": "James Lamon",
-    "url": "https://linkedin.com/in/jameslamon",
-    "jobTitle": "Founder & Editor"
-  }}
+  "description": "A daily discovery board of the internet's most entertaining prediction-market wagers, framed as $1 payouts."
 }}</script>
   <script type="application/ld+json">{{
   "@context": "https://schema.org",
@@ -1790,12 +1822,12 @@ def generate_lineup_board(sports_boards):
     # Structured data
     market_items = []
     for i, m in enumerate(board, 1):
-        market_items.append(json.dumps({
+        market_items.append(_json_for_script({
             "@type": "ListItem",
             "position": i,
             "name": m.get("title", ""),
             "url": m.get("url", "#"),
-        }, ensure_ascii=False))
+        }))
 
     lineup_schema = f"""<script type="application/ld+json">{{
   "@context": "https://schema.org",
@@ -2152,12 +2184,12 @@ def generate_category_pages(all_bets):
         # CollectionPage + ItemList + BreadcrumbList schema
         cat_items = []
         for i, m in enumerate(all_category_bets, 1):
-            cat_items.append(json.dumps({
+            cat_items.append(_json_for_script({
                 "@type": "ListItem",
                 "position": i,
                 "name": m.get("title", ""),
                 "url": f"{SITE_URL}{market_link(m.get('ticker', ''))}",
-            }, ensure_ascii=False))
+            }))
 
         cat_schema = f"""<script type="application/ld+json">{{
   "@context": "https://schema.org",
@@ -2340,12 +2372,12 @@ def generate_weekly_recaps(boards):
 
 
 def recap_block(label, bet, detail):
-    """Render a recap highlight block."""
+    """Render a recap highlight block. Untrusted fields escaped."""
     return f"""    <div class="recap-block">
-      <div class="recap-label">{label}</div>
-      <div class="recap-title">{tier_emoji(bet.get('tier', ''))} {bet.get('title', '')}</div>
-      <div class="recap-detail">{detail}</div>
-      <div class="recap-quip">{bet.get('quip', '')}</div>
+      <div class="recap-label">{_e(label)}</div>
+      <div class="recap-title">{tier_emoji(bet.get('tier', ''))} {_e(bet.get('title', ''))}</div>
+      <div class="recap-detail">{_e(detail)}</div>
+      <div class="recap-quip">{_e(bet.get('quip', ''))}</div>
     </div>"""
 
 
@@ -2368,15 +2400,17 @@ def generate_market_autopsies(all_bets):
     candidates = list(seen.values())
 
     for bet in candidates[:10]:  # Cap at 10 autopsies for now
-        title = bet.get("title", "")
-        slug = slugify(title)
+        raw_title = bet.get("title", "")
+        slug = slugify(raw_title)
         if not slug:
             continue
 
         payout = bet.get("payout", 0)
-        quip = bet.get("quip", "")
-        category = bet.get("category", "unknown")
-        date_featured = bet.get("date_featured", "unknown")
+        # Untrusted board fields — escape before interpolating into HTML
+        title = _e(raw_title)
+        quip = _e(bet.get("quip", ""))
+        category = _e(bet.get("category", "unknown"))
+        date_featured = _e(bet.get("date_featured", "unknown"))
         # Build /go/ link for market
         ticker = bet.get("ticker", "")
         if ticker:
@@ -2398,12 +2432,12 @@ def generate_market_autopsies(all_bets):
 
     <div class="autopsy-section">
       <h3>why it was on the board</h3>
-      <p>At {format_payout(payout)} on a dollar, this was a {tier_label(bet.get('tier', ''))} tier bet. The kind of market that makes you open a new tab and start reading. Filed under {category.lower()} on Kalshi, it caught Dollar Bets' attention for the payout drama and the cultural hook.</p>
+      <p>At {format_payout(payout)} on a dollar, this was a {tier_label(bet.get('tier', ''))} tier bet. The kind of market that makes you open a new tab and start reading. Filed under {_e(bet.get("category", "").lower())} on Kalshi, it caught Dollar Bets' attention for the payout drama and the cultural hook.</p>
     </div>
 
     <div class="autopsy-section">
       <h3>the bet type</h3>
-      <p>This is a classic {_archetype_name(bet)} — the kind of market that shows up on prediction platforms whenever the news cycle gets interesting. The structure is simple: yes or no, by a deadline, with real money on the line.</p>
+      <p>This is a classic {_e(_archetype_name(bet))} — the kind of market that shows up on prediction platforms whenever the news cycle gets interesting. The structure is simple: yes or no, by a deadline, with real money on the line.</p>
     </div>
 
     <div class="autopsy-section">
@@ -2413,8 +2447,9 @@ def generate_market_autopsies(all_bets):
 """
 
         html = page_shell(
-            title=f"market autopsy: {title} — dollar bets",
-            description=f"Dollar Bets market autopsy: {title}. What it was, why it was interesting, and what $1 could have paid ({format_payout(payout)}).",
+            # page_shell escapes title/description itself — pass the raw text
+            title=f"market autopsy: {raw_title} — dollar bets",
+            description=f"Dollar Bets market autopsy: {raw_title}. What it was, why it was interesting, and what $1 could have paid ({format_payout(payout)}).",
             body=body,
             canonical=f"/autopsy/{slug}/",
         )
@@ -2545,21 +2580,6 @@ def generate_about_page():
       "@type": "ContactPoint",
       "email": "hello@dollarbets.lol",
       "contactType": "customer support"
-    }},
-    "founder": {{
-      "@type": "Person",
-      "name": "James Lamon",
-      "url": "https://linkedin.com/in/jameslamon",
-      "jobTitle": "Founder & Editor",
-      "description": "Former EVP Content & Operations at Footballco (GOAL, World Soccer), former Head of Content Europe at BuzzFeed. University of Texas at Austin graduate.",
-      "sameAs": [
-        "https://linkedin.com/in/jameslamon"
-      ],
-      "worksFor": {{
-        "@type": "Organization",
-        "name": "Dollar Bets",
-        "url": "{SITE_URL}"
-      }}
     }}
   }}
 }}</script>
@@ -2706,19 +2726,33 @@ def generate_robots_txt():
     txt = f"""User-agent: *
 Allow: /
 Disallow: /go/
+Disallow: /api/
+Disallow: /admin/
 
 # AI crawlers welcome
 User-agent: GPTBot
 Allow: /
+Disallow: /go/
+Disallow: /api/
+Disallow: /admin/
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /go/
+Disallow: /api/
+Disallow: /admin/
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /go/
+Disallow: /api/
+Disallow: /admin/
 
 User-agent: GoogleOther
 Allow: /
+Disallow: /go/
+Disallow: /api/
+Disallow: /admin/
 
 Sitemap: {SITE_URL}/sitemap.xml
 """
@@ -3024,8 +3058,14 @@ def generate_share_pages(boards):
         payout = m.get("payout", 0)
         payout_str = format_payout(payout)
 
-        # Sanitize ticker for filesystem (some tickers have special chars)
-        safe_ticker = ticker.replace("/", "_")
+        # Sanitize ticker for filesystem. Tickers come from external APIs
+        # (Kalshi, Polymarket) — a malformed value with .. or path separators
+        # could escape the share/ directory at build time. Strip everything
+        # outside the safe character set.
+        safe_ticker = re.sub(r"[^A-Za-z0-9_.\-]", "_", ticker)
+        # Defense-in-depth: refuse anything that's purely dots / empty after sub
+        if not safe_ticker or safe_ticker.strip(".") == "":
+            continue
 
         # Generate OG image
         og_dir = os.path.join(OUTPUT_DIR, "share", safe_ticker)
@@ -3039,11 +3079,13 @@ def generate_share_pages(boards):
         else:
             og_image_url = f"{SITE_URL}/og-image.png"
 
-        # OG description — escape quotes for HTML attributes
-        safe_quip = quip.replace('"', '&quot;').replace("'", '&#39;')
-        safe_title_og = title.replace('"', '&quot;').replace("'", '&#39;')
-        og_desc = f'&quot;{safe_quip}&quot; — $1 pays {payout_str} on Dollar Bets. Daily prediction market picks where every bet starts at a buck.'
-        og_title = f"{safe_title_og} — $1 → {payout_str}"
+        # Full HTML-attribute escaping (not just quotes) — title/quip can come
+        # from external APIs, AI-generated quips, or CMS editors, and must be
+        # safe to interpolate into content="..." attributes and <title> text.
+        safe_quip = _e(quip)
+        safe_title_og = _e(title)
+        og_desc = f'&quot;{safe_quip}&quot; — $1 pays {_e(payout_str)} on Dollar Bets. Daily prediction market picks where every bet starts at a buck.'
+        og_title = f"{safe_title_og} — $1 → {_e(payout_str)}"
 
         # Build a lightweight share page that redirects to homepage via JS
         # (JS redirect so crawlers read OG tags; meta refresh would bypass them)

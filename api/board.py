@@ -31,18 +31,18 @@ CMS_SECRET = os.environ.get("CMS_SECRET", CMS_PASSWORD)
 
 
 def verify_token(token):
-    """Verify the HMAC token is valid for today or yesterday."""
+    """Verify the HMAC token is valid for the current UTC day.
+
+    Token TTL is one UTC day. Earlier versions accepted yesterday's token as
+    well for a 48h window — closed because /api/login has no rate limiting.
+    """
     if not CMS_PASSWORD or not token:
         return False
     today = str(int(time.time()) // 86400)
-    yesterday = str(int(time.time()) // 86400 - 1)
-    for day in [today, yesterday]:
-        expected = hmac.new(
-            CMS_SECRET.encode(), f"{CMS_PASSWORD}:{day}".encode(), hashlib.sha256
-        ).hexdigest()
-        if hmac.compare_digest(token, expected):
-            return True
-    return False
+    expected = hmac.new(
+        CMS_SECRET.encode(), f"{CMS_PASSWORD}:{today}".encode(), hashlib.sha256
+    ).hexdigest()
+    return hmac.compare_digest(token, expected)
 
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
