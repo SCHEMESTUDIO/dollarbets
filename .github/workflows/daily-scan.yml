@@ -2,10 +2,11 @@ name: Daily Board Scan
 
 on:
   schedule:
-    # Daily prediction markets scan at 07:00 UTC
-    - cron: '0 7 * * *'
-    # Hourly sports odds refresh (all boards)
-    - cron: '0 * * * *'
+    # Hourly during US peak hours (13:00–04:00 UTC = 8am–11pm ET). 16 runs/day
+    # instead of 24 — ~33% reduction in Odds API token consumption with
+    # negligible data-quality cost (US sports odds barely move overnight).
+    # 13:00 UTC also triggers the daily prediction-market scan (moved from 07:00).
+    - cron: '0 13-23,0-4 * * *'
   workflow_dispatch: # Allow manual trigger from GitHub UI
 
 env:
@@ -33,9 +34,9 @@ jobs:
           mkdir -p data/boards
           HOUR=$(date -u +%H)
           TODAY=$(date -u +%Y-%m-%d)
-          # Only run prediction market scan at 07:00 UTC or on manual trigger
-          if [ "$HOUR" != "07" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
-            echo "Skipping prediction market scan (hourly run, not 07:00 UTC)"
+          # Only run prediction market scan at 13:00 UTC or on manual trigger
+          if [ "$HOUR" != "13" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
+            echo "Skipping prediction market scan (hourly run, not 13:00 UTC)"
             exit 0
           fi
           if [ -f "data/boards/${TODAY}.json" ]; then
@@ -149,11 +150,43 @@ jobs:
             echo "ODDS_API_KEY not set — skipping combo meal scan"
           else
             OUTFILE="data/boards/combo-${TODAY}.json"
+            TMPFILE="data/boards/combo-${TODAY}.json.tmp"
             echo "Scanning combo meal (parlays)..."
-            python3 parlay_scanner.py > "${OUTFILE}" || {
-              echo "Parlay scanner failed — removing partial output"
-              rm -f "${OUTFILE}"
-            }
+            # Write to a tmp file first so a mid-flight crash doesn't truncate
+            # an existing good board. Validate before promoting.
+            if python3 parlay_scanner.py > "${TMPFILE}"; then
+              # Sanity: must be parseable JSON with the expected shape.
+              python3 -c "
+          import sys, json
+          try:
+              with open('${TMPFILE}') as f:
+                  d = json.load(f)
+          except Exception as e:
+              print(f'ERROR: combo board did not parse as JSON: {e}')
+              sys.exit(1)
+          board = d.get('board', [])
+          tier_mix = d.get('tier_mix', {})
+          sport_mix = d.get('sport_mix', {})
+          print(f'combo board: {len(board)} parlays — tiers: {tier_mix}, sports: {sport_mix}')
+          if len(board) == 0:
+              # Empty is allowed (no qualifying parlays today) — we still want
+              # the file committed so /combo-meal/ renders an empty-state page
+              # rather than a stale board.
+              print('NOTE: combo board is empty today (no parlays met criteria)')
+          for m in board:
+              assert m.get('title'), f'parlay missing title: {m}'
+              assert m.get('payout'), f'parlay missing payout: {m}'
+              assert m.get('ticker','').startswith('PARLAY-'), f'bad ticker: {m}'
+          print('combo board validation passed')
+              " && mv "${TMPFILE}" "${OUTFILE}" || {
+                echo "Combo board validation failed — discarding tmp output"
+                rm -f "${TMPFILE}"
+              }
+            else
+              echo "Parlay scanner exited non-zero — discarding tmp output"
+              echo "(check stderr above for the actual error)"
+              rm -f "${TMPFILE}"
+            fi
           fi
 
       - name: Commit and push

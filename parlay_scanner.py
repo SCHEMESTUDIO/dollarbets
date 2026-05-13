@@ -451,7 +451,11 @@ def format_parlay_for_board(parlay, index=0):
         "sport_display": sport_display,
         "matchup": matchup_str,
         "market_type": f"{parlay['num_legs']}-leg parlay",
-        "american_odds": round((payout - 1) * 100) if payout >= 2 else round(-100 / (payout - 1)),
+        "american_odds": (
+            round((payout - 1) * 100) if payout >= 2
+            else round(-100 / (payout - 1)) if payout > 1
+            else 0  # payout==1 edge case (zero edge); -100/0 would crash
+        ),
         "implied_probability": parlay["combined_implied_probability"],
         "has_deep_link": parlay["has_deep_links"],
         "type": "parlay",
@@ -511,14 +515,27 @@ def scan_parlays(sports=None, dry_run=False):
 
     print(f"\n[parlay] Total qualifying legs: {len(all_legs)}", file=sys.stderr)
 
-    # Build parlays
-    parlays = build_parlays(all_legs, max_parlays=10)
+    # Build parlays — wrap so a malformed leg can't kill the whole scan.
+    try:
+        parlays = build_parlays(all_legs, max_parlays=10)
+    except Exception as e:
+        print(f"[parlay] ERROR: build_parlays crashed: {type(e).__name__}: {e}", file=sys.stderr)
+        parlays = []
     print(f"[parlay] Built {len(parlays)} parlays", file=sys.stderr)
 
-    # Format for board
+    # Format for board — per-parlay try/except so one bad parlay doesn't drop
+    # the rest. The known footgun is format_parlay_for_board's american_odds
+    # divide-by-zero when payout == 1.0 exactly; less obvious shapes from new
+    # market types (player_props, alt lines) are the other likely failure mode.
     cards = []
     for i, parlay in enumerate(parlays):
-        card = format_parlay_for_board(parlay, i)
+        try:
+            card = format_parlay_for_board(parlay, i)
+        except Exception as e:
+            print(f"[parlay] WARN: skipping parlay {i} ({parlay.get('bookmaker','?')}, "
+                  f"{parlay.get('num_legs','?')} legs, payout={parlay.get('payout_per_dollar','?')}): "
+                  f"{type(e).__name__}: {e}", file=sys.stderr)
+            continue
         cards.append(card)
         print(f"\n[parlay] Card {i+1}: {card['title']}", file=sys.stderr)
         print(f"         Payout: $1 → {card['payout']} ({card['tier']})", file=sys.stderr)
