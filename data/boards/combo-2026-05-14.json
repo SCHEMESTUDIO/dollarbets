@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T08:12:45.084825+00:00",
+  "generated_at": "2026-05-14T19:25:48.026504+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -16,7 +16,7 @@
       "title": "TCU Horned Frogs wins + Cincinnati Bengals wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "water is wet",
+      "quip": "like taking candy from a vending machine",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "fanduel",
@@ -100,7 +100,7 @@
       "title": "TCU Horned Frogs wins + Thomas Gantt wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "as sure as gravity",
+      "quip": "tuesday energy",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "fanduel",
@@ -138,19 +138,19 @@
       "close_time": "2026-05-16T21:00:00Z"
     },
     {
-      "ticker": "PARLAY-F537E649",
-      "title": "LSU Tigers wins + Colorado Rockies +1.5",
+      "ticker": "PARLAY-C53424A5",
+      "title": "Auburn Tigers wins + Boston Red Sox +1.5",
       "payout": 2.0,
       "tier": "green",
-      "quip": "the safe bet",
+      "quip": "the fundamentals",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "fanduel",
       "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.551699234&selectionId=484738",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.551699554&selectionId=484732",
       "sport": "americanfootball_ncaaf",
       "sport_display": "Multi",
-      "matchup": "Clemson Tigers @ LSU Tigers + Colorado Rockies @ Pittsburgh Pirates",
+      "matchup": "Baylor Bears @ Auburn Tigers + Philadelphia Phillies @ Boston Red Sox",
       "market_type": "2-leg parlay",
       "american_odds": 100,
       "implied_probability": 0.501,
@@ -159,40 +159,40 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Clemson Tigers @ LSU Tigers",
-          "pick": "LSU Tigers wins",
-          "odds": -490,
-          "implied_prob": "83%",
+          "matchup": "Baylor Bears @ Auburn Tigers",
+          "pick": "Auburn Tigers wins",
+          "odds": -315,
+          "implied_prob": "76%",
           "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.551699234&selectionId=484738",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.551699554&selectionId=484732",
           "commence_time": "2026-09-05T16:00:00Z"
         },
         {
-          "matchup": "Colorado Rockies @ Pittsburgh Pirates",
-          "pick": "Colorado Rockies +1.5",
-          "odds": -152,
-          "implied_prob": "60%",
+          "matchup": "Philadelphia Phillies @ Boston Red Sox",
+          "pick": "Boston Red Sox +1.5",
+          "odds": -194,
+          "implied_prob": "66%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578367454&selectionId=29168",
-          "commence_time": "2026-05-14T16:36:00Z"
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578368985&selectionId=29158",
+          "commence_time": "2026-05-14T22:46:00Z"
         }
       ],
-      "close_time": "2026-05-14T16:36:00Z"
+      "close_time": "2026-05-14T22:46:00Z"
     },
     {
-      "ticker": "PARLAY-BE00C85D",
-      "title": "LSU Tigers wins + Washington Nationals +1.5",
+      "ticker": "PARLAY-50D23BEF",
+      "title": "Auburn Tigers wins + San Antonio Spurs wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "business as usual",
+      "quip": "the fundamentals",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "fanduel",
       "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.551699234&selectionId=484738",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.551699554&selectionId=484732",
       "sport": "americanfootball_ncaaf",
       "sport_display": "Multi",
-      "matchup": "Clemson Tigers @ LSU Tigers + Washington Nationals @ Cincinnati Reds",
+      "matchup": "Baylor Bears @ Auburn Tigers + San Antonio Spurs @ Minnesota Timberwolves",
       "market_type": "2-leg parlay",
       "american_odds": 100,
       "implied_probability": 0.501,
@@ -201,32 +201,32 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Clemson Tigers @ LSU Tigers",
-          "pick": "LSU Tigers wins",
-          "odds": -490,
-          "implied_prob": "83%",
+          "matchup": "Baylor Bears @ Auburn Tigers",
+          "pick": "Auburn Tigers wins",
+          "odds": -315,
+          "implied_prob": "76%",
           "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.551699234&selectionId=484738",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.551699554&selectionId=484732",
           "commence_time": "2026-09-05T16:00:00Z"
         },
         {
-          "matchup": "Washington Nationals @ Cincinnati Reds",
-          "pick": "Washington Nationals +1.5",
-          "odds": -152,
-          "implied_prob": "60%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578367619&selectionId=1033687",
-          "commence_time": "2026-05-14T16:41:00Z"
+          "matchup": "San Antonio Spurs @ Minnesota Timberwolves",
+          "pick": "San Antonio Spurs wins",
+          "odds": -194,
+          "implied_prob": "66%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.577858273&selectionId=237471",
+          "commence_time": "2026-05-16T01:40:00Z"
         }
       ],
-      "close_time": "2026-05-14T16:41:00Z"
+      "close_time": "2026-05-16T01:40:00Z"
     },
     {
-      "ticker": "PARLAY-A7282DF5",
-      "title": "LSU Tigers wins + San Francisco Giants +1.5",
+      "ticker": "PARLAY-C17B9194",
+      "title": "LSU Tigers wins + Under 12.5",
       "payout": 2.0,
       "tier": "green",
-      "quip": "as sure as gravity",
+      "quip": "tuesday energy",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "fanduel",
@@ -234,7 +234,7 @@
       "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.551699234&selectionId=484738",
       "sport": "americanfootball_ncaaf",
       "sport_display": "Multi",
-      "matchup": "Clemson Tigers @ LSU Tigers + San Francisco Giants @ Los Angeles Dodgers",
+      "matchup": "Clemson Tigers @ LSU Tigers + Detroit Tigers @ New York Mets",
       "market_type": "2-leg parlay",
       "american_odds": 100,
       "implied_probability": 0.501,
@@ -252,16 +252,58 @@
           "commence_time": "2026-09-05T16:00:00Z"
         },
         {
-          "matchup": "San Francisco Giants @ Los Angeles Dodgers",
-          "pick": "San Francisco Giants +1.5",
+          "matchup": "Detroit Tigers @ New York Mets",
+          "pick": "Under 12.5",
           "odds": -152,
           "implied_prob": "60%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578369601&selectionId=29178",
-          "commence_time": "2026-05-15T02:11:00Z"
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578367970&selectionId=7017906",
+          "commence_time": "2026-05-14T17:11:00Z"
         }
       ],
-      "close_time": "2026-05-15T02:11:00Z"
+      "close_time": "2026-05-14T17:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-DAADB041",
+      "title": "LSU Tigers wins + Under 11.5",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.551699234&selectionId=484738",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Clemson Tigers @ LSU Tigers + San Diego Padres @ Milwaukee Brewers",
+      "market_type": "2-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.501,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Clemson Tigers @ LSU Tigers",
+          "pick": "LSU Tigers wins",
+          "odds": -490,
+          "implied_prob": "83%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.551699234&selectionId=484738",
+          "commence_time": "2026-09-05T16:00:00Z"
+        },
+        {
+          "matchup": "San Diego Padres @ Milwaukee Brewers",
+          "pick": "Under 11.5",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578368243&selectionId=7017906",
+          "commence_time": "2026-05-14T17:41:00Z"
+        }
+      ],
+      "close_time": "2026-05-14T17:41:00Z"
     },
     {
       "ticker": "PARLAY-ACA9BEA4",
@@ -306,53 +348,11 @@
       "close_time": "2026-05-14T23:10:46Z"
     },
     {
-      "ticker": "PARLAY-BB7847BC",
-      "title": "Ole Miss Rebels wins + Nicolle Caliari wins",
+      "ticker": "PARLAY-EB521964",
+      "title": "Texas Tech Red Raiders wins + Colorado Rockies +1.5",
       "payout": 2.0,
       "tier": "green",
-      "quip": "clock in, cash out",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.555013275&selectionId=4385068",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "Multi",
-      "matchup": "Louisville Cardinals @ Ole Miss Rebels + Nicolle Caliari @ Shauna Bannon",
-      "market_type": "2-leg parlay",
-      "american_odds": 100,
-      "implied_probability": 0.501,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Louisville Cardinals @ Ole Miss Rebels",
-          "pick": "Ole Miss Rebels wins",
-          "odds": -235,
-          "implied_prob": "70%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.555013275&selectionId=4385068",
-          "commence_time": "2026-09-05T16:00:00Z"
-        },
-        {
-          "matchup": "Nicolle Caliari @ Shauna Bannon",
-          "pick": "Nicolle Caliari wins",
-          "odds": -250,
-          "implied_prob": "71%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.577691777&selectionId=73637150",
-          "commence_time": "2026-05-17T00:00:00Z"
-        }
-      ],
-      "close_time": "2026-05-17T00:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-2D777C86",
-      "title": "Texas Tech Red Raiders wins + San Jose Earthquakes wins",
-      "payout": 2.0,
-      "tier": "green",
-      "quip": "steady hands",
+      "quip": "like taking candy from a vending machine",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "fanduel",
@@ -360,10 +360,10 @@
       "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.574833110&selectionId=662040",
       "sport": "americanfootball_ncaaf",
       "sport_display": "Multi",
-      "matchup": "Houston Cougars @ Texas Tech Red Raiders + FC Dallas @ San Jose Earthquakes",
+      "matchup": "Houston Cougars @ Texas Tech Red Raiders + Arizona Diamondbacks @ Colorado Rockies",
       "market_type": "2-leg parlay",
       "american_odds": 100,
-      "implied_probability": 0.501,
+      "implied_probability": 0.499,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
@@ -378,58 +378,58 @@
           "commence_time": "2026-09-18T23:00:00Z"
         },
         {
-          "matchup": "FC Dallas @ San Jose Earthquakes",
-          "pick": "San Jose Earthquakes wins",
-          "odds": -145,
+          "matchup": "Arizona Diamondbacks @ Colorado Rockies",
+          "pick": "Colorado Rockies +1.5",
+          "odds": -144,
           "implied_prob": "59%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.577777349&selectionId=408102",
-          "commence_time": "2026-05-17T02:30:00Z"
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578631247&selectionId=29168",
+          "commence_time": "2026-05-16T00:41:00Z"
         }
       ],
-      "close_time": "2026-05-17T02:30:00Z"
+      "close_time": "2026-05-16T00:41:00Z"
     },
     {
-      "ticker": "PARLAY-E8A4CD74",
-      "title": "Chicago Cubs +1.5 + Sean O'Malley wins",
+      "ticker": "PARLAY-3E64D2D2",
+      "title": "Dallas Cowboys wins + New York Mets -3.5",
       "payout": 2.0,
       "tier": "green",
-      "quip": "the boring middle",
+      "quip": "water is wet",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "fanduel",
       "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578369060&selectionId=29166",
-      "sport": "baseball_mlb",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.577894698&selectionId=50189",
+      "sport": "americanfootball_nfl",
       "sport_display": "Multi",
-      "matchup": "Chicago Cubs @ Atlanta Braves + Aiemann Zahabi @ Sean O'Malley",
+      "matchup": "Dallas Cowboys @ New York Giants + Detroit Tigers @ New York Mets",
       "market_type": "2-leg parlay",
       "american_odds": 100,
-      "implied_probability": 0.499,
+      "implied_probability": 0.5,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Chicago Cubs @ Atlanta Braves",
-          "pick": "Chicago Cubs +1.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578369060&selectionId=29166",
-          "commence_time": "2026-05-14T23:16:00Z"
+          "matchup": "Dallas Cowboys @ New York Giants",
+          "pick": "Dallas Cowboys wins",
+          "odds": -154,
+          "implied_prob": "61%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.577894698&selectionId=50189",
+          "commence_time": "2026-09-14T00:20:00Z"
         },
         {
-          "matchup": "Aiemann Zahabi @ Sean O'Malley",
-          "pick": "Sean O'Malley wins",
-          "odds": -430,
-          "implied_prob": "81%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.561358531&selectionId=16195942",
-          "commence_time": "2026-06-14T23:45:00Z"
+          "matchup": "Detroit Tigers @ New York Mets",
+          "pick": "New York Mets -3.5",
+          "odds": -470,
+          "implied_prob": "82%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578367971&selectionId=29174",
+          "commence_time": "2026-05-14T17:11:00Z"
         }
       ],
-      "close_time": "2026-05-14T23:16:00Z"
+      "close_time": "2026-05-14T17:11:00Z"
     }
   ]
 }
