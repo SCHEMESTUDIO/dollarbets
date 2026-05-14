@@ -637,5 +637,77 @@
     "tier": "purple",
     "original_quip": "number go down version of money printer go brrr",
     "editor_quip": "computer, load file folder titled \"sad memes\""
+  },
+  {
+    "date": "2026-05-14",
+    "title": "Trump meets with al-Sharaa in 2026",
+    "category": "World",
+    "payout": 2.18,
+    "tier": "green",
+    "original_quip": "outrageously plausible",
+    "editor_quip": "gas up the pj and let Xi Jinping hitch a ride"
+  },
+  {
+    "date": "2026-05-14",
+    "title": "The Batman Part II gets delayed again",
+    "category": "Entertainment",
+    "payout": 2.27,
+    "tier": "green",
+    "original_quip": "Matt Reeves has entered a Christopher Nolan waiting room",
+    "editor_quip": "Heath Ledger faked his death to stay method until this film "
+  },
+  {
+    "date": "2026-05-14",
+    "title": "Tesla robotaxi opens to the public in Arizona this year",
+    "category": "Science and Technology",
+    "payout": 3.03,
+    "tier": "yellow",
+    "original_quip": "the self-driving car that cried wolf, but make it Phoenix",
+    "editor_quip": "computer. drive me to Wendy's. change radio to Yacht Rock."
+  },
+  {
+    "date": "2026-05-14",
+    "title": "South Korea hits 3% inflation in 2026",
+    "category": "Sports",
+    "payout": 3.7,
+    "tier": "yellow",
+    "original_quip": "in other news: Gangnam real estate still fine",
+    "editor_quip": "Oppa Gangnam style!"
+  },
+  {
+    "date": "2026-05-14",
+    "title": "A Chinese AI model takes the #1 spot this year",
+    "category": "Science and Technology",
+    "payout": 5.26,
+    "tier": "yellow",
+    "original_quip": "DeepSeek already bookmarked the podium",
+    "editor_quip": "it's like the Olympics 500m freestyle but make it robots burning coal"
+  },
+  {
+    "date": "2026-05-14",
+    "title": "Bitcoin hits $130K by end of 2026",
+    "category": "Crypto",
+    "payout": 8,
+    "tier": "orange",
+    "original_quip": "number go up, but like, spiritually committed number go up",
+    "editor_quip": "sell high. buy low. cash. money. baby."
+  },
+  {
+    "date": "2026-05-14",
+    "title": "Chicago Cubs win the 2026 World Series",
+    "category": "Other",
+    "payout": 19.42,
+    "tier": "red",
+    "original_quip": "in other news: Al-Qaeda pivoting to champion green energy causes",
+    "editor_quip": "it's anybody's ball game"
+  },
+  {
+    "date": "2026-05-14",
+    "title": "Qinwen Zheng wins the 2026 French Open",
+    "category": "Other",
+    "payout": 74.07,
+    "tier": "purple",
+    "original_quip": "the clay court has not received this memo",
+    "editor_quip": "we call this a tennis 10xer "
   }
 ]
