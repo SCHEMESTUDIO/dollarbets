@@ -143,6 +143,11 @@ jobs:
           fi
 
       - name: Run combo meal scanner (parlays)
+        # Combo step has historically hung on high-game days (combinations
+        # explosion in build_parlays). Cap runtime and never block the commit
+        # step on it — existing combo board persists if today's run fails.
+        timeout-minutes: 4
+        continue-on-error: true
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

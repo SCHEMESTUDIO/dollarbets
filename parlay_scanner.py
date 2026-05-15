@@ -28,13 +28,13 @@ ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
 
 # Books to pull odds from (free tier available)
 # Priority order: books most likely to have deep links first
+# Offshore books (bovada, betonlineag) removed 2026-05-14: no affiliate deal +
+# compliance exposure on US traffic. Re-add only with a licensed deal + geo-fence.
 TARGET_BOOKS = [
     "fanduel",
     "betmgm",
     "betrivers",
     "draftkings",   # paid tier only — will gracefully skip if unavailable
-    "bovada",
-    "betonlineag",
 ]
 
 # Sports to scan (The Odds API sport keys)
@@ -304,6 +304,20 @@ def build_parlays(all_legs, max_parlays=10):
 
         if len(unique_legs) < MIN_LEGS:
             continue
+
+        # Cap legs per bookmaker before combinations() to bound runtime.
+        # With 4-leg parlays, C(n,4) grows as n^4 — at n=150 that's ~20M iterations,
+        # which historically hangs the CI runner > 13 min and kills the commit step.
+        # At n=40 it's ~91k, milliseconds. We pick the top by decimal_odds (lightest
+        # favorites first) because they're most likely to combine into parlays that
+        # land in the MIN..MAX payout range; heaviest favorites combine into payouts
+        # below MIN_COMBINED_PAYOUT and would be filtered out anyway.
+        MAX_LEGS_PER_BOOK = 40
+        if len(unique_legs) > MAX_LEGS_PER_BOOK:
+            unique_legs.sort(key=lambda l: l["decimal_odds"], reverse=True)
+            print(f"[parlay] {book_key}: capped legs {len(unique_legs)} -> "
+                  f"{MAX_LEGS_PER_BOOK} (top by decimal_odds)", file=sys.stderr)
+            unique_legs = unique_legs[:MAX_LEGS_PER_BOOK]
 
         # Try combinations of 2, 3, 4 legs
         for num_legs in range(MIN_LEGS, min(MAX_LEGS + 1, len(unique_legs) + 1)):
