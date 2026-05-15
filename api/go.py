@@ -43,8 +43,9 @@ _ALLOWED_REDIRECT_HOSTS = {
     "sports.betmgm.com",
     "betmgm.com", "www.betmgm.com",
     "betrivers.com", "www.betrivers.com",
-    "bovada.lv", "www.bovada.lv",
-    "betonline.ag", "www.betonline.ag",
+    # Offshore books (bovada.lv, betonline.ag) removed 2026-05-14: no affiliate
+    # deal + US compliance exposure. Re-add only with a licensed agreement
+    # and per-partner geo restrictions wired up via config/partners.json.
 }
 
 
@@ -144,8 +145,6 @@ SPORTSBOOK_DISPLAY_NAMES = {
     "draftkings": "DraftKings",
     "betmgm": "BetMGM",
     "betrivers": "BetRivers",
-    "bovada": "Bovada",
-    "betonlineag": "BetOnline",
 }
 
 

@@ -18,9 +18,10 @@
 - **Hosting**: Vercel (static + Python serverless functions)
 - **Data**: JSON files in `data/boards/` — git is the database
 - **APIs consumed**: Kalshi Trade API v2, The Odds API v4, Anthropic Claude API (for quip generation), Polymarket Gamma API (stub)
-- **Analytics**: GA4 (`G-W2V9QGFCM5`) + Faurya
+- **Analytics**: GA4 (`G-W2V9QGFCM5`) wrapped in Google Consent Mode v2 (ad_* denied permanently, `analytics_storage` granted by default — EU/UK banner still TODO) + Faurya
+- **Security headers**: `vercel.json` enforces CSP, HSTS preload, `X-Content-Type-Options: nosniff`, `Referrer-Policy: strict-origin-when-cross-origin`, `X-Frame-Options: DENY`, restrictive `Permissions-Policy`. `/go/` and `/api/` are `Cache-Control: no-store`; `/go/*` is also `noindex,nofollow`.
 - **Indexing**: IndexNow + Google/Bing sitemap pings on every build
-- **CMS**: Password-protected `/admin/` page → commits board JSON to GitHub via API → triggers Vercel rebuild
+- **CMS**: Password-protected `/admin/` page → commits board JSON to GitHub via API → triggers Vercel rebuild. HMAC tokens are one-UTC-day TTL (no rolling 48h window).
 - **Repo**: `github.com/SCHEMESTUDIO/dollarbets`
 
 ## File Map
@@ -29,11 +30,11 @@
 
 | File | Lines | Purpose |
 |------|-------|---------|
-| `generate.py` | ~3147 | Main static site generator — builds /today, /category/*, /archetypes/*, /recap/*, /autopsy/*, share/OG pages, 404, sitemap |
+| `generate.py` | ~3276 | Main static site generator — builds /today, /category/*, /archetypes/*, /recap/*, /autopsy/*, share/OG pages, 404, XML + HTML sitemaps, affiliate-disclosure strip. Embeds GA4 with Consent Mode v2 defaults. |
 | `scanner.py` | ~1948 | Kalshi + Polymarket market scanner — fetches events, scores entertainment, calculates $1 payouts, generates Claude quips, dedupes cross-platform |
-| `sports_scanner.py` | ~1097 | Sports odds scanner (The Odds API) — underdogs, lineup, ocho, chalk board modes |
-| `parlay_scanner.py` | ~596 | Parlay builder — combines near-certain outcomes into parlay cards with deep links |
-| `generate_content.py` | ~729 | SEO content page generator — reads JSON from `content/`, outputs HTML using shared layout |
+| `sports_scanner.py` | ~1098 | Sports odds scanner (The Odds API) — underdogs, lineup, ocho, chalk board modes. `TARGET_BOOKS` is FanDuel/DraftKings/BetMGM/BetRivers only — offshore books (bovada, betonlineag) removed 2026-05-14 (no licensed deal + US compliance exposure). |
+| `parlay_scanner.py` | ~619 | Parlay builder — combines near-certain outcomes into parlay cards with deep links. Tolerates `has_deep_links`/`has_deep_link` key skew across stored boards. Same offshore-book exclusion as sports scanner. |
+| `generate_content.py` | ~718 | SEO content page generator — reads JSON from `content/`, outputs HTML using shared layout |
 | `analyze_taste.py` | ~413 | Editorial style analyzer — distills quip overrides into `data/style-guide.json`; classifier guardrails |
 | `link_resolver.py` | ~215 | Geo-aware partner resolution — picks best platform by user country |
 | `gsc_analyze.py` | ~250 | Google Search Console analysis script |
@@ -47,15 +48,15 @@
 
 | File | Lines | Purpose |
 |------|-------|---------|
-| `api/board.py` | ~344 | CMS API — GET/POST board JSON via GitHub commits |
-| `api/go.py` | ~968 | `/go/` redirect handler — geo-aware affiliate routing, interstitial, country/state plurals, stale-ticker fallbacks. All geo-compliance lives here. |
-| `api/login.py` | ~80 | CMS login — HMAC token auth |
+| `api/board.py` | ~344 | CMS API — GET/POST board JSON via GitHub commits. HMAC token TTL = one UTC day. |
+| `api/go.py` | ~1099 | `/go/` redirect handler — geo-aware affiliate routing, interstitial, country/state plurals, stale-ticker fallbacks. All geo-compliance lives here (per-partner `allowed_countries`/`blocked_countries`). Destination-host allowlist (`_ALLOWED_REDIRECT_HOSTS`, https-only) + market-id regex defend against open-redirect / reflected-XSS; every dynamic value in interstitial templates is `html.escape`d. Offshore books (bovada.lv, betonline.ag) removed from allowlist + display-name map 2026-05-14. |
+| `api/login.py` | ~82 | CMS login — HMAC token auth, one-UTC-day TTL (no rolling window — `/api/login` has no rate limiting, so a captured token shouldn't grant a second day) |
 
 ### CI / config / data
 
 | File | Lines | Purpose |
 |------|-------|---------|
-| `.github/workflows/daily-scan.yml` | ~182 | GitHub Actions: scheduled board scans (Kalshi + sports) → commits JSON to `data/boards/` |
+| `.github/workflows/daily-scan.yml` | ~217 | GitHub Actions: scheduled board scans (Kalshi + sports + combo) → commits JSON to `data/boards/`. Cron `0 13,16,19,22,1,4 * * *` — 6 runs/day across US peak hours (~75% reduction vs hourly to stay inside Odds API token budget). Prediction-market scan runs only at 13:00 UTC. Each scan validates before commit: prediction board ≥5 markets w/ required fields + Polymarket slug spot-check, sports boards ≥1 pick (ocho exempt), combo board writes to `.tmp` then validates JSON shape + `PARLAY-` ticker prefix before promoting (mid-flight crashes can't truncate good output). |
 | `.github/workflows/taste-analysis.yml` | ~62 | GitHub Actions: runs `analyze_taste.py` when overrides accumulate |
 | `tests/test_classify.py` | ~221 | Quip classifier regression test |
 | `config/partners.json` | — | Master affiliate/partner config: IDs, geo rules, priority |
@@ -84,17 +85,21 @@
 
 ## Key Functions
 
-- `generate.py → page_shell()` (~L848) — Base HTML template for every page (analytics, nav, footer, CSS)
-- `generate.py → render_bet_card()` (~L1177) — Renders a single bet as HTML card with `/go/` link
-- `generate.py → nav_html()` (~L801) — Shared navigation bar
-- `generate.py → render_board_promo()` (~L1358) — Board promo widget for content pages
-- `generate.py → generate_share_og_image()` (~L2794) — Per-bet OG image generation (DejaVu fonts, Pillow)
-- `generate.py → market_link()` (~L32) — Returns `/go/{ticker}/` URL — only correct way to link to markets
+- `generate.py → page_shell()` (~L895) — Base HTML template for every page (analytics, nav, footer, CSS)
+- `generate.py → render_bet_card()` (~L1197) — Renders a single bet as HTML card with `/go/` link
+- `generate.py → nav_html()` (~L847) — Shared navigation bar
+- `generate.py → render_board_promo()` (~L1382) — Board promo widget for content pages
+- `generate.py → generate_html_sitemap()` (~L2627) — Human-readable `/sitemap/` page; buckets every URL into sections so Googlebot has a single hub linking to all pages
+- `generate.py → generate_share_og_image()` (~L2909) — Per-bet OG image generation (DejaVu fonts, Pillow)
+- `generate.py → market_link()` (~L56) — Returns `/go/{ticker}/` URL — only correct way to link to markets
+- `generate.py → DISCLOSURE_STRIP_HTML` (~L825) — Always-visible affiliate-disclosure strip injected on every board page (legal trust signal, same content for every visitor regardless of region)
 - `scanner.py → _api_get()` / `_poly_api_get()` — Kalshi / Polymarket API wrappers with retry
 - `scanner.py → classify_quip()` — Categorizes quips into clusters (uses style-guide + custom-clusters)
 - `scanner.py → dedup_cross_platform()` — Removes near-duplicate markets across Kalshi/Polymarket
 - `link_resolver.py → resolve_market_destination()` — Core geo/partner resolution logic
 - `analyze_taste.py` — Reads `data/quip-overrides.json`, emits `data/style-guide.json` with guardrails to avoid bad reclassifications
+- `api/go.py → _ALLOWED_REDIRECT_HOSTS` (~L37) / `_is_allowed_destination()` (~L52) — Outbound URL guard; any redirect Location must resolve to an https host in the allowlist (or a subdomain). Adding a new partner means adding its host here too.
+- `api/login.py → make_token()` / `verify_token()` — HMAC over `password:utc_day`. Re-auth required each UTC day.
 
 ## Architecture Decisions
 
@@ -104,6 +109,12 @@
 - **Payout tiers are color-coded** — Green ($1-10 Likely), Yellow ($11-50 Toss-up), Orange ($51-100 Longshot), Red ($101-500 Wild), Purple ($500+ Absurd).
 - **Board prefixes** — `data/boards/YYYY-MM-DD.json` = main Kalshi board, `sports-*.json` = lineup, `underdogs-*.json`, `ocho-*.json`, `chalk-*.json`, `combo-*.json` = parlays.
 - **Commentary-only mode** — Restricted countries (GB, AU, CN, etc.) get softened CTAs and a banner. Fully blocked countries redirect to `/unavailable/`.
+- **Geo compliance lives at `/go/`, not on the page** — Every visitor sees the same site content + the same disclosure strip. Per-partner allow/block lists in `config/partners.json` only kick in at click-through. This was an explicit move (commit 65a2248 / e1dc783) to keep static HTML uniform and cacheable.
+- **Apex → www 308 redirect** — `vercel.json` enforces `dollarbets.lol` → `www.dollarbets.lol` as a belt-and-suspenders pairing with the DNS-level redirect (commit d85c8f4).
+- **Defense-in-depth at the redirect** — `/go/` is the single chokepoint where untrusted board JSON meets the outside world. Three layers stack: (1) market-id regex on the inbound slug, (2) `_ALLOWED_REDIRECT_HOSTS` https-only host allowlist on the outbound Location, (3) `html.escape` on every dynamic value rendered into interstitial HTML. A poisoned board JSON cannot redirect off-allowlist or inject markup (commits da80998 / a66af09).
+- **CMS token TTL is one UTC day, not a rolling window** — Earlier versions accepted yesterday's token for a 48h grace period; that's now closed because `/api/login` has no rate limiting (commit a66af09).
+- **Local Claude settings stay out of git** — `.claude/settings.local.json` was historically tracked and once leaked an Odds API key. `.gitignore` now excludes `.claude/settings.local.json`, `.env*`, debug/log/credential files (commit a47a562). Rotate any key found in old commits before assuming it's safe.
+- **No offshore sportsbooks** — Bovada and BetOnline.ag were removed from `TARGET_BOOKS` (sports + parlay scanners), `_ALLOWED_REDIRECT_HOSTS` / `SPORTSBOOK_DISPLAY_NAMES` in `api/go.py`, and `PLATFORM_LOGOS` in `generate.py` on 2026-05-14. Re-add only with a licensed affiliate agreement *and* per-partner geo-restrictions wired up in `config/partners.json`. Reason: no revenue path + US compliance exposure on offshore traffic.
 
 ## Environment Variables (Vercel)
 

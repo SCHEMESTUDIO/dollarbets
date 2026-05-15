@@ -34,13 +34,14 @@ ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 TARGET_PICKS = 10
 
 # Books to pull from — priority order (best deep link support first)
+# Offshore books (bovada, betonlineag) removed 2026-05-14: no affiliate deal +
+# compliance exposure on US traffic. Re-add only if a licensed deal materializes
+# and geo-fencing is in place at /go/.
 TARGET_BOOKS = [
     "fanduel",
     "draftkings",
     "betmgm",
     "betrivers",
-    "bovada",
-    "betonlineag",
 ]
 
 # Preferred book for deep links (used when multiple books have the same market)

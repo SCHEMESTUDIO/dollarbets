@@ -1063,8 +1063,6 @@ PLATFORM_LOGOS = {
     "draftkings": '<svg class="logo-sportsbook" viewBox="0 0 90 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">DraftKings</text></svg>',
     "betmgm": '<svg class="logo-sportsbook" viewBox="0 0 65 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">BetMGM</text></svg>',
     "betrivers": '<svg class="logo-sportsbook" viewBox="0 0 80 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">BetRivers</text></svg>',
-    "bovada": '<svg class="logo-sportsbook" viewBox="0 0 65 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">Bovada</text></svg>',
-    "betonlineag": '<svg class="logo-sportsbook" viewBox="0 0 85 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">BetOnline</text></svg>',
 }
 
 
