@@ -9,17 +9,17 @@
   "board": [
     {
       "ticker": "KXOSCARNOMMAKEUP-27-CLA",
-      "title": "Makeup and Hairstyling Oscar noms coming in 2027",
+      "title": "Which film gets an Oscar nomination for Best Makeup and Hairstyling?",
       "subtitle": "In 2027",
       "payout": 2.33,
       "tier": "green",
-      "quip": "outrageously plausible",
+      "quip": "The Riders of Rohan were local horse girls in beards. confirmed.",
       "yes_price": "0.4300",
       "volume": 2560.72,
       "category": "Entertainment",
       "close_time": "2027-12-31T15:00:00Z",
       "url": "https://kalshi.com/markets/KXOSCARNOMMAKEUP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 97.0
+      "score": 97
     },
     {
       "ticker": "0xcf25ccc8360f3952139fb5e3f14cb9bb0636cb53d0e30e947321ceccab7e9780",
@@ -27,14 +27,14 @@
       "subtitle": "",
       "payout": 2.41,
       "tier": "green",
-      "quip": "number go down, as the prophecy foretold",
+      "quip": "just as the prophecy foretold",
       "yes_price": "0.4150",
       "volume": 971787.3107450008,
       "category": "Crypto",
       "close_time": "2027-01-01T05:00:00Z",
       "url": "https://polymarket.com/event/what-price-will-ethereum-hit-before-2027",
       "platform": "polymarket",
-      "score": 30.0
+      "score": 30
     },
     {
       "ticker": "0x00893c3a27af62dcc162864433e896156c1088eec507437424fb726d2a11418e",
@@ -49,7 +49,7 @@
       "close_time": "2026-05-16T00:00:00Z",
       "url": "https://polymarket.com/event/eurovision-2026-top-5",
       "platform": "polymarket",
-      "score": 45.0
+      "score": 45
     },
     {
       "ticker": "KXLIGUE1GAME-26MAY17OMREN-REN",
@@ -63,7 +63,7 @@
       "category": "Sports",
       "close_time": "2026-05-31T19:00:00Z",
       "url": "https://kalshi.com/markets/KXLIGUE1GAME?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 127.0
+      "score": 127
     },
     {
       "ticker": "KXLALIGA1H-26MAY17BARRBB-RBB",
@@ -73,11 +73,11 @@
       "tier": "yellow",
       "quip": "bold opening statement from a team that simply will not",
       "yes_price": "0.1800",
-      "volume": 0.0,
+      "volume": 0,
       "category": "Sports",
       "close_time": "2026-05-31T17:00:00Z",
       "url": "https://kalshi.com/markets/KXLALIGA1H?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 62.0
+      "score": 62
     },
     {
       "ticker": "0x49b5da64dea470e2840929ba0a747acbb6d9652af3998062ae06920dbb6a4d26",
@@ -85,14 +85,14 @@
       "subtitle": "",
       "payout": 6.45,
       "tier": "yellow",
-      "quip": "the machines are assembling their r\u00e9sum\u00e9s",
+      "quip": "WWF but make it computers ",
       "yes_price": "0.1550",
       "volume": 8072.895158999998,
       "category": "Science and Technology",
       "close_time": "2026-09-30T00:00:00Z",
       "url": "https://polymarket.com/event/will-any-ai-model-reach-overall-arena-score-by-september-30",
       "platform": "polymarket",
-      "score": 48.0
+      "score": 48
     },
     {
       "ticker": "0x718b2af2d2b6588ed650d191bf65fe598d70f0b870761ba4a9669bc5d63db2b6",
@@ -100,14 +100,14 @@
       "subtitle": "",
       "payout": 12.12,
       "tier": "orange",
-      "quip": "in other news: tide comes in, tide goes out, no one can explain it",
+      "quip": "in other news: tide comes in, tide goes out",
       "yes_price": "0.0825",
       "volume": 89617.59847899998,
       "category": "Other",
       "close_time": "2026-05-22T16:00:00Z",
       "url": "https://polymarket.com/event/elon-musk-of-tweets-may-15-may-22",
       "platform": "polymarket",
-      "score": 53.0
+      "score": 53
     },
     {
       "ticker": "KXMODELHIGH-27-1550-GROK",
@@ -115,13 +115,13 @@
       "subtitle": "Before 2027",
       "payout": 14.29,
       "tier": "orange",
-      "quip": "Rudy can't fail, but Grok might",
+      "quip": "Elon with the come from behind AI victory ",
       "yes_price": "0.0700",
       "volume": 6419.1,
       "category": "Science and Technology",
       "close_time": "2027-01-01T15:00:00Z",
       "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 122.0
+      "score": 122
     },
     {
       "ticker": "KXNATIONALIZESPACEX-26-JUL01",
@@ -129,19 +129,19 @@
       "subtitle": "Before 2026",
       "payout": 33.33,
       "tier": "red",
-      "quip": "in other news: NASA pivoting to crypto",
+      "quip": "in other news: the SEC mining bitcoin on their Lenovo Thinkpads",
       "yes_price": "0.0300",
       "volume": 24465.24,
       "category": "World",
       "close_time": "2026-07-01T03:59:00Z",
       "url": "https://kalshi.com/markets/KXNATIONALIZESPACEX?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 137.0
+      "score": 137
     },
     {
       "ticker": "0xc6564d7fc7bb20de273fd8383fa95322a1323c18bdd3b59e04ff1140e48d04a9",
       "title": "Michael Younger wins California Governor in 2026",
       "subtitle": "",
-      "payout": 400.0,
+      "payout": 400,
       "tier": "purple",
       "quip": "Carly Rae Jepsen has better odds",
       "yes_price": "0.0025",
@@ -150,7 +150,7 @@
       "close_time": "2026-11-03T00:00:00Z",
       "url": "https://polymarket.com/event/california-governor-election-2026",
       "platform": "polymarket",
-      "score": 45.0
+      "score": 45
     }
   ]
 }
