@@ -709,5 +709,50 @@
     "tier": "purple",
     "original_quip": "the clay court has not received this memo",
     "editor_quip": "we call this a tennis 10xer "
+  },
+  {
+    "date": "2026-05-15",
+    "title": "Ethereum drops to $1,500 by end of 2026",
+    "category": "Crypto",
+    "payout": 2.41,
+    "tier": "green",
+    "original_quip": "number go down, as the prophecy foretold",
+    "editor_quip": "just as the prophecy foretold"
+  },
+  {
+    "date": "2026-05-15",
+    "title": "An AI model hits 1550 Arena Score by September",
+    "category": "Science and Technology",
+    "payout": 6.45,
+    "tier": "yellow",
+    "original_quip": "the machines are assembling their r\u00e9sum\u00e9s",
+    "editor_quip": "WWF but make it computers "
+  },
+  {
+    "date": "2026-05-15",
+    "title": "Elon posts exactly 200\u2013219 tweets in a week",
+    "category": "Other",
+    "payout": 12.12,
+    "tier": "orange",
+    "original_quip": "in other news: tide comes in, tide goes out, no one can explain it",
+    "editor_quip": "in other news: tide comes in, tide goes out"
+  },
+  {
+    "date": "2026-05-15",
+    "title": "Grok is first to hit 1550 on Text Arena",
+    "category": "Science and Technology",
+    "payout": 14.29,
+    "tier": "orange",
+    "original_quip": "Rudy can't fail, but Grok might",
+    "editor_quip": "Elon with the come from behind AI victory "
+  },
+  {
+    "date": "2026-05-15",
+    "title": "Trump nationalizes SpaceX",
+    "category": "World",
+    "payout": 33.33,
+    "tier": "red",
+    "original_quip": "in other news: NASA pivoting to crypto",
+    "editor_quip": "in other news: the SEC mining bitcoin on their Lenovo Thinkpads"
   }
 ]
