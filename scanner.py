@@ -1255,6 +1255,87 @@ def build_pool_sample():
     return sample
 
 
+def _load_recent_quip_anti_corpus(days_back=7, max_verbatim=20, max_formulas=15):
+    """Read recent board files and build a 'do not echo' anti-corpus.
+
+    Per-board, Claude is told not to repeat structures, but it has no memory
+    across days, so the same formulas keep returning (e.g. on 2026-05-09..15:
+    "tuesday energy" 5x; "[player] can't carry the whole city of [team]" 7x;
+    "has entered the chat" 3x).
+
+    This loads all quips from the last `days_back` days of board JSON, finds
+    verbatim repeats and frequent 4-grams, and returns a compact prompt
+    section. If no boards or the dir is missing, returns an empty string —
+    caller treats the section as optional.
+    """
+    import glob, re
+    from collections import Counter
+    from datetime import datetime, timedelta, timezone
+
+    boards_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "boards")
+    if not os.path.isdir(boards_dir):
+        return ""
+
+    today_utc = datetime.now(timezone.utc).date()
+    recent_dates = [(today_utc - timedelta(days=i)).isoformat() for i in range(days_back)]
+
+    quips = []
+    for d in recent_dates:
+        for path in glob.glob(os.path.join(boards_dir, f"*{d}.json")):
+            try:
+                with open(path) as f:
+                    data = json.load(f)
+            except Exception:
+                continue
+            for m in data.get("board", []):
+                q = (m.get("quip") or "").strip()
+                if q:
+                    quips.append(q)
+
+    if not quips:
+        return ""
+
+    # Verbatim repeats — any quip that already shipped more than once
+    whole = Counter(quips)
+    verbatim = sorted(
+        [q for q, c in whole.items() if c >= 2],
+        key=lambda q: -whole[q],
+    )[:max_verbatim]
+
+    # Recurring 4-grams — captures formula recycling across different surface
+    # words. Dedupe quips first so a 2x-repeated quip's n-grams don't all
+    # masquerade as "formulas." We want patterns that span DIFFERENT quips.
+    def tokens(s):
+        return re.findall(r"[a-z0-9']+", s.lower())
+    unique_quips = list({q for q in quips})
+    ngrams = Counter()
+    for q in unique_quips:
+        seen_in_q = set()
+        t = tokens(q)
+        for i in range(len(t) - 3):
+            g = " ".join(t[i:i + 4])
+            if g not in seen_in_q:
+                seen_in_q.add(g)
+                ngrams[g] += 1
+    formulas = [ng for ng, c in ngrams.most_common(50) if c >= 2][:max_formulas]
+
+    if not verbatim and not formulas:
+        return ""
+
+    lines = ["", "ANTI-CORPUS — phrasings that already shipped in the last "
+             f"{days_back} days. Do NOT echo any of these. Find a new angle."]
+    if verbatim:
+        lines.append("Verbatim quips already used:")
+        for q in verbatim:
+            lines.append(f'  - "{q}"')
+    if formulas:
+        lines.append("Recurring 4-word patterns (these are formula skeletons — "
+                     "the surface words may differ but the shape is burned):")
+        for ng in formulas:
+            lines.append(f'  - "{ng}"')
+    return "\n".join(lines)
+
+
 def match_quips_ai(board):
     """Generate quips for each bet using the style guide + pool as tone reference.
     Falls back to hash-based quips from the pool if the API call fails.
@@ -1263,6 +1344,7 @@ def match_quips_ai(board):
     - Style guide provides editorial principles and creative direction
     - Pool quips provide tone/voice anchoring (what Dollar Bets sounds like)
     - Claude generates fresh quips that follow the principles and match the voice
+    - Recent-board anti-corpus suppresses cross-day formula recycling
     """
     if not ANTHROPIC_API_KEY:
         print("[scanner] No ANTHROPIC_API_KEY set, keeping hash-based quips", file=sys.stderr)
@@ -1276,13 +1358,23 @@ def match_quips_ai(board):
     pool_sample = build_pool_sample()
     pool_lines = "\n".join(f"- {q}" for q in pool_sample)
 
-    # Build market list with context for title rewriting
+    # Recent-board anti-corpus — phrases/formulas Claude shipped in the last 7
+    # days that it should now retire. Empty string if no boards on disk yet.
+    anti_corpus = _load_recent_quip_anti_corpus(days_back=7)
+
+    # Build market list with context for title rewriting.
+    # yes_outcome is the *explicit* label of what the YES side resolves to —
+    # without it Claude can describe the opposite outcome on sports vs. markets
+    # (e.g., naming the marquee club when the YES is the underdog).
     market_lines = []
     for i, m in enumerate(board):
         yes_price = m.get("yes_price", "?")
+        yes_outcome = m.get("yes_sub_title") or ""
+        yes_clause = f'YES_RESOLVES_TO: "{yes_outcome}", ' if yes_outcome else ""
         market_lines.append(
             f'{i+1}. "{m["title"]}" '
             f'(${m["payout"]} payout, yes_price: {yes_price}, '
+            f'{yes_clause}'
             f'category: {m.get("category", "n/a")}, '
             f'tier: {m.get("tier", "n/a")}, '
             f'platform: {m.get("platform", "kalshi")})'
@@ -1302,11 +1394,11 @@ You have TWO jobs for each bet:
 {guide_section}
 
 TITLE REWRITING RULES:
-- The payout shown is always for the YES outcome. Your title should be a declarative statement framing the YES side as the bet (e.g., "Will X happen?" becomes "X is happening" or "X to happen this week")
-- NEVER phrase as a question. Always declarative: "Raptors beat the Cavs tonight", not "Will the Raptors beat the Cavaliers?"
+- The payout shown is always for the YES outcome. Your title MUST describe the YES outcome as the bet — never the NO side, never the other team, never a creative reframe that flips which side wins. If YES_RESOLVES_TO is given, the title must agree with it. Getting this wrong means the headline sells one bet while the link buys the opposite — a trust-breaking inversion (see 2026-05-15 Marseille/Rennais incident).
+- For sports vs. markets specifically: the side named in YES_RESOLVES_TO is the side that wins in your title. If YES_RESOLVES_TO says "Stade Rennais", the headline is about Rennais winning, even if Marseille is the more famous club. No editorial liberty here.
+- NEVER phrase as a question. Always declarative: "Will X happen?" becomes "X is happening". "Raptors beat the Cavs tonight", not "Will the Raptors beat the Cavaliers?"
 - Replace specific dates with common language: "today", "tonight", "this week", "this month", "this year", "on election day", etc. People can see exact details on the platform
 - Drop unnecessary detail, ticker codes, time ranges, and jargon. Give people shorthand
-- For sports "vs." markets: pick a side. The side that makes the best dollar bet story — could be the favourite winning or an underdog pulling it off, depending on cultural context, the news cycle, and what makes a more interesting headline
 - For "Will X do Y?" markets: make it declarative — "X does Y" or "X to do Y"
 - Keep it punchy. Shorter is better. 3-10 words ideal
 - The title should make sense on its own without needing the quip
@@ -1328,6 +1420,7 @@ QUIP RULES:
 - NEVER use vague irony that hedges without committing to a specific reference or stance
 - NEVER use alarmed or earnest metaphors for serious topics — the voice is dry and flat, seriousness comes through specificity
 - NEVER recycle a formula you've used before — every quip is a unique editorial slot
+{anti_corpus}
 
 Return a JSON array of {len(board)} objects, each with "title" and "quip" keys.
 Example: [{{"title": "Raptors beat the Cavs tonight", "quip": "fine, sure, whatever"}}]
@@ -1649,6 +1742,13 @@ def build_board(events, poly_candidates=None):
             "ticker": best_market.get("ticker", ""),
             "title": display_title,
             "subtitle": event.get("sub_title", ""),
+            # yes_sub_title is the human-readable label of what YES resolves to
+            # (e.g., "Stade Rennais" for a sub-market `…-REN`). Critical for the
+            # title-rewrite prompt: without it Claude can describe the wrong side
+            # of a sports vs. market and the headline ends up contradicting the
+            # actual bet (see 2026-05-15 Marseille/Rennais inversion).
+            "yes_sub_title": best_market.get("yes_sub_title", ""),
+            "no_sub_title": best_market.get("no_sub_title", ""),
             "payout": payout,
             "tier": tier,
             "quip": quip,
