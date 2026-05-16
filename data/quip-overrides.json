@@ -754,5 +754,68 @@
     "tier": "red",
     "original_quip": "in other news: NASA pivoting to crypto",
     "editor_quip": "in other news: the SEC mining bitcoin on their Lenovo Thinkpads"
+  },
+  {
+    "date": "2026-05-16",
+    "title": "Nirav Shah wins Maine's Democratic gubernatorial primary",
+    "category": "World",
+    "payout": 2.33,
+    "tier": "green",
+    "original_quip": "crazier things have happened",
+    "editor_quip": "here's me suddenly caring about the democratic process"
+  },
+  {
+    "date": "2026-05-16",
+    "title": "A supervolcano erupts before 2050",
+    "category": "Climate and Weather",
+    "payout": 4.17,
+    "tier": "yellow",
+    "original_quip": "in other news: the DMV modernizes its website by Tuesday",
+    "editor_quip": "look let's just call it an insurance policy"
+  },
+  {
+    "date": "2026-05-16",
+    "title": "The Oscars add a casting category in 2027",
+    "category": "Entertainment",
+    "payout": 5.26,
+    "tier": "yellow",
+    "original_quip": "the extras have waited long enough",
+    "editor_quip": "the extras have waited a long, long time for this"
+  },
+  {
+    "date": "2026-05-16",
+    "title": "Bitcoin hits $130K this year",
+    "category": "Crypto",
+    "payout": 8,
+    "tier": "orange",
+    "original_quip": "money printer go brrrr",
+    "editor_quip": "the crypto bros are beginning a drum circle "
+  },
+  {
+    "date": "2026-05-16",
+    "title": "NASA puts someone on the Moon before 2028",
+    "category": "Science and Technology",
+    "payout": 11.11,
+    "tier": "orange",
+    "original_quip": "the schedule says First Man, the calendar says Interstellar",
+    "editor_quip": "probably to build AI data centers "
+  },
+  {
+    "date": "2026-05-16",
+    "title": "Powell exits as Fed Chair this week",
+    "category": "Science and Technology",
+    "payout": 44.44,
+    "tier": "red",
+    "original_quip": "in other news: the Fed discovers a chill pill",
+    "editor_quip": "old man money printer"
+  },
+  {
+    "date": "2026-05-16",
+    "title": "Musk posts exactly 140-164 tweets in three days",
+    "category": "Other",
+    "payout": 181.82,
+    "tier": "purple",
+    "original_quip": "naming a more precise way to waste $181",
+    "editor_quip": "name a more specific way to waste $181, I'll wait "
   }
 ]
