@@ -25,3 +25,4 @@ vercel-debug.txt
 # Local credentials never checked in
 credentials.json
 secrets.json
+data/corpus/

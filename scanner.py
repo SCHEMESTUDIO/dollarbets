@@ -25,6 +25,55 @@ ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 TARGET_PICKS = 10
 
 
+# Action verbs we treat as "specific predicted actions" — used both by
+# score_specificity (for verb-bonus on individual titles) and by the
+# entity-verb corpus (for tracking which verbs co-occur with which entities).
+#
+# Two groups:
+#   - institutional/state actions: says, fires, signs, approves, indicts...
+#     (in-character for politicians/officials — common)
+#   - behavioral/personal actions: dances, wears, rides, kisses, marries...
+#     (off-script for institutional figures — when paired with a politician,
+#     the (entity, verb) corpus will flag them as surprising)
+#
+# Module-level so _extract_verbs_from_title can share it.
+ACTION_VERBS = {
+    # Institutional / state actions
+    "say", "says", "mention", "mentions", "operate", "operates",
+    "expand", "expands", "launch", "launches", "announce", "announces",
+    "sign", "signs", "become", "becomes", "pass", "passes", "fail", "fails",
+    "drop", "drops", "rise", "rises", "hit", "hits",
+    "appear", "appears", "perform", "performs", "release", "releases",
+    "file", "files", "join", "joins", "leave", "leaves",
+    "test", "tests", "approve", "approves", "reject", "rejects",
+    "endorse", "endorses", "fire", "fires", "resign", "resigns",
+    "name", "names", "buy", "buys", "acquire", "acquires", "settle", "settles",
+    "issue", "issues", "block", "blocks", "veto", "vetoes",
+    "indict", "indicts", "convict", "convicts", "pardon", "pardons",
+    # Behavioral / personal actions — signal off-script weirdness when
+    # paired with figures we usually see doing institutional things
+    "dance", "dances", "wear", "wears", "ride", "rides",
+    "kiss", "kisses", "marry", "marries", "divorce", "divorces",
+    "cry", "cries", "sing", "sings", "tweet", "tweets",
+    "post", "posts", "stream", "streams", "skydive", "skydives",
+    "surf", "surfs", "fight", "fights", "punch", "punches",
+    "convert", "converts", "baptize", "baptizes",
+    "appear", "appears",
+    "die", "dies", "survive", "survives",
+}
+
+# Words that are commonly capitalized but aren't entity names (sentence-initial
+# question words). Used to filter the entity extractor's false-positive on
+# titles like "Will the Lakers beat the Warriors?" → entity list excludes Will.
+_NOT_AN_ENTITY = {
+    "will", "does", "is", "are", "has", "have", "can", "could",
+    "would", "should", "what", "who", "when", "where", "how", "why",
+    "the", "a", "an", "this", "that", "these", "those",
+    "if", "or", "and", "but", "by", "on", "in", "at", "to", "of",
+    "us", "uk",  # ambiguous — usually country code, sometimes ourselves; better to drop
+}
+
+
 def kalshi_url(ticker):
     """Build a Kalshi market URL with referral tracking."""
     return f"https://kalshi.com/markets/{ticker}?referral={KALSHI_REFERRAL}"
@@ -130,44 +179,72 @@ def _poly_api_get(path, params=None):
             return None
 
 
-def fetch_polymarket_markets(max_markets=2000):
-    """Fetch active markets from Polymarket's Gamma API.
-
-    Caps at max_markets to avoid timeouts and excessive API calls.
-    Polymarket has 10,000+ markets — we only need the most liquid ones.
-    Sorted by volume descending so we get the best markets first.
+def _poly_fetch_sorted(order, max_n, label):
+    """Pull active Polymarket markets sorted by `order` (e.g. 'volume',
+    'startDate'), descending, up to max_n. Returns a list of market dicts.
+    Used by fetch_polymarket_markets to do the two-pass volume+recency crawl.
     """
-    all_markets = []
+    results = []
     offset = 0
     limit = 100
-
-    while len(all_markets) < max_markets:
+    while len(results) < max_n:
         try:
             data = _poly_api_get("/markets", {
                 "active": "true",
                 "closed": "false",
                 "limit": str(limit),
                 "offset": str(offset),
-                "order": "volume",
+                "order": order,
                 "ascending": "false",
             })
         except Exception as e:
-            print(f"[scanner:poly] Fetch error at offset {offset}: {e}", file=sys.stderr)
+            print(f"[scanner:poly:{label}] Fetch error at offset {offset}: {e}", file=sys.stderr)
             break
-
         if not data or not isinstance(data, list):
             break
-
-        all_markets.extend(data)
-        print(f"[scanner:poly] Markets page: {len(data)} (total: {len(all_markets)})", file=sys.stderr)
-
+        results.extend(data)
         if len(data) < limit:
             break
         offset += limit
         time.sleep(0.2)  # respect rate limits
+    return results[:max_n]
 
-    print(f"[scanner:poly] Fetched {len(all_markets)} markets (cap: {max_markets})", file=sys.stderr)
-    return all_markets
+
+def fetch_polymarket_markets(max_volume=1500, max_recency=1000):
+    """Two-pass crawl: top by volume + top by startDate desc, deduped.
+
+    Why two passes (added 2026-05-16): single volume-sort systematically
+    misses the weird/niche markets — they sit below the top-N-by-volume
+    cutoff and never enter our candidate pool. The recency pass surfaces
+    newly listed markets before they accrue volume, which is where the
+    "discover a small but fun market" value happens.
+
+    Gamma API is rate-limited but free of $ cost; the only price is wall
+    clock. ~25 API calls total, ~5 seconds extra scan time. No effect on
+    Anthropic token spend (quip generation runs once on the final ~10
+    selected markets, not per candidate).
+    """
+    volume_markets = _poly_fetch_sorted("volume", max_volume, "volume")
+    recent_markets = _poly_fetch_sorted("startDate", max_recency, "recency")
+
+    seen = set()
+    combined = []
+    for m in volume_markets + recent_markets:
+        cid = m.get("conditionId")
+        if cid and cid not in seen:
+            seen.add(cid)
+            combined.append(m)
+        elif not cid:
+            # Some markets may be missing conditionId — keep them but they
+            # might dedupe against each other. Rare edge case.
+            combined.append(m)
+
+    print(
+        f"[scanner:poly] Two-pass crawl: {len(volume_markets)} by-volume + "
+        f"{len(recent_markets)} by-recency = {len(combined)} unique markets",
+        file=sys.stderr,
+    )
+    return combined
 
 
 def normalize_poly_market(pm):
@@ -317,11 +394,26 @@ def normalize_poly_market(pm):
         except (ValueError, TypeError):
             pass
 
+    # Lever 6 (specificity) — same signal works for Polymarket titles.
+    # Polymarket doesn't get lever 4 (no series concept in opaque conditionId
+    # tickers) but it gets lever 1 (via score_cultural_hook) and now lever 6.
+    # Lever 7 (entity-verb surprise) also applies — entity extraction is
+    # platform-agnostic. Loaded lazily here so we don't burn the I/O on every
+    # individual normalize call; the cost is one fs scan per scan run
+    # because Python caches the function call inside the same interpreter.
+    specificity = score_specificity(question)
+    # Soften the tradability ghost-town penalty same way we do for Kalshi
+    if specificity >= 15 and trad_score < -5:
+        trad_score = -5
+    # Note: entity-verb surprise for Polymarket is computed in build_board
+    # post-merge so we share the corpus load with Kalshi. Until then leave
+    # the per-market score without it; build_board will patch it in.
     editorial_score = (
         hook_score
         + score_payout_drama(payout)
         + fresh_score
         + trad_score
+        + specificity
     )
 
     quip = generate_quip(question, category)
@@ -337,6 +429,7 @@ def normalize_poly_market(pm):
         "volume": volume,
         "category": category,
         "close_time": end_date,
+        "_specificity": specificity,
         "url": market_url,
         "platform": "polymarket",
         "score": editorial_score,
@@ -498,36 +591,42 @@ def score_cultural_hook(event):
     category = (event.get("category") or "").lower()
     full_text = f"{title} {subtitle}"
 
-    # Categories normal people care about
-    fun_categories = ["entertainment", "culture", "science", "climate", "weather",
-                      "sports", "tech", "world"]
-    niche_categories = ["fed", "treasury", "gdp", "inflation", "interest rate",
-                        "economics", "financial"]
+    # Category-bucket scoring removed 2026-05-16: bucket labels correlate with
+    # mainstream-ness, not with weirdness. Privileging "entertainment / sports
+    # / tech" was systematically biasing boards toward the boring middle.
+    # Topic-level filtering now lives in the text-based jargon penalty below
+    # (which catches hostile content like "basis points" / "GDP" by text, not
+    # category) and in the weird/mainstream keyword tiers. A market in
+    # category="Other" or "Companies" or "Education" now competes on merit.
 
-    for cat in fun_categories:
-        if cat in category:
-            score += 15
-            break
-
-    for cat in niche_categories:
-        if cat in category:
-            score -= 20
-            break
-
-    # Names and topics people actually talk about
-    watercooler = [
-        "elon", "trump", "taylor swift", "bitcoin", "snow",
-        "earthquake", "ufo", "alien", "ai", "robot",
-        "tiktok", "record", "first", "ever", "celebrity",
-        "kanye", "drake", "super bowl", "oscar", "grammy",
-        "olympics", "mars", "moon", "asteroid", "pope",
-        "viral", "meme", "scandal", "hurricane", "volcano",
-        "spacex", "tesla", "apple", "google", "netflix",
-        "nuclear", "war", "peace", "extinct", "banned",
-        "nba", "nfl", "mlb", "world cup", "premier league",
+    # Lever 1 (2026-05-16): split the flat "watercooler" keyword list into two
+    # tiers. The old flat list treated "alien" and "NFL" identically — which is
+    # why boards trended mainstream/boring. The weird tier (rare events, specific
+    # surprises, things you'd actually screenshot) outweighs the mainstream tier
+    # (sports/celebrity proper nouns you see in every headline every day).
+    weird_keywords = [
+        "alien", "ufo", "asteroid", "meteor", "comet", "eclipse", "tornado",
+        "mars", "moon", "pope", "volcano", "hurricane", "earthquake",
+        "extinct", "banned", "record", "ever", "first", "scandal", "viral",
+        "meme", "nuclear", "peace", "snow", "miracle",
     ]
-    kw_hits = sum(1 for kw in watercooler if kw in full_text)
-    score += min(kw_hits * 8, 20)  # diminishing returns, cap at 20
+    mainstream_keywords = [
+        "elon", "trump", "taylor swift", "kanye", "drake", "bitcoin",
+        "ai", "robot", "tiktok", "celebrity", "super bowl", "oscar",
+        "grammy", "olympics", "spacex", "tesla", "apple", "google",
+        "netflix", "nba", "nfl", "mlb", "world cup", "premier league",
+        "war",
+    ]
+    # Word-boundary regex so short keywords don't substring-match arbitrary
+    # words. Caught 2026-05-16: "war" was matching "Warriors", "ai" was
+    # matching "said"/"rail"/"Spain"/"wait" — basically every word with two
+    # vowels. Now "war" only matches the word "war".
+    def _kw_hit(kw, text):
+        return re.search(rf"\b{re.escape(kw)}\b", text)
+    weird_hits = sum(1 for kw in weird_keywords if _kw_hit(kw, full_text))
+    mainstream_hits = sum(1 for kw in mainstream_keywords if _kw_hit(kw, full_text))
+    score += min(weird_hits * 12, 24)        # 2 hits maxes — weird is the lever
+    score += min(mainstream_hits * 3, 9)     # 3 hits maxes — mainstream is light seasoning
 
     # Title readability — shorter = punchier = more shareable
     if len(title) < 50:
@@ -541,23 +640,39 @@ def score_cultural_hook(event):
     if "?" in title:
         score += 5
 
-    # Penalize jargon that makes eyes glaze over
-    jargon = ["basis points", "yield curve", "quarterly", "index",
-              "benchmark", "fiscal", "monetary", "regulatory",
-              "seasonally adjusted", "year-over-year", "bps"]
+    # Penalize macro/finance jargon that reads like a Bloomberg headline.
+    # Word-boundary regex so "index" doesn't catch "indexed" / "indexing"
+    # and "monetary" doesn't catch arbitrary substrings. "index" itself
+    # removed 2026-05-16 — was over-broad (matched "Bitcoin Volatility
+    # Index", "Hurricane Wind Index" etc., which are perfectly fine markets).
+    jargon = [
+        "basis points", "yield curve", "quarterly", "benchmark",
+        "fiscal", "monetary", "regulatory", "seasonally adjusted",
+        "year-over-year", "bps",
+    ]
     for kw in jargon:
-        if kw in full_text:
+        # Use word-boundary so short tokens like "bps" don't accidentally
+        # match inside longer words. Compiled per-iter is fine for ~10 items.
+        if re.search(rf"\b{re.escape(kw)}\b", full_text):
             score -= 20
             break
 
-    # Penalize niche sports/esports that nobody outside the fandom cares about
-    niche_sports = ["handicap", "esports", "bo3", "bo5", "map 1", "map 2",
-                    "round ", "pistol round", "game handicap", "set handicap",
-                    "corners over", "corners under", "total kills",
-                    "first blood", "first tower", "flyweight", "bantamweight",
-                    "main card", "prelim", "serie b", "ligue 2", "2. bundesliga",
-                    "pisa sc", "championship", "eredivisie"]
-    niche_hits = sum(1 for kw in niche_sports if kw in full_text)
+    # Penalize niche sports/esports jargon. Word-boundary regex so "round "
+    # doesn't match "around" / "Roundup" / "groundbreaking". "championship"
+    # removed 2026-05-16 — was crushing legitimate major-sport titles
+    # ("NFL championship game", "NBA Eastern Conference Championship").
+    niche_sports = [
+        "handicap", "esports", "bo3", "bo5", "map 1", "map 2",
+        "round", "pistol round", "game handicap", "set handicap",
+        "corners over", "corners under", "total kills",
+        "first blood", "first tower", "flyweight", "bantamweight",
+        "main card", "prelim", "serie b", "ligue 2", "2. bundesliga",
+        "pisa sc", "eredivisie",
+    ]
+    niche_hits = sum(
+        1 for kw in niche_sports
+        if re.search(rf"\b{re.escape(kw)}\b", full_text)
+    )
     if niche_hits:
         score -= 25 * niche_hits
 
@@ -642,8 +757,12 @@ def score_tradability(market):
         score += 10
     elif volume > 1000:
         score += 5
-    elif volume < 10:
-        score -= 20  # ghost town
+    # Low-volume penalty removed 2026-05-16: small markets are the niche-gems
+    # James wants surfaced ("Vance says autism", "UT Austin ranking drops").
+    # The spread penalty later in this function is the real user-protection
+    # signal — wide spread = users get fleeced. Volume alone is a popularity
+    # proxy, not a quality signal. The lever-6 specificity reserve relies
+    # on this floor being gone.
 
     # Open interest — are people actually holding positions?
     try:
@@ -675,6 +794,78 @@ def score_tradability(market):
             score -= 15   # ugly spread, someone's getting fleeced
 
     return score
+
+
+def score_specificity(title):
+    """Pillar 6 (added 2026-05-16): detect 'question-shape specificity' — the
+    signal that distinguishes a market someone *crafted* from one that came
+    out of a template. Examples that should score high:
+      - "Vance says autism on Fox News today"           (entity + action + show + time)
+      - "Waymo operates in Detroit this year"           (corp + specific city + time)
+      - "UT Austin ranking drops this year"             (specific school + change + time)
+      - "Major meteor hits earth before 2030"           (singular event + deadline)
+      - "SNL says alien on Weekend Update this week"    (show + word + segment + time)
+
+    Examples that should score low:
+      - "Bitcoin above 100k by year end"                (template — same shape every day)
+      - "Lakers beat Warriors tonight"                  (template — vs. game)
+      - "Will the Fed cut rates?"                       (generic macro template)
+
+    Returns 0..20. Combines proper-noun density, time-window phrasing, action
+    verb presence, and a length sweet spot. The signals are noisy individually
+    but additively strong. NB: noisy enough that we still pair it with lever 4
+    (series-recurrence penalty) — a generic NBA-game title can rack up proper
+    nouns but its KXNBAGAME series will be docked for daily repetition.
+    """
+    import re
+    if not title:
+        return 0
+
+    score = 0
+    words = title.split()
+    n_words = len(words)
+
+    # Proper-noun density. Counts ALL capitalized words including word 0 —
+    # otherwise "Waymo operates in Detroit" loses a point because Waymo is
+    # sentence-initial. Title-case headlines from Kalshi don't typically
+    # capitalize prepositions/articles, so isupper() reliably catches named
+    # entities. Threshold of 3 minimizes false positives from generic
+    # sports titles ("Lakers beat Warriors") which already get docked via
+    # lever 4 series-recurrence anyway.
+    proper_nouns = sum(1 for w in words if w and w[0].isalpha() and w[0].isupper())
+    if proper_nouns >= 3:
+        score += 10
+    elif proper_nouns >= 2:
+        score += 5
+
+    title_l = title.lower()
+
+    # Time-window phrases — concrete deadline = specific question
+    time_patterns = [
+        r"\bthis (week|month|year|weekend)\b",
+        r"\btonight\b",
+        r"\bby (?:end of |the end of )?(?:20)?\d{2,4}\b",
+        r"\bbefore (?:20)?\d{2,4}\b",
+        r"\bby (?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\w*\b",
+        r"\bin (?:january|february|march|april|may|june|july|august|september|october|november|december)\b",
+    ]
+    if any(re.search(p, title_l) for p in time_patterns):
+        score += 5
+
+    # Action verbs — narrow predicted action vs. generic win/lose template.
+    # Module-level ACTION_VERBS set (defined near the top of this file) so
+    # the entity-verb corpus can reuse the same vocabulary.
+    tokens = set(re.findall(r"\b[a-z]+\b", title_l))
+    if tokens & ACTION_VERBS:
+        score += 5
+
+    # Length sweet spot — long enough to be specific, short enough to be punchy
+    if 6 <= n_words <= 14:
+        score += 5
+    elif n_words >= 25:
+        score -= 5  # rambling Polymarket-style legal-disclosure titles
+
+    return max(0, min(score, 20))
 
 
 # ── Quip library ────────────────────────────────────────────
@@ -1255,6 +1446,298 @@ def build_pool_sample():
     return sample
 
 
+def _load_recent_series_recurrence(days_back=7):
+    """Lever 4: count how many times each Kalshi series_ticker has shown up on
+    main boards in the last N days (today excluded). A series in the ticker is
+    the prefix before the first dash — e.g. KXBTCPRICE-26MAY16-12000 → series
+    KXBTCPRICE. Recurrent series are the structural-repetition pattern James
+    flagged: same-shaped daily question with different surface details (BTC
+    price every day, generic election every day, etc.).
+
+    Polymarket tickers are opaque condition IDs with no series structure, so
+    Polymarket markets get no recurrence penalty here. They still get penalized
+    via title-similarity dedup and the novelty bonus instead.
+    """
+    import glob
+    from collections import Counter
+    from datetime import datetime, timedelta, timezone
+
+    boards_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "boards")
+    if not os.path.isdir(boards_dir):
+        return Counter()
+
+    today_utc = datetime.now(timezone.utc).date()
+    counts = Counter()
+    for i in range(1, days_back + 1):
+        d = (today_utc - timedelta(days=i)).isoformat()
+        path = os.path.join(boards_dir, f"{d}.json")
+        if not os.path.exists(path):
+            continue
+        try:
+            with open(path) as f:
+                data = json.load(f)
+        except Exception:
+            continue
+        for m in data.get("board", []):
+            ticker = m.get("ticker") or ""
+            # Kalshi tickers start with KX...; Polymarket are 0x-hex
+            if not ticker.startswith("KX"):
+                continue
+            series = ticker.split("-", 1)[0]
+            counts[series] += 1
+    return counts
+
+
+# Words that show up in basically every headline — useless for novelty detection.
+_NOVELTY_STOPWORDS = {
+    "this", "that", "than", "with", "from", "will", "have", "been", "were",
+    "they", "them", "what", "when", "where", "into", "about", "before", "after",
+    "today", "tonight", "week", "month", "year", "team", "wins", "beat", "beats",
+    "over", "under", "their", "time", "last", "first", "next", "game", "season",
+    "final", "finals", "home", "away", "play", "plays", "good", "best", "most",
+    "more", "series", "match", "league", "tournament", "round", "score", "win",
+    "lose", "loss", "point", "points", "goal", "goals", "race", "make", "makes",
+    "take", "takes", "year",
+}
+
+
+def _load_recent_title_vocab(days_back=30):
+    """Lever 5: extract the set of content words used in recent board titles.
+    A market today whose title introduces words NOT in this set gets a novelty
+    bump — that's how truly-specific framings (e.g. "Trump in a yarmulke") rise
+    above template-recycled ones (e.g. "Lakers beat Warriors tonight").
+    """
+    import glob, re
+    from datetime import datetime, timedelta, timezone
+
+    boards_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "boards")
+    if not os.path.isdir(boards_dir):
+        return set()
+
+    today_utc = datetime.now(timezone.utc).date()
+    words = set()
+    for i in range(1, days_back + 1):
+        d = (today_utc - timedelta(days=i)).isoformat()
+        for path in glob.glob(os.path.join(boards_dir, f"*{d}.json")):
+            try:
+                with open(path) as f:
+                    data = json.load(f)
+            except Exception:
+                continue
+            for m in data.get("board", []):
+                title = (m.get("title") or "").lower()
+                for w in re.findall(r"[a-z]+", title):
+                    if len(w) >= 4 and w not in _NOVELTY_STOPWORDS:
+                        words.add(w)
+    return words
+
+
+def _score_recurrence_penalty(ticker, recent_series_counts):
+    """Lever 4 penalty: stack -8 per prior appearance of this Kalshi series,
+    capped at -24 (3+ prior days). Returns 0 for Polymarket / unknown tickers.
+    Keep modest — over-penalty would *exclude* sports/crypto entirely rather
+    than just rotating them. Tune after observing real boards.
+    """
+    if not ticker or not ticker.startswith("KX"):
+        return 0
+    series = ticker.split("-", 1)[0]
+    prior = recent_series_counts.get(series, 0)
+    if prior <= 0:
+        return 0
+    return -min(prior * 8, 24)
+
+
+def _score_novelty_bonus(title, recent_title_vocab):
+    """Lever 5 bonus: reward titles whose content words don't appear in any
+    recent board. +10 if ≥60% of content words are novel, +5 if any novel.
+    Returns 0 if no content words or vocab is empty (cold start)."""
+    import re
+    if not recent_title_vocab:
+        return 0
+    title_l = (title or "").lower()
+    content = [w for w in re.findall(r"[a-z]+", title_l)
+               if len(w) >= 4 and w not in _NOVELTY_STOPWORDS]
+    if not content:
+        return 0
+    novel = [w for w in content if w not in recent_title_vocab]
+    if not novel:
+        return 0
+    if len(novel) >= len(content) * 0.6:
+        return 10
+    return 5
+
+
+def _extract_entities_from_title(title):
+    """Crude named-entity extraction by capitalization. Returns a list of
+    lowercased entity strings (multi-word entities joined with spaces).
+
+    Heuristic:
+      - Run together consecutive capitalized words: "UT Austin" → "ut austin"
+      - Strip punctuation from each word
+      - Filter sentence-initial question words ("Will", "Does") via _NOT_AN_ENTITY
+      - Drop single-letter capitals and pure-numeric tokens
+
+    Imperfect but useful: catches Trump, UT Austin, Elon Musk, Stade Rennais,
+    Fox News etc. while filtering out "Will" / "The" / "A" sentence starters.
+    Returns lowercased so the corpus key-space doesn't fragment on case.
+    """
+    if not title:
+        return []
+    import re as _re
+    words = title.split()
+    entities = []
+    current = []
+    for w in words:
+        clean = _re.sub(r"[^A-Za-z0-9'-]", "", w)
+        if not clean:
+            if current:
+                entities.append(" ".join(current))
+                current = []
+            continue
+        if (clean[0].isupper() and len(clean) > 1
+                and clean.lower() not in _NOT_AN_ENTITY):
+            current.append(clean.lower())
+        else:
+            if current:
+                entities.append(" ".join(current))
+                current = []
+    if current:
+        entities.append(" ".join(current))
+    return entities
+
+
+def _extract_verbs_from_title(title):
+    """Pull action verbs out of a title (lowercased). Uses module-level
+    ACTION_VERBS so both score_specificity and the entity-verb corpus
+    operate on the same vocabulary."""
+    if not title:
+        return []
+    tokens = set(re.findall(r"\b[a-z]+\b", title.lower()))
+    return list(tokens & ACTION_VERBS)
+
+
+def _corpus_dir():
+    return os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "corpus")
+
+
+def dump_corpus_snapshot(events, poly_markets):
+    """Write today's crawl titles to data/corpus/YYYY-MM-DD.json so that
+    future scans can compute entity-verb co-occurrence over a rolling
+    window. Idempotent — overwriting the file is fine, today's data is
+    deterministically reproducible from the same crawl.
+
+    This is the *raw* crawl, not the filtered candidates. We want the full
+    breadth so an emerging entity can be detected before it ever ranks high
+    enough to enter the candidate pool.
+    """
+    cdir = _corpus_dir()
+    os.makedirs(cdir, exist_ok=True)
+    date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    path = os.path.join(cdir, f"{date}.json")
+
+    titles = []
+    for e in events or []:
+        t = (e.get("title") or "").strip()
+        if t:
+            titles.append({"text": t, "platform": "kalshi"})
+    for p in poly_markets or []:
+        t = (p.get("question") or "").strip()
+        if t:
+            titles.append({"text": t, "platform": "polymarket"})
+
+    with open(path, "w") as f:
+        json.dump({"date": date, "titles": titles}, f)
+    print(f"[scanner] Corpus snapshot: {len(titles)} titles -> {path}", file=sys.stderr)
+
+
+def _load_entity_verb_corpus(days_back=30):
+    """Read corpus snapshots from the last N days (today EXCLUDED — we
+    don't want today's scan to be its own history) and build:
+      - entity_counter: how many markets each entity has appeared in
+      - pair_counter: how many markets each (entity, verb) pair has appeared in
+      - days_loaded: how many days of corpus we actually found
+
+    Returns (entity_counter, pair_counter, days_loaded). All-zero counters
+    and days_loaded=0 if the corpus dir doesn't exist yet (cold start).
+    """
+    from collections import Counter
+    from datetime import datetime, timedelta, timezone
+
+    cdir = _corpus_dir()
+    entity_counter = Counter()
+    pair_counter = Counter()
+    days_loaded = 0
+    if not os.path.isdir(cdir):
+        return entity_counter, pair_counter, days_loaded
+
+    today = datetime.now(timezone.utc).date()
+    for i in range(1, days_back + 1):
+        d = (today - timedelta(days=i)).isoformat()
+        path = os.path.join(cdir, f"{d}.json")
+        if not os.path.exists(path):
+            continue
+        try:
+            with open(path) as f:
+                data = json.load(f)
+        except Exception:
+            continue
+        days_loaded += 1
+        for t in data.get("titles", []):
+            title = t.get("text") or ""
+            entities = _extract_entities_from_title(title)
+            verbs = _extract_verbs_from_title(title)
+            seen_entities_in_title = set()
+            for e in entities:
+                if e in seen_entities_in_title:
+                    continue  # don't double-count an entity that appears twice
+                seen_entities_in_title.add(e)
+                entity_counter[e] += 1
+                for v in verbs:
+                    pair_counter[(e, v)] += 1
+    return entity_counter, pair_counter, days_loaded
+
+
+# Cold-start floor: don't activate entity-verb surprise scoring until we have
+# at least this many days of corpus to compare against. With less, "every pair
+# is surprising" → everything gets boosted → signal is meaningless.
+_ENTITY_VERB_MIN_DAYS = 7
+# An entity must have appeared in at least this many markets in the corpus
+# window to count as "established enough that a new verb pairing is surprising."
+_ENTITY_FAME_FLOOR = 3
+
+
+def _score_entity_verb_surprise(title, entity_counter, pair_counter, days_loaded):
+    """Score the surprise of pairing a known entity with a rare-for-them verb.
+
+    +12 when an entity has appeared ≥ _ENTITY_FAME_FLOOR times in the corpus
+    but the (entity, this verb) pair appears 0 times — the off-brand action
+    case (Trump+dances when Trump-anything is common but Trump-dances never).
+    +6 when the pair appears 1-2 times — emerging unusual pattern.
+    0 otherwise (entity is new, or pair is well-established).
+
+    Returns 0 during cold start (insufficient corpus). Takes max across all
+    (entity, verb) combinations in the title.
+    """
+    if days_loaded < _ENTITY_VERB_MIN_DAYS:
+        return 0
+    entities = _extract_entities_from_title(title)
+    verbs = _extract_verbs_from_title(title)
+    if not entities or not verbs:
+        return 0
+    best = 0
+    for e in entities:
+        ecount = entity_counter.get(e, 0)
+        if ecount < _ENTITY_FAME_FLOOR:
+            continue  # entity not famous enough yet; this isn't a surprise
+        for v in verbs:
+            pcount = pair_counter.get((e, v), 0)
+            if pcount == 0:
+                best = max(best, 12)
+            elif pcount <= 2:
+                best = max(best, 6)
+    return best
+
+
 def _load_recent_quip_anti_corpus(days_back=7, max_verbatim=20, max_formulas=15):
     """Read recent board files and build a 'do not echo' anti-corpus.
 
@@ -1678,6 +2161,30 @@ def build_board(events, poly_candidates=None):
 
     scored_events.sort(key=lambda x: x[0], reverse=True)
 
+    # Lever 4 + 5 prep — load these once per build_board call so the per-market
+    # scoring loop can apply recurrence penalty and novelty bonus cheaply.
+    recent_series_counts = _load_recent_series_recurrence(days_back=7)
+    recent_title_vocab = _load_recent_title_vocab(days_back=30)
+    if recent_series_counts:
+        top_recurring = recent_series_counts.most_common(5)
+        print(f"[scanner] Recurring series in last 7d: {top_recurring}", file=sys.stderr)
+    if recent_title_vocab:
+        print(f"[scanner] Novelty vocab loaded: {len(recent_title_vocab)} content words from last 30d", file=sys.stderr)
+
+    # Lever 7 (added 2026-05-16): entity-verb co-occurrence surprise. Captures
+    # the "Trump dances to YMCA" pattern — famous entity paired with an
+    # off-brand verb. Cold-start safe: returns 0 until corpus has ≥7 days.
+    entity_counter, pair_counter, corpus_days = _load_entity_verb_corpus(days_back=30)
+    if corpus_days >= _ENTITY_VERB_MIN_DAYS:
+        top_entities = entity_counter.most_common(5)
+        print(f"[scanner] Entity-verb corpus: {corpus_days} days, "
+              f"{len(entity_counter)} entities, {len(pair_counter)} pairs. "
+              f"Top entities: {top_entities}", file=sys.stderr)
+    else:
+        print(f"[scanner] Entity-verb corpus: {corpus_days} days loaded — "
+              f"cold-start floor is {_ENTITY_VERB_MIN_DAYS}, surprise score disabled",
+              file=sys.stderr)
+
     # Step 2: Fetch markets for top ~100 events to get prices + tradability data
     top_n = min(100, len(scored_events))
     print(f"[scanner] Fetching prices for top {top_n} events...", file=sys.stderr)
@@ -1730,12 +2237,34 @@ def build_board(events, poly_candidates=None):
         quip = generate_quip(display_title, category)
 
         # === COMPOSITE EDITORIAL SCORE ===
-        # All five pillars combined
+        # Pillars + lever 4 (series-recurrence penalty) + lever 5 (novelty
+        # bonus) + lever 6 (specificity score). Lever 6 also softens the
+        # tradability penalty: low-volume + high-specificity is a "niche gem,"
+        # not a quality failure, and the old -20 penalty was killing exactly
+        # the markets we want (Vance/SNL/Waymo/meteor — all low-volume).
+        recurrence_penalty = _score_recurrence_penalty(
+            best_market.get("ticker", ""), recent_series_counts
+        )
+        novelty_bonus = _score_novelty_bonus(display_title, recent_title_vocab)
+        specificity = score_specificity(display_title)
+        ev_surprise = _score_entity_verb_surprise(
+            display_title, entity_counter, pair_counter, corpus_days
+        )
+        trad = score_tradability(best_market)
+        if specificity >= 15 and trad < -5:
+            # Cap the ghost-town penalty for high-specificity markets at -5
+            # instead of letting it sink to -20/-30. Keeps weird gems alive
+            # without throwing the gate wide open for genuinely dead markets.
+            trad = -5
         editorial_score = (
             hook_score * 2                          # cultural hook (2x weight — most important signal)
             + score_payout_drama(payout)            # payout drama
             + score_freshness(best_market, event)   # freshness
-            + score_tradability(best_market)         # tradability
+            + trad                                  # tradability (softened for specific markets)
+            + recurrence_penalty                    # lever 4: -8 per prior day same Kalshi series ran, cap -24
+            + novelty_bonus                         # lever 5: +5/+10 for titles with content words absent from last 30d
+            + specificity                           # lever 6: +0..20 for proper-noun density + time window + action verb + length
+            + ev_surprise                           # lever 7: +6/+12 entity-verb surprise (famous entity + verb we never see them paired with)
         )
 
         candidates.append({
@@ -1758,6 +2287,7 @@ def build_board(events, poly_candidates=None):
             "close_time": best_market.get("close_time") or best_market.get("expiration_time", ""),
             "url": kalshi_url(event.get('series_ticker', event_ticker)),
             "score": editorial_score,
+            "_specificity": specificity,
             "_source": "kalshi",
         })
 
@@ -1765,6 +2295,15 @@ def build_board(events, poly_candidates=None):
 
     # Step 2b: Merge Polymarket candidates (cross-platform dedup)
     if poly_candidates:
+        # Patch in entity-verb surprise + record _specificity onto poly
+        # candidates here so they share the corpus load with Kalshi. The
+        # normalize step ran without corpus access.
+        for pc in poly_candidates:
+            ev = _score_entity_verb_surprise(
+                pc.get("title", ""), entity_counter, pair_counter, corpus_days
+            )
+            if ev:
+                pc["score"] = pc.get("score", 0) + ev
         candidates = dedup_cross_platform(candidates, poly_candidates)
     else:
         print("[scanner] No Polymarket candidates to merge", file=sys.stderr)
@@ -1868,6 +2407,47 @@ def build_board(events, poly_candidates=None):
                 return True
         return False
 
+    # Pass 0: SPECIFICITY RESERVE — reserve up to 2 slots for the highest-
+    # specificity markets regardless of composite score. These are the
+    # "weird and wonderful" framings (Vance/SNL/Waymo/meteor pattern):
+    # specific entity + narrow action + concrete time window. The composite
+    # editorial_score alone systematically loses these to sports/celebrity
+    # markets that have higher volume and category bonuses.
+    #
+    # Constraints kept: category cap, title-dedup. Skipped: tier targets,
+    # quality floor (a specificity-15 market scoring 28 is still worth one
+    # of 10 slots — that's the whole point of the reserve).
+    #
+    # Pull from the full candidates pool sorted by _specificity, not just
+    # `eligible`, so genuinely-niche markets that fail QUALITY_FLOOR can
+    # still earn a slot here. Requires _specificity >= 12 (meaning at
+    # least 2-3 specificity signals fired).
+    SPECIFICITY_RESERVE_SLOTS = 2
+    SPECIFICITY_MIN = 12
+    weird_pool = sorted(
+        [c for c in candidates if c.get("_specificity", 0) >= SPECIFICITY_MIN],
+        key=lambda c: (-c.get("_specificity", 0), -c.get("score", 0)),
+    )
+    specificity_added = 0
+    for m in weird_pool:
+        if specificity_added >= SPECIFICITY_RESERVE_SLOTS:
+            break
+        if m.get("ticker") in used_tickers:
+            continue
+        if _is_title_dupe(m):
+            continue
+        # Reserve pass ignores tier targets but still respects category cap
+        if not _can_add(m, enforce_tier_target=False):
+            continue
+        _add_to_board(m)
+        specificity_added += 1
+    if specificity_added:
+        titles = [m["title"][:60] for m in board[-specificity_added:]]
+        print(f"[scanner] Specificity reserve filled {specificity_added}/{SPECIFICITY_RESERVE_SLOTS}: {titles}",
+              file=sys.stderr)
+    else:
+        print(f"[scanner] No candidates met specificity threshold ({SPECIFICITY_MIN}) — reserve empty", file=sys.stderr)
+
     # Pass 1: fill each tier up to its target
     for m in shuffled_pool:
         if m.get("ticker") in used_tickers:
@@ -1970,6 +2550,7 @@ def main():
 
         print("[scanner] Fetching markets from Polymarket...", file=sys.stderr)
         poly_candidates = []
+        poly_raw = []
         try:
             poly_raw = fetch_polymarket_markets()
             for pm in poly_raw:
@@ -1980,6 +2561,14 @@ def main():
         except Exception as e:
             print(f"[scanner:poly] FAILED — falling back to Kalshi only: {e}", file=sys.stderr)
             poly_candidates = []
+
+        # Dump today's crawl titles to the corpus so future scans can compute
+        # entity-verb co-occurrence over a rolling window. Best-effort —
+        # corpus failure shouldn't crash the scan.
+        try:
+            dump_corpus_snapshot(events, poly_raw)
+        except Exception as e:
+            print(f"[scanner] Corpus dump failed (non-fatal): {e}", file=sys.stderr)
 
         if not events and not poly_candidates:
             print("[scanner] No markets from either platform, falling back to sample", file=sys.stderr)
