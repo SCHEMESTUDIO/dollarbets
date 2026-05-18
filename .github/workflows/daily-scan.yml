@@ -2,13 +2,13 @@ name: Daily Board Scan
 
 on:
   schedule:
-    # Every 3 hours during US peak (13/16/19/22 UTC + 01/04 UTC next day).
-    # 6 runs/day, covering 9am ET morning through midnight ET late-night.
-    # ~75% reduction vs hourly. At ~100 Odds tokens/run × 6 runs = ~600/day,
-    # which lands ~13,200 tokens over a 22-day stretch — close to the
-    # remaining budget but with room for the occasional manual workflow_dispatch.
-    # 13:00 UTC also triggers the daily prediction-market scan (Kalshi/Polymarket).
-    - cron: '0 13,16,19,22,1,4 * * *'
+    # Six runs/day. Morning slot is 08:00 UTC = 9am London during BST
+    # (will read as 8am London during GMT — accepted tradeoff vs the
+    # complexity of a DST-aware check).
+    # 08:00 UTC triggers the daily prediction-market scan (Kalshi/Polymarket).
+    # The other five slots cover US peak hours for sports/combo refreshes.
+    # ~600 Odds API tokens/day total, well inside monthly budget.
+    - cron: '0 8,16,19,22,1,4 * * *'
   workflow_dispatch: # Allow manual trigger from GitHub UI
 
 env:
@@ -36,9 +36,9 @@ jobs:
           mkdir -p data/boards
           HOUR=$(date -u +%H)
           TODAY=$(date -u +%Y-%m-%d)
-          # Only run prediction market scan at 13:00 UTC or on manual trigger
-          if [ "$HOUR" != "13" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
-            echo "Skipping prediction market scan (hourly run, not 13:00 UTC)"
+          # Only run prediction market scan at 08:00 UTC (9am London BST) or on manual trigger
+          if [ "$HOUR" != "08" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
+            echo "Skipping prediction market scan (hourly run, not 08:00 UTC)"
             exit 0
           fi
           if [ -f "data/boards/${TODAY}.json" ]; then
