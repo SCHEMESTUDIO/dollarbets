@@ -147,6 +147,20 @@ SPORTSBOOK_DISPLAY_NAMES = {
     "betrivers": "BetRivers",
 }
 
+# Minimum age the user must acknowledge before being shown the outbound link.
+# Sportsbooks: 21 (US standard). Polymarket / Coinbase: 18 (non-US markets).
+# Kalshi: 21 to match the value in config/partners.json. Default for unknown
+# platforms is 21 (strictest, fail-safe).
+PLATFORM_MIN_AGE = {
+    "kalshi": 21,
+    "polymarket": 18,
+    "coinbase": 18,
+    "fanduel": 21,
+    "draftkings": 21,
+    "betmgm": 21,
+    "betrivers": 21,
+}
+
 
 def resolve_sportsbook_state(url, region_code, book_slug):
     """Replace {state} placeholder in sportsbook URLs with the user's state.
@@ -583,13 +597,19 @@ def unavailable_html(market_id, platform_display, user_country, partner_config,
 </html>"""
 
 
-def interstitial_html(platform_name, destination_url, market_id):
-    """Generate a jurisdiction warning interstitial page.
+def interstitial_html(platform_name, destination_url, market_id, min_age=21):
+    """Generate a jurisdiction warning interstitial page with age-gate overlay.
 
     All dynamic values are HTML-escaped so an attacker can't inject markup via
     crafted /go/ paths or poisoned board data. The outbound link carries
     rel="nofollow sponsored noopener noreferrer" — required for affiliate
     compliance and to strip the Referer header on the third-party hop.
+
+    The age-gate modal overlays the interstitial on first visit. A user who
+    acknowledges sets a `db_age_ack` cookie storing the highest age confirmed
+    (e.g. confirming 21+ also satisfies later 18+ gates). The gate is hidden
+    by client-side JS if the cookie meets the threshold — keeps the HTML
+    cacheable and the response stateless.
     """
     safe_platform = html.escape(str(platform_name or ""), quote=True)
     safe_market_id = html.escape(str(market_id or ""), quote=True)
@@ -597,6 +617,17 @@ def interstitial_html(platform_name, destination_url, market_id):
     # so embedded quotes can't break out. Scheme is already restricted to https
     # by _is_allowed_destination before we get here.
     safe_destination = html.escape(str(destination_url or ""), quote=True)
+    # min_age is from a server-controlled dict (PLATFORM_MIN_AGE), but coerce
+    # to int and clamp anyway so a stray value can't break the template or
+    # weaken the gate.
+    try:
+        gate_age = int(min_age)
+    except (TypeError, ValueError):
+        gate_age = 21
+    if gate_age < 18:
+        gate_age = 18
+    if gate_age > 21:
+        gate_age = 21
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -628,6 +659,43 @@ def interstitial_html(platform_name, destination_url, market_id):
   a.back {{ color: #a08b77; font-size: 12px; margin-left: 16px; }}
   a.back:hover {{ color: #6b5744; }}
   .fine {{ font-size: 11px; color: #a08b77; margin-top: 20px; }}
+
+  /* Age gate overlay */
+  #age-gate {{
+    display: none;
+    position: fixed; inset: 0;
+    background: rgba(45,35,25,0.94);
+    justify-content: center; align-items: center;
+    z-index: 9999; padding: 16px; box-sizing: border-box;
+  }}
+  #age-gate.show {{ display: flex; }}
+  .age-box {{
+    max-width: 380px; width: 100%; background: #faf7f3;
+    border: 2px solid #e8642c; padding: 24px;
+    font-family: 'Courier New', monospace;
+  }}
+  .age-box h2 {{
+    font-size: 16px; margin: 0 0 12px 0; color: #2d2319;
+    text-transform: lowercase; letter-spacing: -0.3px;
+  }}
+  .age-box p {{ font-size: 13px; line-height: 1.6; margin: 0 0 16px 0; color: #5a4e2f; }}
+  .age-box .actions {{ display: flex; gap: 8px; flex-wrap: wrap; }}
+  .age-box button {{
+    font-family: 'Courier New', monospace;
+    border: 2px solid #e8642c; color: #e8642c;
+    background: transparent; padding: 10px 16px;
+    font-size: 13px; font-weight: 700; cursor: pointer;
+    text-transform: lowercase;
+  }}
+  .age-box button:hover {{ background: #e8642c; color: #fdf6ee; }}
+  .age-box button.no {{
+    border-color: #a08b77; color: #a08b77;
+  }}
+  .age-box button.no:hover {{ background: #a08b77; color: #fdf6ee; }}
+  .age-box .help {{
+    font-size: 11px; color: #a08b77; margin-top: 16px;
+  }}
+  .age-box .help a {{ color: #a08b77; text-decoration: underline; }}
 </style>
 </head>
 <body>
@@ -642,6 +710,43 @@ def interstitial_html(platform_name, destination_url, market_id):
   <a class="back" href="/">go back</a>
   <p class="fine">by clicking continue you acknowledge that you are solely responsible for complying with the laws and regulations of your jurisdiction.</p>
 </div>
+
+<div id="age-gate" role="dialog" aria-modal="true" aria-labelledby="age-gate-title">
+  <div class="age-box">
+    <h2 id="age-gate-title">are you {gate_age}+?</h2>
+    <p>you must be {gate_age} or older to continue to {safe_platform}. by confirming, you acknowledge you meet the minimum age in your jurisdiction.</p>
+    <div class="actions">
+      <button type="button" id="age-yes">yes, i am {gate_age}+</button>
+      <button type="button" class="no" id="age-no">no</button>
+    </div>
+    <p class="help">struggling with gambling? <a href="/responsible-gambling/">get help &rarr;</a></p>
+  </div>
+</div>
+
+<script>
+(function() {{
+  var minAge = {gate_age};
+  var match = document.cookie.match(/(?:^|;\\s*)db_age_ack=(\\d+)/);
+  var acked = match ? parseInt(match[1], 10) : 0;
+  var gate = document.getElementById('age-gate');
+  if (!gate) return;
+  if (!acked || acked < minAge) {{
+    gate.classList.add('show');
+    document.body.style.overflow = 'hidden';
+  }}
+  var yes = document.getElementById('age-yes');
+  var no = document.getElementById('age-no');
+  if (yes) yes.addEventListener('click', function() {{
+    var newAck = acked > minAge ? acked : minAge;
+    document.cookie = 'db_age_ack=' + newAck + ';max-age=31536000;path=/;samesite=lax;secure';
+    gate.classList.remove('show');
+    document.body.style.overflow = '';
+  }});
+  if (no) no.addEventListener('click', function() {{
+    window.location.href = '/';
+  }});
+}})();
+</script>
 </body>
 </html>"""
 
@@ -860,7 +965,10 @@ class handler(BaseHTTPRequestHandler):
                 return
 
             # Serve interstitial before redirecting to sportsbook
-            html_body = interstitial_html(book_display, url, title)
+            html_body = interstitial_html(
+                book_display, url, title,
+                min_age=PLATFORM_MIN_AGE.get(book_slug, 21),
+            )
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
             self.send_header("Cache-Control", "no-cache")
@@ -928,7 +1036,10 @@ class handler(BaseHTTPRequestHandler):
                 self.end_headers()
                 return
 
-            html_body = interstitial_html(book_display, url, title)
+            html_body = interstitial_html(
+                book_display, url, title,
+                min_age=PLATFORM_MIN_AGE.get(book_slug, 21),
+            )
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
             self.send_header("Cache-Control", "no-cache")
@@ -1091,7 +1202,10 @@ class handler(BaseHTTPRequestHandler):
             self.end_headers()
             return
 
-        html_body = interstitial_html(display_name, dest, market_id)
+        html_body = interstitial_html(
+            display_name, dest, market_id,
+            min_age=PLATFORM_MIN_AGE.get(platform_name, 21),
+        )
         self.send_response(200)
         self.send_header("Content-Type", "text/html; charset=utf-8")
         self.send_header("Cache-Control", "no-cache")

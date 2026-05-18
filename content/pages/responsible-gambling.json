@@ -91,6 +91,30 @@
     },
     {
       "type": "heading",
+      "content": "self-exclusion and blocking tools"
+    },
+    {
+      "type": "text",
+      "content": "If you want to stop yourself before the next session, these tools work better than willpower. They are free or low-cost and most can be activated in under five minutes."
+    },
+    {
+      "type": "text",
+      "content": "<strong>UK — GamStop:</strong> a free national self-exclusion scheme that blocks you from all gambling sites and apps licensed in Great Britain. Choose 6 months, 1 year, or 5 years. <a href='https://www.gamstop.co.uk' target='_blank' rel='noopener'>gamstop.co.uk</a>."
+    },
+    {
+      "type": "text",
+      "content": "<strong>US — state self-exclusion lists:</strong> every regulated state (NJ, PA, MI, NY, MA, CO, TN, VA, AZ, IN, IL, OH, MD and others) maintains a voluntary self-exclusion list at the state gaming regulator. Operators are legally required to honor it. Contact your state's gaming commission or division of gaming enforcement to enroll."
+    },
+    {
+      "type": "text",
+      "content": "<strong>Device-level blockers:</strong> <a href='https://betblocker.org' target='_blank' rel='noopener'>BetBlocker</a> (free, charity-run) and <a href='https://www.gamban.com' target='_blank' rel='noopener'>Gamban</a> (paid) block gambling sites and apps on phones, tablets, and computers. Useful as a belt-and-braces layer on top of any self-exclusion."
+    },
+    {
+      "type": "text",
+      "content": "<strong>Operator-side limits:</strong> every regulated platform — Kalshi, Polymarket, FanDuel, DraftKings, BetMGM, BetRivers — offers deposit limits, loss limits, session-time reminders, and cool-off periods in account settings. Setting a deposit limit before you play is the single most effective in-product tool. You can lower a limit immediately; raising it takes 24 hours or longer by design."
+    },
+    {
+      "type": "heading",
       "content": "not advice"
     },
     {

@@ -31,9 +31,9 @@
 | File | Lines | Purpose |
 |------|-------|---------|
 | `generate.py` | ~3276 | Main static site generator — builds /today, /category/*, /archetypes/*, /recap/*, /autopsy/*, share/OG pages, 404, XML + HTML sitemaps, affiliate-disclosure strip. Embeds GA4 with Consent Mode v2 defaults. |
-| `scanner.py` | ~1948 | Kalshi + Polymarket market scanner — fetches events, scores entertainment, calculates $1 payouts, generates Claude quips, dedupes cross-platform |
+| `scanner.py` | ~2637 | Kalshi + Polymarket market scanner — fetches events, scores entertainment, calculates $1 payouts, generates Claude quips, dedupes cross-platform. Selection bends toward weird/specific/small (weird-keyword tier +12 cap 24, mainstream tier +3 cap 9, series-recurrence penalty up to -24, novelty bonus +5/+10 vs last 30 days of board titles). Quip prompt passes `YES_RESOLVES_TO` explicitly to prevent title/YES inversion, with a recent-board anti-corpus to avoid repetition. |
 | `sports_scanner.py` | ~1098 | Sports odds scanner (The Odds API) — underdogs, lineup, ocho, chalk board modes. `TARGET_BOOKS` is FanDuel/DraftKings/BetMGM/BetRivers only — offshore books (bovada, betonlineag) removed 2026-05-14 (no licensed deal + US compliance exposure). |
-| `parlay_scanner.py` | ~619 | Parlay builder — combines near-certain outcomes into parlay cards with deep links. Tolerates `has_deep_links`/`has_deep_link` key skew across stored boards. Same offshore-book exclusion as sports scanner. |
+| `parlay_scanner.py` | ~633 | Parlay builder — combines near-certain outcomes into parlay cards with deep links. Tolerates `has_deep_links`/`has_deep_link` key skew across stored boards. Same offshore-book exclusion as sports scanner. |
 | `generate_content.py` | ~718 | SEO content page generator — reads JSON from `content/`, outputs HTML using shared layout |
 | `analyze_taste.py` | ~413 | Editorial style analyzer — distills quip overrides into `data/style-guide.json`; classifier guardrails |
 | `link_resolver.py` | ~215 | Geo-aware partner resolution — picks best platform by user country |
@@ -51,12 +51,13 @@
 | `api/board.py` | ~344 | CMS API — GET/POST board JSON via GitHub commits. HMAC token TTL = one UTC day. |
 | `api/go.py` | ~1099 | `/go/` redirect handler — geo-aware affiliate routing, interstitial, country/state plurals, stale-ticker fallbacks. All geo-compliance lives here (per-partner `allowed_countries`/`blocked_countries`). Destination-host allowlist (`_ALLOWED_REDIRECT_HOSTS`, https-only) + market-id regex defend against open-redirect / reflected-XSS; every dynamic value in interstitial templates is `html.escape`d. Offshore books (bovada.lv, betonline.ag) removed from allowlist + display-name map 2026-05-14. |
 | `api/login.py` | ~82 | CMS login — HMAC token auth, one-UTC-day TTL (no rolling window — `/api/login` has no rate limiting, so a captured token shouldn't grant a second day) |
+| `api/geo.py` | ~50 | `/api/geo` endpoint — returns visitor country (from `x-vercel-ip-country`) + `commentary_only` flag derived from `partners.json → geo_compliance`. Designed for client-side CTA softening but currently **not consumed by any rendered HTML or JS** — landed in commit 65a2248 alongside the disclosure-strip / geo-moves-to-/go work and was left for future client-side use. Don't delete without checking; don't assume it's wired up either. |
 
 ### CI / config / data
 
 | File | Lines | Purpose |
 |------|-------|---------|
-| `.github/workflows/daily-scan.yml` | ~217 | GitHub Actions: scheduled board scans (Kalshi + sports + combo) → commits JSON to `data/boards/`. Cron `0 13,16,19,22,1,4 * * *` — 6 runs/day across US peak hours (~75% reduction vs hourly to stay inside Odds API token budget). Prediction-market scan runs only at 13:00 UTC. Each scan validates before commit: prediction board ≥5 markets w/ required fields + Polymarket slug spot-check, sports boards ≥1 pick (ocho exempt), combo board writes to `.tmp` then validates JSON shape + `PARLAY-` ticker prefix before promoting (mid-flight crashes can't truncate good output). |
+| `.github/workflows/daily-scan.yml` | ~222 | GitHub Actions: scheduled board scans (Kalshi + sports + combo) → commits JSON to `data/boards/`. Cron `0 8,16,19,22,1,4 * * *` — 6 runs/day. Morning slot moved from 13:00 → 08:00 UTC on 2026-05-18 so it reads as 9am London (BST) / 8am London (GMT). Prediction-market scan runs only at the 08:00 UTC slot; other five slots cover US peak hours for sports/combo refresh (~600 Odds API tokens/day, well inside monthly budget). Each scan validates before commit: prediction board ≥5 markets w/ required fields + Polymarket slug spot-check, sports boards ≥1 pick (ocho exempt), combo board writes to `.tmp` then validates JSON shape + `PARLAY-` ticker prefix before promoting (mid-flight crashes can't truncate good output). Combo scanner is firewalled from the main board update — its failures can't block the daily commit (9f0f6e6). |
 | `.github/workflows/taste-analysis.yml` | ~62 | GitHub Actions: runs `analyze_taste.py` when overrides accumulate |
 | `tests/test_classify.py` | ~221 | Quip classifier regression test |
 | `config/partners.json` | — | Master affiliate/partner config: IDs, geo rules, priority |
@@ -82,6 +83,7 @@
 | POST | `/api/board` | CMS save — commits updated board JSON to GitHub |
 | POST | `/api/login` | CMS auth — returns HMAC session token |
 | GET | `/go/{ticker}` | Geo-aware market redirect with affiliate params (handles all per-region compliance via partner-level allowed/blocked lists) |
+| GET | `/api/geo` | Returns `{country, commentary_only, cta_label?, banner?}` for the visitor. Available but unused by current static HTML (see file map note). |
 
 ## Key Functions
 

@@ -85,19 +85,26 @@ def analytics_head():
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){{dataLayer.push(arguments);}}
-    // Google Consent Mode v2 defaults — explicitly deny everything we don't use.
-    // Dollar Bets does not serve ads, so ad_* consents stay denied permanently.
-    // analytics_storage stays granted because measurement is the only purpose;
-    // EU/UK visitors should ideally see a consent banner before this — see
-    // /privacy/ cookie policy and audit follow-ups.
+    // Google Consent Mode v2 defaults — deny-by-default for analytics so the
+    // baseline is GDPR / UK GDPR / ePrivacy compliant. The on-page consent
+    // banner (see consent_banner_html) prompts the user to opt in; the choice
+    // is stored in the db_consent cookie and restored on subsequent visits.
+    // Ad_* stays denied permanently since the site serves no ads.
     gtag('consent', 'default', {{
       ad_storage: 'denied',
       ad_user_data: 'denied',
       ad_personalization: 'denied',
-      analytics_storage: 'granted',
+      analytics_storage: 'denied',
       functionality_storage: 'granted',
       security_storage: 'granted'
     }});
+    // Restore prior choice synchronously so granted users don't lose a hit.
+    (function() {{
+      var m = document.cookie.match(/(?:^|;\\s*)db_consent=(\\w+)/);
+      if (m && m[1] === 'accept') {{
+        gtag('consent', 'update', {{ analytics_storage: 'granted' }});
+      }}
+    }})();
     gtag('js', new Date());
     gtag('config', '{GA4_ID}', {{ anonymize_ip: true }});
     // Track all outbound affiliate clicks with rich dimensions
@@ -118,6 +125,94 @@ def analytics_head():
   </script>""")
 
     return "\n".join(snippets)
+
+
+def consent_banner_html():
+    """Cookie consent banner shown on first visit (no db_consent cookie).
+
+    Stored choice is a single cookie value: 'accept' or 'decline'. Accept calls
+    gtag consent update to grant analytics_storage; decline leaves it denied.
+    Banner is hidden after a choice; the choice persists for 1 year.
+
+    Universal banner (shown to all visitors, not geo-restricted) — over-compliant
+    for US visitors but cheap and defensible. EU/UK visitors are the legally
+    binding case; deny-by-default + this banner satisfies that path.
+    """
+    return """
+    <div id="db-consent" role="dialog" aria-live="polite" aria-label="Cookie consent" hidden>
+      <div class="db-consent-inner">
+        <p class="db-consent-text">
+          dollar bets uses one analytics cookie (google analytics) to count visits and see which pages people read. no ads, no tracking pixels, no third-party data sharing. see <a href="/privacy/">privacy</a>.
+        </p>
+        <div class="db-consent-actions">
+          <button type="button" id="db-consent-accept">accept</button>
+          <button type="button" id="db-consent-decline">decline</button>
+        </div>
+      </div>
+    </div>
+    <style>
+      #db-consent {
+        position: fixed; left: 0; right: 0; bottom: 0;
+        background: #faf7f3; border-top: 2px solid #e8642c;
+        z-index: 9000; padding: 14px 16px;
+        font-family: 'Courier New', Courier, monospace;
+        box-shadow: 0 -4px 12px rgba(45,35,25,0.08);
+      }
+      #db-consent[hidden] { display: none; }
+      .db-consent-inner {
+        max-width: 640px; margin: 0 auto;
+        display: flex; flex-wrap: wrap; gap: 12px;
+        align-items: center; justify-content: space-between;
+      }
+      .db-consent-text {
+        font-size: 12px; line-height: 1.55; color: #2d2319;
+        margin: 0; flex: 1 1 320px;
+      }
+      .db-consent-text a { color: #b5470a; text-decoration: underline; }
+      .db-consent-actions { display: flex; gap: 8px; flex-shrink: 0; }
+      .db-consent-actions button {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 12px; font-weight: 700;
+        padding: 8px 14px; cursor: pointer;
+        text-transform: lowercase;
+        border: 2px solid #e8642c; color: #e8642c;
+        background: transparent;
+      }
+      .db-consent-actions button:hover { background: #e8642c; color: #fdf6ee; }
+      .db-consent-actions #db-consent-decline {
+        border-color: #a08b77; color: #a08b77;
+      }
+      .db-consent-actions #db-consent-decline:hover {
+        background: #a08b77; color: #fdf6ee;
+      }
+      @media (max-width: 520px) {
+        .db-consent-inner { flex-direction: column; align-items: stretch; }
+        .db-consent-actions { justify-content: flex-end; }
+      }
+    </style>
+    <script>
+    (function() {
+      var banner = document.getElementById('db-consent');
+      if (!banner) return;
+      var m = document.cookie.match(/(?:^|;\\s*)db_consent=(\\w+)/);
+      if (m && (m[1] === 'accept' || m[1] === 'decline')) return;
+      banner.hidden = false;
+      function setChoice(choice) {
+        document.cookie = 'db_consent=' + choice + ';max-age=31536000;path=/;samesite=lax;secure';
+        banner.hidden = true;
+        if (typeof gtag === 'function') {
+          gtag('consent', 'update', {
+            analytics_storage: choice === 'accept' ? 'granted' : 'denied'
+          });
+        }
+      }
+      var acc = document.getElementById('db-consent-accept');
+      var dec = document.getElementById('db-consent-decline');
+      if (acc) acc.addEventListener('click', function() { setChoice('accept'); });
+      if (dec) dec.addEventListener('click', function() { setChoice('decline'); });
+    })();
+    </script>
+"""
 
 
 # ── Shared layout ───────────────────────────────────────────
@@ -883,6 +978,7 @@ def footer_info_nav():
         ("/guides/", "guides"),
         ("/about/", "about"),
         ("/affiliate-disclosure/", "affiliate disclosure"),
+        ("/responsible-gambling/", "responsible gambling"),
         ("/privacy/", "privacy"),
         ("/terms/", "terms"),
         ("/sitemap/", "sitemap"),
@@ -985,6 +1081,7 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
     </footer>
 
   </div>
+{consent_banner_html()}
 {SIGNUP_JS}
 <script>
 // close any open share menu when clicking elsewhere
