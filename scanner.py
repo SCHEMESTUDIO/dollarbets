@@ -1738,7 +1738,7 @@ def _score_entity_verb_surprise(title, entity_counter, pair_counter, days_loaded
     return best
 
 
-def _load_recent_quip_anti_corpus(days_back=7, max_verbatim=20, max_formulas=15):
+def _load_recent_quip_anti_corpus(days_back=7, max_verbatim=40, max_formulas=20):
     """Read recent board files and build a 'do not echo' anti-corpus.
 
     Per-board, Claude is told not to repeat structures, but it has no memory
@@ -1778,11 +1778,16 @@ def _load_recent_quip_anti_corpus(days_back=7, max_verbatim=20, max_formulas=15)
     if not quips:
         return ""
 
-    # Verbatim repeats — any quip that already shipped more than once
+    # Verbatim block-list — every quip that has shipped in the window AT ALL,
+    # not just 2x+ repeats. Lowered from c >= 2 to c >= 1 on 2026-05-16 after
+    # observing "outrageously plausible" return the next day under the 2x rule
+    # (it had appeared once, so it wasn't blocked, then got generated again).
+    # Sort most-repeated first so the heaviest offenders are guaranteed into
+    # the prompt's 40-item cap.
     whole = Counter(quips)
     verbatim = sorted(
-        [q for q, c in whole.items() if c >= 2],
-        key=lambda q: -whole[q],
+        [q for q, c in whole.items() if c >= 1],
+        key=lambda q: (-whole[q], q),
     )[:max_verbatim]
 
     # Recurring 4-grams — captures formula recycling across different surface
@@ -1898,6 +1903,21 @@ QUIP RULES:
 - For near-certain bets (green tier), understate it — breezy acceptance, not analysis
 - For high-payout bets (orange/red/purple tier), go bigger — song lyrics, extended references, committed bits
 - Every quip must feel unique to THIS specific bet. If it could apply to 5 different bets, throw it out
+
+INTRA-BOARD PUNCHWORD RULE (added 2026-05-16 after a board shipped with "gravy" in two quips):
+- No two quips in THIS BATCH may share a punchline word. A "punchline word" is the distinctive content word that carries the joke — a proper noun ("Oppenheimer"), a vivid noun ("yarmulke"), a slang term ("gravy", "szn"), or a distinctive verb ("haunting", "tanking"). Filler words (the, a, this, will) don't count.
+- BEFORE returning your JSON, scan your N quips against each other word-by-word. If two quips share a punchword, rewrite one of them with a different punch.
+- Example FAIL: quip 1 = "probably gravy, geologically speaking" + quip 3 = "fine, sure, gravy" → "gravy" used twice → rewrite one.
+- Example PASS: quip 1 = "Bejeweled, Vatican edit" + quip 3 = "Oppenheimer but the sequel has a happy ending" → no shared punchword → ship both.
+
+PLACEHOLDER PHRASES TO AVOID (these read as low-effort, used as filler when a real joke wouldn't come):
+- "outrageously plausible" — applies to any green-tier bet; not earning its slot
+- "fine, sure, whatever" / "fine, sure, gravy" — placeholder cadence
+- "probably gravy" — same energy
+- "the audacity of this market" — wallpaper; reach for something specific instead
+- "Crazier things have happened" — even worse; cliché
+- If you find yourself reaching for one of these, the bet probably deserves a more specific reference. Use the pool quips above as voice anchors, not as fallbacks to copy.
+
 - Do NOT repeat the same joke structure across multiple quips
 - NEVER write quips that comment on betting itself, the difficulty of predicting, or the community of bettors
 - NEVER use vague irony that hedges without committing to a specific reference or stance
