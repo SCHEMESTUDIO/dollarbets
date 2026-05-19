@@ -898,5 +898,95 @@
     "tier": "purple",
     "original_quip": "waiting for Miami to close like I'm waiting for Godot",
     "editor_quip": "What if Messi transfers and starts hitting FGs from 75 yards"
+  },
+  {
+    "date": "2026-05-19",
+    "title": "George Whitesides leads the CA-27 primary",
+    "category": "Elections",
+    "payout": 2.17,
+    "tier": "green",
+    "original_quip": "rocket man to congressman, apparently",
+    "editor_quip": "California primaries: where dreams go to die"
+  },
+  {
+    "date": "2026-05-19",
+    "title": "SPY hits $750 this month",
+    "category": "Other",
+    "payout": 2.2,
+    "tier": "green",
+    "original_quip": "line goes up, vibes go sideways",
+    "editor_quip": "install a bloomberg terminal at the strip club"
+  },
+  {
+    "date": "2026-05-19",
+    "title": "Annual inflation hits 4.4% or more in May",
+    "category": "Sports",
+    "payout": 2.82,
+    "tier": "green",
+    "original_quip": "the grocery store already priced this in",
+    "editor_quip": "eggs now cost $73 dollars and are sold in packages of 3"
+  },
+  {
+    "date": "2026-05-19",
+    "title": "Francesca Hong wins the Wisconsin Dem governor primary",
+    "category": "World",
+    "payout": 3.37,
+    "tier": "yellow",
+    "original_quip": "Madison's most interesting subplot this cycle",
+    "editor_quip": "the first chef with electable political opinions since Anthony Bourdain "
+  },
+  {
+    "date": "2026-05-19",
+    "title": "An AI model cracks 1550 Arena Score by September",
+    "category": "Science and Technology",
+    "payout": 5.26,
+    "tier": "yellow",
+    "original_quip": "the leaderboard is currently under construction",
+    "editor_quip": "what if we get the AIs to compete in Rocket League instead"
+  },
+  {
+    "date": "2026-05-19",
+    "title": "Monero reaches $1000 this year",
+    "category": "Other",
+    "payout": 6.67,
+    "tier": "yellow",
+    "original_quip": "in other news: Blockbuster Video announcing a streaming pivot",
+    "editor_quip": "privacy is so hot right now "
+  },
+  {
+    "date": "2026-05-19",
+    "title": "Chi Charlie Nguyen leads the CA-45 primary",
+    "category": "Elections",
+    "payout": 10,
+    "tier": "orange",
+    "original_quip": "short the field, long the underdog",
+    "editor_quip": "this guy fled Vietnam by boat so he could support President Trump and his America First agenda"
+  },
+  {
+    "date": "2026-05-19",
+    "title": "US seals a new Iran nuclear deal before June",
+    "category": "Politics",
+    "payout": 12.5,
+    "tier": "orange",
+    "original_quip": "Waiting for Godot had a tighter timeline",
+    "editor_quip": "moratorium on \"deal\" and \"iran\" in the same sentence"
+  },
+  {
+    "date": "2026-05-19",
+    "title": "Bruno Mars streams hit 390 million this week",
+    "category": "Entertainment",
+    "payout": 20,
+    "tier": "red",
+    "original_quip": "Locked Out of Heaven from this probability",
+    "editor_quip": "my \"gym feel good playlist\" has never seen a greater achievement "
+  },
+  {
+    "date": "2026-05-19",
+    "title": "Bitcoin crashes to $73K today",
+    "category": "Crypto",
+    "payout": 95.24,
+    "tier": "purple",
+    "original_quip": "When Doves Cry had better odds of a comeback tour",
+    "editor_quip": "let's call it a hedge against my intrusive thoughts "
   }
 ]
