@@ -15,13 +15,13 @@
       "no_sub_title": "George Whitesides",
       "payout": 2.17,
       "tier": "green",
-      "quip": "rocket man to congressman, apparently",
+      "quip": "California primaries: where dreams go to die",
       "yes_price": "0.4600",
       "volume": 2661.37,
       "category": "Elections",
       "close_time": "2027-11-03T15:00:00Z",
       "url": "https://kalshi.com/markets/KXCAPRIMARY?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 48.0,
+      "score": 48,
       "_specificity": 15
     },
     {
@@ -30,7 +30,7 @@
       "subtitle": "",
       "payout": 2.2,
       "tier": "green",
-      "quip": "line goes up, vibes go sideways",
+      "quip": "install a bloomberg terminal at the strip club",
       "yes_price": "0.4550",
       "volume": 88368.17512699997,
       "category": "Other",
@@ -38,7 +38,7 @@
       "_specificity": 20,
       "url": "https://polymarket.com/event/what-price-will-spy-hit-in-may-2026",
       "platform": "polymarket",
-      "score": 50.0
+      "score": 50
     },
     {
       "ticker": "0x016a4bca735c197c1d5171a427ab46da9c58f29d292bb4b706c5ff5b189e04f2",
@@ -46,7 +46,7 @@
       "subtitle": "",
       "payout": 2.82,
       "tier": "green",
-      "quip": "the grocery store already priced this in",
+      "quip": "eggs now cost $73 dollars and are sold in packages of 3",
       "yes_price": "0.3550",
       "volume": 9748.116865000004,
       "category": "Sports",
@@ -54,7 +54,7 @@
       "_specificity": 15,
       "url": "https://polymarket.com/event/may-inflation-us-annual",
       "platform": "polymarket",
-      "score": 35.0
+      "score": 35
     },
     {
       "ticker": "0x00925aafdbb3fbec14b49f343eb430ddb9cc1f827e5934b5513703d13f2851de",
@@ -62,7 +62,7 @@
       "subtitle": "",
       "payout": 3.37,
       "tier": "yellow",
-      "quip": "Madison's most interesting subplot this cycle",
+      "quip": "the first chef with electable political opinions since Anthony Bourdain ",
       "yes_price": "0.2965",
       "volume": 8712.363200000002,
       "category": "World",
@@ -70,7 +70,7 @@
       "_specificity": 15,
       "url": "https://polymarket.com/event/wisconsin-governor-democratic-primary-winner",
       "platform": "polymarket",
-      "score": 35.0
+      "score": 35
     },
     {
       "ticker": "0x49b5da64dea470e2840929ba0a747acbb6d9652af3998062ae06920dbb6a4d26",
@@ -78,7 +78,7 @@
       "subtitle": "",
       "payout": 5.26,
       "tier": "yellow",
-      "quip": "the leaderboard is currently under construction",
+      "quip": "what if we get the AIs to compete in Rocket League instead",
       "yes_price": "0.1900",
       "volume": 8099.395158999998,
       "category": "Science and Technology",
@@ -86,7 +86,7 @@
       "_specificity": 20,
       "url": "https://polymarket.com/event/will-any-ai-model-reach-overall-arena-score-by-september-30",
       "platform": "polymarket",
-      "score": 48.0
+      "score": 48
     },
     {
       "ticker": "0x86e62f4e07ef6686e141f2eece8480b7ab3d1e99e6b2071a130e3f3bdb0bcb84",
@@ -94,7 +94,7 @@
       "subtitle": "",
       "payout": 6.67,
       "tier": "yellow",
-      "quip": "in other news: Blockbuster Video announcing a streaming pivot",
+      "quip": "privacy is so hot right now ",
       "yes_price": "0.1500",
       "volume": 99477.06190500001,
       "category": "Other",
@@ -102,7 +102,7 @@
       "_specificity": 15,
       "url": "https://polymarket.com/event/will-monero-hit-1000-in-2026",
       "platform": "polymarket",
-      "score": 50.0
+      "score": 50
     },
     {
       "ticker": "KXCAPRIMARY-45FIRST26-CNGU",
@@ -110,15 +110,15 @@
       "subtitle": "CA-45 (1st place)",
       "yes_sub_title": "Chi Charlie Nguyen",
       "no_sub_title": "Chi Charlie Nguyen",
-      "payout": 10.0,
+      "payout": 10,
       "tier": "orange",
-      "quip": "short the field, long the underdog",
+      "quip": "this guy fled Vietnam by boat so he could support President Trump and his America First agenda",
       "yes_price": "0.1000",
-      "volume": 160.0,
+      "volume": 160,
       "category": "Elections",
       "close_time": "2027-11-03T15:00:00Z",
       "url": "https://kalshi.com/markets/KXCAPRIMARY?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 58.0,
+      "score": 58,
       "_specificity": 15
     },
     {
@@ -129,13 +129,13 @@
       "no_sub_title": "Before June",
       "payout": 12.5,
       "tier": "orange",
-      "quip": "Waiting for Godot had a tighter timeline",
+      "quip": "moratorium on \"deal\" and \"iran\" in the same sentence",
       "yes_price": "0.0800",
       "volume": 1517973.64,
       "category": "Politics",
       "close_time": "2026-06-01T14:00:00Z",
       "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 138.0,
+      "score": 138,
       "_specificity": 20
     },
     {
@@ -144,15 +144,15 @@
       "subtitle": "Bruno Mars: May 15 - May 21, 2026",
       "yes_sub_title": "Target Streams: 390,805,943",
       "no_sub_title": "Target Streams: 390,805,943",
-      "payout": 20.0,
+      "payout": 20,
       "tier": "red",
-      "quip": "Locked Out of Heaven from this probability",
+      "quip": "my \"gym feel good playlist\" has never seen a greater achievement ",
       "yes_price": "0.0500",
       "volume": 358.88,
       "category": "Entertainment",
       "close_time": "2026-05-23T14:00:00Z",
       "url": "https://kalshi.com/markets/KXARTISTSTREAMSU?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 124.0,
+      "score": 124,
       "_specificity": 20
     },
     {
@@ -161,7 +161,7 @@
       "subtitle": "",
       "payout": 95.24,
       "tier": "purple",
-      "quip": "When Doves Cry had better odds of a comeback tour",
+      "quip": "let's call it a hedge against my intrusive thoughts ",
       "yes_price": "0.0105",
       "volume": 3391.0495240000005,
       "category": "Crypto",
@@ -169,7 +169,7 @@
       "_specificity": 15,
       "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-on-may-19",
       "platform": "polymarket",
-      "score": 68.0
+      "score": 68
     }
   ]
 }
