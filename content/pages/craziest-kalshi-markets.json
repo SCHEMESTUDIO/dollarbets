@@ -1,0 +1,140 @@
+{
+  "slug": "craziest-kalshi-markets",
+  "format": "weird_market_roundup",
+  "seo": {
+    "title": "The Craziest Kalshi Markets Live Right Now | Dollar Bets",
+    "h1": "The Craziest Kalshi Markets Live Right Now",
+    "meta_description": "A live snapshot of the craziest Kalshi markets on the board this week — a Moon landing, a US-Iran nuclear deal, and the kind of longshots where $1 is the right size.",
+    "canonical": "/craziest-kalshi-markets/"
+  },
+  "summary": "The craziest Kalshi markets live right now include a contract on NASA putting boots on the Moon before 2027 ($1 pays $30), a US-Iran nuclear deal closing this year ($1 pays $17.50), and Cleveland finishing dead last in the NFL next season ($1 pays $12.50). All real, all open, all on the CFTC-regulated exchange that's supposed to be the boring one.",
+  "quick_answer": "The craziest Kalshi markets live right now are: a Moon-landing-before-2027 contract paying $30, a US-Iran nuclear deal market paying $17.50, a Cleveland finishes last in the NFL bet at $12.50, an Ernest Richter CA-33 primary market at $11.11, a May 2026 heat record bet at $4.35, and a California 8.0 earthquake before 2035 market at $1.89. The board moves daily — these are this week's standouts.",
+  "hero_bet": {
+    "title": "NASA puts boots on the Moon before 2027",
+    "payout": 30.3,
+    "quip": "A buck says Artemis quietly does the thing while everyone is doomscrolling.",
+    "tier": "red",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {
+      "text": "crazy kalshi bets",
+      "url": "/crazy-kalshi-bets/"
+    },
+    {
+      "text": "funny polymarket bets",
+      "url": "/funny-polymarket-bets/"
+    },
+    {
+      "text": "most outrageous polymarket bets",
+      "url": "/most-outrageous-polymarket-bets/"
+    },
+    {
+      "text": "today's full board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Kalshi is the CFTC-regulated event exchange — the one that's supposed to be the responsible adult in the prediction-market room. And yet right now, on the live board, you can buy a contract on whether NASA puts boots on the Moon before 2027. A dollar pays about $30. The crowd thinks the chance is roughly 3.3%. NASA's own timeline disagrees with the crowd, the crowd disagrees with NASA's track record, and Kalshi is happy to keep the market open while everyone figures it out."
+    },
+    {
+      "type": "text",
+      "content": "This is a snapshot of the craziest Kalshi markets currently live — pulled from this morning's Dollar Bets board, not invented for a listicle. They're craziest because they're current, because they close soon enough to be live bets rather than abstractions, and because a single dollar buys you something genuinely ridiculous."
+    },
+    {
+      "type": "heading",
+      "content": "the craziest kalshi market on the board right now"
+    },
+    {
+      "type": "text",
+      "content": "Moon-boots-before-2027 is doing exactly what a great Kalshi market does. It takes a specific, well-known program (Artemis), a specific deadline (the end of 2026 calendar year), and forces the question down to a single binary: did it happen, yes or no. Kalshi resolves on the literal event. NASA either gets crew to the lunar surface, or the contract pays zero. A dollar at the current 3.3-cent price pays out a little over thirty dollars. The market is craziest not because the outcome is impossible, but because it isn't quite."
+    },
+    {
+      "type": "heading",
+      "content": "the us and iran sign a new nuclear deal this year"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi is currently running a market on whether the US and Iran sign a new nuclear agreement before June 1. The contract is priced at about 5.7 cents. A dollar pays $17.50. This is the kind of market a regulated exchange isn't supposed to be wild about — and the volume tells you the crowd takes it seriously. Over $1.4 million has traded. The market is craziest in the sense that the implied probability is a moving target tied directly to the next press release, and the resolution window is right now."
+    },
+    {
+      "type": "heading",
+      "content": "cleveland finishes last in the league next season"
+    },
+    {
+      "type": "text",
+      "content": "There's a Kalshi market right now on whether the Cleveland Browns finish bottom of the entire NFL in the 2026-27 season. A dollar returns $12.50. The market is ridiculous in three different directions simultaneously: it presupposes a long season, it requires Cleveland to be worse than every other franchise (including the ones actively tanking), and the implied 8% probability is high enough to embarrass anyone who's watched a Browns press conference."
+    },
+    {
+      "type": "heading",
+      "content": "ernest richter wins the ca-33 primary"
+    },
+    {
+      "type": "text",
+      "content": "An Ernest Richter CA-33 primary contract is currently priced at 9 cents on Kalshi. A dollar pays $11.11. Most people reading this don't know who Ernest Richter is, which is exactly why the market is most ridiculous in a useful way. Kalshi lists individual primary contracts at this level of granularity for almost every contested district, which means the most absurd Kalshi markets are usually not the moonshots but the deeply unfamous local candidates with double-digit payouts and three followers on X."
+    },
+    {
+      "type": "heading",
+      "content": "may 2026 breaks the heat record"
+    },
+    {
+      "type": "text",
+      "content": "May 2026 breaking the all-time heat record is on the board at $1 pays $4.35. The crowd thinks there's about a 23% chance. The market is craziest as a thermometer for how casually catastrophic the weather data has gotten — a four-bagger on \"is this the hottest May ever\" used to feel like a joke. On Kalshi this week it's a coin flip on a long enough timeline."
+    },
+    {
+      "type": "heading",
+      "content": "california gets an 8.0 earthquake before 2035"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi has a contract on whether California gets an 8.0 or stronger earthquake before 2035. The price sits around 53 cents, meaning the crowd is more or less coin-flipping on whether the big one shows up in the next decade. A dollar pays $1.89. The market is absurd not because the answer is uncertain — the answer is genuinely uncertain — but because there is now a regulated US exchange where you can take a position on it."
+    },
+    {
+      "type": "heading",
+      "content": "what makes a kalshi market \"crazy\""
+    },
+    {
+      "type": "text",
+      "content": "Crazy, in Kalshi terms, is a function of three things. First, the topic is something a normal sportsbook would never touch — a Moon landing, a nuclear deal, a primary you've never heard of. Second, the payout is large enough that a single dollar buys you a real story. And third, the resolution is close enough that you're not just buying a hedge against the heat death of the universe. The Moon market clears all three. So does the Iran deal. The earthquake market is craziest by category — the payout is small, but the topic itself is the joke."
+    },
+    {
+      "type": "heading",
+      "content": "where to find more of this"
+    },
+    {
+      "type": "text",
+      "content": "The Dollar Bets board is rebuilt every day from live Kalshi and Polymarket markets, reframed as what a single dollar returns. If today's craziest Kalshi market doesn't move you, tomorrow's will. The whole point of running the scanner daily is that the absurd has a short half-life."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are these Kalshi markets actually live right now?",
+      "a": "Yes — each market listed was open on Kalshi as of this morning's Dollar Bets scan. Prices, payouts, and resolution dates move continuously; by the time you read this, some markets may have shifted or closed. Click through to Kalshi to see the current state."
+    },
+    {
+      "q": "Why does Kalshi list a Moon-landing market?",
+      "a": "Kalshi is a CFTC-regulated event contract exchange and lists markets on real-world events with a definite resolution. NASA's Artemis program has a stated timeline for a crewed lunar landing, which gives the market a clear yes/no condition. The contract resolves on the literal event."
+    },
+    {
+      "q": "Is Kalshi available in every US state?",
+      "a": "Kalshi's availability has expanded considerably but is not universal — and the legal status of certain market categories (notably election markets) has been litigated. Check Kalshi directly for current availability in your state."
+    },
+    {
+      "q": "How is a Kalshi market different from a sports bet?",
+      "a": "A Kalshi contract is an event-linked financial instrument that you trade with other participants on a regulated exchange, not a wager against a sportsbook. Prices represent implied probability and move with the market. A Kalshi market also has explicit, published resolution criteria — sportsbooks settle by their own house rules."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial discovery site. We do not operate prediction markets, place bets, or provide financial advice. Kalshi is a CFTC-regulated exchange with its own terms, risks, and state-by-state availability. Prediction market contracts involve the risk of total loss. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-05-19",
+  "last_updated": "2026-05-19",
+  "cluster": "Weird Bets",
+  "priority": 7
+}

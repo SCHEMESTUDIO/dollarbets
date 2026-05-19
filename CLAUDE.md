@@ -18,7 +18,7 @@
 - **Hosting**: Vercel (static + Python serverless functions)
 - **Data**: JSON files in `data/boards/` — git is the database
 - **APIs consumed**: Kalshi Trade API v2, The Odds API v4, Anthropic Claude API (for quip generation), Polymarket Gamma API (stub)
-- **Analytics**: GA4 (`G-W2V9QGFCM5`) wrapped in Google Consent Mode v2 (ad_* denied permanently, `analytics_storage` granted by default — EU/UK banner still TODO) + Faurya
+- **Analytics**: GA4 (`G-W2V9QGFCM5`) wrapped in Google Consent Mode v2, deny-by-default for `analytics_storage` (ad_* denied permanently). Universal on-page consent banner (`consent_banner_html` at L130 in `generate.py`) writes a `db_consent=accept|decline` cookie (1-year max-age); `analytics_head` restores prior accept synchronously to avoid dropping a hit. Banner is shown to all visitors, not geo-restricted — over-compliant for US, legally binding for EU/UK. Plus Faurya.
 - **Security headers**: `vercel.json` enforces CSP, HSTS preload, `X-Content-Type-Options: nosniff`, `Referrer-Policy: strict-origin-when-cross-origin`, `X-Frame-Options: DENY`, restrictive `Permissions-Policy`. `/go/` and `/api/` are `Cache-Control: no-store`; `/go/*` is also `noindex,nofollow`.
 - **Indexing**: IndexNow + Google/Bing sitemap pings on every build
 - **CMS**: Password-protected `/admin/` page → commits board JSON to GitHub via API → triggers Vercel rebuild. HMAC tokens are one-UTC-day TTL (no rolling 48h window).
@@ -30,11 +30,11 @@
 
 | File | Lines | Purpose |
 |------|-------|---------|
-| `generate.py` | ~3276 | Main static site generator — builds /today, /category/*, /archetypes/*, /recap/*, /autopsy/*, share/OG pages, 404, XML + HTML sitemaps, affiliate-disclosure strip. Embeds GA4 with Consent Mode v2 defaults. |
-| `scanner.py` | ~2637 | Kalshi + Polymarket market scanner — fetches events, scores entertainment, calculates $1 payouts, generates Claude quips, dedupes cross-platform. Selection bends toward weird/specific/small (weird-keyword tier +12 cap 24, mainstream tier +3 cap 9, series-recurrence penalty up to -24, novelty bonus +5/+10 vs last 30 days of board titles). Quip prompt passes `YES_RESOLVES_TO` explicitly to prevent title/YES inversion, with a recent-board anti-corpus to avoid repetition. |
+| `generate.py` | ~3373 | Main static site generator — builds /today, /category/*, /archetypes/*, /recap/*, /autopsy/*, share/OG pages, 404, XML + HTML sitemaps, affiliate-disclosure strip, footer info nav (incl. /responsible-gambling/), bottom-of-page consent banner. Embeds GA4 with Consent Mode v2 deny-by-default. |
+| `scanner.py` | ~2657 | Kalshi + Polymarket market scanner — fetches events, scores entertainment, calculates $1 payouts, generates Claude quips, dedupes cross-platform. Selection bends toward weird/specific/small (weird-keyword tier +12 cap 24, mainstream tier +3 cap 9, series-recurrence penalty up to -24, novelty bonus +5/+10 vs last 30 days of board titles). Quip prompt passes `YES_RESOLVES_TO` explicitly to prevent title/YES inversion, plus a 7-day anti-corpus (cap 40), an intra-board punchword-collision rule, and a named placeholder-phrase ban-list ("outrageously plausible", "fine sure gravy", "audacity of this market", "Crazier things have happened"). |
 | `sports_scanner.py` | ~1098 | Sports odds scanner (The Odds API) — underdogs, lineup, ocho, chalk board modes. `TARGET_BOOKS` is FanDuel/DraftKings/BetMGM/BetRivers only — offshore books (bovada, betonlineag) removed 2026-05-14 (no licensed deal + US compliance exposure). |
 | `parlay_scanner.py` | ~633 | Parlay builder — combines near-certain outcomes into parlay cards with deep links. Tolerates `has_deep_links`/`has_deep_link` key skew across stored boards. Same offshore-book exclusion as sports scanner. |
-| `generate_content.py` | ~718 | SEO content page generator — reads JSON from `content/`, outputs HTML using shared layout |
+| `generate_content.py` | ~720 | SEO content page generator — reads JSON from `content/`, outputs HTML using shared layout |
 | `analyze_taste.py` | ~413 | Editorial style analyzer — distills quip overrides into `data/style-guide.json`; classifier guardrails |
 | `link_resolver.py` | ~215 | Geo-aware partner resolution — picks best platform by user country |
 | `gsc_analyze.py` | ~250 | Google Search Console analysis script |
@@ -49,7 +49,7 @@
 | File | Lines | Purpose |
 |------|-------|---------|
 | `api/board.py` | ~344 | CMS API — GET/POST board JSON via GitHub commits. HMAC token TTL = one UTC day. |
-| `api/go.py` | ~1099 | `/go/` redirect handler — geo-aware affiliate routing, interstitial, country/state plurals, stale-ticker fallbacks. All geo-compliance lives here (per-partner `allowed_countries`/`blocked_countries`). Destination-host allowlist (`_ALLOWED_REDIRECT_HOSTS`, https-only) + market-id regex defend against open-redirect / reflected-XSS; every dynamic value in interstitial templates is `html.escape`d. Offshore books (bovada.lv, betonline.ag) removed from allowlist + display-name map 2026-05-14. |
+| `api/go.py` | ~1213 | `/go/` redirect handler — geo-aware affiliate routing, interstitial, country/state plurals, stale-ticker fallbacks. All geo-compliance lives here (per-partner `allowed_countries`/`blocked_countries`). Destination-host allowlist (`_ALLOWED_REDIRECT_HOSTS`, https-only) + market-id regex defend against open-redirect / reflected-XSS; every dynamic value in interstitial templates is `html.escape`d. Offshore books (bovada.lv, betonline.ag) removed from allowlist + display-name map 2026-05-14. Age gate (2026-05-18): `PLATFORM_MIN_AGE` dict drives modal injected by `interstitial_html(..., min_age)`; `db_age_ack` cookie stores highest age confirmed so a 21-gated partner skips the modal if the visitor already passed 21 elsewhere. Sportsbooks + Kalshi = 21, Polymarket/Coinbase = 18, unknown = 21 (fail-safe). |
 | `api/login.py` | ~82 | CMS login — HMAC token auth, one-UTC-day TTL (no rolling window — `/api/login` has no rate limiting, so a captured token shouldn't grant a second day) |
 | `api/geo.py` | ~50 | `/api/geo` endpoint — returns visitor country (from `x-vercel-ip-country`) + `commentary_only` flag derived from `partners.json → geo_compliance`. Designed for client-side CTA softening but currently **not consumed by any rendered HTML or JS** — landed in commit 65a2248 alongside the disclosure-strip / geo-moves-to-/go work and was left for future client-side use. Don't delete without checking; don't assume it's wired up either. |
 
@@ -87,20 +87,24 @@
 
 ## Key Functions
 
-- `generate.py → page_shell()` (~L895) — Base HTML template for every page (analytics, nav, footer, CSS)
-- `generate.py → render_bet_card()` (~L1197) — Renders a single bet as HTML card with `/go/` link
-- `generate.py → nav_html()` (~L847) — Shared navigation bar
-- `generate.py → render_board_promo()` (~L1382) — Board promo widget for content pages
-- `generate.py → generate_html_sitemap()` (~L2627) — Human-readable `/sitemap/` page; buckets every URL into sections so Googlebot has a single hub linking to all pages
-- `generate.py → generate_share_og_image()` (~L2909) — Per-bet OG image generation (DejaVu fonts, Pillow)
+- `generate.py → analytics_head()` (~L73) — GA4 + Faurya + outbound-click tracking; Consent Mode v2 deny-by-default with synchronous restore of prior `db_consent=accept`
+- `generate.py → consent_banner_html()` (~L130) — Universal bottom-of-page cookie banner; writes `db_consent=accept|decline` (1-year max-age, samesite=lax, secure) and updates gtag consent in place
+- `generate.py → page_shell()` (~L991) — Base HTML template for every page (analytics, nav, footer, CSS, consent banner)
+- `generate.py → render_bet_card()` (~L1294) — Renders a single bet as HTML card with `/go/` link
+- `generate.py → nav_html()` (~L942) — Shared navigation bar
+- `generate.py → footer_info_nav()` (~L975) — Footer info-link row; now includes `/responsible-gambling/`
+- `generate.py → render_board_promo()` (~L1479) — Board promo widget for content pages
+- `generate.py → generate_html_sitemap()` (~L2724) — Human-readable `/sitemap/` page; buckets every URL into sections so Googlebot has a single hub linking to all pages
+- `generate.py → generate_share_og_image()` (~L3006) — Per-bet OG image generation (DejaVu fonts, Pillow)
 - `generate.py → market_link()` (~L56) — Returns `/go/{ticker}/` URL — only correct way to link to markets
-- `generate.py → DISCLOSURE_STRIP_HTML` (~L825) — Always-visible affiliate-disclosure strip injected on every board page (legal trust signal, same content for every visitor regardless of region)
+- `generate.py → DISCLOSURE_STRIP_HTML` (~L920) — Always-visible affiliate-disclosure strip injected on every board page (legal trust signal, same content for every visitor regardless of region)
 - `scanner.py → _api_get()` / `_poly_api_get()` — Kalshi / Polymarket API wrappers with retry
 - `scanner.py → classify_quip()` — Categorizes quips into clusters (uses style-guide + custom-clusters)
 - `scanner.py → dedup_cross_platform()` — Removes near-duplicate markets across Kalshi/Polymarket
 - `link_resolver.py → resolve_market_destination()` — Core geo/partner resolution logic
 - `analyze_taste.py` — Reads `data/quip-overrides.json`, emits `data/style-guide.json` with guardrails to avoid bad reclassifications
 - `api/go.py → _ALLOWED_REDIRECT_HOSTS` (~L37) / `_is_allowed_destination()` (~L52) — Outbound URL guard; any redirect Location must resolve to an https host in the allowlist (or a subdomain). Adding a new partner means adding its host here too.
+- `api/go.py → PLATFORM_MIN_AGE` (~L154) / `interstitial_html(..., min_age=21)` (~L600) — Per-platform minimum-age dict feeds the interstitial age-gate modal; modal sets `db_age_ack` cookie (1-year, secure) to the highest confirmed age, so repeat outbound clicks at or below that threshold skip the modal.
 - `api/login.py → make_token()` / `verify_token()` — HMAC over `password:utc_day`. Re-auth required each UTC day.
 
 ## Architecture Decisions
@@ -117,6 +121,8 @@
 - **CMS token TTL is one UTC day, not a rolling window** — Earlier versions accepted yesterday's token for a 48h grace period; that's now closed because `/api/login` has no rate limiting (commit a66af09).
 - **Local Claude settings stay out of git** — `.claude/settings.local.json` was historically tracked and once leaked an Odds API key. `.gitignore` now excludes `.claude/settings.local.json`, `.env*`, debug/log/credential files (commit a47a562). Rotate any key found in old commits before assuming it's safe.
 - **No offshore sportsbooks** — Bovada and BetOnline.ag were removed from `TARGET_BOOKS` (sports + parlay scanners), `_ALLOWED_REDIRECT_HOSTS` / `SPORTSBOOK_DISPLAY_NAMES` in `api/go.py`, and `PLATFORM_LOGOS` in `generate.py` on 2026-05-14. Re-add only with a licensed affiliate agreement *and* per-partner geo-restrictions wired up in `config/partners.json`. Reason: no revenue path + US compliance exposure on offshore traffic.
+- **Compliance scaffold for affiliate applications (2026-05-18)** — Three pieces landed together as prereqs for licensed-affiliate program applications: (1) age gate modal on `/go/` interstitials with per-platform minimum (`PLATFORM_MIN_AGE`) and `db_age_ack` cookie de-dupe, (2) `/responsible-gambling/` content page expanded with self-exclusion section (GamStop, US state SE programs, BetBlocker, Gamban, operator limits) and linked from `footer_info_nav()`, (3) deny-by-default consent banner with persisted `db_consent` cookie. Together these unblock FanDuel/DraftKings/BetMGM/BetRivers/Kalshi affiliate-program applications. Don't downgrade any of these without checking memory file `project_compliance_scaffold_2026_05_18.md`.
+- **Morning prediction-market scan locked to 08:00 UTC** — Cron in `daily-scan.yml` runs the Kalshi/Polymarket scan only at the 08:00 slot (= 9am London BST / 8am London GMT). Other five cron slots (16, 19, 22, 01, 04 UTC) handle sports/combo refresh during US peak hours. Don't change 08:00 to track DST — the single-line cron was an explicit tradeoff vs. DST-aware workflow complexity (commit 79ae20c).
 
 ## Environment Variables (Vercel)
 

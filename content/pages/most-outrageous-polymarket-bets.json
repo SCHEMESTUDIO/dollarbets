@@ -1,0 +1,132 @@
+{
+  "slug": "most-outrageous-polymarket-bets",
+  "format": "weird_market_roundup",
+  "seo": {
+    "title": "The Most Outrageous Polymarket Bets We've Seen This Year | Dollar Bets",
+    "h1": "The Most Outrageous Polymarket Bets We've Seen This Year",
+    "meta_description": "The most outrageous Polymarket bets we've seen this year — absurd longshots, ridiculous superlatives, and the markets where $1 is the right size.",
+    "canonical": "/most-outrageous-polymarket-bets/"
+  },
+  "summary": "The most outrageous Polymarket bets right now include a market on whether DeepSeek will lead every AI model in May ($1 returns $80), a market on a country walking out of OPEC this year, and a market on Republicans flipping Maine's Senate seat. All real, all live, all priced by people who have stopped pretending the world is normal.",
+  "quick_answer": "The most outrageous Polymarket bets this year include a generational longshot on DeepSeek topping the AI leaderboard by month-end ($1 returns $80), an absurd geopolitics market on a country leaving OPEC in 2026, a ridiculous political flip market on Maine's Senate seat, plus Korean baseball, Maltese voter turnout, and Ethereum price-target contracts. The board changes daily — these are today's standouts.",
+  "hero_bet": {
+    "title": "DeepSeek leads all AI models in May",
+    "payout": 80,
+    "quip": "A buck says the Chinese lab everyone keeps writing think-pieces about actually does the thing.",
+    "tier": "purple",
+    "sourcePlatform": "Polymarket",
+    "marketType": "prediction_market",
+    "url": "https://polymarket.com/event/best-chinese-ai-company-end-of-may"
+  },
+  "internal_links": [
+    {
+      "text": "funny polymarket bets",
+      "url": "/funny-polymarket-bets/"
+    },
+    {
+      "text": "crazy kalshi bets",
+      "url": "/crazy-kalshi-bets/"
+    },
+    {
+      "text": "weird prediction markets",
+      "url": "/weird-prediction-markets/"
+    },
+    {
+      "text": "today's full board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Polymarket is currently asking the internet to put real money on whether DeepSeek — the Chinese AI lab that periodically convinces Silicon Valley it has lost the plot — will end May as the leading model on every benchmark Polymarket tracks. The market is priced at roughly a penny on the dollar. A single dollar pays $80. That is outrageous, absurd, and ridiculous in roughly equal measure, and it is the most entertaining bet on the platform this morning."
+    },
+    {
+      "type": "text",
+      "content": "We round up the most outrageous Polymarket bets that are live right now — markets pulled from today's Dollar Bets board, not invented for a listicle. Some are funny because they're improbable. Some are funny because they exist at all."
+    },
+    {
+      "type": "heading",
+      "content": "the most outrageous market on polymarket today"
+    },
+    {
+      "type": "text",
+      "content": "DeepSeek leading all AI models in May is the kind of market that only Polymarket would list. It is a one-month referendum on the AI race that asks: forget the noise, forget the press releases — does the open-weights lab from Hangzhou actually finish the month on top? The crowd has priced it at 1.25%. A dollar pays $80. Either the joke gets funnier as the month closes, or Wikipedia really does have a page to rewrite."
+    },
+    {
+      "type": "heading",
+      "content": "a country actually walks out on OPEC this year"
+    },
+    {
+      "type": "text",
+      "content": "Polymarket has a live market on whether any country will leave OPEC before the end of 2026. The crowd thinks there's a roughly 32% chance — which is itself absurd, because 32% on a year-long geopolitical breakup is the prediction-market equivalent of \"do not bet against this if you read the news.\" A dollar returns about $3.17. The market exists because Polymarket lists things a regulated exchange wouldn't touch, and because someone — probably an oil desk in Geneva — wanted a hedge that doesn't show up on Bloomberg."
+    },
+    {
+      "type": "heading",
+      "content": "republicans flip maine's senate seat"
+    },
+    {
+      "type": "text",
+      "content": "A market on whether Republicans flip the Maine Senate seat is currently priced at about 22.5%. A dollar pays $4.44. The market itself is not the joke — it's a real contested race. The outrageous part is the granularity: Polymarket has individual markets for every contested seat, every primary, every cabinet vacancy. The platform has effectively built a parallel polling industry where the polls cost money to be wrong."
+    },
+    {
+      "type": "heading",
+      "content": "the markets that exist because polymarket lets them"
+    },
+    {
+      "type": "text",
+      "content": "Today's board also has live Polymarket bets on whether the Lotte Giants beat the KT Wiz in KBO play, whether Maltese voter turnout stays below 85%, and whether Ethereum hits $1,500 before the end of the year. Korean baseball, Maltese democracy, and crypto price targets — all on the same screen, all priced by the same crowd, none of them on a US sportsbook. This is the part of Polymarket that gets called ridiculous and then quietly racks up volume."
+    },
+    {
+      "type": "heading",
+      "content": "what makes a polymarket bet \"outrageous\""
+    },
+    {
+      "type": "text",
+      "content": "Outrageous, in prediction-market terms, is a function of three things. First, the implied probability has to feel disrespectful to reality — either way too high or way too low. Second, the topic has to be something that wasn't supposed to be a financial instrument. And third, the resolution date has to be close enough that the market is actually live. DeepSeek-in-May checks all three. So does the OPEC walkout. The Ethereum price target, on the other hand, is just a normal crypto bet that got demoted to the same board by accident."
+    },
+    {
+      "type": "heading",
+      "content": "how polymarket prices the absurd"
+    },
+    {
+      "type": "text",
+      "content": "Polymarket's resolution model is decentralized — the platform uses UMA's optimistic oracle, where outcomes are proposed and can be disputed before they finalize. That structure is part of why the markets get weirder than Kalshi's: the listing process is more open, the resolution is community-defined, and the entire pipeline runs on a public blockchain. The tradeoff is that you sometimes get markets where the resolution criteria are sharper than the question itself, which is its own kind of comedy."
+    },
+    {
+      "type": "heading",
+      "content": "where to find more of this"
+    },
+    {
+      "type": "text",
+      "content": "The Dollar Bets board is rebuilt every day from live markets on Kalshi and Polymarket, reframed as what a single dollar returns. If today's outrageous Polymarket bet didn't move you, tomorrow's will. The whole point of running the scanner daily is that the absurd has a short half-life."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are these outrageous Polymarket bets actually real?",
+      "a": "Yes. Every market mentioned is pulled from Polymarket and surfaced on today's Dollar Bets board. Prices and resolution dates change — by the time you read this, some markets may have moved or closed."
+    },
+    {
+      "q": "Why are Polymarket bets weirder than Kalshi bets?",
+      "a": "Polymarket's market-creation process is more open. Kalshi is a CFTC-regulated exchange and lists event contracts that go through a regulatory review. Polymarket runs on a public blockchain with community-based resolution, so the range of listed markets is wider — and the outrageous end of that range is where most of the comedy lives."
+    },
+    {
+      "q": "Can you actually win $80 on the DeepSeek market?",
+      "a": "If you buy a contract at the current price and DeepSeek finishes May as the top model on the criteria the market specifies, yes — a roughly $1 stake at a 1.25-cent price pays out around $80 minus fees. The market resolves on whichever leaderboard Polymarket has defined; read the resolution criteria before buying anything."
+    },
+    {
+      "q": "Is Polymarket available in the US?",
+      "a": "Polymarket's US availability has shifted over time and varies by state. Check the platform's terms and your local regulations before participating. Dollar Bets is editorial — we surface markets, we don't operate them."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial discovery site. We do not operate prediction markets, place bets, or provide financial advice. Polymarket is a separate platform with its own terms, risks, and regulatory status, and US availability varies by jurisdiction. Prediction market contracts involve the risk of total loss. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-05-18",
+  "last_updated": "2026-05-18",
+  "cluster": "Weird Bets",
+  "priority": 7
+}

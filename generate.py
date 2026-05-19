@@ -241,8 +241,8 @@ SHARED_CSS = """
     .header { margin-bottom: 16px; }
 
     .site-title {
-      font-family: 'Georgia', 'Times New Roman', serif;
-      font-size: 28px;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 26px;
       font-weight: 700;
       color: #e8642c;
       letter-spacing: -0.5px;
@@ -1154,12 +1154,12 @@ function shareTo(e, platform, btn) {{
 
 # Inline SVG logos for platforms (small, monochrome, ~14px tall)
 PLATFORM_LOGOS = {
-    "kalshi": '<svg class="logo-kalshi" viewBox="0 0 60 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">Kalshi</text></svg>',
-    "polymarket": '<svg class="logo-polymarket" viewBox="0 0 90 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">Polymarket</text></svg>',
-    "fanduel": '<svg class="logo-sportsbook" viewBox="0 0 70 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">FanDuel</text></svg>',
-    "draftkings": '<svg class="logo-sportsbook" viewBox="0 0 90 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">DraftKings</text></svg>',
-    "betmgm": '<svg class="logo-sportsbook" viewBox="0 0 65 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">BetMGM</text></svg>',
-    "betrivers": '<svg class="logo-sportsbook" viewBox="0 0 80 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Georgia,serif" font-size="14" font-weight="700" letter-spacing="-0.5">BetRivers</text></svg>',
+    "kalshi": '<svg class="logo-kalshi" viewBox="0 0 60 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Courier New,Courier,monospace" font-size="14" font-weight="700" letter-spacing="-0.5">Kalshi</text></svg>',
+    "polymarket": '<svg class="logo-polymarket" viewBox="0 0 90 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Courier New,Courier,monospace" font-size="14" font-weight="700" letter-spacing="-0.5">Polymarket</text></svg>',
+    "fanduel": '<svg class="logo-sportsbook" viewBox="0 0 70 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Courier New,Courier,monospace" font-size="14" font-weight="700" letter-spacing="-0.5">FanDuel</text></svg>',
+    "draftkings": '<svg class="logo-sportsbook" viewBox="0 0 90 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Courier New,Courier,monospace" font-size="14" font-weight="700" letter-spacing="-0.5">DraftKings</text></svg>',
+    "betmgm": '<svg class="logo-sportsbook" viewBox="0 0 65 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Courier New,Courier,monospace" font-size="14" font-weight="700" letter-spacing="-0.5">BetMGM</text></svg>',
+    "betrivers": '<svg class="logo-sportsbook" viewBox="0 0 80 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Courier New,Courier,monospace" font-size="14" font-weight="700" letter-spacing="-0.5">BetRivers</text></svg>',
 }
 
 
