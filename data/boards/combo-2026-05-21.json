@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T07:02:57.657972+00:00",
+  "generated_at": "2026-05-21T12:34:31.304475+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -9,30 +9,39 @@
   },
   "sport_mix": {
     "Multi": 9,
-    "NFL": 1
+    "NHL": 1
   },
   "board": [
     {
-      "ticker": "PARLAY-1A260CF2",
-      "title": "Diego Lopes wins + Seattle Seahawks wins",
-      "payout": 2.23,
+      "ticker": "PARLAY-2DEBFEE3",
+      "title": "Carolina Hurricanes wins + Diego Lopes wins",
+      "payout": 2.25,
       "tier": "green",
-      "quip": "tuesday energy",
+      "quip": "just showing up",
       "yes_price": "0.45",
       "category": "sports-parlay",
       "platform": "fanduel",
       "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.561358496&selectionId=40743455",
-      "sport": "mma_mixed_martial_arts",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579059288&selectionId=25607",
+      "sport": "icehockey_nhl",
       "sport_display": "Multi",
-      "matchup": "Steve Garcia Jr. @ Diego Lopes + New England Patriots @ Seattle Seahawks",
+      "matchup": "Montr\u00e9al Canadiens @ Carolina Hurricanes + Steve Garcia Jr. @ Diego Lopes",
       "market_type": "2-leg parlay",
-      "american_odds": 123,
-      "implied_probability": 0.448,
+      "american_odds": 125,
+      "implied_probability": 0.445,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
+        {
+          "matchup": "Montr\u00e9al Canadiens @ Carolina Hurricanes",
+          "pick": "Carolina Hurricanes wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579059288&selectionId=25607",
+          "commence_time": "2026-05-22T00:20:36Z"
+        },
         {
           "matchup": "Steve Garcia Jr. @ Diego Lopes",
           "pick": "Diego Lopes wins",
@@ -41,36 +50,111 @@
           "sport": "mma_mixed_martial_arts",
           "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.561358496&selectionId=40743455",
           "commence_time": "2026-06-14T22:10:00Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -205,
-          "implied_prob": "67%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578406843&selectionId=50213",
-          "commence_time": "2026-09-10T00:15:00Z"
         }
       ],
-      "close_time": "2026-06-14T22:10:00Z"
+      "close_time": "2026-05-22T00:20:36Z"
     },
     {
-      "ticker": "PARLAY-7AD8E6B0",
-      "title": "Cincinnati Bengals wins + Seattle Seahawks wins",
-      "payout": 2.25,
+      "ticker": "PARLAY-EF891931",
+      "title": "Arizona Diamondbacks wins + Carolina Hurricanes wins",
+      "payout": 2.26,
       "tier": "green",
-      "quip": "just showing up",
+      "quip": "the fundamentals",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579852895&selectionId=29165",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Colorado Rockies @ Arizona Diamondbacks + Montr\u00e9al Canadiens @ Carolina Hurricanes",
+      "market_type": "2-leg parlay",
+      "american_odds": 126,
+      "implied_probability": 0.443,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Colorado Rockies @ Arizona Diamondbacks",
+          "pick": "Arizona Diamondbacks wins",
+          "odds": -198,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579852895&selectionId=29165",
+          "commence_time": "2026-05-22T01:41:00Z"
+        },
+        {
+          "matchup": "Montr\u00e9al Canadiens @ Carolina Hurricanes",
+          "pick": "Carolina Hurricanes wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579059288&selectionId=25607",
+          "commence_time": "2026-05-22T00:20:36Z"
+        }
+      ],
+      "close_time": "2026-05-22T00:20:36Z"
+    },
+    {
+      "ticker": "PARLAY-600A55A7",
+      "title": "Arizona Diamondbacks wins + Diego Lopes wins",
+      "payout": 2.26,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579852895&selectionId=29165",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Colorado Rockies @ Arizona Diamondbacks + Steve Garcia Jr. @ Diego Lopes",
+      "market_type": "2-leg parlay",
+      "american_odds": 126,
+      "implied_probability": 0.443,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Colorado Rockies @ Arizona Diamondbacks",
+          "pick": "Arizona Diamondbacks wins",
+          "odds": -198,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579852895&selectionId=29165",
+          "commence_time": "2026-05-22T01:41:00Z"
+        },
+        {
+          "matchup": "Steve Garcia Jr. @ Diego Lopes",
+          "pick": "Diego Lopes wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.561358496&selectionId=40743455",
+          "commence_time": "2026-06-14T22:10:00Z"
+        }
+      ],
+      "close_time": "2026-05-22T01:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-6474005F",
+      "title": "Cincinnati Bengals wins + Carolina Hurricanes wins",
+      "payout": 2.27,
+      "tier": "green",
+      "quip": "checking all the boxes",
       "yes_price": "0.44",
       "category": "sports-parlay",
       "platform": "fanduel",
       "platform_display": "FanDuel",
       "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578646297&selectionId=50210",
       "sport": "americanfootball_nfl",
-      "sport_display": "NFL",
-      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + New England Patriots @ Seattle Seahawks",
+      "sport_display": "Multi",
+      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + Montr\u00e9al Canadiens @ Carolina Hurricanes",
       "market_type": "2-leg parlay",
-      "american_odds": 125,
-      "implied_probability": 0.444,
+      "american_odds": 127,
+      "implied_probability": 0.44,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
@@ -85,149 +169,23 @@
           "commence_time": "2026-09-13T17:00:00Z"
         },
         {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -205,
-          "implied_prob": "67%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578406843&selectionId=50213",
-          "commence_time": "2026-09-10T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-09-10T00:15:00Z"
-    },
-    {
-      "ticker": "PARLAY-0F4617BE",
-      "title": "Detroit Tigers +1.5 + Seattle Seahawks wins",
-      "payout": 2.25,
-      "tier": "green",
-      "quip": "the fundamentals",
-      "yes_price": "0.44",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579979355&selectionId=29159",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Cleveland Guardians @ Detroit Tigers + New England Patriots @ Seattle Seahawks",
-      "market_type": "2-leg parlay",
-      "american_odds": 125,
-      "implied_probability": 0.444,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Cleveland Guardians @ Detroit Tigers",
-          "pick": "Detroit Tigers +1.5",
-          "odds": -194,
-          "implied_prob": "66%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579979355&selectionId=29159",
-          "commence_time": "2026-05-21T17:11:00Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -205,
-          "implied_prob": "67%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578406843&selectionId=50213",
-          "commence_time": "2026-09-10T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-05-21T17:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-110EC359",
-      "title": "Carolina Hurricanes wins + Seattle Seahawks wins",
-      "payout": 2.25,
-      "tier": "green",
-      "quip": "rent money",
-      "yes_price": "0.45",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579059288&selectionId=25607",
-      "sport": "icehockey_nhl",
-      "sport_display": "Multi",
-      "matchup": "Montr\u00e9al Canadiens @ Carolina Hurricanes + New England Patriots @ Seattle Seahawks",
-      "market_type": "2-leg parlay",
-      "american_odds": 125,
-      "implied_probability": 0.445,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
           "matchup": "Montr\u00e9al Canadiens @ Carolina Hurricanes",
           "pick": "Carolina Hurricanes wins",
-          "odds": -196,
-          "implied_prob": "66%",
+          "odds": -200,
+          "implied_prob": "67%",
           "sport": "icehockey_nhl",
           "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579059288&selectionId=25607",
           "commence_time": "2026-05-22T00:20:36Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -205,
-          "implied_prob": "67%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578406843&selectionId=50213",
-          "commence_time": "2026-09-10T00:15:00Z"
         }
       ],
       "close_time": "2026-05-22T00:20:36Z"
-    },
-    {
-      "ticker": "PARLAY-9E2D0FAA",
-      "title": "Arizona Diamondbacks wins + Seattle Seahawks wins",
-      "payout": 2.27,
-      "tier": "green",
-      "quip": "tuesday energy",
-      "yes_price": "0.44",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579852895&selectionId=29165",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Colorado Rockies @ Arizona Diamondbacks + New England Patriots @ Seattle Seahawks",
-      "market_type": "2-leg parlay",
-      "american_odds": 127,
-      "implied_probability": 0.44,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Colorado Rockies @ Arizona Diamondbacks",
-          "pick": "Arizona Diamondbacks wins",
-          "odds": -190,
-          "implied_prob": "66%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579852895&selectionId=29165",
-          "commence_time": "2026-05-22T01:41:00Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -205,
-          "implied_prob": "67%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578406843&selectionId=50213",
-          "commence_time": "2026-09-10T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-05-22T01:41:00Z"
     },
     {
       "ticker": "PARLAY-EA7864D1",
       "title": "Cincinnati Bengals wins + Diego Lopes wins",
       "payout": 2.27,
       "tier": "green",
-      "quip": "rent money",
+      "quip": "business as usual",
       "yes_price": "0.44",
       "category": "sports-parlay",
       "platform": "fanduel",
@@ -265,103 +223,103 @@
       "close_time": "2026-06-14T22:10:00Z"
     },
     {
-      "ticker": "PARLAY-9FF1F06D",
-      "title": "Detroit Tigers +1.5 + Diego Lopes wins",
-      "payout": 2.27,
+      "ticker": "PARLAY-39B37E3C",
+      "title": "Cincinnati Bengals wins + Arizona Diamondbacks wins",
+      "payout": 2.28,
       "tier": "green",
-      "quip": "no surprises here",
+      "quip": "as sure as gravity",
       "yes_price": "0.44",
       "category": "sports-parlay",
       "platform": "fanduel",
       "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579979355&selectionId=29159",
-      "sport": "baseball_mlb",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578646297&selectionId=50210",
+      "sport": "americanfootball_nfl",
       "sport_display": "Multi",
-      "matchup": "Cleveland Guardians @ Detroit Tigers + Steve Garcia Jr. @ Diego Lopes",
+      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + Colorado Rockies @ Arizona Diamondbacks",
       "market_type": "2-leg parlay",
-      "american_odds": 127,
-      "implied_probability": 0.44,
+      "american_odds": 128,
+      "implied_probability": 0.438,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Cleveland Guardians @ Detroit Tigers",
-          "pick": "Detroit Tigers +1.5",
+          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+          "pick": "Cincinnati Bengals wins",
           "odds": -194,
           "implied_prob": "66%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579979355&selectionId=29159",
-          "commence_time": "2026-05-21T17:11:00Z"
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578646297&selectionId=50210",
+          "commence_time": "2026-09-13T17:00:00Z"
         },
         {
-          "matchup": "Steve Garcia Jr. @ Diego Lopes",
-          "pick": "Diego Lopes wins",
-          "odds": -200,
-          "implied_prob": "67%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.561358496&selectionId=40743455",
-          "commence_time": "2026-06-14T22:10:00Z"
+          "matchup": "Colorado Rockies @ Arizona Diamondbacks",
+          "pick": "Arizona Diamondbacks wins",
+          "odds": -198,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579852895&selectionId=29165",
+          "commence_time": "2026-05-22T01:41:00Z"
         }
       ],
-      "close_time": "2026-05-21T17:11:00Z"
+      "close_time": "2026-05-22T01:41:00Z"
     },
     {
-      "ticker": "PARLAY-2DEBFEE3",
-      "title": "Carolina Hurricanes wins + Diego Lopes wins",
-      "payout": 2.27,
+      "ticker": "PARLAY-D00CAFA5",
+      "title": "FC Cincinnati wins + Carolina Hurricanes wins",
+      "payout": 2.29,
       "tier": "green",
-      "quip": "the sun also rises",
+      "quip": "clock in, cash out",
       "yes_price": "0.44",
       "category": "sports-parlay",
       "platform": "fanduel",
       "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579059288&selectionId=25607",
-      "sport": "icehockey_nhl",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579141030&selectionId=10962520",
+      "sport": "soccer_usa_mls",
       "sport_display": "Multi",
-      "matchup": "Montr\u00e9al Canadiens @ Carolina Hurricanes + Steve Garcia Jr. @ Diego Lopes",
+      "matchup": "Orlando City SC @ FC Cincinnati + Montr\u00e9al Canadiens @ Carolina Hurricanes",
       "market_type": "2-leg parlay",
-      "american_odds": 127,
-      "implied_probability": 0.442,
+      "american_odds": 129,
+      "implied_probability": 0.437,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
+        {
+          "matchup": "Orlando City SC @ FC Cincinnati",
+          "pick": "FC Cincinnati wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579141030&selectionId=10962520",
+          "commence_time": "2026-05-23T23:30:00Z"
+        },
         {
           "matchup": "Montr\u00e9al Canadiens @ Carolina Hurricanes",
           "pick": "Carolina Hurricanes wins",
-          "odds": -196,
-          "implied_prob": "66%",
+          "odds": -200,
+          "implied_prob": "67%",
           "sport": "icehockey_nhl",
           "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579059288&selectionId=25607",
           "commence_time": "2026-05-22T00:20:36Z"
-        },
-        {
-          "matchup": "Steve Garcia Jr. @ Diego Lopes",
-          "pick": "Diego Lopes wins",
-          "odds": -200,
-          "implied_prob": "67%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.561358496&selectionId=40743455",
-          "commence_time": "2026-06-14T22:10:00Z"
         }
       ],
       "close_time": "2026-05-22T00:20:36Z"
     },
     {
-      "ticker": "PARLAY-39E1CE4E",
-      "title": "Benoit Saint-Denis wins + Seattle Seahawks wins",
+      "ticker": "PARLAY-A1063213",
+      "title": "FC Cincinnati wins + Diego Lopes wins",
       "payout": 2.29,
       "tier": "green",
-      "quip": "routine maintenance",
+      "quip": "as sure as gravity",
       "yes_price": "0.44",
       "category": "sports-parlay",
       "platform": "fanduel",
       "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579416273&selectionId=64738169",
-      "sport": "mma_mixed_martial_arts",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579141030&selectionId=10962520",
+      "sport": "soccer_usa_mls",
       "sport_display": "Multi",
-      "matchup": "Paddy Pimblett @ Benoit Saint-Denis + New England Patriots @ Seattle Seahawks",
+      "matchup": "Orlando City SC @ FC Cincinnati + Steve Garcia Jr. @ Diego Lopes",
       "market_type": "2-leg parlay",
       "american_odds": 129,
       "implied_probability": 0.437,
@@ -370,55 +328,13 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Paddy Pimblett @ Benoit Saint-Denis",
-          "pick": "Benoit Saint-Denis wins",
-          "odds": -186,
-          "implied_prob": "65%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579416273&selectionId=64738169",
-          "commence_time": "2026-07-12T03:00:00Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -205,
-          "implied_prob": "67%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578406843&selectionId=50213",
-          "commence_time": "2026-09-10T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-07-12T03:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-600A55A7",
-      "title": "Arizona Diamondbacks wins + Diego Lopes wins",
-      "payout": 2.29,
-      "tier": "green",
-      "quip": "another day at the office",
-      "yes_price": "0.44",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579852895&selectionId=29165",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Colorado Rockies @ Arizona Diamondbacks + Steve Garcia Jr. @ Diego Lopes",
-      "market_type": "2-leg parlay",
-      "american_odds": 129,
-      "implied_probability": 0.437,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Colorado Rockies @ Arizona Diamondbacks",
-          "pick": "Arizona Diamondbacks wins",
+          "matchup": "Orlando City SC @ FC Cincinnati",
+          "pick": "FC Cincinnati wins",
           "odds": -190,
           "implied_prob": "66%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579852895&selectionId=29165",
-          "commence_time": "2026-05-22T01:41:00Z"
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579141030&selectionId=10962520",
+          "commence_time": "2026-05-23T23:30:00Z"
         },
         {
           "matchup": "Steve Garcia Jr. @ Diego Lopes",
@@ -430,7 +346,91 @@
           "commence_time": "2026-06-14T22:10:00Z"
         }
       ],
-      "close_time": "2026-05-22T01:41:00Z"
+      "close_time": "2026-05-23T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-A0013A1A",
+      "title": "Colorado Avalanche wins + Carolina Hurricanes wins",
+      "payout": 2.3,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579933639&selectionId=25602",
+      "sport": "icehockey_nhl",
+      "sport_display": "NHL",
+      "matchup": "Vegas Golden Knights @ Colorado Avalanche + Montr\u00e9al Canadiens @ Carolina Hurricanes",
+      "market_type": "2-leg parlay",
+      "american_odds": 130,
+      "implied_probability": 0.436,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Vegas Golden Knights @ Colorado Avalanche",
+          "pick": "Colorado Avalanche wins",
+          "odds": -188,
+          "implied_prob": "65%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579933639&selectionId=25602",
+          "commence_time": "2026-05-23T00:00:00Z"
+        },
+        {
+          "matchup": "Montr\u00e9al Canadiens @ Carolina Hurricanes",
+          "pick": "Carolina Hurricanes wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579059288&selectionId=25607",
+          "commence_time": "2026-05-22T00:20:36Z"
+        }
+      ],
+      "close_time": "2026-05-22T00:20:36Z"
+    },
+    {
+      "ticker": "PARLAY-1205A17A",
+      "title": "Colorado Avalanche wins + Diego Lopes wins",
+      "payout": 2.3,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579933639&selectionId=25602",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Vegas Golden Knights @ Colorado Avalanche + Steve Garcia Jr. @ Diego Lopes",
+      "market_type": "2-leg parlay",
+      "american_odds": 130,
+      "implied_probability": 0.436,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Vegas Golden Knights @ Colorado Avalanche",
+          "pick": "Colorado Avalanche wins",
+          "odds": -188,
+          "implied_prob": "65%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579933639&selectionId=25602",
+          "commence_time": "2026-05-23T00:00:00Z"
+        },
+        {
+          "matchup": "Steve Garcia Jr. @ Diego Lopes",
+          "pick": "Diego Lopes wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.561358496&selectionId=40743455",
+          "commence_time": "2026-06-14T22:10:00Z"
+        }
+      ],
+      "close_time": "2026-05-23T00:00:00Z"
     }
   ]
 }
