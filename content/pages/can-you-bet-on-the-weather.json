@@ -1,0 +1,106 @@
+{
+  "slug": "can-you-bet-on-the-weather",
+  "format": "explainer",
+  "seo": {
+    "title": "Can You Bet on the Weather? Yes — Here's How It Works | Dollar Bets",
+    "h1": "Can You Bet on the Weather?",
+    "meta_description": "Yes — you can bet on the weather. Here's how weather betting works on Kalshi, plus five real markets on rain, heat records, and hurricanes where a dollar gets interesting.",
+    "canonical": "/can-you-bet-on-the-weather/"
+  },
+  "summary": "Right now Kalshi has a live market on whether May 2026 ends up the hottest May ever recorded — a yes-or-no bet on a whole month's worth of weather. Yes, you can bet on the weather. Rain, heat records, hurricanes, daily temperatures: here's how it works and five markets to start with.",
+  "quick_answer": "Yes, you can bet on the weather. Kalshi, a CFTC-regulated US exchange, lists event contracts on rainfall, daily and monthly temperature records, and hurricane landfalls. You buy a yes-or-no contract for cents; if the weather cooperates by the deadline, each contract pays $1. A dollar on a longshot weather market can return $4, $10, or more.",
+  "hero_bet": {
+    "title": "May 2026 breaks the heat record",
+    "payout": 4.35,
+    "quip": "A buck says the month sweats through its own record.",
+    "tier": "yellow",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {
+      "text": "weather betting markets",
+      "url": "/weather-betting-markets/"
+    },
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "weird prediction markets",
+      "url": "/weird-markets/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "On Kalshi right now there is a live market asking whether May 2026 will finish as the hottest May ever recorded. Not a forecast. Not a weather-app push notification. An actual contract you can buy for about 23 cents that pays a full dollar if the month sweats through the record book. So, can you bet on the weather? Yes — and it may be the cleanest thing on the whole board to bet a dollar on, because the sky never disputes the call."
+    },
+    {
+      "type": "heading",
+      "content": "so, can you actually bet on the weather?"
+    },
+    {
+      "type": "text",
+      "content": "Yes. Kalshi is a CFTC-regulated exchange in the US, and weather is one of its core contract categories. Every weather bet is a plain yes-or-no question with a deadline — will it rain this much, will the temperature clear that line, will a hurricane make landfall — and it settles on official government data from NOAA and the National Centers for Environmental Information. There is no bookmaker shading a line and no house edge buried in the vig. You trade a contract against other people who also think they can out-read a forecast. A contract priced at 23 cents costs you 23 cents and pays $1.00 if you are right, so a single dollar on that hottest-May market buys roughly four contracts and a $4.35 return if the month delivers. The cheaper the contract, the longer the odds the crowd is giving you — and the bigger the number a dollar turns into."
+    },
+    {
+      "type": "heading",
+      "content": "five weather markets you can bet a dollar on"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Monthly heat records. Kalshi lists contracts on whether a given month lands as the warmest on record — the live \"hottest May ever\" market is the current example, priced around 23 cents.",
+        "The hottest year ever. A longer-horizon version that asks whether the full calendar year breaks the global heat record. It trades closer to a coin flip, so the payout is smaller but the wait runs most of a year.",
+        "City rainfall. Markets like \"will it rain at least this much in Houston this month\" resolve on a single gauge reading. Earlier in May, a Houston rain contract paid about $2.70 on the dollar.",
+        "Daily high temperature. The fastest weather bet there is — will a specific city clear a specific temperature on a specific day. One afternoon reading settles the whole thing.",
+        "Hurricane landfall. Seasonal contracts on whether a named storm of a given strength reaches the US coast. These trade like futures, swinging hard every time a tropical system spins up in the Atlantic."
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "is there a weather betting app?"
+    },
+    {
+      "type": "text",
+      "content": "Sort of — but not the way the search box imagines it. There is no standalone \"weather betting app\" the way there is a weather app on your phone. What exists is Kalshi, which has a full mobile app where weather sits as one category next to politics, economics, and culture. You open the app, find the climate and weather section, and the same rain, temperature, and hurricane contracts are right there. So if you are wondering how to bet on the weather from your phone, the honest answer is: download Kalshi, not a dedicated weather-bet app, because a dedicated one does not really exist yet."
+    },
+    {
+      "type": "heading",
+      "content": "what makes weather markets worth a dollar"
+    },
+    {
+      "type": "text",
+      "content": "Here is the part that makes a weather bet genuinely fun rather than just novel: the forecast has a real, honest uncertainty band, and you can watch it. A seven-day outlook is solid. A thirty-day outlook is closer to an educated shrug. That gap — between what the models say and what the atmosphere actually does — is the entire game, and unlike a ballgame there is no roster, no injury report, and no coaching decision to handicap. There is just physics and a deadline. A dollar on whether May out-sweats every May before it will not change your life, but it will make you check the forecast like it owes you money. For the rest of today's weather markets, reframed as what a dollar returns, the board is the place to look."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you actually bet on the weather?",
+      "a": "Yes. Kalshi, a CFTC-regulated US exchange, lists event contracts on rainfall, temperature, heat records, and hurricanes. You buy a yes-or-no contract for cents; if the weather matches the question by the deadline, each contract pays $1."
+    },
+    {
+      "q": "How are weather bets settled?",
+      "a": "By official government data. Weather contracts resolve on figures from NOAA and the National Centers for Environmental Information, named in the contract terms before trading opens. There is no judgment call — just the published number."
+    },
+    {
+      "q": "Is there a weather betting app?",
+      "a": "There is no dedicated weather-only betting app. Kalshi's mobile app carries weather contracts alongside its other categories, so that is the practical way to bet on the weather from a phone."
+    },
+    {
+      "q": "Is betting on the weather legal?",
+      "a": "Weather contracts on Kalshi are regulated event contracts treated as derivatives, not traditional gambling. Availability still varies by state, so check Kalshi's jurisdiction rules for where you live."
+    }
+  ],
+  "compliance": "Kalshi offers actual weather event contracts, regulated by the CFTC as derivatives rather than traditional gambling. Specific markets, prices, and payouts cited here are illustrative and change constantly — check Kalshi for live numbers. Weather contract availability varies by jurisdiction. Dollar Bets is an editorial discovery site: we surface markets, we do not operate them or provide financial advice. Prediction market contracts carry the risk of total loss. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-05-22",
+  "last_updated": "2026-05-22",
+  "cluster": "Weather",
+  "priority": 7
+}

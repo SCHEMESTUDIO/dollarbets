@@ -1,0 +1,136 @@
+{
+  "slug": "weirdest-election-prediction-markets",
+  "format": "weird_market_roundup",
+  "seo": {
+    "title": "The Weirdest Election Prediction Markets You Can Bet On | Dollar Bets",
+    "h1": "The Weirdest Election Prediction Markets You Can Bet On",
+    "meta_description": "The weirdest election prediction markets live right now: obscure congressional primaries, a $1.5M Iran-deal market, and absurd longshots where $1 is the bet size.",
+    "canonical": "/weirdest-election-prediction-markets/"
+  },
+  "summary": "The weirdest election prediction markets live right now aren't presidential — they're hyper-specific. Kalshi has a market on whether Chi Charlie Nguyen leads the CA-45 congressional primary, with $160 of total volume. Elsewhere: a former Virgin Galactic CEO's race, a Madison restaurateur's governor bid, and a $1.5M Iran-deal market.",
+  "quick_answer": "The weirdest election prediction markets live right now are mostly down-ballot. Kalshi runs district-by-district markets on congressional primaries — including a CA-45 primary contract with roughly $160 of total volume — while Polymarket has a market on a Madison restaurateur winning the Wisconsin Democratic governor primary. A separate Kalshi market on a US-Iran nuclear deal has done over $1.5 million. All are real, all are live, and a dollar's worth of any of them is the right bet size.",
+  "hero_bet": {
+    "title": "Chi Charlie Nguyen leads the CA-45 primary",
+    "payout": 10,
+    "quip": "A buck returns ten on a congressional primary whose entire market has traded less money than a nice dinner.",
+    "tier": "orange",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {
+      "text": "can you legally bet on elections",
+      "url": "/can-you-legally-bet-on-elections/"
+    },
+    {
+      "text": "politics markets",
+      "url": "/politics-markets/"
+    },
+    {
+      "text": "crazy kalshi bets",
+      "url": "/crazy-kalshi-bets/"
+    },
+    {
+      "text": "funny polymarket bets",
+      "url": "/funny-polymarket-bets/"
+    },
+    {
+      "text": "today's full board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Kalshi currently has a live market on whether someone named Chi Charlie Nguyen will lead the CA-45 congressional primary. The election is in November 2027. The market has attracted $160 of total volume — less than a decent dinner for two. A dollar on it returns ten. That is a weird, absurd, ridiculous use of a financial exchange, and it is exactly the kind of market this page is about."
+    },
+    {
+      "type": "text",
+      "content": "Below are the weirdest election prediction markets live on the Dollar Bets board right now — every one pulled from today's scan of Kalshi and Polymarket, not invented for a listicle. None of them are about who wins the White House. The strangest election betting happening this week is happening several congressional districts down the ballot."
+    },
+    {
+      "type": "heading",
+      "content": "the weirdest election market on the board today"
+    },
+    {
+      "type": "text",
+      "content": "The CA-45 primary market is weird on three separate axes. It resolves in November 2027 — roughly eighteen months from now — so anyone buying in is locking a dollar up for a year and a half. It's about a single district primary in Southern California, the kind of race that doesn't make national news until the night it's decided. And it has $160 of total volume, which means the entire market is being moved by what appears to be a handful of people who really, specifically care. A dollar returns $10, a heater-tier payout, because the crowd thinks Chi Charlie Nguyen leading the field is a long shot. The funny part isn't the odds. It's that the market exists at all."
+    },
+    {
+      "type": "heading",
+      "content": "the rocket-company ceo running in ca-27"
+    },
+    {
+      "type": "text",
+      "content": "Further down the board is a Kalshi market on whether George Whitesides leads the CA-27 primary. Whitesides is not a typical congressional name: he ran Virgin Galactic as its CEO and served as NASA's chief of staff before winning the seat in 2024. So the market is, functionally, a question about whether the former spaceflight executive can hold his own primary — priced around 46%, where a dollar returns $2.17, the respectable green tier. It's the most normal market on this list, and it still involves a man who used to sell tickets to space."
+    },
+    {
+      "type": "heading",
+      "content": "a madison restaurateur wants the governor's mansion"
+    },
+    {
+      "type": "text",
+      "content": "Polymarket has a market on whether Francesca Hong wins the Wisconsin Democratic gubernatorial primary. Hong is a Madison restaurateur and sitting state assembly member — not the résumé that usually shows up in a governor's race, which is precisely why there's a market on it. The crowd has her around 30%. A dollar returns $3.37, yellow tier, still alive. It is one of the more interesting subplots of the Wisconsin cycle, and most of Wisconsin doesn't know it's a subplot yet."
+    },
+    {
+      "type": "heading",
+      "content": "the political market with a $1.5 million crowd"
+    },
+    {
+      "type": "text",
+      "content": "Not every weird political market is sleepy. Kalshi's market on whether the US seals a new Iran nuclear deal before June has done over $1.5 million in volume — roughly ten thousand times the CA-45 primary market. A dollar returns $12.50, heater tier, because the crowd puts the odds at about 8%. Put the two side by side and you get the whole spread of political betting in one screenshot: a $160 market on a name almost nobody knows, and a seven-figure market on whether two governments can sign something before the calendar flips to June."
+    },
+    {
+      "type": "heading",
+      "content": "why election markets get this granular"
+    },
+    {
+      "type": "text",
+      "content": "Here's the observation worth keeping: the weird isn't the candidates, it's the resolution. Kalshi lists primary markets district by district — a separate contract for the leading candidate in CA-27, CA-45, and much of the rest of California's congressional map. The platform has quietly built a parallel polling operation where the polls cost money to be wrong. A traditional pollster surveys CA-45 because a newspaper paid for it. Kalshi has a CA-45 market because someone, somewhere, wanted to put $20 on it. Both produce a number. Only one of them has skin in the game."
+    },
+    {
+      "type": "heading",
+      "content": "is betting on elections actually legal?"
+    },
+    {
+      "type": "text",
+      "content": "Short version: it's contested. Election-related prediction markets in the US have been through repeated rounds of regulatory and court fights, and their availability has shifted more than once and still varies by where you are. Kalshi's election contracts in particular spent a meaningful chunk of recent history in litigation. If you want the longer explanation of where the law actually stands, we keep a dedicated page on whether you can legally bet on elections — start there before you start anywhere."
+    },
+    {
+      "type": "heading",
+      "content": "where today's weird election markets live"
+    },
+    {
+      "type": "text",
+      "content": "Every market on this page came off today's Dollar Bets board, which gets rebuilt each morning from live Kalshi and Polymarket listings and reframed as what a single dollar returns. Primary markets resolve slowly, but the board itself turns over fast — the absurd has a short shelf life. Check today's full board for what's weird right now, and the politics markets section if you want to stay in the election aisle."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are these weird election prediction markets real?",
+      "a": "Yes. Every market on this page was pulled from today's scan of Kalshi and Polymarket. Prices, volumes, and resolution dates move constantly — by the time you read this, some of these markets may have shifted or closed."
+    },
+    {
+      "q": "Why does Kalshi have markets on small congressional primaries?",
+      "a": "Kalshi lists election contracts district by district, so individual primaries in places like CA-27 and CA-45 each get their own market. A market exists wherever enough people want to trade one — even if 'enough people' turns out to be a very small number."
+    },
+    {
+      "q": "Is it legal to bet on elections in the US?",
+      "a": "It's contested and has changed repeatedly. Election-related prediction markets have been the subject of ongoing US regulatory and legal disputes, and availability varies by jurisdiction. Check the current rules where you are before participating — our election-betting page covers the details."
+    },
+    {
+      "q": "What's the weirdest election market right now?",
+      "a": "By our read, the CA-45 primary market on Kalshi: a contract on a Southern California congressional primary that resolves in November 2027 and has drawn about $160 of total volume. It's not the longest shot on the board — it's the one that's strangest to think about as a financial instrument."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial discovery site. We do not operate prediction markets, place bets, or provide financial or legal advice. Election-related prediction markets have been the subject of ongoing US regulatory and legal dispute, and their legality and availability vary by jurisdiction and have changed over time. Prediction market contracts involve the risk of total loss. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-05-20",
+  "last_updated": "2026-05-20",
+  "cluster": "Weird Bets",
+  "priority": 7
+}
