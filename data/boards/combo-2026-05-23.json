@@ -1,0 +1,435 @@
+{
+  "generated_at": "2026-05-23T07:02:42.838453+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 10
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-0B19EB0A",
+      "title": "Buffalo Bills wins + Georgia Bulldogs wins",
+      "payout": 2.55,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19540847-1515830654-2181792390&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Detroit Lions @ Buffalo Bills + Georgia Bulldogs @ Alabama Crimson Tide",
+      "market_type": "2-leg parlay",
+      "american_odds": 155,
+      "implied_probability": 0.392,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Detroit Lions @ Buffalo Bills",
+          "pick": "Buffalo Bills wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19540847-1515830654-2181792390&type=Single",
+          "commence_time": "2026-09-18T00:15:00Z"
+        },
+        {
+          "matchup": "Georgia Bulldogs @ Alabama Crimson Tide",
+          "pick": "Georgia Bulldogs wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19478275-1508696011-2163429025&type=Single",
+          "commence_time": "2026-10-11T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-18T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-5C3E7C79",
+      "title": "Over 2.5 + Georgia Bulldogs wins",
+      "payout": 2.55,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7806508-199461237-753343493&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Real Salt Lake @ Minnesota United FC + Georgia Bulldogs @ Alabama Crimson Tide",
+      "market_type": "2-leg parlay",
+      "american_odds": 155,
+      "implied_probability": 0.392,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Real Salt Lake @ Minnesota United FC",
+          "pick": "Over 2.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7806508-199461237-753343493&type=Single",
+          "commence_time": "2026-05-23T20:30:00Z"
+        },
+        {
+          "matchup": "Georgia Bulldogs @ Alabama Crimson Tide",
+          "pick": "Georgia Bulldogs wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19478275-1508696011-2163429025&type=Single",
+          "commence_time": "2026-10-11T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-05-23T20:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-1728FC51",
+      "title": "Under 3.5 + Georgia Bulldogs wins",
+      "payout": 2.55,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7806512-199461063-753342752&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Toronto FC @ Chicago Fire + Georgia Bulldogs @ Alabama Crimson Tide",
+      "market_type": "2-leg parlay",
+      "american_odds": 155,
+      "implied_probability": 0.392,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Toronto FC @ Chicago Fire",
+          "pick": "Under 3.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7806512-199461063-753342752&type=Single",
+          "commence_time": "2026-05-24T00:30:00Z"
+        },
+        {
+          "matchup": "Georgia Bulldogs @ Alabama Crimson Tide",
+          "pick": "Georgia Bulldogs wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19478275-1508696011-2163429025&type=Single",
+          "commence_time": "2026-10-11T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-05-24T00:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-DC5931E9",
+      "title": "Pittsburgh Steelers wins + Georgia Bulldogs wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552265-1517085428-2185024330&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Atlanta Falcons @ Pittsburgh Steelers + Georgia Bulldogs @ Alabama Crimson Tide",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.387,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552265-1517085428-2185024330&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Georgia Bulldogs @ Alabama Crimson Tide",
+          "pick": "Georgia Bulldogs wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19478275-1508696011-2163429025&type=Single",
+          "commence_time": "2026-10-11T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-B1FF5C92",
+      "title": "Tennessee Titans wins + Georgia Bulldogs wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552268-1517085432-2185024338&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "New York Jets @ Tennessee Titans + Georgia Bulldogs @ Alabama Crimson Tide",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.387,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York Jets @ Tennessee Titans",
+          "pick": "Tennessee Titans wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552268-1517085432-2185024338&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Georgia Bulldogs @ Alabama Crimson Tide",
+          "pick": "Georgia Bulldogs wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19478275-1508696011-2163429025&type=Single",
+          "commence_time": "2026-10-11T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-A0E7AF5A",
+      "title": "Kansas City Chiefs wins + Georgia Bulldogs wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19546497-1516420122-2183337419&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Denver Broncos @ Kansas City Chiefs + Georgia Bulldogs @ Alabama Crimson Tide",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.387,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Denver Broncos @ Kansas City Chiefs",
+          "pick": "Kansas City Chiefs wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19546497-1516420122-2183337419&type=Single",
+          "commence_time": "2026-09-15T00:15:00Z"
+        },
+        {
+          "matchup": "Georgia Bulldogs @ Alabama Crimson Tide",
+          "pick": "Georgia Bulldogs wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19478275-1508696011-2163429025&type=Single",
+          "commence_time": "2026-10-11T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-15T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-29FF0D2D",
+      "title": "FC Cincinnati wins + Georgia Bulldogs wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7806656-199087492-751095363&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Orlando City SC @ FC Cincinnati + Georgia Bulldogs @ Alabama Crimson Tide",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.387,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Orlando City SC @ FC Cincinnati",
+          "pick": "FC Cincinnati wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7806656-199087492-751095363&type=Single",
+          "commence_time": "2026-05-23T23:30:00Z"
+        },
+        {
+          "matchup": "Georgia Bulldogs @ Alabama Crimson Tide",
+          "pick": "Georgia Bulldogs wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19478275-1508696011-2163429025&type=Single",
+          "commence_time": "2026-10-11T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-05-23T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-72BF7389",
+      "title": "Under 3.5 + Georgia Bulldogs wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7806669-199463169-753354343&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Vancouver Whitecaps FC @ San Diego FC + Georgia Bulldogs @ Alabama Crimson Tide",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.387,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Vancouver Whitecaps FC @ San Diego FC",
+          "pick": "Under 3.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7806669-199463169-753354343&type=Single",
+          "commence_time": "2026-05-24T01:30:00Z"
+        },
+        {
+          "matchup": "Georgia Bulldogs @ Alabama Crimson Tide",
+          "pick": "Georgia Bulldogs wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19478275-1508696011-2163429025&type=Single",
+          "commence_time": "2026-10-11T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-05-24T01:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-52C2E7FD",
+      "title": "Buffalo Bills wins + Over 2.5",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19540847-1515830654-2181792390&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Detroit Lions @ Buffalo Bills + Real Salt Lake @ Minnesota United FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Detroit Lions @ Buffalo Bills",
+          "pick": "Buffalo Bills wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19540847-1515830654-2181792390&type=Single",
+          "commence_time": "2026-09-18T00:15:00Z"
+        },
+        {
+          "matchup": "Real Salt Lake @ Minnesota United FC",
+          "pick": "Over 2.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7806508-199461237-753343493&type=Single",
+          "commence_time": "2026-05-23T20:30:00Z"
+        }
+      ],
+      "close_time": "2026-05-23T20:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-DAA249FA",
+      "title": "Buffalo Bills wins + Under 3.5",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19540847-1515830654-2181792390&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Detroit Lions @ Buffalo Bills + Toronto FC @ Chicago Fire",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Detroit Lions @ Buffalo Bills",
+          "pick": "Buffalo Bills wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19540847-1515830654-2181792390&type=Single",
+          "commence_time": "2026-09-18T00:15:00Z"
+        },
+        {
+          "matchup": "Toronto FC @ Chicago Fire",
+          "pick": "Under 3.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7806512-199461063-753342752&type=Single",
+          "commence_time": "2026-05-24T00:30:00Z"
+        }
+      ],
+      "close_time": "2026-05-24T00:30:00Z"
+    }
+  ]
+}
