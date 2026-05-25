@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T20:50:49.921964+00:00",
+  "generated_at": "2026-05-25T23:02:50.808317+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,100 +8,15 @@
     "green": 10
   },
   "sport_mix": {
-    "Multi": 9,
-    "MLB": 1
+    "Multi": 10
   },
   "board": [
-    {
-      "ticker": "PARLAY-8687CF9F",
-      "title": "Baltimore Ravens wins + Baltimore Orioles +1.5",
-      "payout": 2.0,
-      "tier": "green",
-      "quip": "no surprises here",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Baltimore Ravens @ Indianapolis Colts + Tampa Bay Rays @ Baltimore Orioles",
-      "market_type": "2-leg parlay",
-      "american_odds": 100,
-      "implied_probability": 0.5,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Baltimore Ravens @ Indianapolis Colts",
-          "pick": "Baltimore Ravens wins",
-          "odds": -200,
-          "implied_prob": "67%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "Tampa Bay Rays @ Baltimore Orioles",
-          "pick": "Baltimore Orioles +1.5",
-          "odds": -300,
-          "implied_prob": "75%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19438446-1523118161-2200485382&type=Single",
-          "commence_time": "2026-05-25T17:36:00Z"
-        }
-      ],
-      "close_time": "2026-05-25T17:36:00Z"
-    },
-    {
-      "ticker": "PARLAY-6711D0C7",
-      "title": "Cincinnati Bengals wins + Baltimore Orioles +1.5",
-      "payout": 2.0,
-      "tier": "green",
-      "quip": "business as usual",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + Tampa Bay Rays @ Baltimore Orioles",
-      "market_type": "2-leg parlay",
-      "american_odds": 100,
-      "implied_probability": 0.5,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
-          "pick": "Cincinnati Bengals wins",
-          "odds": -200,
-          "implied_prob": "67%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "Tampa Bay Rays @ Baltimore Orioles",
-          "pick": "Baltimore Orioles +1.5",
-          "odds": -300,
-          "implied_prob": "75%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19438446-1523118161-2200485382&type=Single",
-          "commence_time": "2026-05-25T17:36:00Z"
-        }
-      ],
-      "close_time": "2026-05-25T17:36:00Z"
-    },
     {
       "ticker": "PARLAY-C62C7F20",
       "title": "Las Vegas Raiders wins + Los Angeles Dodgers wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "business as usual",
+      "quip": "as sure as gravity",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -139,53 +54,11 @@
       "close_time": "2026-05-26T01:11:00Z"
     },
     {
-      "ticker": "PARLAY-89AB646B",
-      "title": "Arizona Diamondbacks +1.5 + Los Angeles Dodgers wins",
-      "payout": 2.0,
-      "tier": "green",
-      "quip": "bread and butter",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19438341-1503944817-2151229166&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Arizona Diamondbacks @ San Francisco Giants + Colorado Rockies @ Los Angeles Dodgers",
-      "market_type": "2-leg parlay",
-      "american_odds": 100,
-      "implied_probability": 0.501,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Arizona Diamondbacks @ San Francisco Giants",
-          "pick": "Arizona Diamondbacks +1.5",
-          "odds": -190,
-          "implied_prob": "66%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19438341-1503944817-2151229166&type=Single",
-          "commence_time": "2026-05-25T21:06:00Z"
-        },
-        {
-          "matchup": "Colorado Rockies @ Los Angeles Dodgers",
-          "pick": "Los Angeles Dodgers wins",
-          "odds": -325,
-          "implied_prob": "76%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19437026-1504732743-2153240011&type=Single",
-          "commence_time": "2026-05-26T01:11:00Z"
-        }
-      ],
-      "close_time": "2026-05-25T21:06:00Z"
-    },
-    {
       "ticker": "PARLAY-5D6BB03B",
       "title": "Los Angeles Dodgers wins + Oklahoma City Thunder wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "another day at the office",
+      "quip": "autopilot engaged",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -223,19 +96,19 @@
       "close_time": "2026-05-26T01:11:00Z"
     },
     {
-      "ticker": "PARLAY-E2199D91",
-      "title": "Georgia Bulldogs wins, Milwaukee Brewers -3.5 + Cincinnati Reds wins",
+      "ticker": "PARLAY-6F070EFF",
+      "title": "Pittsburgh Steelers wins, Cincinnati Reds -4.5 + Arizona Diamondbacks wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "paint drying, but profitable",
+      "quip": "rent money",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19478275-1508696011-2163429025&type=Single",
-      "sport": "americanfootball_ncaaf",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552265-1517085428-2185024330&type=Single",
+      "sport": "americanfootball_nfl",
       "sport_display": "Multi",
-      "matchup": "Georgia Bulldogs @ Alabama Crimson Tide + St. Louis Cardinals @ Milwaukee Brewers +1 more",
+      "matchup": "Atlanta Falcons @ Pittsburgh Steelers + Cincinnati Reds @ New York Mets +1 more",
       "market_type": "3-leg parlay",
       "american_odds": 100,
       "implied_probability": 0.5,
@@ -244,143 +117,41 @@
       "num_legs": 3,
       "legs": [
         {
-          "matchup": "Georgia Bulldogs @ Alabama Crimson Tide",
-          "pick": "Georgia Bulldogs wins",
-          "odds": -170,
-          "implied_prob": "63%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19478275-1508696011-2163429025&type=Single",
-          "commence_time": "2026-10-11T00:00:00Z"
-        },
-        {
-          "matchup": "St. Louis Cardinals @ Milwaukee Brewers",
-          "pick": "Milwaukee Brewers -3.5",
-          "odds": -5000,
-          "implied_prob": "98%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19438448-1523118018-2200485076&type=Single",
-          "commence_time": "2026-05-25T18:11:00Z"
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552265-1517085428-2185024330&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
         },
         {
           "matchup": "Cincinnati Reds @ New York Mets",
-          "pick": "Cincinnati Reds wins",
-          "odds": -425,
-          "implied_prob": "81%",
+          "pick": "Cincinnati Reds -4.5",
+          "odds": -525,
+          "implied_prob": "84%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19438450-1503956461-2151257152&type=Single",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19438450-1523202623-2200709255&type=Single",
           "commence_time": "2026-05-25T20:11:00Z"
+        },
+        {
+          "matchup": "Arizona Diamondbacks @ San Francisco Giants",
+          "pick": "Arizona Diamondbacks wins",
+          "odds": -3000,
+          "implied_prob": "97%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19438451-1503956575-2151257405&type=Single",
+          "commence_time": "2026-05-25T21:06:00Z"
         }
       ],
-      "close_time": "2026-05-25T18:11:00Z"
+      "close_time": "2026-05-25T20:11:00Z"
     },
     {
-      "ticker": "PARLAY-307C7731",
-      "title": "Baltimore Ravens wins, Milwaukee Brewers -3.5 + Los Angeles Dodgers wins",
+      "ticker": "PARLAY-8F1A1C5F",
+      "title": "Jacksonville Jaguars wins, Cincinnati Reds -4.5 + Los Angeles Dodgers wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "bread and butter",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Baltimore Ravens @ Indianapolis Colts + St. Louis Cardinals @ Milwaukee Brewers +1 more",
-      "market_type": "3-leg parlay",
-      "american_odds": 100,
-      "implied_probability": 0.5,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 3,
-      "legs": [
-        {
-          "matchup": "Baltimore Ravens @ Indianapolis Colts",
-          "pick": "Baltimore Ravens wins",
-          "odds": -200,
-          "implied_prob": "67%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "St. Louis Cardinals @ Milwaukee Brewers",
-          "pick": "Milwaukee Brewers -3.5",
-          "odds": -5000,
-          "implied_prob": "98%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19438448-1523118018-2200485076&type=Single",
-          "commence_time": "2026-05-25T18:11:00Z"
-        },
-        {
-          "matchup": "Colorado Rockies @ Los Angeles Dodgers",
-          "pick": "Los Angeles Dodgers wins",
-          "odds": -325,
-          "implied_prob": "76%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19437026-1504732743-2153240011&type=Single",
-          "commence_time": "2026-05-26T01:11:00Z"
-        }
-      ],
-      "close_time": "2026-05-25T18:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-9C493AF8",
-      "title": "Cincinnati Bengals wins, Milwaukee Brewers -3.5 + Los Angeles Dodgers wins",
-      "payout": 2.0,
-      "tier": "green",
-      "quip": "bread and butter",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + St. Louis Cardinals @ Milwaukee Brewers +1 more",
-      "market_type": "3-leg parlay",
-      "american_odds": 100,
-      "implied_probability": 0.5,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 3,
-      "legs": [
-        {
-          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
-          "pick": "Cincinnati Bengals wins",
-          "odds": -200,
-          "implied_prob": "67%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "St. Louis Cardinals @ Milwaukee Brewers",
-          "pick": "Milwaukee Brewers -3.5",
-          "odds": -5000,
-          "implied_prob": "98%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19438448-1523118018-2200485076&type=Single",
-          "commence_time": "2026-05-25T18:11:00Z"
-        },
-        {
-          "matchup": "Colorado Rockies @ Los Angeles Dodgers",
-          "pick": "Los Angeles Dodgers wins",
-          "odds": -325,
-          "implied_prob": "76%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19437026-1504732743-2153240011&type=Single",
-          "commence_time": "2026-05-26T01:11:00Z"
-        }
-      ],
-      "close_time": "2026-05-25T18:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-42835BFD",
-      "title": "Jacksonville Jaguars wins, Las Vegas Raiders wins + Milwaukee Brewers -3.5",
-      "payout": 2.0,
-      "tier": "green",
-      "quip": "checking all the boxes",
+      "quip": "autopilot engaged",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -388,10 +159,10 @@
       "url": "https://sports.{state}.betmgm.com/en/sports?options=19552262-1517085425-2185024324&type=Single",
       "sport": "americanfootball_nfl",
       "sport_display": "Multi",
-      "matchup": "Cleveland Browns @ Jacksonville Jaguars + Miami Dolphins @ Las Vegas Raiders +1 more",
+      "matchup": "Cleveland Browns @ Jacksonville Jaguars + Cincinnati Reds @ New York Mets +1 more",
       "market_type": "3-leg parlay",
       "american_odds": 100,
-      "implied_probability": 0.499,
+      "implied_probability": 0.5,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 3,
@@ -403,6 +174,57 @@
           "implied_prob": "78%",
           "sport": "americanfootball_nfl",
           "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552262-1517085425-2185024324&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Cincinnati Reds @ New York Mets",
+          "pick": "Cincinnati Reds -4.5",
+          "odds": -525,
+          "implied_prob": "84%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19438450-1523202623-2200709255&type=Single",
+          "commence_time": "2026-05-25T20:11:00Z"
+        },
+        {
+          "matchup": "Colorado Rockies @ Los Angeles Dodgers",
+          "pick": "Los Angeles Dodgers wins",
+          "odds": -325,
+          "implied_prob": "76%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19437026-1504732743-2153240011&type=Single",
+          "commence_time": "2026-05-26T01:11:00Z"
+        }
+      ],
+      "close_time": "2026-05-25T20:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-AD7274DF",
+      "title": "Detroit Lions wins, Las Vegas Raiders wins + Arizona Diamondbacks wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552269-1517085433-2185024340&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "New Orleans Saints @ Detroit Lions + Miami Dolphins @ Las Vegas Raiders +1 more",
+      "market_type": "3-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.5,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 3,
+      "legs": [
+        {
+          "matchup": "New Orleans Saints @ Detroit Lions",
+          "pick": "Detroit Lions wins",
+          "odds": -375,
+          "implied_prob": "79%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552269-1517085433-2185024340&type=Single",
           "commence_time": "2026-09-13T17:00:00Z"
         },
         {
@@ -415,67 +237,271 @@
           "commence_time": "2026-09-13T20:25:00Z"
         },
         {
-          "matchup": "St. Louis Cardinals @ Milwaukee Brewers",
-          "pick": "Milwaukee Brewers -3.5",
-          "odds": -5000,
-          "implied_prob": "98%",
+          "matchup": "Arizona Diamondbacks @ San Francisco Giants",
+          "pick": "Arizona Diamondbacks wins",
+          "odds": -3000,
+          "implied_prob": "97%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19438448-1523118018-2200485076&type=Single",
-          "commence_time": "2026-05-25T18:11:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19438451-1503956575-2151257405&type=Single",
+          "commence_time": "2026-05-25T21:06:00Z"
         }
       ],
-      "close_time": "2026-05-25T18:11:00Z"
+      "close_time": "2026-05-25T21:06:00Z"
     },
     {
-      "ticker": "PARLAY-3B2003A1",
-      "title": "Jacksonville Jaguars wins, Milwaukee Brewers -3.5 + Arizona Diamondbacks +1.5",
+      "ticker": "PARLAY-617D51DB",
+      "title": "Detroit Lions wins, Arizona Diamondbacks wins + Oklahoma City Thunder wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "the sun also rises",
+      "quip": "the safe bet",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552262-1517085425-2185024324&type=Single",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552269-1517085433-2185024340&type=Single",
       "sport": "americanfootball_nfl",
       "sport_display": "Multi",
-      "matchup": "Cleveland Browns @ Jacksonville Jaguars + St. Louis Cardinals @ Milwaukee Brewers +1 more",
+      "matchup": "New Orleans Saints @ Detroit Lions + Arizona Diamondbacks @ San Francisco Giants +1 more",
       "market_type": "3-leg parlay",
       "american_odds": 100,
-      "implied_probability": 0.499,
+      "implied_probability": 0.5,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 3,
       "legs": [
         {
-          "matchup": "Cleveland Browns @ Jacksonville Jaguars",
-          "pick": "Jacksonville Jaguars wins",
-          "odds": -350,
-          "implied_prob": "78%",
+          "matchup": "New Orleans Saints @ Detroit Lions",
+          "pick": "Detroit Lions wins",
+          "odds": -375,
+          "implied_prob": "79%",
           "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552262-1517085425-2185024324&type=Single",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552269-1517085433-2185024340&type=Single",
           "commence_time": "2026-09-13T17:00:00Z"
         },
         {
-          "matchup": "St. Louis Cardinals @ Milwaukee Brewers",
-          "pick": "Milwaukee Brewers -3.5",
-          "odds": -5000,
-          "implied_prob": "98%",
+          "matchup": "Arizona Diamondbacks @ San Francisco Giants",
+          "pick": "Arizona Diamondbacks wins",
+          "odds": -3000,
+          "implied_prob": "97%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19438448-1523118018-2200485076&type=Single",
-          "commence_time": "2026-05-25T18:11:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19438451-1503956575-2151257405&type=Single",
+          "commence_time": "2026-05-25T21:06:00Z"
+        },
+        {
+          "matchup": "San Antonio Spurs @ Oklahoma City Thunder",
+          "pick": "Oklahoma City Thunder wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19557468-1517653719-2186462323&type=Single",
+          "commence_time": "2026-05-27T00:40:00Z"
+        }
+      ],
+      "close_time": "2026-05-25T21:06:00Z"
+    },
+    {
+      "ticker": "PARLAY-798F4910",
+      "title": "Tennessee Titans wins, Cincinnati Reds -4.5 + Arizona Diamondbacks wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552268-1517085432-2185024338&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "New York Jets @ Tennessee Titans + Cincinnati Reds @ New York Mets +1 more",
+      "market_type": "3-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.5,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 3,
+      "legs": [
+        {
+          "matchup": "New York Jets @ Tennessee Titans",
+          "pick": "Tennessee Titans wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552268-1517085432-2185024338&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Cincinnati Reds @ New York Mets",
+          "pick": "Cincinnati Reds -4.5",
+          "odds": -525,
+          "implied_prob": "84%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19438450-1523202623-2200709255&type=Single",
+          "commence_time": "2026-05-25T20:11:00Z"
         },
         {
           "matchup": "Arizona Diamondbacks @ San Francisco Giants",
-          "pick": "Arizona Diamondbacks +1.5",
-          "odds": -190,
-          "implied_prob": "66%",
+          "pick": "Arizona Diamondbacks wins",
+          "odds": -3000,
+          "implied_prob": "97%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19438341-1503944817-2151229166&type=Single",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19438451-1503956575-2151257405&type=Single",
           "commence_time": "2026-05-25T21:06:00Z"
         }
       ],
-      "close_time": "2026-05-25T18:11:00Z"
+      "close_time": "2026-05-25T20:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-43165CA8",
+      "title": "Los Angeles Chargers wins, Dallas Cowboys wins + Washington Nationals wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552270-1517085434-2185024342&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Arizona Cardinals @ Los Angeles Chargers + Dallas Cowboys @ New York Giants +1 more",
+      "market_type": "3-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.5,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 3,
+      "legs": [
+        {
+          "matchup": "Arizona Cardinals @ Los Angeles Chargers",
+          "pick": "Los Angeles Chargers wins",
+          "odds": -650,
+          "implied_prob": "87%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552270-1517085434-2185024342&type=Single",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Dallas Cowboys @ New York Giants",
+          "pick": "Dallas Cowboys wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19540846-1515830653-2181792387&type=Single",
+          "commence_time": "2026-09-14T00:20:00Z"
+        },
+        {
+          "matchup": "Washington Nationals @ Cleveland Guardians",
+          "pick": "Washington Nationals wins",
+          "odds": -2500,
+          "implied_prob": "96%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19437269-1503874646-2151038388&type=Single",
+          "commence_time": "2026-05-25T22:11:00Z"
+        }
+      ],
+      "close_time": "2026-05-25T22:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-86B2471E",
+      "title": "Los Angeles Chargers wins, Washington Nationals wins + San Diego Padres +1.5",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552270-1517085434-2185024342&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Arizona Cardinals @ Los Angeles Chargers + Washington Nationals @ Cleveland Guardians +1 more",
+      "market_type": "3-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.5,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 3,
+      "legs": [
+        {
+          "matchup": "Arizona Cardinals @ Los Angeles Chargers",
+          "pick": "Los Angeles Chargers wins",
+          "odds": -650,
+          "implied_prob": "87%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552270-1517085434-2185024342&type=Single",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Washington Nationals @ Cleveland Guardians",
+          "pick": "Washington Nationals wins",
+          "odds": -2500,
+          "implied_prob": "96%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19437269-1503874646-2151038388&type=Single",
+          "commence_time": "2026-05-25T22:11:00Z"
+        },
+        {
+          "matchup": "Philadelphia Phillies @ San Diego Padres",
+          "pick": "San Diego Padres +1.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19437271-1523225363-2200770169&type=Single",
+          "commence_time": "2026-05-25T22:41:00Z"
+        }
+      ],
+      "close_time": "2026-05-25T22:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-2F8B6F79",
+      "title": "Los Angeles Chargers wins, Washington Nationals wins + Carolina Hurricanes wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552270-1517085434-2185024342&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Arizona Cardinals @ Los Angeles Chargers + Washington Nationals @ Cleveland Guardians +1 more",
+      "market_type": "3-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.5,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 3,
+      "legs": [
+        {
+          "matchup": "Arizona Cardinals @ Los Angeles Chargers",
+          "pick": "Los Angeles Chargers wins",
+          "odds": -650,
+          "implied_prob": "87%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552270-1517085434-2185024342&type=Single",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Washington Nationals @ Cleveland Guardians",
+          "pick": "Washington Nationals wins",
+          "odds": -2500,
+          "implied_prob": "96%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19437269-1503874646-2151038388&type=Single",
+          "commence_time": "2026-05-25T22:11:00Z"
+        },
+        {
+          "matchup": "Carolina Hurricanes @ Montr\u00e9al Canadiens",
+          "pick": "Carolina Hurricanes wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19572367-1519358828-2190798785&type=Single",
+          "commence_time": "2026-05-26T00:20:00Z"
+        }
+      ],
+      "close_time": "2026-05-25T22:11:00Z"
     }
   ]
 }
