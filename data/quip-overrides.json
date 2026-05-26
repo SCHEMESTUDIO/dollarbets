@@ -988,5 +988,77 @@
     "tier": "purple",
     "original_quip": "When Doves Cry had better odds of a comeback tour",
     "editor_quip": "let's call it a hedge against my intrusive thoughts "
+  },
+  {
+    "date": "2026-05-26",
+    "title": "Bitcoin hits $90k before $70k",
+    "category": "Crypto",
+    "payout": 1.56,
+    "tier": "green",
+    "original_quip": "number goes up, as is tradition",
+    "editor_quip": "aka your cousin flames you first before going silent til Christmas"
+  },
+  {
+    "date": "2026-05-26",
+    "title": "Trump wears a Yarmulke in 2026",
+    "category": "World",
+    "payout": 2.44,
+    "tier": "green",
+    "original_quip": "stranger things have happened on a Tuesday",
+    "editor_quip": "how did we get here? "
+  },
+  {
+    "date": "2026-05-26",
+    "title": "2026 is the hottest year on record",
+    "category": "Climate and Weather",
+    "payout": 2.88,
+    "tier": "green",
+    "original_quip": "the forecast is not forecast-shaped anymore",
+    "editor_quip": "earth: so hot right now"
+  },
+  {
+    "date": "2026-05-26",
+    "title": "Trump pardons Keonne Rodriguez this year",
+    "category": "World",
+    "payout": 4.08,
+    "tier": "yellow",
+    "original_quip": "the clemency printer is warming up",
+    "editor_quip": "the clemency printer just got a new ink cartridge "
+  },
+  {
+    "date": "2026-05-26",
+    "title": "A perfect game gets thrown this MLB season",
+    "category": "Sports",
+    "payout": 6.06,
+    "tier": "yellow",
+    "original_quip": "27 up, 27 down, one pitcher's entire personality",
+    "editor_quip": "27 up, 27 down, one pitcher's entire mythos written "
+  },
+  {
+    "date": "2026-05-26",
+    "title": "Gold hits $4,800 this month",
+    "category": "Other",
+    "payout": 11.11,
+    "tier": "orange",
+    "original_quip": "the Scrooge McDuck vault is looking prescient",
+    "editor_quip": "the Scrooge McDuck vault of market calls"
+  },
+  {
+    "date": "2026-05-26",
+    "title": "US reaches a new Iran nuclear deal this year",
+    "category": "Politics",
+    "payout": 17.86,
+    "tier": "red",
+    "original_quip": "99 Luftballons is on the playlist, just in case",
+    "editor_quip": "first Hormuz, next nuclear, Nobel Peace Prize here Trump comes"
+  },
+  {
+    "date": "2026-05-26",
+    "title": "China invades Taiwan by June 2026",
+    "category": "Science and Technology",
+    "payout": 68.97,
+    "tier": "purple",
+    "original_quip": "in other news: the Cubs win back-to-back",
+    "editor_quip": "impossible to run Cyberpunk with hyper-realism mods after this "
   }
 ]
