@@ -13,7 +13,7 @@
       "subtitle": "",
       "payout": 1.56,
       "tier": "green",
-      "quip": "number goes up, as is tradition",
+      "quip": "aka your cousin flames you first before going silent til Christmas",
       "yes_price": "0.6400",
       "volume": 98257.9582180001,
       "category": "Crypto",
@@ -21,7 +21,7 @@
       "_specificity": 15,
       "url": "https://polymarket.com/event/will-bitcoin-hit-70k-or-90k-first-382",
       "platform": "polymarket",
-      "score": 35.0
+      "score": 35
     },
     {
       "ticker": "0x206dd42ac46c6ecf5bae1c36e07a29c76fd2472051fa9c0b9c1b4c820ab6bb1d",
@@ -29,7 +29,7 @@
       "subtitle": "",
       "payout": 2.44,
       "tier": "green",
-      "quip": "stranger things have happened on a Tuesday",
+      "quip": "how did we get here? ",
       "yes_price": "0.4100",
       "volume": 9802.045863000008,
       "category": "World",
@@ -37,7 +37,7 @@
       "_specificity": 20,
       "url": "https://polymarket.com/event/will-trump-wear-a-yarmulke-in-2026",
       "platform": "polymarket",
-      "score": 43.0
+      "score": 43
     },
     {
       "ticker": "KXGTEMP-26-P0",
@@ -47,13 +47,13 @@
       "no_sub_title": "Hottest",
       "payout": 2.88,
       "tier": "green",
-      "quip": "the forecast is not forecast-shaped anymore",
+      "quip": "earth: so hot right now",
       "yes_price": "0.3470",
       "volume": 127511.52,
       "category": "Climate and Weather",
       "close_time": "2027-01-01T04:59:00Z",
       "url": "https://kalshi.com/markets/KXGTEMP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 75.0,
+      "score": 75,
       "_specificity": 5
     },
     {
@@ -62,7 +62,7 @@
       "subtitle": "",
       "payout": 4.08,
       "tier": "yellow",
-      "quip": "the clemency printer is warming up",
+      "quip": "the clemency printer just got a new ink cartridge ",
       "yes_price": "0.2450",
       "volume": 9441.921370000002,
       "category": "World",
@@ -70,7 +70,7 @@
       "_specificity": 20,
       "url": "https://polymarket.com/event/who-will-trump-pardon-before-2027",
       "platform": "polymarket",
-      "score": 53.0
+      "score": 53
     },
     {
       "ticker": "0x29622357277151027e86fdb78bf95a87b87805050b089606762f7e12578a4cc8",
@@ -86,7 +86,7 @@
       "_specificity": 20,
       "url": "https://polymarket.com/event/us-announces-cuba-oil-sanction-relief-by-june-30",
       "platform": "polymarket",
-      "score": 50.0
+      "score": 50
     },
     {
       "ticker": "0x9f94a767a39b26dcb4f471de7c57575ba43e6482aaf213726a90f633bc68c05a",
@@ -94,7 +94,7 @@
       "subtitle": "",
       "payout": 6.06,
       "tier": "yellow",
-      "quip": "27 up, 27 down, one pitcher's entire personality",
+      "quip": "27 up, 27 down, one pitcher's entire mythos written ",
       "yes_price": "0.1650",
       "volume": 8851.270835999992,
       "category": "Sports",
@@ -102,7 +102,7 @@
       "_specificity": 15,
       "url": "https://polymarket.com/event/mlb-perfect-game-thrown-in-2026-season",
       "platform": "polymarket",
-      "score": 48.0
+      "score": 48
     },
     {
       "ticker": "KXMODELHIGH-27-1550-CHAT",
@@ -118,7 +118,7 @@
       "category": "Science and Technology",
       "close_time": "2027-01-01T15:00:00Z",
       "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 122.0,
+      "score": 122,
       "_specificity": 20
     },
     {
@@ -127,7 +127,7 @@
       "subtitle": "",
       "payout": 11.11,
       "tier": "orange",
-      "quip": "the Scrooge McDuck vault is looking prescient",
+      "quip": "the Scrooge McDuck vault of market calls",
       "yes_price": "0.0900",
       "volume": 89042.21785099994,
       "category": "Other",
@@ -135,7 +135,7 @@
       "_specificity": 20,
       "url": "https://polymarket.com/event/what-price-will-xauusd-hit-in-may-2026",
       "platform": "polymarket",
-      "score": 75.0
+      "score": 75
     },
     {
       "ticker": "KXUSAIRANAGREEMENT-27-26JUN",
@@ -145,13 +145,13 @@
       "no_sub_title": "Before June",
       "payout": 17.86,
       "tier": "red",
-      "quip": "99 Luftballons is on the playlist, just in case",
+      "quip": "first Hormuz, next nuclear, Nobel Peace Prize here Trump comes",
       "yes_price": "0.0560",
       "volume": 2403538.6,
       "category": "Politics",
       "close_time": "2026-06-01T14:00:00Z",
       "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 130.0,
+      "score": 130,
       "_specificity": 20
     },
     {
@@ -160,7 +160,7 @@
       "subtitle": "",
       "payout": 68.97,
       "tier": "purple",
-      "quip": "in other news: the Cubs win back-to-back",
+      "quip": "impossible to run Cyberpunk with hyper-realism mods after this ",
       "yes_price": "0.0145",
       "volume": 8951623.028621973,
       "category": "Science and Technology",
@@ -168,7 +168,7 @@
       "_specificity": 20,
       "url": "https://polymarket.com/event/will-china-invade-taiwan-by-june-30-2026",
       "platform": "polymarket",
-      "score": 60.0
+      "score": 60
     }
   ]
 }
