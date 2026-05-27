@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-05-27T05:16:22.470198+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 9,
+    "NFL": 1
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-C5FFF01E",
+      "title": "Baltimore Ravens wins + Montr\u00e9al Canadiens +1.5",
+      "payout": 2.21,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Baltimore Ravens @ Indianapolis Colts + Carolina Hurricanes @ Montr\u00e9al Canadiens",
+      "market_type": "2-leg parlay",
+      "american_odds": 121,
+      "implied_probability": 0.452,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Carolina Hurricanes @ Montr\u00e9al Canadiens",
+          "pick": "Montr\u00e9al Canadiens +1.5",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19572368-1519359006-2190799331&type=Single",
+          "commence_time": "2026-05-28T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-05-28T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-A64062C0",
+      "title": "Cincinnati Bengals wins + Montr\u00e9al Canadiens +1.5",
+      "payout": 2.21,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + Carolina Hurricanes @ Montr\u00e9al Canadiens",
+      "market_type": "2-leg parlay",
+      "american_odds": 121,
+      "implied_probability": 0.452,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+          "pick": "Cincinnati Bengals wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Carolina Hurricanes @ Montr\u00e9al Canadiens",
+          "pick": "Montr\u00e9al Canadiens +1.5",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19572368-1519359006-2190799331&type=Single",
+          "commence_time": "2026-05-28T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-05-28T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-A7CADF04",
+      "title": "Los Angeles Angels +1.5 + Montr\u00e9al Canadiens +1.5",
+      "payout": 2.21,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19441860-1505121526-2154233368&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Los Angeles Angels @ Detroit Tigers + Carolina Hurricanes @ Montr\u00e9al Canadiens",
+      "market_type": "2-leg parlay",
+      "american_odds": 121,
+      "implied_probability": 0.452,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles Angels @ Detroit Tigers",
+          "pick": "Los Angeles Angels +1.5",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19441860-1505121526-2154233368&type=Single",
+          "commence_time": "2026-05-27T22:41:00Z"
+        },
+        {
+          "matchup": "Carolina Hurricanes @ Montr\u00e9al Canadiens",
+          "pick": "Montr\u00e9al Canadiens +1.5",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19572368-1519359006-2190799331&type=Single",
+          "commence_time": "2026-05-28T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-05-27T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-7A07C6B8",
+      "title": "New York Mets +1.5 + Montr\u00e9al Canadiens +1.5",
+      "payout": 2.21,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19443205-1504696281-2153145421&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Cincinnati Reds @ New York Mets + Carolina Hurricanes @ Montr\u00e9al Canadiens",
+      "market_type": "2-leg parlay",
+      "american_odds": 121,
+      "implied_probability": 0.452,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Cincinnati Reds @ New York Mets",
+          "pick": "New York Mets +1.5",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19443205-1504696281-2153145421&type=Single",
+          "commence_time": "2026-05-27T23:11:00Z"
+        },
+        {
+          "matchup": "Carolina Hurricanes @ Montr\u00e9al Canadiens",
+          "pick": "Montr\u00e9al Canadiens +1.5",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19572368-1519359006-2190799331&type=Single",
+          "commence_time": "2026-05-28T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-05-27T23:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-C24F1666",
+      "title": "Las Vegas Raiders wins + Montr\u00e9al Canadiens +1.5",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552271-1517085435-2185024344&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Miami Dolphins @ Las Vegas Raiders + Carolina Hurricanes @ Montr\u00e9al Canadiens",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.443,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Dolphins @ Las Vegas Raiders",
+          "pick": "Las Vegas Raiders wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552271-1517085435-2185024344&type=Single",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Carolina Hurricanes @ Montr\u00e9al Canadiens",
+          "pick": "Montr\u00e9al Canadiens +1.5",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19572368-1519359006-2190799331&type=Single",
+          "commence_time": "2026-05-28T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-05-28T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-3B69C779",
+      "title": "Cleveland Guardians wins + Montr\u00e9al Canadiens +1.5",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19436984-1503849253-2150976768&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Washington Nationals @ Cleveland Guardians + Carolina Hurricanes @ Montr\u00e9al Canadiens",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.443,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington Nationals @ Cleveland Guardians",
+          "pick": "Cleveland Guardians wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19436984-1503849253-2150976768&type=Single",
+          "commence_time": "2026-05-27T17:11:00Z"
+        },
+        {
+          "matchup": "Carolina Hurricanes @ Montr\u00e9al Canadiens",
+          "pick": "Montr\u00e9al Canadiens +1.5",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19572368-1519359006-2190799331&type=Single",
+          "commence_time": "2026-05-28T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-05-27T17:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-8F2400B4",
+      "title": "Pittsburgh Pirates +1.5 + Montr\u00e9al Canadiens +1.5",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19441861-1504684165-2153115853&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Chicago Cubs @ Pittsburgh Pirates + Carolina Hurricanes @ Montr\u00e9al Canadiens",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.443,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Cubs @ Pittsburgh Pirates",
+          "pick": "Pittsburgh Pirates +1.5",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19441861-1504684165-2153115853&type=Single",
+          "commence_time": "2026-05-27T22:41:00Z"
+        },
+        {
+          "matchup": "Carolina Hurricanes @ Montr\u00e9al Canadiens",
+          "pick": "Montr\u00e9al Canadiens +1.5",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19572368-1519359006-2190799331&type=Single",
+          "commence_time": "2026-05-28T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-05-27T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-6C02A58A",
+      "title": "Baltimore Ravens wins + Cincinnati Bengals wins",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Baltimore Ravens @ Indianapolis Colts + Tampa Bay Buccaneers @ Cincinnati Bengals",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.445,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+          "pick": "Cincinnati Bengals wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-55C8428A",
+      "title": "Baltimore Ravens wins + Los Angeles Angels +1.5",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Baltimore Ravens @ Indianapolis Colts + Los Angeles Angels @ Detroit Tigers",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.445,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Los Angeles Angels @ Detroit Tigers",
+          "pick": "Los Angeles Angels +1.5",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19441860-1505121526-2154233368&type=Single",
+          "commence_time": "2026-05-27T22:41:00Z"
+        }
+      ],
+      "close_time": "2026-05-27T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-C56490BE",
+      "title": "Baltimore Ravens wins + New York Mets +1.5",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Baltimore Ravens @ Indianapolis Colts + Cincinnati Reds @ New York Mets",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.445,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Cincinnati Reds @ New York Mets",
+          "pick": "New York Mets +1.5",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19443205-1504696281-2153145421&type=Single",
+          "commence_time": "2026-05-27T23:11:00Z"
+        }
+      ],
+      "close_time": "2026-05-27T23:11:00Z"
+    }
+  ]
+}
