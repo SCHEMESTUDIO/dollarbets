@@ -1,0 +1,437 @@
+{
+  "generated_at": "2026-05-30T04:53:42.471258+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "NFL": 1,
+    "Multi": 6,
+    "MLB": 3
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-EEF062AD",
+      "title": "Las Vegas Raiders wins + Baltimore Ravens wins",
+      "payout": 2.29,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552271-1517085435-2185024344&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Miami Dolphins @ Las Vegas Raiders + Baltimore Ravens @ Indianapolis Colts",
+      "market_type": "2-leg parlay",
+      "american_odds": 129,
+      "implied_probability": 0.437,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Dolphins @ Las Vegas Raiders",
+          "pick": "Las Vegas Raiders wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552271-1517085435-2185024344&type=Single",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-FE9AFF7A",
+      "title": "Miami Marlins +1.5 + Baltimore Ravens wins",
+      "payout": 2.29,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19441524-1504459982-2152526152&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Miami Marlins @ New York Mets + Baltimore Ravens @ Indianapolis Colts",
+      "market_type": "2-leg parlay",
+      "american_odds": 129,
+      "implied_probability": 0.437,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Marlins @ New York Mets",
+          "pick": "Miami Marlins +1.5",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19441524-1504459982-2152526152&type=Single",
+          "commence_time": "2026-05-30T20:11:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-05-30T20:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-48EB0165",
+      "title": "Houston Astros +1.5 + Baltimore Ravens wins",
+      "payout": 2.33,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.43",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19441525-1504460081-2152526369&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Milwaukee Brewers @ Houston Astros + Baltimore Ravens @ Indianapolis Colts",
+      "market_type": "2-leg parlay",
+      "american_odds": 133,
+      "implied_probability": 0.429,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Milwaukee Brewers @ Houston Astros",
+          "pick": "Houston Astros +1.5",
+          "odds": -180,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19441525-1504460081-2152526369&type=Single",
+          "commence_time": "2026-05-30T20:11:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-05-30T20:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-B57A6DDB",
+      "title": "Los Angeles Angels +1.5 + Baltimore Ravens wins",
+      "payout": 2.33,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.43",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19441522-1504459733-2152525612&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Los Angeles Angels @ Tampa Bay Rays + Baltimore Ravens @ Indianapolis Colts",
+      "market_type": "2-leg parlay",
+      "american_odds": 133,
+      "implied_probability": 0.429,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles Angels @ Tampa Bay Rays",
+          "pick": "Los Angeles Angels +1.5",
+          "odds": -180,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19441522-1504459733-2152525612&type=Single",
+          "commence_time": "2026-05-30T20:11:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-05-30T20:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-49DBE96C",
+      "title": "Las Vegas Raiders wins + Miami Marlins +1.5",
+      "payout": 2.33,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.43",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552271-1517085435-2185024344&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Miami Dolphins @ Las Vegas Raiders + Miami Marlins @ New York Mets",
+      "market_type": "2-leg parlay",
+      "american_odds": 133,
+      "implied_probability": 0.429,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Dolphins @ Las Vegas Raiders",
+          "pick": "Las Vegas Raiders wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552271-1517085435-2185024344&type=Single",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Miami Marlins @ New York Mets",
+          "pick": "Miami Marlins +1.5",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19441524-1504459982-2152526152&type=Single",
+          "commence_time": "2026-05-30T20:11:00Z"
+        }
+      ],
+      "close_time": "2026-05-30T20:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-2264A9F9",
+      "title": "Los Angeles Angels +1.5 + Houston Astros +1.5",
+      "payout": 2.35,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.43",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024787126?coupon={pickType}|4203212216|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Los Angeles Angels @ Tampa Bay Rays + Milwaukee Brewers @ Houston Astros",
+      "market_type": "2-leg parlay",
+      "american_odds": 135,
+      "implied_probability": 0.426,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles Angels @ Tampa Bay Rays",
+          "pick": "Los Angeles Angels +1.5",
+          "odds": -186,
+          "implied_prob": "65%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787126?coupon={pickType}|4203212216|{wagerAmount}",
+          "commence_time": "2026-05-30T20:11:00Z"
+        },
+        {
+          "matchup": "Milwaukee Brewers @ Houston Astros",
+          "pick": "Houston Astros +1.5",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787107?coupon={pickType}|4203193039|{wagerAmount}",
+          "commence_time": "2026-05-30T20:11:00Z"
+        }
+      ],
+      "close_time": "2026-05-30T20:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-97D9941D",
+      "title": "Minnesota Twins +1.5 + Houston Astros +1.5",
+      "payout": 2.36,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.42",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024787145?coupon={pickType}|4203154865|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Minnesota Twins @ Pittsburgh Pirates + Milwaukee Brewers @ Houston Astros",
+      "market_type": "2-leg parlay",
+      "american_odds": 136,
+      "implied_probability": 0.422,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Minnesota Twins @ Pittsburgh Pirates",
+          "pick": "Minnesota Twins +1.5",
+          "odds": -182,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787145?coupon={pickType}|4203154865|{wagerAmount}",
+          "commence_time": "2026-05-30T20:06:00Z"
+        },
+        {
+          "matchup": "Milwaukee Brewers @ Houston Astros",
+          "pick": "Houston Astros +1.5",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787107?coupon={pickType}|4203193039|{wagerAmount}",
+          "commence_time": "2026-05-30T20:11:00Z"
+        }
+      ],
+      "close_time": "2026-05-30T20:06:00Z"
+    },
+    {
+      "ticker": "PARLAY-A6C76FDF",
+      "title": "Houston Astros +1.5 + Las Vegas Raiders wins",
+      "payout": 2.37,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.42",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19441525-1504460081-2152526369&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Milwaukee Brewers @ Houston Astros + Miami Dolphins @ Las Vegas Raiders",
+      "market_type": "2-leg parlay",
+      "american_odds": 137,
+      "implied_probability": 0.421,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Milwaukee Brewers @ Houston Astros",
+          "pick": "Houston Astros +1.5",
+          "odds": -180,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19441525-1504460081-2152526369&type=Single",
+          "commence_time": "2026-05-30T20:11:00Z"
+        },
+        {
+          "matchup": "Miami Dolphins @ Las Vegas Raiders",
+          "pick": "Las Vegas Raiders wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552271-1517085435-2185024344&type=Single",
+          "commence_time": "2026-09-13T20:25:00Z"
+        }
+      ],
+      "close_time": "2026-05-30T20:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-F4F1DCFD",
+      "title": "Houston Astros +1.5 + Miami Marlins +1.5",
+      "payout": 2.37,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.42",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19441525-1504460081-2152526369&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Milwaukee Brewers @ Houston Astros + Miami Marlins @ New York Mets",
+      "market_type": "2-leg parlay",
+      "american_odds": 137,
+      "implied_probability": 0.421,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Milwaukee Brewers @ Houston Astros",
+          "pick": "Houston Astros +1.5",
+          "odds": -180,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19441525-1504460081-2152526369&type=Single",
+          "commence_time": "2026-05-30T20:11:00Z"
+        },
+        {
+          "matchup": "Miami Marlins @ New York Mets",
+          "pick": "Miami Marlins +1.5",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19441524-1504459982-2152526152&type=Single",
+          "commence_time": "2026-05-30T20:11:00Z"
+        }
+      ],
+      "close_time": "2026-05-30T20:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-6150F4CA",
+      "title": "Los Angeles Angels +1.5 + Las Vegas Raiders wins",
+      "payout": 2.37,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.42",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19441522-1504459733-2152525612&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Los Angeles Angels @ Tampa Bay Rays + Miami Dolphins @ Las Vegas Raiders",
+      "market_type": "2-leg parlay",
+      "american_odds": 137,
+      "implied_probability": 0.421,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles Angels @ Tampa Bay Rays",
+          "pick": "Los Angeles Angels +1.5",
+          "odds": -180,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19441522-1504459733-2152525612&type=Single",
+          "commence_time": "2026-05-30T20:11:00Z"
+        },
+        {
+          "matchup": "Miami Dolphins @ Las Vegas Raiders",
+          "pick": "Las Vegas Raiders wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552271-1517085435-2185024344&type=Single",
+          "commence_time": "2026-09-13T20:25:00Z"
+        }
+      ],
+      "close_time": "2026-05-30T20:11:00Z"
+    }
+  ]
+}
