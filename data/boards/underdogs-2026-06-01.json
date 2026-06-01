@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T06:02:43.590284+00:00",
+  "generated_at": "2026-06-01T07:02:18.719667+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -15,10 +15,10 @@
   "board": [
     {
       "ticker": "SB-4E9577E5",
-      "title": "Colts pull off the upset in Kansas City tonight",
+      "title": "Colts pull the upset in Kansas City tonight",
       "payout": 3.1,
       "tier": "yellow",
-      "quip": "Patrick Mahomes has been mortal lately, emphasis on lately",
+      "quip": "Patrick Mahomes has never lost to a team this harmless before",
       "yes_price": "0.32",
       "category": "NFL",
       "platform": "draftkings",
@@ -35,10 +35,10 @@
     },
     {
       "ticker": "SB-90231BA3",
-      "title": "Jets shock the Packers tonight",
+      "title": "Jets beat the Packers at home tonight",
       "payout": 3.35,
       "tier": "yellow",
-      "quip": "Aaron Rodgers revenge arc but he's the villain in his own movie",
+      "quip": "Aaron Rodgers haunts Lambeau from the cheap seats",
       "yes_price": "0.30",
       "category": "NFL",
       "platform": "draftkings",
@@ -55,10 +55,10 @@
     },
     {
       "ticker": "SB-674283E3",
-      "title": "Oregon State stuns Houston in college football upset",
+      "title": "Oregon State stuns Houston on the road tonight",
       "payout": 9.1,
       "tier": "orange",
-      "quip": "Beavers doing Beavers things, somehow",
+      "quip": "Beavers been chewing through Big 12 wood all season",
       "yes_price": "0.11",
       "category": "NCAAF",
       "platform": "fanduel",
@@ -75,10 +75,10 @@
     },
     {
       "ticker": "SB-C75202E8",
-      "title": "Stanford knocks off Miami in stunning upset tonight",
+      "title": "Stanford shocks Miami in Palo Alto tonight",
       "payout": 13.0,
       "tier": "orange",
-      "quip": "The Cardinal doing to Miami what Hurricane Ian couldn't",
+      "quip": "The Tree is still standing, somehow",
       "yes_price": "0.08",
       "category": "NCAAF",
       "platform": "fanduel",
@@ -95,7 +95,7 @@
     },
     {
       "ticker": "SB-2D0FC22F",
-      "title": "Fresno State shocks USC on the Trojans' home turf",
+      "title": "Fresno State takes down USC in the Coliseum tonight",
       "payout": 13.8,
       "tier": "orange",
       "quip": "Lincoln Riley left for this",
