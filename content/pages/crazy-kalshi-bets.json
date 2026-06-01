@@ -2,13 +2,13 @@
   "slug": "crazy-kalshi-bets",
   "format": "weird_market_roundup",
   "seo": {
-    "title": "Crazy Kalshi Bets — The Wildest Markets on the Platform | Dollar Bets",
-    "h1": "Crazy Kalshi Bets",
-    "meta_description": "The craziest bets on Kalshi right now. Weather, politics, asteroids, Fed decisions — real markets where $1 gets weird fast.",
+    "title": "Craziest Kalshi Bets — The Weirdest Markets on the Platform | Dollar Bets",
+    "h1": "the craziest kalshi bets right now",
+    "meta_description": "The craziest Kalshi bets and weirdest Kalshi markets right now. Weather, politics, asteroids, Fed decisions — real CFTC-regulated contracts where $1 gets weird fast.",
     "canonical": "/crazy-kalshi-bets/"
   },
-  "summary": "Kalshi hosts some of the strangest bets in the prediction market world. Asteroid contracts, government shutdown deadlines, snowfall totals, celebrity moves — all priced in real money. Here are the craziest Kalshi bets available right now, framed as what $1 returns.",
-  "quick_answer": "The craziest Kalshi bets include weather contracts (hurricane landfalls, record temperatures), government deadline markets (shutdowns, debt ceilings), space events (asteroid flybys), economic data surprises, and pop culture outcomes. Most are priced under $0.10, meaning $1 returns $10 or more if chaos delivers.",
+  "summary": "Kalshi hosts the craziest bets in the prediction market world — also the weirdest, also the most ridiculous. Asteroid contracts, government shutdown deadlines, snowfall totals, celebrity moves — all priced in real money. Here are the craziest Kalshi bets available right now, framed as what $1 returns.",
+  "quick_answer": "The craziest Kalshi bets — the weirdest, most ridiculous, most outrageous — include weather contracts (hurricane landfalls, record temperatures), government deadline markets (shutdowns, debt ceilings), space events (asteroid flybys), economic data surprises, and pop culture outcomes. Most trade under $0.10, meaning $1 returns $10 or more if chaos delivers.",
   "hero_bet": {
     "title": "Will a Category 5 hurricane make US landfall in 2026?",
     "payout": 18,
@@ -51,7 +51,23 @@
     },
     {
       "type": "text",
-      "content": "These are the craziest Kalshi bets we've found — markets that make you wonder who requested them, who's trading them, and what the implied probability says about the state of the world."
+      "content": "These are the craziest Kalshi bets we've found this week — also the weirdest Kalshi bets, the most ridiculous Kalshi bets, and the ones that make you wonder who requested them, who's trading them, and what the implied probability says about the state of the world."
+    },
+    {
+      "type": "heading",
+      "content": "what are the craziest kalshi bets right now?"
+    },
+    {
+      "type": "text",
+      "content": "Right now the craziest Kalshi bets fall into five clusters: weather (hurricane landfalls, record temperatures, snow in unlikely places), government deadlines (shutdowns, debt ceiling brinksmanship, executive orders), space events (near-Earth asteroid passes, launch outcomes), economic tail risk (single-day market crashes, surprise Fed moves), and pop-culture resolutions (award shows, streaming chart positions, celebrity moves). All trade live, all resolve on verifiable data, all let you put a single dollar on something a normal sportsbook would refuse to list."
+    },
+    {
+      "type": "heading",
+      "content": "what are the weirdest kalshi bets this week?"
+    },
+    {
+      "type": "text",
+      "content": "The weirdest Kalshi bets rotate weekly as new events approach and old contracts resolve. The board updates every morning — what was the weirdest market on Monday will often be settled by Friday and replaced by something stranger. For the live list of weirdest Kalshi bets today, the front page surfaces them in priority order."
     },
     {
       "type": "heading",
@@ -124,6 +140,14 @@
   ],
   "faqs": [
     {
+      "q": "What are the craziest Kalshi bets right now?",
+      "a": "The craziest current Kalshi bets cluster around extreme weather, government deadline brinksmanship, near-Earth asteroid passes, and tail-risk economic outcomes. The board refreshes daily as events resolve and new contracts list."
+    },
+    {
+      "q": "What are the weirdest Kalshi bets today?",
+      "a": "The weirdest Kalshi bets vary by day. Recent examples have included snow-in-unlikely-cities markets, individual celebrity outcomes, government shutdown countdowns, and specific weather records. The live front-page board surfaces the weirdest active markets in real time."
+    },
+    {
       "q": "Is Kalshi legal?",
       "a": "Yes. Kalshi is regulated by the CFTC (Commodity Futures Trading Commission) as a designated contract market. It's the first federally regulated prediction market exchange in the US."
     },
@@ -142,7 +166,7 @@
   ],
   "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate markets or provide betting advice. Kalshi is a separate, CFTC-regulated platform. All markets mentioned are illustrative of market types available. Odds and availability change. Most longshot bets will lose. Some links may be affiliate links — see our affiliate disclosure.",
   "publish_date": "2026-05-11",
-  "last_updated": "2026-05-11",
+  "last_updated": "2026-06-01",
   "cluster": "Weird Bets",
   "priority": 82
 }

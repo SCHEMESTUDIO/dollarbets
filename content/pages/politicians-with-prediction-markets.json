@@ -1,0 +1,132 @@
+{
+  "slug": "politicians-with-prediction-markets",
+  "format": "weird_market_roundup",
+  "seo": {
+    "title": "Every Politician With a Prediction Market on Them Right Now | Dollar Bets",
+    "h1": "Every Politician With a Prediction Market on Them Right Now",
+    "meta_description": "A live roster of named politicians with prediction markets on them this week — congressional primaries, gubernatorial races, the works. Real names, real districts, real $1 payouts.",
+    "canonical": "/politicians-with-prediction-markets/"
+  },
+  "summary": "Three named politicians currently have live prediction markets on them across Kalshi and Polymarket: Chi Charlie Nguyen in the CA-45 congressional primary ($1 returns $10), George Whitesides in CA-27 ($1 returns $2.17), and Francesca Hong in Wisconsin's Democratic gubernatorial primary ($1 returns $3.37). Below: who they are, what each market resolves on, and what the crowd thinks of their odds right now.",
+  "quick_answer": "As of this week, the named politicians with live prediction markets on Kalshi and Polymarket are Chi Charlie Nguyen (CA-45 primary, $1 returns $10), George Whitesides (CA-27 primary, $1 returns $2.17), and Francesca Hong (Wisconsin Democratic governor primary, $1 returns $3.37). Other political markets exist — Iran deal contracts, Fed decisions, federal budget deadlines — but these are the three with a single human's name on the contract.",
+  "hero_bet": {
+    "title": "Chi Charlie Nguyen leads the CA-45 primary",
+    "payout": 10,
+    "quip": "A buck returns ten on a Southern California congressional primary that has traded less money than a Costco run.",
+    "tier": "orange",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {
+      "text": "can you legally bet on elections",
+      "url": "/can-you-legally-bet-on-elections/"
+    },
+    {
+      "text": "politics markets",
+      "url": "/politics-markets/"
+    },
+    {
+      "text": "weirdest election prediction markets",
+      "url": "/weirdest-election-prediction-markets/"
+    },
+    {
+      "text": "today's full board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Right now there are three named politicians with live prediction markets on Kalshi and Polymarket. Not three categories. Not three races. Three specific human beings whose individual political futures are being priced as a financial contract this week. Below is the roster."
+    },
+    {
+      "type": "text",
+      "content": "This is a snapshot, not a permanent record. The roster turns over as primaries resolve and new ones list, so the names here are the names that happened to be live the morning this page was built. The numbers next to each politician are what a single dollar returns if their market resolves yes — pulled from the live board, not invented."
+    },
+    {
+      "type": "heading",
+      "content": "chi charlie nguyen — ca-45 congressional primary"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi market: whether Chi Charlie Nguyen leads the California 45th congressional district primary. Resolves November 2027. A dollar returns $10 — heater tier, orange — because the crowd thinks his odds of leading are about 10%. The total volume the market has traded is roughly $160, which means a handful of people have effectively decided his price between themselves. The CA-45 covers parts of Orange County; it has been one of California's more contested swing districts. The fact that a primary that resolves a year and a half from now is already a tradable contract is, frankly, the entire pitch for prediction markets in one screenshot."
+    },
+    {
+      "type": "heading",
+      "content": "george whitesides — ca-27 congressional primary"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi market: whether George Whitesides leads the California 27th congressional district primary. A dollar returns $2.17 — respectable tier, green — putting his implied odds in the high forties. Whitesides is the freshman incumbent: he won the seat in 2024 after running Virgin Galactic as its CEO and serving as NASA's chief of staff before that. The market is asking, essentially, whether a former commercial-spaceflight executive can hold his own party's primary in a competitive Antelope Valley / Santa Clarita district. The crowd thinks he probably can. The crowd is also charging you a respectable price to find out."
+    },
+    {
+      "type": "heading",
+      "content": "francesca hong — wisconsin democratic gubernatorial primary"
+    },
+    {
+      "type": "text",
+      "content": "Polymarket market: whether Francesca Hong wins the Wisconsin Democratic primary for governor. A dollar returns $3.37 — yellow tier, alive — because the crowd has her around 30%. Hong is a Madison restaurateur and sitting state assembly member who declared for governor as the kind of insurgent candidacy that doesn't usually show up in a market until much closer to the primary. The market exists in part because Wisconsin's a perennial swing state and in part because Polymarket users will list a contract on almost anything if there's a resolution date and a name."
+    },
+    {
+      "type": "heading",
+      "content": "what's not on this list, and why"
+    },
+    {
+      "type": "text",
+      "content": "Plenty of other political markets are live this week — Kalshi's market on whether the US seals a new Iran nuclear deal before June has done over $1.5 million in volume, and there are running contracts on Fed rate decisions, federal budget deadlines, and inflation prints. None of those have a single politician's name on them. They're policy markets, not person markets. This page is specifically the roster of named individuals — the smaller and stranger subset where the contract is about one human's career outcome."
+    },
+    {
+      "type": "heading",
+      "content": "the unique observation worth keeping"
+    },
+    {
+      "type": "text",
+      "content": "Three names is a small list. It is also, this week, the complete list, and that's the editorial point. Cable news has a built-in incentive to cover the same six national politicians on a loop. Prediction markets price whoever someone is willing to bet on, which turns out to be a much weirder distribution. Right now that distribution is one freshman incumbent in southern California, one challenger in another southern California seat, and one state assembly member trying to skip three rungs to a Midwestern governor's mansion. None of them are running for president. All of them have a contract."
+    },
+    {
+      "type": "heading",
+      "content": "is betting on these markets actually legal?"
+    },
+    {
+      "type": "text",
+      "content": "Short version: it's contested and varies by where you are. Election-related prediction markets in the US have been through repeated rounds of regulatory and court fights, particularly Kalshi's election contracts, and availability has shifted more than once. We keep a dedicated explainer on whether you can legally bet on elections — read that before opening an account if you're new to this corner of the market."
+    },
+    {
+      "type": "heading",
+      "content": "where the rest of today's political markets live"
+    },
+    {
+      "type": "text",
+      "content": "This roster is a slice of a wider politics aisle — the named-person slice. Our politics markets section pulls the broader set, including policy and event markets. The weirdest election prediction markets page covers the same three names plus the broader 'this is absurd' angle. And today's full board is rebuilt every morning, so if a fourth politician shows up tomorrow, they'll show up there first."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many politicians have a prediction market on them right now?",
+      "a": "Three named individuals have live person-specific prediction markets on Kalshi and Polymarket this week: Chi Charlie Nguyen (CA-45 primary), George Whitesides (CA-27 primary), and Francesca Hong (Wisconsin Democratic governor primary). The roster changes as primaries resolve and new contracts list."
+    },
+    {
+      "q": "Why are most of these markets about primaries instead of general elections?",
+      "a": "Prediction markets only list contracts where there's an unresolved binary question with a resolution date. General elections are months out; primaries are sooner and have multiple candidates per race. That structure produces more named-individual contracts. As primaries resolve, the roster shifts toward general-election names."
+    },
+    {
+      "q": "Are these prediction markets legal in the US?",
+      "a": "It's contested. Election-related prediction markets have been the subject of ongoing US regulatory and legal disputes — Kalshi's election contracts in particular have been litigated repeatedly — and availability varies by jurisdiction. Check current rules where you live before participating. Our election-betting page covers the details."
+    },
+    {
+      "q": "Why is Polymarket's politician roster different from Kalshi's?",
+      "a": "Kalshi is a CFTC-regulated US exchange; Polymarket operates offshore. They list different contracts based on different regulatory positions, user demand, and market-listing decisions. That's why Whitesides and Nguyen show up on Kalshi while Hong shows up on Polymarket — same week, two platforms, three different politicians."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial discovery site. We do not operate prediction markets, place bets, or provide financial or legal advice. Election-related prediction markets have been the subject of ongoing US regulatory and legal dispute, and their legality and availability vary by jurisdiction and have changed over time. Prediction market contracts involve the risk of total loss. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-06-01",
+  "last_updated": "2026-06-01",
+  "cluster": "Politics Markets",
+  "priority": 7
+}
