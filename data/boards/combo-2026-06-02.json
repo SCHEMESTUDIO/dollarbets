@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T05:49:21.409212+00:00",
+  "generated_at": "2026-06-02T07:02:57.523623+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,27 +8,364 @@
     "green": 10
   },
   "sport_mix": {
-    "NFL": 4,
-    "Multi": 6
+    "Multi": 3,
+    "MLB": 5,
+    "NFL": 2
   },
   "board": [
     {
-      "ticker": "PARLAY-F2CBFC47",
-      "title": "Los Angeles Rams wins + Seattle Seahawks wins",
-      "payout": 2.18,
+      "ticker": "PARLAY-1DCC34BC",
+      "title": "Cincinnati Bengals wins + San Diego Padres +1.5",
+      "payout": 2.23,
       "tier": "green",
-      "quip": "as sure as gravity",
-      "yes_price": "0.46",
+      "quip": "just showing up",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663019?coupon={pickType}|4184193920|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + San Diego Padres @ Philadelphia Phillies",
+      "market_type": "2-leg parlay",
+      "american_odds": 123,
+      "implied_probability": 0.448,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+          "pick": "Cincinnati Bengals wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663019?coupon={pickType}|4184193920|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "San Diego Padres @ Philadelphia Phillies",
+          "pick": "San Diego Padres +1.5",
+          "odds": -205,
+          "implied_prob": "67%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787073?coupon={pickType}|4206671104|{wagerAmount}",
+          "commence_time": "2026-06-02T22:41:00Z"
+        }
+      ],
+      "close_time": "2026-06-02T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-C031F1E3",
+      "title": "Baltimore Orioles +1.5 + San Diego Padres +1.5",
+      "payout": 2.23,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024787155?coupon={pickType}|4206671333|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Baltimore Orioles @ Boston Red Sox + San Diego Padres @ Philadelphia Phillies",
+      "market_type": "2-leg parlay",
+      "american_odds": 123,
+      "implied_probability": 0.448,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Orioles @ Boston Red Sox",
+          "pick": "Baltimore Orioles +1.5",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787155?coupon={pickType}|4206671333|{wagerAmount}",
+          "commence_time": "2026-06-02T22:46:00Z"
+        },
+        {
+          "matchup": "San Diego Padres @ Philadelphia Phillies",
+          "pick": "San Diego Padres +1.5",
+          "odds": -205,
+          "implied_prob": "67%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787073?coupon={pickType}|4206671104|{wagerAmount}",
+          "commence_time": "2026-06-02T22:41:00Z"
+        }
+      ],
+      "close_time": "2026-06-02T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-A1DA5030",
+      "title": "Detroit Tigers +1.5 + San Diego Padres +1.5",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024787098?coupon={pickType}|4206671159|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Detroit Tigers @ Tampa Bay Rays + San Diego Padres @ Philadelphia Phillies",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.444,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Detroit Tigers @ Tampa Bay Rays",
+          "pick": "Detroit Tigers +1.5",
+          "odds": -195,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787098?coupon={pickType}|4206671159|{wagerAmount}",
+          "commence_time": "2026-06-02T22:41:00Z"
+        },
+        {
+          "matchup": "San Diego Padres @ Philadelphia Phillies",
+          "pick": "San Diego Padres +1.5",
+          "odds": -205,
+          "implied_prob": "67%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787073?coupon={pickType}|4206671104|{wagerAmount}",
+          "commence_time": "2026-06-02T22:41:00Z"
+        }
+      ],
+      "close_time": "2026-06-02T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-1803AE0C",
+      "title": "Milwaukee Brewers wins + San Diego Padres +1.5",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786951?coupon={pickType}|4206612899|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "San Francisco Giants @ Milwaukee Brewers + San Diego Padres @ Philadelphia Phillies",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.444,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Francisco Giants @ Milwaukee Brewers",
+          "pick": "Milwaukee Brewers wins",
+          "odds": -195,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786951?coupon={pickType}|4206612899|{wagerAmount}",
+          "commence_time": "2026-06-02T23:41:00Z"
+        },
+        {
+          "matchup": "San Diego Padres @ Philadelphia Phillies",
+          "pick": "San Diego Padres +1.5",
+          "odds": -205,
+          "implied_prob": "67%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787073?coupon={pickType}|4206671104|{wagerAmount}",
+          "commence_time": "2026-06-02T22:41:00Z"
+        }
+      ],
+      "close_time": "2026-06-02T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-4837C320",
+      "title": "St. Louis Cardinals +1.5 + San Diego Padres +1.5",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024787012?coupon={pickType}|4206624971|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Texas Rangers @ St. Louis Cardinals + San Diego Padres @ Philadelphia Phillies",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.444,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Texas Rangers @ St. Louis Cardinals",
+          "pick": "St. Louis Cardinals +1.5",
+          "odds": -195,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787012?coupon={pickType}|4206624971|{wagerAmount}",
+          "commence_time": "2026-06-02T23:46:00Z"
+        },
+        {
+          "matchup": "San Diego Padres @ Philadelphia Phillies",
+          "pick": "San Diego Padres +1.5",
+          "odds": -205,
+          "implied_prob": "67%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787073?coupon={pickType}|4206671104|{wagerAmount}",
+          "commence_time": "2026-06-02T22:41:00Z"
+        }
+      ],
+      "close_time": "2026-06-02T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-616E3835",
+      "title": "Houston Astros +1.5 + San Diego Padres +1.5",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786978?coupon={pickType}|4206675931|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Pittsburgh Pirates @ Houston Astros + San Diego Padres @ Philadelphia Phillies",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.444,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Pirates @ Houston Astros",
+          "pick": "Houston Astros +1.5",
+          "odds": -195,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786978?coupon={pickType}|4206675931|{wagerAmount}",
+          "commence_time": "2026-06-03T00:11:00Z"
+        },
+        {
+          "matchup": "San Diego Padres @ Philadelphia Phillies",
+          "pick": "San Diego Padres +1.5",
+          "odds": -205,
+          "implied_prob": "67%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787073?coupon={pickType}|4206671104|{wagerAmount}",
+          "commence_time": "2026-06-02T22:41:00Z"
+        }
+      ],
+      "close_time": "2026-06-02T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-8089D924",
+      "title": "Vegas Golden Knights +1.5 + San Diego Padres +1.5",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027836328?coupon={pickType}|4203342395|{wagerAmount}",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Vegas Golden Knights @ Carolina Hurricanes + San Diego Padres @ Philadelphia Phillies",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.444,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Vegas Golden Knights @ Carolina Hurricanes",
+          "pick": "Vegas Golden Knights +1.5",
+          "odds": -195,
+          "implied_prob": "66%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027836328?coupon={pickType}|4203342395|{wagerAmount}",
+          "commence_time": "2026-06-03T00:20:09Z"
+        },
+        {
+          "matchup": "San Diego Padres @ Philadelphia Phillies",
+          "pick": "San Diego Padres +1.5",
+          "odds": -205,
+          "implied_prob": "67%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787073?coupon={pickType}|4206671104|{wagerAmount}",
+          "commence_time": "2026-06-02T22:41:00Z"
+        }
+      ],
+      "close_time": "2026-06-02T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-BE0EA68F",
+      "title": "Cincinnati Bengals wins + Baltimore Orioles +1.5",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663019?coupon={pickType}|4184193920|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + Baltimore Orioles @ Boston Red Sox",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.445,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+          "pick": "Cincinnati Bengals wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663019?coupon={pickType}|4184193920|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Baltimore Orioles @ Boston Red Sox",
+          "pick": "Baltimore Orioles +1.5",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787155?coupon={pickType}|4206671333|{wagerAmount}",
+          "commence_time": "2026-06-02T22:46:00Z"
+        }
+      ],
+      "close_time": "2026-06-02T22:46:00Z"
+    },
+    {
+      "ticker": "PARLAY-F7A43DCE",
+      "title": "Los Angeles Rams wins + Baltimore Ravens wins",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.45",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
       "url": "https://sports.{state}.betmgm.com/en/sports?options=19517677-1513112052-2174833017&type=Single",
       "sport": "americanfootball_nfl",
       "sport_display": "NFL",
-      "matchup": "San Francisco 49ers @ Los Angeles Rams + New England Patriots @ Seattle Seahawks",
+      "matchup": "San Francisco 49ers @ Los Angeles Rams + Baltimore Ravens @ Indianapolis Colts",
       "market_type": "2-leg parlay",
-      "american_odds": 118,
-      "implied_probability": 0.459,
+      "american_odds": 125,
+      "implied_probability": 0.445,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
@@ -43,39 +380,6 @@
           "commence_time": "2026-09-11T00:35:00Z"
         },
         {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
-          "commence_time": "2026-09-10T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-09-10T00:15:00Z"
-    },
-    {
-      "ticker": "PARLAY-6D1A8EC2",
-      "title": "Baltimore Ravens wins + Seattle Seahawks wins",
-      "payout": 2.18,
-      "tier": "green",
-      "quip": "clock in, cash out",
-      "yes_price": "0.46",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "NFL",
-      "matchup": "Baltimore Ravens @ Indianapolis Colts + New England Patriots @ Seattle Seahawks",
-      "market_type": "2-leg parlay",
-      "american_odds": 118,
-      "implied_probability": 0.459,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
           "matchup": "Baltimore Ravens @ Indianapolis Colts",
           "pick": "Baltimore Ravens wins",
           "odds": -200,
@@ -83,40 +387,40 @@
           "sport": "americanfootball_nfl",
           "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
           "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
-          "commence_time": "2026-09-10T00:15:00Z"
         }
       ],
-      "close_time": "2026-09-10T00:15:00Z"
+      "close_time": "2026-09-11T00:35:00Z"
     },
     {
-      "ticker": "PARLAY-7AD8E6B0",
-      "title": "Cincinnati Bengals wins + Seattle Seahawks wins",
-      "payout": 2.18,
+      "ticker": "PARLAY-55F0E977",
+      "title": "Los Angeles Rams wins + Cincinnati Bengals wins",
+      "payout": 2.25,
       "tier": "green",
-      "quip": "as sure as gravity",
-      "yes_price": "0.46",
+      "quip": "steady hands",
+      "yes_price": "0.45",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19517677-1513112052-2174833017&type=Single",
       "sport": "americanfootball_nfl",
       "sport_display": "NFL",
-      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + New England Patriots @ Seattle Seahawks",
+      "matchup": "San Francisco 49ers @ Los Angeles Rams + Tampa Bay Buccaneers @ Cincinnati Bengals",
       "market_type": "2-leg parlay",
-      "american_odds": 118,
-      "implied_probability": 0.459,
+      "american_odds": 125,
+      "implied_probability": 0.445,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
+        {
+          "matchup": "San Francisco 49ers @ Los Angeles Rams",
+          "pick": "Los Angeles Rams wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19517677-1513112052-2174833017&type=Single",
+          "commence_time": "2026-09-11T00:35:00Z"
+        },
         {
           "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
           "pick": "Cincinnati Bengals wins",
@@ -125,312 +429,9 @@
           "sport": "americanfootball_nfl",
           "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
           "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
-          "commence_time": "2026-09-10T00:15:00Z"
         }
       ],
-      "close_time": "2026-09-10T00:15:00Z"
-    },
-    {
-      "ticker": "PARLAY-C4330E67",
-      "title": "Toronto Blue Jays +1.5 + Seattle Seahawks wins",
-      "payout": 2.18,
-      "tier": "green",
-      "quip": "as sure as gravity",
-      "yes_price": "0.46",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19636074-1526390837-2208921682&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Toronto Blue Jays @ Atlanta Braves + New England Patriots @ Seattle Seahawks",
-      "market_type": "2-leg parlay",
-      "american_odds": 118,
-      "implied_probability": 0.459,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Toronto Blue Jays @ Atlanta Braves",
-          "pick": "Toronto Blue Jays +1.5",
-          "odds": -200,
-          "implied_prob": "67%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19636074-1526390837-2208921682&type=Single",
-          "commence_time": "2026-06-02T23:16:00Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
-          "commence_time": "2026-09-10T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-06-02T23:16:00Z"
-    },
-    {
-      "ticker": "PARLAY-D47E7E75",
-      "title": "Milwaukee Brewers wins + Seattle Seahawks wins",
-      "payout": 2.18,
-      "tier": "green",
-      "quip": "as sure as gravity",
-      "yes_price": "0.46",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19636076-1526390979-2208921967&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "San Francisco Giants @ Milwaukee Brewers + New England Patriots @ Seattle Seahawks",
-      "market_type": "2-leg parlay",
-      "american_odds": 118,
-      "implied_probability": 0.459,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "San Francisco Giants @ Milwaukee Brewers",
-          "pick": "Milwaukee Brewers wins",
-          "odds": -200,
-          "implied_prob": "67%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19636076-1526390979-2208921967&type=Single",
-          "commence_time": "2026-06-02T23:41:00Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
-          "commence_time": "2026-09-10T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-06-02T23:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-DC44D174",
-      "title": "Vegas Golden Knights +1.5 + Seattle Seahawks wins",
-      "payout": 2.18,
-      "tier": "green",
-      "quip": "the safe bet",
-      "yes_price": "0.46",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19627590-1525337421-2206253468&type=Single",
-      "sport": "icehockey_nhl",
-      "sport_display": "Multi",
-      "matchup": "Vegas Golden Knights @ Carolina Hurricanes + New England Patriots @ Seattle Seahawks",
-      "market_type": "2-leg parlay",
-      "american_odds": 118,
-      "implied_probability": 0.459,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Vegas Golden Knights @ Carolina Hurricanes",
-          "pick": "Vegas Golden Knights +1.5",
-          "odds": -200,
-          "implied_prob": "67%",
-          "sport": "icehockey_nhl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19627590-1525337421-2206253468&type=Single",
-          "commence_time": "2026-06-03T00:20:09Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
-          "commence_time": "2026-09-10T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-06-03T00:20:09Z"
-    },
-    {
-      "ticker": "PARLAY-DF200ADF",
-      "title": "Las Vegas Raiders wins + Seattle Seahawks wins",
-      "payout": 2.22,
-      "tier": "green",
-      "quip": "clock in, cash out",
-      "yes_price": "0.45",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552271-1517085435-2185024344&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "NFL",
-      "matchup": "Miami Dolphins @ Las Vegas Raiders + New England Patriots @ Seattle Seahawks",
-      "market_type": "2-leg parlay",
-      "american_odds": 122,
-      "implied_probability": 0.451,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Miami Dolphins @ Las Vegas Raiders",
-          "pick": "Las Vegas Raiders wins",
-          "odds": -190,
-          "implied_prob": "66%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552271-1517085435-2185024344&type=Single",
-          "commence_time": "2026-09-13T20:25:00Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
-          "commence_time": "2026-09-10T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-09-10T00:15:00Z"
-    },
-    {
-      "ticker": "PARLAY-69833331",
-      "title": "Washington Nationals +1.5 + Seattle Seahawks wins",
-      "payout": 2.22,
-      "tier": "green",
-      "quip": "like taking candy from a vending machine",
-      "yes_price": "0.45",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19636071-1526390625-2208921259&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Miami Marlins @ Washington Nationals + New England Patriots @ Seattle Seahawks",
-      "market_type": "2-leg parlay",
-      "american_odds": 122,
-      "implied_probability": 0.451,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Miami Marlins @ Washington Nationals",
-          "pick": "Washington Nationals +1.5",
-          "odds": -190,
-          "implied_prob": "66%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19636071-1526390625-2208921259&type=Single",
-          "commence_time": "2026-06-02T22:46:00Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
-          "commence_time": "2026-09-10T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-06-02T22:46:00Z"
-    },
-    {
-      "ticker": "PARLAY-AB61E2A9",
-      "title": "Athletics +1.5 + Seattle Seahawks wins",
-      "payout": 2.22,
-      "tier": "green",
-      "quip": "the boring middle",
-      "yes_price": "0.45",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19636130-1526395565-2208932222&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Athletics @ Chicago Cubs + New England Patriots @ Seattle Seahawks",
-      "market_type": "2-leg parlay",
-      "american_odds": 122,
-      "implied_probability": 0.451,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Athletics @ Chicago Cubs",
-          "pick": "Athletics +1.5",
-          "odds": -190,
-          "implied_prob": "66%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19636130-1526395565-2208932222&type=Single",
-          "commence_time": "2026-06-03T00:06:00Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
-          "commence_time": "2026-09-10T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-06-03T00:06:00Z"
-    },
-    {
-      "ticker": "PARLAY-39BEABA2",
-      "title": "Houston Astros +1.5 + Seattle Seahawks wins",
-      "payout": 2.22,
-      "tier": "green",
-      "quip": "clock in, cash out",
-      "yes_price": "0.45",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19636131-1526395644-2208932385&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Pittsburgh Pirates @ Houston Astros + New England Patriots @ Seattle Seahawks",
-      "market_type": "2-leg parlay",
-      "american_odds": 122,
-      "implied_probability": 0.451,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Pittsburgh Pirates @ Houston Astros",
-          "pick": "Houston Astros +1.5",
-          "odds": -190,
-          "implied_prob": "66%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19636131-1526395644-2208932385&type=Single",
-          "commence_time": "2026-06-03T00:11:00Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
-          "commence_time": "2026-09-10T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-06-03T00:11:00Z"
+      "close_time": "2026-09-11T00:35:00Z"
     }
   ]
 }
