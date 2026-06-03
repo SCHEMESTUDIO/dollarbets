@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T19:50:12.849816+00:00",
+  "generated_at": "2026-06-03T23:44:26.330718+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,277 +8,23 @@
     "green": 10
   },
   "sport_mix": {
-    "Multi": 7,
-    "MLB": 1,
-    "MMA": 2
+    "Multi": 10
   },
   "board": [
     {
-      "ticker": "PARLAY-3DB273FB",
-      "title": "Atlanta Braves wins + LSU Tigers wins",
+      "ticker": "PARLAY-65A88C0C",
+      "title": "St. Louis Cardinals +1.0 + Sean O'Malley wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "the fundamentals",
+      "quip": "another day at the office",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
       "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024787091?coupon={pickType}|4207854327|{wagerAmount}",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786986?coupon={pickType}|4208084937|{wagerAmount}",
       "sport": "baseball_mlb",
       "sport_display": "Multi",
-      "matchup": "Toronto Blue Jays @ Atlanta Braves + Clemson Tigers @ LSU Tigers",
-      "market_type": "2-leg parlay",
-      "american_odds": 100,
-      "implied_probability": 0.499,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Toronto Blue Jays @ Atlanta Braves",
-          "pick": "Atlanta Braves wins",
-          "odds": -152,
-          "implied_prob": "60%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787091?coupon={pickType}|4207854327|{wagerAmount}",
-          "commence_time": "2026-06-03T23:16:00Z"
-        },
-        {
-          "matchup": "Clemson Tigers @ LSU Tigers",
-          "pick": "LSU Tigers wins",
-          "odds": -480,
-          "implied_prob": "83%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432893?coupon={pickType}|4172202746|{wagerAmount}",
-          "commence_time": "2026-09-05T23:30:00Z"
-        }
-      ],
-      "close_time": "2026-06-03T23:16:00Z"
-    },
-    {
-      "ticker": "PARLAY-7CB01D78",
-      "title": "Milwaukee Brewers wins + LSU Tigers wins",
-      "payout": 2.0,
-      "tier": "green",
-      "quip": "tuesday energy",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024787163?coupon={pickType}|4207898788|{wagerAmount}",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "San Francisco Giants @ Milwaukee Brewers + Clemson Tigers @ LSU Tigers",
-      "market_type": "2-leg parlay",
-      "american_odds": 100,
-      "implied_probability": 0.499,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "San Francisco Giants @ Milwaukee Brewers",
-          "pick": "Milwaukee Brewers wins",
-          "odds": -152,
-          "implied_prob": "60%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787163?coupon={pickType}|4207898788|{wagerAmount}",
-          "commence_time": "2026-06-03T23:41:00Z"
-        },
-        {
-          "matchup": "Clemson Tigers @ LSU Tigers",
-          "pick": "LSU Tigers wins",
-          "odds": -480,
-          "implied_prob": "83%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432893?coupon={pickType}|4172202746|{wagerAmount}",
-          "commence_time": "2026-09-05T23:30:00Z"
-        }
-      ],
-      "close_time": "2026-06-03T23:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-3610E9FC",
-      "title": "New York Yankees wins + Sean O'Malley wins",
-      "payout": 2.0,
-      "tier": "green",
-      "quip": "water is wet",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024787088?coupon={pickType}|4207879816|{wagerAmount}",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Cleveland Guardians @ New York Yankees + Aiemann Zahabi @ Sean O'Malley",
-      "market_type": "2-leg parlay",
-      "american_odds": 100,
-      "implied_probability": 0.499,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Cleveland Guardians @ New York Yankees",
-          "pick": "New York Yankees wins",
-          "odds": -162,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787088?coupon={pickType}|4207879816|{wagerAmount}",
-          "commence_time": "2026-06-03T23:06:00Z"
-        },
-        {
-          "matchup": "Aiemann Zahabi @ Sean O'Malley",
-          "pick": "Sean O'Malley wins",
-          "odds": -420,
-          "implied_prob": "81%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1026889417?coupon={pickType}|4095207121|{wagerAmount}",
-          "commence_time": "2026-06-14T23:45:00Z"
-        }
-      ],
-      "close_time": "2026-06-03T23:06:00Z"
-    },
-    {
-      "ticker": "PARLAY-552F4734",
-      "title": "Los Angeles Angels wins + Sean O'Malley wins",
-      "payout": 2.0,
-      "tier": "green",
-      "quip": "autopilot engaged",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024787070?coupon={pickType}|4207934279|{wagerAmount}",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Colorado Rockies @ Los Angeles Angels + Aiemann Zahabi @ Sean O'Malley",
-      "market_type": "2-leg parlay",
-      "american_odds": 100,
-      "implied_probability": 0.499,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Colorado Rockies @ Los Angeles Angels",
-          "pick": "Los Angeles Angels wins",
-          "odds": -162,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787070?coupon={pickType}|4207934279|{wagerAmount}",
-          "commence_time": "2026-06-04T01:39:00Z"
-        },
-        {
-          "matchup": "Aiemann Zahabi @ Sean O'Malley",
-          "pick": "Sean O'Malley wins",
-          "odds": -420,
-          "implied_prob": "81%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1026889417?coupon={pickType}|4095207121|{wagerAmount}",
-          "commence_time": "2026-06-14T23:45:00Z"
-        }
-      ],
-      "close_time": "2026-06-04T01:39:00Z"
-    },
-    {
-      "ticker": "PARLAY-0FCFBC06",
-      "title": "San Francisco Giants +1.5 + Bo Nickal wins",
-      "payout": 2.0,
-      "tier": "green",
-      "quip": "as sure as gravity",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024787163?coupon={pickType}|4207898872|{wagerAmount}",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "San Francisco Giants @ Milwaukee Brewers + Kyle Daukaus @ Bo Nickal",
-      "market_type": "2-leg parlay",
-      "american_odds": 100,
-      "implied_probability": 0.501,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "San Francisco Giants @ Milwaukee Brewers",
-          "pick": "San Francisco Giants +1.5",
-          "odds": -186,
-          "implied_prob": "65%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787163?coupon={pickType}|4207898872|{wagerAmount}",
-          "commence_time": "2026-06-03T23:41:00Z"
-        },
-        {
-          "matchup": "Kyle Daukaus @ Bo Nickal",
-          "pick": "Bo Nickal wins",
-          "odds": -335,
-          "implied_prob": "77%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1026888609?coupon={pickType}|4095201244|{wagerAmount}",
-          "commence_time": "2026-06-14T22:30:00Z"
-        }
-      ],
-      "close_time": "2026-06-03T23:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-B2BD74F2",
-      "title": "San Francisco Giants +1.5 + Josh Hokit wins",
-      "payout": 2.0,
-      "tier": "green",
-      "quip": "steady hands",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024787163?coupon={pickType}|4207898872|{wagerAmount}",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "San Francisco Giants @ Milwaukee Brewers + Josh Hokit @ Derrick Lewis",
-      "market_type": "2-leg parlay",
-      "american_odds": 100,
-      "implied_probability": 0.501,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "San Francisco Giants @ Milwaukee Brewers",
-          "pick": "San Francisco Giants +1.5",
-          "odds": -186,
-          "implied_prob": "65%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787163?coupon={pickType}|4207898872|{wagerAmount}",
-          "commence_time": "2026-06-03T23:41:00Z"
-        },
-        {
-          "matchup": "Josh Hokit @ Derrick Lewis",
-          "pick": "Josh Hokit wins",
-          "odds": -335,
-          "implied_prob": "77%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027299304?coupon={pickType}|4143223383|{wagerAmount}",
-          "commence_time": "2026-06-14T22:50:00Z"
-        }
-      ],
-      "close_time": "2026-06-03T23:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-C514EA41",
-      "title": "St. Louis Cardinals +1.5 + TCU Horned Frogs wins",
-      "payout": 2.0,
-      "tier": "green",
-      "quip": "just showing up",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786986?coupon={pickType}|4207897310|{wagerAmount}",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Texas Rangers @ St. Louis Cardinals + North Carolina Tar Heels @ TCU Horned Frogs",
+      "matchup": "Texas Rangers @ St. Louis Cardinals + Aiemann Zahabi @ Sean O'Malley",
       "market_type": "2-leg parlay",
       "american_odds": 100,
       "implied_probability": 0.499,
@@ -288,12 +34,54 @@
       "legs": [
         {
           "matchup": "Texas Rangers @ St. Louis Cardinals",
-          "pick": "St. Louis Cardinals +1.5",
+          "pick": "St. Louis Cardinals +1.0",
+          "odds": -162,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786986?coupon={pickType}|4208084937|{wagerAmount}",
+          "commence_time": "2026-06-03T23:46:00Z"
+        },
+        {
+          "matchup": "Aiemann Zahabi @ Sean O'Malley",
+          "pick": "Sean O'Malley wins",
+          "odds": -420,
+          "implied_prob": "81%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1026889417?coupon={pickType}|4095207121|{wagerAmount}",
+          "commence_time": "2026-06-14T23:45:00Z"
+        }
+      ],
+      "close_time": "2026-06-03T23:46:00Z"
+    },
+    {
+      "ticker": "PARLAY-4AF8E83D",
+      "title": "Los Angeles Dodgers wins + TCU Horned Frogs wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024787105?coupon={pickType}|4207969978|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Los Angeles Dodgers @ Arizona Diamondbacks + North Carolina Tar Heels @ TCU Horned Frogs",
+      "market_type": "2-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.499,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles Dodgers @ Arizona Diamondbacks",
+          "pick": "Los Angeles Dodgers wins",
           "odds": -220,
           "implied_prob": "69%",
           "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786986?coupon={pickType}|4207897310|{wagerAmount}",
-          "commence_time": "2026-06-03T23:46:00Z"
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787105?coupon={pickType}|4207969978|{wagerAmount}",
+          "commence_time": "2026-06-04T01:41:00Z"
         },
         {
           "matchup": "North Carolina Tar Heels @ TCU Horned Frogs",
@@ -305,133 +93,397 @@
           "commence_time": "2026-08-29T16:00:00Z"
         }
       ],
-      "close_time": "2026-06-03T23:46:00Z"
+      "close_time": "2026-06-04T01:41:00Z"
     },
     {
-      "ticker": "PARLAY-364025C7",
-      "title": "St. Louis Cardinals +1.5 + Washington Nationals +2.5",
+      "ticker": "PARLAY-8E67DEFF",
+      "title": "Athletics +1.5, Mauricio Ruffy wins + Ilia Topuria wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "rent money",
+      "quip": "paint drying, but profitable",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
       "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786986?coupon={pickType}|4207897310|{wagerAmount}",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024787087?coupon={pickType}|4207887874|{wagerAmount}",
       "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Texas Rangers @ St. Louis Cardinals + Miami Marlins @ Washington Nationals",
-      "market_type": "2-leg parlay",
+      "sport_display": "Multi",
+      "matchup": "Athletics @ Chicago Cubs + Michael Chandler @ Mauricio Ruffy +1 more",
+      "market_type": "3-leg parlay",
       "american_odds": 100,
-      "implied_probability": 0.499,
+      "implied_probability": 0.5,
       "has_deep_link": true,
       "type": "parlay",
-      "num_legs": 2,
+      "num_legs": 3,
       "legs": [
         {
-          "matchup": "Texas Rangers @ St. Louis Cardinals",
-          "pick": "St. Louis Cardinals +1.5",
+          "matchup": "Athletics @ Chicago Cubs",
+          "pick": "Athletics +1.5",
+          "odds": -195,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787087?coupon={pickType}|4207887874|{wagerAmount}",
+          "commence_time": "2026-06-04T00:06:00Z"
+        },
+        {
+          "matchup": "Michael Chandler @ Mauricio Ruffy",
+          "pick": "Mauricio Ruffy wins",
+          "odds": -625,
+          "implied_prob": "86%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1026888606?coupon={pickType}|4095206908|{wagerAmount}",
+          "commence_time": "2026-06-14T23:15:00Z"
+        },
+        {
+          "matchup": "Justin Gaethje @ Ilia Topuria",
+          "pick": "Ilia Topuria wins",
+          "odds": -715,
+          "implied_prob": "88%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1026888605?coupon={pickType}|4095152199|{wagerAmount}",
+          "commence_time": "2026-06-15T01:15:00Z"
+        }
+      ],
+      "close_time": "2026-06-04T00:06:00Z"
+    },
+    {
+      "ticker": "PARLAY-5B96DDF6",
+      "title": "Los Angeles Dodgers wins, LSU Tigers wins + Ilia Topuria wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024787105?coupon={pickType}|4207969978|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Los Angeles Dodgers @ Arizona Diamondbacks + Clemson Tigers @ LSU Tigers +1 more",
+      "market_type": "3-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.5,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 3,
+      "legs": [
+        {
+          "matchup": "Los Angeles Dodgers @ Arizona Diamondbacks",
+          "pick": "Los Angeles Dodgers wins",
           "odds": -220,
           "implied_prob": "69%",
           "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786986?coupon={pickType}|4207897310|{wagerAmount}",
-          "commence_time": "2026-06-03T23:46:00Z"
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787105?coupon={pickType}|4207969978|{wagerAmount}",
+          "commence_time": "2026-06-04T01:41:00Z"
         },
         {
-          "matchup": "Miami Marlins @ Washington Nationals",
-          "pick": "Washington Nationals +2.5",
-          "odds": -265,
-          "implied_prob": "73%",
+          "matchup": "Clemson Tigers @ LSU Tigers",
+          "pick": "LSU Tigers wins",
+          "odds": -480,
+          "implied_prob": "83%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432893?coupon={pickType}|4172202746|{wagerAmount}",
+          "commence_time": "2026-09-05T23:30:00Z"
+        },
+        {
+          "matchup": "Justin Gaethje @ Ilia Topuria",
+          "pick": "Ilia Topuria wins",
+          "odds": -715,
+          "implied_prob": "88%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1026888605?coupon={pickType}|4095152199|{wagerAmount}",
+          "commence_time": "2026-06-15T01:15:00Z"
+        }
+      ],
+      "close_time": "2026-06-04T01:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-E4BF9F3B",
+      "title": "Ole Miss Rebels wins, Sean O'Malley wins + Ilia Topuria wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Louisville Cardinals @ Ole Miss Rebels + Aiemann Zahabi @ Sean O'Malley +1 more",
+      "market_type": "3-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.5,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 3,
+      "legs": [
+        {
+          "matchup": "Louisville Cardinals @ Ole Miss Rebels",
+          "pick": "Ole Miss Rebels wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+          "commence_time": "2026-09-06T23:30:00Z"
+        },
+        {
+          "matchup": "Aiemann Zahabi @ Sean O'Malley",
+          "pick": "Sean O'Malley wins",
+          "odds": -420,
+          "implied_prob": "81%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1026889417?coupon={pickType}|4095207121|{wagerAmount}",
+          "commence_time": "2026-06-14T23:45:00Z"
+        },
+        {
+          "matchup": "Justin Gaethje @ Ilia Topuria",
+          "pick": "Ilia Topuria wins",
+          "odds": -715,
+          "implied_prob": "88%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1026888605?coupon={pickType}|4095152199|{wagerAmount}",
+          "commence_time": "2026-06-15T01:15:00Z"
+        }
+      ],
+      "close_time": "2026-06-14T23:45:00Z"
+    },
+    {
+      "ticker": "PARLAY-6CFE3F6F",
+      "title": "Philadelphia Phillies wins, Bo Nickal wins + Ilia Topuria wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024787138?coupon={pickType}|4207847090|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "San Diego Padres @ Philadelphia Phillies + Kyle Daukaus @ Bo Nickal +1 more",
+      "market_type": "3-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.5,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 3,
+      "legs": [
+        {
+          "matchup": "San Diego Padres @ Philadelphia Phillies",
+          "pick": "Philadelphia Phillies wins",
+          "odds": -286,
+          "implied_prob": "74%",
           "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786991?coupon={pickType}|4207986740|{wagerAmount}",
-          "commence_time": "2026-06-03T17:06:00Z"
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787138?coupon={pickType}|4207847090|{wagerAmount}",
+          "commence_time": "2026-06-03T22:41:00Z"
+        },
+        {
+          "matchup": "Kyle Daukaus @ Bo Nickal",
+          "pick": "Bo Nickal wins",
+          "odds": -335,
+          "implied_prob": "77%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1026888609?coupon={pickType}|4095201244|{wagerAmount}",
+          "commence_time": "2026-06-14T22:30:00Z"
+        },
+        {
+          "matchup": "Justin Gaethje @ Ilia Topuria",
+          "pick": "Ilia Topuria wins",
+          "odds": -715,
+          "implied_prob": "88%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1026888605?coupon={pickType}|4095152199|{wagerAmount}",
+          "commence_time": "2026-06-15T01:15:00Z"
         }
       ],
-      "close_time": "2026-06-03T17:06:00Z"
+      "close_time": "2026-06-03T22:41:00Z"
     },
     {
-      "ticker": "PARLAY-772A4632",
-      "title": "Benoit Saint-Denis wins + Iwo Baraniewski -3.5",
+      "ticker": "PARLAY-BCA0D428",
+      "title": "Philadelphia Phillies wins, Josh Hokit wins + Ilia Topuria wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "rent money",
+      "quip": "just showing up",
       "yes_price": "0.50",
       "category": "sports-parlay",
-      "platform": "draftkings",
-      "platform_display": "DraftKings",
-      "url": "https://sportsbook.draftkings.com/?outcomes=0ML84602592_1",
-      "sport": "mma_mixed_martial_arts",
-      "sport_display": "MMA",
-      "matchup": "Benoit Saint-Denis @ Paddy Pimblett + Junior Tafa @ Iwo Baraniewski",
-      "market_type": "2-leg parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024787138?coupon={pickType}|4207847090|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "San Diego Padres @ Philadelphia Phillies + Josh Hokit @ Derrick Lewis +1 more",
+      "market_type": "3-leg parlay",
       "american_odds": 100,
       "implied_probability": 0.5,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 3,
+      "legs": [
+        {
+          "matchup": "San Diego Padres @ Philadelphia Phillies",
+          "pick": "Philadelphia Phillies wins",
+          "odds": -286,
+          "implied_prob": "74%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787138?coupon={pickType}|4207847090|{wagerAmount}",
+          "commence_time": "2026-06-03T22:41:00Z"
+        },
+        {
+          "matchup": "Josh Hokit @ Derrick Lewis",
+          "pick": "Josh Hokit wins",
+          "odds": -335,
+          "implied_prob": "77%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027299304?coupon={pickType}|4143223383|{wagerAmount}",
+          "commence_time": "2026-06-14T22:50:00Z"
+        },
+        {
+          "matchup": "Justin Gaethje @ Ilia Topuria",
+          "pick": "Ilia Topuria wins",
+          "odds": -715,
+          "implied_prob": "88%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1026888605?coupon={pickType}|4095152199|{wagerAmount}",
+          "commence_time": "2026-06-15T01:15:00Z"
+        }
+      ],
+      "close_time": "2026-06-03T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-87D29111",
+      "title": "Kansas City Royals wins, Sean O'Malley wins + LSU Tigers wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786937?coupon={pickType}|4207865974|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Kansas City Royals @ Cincinnati Reds + Aiemann Zahabi @ Sean O'Malley +1 more",
+      "market_type": "3-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.5,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 3,
+      "legs": [
+        {
+          "matchup": "Kansas City Royals @ Cincinnati Reds",
+          "pick": "Kansas City Royals wins",
+          "odds": -295,
+          "implied_prob": "75%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786937?coupon={pickType}|4207865974|{wagerAmount}",
+          "commence_time": "2026-06-03T23:11:00Z"
+        },
+        {
+          "matchup": "Aiemann Zahabi @ Sean O'Malley",
+          "pick": "Sean O'Malley wins",
+          "odds": -420,
+          "implied_prob": "81%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1026889417?coupon={pickType}|4095207121|{wagerAmount}",
+          "commence_time": "2026-06-14T23:45:00Z"
+        },
+        {
+          "matchup": "Clemson Tigers @ LSU Tigers",
+          "pick": "LSU Tigers wins",
+          "odds": -480,
+          "implied_prob": "83%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432893?coupon={pickType}|4172202746|{wagerAmount}",
+          "commence_time": "2026-09-05T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-06-03T23:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-C275DC8F",
+      "title": "Over 5.5 + Mauricio Ruffy wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027836330?coupon={pickType}|4208044342|{wagerAmount}",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Vegas Golden Knights @ Carolina Hurricanes + Michael Chandler @ Mauricio Ruffy",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.497,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Benoit Saint-Denis @ Paddy Pimblett",
-          "pick": "Benoit Saint-Denis wins",
-          "odds": -180,
-          "implied_prob": "64%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML84602592_1",
-          "commence_time": "2026-07-12T02:45:00Z"
+          "matchup": "Vegas Golden Knights @ Carolina Hurricanes",
+          "pick": "Over 5.5",
+          "odds": -136,
+          "implied_prob": "58%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027836330?coupon={pickType}|4208044342|{wagerAmount}",
+          "commence_time": "2026-06-05T00:15:00Z"
         },
         {
-          "matchup": "Junior Tafa @ Iwo Baraniewski",
-          "pick": "Iwo Baraniewski -3.5",
-          "odds": -350,
-          "implied_prob": "78%",
+          "matchup": "Michael Chandler @ Mauricio Ruffy",
+          "pick": "Mauricio Ruffy wins",
+          "odds": -625,
+          "implied_prob": "86%",
           "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0HC85021807N350_1",
-          "commence_time": "2026-06-06T21:00:00Z"
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1026888606?coupon={pickType}|4095206908|{wagerAmount}",
+          "commence_time": "2026-06-14T23:15:00Z"
         }
       ],
-      "close_time": "2026-06-06T21:00:00Z"
+      "close_time": "2026-06-05T00:15:00Z"
     },
     {
-      "ticker": "PARLAY-A7B368E0",
-      "title": "Over 2.5 + Fares Ziam wins",
-      "payout": 2.0,
+      "ticker": "PARLAY-A526D4EF",
+      "title": "Atlanta Braves +1.0 + Mauricio Ruffy wins",
+      "payout": 2.01,
       "tier": "green",
-      "quip": "as sure as gravity",
+      "quip": "clock in, cash out",
       "yes_price": "0.50",
       "category": "sports-parlay",
-      "platform": "draftkings",
-      "platform_display": "DraftKings",
-      "url": "https://sportsbook.draftkings.com/?outcomes=0OU85011848O250_1",
-      "sport": "mma_mixed_martial_arts",
-      "sport_display": "MMA",
-      "matchup": "Santiago Luna @ Bryce Mitchell + Tom Nolan @ Fares Ziam",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024787091?coupon={pickType}|4208075398|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Toronto Blue Jays @ Atlanta Braves + Michael Chandler @ Mauricio Ruffy",
       "market_type": "2-leg parlay",
-      "american_odds": 100,
-      "implied_probability": 0.5,
+      "american_odds": 101,
+      "implied_probability": 0.498,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Santiago Luna @ Bryce Mitchell",
-          "pick": "Over 2.5",
-          "odds": -188,
-          "implied_prob": "65%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0OU85011848O250_1",
-          "commence_time": "2026-06-06T09:00:00Z"
+          "matchup": "Toronto Blue Jays @ Atlanta Braves",
+          "pick": "Atlanta Braves +1.0",
+          "odds": -137,
+          "implied_prob": "58%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024787091?coupon={pickType}|4208075398|{wagerAmount}",
+          "commence_time": "2026-06-03T23:16:00Z"
         },
         {
-          "matchup": "Tom Nolan @ Fares Ziam",
-          "pick": "Fares Ziam wins",
-          "odds": -325,
-          "implied_prob": "76%",
+          "matchup": "Michael Chandler @ Mauricio Ruffy",
+          "pick": "Mauricio Ruffy wins",
+          "odds": -625,
+          "implied_prob": "86%",
           "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML84955575_1",
-          "commence_time": "2026-06-06T21:00:00Z"
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1026888606?coupon={pickType}|4095206908|{wagerAmount}",
+          "commence_time": "2026-06-14T23:15:00Z"
         }
       ],
-      "close_time": "2026-06-06T09:00:00Z"
+      "close_time": "2026-06-03T23:16:00Z"
     }
   ]
 }
