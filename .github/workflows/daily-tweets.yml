@@ -1,0 +1,128 @@
+name: Daily X Tweets
+
+# Posts 3 cards/day from the latest board to @dollarbets on X.
+#
+# Schedule (UTC → US Eastern):
+#   13:00 UTC = 9am ET — select 3 cards (Claude) + post slot 1
+#   17:00 UTC = 1pm ET — post slot 2
+#   21:00 UTC = 5pm ET — post slot 3
+#
+# Daily scan runs at 08:00 UTC (Kalshi/Polymarket). Vercel rebuild kicks in
+# on the resulting commit, so by 13:00 UTC the new /share/{ticker}/og.png URLs
+# are deployed and ready for the image attachment.
+#
+# DRY-RUN BY DEFAULT. Set repo variable TWEET_LIVE=1 to start actually posting.
+# (Use a repo *variable*, not a secret — secrets can't be conditionally compared
+# in a workflow without leaking, and "1" isn't sensitive.)
+
+on:
+  schedule:
+    - cron: '0 13,17,21 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Which step to run'
+        type: choice
+        options: [select-and-post-1, post-2, post-3, select-only, dry-run-all]
+        default: dry-run-all
+      live:
+        description: 'Override TWEET_LIVE for this manual run'
+        type: choice
+        options: ['inherit', '0', '1']
+        default: inherit
+
+permissions:
+  contents: write
+
+jobs:
+  tweet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          # Need full history so we can pull --rebase before pushing the queue
+          # update without conflicting against the daily-scan commit.
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install --quiet tweepy
+
+      - name: Resolve schedule slot
+        id: slot
+        run: |
+          # Map cron hour → slot. Manual dispatch overrides via inputs.mode.
+          MODE="${{ github.event.inputs.mode }}"
+          if [ -z "$MODE" ]; then
+            HOUR=$(date -u +%H)
+            case "$HOUR" in
+              13) MODE="select-and-post-1" ;;
+              17) MODE="post-2" ;;
+              21) MODE="post-3" ;;
+              *)  MODE="dry-run-all" ;;  # unscheduled run = safety net
+            esac
+          fi
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+
+          # TWEET_LIVE resolution: manual override > repo variable > 0
+          LIVE_OVERRIDE="${{ github.event.inputs.live }}"
+          if [ "$LIVE_OVERRIDE" = "0" ] || [ "$LIVE_OVERRIDE" = "1" ]; then
+            LIVE="$LIVE_OVERRIDE"
+          else
+            LIVE="${{ vars.TWEET_LIVE || '0' }}"
+          fi
+          echo "live=$LIVE" >> "$GITHUB_OUTPUT"
+          echo "Resolved mode=$MODE  live=$LIVE"
+
+      - name: Run agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          TWEET_LIVE: ${{ steps.slot.outputs.live }}
+          TWEET_LINK_MODE: ${{ vars.TWEET_LINK_MODE || 'inline' }}
+        run: |
+          set -e
+          case "${{ steps.slot.outputs.mode }}" in
+            select-and-post-1)
+              python3 scripts/daily_tweets.py --mode select --also-post-slot 1
+              ;;
+            select-only)
+              python3 scripts/daily_tweets.py --mode select
+              ;;
+            post-2)
+              python3 scripts/daily_tweets.py --mode post --slot 2
+              ;;
+            post-3)
+              python3 scripts/daily_tweets.py --mode post --slot 3
+              ;;
+            dry-run-all)
+              # Force dry-run for this synthesis path
+              TWEET_LIVE=0 python3 scripts/daily_tweets.py --mode select --also-post-slot 1
+              TWEET_LIVE=0 python3 scripts/daily_tweets.py --mode post --slot 2
+              TWEET_LIVE=0 python3 scripts/daily_tweets.py --mode post --slot 3
+              ;;
+          esac
+
+      - name: Commit queue file
+        if: always()
+        run: |
+          if [ -z "$(git status --porcelain data/social-queue/)" ]; then
+            echo "No queue changes to commit"
+            exit 0
+          fi
+          git config user.name "dollarbets-bot"
+          git config user.email "bot@dollarbets.lol"
+          git add data/social-queue/
+          TODAY=$(date -u +%Y-%m-%d)
+          git commit -m "tweet queue ${TODAY}: ${{ steps.slot.outputs.mode }}"
+          # Rebase against any concurrent daily-scan commit, then push
+          git pull --rebase origin main
+          git push origin HEAD:main

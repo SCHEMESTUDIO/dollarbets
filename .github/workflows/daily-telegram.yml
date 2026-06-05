@@ -1,0 +1,117 @@
+name: Daily Telegram Posts
+
+# Posts the same 3 cards/day as the X workflow to a Telegram channel and/or group.
+# Reads data/social-queue/YYYY-MM-DD.json which the X workflow creates at :00.
+# Telegram runs at :05 to ensure the queue file exists.
+#
+# Schedule (UTC → US Eastern):
+#   13:05 UTC = 9:05am ET — post slot 1
+#   17:05 UTC = 1:05pm ET — post slot 2
+#   21:05 UTC = 5:05pm ET — post slot 3
+#
+# DRY-RUN BY DEFAULT. Set repo variable TELEGRAM_LIVE=1 to start actually posting.
+
+on:
+  schedule:
+    - cron: '5 13,17,21 * * *'
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: 'Which slot to post (1, 2, 3, or all)'
+        type: choice
+        options: ['1', '2', '3', 'all']
+        default: 'all'
+      live:
+        description: 'Override TELEGRAM_LIVE for this manual run'
+        type: choice
+        options: ['inherit', '0', '1']
+        default: inherit
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Resolve schedule slot
+        id: slot
+        run: |
+          MANUAL_SLOT="${{ github.event.inputs.slot }}"
+          if [ -n "$MANUAL_SLOT" ]; then
+            SLOT="$MANUAL_SLOT"
+          else
+            HOUR=$(date -u +%H)
+            case "$HOUR" in
+              13) SLOT="1" ;;
+              17) SLOT="2" ;;
+              21) SLOT="3" ;;
+              *)  SLOT="all" ;;
+            esac
+          fi
+          echo "slot=$SLOT" >> "$GITHUB_OUTPUT"
+
+          LIVE_OVERRIDE="${{ github.event.inputs.live }}"
+          if [ "$LIVE_OVERRIDE" = "0" ] || [ "$LIVE_OVERRIDE" = "1" ]; then
+            LIVE="$LIVE_OVERRIDE"
+          else
+            LIVE="${{ vars.TELEGRAM_LIVE || '0' }}"
+          fi
+          echo "live=$LIVE" >> "$GITHUB_OUTPUT"
+          echo "Resolved slot=$SLOT  live=$LIVE"
+
+      - name: Wait briefly for queue file to land
+        # The X workflow does `select` at :00 then commits. We're at :05 but
+        # the commit may not have hit main yet. Pull once before reading.
+        run: |
+          git pull --rebase origin main || true
+          TODAY=$(date -u +%Y-%m-%d)
+          if [ ! -f "data/social-queue/${TODAY}.json" ]; then
+            echo "Queue file data/social-queue/${TODAY}.json does not exist yet."
+            echo "Sleeping 60s and retrying once..."
+            sleep 60
+            git pull --rebase origin main || true
+          fi
+
+      - name: Run Telegram agent
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          TELEGRAM_GROUP_ID: ${{ secrets.TELEGRAM_GROUP_ID }}
+          TELEGRAM_LIVE: ${{ steps.slot.outputs.live }}
+        run: |
+          set -e
+          SLOT="${{ steps.slot.outputs.slot }}"
+          if [ "$SLOT" = "all" ]; then
+            python3 scripts/daily_telegram.py --slot 1
+            python3 scripts/daily_telegram.py --slot 2
+            python3 scripts/daily_telegram.py --slot 3
+          else
+            python3 scripts/daily_telegram.py --slot "$SLOT"
+          fi
+
+      - name: Commit queue updates
+        if: always()
+        run: |
+          if [ -z "$(git status --porcelain data/social-queue/)" ]; then
+            echo "No queue changes to commit"
+            exit 0
+          fi
+          git config user.name "dollarbets-bot"
+          git config user.email "bot@dollarbets.lol"
+          git add data/social-queue/
+          TODAY=$(date -u +%Y-%m-%d)
+          SLOT="${{ steps.slot.outputs.slot }}"
+          git commit -m "telegram queue ${TODAY}: slot ${SLOT}"
+          git pull --rebase origin main
+          git push origin HEAD:main
