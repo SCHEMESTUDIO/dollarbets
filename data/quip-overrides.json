@@ -1060,5 +1060,50 @@
     "tier": "purple",
     "original_quip": "in other news: the Cubs win back-to-back",
     "editor_quip": "impossible to run Cyberpunk with hyper-realism mods after this "
+  },
+  {
+    "date": "2026-06-05",
+    "title": "Keli becomes the first named Central Pacific hurricane this year",
+    "category": "Climate and Weather",
+    "payout": 1.85,
+    "tier": "green",
+    "original_quip": "pencil it in",
+    "editor_quip": "wasting a cute name on the Pacific. We want Florida to get ROCKED by her"
+  },
+  {
+    "date": "2026-06-05",
+    "title": "Trump declassifies UFO records before July",
+    "category": "Politics",
+    "payout": 6.25,
+    "tier": "yellow",
+    "original_quip": "the truth is out there, unfortunately",
+    "editor_quip": "\"little green men. that's what they told me. i said, wait, this is incredible.\""
+  },
+  {
+    "date": "2026-06-05",
+    "title": "US and Iran strike a nuclear deal this year",
+    "category": "Politics",
+    "payout": 8.33,
+    "tier": "orange",
+    "original_quip": "Vienna calling, no one's picking up",
+    "editor_quip": "in other news: JD Vance tapped to be the next Pope "
+  },
+  {
+    "date": "2026-06-05",
+    "title": "MetaMask launches a token by September",
+    "category": "Other",
+    "payout": 10,
+    "tier": "orange",
+    "original_quip": "a whitepaper currently under construction",
+    "editor_quip": "i, for one, think the world does need more tokens"
+  },
+  {
+    "date": "2026-06-05",
+    "title": "NASA lands on the Moon before 2028",
+    "category": "Science and Technology",
+    "payout": 15.87,
+    "tier": "red",
+    "original_quip": "in other news: Boeing delivers on time",
+    "editor_quip": "it would be so sick if like Monster Energy sponsored this "
   }
 ]
