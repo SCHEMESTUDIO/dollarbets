@@ -1,0 +1,127 @@
+{
+  "slug": "hall-of-filth-nasa-moon-landing-before-2028",
+  "format": "historical_story",
+  "parent_category": "hall-of-filth",
+  "seo": {
+    "title": "A $1 Bet on NASA Landing on the Moon Before 2028 — The Hall of Filth | Dollar Bets",
+    "h1": "NASA, the Moon, and the $1 Contract Betting Against a Slipping Launch Schedule",
+    "meta_description": "Kalshi lists a $1 contract on whether NASA lands humans on the Moon before 2028. The named-entity-rich market — Artemis, Orion, Apollo 17 — behind the red-tier price.",
+    "canonical": "/hall-of-filth/nasa-moon-landing-before-2028/"
+  },
+  "summary": "Kalshi's board includes a $1 contract on whether NASA puts humans back on the Moon before 2028. On the June 1 Dollar Bets board it sat red-tier — a buck returns about $15.15 if it resolves YES. The absurd part the market is quietly pricing: NASA's own revised flight plan now points the next crewed landing past that deadline.",
+  "quick_answer": "Kalshi lists a market on whether NASA lands astronauts on the Moon before January 1, 2028. On the June 1 Dollar Bets board it was red-tier, near a 6.6% chance — a winning $1 stake returns roughly $15.15. The last crewed lunar landing was Apollo 17 in December 1972. NASA's Artemis program is the return effort; as of mid-2026 the publicly revised plan has Artemis III flying as an orbital docking test in 2027, with the next surface landing not attempted until Artemis IV, reported for early 2028.",
+  "hero_bet": {
+    "title": "NASA lands on the Moon before 2028",
+    "payout": 15.15,
+    "quip": "the launch schedule is currently under construction",
+    "tier": "red",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+    "note": "Illustrative — price from the June 1 Dollar Bets board. Mission dates are approximate and reported from public NASA statements; both the market price and the flight schedule move."
+  },
+  "internal_links": [
+    {
+      "text": "today's best $1 bets",
+      "url": "/"
+    },
+    {
+      "text": "more Hall of Filth stories",
+      "url": "/hall-of-filth/"
+    },
+    {
+      "text": "the weirdest prediction markets",
+      "url": "/weird-prediction-markets/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
+  ],
+  "current_equivalent": {
+    "category": "Science and Technology Markets",
+    "text": "See today's board of dollar markets",
+    "url": "/"
+  },
+  "body": [
+    {
+      "type": "text",
+      "content": "Somewhere on the board is a dollar contract on whether NASA lands humans on the Moon before 2028, and it is one of the more outrageous slips on the wall — not because the question is silly, but because the answer is a calendar fight. The United States went to the Moon six times between 1969 and 1972 and then stopped for half a century. The market is asking whether the return trip clears a deadline. On the June 1 Dollar Bets board the crowd put that somewhere near a 6.6% chance, which means a single dollar of 'yes' returns roughly $15.15 — red-tier, what the board files under filthy."
+    },
+    {
+      "type": "heading",
+      "content": "the bet"
+    },
+    {
+      "type": "text",
+      "content": "The contract is binary: does NASA land astronauts on the lunar surface before January 1, 2028? Not a flyby, not an orbit, not a robotic lander — boots on regolith, crew on the Moon, before the clock turns over. On the June 1 snapshot that sat red-tier at about $15.15 to the dollar. That bracket is reserved for outcomes the market treats as genuinely unlikely but not impossible — the same tile neighborhood as the Mars-colonization contract that was sitting two rows up on the same board."
+    },
+    {
+      "type": "heading",
+      "content": "the last time anyone did this"
+    },
+    {
+      "type": "text",
+      "content": "The most recent human on the Moon was Eugene Cernan, commander of Apollo 17, who climbed back into the lunar module in December 1972 and has been the answer to that trivia question ever since. Twelve people have walked on the Moon; all twelve did it inside a forty-one-month window during the Apollo program. Everyone born after 1972 has lived their entire life in a world where no human has stood on another celestial body. A market on 'before 2028' is, in a real sense, a market on whether that streak finally breaks on a specific schedule."
+    },
+    {
+      "type": "heading",
+      "content": "what artemis actually is"
+    },
+    {
+      "type": "text",
+      "content": "The return effort is named Artemis, after Apollo's twin sister, which is the kind of branding that writes its own headline. Artemis II already happened: a crewed flyby that looped astronauts around the Moon without landing — the first crew to leave low-Earth orbit in about fifty years. The hardware in play includes the Orion capsule for the crew, NASA's heavy-lift rocket to get them up, and a lunar lander adapted from SpaceX's Starship, with Blue Origin's Blue Moon in the program behind it. None of those names existed on a launch pad the last time a person stood on the Moon, which is part of why every Artemis milestone lights up the search index."
+    },
+    {
+      "type": "heading",
+      "content": "the schedule the market is reading"
+    },
+    {
+      "type": "text",
+      "content": "Here is the part the price is quietly built on. As of mid-2026, NASA's publicly revised plan reworked Artemis III — long penciled in as the surface landing — into a crewed docking test, with astronauts rehearsing the Orion-and-lander rendezvous in orbit rather than touching down, targeting 2027. The first actual crewed landing of the program has reportedly shifted to a later flight, with public reporting pointing at early 2028. Read literally, 'early 2028' is on the wrong side of a 'before 2028' deadline. The crew for the next mission is reportedly due to be announced within days of this writing. Dates in human spaceflight are famously written in pencil, and these are reported figures rather than promises — but they are the figures the market is trading against."
+    },
+    {
+      "type": "heading",
+      "content": "why a contract like this stays interesting"
+    },
+    {
+      "type": "text",
+      "content": "Most novelty markets are funny because the question is absurd. This one is funny because the question is completely reasonable and the gap between the price and the published flight manifest is the whole show. A prediction market does not care about NASA press releases or congressional budget lines or how many times a static-fire test has slipped — it cares about the number, and the number is a live readout of how much the crowd believes a famously movable deadline. That is the ridiculous, fascinating thing the Hall of Filth exists to collect: a contract where the comedy is in the calendar, and the calendar keeps editing itself."
+    },
+    {
+      "type": "heading",
+      "content": "the named-entity comedy"
+    },
+    {
+      "type": "text",
+      "content": "Half the appeal of the slip is the cast of names stacked on it. NASA. Apollo. Artemis. Orion. Starship. The Moon itself, which has never once needed search-engine optimization and gets it anyway. Each of those is at permanent peak Google, and a market that lines them all up next to a dollar sign is exactly the kind of absurd, perfectly indexable headline the internet was built to argue about. The market does not need NASA to actually land by New Year's Eve 2027 — it just needs to keep being a question a person might want to put a buck on, every morning, until the deadline resolves it one way or the other."
+    },
+    {
+      "type": "text",
+      "content": "The Dollar Bets board is rebuilt every morning, so whichever wildly improbable contract is keeping this one company today will likely be a different flavor of ridiculous by the weekend. For the rest of the markets that read like rejected sci-fi loglines but happen to have a live price attached, the front page is the place. Bring a dollar."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you actually bet on whether NASA lands on the Moon?",
+      "a": "Yes. Kalshi, a CFTC-regulated US exchange, lists event contracts on a range of science, space, and milestone outcomes, including dated questions about crewed Moon landings. Availability varies by jurisdiction, and prices move as deadlines approach."
+    },
+    {
+      "q": "What does $1 return on the 'Moon before 2028' market?",
+      "a": "On the June 1 Dollar Bets board the contract was priced near a 6.6% chance, so a winning $1 stake returns roughly $15.15 before fees. That is the illustrative board snapshot — the live price will be different by the time you read this, so check the current market before acting."
+    },
+    {
+      "q": "When did a human last walk on the Moon?",
+      "a": "December 1972, on Apollo 17. Commander Eugene Cernan was the last person to step off the surface. Twelve people have walked on the Moon, all of them during the Apollo program between 1969 and 1972."
+    },
+    {
+      "q": "What is the Artemis program and where does it stand?",
+      "a": "Artemis is NASA's program to return crew to the Moon. Artemis II flew a crewed lunar flyby. As of mid-2026, public reporting has Artemis III reworked into a crewed orbital docking test targeting 2027, with the next crewed surface landing reported for a later flight around 2028. Spaceflight schedules slip often, so treat any date as provisional."
+    }
+  ],
+  "compliance": "Kalshi is a CFTC-regulated exchange. Event contracts on space milestones and similar novelty markets may not be available in every jurisdiction, and prices move as deadlines approach. The roughly 6.6% chance and $15.15 payout cited here are illustrative, taken from the June 1 Dollar Bets board — the live market price will differ. Mission dates are approximate and drawn from public NASA statements and reporting that can change. Prediction market contracts carry the risk of total loss. Dollar Bets is an editorial discovery site; we surface markets, we do not operate them or place bets. Some links may be affiliate links — see our affiliate disclosure.",
+  "publish_date": "2026-06-05",
+  "last_updated": "2026-06-05",
+  "cluster": "Hall of Filth",
+  "priority": 7
+}
