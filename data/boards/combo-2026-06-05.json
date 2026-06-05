@@ -1,0 +1,437 @@
+{
+  "generated_at": "2026-06-05T05:17:48.773017+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 6,
+    "MLB": 2,
+    "NFL": 2
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-ECE5D0EF",
+      "title": "Los Angeles Rams wins + Los Angeles Dodgers wins",
+      "payout": 2.21,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19517677-1513112052-2174833017&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "San Francisco 49ers @ Los Angeles Rams + Los Angeles Angels @ Los Angeles Dodgers",
+      "market_type": "2-leg parlay",
+      "american_odds": 121,
+      "implied_probability": 0.452,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Francisco 49ers @ Los Angeles Rams",
+          "pick": "Los Angeles Rams wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19517677-1513112052-2174833017&type=Single",
+          "commence_time": "2026-09-11T00:35:00Z"
+        },
+        {
+          "matchup": "Los Angeles Angels @ Los Angeles Dodgers",
+          "pick": "Los Angeles Dodgers wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19641787-1526943195-2210327414&type=Single",
+          "commence_time": "2026-06-06T02:11:00Z"
+        }
+      ],
+      "close_time": "2026-06-06T02:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-F275C2D2",
+      "title": "Baltimore Ravens wins + Los Angeles Dodgers wins",
+      "payout": 2.21,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Baltimore Ravens @ Indianapolis Colts + Los Angeles Angels @ Los Angeles Dodgers",
+      "market_type": "2-leg parlay",
+      "american_odds": 121,
+      "implied_probability": 0.452,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Los Angeles Angels @ Los Angeles Dodgers",
+          "pick": "Los Angeles Dodgers wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19641787-1526943195-2210327414&type=Single",
+          "commence_time": "2026-06-06T02:11:00Z"
+        }
+      ],
+      "close_time": "2026-06-06T02:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-7E942C8F",
+      "title": "Cincinnati Bengals wins + Los Angeles Dodgers wins",
+      "payout": 2.21,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + Los Angeles Angels @ Los Angeles Dodgers",
+      "market_type": "2-leg parlay",
+      "american_odds": 121,
+      "implied_probability": 0.452,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+          "pick": "Cincinnati Bengals wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Los Angeles Angels @ Los Angeles Dodgers",
+          "pick": "Los Angeles Dodgers wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19641787-1526943195-2210327414&type=Single",
+          "commence_time": "2026-06-06T02:11:00Z"
+        }
+      ],
+      "close_time": "2026-06-06T02:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-2932E9FD",
+      "title": "New York Mets +1.5 + Los Angeles Dodgers wins",
+      "payout": 2.21,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19641785-1526943008-2210327003&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "New York Mets @ San Diego Padres + Los Angeles Angels @ Los Angeles Dodgers",
+      "market_type": "2-leg parlay",
+      "american_odds": 121,
+      "implied_probability": 0.452,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York Mets @ San Diego Padres",
+          "pick": "New York Mets +1.5",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19641785-1526943008-2210327003&type=Single",
+          "commence_time": "2026-06-06T01:41:00Z"
+        },
+        {
+          "matchup": "Los Angeles Angels @ Los Angeles Dodgers",
+          "pick": "Los Angeles Dodgers wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19641787-1526943195-2210327414&type=Single",
+          "commence_time": "2026-06-06T02:11:00Z"
+        }
+      ],
+      "close_time": "2026-06-06T01:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-DF6033E7",
+      "title": "Virginia Cavaliers wins + Cincinnati Bengals wins",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027397783?coupon={pickType}|4172036390|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "NC State Wolfpack @ Virginia Cavaliers + Tampa Bay Buccaneers @ Cincinnati Bengals",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.445,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "NC State Wolfpack @ Virginia Cavaliers",
+          "pick": "Virginia Cavaliers wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027397783?coupon={pickType}|4172036390|{wagerAmount}",
+          "commence_time": "2026-08-29T16:00:00Z"
+        },
+        {
+          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+          "pick": "Cincinnati Bengals wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663019?coupon={pickType}|4184193920|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-29T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-A4690059",
+      "title": "Las Vegas Raiders wins + Los Angeles Dodgers wins",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552271-1517085435-2185024344&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Miami Dolphins @ Las Vegas Raiders + Los Angeles Angels @ Los Angeles Dodgers",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.443,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Dolphins @ Las Vegas Raiders",
+          "pick": "Las Vegas Raiders wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552271-1517085435-2185024344&type=Single",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Los Angeles Angels @ Los Angeles Dodgers",
+          "pick": "Los Angeles Dodgers wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19641787-1526943195-2210327414&type=Single",
+          "commence_time": "2026-06-06T02:11:00Z"
+        }
+      ],
+      "close_time": "2026-06-06T02:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-39093269",
+      "title": "Philadelphia Phillies wins + Los Angeles Dodgers wins",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19641774-1526941966-2210324722&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Chicago White Sox @ Philadelphia Phillies + Los Angeles Angels @ Los Angeles Dodgers",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.443,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago White Sox @ Philadelphia Phillies",
+          "pick": "Philadelphia Phillies wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19641774-1526941966-2210324722&type=Single",
+          "commence_time": "2026-06-05T22:41:00Z"
+        },
+        {
+          "matchup": "Los Angeles Angels @ Los Angeles Dodgers",
+          "pick": "Los Angeles Dodgers wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19641787-1526943195-2210327414&type=Single",
+          "commence_time": "2026-06-06T02:11:00Z"
+        }
+      ],
+      "close_time": "2026-06-05T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-F7A43DCE",
+      "title": "Los Angeles Rams wins + Baltimore Ravens wins",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19517677-1513112052-2174833017&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "San Francisco 49ers @ Los Angeles Rams + Baltimore Ravens @ Indianapolis Colts",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.445,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Francisco 49ers @ Los Angeles Rams",
+          "pick": "Los Angeles Rams wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19517677-1513112052-2174833017&type=Single",
+          "commence_time": "2026-09-11T00:35:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-11T00:35:00Z"
+    },
+    {
+      "ticker": "PARLAY-55F0E977",
+      "title": "Los Angeles Rams wins + Cincinnati Bengals wins",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19517677-1513112052-2174833017&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "San Francisco 49ers @ Los Angeles Rams + Tampa Bay Buccaneers @ Cincinnati Bengals",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.445,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Francisco 49ers @ Los Angeles Rams",
+          "pick": "Los Angeles Rams wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19517677-1513112052-2174833017&type=Single",
+          "commence_time": "2026-09-11T00:35:00Z"
+        },
+        {
+          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+          "pick": "Cincinnati Bengals wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-11T00:35:00Z"
+    },
+    {
+      "ticker": "PARLAY-E6441B2E",
+      "title": "Los Angeles Rams wins + New York Mets +1.5",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19517677-1513112052-2174833017&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "San Francisco 49ers @ Los Angeles Rams + New York Mets @ San Diego Padres",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.445,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Francisco 49ers @ Los Angeles Rams",
+          "pick": "Los Angeles Rams wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19517677-1513112052-2174833017&type=Single",
+          "commence_time": "2026-09-11T00:35:00Z"
+        },
+        {
+          "matchup": "New York Mets @ San Diego Padres",
+          "pick": "New York Mets +1.5",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19641785-1526943008-2210327003&type=Single",
+          "commence_time": "2026-06-06T01:41:00Z"
+        }
+      ],
+      "close_time": "2026-06-06T01:41:00Z"
+    }
+  ]
+}
