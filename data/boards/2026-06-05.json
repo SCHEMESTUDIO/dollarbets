@@ -15,13 +15,13 @@
       "no_sub_title": "Keli",
       "payout": 1.85,
       "tier": "green",
-      "quip": "pencil it in",
+      "quip": "wasting a cute name on the Pacific. We want Florida to get ROCKED by her",
       "yes_price": "0.5400",
-      "volume": 4.0,
+      "volume": 4,
       "category": "Climate and Weather",
       "close_time": "2026-12-01T15:00:00Z",
       "url": "https://kalshi.com/markets/KXFIRSTHURRICANE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 58.0,
+      "score": 58,
       "_specificity": 15
     },
     {
@@ -38,7 +38,7 @@
       "_specificity": 10,
       "url": "https://polymarket.com/event/bitmine-sells-any-ethereum-in-2026",
       "platform": "polymarket",
-      "score": 30.0
+      "score": 30
     },
     {
       "ticker": "KXMARSVRAIL-50",
@@ -54,7 +54,7 @@
       "category": "Science and Technology",
       "close_time": "2050-01-01T04:59:00Z",
       "url": "https://kalshi.com/markets/KXMARSVRAIL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 76.0,
+      "score": 76,
       "_specificity": 15
     },
     {
@@ -71,7 +71,7 @@
       "category": "Financials",
       "close_time": "2040-01-01T04:59:00Z",
       "url": "https://kalshi.com/markets/KXOAIANTH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 101.0,
+      "score": 101,
       "_specificity": 15
     },
     {
@@ -88,7 +88,7 @@
       "_specificity": 15,
       "url": "https://polymarket.com/event/fifwc-bra-mar-2026-06-13",
       "platform": "polymarket",
-      "score": 50.0
+      "score": 50
     },
     {
       "ticker": "KXTRUMPUAP-26MAY-JUL01",
@@ -98,13 +98,13 @@
       "no_sub_title": "Before Jul 1, 2026",
       "payout": 6.25,
       "tier": "yellow",
-      "quip": "the truth is out there, unfortunately",
+      "quip": "\"little green men. that's what they told me. i said, wait, this is incredible.\"",
       "yes_price": "0.1600",
       "volume": 6606.57,
       "category": "Politics",
       "close_time": "2026-07-01T03:59:00Z",
       "url": "https://kalshi.com/markets/KXTRUMPUAP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 104.0,
+      "score": 104,
       "_specificity": 15
     },
     {
@@ -115,22 +115,22 @@
       "no_sub_title": "Before July",
       "payout": 8.33,
       "tier": "orange",
-      "quip": "Vienna calling, no one's picking up",
+      "quip": "in other news: JD Vance tapped to be the next Pope ",
       "yes_price": "0.1200",
       "volume": 1372714.72,
       "category": "Politics",
       "close_time": "2026-07-01T14:00:00Z",
       "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 120.0,
+      "score": 120,
       "_specificity": 20
     },
     {
       "ticker": "0x404da036e872fe1c9bdb2176564502a43f12831ddcc346395aca3146f9e71bdc",
       "title": "MetaMask launches a token by September",
       "subtitle": "",
-      "payout": 10.0,
+      "payout": 10,
       "tier": "orange",
-      "quip": "a whitepaper currently under construction",
+      "quip": "i, for one, think the world does need more tokens",
       "yes_price": "0.1000",
       "volume": 969263.540423002,
       "category": "Other",
@@ -138,7 +138,7 @@
       "_specificity": 20,
       "url": "https://polymarket.com/event/will-metamask-launch-a-token-in-2025",
       "platform": "polymarket",
-      "score": 65.0
+      "score": 65
     },
     {
       "ticker": "MOON-27DEC31",
@@ -148,20 +148,20 @@
       "no_sub_title": "Before 2028",
       "payout": 15.87,
       "tier": "red",
-      "quip": "in other news: Boeing delivers on time",
+      "quip": "it would be so sick if like Monster Energy sponsored this ",
       "yes_price": "0.0630",
       "volume": 181456.17,
       "category": "Science and Technology",
       "close_time": "2027-12-31T15:00:00Z",
       "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-      "score": 124.0,
+      "score": 124,
       "_specificity": 20
     },
     {
       "ticker": "0xe2edbfb83c9b0256b10c93e59f4677d942792ea014274d9c00dc72a38b3c2592",
       "title": "Edna DeVries wins the Alaska governor's race",
       "subtitle": "",
-      "payout": 400.0,
+      "payout": 400,
       "tier": "purple",
       "quip": "in other news: a write-in candidate wins the Super Bowl",
       "yes_price": "0.0025",
@@ -171,7 +171,7 @@
       "_specificity": 15,
       "url": "https://polymarket.com/event/alaska-governor-election-winner",
       "platform": "polymarket",
-      "score": 35.0
+      "score": 35
     }
   ]
 }
