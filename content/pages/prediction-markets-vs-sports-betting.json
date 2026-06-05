@@ -1,4 +1,6 @@
 {
+  "noindex": true,
+  "noindex_reason": "Pass 2 (2026-06-05): 40 imp at pos 75, 0 clicks \u2014 impressions-without-clicks harm; loses to incumbents on a generic comparison query. Rewrite before re-indexing.",
   "slug": "prediction-markets-vs-sports-betting",
   "format": "comparison",
   "seo": {

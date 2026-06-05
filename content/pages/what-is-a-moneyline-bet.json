@@ -1,4 +1,6 @@
 {
+  "noindex": true,
+  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible \u2014 delete the two noindex lines to re-index.",
   "slug": "what-is-a-moneyline-bet",
   "format": "explainer",
   "publish_date": "2026-05-06",

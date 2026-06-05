@@ -2701,14 +2701,66 @@ def generate_about_page():
 
 # ── Sitemap ─────────────────────────────────────────────────
 
+# ── Content policy guardrail ──────────────────────────────────────────────
+# Commodity / off-strategy clusters that rank pos 60+ and drag down the
+# site-wide quality signal (see seo-system-audit-2026-06-05.md). Pages whose
+# slug matches one of these patterns are auto-noindexed and excluded from the
+# sitemap, so the system can't silently drift back to publishing them.
+# Escape hatch: set "policy_override": true in a page's content JSON to
+# intentionally publish a matching page anyway.
+BLOCKED_SLUG_PATTERNS = [
+    (r"odds-explained",            "generic odds mechanics — competes w/ Investopedia/DraftKings"),
+    (r"^how-to-read-.*-odds$",     "odds mechanics explainer"),
+    (r"^how-do-.*-odds",           "odds mechanics explainer"),
+    (r"-odds-mean$",               "odds-value glossary long-tail"),
+    (r"^what-is-an?-.*-bet$",      "generic bet-type definition"),
+    (r"^what-is-a-prediction-market$", "generic definitional"),
+    (r"prediction-markets-for-beginners", "generic definitional"),
+    (r"same-game-parlays-explained",      "generic parlay explainer"),
+    (r"-vs-sports-betting",        "generic sports-betting comparison — off-franchise"),
+    (r"nba",                       "NBA props — explicitly off the table"),
+    (r"weather",                   "weather cluster — India-skewed, deprioritized"),
+]
+
+
+def policy_noindex(page_data):
+    """Return (noindex: bool, reason: str) for a content page.
+
+    Honors an explicit "noindex" flag, an explicit "policy_override", and the
+    BLOCKED_SLUG_PATTERNS denylist. Shared by the page renderer and the sitemap
+    builder so the noindex meta tag and sitemap exclusion never disagree.
+    """
+    if page_data.get("policy_override"):
+        return (bool(page_data.get("noindex", False)),
+                page_data.get("noindex_reason", ""))
+    if page_data.get("noindex"):
+        return (True, page_data.get("noindex_reason", "explicit noindex"))
+    slug = page_data.get("slug", "") or page_data.get("seo", {}).get("canonical", "").strip("/")
+    for pat, reason in BLOCKED_SLUG_PATTERNS:
+        if re.search(pat, slug):
+            return (True, "content-policy: " + reason)
+    return (False, "")
+
+
 def generate_sitemap(pages):
-    """Generate sitemap.xml from list of (path, priority) tuples."""
+    """Generate sitemap.xml from (path, priority) or (path, priority, lastmod) tuples.
+
+    Pages without an explicit lastmod default to today (correct for the daily
+    board/section pages that genuinely change every build). Evergreen content
+    passes its real last-updated date so the sitemap stops claiming every URL
+    changed today on every crawl (an anti-pattern Google discounts)."""
     today = datetime.now().strftime("%Y-%m-%d")
     urls = []
-    for path, priority in pages:
+    for entry in pages:
+        if len(entry) == 3:
+            path, priority, lastmod = entry
+            lastmod = lastmod or today
+        else:
+            path, priority = entry
+            lastmod = today
         urls.append(f"""  <url>
     <loc>{SITE_URL}{path}</loc>
-    <lastmod>{today}</lastmod>
+    <lastmod>{lastmod}</lastmod>
     <changefreq>{"daily" if priority >= 0.8 else "weekly"}</changefreq>
     <priority>{priority}</priority>
   </url>""")
@@ -2758,7 +2810,8 @@ def generate_html_sitemap(pages):
     section_paths = {label: [] for label, _ in buckets}
     section_paths["guides & explainers"] = []
     bucketed = set()
-    for path, _priority in pages:
+    for entry in pages:
+        path = entry[0]
         if path == "/sitemap/":  # don't list this page on itself
             continue
         placed = False
@@ -3339,10 +3392,17 @@ def main():
                 with open(filepath) as f:
                     cdata = json.load(f)
                 canonical = cdata.get("seo", {}).get("canonical", "")
-                if canonical:
+                # noindex pages (explicit flag or content-policy denylist) are
+                # excluded: don't ask Google to crawl pages we tell it not to index.
+                ni, _reason = policy_noindex(cdata)
+                if canonical and not ni:
                     priority = 0.7 if cdata.get("format") == "historical_story" else 0.8
-                    entry = (canonical, priority)
-                    if entry not in sitemap_pages:
+                    # Real per-page lastmod from the content's own dates, so the
+                    # sitemap stops claiming every URL changed today on every build.
+                    lastmod = (cdata.get("last_updated")
+                               or cdata.get("publish_date") or "")
+                    entry = (canonical, priority, lastmod)
+                    if not any(e[0] == canonical for e in sitemap_pages):
                         sitemap_pages.append(entry)
             except (json.JSONDecodeError, IOError):
                 pass

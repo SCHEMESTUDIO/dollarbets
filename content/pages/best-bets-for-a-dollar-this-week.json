@@ -1,4 +1,6 @@
 {
+  "noindex": true,
+  "noindex_reason": "Pass 2 cluster-trim (2026-06-05): redundant timeframe slice of the daily board; canonical kept at best-dollar-bets-this-month. Thin-doorway risk. Reversible.",
   "slug": "best-bets-for-a-dollar-this-week",
   "format": "ranked_list",
   "seo": {

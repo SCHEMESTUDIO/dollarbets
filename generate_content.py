@@ -30,6 +30,7 @@ from generate import (
     page_shell, render_bet_card, nav_html,
     render_board_promo, load_all_boards,
     SITE_URL, OUTPUT_DIR, SHARED_CSS,
+    policy_noindex,
 )
 
 
@@ -395,11 +396,17 @@ def generate_content_page(page_data):
     schema_tags = f"""<script type="application/ld+json">{article_schema}</script>
   <script type="application/ld+json">{breadcrumb_schema}</script>{faq_tag}"""
 
+    ni, ni_reason = policy_noindex(page_data)
+    if ni and not page_data.get("noindex"):
+        # Page hit the content-policy denylist without an explicit flag — warn
+        # loudly so a future commodity page can't slip in unnoticed.
+        print(f"[content] POLICY noindex: {canonical} — {ni_reason}")
     html = page_shell(
         title=seo.get("title", slug),
         description=seo.get("meta_description", ""),
         body=body,
         canonical=canonical,
+        noindex=ni,
         extra_head=schema_tags,
     )
 

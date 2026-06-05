@@ -1,4 +1,6 @@
 {
+  "noindex": true,
+  "noindex_reason": "Pass 2 (2026-06-05): sports commodity ranked list, off-franchise, 0 impressions. Reversible.",
   "slug": "biggest-single-game-upsets-by-sport",
   "format": "ranked_list",
   "seo": {

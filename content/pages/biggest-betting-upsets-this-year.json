@@ -1,4 +1,6 @@
 {
+  "noindex": true,
+  "noindex_reason": "Pass 2 cluster-trim (2026-06-05): redundant timeframe ranked-list slice; canonical kept at biggest-payouts-this-week. Reversible.",
   "slug": "biggest-betting-upsets-this-year",
   "format": "ranked_list",
   "seo": {

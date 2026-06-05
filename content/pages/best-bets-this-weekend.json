@@ -1,4 +1,6 @@
 {
+  "noindex": true,
+  "noindex_reason": "Pass 2 cluster-trim (2026-06-05): redundant board timeframe slice + competes on heavy sportsbook query. Reversible.",
   "slug": "best-bets-this-weekend",
   "format": "ranked_list",
   "seo": {

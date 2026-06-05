@@ -86,19 +86,19 @@ if [ -d "src" ]; then
 fi
 
 # ── Indexing automation ──────────────────────────────────────
-# Ping search engines after every build so new/updated pages get crawled fast.
+# Notify search engines of changed URLs after each build.
 
 SITE_URL="https://www.dollarbets.lol"
 INDEXNOW_KEY="d0b1e5f7a3c94e8b"
 
-# 1. Sitemap ping — Google + Bing
-echo "[build] Pinging search engines with sitemap..."
-curl -sS "https://www.google.com/ping?sitemap=${SITE_URL}/sitemap.xml" -o /dev/null 2>&1 \
-  || echo "[build] WARNING: Google sitemap ping failed"
-curl -sS "https://www.bing.com/ping?sitemap=${SITE_URL}/sitemap.xml" -o /dev/null 2>&1 \
-  || echo "[build] WARNING: Bing sitemap ping failed"
+# NOTE: The Google and Bing sitemap "ping" endpoints
+# (google.com/ping?sitemap= and bing.com/ping?sitemap=) were deprecated and
+# now return 404 — they have done nothing since late 2023, so the old curls
+# were removed. Google discovers the sitemap via robots.txt + Search Console;
+# Bing/Yandex/DuckDuckGo are covered by IndexNow below. There is no
+# programmatic "submit to Google" — that must come from earned crawl demand.
 
-# 2. IndexNow — notify Bing/Yandex/DuckDuckGo of changed URLs
+# IndexNow — notify Bing/Yandex/DuckDuckGo of changed URLs (NOT Google)
 # Collect all HTML files generated in public/ as URL paths
 echo "[build] Submitting URLs via IndexNow..."
 URL_LIST=$(find public -name "index.html" -type f | sed "s|^public||" | sed "s|/index.html|/|" | head -100)
