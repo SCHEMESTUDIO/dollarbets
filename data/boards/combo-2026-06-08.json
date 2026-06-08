@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T05:51:31.827036+00:00",
+  "generated_at": "2026-06-08T07:02:52.188658+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -17,7 +17,7 @@
       "title": "Milwaukee Brewers wins + Sean O'Malley wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "autopilot engaged",
+      "quip": "another day at the office",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -59,7 +59,7 @@
       "title": "Baltimore Orioles +1.5 + Jacksonville Jaguars wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "the fundamentals",
+      "quip": "the safe bet",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -97,53 +97,11 @@
       "close_time": "2026-06-08T22:36:00Z"
     },
     {
-      "ticker": "PARLAY-56AD1C4F",
-      "title": "Philadelphia Eagles wins + Carolina Hurricanes +1.5",
-      "payout": 2.0,
-      "tier": "green",
-      "quip": "the fundamentals",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Washington Commanders @ Philadelphia Eagles + Carolina Hurricanes @ Vegas Golden Knights",
-      "market_type": "2-leg parlay",
-      "american_odds": 100,
-      "implied_probability": 0.501,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Washington Commanders @ Philadelphia Eagles",
-          "pick": "Philadelphia Eagles wins",
-          "odds": -215,
-          "implied_prob": "68%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
-          "commence_time": "2026-09-13T20:25:00Z"
-        },
-        {
-          "matchup": "Carolina Hurricanes @ Vegas Golden Knights",
-          "pick": "Carolina Hurricanes +1.5",
-          "odds": -275,
-          "implied_prob": "73%",
-          "sport": "icehockey_nhl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027836333?coupon={pickType}|4212962851|{wagerAmount}",
-          "commence_time": "2026-06-10T00:00:00Z"
-        }
-      ],
-      "close_time": "2026-06-10T00:00:00Z"
-    },
-    {
       "ticker": "PARLAY-A825F3D6",
       "title": "Bo Nickal wins, Detroit Lions wins + Sean O'Malley wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "rent money",
+      "quip": "tuesday energy",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -194,7 +152,7 @@
       "title": "Jacksonville Jaguars wins, Los Angeles Chargers wins + Vegas Golden Knights +1.5",
       "payout": 2.0,
       "tier": "green",
-      "quip": "rent money",
+      "quip": "tuesday energy",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -287,7 +245,7 @@
       "title": "Buffalo Bills wins + Detroit Lions wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "rent money",
+      "quip": "like taking candy from a vending machine",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -329,7 +287,7 @@
       "title": "Los Angeles Rams wins + Bo Nickal wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "the boring middle",
+      "quip": "clock in, cash out",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -367,53 +325,11 @@
       "close_time": "2026-06-14T22:30:00Z"
     },
     {
-      "ticker": "PARLAY-08373A2F",
-      "title": "Baltimore Ravens wins + Carolina Hurricanes +1.5",
-      "payout": 2.01,
-      "tier": "green",
-      "quip": "the safe bet",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Baltimore Ravens @ Indianapolis Colts + Carolina Hurricanes @ Vegas Golden Knights",
-      "market_type": "2-leg parlay",
-      "american_odds": 101,
-      "implied_probability": 0.496,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Baltimore Ravens @ Indianapolis Colts",
-          "pick": "Baltimore Ravens wins",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
-          "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "Carolina Hurricanes @ Vegas Golden Knights",
-          "pick": "Carolina Hurricanes +1.5",
-          "odds": -275,
-          "implied_prob": "73%",
-          "sport": "icehockey_nhl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027836333?coupon={pickType}|4212962851|{wagerAmount}",
-          "commence_time": "2026-06-10T00:00:00Z"
-        }
-      ],
-      "close_time": "2026-06-10T00:00:00Z"
-    },
-    {
       "ticker": "PARLAY-4D9E48BB",
       "title": "Baltimore Ravens wins + Auburn Tigers wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "tuesday energy",
+      "quip": "paint drying, but profitable",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -449,6 +365,90 @@
         }
       ],
       "close_time": "2026-09-05T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-08373A2F",
+      "title": "Baltimore Ravens wins + Carolina Hurricanes +1.5",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Baltimore Ravens @ Indianapolis Colts + Carolina Hurricanes @ Vegas Golden Knights",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Carolina Hurricanes @ Vegas Golden Knights",
+          "pick": "Carolina Hurricanes +1.5",
+          "odds": -278,
+          "implied_prob": "74%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027836333?coupon={pickType}|4212962851|{wagerAmount}",
+          "commence_time": "2026-06-10T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-06-10T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-27C6B7F7",
+      "title": "Ole Miss Rebels wins + Seattle Seahawks wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Louisville Cardinals @ Ole Miss Rebels + New England Patriots @ Seattle Seahawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Louisville Cardinals @ Ole Miss Rebels",
+          "pick": "Ole Miss Rebels wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+          "commence_time": "2026-09-06T23:30:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
+          "commence_time": "2026-09-10T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-09-06T23:30:00Z"
     }
   ]
 }
