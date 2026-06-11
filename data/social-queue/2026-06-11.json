@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-06-11T16:55:46.336283+00:00",
+  "generated_at": "2026-06-11T19:37:05.902214+00:00",
   "board_date": "2026-06-11",
   "link_mode": "inline",
   "selections": [
     {
-      "ticker": "KXWC1STTIMEWIN-26-Y",
+      "ticker": "0x4bd2d6744cfb40bd33520963069947643140e9facccec0b44d1e61944aa96997",
       "rank": 1,
-      "selection_reason": "The quip is instantly shareable, the market is culturally legible to almost anyone, and the payout is interesting without being absurd.",
-      "title": "A first-time winner lifts the 2026 World Cup",
-      "quip": "someone's entire country is about to cry in public",
-      "payout": 3.33,
-      "platform": null,
-      "share_url": "https://www.dollarbets.lol/share/KXWC1STTIMEWIN-26-Y/",
-      "image_url": "https://www.dollarbets.lol/share/KXWC1STTIMEWIN-26-Y/og.png",
+      "selection_reason": "The Vegas prohibition comparison is instantly legible, the $31 payout is eyebrow-raising, and it stands alone without any headline context.",
+      "title": "China unbans Bitcoin by 2027",
+      "quip": "in other news: Vegas announces prohibition revival",
+      "payout": 31.25,
+      "platform": "polymarket",
+      "share_url": "https://www.dollarbets.lol/share/0x4bd2d6744cfb40bd33520963069947643140e9facccec0b44d1e61944aa96997/",
+      "image_url": "https://www.dollarbets.lol/share/0x4bd2d6744cfb40bd33520963069947643140e9facccec0b44d1e61944aa96997/og.png",
       "content": {
-        "x_tweet_text": "\"someone's entire country is about to cry in public\"\n\n$1 pays $3.33 \u2014 A first-time winner lifts the 2026 World Cup\n\nhttps://www.dollarbets.lol/share/KXWC1STTIMEWIN-26-Y/?utm_source=x&utm_medium=daily_card",
+        "x_tweet_text": "\"in other news: Vegas announces prohibition revival\"\n\n$1 pays $31.25 \u2014 China unbans Bitcoin by 2027\n\nhttps://www.dollarbets.lol/share/0x4bd2d6744cfb40bd33520963069947643140e9facccec0b44d1e61944aa96997/?utm_source=x&utm_medium=daily_card",
         "x_reply_text": null,
         "x_link_mode": "inline",
-        "telegram_caption_html": "<b>A first-time winner lifts the 2026 World Cup</b>\n\n\u201c<i>someone&#x27;s entire country is about to cry in public</i>\u201d\n\n$1 pays $3.33\n\n<a href=\"https://www.dollarbets.lol/share/KXWC1STTIMEWIN-26-Y/\">see the card \u2192</a>"
+        "telegram_caption_html": "<b>China unbans Bitcoin by 2027</b>\n\n\u201c<i>in other news: Vegas announces prohibition revival</i>\u201d\n\n$1 pays $31.25\n\n<a href=\"https://www.dollarbets.lol/share/0x4bd2d6744cfb40bd33520963069947643140e9facccec0b44d1e61944aa96997/\">see the card \u2192</a>"
       },
       "posts": {
         "x": {
@@ -39,20 +39,20 @@
       }
     },
     {
-      "ticker": "0x694595d0a008f10e4701285d071e4b08407495f6f8a6bd8cbdd7de522fa9b463",
+      "ticker": "KXUSAIRANAGREEMENT-27-26JUL",
       "rank": 2,
-      "selection_reason": "LA politics chaos is a running cultural joke and the quip lands dry and specific without needing any headline context.",
-      "title": "Nithya Raman wins the LA mayoral race",
-      "quip": "the recall era never really ended",
-      "payout": 2.79,
-      "platform": "polymarket",
-      "share_url": "https://www.dollarbets.lol/share/0x694595d0a008f10e4701285d071e4b08407495f6f8a6bd8cbdd7de522fa9b463/",
-      "image_url": "https://www.dollarbets.lol/share/0x694595d0a008f10e4701285d071e4b08407495f6f8a6bd8cbdd7de522fa9b463/og.png",
+      "selection_reason": "99 Luftballons reference lands dry and specific, the July deadline makes it urgent, and $12.50 on a nuclear deal feels both cheap and absurd.",
+      "title": "US and Iran ink a nuclear deal before July",
+      "quip": "99 Luftballons, diplomatic remix",
+      "payout": 12.5,
+      "platform": null,
+      "share_url": "https://www.dollarbets.lol/share/KXUSAIRANAGREEMENT-27-26JUL/",
+      "image_url": "https://www.dollarbets.lol/share/KXUSAIRANAGREEMENT-27-26JUL/og.png",
       "content": {
-        "x_tweet_text": "\"the recall era never really ended\"\n\n$1 pays $2.79 \u2014 Nithya Raman wins the LA mayoral race\n\nhttps://www.dollarbets.lol/share/0x694595d0a008f10e4701285d071e4b08407495f6f8a6bd8cbdd7de522fa9b463/?utm_source=x&utm_medium=daily_card",
+        "x_tweet_text": "\"99 Luftballons, diplomatic remix\"\n\n$1 pays $12.50 \u2014 US and Iran ink a nuclear deal before July\n\nhttps://www.dollarbets.lol/share/KXUSAIRANAGREEMENT-27-26JUL/?utm_source=x&utm_medium=daily_card",
         "x_reply_text": null,
         "x_link_mode": "inline",
-        "telegram_caption_html": "<b>Nithya Raman wins the LA mayoral race</b>\n\n\u201c<i>the recall era never really ended</i>\u201d\n\n$1 pays $2.79\n\n<a href=\"https://www.dollarbets.lol/share/0x694595d0a008f10e4701285d071e4b08407495f6f8a6bd8cbdd7de522fa9b463/\">see the card \u2192</a>"
+        "telegram_caption_html": "<b>US and Iran ink a nuclear deal before July</b>\n\n\u201c<i>99 Luftballons, diplomatic remix</i>\u201d\n\n$1 pays $12.50\n\n<a href=\"https://www.dollarbets.lol/share/KXUSAIRANAGREEMENT-27-26JUL/\">see the card \u2192</a>"
       },
       "posts": {
         "x": {
@@ -74,20 +74,20 @@
       }
     },
     {
-      "ticker": "0x2d9ffab1a53bf58c0c6395b83d3fbdbeee89af9fc2c048e33c7cdc960086ac1c",
+      "ticker": "0x1e5564c1a2a6839cc2780a889437c63786a2c2ec5e95569b710ee659a3e8baa2",
       "rank": 3,
-      "selection_reason": "The HOA reframe is weird and funny enough to screenshot, the market is obscure in a good way, and the payout screams 'this isn't happening'.",
-      "title": "UAE walks out of the Gulf Cooperation Council this year",
-      "quip": "in other news: HOA dissolves itself over parking dispute",
-      "payout": 9.52,
+      "selection_reason": "'Number go down version hits different' is a tight quip with broad cultural recognition and $3 payout keeps it in relatable Dollar Bets territory.",
+      "title": "Bitcoin crashes back to $40K this year",
+      "quip": "number go down version hits different",
+      "payout": 2.99,
       "platform": "polymarket",
-      "share_url": "https://www.dollarbets.lol/share/0x2d9ffab1a53bf58c0c6395b83d3fbdbeee89af9fc2c048e33c7cdc960086ac1c/",
-      "image_url": "https://www.dollarbets.lol/share/0x2d9ffab1a53bf58c0c6395b83d3fbdbeee89af9fc2c048e33c7cdc960086ac1c/og.png",
+      "share_url": "https://www.dollarbets.lol/share/0x1e5564c1a2a6839cc2780a889437c63786a2c2ec5e95569b710ee659a3e8baa2/",
+      "image_url": "https://www.dollarbets.lol/share/0x1e5564c1a2a6839cc2780a889437c63786a2c2ec5e95569b710ee659a3e8baa2/og.png",
       "content": {
-        "x_tweet_text": "\"in other news: HOA dissolves itself over parking dispute\"\n\n$1 pays $9.52 \u2014 UAE walks out of the Gulf Cooperation Council this year\n\nhttps://www.dollarbets.lol/share/0x2d9ffab1a53bf58c0c6395b83d3fbdbeee89af9fc2c048e33c7cdc960086ac1c/?utm_source=x&utm_medium=daily_card",
+        "x_tweet_text": "\"number go down version hits different\"\n\n$1 pays $2.99 \u2014 Bitcoin crashes back to $40K this year\n\nhttps://www.dollarbets.lol/share/0x1e5564c1a2a6839cc2780a889437c63786a2c2ec5e95569b710ee659a3e8baa2/?utm_source=x&utm_medium=daily_card",
         "x_reply_text": null,
         "x_link_mode": "inline",
-        "telegram_caption_html": "<b>UAE walks out of the Gulf Cooperation Council this year</b>\n\n\u201c<i>in other news: HOA dissolves itself over parking dispute</i>\u201d\n\n$1 pays $9.52\n\n<a href=\"https://www.dollarbets.lol/share/0x2d9ffab1a53bf58c0c6395b83d3fbdbeee89af9fc2c048e33c7cdc960086ac1c/\">see the card \u2192</a>"
+        "telegram_caption_html": "<b>Bitcoin crashes back to $40K this year</b>\n\n\u201c<i>number go down version hits different</i>\u201d\n\n$1 pays $2.99\n\n<a href=\"https://www.dollarbets.lol/share/0x1e5564c1a2a6839cc2780a889437c63786a2c2ec5e95569b710ee659a3e8baa2/\">see the card \u2192</a>"
       },
       "posts": {
         "x": {
