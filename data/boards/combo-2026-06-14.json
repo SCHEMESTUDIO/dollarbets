@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T07:03:00.181496+00:00",
+  "generated_at": "2026-06-14T10:49:12.804391+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -17,7 +17,7 @@
       "title": "Las Vegas Raiders wins + Bo Nickal wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "the sun also rises",
+      "quip": "tuesday energy",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -59,7 +59,7 @@
       "title": "New York Mets +1.5 + Bo Nickal wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "bread and butter",
+      "quip": "tuesday energy",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -101,7 +101,7 @@
       "title": "Los Angeles Dodgers wins + Bo Nickal wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "routine maintenance",
+      "quip": "checking all the boxes",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -143,7 +143,7 @@
       "title": "Houston Astros +1.5 + Bo Nickal wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "no surprises here",
+      "quip": "routine maintenance",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -185,7 +185,7 @@
       "title": "Boston Red Sox +1.5 + Bo Nickal wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "the safe bet",
+      "quip": "steady hands",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -223,53 +223,11 @@
       "close_time": "2026-06-14T23:21:00Z"
     },
     {
-      "ticker": "PARLAY-27C6B7F7",
-      "title": "Ole Miss Rebels wins + Seattle Seahawks wins",
-      "payout": 2.01,
-      "tier": "green",
-      "quip": "the boring middle",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "Multi",
-      "matchup": "Louisville Cardinals @ Ole Miss Rebels + New England Patriots @ Seattle Seahawks",
-      "market_type": "2-leg parlay",
-      "american_odds": 101,
-      "implied_probability": 0.498,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Louisville Cardinals @ Ole Miss Rebels",
-          "pick": "Ole Miss Rebels wins",
-          "odds": -240,
-          "implied_prob": "71%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
-          "commence_time": "2026-09-06T23:30:00Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -240,
-          "implied_prob": "71%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
-          "commence_time": "2026-09-10T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-09-06T23:30:00Z"
-    },
-    {
       "ticker": "PARLAY-9F7F0225",
       "title": "Pittsburgh Steelers wins + Jacksonville Jaguars wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "just showing up",
+      "quip": "the sun also rises",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -311,7 +269,7 @@
       "title": "Kansas City Chiefs wins + Jacksonville Jaguars wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "rent money",
+      "quip": "checking all the boxes",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -349,61 +307,19 @@
       "close_time": "2026-09-13T17:00:00Z"
     },
     {
-      "ticker": "PARLAY-1CF8D8BC",
-      "title": "Toronto Blue Jays +1.5 + Jacksonville Jaguars wins",
+      "ticker": "PARLAY-41BAC01F",
+      "title": "Milwaukee Brewers +1.5 + Detroit Lions wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "rent money",
+      "quip": "water is wet",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19684562-1533155250-2226372169&type=Single",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19684800-1533156375-2226374565&type=Single",
       "sport": "baseball_mlb",
       "sport_display": "Multi",
-      "matchup": "New York Yankees @ Toronto Blue Jays + Cleveland Browns @ Jacksonville Jaguars",
-      "market_type": "2-leg parlay",
-      "american_odds": 101,
-      "implied_probability": 0.498,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "New York Yankees @ Toronto Blue Jays",
-          "pick": "Toronto Blue Jays +1.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19684562-1533155250-2226372169&type=Single",
-          "commence_time": "2026-06-14T17:38:00Z"
-        },
-        {
-          "matchup": "Cleveland Browns @ Jacksonville Jaguars",
-          "pick": "Jacksonville Jaguars wins",
-          "odds": -425,
-          "implied_prob": "81%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552262-1517085425-2185024324&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
-        }
-      ],
-      "close_time": "2026-06-14T17:38:00Z"
-    },
-    {
-      "ticker": "PARLAY-99F1976D",
-      "title": "Pittsburgh Pirates wins + Detroit Lions wins",
-      "payout": 2.01,
-      "tier": "green",
-      "quip": "clock in, cash out",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19684745-1531420801-2221902636&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Miami Marlins @ Pittsburgh Pirates + New Orleans Saints @ Detroit Lions",
+      "matchup": "Philadelphia Phillies @ Milwaukee Brewers + New Orleans Saints @ Detroit Lions",
       "market_type": "2-leg parlay",
       "american_odds": 101,
       "implied_probability": 0.497,
@@ -412,13 +328,13 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Miami Marlins @ Pittsburgh Pirates",
-          "pick": "Pittsburgh Pirates wins",
+          "matchup": "Philadelphia Phillies @ Milwaukee Brewers",
+          "pick": "Milwaukee Brewers +1.5",
           "odds": -170,
           "implied_prob": "63%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19684745-1531420801-2221902636&type=Single",
-          "commence_time": "2026-06-14T16:16:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19684800-1533156375-2226374565&type=Single",
+          "commence_time": "2026-06-14T18:11:00Z"
         },
         {
           "matchup": "New Orleans Saints @ Detroit Lions",
@@ -430,7 +346,91 @@
           "commence_time": "2026-09-13T17:00:00Z"
         }
       ],
-      "close_time": "2026-06-14T16:16:00Z"
+      "close_time": "2026-06-14T18:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-A13B38C1",
+      "title": "Athletics wins + Bo Nickal wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19684801-1531424527-2221911762&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Colorado Rockies @ Athletics + Kyle Daukaus @ Bo Nickal",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.496,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Colorado Rockies @ Athletics",
+          "pick": "Athletics wins",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19684801-1531424527-2221911762&type=Single",
+          "commence_time": "2026-06-14T19:06:00Z"
+        },
+        {
+          "matchup": "Kyle Daukaus @ Bo Nickal",
+          "pick": "Bo Nickal wins",
+          "odds": -325,
+          "implied_prob": "76%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19170419-1474638662--154596115&type=Single",
+          "commence_time": "2026-06-15T00:40:00Z"
+        }
+      ],
+      "close_time": "2026-06-14T19:06:00Z"
+    },
+    {
+      "ticker": "PARLAY-8DD2FAAD",
+      "title": "San Diego Padres +1.5 + Detroit Lions wins",
+      "payout": 1.99,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19684560-1533154970-2226371601&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "San Diego Padres @ Baltimore Orioles + New Orleans Saints @ Detroit Lions",
+      "market_type": "2-leg parlay",
+      "american_odds": -101,
+      "implied_probability": 0.502,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Diego Padres @ Baltimore Orioles",
+          "pick": "San Diego Padres +1.5",
+          "odds": -175,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19684560-1533154970-2226371601&type=Single",
+          "commence_time": "2026-06-14T17:36:00Z"
+        },
+        {
+          "matchup": "New Orleans Saints @ Detroit Lions",
+          "pick": "Detroit Lions wins",
+          "odds": -375,
+          "implied_prob": "79%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552269-1517085433-2185024340&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-06-14T17:36:00Z"
     }
   ]
 }
