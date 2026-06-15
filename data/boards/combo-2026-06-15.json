@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T13:56:00.986346+00:00",
+  "generated_at": "2026-06-15T19:48:59.746000+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,16 +8,57 @@
     "green": 10
   },
   "sport_mix": {
-    "Multi": 9,
-    "MMA": 1
+    "Multi": 10
   },
   "board": [
     {
-      "ticker": "PARLAY-DA39E369",
-      "title": "San Diego Padres +1.5 + Detroit Lions wins",
+      "ticker": "PARLAY-1AA3820B",
+      "title": "St. Louis Cardinals wins + Jacksonville Jaguars wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "as sure as gravity",
+      "quip": "routine maintenance",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786776?coupon={pickType}|4222431356|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "San Diego Padres @ St. Louis Cardinals + Cleveland Browns @ Jacksonville Jaguars",
+      "market_type": "2-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.499,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Diego Padres @ St. Louis Cardinals",
+          "pick": "St. Louis Cardinals wins",
+          "odds": -162,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786776?coupon={pickType}|4222431356|{wagerAmount}",
+          "commence_time": "2026-06-15T23:46:00Z"
+        },
+        {
+          "matchup": "Cleveland Browns @ Jacksonville Jaguars",
+          "pick": "Jacksonville Jaguars wins",
+          "odds": -420,
+          "implied_prob": "81%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663027?coupon={pickType}|4184194740|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-06-15T23:46:00Z"
+    },
+    {
+      "ticker": "PARLAY-1AA3820B",
+      "title": "San Diego Padres +1.5 + Jacksonville Jaguars wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "routine maintenance",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -25,10 +66,10 @@
       "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786776?coupon={pickType}|4222673729|{wagerAmount}",
       "sport": "baseball_mlb",
       "sport_display": "Multi",
-      "matchup": "San Diego Padres @ St. Louis Cardinals + New Orleans Saints @ Detroit Lions",
+      "matchup": "San Diego Padres @ St. Louis Cardinals + Cleveland Browns @ Jacksonville Jaguars",
       "market_type": "2-leg parlay",
       "american_odds": 100,
-      "implied_probability": 0.5,
+      "implied_probability": 0.499,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
@@ -36,19 +77,19 @@
         {
           "matchup": "San Diego Padres @ St. Louis Cardinals",
           "pick": "San Diego Padres +1.5",
-          "odds": -167,
+          "odds": -162,
           "implied_prob": "62%",
           "sport": "baseball_mlb",
           "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786776?coupon={pickType}|4222673729|{wagerAmount}",
           "commence_time": "2026-06-15T23:46:00Z"
         },
         {
-          "matchup": "New Orleans Saints @ Detroit Lions",
-          "pick": "Detroit Lions wins",
-          "odds": -400,
-          "implied_prob": "80%",
+          "matchup": "Cleveland Browns @ Jacksonville Jaguars",
+          "pick": "Jacksonville Jaguars wins",
+          "odds": -420,
+          "implied_prob": "81%",
           "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663022?coupon={pickType}|4184193832|{wagerAmount}",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663027?coupon={pickType}|4184194740|{wagerAmount}",
           "commence_time": "2026-09-13T17:00:00Z"
         }
       ],
@@ -59,7 +100,7 @@
       "title": "Philadelphia Eagles wins + Auburn Tigers wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "autopilot engaged",
+      "quip": "bread and butter",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -97,53 +138,11 @@
       "close_time": "2026-09-05T19:30:00Z"
     },
     {
-      "ticker": "PARLAY-4F6EA29C",
-      "title": "Chicago Cubs wins + Auburn Tigers wins",
-      "payout": 2.0,
-      "tier": "green",
-      "quip": "as sure as gravity",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786832?coupon={pickType}|4222457747|{wagerAmount}",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Colorado Rockies @ Chicago Cubs + Baylor Bears @ Auburn Tigers",
-      "market_type": "2-leg parlay",
-      "american_odds": 100,
-      "implied_probability": 0.501,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Colorado Rockies @ Chicago Cubs",
-          "pick": "Chicago Cubs wins",
-          "odds": -215,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786832?coupon={pickType}|4222457747|{wagerAmount}",
-          "commence_time": "2026-06-16T00:06:00Z"
-        },
-        {
-          "matchup": "Baylor Bears @ Auburn Tigers",
-          "pick": "Auburn Tigers wins",
-          "odds": -275,
-          "implied_prob": "73%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432889?coupon={pickType}|4172192913|{wagerAmount}",
-          "commence_time": "2026-09-05T19:30:00Z"
-        }
-      ],
-      "close_time": "2026-06-16T00:06:00Z"
-    },
-    {
       "ticker": "PARLAY-D58603DE",
       "title": "Las Vegas Raiders wins + Navajo Stirling wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "just showing up",
+      "quip": "the safe bet",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -181,11 +180,137 @@
       "close_time": "2026-06-20T21:00:00Z"
     },
     {
+      "ticker": "PARLAY-A41A66AA",
+      "title": "Philadelphia Phillies wins + Navajo Stirling wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19684805-1531424532-2221911772&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Miami Marlins @ Philadelphia Phillies + Navajo Stirling @ Ion Cutelaba",
+      "market_type": "2-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.501,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Marlins @ Philadelphia Phillies",
+          "pick": "Philadelphia Phillies wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19684805-1531424532-2221911772&type=Single",
+          "commence_time": "2026-06-15T22:41:00Z"
+        },
+        {
+          "matchup": "Navajo Stirling @ Ion Cutelaba",
+          "pick": "Navajo Stirling wins",
+          "odds": -325,
+          "implied_prob": "76%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19683835-1531317932-2221630692&type=Single",
+          "commence_time": "2026-06-20T21:00:00Z"
+        }
+      ],
+      "close_time": "2026-06-15T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-8A45D0F8",
+      "title": "Kansas City Royals +1.5 + Navajo Stirling wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19684806-1533750934-2227906427&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Kansas City Royals @ Washington Nationals + Navajo Stirling @ Ion Cutelaba",
+      "market_type": "2-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.501,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Kansas City Royals @ Washington Nationals",
+          "pick": "Kansas City Royals +1.5",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19684806-1533750934-2227906427&type=Single",
+          "commence_time": "2026-06-15T22:46:00Z"
+        },
+        {
+          "matchup": "Navajo Stirling @ Ion Cutelaba",
+          "pick": "Navajo Stirling wins",
+          "odds": -325,
+          "implied_prob": "76%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19683835-1531317932-2221630692&type=Single",
+          "commence_time": "2026-06-20T21:00:00Z"
+        }
+      ],
+      "close_time": "2026-06-15T22:46:00Z"
+    },
+    {
+      "ticker": "PARLAY-69BA9F93",
+      "title": "Houston Astros +1.5 + Navajo Stirling wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19684638-1533676566-2227725199&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Detroit Tigers @ Houston Astros + Navajo Stirling @ Ion Cutelaba",
+      "market_type": "2-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.501,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Detroit Tigers @ Houston Astros",
+          "pick": "Houston Astros +1.5",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19684638-1533676566-2227725199&type=Single",
+          "commence_time": "2026-06-16T00:11:00Z"
+        },
+        {
+          "matchup": "Navajo Stirling @ Ion Cutelaba",
+          "pick": "Navajo Stirling wins",
+          "odds": -325,
+          "implied_prob": "76%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19683835-1531317932-2221630692&type=Single",
+          "commence_time": "2026-06-20T21:00:00Z"
+        }
+      ],
+      "close_time": "2026-06-16T00:11:00Z"
+    },
+    {
       "ticker": "PARLAY-DEA5DFA2",
       "title": "Los Angeles Angels +1.5 + Navajo Stirling wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "the sun also rises",
+      "quip": "no surprises here",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -269,7 +394,7 @@
       "title": "Baltimore Ravens wins + Murtazali Magomedov wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "paint drying, but profitable",
+      "quip": "steady hands",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -293,132 +418,6 @@
           "sport": "americanfootball_nfl",
           "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
           "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "Melsik Baghdasaryan @ Murtazali Magomedov",
-          "pick": "Murtazali Magomedov wins",
-          "odds": -300,
-          "implied_prob": "75%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19683839-1531317936-2221630700&type=Single",
-          "commence_time": "2026-06-20T21:00:00Z"
-        }
-      ],
-      "close_time": "2026-06-20T21:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-776BB140",
-      "title": "Cincinnati Bengals wins + Murtazali Magomedov wins",
-      "payout": 2.0,
-      "tier": "green",
-      "quip": "the fundamentals",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + Melsik Baghdasaryan @ Murtazali Magomedov",
-      "market_type": "2-leg parlay",
-      "american_odds": 100,
-      "implied_probability": 0.5,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
-          "pick": "Cincinnati Bengals wins",
-          "odds": -200,
-          "implied_prob": "67%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "Melsik Baghdasaryan @ Murtazali Magomedov",
-          "pick": "Murtazali Magomedov wins",
-          "odds": -300,
-          "implied_prob": "75%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19683839-1531317936-2221630700&type=Single",
-          "commence_time": "2026-06-20T21:00:00Z"
-        }
-      ],
-      "close_time": "2026-06-20T21:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-B2573972",
-      "title": "Philadelphia Phillies wins + Murtazali Magomedov wins",
-      "payout": 2.0,
-      "tier": "green",
-      "quip": "clock in, cash out",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19684805-1531424532-2221911772&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Miami Marlins @ Philadelphia Phillies + Melsik Baghdasaryan @ Murtazali Magomedov",
-      "market_type": "2-leg parlay",
-      "american_odds": 100,
-      "implied_probability": 0.5,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Miami Marlins @ Philadelphia Phillies",
-          "pick": "Philadelphia Phillies wins",
-          "odds": -200,
-          "implied_prob": "67%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19684805-1531424532-2221911772&type=Single",
-          "commence_time": "2026-06-15T22:41:00Z"
-        },
-        {
-          "matchup": "Melsik Baghdasaryan @ Murtazali Magomedov",
-          "pick": "Murtazali Magomedov wins",
-          "odds": -300,
-          "implied_prob": "75%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19683839-1531317936-2221630700&type=Single",
-          "commence_time": "2026-06-20T21:00:00Z"
-        }
-      ],
-      "close_time": "2026-06-15T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-47C50151",
-      "title": "Allan Nascimento wins + Murtazali Magomedov wins",
-      "payout": 2.0,
-      "tier": "green",
-      "quip": "the sun also rises",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19683841-1531317938-2221630703&type=Single",
-      "sport": "mma_mixed_martial_arts",
-      "sport_display": "MMA",
-      "matchup": "Allan Nascimento @ Mitch Raposo + Melsik Baghdasaryan @ Murtazali Magomedov",
-      "market_type": "2-leg parlay",
-      "american_odds": 100,
-      "implied_probability": 0.5,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Allan Nascimento @ Mitch Raposo",
-          "pick": "Allan Nascimento wins",
-          "odds": -200,
-          "implied_prob": "67%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19683841-1531317938-2221630703&type=Single",
-          "commence_time": "2026-06-20T21:00:00Z"
         },
         {
           "matchup": "Melsik Baghdasaryan @ Murtazali Magomedov",
