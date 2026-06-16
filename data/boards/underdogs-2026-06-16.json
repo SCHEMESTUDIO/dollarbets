@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T19:36:22.349896+00:00",
+  "generated_at": "2026-06-16T23:24:01.323501+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -10,15 +10,16 @@
   },
   "sport_mix": {
     "NFL": 2,
-    "NCAAF": 3
+    "NCAAF": 2,
+    "MLB": 1
   },
   "board": [
     {
       "ticker": "SB-4E9577E5",
-      "title": "Colts pull the stunner against Mahomes tonight",
+      "title": "Colts stun the Chiefs in Kansas City tonight",
       "payout": 3.1,
       "tier": "yellow",
-      "quip": "the Kelce retirement tour needs a villain arc",
+      "quip": "Patrick Mahomes is not infallible, he just plays one on TV",
       "yes_price": "0.32",
       "category": "NFL",
       "platform": "draftkings",
@@ -35,10 +36,10 @@
     },
     {
       "ticker": "SB-90231BA3",
-      "title": "Jets upset the Packers tonight",
+      "title": "Jets knock off the Packers at home tonight",
       "payout": 3.35,
       "tier": "yellow",
-      "quip": "Aaron Rodgers returning to haunt Green Bay is a whole thing",
+      "quip": "Aaron Rodgers returns to haunt Green Bay specifically",
       "yes_price": "0.30",
       "category": "NFL",
       "platform": "draftkings",
@@ -54,31 +55,11 @@
       "has_deep_link": true
     },
     {
-      "ticker": "SB-2900BC7E",
-      "title": "Sam Houston State upsets Troy on the road tonight",
-      "payout": 8.2,
-      "tier": "orange",
-      "quip": "the Bearkats are built different in the Lone Star State",
-      "yes_price": "0.12",
-      "category": "NCAAF",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581874558&selectionId=3346365",
-      "close_time": "2026-09-05T23:00:00Z",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "NCAAF",
-      "matchup": "Sam Houston State Bearkats @ Troy Trojans",
-      "market_type": "h2h",
-      "american_odds": 720,
-      "implied_probability": 0.122,
-      "has_deep_link": true
-    },
-    {
       "ticker": "SB-25FD308A",
-      "title": "Coastal Carolina shocks West Virginia in Morgantown tonight",
+      "title": "Coastal Carolina stuns West Virginia tonight",
       "payout": 8.4,
       "tier": "orange",
-      "quip": "the Chanticleers crowing loud enough to echo through Appalachia",
+      "quip": "The Chanticleers are a real bird and they're ready to prove it",
       "yes_price": "0.12",
       "category": "NCAAF",
       "platform": "fanduel",
@@ -95,10 +76,10 @@
     },
     {
       "ticker": "SB-674283E3",
-      "title": "Oregon State stuns Houston on the road tonight",
+      "title": "Oregon State upsets Houston on the road",
       "payout": 9.0,
       "tier": "orange",
-      "quip": "the Beavers have nothing to lose and a dam to prove",
+      "quip": "Damian Lillard left but the chaos stayed in Corvallis",
       "yes_price": "0.11",
       "category": "NCAAF",
       "platform": "fanduel",
@@ -111,6 +92,26 @@
       "market_type": "h2h",
       "american_odds": 800,
       "implied_probability": 0.111,
+      "has_deep_link": true
+    },
+    {
+      "ticker": "SB-BA717D26",
+      "title": "Marlins shock the Phillies in Philly",
+      "payout": 15.0,
+      "tier": "orange",
+      "quip": "Brotherly Love has never extended to fish",
+      "yes_price": "0.07",
+      "category": "MLB",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.585812890&selectionId=6266193",
+      "close_time": "2026-06-16T22:41:00Z",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Miami Marlins @ Philadelphia Phillies",
+      "market_type": "h2h",
+      "american_odds": 1400,
+      "implied_probability": 0.067,
       "has_deep_link": true
     }
   ]
