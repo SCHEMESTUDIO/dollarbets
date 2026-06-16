@@ -2,12 +2,12 @@
   "slug": "weird-prediction-markets",
   "format": "weird_market_roundup",
   "seo": {
-    "title": "Weird Prediction Markets — The Strangest Things You Can Bet On | Dollar Bets",
-    "h1": "Weird Prediction Markets",
-    "meta_description": "The weirdest prediction markets active right now. Asteroid flybys, Fed rate decisions, hot dog contests — all real.",
+    "title": "Weird Markets You Can Actually Bet On — Strange but Real Contracts | Dollar Bets",
+    "h1": "Weird Markets You Can Actually Bet On",
+    "meta_description": "Weird markets you can actually bet on right now: asteroid flybys, Fed rate decisions, hot dog contests. All real, all live, all tradeable.",
     "canonical": "/weird-prediction-markets/"
   },
-  "summary": "Prediction markets exist for things you'd never expect: temperature records, asteroid detection, government shutdown deadlines, and competitive eating outcomes. These are real contracts on real exchanges, priced in real money. Here's what's currently weird.",
+  "summary": "There are weird markets you can actually bet on right now: temperature records, asteroid detection, government shutdown deadlines, and competitive eating outcomes. These are real contracts on real exchanges, priced in real money. Here's what's currently live and strange.",
   "hero_bet": {
     "title": "Will NOAA confirm 2026 as hottest year on record?",
     "payout": 4,
@@ -31,10 +31,6 @@
       "url": "/weird-markets/weird-prop-bets/"
     },
     {
-      "text": "what is a prediction market?",
-      "url": "/what-is-a-prediction-market/"
-    },
-    {
       "text": "prediction market longshots",
       "url": "/prediction-markets/prediction-market-longshots/"
     },
@@ -47,14 +43,14 @@
       "url": "/crazy-kalshi-bets/"
     },
     {
-      "text": "funny polymarket bets",
+      "text": "the funniest polymarket bets",
       "url": "/funny-polymarket-bets/"
     }
   ],
   "body": [
     {
       "type": "text",
-      "content": "Traditional betting is about sports. Prediction markets are about everything else — and sometimes the 'everything else' gets genuinely strange. This is a roundup of the weirdest prediction markets we've found that are actually live, actually tradeable, and actually priced by real humans spending real money."
+      "content": "Traditional betting is about sports. Prediction markets are about everything else — and sometimes the 'everything else' gets strange. This is a roundup of weird markets you can actually bet on: actually live, actually tradeable, and actually priced by real humans spending real money. Not hypotheticals, not urban legends about what some sportsbook once offered — contracts open for trading right now."
     },
     {
       "type": "heading",
@@ -125,8 +121,8 @@
   ],
   "compliance": "Dollar Bets is an editorial site. We do not operate prediction markets or place bets on behalf of users. All markets mentioned are verified as active at time of publication but availability changes. Prediction market contracts involve risk of loss. Some links are affiliate links — see our disclosure.",
   "publish_date": "2026-04-30",
-  "last_updated": "2026-04-30",
+  "last_updated": "2026-06-11",
   "cluster": "Weird Bets",
   "priority": 78,
-  "quick_answer": "The weirdest active prediction markets include bets on asteroid flybys, Fed interest rate decisions, celebrity baby names, hot dog eating contest records, and whether it will snow in unlikely cities. Platforms like Kalshi and Polymarket turn almost any verifiable event into a tradeable market. Dollar Bets surfaces the strangest ones daily."
+  "quick_answer": "Weird markets you can actually bet on right now include asteroid flybys, Fed interest rate decisions, celebrity baby names, hot dog eating contest records, and whether it will snow in unlikely cities. Platforms like Kalshi and Polymarket turn almost any verifiable event into a tradeable contract. Dollar Bets surfaces the strangest live ones daily."
 }

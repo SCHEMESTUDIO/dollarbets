@@ -19,8 +19,8 @@
   },
   "internal_links": [
     {
-      "text": "what is a prediction market?",
-      "url": "/what-is-a-prediction-market/"
+      "text": "weirdest election prediction markets",
+      "url": "/weirdest-election-prediction-markets/"
     },
     {
       "text": "supreme court prediction markets",
@@ -37,28 +37,28 @@
   ],
   "body": [
     {
-      "type": "text",
-      "content": "The question everyone asks around election season: can you actually put money on who wins? The answer used to be a clean 'no' in the United States. Now it's more like 'yes, but through a specific kind of platform, and the rules are still being written.' Here's what you need to know."
-    },
-    {
       "type": "heading",
       "content": "is election betting legal?"
     },
     {
       "type": "text",
-      "content": "Yes, on CFTC-regulated prediction markets like Kalshi, election betting is legal in most US states. A September 2024 federal court ruling cleared the path. Traditional sportsbooks (DraftKings, FanDuel, BetMGM) cannot offer election betting because state gaming commissions don't license it — but prediction market exchanges operate under federal commodities law, which is a different framework."
+      "content": "Yes, on CFTC-regulated prediction markets like Kalshi, election betting is legal in most US states. A September 2024 federal court ruling cleared the path. Traditional sportsbooks (DraftKings, FanDuel, BetMGM) cannot offer election betting because state gaming commissions don't license it — prediction market exchanges operate under federal commodities law, a different regulatory framework entirely."
     },
     {
       "type": "heading",
-      "content": "can you bet on the election?"
+      "content": "can i bet on the election?"
     },
     {
       "type": "text",
-      "content": "Yes, if you live in an eligible US state and trade on Kalshi. You buy a yes/no contract on an election outcome at a price between $0 and $1. If your side wins, the contract pays $1. If it loses, you get nothing. The current price reflects the market's aggregate probability estimate."
+      "content": "Yes — if you're in an eligible US state, you can buy election contracts on Kalshi right now. You put up $1, pick a yes/no outcome, and collect $1 if you're right. A contract priced at $0.60 reflects roughly a 60% market probability."
+    },
+    {
+      "type": "text",
+      "content": "The question everyone asks around election season: can you actually put money on who wins? The answer used to be a clean 'no' in the United States. Now it's more like 'yes, but through a specific kind of platform, and the rules are still being written.' Here's what you need to know."
     },
     {
       "type": "heading",
-      "content": "can i bet on the election from my state?"
+      "content": "can you bet on the election from my state?"
     },
     {
       "type": "text",
@@ -66,7 +66,7 @@
     },
     {
       "type": "heading",
-      "content": "Can you bet on elections at regular sportsbooks?"
+      "content": "can you bet on elections at regular sportsbooks?"
     },
     {
       "type": "text",
@@ -119,11 +119,11 @@
       "a": "Yes, on CFTC-regulated prediction markets like Kalshi in most US states. A federal court ruling in September 2024 confirmed the legal framework. Traditional sportsbooks do not offer election betting in the United States."
     },
     {
-      "q": "Can you bet on the election?",
+      "q": "Can I bet on the election?",
       "a": "Yes — if you're in an eligible US state, you can buy election contracts on Kalshi for as little as a few cents per contract. The contract pays $1 if your prediction is correct and $0 if it isn't."
     },
     {
-      "q": "Can I bet on the election?",
+      "q": "Can you bet on the election?",
       "a": "Yes, in most US states, through prediction market exchanges like Kalshi. Availability depends on which state you live in — Kalshi geofences the platform based on state-level event-contract rules."
     },
     {
@@ -145,7 +145,7 @@
   ],
   "compliance": "This page is for informational purposes and does not constitute legal advice. Election contract availability varies by jurisdiction and may change. Consult the specific platform and your local regulations before trading. Prediction market contracts involve risk of loss. Some links are affiliate links — see our affiliate disclosure.",
   "publish_date": "2026-05-07",
-  "last_updated": "2026-06-01",
+  "last_updated": "2026-06-12",
   "cluster": "Political Markets",
   "priority": 65,
   "quick_answer": "Yes, you can legally bet on US elections through CFTC-regulated prediction markets like Kalshi. A 2024 federal court ruling confirmed that election event contracts are legal. Polymarket also offers election markets but is not available to US users. Traditional sportsbooks do not offer election betting in the United States."

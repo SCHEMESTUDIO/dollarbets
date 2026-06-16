@@ -2,12 +2,12 @@
   "slug": "funny-polymarket-bets",
   "format": "weird_market_roundup",
   "seo": {
-    "title": "Funny Polymarket Bets — The Most Absurd Markets on Polymarket | Dollar Bets",
-    "h1": "Funny Polymarket Bets",
-    "meta_description": "The funniest and craziest Polymarket bets right now. Meme markets, celebrity chaos, political absurdity — all real, all tradeable.",
+    "title": "Funny Prediction Markets Right Now — Funny Polymarket Bets | Dollar Bets",
+    "h1": "Funny Prediction Markets Right Now (Polymarket Edition)",
+    "meta_description": "Funny prediction markets, ranked — the most ridiculous Polymarket bets and crazy Polymarket bets: meme coins, celebrity chaos, political absurdity, and questions nobody asked but everyone wants answered. All real, all live on Polymarket.",
     "canonical": "/funny-polymarket-bets/"
   },
-  "summary": "Polymarket is the internet's prediction market casino, and the funniest bets are the ones that shouldn't exist but have millions in volume. Meme coins, celebrity scandals, political theater, and questions nobody asked but everyone wants answered — all priced by the crowd.",
+  "summary": "Funny prediction markets have a permanent home: it's Polymarket. If you're hunting the funniest bets on the internet, this is the motherlode — meme coins, celebrity scandals, political theater, and questions that have no business being financial instruments — all priced by the crowd, all live right now.",
   "quick_answer": "The funniest Polymarket bets include meme-tier markets (will a celebrity do something absurd), viral political props (debate moments, tweet predictions), crypto culture bets, and pop culture outcomes that have no business being financial instruments. Many trade at pennies, meaning $1 returns big if the joke becomes reality.",
   "hero_bet": {
     "title": "Will a sitting world leader post a meme on official social media?",
@@ -24,30 +24,42 @@
       "url": "/"
     },
     {
-      "text": "what is a prediction market?",
-      "url": "/what-is-a-prediction-market/"
-    },
-    {
       "text": "crazy kalshi bets",
       "url": "/crazy-kalshi-bets/"
     },
     {
-      "text": "weird prediction markets",
+      "text": "most outrageous polymarket bets",
+      "url": "/most-outrageous-polymarket-bets/"
+    },
+    {
+      "text": "weird markets you can actually bet on",
       "url": "/weird-prediction-markets/"
     },
     {
-      "text": "prediction markets for beginners",
-      "url": "/prediction-markets-for-beginners/"
+      "text": "the hall of filth",
+      "url": "/hall-of-filth/"
     },
     {
-      "text": "prediction markets vs sports betting",
-      "url": "/prediction-markets-vs-sports-betting/"
+      "text": "about Dollar Bets",
+      "url": "/about/"
     }
   ],
   "body": [
     {
+      "type": "heading",
+      "content": "funny prediction markets: the definitive collection"
+    },
+    {
       "type": "text",
-      "content": "Polymarket is a crypto-based prediction market where the crowd prices everything from presidential elections to whether a specific celebrity will get arrested this month. It runs on the Polygon blockchain, settles in USDC, and has become the internet's unofficial scoreboard for chaos. The funny bets are why most people discover it."
+      "content": "Funny prediction markets are a genre now, and Polymarket is its biggest stage. Polymarket is a crypto-based prediction market where the crowd prices everything from presidential elections to whether a specific celebrity will get arrested this month. It runs on the Polygon blockchain, settles in USDC, and has become the internet's unofficial scoreboard for chaos. The funny bets are why most people discover it."
+    },
+    {
+      "type": "text",
+      "content": "The recipe for a funny prediction market is consistent: take a question that sounds like a joke, attach real money to it, and watch the crowd price it with total sincerity. The comedy isn't the market existing — it's the order book. Somebody out there has a six-figure position on a question their family doesn't know they think about."
+    },
+    {
+      "type": "text",
+      "content": "The funniest prediction markets share a tell: the resolution criteria are written in dead-serious legal prose about a fundamentally unserious question. A paragraph defining exactly what counts as a celebrity 'feud.' A clause specifying which government document confirms a meme. Kalshi has its own wing of this genre — see our crazy kalshi bets roundup — but Polymarket's open listing process means the truly unhinged stuff lands here first."
     },
     {
       "type": "heading",
@@ -138,7 +150,7 @@
   ],
   "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate prediction markets or place bets on behalf of users. Polymarket is a separate platform with its own terms, risks, and regulatory status. Availability varies by jurisdiction. Prediction market contracts involve risk of total loss. Some links may be affiliate links — see our affiliate disclosure.",
   "publish_date": "2026-05-11",
-  "last_updated": "2026-05-11",
+  "last_updated": "2026-06-15",
   "cluster": "Weird Bets",
   "priority": 80
 }
