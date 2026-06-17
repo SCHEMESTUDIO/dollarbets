@@ -2,13 +2,13 @@
   "slug": "politicians-with-prediction-markets-june-2026",
   "format": "weird_market_roundup",
   "seo": {
-    "title": "Every Politician With a Prediction Market on Them Right Now (June 2026) | Dollar Bets",
-    "h1": "Every Politician With a Prediction Market on Them Right Now (June 2026)",
-    "meta_description": "June 2026 roster of named politicians with live prediction markets on Kalshi and Polymarket — from a $8.7M Trump exit contract to a $100 California primary nobody is watching.",
+    "title": "Politicians With Live Prediction Markets: June 2026 Political Roster | Dollar Bets",
+    "h1": "Politicians With Live Prediction Markets: June 2026 Political Roster",
+    "meta_description": "The June 2026 political market roster — named politicians priced as contracts on Kalshi and Polymarket right now. Trump exit at $8.7M volume, Frank Blas Jr. in Guam, Andrew Yang 2028, and the carry-over California primaries.",
     "canonical": "/politicians-with-prediction-markets-june-2026/"
   },
-  "summary": "June's named-individual political roster is wider than last month's. The headliner is Polymarket's contract on whether Trump exits the presidency before 2027 — over $8.7 million in volume, $1 returns about $8.70. Underneath it: a brand-new $100-volume Kalshi contract on Armando Perez-Serrato leading the CA-46 primary at $1 returns $11.11, plus the three carry-over primary markets from May. Below: who they are, what each market actually resolves on, and what the crowd is paying to be wrong.",
-  "quick_answer": "As of June 2026, the named politicians with live prediction markets on Kalshi or Polymarket include Donald Trump (Polymarket: exits the presidency before 2027, $1 returns ~$8.70 on over $8.7M of volume), Armando Perez-Serrato (Kalshi: CA-46 primary, $1 returns $11.11), and three carry-over primary markets on Chi Charlie Nguyen (CA-45), George Whitesides (CA-27), and Francesca Hong (Wisconsin Democratic governor) — all of which were still listed when this page was built.",
+  "summary": "June 2026's named-individual political roster has grown. The headliner is still Polymarket's contract on whether Trump exits the presidency before 2027 — over $8.7 million in volume. New additions: Andrew Yang's 2028 presidential run announcement ($1 returns $7.66) and Frank Blas Jr.'s Guam gubernatorial primary ($1 returns $2.35). Plus the carry-over California and Wisconsin primaries from May. This page is politics only — for the weirdest markets across all categories, see the all-category roundup.",
+  "quick_answer": "As of June 2026, the named politicians with live prediction markets on Kalshi or Polymarket include: Donald Trump (Polymarket, exits the presidency before 2027, $1 returns ~$8.70 on over $8.7M volume), Andrew Yang (Polymarket, announces 2028 presidential run, $1 returns $7.66), Frank Blas Jr. (Polymarket, wins Guam's GOP gubernatorial primary, $1 returns $2.35), Armando Perez-Serrato (Kalshi, CA-46 primary), and three carry-over primaries on Chi Charlie Nguyen, George Whitesides, and Francesca Hong.",
   "hero_bet": {
     "title": "Trump exits the presidency before 2027",
     "payout": 8.7,
@@ -36,6 +36,10 @@
       "url": "/weirdest-election-prediction-markets/"
     },
     {
+      "text": "weirdest active polymarket markets june 2026",
+      "url": "/weirdest-active-polymarket-markets-june-2026/"
+    },
+    {
       "text": "today's full board",
       "url": "/"
     },
@@ -47,11 +51,11 @@
   "body": [
     {
       "type": "text",
-      "content": "The June 2026 roster of named-individual political markets is bigger than May's. Last month we found three primary candidates with contracts on them. This month adds a new California challenger, plus the largest named-politician market on the entire site: a Polymarket contract on whether Donald Trump exits the presidency before 2027 that has traded more than $8.7 million in volume. Below is the current snapshot, the way the live board served it the morning this page was built."
+      "content": "This is politics-only, named-individual prediction market coverage. Only contracts that have a specific politician's name on them as the subject of the bet — not policy contracts, not event contracts, not 'will the Senate pass X' generics. Named politicians whose political futures are being priced as financial instruments right now, and only those. For weird markets across all categories, the all-category roundup is the better starting point."
     },
     {
       "type": "text",
-      "content": "These are person-specific markets only. Plenty of policy and event contracts are also live — Fed rate decisions, federal budget deadlines, foreign policy questions — but none of those have a single human's name on them, so they live on a different page. This one is the roster of named individuals whose own political futures are being priced as financial contracts right now."
+      "content": "The June 2026 political roster has added two names since last month: Andrew Yang is back on the board with a 2028 presidential run announcement contract, and Frank Blas Jr. has a Guam gubernatorial primary market closing in August. The headliner from last month — the $8.7M Polymarket contract on whether Trump exits the presidency before 2027 — is still running and still by far the largest named-politician market on either exchange."
     },
     {
       "type": "heading",
@@ -59,7 +63,23 @@
     },
     {
       "type": "text",
-      "content": "Polymarket contract: whether Donald Trump exits the presidency before January 1, 2027. The yes side has been trading around eleven and a half cents, which means a single dollar returns about $8.70 if it hits. Orange tier — heater. What pushes this market into a different weight class from anything else on the roster is the volume: more than $8.7 million has changed hands on this single contract. By comparison, the entire combined volume of every other named-politician market we have eyes on right now is a rounding error. The market resolves yes on any of the usual exits — resignation, removal, succession, death — and is neutral about which. The price is what the price is."
+      "content": "Polymarket contract: whether Donald Trump exits the presidency before January 1, 2027. The yes side has been trading around eleven and a half cents, meaning a single dollar returns about $8.70 if it hits. Orange tier — heater. What separates this from everything else on the political roster is the volume: more than $8.7 million has traded on this single contract. By comparison, the combined volume of every other named-politician market currently on the board is a rounding error. The contract resolves yes on any of the standard exits — resignation, removal, succession, death — and is neutral about which. The price is what the price is."
+    },
+    {
+      "type": "heading",
+      "content": "andrew yang — announces a 2028 presidential run (polymarket)"
+    },
+    {
+      "type": "text",
+      "content": "Polymarket contract: whether Andrew Yang announces a 2028 presidential run at any point before December 31, 2026. A dollar returns $7.66 — orange tier, heater — putting the implied odds just above 13%. The market has around $8,900 in volume, which is thin but not negligible; enough people are tracking Andrew Yang's post-Forward Party moves to generate actual price discovery. Yang ran in 2020, launched a third-party vehicle in 2022, and has been quiet. The market's 13% says: probably not, but the kind of probably-not that's still worth a few bucks if you have an opinion."
+    },
+    {
+      "type": "heading",
+      "content": "frank blas jr. — guam's gop gubernatorial primary (polymarket)"
+    },
+    {
+      "type": "text",
+      "content": "Polymarket contract: whether Frank Blas Jr. wins Guam's Republican gubernatorial primary. A dollar returns $2.35 — green tier, respectable — implying odds around 42%. The market closes August 1, which means it resolves before the end of summer. Blas is the Republican incumbent lieutenant governor on an island of roughly 170,000 people that runs contested gubernatorial primaries that Polymarket users will apparently list and trade. Volume on this contract is around $8,500 — real money for a Guam primary. The fact that this market exists and has a genuine price is, once again, the entire pitch for prediction markets: any election with a name and a date."
     },
     {
       "type": "heading",
@@ -67,31 +87,23 @@
     },
     {
       "type": "text",
-      "content": "Kalshi market: whether Armando Perez-Serrato finishes first in the California 46th congressional district primary. A dollar returns $11.11 — orange tier, heater — putting his implied odds around 9%. Volume on the contract: roughly $100, which is genuinely just a handful of people deciding the price between themselves. CA-46 covers parts of Orange County around Anaheim and Santa Ana. The fact that a low-volume single-candidate Kalshi contract on a 2027 California primary is now a tradable instrument is, frankly, the entire pitch for prediction markets: any race with a resolution date and a name will eventually get a listing."
+      "content": "Kalshi market: whether Armando Perez-Serrato finishes first in the California 46th congressional district primary. A dollar returns $11.11 — orange tier — putting implied odds around 9%. Volume: roughly $100, which is genuinely just a handful of people. CA-46 covers parts of Orange County around Anaheim and Santa Ana. This market was listed when the May roster ran, and it's still open — 2027 California primaries have a long runway. The price has likely moved."
     },
     {
       "type": "heading",
-      "content": "carry-over from may: the three primaries still on the board"
+      "content": "carry-overs: the three primaries still running from may"
     },
     {
       "type": "text",
-      "content": "Three names from last month's roster are still listed: Chi Charlie Nguyen (CA-45 primary), George Whitesides (CA-27 primary), and Francesca Hong (Wisconsin Democratic governor primary). All three resolve at primaries well into 2027, so they were always going to be slow-burn contracts. Prices on each have likely moved since May — Whitesides was trading at implied odds in the high forties, Nguyen around 10%, Hong around 30% — but the contracts themselves were still live the morning this page was assembled. Cross-link the May article for the original write-ups; check the live exchanges for current prices before doing anything."
+      "content": "Three names from last month's roster remain listed: Chi Charlie Nguyen (CA-45 primary), George Whitesides (CA-27 primary), and Francesca Hong (Wisconsin Democratic governor primary). All three resolve at 2027 primaries — slow-burn contracts. Whitesides was trading at high-forties implied odds, Nguyen around 10%, Hong around 30%, when last priced here; all three will have moved since. Check the live exchanges for current prices. These are not on today's daily board but were verifiably listed contracts when this page was last updated."
     },
     {
       "type": "heading",
-      "content": "also technically a politician market: trump meets mrbeast in 2026"
+      "content": "the pattern across june's political roster"
     },
     {
       "type": "text",
-      "content": "Polymarket has a contract on whether Trump meets MrBeast at any point during the calendar year. A dollar returns $6.06 — yellow tier, alive — on a six-figure volume base. It is, strictly speaking, a market with a named politician on it. It is also, strictly speaking, a market about whether the sitting US president will be photographed with the world's biggest YouTuber, which makes it one of the more on-the-nose snapshots of June 2026 American culture we have available. We include it because the brief said named-individual markets and this is a named-individual market. The reader can decide whether it counts."
-    },
-    {
-      "type": "heading",
-      "content": "the editorial point worth keeping"
-    },
-    {
-      "type": "text",
-      "content": "The interesting thing about the June roster isn't any single name. It's the distribution. One contract has done eight and a half million dollars in volume on a national exit question. One has done a hundred bucks on a primary nobody is watching. Three primaries from last month are still quietly accruing trades in the background. And one is a meet-and-greet contract that exists because Polymarket users will list anything with a deadline. That's a much weirder skew than cable news produces, where the same six national politicians get covered on a loop. Prediction markets price whoever someone is willing to put money on, and as of this month, the answer is: mostly Trump, then a quiet California challenger nobody has heard of, then last month's primary roster, then MrBeast."
+      "content": "One contract has done $8.7 million in volume on a national exit question involving the sitting president. One is a 13%-implied-odds bet on a tech entrepreneur who has been quiet for two years. One is a Guam primary with $8,500 on it and a resolution date in August. And four more are low-volume California and Wisconsin primary contracts that resolve in 2027. That distribution — one massive contract, one medium-quirky one, one regional oddity, and a handful of slow-burn state primaries — is a better snapshot of how political prediction markets actually work than cable news provides. Volume follows national stakes and name recognition. Everything else prices at the margin, with whatever the small number of people who care can generate."
     },
     {
       "type": "heading",
@@ -99,38 +111,30 @@
     },
     {
       "type": "text",
-      "content": "Short version: contested and jurisdictional. Election-related prediction markets in the US have been through repeated rounds of regulatory and court fights — Kalshi's election contracts have been litigated more than once, and Polymarket operates from offshore. Availability varies by state and has changed within the last year. We keep a dedicated page on whether you can legally bet on elections — read that first if you are new to this part of the market. We are not lawyers and this page is not legal advice."
-    },
-    {
-      "type": "heading",
-      "content": "where the rest of today's political markets live"
-    },
-    {
-      "type": "text",
-      "content": "This is the named-individual slice. Today's full board pulls the broader political mix including policy and event markets. The politics markets page is the standing index. The weirdest election prediction markets page covers the same names plus the broader 'this exists?' angle. If a seventh named politician shows up on Kalshi or Polymarket tomorrow, they will show up on today's board first."
+      "content": "Short version: contested and jurisdictional. Election-related prediction markets in the US have been through repeated regulatory and court fights — Kalshi's election contracts have been litigated more than once, and Polymarket operates offshore. Availability varies by state and has changed within the last year. We keep a dedicated page on whether you can legally bet on elections — read that first if you are new to this part of the market. We are not lawyers and this page is not legal advice."
     }
   ],
   "faqs": [
     {
-      "q": "How many politicians have a prediction market on them right now?",
-      "a": "As of June 2026, at least five named individuals: Donald Trump (Polymarket exit contract plus a separate Trump-meets-MrBeast contract), Armando Perez-Serrato (Kalshi CA-46 primary), and three carry-over markets from May on Chi Charlie Nguyen, George Whitesides, and Francesca Hong. The roster turns over as primaries resolve and new contracts list."
+      "q": "Which politicians have prediction markets on them in June 2026?",
+      "a": "As of the June 16 update: Donald Trump (Polymarket exit contract), Andrew Yang (Polymarket 2028 run announcement), Frank Blas Jr. (Polymarket Guam gubernatorial primary), Armando Perez-Serrato (Kalshi CA-46 primary), and three carry-over markets on Chi Charlie Nguyen, George Whitesides, and Francesca Hong. The roster turns over as primaries resolve and new contracts list."
     },
     {
-      "q": "Which politician's market has the most money in it?",
-      "a": "Polymarket's contract on whether Trump exits the presidency before 2027 — over $8.7 million in volume as of this writing. Every other named-politician market on the current roster is a rounding error against that one."
+      "q": "Which political market has the most money in it?",
+      "a": "Polymarket's contract on whether Trump exits the presidency before 2027 — over $8.7 million in volume. Every other named-politician market on the current roster is a fraction of that."
     },
     {
-      "q": "Why is the CA-46 market only $100 of volume?",
-      "a": "It is a low-profile congressional primary that resolves in November 2027 with a candidate most people outside the district have never heard of. Prediction markets list contracts whenever there is a resolvable question, but volume only shows up when traders care. The contract exists; the audience hasn't arrived yet."
+      "q": "Why does this page cover politics markets only?",
+      "a": "This is the named-individual political roster — specifically politicians whose own political futures are being priced. Policy contracts, legislative event contracts, and cultural/celebrity political markets live elsewhere. For weird Polymarket markets across all categories, see the all-category roundup."
     },
     {
       "q": "Are these markets legal in the US?",
-      "a": "It is contested. Election-related prediction markets have been the subject of ongoing US regulatory and legal disputes. Kalshi is a CFTC-regulated US exchange whose election contracts have been litigated repeatedly. Polymarket operates offshore and US access has its own restrictions. Check current rules where you live. Our election-betting explainer covers the details."
+      "a": "Contested and jurisdictional. Election-related prediction markets have been subject to ongoing US regulatory and legal disputes. Kalshi is CFTC-regulated and has litigated its election contracts. Polymarket operates offshore and US access has its own restrictions. Check current rules where you live."
     }
   ],
-  "compliance": "Dollar Bets is an editorial discovery site. We do not operate prediction markets, place bets, or provide financial or legal advice. Election-related prediction markets have been the subject of ongoing US regulatory and legal dispute, and their legality and availability vary by jurisdiction and have changed over time. Prices and volumes cited here were accurate when this page was built and may have moved since. Prediction market contracts involve the risk of total loss. Some links may be affiliate links — see our affiliate disclosure.",
+  "compliance": "Dollar Bets is an editorial discovery site. We do not operate prediction markets, place bets, or provide financial or legal advice. Election-related prediction markets have been the subject of ongoing US regulatory and legal dispute, and their legality and availability vary by jurisdiction and have changed over time. Prices and volumes cited here were accurate when this page was last updated and may have moved since. Prediction market contracts involve the risk of total loss. Some links may be affiliate links — see our affiliate disclosure.",
   "publish_date": "2026-06-04",
-  "last_updated": "2026-06-04",
+  "last_updated": "2026-06-16",
   "cluster": "Politics Markets",
   "priority": 7
 }
