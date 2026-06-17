@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T07:02:52.577834+00:00",
+  "generated_at": "2026-06-17T12:17:11.360206+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,32 +8,40 @@
     "green": 10
   },
   "sport_mix": {
-    "Multi": 7,
-    "NFL": 2,
+    "Multi": 9,
     "NCAAF": 1
   },
   "board": [
     {
-      "ticker": "PARLAY-27C6B7F7",
-      "title": "Ole Miss Rebels wins + Seattle Seahawks wins",
-      "payout": 2.01,
+      "ticker": "PARLAY-2C083088",
+      "title": "Milwaukee Brewers +1.5 + Ole Miss Rebels wins",
+      "payout": 2.06,
       "tier": "green",
-      "quip": "bread and butter",
-      "yes_price": "0.50",
+      "quip": "rent money",
+      "yes_price": "0.49",
       "category": "sports-parlay",
       "platform": "betrivers",
       "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
-      "sport": "americanfootball_ncaaf",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786890?coupon={pickType}|4225002660|{wagerAmount}",
+      "sport": "baseball_mlb",
       "sport_display": "Multi",
-      "matchup": "Louisville Cardinals @ Ole Miss Rebels + New England Patriots @ Seattle Seahawks",
+      "matchup": "Cleveland Guardians @ Milwaukee Brewers + Louisville Cardinals @ Ole Miss Rebels",
       "market_type": "2-leg parlay",
-      "american_odds": 101,
-      "implied_probability": 0.498,
+      "american_odds": 106,
+      "implied_probability": 0.486,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
+        {
+          "matchup": "Cleveland Guardians @ Milwaukee Brewers",
+          "pick": "Milwaukee Brewers +1.5",
+          "odds": -220,
+          "implied_prob": "69%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786890?coupon={pickType}|4225002660|{wagerAmount}",
+          "commence_time": "2026-06-17T23:41:00Z"
+        },
         {
           "matchup": "Louisville Cardinals @ Ole Miss Rebels",
           "pick": "Ole Miss Rebels wins",
@@ -42,25 +50,16 @@
           "sport": "americanfootball_ncaaf",
           "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
           "commence_time": "2026-09-06T23:30:00Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -240,
-          "implied_prob": "71%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
-          "commence_time": "2026-09-10T00:15:00Z"
         }
       ],
-      "close_time": "2026-09-06T23:30:00Z"
+      "close_time": "2026-06-17T23:41:00Z"
     },
     {
       "ticker": "PARLAY-81BC57EB",
       "title": "Philadelphia Eagles wins + Ole Miss Rebels wins",
       "payout": 2.08,
       "tier": "green",
-      "quip": "the sun also rises",
+      "quip": "routine maintenance",
       "yes_price": "0.48",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -98,53 +97,11 @@
       "close_time": "2026-09-06T23:30:00Z"
     },
     {
-      "ticker": "PARLAY-81B67584",
-      "title": "Philadelphia Eagles wins + Seattle Seahawks wins",
-      "payout": 2.08,
-      "tier": "green",
-      "quip": "checking all the boxes",
-      "yes_price": "0.48",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
-      "sport": "americanfootball_nfl",
-      "sport_display": "NFL",
-      "matchup": "Washington Commanders @ Philadelphia Eagles + New England Patriots @ Seattle Seahawks",
-      "market_type": "2-leg parlay",
-      "american_odds": 108,
-      "implied_probability": 0.482,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Washington Commanders @ Philadelphia Eagles",
-          "pick": "Philadelphia Eagles wins",
-          "odds": -215,
-          "implied_prob": "68%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
-          "commence_time": "2026-09-13T20:25:00Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -240,
-          "implied_prob": "71%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
-          "commence_time": "2026-09-10T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-09-10T00:15:00Z"
-    },
-    {
       "ticker": "PARLAY-2E415634",
       "title": "Baltimore Ravens wins + Ole Miss Rebels wins",
       "payout": 2.09,
       "tier": "green",
-      "quip": "tuesday energy",
+      "quip": "another day at the office",
       "yes_price": "0.48",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -182,76 +139,34 @@
       "close_time": "2026-09-06T23:30:00Z"
     },
     {
-      "ticker": "PARLAY-6D1A8EC2",
-      "title": "Baltimore Ravens wins + Seattle Seahawks wins",
-      "payout": 2.09,
+      "ticker": "PARLAY-EE3D3BA2",
+      "title": "Chicago Cubs wins + Ole Miss Rebels wins",
+      "payout": 2.11,
       "tier": "green",
-      "quip": "autopilot engaged",
-      "yes_price": "0.48",
+      "quip": "business as usual",
+      "yes_price": "0.47",
       "category": "sports-parlay",
       "platform": "betrivers",
       "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
-      "sport": "americanfootball_nfl",
-      "sport_display": "NFL",
-      "matchup": "Baltimore Ravens @ Indianapolis Colts + New England Patriots @ Seattle Seahawks",
-      "market_type": "2-leg parlay",
-      "american_odds": 109,
-      "implied_probability": 0.478,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Baltimore Ravens @ Indianapolis Colts",
-          "pick": "Baltimore Ravens wins",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
-          "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -240,
-          "implied_prob": "71%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
-          "commence_time": "2026-09-10T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-09-10T00:15:00Z"
-    },
-    {
-      "ticker": "PARLAY-3810D683",
-      "title": "Philadelphia Phillies +1.5 + Ole Miss Rebels wins",
-      "payout": 2.09,
-      "tier": "green",
-      "quip": "steady hands",
-      "yes_price": "0.48",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786899?coupon={pickType}|4224808714|{wagerAmount}",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786892?coupon={pickType}|4225035020|{wagerAmount}",
       "sport": "baseball_mlb",
       "sport_display": "Multi",
-      "matchup": "Miami Marlins @ Philadelphia Phillies + Louisville Cardinals @ Ole Miss Rebels",
+      "matchup": "Colorado Rockies @ Chicago Cubs + Louisville Cardinals @ Ole Miss Rebels",
       "market_type": "2-leg parlay",
-      "american_odds": 109,
-      "implied_probability": 0.478,
+      "american_odds": 111,
+      "implied_probability": 0.474,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Miami Marlins @ Philadelphia Phillies",
-          "pick": "Philadelphia Phillies +1.5",
-          "odds": -210,
-          "implied_prob": "68%",
+          "matchup": "Colorado Rockies @ Chicago Cubs",
+          "pick": "Chicago Cubs wins",
+          "odds": -205,
+          "implied_prob": "67%",
           "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786899?coupon={pickType}|4224808714|{wagerAmount}",
-          "commence_time": "2026-06-17T17:06:00Z"
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786892?coupon={pickType}|4225035020|{wagerAmount}",
+          "commence_time": "2026-06-18T00:06:00Z"
         },
         {
           "matchup": "Louisville Cardinals @ Ole Miss Rebels",
@@ -263,140 +178,14 @@
           "commence_time": "2026-09-06T23:30:00Z"
         }
       ],
-      "close_time": "2026-06-17T17:06:00Z"
-    },
-    {
-      "ticker": "PARLAY-B83F3AFD",
-      "title": "Philadelphia Phillies +1.5 + Seattle Seahawks wins",
-      "payout": 2.09,
-      "tier": "green",
-      "quip": "routine maintenance",
-      "yes_price": "0.48",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786899?coupon={pickType}|4224808714|{wagerAmount}",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Miami Marlins @ Philadelphia Phillies + New England Patriots @ Seattle Seahawks",
-      "market_type": "2-leg parlay",
-      "american_odds": 109,
-      "implied_probability": 0.478,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Miami Marlins @ Philadelphia Phillies",
-          "pick": "Philadelphia Phillies +1.5",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786899?coupon={pickType}|4224808714|{wagerAmount}",
-          "commence_time": "2026-06-17T17:06:00Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -240,
-          "implied_prob": "71%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
-          "commence_time": "2026-09-10T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-06-17T17:06:00Z"
-    },
-    {
-      "ticker": "PARLAY-2C083088",
-      "title": "Milwaukee Brewers +1.5 + Ole Miss Rebels wins",
-      "payout": 2.09,
-      "tier": "green",
-      "quip": "the fundamentals",
-      "yes_price": "0.48",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786890?coupon={pickType}|4225002660|{wagerAmount}",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Cleveland Guardians @ Milwaukee Brewers + Louisville Cardinals @ Ole Miss Rebels",
-      "market_type": "2-leg parlay",
-      "american_odds": 109,
-      "implied_probability": 0.478,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Cleveland Guardians @ Milwaukee Brewers",
-          "pick": "Milwaukee Brewers +1.5",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786890?coupon={pickType}|4225002660|{wagerAmount}",
-          "commence_time": "2026-06-17T23:41:00Z"
-        },
-        {
-          "matchup": "Louisville Cardinals @ Ole Miss Rebels",
-          "pick": "Ole Miss Rebels wins",
-          "odds": -240,
-          "implied_prob": "71%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
-          "commence_time": "2026-09-06T23:30:00Z"
-        }
-      ],
-      "close_time": "2026-06-17T23:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-C8A53E47",
-      "title": "Milwaukee Brewers +1.5 + Seattle Seahawks wins",
-      "payout": 2.09,
-      "tier": "green",
-      "quip": "autopilot engaged",
-      "yes_price": "0.48",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786890?coupon={pickType}|4225002660|{wagerAmount}",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Cleveland Guardians @ Milwaukee Brewers + New England Patriots @ Seattle Seahawks",
-      "market_type": "2-leg parlay",
-      "american_odds": 109,
-      "implied_probability": 0.478,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Cleveland Guardians @ Milwaukee Brewers",
-          "pick": "Milwaukee Brewers +1.5",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786890?coupon={pickType}|4225002660|{wagerAmount}",
-          "commence_time": "2026-06-17T23:41:00Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -240,
-          "implied_prob": "71%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
-          "commence_time": "2026-09-10T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-06-17T23:41:00Z"
+      "close_time": "2026-06-18T00:06:00Z"
     },
     {
       "ticker": "PARLAY-54FA9D42",
       "title": "Virginia Cavaliers wins + Ole Miss Rebels wins",
       "payout": 2.12,
       "tier": "green",
-      "quip": "the sun also rises",
+      "quip": "steady hands",
       "yes_price": "0.47",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -432,6 +221,216 @@
         }
       ],
       "close_time": "2026-08-29T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-F33C9CC1",
+      "title": "Cincinnati Bengals wins + Ole Miss Rebels wins",
+      "payout": 2.12,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.47",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663019?coupon={pickType}|4184193920|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + Louisville Cardinals @ Ole Miss Rebels",
+      "market_type": "2-leg parlay",
+      "american_odds": 112,
+      "implied_probability": 0.471,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+          "pick": "Cincinnati Bengals wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663019?coupon={pickType}|4184193920|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Louisville Cardinals @ Ole Miss Rebels",
+          "pick": "Ole Miss Rebels wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+          "commence_time": "2026-09-06T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-06T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-61D5C4D4",
+      "title": "Philadelphia Eagles wins + Milwaukee Brewers +1.5",
+      "payout": 2.13,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.47",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Washington Commanders @ Philadelphia Eagles + Cleveland Guardians @ Milwaukee Brewers",
+      "market_type": "2-leg parlay",
+      "american_odds": 113,
+      "implied_probability": 0.47,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington Commanders @ Philadelphia Eagles",
+          "pick": "Philadelphia Eagles wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Cleveland Guardians @ Milwaukee Brewers",
+          "pick": "Milwaukee Brewers +1.5",
+          "odds": -220,
+          "implied_prob": "69%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786890?coupon={pickType}|4225002660|{wagerAmount}",
+          "commence_time": "2026-06-17T23:41:00Z"
+        }
+      ],
+      "close_time": "2026-06-17T23:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-3810D683",
+      "title": "Philadelphia Phillies +1.5 + Ole Miss Rebels wins",
+      "payout": 2.14,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.47",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786899?coupon={pickType}|4224808714|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Miami Marlins @ Philadelphia Phillies + Louisville Cardinals @ Ole Miss Rebels",
+      "market_type": "2-leg parlay",
+      "american_odds": 114,
+      "implied_probability": 0.467,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Marlins @ Philadelphia Phillies",
+          "pick": "Philadelphia Phillies +1.5",
+          "odds": -195,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786899?coupon={pickType}|4224808714|{wagerAmount}",
+          "commence_time": "2026-06-17T17:06:00Z"
+        },
+        {
+          "matchup": "Louisville Cardinals @ Ole Miss Rebels",
+          "pick": "Ole Miss Rebels wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+          "commence_time": "2026-09-06T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-06-17T17:06:00Z"
+    },
+    {
+      "ticker": "PARLAY-7B8853B3",
+      "title": "Baltimore Orioles +1.5 + Ole Miss Rebels wins",
+      "payout": 2.14,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.47",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786893?coupon={pickType}|4224994955|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Baltimore Orioles @ Seattle Mariners + Louisville Cardinals @ Ole Miss Rebels",
+      "market_type": "2-leg parlay",
+      "american_odds": 114,
+      "implied_probability": 0.467,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Orioles @ Seattle Mariners",
+          "pick": "Baltimore Orioles +1.5",
+          "odds": -195,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786893?coupon={pickType}|4224994955|{wagerAmount}",
+          "commence_time": "2026-06-18T01:41:00Z"
+        },
+        {
+          "matchup": "Louisville Cardinals @ Ole Miss Rebels",
+          "pick": "Ole Miss Rebels wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+          "commence_time": "2026-09-06T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-06-18T01:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-EC278B62",
+      "title": "Baltimore Ravens wins + Milwaukee Brewers +1.5",
+      "payout": 2.15,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.47",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Baltimore Ravens @ Indianapolis Colts + Cleveland Guardians @ Milwaukee Brewers",
+      "market_type": "2-leg parlay",
+      "american_odds": 115,
+      "implied_probability": 0.466,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Cleveland Guardians @ Milwaukee Brewers",
+          "pick": "Milwaukee Brewers +1.5",
+          "odds": -220,
+          "implied_prob": "69%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786890?coupon={pickType}|4225002660|{wagerAmount}",
+          "commence_time": "2026-06-17T23:41:00Z"
+        }
+      ],
+      "close_time": "2026-06-17T23:41:00Z"
     }
   ]
 }
