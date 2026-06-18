@@ -260,6 +260,21 @@ def render_internal_links(links):
     if not links:
         return ""
 
+    # Drop links whose TARGET is policy-noindexed. An indexed page linking to a
+    # noindexed dead-end bleeds PageRank into a URL we've told Google to ignore.
+    # Reuses the exact policy_noindex gate the target page applies to itself, so
+    # a link is dropped iff that page would be noindexed anyway (bare "/" and
+    # anchors with no slug always stay).
+    def _target_indexable(link):
+        slug = (link.get("url", "") or "").strip("/")
+        if not slug:
+            return True
+        ni, _ = policy_noindex({"slug": slug})
+        return not ni
+    links = [l for l in links if _target_indexable(l)]
+    if not links:
+        return ""
+
     link_items = " · ".join(
         f'<a href="{link["url"]}" style="color:#666">{link["text"]}</a>'
         for link in links
