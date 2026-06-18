@@ -26,6 +26,11 @@ from itertools import combinations
 ODDS_API = "https://api.the-odds-api.com/v4"
 ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
 
+def _safe_url(u):
+    """Redact the API key before logging — request URLs carry apiKey=<secret>
+    in the query string, and these scanners run in CI where stderr is captured."""
+    return u.replace(ODDS_API_KEY, "***") if ODDS_API_KEY else u
+
 # Books to pull odds from (free tier available)
 # Priority order: books most likely to have deep links first
 # Offshore books (bovada, betonlineag) removed 2026-05-14: no affiliate deal +
@@ -127,9 +132,9 @@ def odds_api_get(path, params=None):
                 print("[parlay] ERROR: Invalid API key", file=sys.stderr)
                 return None
             if e.code == 422:
-                print(f"[parlay] WARN: Invalid params ({url})", file=sys.stderr)
+                print(f"[parlay] WARN: Invalid params ({_safe_url(url)})", file=sys.stderr)
                 return None
-            print(f"[parlay] API error {e.code}: {e} ({url})", file=sys.stderr)
+            print(f"[parlay] API error {e.code}: {e} ({_safe_url(url)})", file=sys.stderr)
             return None
         except urllib.error.URLError as e:
             print(f"[parlay] Network error: {e}", file=sys.stderr)

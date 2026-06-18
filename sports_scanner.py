@@ -31,6 +31,11 @@ from datetime import datetime, timezone, timedelta
 ODDS_API = "https://api.the-odds-api.com/v4"
 ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+
+def _safe_url(u):
+    """Redact the API key before logging — request URLs carry apiKey=<secret>
+    in the query string, and these scanners run in CI where stderr is captured."""
+    return u.replace(ODDS_API_KEY, "***") if ODDS_API_KEY else u
 TARGET_PICKS = 10
 
 # Books to pull from — priority order (best deep link support first)
@@ -234,7 +239,7 @@ def odds_api_get(path, params=None):
                 # Sport might not be in season
                 print(f"[sports] Sport not available or invalid params", file=sys.stderr)
                 return None
-            print(f"[sports] API error {e.code}: {url}", file=sys.stderr)
+            print(f"[sports] API error {e.code}: {_safe_url(url)}", file=sys.stderr)
             return None
         except urllib.error.URLError as e:
             print(f"[sports] Network error: {e}", file=sys.stderr)
