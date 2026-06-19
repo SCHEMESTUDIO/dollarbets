@@ -101,6 +101,18 @@ def build_breadcrumb_schema(crumbs):
     return json.dumps(schema, ensure_ascii=False)
 
 
+# Hub routes that exist as real pages and are therefore safe to link to from a
+# breadcrumb parent crumb. A page may declare a parent_category whose hub was
+# never built (e.g. the "prediction-markets" cluster namespace, which has child
+# pages but no /prediction-markets/ index) — linking to it produces a 404 that
+# ahrefs flags as a broken link. Keep in sync with the category/hub pages that
+# generate.py + generate_content.py actually emit.
+KNOWN_HUB_ROUTES = {
+    "weird-markets", "politics-markets", "sports-markets",
+    "financial-markets", "crypto-markets", "hall-of-filth", "guides",
+}
+
+
 def build_breadcrumbs(page_data, canonical):
     """Build breadcrumb trail for a content page.
 
@@ -114,8 +126,11 @@ def build_breadcrumbs(page_data, canonical):
 
     if fmt == "historical_story":
         crumbs.append(("hall of filth", "/hall-of-filth/"))
-    elif parent:
-        # Use parent category name from slug
+    elif parent and parent in KNOWN_HUB_ROUTES:
+        # Only add a category crumb when its /{parent}/ hub page exists.
+        # A parent with no generated hub would emit a breadcrumb link to a
+        # 404 (ahrefs "links to broken page"); skip it so the trail is just
+        # "dollar bets > page".
         cat_name = parent.replace("-", " ")
         crumbs.append((cat_name, f"/{parent}/"))
 
