@@ -2657,6 +2657,14 @@ def generate_about_page():
 
       <p style="margin-top:12px"><a href="/editorial-policy/" style="color:#6b5744">editorial policy</a> · <a href="/affiliate-disclosure/" style="color:#6b5744">affiliate disclosure</a> · <a href="/responsible-gambling/" style="color:#6b5744">responsible gambling</a></p>
     </div>
+
+    <div class="ss-cc-wrap">
+      <a class="ss-cc" href="https://www.schemestudio.lol" target="_blank" rel="noopener" aria-label="A production of SCHEME STUDIO — visit schemestudio.lol">
+        <div class="ss-cc-label">A production of</div>
+        <div class="ss-cc-name">SCHEME<br>STUDIO</div>
+        <div class="ss-cc-tag">schemestudio.lol &#8599;</div>
+      </a>
+    </div>
 """
 
     about_schema = f"""<script type="application/ld+json">{{
@@ -2691,13 +2699,27 @@ def generate_about_page():
   ]
 }}</script>"""
 
+    scheme_card_head = """
+  <style>
+    @font-face { font-family: 'Dela Gothic One'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/DelaGothicOne-Regular.woff2') format('woff2'); }
+    @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 500; font-display: swap; src: url('/fonts/JetBrainsMono-Medium.woff2') format('woff2'); }
+    /* SCHEME Studio calling card — shared cross-site stamp (light variant) */
+    .ss-cc-wrap { display: flex; justify-content: center; margin: 28px 0 8px; }
+    .ss-cc { display: inline-block; text-align: center; text-decoration: none; border-radius: 14px; padding: 20px 36px 18px; background: #ffffff; border: 2.5px solid #2d2319; box-shadow: 6px 6px 0 #e8642c; transform: rotate(-1.4deg); transition: transform .15s ease, box-shadow .15s ease; }
+    .ss-cc:hover { transform: rotate(0deg) scale(1.02); box-shadow: 9px 9px 0 #e8642c; }
+    .ss-cc-label { font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 10.5px; font-weight: 500; letter-spacing: .3em; text-transform: uppercase; color: #806b5b; margin-bottom: 7px; }
+    .ss-cc-name { font-family: 'Dela Gothic One', sans-serif; font-size: 30px; line-height: 1.04; letter-spacing: .005em; color: #2d2319; }
+    .ss-cc-tag { font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11.5px; font-weight: 500; letter-spacing: .02em; color: #c4470a; margin-top: 11px; }
+    @media (max-width: 560px) { .ss-cc { padding: 16px 26px 14px; } .ss-cc-name { font-size: 24px; } }
+  </style>"""
+
     html = page_shell(
         title="what is dollar bets? — about",
         description="Dollar Bets is a daily board of weird, funny, and culturally relevant prediction markets, translated into what a $1 bet could pay. Not a sportsbook — a discovery layer.",
         body=body,
         canonical="/about/",
         current_nav="/about/",
-        extra_head=about_schema,
+        extra_head=about_schema + scheme_card_head,
     )
 
     write_page("about/index.html", html)
