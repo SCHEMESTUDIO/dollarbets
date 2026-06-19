@@ -1,0 +1,109 @@
+{
+  "slug": "prediction-markets",
+  "format": "cluster_pillar",
+  "parent_category": "",
+  "seo": {
+    "title": "Prediction Markets — Bet $1 on Basically Anything | Dollar Bets",
+    "h1": "Prediction Markets",
+    "meta_description": "Prediction markets let you bet on real-world events — elections, sports, weather, crypto, the genuinely absurd. Here's how they work, how they differ from a sportsbook, and where a single dollar goes furthest.",
+    "canonical": "/prediction-markets/"
+  },
+  "quick_answer": "A prediction market is a marketplace where you buy and sell contracts on whether a real-world event will happen. Each contract pays $1 if it resolves yes and $0 if it resolves no, so the price — say $0.30 — is roughly the crowd's odds, about 30%. Dollar Bets tracks these markets every day and reframes each one as a single question: what does $1 return if this actually hits?",
+  "internal_links": [
+    { "text": "today's $1 board", "url": "/" },
+    { "text": "prediction market longshots", "url": "/prediction-markets/prediction-market-longshots/" },
+    { "text": "weird markets", "url": "/weird-markets/" },
+    { "text": "politics markets", "url": "/politics-markets/" },
+    { "text": "sports markets", "url": "/sports-markets/" },
+    { "text": "Hall of Filth", "url": "/hall-of-filth/" }
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "A prediction market is a place where you can bet on whether something will actually happen. Not a game with a point spread — an event. Will a candidate win. Will the Fed cut rates this month. Will a named hurricane hit a specific state by a specific date. Will a CEO still have a job on Friday. If you can phrase it as a yes-or-no question with a deadline, somebody has probably made a market on it."
+    },
+    {
+      "type": "text",
+      "content": "This page is the front door to how Dollar Bets thinks about all of it. We scan prediction markets every day, pull out the ones worth your attention, and reframe each one the only way that matters at this table: if you put a single dollar on it, what comes back?"
+    },
+    {
+      "type": "heading",
+      "content": "How does a prediction market actually work?"
+    },
+    {
+      "type": "text",
+      "content": "Every contract settles at one of two prices. If the event happens, it pays $1. If it doesn't, it pays nothing. That's the whole machine. Everything else is just what people are willing to pay for the contract before it settles."
+    },
+    {
+      "type": "text",
+      "content": "So the price is the odds, in plain sight. A contract trading at 30 cents means the crowd thinks there's roughly a 30% chance. Buy it for $0.30, and if it hits you get $1 — a bit more than triple your money. A contract at 4 cents means the crowd thinks it's a long shot, about 4%. Buy that one and a hit returns $1 on four pennies. The cheaper the contract, the louder the room is saying 'no,' and the bigger the payout if the room is wrong."
+    },
+    {
+      "type": "heading",
+      "content": "How is it different from a sportsbook?"
+    },
+    {
+      "type": "text",
+      "content": "A sportsbook is the house. It sets the line, bakes in its margin, and wins on the spread between what it pays and what it collects. A prediction market has no house setting prices. The price is set by people buying and selling against each other, the same way a stock has a price. You're not betting against a bookmaker — you're betting against everyone else who has an opinion and money."
+    },
+    {
+      "type": "text",
+      "content": "The second difference is range. A sportsbook gives you games. A prediction market gives you the whole world: politics, monetary policy, weather, crypto, court rulings, awards shows, who gets fired, what gets banned, which thing nobody saw coming actually happens. That breadth is the entire reason this site exists. Most of it is too strange for a sportsbook to ever touch."
+    },
+    {
+      "type": "heading",
+      "content": "What can you bet on?"
+    },
+    {
+      "type": "text",
+      "content": "Roughly, it sorts into a few rooms. Politics and policy — elections, nominations, bills, rate decisions. Sports — but priced peer-to-peer instead of by a book. Finance and crypto — index moves, coin prices, the occasional 'will this company still exist by Q4.' Weather and science — landfalls, record temperatures, launches. And then the part of the building Dollar Bets likes best: the genuinely weird, where the question is so specific and so unlikely that the contract trades for pennies."
+    },
+    {
+      "type": "text",
+      "content": "You can wander the live boards by room: weird markets for the strange stuff, politics markets for the election season, sports markets for the peer-priced underdogs. Or just take today's board, which is the daily hand-picked cross-section of all of it."
+    },
+    {
+      "type": "heading",
+      "content": "Why does Dollar Bets frame everything as a dollar?"
+    },
+    {
+      "type": "text",
+      "content": "Because a dollar is the right unit for entertainment. At a dollar, a contract at 2 cents is a ticket to a story — fifty of them, technically, since a dollar buys fifty 2-cent contracts. If the impossible thing happens, that's $50 and a tale you'll be retelling for a year. If it doesn't, you spent a dollar. The framing keeps the stakes honest: this is the price of finding out what happens, not a retirement plan."
+    },
+    {
+      "type": "text",
+      "content": "That's also why the payouts look bigger here than at a sportsbook — we surface the cheap, high-multiplier contracts on purpose, because that's where a single dollar does something interesting. The catch is built into the price: cheap means unlikely. The number is large because the crowd is usually right, and 'usually' is the whole game."
+    },
+    {
+      "type": "heading",
+      "content": "Where should you start?"
+    },
+    {
+      "type": "text",
+      "content": "Start with today's board — it's the shortest path to seeing how this works, already filtered down to the markets worth a look. If you want the high-payout end specifically, the longshots page collects the contracts trading under a dime. And if you'd rather browse by mood, the weird, politics, and sports rooms each keep their own running board."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are prediction markets legal in the US?",
+      "a": "The best-known US prediction market, Kalshi, operates as a federally regulated exchange overseen by the CFTC. That said, availability, the specific contracts offered, and the rules can vary by platform and by state, and the regulatory picture has shifted over time. Treat this as background, not legal advice — check the platform for what's available to you before trading."
+    },
+    {
+      "q": "Is a prediction market the same as gambling?",
+      "a": "Functionally you're risking money on an uncertain outcome, so the experience rhymes with betting. Structurally, regulated event contracts are treated more like financial derivatives than casino games — the price is set by a market, not a house, and you can usually sell before the event resolves. Dollar Bets frames it as entertainment either way: a dollar to find out what happens."
+    },
+    {
+      "q": "What happens to my contract if I'm right?",
+      "a": "Each contract you hold pays out $1 when the event resolves yes. So if you bought ten contracts at 5 cents each — 50 cents total — and the event happens, you get $10 back. If it resolves no, the contracts expire worthless."
+    },
+    {
+      "q": "Can I sell before the event happens?",
+      "a": "On most prediction markets, yes. Prices move as the odds change, so a contract you bought at 3 cents can climb to 30 cents if the event starts looking likely — and you can sell and take the profit without waiting for it to resolve. You can also cut a loss the same way."
+    }
+  ],
+  "compliance": "Prediction market contracts described here are explained in general terms. Actual availability, pricing, contract terms, and eligibility vary by platform and jurisdiction. A contract's price reflects market sentiment and is not a guarantee of probability. Past outcomes do not predict future ones. All trading involves risk of loss. This page is information, not financial or legal advice — verify any market on the platform before trading.",
+  "publish_date": "2026-06-19",
+  "last_updated": "2026-06-19",
+  "cluster": "Prediction Markets",
+  "priority": 95
+}

@@ -2547,6 +2547,10 @@ def generate_market_autopsies(all_bets):
             description=f"Dollar Bets market autopsy: {raw_title}. What it was, why it was interesting, and what $1 could have paid ({format_payout(payout)}).",
             body=body,
             canonical=f"/autopsy/{slug}/",
+            # Noindexed (2026-06-19): 0 organic traffic, thin templated content.
+            # Pages still build for direct/share traffic but are kept out of the
+            # index and the sitemap.
+            noindex=True,
         )
 
         write_page(f"autopsy/{slug}/index.html", html)
@@ -3372,21 +3376,11 @@ def main():
                 sitemap_pages.append(entry)
         except ValueError:
             pass
-    # Add autopsy pages — only those actually written to disk this build.
-    # generate_market_autopsies() caps output at 10 pages, but this loop used
-    # to list every payout>=20 candidate (~84), putting ~74 phantom /autopsy/
-    # URLs (404s) in the sitemap. Gate on file existence so the sitemap can
-    # never reference an autopsy page that wasn't generated.
-    autopsy_candidates = [b for b in all_bets if b.get("payout", 0) >= 20]
-    seen = set()
-    for b in autopsy_candidates:
-        t = b.get("title", "")
-        if t in seen:
-            continue
-        seen.add(t)
-        s = slugify(t)
-        if s and os.path.isfile(os.path.join(OUTPUT_DIR, "autopsy", s, "index.html")):
-            sitemap_pages.append((f"/autopsy/{s}/", 0.5))
+    # Autopsy pages are intentionally NOT in the sitemap. As of 2026-06-19 they
+    # are noindexed (0 organic traffic, thin templated content), so listing them
+    # would ask Google to crawl pages we've told it to ignore. They still build
+    # for direct/share traffic. (This also retired the cap-vs-sitemap mismatch
+    # that had put ~74 phantom /autopsy/ 404s in the sitemap.)
 
     # Add content pages (from generate_content.py) to sitemap
     content_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "content")

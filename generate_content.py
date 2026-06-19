@@ -110,6 +110,7 @@ def build_breadcrumb_schema(crumbs):
 KNOWN_HUB_ROUTES = {
     "weird-markets", "politics-markets", "sports-markets",
     "financial-markets", "crypto-markets", "hall-of-filth", "guides",
+    "prediction-markets",
 }
 
 
