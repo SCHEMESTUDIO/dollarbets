@@ -3372,16 +3372,21 @@ def main():
                 sitemap_pages.append(entry)
         except ValueError:
             pass
-    # Add autopsy pages
+    # Add autopsy pages — only those actually written to disk this build.
+    # generate_market_autopsies() caps output at 10 pages, but this loop used
+    # to list every payout>=20 candidate (~84), putting ~74 phantom /autopsy/
+    # URLs (404s) in the sitemap. Gate on file existence so the sitemap can
+    # never reference an autopsy page that wasn't generated.
     autopsy_candidates = [b for b in all_bets if b.get("payout", 0) >= 20]
     seen = set()
     for b in autopsy_candidates:
         t = b.get("title", "")
-        if t not in seen:
-            seen.add(t)
-            s = slugify(t)
-            if s:
-                sitemap_pages.append((f"/autopsy/{s}/", 0.5))
+        if t in seen:
+            continue
+        seen.add(t)
+        s = slugify(t)
+        if s and os.path.isfile(os.path.join(OUTPUT_DIR, "autopsy", s, "index.html")):
+            sitemap_pages.append((f"/autopsy/{s}/", 0.5))
 
     # Add content pages (from generate_content.py) to sitemap
     content_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "content")
