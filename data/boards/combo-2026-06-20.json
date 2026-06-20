@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T10:33:04.889844+00:00",
+  "generated_at": "2026-06-20T17:27:12.660872+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,395 +8,17 @@
     "green": 10
   },
   "sport_mix": {
-    "Multi": 4,
-    "MLB": 5,
-    "NFL": 1
+    "Multi": 6,
+    "NFL": 1,
+    "MLB": 3
   },
   "board": [
-    {
-      "ticker": "PARLAY-12F7D9DA",
-      "title": "Philadelphia Eagles wins + Tampa Bay Rays +1.5",
-      "payout": 2.12,
-      "tier": "green",
-      "quip": "steady hands",
-      "yes_price": "0.47",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Washington Commanders @ Philadelphia Eagles + Washington Nationals @ Tampa Bay Rays",
-      "market_type": "2-leg parlay",
-      "american_odds": 112,
-      "implied_probability": 0.473,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Washington Commanders @ Philadelphia Eagles",
-          "pick": "Philadelphia Eagles wins",
-          "odds": -215,
-          "implied_prob": "68%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
-          "commence_time": "2026-09-13T20:25:00Z"
-        },
-        {
-          "matchup": "Washington Nationals @ Tampa Bay Rays",
-          "pick": "Tampa Bay Rays +1.5",
-          "odds": -225,
-          "implied_prob": "69%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786865?coupon={pickType}|4229056171|{wagerAmount}",
-          "commence_time": "2026-06-20T20:11:00Z"
-        }
-      ],
-      "close_time": "2026-06-20T20:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-2540428C",
-      "title": "Chicago Cubs +1.5 + Tampa Bay Rays +1.5",
-      "payout": 2.12,
-      "tier": "green",
-      "quip": "the fundamentals",
-      "yes_price": "0.47",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786831?coupon={pickType}|4229109032|{wagerAmount}",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Toronto Blue Jays @ Chicago Cubs + Washington Nationals @ Tampa Bay Rays",
-      "market_type": "2-leg parlay",
-      "american_odds": 112,
-      "implied_probability": 0.473,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Toronto Blue Jays @ Chicago Cubs",
-          "pick": "Chicago Cubs +1.5",
-          "odds": -215,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786831?coupon={pickType}|4229109032|{wagerAmount}",
-          "commence_time": "2026-06-20T18:21:00Z"
-        },
-        {
-          "matchup": "Washington Nationals @ Tampa Bay Rays",
-          "pick": "Tampa Bay Rays +1.5",
-          "odds": -225,
-          "implied_prob": "69%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786865?coupon={pickType}|4229056171|{wagerAmount}",
-          "commence_time": "2026-06-20T20:11:00Z"
-        }
-      ],
-      "close_time": "2026-06-20T18:21:00Z"
-    },
-    {
-      "ticker": "PARLAY-FE43D5B3",
-      "title": "Pittsburgh Pirates wins + Tampa Bay Rays +1.5",
-      "payout": 2.12,
-      "tier": "green",
-      "quip": "clock in, cash out",
-      "yes_price": "0.47",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786842?coupon={pickType}|4228922174|{wagerAmount}",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Pittsburgh Pirates @ Colorado Rockies + Washington Nationals @ Tampa Bay Rays",
-      "market_type": "2-leg parlay",
-      "american_odds": 112,
-      "implied_probability": 0.473,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Pittsburgh Pirates @ Colorado Rockies",
-          "pick": "Pittsburgh Pirates wins",
-          "odds": -215,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786842?coupon={pickType}|4228922174|{wagerAmount}",
-          "commence_time": "2026-06-21T01:11:00Z"
-        },
-        {
-          "matchup": "Washington Nationals @ Tampa Bay Rays",
-          "pick": "Tampa Bay Rays +1.5",
-          "odds": -225,
-          "implied_prob": "69%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786865?coupon={pickType}|4229056171|{wagerAmount}",
-          "commence_time": "2026-06-20T20:11:00Z"
-        }
-      ],
-      "close_time": "2026-06-20T20:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-81B67584",
-      "title": "Seattle Seahawks wins + Philadelphia Eagles wins",
-      "payout": 2.12,
-      "tier": "green",
-      "quip": "bread and butter",
-      "yes_price": "0.47",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "NFL",
-      "matchup": "New England Patriots @ Seattle Seahawks + Washington Commanders @ Philadelphia Eagles",
-      "market_type": "2-leg parlay",
-      "american_odds": 112,
-      "implied_probability": 0.473,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
-          "commence_time": "2026-09-10T00:15:00Z"
-        },
-        {
-          "matchup": "Washington Commanders @ Philadelphia Eagles",
-          "pick": "Philadelphia Eagles wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552272-1517085436-2185024346&type=Single",
-          "commence_time": "2026-09-13T20:25:00Z"
-        }
-      ],
-      "close_time": "2026-09-10T00:15:00Z"
-    },
-    {
-      "ticker": "PARLAY-FBBB9A24",
-      "title": "Baltimore Ravens wins + Tampa Bay Rays +1.5",
-      "payout": 2.13,
-      "tier": "green",
-      "quip": "like taking candy from a vending machine",
-      "yes_price": "0.47",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Baltimore Ravens @ Indianapolis Colts + Washington Nationals @ Tampa Bay Rays",
-      "market_type": "2-leg parlay",
-      "american_odds": 113,
-      "implied_probability": 0.468,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Baltimore Ravens @ Indianapolis Colts",
-          "pick": "Baltimore Ravens wins",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
-          "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "Washington Nationals @ Tampa Bay Rays",
-          "pick": "Tampa Bay Rays +1.5",
-          "odds": -225,
-          "implied_prob": "69%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786865?coupon={pickType}|4229056171|{wagerAmount}",
-          "commence_time": "2026-06-20T20:11:00Z"
-        }
-      ],
-      "close_time": "2026-06-20T20:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-0E41DE36",
-      "title": "Minnesota Twins +1.5 + Tampa Bay Rays +1.5",
-      "payout": 2.13,
-      "tier": "green",
-      "quip": "steady hands",
-      "yes_price": "0.47",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786795?coupon={pickType}|4228924879|{wagerAmount}",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Minnesota Twins @ Arizona Diamondbacks + Washington Nationals @ Tampa Bay Rays",
-      "market_type": "2-leg parlay",
-      "american_odds": 113,
-      "implied_probability": 0.468,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Minnesota Twins @ Arizona Diamondbacks",
-          "pick": "Minnesota Twins +1.5",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786795?coupon={pickType}|4228924879|{wagerAmount}",
-          "commence_time": "2026-06-21T02:11:00Z"
-        },
-        {
-          "matchup": "Washington Nationals @ Tampa Bay Rays",
-          "pick": "Tampa Bay Rays +1.5",
-          "odds": -225,
-          "implied_prob": "69%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786865?coupon={pickType}|4229056171|{wagerAmount}",
-          "commence_time": "2026-06-20T20:11:00Z"
-        }
-      ],
-      "close_time": "2026-06-20T20:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-38081226",
-      "title": "New York Yankees wins + Tampa Bay Rays +1.5",
-      "payout": 2.15,
-      "tier": "green",
-      "quip": "business as usual",
-      "yes_price": "0.47",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786908?coupon={pickType}|4228884743|{wagerAmount}",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Cincinnati Reds @ New York Yankees + Washington Nationals @ Tampa Bay Rays",
-      "market_type": "2-leg parlay",
-      "american_odds": 115,
-      "implied_probability": 0.465,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Cincinnati Reds @ New York Yankees",
-          "pick": "New York Yankees wins",
-          "odds": -205,
-          "implied_prob": "67%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786908?coupon={pickType}|4228884743|{wagerAmount}",
-          "commence_time": "2026-06-20T17:36:00Z"
-        },
-        {
-          "matchup": "Washington Nationals @ Tampa Bay Rays",
-          "pick": "Tampa Bay Rays +1.5",
-          "odds": -225,
-          "implied_prob": "69%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786865?coupon={pickType}|4229056171|{wagerAmount}",
-          "commence_time": "2026-06-20T20:11:00Z"
-        }
-      ],
-      "close_time": "2026-06-20T17:36:00Z"
-    },
-    {
-      "ticker": "PARLAY-827B0820",
-      "title": "Milwaukee Brewers +1.5 + Tampa Bay Rays +1.5",
-      "payout": 2.15,
-      "tier": "green",
-      "quip": "water is wet",
-      "yes_price": "0.47",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786807?coupon={pickType}|4228900201|{wagerAmount}",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Milwaukee Brewers @ Atlanta Braves + Washington Nationals @ Tampa Bay Rays",
-      "market_type": "2-leg parlay",
-      "american_odds": 115,
-      "implied_probability": 0.465,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Milwaukee Brewers @ Atlanta Braves",
-          "pick": "Milwaukee Brewers +1.5",
-          "odds": -205,
-          "implied_prob": "67%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786807?coupon={pickType}|4228900201|{wagerAmount}",
-          "commence_time": "2026-06-20T20:11:00Z"
-        },
-        {
-          "matchup": "Washington Nationals @ Tampa Bay Rays",
-          "pick": "Tampa Bay Rays +1.5",
-          "odds": -225,
-          "implied_prob": "69%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786865?coupon={pickType}|4229056171|{wagerAmount}",
-          "commence_time": "2026-06-20T20:11:00Z"
-        }
-      ],
-      "close_time": "2026-06-20T20:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-93F356F4",
-      "title": "Philadelphia Eagles wins + Chicago Cubs +1.5",
-      "payout": 2.15,
-      "tier": "green",
-      "quip": "autopilot engaged",
-      "yes_price": "0.47",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Washington Commanders @ Philadelphia Eagles + Toronto Blue Jays @ Chicago Cubs",
-      "market_type": "2-leg parlay",
-      "american_odds": 115,
-      "implied_probability": 0.466,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Washington Commanders @ Philadelphia Eagles",
-          "pick": "Philadelphia Eagles wins",
-          "odds": -215,
-          "implied_prob": "68%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
-          "commence_time": "2026-09-13T20:25:00Z"
-        },
-        {
-          "matchup": "Toronto Blue Jays @ Chicago Cubs",
-          "pick": "Chicago Cubs +1.5",
-          "odds": -215,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786831?coupon={pickType}|4229109032|{wagerAmount}",
-          "commence_time": "2026-06-20T18:21:00Z"
-        }
-      ],
-      "close_time": "2026-06-20T18:21:00Z"
-    },
     {
       "ticker": "PARLAY-B8E90A5C",
       "title": "Philadelphia Eagles wins + Pittsburgh Pirates wins",
       "payout": 2.15,
       "tier": "green",
-      "quip": "bread and butter",
+      "quip": "the boring middle",
       "yes_price": "0.47",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -432,6 +54,384 @@
         }
       ],
       "close_time": "2026-06-21T01:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-70A6AEEC",
+      "title": "Baltimore Ravens wins + Philadelphia Eagles wins",
+      "payout": 2.16,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Baltimore Ravens @ Indianapolis Colts + Washington Commanders @ Philadelphia Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 116,
+      "implied_probability": 0.462,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Washington Commanders @ Philadelphia Eagles",
+          "pick": "Philadelphia Eagles wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+          "commence_time": "2026-09-13T20:25:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-0A3012CA",
+      "title": "Baltimore Ravens wins + Pittsburgh Pirates wins",
+      "payout": 2.16,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Baltimore Ravens @ Indianapolis Colts + Pittsburgh Pirates @ Colorado Rockies",
+      "market_type": "2-leg parlay",
+      "american_odds": 116,
+      "implied_probability": 0.462,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Pittsburgh Pirates @ Colorado Rockies",
+          "pick": "Pittsburgh Pirates wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786842?coupon={pickType}|4228922174|{wagerAmount}",
+          "commence_time": "2026-06-21T01:11:00Z"
+        }
+      ],
+      "close_time": "2026-06-21T01:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-36C8FFD3",
+      "title": "New York Yankees wins + Philadelphia Eagles wins",
+      "payout": 2.16,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786908?coupon={pickType}|4228884743|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Cincinnati Reds @ New York Yankees + Washington Commanders @ Philadelphia Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 116,
+      "implied_probability": 0.462,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Cincinnati Reds @ New York Yankees",
+          "pick": "New York Yankees wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786908?coupon={pickType}|4228884743|{wagerAmount}",
+          "commence_time": "2026-06-20T17:36:00Z"
+        },
+        {
+          "matchup": "Washington Commanders @ Philadelphia Eagles",
+          "pick": "Philadelphia Eagles wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+          "commence_time": "2026-09-13T20:25:00Z"
+        }
+      ],
+      "close_time": "2026-06-20T17:36:00Z"
+    },
+    {
+      "ticker": "PARLAY-C4D938C2",
+      "title": "New York Yankees wins + Pittsburgh Pirates wins",
+      "payout": 2.16,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786908?coupon={pickType}|4228884743|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Cincinnati Reds @ New York Yankees + Pittsburgh Pirates @ Colorado Rockies",
+      "market_type": "2-leg parlay",
+      "american_odds": 116,
+      "implied_probability": 0.462,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Cincinnati Reds @ New York Yankees",
+          "pick": "New York Yankees wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786908?coupon={pickType}|4228884743|{wagerAmount}",
+          "commence_time": "2026-06-20T17:36:00Z"
+        },
+        {
+          "matchup": "Pittsburgh Pirates @ Colorado Rockies",
+          "pick": "Pittsburgh Pirates wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786842?coupon={pickType}|4228922174|{wagerAmount}",
+          "commence_time": "2026-06-21T01:11:00Z"
+        }
+      ],
+      "close_time": "2026-06-20T17:36:00Z"
+    },
+    {
+      "ticker": "PARLAY-06A4B52B",
+      "title": "San Diego Padres +1.5 + Philadelphia Eagles wins",
+      "payout": 2.16,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786782?coupon={pickType}|4228873457|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "San Diego Padres @ Texas Rangers + Washington Commanders @ Philadelphia Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 116,
+      "implied_probability": 0.462,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Diego Padres @ Texas Rangers",
+          "pick": "San Diego Padres +1.5",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786782?coupon={pickType}|4228873457|{wagerAmount}",
+          "commence_time": "2026-06-20T20:06:00Z"
+        },
+        {
+          "matchup": "Washington Commanders @ Philadelphia Eagles",
+          "pick": "Philadelphia Eagles wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+          "commence_time": "2026-09-13T20:25:00Z"
+        }
+      ],
+      "close_time": "2026-06-20T20:06:00Z"
+    },
+    {
+      "ticker": "PARLAY-8543B6B6",
+      "title": "San Diego Padres +1.5 + Pittsburgh Pirates wins",
+      "payout": 2.16,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786782?coupon={pickType}|4228873457|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "San Diego Padres @ Texas Rangers + Pittsburgh Pirates @ Colorado Rockies",
+      "market_type": "2-leg parlay",
+      "american_odds": 116,
+      "implied_probability": 0.462,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Diego Padres @ Texas Rangers",
+          "pick": "San Diego Padres +1.5",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786782?coupon={pickType}|4228873457|{wagerAmount}",
+          "commence_time": "2026-06-20T20:06:00Z"
+        },
+        {
+          "matchup": "Pittsburgh Pirates @ Colorado Rockies",
+          "pick": "Pittsburgh Pirates wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786842?coupon={pickType}|4228922174|{wagerAmount}",
+          "commence_time": "2026-06-21T01:11:00Z"
+        }
+      ],
+      "close_time": "2026-06-20T20:06:00Z"
+    },
+    {
+      "ticker": "PARLAY-68EB3688",
+      "title": "Minnesota Twins +1.5 + Philadelphia Eagles wins",
+      "payout": 2.16,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786795?coupon={pickType}|4228924879|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Minnesota Twins @ Arizona Diamondbacks + Washington Commanders @ Philadelphia Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 116,
+      "implied_probability": 0.462,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Minnesota Twins @ Arizona Diamondbacks",
+          "pick": "Minnesota Twins +1.5",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786795?coupon={pickType}|4228924879|{wagerAmount}",
+          "commence_time": "2026-06-21T02:11:00Z"
+        },
+        {
+          "matchup": "Washington Commanders @ Philadelphia Eagles",
+          "pick": "Philadelphia Eagles wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+          "commence_time": "2026-09-13T20:25:00Z"
+        }
+      ],
+      "close_time": "2026-06-21T02:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-86F844E2",
+      "title": "Minnesota Twins +1.5 + Pittsburgh Pirates wins",
+      "payout": 2.16,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786795?coupon={pickType}|4228924879|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Minnesota Twins @ Arizona Diamondbacks + Pittsburgh Pirates @ Colorado Rockies",
+      "market_type": "2-leg parlay",
+      "american_odds": 116,
+      "implied_probability": 0.462,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Minnesota Twins @ Arizona Diamondbacks",
+          "pick": "Minnesota Twins +1.5",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786795?coupon={pickType}|4228924879|{wagerAmount}",
+          "commence_time": "2026-06-21T02:11:00Z"
+        },
+        {
+          "matchup": "Pittsburgh Pirates @ Colorado Rockies",
+          "pick": "Pittsburgh Pirates wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786842?coupon={pickType}|4228922174|{wagerAmount}",
+          "commence_time": "2026-06-21T01:11:00Z"
+        }
+      ],
+      "close_time": "2026-06-21T01:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-C26E3F0B",
+      "title": "Milwaukee Brewers +1.5 + Philadelphia Eagles wins",
+      "payout": 2.18,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786807?coupon={pickType}|4228900201|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Milwaukee Brewers @ Atlanta Braves + Washington Commanders @ Philadelphia Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 118,
+      "implied_probability": 0.459,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Milwaukee Brewers @ Atlanta Braves",
+          "pick": "Milwaukee Brewers +1.5",
+          "odds": -205,
+          "implied_prob": "67%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786807?coupon={pickType}|4228900201|{wagerAmount}",
+          "commence_time": "2026-06-20T20:11:00Z"
+        },
+        {
+          "matchup": "Washington Commanders @ Philadelphia Eagles",
+          "pick": "Philadelphia Eagles wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+          "commence_time": "2026-09-13T20:25:00Z"
+        }
+      ],
+      "close_time": "2026-06-20T20:11:00Z"
     }
   ]
 }
