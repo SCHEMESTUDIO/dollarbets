@@ -1,25 +1,26 @@
 {
-  "generated_at": "2026-06-20T17:26:42.548565+00:00",
+  "generated_at": "2026-06-20T20:14:54.583928+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
   "source": "odds_api",
   "tier_mix": {
     "yellow": 2,
-    "orange": 3
+    "orange": 2,
+    "red": 1
   },
   "sport_mix": {
-    "MLB": 1,
+    "MLB": 2,
     "NFL": 1,
-    "NCAAF": 3
+    "NCAAF": 2
   },
   "board": [
     {
       "ticker": "SB-A8D2FA45",
-      "title": "Orioles upset the defending champion Dodgers tonight",
+      "title": "Orioles upset the Dodgers in LA tonight",
       "payout": 3.05,
       "tier": "yellow",
-      "quip": "Shohei's postseason armor doesn't apply in May",
+      "quip": "Shohei Ohtani vs. a team from Baltimore \u2014 hold on",
       "yes_price": "0.33",
       "category": "MLB",
       "platform": "betrivers",
@@ -36,10 +37,10 @@
     },
     {
       "ticker": "SB-90231BA3",
-      "title": "Jets hand the Packers a loss tonight",
+      "title": "Jets upset the Packers tonight",
       "payout": 3.35,
       "tier": "yellow",
-      "quip": "Jordan Love has not looked like the guy everyone was excited about",
+      "quip": "Aaron Rodgers-era Jets karma finally cashes out",
       "yes_price": "0.30",
       "category": "NFL",
       "platform": "draftkings",
@@ -55,31 +56,11 @@
       "has_deep_link": true
     },
     {
-      "ticker": "SB-2900BC7E",
-      "title": "Sam Houston State shocks Troy tonight",
-      "payout": 8.2,
-      "tier": "orange",
-      "quip": "the Bearkats have nothing to lose and a very cool mascot",
-      "yes_price": "0.12",
-      "category": "NCAAF",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581874558&selectionId=3346365",
-      "close_time": "2026-09-05T23:00:00Z",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "NCAAF",
-      "matchup": "Sam Houston State Bearkats @ Troy Trojans",
-      "market_type": "h2h",
-      "american_odds": 720,
-      "implied_probability": 0.122,
-      "has_deep_link": true
-    },
-    {
       "ticker": "SB-25FD308A",
-      "title": "Coastal Carolina upsets West Virginia tonight",
+      "title": "Coastal Carolina stuns West Virginia tonight",
       "payout": 8.4,
       "tier": "orange",
-      "quip": "the Chanticleers are literally named after a rooster who outsmarts everyone",
+      "quip": "the Chanticleers are crowing loud enough to shake Morgantown",
       "yes_price": "0.12",
       "category": "NCAAF",
       "platform": "fanduel",
@@ -96,10 +77,10 @@
     },
     {
       "ticker": "SB-674283E3",
-      "title": "Oregon State stuns Houston tonight",
+      "title": "Oregon State upsets Houston on the road",
       "payout": 9.0,
       "tier": "orange",
-      "quip": "the Beavers are building something and dams hold more than you think",
+      "quip": "Corvallis has been through worse \u2014 the Beavers have nothing to lose",
       "yes_price": "0.11",
       "category": "NCAAF",
       "platform": "fanduel",
@@ -112,6 +93,26 @@
       "market_type": "h2h",
       "american_odds": 800,
       "implied_probability": 0.111,
+      "has_deep_link": true
+    },
+    {
+      "ticker": "SB-24D0328E",
+      "title": "Reds somehow beat the Yankees tonight",
+      "payout": 34.0,
+      "tier": "red",
+      "quip": "more likely the ghosts of Babe Ruth pay rent in Cincinnati",
+      "yes_price": "0.03",
+      "category": "MLB",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19707408-1533907061-2228305289&type=Single",
+      "close_time": "2026-06-20T17:36:00Z",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Cincinnati Reds @ New York Yankees",
+      "market_type": "h2h",
+      "american_odds": 3300,
+      "implied_probability": 0.029,
       "has_deep_link": true
     }
   ]
