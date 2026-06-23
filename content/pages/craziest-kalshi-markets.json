@@ -1,5 +1,7 @@
 {
   "slug": "craziest-kalshi-markets",
+  "noindex": true,
+  "noindex_reason": "consolidated into /crazy-kalshi-bets/ via 301 redirect — 2026-06-19",
   "format": "weird_market_roundup",
   "seo": {
     "title": "The Craziest Kalshi Markets Live Right Now | Dollar Bets",

@@ -4,7 +4,7 @@
   "seo": {
     "title": "Funny Prediction Markets Right Now — Funny Polymarket Bets | Dollar Bets",
     "h1": "Funny Prediction Markets Right Now (Polymarket Edition)",
-    "meta_description": "Funny prediction markets, ranked — the most ridiculous Polymarket bets and crazy Polymarket bets: meme coins, celebrity chaos, political absurdity, and questions nobody asked but everyone wants answered. All real, all live on Polymarket.",
+    "meta_description": "Funny prediction markets, ranked — the most ridiculous, craziest, and funniest Polymarket bets: meme coins, celebrity chaos, political absurdity, and questions nobody asked but everyone wants answered. All real, all live on Polymarket.",
     "canonical": "/funny-polymarket-bets/"
   },
   "summary": "Funny prediction markets have a permanent home: it's Polymarket. If you're hunting the funniest bets on the internet, this is the motherlode — meme coins, celebrity scandals, political theater, and questions that have no business being financial instruments — all priced by the crowd, all live right now.",
@@ -38,6 +38,10 @@
     {
       "text": "the hall of filth",
       "url": "/hall-of-filth/"
+    },
+    {
+      "text": "Polymarket vs. Kalshi: craziest markets compared",
+      "url": "/polymarket-vs-kalshi-craziest-markets/"
     },
     {
       "text": "about Dollar Bets",
@@ -143,7 +147,7 @@
     },
     {
       "type": "text",
-      "content": "The tradeoff is trust and structure. Kalshi resolves contracts based on official data sources. Polymarket uses a decentralized oracle system, which occasionally creates disputes about how a market should resolve. The funny bets are funnier on Polymarket, but the resolution is messier. For pure entertainment, Polymarket wins. For clean resolution, Kalshi wins."
+      "content": "The tradeoff is trust and structure. Kalshi resolves contracts based on official data sources. Polymarket uses a decentralized oracle system, which occasionally creates disputes about how a market should resolve. The funny bets are funnier on Polymarket, but the resolution is messier. For pure entertainment, Polymarket wins. For clean resolution, Kalshi wins. For a side-by-side of the craziest markets on each platform right now, see the Polymarket vs. Kalshi comparison."
     },
     {
       "type": "heading",
@@ -174,7 +178,7 @@
   ],
   "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate prediction markets or place bets on behalf of users. Polymarket is a separate platform with its own terms, risks, and regulatory status. Availability varies by jurisdiction. Prediction market contracts involve risk of total loss. Some links may be affiliate links — see our affiliate disclosure.",
   "publish_date": "2026-05-11",
-  "last_updated": "2026-06-17",
+  "last_updated": "2026-06-22",
   "cluster": "Weird Bets",
   "priority": 80
 }
