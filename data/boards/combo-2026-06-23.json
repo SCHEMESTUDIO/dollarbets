@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T11:17:13.531630+00:00",
+  "generated_at": "2026-06-23T17:55:58.908622+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,81 +8,122 @@
     "green": 10
   },
   "sport_mix": {
-    "Multi": 9,
-    "MMA": 1
+    "Multi": 10
   },
   "board": [
     {
-      "ticker": "PARLAY-8111713E",
-      "title": "San Francisco Giants +1.5 + Ikram Aliskerov wins",
-      "payout": 2.01,
+      "ticker": "PARLAY-D2C01747",
+      "title": "Cincinnati Reds +1.5 + Detroit Lions wins",
+      "payout": 2.0,
       "tier": "green",
-      "quip": "the safe bet",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786859?coupon={pickType}|4232270390|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Milwaukee Brewers @ Cincinnati Reds + New Orleans Saints @ Detroit Lions",
+      "market_type": "2-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.5,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Milwaukee Brewers @ Cincinnati Reds",
+          "pick": "Cincinnati Reds +1.5",
+          "odds": -167,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786859?coupon={pickType}|4232270390|{wagerAmount}",
+          "commence_time": "2026-06-23T23:11:00Z"
+        },
+        {
+          "matchup": "New Orleans Saints @ Detroit Lions",
+          "pick": "Detroit Lions wins",
+          "odds": -400,
+          "implied_prob": "80%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663022?coupon={pickType}|4184193832|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-06-23T23:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-585B4AAD",
+      "title": "Philadelphia Eagles wins + Auburn Tigers wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Washington Commanders @ Philadelphia Eagles + Baylor Bears @ Auburn Tigers",
+      "market_type": "2-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.501,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington Commanders @ Philadelphia Eagles",
+          "pick": "Philadelphia Eagles wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Baylor Bears @ Auburn Tigers",
+          "pick": "Auburn Tigers wins",
+          "odds": -275,
+          "implied_prob": "73%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432889?coupon={pickType}|4172192913|{wagerAmount}",
+          "commence_time": "2026-09-05T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-05T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-01423BFD",
+      "title": "Philadelphia Phillies wins + Shara Magomedov wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "the fundamentals",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19734626-1537048165-2236507614&type=Single",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19735080-1537061346-2236545620&type=Single",
       "sport": "baseball_mlb",
       "sport_display": "Multi",
-      "matchup": "Athletics @ San Francisco Giants + Brunno Ferreira @ Ikram Aliskerov",
+      "matchup": "Philadelphia Phillies @ Washington Nationals + Michel Pereira @ Shara Magomedov",
       "market_type": "2-leg parlay",
-      "american_odds": 101,
-      "implied_probability": 0.496,
+      "american_odds": 100,
+      "implied_probability": 0.5,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Athletics @ San Francisco Giants",
-          "pick": "San Francisco Giants +1.5",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19734626-1537048165-2236507614&type=Single",
-          "commence_time": "2026-06-24T01:46:00Z"
-        },
-        {
-          "matchup": "Brunno Ferreira @ Ikram Aliskerov",
-          "pick": "Ikram Aliskerov wins",
-          "odds": -275,
-          "implied_prob": "73%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19707928-1534018617-2228592326&type=Single",
-          "commence_time": "2026-06-27T12:00:00Z"
-        }
-      ],
-      "close_time": "2026-06-24T01:46:00Z"
-    },
-    {
-      "ticker": "PARLAY-77501716",
-      "title": "Detroit Tigers +1.5 + Shara Magomedov wins",
-      "payout": 2.02,
-      "tier": "green",
-      "quip": "the sun also rises",
-      "yes_price": "0.49",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19735077-1537061212-2236545325&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "New York Yankees @ Detroit Tigers + Michel Pereira @ Shara Magomedov",
-      "market_type": "2-leg parlay",
-      "american_odds": 102,
-      "implied_probability": 0.495,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "New York Yankees @ Detroit Tigers",
-          "pick": "Detroit Tigers +1.5",
-          "odds": -175,
+          "matchup": "Philadelphia Phillies @ Washington Nationals",
+          "pick": "Philadelphia Phillies wins",
+          "odds": -180,
           "implied_prob": "64%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19735077-1537061212-2236545325&type=Single",
-          "commence_time": "2026-06-23T22:41:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19735080-1537061346-2236545620&type=Single",
+          "commence_time": "2026-06-23T22:46:00Z"
         },
         {
           "matchup": "Michel Pereira @ Shara Magomedov",
@@ -94,14 +135,266 @@
           "commence_time": "2026-06-27T12:00:00Z"
         }
       ],
+      "close_time": "2026-06-23T22:46:00Z"
+    },
+    {
+      "ticker": "PARLAY-721D7DA3",
+      "title": "San Diego Padres +1.5 + Shara Magomedov wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19734625-1537048063-2236507392&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Atlanta Braves @ San Diego Padres + Michel Pereira @ Shara Magomedov",
+      "market_type": "2-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.5,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Braves @ San Diego Padres",
+          "pick": "San Diego Padres +1.5",
+          "odds": -180,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19734625-1537048063-2236507392&type=Single",
+          "commence_time": "2026-06-24T01:40:00Z"
+        },
+        {
+          "matchup": "Michel Pereira @ Shara Magomedov",
+          "pick": "Shara Magomedov wins",
+          "odds": -350,
+          "implied_prob": "78%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19707925-1534018606-2228592298&type=Single",
+          "commence_time": "2026-06-27T12:00:00Z"
+        }
+      ],
+      "close_time": "2026-06-24T01:40:00Z"
+    },
+    {
+      "ticker": "PARLAY-6CC20A6F",
+      "title": "Pittsburgh Pirates +1.5 + Detroit Lions wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786784?coupon={pickType}|4232269737|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Seattle Mariners @ Pittsburgh Pirates + New Orleans Saints @ Detroit Lions",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Seattle Mariners @ Pittsburgh Pirates",
+          "pick": "Pittsburgh Pirates +1.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786784?coupon={pickType}|4232269737|{wagerAmount}",
+          "commence_time": "2026-06-23T22:41:00Z"
+        },
+        {
+          "matchup": "New Orleans Saints @ Detroit Lions",
+          "pick": "Detroit Lions wins",
+          "odds": -400,
+          "implied_prob": "80%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663022?coupon={pickType}|4184193832|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
       "close_time": "2026-06-23T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-4D9E48BB",
+      "title": "Baltimore Ravens wins + Auburn Tigers wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Baltimore Ravens @ Indianapolis Colts + Baylor Bears @ Auburn Tigers",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.496,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Baylor Bears @ Auburn Tigers",
+          "pick": "Auburn Tigers wins",
+          "odds": -275,
+          "implied_prob": "73%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432889?coupon={pickType}|4172192913|{wagerAmount}",
+          "commence_time": "2026-09-05T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-05T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-A97B6B9E",
+      "title": "New York Mets +1.5 + Auburn Tigers wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786854?coupon={pickType}|4232299061|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Chicago Cubs @ New York Mets + Baylor Bears @ Auburn Tigers",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.496,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Cubs @ New York Mets",
+          "pick": "New York Mets +1.5",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786854?coupon={pickType}|4232299061|{wagerAmount}",
+          "commence_time": "2026-06-23T23:11:00Z"
+        },
+        {
+          "matchup": "Baylor Bears @ Auburn Tigers",
+          "pick": "Auburn Tigers wins",
+          "odds": -275,
+          "implied_prob": "73%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432889?coupon={pickType}|4172192913|{wagerAmount}",
+          "commence_time": "2026-09-05T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-06-23T23:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-27C6B7F7",
+      "title": "Ole Miss Rebels wins + Seattle Seahawks wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Louisville Cardinals @ Ole Miss Rebels + New England Patriots @ Seattle Seahawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Louisville Cardinals @ Ole Miss Rebels",
+          "pick": "Ole Miss Rebels wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+          "commence_time": "2026-09-06T23:30:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
+          "commence_time": "2026-09-10T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-09-06T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-7FCF3684",
+      "title": "Philadelphia Eagles wins + TCU Horned Frogs wins",
+      "payout": 2.02,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Washington Commanders @ Philadelphia Eagles + North Carolina Tar Heels @ TCU Horned Frogs",
+      "market_type": "2-leg parlay",
+      "american_odds": 102,
+      "implied_probability": 0.496,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington Commanders @ Philadelphia Eagles",
+          "pick": "Philadelphia Eagles wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "North Carolina Tar Heels @ TCU Horned Frogs",
+          "pick": "TCU Horned Frogs wins",
+          "odds": -265,
+          "implied_prob": "73%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027397782?coupon={pickType}|4172008357|{wagerAmount}",
+          "commence_time": "2026-08-29T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-29T16:00:00Z"
     },
     {
       "ticker": "PARLAY-8A7E5E1D",
       "title": "Los Angeles Dodgers wins + Shara Magomedov wins",
       "payout": 2.02,
       "tier": "green",
-      "quip": "as sure as gravity",
+      "quip": "clock in, cash out",
       "yes_price": "0.49",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -137,300 +430,6 @@
         }
       ],
       "close_time": "2026-06-23T23:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-EB88E6F1",
-      "title": "Chicago White Sox +1.5 + Shara Magomedov wins",
-      "payout": 1.98,
-      "tier": "green",
-      "quip": "routine maintenance",
-      "yes_price": "0.51",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19734621-1537047675-2236506544&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Cleveland Guardians @ Chicago White Sox + Michel Pereira @ Shara Magomedov",
-      "market_type": "2-leg parlay",
-      "american_odds": -102,
-      "implied_probability": 0.505,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Cleveland Guardians @ Chicago White Sox",
-          "pick": "Chicago White Sox +1.5",
-          "odds": -185,
-          "implied_prob": "65%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19734621-1537047675-2236506544&type=Single",
-          "commence_time": "2026-06-23T23:41:00Z"
-        },
-        {
-          "matchup": "Michel Pereira @ Shara Magomedov",
-          "pick": "Shara Magomedov wins",
-          "odds": -350,
-          "implied_prob": "78%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19707925-1534018606-2228592298&type=Single",
-          "commence_time": "2026-06-27T12:00:00Z"
-        }
-      ],
-      "close_time": "2026-06-23T23:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-F5467AB7",
-      "title": "Seattle Seahawks wins + Ikram Aliskerov wins",
-      "payout": 1.98,
-      "tier": "green",
-      "quip": "business as usual",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "New England Patriots @ Seattle Seahawks + Brunno Ferreira @ Ikram Aliskerov",
-      "market_type": "2-leg parlay",
-      "american_odds": -102,
-      "implied_probability": 0.504,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
-          "commence_time": "2026-09-10T00:15:00Z"
-        },
-        {
-          "matchup": "Brunno Ferreira @ Ikram Aliskerov",
-          "pick": "Ikram Aliskerov wins",
-          "odds": -275,
-          "implied_prob": "73%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19707928-1534018617-2228592326&type=Single",
-          "commence_time": "2026-06-27T12:00:00Z"
-        }
-      ],
-      "close_time": "2026-06-27T12:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-7B912AF6",
-      "title": "Philadelphia Eagles wins + Ikram Aliskerov wins",
-      "payout": 1.98,
-      "tier": "green",
-      "quip": "the boring middle",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552272-1517085436-2185024346&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Washington Commanders @ Philadelphia Eagles + Brunno Ferreira @ Ikram Aliskerov",
-      "market_type": "2-leg parlay",
-      "american_odds": -102,
-      "implied_probability": 0.504,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Washington Commanders @ Philadelphia Eagles",
-          "pick": "Philadelphia Eagles wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552272-1517085436-2185024346&type=Single",
-          "commence_time": "2026-09-13T20:25:00Z"
-        },
-        {
-          "matchup": "Brunno Ferreira @ Ikram Aliskerov",
-          "pick": "Ikram Aliskerov wins",
-          "odds": -275,
-          "implied_prob": "73%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19707928-1534018617-2228592326&type=Single",
-          "commence_time": "2026-06-27T12:00:00Z"
-        }
-      ],
-      "close_time": "2026-06-27T12:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-13108FC7",
-      "title": "Farman Hasanov wins + Shara Magomedov wins",
-      "payout": 2.04,
-      "tier": "green",
-      "quip": "clock in, cash out",
-      "yes_price": "0.49",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19707930-1534018624-2228592344&type=Single",
-      "sport": "mma_mixed_martial_arts",
-      "sport_display": "MMA",
-      "matchup": "Eric Nolan @ Farman Hasanov + Michel Pereira @ Shara Magomedov",
-      "market_type": "2-leg parlay",
-      "american_odds": 104,
-      "implied_probability": 0.49,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Eric Nolan @ Farman Hasanov",
-          "pick": "Farman Hasanov wins",
-          "odds": -170,
-          "implied_prob": "63%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19707930-1534018624-2228592344&type=Single",
-          "commence_time": "2026-06-27T12:00:00Z"
-        },
-        {
-          "matchup": "Michel Pereira @ Shara Magomedov",
-          "pick": "Shara Magomedov wins",
-          "odds": -350,
-          "implied_prob": "78%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19707925-1534018606-2228592298&type=Single",
-          "commence_time": "2026-06-27T12:00:00Z"
-        }
-      ],
-      "close_time": "2026-06-27T12:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-3D28555A",
-      "title": "Las Vegas Raiders wins + Shara Magomedov wins",
-      "payout": 1.96,
-      "tier": "green",
-      "quip": "autopilot engaged",
-      "yes_price": "0.51",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552271-1517085435-2185024344&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Miami Dolphins @ Las Vegas Raiders + Michel Pereira @ Shara Magomedov",
-      "market_type": "2-leg parlay",
-      "american_odds": -104,
-      "implied_probability": 0.51,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Miami Dolphins @ Las Vegas Raiders",
-          "pick": "Las Vegas Raiders wins",
-          "odds": -190,
-          "implied_prob": "66%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552271-1517085435-2185024344&type=Single",
-          "commence_time": "2026-09-13T20:25:00Z"
-        },
-        {
-          "matchup": "Michel Pereira @ Shara Magomedov",
-          "pick": "Shara Magomedov wins",
-          "odds": -350,
-          "implied_prob": "78%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19707925-1534018606-2228592298&type=Single",
-          "commence_time": "2026-06-27T12:00:00Z"
-        }
-      ],
-      "close_time": "2026-06-27T12:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-2D1A1A14",
-      "title": "Tampa Bay Rays wins + Shara Magomedov wins",
-      "payout": 1.96,
-      "tier": "green",
-      "quip": "bread and butter",
-      "yes_price": "0.51",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19735071-1537060947-2236544747&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Kansas City Royals @ Tampa Bay Rays + Michel Pereira @ Shara Magomedov",
-      "market_type": "2-leg parlay",
-      "american_odds": -104,
-      "implied_probability": 0.51,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Kansas City Royals @ Tampa Bay Rays",
-          "pick": "Tampa Bay Rays wins",
-          "odds": -190,
-          "implied_prob": "66%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19735071-1537060947-2236544747&type=Single",
-          "commence_time": "2026-06-23T22:41:00Z"
-        },
-        {
-          "matchup": "Michel Pereira @ Shara Magomedov",
-          "pick": "Shara Magomedov wins",
-          "odds": -350,
-          "implied_prob": "78%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19707925-1534018606-2228592298&type=Single",
-          "commence_time": "2026-06-27T12:00:00Z"
-        }
-      ],
-      "close_time": "2026-06-23T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-1573AC62",
-      "title": "St. Louis Cardinals +1.5 + Shara Magomedov wins",
-      "payout": 1.96,
-      "tier": "green",
-      "quip": "steady hands",
-      "yes_price": "0.51",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19734622-1537047770-2236506752&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Arizona Diamondbacks @ St. Louis Cardinals + Michel Pereira @ Shara Magomedov",
-      "market_type": "2-leg parlay",
-      "american_odds": -104,
-      "implied_probability": 0.51,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Arizona Diamondbacks @ St. Louis Cardinals",
-          "pick": "St. Louis Cardinals +1.5",
-          "odds": -190,
-          "implied_prob": "66%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19734622-1537047770-2236506752&type=Single",
-          "commence_time": "2026-06-23T23:46:00Z"
-        },
-        {
-          "matchup": "Michel Pereira @ Shara Magomedov",
-          "pick": "Shara Magomedov wins",
-          "odds": -350,
-          "implied_prob": "78%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19707925-1534018606-2228592298&type=Single",
-          "commence_time": "2026-06-27T12:00:00Z"
-        }
-      ],
-      "close_time": "2026-06-23T23:46:00Z"
     }
   ]
 }
