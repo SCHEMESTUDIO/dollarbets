@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T05:01:26.189442+00:00",
+  "generated_at": "2026-06-23T07:03:04.663052+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,8 +8,8 @@
     "green": 10
   },
   "sport_mix": {
-    "Multi": 9,
-    "NFL": 1
+    "Multi": 8,
+    "NFL": 2
   },
   "board": [
     {
@@ -17,7 +17,7 @@
       "title": "Los Angeles Dodgers wins + Jacksonville Jaguars wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "water is wet",
+      "quip": "bread and butter",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -59,7 +59,7 @@
       "title": "Philadelphia Eagles wins + Auburn Tigers wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "rent money",
+      "quip": "tuesday energy",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -101,7 +101,7 @@
       "title": "New York Mets +1.5 + Auburn Tigers wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "the sun also rises",
+      "quip": "water is wet",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -181,62 +181,11 @@
       "close_time": "2026-06-23T22:41:00Z"
     },
     {
-      "ticker": "PARLAY-0A737541",
-      "title": "Jacksonville Jaguars wins, Los Angeles Chargers wins + Nazim Sadykhov wins",
-      "payout": 2.0,
-      "tier": "green",
-      "quip": "just showing up",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552262-1517085425-2185024324&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Cleveland Browns @ Jacksonville Jaguars + Arizona Cardinals @ Los Angeles Chargers +1 more",
-      "market_type": "3-leg parlay",
-      "american_odds": 100,
-      "implied_probability": 0.501,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 3,
-      "legs": [
-        {
-          "matchup": "Cleveland Browns @ Jacksonville Jaguars",
-          "pick": "Jacksonville Jaguars wins",
-          "odds": -425,
-          "implied_prob": "81%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552262-1517085425-2185024324&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "Arizona Cardinals @ Los Angeles Chargers",
-          "pick": "Los Angeles Chargers wins",
-          "odds": -650,
-          "implied_prob": "87%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552270-1517085434-2185024342&type=Single",
-          "commence_time": "2026-09-13T20:25:00Z"
-        },
-        {
-          "matchup": "Matheus Camilo @ Nazim Sadykhov",
-          "pick": "Nazim Sadykhov wins",
-          "odds": -250,
-          "implied_prob": "71%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19707926-1534018609-2228592306&type=Single",
-          "commence_time": "2026-06-27T12:00:00Z"
-        }
-      ],
-      "close_time": "2026-06-27T12:00:00Z"
-    },
-    {
       "ticker": "PARLAY-E2DEEB28",
       "title": "Toronto Blue Jays wins + LSU Tigers wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "no surprises here",
+      "quip": "rent money",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -278,7 +227,7 @@
       "title": "Baltimore Ravens wins + Auburn Tigers wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "rent money",
+      "quip": "the fundamentals",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -320,7 +269,7 @@
       "title": "St. Louis Cardinals +1.5 + Auburn Tigers wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "paint drying, but profitable",
+      "quip": "the boring middle",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -362,7 +311,7 @@
       "title": "Athletics +1.5 + Auburn Tigers wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "tuesday energy",
+      "quip": "clock in, cash out",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -404,7 +353,7 @@
       "title": "Pittsburgh Steelers wins + Jacksonville Jaguars wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "the safe bet",
+      "quip": "rent money",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -428,6 +377,48 @@
           "sport": "americanfootball_nfl",
           "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552265-1517085428-2185024330&type=Single",
           "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Cleveland Browns @ Jacksonville Jaguars",
+          "pick": "Jacksonville Jaguars wins",
+          "odds": -425,
+          "implied_prob": "81%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552262-1517085425-2185024324&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-B37FDC50",
+      "title": "Kansas City Chiefs wins + Jacksonville Jaguars wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19546497-1516420122-2183337419&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Denver Broncos @ Kansas City Chiefs + Cleveland Browns @ Jacksonville Jaguars",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Denver Broncos @ Kansas City Chiefs",
+          "pick": "Kansas City Chiefs wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19546497-1516420122-2183337419&type=Single",
+          "commence_time": "2026-09-15T00:15:00Z"
         },
         {
           "matchup": "Cleveland Browns @ Jacksonville Jaguars",
