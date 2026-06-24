@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T05:02:14.409943+00:00",
+  "generated_at": "2026-06-24T07:02:31.971236+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -15,10 +15,10 @@
   "board": [
     {
       "ticker": "SB-4E9577E5",
-      "title": "Colts pull the upset over the Chiefs tonight",
+      "title": "Colts pull off the upset in Kansas City tonight",
       "payout": 3.1,
       "tier": "yellow",
-      "quip": "Patrick Mahomes is 0-1 against naptime energy \u2014 until he isn't",
+      "quip": "Patrick Mahomes hasn't seen a pocket collapse like Charli XCX has seen a comeback",
       "yes_price": "0.32",
       "category": "NFL",
       "platform": "draftkings",
@@ -35,10 +35,10 @@
     },
     {
       "ticker": "SB-90231BA3",
-      "title": "Jets stun the Packers in New York tonight",
+      "title": "Jets stun the Packers at MetLife tonight",
       "payout": 3.4,
       "tier": "yellow",
-      "quip": "Aaron Rodgers walks back into Lambeau's nightmares from the wrong sideline",
+      "quip": "Aaron Rodgers finally gets revenge on his old team in the wrong uniform",
       "yes_price": "0.29",
       "category": "NFL",
       "platform": "draftkings",
@@ -55,10 +55,10 @@
     },
     {
       "ticker": "SB-2900BC7E",
-      "title": "Sam Houston State stuns Troy on the road tonight",
+      "title": "Sam Houston State upsets Troy on the road tonight",
       "payout": 8.5,
       "tier": "orange",
-      "quip": "Bearkats been waiting their whole lives for this moment, Eminem style",
+      "quip": "Sam Houston walked into the Alamo and they're doing it again",
       "yes_price": "0.12",
       "category": "NCAAF",
       "platform": "draftkings",
@@ -75,7 +75,7 @@
     },
     {
       "ticker": "SB-674283E3",
-      "title": "Oregon State upsets Houston in the Cougars' own house tonight",
+      "title": "Oregon State shocks Houston in the Cougars' own house",
       "payout": 9.0,
       "tier": "orange",
       "quip": "the Beavers have nothing left to lose and that's terrifying",
@@ -95,10 +95,10 @@
     },
     {
       "ticker": "SB-25FD308A",
-      "title": "Coastal Carolina shocks West Virginia in Morgantown tonight",
+      "title": "Coastal Carolina stuns West Virginia in Morgantown tonight",
       "payout": 10.0,
       "tier": "orange",
-      "quip": "the Chanticleers are one Appalachian Trail detour from irrelevance \u2014 perfect chaos energy",
+      "quip": "the Chanticleers crowing at altitude, which is insane behavior",
       "yes_price": "0.10",
       "category": "NCAAF",
       "platform": "draftkings",
