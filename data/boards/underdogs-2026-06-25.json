@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T05:05:50.304347+00:00",
+  "generated_at": "2026-06-25T07:02:18.364503+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -15,10 +15,10 @@
   "board": [
     {
       "ticker": "SB-4E9577E5",
-      "title": "Colts pull the upset over Chiefs tonight",
+      "title": "Colts stun the Chiefs in Kansas City tonight",
       "payout": 3.1,
       "tier": "yellow",
-      "quip": "somebody has to end the Patrick Mahomes cinematic universe",
+      "quip": "Patrick Mahomes has seen this horror movie before",
       "yes_price": "0.32",
       "category": "NFL",
       "platform": "draftkings",
@@ -35,10 +35,10 @@
     },
     {
       "ticker": "SB-90231BA3",
-      "title": "Jets upset the Packers in Green Bay tonight",
+      "title": "Jets shock the Packers in New York tonight",
       "payout": 3.4,
       "tier": "yellow",
-      "quip": "Aaron Rodgers spent four years there and still left sad",
+      "quip": "Aaron Rodgers revenge arc, finally loading",
       "yes_price": "0.29",
       "category": "NFL",
       "platform": "draftkings",
@@ -55,7 +55,7 @@
     },
     {
       "ticker": "SB-2900BC7E",
-      "title": "Sam Houston State shocks Troy on the road",
+      "title": "Sam Houston State stuns Troy on the road tonight",
       "payout": 8.5,
       "tier": "orange",
       "quip": "the Bearkats have nothing to lose and everything to Bearkat",
@@ -75,10 +75,10 @@
     },
     {
       "ticker": "SB-674283E3",
-      "title": "Oregon State upsets Houston in the Cougars' own house",
+      "title": "Oregon State shocks Houston in the Cougars' own house",
       "payout": 9.0,
       "tier": "orange",
-      "quip": "Phil Knight didn't fund this program but the Beavers showed up anyway",
+      "quip": "the Beavers are homeless this season \u2014 road games are their home games now",
       "yes_price": "0.11",
       "category": "NCAAF",
       "platform": "fanduel",
@@ -95,10 +95,10 @@
     },
     {
       "ticker": "SB-25FD308A",
-      "title": "Coastal Carolina stuns West Virginia in Morgantown",
+      "title": "Coastal Carolina upsets West Virginia in Morgantown tonight",
       "payout": 10.0,
       "tier": "orange",
-      "quip": "the Chanticleers crowing loud enough to echo through Appalachia",
+      "quip": "the Chanticleers crowing in the mountains like some kind of cursed fairytale",
       "yes_price": "0.10",
       "category": "NCAAF",
       "platform": "draftkings",
