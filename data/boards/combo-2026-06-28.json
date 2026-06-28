@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T07:02:32.444322+00:00",
+  "generated_at": "2026-06-28T10:28:21.035291+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,16 +8,269 @@
     "green": 10
   },
   "sport_mix": {
-    "MLB": 3,
-    "Multi": 7
+    "Multi": 6,
+    "NFL": 3,
+    "MLB": 1
   },
   "board": [
+    {
+      "ticker": "PARLAY-A6971C93",
+      "title": "Milwaukee Brewers wins + Seattle Seahawks wins",
+      "payout": 2.15,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.47",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19746424-1538129589-2239447065&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Chicago Cubs @ Milwaukee Brewers + New England Patriots @ Seattle Seahawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 115,
+      "implied_probability": 0.466,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Cubs @ Milwaukee Brewers",
+          "pick": "Milwaukee Brewers wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19746424-1538129589-2239447065&type=Single",
+          "commence_time": "2026-06-28T18:11:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -220,
+          "implied_prob": "69%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
+          "commence_time": "2026-09-10T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-06-28T18:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-81B1BE55",
+      "title": "St. Louis Cardinals +1.5 + Seattle Seahawks wins",
+      "payout": 2.15,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.47",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19745507-1538013588-2239089283&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Miami Marlins @ St. Louis Cardinals + New England Patriots @ Seattle Seahawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 115,
+      "implied_probability": 0.466,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Marlins @ St. Louis Cardinals",
+          "pick": "St. Louis Cardinals +1.5",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19745507-1538013588-2239089283&type=Single",
+          "commence_time": "2026-06-28T18:16:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -220,
+          "implied_prob": "69%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
+          "commence_time": "2026-09-10T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-06-28T18:16:00Z"
+    },
+    {
+      "ticker": "PARLAY-F2CBFC47",
+      "title": "Los Angeles Rams wins + Seattle Seahawks wins",
+      "payout": 2.18,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19517677-1513112052-2174833017&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "San Francisco 49ers @ Los Angeles Rams + New England Patriots @ Seattle Seahawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 118,
+      "implied_probability": 0.459,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Francisco 49ers @ Los Angeles Rams",
+          "pick": "Los Angeles Rams wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19517677-1513112052-2174833017&type=Single",
+          "commence_time": "2026-09-11T00:35:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -220,
+          "implied_prob": "69%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
+          "commence_time": "2026-09-10T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-09-10T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-6D1A8EC2",
+      "title": "Baltimore Ravens wins + Seattle Seahawks wins",
+      "payout": 2.18,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Baltimore Ravens @ Indianapolis Colts + New England Patriots @ Seattle Seahawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 118,
+      "implied_probability": 0.459,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -220,
+          "implied_prob": "69%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
+          "commence_time": "2026-09-10T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-09-10T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-7AD8E6B0",
+      "title": "Cincinnati Bengals wins + Seattle Seahawks wins",
+      "payout": 2.18,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + New England Patriots @ Seattle Seahawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 118,
+      "implied_probability": 0.459,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+          "pick": "Cincinnati Bengals wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -220,
+          "implied_prob": "69%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
+          "commence_time": "2026-09-10T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-09-10T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-90E499FE",
+      "title": "Baltimore Orioles wins + Seattle Seahawks wins",
+      "payout": 2.18,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19745492-1538012066-2239085376&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Washington Nationals @ Baltimore Orioles + New England Patriots @ Seattle Seahawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 118,
+      "implied_probability": 0.459,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington Nationals @ Baltimore Orioles",
+          "pick": "Baltimore Orioles wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19745492-1538012066-2239085376&type=Single",
+          "commence_time": "2026-06-28T17:36:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -220,
+          "implied_prob": "69%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
+          "commence_time": "2026-09-10T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-06-28T17:36:00Z"
+    },
     {
       "ticker": "PARLAY-EFCA7649",
       "title": "Milwaukee Brewers wins + St. Louis Cardinals +1.5",
       "payout": 2.18,
       "tier": "green",
-      "quip": "no surprises here",
+      "quip": "paint drying, but profitable",
       "yes_price": "0.46",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -55,95 +308,11 @@
       "close_time": "2026-06-28T18:11:00Z"
     },
     {
-      "ticker": "PARLAY-DB5D4C6E",
-      "title": "Milwaukee Brewers wins + Boston Red Sox +1.5",
-      "payout": 2.18,
-      "tier": "green",
-      "quip": "the fundamentals",
-      "yes_price": "0.46",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19746424-1538129589-2239447065&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Chicago Cubs @ Milwaukee Brewers + New York Yankees @ Boston Red Sox",
-      "market_type": "2-leg parlay",
-      "american_odds": 118,
-      "implied_probability": 0.458,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Chicago Cubs @ Milwaukee Brewers",
-          "pick": "Milwaukee Brewers wins",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19746424-1538129589-2239447065&type=Single",
-          "commence_time": "2026-06-28T18:11:00Z"
-        },
-        {
-          "matchup": "New York Yankees @ Boston Red Sox",
-          "pick": "Boston Red Sox +1.5",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19745511-1538013966-2239090111&type=Single",
-          "commence_time": "2026-06-28T23:21:00Z"
-        }
-      ],
-      "close_time": "2026-06-28T18:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-DC0AD66D",
-      "title": "St. Louis Cardinals +1.5 + Boston Red Sox +1.5",
-      "payout": 2.18,
-      "tier": "green",
-      "quip": "as sure as gravity",
-      "yes_price": "0.46",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19745507-1538013588-2239089283&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Miami Marlins @ St. Louis Cardinals + New York Yankees @ Boston Red Sox",
-      "market_type": "2-leg parlay",
-      "american_odds": 118,
-      "implied_probability": 0.458,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Miami Marlins @ St. Louis Cardinals",
-          "pick": "St. Louis Cardinals +1.5",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19745507-1538013588-2239089283&type=Single",
-          "commence_time": "2026-06-28T18:16:00Z"
-        },
-        {
-          "matchup": "New York Yankees @ Boston Red Sox",
-          "pick": "Boston Red Sox +1.5",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19745511-1538013966-2239090111&type=Single",
-          "commence_time": "2026-06-28T23:21:00Z"
-        }
-      ],
-      "close_time": "2026-06-28T18:16:00Z"
-    },
-    {
       "ticker": "PARLAY-8A963E8D",
       "title": "Los Angeles Rams wins + Milwaukee Brewers wins",
       "payout": 2.21,
       "tier": "green",
-      "quip": "the fundamentals",
+      "quip": "just showing up",
       "yes_price": "0.45",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -185,7 +354,7 @@
       "title": "Los Angeles Rams wins + St. Louis Cardinals +1.5",
       "payout": 2.21,
       "tier": "green",
-      "quip": "just showing up",
+      "quip": "tuesday energy",
       "yes_price": "0.45",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -223,53 +392,11 @@
       "close_time": "2026-06-28T18:16:00Z"
     },
     {
-      "ticker": "PARLAY-847C52A8",
-      "title": "Los Angeles Rams wins + Boston Red Sox +1.5",
-      "payout": 2.21,
-      "tier": "green",
-      "quip": "routine maintenance",
-      "yes_price": "0.45",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19517677-1513112052-2174833017&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "San Francisco 49ers @ Los Angeles Rams + New York Yankees @ Boston Red Sox",
-      "market_type": "2-leg parlay",
-      "american_odds": 121,
-      "implied_probability": 0.452,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "San Francisco 49ers @ Los Angeles Rams",
-          "pick": "Los Angeles Rams wins",
-          "odds": -200,
-          "implied_prob": "67%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19517677-1513112052-2174833017&type=Single",
-          "commence_time": "2026-09-11T00:35:00Z"
-        },
-        {
-          "matchup": "New York Yankees @ Boston Red Sox",
-          "pick": "Boston Red Sox +1.5",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19745511-1538013966-2239090111&type=Single",
-          "commence_time": "2026-06-28T23:21:00Z"
-        }
-      ],
-      "close_time": "2026-06-28T23:21:00Z"
-    },
-    {
       "ticker": "PARLAY-899A7882",
       "title": "Baltimore Ravens wins + Milwaukee Brewers wins",
       "payout": 2.21,
       "tier": "green",
-      "quip": "steady hands",
+      "quip": "checking all the boxes",
       "yes_price": "0.45",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -292,132 +419,6 @@
           "implied_prob": "67%",
           "sport": "americanfootball_nfl",
           "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "Chicago Cubs @ Milwaukee Brewers",
-          "pick": "Milwaukee Brewers wins",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19746424-1538129589-2239447065&type=Single",
-          "commence_time": "2026-06-28T18:11:00Z"
-        }
-      ],
-      "close_time": "2026-06-28T18:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-4017FD04",
-      "title": "Baltimore Ravens wins + St. Louis Cardinals +1.5",
-      "payout": 2.21,
-      "tier": "green",
-      "quip": "paint drying, but profitable",
-      "yes_price": "0.45",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Baltimore Ravens @ Indianapolis Colts + Miami Marlins @ St. Louis Cardinals",
-      "market_type": "2-leg parlay",
-      "american_odds": 121,
-      "implied_probability": 0.452,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Baltimore Ravens @ Indianapolis Colts",
-          "pick": "Baltimore Ravens wins",
-          "odds": -200,
-          "implied_prob": "67%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "Miami Marlins @ St. Louis Cardinals",
-          "pick": "St. Louis Cardinals +1.5",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19745507-1538013588-2239089283&type=Single",
-          "commence_time": "2026-06-28T18:16:00Z"
-        }
-      ],
-      "close_time": "2026-06-28T18:16:00Z"
-    },
-    {
-      "ticker": "PARLAY-65A6DF11",
-      "title": "Baltimore Ravens wins + Boston Red Sox +1.5",
-      "payout": 2.21,
-      "tier": "green",
-      "quip": "another day at the office",
-      "yes_price": "0.45",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Baltimore Ravens @ Indianapolis Colts + New York Yankees @ Boston Red Sox",
-      "market_type": "2-leg parlay",
-      "american_odds": 121,
-      "implied_probability": 0.452,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Baltimore Ravens @ Indianapolis Colts",
-          "pick": "Baltimore Ravens wins",
-          "odds": -200,
-          "implied_prob": "67%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "New York Yankees @ Boston Red Sox",
-          "pick": "Boston Red Sox +1.5",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19745511-1538013966-2239090111&type=Single",
-          "commence_time": "2026-06-28T23:21:00Z"
-        }
-      ],
-      "close_time": "2026-06-28T23:21:00Z"
-    },
-    {
-      "ticker": "PARLAY-50E1DE66",
-      "title": "Cincinnati Bengals wins + Milwaukee Brewers wins",
-      "payout": 2.21,
-      "tier": "green",
-      "quip": "steady hands",
-      "yes_price": "0.45",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + Chicago Cubs @ Milwaukee Brewers",
-      "market_type": "2-leg parlay",
-      "american_odds": 121,
-      "implied_probability": 0.452,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
-          "pick": "Cincinnati Bengals wins",
-          "odds": -200,
-          "implied_prob": "67%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
           "commence_time": "2026-09-13T17:00:00Z"
         },
         {
