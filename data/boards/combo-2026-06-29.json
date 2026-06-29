@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T18:09:34.145293+00:00",
+  "generated_at": "2026-06-29T20:49:41.249991+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -9,8 +9,7 @@
   },
   "sport_mix": {
     "NCAAF": 5,
-    "Multi": 4,
-    "NFL": 1
+    "Multi": 5
   },
   "board": [
     {
@@ -18,7 +17,7 @@
       "title": "Texas Longhorns wins + Notre Dame Fighting Irish wins",
       "payout": 2.06,
       "tier": "green",
-      "quip": "clock in, cash out",
+      "quip": "water is wet",
       "yes_price": "0.49",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -60,7 +59,7 @@
       "title": "Philadelphia Eagles wins + Texas Longhorns wins",
       "payout": 2.1,
       "tier": "green",
-      "quip": "just showing up",
+      "quip": "rent money",
       "yes_price": "0.48",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -102,7 +101,7 @@
       "title": "Philadelphia Eagles wins + Notre Dame Fighting Irish wins",
       "payout": 2.1,
       "tier": "green",
-      "quip": "as sure as gravity",
+      "quip": "tuesday energy",
       "yes_price": "0.48",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -144,7 +143,7 @@
       "title": "Baltimore Ravens wins + Texas Longhorns wins",
       "payout": 2.12,
       "tier": "green",
-      "quip": "rent money",
+      "quip": "water is wet",
       "yes_price": "0.47",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -186,7 +185,7 @@
       "title": "Baltimore Ravens wins + Notre Dame Fighting Irish wins",
       "payout": 2.12,
       "tier": "green",
-      "quip": "as sure as gravity",
+      "quip": "tuesday energy",
       "yes_price": "0.47",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -224,53 +223,11 @@
       "close_time": "2026-09-13T17:00:00Z"
     },
     {
-      "ticker": "PARLAY-81B67584",
-      "title": "Seattle Seahawks wins + Philadelphia Eagles wins",
-      "payout": 2.12,
-      "tier": "green",
-      "quip": "routine maintenance",
-      "yes_price": "0.47",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "NFL",
-      "matchup": "New England Patriots @ Seattle Seahawks + Washington Commanders @ Philadelphia Eagles",
-      "market_type": "2-leg parlay",
-      "american_odds": 112,
-      "implied_probability": 0.473,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
-          "commence_time": "2026-09-10T00:15:00Z"
-        },
-        {
-          "matchup": "Washington Commanders @ Philadelphia Eagles",
-          "pick": "Philadelphia Eagles wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552272-1517085436-2185024346&type=Single",
-          "commence_time": "2026-09-13T20:25:00Z"
-        }
-      ],
-      "close_time": "2026-09-10T00:15:00Z"
-    },
-    {
       "ticker": "PARLAY-79D65E99",
       "title": "Virginia Cavaliers wins + Texas Longhorns wins",
       "payout": 2.15,
       "tier": "green",
-      "quip": "as sure as gravity",
+      "quip": "the fundamentals",
       "yes_price": "0.47",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -312,7 +269,7 @@
       "title": "Virginia Cavaliers wins + Notre Dame Fighting Irish wins",
       "payout": 2.15,
       "tier": "green",
-      "quip": "the fundamentals",
+      "quip": "the sun also rises",
       "yes_price": "0.47",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -354,7 +311,7 @@
       "title": "UNLV Rebels wins + Texas Longhorns wins",
       "payout": 2.15,
       "tier": "green",
-      "quip": "the fundamentals",
+      "quip": "tuesday energy",
       "yes_price": "0.47",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -396,7 +353,7 @@
       "title": "UNLV Rebels wins + Notre Dame Fighting Irish wins",
       "payout": 2.15,
       "tier": "green",
-      "quip": "as sure as gravity",
+      "quip": "autopilot engaged",
       "yes_price": "0.47",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -432,6 +389,48 @@
         }
       ],
       "close_time": "2026-08-30T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-9C7A872E",
+      "title": "Cincinnati Bengals wins + Texas Longhorns wins",
+      "payout": 2.15,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.47",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663019?coupon={pickType}|4184193920|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + Texas Longhorns @ Oklahoma Sooners",
+      "market_type": "2-leg parlay",
+      "american_odds": 115,
+      "implied_probability": 0.465,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+          "pick": "Cincinnati Bengals wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663019?coupon={pickType}|4184193920|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Texas Longhorns @ Oklahoma Sooners",
+          "pick": "Texas Longhorns wins",
+          "odds": -230,
+          "implied_prob": "70%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508024?coupon={pickType}|4237014408|{wagerAmount}",
+          "commence_time": "2026-10-10T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
     }
   ]
 }
