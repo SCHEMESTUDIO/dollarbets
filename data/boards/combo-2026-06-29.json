@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T07:02:48.924929+00:00",
+  "generated_at": "2026-06-29T12:35:51.678473+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -17,7 +17,7 @@
       "title": "Pittsburgh Steelers wins + Jacksonville Jaguars wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "water is wet",
+      "quip": "business as usual",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -59,7 +59,7 @@
       "title": "Kansas City Chiefs wins + Jacksonville Jaguars wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "water is wet",
+      "quip": "the boring middle",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -97,61 +97,19 @@
       "close_time": "2026-09-13T17:00:00Z"
     },
     {
-      "ticker": "PARLAY-DF9B4C94",
-      "title": "Chicago Cubs wins + Jacksonville Jaguars wins",
+      "ticker": "PARLAY-70D28E0A",
+      "title": "Boston Red Sox wins + Detroit Lions wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "tuesday energy",
+      "quip": "steady hands",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19766140-1539543350-2243720222&type=Single",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19766149-1539544228-2243722145&type=Single",
       "sport": "baseball_mlb",
       "sport_display": "Multi",
-      "matchup": "San Diego Padres @ Chicago Cubs + Cleveland Browns @ Jacksonville Jaguars",
-      "market_type": "2-leg parlay",
-      "american_odds": 101,
-      "implied_probability": 0.498,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "San Diego Padres @ Chicago Cubs",
-          "pick": "Chicago Cubs wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19766140-1539543350-2243720222&type=Single",
-          "commence_time": "2026-06-30T00:06:00Z"
-        },
-        {
-          "matchup": "Cleveland Browns @ Jacksonville Jaguars",
-          "pick": "Jacksonville Jaguars wins",
-          "odds": -425,
-          "implied_prob": "81%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552262-1517085425-2185024324&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
-        }
-      ],
-      "close_time": "2026-06-30T00:06:00Z"
-    },
-    {
-      "ticker": "PARLAY-ED312AFD",
-      "title": "Cincinnati Reds +1.5 + Detroit Lions wins",
-      "payout": 2.01,
-      "tier": "green",
-      "quip": "bread and butter",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19766139-1539543235-2243719945&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Cincinnati Reds @ Milwaukee Brewers + New Orleans Saints @ Detroit Lions",
+      "matchup": "Washington Nationals @ Boston Red Sox + New Orleans Saints @ Detroit Lions",
       "market_type": "2-leg parlay",
       "american_odds": 101,
       "implied_probability": 0.497,
@@ -160,13 +118,13 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Cincinnati Reds @ Milwaukee Brewers",
-          "pick": "Cincinnati Reds +1.5",
+          "matchup": "Washington Nationals @ Boston Red Sox",
+          "pick": "Boston Red Sox wins",
           "odds": -170,
           "implied_prob": "63%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19766139-1539543235-2243719945&type=Single",
-          "commence_time": "2026-06-29T23:41:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19766149-1539544228-2243722145&type=Single",
+          "commence_time": "2026-06-29T23:11:00Z"
         },
         {
           "matchup": "New Orleans Saints @ Detroit Lions",
@@ -178,22 +136,22 @@
           "commence_time": "2026-09-13T17:00:00Z"
         }
       ],
-      "close_time": "2026-06-29T23:41:00Z"
+      "close_time": "2026-06-29T23:11:00Z"
     },
     {
-      "ticker": "PARLAY-613A9799",
-      "title": "Cincinnati Reds +1.5 + Dricus Du Plessis wins",
+      "ticker": "PARLAY-1E7E5ADA",
+      "title": "Boston Red Sox wins + Dricus Du Plessis wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "water is wet",
+      "quip": "another day at the office",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19766139-1539543235-2243719945&type=Single",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19766149-1539544228-2243722145&type=Single",
       "sport": "baseball_mlb",
       "sport_display": "Multi",
-      "matchup": "Cincinnati Reds @ Milwaukee Brewers + Kamaru Usman @ Dricus Du Plessis",
+      "matchup": "Washington Nationals @ Boston Red Sox + Kamaru Usman @ Dricus Du Plessis",
       "market_type": "2-leg parlay",
       "american_odds": 101,
       "implied_probability": 0.497,
@@ -202,13 +160,13 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Cincinnati Reds @ Milwaukee Brewers",
-          "pick": "Cincinnati Reds +1.5",
+          "matchup": "Washington Nationals @ Boston Red Sox",
+          "pick": "Boston Red Sox wins",
           "odds": -170,
           "implied_prob": "63%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19766139-1539543235-2243719945&type=Single",
-          "commence_time": "2026-06-29T23:41:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19766149-1539544228-2243722145&type=Single",
+          "commence_time": "2026-06-29T23:11:00Z"
         },
         {
           "matchup": "Kamaru Usman @ Dricus Du Plessis",
@@ -220,14 +178,14 @@
           "commence_time": "2026-07-19T04:30:00Z"
         }
       ],
-      "close_time": "2026-06-29T23:41:00Z"
+      "close_time": "2026-06-29T23:11:00Z"
     },
     {
       "ticker": "PARLAY-8D72EBC0",
       "title": "Chicago White Sox +1.5 + Detroit Lions wins",
       "payout": 1.99,
       "tier": "green",
-      "quip": "as sure as gravity",
+      "quip": "autopilot engaged",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -269,7 +227,7 @@
       "title": "Chicago White Sox +1.5 + Dricus Du Plessis wins",
       "payout": 1.99,
       "tier": "green",
-      "quip": "the safe bet",
+      "quip": "the sun also rises",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -307,95 +265,11 @@
       "close_time": "2026-06-29T22:36:00Z"
     },
     {
-      "ticker": "PARLAY-A242E437",
-      "title": "San Francisco Giants +1.5 + Detroit Lions wins",
-      "payout": 1.99,
-      "tier": "green",
-      "quip": "as sure as gravity",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19766142-1539543554-2243720670&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "San Francisco Giants @ Arizona Diamondbacks + New Orleans Saints @ Detroit Lions",
-      "market_type": "2-leg parlay",
-      "american_odds": -101,
-      "implied_probability": 0.502,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "San Francisco Giants @ Arizona Diamondbacks",
-          "pick": "San Francisco Giants +1.5",
-          "odds": -175,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19766142-1539543554-2243720670&type=Single",
-          "commence_time": "2026-06-30T01:41:00Z"
-        },
-        {
-          "matchup": "New Orleans Saints @ Detroit Lions",
-          "pick": "Detroit Lions wins",
-          "odds": -375,
-          "implied_prob": "79%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552269-1517085433-2185024340&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
-        }
-      ],
-      "close_time": "2026-06-30T01:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-CB0E36BF",
-      "title": "San Francisco Giants +1.5 + Dricus Du Plessis wins",
-      "payout": 1.99,
-      "tier": "green",
-      "quip": "another day at the office",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19766142-1539543554-2243720670&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "San Francisco Giants @ Arizona Diamondbacks + Kamaru Usman @ Dricus Du Plessis",
-      "market_type": "2-leg parlay",
-      "american_odds": -101,
-      "implied_probability": 0.502,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "San Francisco Giants @ Arizona Diamondbacks",
-          "pick": "San Francisco Giants +1.5",
-          "odds": -175,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19766142-1539543554-2243720670&type=Single",
-          "commence_time": "2026-06-30T01:41:00Z"
-        },
-        {
-          "matchup": "Kamaru Usman @ Dricus Du Plessis",
-          "pick": "Dricus Du Plessis wins",
-          "odds": -375,
-          "implied_prob": "79%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19748620-1538307680-2239965812&type=Single",
-          "commence_time": "2026-07-19T04:30:00Z"
-        }
-      ],
-      "close_time": "2026-06-30T01:41:00Z"
-    },
-    {
       "ticker": "PARLAY-8695E90C",
       "title": "Buffalo Bills wins + Jacksonville Jaguars wins",
       "payout": 1.98,
       "tier": "green",
-      "quip": "the sun also rises",
+      "quip": "routine maintenance",
       "yes_price": "0.51",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -431,6 +305,141 @@
         }
       ],
       "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-2E40A11F",
+      "title": "Cincinnati Reds +1.5 + Jacksonville Jaguars wins",
+      "payout": 1.98,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.51",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19766139-1539543235-2243719945&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Cincinnati Reds @ Milwaukee Brewers + Cleveland Browns @ Jacksonville Jaguars",
+      "market_type": "2-leg parlay",
+      "american_odds": -102,
+      "implied_probability": 0.505,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Cincinnati Reds @ Milwaukee Brewers",
+          "pick": "Cincinnati Reds +1.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19766139-1539543235-2243719945&type=Single",
+          "commence_time": "2026-06-29T23:41:00Z"
+        },
+        {
+          "matchup": "Cleveland Browns @ Jacksonville Jaguars",
+          "pick": "Jacksonville Jaguars wins",
+          "odds": -425,
+          "implied_prob": "81%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552262-1517085425-2185024324&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-06-29T23:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-3C9FC6E1",
+      "title": "Athletics +1.5 + Jacksonville Jaguars wins",
+      "payout": 1.98,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.51",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19766150-1539544327-2243722361&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Los Angeles Dodgers @ Athletics + Cleveland Browns @ Jacksonville Jaguars",
+      "market_type": "2-leg parlay",
+      "american_odds": -102,
+      "implied_probability": 0.505,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles Dodgers @ Athletics",
+          "pick": "Athletics +1.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19766150-1539544327-2243722361&type=Single",
+          "commence_time": "2026-06-30T01:41:00Z"
+        },
+        {
+          "matchup": "Cleveland Browns @ Jacksonville Jaguars",
+          "pick": "Jacksonville Jaguars wins",
+          "odds": -425,
+          "implied_prob": "81%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552262-1517085425-2185024324&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-06-30T01:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-86766C31",
+      "title": "Detroit Lions wins, Dricus Du Plessis wins + Jacksonville Jaguars wins",
+      "payout": 1.98,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552269-1517085433-2185024340&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "New Orleans Saints @ Detroit Lions + Kamaru Usman @ Dricus Du Plessis +1 more",
+      "market_type": "3-leg parlay",
+      "american_odds": -102,
+      "implied_probability": 0.504,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 3,
+      "legs": [
+        {
+          "matchup": "New Orleans Saints @ Detroit Lions",
+          "pick": "Detroit Lions wins",
+          "odds": -375,
+          "implied_prob": "79%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552269-1517085433-2185024340&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Kamaru Usman @ Dricus Du Plessis",
+          "pick": "Dricus Du Plessis wins",
+          "odds": -375,
+          "implied_prob": "79%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19748620-1538307680-2239965812&type=Single",
+          "commence_time": "2026-07-19T04:30:00Z"
+        },
+        {
+          "matchup": "Cleveland Browns @ Jacksonville Jaguars",
+          "pick": "Jacksonville Jaguars wins",
+          "odds": -425,
+          "implied_prob": "81%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552262-1517085425-2185024324&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-07-19T04:30:00Z"
     }
   ]
 }
