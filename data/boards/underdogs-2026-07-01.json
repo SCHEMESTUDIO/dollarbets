@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T11:23:42.811085+00:00",
+  "generated_at": "2026-07-01T17:55:41.114815+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -10,15 +10,16 @@
   },
   "sport_mix": {
     "NFL": 2,
-    "NCAAF": 3
+    "NCAAF": 2,
+    "MLB": 1
   },
   "board": [
     {
       "ticker": "SB-4E9577E5",
-      "title": "Colts walk into Arrowhead and shock the Chiefs",
+      "title": "Colts pull off the upset over the Chiefs tonight",
       "payout": 3.05,
       "tier": "yellow",
-      "quip": "Patrick Mahomes has had easier Sundays",
+      "quip": "Patrick Mahomes hasn't seen a script this bad since his State Farm ad",
       "yes_price": "0.33",
       "category": "NFL",
       "platform": "draftkings",
@@ -35,10 +36,10 @@
     },
     {
       "ticker": "SB-90231BA3",
-      "title": "Jets stun the Packers at home tonight",
+      "title": "Jets shock the Packers in New York tonight",
       "payout": 3.4,
       "tier": "yellow",
-      "quip": "Rodgers traded ghosts for Lambeau and here we are",
+      "quip": "Aaron Rodgers returns to haunt his old friend Jordy's legacy",
       "yes_price": "0.29",
       "category": "NFL",
       "platform": "draftkings",
@@ -54,31 +55,11 @@
       "has_deep_link": true
     },
     {
-      "ticker": "SB-2900BC7E",
-      "title": "Sam Houston State upsets Troy on the road tonight",
-      "payout": 8.5,
-      "tier": "orange",
-      "quip": "the Bearkats are barking at someone's door for once",
-      "yes_price": "0.12",
-      "category": "NCAAF",
-      "platform": "draftkings",
-      "platform_display": "DraftKings",
-      "url": "https://sportsbook.draftkings.com/?outcomes=0ML84871223_3",
-      "close_time": "2026-09-05T23:00:00Z",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "NCAAF",
-      "matchup": "Sam Houston State Bearkats @ Troy Trojans",
-      "market_type": "h2h",
-      "american_odds": 750,
-      "implied_probability": 0.118,
-      "has_deep_link": true
-    },
-    {
       "ticker": "SB-674283E3",
-      "title": "Oregon State shocks Houston tonight",
+      "title": "Oregon State stuns Houston on the road",
       "payout": 9.0,
       "tier": "orange",
-      "quip": "the Beavers are building something nobody asked for",
+      "quip": "Beavers have been through a whole conference realignment crisis \u2014 nothing scares them now",
       "yes_price": "0.11",
       "category": "NCAAF",
       "platform": "fanduel",
@@ -95,10 +76,10 @@
     },
     {
       "ticker": "SB-25FD308A",
-      "title": "Coastal Carolina pulls off the Mountaineer heist tonight",
+      "title": "Coastal Carolina shocks West Virginia in Morgantown",
       "payout": 10.0,
       "tier": "orange",
-      "quip": "Phil Mickelson energy \u2014 nobody believes it until it lands",
+      "quip": "The Chanticleers are a rooster from a school nobody can spell \u2014 perfect",
       "yes_price": "0.10",
       "category": "NCAAF",
       "platform": "draftkings",
@@ -111,6 +92,26 @@
       "market_type": "h2h",
       "american_odds": 900,
       "implied_probability": 0.1,
+      "has_deep_link": true
+    },
+    {
+      "ticker": "SB-0D81E964",
+      "title": "Rangers stun the Guardians in Cleveland tonight",
+      "payout": 12.5,
+      "tier": "orange",
+      "quip": "Jose Leclerc pitching like it's his World Series ring year again",
+      "yes_price": "0.08",
+      "category": "MLB",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19767131-1539584533-2243831878&type=Single",
+      "close_time": "2026-07-01T17:11:00Z",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Texas Rangers @ Cleveland Guardians",
+      "market_type": "h2h",
+      "american_odds": 1150,
+      "implied_probability": 0.08,
       "has_deep_link": true
     }
   ]
