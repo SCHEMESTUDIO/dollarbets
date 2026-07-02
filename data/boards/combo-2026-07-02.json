@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T10:40:40.556858+00:00",
+  "generated_at": "2026-07-02T17:48:23.267739+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,7 +8,8 @@
     "green": 10
   },
   "sport_mix": {
-    "Multi": 9,
+    "Multi": 8,
+    "MLB": 1,
     "NFL": 1
   },
   "board": [
@@ -17,7 +18,7 @@
       "title": "Philadelphia Eagles wins + Auburn Tigers wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "routine maintenance",
+      "quip": "water is wet",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -55,11 +56,11 @@
       "close_time": "2026-09-05T19:30:00Z"
     },
     {
-      "ticker": "PARLAY-D7CFE757",
-      "title": "Seattle Mariners wins + Auburn Tigers wins",
+      "ticker": "PARLAY-DAC867E9",
+      "title": "Seattle Mariners wins + TCU Horned Frogs wins",
       "payout": 2.0,
       "tier": "green",
-      "quip": "tuesday energy",
+      "quip": "business as usual",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -67,7 +68,49 @@
       "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786639?coupon={pickType}|4243359555|{wagerAmount}",
       "sport": "baseball_mlb",
       "sport_display": "Multi",
-      "matchup": "Los Angeles Angels @ Seattle Mariners + Baylor Bears @ Auburn Tigers",
+      "matchup": "Los Angeles Angels @ Seattle Mariners + North Carolina Tar Heels @ TCU Horned Frogs",
+      "market_type": "2-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.499,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles Angels @ Seattle Mariners",
+          "pick": "Seattle Mariners wins",
+          "odds": -220,
+          "implied_prob": "69%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786639?coupon={pickType}|4243359555|{wagerAmount}",
+          "commence_time": "2026-07-03T01:41:00Z"
+        },
+        {
+          "matchup": "North Carolina Tar Heels @ TCU Horned Frogs",
+          "pick": "TCU Horned Frogs wins",
+          "odds": -265,
+          "implied_prob": "73%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027397782?coupon={pickType}|4172008357|{wagerAmount}",
+          "commence_time": "2026-08-29T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-07-03T01:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-0C043003",
+      "title": "Las Vegas Raiders wins + Luke Riley wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552271-1517085435-2185024344&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Miami Dolphins @ Las Vegas Raiders + Kai Kamaka @ Luke Riley",
       "market_type": "2-leg parlay",
       "american_odds": 100,
       "implied_probability": 0.501,
@@ -76,32 +119,284 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Los Angeles Angels @ Seattle Mariners",
-          "pick": "Seattle Mariners wins",
-          "odds": -215,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786639?coupon={pickType}|4243359555|{wagerAmount}",
-          "commence_time": "2026-07-03T01:41:00Z"
+          "matchup": "Miami Dolphins @ Las Vegas Raiders",
+          "pick": "Las Vegas Raiders wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552271-1517085435-2185024344&type=Single",
+          "commence_time": "2026-09-13T20:25:00Z"
         },
         {
-          "matchup": "Baylor Bears @ Auburn Tigers",
-          "pick": "Auburn Tigers wins",
-          "odds": -275,
-          "implied_prob": "73%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432889?coupon={pickType}|4172192913|{wagerAmount}",
-          "commence_time": "2026-09-05T19:30:00Z"
+          "matchup": "Kai Kamaka @ Luke Riley",
+          "pick": "Luke Riley wins",
+          "odds": -325,
+          "implied_prob": "76%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19571303-1519223195-2190486237&type=Single",
+          "commence_time": "2026-07-12T00:00:00Z"
         }
       ],
-      "close_time": "2026-07-03T01:41:00Z"
+      "close_time": "2026-07-12T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-676FAE16",
+      "title": "Texas Rangers +1.5 + Luke Riley wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19767931-1539616116-2243903423&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Detroit Tigers @ Texas Rangers + Kai Kamaka @ Luke Riley",
+      "market_type": "2-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.501,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Detroit Tigers @ Texas Rangers",
+          "pick": "Texas Rangers +1.5",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19767931-1539616116-2243903423&type=Single",
+          "commence_time": "2026-07-03T00:06:00Z"
+        },
+        {
+          "matchup": "Kai Kamaka @ Luke Riley",
+          "pick": "Luke Riley wins",
+          "odds": -325,
+          "implied_prob": "76%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19571303-1519223195-2190486237&type=Single",
+          "commence_time": "2026-07-12T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-07-03T00:06:00Z"
+    },
+    {
+      "ticker": "PARLAY-60664A48",
+      "title": "Los Angeles Rams wins + Philadelphia Phillies wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19517677-1513112052-2174833017&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "San Francisco 49ers @ Los Angeles Rams + Pittsburgh Pirates @ Philadelphia Phillies",
+      "market_type": "2-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.5,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Francisco 49ers @ Los Angeles Rams",
+          "pick": "Los Angeles Rams wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19517677-1513112052-2174833017&type=Single",
+          "commence_time": "2026-09-11T00:35:00Z"
+        },
+        {
+          "matchup": "Pittsburgh Pirates @ Philadelphia Phillies",
+          "pick": "Philadelphia Phillies wins",
+          "odds": -300,
+          "implied_prob": "75%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19768005-1539621021-2243913959&type=Single",
+          "commence_time": "2026-07-02T16:36:00Z"
+        }
+      ],
+      "close_time": "2026-07-02T16:36:00Z"
+    },
+    {
+      "ticker": "PARLAY-4E1ABD2D",
+      "title": "Baltimore Ravens wins + Philadelphia Phillies wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Baltimore Ravens @ Indianapolis Colts + Pittsburgh Pirates @ Philadelphia Phillies",
+      "market_type": "2-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.5,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Pittsburgh Pirates @ Philadelphia Phillies",
+          "pick": "Philadelphia Phillies wins",
+          "odds": -300,
+          "implied_prob": "75%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19768005-1539621021-2243913959&type=Single",
+          "commence_time": "2026-07-02T16:36:00Z"
+        }
+      ],
+      "close_time": "2026-07-02T16:36:00Z"
+    },
+    {
+      "ticker": "PARLAY-4ADA70AE",
+      "title": "Cincinnati Bengals wins + Philadelphia Phillies wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + Pittsburgh Pirates @ Philadelphia Phillies",
+      "market_type": "2-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.5,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+          "pick": "Cincinnati Bengals wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Pittsburgh Pirates @ Philadelphia Phillies",
+          "pick": "Philadelphia Phillies wins",
+          "odds": -300,
+          "implied_prob": "75%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19768005-1539621021-2243913959&type=Single",
+          "commence_time": "2026-07-02T16:36:00Z"
+        }
+      ],
+      "close_time": "2026-07-02T16:36:00Z"
+    },
+    {
+      "ticker": "PARLAY-88BF7A65",
+      "title": "Los Angeles Dodgers wins + Philadelphia Phillies wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19767933-1539616304-2243903835&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "San Diego Padres @ Los Angeles Dodgers + Pittsburgh Pirates @ Philadelphia Phillies",
+      "market_type": "2-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.5,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Diego Padres @ Los Angeles Dodgers",
+          "pick": "Los Angeles Dodgers wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19767933-1539616304-2243903835&type=Single",
+          "commence_time": "2026-07-03T02:11:00Z"
+        },
+        {
+          "matchup": "Pittsburgh Pirates @ Philadelphia Phillies",
+          "pick": "Philadelphia Phillies wins",
+          "odds": -300,
+          "implied_prob": "75%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19768005-1539621021-2243913959&type=Single",
+          "commence_time": "2026-07-02T16:36:00Z"
+        }
+      ],
+      "close_time": "2026-07-02T16:36:00Z"
+    },
+    {
+      "ticker": "PARLAY-9E1C76FF",
+      "title": "Damian Pinas wins + Philadelphia Phillies wins",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19571299-1519223188-2190486222&type=Single",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Cesar Almeida @ Damian Pinas + Pittsburgh Pirates @ Philadelphia Phillies",
+      "market_type": "2-leg parlay",
+      "american_odds": 100,
+      "implied_probability": 0.5,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Cesar Almeida @ Damian Pinas",
+          "pick": "Damian Pinas wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19571299-1519223188-2190486222&type=Single",
+          "commence_time": "2026-07-11T21:00:00Z"
+        },
+        {
+          "matchup": "Pittsburgh Pirates @ Philadelphia Phillies",
+          "pick": "Philadelphia Phillies wins",
+          "odds": -300,
+          "implied_prob": "75%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19768005-1539621021-2243913959&type=Single",
+          "commence_time": "2026-07-02T16:36:00Z"
+        }
+      ],
+      "close_time": "2026-07-02T16:36:00Z"
     },
     {
       "ticker": "PARLAY-96CF8CC1",
       "title": "Buffalo Bills wins + Detroit Lions wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "the safe bet",
+      "quip": "just showing up",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -137,300 +432,6 @@
         }
       ],
       "close_time": "2026-09-13T17:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-6224B195",
-      "title": "Cincinnati Reds +1.5 + Detroit Lions wins",
-      "payout": 2.01,
-      "tier": "green",
-      "quip": "just showing up",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786646?coupon={pickType}|4243363370|{wagerAmount}",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Cincinnati Reds @ Milwaukee Brewers + New Orleans Saints @ Detroit Lions",
-      "market_type": "2-leg parlay",
-      "american_odds": 101,
-      "implied_probability": 0.498,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Cincinnati Reds @ Milwaukee Brewers",
-          "pick": "Cincinnati Reds +1.5",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786646?coupon={pickType}|4243363370|{wagerAmount}",
-          "commence_time": "2026-07-02T18:11:00Z"
-        },
-        {
-          "matchup": "New Orleans Saints @ Detroit Lions",
-          "pick": "Detroit Lions wins",
-          "odds": -400,
-          "implied_prob": "80%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663022?coupon={pickType}|4184193832|{wagerAmount}",
-          "commence_time": "2026-09-13T17:00:00Z"
-        }
-      ],
-      "close_time": "2026-07-02T18:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-70BD4535",
-      "title": "Cleveland Guardians +1.5 + Detroit Lions wins",
-      "payout": 2.01,
-      "tier": "green",
-      "quip": "like taking candy from a vending machine",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786620?coupon={pickType}|4243360998|{wagerAmount}",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Chicago White Sox @ Cleveland Guardians + New Orleans Saints @ Detroit Lions",
-      "market_type": "2-leg parlay",
-      "american_odds": 101,
-      "implied_probability": 0.498,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Chicago White Sox @ Cleveland Guardians",
-          "pick": "Cleveland Guardians +1.5",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786620?coupon={pickType}|4243360998|{wagerAmount}",
-          "commence_time": "2026-07-02T22:41:00Z"
-        },
-        {
-          "matchup": "New Orleans Saints @ Detroit Lions",
-          "pick": "Detroit Lions wins",
-          "odds": -400,
-          "implied_prob": "80%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663022?coupon={pickType}|4184193832|{wagerAmount}",
-          "commence_time": "2026-09-13T17:00:00Z"
-        }
-      ],
-      "close_time": "2026-07-02T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-4D9E48BB",
-      "title": "Baltimore Ravens wins + Auburn Tigers wins",
-      "payout": 2.01,
-      "tier": "green",
-      "quip": "paint drying, but profitable",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Baltimore Ravens @ Indianapolis Colts + Baylor Bears @ Auburn Tigers",
-      "market_type": "2-leg parlay",
-      "american_odds": 101,
-      "implied_probability": 0.496,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Baltimore Ravens @ Indianapolis Colts",
-          "pick": "Baltimore Ravens wins",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
-          "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "Baylor Bears @ Auburn Tigers",
-          "pick": "Auburn Tigers wins",
-          "odds": -275,
-          "implied_prob": "73%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432889?coupon={pickType}|4172192913|{wagerAmount}",
-          "commence_time": "2026-09-05T19:30:00Z"
-        }
-      ],
-      "close_time": "2026-09-05T19:30:00Z"
-    },
-    {
-      "ticker": "PARLAY-0CDC0A07",
-      "title": "Los Angeles Dodgers wins + Auburn Tigers wins",
-      "payout": 2.01,
-      "tier": "green",
-      "quip": "another day at the office",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786659?coupon={pickType}|4243365110|{wagerAmount}",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "San Diego Padres @ Los Angeles Dodgers + Baylor Bears @ Auburn Tigers",
-      "market_type": "2-leg parlay",
-      "american_odds": 101,
-      "implied_probability": 0.496,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "San Diego Padres @ Los Angeles Dodgers",
-          "pick": "Los Angeles Dodgers wins",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786659?coupon={pickType}|4243365110|{wagerAmount}",
-          "commence_time": "2026-07-03T02:11:00Z"
-        },
-        {
-          "matchup": "Baylor Bears @ Auburn Tigers",
-          "pick": "Auburn Tigers wins",
-          "odds": -275,
-          "implied_prob": "73%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432889?coupon={pickType}|4172192913|{wagerAmount}",
-          "commence_time": "2026-09-05T19:30:00Z"
-        }
-      ],
-      "close_time": "2026-07-03T02:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-27C6B7F7",
-      "title": "Ole Miss Rebels wins + Seattle Seahawks wins",
-      "payout": 2.01,
-      "tier": "green",
-      "quip": "just showing up",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "Multi",
-      "matchup": "Louisville Cardinals @ Ole Miss Rebels + New England Patriots @ Seattle Seahawks",
-      "market_type": "2-leg parlay",
-      "american_odds": 101,
-      "implied_probability": 0.498,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Louisville Cardinals @ Ole Miss Rebels",
-          "pick": "Ole Miss Rebels wins",
-          "odds": -240,
-          "implied_prob": "71%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
-          "commence_time": "2026-09-06T23:30:00Z"
-        },
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -240,
-          "implied_prob": "71%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
-          "commence_time": "2026-09-10T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-09-06T23:30:00Z"
-    },
-    {
-      "ticker": "PARLAY-7FCF3684",
-      "title": "Philadelphia Eagles wins + TCU Horned Frogs wins",
-      "payout": 2.02,
-      "tier": "green",
-      "quip": "the safe bet",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Washington Commanders @ Philadelphia Eagles + North Carolina Tar Heels @ TCU Horned Frogs",
-      "market_type": "2-leg parlay",
-      "american_odds": 102,
-      "implied_probability": 0.496,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Washington Commanders @ Philadelphia Eagles",
-          "pick": "Philadelphia Eagles wins",
-          "odds": -215,
-          "implied_prob": "68%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
-          "commence_time": "2026-09-13T20:25:00Z"
-        },
-        {
-          "matchup": "North Carolina Tar Heels @ TCU Horned Frogs",
-          "pick": "TCU Horned Frogs wins",
-          "odds": -265,
-          "implied_prob": "73%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027397782?coupon={pickType}|4172008357|{wagerAmount}",
-          "commence_time": "2026-08-29T16:00:00Z"
-        }
-      ],
-      "close_time": "2026-08-29T16:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-DAC867E9",
-      "title": "Seattle Mariners wins + TCU Horned Frogs wins",
-      "payout": 2.02,
-      "tier": "green",
-      "quip": "another day at the office",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024786639?coupon={pickType}|4243359555|{wagerAmount}",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Los Angeles Angels @ Seattle Mariners + North Carolina Tar Heels @ TCU Horned Frogs",
-      "market_type": "2-leg parlay",
-      "american_odds": 102,
-      "implied_probability": 0.496,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Los Angeles Angels @ Seattle Mariners",
-          "pick": "Seattle Mariners wins",
-          "odds": -215,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024786639?coupon={pickType}|4243359555|{wagerAmount}",
-          "commence_time": "2026-07-03T01:41:00Z"
-        },
-        {
-          "matchup": "North Carolina Tar Heels @ TCU Horned Frogs",
-          "pick": "TCU Horned Frogs wins",
-          "odds": -265,
-          "implied_prob": "73%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027397782?coupon={pickType}|4172008357|{wagerAmount}",
-          "commence_time": "2026-08-29T16:00:00Z"
-        }
-      ],
-      "close_time": "2026-07-03T01:41:00Z"
     }
   ]
 }
