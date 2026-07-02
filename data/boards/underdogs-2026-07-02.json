@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T07:02:13.217032+00:00",
+  "generated_at": "2026-07-02T10:40:09.450069+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -15,7 +15,7 @@
   "board": [
     {
       "ticker": "SB-4E9577E5",
-      "title": "Colts stun Mahomes and the Chiefs",
+      "title": "Colts shock Mahomes and the Chiefs tonight",
       "payout": 3.05,
       "tier": "yellow",
       "quip": "Anthony Richardson said hold my Gatorade",
@@ -35,10 +35,10 @@
     },
     {
       "ticker": "SB-90231BA3",
-      "title": "Jets end Jordan Love's good vibes",
+      "title": "Jets end the misery by beating the Packers tonight",
       "payout": 3.4,
       "tier": "yellow",
-      "quip": "Davante Adams is gone and the Packers forgot",
+      "quip": "Aaron Rodgers left and somehow so did the wins",
       "yes_price": "0.29",
       "category": "NFL",
       "platform": "draftkings",
@@ -55,10 +55,10 @@
     },
     {
       "ticker": "SB-2900BC7E",
-      "title": "Sam Houston State shocks Troy on the road tonight",
+      "title": "Sam Houston State stuns Troy on the road tonight",
       "payout": 8.5,
       "tier": "orange",
-      "quip": "Bearkat season is the new Cinderella story nobody asked for",
+      "quip": "the Bearkats have a very particular set of skills",
       "yes_price": "0.12",
       "category": "NCAAF",
       "platform": "draftkings",
@@ -75,10 +75,10 @@
     },
     {
       "ticker": "SB-674283E3",
-      "title": "Oregon State upsets Houston on the Cougars' home turf",
+      "title": "Oregon State upsets Houston tonight",
       "payout": 9.0,
       "tier": "orange",
-      "quip": "Beavers been in the wilderness \u2014 time to gnaw something down",
+      "quip": "the Beavers are building back, one dam at a time",
       "yes_price": "0.11",
       "category": "NCAAF",
       "platform": "fanduel",
@@ -95,10 +95,10 @@
     },
     {
       "ticker": "SB-25FD308A",
-      "title": "Coastal Carolina stuns West Virginia in Morgantown tonight",
+      "title": "Coastal Carolina shocks West Virginia in Morgantown",
       "payout": 10.0,
       "tier": "orange",
-      "quip": "Chan the Man walks into Appalachia and takes their lunch",
+      "quip": "the Chanticleers crowing on a mountain tonight",
       "yes_price": "0.10",
       "category": "NCAAF",
       "platform": "draftkings",
