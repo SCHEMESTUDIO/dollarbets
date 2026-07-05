@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-07-05T04:57:18.934979+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "NFL": 8,
+    "Multi": 2
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-70A6AEEC",
+      "title": "Baltimore Ravens wins + Philadelphia Eagles wins",
+      "payout": 2.16,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Baltimore Ravens @ Indianapolis Colts + Washington Commanders @ Philadelphia Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 116,
+      "implied_probability": 0.462,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Washington Commanders @ Philadelphia Eagles",
+          "pick": "Philadelphia Eagles wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+          "commence_time": "2026-09-13T20:25:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-F2CBFC47",
+      "title": "Los Angeles Rams wins + Seattle Seahawks wins",
+      "payout": 2.18,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19517677-1513112052-2174833017&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "San Francisco 49ers @ Los Angeles Rams + New England Patriots @ Seattle Seahawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 118,
+      "implied_probability": 0.459,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Francisco 49ers @ Los Angeles Rams",
+          "pick": "Los Angeles Rams wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19517677-1513112052-2174833017&type=Single",
+          "commence_time": "2026-09-11T00:35:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -220,
+          "implied_prob": "69%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
+          "commence_time": "2026-09-10T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-09-10T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-6D1A8EC2",
+      "title": "Baltimore Ravens wins + Seattle Seahawks wins",
+      "payout": 2.18,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Baltimore Ravens @ Indianapolis Colts + New England Patriots @ Seattle Seahawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 118,
+      "implied_probability": 0.459,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552264-1517085427-2185024327&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -220,
+          "implied_prob": "69%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
+          "commence_time": "2026-09-10T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-09-10T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-7AD8E6B0",
+      "title": "Cincinnati Bengals wins + Seattle Seahawks wins",
+      "payout": 2.18,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + New England Patriots @ Seattle Seahawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 118,
+      "implied_probability": 0.459,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+          "pick": "Cincinnati Bengals wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552263-1517085426-2185024326&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -220,
+          "implied_prob": "69%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552261-1517085424-2185024322&type=Single",
+          "commence_time": "2026-09-10T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-09-10T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-0965512C",
+      "title": "Virginia Cavaliers wins + Philadelphia Eagles wins",
+      "payout": 2.2,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027397783?coupon={pickType}|4172036390|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "NC State Wolfpack @ Virginia Cavaliers + Washington Commanders @ Philadelphia Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 120,
+      "implied_probability": 0.456,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "NC State Wolfpack @ Virginia Cavaliers",
+          "pick": "Virginia Cavaliers wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027397783?coupon={pickType}|4172036390|{wagerAmount}",
+          "commence_time": "2026-08-29T19:30:00Z"
+        },
+        {
+          "matchup": "Washington Commanders @ Philadelphia Eagles",
+          "pick": "Philadelphia Eagles wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+          "commence_time": "2026-09-13T20:25:00Z"
+        }
+      ],
+      "close_time": "2026-08-29T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-DFEDF358",
+      "title": "Cincinnati Bengals wins + Philadelphia Eagles wins",
+      "payout": 2.2,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663019?coupon={pickType}|4184193920|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + Washington Commanders @ Philadelphia Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 120,
+      "implied_probability": 0.456,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+          "pick": "Cincinnati Bengals wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663019?coupon={pickType}|4184193920|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Washington Commanders @ Philadelphia Eagles",
+          "pick": "Philadelphia Eagles wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+          "commence_time": "2026-09-13T20:25:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-650B7822",
+      "title": "Las Vegas Raiders wins + Philadelphia Eagles wins",
+      "payout": 2.2,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663025?coupon={pickType}|4184189228|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Miami Dolphins @ Las Vegas Raiders + Washington Commanders @ Philadelphia Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 120,
+      "implied_probability": 0.456,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Dolphins @ Las Vegas Raiders",
+          "pick": "Las Vegas Raiders wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663025?coupon={pickType}|4184189228|{wagerAmount}",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Washington Commanders @ Philadelphia Eagles",
+          "pick": "Philadelphia Eagles wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+          "commence_time": "2026-09-13T20:25:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T20:25:00Z"
+    },
+    {
+      "ticker": "PARLAY-166187AB",
+      "title": "Virginia Cavaliers wins + Baltimore Ravens wins",
+      "payout": 2.21,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027397783?coupon={pickType}|4172036390|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "NC State Wolfpack @ Virginia Cavaliers + Baltimore Ravens @ Indianapolis Colts",
+      "market_type": "2-leg parlay",
+      "american_odds": 121,
+      "implied_probability": 0.452,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "NC State Wolfpack @ Virginia Cavaliers",
+          "pick": "Virginia Cavaliers wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027397783?coupon={pickType}|4172036390|{wagerAmount}",
+          "commence_time": "2026-08-29T19:30:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-29T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-6C02A58A",
+      "title": "Cincinnati Bengals wins + Baltimore Ravens wins",
+      "payout": 2.21,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663019?coupon={pickType}|4184193920|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + Baltimore Ravens @ Indianapolis Colts",
+      "market_type": "2-leg parlay",
+      "american_odds": 121,
+      "implied_probability": 0.452,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+          "pick": "Cincinnati Bengals wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663019?coupon={pickType}|4184193920|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-EEF062AD",
+      "title": "Las Vegas Raiders wins + Baltimore Ravens wins",
+      "payout": 2.21,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663025?coupon={pickType}|4184189228|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Miami Dolphins @ Las Vegas Raiders + Baltimore Ravens @ Indianapolis Colts",
+      "market_type": "2-leg parlay",
+      "american_odds": 121,
+      "implied_probability": 0.452,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Dolphins @ Las Vegas Raiders",
+          "pick": "Las Vegas Raiders wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663025?coupon={pickType}|4184189228|{wagerAmount}",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    }
+  ]
+}
