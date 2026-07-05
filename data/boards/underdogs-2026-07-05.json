@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T04:56:43.523765+00:00",
+  "generated_at": "2026-07-05T07:02:20.946781+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -15,10 +15,10 @@
   "board": [
     {
       "ticker": "SB-90231BA3",
-      "title": "Jets stun the Packers in New York tonight",
+      "title": "Jets shock the Packers in Green Bay tonight",
       "payout": 3.15,
       "tier": "yellow",
-      "quip": "Aaron Rodgers finally wins one for the Meadowlands",
+      "quip": "Aaron Rodgers beat them for years, now Rodgers IS them",
       "yes_price": "0.32",
       "category": "NFL",
       "platform": "draftkings",
@@ -35,10 +35,10 @@
     },
     {
       "ticker": "SB-4E9577E5",
-      "title": "Colts pull the upset in Kansas City tonight",
+      "title": "Colts stun Mahomes and the Chiefs tonight",
       "payout": 3.2,
       "tier": "yellow",
-      "quip": "Patrick Mahomes has never heard of Anthony Richardson and that is the problem",
+      "quip": "Anthony Richardson woke up and chose chaos",
       "yes_price": "0.31",
       "category": "NFL",
       "platform": "draftkings",
@@ -55,10 +55,10 @@
     },
     {
       "ticker": "SB-2900BC7E",
-      "title": "Sam Houston State shocks Troy tonight",
+      "title": "Sam Houston State shocks Troy on the road tonight",
       "payout": 8.5,
       "tier": "orange",
-      "quip": "Bearkat energy is just Cinderella in a cowboy hat",
+      "quip": "Sam Houston the man would've liked these odds",
       "yes_price": "0.12",
       "category": "NCAAF",
       "platform": "draftkings",
@@ -75,7 +75,7 @@
     },
     {
       "ticker": "SB-674283E3",
-      "title": "Oregon State upsets Houston on the road",
+      "title": "Oregon State upsets Houston tonight",
       "payout": 9.0,
       "tier": "orange",
       "quip": "the Beavers have nothing left to lose and that's dangerous",
@@ -95,10 +95,10 @@
     },
     {
       "ticker": "SB-25FD308A",
-      "title": "Coastal Carolina stuns West Virginia tonight",
+      "title": "Coastal Carolina stuns West Virginia in Morgantown tonight",
       "payout": 10.0,
       "tier": "orange",
-      "quip": "the Chanticleers are a real bird and a real problem",
+      "quip": "the Chanticleers are literally named after a rooster who refused to die",
       "yes_price": "0.10",
       "category": "NCAAF",
       "platform": "draftkings",
