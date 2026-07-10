@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-07-10T04:52:29.082301+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "MLB": 8,
+    "Multi": 2
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-9AC06905",
+      "title": "Tampa Bay Rays +1.5 + Boston Red Sox +1.5",
+      "payout": 2.28,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591083891&selectionId=29162",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Seattle Mariners @ Tampa Bay Rays + Boston Red Sox @ New York Mets",
+      "market_type": "2-leg parlay",
+      "american_odds": 128,
+      "implied_probability": 0.438,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Seattle Mariners @ Tampa Bay Rays",
+          "pick": "Tampa Bay Rays +1.5",
+          "odds": -196,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591083891&selectionId=29162",
+          "commence_time": "2026-07-10T23:11:00Z"
+        },
+        {
+          "matchup": "Boston Red Sox @ New York Mets",
+          "pick": "Boston Red Sox +1.5",
+          "odds": -196,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591074435&selectionId=29158",
+          "commence_time": "2026-07-10T23:16:00Z"
+        }
+      ],
+      "close_time": "2026-07-10T23:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-F4AB1D63",
+      "title": "Milwaukee Brewers +1.5 + Tampa Bay Rays +1.5",
+      "payout": 2.29,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591087715&selectionId=29172",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Milwaukee Brewers @ Pittsburgh Pirates + Seattle Mariners @ Tampa Bay Rays",
+      "market_type": "2-leg parlay",
+      "american_odds": 129,
+      "implied_probability": 0.437,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Milwaukee Brewers @ Pittsburgh Pirates",
+          "pick": "Milwaukee Brewers +1.5",
+          "odds": -194,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591087715&selectionId=29172",
+          "commence_time": "2026-07-10T22:41:00Z"
+        },
+        {
+          "matchup": "Seattle Mariners @ Tampa Bay Rays",
+          "pick": "Tampa Bay Rays +1.5",
+          "odds": -196,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591083891&selectionId=29162",
+          "commence_time": "2026-07-10T23:11:00Z"
+        }
+      ],
+      "close_time": "2026-07-10T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-BCA3A6DC",
+      "title": "Milwaukee Brewers +1.5 + Boston Red Sox +1.5",
+      "payout": 2.29,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591087715&selectionId=29172",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Milwaukee Brewers @ Pittsburgh Pirates + Boston Red Sox @ New York Mets",
+      "market_type": "2-leg parlay",
+      "american_odds": 129,
+      "implied_probability": 0.437,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Milwaukee Brewers @ Pittsburgh Pirates",
+          "pick": "Milwaukee Brewers +1.5",
+          "odds": -194,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591087715&selectionId=29172",
+          "commence_time": "2026-07-10T22:41:00Z"
+        },
+        {
+          "matchup": "Boston Red Sox @ New York Mets",
+          "pick": "Boston Red Sox +1.5",
+          "odds": -196,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591074435&selectionId=29158",
+          "commence_time": "2026-07-10T23:16:00Z"
+        }
+      ],
+      "close_time": "2026-07-10T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-112DBAFC",
+      "title": "San Diego Padres +1.5 + Tampa Bay Rays +1.5",
+      "payout": 2.29,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591088493&selectionId=29177",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Toronto Blue Jays @ San Diego Padres + Seattle Mariners @ Tampa Bay Rays",
+      "market_type": "2-leg parlay",
+      "american_odds": 129,
+      "implied_probability": 0.437,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Toronto Blue Jays @ San Diego Padres",
+          "pick": "San Diego Padres +1.5",
+          "odds": -194,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591088493&selectionId=29177",
+          "commence_time": "2026-07-11T01:41:00Z"
+        },
+        {
+          "matchup": "Seattle Mariners @ Tampa Bay Rays",
+          "pick": "Tampa Bay Rays +1.5",
+          "odds": -196,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591083891&selectionId=29162",
+          "commence_time": "2026-07-10T23:11:00Z"
+        }
+      ],
+      "close_time": "2026-07-10T23:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-A752244A",
+      "title": "San Diego Padres +1.5 + Boston Red Sox +1.5",
+      "payout": 2.29,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591088493&selectionId=29177",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Toronto Blue Jays @ San Diego Padres + Boston Red Sox @ New York Mets",
+      "market_type": "2-leg parlay",
+      "american_odds": 129,
+      "implied_probability": 0.437,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Toronto Blue Jays @ San Diego Padres",
+          "pick": "San Diego Padres +1.5",
+          "odds": -194,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591088493&selectionId=29177",
+          "commence_time": "2026-07-11T01:41:00Z"
+        },
+        {
+          "matchup": "Boston Red Sox @ New York Mets",
+          "pick": "Boston Red Sox +1.5",
+          "odds": -196,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591074435&selectionId=29158",
+          "commence_time": "2026-07-10T23:16:00Z"
+        }
+      ],
+      "close_time": "2026-07-10T23:16:00Z"
+    },
+    {
+      "ticker": "PARLAY-E7E813B7",
+      "title": "Milwaukee Brewers +1.5 + San Diego Padres +1.5",
+      "payout": 2.3,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591087715&selectionId=29172",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Milwaukee Brewers @ Pittsburgh Pirates + Toronto Blue Jays @ San Diego Padres",
+      "market_type": "2-leg parlay",
+      "american_odds": 130,
+      "implied_probability": 0.436,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Milwaukee Brewers @ Pittsburgh Pirates",
+          "pick": "Milwaukee Brewers +1.5",
+          "odds": -194,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591087715&selectionId=29172",
+          "commence_time": "2026-07-10T22:41:00Z"
+        },
+        {
+          "matchup": "Toronto Blue Jays @ San Diego Padres",
+          "pick": "San Diego Padres +1.5",
+          "odds": -194,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591088493&selectionId=29177",
+          "commence_time": "2026-07-11T01:41:00Z"
+        }
+      ],
+      "close_time": "2026-07-10T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-2037B5A4",
+      "title": "Colorado State Rams wins + Tampa Bay Rays +1.5",
+      "payout": 2.33,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.43",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581874182&selectionId=567121",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Wyoming Cowboys @ Colorado State Rams + Seattle Mariners @ Tampa Bay Rays",
+      "market_type": "2-leg parlay",
+      "american_odds": 133,
+      "implied_probability": 0.429,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Wyoming Cowboys @ Colorado State Rams",
+          "pick": "Colorado State Rams wins",
+          "odds": -184,
+          "implied_prob": "65%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581874182&selectionId=567121",
+          "commence_time": "2026-09-05T22:00:00Z"
+        },
+        {
+          "matchup": "Seattle Mariners @ Tampa Bay Rays",
+          "pick": "Tampa Bay Rays +1.5",
+          "odds": -196,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591083891&selectionId=29162",
+          "commence_time": "2026-07-10T23:11:00Z"
+        }
+      ],
+      "close_time": "2026-07-10T23:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-30DE6C16",
+      "title": "Colorado State Rams wins + Boston Red Sox +1.5",
+      "payout": 2.33,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.43",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581874182&selectionId=567121",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Wyoming Cowboys @ Colorado State Rams + Boston Red Sox @ New York Mets",
+      "market_type": "2-leg parlay",
+      "american_odds": 133,
+      "implied_probability": 0.429,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Wyoming Cowboys @ Colorado State Rams",
+          "pick": "Colorado State Rams wins",
+          "odds": -184,
+          "implied_prob": "65%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581874182&selectionId=567121",
+          "commence_time": "2026-09-05T22:00:00Z"
+        },
+        {
+          "matchup": "Boston Red Sox @ New York Mets",
+          "pick": "Boston Red Sox +1.5",
+          "odds": -196,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591074435&selectionId=29158",
+          "commence_time": "2026-07-10T23:16:00Z"
+        }
+      ],
+      "close_time": "2026-07-10T23:16:00Z"
+    },
+    {
+      "ticker": "PARLAY-5FF5D4B0",
+      "title": "Los Angeles Angels +1.5 + Tampa Bay Rays +1.5",
+      "payout": 2.33,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.43",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591088357&selectionId=1093236",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Los Angeles Angels @ Minnesota Twins + Seattle Mariners @ Tampa Bay Rays",
+      "market_type": "2-leg parlay",
+      "american_odds": 133,
+      "implied_probability": 0.429,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles Angels @ Minnesota Twins",
+          "pick": "Los Angeles Angels +1.5",
+          "odds": -184,
+          "implied_prob": "65%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591088357&selectionId=1093236",
+          "commence_time": "2026-07-11T00:11:00Z"
+        },
+        {
+          "matchup": "Seattle Mariners @ Tampa Bay Rays",
+          "pick": "Tampa Bay Rays +1.5",
+          "odds": -196,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591083891&selectionId=29162",
+          "commence_time": "2026-07-10T23:11:00Z"
+        }
+      ],
+      "close_time": "2026-07-10T23:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-C89ABC77",
+      "title": "Los Angeles Angels +1.5 + Boston Red Sox +1.5",
+      "payout": 2.33,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.43",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591088357&selectionId=1093236",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Los Angeles Angels @ Minnesota Twins + Boston Red Sox @ New York Mets",
+      "market_type": "2-leg parlay",
+      "american_odds": 133,
+      "implied_probability": 0.429,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles Angels @ Minnesota Twins",
+          "pick": "Los Angeles Angels +1.5",
+          "odds": -184,
+          "implied_prob": "65%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591088357&selectionId=1093236",
+          "commence_time": "2026-07-11T00:11:00Z"
+        },
+        {
+          "matchup": "Boston Red Sox @ New York Mets",
+          "pick": "Boston Red Sox +1.5",
+          "odds": -196,
+          "implied_prob": "66%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591074435&selectionId=29158",
+          "commence_time": "2026-07-10T23:16:00Z"
+        }
+      ],
+      "close_time": "2026-07-10T23:16:00Z"
+    }
+  ]
+}
