@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-07-11T04:13:02.026509+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "MLB": 8,
+    "Multi": 2
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-119111FE",
+      "title": "Under 7.5 + Minnesota Twins wins",
+      "payout": 2.42,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19769373-1539681157-2244102568&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Toronto Blue Jays @ San Diego Padres + Los Angeles Angels @ Minnesota Twins",
+      "market_type": "2-leg parlay",
+      "american_odds": 142,
+      "implied_probability": 0.413,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Toronto Blue Jays @ San Diego Padres",
+          "pick": "Under 7.5",
+          "odds": -175,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19769373-1539681157-2244102568&type=Single",
+          "commence_time": "2026-07-11T01:41:00Z"
+        },
+        {
+          "matchup": "Los Angeles Angels @ Minnesota Twins",
+          "pick": "Minnesota Twins wins",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19769280-1539670131-2244069965&type=Single",
+          "commence_time": "2026-07-11T18:11:00Z"
+        }
+      ],
+      "close_time": "2026-07-11T01:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-A79E0A42",
+      "title": "Over 2.5 + Minnesota Twins wins",
+      "payout": 2.42,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7827068-201099113-762395755&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Toronto FC @ CF Montreal + Los Angeles Angels @ Minnesota Twins",
+      "market_type": "2-leg parlay",
+      "american_odds": 142,
+      "implied_probability": 0.413,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Toronto FC @ CF Montreal",
+          "pick": "Over 2.5",
+          "odds": -175,
+          "implied_prob": "64%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7827068-201099113-762395755&type=Single",
+          "commence_time": "2026-07-16T23:30:00Z"
+        },
+        {
+          "matchup": "Los Angeles Angels @ Minnesota Twins",
+          "pick": "Minnesota Twins wins",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19769280-1539670131-2244069965&type=Single",
+          "commence_time": "2026-07-11T18:11:00Z"
+        }
+      ],
+      "close_time": "2026-07-11T18:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-3DAB0492",
+      "title": "Under 3.5 + Minnesota Twins wins",
+      "payout": 2.42,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7827069-201097372-762386755&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Vancouver Whitecaps FC @ Chicago Fire + Los Angeles Angels @ Minnesota Twins",
+      "market_type": "2-leg parlay",
+      "american_odds": 142,
+      "implied_probability": 0.413,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Vancouver Whitecaps FC @ Chicago Fire",
+          "pick": "Under 3.5",
+          "odds": -175,
+          "implied_prob": "64%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7827069-201097372-762386755&type=Single",
+          "commence_time": "2026-07-17T00:30:00Z"
+        },
+        {
+          "matchup": "Los Angeles Angels @ Minnesota Twins",
+          "pick": "Minnesota Twins wins",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19769280-1539670131-2244069965&type=Single",
+          "commence_time": "2026-07-11T18:11:00Z"
+        }
+      ],
+      "close_time": "2026-07-11T18:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-119111FE",
+      "title": "Under 7.5 + Minnesota Twins wins",
+      "payout": 2.43,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591088492&selectionId=7017906",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Toronto Blue Jays @ San Diego Padres + Los Angeles Angels @ Minnesota Twins",
+      "market_type": "2-leg parlay",
+      "american_odds": 143,
+      "implied_probability": 0.412,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Toronto Blue Jays @ San Diego Padres",
+          "pick": "Under 7.5",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591088492&selectionId=7017906",
+          "commence_time": "2026-07-11T01:41:00Z"
+        },
+        {
+          "matchup": "Los Angeles Angels @ Minnesota Twins",
+          "pick": "Minnesota Twins wins",
+          "odds": -180,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591199943&selectionId=29160",
+          "commence_time": "2026-07-11T18:11:00Z"
+        }
+      ],
+      "close_time": "2026-07-11T01:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-D74A39D7",
+      "title": "Colorado Rockies +1.5 + Minnesota Twins wins",
+      "payout": 2.43,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591295081&selectionId=29168",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Colorado Rockies @ San Francisco Giants + Los Angeles Angels @ Minnesota Twins",
+      "market_type": "2-leg parlay",
+      "american_odds": 143,
+      "implied_probability": 0.412,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Colorado Rockies @ San Francisco Giants",
+          "pick": "Colorado Rockies +1.5",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591295081&selectionId=29168",
+          "commence_time": "2026-07-11T20:06:00Z"
+        },
+        {
+          "matchup": "Los Angeles Angels @ Minnesota Twins",
+          "pick": "Minnesota Twins wins",
+          "odds": -180,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591199943&selectionId=29160",
+          "commence_time": "2026-07-11T18:11:00Z"
+        }
+      ],
+      "close_time": "2026-07-11T18:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-F9BAFAA4",
+      "title": "Cleveland Guardians +1.5 + Minnesota Twins wins",
+      "payout": 2.43,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591296397&selectionId=41541473",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Cleveland Guardians @ Miami Marlins + Los Angeles Angels @ Minnesota Twins",
+      "market_type": "2-leg parlay",
+      "american_odds": 143,
+      "implied_probability": 0.412,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Cleveland Guardians @ Miami Marlins",
+          "pick": "Cleveland Guardians +1.5",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591296397&selectionId=41541473",
+          "commence_time": "2026-07-11T20:11:00Z"
+        },
+        {
+          "matchup": "Los Angeles Angels @ Minnesota Twins",
+          "pick": "Minnesota Twins wins",
+          "odds": -180,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591199943&selectionId=29160",
+          "commence_time": "2026-07-11T18:11:00Z"
+        }
+      ],
+      "close_time": "2026-07-11T18:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-EA3513B9",
+      "title": "St. Louis Cardinals +1.5 + Minnesota Twins wins",
+      "payout": 2.44,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591298619&selectionId=50291",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Atlanta Braves @ St. Louis Cardinals + Los Angeles Angels @ Minnesota Twins",
+      "market_type": "2-leg parlay",
+      "american_odds": 144,
+      "implied_probability": 0.41,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Braves @ St. Louis Cardinals",
+          "pick": "St. Louis Cardinals +1.5",
+          "odds": -176,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591298619&selectionId=50291",
+          "commence_time": "2026-07-11T23:15:00Z"
+        },
+        {
+          "matchup": "Los Angeles Angels @ Minnesota Twins",
+          "pick": "Minnesota Twins wins",
+          "odds": -180,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591199943&selectionId=29160",
+          "commence_time": "2026-07-11T18:11:00Z"
+        }
+      ],
+      "close_time": "2026-07-11T18:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-C970C64F",
+      "title": "Under 7.5 + Colorado Rockies +1.5",
+      "payout": 2.44,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591088492&selectionId=7017906",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Toronto Blue Jays @ San Diego Padres + Colorado Rockies @ San Francisco Giants",
+      "market_type": "2-leg parlay",
+      "american_odds": 144,
+      "implied_probability": 0.41,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Toronto Blue Jays @ San Diego Padres",
+          "pick": "Under 7.5",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591088492&selectionId=7017906",
+          "commence_time": "2026-07-11T01:41:00Z"
+        },
+        {
+          "matchup": "Colorado Rockies @ San Francisco Giants",
+          "pick": "Colorado Rockies +1.5",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591295081&selectionId=29168",
+          "commence_time": "2026-07-11T20:06:00Z"
+        }
+      ],
+      "close_time": "2026-07-11T01:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-5B5BA06E",
+      "title": "Under 7.5 + Cleveland Guardians +1.5",
+      "payout": 2.44,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591088492&selectionId=7017906",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Toronto Blue Jays @ San Diego Padres + Cleveland Guardians @ Miami Marlins",
+      "market_type": "2-leg parlay",
+      "american_odds": 144,
+      "implied_probability": 0.41,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Toronto Blue Jays @ San Diego Padres",
+          "pick": "Under 7.5",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591088492&selectionId=7017906",
+          "commence_time": "2026-07-11T01:41:00Z"
+        },
+        {
+          "matchup": "Cleveland Guardians @ Miami Marlins",
+          "pick": "Cleveland Guardians +1.5",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591296397&selectionId=41541473",
+          "commence_time": "2026-07-11T20:11:00Z"
+        }
+      ],
+      "close_time": "2026-07-11T01:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-4A67BA8D",
+      "title": "Colorado Rockies +1.5 + Cleveland Guardians +1.5",
+      "payout": 2.44,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591295081&selectionId=29168",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Colorado Rockies @ San Francisco Giants + Cleveland Guardians @ Miami Marlins",
+      "market_type": "2-leg parlay",
+      "american_odds": 144,
+      "implied_probability": 0.41,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Colorado Rockies @ San Francisco Giants",
+          "pick": "Colorado Rockies +1.5",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591295081&selectionId=29168",
+          "commence_time": "2026-07-11T20:06:00Z"
+        },
+        {
+          "matchup": "Cleveland Guardians @ Miami Marlins",
+          "pick": "Cleveland Guardians +1.5",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591296397&selectionId=41541473",
+          "commence_time": "2026-07-11T20:11:00Z"
+        }
+      ],
+      "close_time": "2026-07-11T20:06:00Z"
+    }
+  ]
+}
