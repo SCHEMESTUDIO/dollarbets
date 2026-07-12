@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T09:50:23.804652+00:00",
+  "generated_at": "2026-07-12T16:58:28.527748+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -10,15 +10,16 @@
   },
   "sport_mix": {
     "NFL": 2,
-    "NCAAF": 3
+    "NCAAF": 2,
+    "MLB": 1
   },
   "board": [
     {
       "ticker": "SB-4E9577E5",
-      "title": "Colts shock the Chiefs tonight",
+      "title": "Colts knock off the Chiefs in Kansas City tonight",
       "payout": 3.15,
       "tier": "yellow",
-      "quip": "Patrick Mahomes has to lose sometime, theoretically",
+      "quip": "Patrick Mahomes is mortal in January and apparently October too",
       "yes_price": "0.32",
       "category": "NFL",
       "platform": "draftkings",
@@ -35,10 +36,10 @@
     },
     {
       "ticker": "SB-90231BA3",
-      "title": "Jets beat the Packers at home tonight",
+      "title": "Jets end the Packers' winning streak tonight",
       "payout": 3.2,
       "tier": "yellow",
-      "quip": "Aaron Rodgers returning to haunt Lambeau from the couch",
+      "quip": "Sauce Gardner has been waiting his whole career for this",
       "yes_price": "0.31",
       "category": "NFL",
       "platform": "draftkings",
@@ -54,31 +55,11 @@
       "has_deep_link": true
     },
     {
-      "ticker": "SB-2900BC7E",
-      "title": "Sam Houston State stuns Troy on the road tonight",
-      "payout": 8.5,
-      "tier": "orange",
-      "quip": "the Bearkats are a horror movie villain \u2014 underestimated every time",
-      "yes_price": "0.12",
-      "category": "NCAAF",
-      "platform": "draftkings",
-      "platform_display": "DraftKings",
-      "url": "https://sportsbook.draftkings.com/?outcomes=0ML84871223_3",
-      "close_time": "2026-09-05T23:00:00Z",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "NCAAF",
-      "matchup": "Sam Houston State Bearkats @ Troy Trojans",
-      "market_type": "h2h",
-      "american_odds": 750,
-      "implied_probability": 0.118,
-      "has_deep_link": true
-    },
-    {
       "ticker": "SB-674283E3",
-      "title": "Oregon State upsets Houston tonight",
+      "title": "Oregon State stuns Houston in college football chaos",
       "payout": 9.0,
       "tier": "orange",
-      "quip": "the Beavers got canceled and have nothing left to lose",
+      "quip": "Beavers doing Beavers things \u2014 gnawing through a Big 12 favorite",
       "yes_price": "0.11",
       "category": "NCAAF",
       "platform": "fanduel",
@@ -95,10 +76,10 @@
     },
     {
       "ticker": "SB-25FD308A",
-      "title": "Coastal Carolina shocks West Virginia tonight",
+      "title": "Coastal Carolina upsets West Virginia in Morgantown",
       "payout": 10.0,
       "tier": "orange",
-      "quip": "Chan Gailey energy \u2014 nobody expects the Chanticleers",
+      "quip": "the Chanticleers are crowing and nobody in Appalachia is listening",
       "yes_price": "0.10",
       "category": "NCAAF",
       "platform": "draftkings",
@@ -111,6 +92,26 @@
       "market_type": "h2h",
       "american_odds": 900,
       "implied_probability": 0.1,
+      "has_deep_link": true
+    },
+    {
+      "ticker": "SB-2D21CD3F",
+      "title": "Brewers pull off a stunner over the Pirates tonight",
+      "payout": 11.0,
+      "tier": "orange",
+      "quip": "Pittsburgh baseball in September \u2014 uncharted waters for competence",
+      "yes_price": "0.09",
+      "category": "MLB",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591414458&selectionId=29172",
+      "close_time": "2026-07-12T16:16:00Z",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Milwaukee Brewers @ Pittsburgh Pirates",
+      "market_type": "h2h",
+      "american_odds": 1000,
+      "implied_probability": 0.091,
       "has_deep_link": true
     }
   ]
