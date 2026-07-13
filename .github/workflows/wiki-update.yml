@@ -1,0 +1,65 @@
+name: Weekly CLAUDE.md Maintenance
+
+# Cloud successor to the local dollarbets-wiki-update Cowork task.
+# Scans the repo weekly and keeps CLAUDE.md accurate. (The Cowork memory-file
+# half of the old task stays local by design — CI can't write the Mac's
+# memory directory; anything memory-worthy lands in the Telegram report.)
+#
+# Secrets required: ANTHROPIC_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_OPS_CHAT_ID.
+
+on:
+  schedule:
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-wiki:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Update CLAUDE.md (Claude)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          mkdir -p .ci
+          claude -p "$(cat prompts/wiki-update.md)" --dangerously-skip-permissions
+
+      - name: Commit + push
+        run: |
+          git config user.name "Dollar Bets Bot"
+          git config user.email "bot@dollarbets.lol"
+          git add CLAUDE.md
+          if git diff --staged --quiet; then
+            echo "CLAUDE.md unchanged"
+          else
+            git commit -m "Docs: weekly CLAUDE.md maintenance $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main && git push
+          fi
+
+      - name: Telegram report
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OPS_CHAT_ID: ${{ secrets.TELEGRAM_OPS_CHAT_ID }}
+        run: |
+          if [ -f .ci/telegram-report.txt ]; then
+            bash scripts/notify_telegram.sh --file .ci/telegram-report.txt
+          else
+            bash scripts/notify_telegram.sh "wiki-update (dollarbets) ran but produced no report"
+          fi
+
+      - name: Telegram failure alert
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OPS_CHAT_ID: ${{ secrets.TELEGRAM_OPS_CHAT_ID }}
+        run: bash scripts/notify_telegram.sh "FAILED - wiki-update (dollarbets). ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

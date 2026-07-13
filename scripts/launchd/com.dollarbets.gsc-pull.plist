@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.dollarbets.gsc-pull</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/jameshd/Documents/Claude/Projects/Dollar Bets/site/scripts/gsc_pull.py</string>
+    </array>
+    <!-- Daily (not Monday-only) so the current week's data is refreshed
+         whenever the Mac is on, and the Monday task never depends on a single
+         fixed moment. Window still ends 2 days ago (GSC lag); re-pulls are
+         idempotent — they just overwrite the current week's dir. -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>7</integer>
+        <key>Minute</key>
+        <integer>45</integer>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/Users/jameshd/Library/Logs/dollarbets-gsc-pull.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/jameshd/Library/Logs/dollarbets-gsc-pull.log</string>
+    <!-- RunAtLoad=true: catch up on boot/login when the Mac was off at 7:45.
+         This mirrors the Cowork scheduler, which already catches up on boot —
+         previously the pull did NOT, which is why the Monday task ran on boot
+         and found no data (2026-06-22, 2026-06-29). -->
+    <key>RunAtLoad</key>
+    <true/>
+</dict>
+</plist>

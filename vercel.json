@@ -8,6 +8,16 @@
       "has": [{ "type": "host", "value": "dollarbets.lol" }],
       "destination": "https://www.dollarbets.lol/$1",
       "permanent": true
+    },
+    {
+      "source": "/craziest-kalshi-markets",
+      "destination": "/crazy-kalshi-bets/",
+      "permanent": true
+    },
+    {
+      "source": "/craziest-kalshi-markets/",
+      "destination": "/crazy-kalshi-bets/",
+      "permanent": true
     }
   ],
   "rewrites": [

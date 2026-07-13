@@ -1,0 +1,88 @@
+name: Weekly GSC Pull + Analysis
+
+# Cloud successor to the launchd pair (com.dollarbets.gsc-pull) + the local
+# weekly-gsc-analysis Cowork task. Pull and analysis run in ONE workflow so
+# "data missing" stops being a failure mode: if the pull fails, the analysis
+# is skipped and Telegram gets an alert.
+#
+# Monday 06:45 UTC (~07:45 London BST, matching the old launchd slot).
+#
+# Secrets required: GSC_CREDENTIALS_JSON (contents of gcloud ADC file or SA key),
+# ANTHROPIC_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_OPS_CHAT_ID, VERCEL_DEPLOY_HOOK.
+
+on:
+  schedule:
+    - cron: '45 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-writers
+  cancel-in-progress: false
+
+jobs:
+  pull-and-analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Pull GSC data
+        env:
+          GSC_CREDENTIALS_JSON: ${{ secrets.GSC_CREDENTIALS_JSON }}
+        run: |
+          umask 077
+          echo "$GSC_CREDENTIALS_JSON" > /tmp/gsc-creds.json
+          python3 scripts/gsc_pull.py --creds /tmp/gsc-creds.json
+          rm -f /tmp/gsc-creds.json
+          MONDAY=$(python3 -c "import datetime as d; t=d.date.today(); print(t - d.timedelta(days=t.weekday()))")
+          if [ ! -d "gsc-data/weekly/${MONDAY}" ] || [ -z "$(ls -A gsc-data/weekly/${MONDAY} 2>/dev/null)" ]; then
+            echo "PULL FAILED: no data at gsc-data/weekly/${MONDAY}"
+            exit 1
+          fi
+          echo "Pull OK: gsc-data/weekly/${MONDAY}"
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run weekly analysis (Claude)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          mkdir -p .ci reports
+          claude -p "$(cat prompts/weekly-gsc-analysis.md)" --dangerously-skip-permissions
+
+      - name: Guarded commit + push
+        id: commit
+        run: |
+          bash scripts/ci_guarded_commit.sh "GSC weekly: report + brief + quick wins ($(date -u +%Y-%m-%d))" content public data gsc-data reports
+
+      - name: Trigger Vercel deploy
+        if: steps.commit.outputs.changed == 'true'
+        run: curl -sS -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}" -o /dev/null || echo "WARNING - Vercel deploy hook failed"
+
+      - name: Telegram report
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OPS_CHAT_ID: ${{ secrets.TELEGRAM_OPS_CHAT_ID }}
+        run: |
+          if [ -f .ci/telegram-report.txt ]; then
+            bash scripts/notify_telegram.sh --file .ci/telegram-report.txt
+          else
+            bash scripts/notify_telegram.sh "gsc-weekly ran but produced no report file — check the Actions run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          fi
+
+      - name: Telegram failure alert
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OPS_CHAT_ID: ${{ secrets.TELEGRAM_OPS_CHAT_ID }}
+        run: bash scripts/notify_telegram.sh "FAILED - gsc-weekly (dollarbets). ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

@@ -1,0 +1,74 @@
+name: Daily Article
+
+# Cloud successor to the local daily-article-batch Cowork task + the launchd
+# publisher (com.dollarbets.publish). Writes one franchise page from the week's
+# brief, builds, verifies indexability, and commits directly — the guarded
+# commit step excludes any new page carrying an unexpected noindex tag.
+#
+# 09:30 UTC daily — after the 08:00 UTC board scan (fresh hero markets) and,
+# on Mondays, after the 06:45 UTC gsc-weekly run (fresh brief).
+#
+# Secrets required: ANTHROPIC_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_OPS_CHAT_ID,
+# VERCEL_DEPLOY_HOOK.
+
+on:
+  schedule:
+    - cron: '30 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-writers
+  cancel-in-progress: false
+
+jobs:
+  write-article:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Write today's article (Claude)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          mkdir -p .ci reports
+          claude -p "$(cat prompts/daily-article.md)" --dangerously-skip-permissions
+
+      - name: Guarded commit + push
+        id: commit
+        run: |
+          bash scripts/ci_guarded_commit.sh "Article: auto $(date -u +%Y-%m-%d)" content public reports
+
+      - name: Trigger Vercel deploy
+        if: steps.commit.outputs.changed == 'true'
+        run: curl -sS -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}" -o /dev/null || echo "WARNING - Vercel deploy hook failed"
+
+      - name: Telegram report
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OPS_CHAT_ID: ${{ secrets.TELEGRAM_OPS_CHAT_ID }}
+        run: |
+          if [ -f .ci/telegram-report.txt ]; then
+            bash scripts/notify_telegram.sh --file .ci/telegram-report.txt
+          else
+            bash scripts/notify_telegram.sh "daily-article ran but produced no report file — check the Actions run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          fi
+
+      - name: Telegram failure alert
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OPS_CHAT_ID: ${{ secrets.TELEGRAM_OPS_CHAT_ID }}
+        run: bash scripts/notify_telegram.sh "FAILED - daily-article (dollarbets). ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

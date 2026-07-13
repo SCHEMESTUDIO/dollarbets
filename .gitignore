@@ -27,3 +27,6 @@ credentials.json
 secrets.json
 data/corpus/
 data/corpus/
+
+# CI scratch (Telegram report files etc.)
+.ci/

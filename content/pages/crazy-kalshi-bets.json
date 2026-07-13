@@ -10,13 +10,13 @@
   "summary": "Kalshi hosts the craziest bets in the prediction market world — also the weirdest, also the most ridiculous. Asteroid contracts, government shutdown deadlines, snowfall totals, celebrity moves — all priced in real money. Here are the craziest Kalshi bets available right now, framed as what $1 returns.",
   "quick_answer": "The craziest Kalshi bets — the weirdest, most ridiculous, most outrageous — include weather contracts (hurricane landfalls, record temperatures), government deadline markets (shutdowns, debt ceilings), space events (asteroid flybys), economic data surprises, and pop culture outcomes. Most trade under $0.10, meaning $1 returns $10 or more if chaos delivers.",
   "hero_bet": {
-    "title": "Will a Category 5 hurricane make US landfall in 2026?",
-    "payout": 18,
-    "quip": "Kalshi really said 'bet on the apocalypse' and people showed up.",
+    "title": "Taylor Swift meets Pope Leo XIV before 2027",
+    "payout": 16.67,
+    "quip": "Bejeweled, Vatican edit. A regulated US futures exchange listed this the day Leo was elected and volume crossed $18,700.",
     "tier": "red",
     "sourcePlatform": "Kalshi",
     "marketType": "prediction_market",
-    "url": "/"
+    "url": "https://kalshi.com/markets/KXPOPESWIFT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
   },
   "internal_links": [
     {
@@ -38,6 +38,10 @@
     {
       "text": "polymarket vs kalshi: craziest markets",
       "url": "/polymarket-vs-kalshi-craziest-markets/"
+    },
+    {
+      "text": "weirdest popular active polymarket markets june 2026",
+      "url": "/weirdest-active-polymarket-markets-june-2026/"
     }
   ],
   "body": [
@@ -59,6 +63,23 @@
     },
     {
       "type": "heading",
+      "content": "the craziest kalshi bets live right now (june 2026)"
+    },
+    {
+      "type": "text",
+      "content": "Here's what's actually on the board this week, framed as what $1 returns. All Kalshi contracts, all CFTC-regulated, all genuinely absurd in ways that a normal sportsbook would refuse to touch."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Taylor Swift meets Pope Leo XIV before Jan 1, 2027: $1 returns $16.67. Kalshi listed this the day Leo XIV was elected. Volume crossed $18,700. The crowd puts the probability at 6%. The crowd may be optimistic.",
+        "NASA lands on the Moon before 2028: $1 returns $13.89. The deadline moved from 2027 to 2028 and the implied odds barely moved — still about 7 cents. Artemis's track record is doing a lot of work in that number.",
+        "California hits an 8.0 earthquake before 2028: $1 returns $6.25. The crowd says 16%. That is not a comforting probability from a seismology standpoint.",
+        "So Easy (To Fall In Love) lands a Grammy nomination in 2027: $1 returns $4.55. Kalshi has individual Grammy nomination contracts. This is a feature, not a bug."
+      ]
+    },
+    {
+      "type": "heading",
       "content": "what are the weirdest kalshi bets this week?"
     },
     {
@@ -67,7 +88,7 @@
     },
     {
       "type": "heading",
-      "content": "What are the craziest weather bets on Kalshi?"
+      "content": "what are the craziest weather bets on kalshi?"
     },
     {
       "type": "text",
@@ -79,7 +100,7 @@
     },
     {
       "type": "heading",
-      "content": "Can you bet on government shutdowns and political chaos on Kalshi?"
+      "content": "can you bet on government shutdowns and political chaos on kalshi?"
     },
     {
       "type": "text",
@@ -91,7 +112,7 @@
     },
     {
       "type": "heading",
-      "content": "What space and science bets does Kalshi offer?"
+      "content": "what space and science bets does kalshi offer?"
     },
     {
       "type": "text",
@@ -99,7 +120,7 @@
     },
     {
       "type": "heading",
-      "content": "What are the craziest economic bets on Kalshi?"
+      "content": "what are the craziest economic bets on kalshi?"
     },
     {
       "type": "text",
@@ -111,7 +132,7 @@
     },
     {
       "type": "heading",
-      "content": "Why are Kalshi bets crazier than regular sports bets?"
+      "content": "why are kalshi bets crazier than regular sports bets?"
     },
     {
       "type": "text",
@@ -123,7 +144,7 @@
     },
     {
       "type": "heading",
-      "content": "Where can you find the latest crazy Kalshi bets?"
+      "content": "where can you find the latest crazy kalshi bets?"
     },
     {
       "type": "text",
@@ -162,7 +183,7 @@
   ],
   "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate markets or provide betting advice. Kalshi is a separate, CFTC-regulated platform. All markets mentioned are illustrative of market types available. Odds and availability change. Most longshot bets will lose. Some links may be affiliate links — see our affiliate disclosure.",
   "publish_date": "2026-05-11",
-  "last_updated": "2026-06-15",
+  "last_updated": "2026-06-25",
   "cluster": "Weird Bets",
   "priority": 82
 }
