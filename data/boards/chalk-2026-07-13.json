@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T17:54:52.285246+00:00",
+  "generated_at": "2026-07-13T20:15:17.005067+00:00",
   "board_type": "chalk",
   "board_name": "chalk",
   "market_count": 6,
@@ -9,8 +9,8 @@
   },
   "sport_mix": {
     "NFL": 4,
-    "NCAAF": 1,
-    "MLB": 1
+    "MLB": 1,
+    "NCAAF": 1
   },
   "board": [
     {
@@ -18,7 +18,7 @@
       "title": "Bengals handle the Buccaneers at home tonight",
       "payout": 1.51,
       "tier": "green",
-      "quip": "Ja'Marr Chase has entered the chat",
+      "quip": "Joe Burrow eating Baker Mayfield for breakfast again",
       "yes_price": "0.66",
       "category": "NFL",
       "platform": "draftkings",
@@ -35,10 +35,10 @@
     },
     {
       "ticker": "SB-E06B46AD",
-      "title": "Seahawks send the Patriots home with a loss tonight",
+      "title": "Seahawks send the Patriots packing tonight",
       "payout": 1.52,
       "tier": "green",
-      "quip": "Bill left, so did the winning",
+      "quip": "Bill Belichick left the building and took the wins with him",
       "yes_price": "0.66",
       "category": "NFL",
       "platform": "draftkings",
@@ -55,10 +55,10 @@
     },
     {
       "ticker": "SB-36DABE6F",
-      "title": "Ravens roll the Colts on the road tonight",
+      "title": "Ravens roll the Colts tonight",
       "payout": 1.52,
       "tier": "green",
-      "quip": "Lamar in Indianapolis is a nature documentary",
+      "quip": "Lamar Jackson is doing things that shouldn't be legal",
       "yes_price": "0.66",
       "category": "NFL",
       "platform": "draftkings",
@@ -74,8 +74,28 @@
       "has_deep_link": true
     },
     {
+      "ticker": "SB-255FA81F",
+      "title": "AL-NL All-Star game stays close tonight",
+      "payout": 1.55,
+      "tier": "green",
+      "quip": "nobody's throwing their ace out there for bragging rights",
+      "yes_price": "0.65",
+      "category": "MLB",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591784002&selectionId=43417",
+      "close_time": "2026-07-15T00:01:00Z",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "American League @ National League",
+      "market_type": "spreads",
+      "american_odds": -182,
+      "implied_probability": 0.645,
+      "has_deep_link": true
+    },
+    {
       "ticker": "SB-B4198E78",
-      "title": "Stanford shuts down Hawaii at home tomorrow",
+      "title": "Stanford turns away Hawaii tonight",
       "payout": 1.56,
       "tier": "green",
       "quip": "the Rainbow Warriors flew a long way for this",
@@ -94,31 +114,11 @@
       "has_deep_link": true
     },
     {
-      "ticker": "SB-255FA81F",
-      "title": "NL holds off AL in the All-Star Game tonight",
-      "payout": 1.58,
-      "tier": "green",
-      "quip": "one and a half runs is a very short fence",
-      "yes_price": "0.63",
-      "category": "MLB",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591784002&selectionId=43417",
-      "close_time": "2026-07-15T00:01:00Z",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "American League @ National League",
-      "market_type": "spreads",
-      "american_odds": -172,
-      "implied_probability": 0.632,
-      "has_deep_link": true
-    },
-    {
       "ticker": "SB-8E74E435",
-      "title": "Rams knock off the 49ers at SoFi tonight",
+      "title": "Rams topple the 49ers on their own turf tonight",
       "payout": 1.59,
       "tier": "green",
-      "quip": "McVay has a Kyle Shanahan dartboard in his office",
+      "quip": "McVay has been drawing this play since 2019",
       "yes_price": "0.63",
       "category": "NFL",
       "platform": "draftkings",
