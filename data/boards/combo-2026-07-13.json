@@ -1,0 +1,437 @@
+{
+  "generated_at": "2026-07-13T04:30:10.425089+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "MLS": 1,
+    "NCAAF": 1,
+    "Multi": 8
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-8F22A89E",
+      "title": "Seattle Sounders FC wins + San Jose Earthquakes wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.589116767&selectionId=4019787",
+      "sport": "soccer_usa_mls",
+      "sport_display": "MLS",
+      "matchup": "Portland Timbers @ Seattle Sounders FC + Orlando City SC @ San Jose Earthquakes",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Portland Timbers @ Seattle Sounders FC",
+          "pick": "Seattle Sounders FC wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.589116767&selectionId=4019787",
+          "commence_time": "2026-07-17T02:30:00Z"
+        },
+        {
+          "matchup": "Orlando City SC @ San Jose Earthquakes",
+          "pick": "San Jose Earthquakes wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591608682&selectionId=408102",
+          "commence_time": "2026-07-23T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-07-17T02:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-EF802646",
+      "title": "James Madison Dukes wins + Ole Miss Rebels wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027432507?coupon={pickType}|4251728530|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Liberty Flames @ James Madison Dukes + Louisville Cardinals @ Ole Miss Rebels",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Liberty Flames @ James Madison Dukes",
+          "pick": "James Madison Dukes wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432507?coupon={pickType}|4251728530|{wagerAmount}",
+          "commence_time": "2026-09-05T16:00:00Z"
+        },
+        {
+          "matchup": "Louisville Cardinals @ Ole Miss Rebels",
+          "pick": "Ole Miss Rebels wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+          "commence_time": "2026-09-06T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-05T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-69F94409",
+      "title": "James Madison Dukes wins + Seattle Seahawks wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027432507?coupon={pickType}|4251728530|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Liberty Flames @ James Madison Dukes + New England Patriots @ Seattle Seahawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Liberty Flames @ James Madison Dukes",
+          "pick": "James Madison Dukes wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432507?coupon={pickType}|4251728530|{wagerAmount}",
+          "commence_time": "2026-09-05T16:00:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
+          "commence_time": "2026-09-10T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-09-05T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-1D8C440A",
+      "title": "James Madison Dukes wins + Mackenzie Dern wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027432507?coupon={pickType}|4251728530|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Liberty Flames @ James Madison Dukes + Gillian Robertson @ Mackenzie Dern",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Liberty Flames @ James Madison Dukes",
+          "pick": "James Madison Dukes wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432507?coupon={pickType}|4251728530|{wagerAmount}",
+          "commence_time": "2026-09-05T16:00:00Z"
+        },
+        {
+          "matchup": "Gillian Robertson @ Mackenzie Dern",
+          "pick": "Mackenzie Dern wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028064576?coupon={pickType}|4227323724|{wagerAmount}",
+          "commence_time": "2026-08-16T03:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-16T03:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-27C6B7F7",
+      "title": "Ole Miss Rebels wins + Seattle Seahawks wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Louisville Cardinals @ Ole Miss Rebels + New England Patriots @ Seattle Seahawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Louisville Cardinals @ Ole Miss Rebels",
+          "pick": "Ole Miss Rebels wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+          "commence_time": "2026-09-06T23:30:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
+          "commence_time": "2026-09-10T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-09-06T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-404E167B",
+      "title": "Ole Miss Rebels wins + Mackenzie Dern wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Louisville Cardinals @ Ole Miss Rebels + Gillian Robertson @ Mackenzie Dern",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Louisville Cardinals @ Ole Miss Rebels",
+          "pick": "Ole Miss Rebels wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+          "commence_time": "2026-09-06T23:30:00Z"
+        },
+        {
+          "matchup": "Gillian Robertson @ Mackenzie Dern",
+          "pick": "Mackenzie Dern wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028064576?coupon={pickType}|4227323724|{wagerAmount}",
+          "commence_time": "2026-08-16T03:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-16T03:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-EE7EBFA4",
+      "title": "Seattle Seahawks wins + Mackenzie Dern wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "New England Patriots @ Seattle Seahawks + Gillian Robertson @ Mackenzie Dern",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
+          "commence_time": "2026-09-10T00:15:00Z"
+        },
+        {
+          "matchup": "Gillian Robertson @ Mackenzie Dern",
+          "pick": "Mackenzie Dern wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028064576?coupon={pickType}|4227323724|{wagerAmount}",
+          "commence_time": "2026-08-16T03:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-16T03:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-57933541",
+      "title": "TCU Horned Frogs wins + Seattle Sounders FC wins",
+      "payout": 2.02,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.49",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.551703073&selectionId=567126",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "North Carolina Tar Heels @ TCU Horned Frogs + Portland Timbers @ Seattle Sounders FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 102,
+      "implied_probability": 0.495,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "North Carolina Tar Heels @ TCU Horned Frogs",
+          "pick": "TCU Horned Frogs wins",
+          "odds": -235,
+          "implied_prob": "70%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.551703073&selectionId=567126",
+          "commence_time": "2026-08-29T16:00:00Z"
+        },
+        {
+          "matchup": "Portland Timbers @ Seattle Sounders FC",
+          "pick": "Seattle Sounders FC wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.589116767&selectionId=4019787",
+          "commence_time": "2026-07-17T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-07-17T02:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-151BC298",
+      "title": "TCU Horned Frogs wins + San Jose Earthquakes wins",
+      "payout": 2.02,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.49",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.551703073&selectionId=567126",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "North Carolina Tar Heels @ TCU Horned Frogs + Orlando City SC @ San Jose Earthquakes",
+      "market_type": "2-leg parlay",
+      "american_odds": 102,
+      "implied_probability": 0.495,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "North Carolina Tar Heels @ TCU Horned Frogs",
+          "pick": "TCU Horned Frogs wins",
+          "odds": -235,
+          "implied_prob": "70%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.551703073&selectionId=567126",
+          "commence_time": "2026-08-29T16:00:00Z"
+        },
+        {
+          "matchup": "Orlando City SC @ San Jose Earthquakes",
+          "pick": "San Jose Earthquakes wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591608682&selectionId=408102",
+          "commence_time": "2026-07-23T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-07-23T02:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-DF3A53AA",
+      "title": "Missouri Tigers wins + Seattle Sounders FC wins",
+      "payout": 2.02,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.49",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579964460&selectionId=662060",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Missouri Tigers @ Kansas Jayhawks + Portland Timbers @ Seattle Sounders FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 102,
+      "implied_probability": 0.495,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Missouri Tigers @ Kansas Jayhawks",
+          "pick": "Missouri Tigers wins",
+          "odds": -235,
+          "implied_prob": "70%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579964460&selectionId=662060",
+          "commence_time": "2026-09-12T00:00:00Z"
+        },
+        {
+          "matchup": "Portland Timbers @ Seattle Sounders FC",
+          "pick": "Seattle Sounders FC wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.589116767&selectionId=4019787",
+          "commence_time": "2026-07-17T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-07-17T02:30:00Z"
+    }
+  ]
+}
