@@ -10,13 +10,13 @@
   "summary": "Funny prediction markets have a permanent home: it's Polymarket. If you're hunting the funniest bets on the internet, this is the motherlode — meme coins, celebrity scandals, political theater, and questions that have no business being financial instruments — all priced by the crowd, all live right now.",
   "quick_answer": "The funniest Polymarket bets include meme-tier markets (will a celebrity do something absurd), viral political props (debate moments, tweet predictions), crypto culture bets, and pop culture outcomes that have no business being financial instruments. Many trade at pennies, meaning $1 returns big if the joke becomes reality.",
   "hero_bet": {
-    "title": "Will a sitting world leader post a meme on official social media?",
-    "payout": 12,
-    "quip": "Polymarket really said 'price the timeline' and meant it literally.",
-    "tier": "red",
+    "title": "Claude crashes 3-5 times in July",
+    "payout": 8.97,
+    "quip": "The crowd priced whether the AI would fall over this month. It has an order book. It has liquidity. It has opinions about HAL's uptime.",
+    "tier": "orange",
     "sourcePlatform": "Polymarket",
     "marketType": "prediction_market",
-    "url": "https://polymarket.com"
+    "url": "/go/0xe5d4fe1d6aacf881968455574854b995a0c2ac766ead9148b95a5ae2a3d1ce40/"
   },
   "internal_links": [
     {
@@ -44,8 +44,8 @@
       "url": "/polymarket-vs-kalshi-craziest-markets/"
     },
     {
-      "text": "weirdest popular active polymarket markets june 2026",
-      "url": "/weirdest-active-polymarket-markets-june-2026/"
+      "text": "weirdest active polymarket markets right now (july 2026)",
+      "url": "/weirdest-active-polymarket-markets-july-2026/"
     },
     {
       "text": "about Dollar Bets",
@@ -79,7 +79,11 @@
     },
     {
       "type": "text",
-      "content": "The best part is the implied probabilities. When a market for 'Will a major airline lose a passenger's pet this month' is trading at 15 cents, the crowd is collectively saying there's a 15% chance it happens. That number contains more information than any pundit take — and it's funnier, too."
+      "content": "For the state of the genre as of mid-July 2026, look at what's actually live and trading. A Polymarket contract on whether Claude — the AI writing half the internet's homework — will crash three-to-five times this month sits around an 11-cent yes, which is the crowd politely saying the machine has a small but non-zero chance of eating dirt on schedule. A dollar there returns about nine if the outages land in the window. That's the whole bit: a serious order book on a deeply unserious question."
+    },
+    {
+      "type": "text",
+      "content": "The best part is the implied probabilities, because the number is the punchline. 'MegaETH drops an airdrop by year's end' is priced near 21 cents — a fifth of the crowd betting the money printer runs in Ethereum dialect. 'Cameron Boozer wins NBA Rookie of the Year' trades around 22 cents, an entire market built on the premise that a draft night went wrong and everyone has to live with it. And somewhere in Oslo, a very specific person has money on 'IK Start beats Vålerenga 2-3' — not wins, not 3-1, exactly 2-3 — trading at a coin-flip. Those numbers contain more information than any pundit take, and they're funnier, too."
     },
     {
       "type": "heading",
@@ -91,7 +95,7 @@
     },
     {
       "type": "text",
-      "content": "The truly ridiculous ones earn their reputation through the gap between the stakes and the subject. A multi-million-dollar liquidity pool pricing the odds that a celebrity couple stays together for 90 more days. A market on whether a specific executive will post on a specific day. These aren't joke markets — Polymarket has real money in them, moved by people who think they have edge. That's the most ridiculous part."
+      "content": "The truly ridiculous ones earn their reputation through the gap between the stakes and the subject — and sometimes through the payout. Right now a Polymarket contract on 'Bitcoin hits an all-time high by September' is trading near a penny and a half, which turns a single dollar into roughly sixty-four if the number goes up where the sun doesn't shine on this timeline. Nearly a million dollars of volume sits on that one longshot. These aren't joke markets — Polymarket has real money in them, moved by people who think they have edge. That's the most ridiculous part."
     },
     {
       "type": "heading",
@@ -182,7 +186,7 @@
   ],
   "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate prediction markets or place bets on behalf of users. Polymarket is a separate platform with its own terms, risks, and regulatory status. Availability varies by jurisdiction. Prediction market contracts involve risk of total loss. Some links may be affiliate links — see our affiliate disclosure.",
   "publish_date": "2026-05-11",
-  "last_updated": "2026-06-23",
+  "last_updated": "2026-07-14",
   "cluster": "Weird Bets",
   "priority": 80
 }
