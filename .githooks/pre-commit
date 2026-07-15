@@ -1,0 +1,18 @@
+#!/bin/bash
+# Ownership guard (2026-07-15, see WORKFLOW.md): these paths are written by
+# GitHub Actions. Local commits to them are almost always a mistake that ends
+# in a rebase conflict. Override deliberately with: ALLOW_CLOUD_EDIT=1 git commit
+[ -n "$ALLOW_CLOUD_EDIT" ] && exit 0
+[ -n "$GITHUB_ACTIONS" ] && exit 0
+
+CLOUD_OWNED='^(gsc-data/|reports/|data/boards/|data/social-queue/|content/|public/|CLAUDE\.md$)'
+BLOCKED=$(git diff --cached --name-only | grep -E "$CLOUD_OWNED")
+
+if [ -n "$BLOCKED" ]; then
+  echo "✋ pre-commit: these staged files are CLOUD-OWNED (GitHub Actions writes them):"
+  echo "$BLOCKED" | sed 's/^/   /'
+  echo "Editing them locally causes the rebase conflicts we killed on 2026-07-15."
+  echo "If this edit is deliberate: ALLOW_CLOUD_EDIT=1 git commit ..."
+  exit 1
+fi
+exit 0

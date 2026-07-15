@@ -1,0 +1,49 @@
+# Dollar Bets — durable decisions log
+
+Repo-resident project memory. Read by local sessions AND cloud workflows —
+this file (not any machine-local memory) is the shared source of truth for
+*why* things are the way they are. Maintained by the weekly wiki-update
+workflow: append new durable decisions, mark superseded ones, never silently
+delete. Keep entries short; link evidence.
+
+## Strategy
+
+- **2026-06-05 — Franchise-only content (THE strategic decision).** Full SEO
+  audit: only brand-native editorial about specific weird/funny/outrageous
+  prediction markets earns clicks (/crazy-kalshi-bets/ pos ~7, 11%+ CTR).
+  Commodity informational content (odds explainers, "what is a X bet", NBA,
+  weather, generic vs-sports-betting) ranks page 8 with zero clicks and harms
+  the site. 24 commodity pages noindexed; `BLOCKED_SLUG_PATTERNS` /
+  `policy_noindex()` in generate.py auto-noindexes new commodity slugs.
+  Expect total impressions to FALL as the prune is honored — that is healthy,
+  not a regression. Scorecard = franchise clicks/CTR, never total impressions.
+- **Geographic skew rule:** clusters >50% non-US impressions are deprioritized.
+- **Editorial guardrails:** old-internet aesthetic; human byline; no "why it
+  loses" framing; no fake data/odds; Kalshi affiliate link only (no offshore
+  books); lowercase headings; quip voice ("A buck says maybe.").
+
+## Architecture
+
+- **2026-07-03 → 2026-07-15 — Cloud migration (complete).** All recurring
+  automation runs in GitHub Actions; nothing recurring runs on the Mac.
+  Reporting rail = Telegram bot → James's DM (chat id 1425135907). GSC auth =
+  service account key in `GSC_CREDENTIALS_JSON` (user-ADC failed in CI with
+  `invalid_rapt`; org policy for key creation overridden at project level
+  2026-07-15). launchd pair + local Cowork twins retired.
+- **2026-07-15 — Model pinning.** Every `claude -p` workflow step pins
+  `--model claude-sonnet-5` + `--max-turns` (unpinned steps defaulted to Opus
+  and 10×'d the bill). Never ship an unpinned model call.
+- **2026-07-15 — File ownership (see WORKFLOW.md).** Cloud owns gsc-data/,
+  reports/, data/boards/, content/, public/, CLAUDE.md. Enforced by
+  `.githooks/pre-commit` (`ALLOW_CLOUD_EDIT=1` to override). Sandboxed
+  sessions: no git writes over the mount (orphaned index.lock root cause);
+  reads use `GIT_OPTIONAL_LOCKS=0`; verify remote via `git ls-remote`.
+  The pre-2026-07-15 "never fetch" rule is revoked — it caused sessions to
+  report phantom outages from a 3-week-stale clone.
+
+## Superseded (kept for archaeology)
+
+- ~~2026-06-11 rebuild: publish.sh sole git writer via launchd 11:30~~ →
+  replaced by ci_guarded_commit.sh in Actions (2026-07-13).
+- ~~"Indexing is the bottleneck" thesis~~ → misdiagnosis; absent from
+  Pages.csv means "earned no impressions", not "not indexed" (2026-06-05).

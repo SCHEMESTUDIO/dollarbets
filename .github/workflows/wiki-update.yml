@@ -38,11 +38,11 @@ jobs:
         run: |
           git config user.name "Dollar Bets Bot"
           git config user.email "bot@dollarbets.lol"
-          git add CLAUDE.md
+          git add CLAUDE.md docs/memory/
           if git diff --staged --quiet; then
-            echo "CLAUDE.md unchanged"
+            echo "CLAUDE.md + docs/memory unchanged"
           else
-            git commit -m "Docs: weekly CLAUDE.md maintenance $(date -u +%Y-%m-%d)"
+            git commit -m "Docs: weekly CLAUDE.md + decisions.md maintenance $(date -u +%Y-%m-%d)"
             git pull --rebase origin main && git push
           fi
 
