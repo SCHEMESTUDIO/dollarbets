@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T10:03:00.968877+00:00",
+  "generated_at": "2026-07-15T17:17:56.780656+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,16 +8,143 @@
     "green": 10
   },
   "sport_mix": {
-    "NCAAF": 1,
-    "Multi": 9
+    "Multi": 8,
+    "MLS": 1,
+    "NCAAF": 1
   },
   "board": [
+    {
+      "ticker": "PARLAY-5D9F5607",
+      "title": "Texas Longhorns wins + Nashville SC wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027508024?coupon={pickType}|4237014408|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Oklahoma Sooners @ Texas Longhorns + Atlanta United FC @ Nashville SC",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Oklahoma Sooners @ Texas Longhorns",
+          "pick": "Texas Longhorns wins",
+          "odds": -230,
+          "implied_prob": "70%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508024?coupon={pickType}|4237014408|{wagerAmount}",
+          "commence_time": "2026-10-10T16:00:00Z"
+        },
+        {
+          "matchup": "Atlanta United FC @ Nashville SC",
+          "pick": "Nashville SC wins",
+          "odds": -250,
+          "implied_prob": "71%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806481?coupon={pickType}|4251230142|{wagerAmount}",
+          "commence_time": "2026-07-18T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-07-18T00:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-1E3499FD",
+      "title": "Notre Dame Fighting Irish wins + Nashville SC wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027569547?coupon={pickType}|4237002132|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Miami Hurricanes @ Notre Dame Fighting Irish + Atlanta United FC @ Nashville SC",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Hurricanes @ Notre Dame Fighting Irish",
+          "pick": "Notre Dame Fighting Irish wins",
+          "odds": -230,
+          "implied_prob": "70%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027569547?coupon={pickType}|4237002132|{wagerAmount}",
+          "commence_time": "2026-11-08T00:30:00Z"
+        },
+        {
+          "matchup": "Atlanta United FC @ Nashville SC",
+          "pick": "Nashville SC wins",
+          "odds": -250,
+          "implied_prob": "71%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806481?coupon={pickType}|4251230142|{wagerAmount}",
+          "commence_time": "2026-07-18T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-07-18T00:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-70EFE350",
+      "title": "Seattle Sounders FC wins + Nashville SC wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1025806508?coupon={pickType}|4251215224|{wagerAmount}",
+      "sport": "soccer_usa_mls",
+      "sport_display": "MLS",
+      "matchup": "Portland Timbers @ Seattle Sounders FC + Atlanta United FC @ Nashville SC",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Portland Timbers @ Seattle Sounders FC",
+          "pick": "Seattle Sounders FC wins",
+          "odds": -230,
+          "implied_prob": "70%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806508?coupon={pickType}|4251215224|{wagerAmount}",
+          "commence_time": "2026-07-17T02:30:00Z"
+        },
+        {
+          "matchup": "Atlanta United FC @ Nashville SC",
+          "pick": "Nashville SC wins",
+          "odds": -250,
+          "implied_prob": "71%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806481?coupon={pickType}|4251230142|{wagerAmount}",
+          "commence_time": "2026-07-18T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-07-17T02:30:00Z"
+    },
     {
       "ticker": "PARLAY-EF802646",
       "title": "James Madison Dukes wins + Ole Miss Rebels wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "the safe bet",
+      "quip": "like taking candy from a vending machine",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -59,7 +186,7 @@
       "title": "James Madison Dukes wins + Seattle Seahawks wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "water is wet",
+      "quip": "checking all the boxes",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -97,53 +224,11 @@
       "close_time": "2026-09-05T16:00:00Z"
     },
     {
-      "ticker": "PARLAY-A1AFF4B9",
-      "title": "James Madison Dukes wins + Seok Hyun Ko wins",
-      "payout": 2.01,
-      "tier": "green",
-      "quip": "autopilot engaged",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027432507?coupon={pickType}|4251728530|{wagerAmount}",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "Multi",
-      "matchup": "Liberty Flames @ James Madison Dukes + Jean-Paul Lebosnoyani @ Seok Hyun Ko",
-      "market_type": "2-leg parlay",
-      "american_odds": 101,
-      "implied_probability": 0.498,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Liberty Flames @ James Madison Dukes",
-          "pick": "James Madison Dukes wins",
-          "odds": -240,
-          "implied_prob": "71%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432507?coupon={pickType}|4251728530|{wagerAmount}",
-          "commence_time": "2026-09-05T16:00:00Z"
-        },
-        {
-          "matchup": "Jean-Paul Lebosnoyani @ Seok Hyun Ko",
-          "pick": "Seok Hyun Ko wins",
-          "odds": -240,
-          "implied_prob": "71%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028144632?coupon={pickType}|4255788004|{wagerAmount}",
-          "commence_time": "2026-07-18T21:00:00Z"
-        }
-      ],
-      "close_time": "2026-07-18T21:00:00Z"
-    },
-    {
       "ticker": "PARLAY-560A9356",
       "title": "James Madison Dukes wins + Dricus Du Plessis wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "water is wet",
+      "quip": "the safe bet",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -185,7 +270,7 @@
       "title": "James Madison Dukes wins + Mackenzie Dern wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "autopilot engaged",
+      "quip": "another day at the office",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -227,7 +312,7 @@
       "title": "Ole Miss Rebels wins + Seattle Seahawks wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "routine maintenance",
+      "quip": "the fundamentals",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -265,53 +350,11 @@
       "close_time": "2026-09-06T23:30:00Z"
     },
     {
-      "ticker": "PARLAY-A9152405",
-      "title": "Ole Miss Rebels wins + Seok Hyun Ko wins",
-      "payout": 2.01,
-      "tier": "green",
-      "quip": "the boring middle",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "Multi",
-      "matchup": "Louisville Cardinals @ Ole Miss Rebels + Jean-Paul Lebosnoyani @ Seok Hyun Ko",
-      "market_type": "2-leg parlay",
-      "american_odds": 101,
-      "implied_probability": 0.498,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Louisville Cardinals @ Ole Miss Rebels",
-          "pick": "Ole Miss Rebels wins",
-          "odds": -240,
-          "implied_prob": "71%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
-          "commence_time": "2026-09-06T23:30:00Z"
-        },
-        {
-          "matchup": "Jean-Paul Lebosnoyani @ Seok Hyun Ko",
-          "pick": "Seok Hyun Ko wins",
-          "odds": -240,
-          "implied_prob": "71%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028144632?coupon={pickType}|4255788004|{wagerAmount}",
-          "commence_time": "2026-07-18T21:00:00Z"
-        }
-      ],
-      "close_time": "2026-07-18T21:00:00Z"
-    },
-    {
       "ticker": "PARLAY-E9FF6A9E",
       "title": "Ole Miss Rebels wins + Dricus Du Plessis wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "routine maintenance",
+      "quip": "the sun also rises",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -353,7 +396,7 @@
       "title": "Ole Miss Rebels wins + Mackenzie Dern wins",
       "payout": 2.01,
       "tier": "green",
-      "quip": "water is wet",
+      "quip": "as sure as gravity",
       "yes_price": "0.50",
       "category": "sports-parlay",
       "platform": "betrivers",
@@ -389,48 +432,6 @@
         }
       ],
       "close_time": "2026-08-16T03:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-4F3AEFE1",
-      "title": "Seattle Seahawks wins + Seok Hyun Ko wins",
-      "payout": 2.01,
-      "tier": "green",
-      "quip": "tuesday energy",
-      "yes_price": "0.50",
-      "category": "sports-parlay",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "New England Patriots @ Seattle Seahawks + Jean-Paul Lebosnoyani @ Seok Hyun Ko",
-      "market_type": "2-leg parlay",
-      "american_odds": 101,
-      "implied_probability": 0.498,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "New England Patriots @ Seattle Seahawks",
-          "pick": "Seattle Seahawks wins",
-          "odds": -240,
-          "implied_prob": "71%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
-          "commence_time": "2026-09-10T00:15:00Z"
-        },
-        {
-          "matchup": "Jean-Paul Lebosnoyani @ Seok Hyun Ko",
-          "pick": "Seok Hyun Ko wins",
-          "odds": -240,
-          "implied_prob": "71%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028144632?coupon={pickType}|4255788004|{wagerAmount}",
-          "commence_time": "2026-07-18T21:00:00Z"
-        }
-      ],
-      "close_time": "2026-07-18T21:00:00Z"
     }
   ]
 }
