@@ -58,7 +58,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           mkdir -p .ci reports
-          claude -p "$(cat prompts/weekly-gsc-analysis.md)" --dangerously-skip-permissions
+          claude -p "$(cat prompts/weekly-gsc-analysis.md)" --model claude-sonnet-5 --max-turns 60 --dangerously-skip-permissions
 
       - name: Guarded commit + push
         id: commit
