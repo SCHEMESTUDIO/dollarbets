@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-07-16T04:09:09.112878+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "NCAAF": 3,
+    "Multi": 7
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-EF802646",
+      "title": "James Madison Dukes wins + Ole Miss Rebels wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027432507?coupon={pickType}|4251728530|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Liberty Flames @ James Madison Dukes + Louisville Cardinals @ Ole Miss Rebels",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Liberty Flames @ James Madison Dukes",
+          "pick": "James Madison Dukes wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432507?coupon={pickType}|4251728530|{wagerAmount}",
+          "commence_time": "2026-09-05T16:00:00Z"
+        },
+        {
+          "matchup": "Louisville Cardinals @ Ole Miss Rebels",
+          "pick": "Ole Miss Rebels wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+          "commence_time": "2026-09-06T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-05T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-69F94409",
+      "title": "James Madison Dukes wins + Seattle Seahawks wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027432507?coupon={pickType}|4251728530|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Liberty Flames @ James Madison Dukes + New England Patriots @ Seattle Seahawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Liberty Flames @ James Madison Dukes",
+          "pick": "James Madison Dukes wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432507?coupon={pickType}|4251728530|{wagerAmount}",
+          "commence_time": "2026-09-05T16:00:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
+          "commence_time": "2026-09-10T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-09-05T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-560A9356",
+      "title": "James Madison Dukes wins + Dricus Du Plessis wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027432507?coupon={pickType}|4251728530|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Liberty Flames @ James Madison Dukes + Kamaru Usman @ Dricus Du Plessis",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Liberty Flames @ James Madison Dukes",
+          "pick": "James Madison Dukes wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432507?coupon={pickType}|4251728530|{wagerAmount}",
+          "commence_time": "2026-09-05T16:00:00Z"
+        },
+        {
+          "matchup": "Kamaru Usman @ Dricus Du Plessis",
+          "pick": "Dricus Du Plessis wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028144627?coupon={pickType}|4235754407|{wagerAmount}",
+          "commence_time": "2026-07-19T01:45:00Z"
+        }
+      ],
+      "close_time": "2026-07-19T01:45:00Z"
+    },
+    {
+      "ticker": "PARLAY-27C6B7F7",
+      "title": "Ole Miss Rebels wins + Seattle Seahawks wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Louisville Cardinals @ Ole Miss Rebels + New England Patriots @ Seattle Seahawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Louisville Cardinals @ Ole Miss Rebels",
+          "pick": "Ole Miss Rebels wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+          "commence_time": "2026-09-06T23:30:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
+          "commence_time": "2026-09-10T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-09-06T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-E9FF6A9E",
+      "title": "Ole Miss Rebels wins + Dricus Du Plessis wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Louisville Cardinals @ Ole Miss Rebels + Kamaru Usman @ Dricus Du Plessis",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Louisville Cardinals @ Ole Miss Rebels",
+          "pick": "Ole Miss Rebels wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+          "commence_time": "2026-09-06T23:30:00Z"
+        },
+        {
+          "matchup": "Kamaru Usman @ Dricus Du Plessis",
+          "pick": "Dricus Du Plessis wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028144627?coupon={pickType}|4235754407|{wagerAmount}",
+          "commence_time": "2026-07-19T01:45:00Z"
+        }
+      ],
+      "close_time": "2026-07-19T01:45:00Z"
+    },
+    {
+      "ticker": "PARLAY-2C814AE1",
+      "title": "Seattle Seahawks wins + Dricus Du Plessis wins",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.50",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "New England Patriots @ Seattle Seahawks + Kamaru Usman @ Dricus Du Plessis",
+      "market_type": "2-leg parlay",
+      "american_odds": 101,
+      "implied_probability": 0.498,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
+          "commence_time": "2026-09-10T00:15:00Z"
+        },
+        {
+          "matchup": "Kamaru Usman @ Dricus Du Plessis",
+          "pick": "Dricus Du Plessis wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028144627?coupon={pickType}|4235754407|{wagerAmount}",
+          "commence_time": "2026-07-19T01:45:00Z"
+        }
+      ],
+      "close_time": "2026-07-19T01:45:00Z"
+    },
+    {
+      "ticker": "PARLAY-44953ED4",
+      "title": "Texas Longhorns wins + James Madison Dukes wins",
+      "payout": 2.03,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.49",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027508024?coupon={pickType}|4237014408|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Oklahoma Sooners @ Texas Longhorns + Liberty Flames @ James Madison Dukes",
+      "market_type": "2-leg parlay",
+      "american_odds": 103,
+      "implied_probability": 0.492,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Oklahoma Sooners @ Texas Longhorns",
+          "pick": "Texas Longhorns wins",
+          "odds": -230,
+          "implied_prob": "70%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508024?coupon={pickType}|4237014408|{wagerAmount}",
+          "commence_time": "2026-10-10T16:00:00Z"
+        },
+        {
+          "matchup": "Liberty Flames @ James Madison Dukes",
+          "pick": "James Madison Dukes wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432507?coupon={pickType}|4251728530|{wagerAmount}",
+          "commence_time": "2026-09-05T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-05T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-647F4959",
+      "title": "Texas Longhorns wins + Ole Miss Rebels wins",
+      "payout": 2.03,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.49",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027508024?coupon={pickType}|4237014408|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Oklahoma Sooners @ Texas Longhorns + Louisville Cardinals @ Ole Miss Rebels",
+      "market_type": "2-leg parlay",
+      "american_odds": 103,
+      "implied_probability": 0.492,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Oklahoma Sooners @ Texas Longhorns",
+          "pick": "Texas Longhorns wins",
+          "odds": -230,
+          "implied_prob": "70%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508024?coupon={pickType}|4237014408|{wagerAmount}",
+          "commence_time": "2026-10-10T16:00:00Z"
+        },
+        {
+          "matchup": "Louisville Cardinals @ Ole Miss Rebels",
+          "pick": "Ole Miss Rebels wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027432890?coupon={pickType}|4172199833|{wagerAmount}",
+          "commence_time": "2026-09-06T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-06T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-347A75E7",
+      "title": "Texas Longhorns wins + Seattle Seahawks wins",
+      "payout": 2.03,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.49",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027508024?coupon={pickType}|4237014408|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Oklahoma Sooners @ Texas Longhorns + New England Patriots @ Seattle Seahawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 103,
+      "implied_probability": 0.492,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Oklahoma Sooners @ Texas Longhorns",
+          "pick": "Texas Longhorns wins",
+          "odds": -230,
+          "implied_prob": "70%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508024?coupon={pickType}|4237014408|{wagerAmount}",
+          "commence_time": "2026-10-10T16:00:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663017?coupon={pickType}|4184191234|{wagerAmount}",
+          "commence_time": "2026-09-10T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-09-10T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-B68780F9",
+      "title": "Texas Longhorns wins + Dricus Du Plessis wins",
+      "payout": 2.03,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.49",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027508024?coupon={pickType}|4237014408|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Oklahoma Sooners @ Texas Longhorns + Kamaru Usman @ Dricus Du Plessis",
+      "market_type": "2-leg parlay",
+      "american_odds": 103,
+      "implied_probability": 0.492,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Oklahoma Sooners @ Texas Longhorns",
+          "pick": "Texas Longhorns wins",
+          "odds": -230,
+          "implied_prob": "70%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508024?coupon={pickType}|4237014408|{wagerAmount}",
+          "commence_time": "2026-10-10T16:00:00Z"
+        },
+        {
+          "matchup": "Kamaru Usman @ Dricus Du Plessis",
+          "pick": "Dricus Du Plessis wins",
+          "odds": -240,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028144627?coupon={pickType}|4235754407|{wagerAmount}",
+          "commence_time": "2026-07-19T01:45:00Z"
+        }
+      ],
+      "close_time": "2026-07-19T01:45:00Z"
+    }
+  ]
+}
