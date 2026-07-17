@@ -2,13 +2,13 @@
   "slug": "polymarket-vs-kalshi-craziest-markets",
   "format": "comparison",
   "seo": {
-    "title": "Polymarket vs. Kalshi: The Craziest Markets on Each Right Now | Dollar Bets",
-    "h1": "Polymarket vs. Kalshi: The Craziest Markets on Each Right Now",
-    "meta_description": "Craziest markets on Polymarket vs. Kalshi, side by side: Elon Musk wins the Nobel Peace Prize ($1 pays $153), a NASA moon landing ($1 pays $19), a US-Iran nuclear deal, Mars colonization. The most outrageous live markets on each platform, framed as what $1 returns.",
+    "title": "Polymarket vs. Kalshi: Same Dollar, Two Different Bets | Dollar Bets",
+    "h1": "Polymarket vs. Kalshi: Same Dollar, Two Totally Different Bets",
+    "meta_description": "Polymarket vs. Kalshi compared head to head: one's a CFTC-regulated US exchange, the other runs on crypto rails offshore — and the two boards barely overlap on a given day. Elon Musk's Nobel odds vs. NASA's moon landing odds, framed as what $1 actually returns.",
     "canonical": "/polymarket-vs-kalshi-craziest-markets/"
   },
-  "summary": "Kalshi and Polymarket both list events a normal sportsbook would never touch — but the crazy lives in different categories. Right now Polymarket is taking $1 on Elon Musk winning the Nobel Peace Prize ($1 pays $153.85) while Kalshi is taking $1 on NASA landing a person on the Moon before 2028 ($1 pays $19.23). Five craziest markets from each, side by side.",
-  "quick_answer": "Kalshi vs. Polymarket for the craziest markets right now: Kalshi is wilder for space, government deadlines, geopolitics, and regulated longshots like a moon landing or a US-Iran nuclear deal. Polymarket is wilder for celebrity chaos, crypto, AI benchmarks, and questions a federal regulator would never sign off on — like whether Elon Musk wins a Nobel Prize. Both let you turn $1 into a story.",
+  "summary": "Polymarket and Kalshi both let you turn $1 into a prediction-market bet, but they are not the same kind of platform, and their boards barely overlap on a given day. Kalshi is a CFTC-regulated US exchange; Polymarket runs on crypto rails and leans offshore. Right now that split shows up as Elon Musk winning the Nobel Peace Prize ($1 pays $153.85) on Polymarket versus NASA landing a person on the Moon before 2028 ($1 pays $19.23) on Kalshi.",
+  "quick_answer": "Polymarket vs. Kalshi, head to head: Kalshi is a CFTC-regulated US exchange that's wilder for space programs, government deadlines, geopolitics, and regulated longshots like a moon landing or a US-Iran nuclear deal. Polymarket is a crypto-based platform, historically offshore, that's wilder for celebrity chaos, crypto, AI benchmarks, and questions a federal regulator would never sign off on — like whether Elon Musk wins a Nobel Prize. Both let you turn $1 into a story; which one is \"better\" depends on whether you want your longshots regulated or unregulated.",
   "hero_bet": {
     "title": "Elon Musk wins the Nobel Peace Prize this year",
     "payout": 153.85,
@@ -47,7 +47,7 @@
   "body": [
     {
       "type": "text",
-      "content": "The craziest markets on Polymarket and Kalshi are not the same kind of crazy. That's the whole story. Polymarket — a crypto-based platform running on the Polygon blockchain — is where you go to find a market on Elon Musk winning the Nobel Peace Prize this year. It's live, it's real, and a dollar pays $153.85. Kalshi — the CFTC-regulated US exchange — is where you go to find a market on NASA landing a human on the Moon before 2028. Also live, also real, and a dollar pays $19.23. What follows is five craziest markets from each, pulled from today's board."
+      "content": "Polymarket and Kalshi are not the same kind of platform, and that shows up in what they'll actually let you bet a dollar on. Polymarket — a crypto-based platform running on the Polygon blockchain, historically offshore — is where you go to find a market on Elon Musk winning the Nobel Peace Prize this year. It's live, it's real, and a dollar pays $153.85. Kalshi — the CFTC-regulated US exchange — is where you go to find a market on NASA landing a human on the Moon before 2028. Also live, also real, and a dollar pays $19.23. What follows is a side-by-side of the two platforms, using the craziest market on each as the entry point."
     },
     {
       "type": "text",
@@ -150,7 +150,7 @@
   ],
   "compliance": "Dollar Bets is an editorial discovery site. We do not operate prediction markets, place bets, or provide financial advice. Kalshi is a CFTC-regulated US exchange with its own state-by-state availability and terms. Polymarket has historically operated through offshore entities and its US availability has shifted over time — check the platform directly before participating. Prediction market contracts involve the risk of total loss. Some links may be affiliate links — see our affiliate disclosure.",
   "publish_date": "2026-05-26",
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-07-17",
   "cluster": "cross-platform comparison",
   "priority": 7
 }
