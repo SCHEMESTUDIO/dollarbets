@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T06:05:10.981196+00:00",
+  "generated_at": "2026-07-18T07:02:51.736017+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,8 +8,8 @@
     "green": 10
   },
   "sport_mix": {
-    "MLB": 5,
-    "Multi": 5
+    "MLB": 7,
+    "Multi": 3
   },
   "board": [
     {
@@ -17,7 +17,7 @@
       "title": "Toronto Blue Jays +1.5 + Houston Astros +1.5",
       "payout": 2.44,
       "tier": "green",
-      "quip": "no surprises here",
+      "quip": "like taking candy from a vending machine",
       "yes_price": "0.41",
       "category": "sports-parlay",
       "platform": "fanduel",
@@ -55,221 +55,11 @@
       "close_time": "2026-07-18T19:08:00Z"
     },
     {
-      "ticker": "PARLAY-2EAA4FB5",
-      "title": "Cleveland Guardians +1.5 + Tommy McMillen wins",
-      "payout": 2.44,
-      "tier": "green",
-      "quip": "autopilot engaged",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19821205-1544811227-2258976753&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Pittsburgh Pirates @ Cleveland Guardians + Alberto Montes @ Tommy McMillen",
-      "market_type": "2-leg parlay",
-      "american_odds": 144,
-      "implied_probability": 0.409,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Pittsburgh Pirates @ Cleveland Guardians",
-          "pick": "Cleveland Guardians +1.5",
-          "odds": -175,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19821205-1544811227-2258976753&type=Single",
-          "commence_time": "2026-07-18T23:10:00Z"
-        },
-        {
-          "matchup": "Alberto Montes @ Tommy McMillen",
-          "pick": "Tommy McMillen wins",
-          "odds": -180,
-          "implied_prob": "64%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19756204-1538918612-2241791895&type=Single",
-          "commence_time": "2026-07-19T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-07-18T23:10:00Z"
-    },
-    {
-      "ticker": "PARLAY-A61CA3BF",
-      "title": "New York Yankees +1.5 + Tommy McMillen wins",
-      "payout": 2.44,
-      "tier": "green",
-      "quip": "another day at the office",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19801440-1542540632-2252691900&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Los Angeles Dodgers @ New York Yankees + Alberto Montes @ Tommy McMillen",
-      "market_type": "2-leg parlay",
-      "american_odds": 144,
-      "implied_probability": 0.409,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Los Angeles Dodgers @ New York Yankees",
-          "pick": "New York Yankees +1.5",
-          "odds": -175,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19801440-1542540632-2252691900&type=Single",
-          "commence_time": "2026-07-19T00:09:00Z"
-        },
-        {
-          "matchup": "Alberto Montes @ Tommy McMillen",
-          "pick": "Tommy McMillen wins",
-          "odds": -180,
-          "implied_prob": "64%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19756204-1538918612-2241791895&type=Single",
-          "commence_time": "2026-07-19T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-07-19T00:09:00Z"
-    },
-    {
-      "ticker": "PARLAY-2A232EDD",
-      "title": "Under 3.5 + Tommy McMillen wins",
-      "payout": 2.44,
-      "tier": "green",
-      "quip": "rent money",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7830423-201502089-764590521&type=Single",
-      "sport": "soccer_usa_mls",
-      "sport_display": "Multi",
-      "matchup": "Minnesota United FC @ Sporting Kansas City + Alberto Montes @ Tommy McMillen",
-      "market_type": "2-leg parlay",
-      "american_odds": 144,
-      "implied_probability": 0.409,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Minnesota United FC @ Sporting Kansas City",
-          "pick": "Under 3.5",
-          "odds": -175,
-          "implied_prob": "64%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7830423-201502089-764590521&type=Single",
-          "commence_time": "2026-07-23T00:30:00Z"
-        },
-        {
-          "matchup": "Alberto Montes @ Tommy McMillen",
-          "pick": "Tommy McMillen wins",
-          "odds": -180,
-          "implied_prob": "64%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19756204-1538918612-2241791895&type=Single",
-          "commence_time": "2026-07-19T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-07-19T00:15:00Z"
-    },
-    {
-      "ticker": "PARLAY-0C5A7D7D",
-      "title": "Under 3.5 + Tommy McMillen wins",
-      "payout": 2.44,
-      "tier": "green",
-      "quip": "just showing up",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7830427-201502301-764591123&type=Single",
-      "sport": "soccer_usa_mls",
-      "sport_display": "Multi",
-      "matchup": "St. Louis City SC @ LA Galaxy + Alberto Montes @ Tommy McMillen",
-      "market_type": "2-leg parlay",
-      "american_odds": 144,
-      "implied_probability": 0.409,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "St. Louis City SC @ LA Galaxy",
-          "pick": "Under 3.5",
-          "odds": -175,
-          "implied_prob": "64%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7830427-201502301-764591123&type=Single",
-          "commence_time": "2026-07-23T02:30:00Z"
-        },
-        {
-          "matchup": "Alberto Montes @ Tommy McMillen",
-          "pick": "Tommy McMillen wins",
-          "odds": -180,
-          "implied_prob": "64%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19756204-1538918612-2241791895&type=Single",
-          "commence_time": "2026-07-19T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-07-19T00:15:00Z"
-    },
-    {
-      "ticker": "PARLAY-9F2E37BB",
-      "title": "Under 3.5 + Tommy McMillen wins",
-      "payout": 2.44,
-      "tier": "green",
-      "quip": "routine maintenance",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7830429-201502441-764591519&type=Single",
-      "sport": "soccer_usa_mls",
-      "sport_display": "Multi",
-      "matchup": "Real Salt Lake @ Los Angeles FC + Alberto Montes @ Tommy McMillen",
-      "market_type": "2-leg parlay",
-      "american_odds": 144,
-      "implied_probability": 0.409,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Real Salt Lake @ Los Angeles FC",
-          "pick": "Under 3.5",
-          "odds": -175,
-          "implied_prob": "64%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7830429-201502441-764591519&type=Single",
-          "commence_time": "2026-07-23T02:30:00Z"
-        },
-        {
-          "matchup": "Alberto Montes @ Tommy McMillen",
-          "pick": "Tommy McMillen wins",
-          "odds": -180,
-          "implied_prob": "64%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19756204-1538918612-2241791895&type=Single",
-          "commence_time": "2026-07-19T00:15:00Z"
-        }
-      ],
-      "close_time": "2026-07-19T00:15:00Z"
-    },
-    {
       "ticker": "PARLAY-5B4EE180",
       "title": "Minnesota Twins +1.5 + Toronto Blue Jays +1.5",
       "payout": 2.45,
       "tier": "green",
-      "quip": "paint drying, but profitable",
+      "quip": "checking all the boxes",
       "yes_price": "0.41",
       "category": "sports-parlay",
       "platform": "fanduel",
@@ -311,7 +101,7 @@
       "title": "Minnesota Twins +1.5 + Houston Astros +1.5",
       "payout": 2.45,
       "tier": "green",
-      "quip": "the safe bet",
+      "quip": "like taking candy from a vending machine",
       "yes_price": "0.41",
       "category": "sports-parlay",
       "platform": "fanduel",
@@ -353,7 +143,7 @@
       "title": "New York Yankees +1.5 + Toronto Blue Jays +1.5",
       "payout": 2.45,
       "tier": "green",
-      "quip": "the safe bet",
+      "quip": "business as usual",
       "yes_price": "0.41",
       "category": "sports-parlay",
       "platform": "fanduel",
@@ -395,7 +185,7 @@
       "title": "New York Yankees +1.5 + Houston Astros +1.5",
       "payout": 2.45,
       "tier": "green",
-      "quip": "tuesday energy",
+      "quip": "the safe bet",
       "yes_price": "0.41",
       "category": "sports-parlay",
       "platform": "fanduel",
@@ -431,6 +221,216 @@
         }
       ],
       "close_time": "2026-07-18T20:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-C593054A",
+      "title": "Minnesota Twins +1.5 + New York Yankees +1.5",
+      "payout": 2.46,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592703317&selectionId=29160",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Minnesota Twins @ Chicago Cubs + Los Angeles Dodgers @ New York Yankees",
+      "market_type": "2-leg parlay",
+      "american_odds": 146,
+      "implied_probability": 0.407,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Minnesota Twins @ Chicago Cubs",
+          "pick": "Minnesota Twins +1.5",
+          "odds": -176,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592703317&selectionId=29160",
+          "commence_time": "2026-07-18T18:21:00Z"
+        },
+        {
+          "matchup": "Los Angeles Dodgers @ New York Yankees",
+          "pick": "New York Yankees +1.5",
+          "odds": -176,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592708712&selectionId=29161",
+          "commence_time": "2026-07-19T00:09:00Z"
+        }
+      ],
+      "close_time": "2026-07-18T18:21:00Z"
+    },
+    {
+      "ticker": "PARLAY-5EE955EA",
+      "title": "Cleveland Guardians +1.5 + New York Yankees +1.5",
+      "payout": 2.47,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19821205-1544811227-2258976753&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Pittsburgh Pirates @ Cleveland Guardians + Los Angeles Dodgers @ New York Yankees",
+      "market_type": "2-leg parlay",
+      "american_odds": 147,
+      "implied_probability": 0.404,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Pirates @ Cleveland Guardians",
+          "pick": "Cleveland Guardians +1.5",
+          "odds": -175,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19821205-1544811227-2258976753&type=Single",
+          "commence_time": "2026-07-18T23:10:00Z"
+        },
+        {
+          "matchup": "Los Angeles Dodgers @ New York Yankees",
+          "pick": "New York Yankees +1.5",
+          "odds": -175,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19801440-1542540632-2252691900&type=Single",
+          "commence_time": "2026-07-19T00:09:00Z"
+        }
+      ],
+      "close_time": "2026-07-18T23:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-EBF416C7",
+      "title": "Cleveland Guardians +1.5 + Under 3.5",
+      "payout": 2.47,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19821205-1544811227-2258976753&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Pittsburgh Pirates @ Cleveland Guardians + Minnesota United FC @ Sporting Kansas City",
+      "market_type": "2-leg parlay",
+      "american_odds": 147,
+      "implied_probability": 0.404,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Pirates @ Cleveland Guardians",
+          "pick": "Cleveland Guardians +1.5",
+          "odds": -175,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19821205-1544811227-2258976753&type=Single",
+          "commence_time": "2026-07-18T23:10:00Z"
+        },
+        {
+          "matchup": "Minnesota United FC @ Sporting Kansas City",
+          "pick": "Under 3.5",
+          "odds": -175,
+          "implied_prob": "64%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7830423-201502089-764590521&type=Single",
+          "commence_time": "2026-07-23T00:30:00Z"
+        }
+      ],
+      "close_time": "2026-07-18T23:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-7AC7B713",
+      "title": "Cleveland Guardians +1.5 + Under 3.5",
+      "payout": 2.47,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19821205-1544811227-2258976753&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Pittsburgh Pirates @ Cleveland Guardians + St. Louis City SC @ LA Galaxy",
+      "market_type": "2-leg parlay",
+      "american_odds": 147,
+      "implied_probability": 0.404,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Pirates @ Cleveland Guardians",
+          "pick": "Cleveland Guardians +1.5",
+          "odds": -175,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19821205-1544811227-2258976753&type=Single",
+          "commence_time": "2026-07-18T23:10:00Z"
+        },
+        {
+          "matchup": "St. Louis City SC @ LA Galaxy",
+          "pick": "Under 3.5",
+          "odds": -175,
+          "implied_prob": "64%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7830427-201502301-764591123&type=Single",
+          "commence_time": "2026-07-23T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-07-18T23:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-08531811",
+      "title": "Cleveland Guardians +1.5 + Under 3.5",
+      "payout": 2.47,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19821205-1544811227-2258976753&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Pittsburgh Pirates @ Cleveland Guardians + Real Salt Lake @ Los Angeles FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 147,
+      "implied_probability": 0.404,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Pirates @ Cleveland Guardians",
+          "pick": "Cleveland Guardians +1.5",
+          "odds": -175,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19821205-1544811227-2258976753&type=Single",
+          "commence_time": "2026-07-18T23:10:00Z"
+        },
+        {
+          "matchup": "Real Salt Lake @ Los Angeles FC",
+          "pick": "Under 3.5",
+          "odds": -175,
+          "implied_prob": "64%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7830429-201502441-764591519&type=Single",
+          "commence_time": "2026-07-23T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-07-18T23:10:00Z"
     }
   ]
 }
