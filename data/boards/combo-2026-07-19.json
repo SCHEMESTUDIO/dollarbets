@@ -1,0 +1,437 @@
+{
+  "generated_at": "2026-07-19T04:22:00.458574+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 7,
+    "NFL": 2,
+    "MLB": 1
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-F102C416",
+      "title": "Buffalo Bills wins + Athletics -13.5",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19540847-1515830654-2181792390&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Detroit Lions @ Buffalo Bills + Washington Nationals @ Athletics",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Detroit Lions @ Buffalo Bills",
+          "pick": "Buffalo Bills wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19540847-1515830654-2181792390&type=Single",
+          "commence_time": "2026-09-18T00:15:00Z"
+        },
+        {
+          "matchup": "Washington Nationals @ Athletics",
+          "pick": "Athletics -13.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19801676-1545090351-2259714397&type=Single",
+          "commence_time": "2026-07-19T02:06:00Z"
+        }
+      ],
+      "close_time": "2026-07-19T02:06:00Z"
+    },
+    {
+      "ticker": "PARLAY-4F4F943B",
+      "title": "Pittsburgh Steelers wins + Buffalo Bills wins",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552265-1517085428-2185024330&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Atlanta Falcons @ Pittsburgh Steelers + Detroit Lions @ Buffalo Bills",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552265-1517085428-2185024330&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Detroit Lions @ Buffalo Bills",
+          "pick": "Buffalo Bills wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19540847-1515830654-2181792390&type=Single",
+          "commence_time": "2026-09-18T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-6D42A8C8",
+      "title": "Pittsburgh Steelers wins + Athletics -13.5",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19552265-1517085428-2185024330&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Atlanta Falcons @ Pittsburgh Steelers + Washington Nationals @ Athletics",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19552265-1517085428-2185024330&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Washington Nationals @ Athletics",
+          "pick": "Athletics -13.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19801676-1545090351-2259714397&type=Single",
+          "commence_time": "2026-07-19T02:06:00Z"
+        }
+      ],
+      "close_time": "2026-07-19T02:06:00Z"
+    },
+    {
+      "ticker": "PARLAY-3263EC6A",
+      "title": "Kansas City Chiefs wins + Buffalo Bills wins",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19546497-1516420122-2183337419&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Denver Broncos @ Kansas City Chiefs + Detroit Lions @ Buffalo Bills",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Denver Broncos @ Kansas City Chiefs",
+          "pick": "Kansas City Chiefs wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19546497-1516420122-2183337419&type=Single",
+          "commence_time": "2026-09-15T00:15:00Z"
+        },
+        {
+          "matchup": "Detroit Lions @ Buffalo Bills",
+          "pick": "Buffalo Bills wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19540847-1515830654-2181792390&type=Single",
+          "commence_time": "2026-09-18T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-09-15T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-9EB50C84",
+      "title": "Kansas City Chiefs wins + Athletics -13.5",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19546497-1516420122-2183337419&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Denver Broncos @ Kansas City Chiefs + Washington Nationals @ Athletics",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Denver Broncos @ Kansas City Chiefs",
+          "pick": "Kansas City Chiefs wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19546497-1516420122-2183337419&type=Single",
+          "commence_time": "2026-09-15T00:15:00Z"
+        },
+        {
+          "matchup": "Washington Nationals @ Athletics",
+          "pick": "Athletics -13.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19801676-1545090351-2259714397&type=Single",
+          "commence_time": "2026-07-19T02:06:00Z"
+        }
+      ],
+      "close_time": "2026-07-19T02:06:00Z"
+    },
+    {
+      "ticker": "PARLAY-8334FC54",
+      "title": "Under 8.5 + Buffalo Bills wins",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19801569-1542547711-2252713568&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Detroit Tigers @ Los Angeles Angels + Detroit Lions @ Buffalo Bills",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Detroit Tigers @ Los Angeles Angels",
+          "pick": "Under 8.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19801569-1542547711-2252713568&type=Single",
+          "commence_time": "2026-07-19T02:08:00Z"
+        },
+        {
+          "matchup": "Detroit Lions @ Buffalo Bills",
+          "pick": "Buffalo Bills wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19540847-1515830654-2181792390&type=Single",
+          "commence_time": "2026-09-18T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-07-19T02:08:00Z"
+    },
+    {
+      "ticker": "PARLAY-0428A782",
+      "title": "Under 8.5 + Athletics -13.5",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19801569-1542547711-2252713568&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Detroit Tigers @ Los Angeles Angels + Washington Nationals @ Athletics",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Detroit Tigers @ Los Angeles Angels",
+          "pick": "Under 8.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19801569-1542547711-2252713568&type=Single",
+          "commence_time": "2026-07-19T02:08:00Z"
+        },
+        {
+          "matchup": "Washington Nationals @ Athletics",
+          "pick": "Athletics -13.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19801676-1545090351-2259714397&type=Single",
+          "commence_time": "2026-07-19T02:06:00Z"
+        }
+      ],
+      "close_time": "2026-07-19T02:06:00Z"
+    },
+    {
+      "ticker": "PARLAY-B190E864",
+      "title": "Over 2.5 + Buffalo Bills wins",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7830416-201501671-764589353&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "New York City FC @ Columbus Crew SC + Detroit Lions @ Buffalo Bills",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York City FC @ Columbus Crew SC",
+          "pick": "Over 2.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7830416-201501671-764589353&type=Single",
+          "commence_time": "2026-07-22T23:30:00Z"
+        },
+        {
+          "matchup": "Detroit Lions @ Buffalo Bills",
+          "pick": "Buffalo Bills wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19540847-1515830654-2181792390&type=Single",
+          "commence_time": "2026-09-18T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-07-22T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-556146FC",
+      "title": "Over 2.5 + Athletics -13.5",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7830416-201501671-764589353&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "New York City FC @ Columbus Crew SC + Washington Nationals @ Athletics",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York City FC @ Columbus Crew SC",
+          "pick": "Over 2.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7830416-201501671-764589353&type=Single",
+          "commence_time": "2026-07-22T23:30:00Z"
+        },
+        {
+          "matchup": "Washington Nationals @ Athletics",
+          "pick": "Athletics -13.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19801676-1545090351-2259714397&type=Single",
+          "commence_time": "2026-07-19T02:06:00Z"
+        }
+      ],
+      "close_time": "2026-07-19T02:06:00Z"
+    },
+    {
+      "ticker": "PARLAY-EDE92624",
+      "title": "Under 3.5 + Buffalo Bills wins",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7830418-201501601-764589156&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "New York Red Bulls @ Philadelphia Union + Detroit Lions @ Buffalo Bills",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York Red Bulls @ Philadelphia Union",
+          "pick": "Under 3.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7830418-201501601-764589156&type=Single",
+          "commence_time": "2026-07-22T23:30:00Z"
+        },
+        {
+          "matchup": "Detroit Lions @ Buffalo Bills",
+          "pick": "Buffalo Bills wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19540847-1515830654-2181792390&type=Single",
+          "commence_time": "2026-09-18T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-07-22T23:30:00Z"
+    }
+  ]
+}
