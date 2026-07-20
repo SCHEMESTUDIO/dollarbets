@@ -1,97 +1,92 @@
-# GSC Report — 2026-07-13
+# GSC Report — 2026-07-20
 
-**Window:** 2026-07-05 → 2026-07-11 (GSC "Last 7 days", ends 2 days ago per API lag). Data delivered by `scripts/gsc_pull.py` in-workflow — **all 7 weekly CSVs + 28-day CSVs + 6 populated page-detail files present.** This is the first API-grade pull with full page-detail intersection data since 2026-06-15.
+**Window:** 2026-07-12 → 2026-07-18 (GSC "Last 7 days", ends 2 days ago per API lag). Full pull delivered — all 7 weekly CSVs + 28-day CSVs + 8 page-detail files present (page-detail is intentionally a top-pages-by-**28-day**-impressions pull per `gsc_pull.py`'s design, not a weekly pull — read those intersections as 28-day signal, not this-week signal). **Confidence: High** on data completeness.
 
-**⚠️ Comparison caveat:** the last *delivered* weekly report covers **6/15–6/21** (the 6/22, 6/29, 7/06 pipeline pulls did not run — see CLAUDE.md "migration not committed"). So "vs last week" below is really **vs 3 weeks ago**. Raw current-week numbers are **High** confidence; anything framed as a *trend* is **Medium** (three unmeasured weeks in between).
+## Headline — franchise keeps compounding; concentration deepened further
 
-## Headline — franchise clicks surged; concentration is now near-total on one page
+**Total clicks 34 → 62 (+82%), impressions 428 → 571 (+33%), CTR 7.9% → 10.9%, weighted avg position 8.47 → 7.05.** Every top-line number improved. Verified via three independent reconciliations: Chart.csv (62 clk / 571 imp), Devices.csv (62 / 571), Countries.csv (62 clk summed) — all agree exactly. **Confidence: High.**
 
-The number that matters jumped hard: **total clicks 13 → 34** vs the last delivered report, and **33 of 34 (97%) landed on franchise pages.** The engine is `/crazy-kalshi-bets/`: **10 → 32 clicks, CTR 6.45% → 9.6%, position 7.9 → 7.4, impressions 155 → 334.** Up on every single axis, roughly tripling clicks on doubled impressions. **Confidence: High** on the raw numbers (Chart.csv, Devices.csv, Countries.csv all reconcile at exactly **34 clicks / 428 impressions**); **Medium** on attributing the *rate* of gain given the 3-week measurement gap.
-
-**Ignore the total-impression dip — it's the prune, not a regression.** Total 7-day impressions 516 → 428 (−17%). That is entirely composition: the `/politicians-with-prediction-markets-june-2026/` intent-mismatch sink **dropped out of the 7-day window** (0 imp this week; 270 imp over the trailing 28 days, so it front-loaded earlier and has faded), and `/can-you-bet-on-the-weather/` (noindexed) fell to **7 imp** (was 94). Meanwhile **franchise impressions rose** (crazy-kalshi 155 → 334, +115%). Total down while the franchise doubled its exposure is the healthiest possible read. **Confidence: High.**
-
-### Verified totals (cross-checked)
-
-| Window | Clicks | Impressions | CTR | Avg Position |
-|---|---|---|---|---|
-| 7-day (7/05–7/11) | **34** | **428** | 7.9% | 7.4–9.9 daily |
-| 7-day last delivered (6/15–6/21) | 13 | 516 | 2.5% | ~8 late-week |
-| 28-day (6/14–7/11) | 76 | ~1,637 | 4.6% | ~11 |
-
-Reconciliation: Chart.csv = 34 clk / 428 imp; Devices.csv = 34 / 428; Countries.csv clicks sum = 34 — all three agree. Pages.csv (34 clk) and Queries.csv (15 clk shown) differ due to GSC privacy thresholds, as expected. **Confidence: High.**
+Almost all of the gain is one page: `/crazy-kalshi-bets/` went **32 → 60 clicks, 334 → 473 impressions, CTR 9.6% → 12.7%, position 7.4 → 5.8** — up on every axis again, for the second week running. It now carries **97% of total site clicks** (60 of 62), up from 94% last report. The franchise thesis keeps validating itself; the resilience risk from concentration keeps growing with it. **Confidence: High.**
 
 ---
 
-## Franchise scorecard (the real scorecard)
+## Franchise scorecard
 
-| Page | 7-day this wk | 7-day last delivered (6/15–21) | Read |
+| Page | This week (7d) | Last report (7/05–7/11) | Read |
 |---|---|---|---|
-| `/crazy-kalshi-bets/` | **32 clk / 334 imp / 9.6% / pos 7.4** | 10 / 155 / 6.45% / 7.9 | **Up on every axis, dramatically.** Clicks ~3.2×, CTR +3.1pp, position +0.5, impressions +115%. **94% of all site clicks.** The workhorse is compounding. |
-| `/funny-polymarket-bets/` | **1 clk / 53 imp / 1.9% / pos 12.6** | 2 / 49 / 4.08% / 9.39 | **The one franchise regression — FLAG.** Position slipped page-1 → page-2 (9.4 → 12.6), CTR more than halved. Impressions held (49→53) so it's a *ranking* slip, not exposure loss. Only 3% of clicks now. Needs fresh live examples (brief IMPROVE slot). |
-| `/polymarket-vs-kalshi-craziest-markets/` | 0 clk / 4 imp / pos 8.8 (28d: 1/9/8.6) | 0 / 4 / 11.8 | **Still no authority.** Its page-detail file is **empty** — <2 imp on any single query. The inbound internal links from crazy-kalshi + funny-polymarket now exist (verified in both JSONs) and it's holding pos ~8.8, but not accumulating query-level exposure. Watch. |
-| `/weird-prediction-markets/` | absent weekly (28d: 1/8/11.6) | 0 / 3 / 9.0 | Trivial volume; page-1-ish on 28d. Benign. |
-| `/most-outrageous-polymarket-bets/` | absent weekly (28d: 0/4/9.2) | 0 / 3 / 9.0 | Page-1 position, 0 clicks, negligible impressions. Watch. |
-| `/weirdest-active-polymarket-markets-july-2026/` | absent (<2 imp) | n/a (shipped since) | **Live + indexable + 200, but NOT ranking.** Same failure mode the June edition had — the politicians page still owns the "popular active markets" query family (below). Reposition + authority, not rebuild. |
-| `/weirdest-active-polymarket-markets-june-2026/` | absent (<2 imp) | absent | Now 3 weeks stale; superseded by July edition but neither displaces politicians. Consolidation/retire candidate (brief). |
-| `/hall-of-filth/george-whitesides-ca-27-primary-bet/` | 0 / 2 / pos 6.5 | n/a | Page-1 on trivial volume — dependable Hall of Filth pattern holds. |
+| `/crazy-kalshi-bets/` | **60 clk / 473 imp / 12.7% / pos 5.8** | 32 / 334 / 9.6% / 7.4 | **Up again, on every axis.** Clicks +88%, CTR +3.1pp, position +1.6. Second consecutive week of clean compounding. |
+| `/funny-polymarket-bets/` | **1 clk / 75 imp / 1.3% / pos 13.5** | 1 / 53 / 1.9% / 12.6 | **Refresh (7/14: new hero market + live `/go/` link) has not moved the needle yet.** Position actually drifted slightly worse (12.6→13.5), impressions up (+42%) but CTR down. Still page-2. One week may be too early to judge a ranking response — but this is the second flat/negative week for this page. **Flag for continued attention, not alarm yet.** |
+| `/polymarket-vs-kalshi-craziest-markets/` | 0 clk / 4 imp / pos 9.2 (28d: 1/13/8.8) | 0 / 4 / 11.8 | Refreshed 7/17 (differentiation angle). Page-detail file now exists but is **still empty** — no single query clears the reporting threshold. Too early post-refresh to judge; watch next week. |
+| `/weird-prediction-markets/` | 0 clk / 3 imp / pos 11.3 (28d: 0/10/10.7) | absent weekly / 0/3/9.0 | Trivial volume, benign. |
+| `/weirdest-active-polymarket-markets-july-2026/` | absent (<2 imp) | absent | Still not earning impressions 5 days post-launch-adjacent. Superseded by August edition (shipped 7/15) — see content gaps. |
+| `/weirdest-active-polymarket-markets-august-2026/` | absent (<2 imp) | n/a (new, shipped 7/15) | Live, 200, no GSC signal yet — 5 days old, expected at this stage. |
+| `/hall-of-filth/monet-auction-record-bet/` | absent (<2 imp) | n/a (new, shipped 7/16) | Live, 200, no GSC signal yet — 4 days old, expected. |
+| `/hall-of-filth/george-whitesides-ca-27-primary-bet/` | absent weekly (28d: 0/2/6.5) | 0/2/6.5 | Holding page-1 on trivial volume, unchanged. |
+| `/politicians-with-prediction-markets-june-2026/` | 0 clk / 2 imp / pos 3.0 | 0/0 (out of window) | Continuing to fade (28d: 20 imp/pos 8.2, was 270 imp two reports ago). **Still not retired** — see below. |
 
-**Concentration: 33 of 34 clicks (97%) franchise** (crazy-kalshi 32 + funny-polymarket 1; the 1 `/about/` click is brand/navigational). The roundup thesis is fully validated — **but 94% of clicks now sit on a single page.** That is the flip side of a healthy franchise: extreme single-page concentration is a resilience risk if `/crazy-kalshi-bets/` ever slips. Diversifying franchise click sources (get funny-polymarket back to page 1, get a second kalshi or Hall of Filth page earning) is the strategic priority, not new commodity surface. **Confidence: High.**
-
----
-
-## Prune / noindexed-page fade check — working as intended (High confidence)
-
-| Page | This wk (7d) imp | Prior reference | Status |
-|---|---|---|---|
-| `/can-you-bet-on-the-weather/` (noindexed) | 7 | 94 (6/15–21), 133 (6/08–14) | **Fading hard on schedule.** 28-day still shows 138 imp at pos 34.8 (residual tail); the 7-day window is nearly clear. India/weather-skew queries all pos 37–77. No action. |
-| `/politicians-with-prediction-markets-june-2026/` | 0 (out of window) | 198 (6/15–21) | **Fell out of the 7-day window entirely.** 28-day 270 imp / 0 clk / pos 10.2 — the intent-mismatch sink has front-loaded and faded from recent days. See cannibalization note: it still *owns* the "popular active markets" family on a 28-day basis, which is the real problem. |
-| `/craziest-kalshi-markets/` (thin sibling) | absent weekly (28d: 0/2/23.5) | 0 / 2 / 23.5 | Still page-3, still 0 clicks. 301-consolidation candidate carried from last brief — **not yet executed** (needs a `vercel.json` redirect, which is outside CI commit scope). |
-
-No noindexed page is a content gap. The prune is complete and clean. **Confidence: High.**
+**Concentration: 97% of clicks on one page**, up from 94%. The de-concentration plays from last week's brief (Hall of Filth #2, funny-polymarket refresh) are either too new to show (Monet page) or not yet working (funny-polymarket). **Confidence: High** on the numbers; **Medium** on whether de-concentration is actually progressing.
 
 ---
 
-## Franchise quick wins (pos 4–15, ≥2 imp, 0 clicks) — 7-day
+## Last week's success criteria — scored
 
-| # | Query | Pos | Imp | Page | Action |
-|---|---|---|---|---|---|
-| 1 | weirdest kalshi bets | 8.5 | 13 | `/crazy-kalshi-bets/` | **Not executed — deliberately.** Phrase is already in the title ("The Weirdest Markets"), meta ("weirdest bets on Kalshi today"), and a dedicated body H2. This is a CTR-at-position problem, not a coverage gap; expected clicks at pos 8.5 on 13 imp is <1. Adding more "weird" = stuffing. |
-| 2 | kalshi weirdest bets | 6.4 | 5 | `/crazy-kalshi-bets/` | Not executed — already covered; page-1 already. |
-| 3 | kalshi weird bets / weird kalshi bets | 9.6 / 8.0 | 5 / 3 | `/crazy-kalshi-bets/` | Not executed — covered. |
-| 4 | strangest kalshi bets | 5.7 | 3 | `/crazy-kalshi-bets/` | Not executed — "strangest" is the one un-covered synonym, but at 3 imp the upside is marginal and the meta is already keyword-dense. Stuffing risk > reward. |
-| 5 | polymarket funny | 11.0 | 3 | `/funny-polymarket-bets/` | Not executed — already in meta; the page's problem is ranking (pos 12.6), not this phrase. |
+| Criterion | Result |
+|---|---|
+| Franchise clicks ≥ 34 (hold) | **PASS** — 61 franchise clicks (60 + 1) |
+| `/crazy-kalshi-bets/` holds ≥ 25 clicks | **PASS** — 60 |
+| `/funny-polymarket-bets/` position recovers to < 10 | **FAIL** — pos 13.5, essentially unchanged/slightly worse |
+| "Polymarket popular active markets" family shows ≥1 impression on July/August page | **NOT CONFIRMED** — neither page has enough volume to appear in page-detail; the politicians-june page still owns the family (9 imp/pos 12.6 on "…active markets june 2026" in the 28-day intersection, down from 94 two reports ago but not reassigned) |
+| A second franchise page earns ≥1 click | **PASS (marginal)** — funny-polymarket's usual 1 click |
+| August page indexed within the week | **UNCONFIRMED** — 200 live, no GSC impressions yet (5 days old, not necessarily a problem) |
 
-**Executed this run: 1 edit (of the allowed 3), on purpose.** The kalshi quick-win queries are all already covered on-page — forcing edits to hit the cap would be exactly the low-value churn the editorial rules warn against.
-
-### Executed this run
-
-- **`/crazy-kalshi-bets/`** — removed the stale month label from the body heading **"the craziest kalshi bets live right now (june 2026)"** → **"the craziest kalshi bets live right now"**, and bumped `last_updated` 2026-06-25 → 2026-07-13. Rationale: the page is live in July with a June label; its market examples are evergreen forward-dated longshots (Taylor Swift/Pope before 2027, NASA moon before 2028, CA 8.0 before 2028), so a freshness bump is honest, and dropping the month is pure upside — this page ranks for no month-tail queries, so there's nothing to lose and a stale label to clear on the page driving 94% of clicks. Rebuilt with `generate_content.py` — no errors, page still indexable (no `noindex`, no robots meta), substance and slug unchanged. **Confidence: Medium** the freshness bump aids re-exposure; **High** it does no harm.
+3 of 6 clear pass, 1 fail, 2 too-early-to-call. **Confidence: High** on the pass/fail calls; the "not confirmed" items need another week.
 
 ---
 
-## Cannibalization watch — page-detail intersection data restored (High confidence)
+## Prune / noindexed-page fade check — still working as intended (High confidence)
 
-Six page-detail Queries files present this week, so this is verified from true page×query intersections, not inferred.
-
-- **No franchise-vs-franchise cannibalization.** `/crazy-kalshi-bets/` owns the *entire* "kalshi" query family (craziest/weirdest/wildest/strangest — all 17 kalshi queries route to it). `/funny-polymarket-bets/` owns the *entire* polymarket family (craziest/funniest/absurd/stupid polymarket — all 12 route to it). **Zero queries appear in both franchise files.** Clean separation. **Confidence: High.**
-- **The real intersection issue is intent-mismatch, not cannibalization:** `/politicians-with-prediction-markets-june-2026/` owns **"polymarket popular markets june 2026"** (105 imp, pos 8.7) and **"polymarket popular active markets june 2026"** (94 imp, pos 13.1) — a *politicians* page answering a *"what's live right now"* query at 0% CTR. The intended-takeover pages (`weirdest-active-polymarket-markets-june-2026` and the new July edition) each earn **<2 imp** — neither displaces it. Google has not reassigned the query family. **Confidence: High** (intersection data confirms which page holds the impressions).
+`/can-you-bet-on-the-weather/` (noindexed): page-detail file is now **completely empty** (zero queries clear the threshold) — full fade confirmed. `/politicians-with-prediction-markets-june-2026/` continues its multi-week decline (270 → 20 → fading further this week) but **has still not been formally retired** — no `noindex` set, and no `vercel.json` redirect exists for it (checked directly). This is the same outstanding item flagged last report, now two weeks unexecuted. Note: the `/craziest-kalshi-markets/` → `/crazy-kalshi-bets/` 301 flagged as unshipped *last* report **has since landed** — verified live, returns a real 308 to `/crazy-kalshi-bets/`. Good — that carried item is closed.
 
 ---
 
-## Franchise content gaps
+## Quick wins — reviewed, 0 copy-edit wins qualified; 2 stale-link wins executed instead
 
-1. **Monthly "active markets" cadence is broken — AUGUST edition + decisive reposition (HIGH).** The recurring ~100–200 imp/mo on "polymarket popular/active markets [month] 2026" has now been landing 0% on the *politicians-june* page for months. We shipped June and July "weirdest-active" pages; **neither ranks** (<2 imp each). Two unmeasured weeks of a new page not displacing = the title-alignment lever alone is not working. Moves: (a) ship the **August** edition on the monthly cadence; (b) add real inbound authority (already-linked from crazy-kalshi/funny-polymarket, but consider a homepage/board link); (c) **retire the intent-mismatch politicians-june page** (301 or noindex) so it stops absorbing the query family. **US share: Medium-High.**
-2. **Recover `/funny-polymarket-bets/` to page 1 (MEDIUM).** The only franchise regression. Metadata is already optimized (the craziest/funniest superlatives shipped) — the lever now is a genuine content refresh with current live markets, which CI can't do without board data. IMPROVE slot.
-3. **De-concentrate franchise clicks (MEDIUM-HIGH, strategic).** 94% on one page is a resilience risk. Named-market Hall of Filth pages reliably hit page-1 on low volume (Whitesides pos 6.5, and the Obama/Lear/deBessonet precedents) — the cheapest way to add a second earning franchise page. Keep mining the query log for named-entity queries at pos <15.
+Reviewed this week's franchise quick-win candidates (pos 4–15, ≥2 imp, 0 clicks): *funny kalshi bets* (pos 10.4/imp 8), *kalshi craziest bets* (5.9/10), *kalshi weird bets* (6.6/8), *most ridiculous kalshi bets* (5.0/2), *polymarket crazy bets* (10.5/2), *polymarket funny bets* (9.0/3), *craziest polymarket bets 2026* (10.0/2). Checked both pages' H2s/meta/body against these phrases directly — **all synonyms (crazy/craziest/weird/weirdest/ridiculous/funny) are already present**, and "2026" already appears 5× on the Polymarket page. At 2–10 impressions and page-1/2 position, expected incremental clicks from more keyword density are near zero; stuffing risk exceeds any plausible reward. **Not executed, deliberately — same call as last week.**
 
-No commodity clusters listed as gaps, per strategy.
+Instead found a genuine, lower-risk win while checking internal links: both `/crazy-kalshi-bets/` and `/funny-polymarket-bets/` still linked to the **June** "weirdest active Polymarket markets" edition, even though the **August** edition shipped 7/15 and July already links forward to August. Stale-month internal links on the two highest-traffic franchise pages were quietly pointing PageRank at a month-old page instead of the current one.
+
+### Executed this run (2 of the allowed 3)
+
+- **`/crazy-kalshi-bets/`** — updated internal link text/URL from "weirdest popular active polymarket markets june 2026" → "…august 2026" (`/weirdest-active-polymarket-markets-august-2026/`), bumped `last_updated` to 2026-07-20.
+- **`/funny-polymarket-bets/`** — same fix: internal link updated from the July edition to the August edition, `last_updated` bumped to 2026-07-20.
+- Rebuilt with `python3 generate_content.py` — exit 0, no errors. Confirmed both pages still render without a `noindex` meta tag, and both now link to the August page. **Confidence: High** this is a correct, low-risk fix (both are pure link-freshness edits, no substance/slug change); **Low-Medium** on measurable SEO impact (internal link authority signals are slow-moving).
+
+---
+
+## Cannibalization watch (28-day page-detail intersections, High confidence)
+
+Same clean separation as last report: `/crazy-kalshi-bets/` owns the entire "kalshi" query family (22 queries, zero overlap with the polymarket file); `/funny-polymarket-bets/` owns the entire "polymarket" family (15 queries). **Zero franchise-vs-franchise overlap.**
+
+The standing intent-mismatch issue persists: `/politicians-with-prediction-markets-june-2026/` still holds "polymarket popular active markets june 2026" (9 imp/pos 12.6, down from 94) and "polymarket popular markets june 2026" (2 imp/pos 11.0, down from 105) in the 28-day window — a fading grip, but a grip nonetheless. Neither the July nor August "weirdest-active" page has enough volume to appear in page-detail, so there's no evidence yet that the family is reassigning to the intended page. **Confidence: High** the politicians page still holds it; **Medium** on whether natural fade alone (without the retirement) will ever finish the handoff.
+
+---
+
+## Franchise content gaps (next brief will cover in detail)
+
+1. **Politicians-june retirement — now 2 weeks carried, unexecuted.** Needs `noindex` + `noindex_reason` on the JSON (CI can do this) paired with a `permanent: true` redirect in `vercel.json` (outside CI scope — needs a manual commit from James). Splitting these across two different git-write paths is why it keeps slipping; flagging explicitly again.
+2. **`/funny-polymarket-bets/` still not recovering** after its 7/14 refresh — two flat/negative weeks now. The lever may need to be internal authority (a homepage/board link) rather than another content pass, since metadata and hero market are both already current.
+3. **De-concentration is directionally the right call but unproven** — Monet Hall of Filth page too new to read; funny-polymarket refresh hasn't worked yet. Keep the cadence rather than declaring success.
+
+No commodity gaps flagged, per strategy — that's out of scope for this list by design.
+
+**Note for James (not a franchise item, flagging for awareness only):** `/is-gambling-an-investment/` published 2026-07-17 via a separate process ("postwerks m2" commit, not part of the daily-article/GSC-brief pipeline). It's a generic "is X an investment" definitional/philosophical page — doesn't match any `BLOCKED_SLUG_PATTERNS` regex today so it isn't auto-noindexed, but it reads like exactly the commodity-content shape the 2026-06-05 audit found unproductive. Not touching it (outside this run's scope, and it's too new for any GSC signal either way) — just surfacing it in case it wasn't an intentional strategy exception.
 
 ---
 
 ## Geographic + device notes
 
-- **US skew strengthened:** US **317/428 imp (74%)**, **25/34 clicks (74%)** — up from 54% imp last report. Every franchise cluster is US-majority. No cluster >50% non-US to deprioritize. Canada 21 imp/2 clk, UK 13 imp/2 clk at pos 12.4. **Confidence: High.**
-- **Mobile dominant, desktop now converting a little:** Mobile 30 clk / 343 imp / 8.7% / pos 7.8; Desktop 4 clk / 84 imp / 4.8% / pos 11.1 (was 0% last report). Mobile carries 88% of clicks. **Confidence: High.**
+- **US skew holding strong:** US 436/571 imp (76%), 48/62 clicks (77%) — consistent with last report's 74%. No franchise cluster >50% non-US. **Confidence: High.**
+- **Mobile still dominant:** Mobile 50 clk/422 imp/11.8%/pos 6.3; Desktop 12 clk/148 imp/8.1%/pos 9.3. Desktop CTR improved from prior near-zero readings. **Confidence: High.**
 
 ---
 
@@ -99,20 +94,18 @@ No commodity clusters listed as gaps, per strategy.
 
 | Date | Clicks | Imp | CTR | Pos |
 |---|---|---|---|---|
-| 2026-07-05 | 6 | 62 | 9.7% | 9.9 |
-| 2026-07-06 | 7 | 74 | 9.5% | 8.1 |
-| 2026-07-07 | 4 | 46 | 8.7% | 7.4 |
-| 2026-07-08 | 1 | 42 | 2.4% | 9.3 |
-| 2026-07-09 | 2 | 34 | 5.9% | 8.4 |
-| 2026-07-10 | 4 | 58 | 6.9% | 9.8 |
-| 2026-07-11 | 10 | 112 | 8.9% | 7.4 |
+| 2026-07-12 | 3 | 40 | 7.5% | 11.2 |
+| 2026-07-13 | 7 | 54 | 13.0% | 7.9 |
+| 2026-07-14 | 7 | 77 | 9.1% | 6.4 |
+| 2026-07-15 | 14 | 92 | 15.2% | 6.8 |
+| 2026-07-16 | 9 | 124 | 7.3% | 7.1 |
+| 2026-07-17 | 11 | 102 | 10.8% | 6.4 |
+| 2026-07-18 | 11 | 82 | 13.4% | 6.1 |
 
-Broadly healthy across the whole week — no single day carries it. The 7/11 spike (10 clk / 112 imp) is the last un-lagged day catching full volume; CTR held 8–10% on the strong days. Position sat page-1 (7.4–9.9) every day, a clear improvement over the mid-June page-2 readings (14–18). **Confidence: High.**
+Position trended from page-2 (11.2 on 7/12) down to consistently page-1 (6.1–7.1) by week's end — the clearest week-over-week improvement in the dataset so far. 7/15 was the peak day (14 clicks/15.2% CTR). **Confidence: High.**
 
 ---
 
-## Data completeness / pipeline status (for James)
+## Data completeness / pipeline status
 
-- **Full API pull delivered this week** — all weekly + 28-day + 6 page-detail CSVs present. First complete pull (with intersection data) since 2026-06-15. If this ran from the committed GitHub Actions workflow, **the cloud migration is now live** (it was flagged uncommitted as recently as 2026-07-06). Worth confirming in the Actions tab.
-- **Deploy check:** all 8 franchise slugs + both active-markets editions + a Hall of Filth page return **200 LIVE**. No broken pages. See brief for detail.
-- **Two carried structural items still outside CI commit scope** (need manual commit — `vercel.json`/`scripts/` are not staged by `ci_guarded_commit.sh`): the `/craziest-kalshi-markets/` → `/crazy-kalshi-bets/` 301, and the politicians-june-2026 retirement redirect. Neither ships automatically from this run.
+All 7 weekly CSVs, all 28-day CSVs, and all 8 page-detail files present and populated. No pull failures. Deploy check: all 10 checked franchise/carried URLs return 200 live (see brief for full list), and the `/craziest-kalshi-markets/` 301 is confirmed live (308 → `/crazy-kalshi-bets/`). **Confidence: High.**
