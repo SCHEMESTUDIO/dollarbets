@@ -2,13 +2,13 @@ name: Daily Board Scan
 
 on:
   schedule:
-    # Six runs/day. Morning slot is 08:00 UTC = 9am London during BST
+    # Three runs/day (cut from six 2026-07-20, cost audit). Morning slot is 08:00 UTC = 9am London during BST
     # (will read as 8am London during GMT — accepted tradeoff vs the
     # complexity of a DST-aware check).
     # 08:00 UTC triggers the daily prediction-market scan (Kalshi/Polymarket).
     # The other five slots cover US peak hours for sports/combo refreshes.
     # ~600 Odds API tokens/day total, well inside monthly budget.
-    - cron: '0 8,16,19,22,1,4 * * *'
+    - cron: '0 8,16,22 * * *'
   workflow_dispatch: # Allow manual trigger from GitHub UI
 
 env:
