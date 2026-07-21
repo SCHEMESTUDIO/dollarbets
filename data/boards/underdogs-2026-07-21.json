@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T10:23:38.566194+00:00",
+  "generated_at": "2026-07-21T17:16:11.414413+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -10,15 +10,16 @@
   },
   "sport_mix": {
     "NFL": 2,
-    "NCAAF": 3
+    "NCAAF": 2,
+    "MMA": 1
   },
   "board": [
     {
       "ticker": "SB-90231BA3",
-      "title": "Jets stun Packers at MetLife",
+      "title": "Jets shock Packers at MetLife tonight",
       "payout": 3.15,
       "tier": "yellow",
-      "quip": "Aaron Rodgers' mysterious ailments meet New York jet noise for once",
+      "quip": "Green Bay's about to learn why nobody wants to visit New Jersey",
       "yes_price": "0.32",
       "category": "NFL",
       "platform": "draftkings",
@@ -35,10 +36,10 @@
     },
     {
       "ticker": "SB-4E9577E5",
-      "title": "Colts topple defending champ Chiefs",
+      "title": "Colts ambush the Chiefs in KC tonight",
       "payout": 3.25,
       "tier": "yellow",
-      "quip": "Kansas City's dynasty hits the Indy speed bump",
+      "quip": "Mahomes' MVP season getting a spoiler alert from Indianapolis",
       "yes_price": "0.31",
       "category": "NFL",
       "platform": "draftkings",
@@ -55,10 +56,10 @@
     },
     {
       "ticker": "SB-2900BC7E",
-      "title": "Bearkats stun Trojans tonight",
+      "title": "Sam Houston State upsets Troy tonight",
       "payout": 7.5,
       "tier": "orange",
-      "quip": "Sam Houston State reminding everyone they exist, one upset at a time",
+      "quip": "Bearkats have nothing to lose, Trojans have everything to forget",
       "yes_price": "0.13",
       "category": "NCAAF",
       "platform": "draftkings",
@@ -74,11 +75,31 @@
       "has_deep_link": true
     },
     {
+      "ticker": "SB-274F0D26",
+      "title": "Turman stuns Dulatov in the octagon",
+      "payout": 7.5,
+      "tier": "orange",
+      "quip": "Wellington's about to make Islam regret leaving money on the table",
+      "yes_price": "0.13",
+      "category": "MMA",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19756355-1538930713-2241824412&type=Single",
+      "close_time": "2026-07-25T09:00:00Z",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "MMA",
+      "matchup": "Wellington Turman @ Islam Dulatov",
+      "market_type": "h2h",
+      "american_odds": 650,
+      "implied_probability": 0.133,
+      "has_deep_link": true
+    },
+    {
       "ticker": "SB-674283E3",
-      "title": "Beavers topple Houston on the road",
+      "title": "Oregon State shocks Houston at home",
       "payout": 9.0,
       "tier": "orange",
-      "quip": "Oregon State's entire athletic department riding on this one desperate Hail Mary",
+      "quip": "Beavers in a Cougar den \u2014 somebody's getting wood",
       "yes_price": "0.11",
       "category": "NCAAF",
       "platform": "fanduel",
@@ -91,26 +112,6 @@
       "market_type": "h2h",
       "american_odds": 800,
       "implied_probability": 0.111,
-      "has_deep_link": true
-    },
-    {
-      "ticker": "SB-25FD308A",
-      "title": "Chanticleers shock Mountaineers in Morgantown",
-      "payout": 9.9,
-      "tier": "orange",
-      "quip": "Coastal Carolina's rooster crow heard all the way to West Virginia",
-      "yes_price": "0.10",
-      "category": "NCAAF",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581867617&selectionId=3296895",
-      "close_time": "2026-09-05T16:00:00Z",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "NCAAF",
-      "matchup": "Coastal Carolina Chanticleers @ West Virginia Mountaineers",
-      "market_type": "h2h",
-      "american_odds": 890,
-      "implied_probability": 0.101,
       "has_deep_link": true
     }
   ]
