@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T10:23:30.311328+00:00",
+  "generated_at": "2026-07-22T17:16:03.278800+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -11,15 +11,16 @@
   "sport_mix": {
     "NFL": 2,
     "MMA": 1,
-    "NCAAF": 2
+    "NCAAF": 1,
+    "EPL": 1
   },
   "board": [
     {
       "ticker": "SB-90231BA3",
-      "title": "Jets shock Packers at home",
+      "title": "Jets shock Packers at MetLife",
       "payout": 3.15,
       "tier": "yellow",
-      "quip": "Aaron Rodgers walks into the Meadowlands and leaves confused",
+      "quip": "Rodgers meets the one force more chaotic than his own decisions",
       "yes_price": "0.32",
       "category": "NFL",
       "platform": "draftkings",
@@ -36,10 +37,10 @@
     },
     {
       "ticker": "SB-4E9577E5",
-      "title": "Colts stun Chiefs in Kansas City",
+      "title": "Colts upset defending champs Kansas City",
       "payout": 3.3,
       "tier": "yellow",
-      "quip": "Mahomes meets Indianapolis's suddenly competent pass rush",
+      "quip": "Mahomes discovers what happens when a defense actually shows up",
       "yes_price": "0.30",
       "category": "NFL",
       "platform": "draftkings",
@@ -56,10 +57,10 @@
     },
     {
       "ticker": "SB-274F0D26",
-      "title": "Turman shocks Dulatov in the octagon tonight",
+      "title": "Turman upsets Dulatov in the octagon tonight",
       "payout": 7.5,
       "tier": "orange",
-      "quip": "Islam's undefeated streak meets a man with nothing to lose",
+      "quip": "Wellington's got that \"nothing to lose\" energy Dana White fears most",
       "yes_price": "0.13",
       "category": "MMA",
       "platform": "betmgm",
@@ -75,31 +76,11 @@
       "has_deep_link": true
     },
     {
-      "ticker": "SB-2900BC7E",
-      "title": "Sam Houston State stuns Troy tomorrow night",
-      "payout": 7.5,
-      "tier": "orange",
-      "quip": "Bearkats have been waiting all season for a ranked scalp",
-      "yes_price": "0.13",
-      "category": "NCAAF",
-      "platform": "draftkings",
-      "platform_display": "DraftKings",
-      "url": "https://sportsbook.draftkings.com/?outcomes=0ML84871223_3",
-      "close_time": "2026-09-05T23:00:00Z",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "NCAAF",
-      "matchup": "Sam Houston State Bearkats @ Troy Trojans",
-      "market_type": "h2h",
-      "american_odds": 650,
-      "implied_probability": 0.133,
-      "has_deep_link": true
-    },
-    {
       "ticker": "SB-674283E3",
-      "title": "Oregon State upsets Houston on the road",
+      "title": "Oregon State shocks Houston on the road tomorrow",
       "payout": 9.0,
       "tier": "orange",
-      "quip": "the Beavers' best chance to matter all year",
+      "quip": "Beavers haven't beaten anyone that matters, so why not the Cougars",
       "yes_price": "0.11",
       "category": "NCAAF",
       "platform": "fanduel",
@@ -112,6 +93,26 @@
       "market_type": "h2h",
       "american_odds": 800,
       "implied_probability": 0.111,
+      "has_deep_link": true
+    },
+    {
+      "ticker": "SB-0AC8BDB4",
+      "title": "Coventry stuns Arsenal at the Emirates",
+      "payout": 15.0,
+      "tier": "orange",
+      "quip": "the Sky Blues finally cash in their annual \"we almost beat somebody good\" moment",
+      "yes_price": "0.07",
+      "category": "EPL",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7823441-200733273-760460864&type=Single",
+      "close_time": "2026-08-21T19:00:00Z",
+      "sport": "soccer_epl",
+      "sport_display": "EPL",
+      "matchup": "Coventry City @ Arsenal",
+      "market_type": "h2h",
+      "american_odds": 1400,
+      "implied_probability": 0.067,
       "has_deep_link": true
     }
   ]
