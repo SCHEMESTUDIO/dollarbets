@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T07:02:41.620224+00:00",
+  "generated_at": "2026-07-22T10:23:54.691390+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,150 +8,24 @@
     "green": 10
   },
   "sport_mix": {
-    "MLB": 6,
-    "Multi": 4
+    "MLB": 4,
+    "Multi": 6
   },
   "board": [
     {
-      "ticker": "PARLAY-53EEBC70",
-      "title": "Baltimore Orioles +1.5 + New York Yankees wins",
-      "payout": 2.44,
-      "tier": "green",
-      "quip": "bread and butter",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593624721&selectionId=29157",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Baltimore Orioles @ Boston Red Sox + Pittsburgh Pirates @ New York Yankees",
-      "market_type": "2-leg parlay",
-      "american_odds": 144,
-      "implied_probability": 0.41,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Baltimore Orioles @ Boston Red Sox",
-          "pick": "Baltimore Orioles +1.5",
-          "odds": -178,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593624721&selectionId=29157",
-          "commence_time": "2026-07-22T17:36:00Z"
-        },
-        {
-          "matchup": "Pittsburgh Pirates @ New York Yankees",
-          "pick": "New York Yankees wins",
-          "odds": -178,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593563585&selectionId=29161",
-          "commence_time": "2026-07-22T23:05:00Z"
-        }
-      ],
-      "close_time": "2026-07-22T17:36:00Z"
-    },
-    {
-      "ticker": "PARLAY-DD85249D",
-      "title": "Baltimore Orioles +1.5 + Chicago Cubs +1.5",
-      "payout": 2.44,
-      "tier": "green",
-      "quip": "autopilot engaged",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593624721&selectionId=29157",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Baltimore Orioles @ Boston Red Sox + Detroit Tigers @ Chicago Cubs",
-      "market_type": "2-leg parlay",
-      "american_odds": 144,
-      "implied_probability": 0.41,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Baltimore Orioles @ Boston Red Sox",
-          "pick": "Baltimore Orioles +1.5",
-          "odds": -178,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593624721&selectionId=29157",
-          "commence_time": "2026-07-22T17:36:00Z"
-        },
-        {
-          "matchup": "Detroit Tigers @ Chicago Cubs",
-          "pick": "Chicago Cubs +1.5",
-          "odds": -178,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593563311&selectionId=29166",
-          "commence_time": "2026-07-23T00:06:00Z"
-        }
-      ],
-      "close_time": "2026-07-22T17:36:00Z"
-    },
-    {
-      "ticker": "PARLAY-48073DC9",
-      "title": "New York Yankees wins + Chicago Cubs +1.5",
-      "payout": 2.44,
-      "tier": "green",
-      "quip": "the boring middle",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593563585&selectionId=29161",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Pittsburgh Pirates @ New York Yankees + Detroit Tigers @ Chicago Cubs",
-      "market_type": "2-leg parlay",
-      "american_odds": 144,
-      "implied_probability": 0.41,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Pittsburgh Pirates @ New York Yankees",
-          "pick": "New York Yankees wins",
-          "odds": -178,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593563585&selectionId=29161",
-          "commence_time": "2026-07-22T23:05:00Z"
-        },
-        {
-          "matchup": "Detroit Tigers @ Chicago Cubs",
-          "pick": "Chicago Cubs +1.5",
-          "odds": -178,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593563311&selectionId=29166",
-          "commence_time": "2026-07-23T00:06:00Z"
-        }
-      ],
-      "close_time": "2026-07-22T23:05:00Z"
-    },
-    {
-      "ticker": "PARLAY-AB09E3B8",
-      "title": "Dustin Jacoby wins + Baltimore Orioles +1.5",
+      "ticker": "PARLAY-C6070964",
+      "title": "New York Yankees wins + New York Yankees wins",
       "payout": 2.46,
       "tier": "green",
-      "quip": "just showing up",
+      "quip": "routine maintenance",
       "yes_price": "0.41",
       "category": "sports-parlay",
       "platform": "fanduel",
       "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593435985&selectionId=5897443",
-      "sport": "mma_mixed_martial_arts",
-      "sport_display": "Multi",
-      "matchup": "Muhammad Said @ Dustin Jacoby + Baltimore Orioles @ Boston Red Sox",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593439836&selectionId=29161",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Pittsburgh Pirates @ New York Yankees + Pittsburgh Pirates @ New York Yankees",
       "market_type": "2-leg parlay",
       "american_odds": 146,
       "implied_probability": 0.406,
@@ -160,32 +34,32 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Muhammad Said @ Dustin Jacoby",
-          "pick": "Dustin Jacoby wins",
+          "matchup": "Pittsburgh Pirates @ New York Yankees",
+          "pick": "New York Yankees wins",
           "odds": -174,
           "implied_prob": "64%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593435985&selectionId=5897443",
-          "commence_time": "2026-07-25T15:15:00Z"
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593439836&selectionId=29161",
+          "commence_time": "2026-07-22T17:06:00Z"
         },
         {
-          "matchup": "Baltimore Orioles @ Boston Red Sox",
-          "pick": "Baltimore Orioles +1.5",
+          "matchup": "Pittsburgh Pirates @ New York Yankees",
+          "pick": "New York Yankees wins",
           "odds": -178,
           "implied_prob": "64%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593624721&selectionId=29157",
-          "commence_time": "2026-07-22T17:36:00Z"
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593563585&selectionId=29161",
+          "commence_time": "2026-07-22T23:05:00Z"
         }
       ],
-      "close_time": "2026-07-22T17:36:00Z"
+      "close_time": "2026-07-22T17:06:00Z"
     },
     {
       "ticker": "PARLAY-D8F9A2F1",
       "title": "Dustin Jacoby wins + New York Yankees wins",
       "payout": 2.46,
       "tier": "green",
-      "quip": "rent money",
+      "quip": "another day at the office",
       "yes_price": "0.41",
       "category": "sports-parlay",
       "platform": "fanduel",
@@ -223,179 +97,11 @@
       "close_time": "2026-07-22T23:05:00Z"
     },
     {
-      "ticker": "PARLAY-EABF1C41",
-      "title": "Dustin Jacoby wins + Chicago Cubs +1.5",
-      "payout": 2.46,
-      "tier": "green",
-      "quip": "business as usual",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593435985&selectionId=5897443",
-      "sport": "mma_mixed_martial_arts",
-      "sport_display": "Multi",
-      "matchup": "Muhammad Said @ Dustin Jacoby + Detroit Tigers @ Chicago Cubs",
-      "market_type": "2-leg parlay",
-      "american_odds": 146,
-      "implied_probability": 0.406,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Muhammad Said @ Dustin Jacoby",
-          "pick": "Dustin Jacoby wins",
-          "odds": -174,
-          "implied_prob": "64%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593435985&selectionId=5897443",
-          "commence_time": "2026-07-25T15:15:00Z"
-        },
-        {
-          "matchup": "Detroit Tigers @ Chicago Cubs",
-          "pick": "Chicago Cubs +1.5",
-          "odds": -178,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593563311&selectionId=29166",
-          "commence_time": "2026-07-23T00:06:00Z"
-        }
-      ],
-      "close_time": "2026-07-23T00:06:00Z"
-    },
-    {
-      "ticker": "PARLAY-A58BB170",
-      "title": "Cincinnati Reds +1.5 + Baltimore Orioles +1.5",
+      "ticker": "PARLAY-9B8EF600",
+      "title": "San Jose Earthquakes wins + New York Yankees wins",
       "payout": 2.48,
       "tier": "green",
-      "quip": "paint drying, but profitable",
-      "yes_price": "0.40",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593559496&selectionId=29167",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Cincinnati Reds @ Seattle Mariners + Baltimore Orioles @ Boston Red Sox",
-      "market_type": "2-leg parlay",
-      "american_odds": 148,
-      "implied_probability": 0.403,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Cincinnati Reds @ Seattle Mariners",
-          "pick": "Cincinnati Reds +1.5",
-          "odds": -170,
-          "implied_prob": "63%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593559496&selectionId=29167",
-          "commence_time": "2026-07-22T19:41:00Z"
-        },
-        {
-          "matchup": "Baltimore Orioles @ Boston Red Sox",
-          "pick": "Baltimore Orioles +1.5",
-          "odds": -178,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593624721&selectionId=29157",
-          "commence_time": "2026-07-22T17:36:00Z"
-        }
-      ],
-      "close_time": "2026-07-22T17:36:00Z"
-    },
-    {
-      "ticker": "PARLAY-B2A71273",
-      "title": "Cincinnati Reds +1.5 + New York Yankees wins",
-      "payout": 2.48,
-      "tier": "green",
-      "quip": "bread and butter",
-      "yes_price": "0.40",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593559496&selectionId=29167",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Cincinnati Reds @ Seattle Mariners + Pittsburgh Pirates @ New York Yankees",
-      "market_type": "2-leg parlay",
-      "american_odds": 148,
-      "implied_probability": 0.403,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Cincinnati Reds @ Seattle Mariners",
-          "pick": "Cincinnati Reds +1.5",
-          "odds": -170,
-          "implied_prob": "63%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593559496&selectionId=29167",
-          "commence_time": "2026-07-22T19:41:00Z"
-        },
-        {
-          "matchup": "Pittsburgh Pirates @ New York Yankees",
-          "pick": "New York Yankees wins",
-          "odds": -178,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593563585&selectionId=29161",
-          "commence_time": "2026-07-22T23:05:00Z"
-        }
-      ],
-      "close_time": "2026-07-22T19:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-04334BF8",
-      "title": "Cincinnati Reds +1.5 + Chicago Cubs +1.5",
-      "payout": 2.48,
-      "tier": "green",
-      "quip": "paint drying, but profitable",
-      "yes_price": "0.40",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593559496&selectionId=29167",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Cincinnati Reds @ Seattle Mariners + Detroit Tigers @ Chicago Cubs",
-      "market_type": "2-leg parlay",
-      "american_odds": 148,
-      "implied_probability": 0.403,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Cincinnati Reds @ Seattle Mariners",
-          "pick": "Cincinnati Reds +1.5",
-          "odds": -170,
-          "implied_prob": "63%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593559496&selectionId=29167",
-          "commence_time": "2026-07-22T19:41:00Z"
-        },
-        {
-          "matchup": "Detroit Tigers @ Chicago Cubs",
-          "pick": "Chicago Cubs +1.5",
-          "odds": -178,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593563311&selectionId=29166",
-          "commence_time": "2026-07-23T00:06:00Z"
-        }
-      ],
-      "close_time": "2026-07-22T19:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-6066FE8C",
-      "title": "San Jose Earthquakes wins + Baltimore Orioles +1.5",
-      "payout": 2.48,
-      "tier": "green",
-      "quip": "clock in, cash out",
+      "quip": "routine maintenance",
       "yes_price": "0.40",
       "category": "sports-parlay",
       "platform": "fanduel",
@@ -403,7 +109,7 @@
       "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593066927&selectionId=408102",
       "sport": "soccer_usa_mls",
       "sport_display": "Multi",
-      "matchup": "LA Galaxy @ San Jose Earthquakes + Baltimore Orioles @ Boston Red Sox",
+      "matchup": "LA Galaxy @ San Jose Earthquakes + Pittsburgh Pirates @ New York Yankees",
       "market_type": "2-leg parlay",
       "american_odds": 148,
       "implied_probability": 0.403,
@@ -421,16 +127,310 @@
           "commence_time": "2026-07-26T02:30:00Z"
         },
         {
-          "matchup": "Baltimore Orioles @ Boston Red Sox",
-          "pick": "Baltimore Orioles +1.5",
+          "matchup": "Pittsburgh Pirates @ New York Yankees",
+          "pick": "New York Yankees wins",
           "odds": -178,
           "implied_prob": "64%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593624721&selectionId=29157",
-          "commence_time": "2026-07-22T17:36:00Z"
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593563585&selectionId=29161",
+          "commence_time": "2026-07-22T23:05:00Z"
         }
       ],
-      "close_time": "2026-07-22T17:36:00Z"
+      "close_time": "2026-07-22T23:05:00Z"
+    },
+    {
+      "ticker": "PARLAY-31CA7AF0",
+      "title": "New York Yankees wins + Dustin Jacoby wins",
+      "payout": 2.48,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593439836&selectionId=29161",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Pittsburgh Pirates @ New York Yankees + Muhammad Said @ Dustin Jacoby",
+      "market_type": "2-leg parlay",
+      "american_odds": 148,
+      "implied_probability": 0.403,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Pirates @ New York Yankees",
+          "pick": "New York Yankees wins",
+          "odds": -174,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593439836&selectionId=29161",
+          "commence_time": "2026-07-22T17:06:00Z"
+        },
+        {
+          "matchup": "Muhammad Said @ Dustin Jacoby",
+          "pick": "Dustin Jacoby wins",
+          "odds": -174,
+          "implied_prob": "64%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593435985&selectionId=5897443",
+          "commence_time": "2026-07-25T15:15:00Z"
+        }
+      ],
+      "close_time": "2026-07-22T17:06:00Z"
+    },
+    {
+      "ticker": "PARLAY-EF438A8A",
+      "title": "San Jose Earthquakes wins + New York Yankees wins",
+      "payout": 2.5,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593066927&selectionId=408102",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "LA Galaxy @ San Jose Earthquakes + Pittsburgh Pirates @ New York Yankees",
+      "market_type": "2-leg parlay",
+      "american_odds": 150,
+      "implied_probability": 0.4,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "LA Galaxy @ San Jose Earthquakes",
+          "pick": "San Jose Earthquakes wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593066927&selectionId=408102",
+          "commence_time": "2026-07-26T02:30:00Z"
+        },
+        {
+          "matchup": "Pittsburgh Pirates @ New York Yankees",
+          "pick": "New York Yankees wins",
+          "odds": -174,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593439836&selectionId=29161",
+          "commence_time": "2026-07-22T17:06:00Z"
+        }
+      ],
+      "close_time": "2026-07-22T17:06:00Z"
+    },
+    {
+      "ticker": "PARLAY-AD5C0B1B",
+      "title": "San Jose Earthquakes wins + Dustin Jacoby wins",
+      "payout": 2.5,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593066927&selectionId=408102",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "LA Galaxy @ San Jose Earthquakes + Muhammad Said @ Dustin Jacoby",
+      "market_type": "2-leg parlay",
+      "american_odds": 150,
+      "implied_probability": 0.4,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "LA Galaxy @ San Jose Earthquakes",
+          "pick": "San Jose Earthquakes wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593066927&selectionId=408102",
+          "commence_time": "2026-07-26T02:30:00Z"
+        },
+        {
+          "matchup": "Muhammad Said @ Dustin Jacoby",
+          "pick": "Dustin Jacoby wins",
+          "odds": -174,
+          "implied_prob": "64%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593435985&selectionId=5897443",
+          "commence_time": "2026-07-25T15:15:00Z"
+        }
+      ],
+      "close_time": "2026-07-25T15:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-E9502F6E",
+      "title": "Kansas City Royals +1.5 + New York Yankees wins",
+      "payout": 2.51,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593558072&selectionId=29179",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "San Francisco Giants @ Kansas City Royals + Pittsburgh Pirates @ New York Yankees",
+      "market_type": "2-leg parlay",
+      "american_odds": 151,
+      "implied_probability": 0.397,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Francisco Giants @ Kansas City Royals",
+          "pick": "Kansas City Royals +1.5",
+          "odds": -164,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593558072&selectionId=29179",
+          "commence_time": "2026-07-22T18:11:00Z"
+        },
+        {
+          "matchup": "Pittsburgh Pirates @ New York Yankees",
+          "pick": "New York Yankees wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593563585&selectionId=29161",
+          "commence_time": "2026-07-22T23:05:00Z"
+        }
+      ],
+      "close_time": "2026-07-22T18:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-B2A71273",
+      "title": "Cincinnati Reds +1.5 + New York Yankees wins",
+      "payout": 2.51,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593559496&selectionId=29167",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Cincinnati Reds @ Seattle Mariners + Pittsburgh Pirates @ New York Yankees",
+      "market_type": "2-leg parlay",
+      "american_odds": 151,
+      "implied_probability": 0.397,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Cincinnati Reds @ Seattle Mariners",
+          "pick": "Cincinnati Reds +1.5",
+          "odds": -164,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593559496&selectionId=29167",
+          "commence_time": "2026-07-22T19:41:00Z"
+        },
+        {
+          "matchup": "Pittsburgh Pirates @ New York Yankees",
+          "pick": "New York Yankees wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593563585&selectionId=29161",
+          "commence_time": "2026-07-22T23:05:00Z"
+        }
+      ],
+      "close_time": "2026-07-22T19:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-998E29EE",
+      "title": "Philadelphia Union wins + New York Yankees wins",
+      "payout": 2.51,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591609193&selectionId=4589333",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "New York Red Bulls @ Philadelphia Union + Pittsburgh Pirates @ New York Yankees",
+      "market_type": "2-leg parlay",
+      "american_odds": 151,
+      "implied_probability": 0.399,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York Red Bulls @ Philadelphia Union",
+          "pick": "Philadelphia Union wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.591609193&selectionId=4589333",
+          "commence_time": "2026-07-22T23:30:00Z"
+        },
+        {
+          "matchup": "Pittsburgh Pirates @ New York Yankees",
+          "pick": "New York Yankees wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593563585&selectionId=29161",
+          "commence_time": "2026-07-22T23:05:00Z"
+        }
+      ],
+      "close_time": "2026-07-22T23:05:00Z"
+    },
+    {
+      "ticker": "PARLAY-7D5C0AC7",
+      "title": "Philadelphia Phillies +1.5 + New York Yankees wins",
+      "payout": 2.53,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593561461&selectionId=29175",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Los Angeles Dodgers @ Philadelphia Phillies + Pittsburgh Pirates @ New York Yankees",
+      "market_type": "2-leg parlay",
+      "american_odds": 153,
+      "implied_probability": 0.396,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles Dodgers @ Philadelphia Phillies",
+          "pick": "Philadelphia Phillies +1.5",
+          "odds": -162,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593561461&selectionId=29175",
+          "commence_time": "2026-07-22T22:40:00Z"
+        },
+        {
+          "matchup": "Pittsburgh Pirates @ New York Yankees",
+          "pick": "New York Yankees wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593563585&selectionId=29161",
+          "commence_time": "2026-07-22T23:05:00Z"
+        }
+      ],
+      "close_time": "2026-07-22T22:40:00Z"
     }
   ]
 }
