@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T07:02:41.712718+00:00",
+  "generated_at": "2026-07-23T10:21:13.685905+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,17 +8,394 @@
     "green": 10
   },
   "sport_mix": {
-    "Multi": 7,
     "NCAAF": 1,
-    "NFL": 2
+    "Multi": 9
   },
   "board": [
+    {
+      "ticker": "PARLAY-79D65E99",
+      "title": "Virginia Cavaliers wins + Texas Longhorns wins",
+      "payout": 2.1,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.48",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.583323325&selectionId=611101",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "NC State Wolfpack @ Virginia Cavaliers + Oklahoma Sooners @ Texas Longhorns",
+      "market_type": "2-leg parlay",
+      "american_odds": 110,
+      "implied_probability": 0.476,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "NC State Wolfpack @ Virginia Cavaliers",
+          "pick": "Virginia Cavaliers wins",
+          "odds": -220,
+          "implied_prob": "69%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.583323325&selectionId=611101",
+          "commence_time": "2026-08-29T19:30:00Z"
+        },
+        {
+          "matchup": "Oklahoma Sooners @ Texas Longhorns",
+          "pick": "Texas Longhorns wins",
+          "odds": -225,
+          "implied_prob": "69%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579969924&selectionId=484725",
+          "commence_time": "2026-10-10T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-29T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-347A75E7",
+      "title": "Seattle Seahawks wins + Texas Longhorns wins",
+      "payout": 2.1,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.48",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578406843&selectionId=50213",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "New England Patriots @ Seattle Seahawks + Oklahoma Sooners @ Texas Longhorns",
+      "market_type": "2-leg parlay",
+      "american_odds": 110,
+      "implied_probability": 0.476,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -220,
+          "implied_prob": "69%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578406843&selectionId=50213",
+          "commence_time": "2026-09-10T00:15:00Z"
+        },
+        {
+          "matchup": "Oklahoma Sooners @ Texas Longhorns",
+          "pick": "Texas Longhorns wins",
+          "odds": -225,
+          "implied_prob": "69%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579969924&selectionId=484725",
+          "commence_time": "2026-10-10T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-10T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-23163862",
+      "title": "Philadelphia Eagles wins + Texas Longhorns wins",
+      "payout": 2.12,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.47",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578584080&selectionId=50186",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Washington Commanders @ Philadelphia Eagles + Oklahoma Sooners @ Texas Longhorns",
+      "market_type": "2-leg parlay",
+      "american_odds": 112,
+      "implied_probability": 0.473,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington Commanders @ Philadelphia Eagles",
+          "pick": "Philadelphia Eagles wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578584080&selectionId=50186",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Oklahoma Sooners @ Texas Longhorns",
+          "pick": "Texas Longhorns wins",
+          "odds": -225,
+          "implied_prob": "69%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579969924&selectionId=484725",
+          "commence_time": "2026-10-10T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T20:25:00Z"
+    },
+    {
+      "ticker": "PARLAY-C614D2F9",
+      "title": "Virginia Cavaliers wins + Seattle Seahawks wins",
+      "payout": 2.12,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.47",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.583323325&selectionId=611101",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "NC State Wolfpack @ Virginia Cavaliers + New England Patriots @ Seattle Seahawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 112,
+      "implied_probability": 0.473,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "NC State Wolfpack @ Virginia Cavaliers",
+          "pick": "Virginia Cavaliers wins",
+          "odds": -220,
+          "implied_prob": "69%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.583323325&selectionId=611101",
+          "commence_time": "2026-08-29T19:30:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -220,
+          "implied_prob": "69%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578406843&selectionId=50213",
+          "commence_time": "2026-09-10T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-08-29T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-A67776B1",
+      "title": "Los Angeles Rams wins + Texas Longhorns wins",
+      "payout": 2.13,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.47",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.577896059&selectionId=10782388",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "San Francisco 49ers @ Los Angeles Rams + Oklahoma Sooners @ Texas Longhorns",
+      "market_type": "2-leg parlay",
+      "american_odds": 113,
+      "implied_probability": 0.468,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Francisco 49ers @ Los Angeles Rams",
+          "pick": "Los Angeles Rams wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.577896059&selectionId=10782388",
+          "commence_time": "2026-09-11T00:35:00Z"
+        },
+        {
+          "matchup": "Oklahoma Sooners @ Texas Longhorns",
+          "pick": "Texas Longhorns wins",
+          "odds": -225,
+          "implied_prob": "69%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579969924&selectionId=484725",
+          "commence_time": "2026-10-10T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-11T00:35:00Z"
+    },
+    {
+      "ticker": "PARLAY-9C7A872E",
+      "title": "Cincinnati Bengals wins + Texas Longhorns wins",
+      "payout": 2.13,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.47",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578646297&selectionId=50210",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + Oklahoma Sooners @ Texas Longhorns",
+      "market_type": "2-leg parlay",
+      "american_odds": 113,
+      "implied_probability": 0.468,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
+          "pick": "Cincinnati Bengals wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578646297&selectionId=50210",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Oklahoma Sooners @ Texas Longhorns",
+          "pick": "Texas Longhorns wins",
+          "odds": -225,
+          "implied_prob": "69%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579969924&selectionId=484725",
+          "commence_time": "2026-10-10T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-7A8BF29F",
+      "title": "Las Vegas Raiders wins + Texas Longhorns wins",
+      "payout": 2.13,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.47",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578577003&selectionId=27443341",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Miami Dolphins @ Las Vegas Raiders + Oklahoma Sooners @ Texas Longhorns",
+      "market_type": "2-leg parlay",
+      "american_odds": 113,
+      "implied_probability": 0.468,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Dolphins @ Las Vegas Raiders",
+          "pick": "Las Vegas Raiders wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578577003&selectionId=27443341",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Oklahoma Sooners @ Texas Longhorns",
+          "pick": "Texas Longhorns wins",
+          "odds": -225,
+          "implied_prob": "69%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579969924&selectionId=484725",
+          "commence_time": "2026-10-10T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T20:25:00Z"
+    },
+    {
+      "ticker": "PARLAY-352CF1F2",
+      "title": "Detroit Tigers wins + Texas Longhorns wins",
+      "payout": 2.13,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.47",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593723274&selectionId=29159",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Kansas City Royals @ Detroit Tigers + Oklahoma Sooners @ Texas Longhorns",
+      "market_type": "2-leg parlay",
+      "american_odds": 113,
+      "implied_probability": 0.468,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Kansas City Royals @ Detroit Tigers",
+          "pick": "Detroit Tigers wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593723274&selectionId=29159",
+          "commence_time": "2026-07-23T22:41:00Z"
+        },
+        {
+          "matchup": "Oklahoma Sooners @ Texas Longhorns",
+          "pick": "Texas Longhorns wins",
+          "odds": -225,
+          "implied_prob": "69%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579969924&selectionId=484725",
+          "commence_time": "2026-10-10T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-07-23T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-50291ECE",
+      "title": "Axel Sola wins + Texas Longhorns wins",
+      "payout": 2.13,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.47",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592637257&selectionId=87965169",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Axel Sola @ Ismael Bonfim + Oklahoma Sooners @ Texas Longhorns",
+      "market_type": "2-leg parlay",
+      "american_odds": 113,
+      "implied_probability": 0.468,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Axel Sola @ Ismael Bonfim",
+          "pick": "Axel Sola wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592637257&selectionId=87965169",
+          "commence_time": "2026-07-25T09:00:00Z"
+        },
+        {
+          "matchup": "Oklahoma Sooners @ Texas Longhorns",
+          "pick": "Texas Longhorns wins",
+          "odds": -225,
+          "implied_prob": "69%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579969924&selectionId=484725",
+          "commence_time": "2026-10-10T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-07-25T09:00:00Z"
+    },
     {
       "ticker": "PARLAY-0965512C",
       "title": "Philadelphia Eagles wins + Virginia Cavaliers wins",
       "payout": 2.13,
       "tier": "green",
-      "quip": "checking all the boxes",
+      "quip": "the safe bet",
       "yes_price": "0.47",
       "category": "sports-parlay",
       "platform": "fanduel",
@@ -54,384 +431,6 @@
         }
       ],
       "close_time": "2026-08-29T19:30:00Z"
-    },
-    {
-      "ticker": "PARLAY-BA0F577F",
-      "title": "Los Angeles Rams wins + Virginia Cavaliers wins",
-      "payout": 2.15,
-      "tier": "green",
-      "quip": "the fundamentals",
-      "yes_price": "0.47",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.577896059&selectionId=10782388",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "San Francisco 49ers @ Los Angeles Rams + NC State Wolfpack @ Virginia Cavaliers",
-      "market_type": "2-leg parlay",
-      "american_odds": 115,
-      "implied_probability": 0.466,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "San Francisco 49ers @ Los Angeles Rams",
-          "pick": "Los Angeles Rams wins",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.577896059&selectionId=10782388",
-          "commence_time": "2026-09-11T00:35:00Z"
-        },
-        {
-          "matchup": "NC State Wolfpack @ Virginia Cavaliers",
-          "pick": "Virginia Cavaliers wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.583323325&selectionId=611101",
-          "commence_time": "2026-08-29T19:30:00Z"
-        }
-      ],
-      "close_time": "2026-08-29T19:30:00Z"
-    },
-    {
-      "ticker": "PARLAY-DF6033E7",
-      "title": "Cincinnati Bengals wins + Virginia Cavaliers wins",
-      "payout": 2.15,
-      "tier": "green",
-      "quip": "bread and butter",
-      "yes_price": "0.47",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578646297&selectionId=50210",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + NC State Wolfpack @ Virginia Cavaliers",
-      "market_type": "2-leg parlay",
-      "american_odds": 115,
-      "implied_probability": 0.466,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
-          "pick": "Cincinnati Bengals wins",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578646297&selectionId=50210",
-          "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "NC State Wolfpack @ Virginia Cavaliers",
-          "pick": "Virginia Cavaliers wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.583323325&selectionId=611101",
-          "commence_time": "2026-08-29T19:30:00Z"
-        }
-      ],
-      "close_time": "2026-08-29T19:30:00Z"
-    },
-    {
-      "ticker": "PARLAY-E891E6E9",
-      "title": "Las Vegas Raiders wins + Virginia Cavaliers wins",
-      "payout": 2.15,
-      "tier": "green",
-      "quip": "water is wet",
-      "yes_price": "0.47",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578577003&selectionId=27443341",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Miami Dolphins @ Las Vegas Raiders + NC State Wolfpack @ Virginia Cavaliers",
-      "market_type": "2-leg parlay",
-      "american_odds": 115,
-      "implied_probability": 0.466,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Miami Dolphins @ Las Vegas Raiders",
-          "pick": "Las Vegas Raiders wins",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578577003&selectionId=27443341",
-          "commence_time": "2026-09-13T20:25:00Z"
-        },
-        {
-          "matchup": "NC State Wolfpack @ Virginia Cavaliers",
-          "pick": "Virginia Cavaliers wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.583323325&selectionId=611101",
-          "commence_time": "2026-08-29T19:30:00Z"
-        }
-      ],
-      "close_time": "2026-08-29T19:30:00Z"
-    },
-    {
-      "ticker": "PARLAY-3A35A0FD",
-      "title": "Arizona Diamondbacks +1.5 + Virginia Cavaliers wins",
-      "payout": 2.15,
-      "tier": "green",
-      "quip": "water is wet",
-      "yes_price": "0.47",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593859649&selectionId=29165",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Arizona Diamondbacks @ St. Louis Cardinals + NC State Wolfpack @ Virginia Cavaliers",
-      "market_type": "2-leg parlay",
-      "american_odds": 115,
-      "implied_probability": 0.466,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Arizona Diamondbacks @ St. Louis Cardinals",
-          "pick": "Arizona Diamondbacks +1.5",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593859649&selectionId=29165",
-          "commence_time": "2026-07-23T21:16:00Z"
-        },
-        {
-          "matchup": "NC State Wolfpack @ Virginia Cavaliers",
-          "pick": "Virginia Cavaliers wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.583323325&selectionId=611101",
-          "commence_time": "2026-08-29T19:30:00Z"
-        }
-      ],
-      "close_time": "2026-07-23T21:16:00Z"
-    },
-    {
-      "ticker": "PARLAY-1AF3B906",
-      "title": "Axel Sola wins + Virginia Cavaliers wins",
-      "payout": 2.15,
-      "tier": "green",
-      "quip": "tuesday energy",
-      "yes_price": "0.47",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592637257&selectionId=87965169",
-      "sport": "mma_mixed_martial_arts",
-      "sport_display": "Multi",
-      "matchup": "Axel Sola @ Ismael Bonfim + NC State Wolfpack @ Virginia Cavaliers",
-      "market_type": "2-leg parlay",
-      "american_odds": 115,
-      "implied_probability": 0.466,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Axel Sola @ Ismael Bonfim",
-          "pick": "Axel Sola wins",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592637257&selectionId=87965169",
-          "commence_time": "2026-07-25T09:00:00Z"
-        },
-        {
-          "matchup": "NC State Wolfpack @ Virginia Cavaliers",
-          "pick": "Virginia Cavaliers wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.583323325&selectionId=611101",
-          "commence_time": "2026-08-29T19:30:00Z"
-        }
-      ],
-      "close_time": "2026-07-25T09:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-509BAEE1",
-      "title": "Stanford Cardinal wins + Virginia Cavaliers wins",
-      "payout": 2.16,
-      "tier": "green",
-      "quip": "the fundamentals",
-      "yes_price": "0.46",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581502608&selectionId=975028",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "NCAAF",
-      "matchup": "Hawaii Rainbow Warriors @ Stanford Cardinal + NC State Wolfpack @ Virginia Cavaliers",
-      "market_type": "2-leg parlay",
-      "american_odds": 116,
-      "implied_probability": 0.462,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Hawaii Rainbow Warriors @ Stanford Cardinal",
-          "pick": "Stanford Cardinal wins",
-          "odds": -205,
-          "implied_prob": "67%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581502608&selectionId=975028",
-          "commence_time": "2026-08-29T23:00:00Z"
-        },
-        {
-          "matchup": "NC State Wolfpack @ Virginia Cavaliers",
-          "pick": "Virginia Cavaliers wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.583323325&selectionId=611101",
-          "commence_time": "2026-08-29T19:30:00Z"
-        }
-      ],
-      "close_time": "2026-08-29T19:30:00Z"
-    },
-    {
-      "ticker": "PARLAY-761778E7",
-      "title": "Detroit Tigers wins + Virginia Cavaliers wins",
-      "payout": 2.16,
-      "tier": "green",
-      "quip": "as sure as gravity",
-      "yes_price": "0.46",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593723274&selectionId=29159",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Kansas City Royals @ Detroit Tigers + NC State Wolfpack @ Virginia Cavaliers",
-      "market_type": "2-leg parlay",
-      "american_odds": 116,
-      "implied_probability": 0.462,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Kansas City Royals @ Detroit Tigers",
-          "pick": "Detroit Tigers wins",
-          "odds": -205,
-          "implied_prob": "67%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.593723274&selectionId=29159",
-          "commence_time": "2026-07-23T22:41:00Z"
-        },
-        {
-          "matchup": "NC State Wolfpack @ Virginia Cavaliers",
-          "pick": "Virginia Cavaliers wins",
-          "odds": -220,
-          "implied_prob": "69%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.583323325&selectionId=611101",
-          "commence_time": "2026-08-29T19:30:00Z"
-        }
-      ],
-      "close_time": "2026-07-23T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-99B65D31",
-      "title": "Los Angeles Rams wins + Philadelphia Eagles wins",
-      "payout": 2.16,
-      "tier": "green",
-      "quip": "the fundamentals",
-      "yes_price": "0.46",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.577896059&selectionId=10782388",
-      "sport": "americanfootball_nfl",
-      "sport_display": "NFL",
-      "matchup": "San Francisco 49ers @ Los Angeles Rams + Washington Commanders @ Philadelphia Eagles",
-      "market_type": "2-leg parlay",
-      "american_odds": 116,
-      "implied_probability": 0.462,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "San Francisco 49ers @ Los Angeles Rams",
-          "pick": "Los Angeles Rams wins",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.577896059&selectionId=10782388",
-          "commence_time": "2026-09-11T00:35:00Z"
-        },
-        {
-          "matchup": "Washington Commanders @ Philadelphia Eagles",
-          "pick": "Philadelphia Eagles wins",
-          "odds": -215,
-          "implied_prob": "68%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578584080&selectionId=50186",
-          "commence_time": "2026-09-13T20:25:00Z"
-        }
-      ],
-      "close_time": "2026-09-11T00:35:00Z"
-    },
-    {
-      "ticker": "PARLAY-DFEDF358",
-      "title": "Cincinnati Bengals wins + Philadelphia Eagles wins",
-      "payout": 2.16,
-      "tier": "green",
-      "quip": "clock in, cash out",
-      "yes_price": "0.46",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578646297&selectionId=50210",
-      "sport": "americanfootball_nfl",
-      "sport_display": "NFL",
-      "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals + Washington Commanders @ Philadelphia Eagles",
-      "market_type": "2-leg parlay",
-      "american_odds": 116,
-      "implied_probability": 0.462,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Tampa Bay Buccaneers @ Cincinnati Bengals",
-          "pick": "Cincinnati Bengals wins",
-          "odds": -210,
-          "implied_prob": "68%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578646297&selectionId=50210",
-          "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "Washington Commanders @ Philadelphia Eagles",
-          "pick": "Philadelphia Eagles wins",
-          "odds": -215,
-          "implied_prob": "68%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578584080&selectionId=50186",
-          "commence_time": "2026-09-13T20:25:00Z"
-        }
-      ],
-      "close_time": "2026-09-13T17:00:00Z"
     }
   ]
 }
