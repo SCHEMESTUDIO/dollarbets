@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T07:02:44.941990+00:00",
+  "generated_at": "2026-07-24T10:14:48.967280+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -9,8 +9,8 @@
   },
   "sport_mix": {
     "NCAAF": 1,
-    "Multi": 6,
-    "MLB": 3
+    "Multi": 7,
+    "MLB": 2
   },
   "board": [
     {
@@ -18,7 +18,7 @@
       "title": "Eastern Michigan Eagles wins + Colorado State Rams wins",
       "payout": 2.4,
       "tier": "green",
-      "quip": "the fundamentals",
+      "quip": "clock in, cash out",
       "yes_price": "0.42",
       "category": "sports-parlay",
       "platform": "fanduel",
@@ -56,11 +56,11 @@
       "close_time": "2026-09-04T22:30:00Z"
     },
     {
-      "ticker": "PARLAY-07D280D3",
-      "title": "Eastern Michigan Eagles wins + Baltimore Orioles +1.5",
+      "ticker": "PARLAY-13ECFA09",
+      "title": "Eastern Michigan Eagles wins + Texas Rangers +1.5",
       "payout": 2.4,
       "tier": "green",
-      "quip": "paint drying, but profitable",
+      "quip": "tuesday energy",
       "yes_price": "0.42",
       "category": "sports-parlay",
       "platform": "fanduel",
@@ -68,7 +68,7 @@
       "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581864830&selectionId=3346186",
       "sport": "americanfootball_ncaaf",
       "sport_display": "Multi",
-      "matchup": "San Jose State Spartans @ Eastern Michigan Eagles + Atlanta Braves @ Baltimore Orioles",
+      "matchup": "San Jose State Spartans @ Eastern Michigan Eagles + Seattle Mariners @ Texas Rangers",
       "market_type": "2-leg parlay",
       "american_odds": 140,
       "implied_probability": 0.416,
@@ -86,23 +86,23 @@
           "commence_time": "2026-09-04T22:30:00Z"
         },
         {
-          "matchup": "Atlanta Braves @ Baltimore Orioles",
-          "pick": "Baltimore Orioles +1.5",
+          "matchup": "Seattle Mariners @ Texas Rangers",
+          "pick": "Texas Rangers +1.5",
           "odds": -182,
           "implied_prob": "64%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594100168&selectionId=29157",
-          "commence_time": "2026-07-24T23:06:00Z"
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594099131&selectionId=29163",
+          "commence_time": "2026-07-25T00:06:00Z"
         }
       ],
-      "close_time": "2026-07-24T23:06:00Z"
+      "close_time": "2026-07-25T00:06:00Z"
     },
     {
-      "ticker": "PARLAY-19EB3EB1",
-      "title": "Colorado State Rams wins + Baltimore Orioles +1.5",
+      "ticker": "PARLAY-91E4194C",
+      "title": "Colorado State Rams wins + Texas Rangers +1.5",
       "payout": 2.4,
       "tier": "green",
-      "quip": "the sun also rises",
+      "quip": "steady hands",
       "yes_price": "0.42",
       "category": "sports-parlay",
       "platform": "fanduel",
@@ -110,7 +110,7 @@
       "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581874182&selectionId=567121",
       "sport": "americanfootball_ncaaf",
       "sport_display": "Multi",
-      "matchup": "Wyoming Cowboys @ Colorado State Rams + Atlanta Braves @ Baltimore Orioles",
+      "matchup": "Wyoming Cowboys @ Colorado State Rams + Seattle Mariners @ Texas Rangers",
       "market_type": "2-leg parlay",
       "american_odds": 140,
       "implied_probability": 0.416,
@@ -128,23 +128,149 @@
           "commence_time": "2026-09-05T22:00:00Z"
         },
         {
-          "matchup": "Atlanta Braves @ Baltimore Orioles",
-          "pick": "Baltimore Orioles +1.5",
+          "matchup": "Seattle Mariners @ Texas Rangers",
+          "pick": "Texas Rangers +1.5",
           "odds": -182,
           "implied_prob": "64%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594100168&selectionId=29157",
-          "commence_time": "2026-07-24T23:06:00Z"
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594099131&selectionId=29163",
+          "commence_time": "2026-07-25T00:06:00Z"
         }
       ],
-      "close_time": "2026-07-24T23:06:00Z"
+      "close_time": "2026-07-25T00:06:00Z"
+    },
+    {
+      "ticker": "PARLAY-79F7CDBF",
+      "title": "Houston Astros +1.5 + Eastern Michigan Eagles wins",
+      "payout": 2.43,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594098890&selectionId=29170",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Houston Astros @ Chicago White Sox + San Jose State Spartans @ Eastern Michigan Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 143,
+      "implied_probability": 0.412,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Houston Astros @ Chicago White Sox",
+          "pick": "Houston Astros +1.5",
+          "odds": -176,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594098890&selectionId=29170",
+          "commence_time": "2026-07-24T23:41:00Z"
+        },
+        {
+          "matchup": "San Jose State Spartans @ Eastern Michigan Eagles",
+          "pick": "Eastern Michigan Eagles wins",
+          "odds": -182,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581864830&selectionId=3346186",
+          "commence_time": "2026-09-04T22:30:00Z"
+        }
+      ],
+      "close_time": "2026-07-24T23:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-7A1B56DF",
+      "title": "Houston Astros +1.5 + Colorado State Rams wins",
+      "payout": 2.43,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594098890&selectionId=29170",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Houston Astros @ Chicago White Sox + Wyoming Cowboys @ Colorado State Rams",
+      "market_type": "2-leg parlay",
+      "american_odds": 143,
+      "implied_probability": 0.412,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Houston Astros @ Chicago White Sox",
+          "pick": "Houston Astros +1.5",
+          "odds": -176,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594098890&selectionId=29170",
+          "commence_time": "2026-07-24T23:41:00Z"
+        },
+        {
+          "matchup": "Wyoming Cowboys @ Colorado State Rams",
+          "pick": "Colorado State Rams wins",
+          "odds": -182,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581874182&selectionId=567121",
+          "commence_time": "2026-09-05T22:00:00Z"
+        }
+      ],
+      "close_time": "2026-07-24T23:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-2476571A",
+      "title": "Houston Astros +1.5 + Texas Rangers +1.5",
+      "payout": 2.43,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594098890&selectionId=29170",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Houston Astros @ Chicago White Sox + Seattle Mariners @ Texas Rangers",
+      "market_type": "2-leg parlay",
+      "american_odds": 143,
+      "implied_probability": 0.412,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Houston Astros @ Chicago White Sox",
+          "pick": "Houston Astros +1.5",
+          "odds": -176,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594098890&selectionId=29170",
+          "commence_time": "2026-07-24T23:41:00Z"
+        },
+        {
+          "matchup": "Seattle Mariners @ Texas Rangers",
+          "pick": "Texas Rangers +1.5",
+          "odds": -182,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594099131&selectionId=29163",
+          "commence_time": "2026-07-25T00:06:00Z"
+        }
+      ],
+      "close_time": "2026-07-24T23:41:00Z"
     },
     {
       "ticker": "PARLAY-BE88A1A1",
       "title": "San Francisco Giants wins + Eastern Michigan Eagles wins",
-      "payout": 2.41,
+      "payout": 2.44,
       "tier": "green",
-      "quip": "rent money",
+      "quip": "no surprises here",
       "yes_price": "0.41",
       "category": "sports-parlay",
       "platform": "fanduel",
@@ -154,8 +280,8 @@
       "sport_display": "Multi",
       "matchup": "Los Angeles Angels @ San Francisco Giants + San Jose State Spartans @ Eastern Michigan Eagles",
       "market_type": "2-leg parlay",
-      "american_odds": 141,
-      "implied_probability": 0.415,
+      "american_odds": 144,
+      "implied_probability": 0.41,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
@@ -163,7 +289,7 @@
         {
           "matchup": "Los Angeles Angels @ San Francisco Giants",
           "pick": "San Francisco Giants wins",
-          "odds": -180,
+          "odds": -174,
           "implied_prob": "64%",
           "sport": "baseball_mlb",
           "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594011422&selectionId=29178",
@@ -184,9 +310,9 @@
     {
       "ticker": "PARLAY-A8AE6B37",
       "title": "San Francisco Giants wins + Colorado State Rams wins",
-      "payout": 2.41,
+      "payout": 2.44,
       "tier": "green",
-      "quip": "rent money",
+      "quip": "business as usual",
       "yes_price": "0.41",
       "category": "sports-parlay",
       "platform": "fanduel",
@@ -196,8 +322,8 @@
       "sport_display": "Multi",
       "matchup": "Los Angeles Angels @ San Francisco Giants + Wyoming Cowboys @ Colorado State Rams",
       "market_type": "2-leg parlay",
-      "american_odds": 141,
-      "implied_probability": 0.415,
+      "american_odds": 144,
+      "implied_probability": 0.41,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
@@ -205,7 +331,7 @@
         {
           "matchup": "Los Angeles Angels @ San Francisco Giants",
           "pick": "San Francisco Giants wins",
-          "odds": -180,
+          "odds": -174,
           "implied_prob": "64%",
           "sport": "baseball_mlb",
           "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594011422&selectionId=29178",
@@ -224,11 +350,11 @@
       "close_time": "2026-07-25T02:16:00Z"
     },
     {
-      "ticker": "PARLAY-9EACA4DC",
-      "title": "San Francisco Giants wins + Baltimore Orioles +1.5",
-      "payout": 2.41,
+      "ticker": "PARLAY-FFC479E9",
+      "title": "San Francisco Giants wins + Texas Rangers +1.5",
+      "payout": 2.44,
       "tier": "green",
-      "quip": "business as usual",
+      "quip": "no surprises here",
       "yes_price": "0.41",
       "category": "sports-parlay",
       "platform": "fanduel",
@@ -236,10 +362,10 @@
       "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594011422&selectionId=29178",
       "sport": "baseball_mlb",
       "sport_display": "MLB",
-      "matchup": "Los Angeles Angels @ San Francisco Giants + Atlanta Braves @ Baltimore Orioles",
+      "matchup": "Los Angeles Angels @ San Francisco Giants + Seattle Mariners @ Texas Rangers",
       "market_type": "2-leg parlay",
-      "american_odds": 141,
-      "implied_probability": 0.415,
+      "american_odds": 144,
+      "implied_probability": 0.41,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
@@ -247,53 +373,53 @@
         {
           "matchup": "Los Angeles Angels @ San Francisco Giants",
           "pick": "San Francisco Giants wins",
-          "odds": -180,
+          "odds": -174,
           "implied_prob": "64%",
           "sport": "baseball_mlb",
           "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594011422&selectionId=29178",
           "commence_time": "2026-07-25T02:16:00Z"
         },
         {
-          "matchup": "Atlanta Braves @ Baltimore Orioles",
-          "pick": "Baltimore Orioles +1.5",
+          "matchup": "Seattle Mariners @ Texas Rangers",
+          "pick": "Texas Rangers +1.5",
           "odds": -182,
           "implied_prob": "64%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594100168&selectionId=29157",
-          "commence_time": "2026-07-24T23:06:00Z"
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594099131&selectionId=29163",
+          "commence_time": "2026-07-25T00:06:00Z"
         }
       ],
-      "close_time": "2026-07-24T23:06:00Z"
+      "close_time": "2026-07-25T00:06:00Z"
     },
     {
-      "ticker": "PARLAY-13ECFA09",
-      "title": "Texas Rangers +1.5 + Eastern Michigan Eagles wins",
-      "payout": 2.42,
+      "ticker": "PARLAY-60EFEA36",
+      "title": "Athletics +1.5 + Eastern Michigan Eagles wins",
+      "payout": 2.46,
       "tier": "green",
-      "quip": "steady hands",
+      "quip": "just showing up",
       "yes_price": "0.41",
       "category": "sports-parlay",
       "platform": "fanduel",
       "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594099131&selectionId=29163",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594099238&selectionId=75117758",
       "sport": "baseball_mlb",
       "sport_display": "Multi",
-      "matchup": "Seattle Mariners @ Texas Rangers + San Jose State Spartans @ Eastern Michigan Eagles",
+      "matchup": "Athletics @ Minnesota Twins + San Jose State Spartans @ Eastern Michigan Eagles",
       "market_type": "2-leg parlay",
-      "american_odds": 142,
-      "implied_probability": 0.413,
+      "american_odds": 146,
+      "implied_probability": 0.406,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Seattle Mariners @ Texas Rangers",
-          "pick": "Texas Rangers +1.5",
-          "odds": -178,
-          "implied_prob": "64%",
+          "matchup": "Athletics @ Minnesota Twins",
+          "pick": "Athletics +1.5",
+          "odds": -170,
+          "implied_prob": "63%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594099131&selectionId=29163",
-          "commence_time": "2026-07-25T00:06:00Z"
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594099238&selectionId=75117758",
+          "commence_time": "2026-07-25T00:11:00Z"
         },
         {
           "matchup": "San Jose State Spartans @ Eastern Michigan Eagles",
@@ -305,133 +431,7 @@
           "commence_time": "2026-09-04T22:30:00Z"
         }
       ],
-      "close_time": "2026-07-25T00:06:00Z"
-    },
-    {
-      "ticker": "PARLAY-91E4194C",
-      "title": "Texas Rangers +1.5 + Colorado State Rams wins",
-      "payout": 2.42,
-      "tier": "green",
-      "quip": "routine maintenance",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594099131&selectionId=29163",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Seattle Mariners @ Texas Rangers + Wyoming Cowboys @ Colorado State Rams",
-      "market_type": "2-leg parlay",
-      "american_odds": 142,
-      "implied_probability": 0.413,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Seattle Mariners @ Texas Rangers",
-          "pick": "Texas Rangers +1.5",
-          "odds": -178,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594099131&selectionId=29163",
-          "commence_time": "2026-07-25T00:06:00Z"
-        },
-        {
-          "matchup": "Wyoming Cowboys @ Colorado State Rams",
-          "pick": "Colorado State Rams wins",
-          "odds": -182,
-          "implied_prob": "64%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581874182&selectionId=567121",
-          "commence_time": "2026-09-05T22:00:00Z"
-        }
-      ],
-      "close_time": "2026-07-25T00:06:00Z"
-    },
-    {
-      "ticker": "PARLAY-45EB68A3",
-      "title": "Texas Rangers +1.5 + Baltimore Orioles +1.5",
-      "payout": 2.42,
-      "tier": "green",
-      "quip": "checking all the boxes",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594099131&selectionId=29163",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Seattle Mariners @ Texas Rangers + Atlanta Braves @ Baltimore Orioles",
-      "market_type": "2-leg parlay",
-      "american_odds": 142,
-      "implied_probability": 0.413,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Seattle Mariners @ Texas Rangers",
-          "pick": "Texas Rangers +1.5",
-          "odds": -178,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594099131&selectionId=29163",
-          "commence_time": "2026-07-25T00:06:00Z"
-        },
-        {
-          "matchup": "Atlanta Braves @ Baltimore Orioles",
-          "pick": "Baltimore Orioles +1.5",
-          "odds": -182,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594100168&selectionId=29157",
-          "commence_time": "2026-07-24T23:06:00Z"
-        }
-      ],
-      "close_time": "2026-07-24T23:06:00Z"
-    },
-    {
-      "ticker": "PARLAY-FFC479E9",
-      "title": "Texas Rangers +1.5 + San Francisco Giants wins",
-      "payout": 2.43,
-      "tier": "green",
-      "quip": "the safe bet",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594099131&selectionId=29163",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Seattle Mariners @ Texas Rangers + Los Angeles Angels @ San Francisco Giants",
-      "market_type": "2-leg parlay",
-      "american_odds": 143,
-      "implied_probability": 0.412,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Seattle Mariners @ Texas Rangers",
-          "pick": "Texas Rangers +1.5",
-          "odds": -178,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594099131&selectionId=29163",
-          "commence_time": "2026-07-25T00:06:00Z"
-        },
-        {
-          "matchup": "Los Angeles Angels @ San Francisco Giants",
-          "pick": "San Francisco Giants wins",
-          "odds": -180,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.594011422&selectionId=29178",
-          "commence_time": "2026-07-25T02:16:00Z"
-        }
-      ],
-      "close_time": "2026-07-25T00:06:00Z"
+      "close_time": "2026-07-25T00:11:00Z"
     }
   ]
 }
