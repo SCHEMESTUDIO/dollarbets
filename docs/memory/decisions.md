@@ -40,6 +40,12 @@ delete. Keep entries short; link evidence.
   reads use `GIT_OPTIONAL_LOCKS=0`; verify remote via `git ls-remote`.
   The pre-2026-07-15 "never fetch" rule is revoked — it caused sessions to
   report phantom outages from a 3-week-stale clone.
+- **2026-07-20 — Cost audit: fewer scans, cheaper quips (commit 70933d0).**
+  `daily-scan.yml` cron cut from 6 runs/day (`0 8,16,19,22,1,4`) to 3
+  (`0 8,16,22`) — the dropped slots were redundant sports/combo refreshes.
+  Quip generation in `scanner.py` + `sports_scanner.py` moved from
+  `claude-sonnet-4-6` to `claude-haiku-4-5-20251001`. Don't revert either
+  change without checking the cost impact first.
 
 ## Superseded (kept for archaeology)
 
