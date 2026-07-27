@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T11:18:39.959113+00:00",
+  "generated_at": "2026-07-27T17:41:19.926531+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,40 +8,31 @@
     "green": 10
   },
   "sport_mix": {
-    "MLB": 6,
-    "Multi": 4
+    "MLB": 3,
+    "Multi": 7
   },
   "board": [
     {
-      "ticker": "PARLAY-F8345EC3",
-      "title": "Philadelphia Phillies wins + New York Mets +1.5",
-      "payout": 2.4,
+      "ticker": "PARLAY-E3F7BECD",
+      "title": "New York Mets +1.5 + Los Angeles Angels +1.5",
+      "payout": 2.37,
       "tier": "green",
-      "quip": "the fundamentals",
+      "quip": "rent money",
       "yes_price": "0.42",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19829116-1545542621-2260952357&type=Single",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19829123-1545543275-2260953792&type=Single",
       "sport": "baseball_mlb",
       "sport_display": "MLB",
-      "matchup": "Philadelphia Phillies @ Miami Marlins + Atlanta Braves @ New York Mets",
+      "matchup": "Atlanta Braves @ New York Mets + Houston Astros @ Los Angeles Angels",
       "market_type": "2-leg parlay",
-      "american_odds": 140,
-      "implied_probability": 0.417,
+      "american_odds": 137,
+      "implied_probability": 0.421,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
-        {
-          "matchup": "Philadelphia Phillies @ Miami Marlins",
-          "pick": "Philadelphia Phillies wins",
-          "odds": -180,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829116-1545542621-2260952357&type=Single",
-          "commence_time": "2026-07-27T22:41:00Z"
-        },
         {
           "matchup": "Atlanta Braves @ New York Mets",
           "pick": "New York Mets +1.5",
@@ -50,59 +41,110 @@
           "sport": "baseball_mlb",
           "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829123-1545543275-2260953792&type=Single",
           "commence_time": "2026-07-27T23:10:00Z"
-        }
-      ],
-      "close_time": "2026-07-27T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-61EE758D",
-      "title": "Cincinnati Reds wins + New York Mets +1.5",
-      "payout": 2.42,
-      "tier": "green",
-      "quip": "business as usual",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19829119-1545542875-2260952909&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Cleveland Guardians @ Cincinnati Reds + Atlanta Braves @ New York Mets",
-      "market_type": "2-leg parlay",
-      "american_odds": 142,
-      "implied_probability": 0.413,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Cleveland Guardians @ Cincinnati Reds",
-          "pick": "Cincinnati Reds wins",
-          "odds": -175,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829119-1545542875-2260952909&type=Single",
-          "commence_time": "2026-07-27T23:10:00Z"
         },
         {
-          "matchup": "Atlanta Braves @ New York Mets",
-          "pick": "New York Mets +1.5",
+          "matchup": "Houston Astros @ Los Angeles Angels",
+          "pick": "Los Angeles Angels +1.5",
           "odds": -185,
           "implied_prob": "65%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829123-1545543275-2260953792&type=Single",
-          "commence_time": "2026-07-27T23:10:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829126-1545543554-2260954404&type=Single",
+          "commence_time": "2026-07-28T01:38:00Z"
         }
       ],
       "close_time": "2026-07-27T23:10:00Z"
     },
     {
+      "ticker": "PARLAY-823FF5AC",
+      "title": "New York Mets +1.5 + Under 3.5",
+      "payout": 2.37,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.42",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19829123-1545543275-2260953792&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Atlanta Braves @ New York Mets + Los Angeles FC @ Vancouver Whitecaps FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 137,
+      "implied_probability": 0.421,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Braves @ New York Mets",
+          "pick": "New York Mets +1.5",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829123-1545543275-2260953792&type=Single",
+          "commence_time": "2026-07-27T23:10:00Z"
+        },
+        {
+          "matchup": "Los Angeles FC @ Vancouver Whitecaps FC",
+          "pick": "Under 3.5",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7833808-202008227-767534942&type=Single",
+          "commence_time": "2026-08-01T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-07-27T23:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-E5BA35C0",
+      "title": "Los Angeles Angels +1.5 + Under 3.5",
+      "payout": 2.37,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.42",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19829126-1545543554-2260954404&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Houston Astros @ Los Angeles Angels + Los Angeles FC @ Vancouver Whitecaps FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 137,
+      "implied_probability": 0.421,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Houston Astros @ Los Angeles Angels",
+          "pick": "Los Angeles Angels +1.5",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829126-1545543554-2260954404&type=Single",
+          "commence_time": "2026-07-28T01:38:00Z"
+        },
+        {
+          "matchup": "Los Angeles FC @ Vancouver Whitecaps FC",
+          "pick": "Under 3.5",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7833808-202008227-767534942&type=Single",
+          "commence_time": "2026-08-01T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-07-28T01:38:00Z"
+    },
+    {
       "ticker": "PARLAY-514D4011",
       "title": "Boston Red Sox wins + New York Mets +1.5",
-      "payout": 2.42,
+      "payout": 2.4,
       "tier": "green",
-      "quip": "the safe bet",
-      "yes_price": "0.41",
+      "quip": "just showing up",
+      "yes_price": "0.42",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
@@ -111,8 +153,8 @@
       "sport_display": "MLB",
       "matchup": "Boston Red Sox @ Athletics + Atlanta Braves @ New York Mets",
       "market_type": "2-leg parlay",
-      "american_odds": 142,
-      "implied_probability": 0.413,
+      "american_odds": 140,
+      "implied_probability": 0.417,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
@@ -120,7 +162,7 @@
         {
           "matchup": "Boston Red Sox @ Athletics",
           "pick": "Boston Red Sox wins",
-          "odds": -175,
+          "odds": -180,
           "implied_prob": "64%",
           "sport": "baseball_mlb",
           "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829107-1545541778-2260950509&type=Single",
@@ -139,11 +181,95 @@
       "close_time": "2026-07-27T23:10:00Z"
     },
     {
+      "ticker": "PARLAY-B8AE356F",
+      "title": "Boston Red Sox wins + Los Angeles Angels +1.5",
+      "payout": 2.4,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.42",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19829107-1545541778-2260950509&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Boston Red Sox @ Athletics + Houston Astros @ Los Angeles Angels",
+      "market_type": "2-leg parlay",
+      "american_odds": 140,
+      "implied_probability": 0.417,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Boston Red Sox @ Athletics",
+          "pick": "Boston Red Sox wins",
+          "odds": -180,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829107-1545541778-2260950509&type=Single",
+          "commence_time": "2026-07-28T01:40:00Z"
+        },
+        {
+          "matchup": "Houston Astros @ Los Angeles Angels",
+          "pick": "Los Angeles Angels +1.5",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829126-1545543554-2260954404&type=Single",
+          "commence_time": "2026-07-28T01:38:00Z"
+        }
+      ],
+      "close_time": "2026-07-28T01:38:00Z"
+    },
+    {
+      "ticker": "PARLAY-9CC56424",
+      "title": "Boston Red Sox wins + Under 3.5",
+      "payout": 2.4,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.42",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19829107-1545541778-2260950509&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Boston Red Sox @ Athletics + Los Angeles FC @ Vancouver Whitecaps FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 140,
+      "implied_probability": 0.417,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Boston Red Sox @ Athletics",
+          "pick": "Boston Red Sox wins",
+          "odds": -180,
+          "implied_prob": "64%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829107-1545541778-2260950509&type=Single",
+          "commence_time": "2026-07-28T01:40:00Z"
+        },
+        {
+          "matchup": "Los Angeles FC @ Vancouver Whitecaps FC",
+          "pick": "Under 3.5",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7833808-202008227-767534942&type=Single",
+          "commence_time": "2026-08-01T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-07-28T01:40:00Z"
+    },
+    {
       "ticker": "PARLAY-E4410654",
       "title": "Robert Valentin wins + New York Mets +1.5",
       "payout": 2.42,
       "tier": "green",
-      "quip": "the fundamentals",
+      "quip": "the sun also rises",
       "yes_price": "0.41",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -181,11 +307,95 @@
       "close_time": "2026-07-27T23:10:00Z"
     },
     {
+      "ticker": "PARLAY-F81A86BF",
+      "title": "Robert Valentin wins + Los Angeles Angels +1.5",
+      "payout": 2.42,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19831395-1545793018-2261608210&type=Single",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Robert Valentin @ Dusko Todorovic + Houston Astros @ Los Angeles Angels",
+      "market_type": "2-leg parlay",
+      "american_odds": 142,
+      "implied_probability": 0.413,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Robert Valentin @ Dusko Todorovic",
+          "pick": "Robert Valentin wins",
+          "odds": -175,
+          "implied_prob": "64%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19831395-1545793018-2261608210&type=Single",
+          "commence_time": "2026-08-01T22:00:00Z"
+        },
+        {
+          "matchup": "Houston Astros @ Los Angeles Angels",
+          "pick": "Los Angeles Angels +1.5",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829126-1545543554-2260954404&type=Single",
+          "commence_time": "2026-07-28T01:38:00Z"
+        }
+      ],
+      "close_time": "2026-07-28T01:38:00Z"
+    },
+    {
+      "ticker": "PARLAY-66A5B761",
+      "title": "Robert Valentin wins + Under 3.5",
+      "payout": 2.42,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19831395-1545793018-2261608210&type=Single",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Robert Valentin @ Dusko Todorovic + Los Angeles FC @ Vancouver Whitecaps FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 142,
+      "implied_probability": 0.413,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Robert Valentin @ Dusko Todorovic",
+          "pick": "Robert Valentin wins",
+          "odds": -175,
+          "implied_prob": "64%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19831395-1545793018-2261608210&type=Single",
+          "commence_time": "2026-08-01T22:00:00Z"
+        },
+        {
+          "matchup": "Los Angeles FC @ Vancouver Whitecaps FC",
+          "pick": "Under 3.5",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7833808-202008227-767534942&type=Single",
+          "commence_time": "2026-08-01T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-08-01T22:00:00Z"
+    },
+    {
       "ticker": "PARLAY-4E63B54C",
       "title": "Over 2.5 + New York Mets +1.5",
       "payout": 2.42,
       "tier": "green",
-      "quip": "the sun also rises",
+      "quip": "like taking candy from a vending machine",
       "yes_price": "0.41",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -221,216 +431,6 @@
         }
       ],
       "close_time": "2026-07-27T23:10:00Z"
-    },
-    {
-      "ticker": "PARLAY-E58A6694",
-      "title": "Cincinnati Reds wins + Philadelphia Phillies wins",
-      "payout": 2.44,
-      "tier": "green",
-      "quip": "water is wet",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19829119-1545542875-2260952909&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Cleveland Guardians @ Cincinnati Reds + Philadelphia Phillies @ Miami Marlins",
-      "market_type": "2-leg parlay",
-      "american_odds": 144,
-      "implied_probability": 0.409,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Cleveland Guardians @ Cincinnati Reds",
-          "pick": "Cincinnati Reds wins",
-          "odds": -175,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829119-1545542875-2260952909&type=Single",
-          "commence_time": "2026-07-27T23:10:00Z"
-        },
-        {
-          "matchup": "Philadelphia Phillies @ Miami Marlins",
-          "pick": "Philadelphia Phillies wins",
-          "odds": -180,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829116-1545542621-2260952357&type=Single",
-          "commence_time": "2026-07-27T22:41:00Z"
-        }
-      ],
-      "close_time": "2026-07-27T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-1F3B1727",
-      "title": "Boston Red Sox wins + Philadelphia Phillies wins",
-      "payout": 2.44,
-      "tier": "green",
-      "quip": "rent money",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19829107-1545541778-2260950509&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Boston Red Sox @ Athletics + Philadelphia Phillies @ Miami Marlins",
-      "market_type": "2-leg parlay",
-      "american_odds": 144,
-      "implied_probability": 0.409,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Boston Red Sox @ Athletics",
-          "pick": "Boston Red Sox wins",
-          "odds": -175,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829107-1545541778-2260950509&type=Single",
-          "commence_time": "2026-07-28T01:40:00Z"
-        },
-        {
-          "matchup": "Philadelphia Phillies @ Miami Marlins",
-          "pick": "Philadelphia Phillies wins",
-          "odds": -180,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829116-1545542621-2260952357&type=Single",
-          "commence_time": "2026-07-27T22:41:00Z"
-        }
-      ],
-      "close_time": "2026-07-27T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-096A18FE",
-      "title": "Robert Valentin wins + Philadelphia Phillies wins",
-      "payout": 2.44,
-      "tier": "green",
-      "quip": "like taking candy from a vending machine",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19831395-1545793018-2261608210&type=Single",
-      "sport": "mma_mixed_martial_arts",
-      "sport_display": "Multi",
-      "matchup": "Robert Valentin @ Dusko Todorovic + Philadelphia Phillies @ Miami Marlins",
-      "market_type": "2-leg parlay",
-      "american_odds": 144,
-      "implied_probability": 0.409,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Robert Valentin @ Dusko Todorovic",
-          "pick": "Robert Valentin wins",
-          "odds": -175,
-          "implied_prob": "64%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19831395-1545793018-2261608210&type=Single",
-          "commence_time": "2026-08-01T22:00:00Z"
-        },
-        {
-          "matchup": "Philadelphia Phillies @ Miami Marlins",
-          "pick": "Philadelphia Phillies wins",
-          "odds": -180,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829116-1545542621-2260952357&type=Single",
-          "commence_time": "2026-07-27T22:41:00Z"
-        }
-      ],
-      "close_time": "2026-07-27T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-F51E6A7E",
-      "title": "Over 2.5 + Philadelphia Phillies wins",
-      "payout": 2.44,
-      "tier": "green",
-      "quip": "the boring middle",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7833811-202007142-767530403&type=Single",
-      "sport": "soccer_usa_mls",
-      "sport_display": "Multi",
-      "matchup": "Austin FC @ Colorado Rapids + Philadelphia Phillies @ Miami Marlins",
-      "market_type": "2-leg parlay",
-      "american_odds": 144,
-      "implied_probability": 0.409,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Austin FC @ Colorado Rapids",
-          "pick": "Over 2.5",
-          "odds": -175,
-          "implied_prob": "64%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7833811-202007142-767530403&type=Single",
-          "commence_time": "2026-08-02T01:30:00Z"
-        },
-        {
-          "matchup": "Philadelphia Phillies @ Miami Marlins",
-          "pick": "Philadelphia Phillies wins",
-          "odds": -180,
-          "implied_prob": "64%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829116-1545542621-2260952357&type=Single",
-          "commence_time": "2026-07-27T22:41:00Z"
-        }
-      ],
-      "close_time": "2026-07-27T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-47EAD730",
-      "title": "Toronto Blue Jays +1.5 + New York Mets +1.5",
-      "payout": 2.45,
-      "tier": "green",
-      "quip": "bread and butter",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19829117-1545542716-2260952565&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Toronto Blue Jays @ Washington Nationals + Atlanta Braves @ New York Mets",
-      "market_type": "2-leg parlay",
-      "american_odds": 145,
-      "implied_probability": 0.409,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Toronto Blue Jays @ Washington Nationals",
-          "pick": "Toronto Blue Jays +1.5",
-          "odds": -170,
-          "implied_prob": "63%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829117-1545542716-2260952565&type=Single",
-          "commence_time": "2026-07-27T22:46:00Z"
-        },
-        {
-          "matchup": "Atlanta Braves @ New York Mets",
-          "pick": "New York Mets +1.5",
-          "odds": -185,
-          "implied_prob": "65%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19829123-1545543275-2260953792&type=Single",
-          "commence_time": "2026-07-27T23:10:00Z"
-        }
-      ],
-      "close_time": "2026-07-27T22:46:00Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T11:18:14.844584+00:00",
+  "generated_at": "2026-07-27T17:40:58.570543+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -10,15 +10,16 @@
   },
   "sport_mix": {
     "NFL": 2,
-    "NCAAF": 3
+    "NCAAF": 2,
+    "EPL": 1
   },
   "board": [
     {
       "ticker": "SB-90231BA3",
-      "title": "Jets shock Packers at MetLife tonight",
+      "title": "Jets shock Packers at home tomorrow",
       "payout": 3.1,
       "tier": "yellow",
-      "quip": "Aaron Rodgers meets the Jets' actual competent defense",
+      "quip": "Aaron Rodgers has seen greener meadows",
       "yes_price": "0.32",
       "category": "NFL",
       "platform": "draftkings",
@@ -35,10 +36,10 @@
     },
     {
       "ticker": "SB-4E9577E5",
-      "title": "Colts stun defending champs Kansas City",
+      "title": "Colts stun defending champs KC tomorrow",
       "payout": 3.3,
       "tier": "yellow",
-      "quip": "Indianapolis's mediocrity somehow catches Patrick Mahomes off-guard",
+      "quip": "Mahomes' throne has splinters in it",
       "yes_price": "0.30",
       "category": "NFL",
       "platform": "draftkings",
@@ -55,10 +56,10 @@
     },
     {
       "ticker": "SB-281A3EE0",
-      "title": "Oklahoma State stuns Oregon tonight",
+      "title": "Oklahoma State stuns Oregon in Stillwater",
       "payout": 7.75,
       "tier": "orange",
-      "quip": "Stillwater's about to remind the Pac-12 what they're leaving behind",
+      "quip": "Dan Lanning's buyout just got a lot more expensive",
       "yes_price": "0.13",
       "category": "NCAAF",
       "platform": "draftkings",
@@ -74,31 +75,11 @@
       "has_deep_link": true
     },
     {
-      "ticker": "SB-674283E3",
-      "title": "Oregon State upsets Houston on the road",
-      "payout": 9.6,
-      "tier": "orange",
-      "quip": "the Beavers have nothing to lose and everything to prove in a dead conference",
-      "yes_price": "0.10",
-      "category": "NCAAF",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581866910&selectionId=661960",
-      "close_time": "2026-09-05T16:00:00Z",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "NCAAF",
-      "matchup": "Oregon State Beavers @ Houston Cougars",
-      "market_type": "h2h",
-      "american_odds": 860,
-      "implied_probability": 0.104,
-      "has_deep_link": true
-    },
-    {
       "ticker": "SB-B3FFBF7F",
-      "title": "Alcorn State shocks Southern Mississippi tonight",
+      "title": "Alcorn State upsets Southern Mississippi on the road",
       "payout": 13.0,
       "tier": "orange",
-      "quip": "FCS over FBS is the purest chaos the betting gods allow",
+      "quip": "FCS chaos is the only chaos that matters",
       "yes_price": "0.08",
       "category": "NCAAF",
       "platform": "fanduel",
@@ -111,6 +92,26 @@
       "market_type": "h2h",
       "american_odds": 1200,
       "implied_probability": 0.077,
+      "has_deep_link": true
+    },
+    {
+      "ticker": "SB-0AC8BDB4",
+      "title": "Coventry shocks Arsenal at the Emirates",
+      "payout": 15.0,
+      "tier": "orange",
+      "quip": "Sky Blues finally cash in their accumulated suffering",
+      "yes_price": "0.07",
+      "category": "EPL",
+      "platform": "draftkings",
+      "platform_display": "DraftKings",
+      "url": "https://sportsbook.draftkings.com/?outcomes=0ML85212977_3",
+      "close_time": "2026-08-21T19:00:00Z",
+      "sport": "soccer_epl",
+      "sport_display": "EPL",
+      "matchup": "Coventry City @ Arsenal",
+      "market_type": "h2h",
+      "american_odds": 1400,
+      "implied_probability": 0.067,
       "has_deep_link": true
     }
   ]
