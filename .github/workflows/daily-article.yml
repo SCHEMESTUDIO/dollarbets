@@ -11,9 +11,9 @@ name: Daily Article
 # Secrets required: ANTHROPIC_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_OPS_CHAT_ID,
 # VERCEL_DEPLOY_HOOK.
 
+# RETIRED 2026-07-28: net-new article writing moved to Postwerks
+# (seo-plan / seo-publish). Kept as manual fallback only — no schedule.
 on:
-  schedule:
-    - cron: '30 9 * * *'
   workflow_dispatch:
 
 permissions:

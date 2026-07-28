@@ -47,9 +47,20 @@ delete. Keep entries short; link evidence.
   `claude-sonnet-4-6` to `claude-haiku-4-5-20251001`. Don't revert either
   change without checking the cost impact first.
 
+- **2026-07-28 — daily-article.yml retired (replaced by Postwerks).**
+  Net-new article writing/publishing moved to the external Postwerks pipeline
+  (`Publish: postwerks m2 — {slug}` commits, seo-plan/seo-publish workflows in
+  the private postwerks repo, GH_PUBLISH_TOKEN secret there). `Article: auto`
+  commits ceasing after 2026-07-17 was intentional, NOT an outage — do not
+  re-diagnose it. daily-article.yml keeps `workflow_dispatch` as a manual
+  fallback; its schedule is removed. Weekly briefs are now consumed by
+  Postwerks, not by a nightly in-repo writer.
+
 ## Superseded (kept for archaeology)
 
 - ~~2026-06-11 rebuild: publish.sh sole git writer via launchd 11:30~~ →
   replaced by ci_guarded_commit.sh in Actions (2026-07-13).
 - ~~"Indexing is the bottleneck" thesis~~ → misdiagnosis; absent from
   Pages.csv means "earned no impressions", not "not indexed" (2026-06-05).
+- ~~daily-article.yml nightly writer (09:30 UTC, part of the 07-13 cloud
+  migration)~~ → retired 2026-07-28; replaced by Postwerks publishing.
