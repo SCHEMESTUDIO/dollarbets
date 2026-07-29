@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T10:36:25.961411+00:00",
+  "generated_at": "2026-07-29T17:13:05.397525+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -11,15 +11,15 @@
   "sport_mix": {
     "NFL": 2,
     "NCAAF": 2,
-    "EPL": 1
+    "MLB": 1
   },
   "board": [
     {
       "ticker": "SB-90231BA3",
-      "title": "Jets stun Packers in Green Bay",
+      "title": "Jets upset Packers tonight",
       "payout": 3.15,
       "tier": "yellow",
-      "quip": "Aaron Rodgers meets his kryptonite: Robert Saleh",
+      "quip": "Aaron Rodgers finally meets a New York team that doesn't fold",
       "yes_price": "0.32",
       "category": "NFL",
       "platform": "draftkings",
@@ -36,10 +36,10 @@
     },
     {
       "ticker": "SB-4E9577E5",
-      "title": "Colts steal one in Kansas City",
+      "title": "Colts shock the Chiefs",
       "payout": 3.3,
       "tier": "yellow",
-      "quip": "Mahomes vs. Indy's secondary is a matchup waiting to happen",
+      "quip": "Indianapolis crashes Patrick Mahomes' playoff coronation party",
       "yes_price": "0.30",
       "category": "NFL",
       "platform": "draftkings",
@@ -59,7 +59,7 @@
       "title": "Oklahoma State stuns Oregon in Stillwater",
       "payout": 7.75,
       "tier": "orange",
-      "quip": "Dan Lanning's still unpacking boxes in Eugene",
+      "quip": "Ducks offense hits the tarmac in Big 12 country",
       "yes_price": "0.13",
       "category": "NCAAF",
       "platform": "draftkings",
@@ -75,11 +75,31 @@
       "has_deep_link": true
     },
     {
+      "ticker": "SB-D60A98E1",
+      "title": "Marlins upset Phillies in Miami",
+      "payout": 12.2,
+      "tier": "orange",
+      "quip": "Sandy Alcantara's revenge tour starts with the Philly bats",
+      "yes_price": "0.08",
+      "category": "MLB",
+      "platform": "draftkings",
+      "platform_display": "DraftKings",
+      "url": "https://sportsbook.draftkings.com/?outcomes=0ML85676673_1",
+      "close_time": "2026-07-29T16:11:00Z",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Philadelphia Phillies @ Miami Marlins",
+      "market_type": "h2h",
+      "american_odds": 1120,
+      "implied_probability": 0.082,
+      "has_deep_link": true
+    },
+    {
       "ticker": "SB-B3FFBF7F",
-      "title": "Alcorn State pulls off the miracle at Southern Miss",
+      "title": "Alcorn State shocks Southern Miss",
       "payout": 13.0,
       "tier": "orange",
-      "quip": "Golden Eagles laying an egg to a team from Lorman, Mississippi",
+      "quip": "MEAC flex on the Eagles in Hattiesburg",
       "yes_price": "0.08",
       "category": "NCAAF",
       "platform": "fanduel",
@@ -92,26 +112,6 @@
       "market_type": "h2h",
       "american_odds": 1200,
       "implied_probability": 0.077,
-      "has_deep_link": true
-    },
-    {
-      "ticker": "SB-0AC8BDB4",
-      "title": "Coventry shocks Arsenal at the Emirates",
-      "payout": 15.0,
-      "tier": "orange",
-      "quip": "The Sky Blues remember they're allowed to exist in North London",
-      "yes_price": "0.07",
-      "category": "EPL",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028072415?coupon={pickType}|4228581864|{wagerAmount}",
-      "close_time": "2026-08-21T19:00:00Z",
-      "sport": "soccer_epl",
-      "sport_display": "EPL",
-      "matchup": "Coventry City @ Arsenal",
-      "market_type": "h2h",
-      "american_odds": 1400,
-      "implied_probability": 0.067,
       "has_deep_link": true
     }
   ]
