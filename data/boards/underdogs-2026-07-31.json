@@ -1,25 +1,26 @@
 {
-  "generated_at": "2026-07-31T17:26:47.778038+00:00",
+  "generated_at": "2026-07-31T22:57:49.482622+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
   "source": "odds_api",
   "tier_mix": {
     "yellow": 2,
-    "orange": 3
+    "orange": 2,
+    "red": 1
   },
   "sport_mix": {
     "NFL": 2,
-    "NCAAF": 2,
-    "MMA": 1
+    "NCAAF": 1,
+    "MMA": 2
   },
   "board": [
     {
       "ticker": "SB-90231BA3",
-      "title": "Jets upset Packers at MetLife tonight",
+      "title": "Jets stun Packers at MetLife",
       "payout": 3.15,
       "tier": "yellow",
-      "quip": "Aaron Rodgers throws one in the dirt, Jets win anyway",
+      "quip": "Aaron Rodgers meets the New York humidity he can't ayahuasca away",
       "yes_price": "0.32",
       "category": "NFL",
       "platform": "draftkings",
@@ -36,10 +37,10 @@
     },
     {
       "ticker": "SB-4E9577E5",
-      "title": "Colts shock Mahomes and the Chiefs tonight",
+      "title": "Colts upset the Chiefs in Kansas City",
       "payout": 3.3,
       "tier": "yellow",
-      "quip": "Kansas City's dynasty hits a speed bump in Indianapolis",
+      "quip": "Mahomes' throne-building detours through Indianapolis",
       "yes_price": "0.30",
       "category": "NFL",
       "platform": "draftkings",
@@ -56,10 +57,10 @@
     },
     {
       "ticker": "SB-281A3EE0",
-      "title": "Oklahoma State stuns Oregon tonight",
+      "title": "Oklahoma State stuns Oregon in Stillwater",
       "payout": 7.75,
       "tier": "orange",
-      "quip": "Dan Lanning's revenge tour just hit a very expensive detour",
+      "quip": "Dan Lanning's highlight reel about to get a lot shorter",
       "yes_price": "0.13",
       "category": "NCAAF",
       "platform": "draftkings",
@@ -75,31 +76,11 @@
       "has_deep_link": true
     },
     {
-      "ticker": "SB-B3FFBF7F",
-      "title": "Alcorn State shocks Southern Mississippi",
-      "payout": 13.0,
-      "tier": "orange",
-      "quip": "the FCS David with a sling and exactly one stone",
-      "yes_price": "0.08",
-      "category": "NCAAF",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592359424&selectionId=10224080",
-      "close_time": "2026-09-05T21:00:00Z",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "NCAAF",
-      "matchup": "Alcorn State Braves @ Southern Mississippi Golden Eagles",
-      "market_type": "h2h",
-      "american_odds": 1200,
-      "implied_probability": 0.077,
-      "has_deep_link": true
-    },
-    {
       "ticker": "SB-E8EB8FA6",
-      "title": "Alvarez edges Magomedov",
+      "title": "Alvarez shocks Magomedov in the octagon",
       "payout": 15.0,
       "tier": "orange",
-      "quip": "a Spanish southpaw against Dagestan's wrestling machine, what could go wrong",
+      "quip": "Spanish lightning beats Russian wrestling memes",
       "yes_price": "0.07",
       "category": "MMA",
       "platform": "fanduel",
@@ -112,6 +93,26 @@
       "market_type": "h2h",
       "american_odds": 1400,
       "implied_probability": 0.067,
+      "has_deep_link": true
+    },
+    {
+      "ticker": "SB-95A03C62",
+      "title": "Kielholtz stuns Ditcheva in the octagon",
+      "payout": 21.0,
+      "tier": "red",
+      "quip": "The undercard writes its own Hollywood ending",
+      "yes_price": "0.05",
+      "category": "MMA",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.595549259&selectionId=16024978",
+      "close_time": "2026-08-01T00:10:00Z",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "MMA",
+      "matchup": "Denise Kielholtz @ Dakota Ditcheva",
+      "market_type": "h2h",
+      "american_odds": 2000,
+      "implied_probability": 0.048,
       "has_deep_link": true
     }
   ]
