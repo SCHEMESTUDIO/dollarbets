@@ -1,0 +1,129 @@
+{
+  "slug": "weird-kalshi-bets",
+  "format": "weird_market_roundup",
+  "seo": {
+    "title": "Weird Kalshi Bets: The Actual Weirdest Markets Live | Dollar Bets",
+    "h1": "Weird Kalshi Bets: The Actual Weirdest Markets Live",
+    "meta_description": "Kalshi will let you bet on alien disclosure, Jesus's return, and Sotheby's auction prices. Here's the actual weirdest stuff live on the board right now.",
+    "canonical": "/weird-kalshi-bets/"
+  },
+  "summary": "Kalshi will let you put a dollar on whether the government confirms aliens exist, whether Jesus returns before 2027, or whether a da Vinci painting beats its own $450 million auction record. None of it's a joke — it's real contract language, live on a CFTC-regulated exchange.",
+  "quick_answer": "The weirdest live Kalshi markets include alien disclosure before 2027-2029, Jesus Christ's return before 2027, whether a Van Gogh or da Vinci sale breaks its own auction record, individual auction-lot prices at houses like Sotheby's, a standing meme-coin category, 15-minute crypto contracts, and a granular government-shutdown-duration ladder. All are real, CFTC-cleared contracts, not novelty jokes.",
+  "internal_links": [
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "content": "the weirdest markets kalshi's ever let you touch"
+    },
+    {
+      "type": "text",
+      "content": "These aren't the highest-stakes markets on the board — that's a different list, and we've already written it. This is the novelty tier: the stuff that exists because someone at Kalshi decided a question was tradeable, even when the question sounds like it fell out of a group chat at 2am."
+    },
+    {
+      "type": "heading",
+      "content": "will the U.S. confirm aliens exist before 2027"
+    },
+    {
+      "type": "text",
+      "content": "The market resolves Yes if the President, any member of the Cabinet, the Joint Chiefs of Staff, or any federal agency definitively states that extraterrestrial life or technology exists, with variants stretching the deadline to 2028 and 2029. A trader made headlines in February putting $29,548.48 into the 'Yes' side at 26 cents, the largest bull-side trade in the market's history. Around that same window, the 'Yes' side peaked at 27.7 percent before drifting lower. Reporting into the summer had the longer-dated versions running in the high teens to low 20s — 18% on 'Before 2028' and 22% on 'Before Jan 20, 2029'. Treat those as approximate; check the live board before you read anything into them."
+    },
+    {
+      "type": "heading",
+      "content": "will Jesus Christ return before 2027"
+    },
+    {
+      "type": "text",
+      "content": "This one got recycled. After the original 2025 version expired unresolved, the proposition came back as: 'Will Jesus Christ return before 2027?' A law professor told Bloomberg the market is mostly noise that distracts from markets that actually forecast something useful — which is a fair complaint, and also exactly why it's on this list."
+    },
+    {
+      "type": "heading",
+      "content": "the most expensive artwork sold at auction this year"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi's headline art contract doesn't ask about a specific painting — it asks what the single most expensive lot of the year will sell for. As of late May, traders were pricing a roughly 48% chance the year's top lot clears $300 million and a 47% chance it tops $250 million. For context, the most recent notable Van Gogh sale went for $29.4 million, nowhere near the standing record of $117 million."
+    },
+    {
+      "type": "heading",
+      "content": "will Van Gogh break his own auction record this year"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi lists a straight yes/no on whether the $117 million record falls in 2026. The contract was trading at 11% as of late May, meaning the crowd is mostly betting the mark holds. Given no Van Gogh sale has come within striking distance of that 2022 benchmark since, 11% looks generous, not stingy."
+    },
+    {
+      "type": "heading",
+      "content": "will a da Vinci sale finally beat the Salvator Mundi"
+    },
+    {
+      "type": "text",
+      "content": "The auction record isn't Van Gogh's — it belongs to da Vinci. 'Salvator Mundi' fetched $450 million at Christie's in 2017, still the most expensive artwork ever sold at auction, and the contract on it breaking again this year needs a sale above $450,312,500. That painting was once sold for about $10,000 in 2005 when it was widely dismissed as a copy — the kind of backstory that makes the threshold feel less arbitrary and more like a dare."
+    },
+    {
+      "type": "list",
+      "content": [
+        "Individual auction-lot markets: Kalshi lists contracts on whether specific paintings clear specific prices — Klimt's 'Portrait of Gertrud Loew' was one of sixteen live at launch, with modest early volume ($5,341 on a Matisse lot, $3,610 on a Van Gogh sale)",
+        "Meme-coin tag: a standing category tucked into Kalshi's crypto section for tokens that exist because a joke got out of hand",
+        "15-minute crypto markets: short-horizon yes/no contracts resolving every fifteen minutes on where Bitcoin lands",
+        "Government shutdown duration ladder: escalating thresholds — 60 days, 95 days, 150 days — rather than one binary, with one rung recently showing 62% for at least 95 days"
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "how these markets even get listed"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi is a CFTC-regulated exchange, which means every new contract category — art, meme coins, alien disclosure, whatever comes next — has to clear the same regulatory bar as its political and economic markets before it goes live. The company has been actively expanding into 'real-world asset' categories tied to luxury watches, Pokemon cards, precious metals and farm commodities, with art joining that list on May 26, 2026, with 16 initial contracts. Novelty categories tend to launch small, get watched for trading volume and settlement disputes, then either expand or quietly stop getting new contracts if nobody trades them."
+    },
+    {
+      "type": "heading",
+      "content": "how to actually look at one"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi requires an account and identity verification before you can trade — you can browse markets without signing up, but placing a contract means linking a bank account tied to a U.S. address. Availability isn't the same everywhere: some states sit outside Kalshi's approved list even though the platform is federally regulated, so don't assume a market you see here is tradeable from wherever you're reading this."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What's the weirdest thing you can bet on with Kalshi?",
+      "a": "Depends on your definition of weird. Alien disclosure and Jesus's return are the most-cited examples because they sound like a bit, but the auction-price markets are arguably stranger in practice — you're trading on where a hammer falls at Sotheby's."
+    },
+    {
+      "q": "Are Kalshi's weird markets real and legit?",
+      "a": "Yes — Kalshi is a CFTC-regulated exchange, and novelty categories go through the same listing process as its political and financial contracts. 'Weird' describes the subject matter, not the regulatory status."
+    },
+    {
+      "q": "Can anyone trade these markets?",
+      "a": "Only verified account holders with a linked U.S. bank account, and only where your state allows it. Some states are outside Kalshi's approval list entirely."
+    },
+    {
+      "q": "Do these markets expire fast?",
+      "a": "Some do, some don't. The 15-minute crypto contracts resolve almost immediately; the alien and da Vinci markets run out for years. Auction-price markets typically resolve on the sale date itself."
+    }
+  ],
+  "compliance": "Dollar Bets is a discovery and editorial site, not Kalshi and not a bookmaker — we surface interesting markets, we don't operate them or take a cut of any bet. Prices cited here are approximate and move constantly; check the live board before acting. Trading prediction markets carries real financial risk, availability varies by state, and you should only ever risk what you can afford to lose.",
+  "publish_date": "2026-08-01",
+  "last_updated": "2026-08-01",
+  "cluster": "Weird Bets",
+  "priority": 75,
+  "hero_bet": {
+    "title": "President orders UFO file release before August 1",
+    "payout": 33.33,
+    "quip": "Area 51 's HR department is updating their LinkedIn",
+    "tier": "red",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com/markets/KXTRUMPUAP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  }
+}
