@@ -1,0 +1,119 @@
+{
+  "slug": "nyc-mayor-odds",
+  "format": "explainer",
+  "seo": {
+    "title": "NYC Mayor Odds: Kalshi & Polymarket Prices Now | Dollar Bets",
+    "h1": "NYC Mayor Odds: Kalshi & Polymarket Prices Now",
+    "meta_description": "Mamdani won NYC mayor Nov 4, 2025 at 98-100% on Kalshi and Polymarket. Here's what the final odds looked like and how prediction-market pricing actually works.",
+    "canonical": "/nyc-mayor-odds/"
+  },
+  "summary": "Zohran Mamdani won NYC mayor with 50.78% of the vote after Kalshi priced him at 98% and Polymarket at 100% right before the close. The race is settled, but the mechanics behind those prices — and the narrower contracts still trading on Mamdani's tenure — are worth understanding.",
+  "quick_answer": "There's no live NYC mayor race to bet on — Zohran Mamdani won on November 4, 2025, with Kalshi and Polymarket both pricing him near-certain (98% and 100%) heading into the close. What's still trading are narrower Polymarket contracts tied to his tenure, like whether he's out as mayor before 2027.",
+  "internal_links": [
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "content": "the race everyone still googles is over"
+    },
+    {
+      "type": "text",
+      "content": "Zohran Mamdani won the New York City mayoral election on November 4, 2025, and he's been running City Hall since New Year's Day. If you landed here expecting a live Mamdani-vs-Cuomo-vs-Sliwa scoreboard, that market has already settled — but the mechanics behind it are worth understanding anyway, because prediction markets on this race are still trading, just on different questions."
+    },
+    {
+      "type": "heading",
+      "content": "what the odds said when it mattered"
+    },
+    {
+      "type": "text",
+      "content": "Mamdani's odds on prediction market Kalshi rose to 98%, while Polymarket showed a 100% chance as the count came in, and he won the November 4, 2025 general election, taking 1,114,184 votes, or 50.78 percent, becoming the first candidate to cross one million votes in a New York City mayoral race since John Lindsay in 1969. Cuomo, running on an independent line after losing the Democratic primary, finished second with 906,614 votes (41.32 percent), and Sliwa came in third with 153,749 votes (7.01 percent)."
+    },
+    {
+      "type": "list",
+      "content": [
+        "Zohran Mamdani — Kalshi 98%, Polymarket 100% — Won with 50.78% of the vote",
+        "Andrew Cuomo — Kalshi ~2%, Polymarket ~0% — Lost with 41.32%",
+        "Curtis Sliwa — both platforms <1% — Lost with 7.01%"
+      ]
+    },
+    {
+      "type": "text",
+      "content": "There is no active \"who wins NYC mayor\" contract right now — the next general election isn't until 2029. What's still trading is narrower stuff: Polymarket's Mamdani hub currently lists predictions like \"Zohran Mamdani out as mayor of NYC before 2027?\" alongside a couple dozen other yes/no questions tied to specific policy promises and milestones, not a horse race."
+    },
+    {
+      "type": "heading",
+      "content": "polls vs. prediction markets — why they don't always match"
+    },
+    {
+      "type": "text",
+      "content": "A poll asks a sample of people what they intend to do and extrapolates — a snapshot of stated intent that only updates when the next poll drops. A market price is what traders are willing to pay right now to hold a contract that pays out if a specific outcome happens, and it updates continuously as news breaks. Nate Silver, who advises Polymarket, has pointed out that prediction markets can have some biases toward the types of candidates that free-market, libertarian types like, which is one reason market prices and poll numbers can diverge even when both are working correctly."
+    },
+    {
+      "type": "text",
+      "content": "In late October, Polymarket posted that Mamdani's odds of victory were collapsing, giving Andrew Cuomo a shot at victory — a claim that struck much of the platform's own community as bewildering, since Mamdani's odds remained above 90%. The post came right as new high-quality polls from Suffolk and Quinnipiac showed Mamdani ahead by \"only\" 10 points — a real tightening in the polling, but not one that matched the market's brief, dramatic headline."
+    },
+    {
+      "type": "heading",
+      "content": "how to read \"$1 pays $X\""
+    },
+    {
+      "type": "text",
+      "content": "Under Kalshi's model, users purchase contracts for anything from a penny to 99 cents tied to real-world event outcomes; if the event happens as predicted, the holder is paid $1 per contract, subject to fees. A contract trading at 84 cents implies the market thinks that outcome has roughly an 84% chance of happening. Prices can swing wildly — Mamdani contracts were going for 19 cents five days before the June 24 Democratic primary, then jumped to 49 cents by primary morning."
+    },
+    {
+      "type": "heading",
+      "content": "why the odds moved the way they did"
+    },
+    {
+      "type": "text",
+      "content": "Three events did most of the work: the primary upset where Mamdani beat Cuomo in June, Eric Adams's withdrawal (Cuomo briefly saw his odds rise to around 16% before most of that bump faded), and the late-campaign polling tightening in late October that rattled the market before Mamdani firmed back up into the low-to-mid 90s heading into election night."
+    },
+    {
+      "type": "heading",
+      "content": "where these odds come from"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi is a CFTC-regulated platform available to anyone aged 18 or over in the United States, and its NYC mayor contract drew Mamdani at 84% odds after Adams's exit, on trading volume north of $28 million at that point, climbing far higher by Election Day. Polymarket's total volume for the NYC mayoral election hit $424 million, operating mostly through its international product for most of the cycle rather than a fully domestic one — a jurisdictional wrinkle worth knowing when comparing the two platforms' numbers."
+    },
+    {
+      "type": "heading",
+      "content": "check the current board"
+    },
+    {
+      "type": "text",
+      "content": "The NYC mayoral race is settled, but the same two platforms are running dozens of other live political and culture contracts right now, priced the exact same way — cents on the dollar, updating in real time."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Who won the NYC mayor election and what were the final odds?",
+      "a": "Zohran Mamdani won on November 4, 2025, with 50.78% of the vote. Kalshi had him at 98% and Polymarket at 100% in the final pre-close pricing."
+    },
+    {
+      "q": "Is there still a live betting market for NYC mayor?",
+      "a": "No horse-race market — the next election isn't until 2029. Polymarket runs narrower contracts on Mamdani's tenure, like whether he's out as mayor before 2027."
+    },
+    {
+      "q": "Why did Kalshi and Polymarket odds differ from polls?",
+      "a": "Polls measure stated intent at one moment; market prices reflect real money changing hands and update continuously. Nate Silver has noted markets can carry biases toward candidates favored by free-market-leaning traders."
+    },
+    {
+      "q": "How do you read a prediction-market price like 84 cents?",
+      "a": "On Kalshi, a contract priced at 84 cents implies roughly an 84% chance of the outcome happening. Pay 84 cents now, collect $1 if right, lose the 84 cents if wrong."
+    }
+  ],
+  "compliance": "This article is entertainment and informational content, not financial, investment, or betting advice. Prices referenced are historical and illustrative; live markets move constantly and availability varies by platform and jurisdiction — Kalshi and Polymarket each have their own age and geographic restrictions, and neither is guaranteed to be accessible or legal where you live. Election betting laws vary by state and country; check local regulations before participating. Dollar Bets is an editorial discovery site, not a sportsbook, exchange, or operator. We earn affiliate commissions when readers sign up to Kalshi or Polymarket through our links. If betting stops being fun, stop. Help is available: 1-800-GAMBLER, the National Council on Problem Gambling, or Gamblers Anonymous.",
+  "publish_date": "2026-08-01",
+  "last_updated": "2026-08-01",
+  "cluster": "Politics",
+  "priority": 7
+}
