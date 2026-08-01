@@ -1,0 +1,127 @@
+{
+  "slug": "polymarket-senate-control-2026",
+  "format": "explainer",
+  "seo": {
+    "title": "Polymarket Senate Control 2026: Live Odds Explained | Dollar Bets",
+    "h1": "Polymarket Senate Control 2026: Live Odds Explained",
+    "meta_description": "Polymarket has Republicans at 56% to keep the Senate in 2026, down from 80% a year ago. Here's what the market actually asks and why the map favors the GOP.",
+    "canonical": "/polymarket-senate-control-2026/"
+  },
+  "summary": "Polymarket's 'Which party will win the Senate in 2026?' market has Republicans at 56%, down from over 80% a year ago, with more than $3.4 million traded. The Senate map explains why: Democrats need +4 seats, Republicans can lose 2 and still hold.",
+  "quick_answer": "Polymarket currently gives Republicans a 56% chance to keep Senate control in 2026, down sharply from over 80% a year ago. The number moves constantly with polls and news, and the Senate map structurally favors Republicans since Democrats need a net gain of four seats while Republicans can afford to lose two.",
+  "internal_links": [
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "content": "what the polymarket senate control market actually asks"
+    },
+    {
+      "type": "text",
+      "content": "The contract sounds simple but has real mechanical detail. A party is considered to have \"control\" of the Senate if they have more than half of the voting Senate members, or half of the voting Senate members and the Vice President. Republicans currently sit at a majority, so the market is really pricing whether Democrats can flip enough seats to erase that edge — or whether Republicans hold the line."
+    },
+    {
+      "type": "text",
+      "content": "The resolution rules matter too. If the outcome is ambiguous under the stated rules, the market stays open until the Majority Leader of the Senate is selected following the election, at which point it resolves to whichever party the elected majority leader is affiliated with; if that leader doesn't caucus with either listed party, the market resolves \"Other.\" That's why edge cases can keep a market open longer than you'd expect."
+    },
+    {
+      "type": "text",
+      "content": "There's real volume behind the price, not a thin, easily-moved number. More than $3.4 million had traded on \"Which party will win the Senate in 2026?\" as of July 31, 2026."
+    },
+    {
+      "type": "heading",
+      "content": "current odds snapshot"
+    },
+    {
+      "type": "text",
+      "content": "Treat every figure here as a snapshot, not a forecast. As tracked on Polymarket's own Senate page, the crowd was assigning Republicans a 56% chance against Democrats. One year ago, Republicans' chances of retaining the Senate topped 80%, and the price has bounced around considerably since — even dipping to a 51%-to-49% Democratic lead at one point, making the race essentially a toss-up."
+    },
+    {
+      "type": "text",
+      "content": "The bigger structural story: House and Senate are priced very differently right now. Traders give Democrats an 84% chance of controlling the House after November, compared with 15% for Republicans — a lopsided House number sitting next to a much tighter Senate number, which is the whole story of this cycle."
+    },
+    {
+      "type": "heading",
+      "content": "how this compares to kalshi's version of the same bet"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi runs a parallel Senate-control contract, and it hasn't always agreed with Polymarket down to the decimal. Back in May, Democrats and Republicans both held roughly 50% odds on Kalshi, while Polymarket traders saw Democrats holding a slightly higher 52% chance to 50% for Republicans. A percentage-point or two of daylight between the two boards on the same underlying question is normal, not a sign one platform is 'wrong.'"
+    },
+    {
+      "type": "heading",
+      "content": "why the senate map favors one side before a single vote's counted"
+    },
+    {
+      "type": "text",
+      "content": "The U.S. Senate currently has 53 Republicans and 47 Democrats (including two independents), with 35 seats up in 2026 — including special elections — of which 23 are held by Republicans. Democrats need a net gain of four seats to retake control in 2027. Most of those 23 Republican seats sit in states that lean hard red, which is why '23 seats up' overstates Democratic opportunity."
+    },
+    {
+      "type": "text",
+      "content": "Ballotpedia's framing is blunter: of the 33 regularly scheduled general elections in 2026, Democrats control 13 and Republicans control 20 — Democrats need +4, Republicans can lose only 2 and still hold. That asymmetry is the single biggest reason the market has spent most of this cycle red-leaning even as Democrats poll well nationally."
+    },
+    {
+      "type": "list",
+      "content": [
+        "Maine (Collins, R — a state that leans Democratic by double digits)",
+        "Michigan (open Democratic seat)",
+        "Pennsylvania (McCormick, R)",
+        "Nevada (Rosen, D)",
+        "Wisconsin (Baldwin, D)",
+        "Arizona (open Democratic seat in a state that leans Republican)"
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "how polymarket pricing actually works"
+    },
+    {
+      "type": "text",
+      "content": "Polymarket isn't a sportsbook posting a line set by a risk desk. A Senate prediction market lets users trade Yes or No shares on a specific question, and each share pays out $1 if the outcome resolves in its favor, and $0 if it does not. If 'Republican Party' trades at 56¢, that's the crowd putting a 56% probability on that outcome — no more, no less. Liquidity matters: a market with a few hundred thousand dollars behind it can swing several points on a single large trade in a way a multi-million-dollar market won't."
+    },
+    {
+      "type": "heading",
+      "content": "polls vs. prediction markets: what each is actually measuring"
+    },
+    {
+      "type": "text",
+      "content": "A poll measures stated voter intent at one moment, filtered through methodology and turnout assumptions. A prediction market measures what people are willing to risk money on — pulling in polling, fundraising reports, candidate news, and expert ratings. Fundraising disclosures earlier this year improved Democrats' odds in several forecasts, a signal a horse-race poll alone wouldn't capture but a prediction market prices in almost immediately."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Polymarket legal to use in the US?",
+      "a": "Availability varies by jurisdiction and by platform — this changes over time and depends on where you live. Check the platform's own terms before doing anything."
+    },
+    {
+      "q": "How is a Senate control bet different from betting on individual races?",
+      "a": "A control market resolves on the chamber-wide majority outcome — essentially a bundle of 35 individual races collapsed into one yes/no question. Individual race markets resolve on that specific state alone and move on local news the national control market won't react to."
+    },
+    {
+      "q": "Can the odds flip before Election Day?",
+      "a": "Yes, repeatedly. Democrats briefly took a roughly 51% lead over Republicans' 49% earlier this cycle, the first time the party had led in this race's history on the platforms tracking it. A market sitting at 56/44 in July is a snapshot of where the money sits today, not a prediction about November."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate prediction markets or take bets. Election betting laws vary by jurisdiction and change over time — check local regulations and platform terms before using any prediction market. This page carries affiliate relationships disclosed on our affiliate disclosure page. Prediction markets are for adults only (18+ minimum, higher on some platforms). If gambling stops being fun, see our responsible gambling page for resources including 1-800-GAMBLER.",
+  "publish_date": "2026-08-01",
+  "last_updated": "2026-08-01",
+  "cluster": "Politics",
+  "priority": 7,
+  "hero_bet": {
+    "title": "Russell Fry becomes South Carolina Republican Senate nominee",
+    "payout": 12.5,
+    "quip": "the fish are learning to climb mountains",
+    "tier": "orange",
+    "sourcePlatform": "Polymarket",
+    "marketType": "prediction_market",
+    "url": "https://polymarket.com/event/south-carolina-republican-senate-special-primary-winner-20260712135206676"
+  }
+}
