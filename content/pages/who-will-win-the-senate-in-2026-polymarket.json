@@ -1,0 +1,112 @@
+{
+  "slug": "who-will-win-the-senate-in-2026-polymarket",
+  "format": "explainer",
+  "seo": {
+    "title": "Who Wins the Senate 2026? Polymarket's Price | Dollar Bets",
+    "h1": "Who Will Win the Senate in 2026? What Polymarket's Price Is Actually Saying",
+    "meta_description": "Polymarket has Republicans at 56% to hold the Senate in 2026. Here's what the contract actually asks, why it moved, and how Kalshi's number differs.",
+    "canonical": "/who-will-win-the-senate-in-2026-polymarket/"
+  },
+  "summary": "Polymarket's Senate control contract has traded $3.4M+ and currently prices Republicans at 56%, down from over 80% a year ago and briefly flipped to a Democratic lead in spring. The number tracks candidate math, fundraising, and shocks like the U.S.-Iran war — not seat-by-seat polling.",
+  "quick_answer": "As of late July 2026, Polymarket prices the Republican Party at roughly 56% to control the Senate after the 2026 elections, with Democrats around 44% — down from over 80% Republican a year earlier. Kalshi shows a similar 55% Republican number. Democrats need a net gain of four seats to retake the chamber.",
+  "internal_links": [
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "content": "what the polymarket senate market actually asks"
+    },
+    {
+      "type": "text",
+      "content": "The headline contract isn't a seat-by-seat scoreboard. It's a single binary question: which party controls the chamber after the 2026 elections. This market will resolve according to the party that controls the Senate following the 2026 U.S. Senate elections scheduled for November 3, 2026, with Senate control defined as having more than half of the voting Senate members, or half of the voting Senate members and the Vice Presidency. If the outcome is unclear on election night, the market stays open until the Majority Leader is selected following the election, at which point it resolves to whichever party the majority leader caucuses with."
+    },
+    {
+      "type": "text",
+      "content": "That distinction matters. A trader buying \"Republican\" isn't betting on 35 individual races — they're betting on the net math. Heading into the cycle, the U.S. Senate has 53 Republicans and 47 Democrats (including two independents), with 35 seats up in 2026 — including special elections in Florida and Ohio — of which 23 are held by Republicans. Democrats will need a net gain of four seats to retake control in 2027. The Polymarket price is the market's real-time guess at whether that math clears."
+    },
+    {
+      "type": "heading",
+      "content": "how to read the current probability"
+    },
+    {
+      "type": "text",
+      "content": "As of late July, $3,442,648 had traded on \"Which party will win the Senate in 2026?\" as of July 31, 2026, making it one of the most active political contracts on the platform. The current print has the crowd assigning a 56% chance to the Republican Party — meaning Democrats are priced around 44%. A separate Newsweek check on the same week found prediction markets favoring Republicans at a 55 percent chance of holding onto Senate control on Kalshi and a 56 percent chance on Polymarket."
+    },
+    {
+      "type": "text",
+      "content": "Context: that Republican lean has shrunk, not grown. One year ago, Republicans' chances of retaining the Senate after the 2026 midterms were over 80%. By spring, the race had briefly flipped — contracts on Kalshi and Polymarket showed Democrats with a roughly 51% chance of winning Senate control, compared with 49% for Republicans, the first time Democrats had led the market at all. It didn't hold. Republicans clawed back through early summer, and by late July the price had settled back into GOP-favored territory."
+    },
+    {
+      "type": "heading",
+      "content": "what moves this number"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Race ratings shift the floor — Cook's July 1 move to Toss-up on Alaska supported Republican odds; its July 30 move to Lean/Likely Democrat on Georgia cut the other way",
+        "Money talks — Mary Peltola outraised Dan Sullivan more than 3-to-1 in Q2 2026, while Nebraska's Democratic nominee asked off the ballot in mid-July",
+        "National events bleed into every state market at once — Republicans' odds fell throughout 2026, with the decline intensifying in March as traders priced in the U.S.-Iran war"
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "polymarket vs. kalshi vs. 270towin — why the numbers differ"
+    },
+    {
+      "type": "text",
+      "content": "Polymarket and Kalshi are both real-money exchanges, so their prices reflect trader positioning, not editorial judgment. One snapshot had 54% of prediction market traders favoring Republicans with Democrats at 46%; a few weeks later both platforms were closer to 55–56% Republican. Small gaps between the two are normal — different user bases, different liquidity, different timing of the last trade. 270toWin isn't a market at all — its consensus map combines ratings from six forecasters like Cook, Sabato's Crystal Ball, and Inside Elections, and it also republishes raw Kalshi prices as an overlay updated every 15 minutes."
+    },
+    {
+      "type": "heading",
+      "content": "key senate races to watch"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Georgia — Jon Ossoff faces Mike Collins; Trump won the state by 2 points in 2024 but Cook now rates the race Lean Democrat",
+        "Alaska — a June poll showed Peltola at 49.4% to Sullivan's 44.2%; Cook rates it a toss-up",
+        "Nebraska — normally safe red, made messier when the Democratic nominee withdrew from the ballot in mid-July",
+        "Maine, North Carolina, Ohio, Iowa, Texas — Cook rates Alaska, Maine and Ohio as toss-ups, with North Carolina Lean Democrat despite being GOP-held"
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "is this a reliable predictor?"
+    },
+    {
+      "type": "text",
+      "content": "Treat it as informed sentiment, not a forecast with a guarantee attached. A 56% price means the market still thinks the other outcome happens more than four times in ten. As Newsweek's own caveat on this exact race puts it, prediction markets represent investor sentiment and trading activity rather than scientific public opinion polling of actual voters. Control of the Senate isn't decided until votes are counted in November — not before, on any exchange."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does Polymarket's Senate market actually resolve on?",
+      "a": "It resolves to whichever party controls the Senate after the 2026 elections, defined as holding more than half the voting seats (or half plus the Vice Presidency), determined once a Majority Leader is selected."
+    },
+    {
+      "q": "Why do Polymarket and Kalshi show different numbers?",
+      "a": "Both are real-money exchanges with different user bases and liquidity, so their last-traded prices rarely match exactly — recent snapshots have shown both in the mid-50s for Republicans, but not identical."
+    },
+    {
+      "q": "How many seats do Democrats need to flip the Senate?",
+      "a": "A net gain of four seats, given the current 53-47 Republican split with 35 seats up in 2026."
+    },
+    {
+      "q": "Has the market ever favored Democrats in 2026?",
+      "a": "Briefly. In spring, contracts on Kalshi and Polymarket showed Democrats with a roughly 51% chance to Republicans' 49%, the first time Democrats had led — but Republicans regained the edge by early summer."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate any prediction market and this is not financial or betting advice. Political prediction markets are not legal or available in every jurisdiction — check local election-betting laws before signing up anywhere, and remember control of the Senate isn't decided until votes are counted.",
+  "publish_date": "2026-08-01",
+  "last_updated": "2026-08-01",
+  "cluster": "Politics",
+  "priority": 7
+}
