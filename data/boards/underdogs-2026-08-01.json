@@ -1,25 +1,27 @@
 {
-  "generated_at": "2026-08-01T16:57:05.429507+00:00",
+  "generated_at": "2026-08-01T22:53:00.842610+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
   "source": "odds_api",
   "tier_mix": {
     "yellow": 2,
-    "orange": 3
+    "orange": 2,
+    "red": 1
   },
   "sport_mix": {
     "NFL": 2,
     "EPL": 1,
-    "NCAAF": 2
+    "NCAAF": 1,
+    "MLB": 1
   },
   "board": [
     {
       "ticker": "SB-90231BA3",
-      "title": "Jets beat Packers at home tonight",
+      "title": "Jets stun Packers tonight",
       "payout": 3.15,
       "tier": "yellow",
-      "quip": "Aaron Rodgers vs. the MetLife crowd noise, final answer",
+      "quip": "Aaron Rodgers' ayahuasca journey ends in New Jersey",
       "yes_price": "0.32",
       "category": "NFL",
       "platform": "draftkings",
@@ -36,10 +38,10 @@
     },
     {
       "ticker": "SB-4E9577E5",
-      "title": "Colts upset Chiefs in Kansas City",
+      "title": "Colts shock Chiefs tonight",
       "payout": 3.3,
       "tier": "yellow",
-      "quip": "Patrick Mahomes without the Kansas City comeback script",
+      "quip": "Mahomes' arrowhead finally points the wrong way",
       "yes_price": "0.30",
       "category": "NFL",
       "platform": "draftkings",
@@ -56,10 +58,10 @@
     },
     {
       "ticker": "SB-4013FF7B",
-      "title": "Hull City upsets Manchester United tonight",
+      "title": "Hull City shocks Manchester United tonight",
       "payout": 7.5,
       "tier": "orange",
-      "quip": "Erik ten Hag's job security just got a lot more interesting",
+      "quip": "Ted Lasso's reverse curse strikes the Premier League",
       "yes_price": "0.13",
       "category": "EPL",
       "platform": "betrivers",
@@ -76,10 +78,10 @@
     },
     {
       "ticker": "SB-281A3EE0",
-      "title": "Oklahoma State stuns Oregon on the road",
+      "title": "Oklahoma State stuns Oregon in Stillwater",
       "payout": 7.75,
       "tier": "orange",
-      "quip": "Dan Lanning's buyout clause just got slightly cheaper",
+      "quip": "Ducks can't fly at 7,000 feet",
       "yes_price": "0.13",
       "category": "NCAAF",
       "platform": "draftkings",
@@ -95,23 +97,23 @@
       "has_deep_link": true
     },
     {
-      "ticker": "SB-B3FFBF7F",
-      "title": "Alcorn State shocks Southern Mississippi",
-      "payout": 13.0,
-      "tier": "orange",
-      "quip": "one of these teams is about to have the best week of their season",
-      "yes_price": "0.08",
-      "category": "NCAAF",
+      "ticker": "SB-818D0606",
+      "title": "Mets beat Marlins in Miami upset",
+      "payout": 29.0,
+      "tier": "red",
+      "quip": "Francisco Lindor finally remembers he's Francisco Lindor",
+      "yes_price": "0.03",
+      "category": "MLB",
       "platform": "fanduel",
       "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592359424&selectionId=10224080",
-      "close_time": "2026-09-05T21:00:00Z",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "NCAAF",
-      "matchup": "Alcorn State Braves @ Southern Mississippi Golden Eagles",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.596139276&selectionId=29174",
+      "close_time": "2026-08-01T20:31:00Z",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Miami Marlins @ New York Mets",
       "market_type": "h2h",
-      "american_odds": 1200,
-      "implied_probability": 0.077,
+      "american_odds": 2800,
+      "implied_probability": 0.034,
       "has_deep_link": true
     }
   ]
