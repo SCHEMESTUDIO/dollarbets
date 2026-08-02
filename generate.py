@@ -2799,6 +2799,22 @@ def generate_sitemap(pages):
     write_page("sitemap.xml", xml)
 
 
+def generate_text_sitemap(pages):
+    """Generate sitemap-urls.txt — plain-text sitemap, one absolute URL per line.
+
+    Added 2026-08-02: GSC has failed to parse sitemap.xml on this host since
+    May ("Sitemap could not be read", also on dogshow.lol — both Vercel-served)
+    while fetching and parsing text/plain files on the same host fine.
+    Suspected compression/response-shape issue on the XML path. A plain URL
+    list is a valid Google sitemap format (RSS/Atom/text are all accepted),
+    so this file is both the workaround and the root-cause test: if GSC parses
+    this but still rejects the XML, the problem is the XML response, not us.
+    Format per Google spec: one absolute URL per line, UTF-8, nothing else.
+    """
+    txt = "\n".join(f"{SITE_URL}{entry[0]}" for entry in pages) + "\n"
+    write_page("sitemap-urls.txt", txt)
+
+
 def generate_html_sitemap(pages):
     """Generate /sitemap/ — human-readable HTML sitemap, also a crawl aid.
 
@@ -2929,6 +2945,7 @@ Disallow: /api/
 Disallow: /admin/
 
 Sitemap: {SITE_URL}/sitemap.xml
+Sitemap: {SITE_URL}/sitemap-urls.txt
 """
     write_page("robots.txt", txt)
 
@@ -3440,7 +3457,23 @@ def main():
     if sitemap_entry not in sitemap_pages:
         sitemap_pages.append(sitemap_entry)
 
+    # Dedupe by path before writing. Entries arrive as both (path, priority)
+    # and (path, priority, lastmod) tuples, so the `entry not in sitemap_pages`
+    # checks above miss same-path/different-shape duplicates — this is exactly
+    # how /hall-of-filth/ ended up in the sitemap twice (content 3-tuple with
+    # real lastmod + hardcoded 2-tuple fallback). First occurrence wins: the
+    # content entry with its real lastmod lands before the hardcoded fallback.
+    seen_paths = set()
+    deduped_pages = []
+    for entry in sitemap_pages:
+        if entry[0] in seen_paths:
+            continue
+        seen_paths.add(entry[0])
+        deduped_pages.append(entry)
+    sitemap_pages = deduped_pages
+
     generate_sitemap(sitemap_pages)
+    generate_text_sitemap(sitemap_pages)
     generate_html_sitemap(sitemap_pages)
     generate_robots_txt()
 
