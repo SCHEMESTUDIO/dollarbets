@@ -1,90 +1,96 @@
-# GSC Report — 2026-07-27
+# GSC Report — 2026-08-03
 
-**Window:** 2026-07-19 → 2026-07-25 (GSC "Last 7 days", ends 2 days ago per API lag). Full pull delivered — all 7 weekly CSVs + 28-day CSVs + 8 page-detail files present. **Confidence: High** on data completeness.
+**Window:** 2026-07-26 → 2026-08-01 (GSC "Last 7 days", ends 2 days ago per API lag). Full pull delivered — all 7 weekly CSVs + 28-day CSVs + 8 page-detail files present. **Confidence: High** on data completeness.
 
-## Headline — top line dipped, but positions improved; the bigger story is upstream: no content shipped this week
+## Headline — franchise held its floor, but an external pipeline just planted a page in the franchise's own keyword territory
 
-**Total clicks 62 → 53 (-15%), impressions 571 → 517 (-9%), CTR 10.9% → 10.25%, weighted avg position 7.05 → 6.0 (improved).** Verified via three independent reconciliations: Chart.csv (53 clk / 517 imp), Devices.csv (53 / 517), Countries.csv (53 clk summed) — all agree exactly. **Confidence: High** on the numbers.
+**Total clicks 53 → 57 (+7.5%), impressions 517 → 453 (-12.4%), CTR 10.25% → 12.58%, weighted avg position 6.0 → 6.49 (slightly worse).** Verified via three independent reconciliations: Chart.csv (57 clk / 453 imp), Devices.csv (57 / 453), Countries.csv (57 clk / 453 imp summed) — all agree exactly. **Confidence: High** on the numbers. Fewer impressions but more clicks at a higher CTR reads as the same demand-fluctuation pattern flagged the last two reports, not a ranking story — position moved less than half a point.
 
-The clicks/impressions dip is **not prune-driven** — no page was noindexed this week (checked `git log` on `content/` and `vercel.json`: zero commits touching either since the 2026-07-20 GSC run's quick-win edits). Read alongside position *improving* on both franchise pages (`/crazy-kalshi-bets/` 5.8→5.4, `/funny-polymarket-bets/` 13.5→9.0), the likely explanation is **demand-side query volume fluctuation, not a ranking regression** — rankings got better while the underlying search volume for these terms was simply lower this week. **Confidence: Medium** on that read; a second week of decline with static-or-worse positions would flip this to a real flag.
+**The bigger story this run: last week's "URGENT — daily-article.yml silence" flag is resolved, and the resolution brought a new risk with it.** `daily-article.yml` wasn't broken — it was deliberately retired 2026-07-28 (commit `653a82b`, recorded in `docs/memory/decisions.md` and this week's `CLAUDE.md`), with net-new article writing handed to an external pipeline ("Postwerks"). That pipeline has been landing commits: 7 new `content/pages/*.json` files since 7/28 (`manifold-markets-craziest-bets`, `is-gambling-an-investment`, `weird-kalshi-bets`, `offensive-rookie-of-the-year-odds`, `nyc-mayor-odds`, `polymarket-senate-control-2026`, `who-will-win-the-senate-in-2026-polymarket`). Of those seven: **two are franchise-formatted** (`weird_market_roundup`) and **five are `format: explainer`** in clusters Market Structure / Sports / Politics — squarely the commodity category the 2026-06-05 audit says ranks page 8 and drags down site-wide quality. None match `BLOCKED_SLUG_PATTERNS` (no exact "odds-explained", "nba", "weather", "what-is-a-*-bet" hit), so none are auto-noindexed — they're live, 200, and in the sitemap by default. **Confidence: High** (verified by reading each JSON directly, not inferring from slugs).
 
-**The bigger finding: the `daily-article` pipeline appears to have gone silent.** `git log --grep="Article: auto"` shows the last automated article commit was `a5e5233 Article: auto 2026-07-17` — **10 days with zero output**, despite the workflow being correctly configured (`on: schedule: cron: '30 9 * * *'`, not disabled, `workflow_dispatch` present). This directly explains why none of last week's brief items shipped: no Hall of Filth #3, no structural nav-link fix, no politicians-june retirement. **This is flagged first in the Telegram report as the most urgent item — I cannot see GitHub Actions run logs from this session, so I can't tell whether it's failing every day or producing no diff; James needs to check the Actions tab.** **Confidence: High** that no commits landed; **Low** on root cause without run-log access.
+**Sharper problem: `/weird-kalshi-bets/` (published 2026-08-01, Postwerks) directly restates `/crazy-kalshi-bets/`'s title and keyword territory.** `/crazy-kalshi-bets/` already owns the entire "weird kalshi bets" query family — this week's data: *weird kalshi bets* (2 clk/9 imp/pos 6.1), *kalshi weird bets* (0/4/5.0), *weird bets on kalshi* (0/2/6.0) — all currently resolving to `/crazy-kalshi-bets/` per its own page-detail Queries.csv. `/weird-kalshi-bets/`'s H1 is literally "Weird Kalshi Bets: The Actual Weirdest Markets Live." Two indexable pages on the same site now target the same query family. **Confidence: High** that the content overlap exists (read directly); **Medium** on whether it has yet caused actual SERP cannibalization — `/weird-kalshi-bets/` is 2 days old with zero GSC signal so far (not in 28-day Pages.csv), so there's no query-level GSC evidence yet, only the structural setup for it. Flagged now, before it accrues history, not after.
+
+This is a strategy-scope question outside what a content-brief session can resolve unilaterally (noindexing a page from an external pipeline is a bigger call than a franchise metadata tweak), so it's flagged here and in the brief rather than executed.
 
 ---
 
 ## Franchise scorecard
 
-| Page | This week (7/19–7/25) | Last week (7/12–7/18) | Read |
+| Page | This week (7/26–8/1) | Last week (7/19–7/25) | Read |
 |---|---|---|---|
-| `/crazy-kalshi-bets/` | **50 clk / 422 imp / 11.8% / pos 5.4** | 60 / 473 / 12.7% / 5.8 | Clicks -17%, impressions -11%, but **position improved** (5.8→5.4). Consistent with lower search demand that week rather than a ranking drop. Still carries ~94% of franchise clicks — concentration essentially unchanged. **Confidence: Medium** on the demand-side read. |
-| `/funny-polymarket-bets/` | **1 clk / 52 imp / 1.9% / pos 9.0** | 1 / 75 / 1.3% / 13.5 | **First position improvement in 3 reports** (13.5 → 9.0), impressions down (-31%) but that's plausibly the same demand fluctuation as crazy-kalshi. Too early / too small a sample to call this "the stall broke" — no on-page or structural change happened this week to explain it (metadata unchanged since 7/20, structural nav-link fix still not shipped — see below). **Confidence: Low** that this is a real turn; **High** that nothing this pipeline did caused it. |
-| `/polymarket-vs-kalshi-craziest-markets/` | absent from weekly Pages.csv (28d: 1 clk/16 imp/8.2) | 0 clk/4 imp/9.2 (28d: 1/13/8.8) | Trivial volume, slight 28-day uptick since the 7/17 refresh. Still too early/small to judge. |
-| `/weird-prediction-markets/` | 0 clk/1 imp/pos 26.0 (weekly) | 0/3/11.3 | 1-impression noise, not meaningful at this volume. |
-| `/weirdest-active-polymarket-markets-august-2026/` | absent (<2 imp) | absent (5 days old last week) | Still no GSC signal 12 days post-launch — worth another week before calling it stalled. |
-| `/hall-of-filth/monet-auction-record-bet/` | absent (<2 imp, and now absent from 28-day Pages.csv too) | absent (4 days old) | 12 days old, zero signal in both weekly and 28-day pulls. Starting to look like more than "too new" — flag for next week if still silent. |
-| `/hall-of-filth/george-whitesides-ca-27-primary-bet/` | absent weekly (28d: 0/3/7.0) | absent weekly (28d: 0/2/6.5) | Holding trivial page-1 volume, unchanged. |
-| `/politicians-with-prediction-markets-june-2026/` | 0 clk/2 imp/pos 3.0 (weekly); 28d: 0/9/5.8 | 0/2/3.0 (28d: 0/20/8.2) | Continuing to fade (270 → 20 → 9 over three reports) but **still not retired** — third consecutive report carrying this. |
+| `/crazy-kalshi-bets/` | **56 clk / 371 imp / 15.1% / pos 5.4** | 50 / 422 / 11.8% / 5.4 | Clicks +12%, impressions -12%, CTR +3.3pp, position exactly flat. Reads as the same page converting a smaller, more qualified impression pool better — consistent with demand fluctuation, not a ranking change. **Confidence: Medium** on the demand-side read (same caveat as prior reports). |
+| `/funny-polymarket-bets/` | **1 clk / 45 imp / 2.2% / pos 11.2** | 1 / 52 / 1.9% / 9.0 | Position slid back 9.0 → 11.2 — **this fails last week's explicit success criterion** ("holds ≤10" was set precisely to test whether 9.0 was noise or a floor; it wasn't a floor). Click volume unchanged (1), sample still trivially small (45 imp). **Confidence: Medium** this is noise given the volume, but it's the second position swing in three reports with no on-page change to explain either direction — the "structural nav-link" hypothesis remains untested either way. |
+| `/weird-kalshi-bets/` (NEW, Postwerks, not franchise-designated) | absent from weekly/28-day Pages.csv (2 days old) | n/a | See headline — cannibalization risk flagged before any GSC signal exists. |
+| `/polymarket-vs-kalshi-craziest-markets/` | 0 clk/7 imp/pos 11.4 (weekly); 28d: 0/20/9.4 | absent weekly (28d: 1/16/8.2) | 28-day impressions up (16→20), position holding ~9-11. Still too early/small to call a trend. |
+| `/weird-prediction-markets/` | absent weekly; 28d: 0/4/15.0 | 0/1/26.0 weekly | Trivial volume, position improved in the 28-day view but this is noise at n=4. |
+| `/hall-of-filth/george-whitesides-ca-27-primary-bet/` | absent weekly; 28d: 0/3/7.0 | absent weekly (28d: 0/3/7.0) | Unchanged, holding trivial page-1 volume. |
+| `/hall-of-filth/monet-auction-record-bet/` | absent weekly and 28-day | absent (28-day too) | **18 days old (published 7/16), still zero GSC signal in either window.** This has now crossed from "too new to judge" into "worth a second look before shipping a 4th Hall of Filth page into the same silent-signal pattern" — carried from last week's note, now with more days behind it. |
+| `/politicians-with-prediction-markets-june-2026/` | absent from weekly Pages.csv entirely (below the 2-imp threshold); 28d: 0/4/pos 3.0 | 0/2/3.0 weekly (28d: 0/9/5.8) | Continuing its fade: 28-day impressions 270 → 20 → 9 → 4 over four reports. Still not retired — **now the 4th consecutive report carrying this**, see below. |
 
-**Concentration: ~94% of franchise clicks on `/crazy-kalshi-bets/`** (50 of 53 total, or 50 of 51 counting only the two scorecard pages) — essentially flat vs last week's 97%, not a meaningful de-concentration move. **Confidence: High.**
+**Concentration: 98% of franchise clicks on `/crazy-kalshi-bets/`** (56 of 57 total site clicks) — up slightly from last week's ~94-97%, driven by `/funny-polymarket-bets/`'s flat click count against a larger `/crazy-kalshi-bets/` number, not by `/funny-polymarket-bets/` losing clicks outright. **Confidence: High** on the arithmetic; the "is concentration a problem" framing is unchanged from prior reports.
 
 ---
 
-## Last week's success criteria — scored (all from `reports/content-week-2026-07-20-to-2026-07-26.md`)
+## Last week's success criteria — scored (from `reports/content-week-2026-07-27-to-2026-08-02.md`)
 
 | Criterion | Result |
 |---|---|
-| Franchise clicks ≥ 60 (hold) | **FAIL** — 51 (50 + 1) |
-| `/crazy-kalshi-bets/` holds ≥ 50 clicks | **PASS (exactly at threshold)** — 50 |
-| Concentration stops increasing (non-crazy-kalshi franchise clicks ≥ 2, vs last week's 1) | **FAIL** — still 1 (funny-polymarket only; no Hall of Filth #3 shipped to help) |
-| Politicians-june retirement fully executed (noindex + vercel.json redirect) | **FAIL** — neither half done; checked `content/pages/politicians-with-prediction-markets-june-2026.json` (no `noindex` field) and `vercel.json` (no redirect entry) directly |
-| "Polymarket popular active markets" family shows signal on August page | **FAIL** — `weird-prediction-markets-Queries.csv` and `polymarket-vs-kalshi-craziest-markets-Queries.csv` page-detail files are both empty; politicians-june page still holds the family (9 imp/pos 5.8, 28-day) |
-| New Hall of Filth page (#3) reaches 200/indexable by end of week | **FAIL (gate not met)** — page was never shipped; `content/hall-of-filth/` still ends at `monet-auction-record-bet.json` (7/16), no new file since |
+| At least one `Article: auto` commit lands this week | **N/A — superseded, not a fail.** Zero `Article: auto` commits, but the pipeline was deliberately retired 2026-07-28 (see headline) and replaced by Postwerks, which *did* land 5 commits this week. The criterion's underlying goal (content pipeline producing output) was met via a different mechanism than the one the criterion named. |
+| Politicians-june retirement fully executed (noindex + vercel.json redirect) | **FAIL — 4th consecutive week.** Checked directly: `content/pages/politicians-with-prediction-markets-june-2026.json` has no `noindex` key; `vercel.json` has no redirect entry for this slug (only the pre-existing `/craziest-kalshi-markets` → `/crazy-kalshi-bets/` pair, confirmed still live at 308). |
+| Franchise clicks ≥ 51 (hold); `/crazy-kalshi-bets/` ≥ 45 | **PASS both** — 57 total franchise clicks, 56 on `/crazy-kalshi-bets/`. |
+| `/funny-polymarket-bets/` position holds ≤ 10 | **FAIL** — 11.2, see scorecard. |
+| Hall of Filth #3 (conditional on pipeline running) | **Gate not met** — no new Hall of Filth page shipped. Note the pipeline *did* run this week (Postwerks), just not on this format — see franchise content gaps. |
 
-**1 of 6 pass (marginal), 5 fail** — worse than last week's 3/6. All five failures trace back to the same root cause: **no content commits landed this week** (see headline). This is a pipeline-availability problem, not an editorial-judgment problem — the brief's calls were reasonable, they just didn't get executed. **Confidence: High.**
-
----
-
-## Prune / noindexed-page fade check — no new pruning this week, nothing to check (High confidence)
-
-Zero pages were noindexed since the 2026-07-20 run. `/can-you-bet-on-the-weather/`'s page-detail file remains empty (fade holding from prior weeks). No new fade signal to report — **this section is quiet because no pruning activity happened, not because pruning is un-monitored.**
+**2 of 5 clean pass, 1 N/A/superseded, 2 fail.** Better underlying trajectory than last week's 1/6 — the pipeline-availability crisis is resolved — but two of the three carried items (politicians-june, Hall of Filth cadence) are still unexecuted, and a new item (cannibalization risk) replaces the resolved one as the top flag.
 
 ---
 
-## Quick wins — reviewed, 0 executed (same call as the last two reports)
+## Prune / noindexed-page fade check — no new pruning this week; nothing to check (High confidence)
 
-Re-checked the same franchise quick-win candidates from 28-day page-detail (pos 4–15, ≥2 imp, 0 clicks): *funny kalshi bets* (10.0/11), *kalshi weird bets* (7.1/21), *kalshi weirdest bets* (5.6/7), *weirdest bets on kalshi today* (7.2/4), *craziest polymarket bets* (9.3/3), *craziest polymarket bets 2026* (10.3/3), *crazy polymarket bets* (11.0/3), *funny polymarket bets* (9.2/12), *polymarket crazy bets* (10.7/3), *polymarket funny* (10.8/4), *polymarket funny bets* (9.3/7), *stupid polymarket bets* (8.5/2).
+Zero pages were noindexed since 2026-07-20 (still 25 of the now-72 `content/pages/*.json` files noindexed, unchanged count from the 7-file Postwerks additions since none of the new 7 carry `noindex`). No new fade signal — quiet because no pruning activity happened, not because pruning is unmonitored.
 
-Both pages are **unchanged since the 7/20 edit** (`last_updated: 2026-07-20` on both, confirmed via `content/pages/*.json`), so re-auditing word frequency directly: `/crazy-kalshi-bets/` already contains "funny"×2, "weird"×21, "weirdest"×14, "ridiculous"×3, "crazy"×11, "craziest"×19. `/funny-polymarket-bets/` already contains "funny"×18, "weird"×8, "crazy"×8, "craziest"×6, "ridiculous"×6, "absurd"×5. Every candidate query's core terms are already dense on the relevant page — the only two literally-absent single words across both audits are "stupid" and "strangest" (2-3 impression queries, not worth a bespoke pass). **Not executed, deliberately — same conclusion as 2026-07-13 and 2026-07-20: nothing left to add without stuffing.**
+---
+
+## Quick wins — reviewed, 0 executed (4th consecutive report reaching this conclusion)
+
+Re-checked franchise quick-win candidates from this week's Queries.csv (pos 4–15, ≥2 imp, 0 clicks, franchise-only): *craziest bets on kalshi* (4.1/10), *crazy bets on kalshi* (7.5/2), *crazy polymarket bets* (8.0/2), *funniest kalshi bets* (7.7/3), *funniest polymarket bets* (9.8/6), *funny polymarket bets* (9.8/4), *kalshi crazy bets* (7.8/4), *kalshi weird bets* (5.0/4), *kalshi weirdest bets* (3.0/2), *most ridiculous kalshi bets* (2.5/2), *ridiculous kalshi bets* (6.5/2), *strangest kalshi bets* (4.0/4), *weird bets on kalshi* (6.0/2), *wildest kalshi bets* (2.5/2).
+
+Both franchise pages remain **unchanged since 7/20** (confirmed `last_updated` field on both). Re-verified body text directly: `/crazy-kalshi-bets/` still does not contain the literal strings "stupid" or "strangest" despite ranking well for "strangest kalshi bets" (pos 4.0) and near-adjacent terms off "weird/craziest/ridiculous" density alone. Every other candidate query's core terms are already dense on the page. **Not executed, same conclusion as the last three reports** — nothing left to add without keyword-stuffing for 2-4 impression queries.
 
 ### Executed this run: none
 
-No franchise metadata/copy quick win qualified. No other edit was made to `content/` by this run.
+No franchise metadata/copy quick win qualified. No edit was made to `content/` by this run. (The one substantive finding this week — the `/weird-kalshi-bets/` overlap — is a policy/scope question, not a copy edit to an *existing* franchise page, so it's flagged rather than executed per the trivial-quick-win boundary.)
 
 ---
 
-## Cannibalization watch (28-day page-detail intersections, High confidence)
+## Cannibalization watch
 
-Same clean separation as the last two reports: `/crazy-kalshi-bets/` owns the entire "kalshi" query family (25 queries), `/funny-polymarket-bets/` owns the entire "polymarket" family (17 queries). **Zero franchise-vs-franchise overlap.**
+**New: `/crazy-kalshi-bets/` vs `/weird-kalshi-bets/` (Postwerks, published 8/1) — see headline.** Title, H1, and target-query overlap confirmed by direct read of both JSON files. No GSC query-level evidence yet (page is 2 days old, zero impressions so far) — this is a structural-risk flag, not yet a measured cannibalization. **Confidence: High** on overlap existing; **Medium** on eventual impact.
 
-`/politicians-with-prediction-markets-june-2026/` still holds "polymarket popular active markets june 2026" (2 imp/pos 11.5, weekly) and "polymarket popular markets june 2026" (1 imp/pos 10.0) — continuing to fade (was 9/2.0 in 28-day last report) but still not reassigned to either weirdest-active edition. **Confidence: High** the politicians page still holds it; this is now a 3-week-carried item, see content gaps.
+**Also noted in passing (commodity-vs-commodity, out of franchise scope but a real technical issue):** `/polymarket-senate-control-2026/` and `/who-will-win-the-senate-in-2026-polymarket/` were both published 2026-08-01, same cluster (Politics), and both target "who wins the senate 2026 polymarket"-shaped queries with near-identical H1s. Not a franchise concern per this pipeline's strategy scope, but worth someone deduping — two commodity pages competing with each other helps no one, including the site's aggregate quality signal.
+
+**Existing franchise separation holds:** `/crazy-kalshi-bets/` and `/funny-polymarket-bets/` still show zero query overlap with each other (kalshi vs polymarket query families remain cleanly split) — the only new overlap is the one flagged above, and it's a franchise-page-vs-non-franchise-page collision, not franchise-vs-franchise.
+
+`/politicians-with-prediction-markets-june-2026/` still holds trace "polymarket popular markets" family queries (28-day: down to 4 impressions total, continuing its 4-report fade) — unchanged assessment, still not reassigned to a weirdest-active edition page.
 
 ---
 
 ## Franchise content gaps (next brief covers in detail)
 
-1. **`daily-article.yml` silence — new, most urgent item.** 10 days with no automated commit. Everything else on this list (Hall of Filth #3, the nav-link structural fix, the politicians-june retirement) depends on this pipeline running. Fixing the automation unblocks all three carried items at once.
-2. **Politicians-june retirement — now 3 weeks carried, unexecuted.**
-3. **Structural nav/footer inbound-link fix — now 2 weeks carried, unexecuted** (needs a `generate.py` change, out of this pipeline's scope; flagged again for a dev session).
-4. **Hall of Filth page count stuck at one net-new page in 12 days** (Monet, 7/16) — the de-concentration cadence from the audit has stalled, likely for the same root-cause reason as #1.
+1. **NEW — `/weird-kalshi-bets/` overlaps `/crazy-kalshi-bets/`'s query territory.** Needs a scope decision: is Postwerks output subject to the same franchise-only editorial policy as the retired daily-article pipeline, or does it run on its own rules? Someone with authority over both pipelines needs to decide; a content-brief session can't unilaterally noindex or merge pages from an external source.
+2. **NEW (lower priority) — 5 of 7 recent Postwerks pages are commodity `format: explainer` content** (Market Structure / Sports / Politics clusters) that the 2026-06-05 audit's strategy explicitly deprioritizes, and none trip `BLOCKED_SLUG_PATTERNS`. If this pipeline continues at this ratio, the site accrues exactly the kind of page-8 commodity-page dilution the June prune was designed to remove. Worth someone deciding whether `BLOCKED_SLUG_PATTERNS` should be extended to catch this pipeline's output too.
+3. **Politicians-june retirement — now 4 weeks carried, unexecuted.**
+4. **Structural nav/footer inbound-link fix — now 3 weeks carried, unexecuted** (`grep -n "crazy-kalshi-bets\|funny-polymarket-bets" generate.py` still returns zero matches; still a `generate.py` change out of this pipeline's scope).
+5. **Hall of Filth page count stuck at one net-new page in 18 days** (Monet, 7/16, still zero signal). The de-concentration cadence from the audit remains stalled even though the broader content pipeline is unblocked (Postwerks is shipping — just not Hall of Filth format).
 
-No commodity gaps flagged, per strategy — out of scope for this list by design.
+No commodity gaps flagged as *things to build* — items 1-2 above are risk/scope flags about commodity content that already shipped via a different channel, not a recommendation to build more of it.
 
 ---
 
 ## Geographic + device notes
 
-- **US skew holding strong:** US 43/53 clicks (81%), 381/517 imp (74%) — consistent with prior reports (74-77%). No franchise cluster >50% non-US. **Confidence: High.**
-- **Mobile still dominant:** Mobile 40 clk/391 imp/10.2%/pos 5.8; Desktop 13 clk/122 imp/10.7%/pos 6.5 — desktop CTR now edges out mobile, a new pattern worth watching but not actionable on 13 clicks. **Confidence: Medium** (small sample).
+- **US skew holding strong:** US 38/57 clicks (67%), 323/453 imp (71%) — slightly lower US clicks-share than the 74-81% range of recent reports, but UK (5 clk/20 imp) and Canada (4/27) both ticked up; no franchise cluster is >50% non-US. **Confidence: High.**
+- **Mobile still dominant:** Mobile 47 clk/335 imp/14%/pos 5.8; Desktop 10 clk/115 imp/8.7%/pos 8.6 — mobile leads on both volume and CTR this week (last week desktop briefly edged CTR; that didn't hold, consistent with it being noise as flagged last time). **Confidence: Medium** (desktop sample still small).
 
 ---
 
@@ -92,18 +98,18 @@ No commodity gaps flagged, per strategy — out of scope for this list by design
 
 | Date | Clicks | Imp | CTR | Pos |
 |---|---|---|---|---|
-| 2026-07-19 | 12 | 169 | 7.1% | 6.0 |
-| 2026-07-20 | 7 | 66 | 10.6% | 6.5 |
-| 2026-07-21 | 3 | 54 | 5.6% | 6.1 |
-| 2026-07-22 | 3 | 49 | 6.1% | 6.8 |
-| 2026-07-23 | 9 | 58 | 15.5% | 5.7 |
-| 2026-07-24 | 14 | 65 | 21.5% | 4.9 |
-| 2026-07-25 | 5 | 56 | 8.9% | 6.2 |
+| 2026-07-26 | 3 | 52 | 5.8% | 6.9 |
+| 2026-07-27 | 7 | 73 | 9.6% | 5.7 |
+| 2026-07-28 | 11 | 61 | 18% | 6.5 |
+| 2026-07-29 | 15 | 70 | 21.4% | 6.2 |
+| 2026-07-30 | 4 | 66 | 6.1% | 5.9 |
+| 2026-07-31 | 11 | 55 | 20% | 7.4 |
+| 2026-08-01 | 6 | 76 | 7.9% | 7.1 |
 
-7/19 was an impression spike (169, likely a one-off SERP feature or query surge) that didn't convert at the site's usual CTR (7.1% vs the week's 10.25% average). 7/24 was the strongest day on both CTR (21.5%) and position (4.9). No clear weekday pattern yet across only 7 days. **Confidence: High** on the raw numbers, **Low** on any causal read of the 7/19 spike (no corresponding query/page spike identified in the page-detail pulls).
+7/29 was the strongest day on both clicks (15) and CTR (21.4%), on the same 66-76 impression range as the rest of the week — a conversion-quality day, not an impression spike. 7/26 was the softest day on every metric. No clear weekday pattern across 7 days. **Confidence: High** on the raw numbers, **Low** on any causal read of the 7/29 peak (no corresponding query/page spike identified in page-detail data).
 
 ---
 
 ## Data completeness / pipeline status
 
-All 7 weekly CSVs, all 28-day CSVs, and all 8 page-detail files present and populated. No GSC pull failure. **Separately, the content pipeline (`daily-article.yml`) has produced zero commits in 10 days — see headline. This is the actionable item for this report, not the GSC pull itself, which is healthy.** Deploy check: all 8 checked franchise/carried URLs return 200 live (see brief for full list and the confirmed 308 on `/craziest-kalshi-markets/`). **Confidence: High.**
+All 7 weekly CSVs, all 28-day CSVs, and all 8 page-detail files present and populated. No GSC pull failure. Content pipeline status: `daily-article.yml` retirement confirmed intentional (not a new finding — resolves last week's open flag); Postwerks pipeline confirmed active with 5 commits since last Monday. Deploy check: all checked franchise/carried/new URLs return 200 live, and the `/craziest-kalshi-markets/` → `/crazy-kalshi-bets/` redirect still resolves 308 as expected. **Confidence: High.**
