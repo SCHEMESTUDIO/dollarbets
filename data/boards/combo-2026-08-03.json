@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T17:49:45.952078+00:00",
+  "generated_at": "2026-08-03T22:58:19.529834+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,279 +8,27 @@
     "green": 10
   },
   "sport_mix": {
-    "Multi": 9,
-    "MLS": 1
+    "MLS": 5,
+    "Multi": 5
   },
   "board": [
     {
-      "ticker": "PARLAY-C0A69C5E",
-      "title": "Over 2.5 + Colorado State Rams wins",
-      "payout": 2.42,
+      "ticker": "PARLAY-C9957D3A",
+      "title": "Under 3.5 + Over 2.5",
+      "payout": 2.58,
       "tier": "green",
-      "quip": "autopilot engaged",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7837195-202042905-767810401&type=Single",
-      "sport": "soccer_usa_mls",
-      "sport_display": "Multi",
-      "matchup": "LA Galaxy @ Houston Dynamo + Wyoming Cowboys @ Colorado State Rams",
-      "market_type": "2-leg parlay",
-      "american_odds": 142,
-      "implied_probability": 0.413,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "LA Galaxy @ Houston Dynamo",
-          "pick": "Over 2.5",
-          "odds": -175,
-          "implied_prob": "64%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837195-202042905-767810401&type=Single",
-          "commence_time": "2026-08-16T00:30:00Z"
-        },
-        {
-          "matchup": "Wyoming Cowboys @ Colorado State Rams",
-          "pick": "Colorado State Rams wins",
-          "odds": -185,
-          "implied_prob": "65%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19645883-1527389710-2211458838&type=Single",
-          "commence_time": "2026-09-05T22:00:00Z"
-        }
-      ],
-      "close_time": "2026-08-16T00:30:00Z"
-    },
-    {
-      "ticker": "PARLAY-83860F99",
-      "title": "Over 2.5 + Colorado State Rams wins",
-      "payout": 2.42,
-      "tier": "green",
-      "quip": "the sun also rises",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7837230-202047962-767824886&type=Single",
-      "sport": "soccer_usa_mls",
-      "sport_display": "Multi",
-      "matchup": "Minnesota United FC @ Real Salt Lake + Wyoming Cowboys @ Colorado State Rams",
-      "market_type": "2-leg parlay",
-      "american_odds": 142,
-      "implied_probability": 0.413,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Minnesota United FC @ Real Salt Lake",
-          "pick": "Over 2.5",
-          "odds": -175,
-          "implied_prob": "64%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837230-202047962-767824886&type=Single",
-          "commence_time": "2026-08-16T01:30:00Z"
-        },
-        {
-          "matchup": "Wyoming Cowboys @ Colorado State Rams",
-          "pick": "Colorado State Rams wins",
-          "odds": -185,
-          "implied_prob": "65%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19645883-1527389710-2211458838&type=Single",
-          "commence_time": "2026-09-05T22:00:00Z"
-        }
-      ],
-      "close_time": "2026-08-16T01:30:00Z"
-    },
-    {
-      "ticker": "PARLAY-93CC1939",
-      "title": "Pittsburgh Pirates +1.5 + Colorado State Rams wins",
-      "payout": 2.45,
-      "tier": "green",
-      "quip": "the sun also rises",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19833005-1545901513-2261911083&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Pittsburgh Pirates @ Milwaukee Brewers + Wyoming Cowboys @ Colorado State Rams",
-      "market_type": "2-leg parlay",
-      "american_odds": 145,
-      "implied_probability": 0.409,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Pittsburgh Pirates @ Milwaukee Brewers",
-          "pick": "Pittsburgh Pirates +1.5",
-          "odds": -170,
-          "implied_prob": "63%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833005-1545901513-2261911083&type=Single",
-          "commence_time": "2026-08-03T23:41:00Z"
-        },
-        {
-          "matchup": "Wyoming Cowboys @ Colorado State Rams",
-          "pick": "Colorado State Rams wins",
-          "odds": -185,
-          "implied_prob": "65%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19645883-1527389710-2211458838&type=Single",
-          "commence_time": "2026-09-05T22:00:00Z"
-        }
-      ],
-      "close_time": "2026-08-03T23:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-E0636CD5",
-      "title": "Tampa Bay Rays wins + Colorado State Rams wins",
-      "payout": 2.45,
-      "tier": "green",
-      "quip": "no surprises here",
-      "yes_price": "0.41",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19833009-1545901883-2261911895&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Tampa Bay Rays @ Colorado Rockies + Wyoming Cowboys @ Colorado State Rams",
-      "market_type": "2-leg parlay",
-      "american_odds": 145,
-      "implied_probability": 0.409,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Tampa Bay Rays @ Colorado Rockies",
-          "pick": "Tampa Bay Rays wins",
-          "odds": -170,
-          "implied_prob": "63%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833009-1545901883-2261911895&type=Single",
-          "commence_time": "2026-08-04T00:41:00Z"
-        },
-        {
-          "matchup": "Wyoming Cowboys @ Colorado State Rams",
-          "pick": "Colorado State Rams wins",
-          "odds": -185,
-          "implied_prob": "65%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19645883-1527389710-2211458838&type=Single",
-          "commence_time": "2026-09-05T22:00:00Z"
-        }
-      ],
-      "close_time": "2026-08-04T00:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-401A4771",
-      "title": "Philadelphia Phillies wins + Colorado State Rams wins",
-      "payout": 2.47,
-      "tier": "green",
-      "quip": "steady hands",
-      "yes_price": "0.40",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19833003-1545901325-2261910672&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Washington Nationals @ Philadelphia Phillies + Wyoming Cowboys @ Colorado State Rams",
-      "market_type": "2-leg parlay",
-      "american_odds": 147,
-      "implied_probability": 0.404,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Washington Nationals @ Philadelphia Phillies",
-          "pick": "Philadelphia Phillies wins",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833003-1545901325-2261910672&type=Single",
-          "commence_time": "2026-08-03T22:41:00Z"
-        },
-        {
-          "matchup": "Wyoming Cowboys @ Colorado State Rams",
-          "pick": "Colorado State Rams wins",
-          "odds": -185,
-          "implied_prob": "65%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19645883-1527389710-2211458838&type=Single",
-          "commence_time": "2026-09-05T22:00:00Z"
-        }
-      ],
-      "close_time": "2026-08-03T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-F3FA8590",
-      "title": "Chicago Cubs +1.5 + Colorado State Rams wins",
-      "payout": 2.47,
-      "tier": "green",
-      "quip": "the boring middle",
-      "yes_price": "0.40",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19833006-1545901607-2261911290&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Los Angeles Dodgers @ Chicago Cubs + Wyoming Cowboys @ Colorado State Rams",
-      "market_type": "2-leg parlay",
-      "american_odds": 147,
-      "implied_probability": 0.404,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Los Angeles Dodgers @ Chicago Cubs",
-          "pick": "Chicago Cubs +1.5",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833006-1545901607-2261911290&type=Single",
-          "commence_time": "2026-08-04T00:06:00Z"
-        },
-        {
-          "matchup": "Wyoming Cowboys @ Colorado State Rams",
-          "pick": "Colorado State Rams wins",
-          "odds": -185,
-          "implied_prob": "65%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19645883-1527389710-2211458838&type=Single",
-          "commence_time": "2026-09-05T22:00:00Z"
-        }
-      ],
-      "close_time": "2026-08-04T00:06:00Z"
-    },
-    {
-      "ticker": "PARLAY-5710DBDE",
-      "title": "Under 3.5 + Colorado State Rams wins",
-      "payout": 2.47,
-      "tier": "green",
-      "quip": "routine maintenance",
-      "yes_price": "0.40",
+      "quip": "clock in, cash out",
+      "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
       "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7837234-202048029-767825077&type=Single",
       "sport": "soccer_usa_mls",
-      "sport_display": "Multi",
-      "matchup": "St. Louis City SC @ San Jose Earthquakes + Wyoming Cowboys @ Colorado State Rams",
+      "sport_display": "MLS",
+      "matchup": "St. Louis City SC @ San Jose Earthquakes + Philadelphia Union @ New York City FC",
       "market_type": "2-leg parlay",
-      "american_odds": 147,
-      "implied_probability": 0.404,
+      "american_odds": 158,
+      "implied_probability": 0.388,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
@@ -295,39 +43,6 @@
           "commence_time": "2026-08-16T02:30:00Z"
         },
         {
-          "matchup": "Wyoming Cowboys @ Colorado State Rams",
-          "pick": "Colorado State Rams wins",
-          "odds": -185,
-          "implied_prob": "65%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19645883-1527389710-2211458838&type=Single",
-          "commence_time": "2026-09-05T22:00:00Z"
-        }
-      ],
-      "close_time": "2026-08-16T02:30:00Z"
-    },
-    {
-      "ticker": "PARLAY-97AB851D",
-      "title": "Over 2.5 + Colorado State Rams wins",
-      "payout": 2.47,
-      "tier": "green",
-      "quip": "rent money",
-      "yes_price": "0.40",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7837238-202048238-767825905&type=Single",
-      "sport": "soccer_usa_mls",
-      "sport_display": "Multi",
-      "matchup": "Philadelphia Union @ New York City FC + Wyoming Cowboys @ Colorado State Rams",
-      "market_type": "2-leg parlay",
-      "american_odds": 147,
-      "implied_probability": 0.404,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
           "matchup": "Philadelphia Union @ New York City FC",
           "pick": "Over 2.5",
           "odds": -165,
@@ -335,78 +50,27 @@
           "sport": "soccer_usa_mls",
           "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837238-202048238-767825905&type=Single",
           "commence_time": "2026-08-16T22:00:00Z"
-        },
-        {
-          "matchup": "Wyoming Cowboys @ Colorado State Rams",
-          "pick": "Colorado State Rams wins",
-          "odds": -185,
-          "implied_prob": "65%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19645883-1527389710-2211458838&type=Single",
-          "commence_time": "2026-09-05T22:00:00Z"
         }
       ],
-      "close_time": "2026-08-16T22:00:00Z"
+      "close_time": "2026-08-16T02:30:00Z"
     },
     {
-      "ticker": "PARLAY-48B3F197",
-      "title": "Over 2.5 + Over 2.5",
-      "payout": 2.47,
+      "ticker": "PARLAY-5BCA4708",
+      "title": "Pittsburgh Steelers wins + Under 3.5",
+      "payout": 2.61,
       "tier": "green",
-      "quip": "bread and butter",
-      "yes_price": "0.40",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7837195-202042905-767810401&type=Single",
-      "sport": "soccer_usa_mls",
-      "sport_display": "MLS",
-      "matchup": "LA Galaxy @ Houston Dynamo + Minnesota United FC @ Real Salt Lake",
-      "market_type": "2-leg parlay",
-      "american_odds": 147,
-      "implied_probability": 0.404,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "LA Galaxy @ Houston Dynamo",
-          "pick": "Over 2.5",
-          "odds": -175,
-          "implied_prob": "64%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837195-202042905-767810401&type=Single",
-          "commence_time": "2026-08-16T00:30:00Z"
-        },
-        {
-          "matchup": "Minnesota United FC @ Real Salt Lake",
-          "pick": "Over 2.5",
-          "odds": -175,
-          "implied_prob": "64%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837230-202047962-767824886&type=Single",
-          "commence_time": "2026-08-16T01:30:00Z"
-        }
-      ],
-      "close_time": "2026-08-16T00:30:00Z"
-    },
-    {
-      "ticker": "PARLAY-26178F8B",
-      "title": "Pittsburgh Steelers wins + Colorado State Rams wins",
-      "payout": 2.5,
-      "tier": "green",
-      "quip": "autopilot engaged",
-      "yes_price": "0.40",
+      "quip": "water is wet",
+      "yes_price": "0.38",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
       "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
       "sport": "americanfootball_nfl",
       "sport_display": "Multi",
-      "matchup": "Atlanta Falcons @ Pittsburgh Steelers + Wyoming Cowboys @ Colorado State Rams",
+      "matchup": "Atlanta Falcons @ Pittsburgh Steelers + St. Louis City SC @ San Jose Earthquakes",
       "market_type": "2-leg parlay",
-      "american_odds": 150,
-      "implied_probability": 0.399,
+      "american_odds": 161,
+      "implied_probability": 0.383,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
@@ -421,16 +85,352 @@
           "commence_time": "2026-09-13T17:00:00Z"
         },
         {
-          "matchup": "Wyoming Cowboys @ Colorado State Rams",
-          "pick": "Colorado State Rams wins",
-          "odds": -185,
-          "implied_prob": "65%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19645883-1527389710-2211458838&type=Single",
-          "commence_time": "2026-09-05T22:00:00Z"
+          "matchup": "St. Louis City SC @ San Jose Earthquakes",
+          "pick": "Under 3.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837234-202048029-767825077&type=Single",
+          "commence_time": "2026-08-16T02:30:00Z"
         }
       ],
-      "close_time": "2026-09-05T22:00:00Z"
+      "close_time": "2026-08-16T02:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-DF1184BA",
+      "title": "Pittsburgh Steelers wins + Over 2.5",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Atlanta Falcons @ Pittsburgh Steelers + Philadelphia Union @ New York City FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Philadelphia Union @ New York City FC",
+          "pick": "Over 2.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837238-202048238-767825905&type=Single",
+          "commence_time": "2026-08-16T22:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-16T22:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-10A070AE",
+      "title": "Pittsburgh Pirates +1.5 + Under 3.5",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19833005-1545901513-2261911083&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Pittsburgh Pirates @ Milwaukee Brewers + St. Louis City SC @ San Jose Earthquakes",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Pirates @ Milwaukee Brewers",
+          "pick": "Pittsburgh Pirates +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833005-1545901513-2261911083&type=Single",
+          "commence_time": "2026-08-03T23:41:00Z"
+        },
+        {
+          "matchup": "St. Louis City SC @ San Jose Earthquakes",
+          "pick": "Under 3.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837234-202048029-767825077&type=Single",
+          "commence_time": "2026-08-16T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-08-03T23:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-15A4EDEF",
+      "title": "Pittsburgh Pirates +1.5 + Over 2.5",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19833005-1545901513-2261911083&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Pittsburgh Pirates @ Milwaukee Brewers + Philadelphia Union @ New York City FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Pirates @ Milwaukee Brewers",
+          "pick": "Pittsburgh Pirates +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833005-1545901513-2261911083&type=Single",
+          "commence_time": "2026-08-03T23:41:00Z"
+        },
+        {
+          "matchup": "Philadelphia Union @ New York City FC",
+          "pick": "Over 2.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837238-202048238-767825905&type=Single",
+          "commence_time": "2026-08-16T22:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-03T23:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-55A05B51",
+      "title": "Over 2.5 + Under 3.5",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7837244-202049256-767830367&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "MLS",
+      "matchup": "Columbus Crew SC @ Charlotte FC + St. Louis City SC @ San Jose Earthquakes",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Columbus Crew SC @ Charlotte FC",
+          "pick": "Over 2.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837244-202049256-767830367&type=Single",
+          "commence_time": "2026-08-15T23:30:00Z"
+        },
+        {
+          "matchup": "St. Louis City SC @ San Jose Earthquakes",
+          "pick": "Under 3.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837234-202048029-767825077&type=Single",
+          "commence_time": "2026-08-16T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-08-15T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-1AE0A50C",
+      "title": "Over 2.5 + Over 2.5",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7837244-202049256-767830367&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "MLS",
+      "matchup": "Columbus Crew SC @ Charlotte FC + Philadelphia Union @ New York City FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Columbus Crew SC @ Charlotte FC",
+          "pick": "Over 2.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837244-202049256-767830367&type=Single",
+          "commence_time": "2026-08-15T23:30:00Z"
+        },
+        {
+          "matchup": "Philadelphia Union @ New York City FC",
+          "pick": "Over 2.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837238-202048238-767825905&type=Single",
+          "commence_time": "2026-08-16T22:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-15T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-AA7423F3",
+      "title": "Chicago Fire wins + Under 3.5",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7837235-202042031-767804943&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "MLS",
+      "matchup": "Portland Timbers @ Chicago Fire + St. Louis City SC @ San Jose Earthquakes",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Portland Timbers @ Chicago Fire",
+          "pick": "Chicago Fire wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837235-202042031-767804943&type=Single",
+          "commence_time": "2026-08-16T22:00:00Z"
+        },
+        {
+          "matchup": "St. Louis City SC @ San Jose Earthquakes",
+          "pick": "Under 3.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837234-202048029-767825077&type=Single",
+          "commence_time": "2026-08-16T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-08-16T02:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-301C21B3",
+      "title": "Chicago Fire wins + Over 2.5",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7837235-202042031-767804943&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "MLS",
+      "matchup": "Portland Timbers @ Chicago Fire + Philadelphia Union @ New York City FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Portland Timbers @ Chicago Fire",
+          "pick": "Chicago Fire wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837235-202042031-767804943&type=Single",
+          "commence_time": "2026-08-16T22:00:00Z"
+        },
+        {
+          "matchup": "Philadelphia Union @ New York City FC",
+          "pick": "Over 2.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837238-202048238-767825905&type=Single",
+          "commence_time": "2026-08-16T22:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-16T22:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-0E07ED6F",
+      "title": "Kansas City Chiefs wins + Under 3.5",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43160-3331278-5260136&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Denver Broncos @ Kansas City Chiefs + St. Louis City SC @ San Jose Earthquakes",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.379,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Denver Broncos @ Kansas City Chiefs",
+          "pick": "Kansas City Chiefs wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43160-3331278-5260136&type=Single",
+          "commence_time": "2026-09-15T00:15:00Z"
+        },
+        {
+          "matchup": "St. Louis City SC @ San Jose Earthquakes",
+          "pick": "Under 3.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837234-202048029-767825077&type=Single",
+          "commence_time": "2026-08-16T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-08-16T02:30:00Z"
     }
   ]
 }
