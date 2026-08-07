@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T01:30:07.099769+00:00",
+  "generated_at": "2026-08-07T08:58:37.886550+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,40 +8,31 @@
     "green": 10
   },
   "sport_mix": {
-    "MLB": 3,
-    "Multi": 7
+    "MLB": 6,
+    "Multi": 4
   },
   "board": [
     {
-      "ticker": "PARLAY-BC50A799",
-      "title": "Chicago White Sox +1.5 + New York Mets +1.5",
-      "payout": 2.55,
+      "ticker": "PARLAY-31F07CB1",
+      "title": "New York Mets +1.5 + Baltimore Orioles +1.5",
+      "payout": 2.52,
       "tier": "green",
-      "quip": "routine maintenance",
-      "yes_price": "0.39",
+      "quip": "the safe bet",
+      "yes_price": "0.40",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19833102-1545906931-2261924155&type=Single",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19833234-1545911823-2261935162&type=Single",
       "sport": "baseball_mlb",
       "sport_display": "MLB",
-      "matchup": "Cleveland Guardians @ Chicago White Sox + New York Mets @ Pittsburgh Pirates",
+      "matchup": "New York Mets @ Pittsburgh Pirates + Baltimore Orioles @ Texas Rangers",
       "market_type": "2-leg parlay",
-      "american_odds": 155,
-      "implied_probability": 0.392,
+      "american_odds": 152,
+      "implied_probability": 0.397,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
-        {
-          "matchup": "Cleveland Guardians @ Chicago White Sox",
-          "pick": "Chicago White Sox +1.5",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833102-1545906931-2261924155&type=Single",
-          "commence_time": "2026-08-07T23:41:00Z"
-        },
         {
           "matchup": "New York Mets @ Pittsburgh Pirates",
           "pick": "New York Mets +1.5",
@@ -50,24 +41,117 @@
           "sport": "baseball_mlb",
           "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833234-1545911823-2261935162&type=Single",
           "commence_time": "2026-08-07T22:41:00Z"
+        },
+        {
+          "matchup": "Baltimore Orioles @ Texas Rangers",
+          "pick": "Baltimore Orioles +1.5",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833104-1545907116-2261924560&type=Single",
+          "commence_time": "2026-08-08T00:16:00Z"
         }
       ],
       "close_time": "2026-08-07T22:41:00Z"
     },
     {
       "ticker": "PARLAY-C847924A",
-      "title": "Colorado Rockies +1.5 + New York Mets +1.5",
+      "title": "New York Mets +1.5 + St. Louis Cardinals wins",
+      "payout": 2.52,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19833234-1545911823-2261935162&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "New York Mets @ Pittsburgh Pirates + Colorado Rockies @ St. Louis Cardinals",
+      "market_type": "2-leg parlay",
+      "american_odds": 152,
+      "implied_probability": 0.397,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York Mets @ Pittsburgh Pirates",
+          "pick": "New York Mets +1.5",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833234-1545911823-2261935162&type=Single",
+          "commence_time": "2026-08-07T22:41:00Z"
+        },
+        {
+          "matchup": "Colorado Rockies @ St. Louis Cardinals",
+          "pick": "St. Louis Cardinals wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833106-1545907300-2261924965&type=Single",
+          "commence_time": "2026-08-08T00:16:00Z"
+        }
+      ],
+      "close_time": "2026-08-07T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-F4C88A4D",
+      "title": "Baltimore Orioles +1.5 + St. Louis Cardinals wins",
+      "payout": 2.52,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19833104-1545907116-2261924560&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Baltimore Orioles @ Texas Rangers + Colorado Rockies @ St. Louis Cardinals",
+      "market_type": "2-leg parlay",
+      "american_odds": 152,
+      "implied_probability": 0.397,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Orioles @ Texas Rangers",
+          "pick": "Baltimore Orioles +1.5",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833104-1545907116-2261924560&type=Single",
+          "commence_time": "2026-08-08T00:16:00Z"
+        },
+        {
+          "matchup": "Colorado Rockies @ St. Louis Cardinals",
+          "pick": "St. Louis Cardinals wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833106-1545907300-2261924965&type=Single",
+          "commence_time": "2026-08-08T00:16:00Z"
+        }
+      ],
+      "close_time": "2026-08-08T00:16:00Z"
+    },
+    {
+      "ticker": "PARLAY-29CC0601",
+      "title": "Chicago Cubs wins + New York Mets +1.5",
       "payout": 2.55,
       "tier": "green",
-      "quip": "tuesday energy",
+      "quip": "the fundamentals",
       "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19833106-1545907302-2261924968&type=Single",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19833105-1545907207-2261924760&type=Single",
       "sport": "baseball_mlb",
       "sport_display": "MLB",
-      "matchup": "Colorado Rockies @ St. Louis Cardinals + New York Mets @ Pittsburgh Pirates",
+      "matchup": "Chicago Cubs @ Kansas City Royals + New York Mets @ Pittsburgh Pirates",
       "market_type": "2-leg parlay",
       "american_odds": 155,
       "implied_probability": 0.392,
@@ -76,13 +160,13 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Colorado Rockies @ St. Louis Cardinals",
-          "pick": "Colorado Rockies +1.5",
+          "matchup": "Chicago Cubs @ Kansas City Royals",
+          "pick": "Chicago Cubs wins",
           "odds": -165,
           "implied_prob": "62%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833106-1545907302-2261924968&type=Single",
-          "commence_time": "2026-08-08T00:16:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833105-1545907207-2261924760&type=Single",
+          "commence_time": "2026-08-08T00:11:00Z"
         },
         {
           "matchup": "New York Mets @ Pittsburgh Pirates",
@@ -97,11 +181,95 @@
       "close_time": "2026-08-07T22:41:00Z"
     },
     {
+      "ticker": "PARLAY-BCA444F9",
+      "title": "Chicago Cubs wins + Baltimore Orioles +1.5",
+      "payout": 2.55,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19833105-1545907207-2261924760&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Chicago Cubs @ Kansas City Royals + Baltimore Orioles @ Texas Rangers",
+      "market_type": "2-leg parlay",
+      "american_odds": 155,
+      "implied_probability": 0.392,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Cubs @ Kansas City Royals",
+          "pick": "Chicago Cubs wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833105-1545907207-2261924760&type=Single",
+          "commence_time": "2026-08-08T00:11:00Z"
+        },
+        {
+          "matchup": "Baltimore Orioles @ Texas Rangers",
+          "pick": "Baltimore Orioles +1.5",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833104-1545907116-2261924560&type=Single",
+          "commence_time": "2026-08-08T00:16:00Z"
+        }
+      ],
+      "close_time": "2026-08-08T00:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-6A72830F",
+      "title": "Chicago Cubs wins + St. Louis Cardinals wins",
+      "payout": 2.55,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19833105-1545907207-2261924760&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Chicago Cubs @ Kansas City Royals + Colorado Rockies @ St. Louis Cardinals",
+      "market_type": "2-leg parlay",
+      "american_odds": 155,
+      "implied_probability": 0.392,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Cubs @ Kansas City Royals",
+          "pick": "Chicago Cubs wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833105-1545907207-2261924760&type=Single",
+          "commence_time": "2026-08-08T00:11:00Z"
+        },
+        {
+          "matchup": "Colorado Rockies @ St. Louis Cardinals",
+          "pick": "St. Louis Cardinals wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833106-1545907300-2261924965&type=Single",
+          "commence_time": "2026-08-08T00:16:00Z"
+        }
+      ],
+      "close_time": "2026-08-08T00:11:00Z"
+    },
+    {
       "ticker": "PARLAY-D1D12877",
       "title": "Under 3.5 + New York Mets +1.5",
       "payout": 2.55,
       "tier": "green",
-      "quip": "business as usual",
+      "quip": "checking all the boxes",
       "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -139,19 +307,19 @@
       "close_time": "2026-08-07T22:41:00Z"
     },
     {
-      "ticker": "PARLAY-45FC2A4F",
-      "title": "Over 2.5 + New York Mets +1.5",
+      "ticker": "PARLAY-6A607213",
+      "title": "Under 3.5 + Baltimore Orioles +1.5",
       "payout": 2.55,
       "tier": "green",
-      "quip": "tuesday energy",
+      "quip": "no surprises here",
       "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7837238-202048238-767825905&type=Single",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7837234-202048029-767825077&type=Single",
       "sport": "soccer_usa_mls",
       "sport_display": "Multi",
-      "matchup": "Philadelphia Union @ New York City FC + New York Mets @ Pittsburgh Pirates",
+      "matchup": "St. Louis City SC @ San Jose Earthquakes + Baltimore Orioles @ Texas Rangers",
       "market_type": "2-leg parlay",
       "american_odds": 155,
       "implied_probability": 0.392,
@@ -160,116 +328,74 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Philadelphia Union @ New York City FC",
-          "pick": "Over 2.5",
+          "matchup": "St. Louis City SC @ San Jose Earthquakes",
+          "pick": "Under 3.5",
           "odds": -165,
           "implied_prob": "62%",
           "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837238-202048238-767825905&type=Single",
-          "commence_time": "2026-08-16T22:00:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837234-202048029-767825077&type=Single",
+          "commence_time": "2026-08-16T02:30:00Z"
         },
         {
-          "matchup": "New York Mets @ Pittsburgh Pirates",
-          "pick": "New York Mets +1.5",
+          "matchup": "Baltimore Orioles @ Texas Rangers",
+          "pick": "Baltimore Orioles +1.5",
           "odds": -170,
           "implied_prob": "63%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833234-1545911823-2261935162&type=Single",
-          "commence_time": "2026-08-07T22:41:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833104-1545907116-2261924560&type=Single",
+          "commence_time": "2026-08-08T00:16:00Z"
         }
       ],
-      "close_time": "2026-08-07T22:41:00Z"
+      "close_time": "2026-08-08T00:16:00Z"
     },
     {
-      "ticker": "PARLAY-AEAF4E66",
-      "title": "Pittsburgh Steelers wins + New York Mets +1.5",
-      "payout": 2.58,
+      "ticker": "PARLAY-C617B403",
+      "title": "Under 3.5 + St. Louis Cardinals wins",
+      "payout": 2.55,
       "tier": "green",
-      "quip": "just showing up",
+      "quip": "the safe bet",
       "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Atlanta Falcons @ Pittsburgh Steelers + New York Mets @ Pittsburgh Pirates",
-      "market_type": "2-leg parlay",
-      "american_odds": 158,
-      "implied_probability": 0.387,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
-          "pick": "Pittsburgh Steelers wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "New York Mets @ Pittsburgh Pirates",
-          "pick": "New York Mets +1.5",
-          "odds": -170,
-          "implied_prob": "63%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833234-1545911823-2261935162&type=Single",
-          "commence_time": "2026-08-07T22:41:00Z"
-        }
-      ],
-      "close_time": "2026-08-07T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-7C574D17",
-      "title": "Over 2.5 + New York Mets +1.5",
-      "payout": 2.58,
-      "tier": "green",
-      "quip": "steady hands",
-      "yes_price": "0.39",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7837244-202049256-767830367&type=Single",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7837234-202048029-767825077&type=Single",
       "sport": "soccer_usa_mls",
       "sport_display": "Multi",
-      "matchup": "Columbus Crew SC @ Charlotte FC + New York Mets @ Pittsburgh Pirates",
+      "matchup": "St. Louis City SC @ San Jose Earthquakes + Colorado Rockies @ St. Louis Cardinals",
       "market_type": "2-leg parlay",
-      "american_odds": 158,
-      "implied_probability": 0.387,
+      "american_odds": 155,
+      "implied_probability": 0.392,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Columbus Crew SC @ Charlotte FC",
-          "pick": "Over 2.5",
-          "odds": -160,
+          "matchup": "St. Louis City SC @ San Jose Earthquakes",
+          "pick": "Under 3.5",
+          "odds": -165,
           "implied_prob": "62%",
           "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837244-202049256-767830367&type=Single",
-          "commence_time": "2026-08-15T23:30:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837234-202048029-767825077&type=Single",
+          "commence_time": "2026-08-16T02:30:00Z"
         },
         {
-          "matchup": "New York Mets @ Pittsburgh Pirates",
-          "pick": "New York Mets +1.5",
+          "matchup": "Colorado Rockies @ St. Louis Cardinals",
+          "pick": "St. Louis Cardinals wins",
           "odds": -170,
           "implied_prob": "63%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833234-1545911823-2261935162&type=Single",
-          "commence_time": "2026-08-07T22:41:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833106-1545907300-2261924965&type=Single",
+          "commence_time": "2026-08-08T00:16:00Z"
         }
       ],
-      "close_time": "2026-08-07T22:41:00Z"
+      "close_time": "2026-08-08T00:16:00Z"
     },
     {
       "ticker": "PARLAY-C4422F7C",
       "title": "Chicago Fire wins + New York Mets +1.5",
-      "payout": 2.58,
+      "payout": 2.55,
       "tier": "green",
-      "quip": "no surprises here",
+      "quip": "the sun also rises",
       "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -279,8 +405,8 @@
       "sport_display": "Multi",
       "matchup": "Portland Timbers @ Chicago Fire + New York Mets @ Pittsburgh Pirates",
       "market_type": "2-leg parlay",
-      "american_odds": 158,
-      "implied_probability": 0.387,
+      "american_odds": 155,
+      "implied_probability": 0.392,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
@@ -288,7 +414,7 @@
         {
           "matchup": "Portland Timbers @ Chicago Fire",
           "pick": "Chicago Fire wins",
-          "odds": -160,
+          "odds": -165,
           "implied_prob": "62%",
           "sport": "soccer_usa_mls",
           "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837235-202042031-767804943&type=Single",
@@ -305,132 +431,6 @@
         }
       ],
       "close_time": "2026-08-07T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-07034349",
-      "title": "Chicago White Sox +1.5 + Colorado Rockies +1.5",
-      "payout": 2.58,
-      "tier": "green",
-      "quip": "water is wet",
-      "yes_price": "0.39",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19833102-1545906931-2261924155&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Cleveland Guardians @ Chicago White Sox + Colorado Rockies @ St. Louis Cardinals",
-      "market_type": "2-leg parlay",
-      "american_odds": 158,
-      "implied_probability": 0.388,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Cleveland Guardians @ Chicago White Sox",
-          "pick": "Chicago White Sox +1.5",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833102-1545906931-2261924155&type=Single",
-          "commence_time": "2026-08-07T23:41:00Z"
-        },
-        {
-          "matchup": "Colorado Rockies @ St. Louis Cardinals",
-          "pick": "Colorado Rockies +1.5",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833106-1545907302-2261924968&type=Single",
-          "commence_time": "2026-08-08T00:16:00Z"
-        }
-      ],
-      "close_time": "2026-08-07T23:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-5F4DCCA3",
-      "title": "Chicago White Sox +1.5 + Under 3.5",
-      "payout": 2.58,
-      "tier": "green",
-      "quip": "bread and butter",
-      "yes_price": "0.39",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19833102-1545906931-2261924155&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Cleveland Guardians @ Chicago White Sox + St. Louis City SC @ San Jose Earthquakes",
-      "market_type": "2-leg parlay",
-      "american_odds": 158,
-      "implied_probability": 0.388,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Cleveland Guardians @ Chicago White Sox",
-          "pick": "Chicago White Sox +1.5",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833102-1545906931-2261924155&type=Single",
-          "commence_time": "2026-08-07T23:41:00Z"
-        },
-        {
-          "matchup": "St. Louis City SC @ San Jose Earthquakes",
-          "pick": "Under 3.5",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837234-202048029-767825077&type=Single",
-          "commence_time": "2026-08-16T02:30:00Z"
-        }
-      ],
-      "close_time": "2026-08-07T23:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-841831F8",
-      "title": "Chicago White Sox +1.5 + Over 2.5",
-      "payout": 2.58,
-      "tier": "green",
-      "quip": "steady hands",
-      "yes_price": "0.39",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19833102-1545906931-2261924155&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Cleveland Guardians @ Chicago White Sox + Philadelphia Union @ New York City FC",
-      "market_type": "2-leg parlay",
-      "american_odds": 158,
-      "implied_probability": 0.388,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Cleveland Guardians @ Chicago White Sox",
-          "pick": "Chicago White Sox +1.5",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19833102-1545906931-2261924155&type=Single",
-          "commence_time": "2026-08-07T23:41:00Z"
-        },
-        {
-          "matchup": "Philadelphia Union @ New York City FC",
-          "pick": "Over 2.5",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837238-202048238-767825905&type=Single",
-          "commence_time": "2026-08-16T22:00:00Z"
-        }
-      ],
-      "close_time": "2026-08-07T23:41:00Z"
     }
   ]
 }
