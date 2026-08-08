@@ -56,14 +56,19 @@ jobs:
       - name: Run weekly analysis (Claude)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # queue_action.sh -> shared Postwerks actions queue (Saturday digest)
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OPS_CHAT_ID: ${{ secrets.TELEGRAM_OPS_CHAT_ID }}
         run: |
           mkdir -p .ci reports
-          claude -p "$(cat prompts/weekly-gsc-analysis.md)" --model claude-sonnet-5 --max-turns 60 --dangerously-skip-permissions
+          claude -p "$(cat prompts/weekly-gsc-analysis.md)" --model claude-haiku-4-5-20251001 --max-turns 60 --dangerously-skip-permissions
 
       - name: Guarded commit + push
         id: commit
         run: |
-          bash scripts/ci_guarded_commit.sh "GSC weekly: report + brief + quick wins ($(date -u +%Y-%m-%d))" content public data gsc-data reports
+          bash scripts/ci_guarded_commit.sh "GSC weekly: report + brief + quick wins ($(date -u +%Y-%m-%d))" content public data gsc-data reports vercel.json
 
       - name: Trigger Vercel deploy
         if: steps.commit.outputs.changed == 'true'

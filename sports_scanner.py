@@ -32,6 +32,10 @@ ODDS_API = "https://api.the-odds-api.com/v4"
 ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
+# Same tier logic as scanner.py — the sports quip writer is the product.
+# See the QUIP MODEL TIERS note there before changing this.
+QUIP_MODEL = "claude-opus-5"
+
 def _safe_url(u):
     """Redact the API key before logging — request URLs carry apiKey=<secret>
     in the query string, and these scanners run in CI where stderr is captured."""
@@ -816,8 +820,10 @@ Example: [{{"title": "Jets somehow beat the Chiefs", "quip": "the brussel sprout
 Respond with ONLY the JSON array."""
 
     body = json.dumps({
-        "model": "claude-haiku-4-5-20251001",
-        "max_tokens": 2000,
+        "model": QUIP_MODEL,
+        "max_tokens": 3000,
+        "thinking": {"type": "adaptive"},
+        "output_config": {"effort": "low"},
         "messages": [{"role": "user", "content": prompt}]
     }).encode()
 
@@ -834,7 +840,7 @@ Respond with ONLY the JSON array."""
 
     try:
         print(f"[sports] Generating quips for {len(new_picks)} new picks via Claude...", file=sys.stderr)
-        with urllib.request.urlopen(req, timeout=45) as resp:
+        with urllib.request.urlopen(req, timeout=180) as resp:
             raw = resp.read().decode()
             result = json.loads(raw)
             text = result["content"][0]["text"].strip()

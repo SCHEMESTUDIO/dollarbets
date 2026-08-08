@@ -22,6 +22,23 @@ KALSHI_API = "https://api.elections.kalshi.com/trade-api/v2"
 KALSHI_REFERRAL = "e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
 POLYMARKET_API = "https://gamma-api.polymarket.com"
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+
+# QUIP MODEL TIERS (2026-08-08). The quips ARE the product, the volume is
+# tiny (a few hundred output tokens a day), so the joke writer gets the top
+# tier and only the mechanical pool-ranking call stays cheap.
+#   QUIP_MODEL     — writes original quips. Swap to "claude-fable-5" for the
+#                    absolute top tier (~2x the cost of opus-5; the humour
+#                    gain is unmeasured, so A/B it before committing).
+#   PAIRING_MODEL  — picks the best existing pool quip per bet. Ranking, not
+#                    writing, and it eats ~3.5k input tokens of pool every
+#                    run, so it stays mid-tier.
+# NOTE: these models have extended thinking ON by default, which bills as
+# output and can swallow a small max_tokens budget entirely and return NO
+# text (observed on sonnet-5, 2026-07-06). Every upgraded call below
+# therefore pins effort low AND raises max_tokens. If a call fails the
+# board still ships — both paths fall back to pool quips.
+QUIP_MODEL = "claude-opus-5"
+PAIRING_MODEL = "claude-sonnet-5"
 TARGET_PICKS = 10
 
 
@@ -1931,8 +1948,10 @@ Example: [{{"title": "Raptors beat the Cavs tonight", "quip": "fine, sure, whate
 Respond with ONLY the JSON array."""
 
     body = json.dumps({
-        "model": "claude-haiku-4-5-20251001",
-        "max_tokens": 2000,
+        "model": QUIP_MODEL,
+        "max_tokens": 3000,
+        "thinking": {"type": "adaptive"},
+        "output_config": {"effort": "low"},
         "messages": [{"role": "user", "content": prompt}]
     }).encode()
 
@@ -1949,7 +1968,7 @@ Respond with ONLY the JSON array."""
 
     try:
         print("[scanner] Generating quips (hybrid mode)...", file=sys.stderr)
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with urllib.request.urlopen(req, timeout=180) as resp:
             raw = resp.read().decode()
             result = json.loads(raw)
             text = result["content"][0]["text"].strip()
@@ -2019,8 +2038,10 @@ Rules:
 Respond with ONLY the JSON array of integers. Example: [42, 7, 183, 91, ...]"""
 
     body = json.dumps({
-        "model": "claude-haiku-4-5-20251001",
-        "max_tokens": 200,
+        "model": PAIRING_MODEL,
+        "max_tokens": 2000,
+        "thinking": {"type": "adaptive"},
+        "output_config": {"effort": "low"},
         "messages": [{"role": "user", "content": prompt}]
     }).encode()
 
@@ -2037,7 +2058,7 @@ Respond with ONLY the JSON array of integers. Example: [42, 7, 183, 91, ...]"""
 
     try:
         print("[scanner] Matching quips from pool (fallback mode)...", file=sys.stderr)
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with urllib.request.urlopen(req, timeout=180) as resp:
             raw = resp.read().decode()
             result = json.loads(raw)
             text = result["content"][0]["text"].strip()

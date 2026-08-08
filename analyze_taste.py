@@ -178,7 +178,7 @@ KEYWORD RULES (critical — failures here pollute downstream classification):
 Respond with ONLY the JSON object."""
 
     body = json.dumps({
-        "model": "claude-sonnet-4-6",
+        "model": "claude-sonnet-5",
         "max_tokens": 8192,
         "messages": [{"role": "user", "content": prompt}]
     }).encode()
