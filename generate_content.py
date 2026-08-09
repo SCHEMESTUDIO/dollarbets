@@ -141,11 +141,11 @@ def build_breadcrumbs(page_data, canonical):
     links = []
     for i, (name, url) in enumerate(crumbs):
         if i < len(crumbs) - 1:
-            links.append(f'<a href="{url}" style="color:#888">{name}</a>')
+            links.append(f'<a href="{url}" style="color:#806b5b">{name}</a>')
         else:
-            links.append(f'<span style="color:#555">{name}</span>')
+            links.append(f'<span style="color:#5a4e2f">{name}</span>')
 
-    html = f'    <nav style="font-size:10px;color:#7a6e5f;margin-bottom:10px;letter-spacing:0.3px">{" &rsaquo; ".join(links)}</nav>'
+    html = f'    <nav style="font-size:10px;color:#806b5b;margin-top:12px;margin-bottom:0;letter-spacing:0.3px">{" &rsaquo; ".join(links)}</nav>'
     schema = build_breadcrumb_schema(crumbs)
     return html, schema
 
@@ -240,7 +240,7 @@ def render_hero_bet(hero):
         return ""
 
     note = hero.get("note", "")
-    note_html = f'<div style="font-size:10px;color:#7a6e5f;margin-top:4px;font-style:italic">{note}</div>' if note else ""
+    note_html = f'<div style="font-size:10px;color:#a08b77;margin-top:4px;font-style:italic">{note}</div>' if note else ""
 
     # Optional disclaimer fields
     disclaimer_parts = []
@@ -355,16 +355,28 @@ def generate_content_page(page_data):
 
     body_parts.append(f'    <div class="byline">{" &middot; ".join(meta_parts)}</div>')
 
-    # Trust chips
-    platform_hint = page_data.get("platform_hint", "")
-    if platform_hint == "polymarket":
-        reg_chip = '<span class="trust-chip-green">&#10003; CFTC-regulated &amp; decentralized</span>'
-    else:
+    # Detect primary platform from slug/cluster — drives trust chips, the
+    # affiliate strip copy, the ranked-promo filter, and the sticky bar.
+    slug_lower = (slug or "").lower()
+    cluster_lower = (page_data.get("cluster", "") or "").lower()
+    _pf = None
+    if "polymarket" in slug_lower or "polymarket" in cluster_lower:
+        _pf = "polymarket"
+    elif "kalshi" in slug_lower or "kalshi" in cluster_lower:
+        _pf = "kalshi"
+
+    # Trust chips. Compliance: "CFTC-regulated" may only be claimed for
+    # Kalshi (see compliance-notes.md) — never on Polymarket-focused pages.
+    if _pf == "polymarket":
+        reg_chip = '<span class="trust-chip-green">&#10003; live market prices</span>'
+    elif _pf == "kalshi":
         reg_chip = '<span class="trust-chip-green">&#10003; CFTC-regulated exchange</span>'
+    else:
+        reg_chip = '<span class="trust-chip-green">&#10003; CFTC-regulated + major markets</span>'
     body_parts.append(f'''    <div class="trust-chips">
       {reg_chip}
       <span class="trust-chip-neutral">re-ranked every morning</span>
-      <span class="trust-chip-neutral">every result logged</span>
+      <span class="trust-chip-neutral">every board archived</span>
     </div>''')
 
     # Quick Answer block — optimized for AI engine extraction (AEO)
@@ -376,21 +388,13 @@ def generate_content_page(page_data):
         if summary:
             body_parts.append(f'    <div class="quick-answer"><strong>tl;dr:</strong> {summary}</div>')
 
-    # Affiliate disclosure mini-strip
-    body_parts.append('    <div class="affiliate-strip">affiliate disclosure: dollar bets earns a commission if you sign up to kalshi or polymarket through our links &mdash; never a cut of your bet, and we never hold your money. <a href="/affiliate-disclosure/">full disclosure &rarr;</a></div>')
+    # Affiliate disclosure mini-strip — platform-specific per the mock
+    _strip_platforms = _pf if _pf else "kalshi or polymarket"
+    body_parts.append(f'    <div class="affiliate-strip">affiliate disclosure: dollar bets earns a commission if you sign up to {_strip_platforms} through our links &mdash; never a cut of your bet, and we never hold your money. <a href="/affiliate-disclosure/">full disclosure &rarr;</a></div>')
 
     # === RANKED TOP-5 BOARD PROMO ===
-    # Load board data once, detect platform from page cluster/slug
     _boards = load_all_boards()
     _latest_board = _boards[-1][1] if _boards else None
-    slug_lower = (slug or "").lower()
-    cluster_lower = (page_data.get("cluster", "") or "").lower()
-    # Detect primary platform from slug/cluster for ranking filter
-    _pf = None
-    if "polymarket" in slug_lower or "polymarket" in cluster_lower:
-        _pf = "polymarket"
-    elif "kalshi" in slug_lower or "kalshi" in cluster_lower:
-        _pf = "kalshi"
     top_promo = render_board_promo(_latest_board, position="top", platform_filter=_pf)
     if top_promo:
         body_parts.append(top_promo)
@@ -423,27 +427,30 @@ def generate_content_page(page_data):
     # Compliance / legal strip
     body_parts.append(render_compliance(page_data.get("compliance", "")))
 
-    # SEO sticky bar — shows top-payout pick from the board
-    _sticky_html = ""
+    # SEO sticky bar — top-payout pick from the board, passed to page_shell
+    # so it REPLACES the default sticky bar (never two stacked fixed bars).
+    # NB: Kalshi board entries carry no "platform" key — always default it.
+    _sticky_html = None
     if _latest_board:
         _bets = _latest_board.get("board", [])
-        _filtered = [b for b in _bets if not _pf or b.get("platform") == _pf] or _bets
+        _filtered = [b for b in _bets if not _pf or b.get("platform", "kalshi") == _pf] or _bets
         _top = sorted(_filtered, key=lambda x: x.get("payout", 0), reverse=True)
         if _top:
             _t = _top[0]
             from generate import format_payout, market_link, PLATFORM_DISPLAY_NAMES
             _ticker = _t.get("ticker", "")
-            _payout_str = format_payout(_t.get("payout", 0))
-            _pname = PLATFORM_DISPLAY_NAMES.get(_t.get("platform", "kalshi"), "Kalshi")
+            _t_platform = _t.get("platform", "kalshi")
+            _t_tier = _t.get("tier", "")
+            _t_payout = _t.get("payout", 0)
+            _payout_str = format_payout(_t_payout)
+            _pname = PLATFORM_DISPLAY_NAMES.get(_t_platform, "Kalshi")
             _go_url = market_link(_ticker) if _ticker else "/"
-            _sticky_html = f"""    <div class="seo-sticky-bar">
-      <div class="seo-sticky-bar-inner">
-        <div class="seo-sticky-label">#1 bet pays<br><span class="seo-sticky-payout">{_payout_str} per $1</span></div>
-        <a href="{_go_url}" class="seo-sticky-cta">see odds on {_pname} &raquo;</a>
-      </div>
-    </div>"""
-    if _sticky_html:
-        body_parts.append(_sticky_html)
+            _sticky_html = f"""  <div class="seo-sticky-bar">
+    <div class="seo-sticky-bar-inner">
+      <div class="seo-sticky-label">#1 pick pays<br><span class="seo-sticky-payout">{_payout_str} per $1</span></div>
+      <a href="{_go_url}" class="seo-sticky-cta" data-platform="{_t_platform}" data-tier="{_t_tier}" data-payout="{_t_payout}" data-ticker="{_ticker}">see odds on {_pname} &raquo;</a>
+    </div>
+  </div>"""
 
     body = "\n\n".join(body_parts)
 
@@ -466,6 +473,8 @@ def generate_content_page(page_data):
         canonical=canonical,
         noindex=ni,
         extra_head=schema_tags,
+        sticky_html=_sticky_html,
+        compact_header=True,
     )
 
     # Determine output path from canonical
@@ -489,13 +498,10 @@ def generate_hall_of_filth_index(stories):
         payout = hero.get("payout", 0) if hero else 0
 
         links.append(f"""      <li class="wager">
-        <a href="{canonical}" style="display:block; padding:12px;">
-          <span class="wager-emoji">🟪</span>
-          <span class="wager-body">
-            <span class="wager-title">{seo.get('h1', '')}</span>
-            <span class="wager-payout">$1 &rarr; ${payout:,}</span>
-            <span class="wager-quip">{hero.get('quip', '') if hero else ''}</span>
-          </span>
+        <a href="{canonical}" class="link-card tier-purple">
+          <div class="link-card-title">{seo.get('h1', '')}</div>
+          <div class="link-card-sub">{hero.get('quip', '') if hero else ''}</div>
+          <div class="link-card-payout">$1 &rarr; ${payout:,}</div>
         </a>
       </li>""")
 
@@ -511,11 +517,9 @@ def generate_hall_of_filth_index(stories):
 {chr(10).join(links)}
     </ul>
 
-    <div style="margin:20px 0;padding:12px;border-top:1px solid #e8e7e0;font-size:11px;color:#6b5744">
-      more: <a href="/" style="color:#666">today's best $1 bets</a> · <a href="/sports-markets/" style="color:#666">today's underdogs</a>
-    </div>
+    <div class="internal-links-row">more: <a href="/">today's best $1 bets</a> &middot; <a href="/sports-markets/">today's underdogs</a></div>
 
-    <div style="font-size:10px;color:#b0afa8;line-height:1.6;margin:14px 0">All historical odds and returns are illustrative unless otherwise noted. Past results do not predict future outcomes. Longshots are longshots for a reason.</div>
+    <div class="legal-strip">All historical odds and returns are illustrative unless otherwise noted. Past results do not predict future outcomes. Longshots are longshots for a reason.</div>
 """
 
     html = page_shell(
@@ -578,11 +582,9 @@ def generate_guides_index(pages):
     def render_item(page):
         seo = page.get("seo", {})
         return f"""      <li class="wager">
-        <a href="{seo.get("canonical", "")}" style="display:block; padding:12px;">
-          <span class="wager-body">
-            <span class="wager-title">{seo.get("h1", "")}</span>
-            <span class="wager-quip">{seo.get("meta_description", "")}</span>
-          </span>
+        <a href="{seo.get("canonical", "")}" class="link-card">
+          <div class="link-card-title">{seo.get("h1", "")}</div>
+          <div class="link-card-sub">{seo.get("meta_description", "")}</div>
         </a>
       </li>"""
 
@@ -615,9 +617,7 @@ def generate_guides_index(pages):
 
 {sections_html}
 
-    <div style="margin:20px 0;padding:12px;border-top:1px solid #e8e7e0;font-size:11px;color:#6b5744">
-      more: <a href="/" style="color:#666">today's board</a> · <a href="/hall-of-filth/" style="color:#666">hall of filth</a> · <a href="/about/" style="color:#666">about dollar bets</a>
-    </div>
+    <div class="internal-links-row">more: <a href="/">today's board</a> &middot; <a href="/hall-of-filth/">hall of filth</a> &middot; <a href="/about/">about dollar bets</a></div>
 """
 
     html = page_shell(

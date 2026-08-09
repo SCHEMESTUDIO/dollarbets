@@ -155,7 +155,7 @@ def consent_banner_html():
         position: fixed; left: 0; right: 0; bottom: 0;
         background: #faf7f3; border-top: 2px solid #e8642c;
         z-index: 9000; padding: 14px 16px;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'IBM Plex Mono', 'Courier New', monospace;
         box-shadow: 0 -4px 12px rgba(45,35,25,0.08);
       }
       #db-consent[hidden] { display: none; }
@@ -171,12 +171,13 @@ def consent_banner_html():
       .db-consent-text a { color: #b5470a; text-decoration: underline; }
       .db-consent-actions { display: flex; gap: 8px; flex-shrink: 0; }
       .db-consent-actions button {
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'IBM Plex Mono', 'Courier New', monospace;
         font-size: 12px; font-weight: 700;
         padding: 8px 14px; cursor: pointer;
         text-transform: lowercase;
         border: 2px solid #e8642c; color: #e8642c;
         background: transparent;
+        border-radius: 8px;
       }
       .db-consent-actions button:hover { background: #e8642c; color: #fdf6ee; }
       .db-consent-actions #db-consent-decline {
@@ -232,7 +233,7 @@ SHARED_CSS = """
     }
     a { color: #b5470a; }
     a:hover { color: #c4341c; }
-    ::-webkit-scrollbar { display: none; }
+    .nav::-webkit-scrollbar { display: none; }
 
     .container {
       max-width: 640px;
@@ -265,6 +266,11 @@ SHARED_CSS = """
 
     .site-title .site-logo-bets {
       color: #e8642c;
+    }
+
+    /* Compact header (content pages) — 20px wordmark per Ticket Stand mock */
+    .site-title--compact {
+      font-size: 20px;
     }
 
     .freshness-pill {
@@ -971,24 +977,72 @@ SHARED_CSS = """
 
     .ranked-cta:hover { background: #1a5c2f; color: #fff; }
 
+    /* === LINK CARDS (index pages: recaps, archetypes, guides, hall of filth) === */
+    .link-card {
+      display: block;
+      background: #fff;
+      border: 1.5px solid #e8cdb5;
+      border-radius: 12px;
+      padding: 14px;
+      text-decoration: none;
+      color: #2d2319;
+      transition: border-color 0.15s ease;
+    }
+    .link-card:hover { border-color: #e8642c; color: #2d2319; }
+    .link-card.tier-purple { border-left: 5px solid #9c5ec7; }
+    .link-card-title {
+      font-family: 'Archivo', sans-serif;
+      font-weight: 700;
+      font-size: 15.5px;
+      line-height: 1.35;
+      color: #2d2319;
+    }
+    .link-card-sub {
+      font-size: 12px;
+      color: #6b5744;
+      font-style: italic;
+      margin-top: 3px;
+    }
+    .link-card-payout {
+      font-family: 'Archivo', sans-serif;
+      font-weight: 900;
+      font-size: 18px;
+      color: #237a3f;
+      letter-spacing: -0.5px;
+      margin-top: 4px;
+    }
+
+    /* Tier color swatch (about page tier explainer) */
+    .tier-swatch {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: 3px;
+      margin-right: 6px;
+      vertical-align: baseline;
+    }
+
     /* === LEGACY / MISC === */
     .page-intro { font-size: 13px; color: #3d2e1f; line-height: 1.7; margin-bottom: 18px; }
     .page-intro p { margin-bottom: 10px; }
-    .section-head { font-family: 'Archivo', sans-serif; font-size: 15px; font-weight: 700; color: #2d2319; margin: 24px 0 10px; }
+    /* One h2 style sitewide — matches .article-body h2 (17px Archivo 700) */
+    .section-head { font-family: 'Archivo', sans-serif; font-size: 17px; font-weight: 700; letter-spacing: -0.3px; color: #2d2319; margin: 24px 0 10px; }
+    /* Small uppercase orange eyebrow label — same system as .board-promo-header */
+    .section-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #b5470a; margin: 16px 0 10px; }
     .section-note { font-size: 12px; color: #806b5b; font-style: italic; margin-bottom: 12px; }
     .empty-note { font-size: 12px; color: #806b5b; font-style: italic; padding: 12px; }
     .legend { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; }
     .legend-pill { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; color: #6b5744; background: #fef0e4; border: 1px solid #f0dcc8; border-radius: 100px; padding: 4px 12px 4px 8px; white-space: nowrap; text-decoration: none; transition: all 0.15s ease; }
     a.legend-pill:hover { color: #b5470a; border-color: #e8642c; }
     .recap-block { margin-bottom: 20px; padding: 14px; background: #fff; border: 1.5px solid #e8cdb5; border-radius: 12px; }
-    .recap-label { font-size: 11px; font-weight: 700; color: #b5470a; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+    .recap-label { font-size: 11px; font-weight: 700; color: #b5470a; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 4px; }
     .recap-title { font-size: 14px; font-weight: 700; color: #2d2319; }
     .recap-detail { font-size: 12px; color: #6b5744; margin-top: 2px; }
     .recap-quip { font-size: 11.5px; color: #806b5b; font-style: italic; margin-top: 4px; }
     .autopsy-section { margin-bottom: 16px; }
-    .autopsy-section h3 { font-size: 13px; font-weight: 700; color: #6b5744; margin-bottom: 4px; }
+    .autopsy-section h3 { font-size: 13px; font-weight: 700; color: #2d2319; margin-bottom: 4px; }
     .autopsy-section p { font-size: 13px; color: #6b5744; line-height: 1.6; }
-    .autopsy-verdict { font-size: 14px; font-weight: 700; color: #2d2319; padding: 14px; background: #fef0e4; border: 1.5px solid #e8cdb5; border-radius: 8px; margin: 16px 0; font-style: italic; }
+    .autopsy-verdict { font-size: 14px; font-weight: 700; color: #2d2319; padding: 14px; background: #fef0e4; border: 1.5px solid #e8cdb5; border-radius: 12px; margin: 16px 0; font-style: italic; }
 
     /* === SIGNUP === */
     .signup { margin: 28px 0; }
@@ -1052,12 +1106,54 @@ SIGNUP_HTML = """
 # first bet on every board page. Plain-English trust signal — visible to
 # every visitor regardless of region. Geo-restriction warnings happen at
 # the /go/ interstitial.
-DISCLOSURE_STRIP_HTML = """    <div class="disclosure-strip">
-      we earn affiliate commissions when you sign up to kalshi or polymarket through our links. we don't take a cut of any bet, hold any of your money, or get paid more if you lose.
-    </div>
-"""
-
 SIGNUP_JS = ""
+
+_BOARD_META_CACHE = "unset"
+
+
+def _latest_board_meta():
+    """Real freshness/count data from the latest prediction-market board JSON.
+
+    Returns dict(date_str, scan_time_et, market_count, venue_count) or None.
+    Cached after first call — page_shell runs for every page in a build.
+    Never fabricates: fields missing from the board JSON come back as None
+    and callers omit the corresponding UI element (no-fake-data rule).
+    """
+    global _BOARD_META_CACHE
+    if _BOARD_META_CACHE != "unset":
+        return _BOARD_META_CACHE
+    meta = None
+    try:
+        boards = load_all_boards()
+        if boards:
+            latest_date, latest_data = boards[-1]
+            try:
+                date_str = datetime.fromisoformat(latest_date).strftime("%B %d, %Y").replace(" 0", " ")
+            except ValueError:
+                date_str = latest_date
+            scan_time_et = None
+            generated_at = latest_data.get("generated_at", "")
+            if generated_at:
+                try:
+                    from zoneinfo import ZoneInfo
+                    dt = datetime.fromisoformat(generated_at)
+                    et = dt.astimezone(ZoneInfo("America/New_York"))
+                    hour = et.strftime("%I:%M").lstrip("0")
+                    scan_time_et = f"{hour}{et.strftime('%p').lower()} ET"
+                except Exception:
+                    scan_time_et = None
+            board = latest_data.get("board", [])
+            venues = {m.get("platform", "kalshi") for m in board}
+            meta = {
+                "date_str": date_str,
+                "scan_time_et": scan_time_et,
+                "market_count": len(board),
+                "venue_count": len(venues),
+            }
+    except Exception:
+        meta = None
+    _BOARD_META_CACHE = meta
+    return meta
 
 
 BOARD_NAV_LINKS = [
@@ -1116,8 +1212,14 @@ def footer_info_nav():
     return f'    <div class="footer-info-nav">\n        {items}\n    </div>\n'
 
 
-def page_shell(title, description, body, canonical="", noindex=False, current_nav="", extra_head=""):
+def page_shell(title, description, body, canonical="", noindex=False, current_nav="", extra_head="", sticky_html=None, compact_header=False):
     """Wrap body content in the full HTML shell.
+
+    `sticky_html` — optional pre-built fixed bottom bar; replaces the default
+    board sticky bar (content pages pass their own payout-specific bar so a
+    page never renders two stacked fixed bars).
+    `compact_header` — Ticket Stand SEO-page header: 20px wordmark + freshness
+    pill only; no tagline, no chip nav (content pages carry a breadcrumb).
 
     `title` and `description` are treated as raw strings (callers pass plain
     text, not pre-escaped HTML); page_shell HTML-escapes them on the way out
@@ -1138,12 +1240,46 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
     is_homepage = canonical == "/"
     title_tag = "h1" if is_homepage else "div"
     # Wordmark: DOLLAR in ink, BETS in orange
+    compact_class = " site-title--compact" if compact_header else ""
     site_title_html = (
-        f'<{title_tag} class="site-title">'
+        f'<{title_tag} class="site-title{compact_class}">'
         f'<a href="/">DOLLAR<span class="site-logo-bets">BETS</span></a>'
         f'</{title_tag}>'
     )
-    date_str = datetime.now().strftime("%B %d, %Y").replace(" 0", " ")
+
+    # Real freshness data from the latest board JSON — never fabricated.
+    board_meta = _latest_board_meta()
+    if board_meta and board_meta.get("scan_time_et"):
+        freshness_pill = f'<span class="freshness-pill">&#9679; updated {board_meta["scan_time_et"]}</span>'
+    elif board_meta:
+        freshness_pill = f'<span class="freshness-pill">&#9679; updated {board_meta["date_str"]}</span>'
+    else:
+        freshness_pill = ""
+
+    # Date on the disclosure line = the board's scan date (not the build
+    # date, which can lag/lead the data and show a mismatched day).
+    date_str = board_meta["date_str"] if board_meta else datetime.now().strftime("%B %d, %Y").replace(" 0", " ")
+
+    if compact_header:
+        tagline_html = ""
+        nav_block = ""
+        disclosure_line = ""
+    else:
+        tagline_html = '<div class="tagline">The world\'s most interesting $1 wagers. A buck says maybe.</div>'
+        nav_block = f'<nav aria-label="Boards" class="nav">{nav_html(current_nav)}</nav>'
+        disclosure_line = f'<div class="disclosure-strip">{date_str} &mdash; we scan <strong>CFTC-regulated exchanges</strong> + major prediction markets every morning. we earn a commission if you sign up through our links &mdash; never a cut of your bet, and we never hold your money.</div>'
+
+    if sticky_html is None:
+        if board_meta:
+            sticky_info = f'{board_meta["market_count"]} live markets<br><span>{board_meta["venue_count"]} venues</span>'
+        else:
+            sticky_info = 'live prediction markets<br><span>kalshi &middot; polymarket</span>'
+        sticky_html = f"""  <div class="sticky-bar">
+    <div class="sticky-bar-inner">
+      <div class="sticky-bar-info">{sticky_info}</div>
+      <a href="/" class="sticky-bar-cta">see today's best odds &raquo;</a>
+    </div>
+  </div>"""
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -1185,13 +1321,13 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
 
     <header class="header">
       {site_title_html}
-      <span class="freshness-pill">&#9679; updated daily</span>
+      {freshness_pill}
     </header>
-    <div class="tagline">The world's most interesting $1 wagers. A buck says maybe.</div>
+    {tagline_html}
 
-    <nav aria-label="Boards" class="nav">{nav_html(current_nav)}</nav>
+    {nav_block}
 
-    <div class="disclosure-strip">{date_str} &mdash; we scan <strong>CFTC-regulated exchanges</strong> + major prediction markets every morning. we earn a commission if you sign up through our links &mdash; never a cut of your bet, and we never hold your money.</div>
+    {disclosure_line}
 
     <main id="content">
 {body}
@@ -1203,18 +1339,14 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
 
     <footer class="footer">
       <p>dollar bets is an editorial discovery site, not a broker, exchange, bookmaker, financial adviser, or gambling operator. we do not operate markets, take bets, or provide betting, financial, investment, or legal advice. market availability varies by jurisdiction. users are responsible for complying with local laws and platform eligibility rules. longshots are unlikely by definition. never risk money you cannot afford to lose.</p>
-      <p style="margin-top:6px">"$1 pays" = what one dollar returns if the event happens. actual returns depend on price at purchase. some links may be affiliate links &mdash; see our <a href="/affiliate-disclosure/">disclosure</a>. this site is intended for adults only.</p>
+      <p style="margin-top:6px">"$1 pays" = what one dollar returns if the event happens. actual returns depend on price at purchase. some links may be affiliate links &mdash; see our <a href="/affiliate-disclosure/">disclosure</a>.</p>
+      <p style="margin-top:6px">this site is intended for adults only. do not use this site if you are under the legal age for gambling, trading, or participating in prediction markets in your jurisdiction.</p>
       <p style="margin-top:6px">&copy; {year} dollarbets.lol</p>
     </footer>
 
   </div>
 
-  <div class="sticky-bar">
-    <div class="sticky-bar-inner">
-      <div class="sticky-bar-info">live prediction markets<br><span>kalshi &middot; polymarket</span></div>
-      <a href="/" class="sticky-bar-cta">see today's best odds &raquo;</a>
-    </div>
-  </div>
+{sticky_html}
 
 {consent_banner_html()}
 {SIGNUP_JS}
@@ -1499,6 +1631,7 @@ def render_longshot_hero(m):
         url = m.get("url", "#")
     platform = m.get("platform", "kalshi")
     platform_name = PLATFORM_DISPLAY_NAMES.get(platform, platform.title())
+    tier = m.get("tier", "purple")
     priced_in = "&lt;1%" if payout_val >= 100 else (f"{round(100 / payout_val)}%" if payout_val > 0 else "")
 
     return f"""      <li class="wager">
@@ -1513,7 +1646,7 @@ def render_longshot_hero(m):
             <span class="hero-longshot-amount">{payout_str}</span>
             <span class="hero-longshot-meta">{platform_name}<br>{priced_in} priced in</span>
           </div>
-          <a href="{url}" target="_blank" rel="noopener nofollow" class="hero-longshot-cta" data-platform="{platform}" data-tier="purple" data-payout="{payout_val}" data-ticker="{ticker}">see the odds on {platform_name} &raquo;</a>
+          <a href="{url}" target="_blank" rel="noopener nofollow" class="hero-longshot-cta" data-platform="{platform}" data-tier="{tier}" data-payout="{payout_val}" data-ticker="{ticker}">see the odds on {platform_name} &raquo;</a>
         </div>
       </li>"""
 
@@ -1525,9 +1658,9 @@ def render_sports_bet_card(m, from_slug=None):
     "chalk", "combo-meal", "the-lineup") so the redirect handler can
     return users to the correct page on geo failure.
     """
-    emoji = tier_emoji(m.get("tier", ""))
     tier = m.get("tier", "")
-    payout_str = format_payout(m.get("payout", 0))
+    payout_val = m.get("payout", 0)
+    payout_str = format_payout(payout_val)
     raw_title = m.get("title", "")
     raw_quip = m.get("quip", "")
     title = _e(raw_title)
@@ -1536,7 +1669,7 @@ def render_sports_bet_card(m, from_slug=None):
     url = market_link(ticker, from_slug=from_slug) if ticker else m.get("url", "#")
 
     odds_str = m.get("american_odds", "")
-    odds_badge = f'<span class="odds-badge">{_e(odds_str)}</span>' if odds_str else ""
+    odds_badge = f' &middot; <span class="odds-badge">{_e(odds_str)}</span>' if odds_str else ""
 
     share_title = _e(raw_title)
     share_quip = _e(raw_quip)
@@ -1546,28 +1679,34 @@ def render_sports_bet_card(m, from_slug=None):
 
     tier_class = f" tier-{tier}" if tier else ""
 
+    # Priced-in % derived from the real payout (no fake data)
+    priced_in = f"{round(100 / payout_val)}%" if payout_val > 0 else ""
+    meta_line = f"{platform_name}{odds_badge} &middot; {priced_in} chance priced in" if priced_in else f"{platform_name}{odds_badge}"
+
     return f"""      <li class="wager{tier_class}">
-        <a href="{url}" target="_blank" rel="noopener nofollow" data-platform="{platform}" data-tier="{tier}" data-payout="{m.get('payout', 0)}" data-ticker="{ticker}">
-          <span class="wager-emoji">{emoji}</span>
-          <span class="wager-body">
-            <span class="wager-title">{title}</span>
-            <span class="wager-quip">{quip}</span>
-            <span class="wager-payout-row">
-              <span class="wager-payout"><span class="payout-stake">$1</span> <span class="payout-arrow">&rarr;</span> <span class="payout-return">{payout_str}</span></span>
-              {odds_badge}
-              <span class="open-platform">{platform_name} <span class="cta-arrow">&raquo;</span></span>
-              <span class="share-wrap" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}" data-ticker="{ticker}">
-                <button class="share-btn" onclick="toggleShare(event, this)">[share]</button>
-                <div class="share-menu">
-                  <button class="sm-reddit" onclick="shareTo(event,'reddit',this)">reddit</button>
-                  <button class="sm-x" onclick="shareTo(event,'x',this)">x / twitter</button>
-                  <button class="sm-fb" onclick="shareTo(event,'fb',this)">facebook</button>
-                  <button class="sm-copy" onclick="shareTo(event,'copy',this)">copy link</button>
-                </div>
-              </span>
+        <div class="wager-card">
+          <div class="wager-title-row">
+            <div class="wager-title">{title}</div>
+            <div class="wager-payout-block">
+              <div class="payout-label">$1 pays</div>
+              <div class="payout-number">{payout_str}</div>
+            </div>
+          </div>
+          <div class="wager-quip">{quip}</div>
+          <div class="wager-cta-row">
+            <a href="{url}" target="_blank" rel="noopener nofollow" class="open-platform" data-platform="{platform}" data-tier="{tier}" data-payout="{payout_val}" data-ticker="{ticker}">view market on {platform_name} &raquo;</a>
+            <span class="share-wrap" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}" data-ticker="{ticker}">
+              <button class="share-btn" onclick="toggleShare(event, this)" title="share">&#x2197;</button>
+              <div class="share-menu">
+                <button class="sm-reddit" onclick="shareTo(event,'reddit',this)">reddit</button>
+                <button class="sm-x" onclick="shareTo(event,'x',this)">x / twitter</button>
+                <button class="sm-fb" onclick="shareTo(event,'fb',this)">facebook</button>
+                <button class="sm-copy" onclick="shareTo(event,'copy',this)">copy link</button>
+              </div>
             </span>
-          </span>
-        </a>
+          </div>
+          <div class="wager-meta">{meta_line}</div>
+        </div>
       </li>"""
 
 
@@ -2021,7 +2160,10 @@ def generate_daily_board(boards):
     # Select today's filthy little longshot (homepage only)
     longshot_idx = select_filthy_longshot(board)
 
-    body = date_line + legend + DISCLOSURE_STRIP_HTML + render_bet_list(board, longshot_idx=longshot_idx) + trust_strip
+    # Old date_line / legend pills / duplicate disclosure strip removed —
+    # page_shell now renders the merged date+disclosure line and the tier
+    # colors read from the card left-borders (Ticket Stand mock has no legend).
+    body = render_bet_list(board, longshot_idx=longshot_idx) + trust_strip
 
     # Homepage structured data: Organization + WebSite + ItemList
     market_items = []
@@ -2092,7 +2234,7 @@ def generate_lineup_board(sports_boards):
 
     # Sports-specific header
     header = """    <h1 class="page-title">the lineup</h1>
-    <div class="tagline" style="margin-bottom:12px">
+    <div class="page-intro">
       Sports bets for people who believe garbage time is destiny with a shot clock. Every market is translated into what a single dollar could pay — from respectable favorites to franchise miracles.
     </div>
 """
@@ -2119,7 +2261,7 @@ def generate_lineup_board(sports_boards):
     </div>
 """
 
-    body = header + date_line + legend + DISCLOSURE_STRIP_HTML + render_sports_bet_list(board, from_slug="the-lineup") + trust_strip
+    body = header + render_sports_bet_list(board, from_slug="the-lineup") + trust_strip
 
     # Structured data
     market_items = []
@@ -2228,7 +2370,7 @@ def generate_sports_sub_board(board_key):
     date_line = f'    <div class="date-line" style="margin-bottom:14px">{date_str}</div>\n'
 
     header = f"""    <h1 class="page-title">{config["page_title"]}</h1>
-    <div class="tagline" style="margin-bottom:12px">
+    <div class="page-intro">
       {config["tagline"]}
     </div>
 """
@@ -2255,7 +2397,7 @@ def generate_sports_sub_board(board_key):
 """
 
     empty_msg = "no picks right now — check back soon. some sports sleep so the board can wake up swinging."
-    body = header + date_line + legend + DISCLOSURE_STRIP_HTML + render_sports_bet_list(board, empty_msg, from_slug=config["url_slug"]) + trust_strip
+    body = header + render_sports_bet_list(board, empty_msg, from_slug=config["url_slug"]) + trust_strip
 
     slug = config["url_slug"]
     schema = f"""<script type="application/ld+json">{{
@@ -2352,13 +2494,16 @@ def generate_tier_pages(boards, sports_boards):
     for tier_key, tier_info in TIERS.items():
         tier_markets = [m for m in all_markets if m.get("tier") == tier_key]
 
-        header = f"""    <h1 class="page-title">{tier_info['emoji']} {tier_info['label']}</h1>
-    <div class="tagline" style="margin-bottom:12px">
+        # Tier square emojis retired — tier reads from the card left-border
+        # color (Ticket Stand); swatch echoes it in the H1.
+        swatch = f'<span class="tier-swatch" style="background:{TIER_COLORS.get(tier_key, "#806b5b")}"></span>'
+        header = f"""    <h1 class="page-title">{swatch}{tier_info['label']}</h1>
+    <div class="page-intro">
       {tier_info['intro']}
     </div>
 """
         mkt_word = "market" if len(tier_markets) == 1 else "markets"
-        count_line = f'    <div class="date-line" style="margin-bottom:14px">{len(tier_markets)} active {mkt_word} across all boards</div>\n'
+        count_line = f'    <div class="section-note">{len(tier_markets)} active {mkt_word} across all boards</div>\n'
 
         body = header + count_line + render_bet_list(tier_markets, empty_msg="no active markets at this tier right now — check back tomorrow.")
 
@@ -2472,7 +2617,7 @@ def generate_category_pages(all_bets):
             related_html = f'    <div style="padding:16px 0;font-size:12px;color:#6b5744;border-top:1.5px solid #e8cdb5;margin-top:16px">more boards: {related_links}</div>\n'
 
         body = f"""    <h1 class="page-title">{config['h1']}</h1>
-    <div class="tagline" style="margin-bottom:12px">
+    <div class="page-intro">
       {config['tagline']}
     </div>
 
@@ -2651,7 +2796,7 @@ def generate_weekly_recaps(boards):
         blocks_html = "\n".join(blocks)
 
         body = f"""    <h1 class="page-title">the week in dollar bets</h1>
-    <div class="date-line" style="margin-bottom:14px">{week_label}</div>
+    <div class="byline" style="margin-bottom:14px">{week_label}</div>
     <div class="page-intro">
       <p>{len(unique_week)} markets featured across {len(week_boards)} days. Here's what stood out.</p>
     </div>
@@ -2677,7 +2822,7 @@ def recap_block(label, bet, detail):
     """Render a recap highlight block. Untrusted fields escaped."""
     return f"""    <div class="recap-block">
       <div class="recap-label">{_e(label)}</div>
-      <div class="recap-title">{tier_emoji(bet.get('tier', ''))} {_e(bet.get('title', ''))}</div>
+      <div class="recap-title">{_e(bet.get('title', ''))}</div>
       <div class="recap-detail">{_e(detail)}</div>
       <div class="recap-quip">{_e(bet.get('quip', ''))}</div>
     </div>"""
@@ -2721,7 +2866,7 @@ def generate_market_autopsies(all_bets):
             url = "#"
 
         body = f"""    <h1 class="page-title">market autopsy: {title}</h1>
-    <div class="date-line" style="margin-bottom:14px">featured {date_featured} · {category}</div>
+    <div class="byline" style="margin-bottom:14px">featured {date_featured} · {category}</div>
 
     <div class="autopsy-verdict">
       "{quip}"
@@ -2744,7 +2889,7 @@ def generate_market_autopsies(all_bets):
 
     <div class="autopsy-section">
       <h3>see this market</h3>
-      <p><a href="{url}" target="_blank" rel="noopener nofollow" style="color:#333">view on kalshi →</a></p>
+      <p><a href="{url}" target="_blank" rel="noopener nofollow">view on kalshi →</a></p>
     </div>
 """
 
@@ -2793,41 +2938,44 @@ def generate_about_page():
 
       <p>Every day we scan thousands of prediction markets and surface the 10 weirdest, funniest, and most culturally relevant ones. We translate every market into a simple question: if you put $1 on this, what would you get back?</p>
 
-      <p style="margin-top:16px"><a href="/" style="color:#b5470a;font-weight:700;text-decoration:none;border:1.5px solid #e8cdb5;padding:8px 16px;border-radius:6px;background:#fff">see today's board &rarr;</a></p>
+      <p style="margin-top:16px"><a href="/" style="color:#b5470a;font-weight:700;text-decoration:none;border:1.5px solid #e8cdb5;padding:10px 16px;border-radius:8px;background:#fff">see today's board &rarr;</a></p>
 
-      <p style="font-weight:700; margin-top:24px">what "$1 pays $80" means</p>
+      <h2 class="section-head">what "$1 pays $80" means</h2>
 
       <p>Prediction markets let you trade on the outcome of real events. Prices move between $0 and $1. If an outcome is trading at $0.0125, a $1 bet pays $80 if it happens. That's it. We frame every market this way so you can instantly compare how weird the odds are.</p>
 
-      <p style="font-size:11px;font-weight:700;color:#b5470a;text-transform:uppercase;letter-spacing:1.2px;margin-top:16px">example</p>
+      <div class="section-label">example</div>
     </div>
 
     <ul class="board" style="margin-bottom:18px">
       <li class="wager tier-orange">
-        <a href="/go/KXSNOW/" target="_blank" rel="noopener nofollow">
-          <span class="wager-emoji">🟧</span>
-          <span class="wager-body">
-            <span class="wager-title">Snow in Phoenix before March?</span>
-            <span class="wager-quip">weather channel intern enters witness protection</span>
-            <span class="wager-payout-row">
-              <span class="wager-payout"><span class="payout-stake">$1</span> <span class="payout-arrow">&rarr;</span> <span class="payout-return">$80</span></span>
-              <span class="open-platform">Kalshi <span class="cta-arrow">&raquo;</span></span>
-            </span>
-          </span>
-        </a>
+        <div class="wager-card">
+          <div class="wager-title-row">
+            <div class="wager-title">Snow in Phoenix before March?</div>
+            <div class="wager-payout-block">
+              <div class="payout-label">$1 pays</div>
+              <div class="payout-number">$80</div>
+            </div>
+          </div>
+          <div class="wager-quip">weather channel intern enters witness protection</div>
+          <div class="wager-cta-row">
+            <a href="/go/KXSNOW/" target="_blank" rel="noopener nofollow" class="open-platform">view market on Kalshi &raquo;</a>
+          </div>
+          <div class="wager-meta">Kalshi &middot; CFTC-regulated &middot; 1% chance priced in</div>
+        </div>
       </li>
     </ul>
 
     <div class="page-intro">
-      <p style="font-weight:700">the payout tiers</p>
+      <h2 class="section-head">the payout tiers</h2>
 
-      <p>🟩 <strong>$1–$10</strong> — respectable<br>
-      🟨 <strong>$11–$50</strong> — alive<br>
-      🟧 <strong>$51–$100</strong> — heater<br>
-      🟥 <strong>$101–$500</strong> — filthy<br>
-      🟪 <strong>$500+</strong> — generational</p>
+      <p><span class="tier-swatch" style="background:#4caf50"></span><strong>$1–$10</strong> — respectable<br>
+      <span class="tier-swatch" style="background:#e6c731"></span><strong>$11–$50</strong> — alive<br>
+      <span class="tier-swatch" style="background:#d06a1a"></span><strong>$51–$100</strong> — heater<br>
+      <span class="tier-swatch" style="background:#e05252"></span><strong>$101–$500</strong> — filthy<br>
+      <span class="tier-swatch" style="background:#9c5ec7"></span><strong>$500+</strong> — generational</p>
 
-      <p style="font-weight:700; margin-top:16px">what dollar bets is not</p>
+      <h2 class="section-head">what dollar bets is not</h2>
 
       <div style="background:#fff;border:1.5px solid #e8cdb5;border-radius:8px;padding:14px 16px;font-size:13px;color:#6b5744;line-height:2;margin:8px 0 16px">
         &#10005;&nbsp; not a sportsbook<br>
@@ -2840,7 +2988,7 @@ def generate_about_page():
 
       <p>The markets we feature are real. They have real money behind them, real deadlines, and real outcomes. Most of the longshots will not pay off. That's what makes them longshots. The point is not to win — the point is that these markets exist at all, and they're frequently absurd, occasionally profound, and almost always more entertaining than whatever else you were going to do with a dollar.</p>
 
-      <p style="font-weight:700; margin-top:16px">how we pick the board</p>
+      <h2 class="section-head">how we pick the board</h2>
 
       <p>we like markets that are:</p>
       <p style="padding-left:12px;color:#6b5744">
@@ -2855,10 +3003,10 @@ def generate_about_page():
       <p>The board updates daily. The email is free. The bets are a dollar. The rest is up to the universe.</p>
 
       <p style="margin-top:20px; display:flex; gap:12px; flex-wrap:wrap">
-        <a href="/" style="color:#b5470a;font-weight:700;text-decoration:none;border:1.5px solid #e8cdb5;padding:8px 16px;border-radius:6px;background:#fff">see today's board &rarr;</a>
+        <a href="/" style="color:#b5470a;font-weight:700;text-decoration:none;border:1.5px solid #e8cdb5;padding:10px 16px;border-radius:8px;background:#fff">see today's board &rarr;</a>
       </p>
 
-      <p style="font-weight:700; margin-top:16px">contact us</p>
+      <h2 class="section-head">contact us</h2>
 
       <p><a href="mailto:hello@dollarbets.lol" style="color:#6b5744">hello@dollarbets.lol</a></p>
 
@@ -3098,15 +3246,15 @@ def generate_html_sitemap(pages):
         paths = sorted(set(section_paths.get(label, [])))
         if not paths:
             continue
-        body_parts.append(f'    <h2 style="font-size:13px;text-transform:uppercase;letter-spacing:1px;margin-top:24px;border-bottom:1px solid #e8e7e0;padding-bottom:4px">{label} <span style="color:#7a6e5f;font-weight:normal">({len(paths)})</span></h2>')
+        body_parts.append(f'    <h2 class="section-head" style="border-bottom:1.5px solid #e8cdb5;padding-bottom:4px">{label} <span style="color:#a08b77;font-weight:normal;font-size:13px">({len(paths)})</span></h2>')
         body_parts.append('    <ul style="list-style:none;padding-left:0;margin:8px 0 0 0;font-size:12px;line-height:1.7">')
         for path in paths:
             label_text = path.strip("/") or "home"
-            body_parts.append(f'      <li><a href="{path}" style="color:#000;text-decoration:underline">{label_text}</a></li>')
+            body_parts.append(f'      <li><a href="{path}">{label_text}</a></li>')
         body_parts.append('    </ul>')
         total += len(paths)
 
-    body_parts.append(f'    <div style="margin-top:24px;font-size:10px;color:#7a6e5f">{total} pages total. last updated {datetime.now().strftime("%Y-%m-%d")}.</div>')
+    body_parts.append(f'    <div style="margin-top:24px;font-size:10px;color:#a08b77">{total} pages total. last updated {datetime.now().strftime("%Y-%m-%d")}.</div>')
 
     body = "\n".join(body_parts)
     html = page_shell(
@@ -3164,13 +3312,11 @@ def generate_archetype_index():
     links = []
     for slug, config in ARCHETYPES.items():
         emoji = config.get("emoji", "")
+        emoji_prefix = f"{emoji} " if emoji else ""
         links.append(f"""      <li class="wager">
-        <a href="/archetypes/{slug}/" style="display:block; padding:12px;">
-          <span class="wager-emoji">{emoji}</span>
-          <span class="wager-body">
-            <span class="wager-title">{config['h1']}</span>
-            <span class="wager-quip">{config['description'][:80]}...</span>
-          </span>
+        <a href="/archetypes/{slug}/" class="link-card">
+          <div class="link-card-title">{emoji_prefix}{config['h1']}</div>
+          <div class="link-card-sub">{config['description'][:80]}...</div>
         </a>
       </li>""")
 
@@ -3226,12 +3372,9 @@ def generate_recap_index(boards):
                 titles.add(b.get("title", ""))
 
         links.append(f"""      <li class="wager">
-        <a href="/recap/{week_slug}/" style="display:block; padding:12px;">
-          <span class="wager-emoji">📰</span>
-          <span class="wager-body">
-            <span class="wager-title">{week_label}</span>
-            <span class="wager-quip">{len(titles)} markets · {len(week_boards)} days</span>
-          </span>
+        <a href="/recap/{week_slug}/" class="link-card">
+          <div class="link-card-title">{week_label}</div>
+          <div class="link-card-sub">{len(titles)} markets &middot; {len(week_boards)} days</div>
         </a>
       </li>""")
 
@@ -3285,10 +3428,10 @@ def generate_404_page():
       <p style="margin-top:12px">Try one of these instead:</p>
       <p style="margin-top:8px">
         <a href="/" style="color:#b5470a;font-weight:700">today's board</a> ·
-        <a href="/weird-markets/" style="color:#666">weird markets</a> ·
-        <a href="/sports-markets/" style="color:#666">sports markets</a> ·
-        <a href="/about/" style="color:#666">about</a> ·
-        <a href="/guides/" style="color:#666">guides</a>
+        <a href="/weird-markets/" style="color:#6b5744">weird markets</a> ·
+        <a href="/sports-markets/" style="color:#6b5744">sports markets</a> ·
+        <a href="/about/" style="color:#6b5744">about</a> ·
+        <a href="/guides/" style="color:#6b5744">guides</a>
       </p>
     </div>
 """
@@ -3514,7 +3657,7 @@ def generate_share_pages(boards):
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 </head>
-<body style="font-family:'Courier New',monospace;background:#fdf6ee;color:#2d2319;text-align:center;padding:60px 20px">
+<body style="font-family:'IBM Plex Mono','Courier New',monospace;background:#fdf6ee;color:#2d2319;text-align:center;padding:60px 20px">
   <p>redirecting to <a href="/">dollarbets.lol</a>...</p>
   <script>window.location.replace("/");</script>
 </body>

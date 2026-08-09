@@ -328,6 +328,98 @@ def _pick_related_markets(board_source_path_prefix, exclude_ticker, n=4):
         return []
 
 
+# Shared dark Ticket Stand CSS for the /go/ unavailable pages — matches the
+# interstitial (interstitial_html) so the whole /go/ flow reads as one screen
+# family. Plain string (not an f-string): safe to interpolate into templates.
+UNAVAILABLE_SHARED_CSS = """  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #2d2319;
+    color: #d7c8b2;
+    font-family: 'IBM Plex Mono', 'Courier New', monospace;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: #e8642c; }
+  a:hover { color: #ff8a50; }
+  .wrap {
+    max-width: 480px;
+    width: 100%;
+    padding: 32px 20px 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  .wordmark { display: flex; align-items: center; justify-content: space-between; }
+  .wordmark-text {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    color: #fdf6ee;
+    text-decoration: none;
+  }
+  .wordmark-text span { color: #e8642c; }
+  .status-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #93836c;
+  }
+  .ticket {
+    background: #fdf6ee;
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 20px;
+    color: #2d2319;
+  }
+  .ticket h1 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 1.3;
+    text-transform: lowercase;
+  }
+  .ticket p { font-size: 12.5px; line-height: 1.6; color: #5a4e2f; margin-top: 8px; }
+  .note {
+    background: rgba(254,249,231,0.06);
+    border: 1px solid #5a4e3f;
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-top: 12px;
+    font-size: 11.5px;
+    line-height: 1.7;
+    color: #b7a894;
+  }
+  .note strong { color: #d7c8b2; }
+  .note p { margin: 0 0 6px 0; }
+  .note ul { list-style: none; padding: 0; margin: 0; font-size: 12px; line-height: 1.8; }
+  a.back {
+    display: block;
+    margin-top: 16px;
+    background: #e8642c;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 13px;
+    min-height: 44px;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: background 0.15s ease;
+  }
+  a.back:hover { background: #c4341c; color: #fff; }
+  .fine {
+    margin-top: auto;
+    padding-top: 28px;
+    font-size: 10px;
+    color: #6f6250;
+    line-height: 1.7;
+  }"""
+
+
 def sportsbook_unavailable_html(market_title, book_display, user_state=None,
                                  user_country=None, back_path="/the-lineup/",
                                  related_markets=None):
@@ -386,13 +478,13 @@ def sportsbook_unavailable_html(market_title, book_display, user_state=None,
     # Optional related-markets escape-hatch block — internal /go/ links only
     if related_markets:
         related_items = "".join(
-            f'<li><a href="{html.escape(m["href"], quote=True)}" style="color:#d97c3c">{html.escape(m["title"], quote=True)}</a></li>'
+            f'<li><a href="{html.escape(m["href"], quote=True)}">{html.escape(m["title"], quote=True)}</a></li>'
             for m in related_markets
         )
         related_block = f"""
-  <div class="related">
-    <p style="font-size:12px;color:#6b5744;margin:0 0 6px 0">other wagers on today's board:</p>
-    <ul style="list-style:none;padding:0;margin:0;font-size:13px;line-height:1.7">
+  <div class="note related">
+    <p>other wagers on today's board:</p>
+    <ul>
       {related_items}
     </ul>
   </div>"""
@@ -405,45 +497,32 @@ def sportsbook_unavailable_html(market_title, book_display, user_state=None,
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>not available — dollar bets</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;900&family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
-  body {{
-    background: #fdf6ee; color: #2d2319; font-family: 'Courier New', monospace;
-    display: flex; justify-content: center; align-items: center;
-    min-height: 100vh; margin: 0; padding: 16px; box-sizing: border-box;
-  }}
-  .box {{
-    max-width: 480px; width: 100%; border: 1px solid #e8cdb5; padding: 24px;
-    background: #faf7f3;
-  }}
-  h1 {{ font-size: 16px; margin: 0 0 16px 0; text-transform: lowercase; color: #2d2319; }}
-  p {{ font-size: 13px; line-height: 1.6; margin: 0 0 12px 0; color: #5a4e2f; }}
-  .warn {{
-    background: #fef9e7; border: 1px solid #d4c479; color: #5a4e2f;
-    padding: 10px 12px; margin: 16px 0; font-size: 12px;
-  }}
-  .related {{ margin: 16px 0; padding: 10px 12px; border-left: 3px solid #e8cdb5; }}
-  .related ul li {{ margin-bottom: 4px; }}
-  a.back {{
-    display: block; text-align: center; margin: 16px auto 0; padding: 12px 24px;
-    border: 2px solid #e8642c; color: #e8642c; text-decoration: none;
-    font-family: 'Courier New', monospace; font-size: 15px; font-weight: 700;
-    max-width: 280px;
-  }}
-  a.back:hover {{ background: #e8642c; color: #fdf6ee; }}
-  .fine {{ font-size: 11px; color: #a08b77; margin-top: 20px; }}
+{UNAVAILABLE_SHARED_CSS}
 </style>
 </head>
 <body>
-<div class="box">
-  <h1>sportsbook not available in your {region_noun}</h1>
-  <p><strong>{safe_book_display}</strong> is not available in <strong>{safe_region_label}</strong> for the wager "{safe_market_title}".</p>
-  <div class="warn">
-    <p>sportsbook availability varies by {region_noun}. dollar bets does not control which {region_plural} are supported.</p>
+<div class="wrap">
+  <div class="wordmark">
+    <a href="/" class="wordmark-text">DOLLAR<span>BETS</span></a>
+    <span class="status-label">not available</span>
   </div>
+
+  <div class="ticket">
+    <h1>sportsbook not available in your {region_noun}</h1>
+    <p><strong>{safe_book_display}</strong> is not available in <strong>{safe_region_label}</strong> for the wager "{safe_market_title}".</p>
+  </div>
+
+  <div class="note">sportsbook availability varies by {region_noun}. dollar bets does not control which {region_plural} are supported.</div>
   {related_block}
-  <p>check the <a href="{safe_back_path}" style="color:#d97c3c">{safe_path_label} board</a> for other wagers, or other boards for different sportsbooks.</p>
-  <a class="back" href="{safe_back_path}">back to {safe_path_label}</a>
-  <p class="fine">dollar bets is an editorial site. we do not operate sportsbooks or verify user eligibility.</p>
+  <div class="note">check the <a href="{safe_back_path}">{safe_path_label} board</a> for other wagers, or other boards for different sportsbooks.</div>
+
+  <a class="back" href="{safe_back_path}">back to {safe_path_label} &raquo;</a>
+
+  <div class="fine">dollar bets is an editorial site. we do not operate sportsbooks or verify user eligibility.</div>
 </div>
 </body>
 </html>"""
@@ -527,13 +606,13 @@ def unavailable_html(market_id, platform_display, user_country, partner_config,
     # Optional related-markets escape-hatch block — internal /go/ links only
     if related_markets:
         related_items = "".join(
-            f'<li><a href="{html.escape(m["href"], quote=True)}" style="color:#d97c3c">{html.escape(m["title"], quote=True)}</a></li>'
+            f'<li><a href="{html.escape(m["href"], quote=True)}">{html.escape(m["title"], quote=True)}</a></li>'
             for m in related_markets
         )
         related_block_html = f"""
-  <div class="related">
-    <p style="font-size:12px;color:#6b5744;margin:0 0 6px 0">other markets on today's board:</p>
-    <ul style="list-style:none;padding:0;margin:0;font-size:13px;line-height:1.7">
+  <div class="note related">
+    <p>other markets on today's board:</p>
+    <ul>
       {related_items}
     </ul>
   </div>"""
@@ -546,52 +625,33 @@ def unavailable_html(market_id, platform_display, user_country, partner_config,
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>not available — dollar bets</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;900&family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
-  body {{
-    background: #fdf6ee; color: #2d2319; font-family: 'Courier New', monospace;
-    display: flex; justify-content: center; align-items: center;
-    min-height: 100vh; margin: 0; padding: 16px; box-sizing: border-box;
-  }}
-  .box {{
-    max-width: 480px; width: 100%; border: 1px solid #e8cdb5; padding: 24px;
-    background: #faf7f3;
-  }}
-  h1 {{ font-size: 16px; margin: 0 0 16px 0; text-transform: lowercase; color: #2d2319; }}
-  p {{ font-size: 13px; line-height: 1.6; margin: 0 0 12px 0; color: #5a4e2f; }}
-  .warn {{
-    background: #fef9e7; border: 1px solid #d4c479; color: #5a4e2f;
-    padding: 10px 12px; margin: 16px 0; font-size: 12px;
-  }}
-  .available {{
-    font-size: 12px; color: #6b5744; margin: 12px 0;
-    padding: 8px 12px; border-left: 3px solid #e8cdb5;
-  }}
-  a.back {{
-    display: block; text-align: center; margin: 16px auto 0; padding: 12px 24px;
-    border: 2px solid #e8642c; color: #e8642c; text-decoration: none;
-    font-family: 'Courier New', monospace; font-size: 15px; font-weight: 700;
-    max-width: 280px;
-  }}
-  a.back:hover {{ background: #e8642c; color: #fdf6ee; }}
-  .related {{ margin: 16px 0; padding: 10px 12px; border-left: 3px solid #e8cdb5; }}
-  .related ul li {{ margin-bottom: 4px; }}
-  .fine {{ font-size: 11px; color: #a08b77; margin-top: 20px; }}
+{UNAVAILABLE_SHARED_CSS}
 </style>
 </head>
 <body>
-<div class="box">
-  <h1>market not available in your region</h1>
-  <p>you appear to be located in <strong>{user_location}</strong>. {reason_html}</p>
-  <div class="warn">
-    <p>dollar bets does not control platform availability. this restriction is set by {safe_platform}, not by us.</p>
+<div class="wrap">
+  <div class="wordmark">
+    <a href="/" class="wordmark-text">DOLLAR<span>BETS</span></a>
+    <span class="status-label">not available</span>
   </div>
-  <div class="available">
-    <strong>{safe_platform}</strong> is available in: {available_html}
+
+  <div class="ticket">
+    <h1>market not available in your region</h1>
+    <p>you appear to be located in <strong>{user_location}</strong>. {reason_html}</p>
   </div>
+
+  <div class="note">dollar bets does not control platform availability. this restriction is set by {safe_platform}, not by us.</div>
+  <div class="note"><strong>{safe_platform}</strong> is available in: {available_html}</div>
   {related_block_html}
-  <p>other markets on the <a href="/" style="color:#d97c3c">homepage</a> may be available near you.</p>
-  <a class="back" href="/">back to dollar bets</a>
-  <p class="fine">dollar bets is an editorial site. we do not operate markets or verify user eligibility.</p>
+  <div class="note">other markets on the <a href="/">homepage</a> may be available near you.</div>
+
+  <a class="back" href="/">back to dollar bets &raquo;</a>
+
+  <div class="fine">dollar bets is an editorial site. we do not operate markets or verify user eligibility.</div>
 </div>
 </body>
 </html>"""
@@ -622,7 +682,10 @@ def interstitial_html(platform_name, destination_url, market_id, min_age=21):
     if market:
         m_title = html.escape(str(market.get("title", market_id)), quote=False)
         m_quip = html.escape(str(market.get("quip", "")), quote=False)
-        m_payout_raw = market.get("payout", 0)
+        try:
+            m_payout_raw = float(market.get("payout", 0) or 0)
+        except (TypeError, ValueError):
+            m_payout_raw = 0
         m_payout = f"${m_payout_raw:.2f}" if m_payout_raw and m_payout_raw != int(m_payout_raw) else (f"${int(m_payout_raw)}" if m_payout_raw else "")
         platform_key = market.get("platform", "kalshi")
         reg_label = "CFTC-regulated" if platform_key == "kalshi" else "prediction market"
@@ -830,7 +893,8 @@ def interstitial_html(platform_name, destination_url, market_id, min_age=21):
     <span>i'm <strong style="color:#fdf6ee;">{gate_age} or older</strong> and responsible for complying with the laws of my jurisdiction.</span>
   </label>
 
-  <a href="{safe_destination}" target="_blank" rel="nofollow sponsored noopener noreferrer" id="cta-btn" class="cta-btn">continue to {safe_platform} &raquo;</a>
+  <a data-href="{safe_destination}" target="_blank" rel="nofollow sponsored noopener noreferrer" id="cta-btn" class="cta-btn" role="button" aria-disabled="true" tabindex="-1">continue to {safe_platform} &raquo;</a>
+  <noscript><div style="margin-top:10px;font-size:11px;color:#93836c;text-align:center;">javascript is required to continue &mdash; or <a href="/" style="color:#93836c;">go back to the board</a>.</div></noscript>
 
   <a href="/" class="back-link">go back to the board</a>
 
@@ -845,20 +909,39 @@ def interstitial_html(platform_name, destination_url, market_id, min_age=21):
   var checkbox = document.getElementById('age-ack');
   var btn = document.getElementById('cta-btn');
 
+  // The anchor ships without href (data-href only) so the gate can't be
+  // bypassed by keyboard focus, right-click copy, or crawlers — href only
+  // exists while the checkbox is ticked.
+  function setEnabled(on) {{
+    if (on) {{
+      btn.classList.add('enabled');
+      btn.setAttribute('href', btn.getAttribute('data-href'));
+      btn.setAttribute('aria-disabled', 'false');
+      btn.setAttribute('tabindex', '0');
+    }} else {{
+      btn.classList.remove('enabled');
+      btn.removeAttribute('href');
+      btn.setAttribute('aria-disabled', 'true');
+      btn.setAttribute('tabindex', '-1');
+    }}
+  }}
+
   // Pre-check if already acked at this age threshold
   if (acked >= minAge) {{
     checkbox.checked = true;
-    btn.classList.add('enabled');
+    setEnabled(true);
   }}
 
   checkbox.addEventListener('change', function() {{
-    if (this.checked) {{
-      btn.classList.add('enabled');
-      var newAck = Math.max(acked, minAge);
-      document.cookie = 'db_age_ack=' + newAck + ';max-age=31536000;path=/;samesite=lax;secure';
-    }} else {{
-      btn.classList.remove('enabled');
-    }}
+    setEnabled(this.checked);
+  }});
+
+  // Cookie written on continue (spec: "write on continue"), not on tick —
+  // same db_age_ack semantics as the old modal's "yes" button.
+  btn.addEventListener('click', function(e) {{
+    if (!checkbox.checked) {{ e.preventDefault(); return; }}
+    var newAck = Math.max(acked, minAge);
+    document.cookie = 'db_age_ack=' + newAck + ';max-age=31536000;path=/;samesite=lax;secure';
   }});
 }})();
 </script>
