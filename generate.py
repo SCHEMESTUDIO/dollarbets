@@ -223,350 +223,234 @@ SHARED_CSS = """
     body {
       background: #fdf6ee;
       color: #2d2319;
-      font-family: 'Courier New', Courier, monospace;
+      font-family: 'IBM Plex Mono', 'Courier New', monospace;
       font-size: 14px;
       line-height: 1.5;
       min-height: 100vh;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
+    a { color: #b5470a; }
+    a:hover { color: #c4341c; }
+    ::-webkit-scrollbar { display: none; }
 
     .container {
       max-width: 640px;
       margin: 0 auto;
-      padding: 24px 16px;
+      padding: 20px 16px 110px;
     }
 
     /* === HEADER === */
-    .header { margin-bottom: 16px; }
-
-    .site-title {
-      font-family: 'Courier New', Courier, monospace;
-      font-size: 26px;
-      font-weight: 700;
-      color: #e8642c;
-      letter-spacing: -0.5px;
+    .header {
       display: flex;
       align-items: center;
-      gap: 8px;
-      /* margin reset — same rule applies whether site-title renders as div (default)
-         or as h1 (on the homepage), so the user-agent h1 default doesn't shift layout */
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 2px;
+    }
+
+    .site-title {
+      font-family: 'Archivo', sans-serif;
+      font-weight: 900;
+      font-size: 26px;
+      letter-spacing: -0.5px;
+      color: #2d2319;
       margin: 0;
     }
 
     .site-title a {
-      color: inherit;
+      color: #2d2319;
       text-decoration: none;
-      display: flex;
-      align-items: center;
-      gap: 8px;
     }
 
-    .site-logo {
-      font-size: 26px;
-      line-height: 1;
+    .site-title .site-logo-bets {
+      color: #e8642c;
+    }
+
+    .freshness-pill {
+      font-size: 10px;
+      font-weight: 600;
+      color: #237a3f;
+      border: 1px solid #b8ddc5;
+      background: #e8f5ec;
+      border-radius: 100px;
+      padding: 4px 10px;
+      white-space: nowrap;
+      flex-shrink: 0;
     }
 
     .tagline {
-      font-size: 14px;
-      color: #6b5744;
-      margin-top: 4px;
-      font-weight: 400;
-      letter-spacing: 0.2px;
-    }
-
-    .date-line {
-      font-size: 11px;
-      color: #806b5b;
-      margin-top: 4px;
-      letter-spacing: 0.3px;
-    }
-
-    hr {
-      border: none;
-      border-top: 1.5px solid #e8cdb5;
-      margin: 14px 0;
-    }
-
-    /* === NAV (two-line) === */
-    .nav {
-      /* V4 typography: UPPERCASE + bold + brand orange + red active.
-         Drudge-style punch within the old-internet aesthetic. */
-      font-size: 11.5px;
-      color: #b5470a;
-      margin-bottom: 14px;
-      letter-spacing: 0.6px;
-      text-transform: uppercase;
-      font-weight: 700;
-    }
-
-    .nav-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0;
-      line-height: 2.2;
-    }
-
-    .nav a, .nav .active {
-      display: inline-block;
-      margin-right: 14px;
-      padding: 8px 0;
-      border-bottom: 1.5px solid transparent;
-    }
-
-    .nav a {
-      color: #b5470a;
-      text-decoration: none;
-      transition: all 0.15s ease;
-    }
-
-    .nav a:hover {
-      color: #c4341c;
-      border-bottom-color: #c4341c;
-      text-decoration: none;
-    }
-
-    .nav .active {
-      color: #c4341c;
-      border-bottom-color: #c4341c;
-    }
-
-    /* === LEGEND (tier pills) === */
-    .legend {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      margin-bottom: 20px;
-    }
-
-    .legend-pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 5px;
-      font-size: 11px;
-      color: #6b5744;
-      background: #fef0e4;
-      border: 1px solid #f0dcc8;
-      border-radius: 100px;
-      padding: 4px 12px 4px 8px;
-      white-space: nowrap;
-      letter-spacing: 0.2px;
-      text-decoration: none;
-      transition: all 0.15s ease;
-    }
-
-    a.legend-pill:hover {
-      color: #b5470a;
-      border-color: #e8642c;
-      text-decoration: none;
-    }
-
-    /* === WAGER LIST === */
-    .board { list-style: none; padding: 0; margin: 0; }
-
-    .wager { margin-bottom: 10px; }
-
-    .wager a {
-      display: flex;
-      align-items: flex-start;
-      gap: 12px;
-      text-decoration: none;
-      color: inherit;
-      padding: 14px 16px;
-      border-radius: 8px;
-      background: #ffffff;
-      border: 1.5px solid #e8cdb5;
-      transition: all 0.15s ease;
-    }
-
-    /* Tier-colored borders */
-    .wager.tier-green a { border-color: #4caf50; }
-    .wager.tier-yellow a { border-color: #e6c731; }
-    .wager.tier-orange a { border-color: #d06a1a; }
-    .wager.tier-red a { border-color: #e05252; }
-    .wager.tier-purple a { border-color: #9c5ec7; }
-
-    .wager a:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 3px 8px rgba(0,0,0,0.06);
-    }
-
-    .wager.tier-green a:hover { border-color: #388e3c; box-shadow: 0 3px 8px rgba(76,175,80,0.12); }
-    .wager.tier-yellow a:hover { border-color: #c9a800; box-shadow: 0 3px 8px rgba(230,199,49,0.15); }
-    .wager.tier-orange a:hover { border-color: #d06a1a; box-shadow: 0 3px 8px rgba(232,132,44,0.12); }
-    .wager.tier-red a:hover { border-color: #c62828; box-shadow: 0 3px 8px rgba(224,82,82,0.12); }
-    .wager.tier-purple a:hover { border-color: #7b1fa2; box-shadow: 0 3px 8px rgba(156,94,199,0.12); }
-
-    .wager a:active {
-      transform: translateY(0);
-      box-shadow: none;
-    }
-
-    .wager a:focus-visible {
-      outline: 2px solid #e8642c;
-      outline-offset: 2px;
-    }
-
-    .wager-emoji {
-      font-size: 18px;
-      flex-shrink: 0;
-      line-height: 1.5;
-      margin-top: 1px;
-    }
-
-    .wager-body {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-      flex: 1;
-      min-width: 0;
-    }
-
-    .wager-title {
-      font-size: 15px;
-      color: #2d2319;
-      font-weight: 700;
-      line-height: 1.4;
-      letter-spacing: -0.3px;
-    }
-
-    .wager-payout-row {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      margin-top: 2px;
-    }
-
-    .platform-logo {
-      display: inline-flex;
-      align-items: center;
-      flex-shrink: 0;
-    }
-
-    .platform-logo img, .platform-logo svg {
-      height: 14px;
-      width: auto;
-      opacity: 0.55;
-      transition: opacity 0.15s ease;
-    }
-
-    .wager:hover .platform-logo img,
-    .wager:hover .platform-logo svg {
-      opacity: 0.85;
-    }
-
-    .wager-payout {
-      font-size: 13px;
-      font-weight: 800;
-      letter-spacing: -0.3px;
-      display: inline-block;
-      flex-shrink: 0;
-      white-space: nowrap;
-    }
-
-    .payout-stake {
-      color: #b5470a;
-    }
-
-    .payout-arrow {
-      color: #806b5b;
-    }
-
-    .payout-return {
-      color: #237a3f;
-      background: #e8f5ec;
-      padding: 2px 8px;
-      border-radius: 4px;
-      border: 1px solid #b8ddc5;
-    }
-
-    .wager-quip {
       font-size: 12.5px;
       color: #6b5744;
       font-style: italic;
-      letter-spacing: 0.1px;
-      line-height: 1.5;
+      margin-top: 2px;
     }
 
-    /* === OPEN PLATFORM PILL === */
-    /* Both pills share the same fixed height + inline-flex centering
-       so they render at exactly the same rendered box regardless of
-       inner content (button user-agent line-height vs span line-height
-       used to drift them apart by ~4px). */
-    .open-platform {
-      height: 26px;
-      box-sizing: border-box;
-      font-size: 10.5px;
-      color: #237a3f;
-      cursor: pointer;
-      border: 1px solid #237a3f;
-      background: #fff;
-      font-family: 'Courier New', monospace;
-      padding: 0 12px;
-      line-height: 1;
-      letter-spacing: 0.3px;
-      border-radius: 4px;
-      transition: all 0.12s ease;
-      font-weight: 700;
+    /* === CHIP NAV === */
+    .nav {
+      display: flex;
+      gap: 6px;
+      margin-top: 14px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .nav a, .nav .active {
+      font-size: 11px;
+      border-radius: 6px;
+      padding: 7px 12px;
+      white-space: nowrap;
       text-decoration: none;
-      margin-left: auto;
-      flex-shrink: 0;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-    }
-
-    /* Heavier » arrow visual via scale() — scale doesn't affect the
-       element's layout box, so the pill's rendered height stays equal
-       to .share-btn even with a visually larger glyph. */
-    .open-platform .cta-arrow {
-      font-weight: 900;
-      line-height: 1;
       display: inline-block;
-      transform: scale(1.4);
-      transform-origin: center;
-      margin: 0 2px;
+      transition: all 0.15s ease;
     }
 
-    .wager:hover .open-platform {
-      color: #fff;
-      background: #237a3f;
-      border-color: #237a3f;
+    .nav .active {
+      font-weight: 700;
+      background: #2d2319;
+      color: #fdf6ee;
     }
 
-    /* === SHARE (popup) === */
-    .share-wrap {
+    .nav a {
+      font-weight: 500;
+      color: #6b5744;
+      border: 1px solid #e8cdb5;
+      background: transparent;
+    }
+
+    .nav a:hover {
+      border-color: #b5470a;
+      color: #b5470a;
+      background: #fef0e4;
+    }
+
+    /* === DISCLOSURE LINE === */
+    .disclosure-strip {
+      font-size: 10.5px;
+      color: #806b5b;
+      margin-top: 10px;
+      line-height: 1.6;
+    }
+
+    .disclosure-strip strong { color: #5a4e2f; }
+
+    /* === BOARD (card list) === */
+    .board { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px; }
+
+    .wager { }
+
+    /* Standard bet card */
+    .wager-card {
+      background: #fff;
+      border: 1.5px solid #e8cdb5;
+      border-radius: 12px;
+      padding: 14px;
       position: relative;
+    }
+
+    .wager.tier-green .wager-card { border-left: 5px solid #4caf50; }
+    .wager.tier-yellow .wager-card { border-left: 5px solid #e6c731; }
+    .wager.tier-orange .wager-card { border-left: 5px solid #d06a1a; }
+    .wager.tier-red .wager-card { border-left: 5px solid #e05252; }
+    .wager.tier-purple .wager-card { border-left: 5px solid #9c5ec7; }
+
+    .wager-title-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: flex-start;
+    }
+
+    .wager-title {
+      font-family: 'Archivo', sans-serif;
+      font-weight: 700;
+      font-size: 15.5px;
+      line-height: 1.35;
+      color: #2d2319;
+    }
+
+    .wager-payout-block {
+      text-align: right;
       flex-shrink: 0;
     }
+
+    .payout-label {
+      font-size: 9px;
+      color: #806b5b;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .payout-number {
+      font-family: 'Archivo', sans-serif;
+      font-weight: 900;
+      font-size: 22px;
+      color: #237a3f;
+      letter-spacing: -0.5px;
+      line-height: 1.1;
+    }
+
+    .wager-quip {
+      font-size: 12px;
+      color: #6b5744;
+      font-style: italic;
+      margin-top: 4px;
+    }
+
+    .wager-cta-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .open-platform {
+      flex: 1;
+      background: #237a3f;
+      color: #fff;
+      font-family: 'IBM Plex Mono', monospace;
+      font-weight: 700;
+      font-size: 12.5px;
+      text-align: center;
+      border-radius: 8px;
+      padding: 0 8px;
+      min-height: 44px;
+      box-sizing: border-box;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.15s ease;
+      border: none;
+    }
+
+    .open-platform:hover { background: #1a5c2f; color: #fff; }
+
+    /* === SHARE (↗ icon button) === */
+    .share-wrap { position: relative; flex-shrink: 0; }
 
     .share-btn {
-      /* Identical height + flex centering as .open-platform — pills must
-         visually match. line-height:1 + explicit height kills any button
-         user-agent line-height that used to make the share pill ~4px taller. */
-      height: 26px;
-      box-sizing: border-box;
-      font-size: 10.5px;
-      color: #b5470a;
-      cursor: pointer;
-      border: 1px solid #e8642c;
+      width: 44px;
+      height: 44px;
+      border: 1.5px solid #e8cdb5;
       background: #fff;
-      font-family: 'Courier New', monospace;
-      padding: 0 12px;
-      line-height: 1;
-      letter-spacing: 0.3px;
-      border-radius: 4px;
-      transition: all 0.12s ease;
-      font-weight: 700;
-      display: inline-flex;
+      border-radius: 8px;
+      display: flex;
       align-items: center;
+      justify-content: center;
+      color: #b5470a;
+      font-size: 18px;
+      cursor: pointer;
+      flex-shrink: 0;
+      transition: all 0.15s ease;
+      font-family: inherit;
+      padding: 0;
     }
 
-    .share-btn:hover {
-      color: #fff;
-      background: #e8642c;
-      border-color: #e8642c;
-    }
+    .share-btn:hover { border-color: #e8642c; background: #fef0e4; }
 
     .share-menu {
       display: none;
@@ -575,12 +459,13 @@ SHARED_CSS = """
       bottom: calc(100% + 6px);
       background: #fff;
       border: 1.5px solid #e8cdb5;
-      border-radius: 4px;
+      border-radius: 8px;
       box-shadow: 0 3px 10px rgba(0,0,0,0.1);
       z-index: 100;
       min-width: 130px;
-      font-family: 'Courier New', monospace;
+      font-family: 'IBM Plex Mono', monospace;
       font-size: 11px;
+      overflow: hidden;
     }
 
     .share-menu.open { display: block; }
@@ -589,248 +474,529 @@ SHARED_CSS = """
       display: block;
       width: 100%;
       text-align: left;
-      padding: 7px 12px;
+      padding: 8px 12px;
       border: none;
       background: none;
       cursor: pointer;
-      font-family: 'Courier New', monospace;
+      font-family: 'IBM Plex Mono', monospace;
       font-size: 11px;
       color: #2d2319;
-      letter-spacing: 0.2px;
       white-space: nowrap;
     }
 
-    .share-menu button:hover {
-      background: #fdf0e4;
-      color: #b5470a;
-    }
-
-    .share-menu button + button {
-      border-top: 1px solid #f0e0d0;
-    }
-
+    .share-menu button:hover { background: #fdf0e4; color: #b5470a; }
+    .share-menu button + button { border-top: 1px solid #f0e0d0; }
     .share-menu .sm-reddit:hover { color: #ff4500; }
     .share-menu .sm-x:hover { color: #000; }
     .share-menu .sm-fb:hover { color: #1877f2; }
-    .share-menu .sm-copy:hover { color: #b5470a; }
     .share-menu .sm-copy.copied { color: #5a8a5a; }
 
-    /* === BOARD PROMO NAV UNIT === */
+    .wager-meta {
+      font-size: 9.5px;
+      color: #a08b77;
+      margin-top: 8px;
+    }
+
+    /* === LONGSHOT HERO TICKET === */
+    .hero-longshot {
+      background: #2d2319;
+      border-radius: 12px;
+      padding: 16px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-longshot-notch-left {
+      position: absolute;
+      left: -8px;
+      top: 58%;
+      width: 16px;
+      height: 16px;
+      background: #fdf6ee;
+      border-radius: 50%;
+    }
+
+    .hero-longshot-notch-right {
+      position: absolute;
+      right: -8px;
+      top: 58%;
+      width: 16px;
+      height: 16px;
+      background: #fdf6ee;
+      border-radius: 50%;
+    }
+
+    .hero-longshot-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #c9a2ec;
+    }
+
+    .hero-longshot-title {
+      font-family: 'Archivo', sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      color: #fdf6ee;
+      line-height: 1.3;
+      margin-top: 6px;
+    }
+
+    .hero-longshot-quip {
+      font-size: 12px;
+      color: #b7a894;
+      font-style: italic;
+      margin-top: 4px;
+    }
+
+    .hero-longshot-payout-row {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      margin-top: 12px;
+      border-top: 1px dashed #5a4e3f;
+      padding-top: 12px;
+    }
+
+    .hero-longshot-pays {
+      font-size: 13px;
+      color: #b7a894;
+    }
+
+    .hero-longshot-amount {
+      font-family: 'Archivo', sans-serif;
+      font-weight: 900;
+      font-size: 32px;
+      color: #7ee2a1;
+      letter-spacing: -1px;
+    }
+
+    .hero-longshot-meta {
+      font-size: 10px;
+      color: #857662;
+      margin-left: auto;
+      text-align: right;
+    }
+
+    .hero-longshot-cta {
+      display: block;
+      margin-top: 12px;
+      background: #e8642c;
+      color: #fff;
+      font-family: 'IBM Plex Mono', monospace;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center;
+      border-radius: 8px;
+      padding: 13px;
+      min-height: 44px;
+      box-sizing: border-box;
+      text-decoration: none;
+      transition: background 0.15s ease;
+    }
+
+    .hero-longshot-cta:hover { background: #c4341c; color: #fff; }
+
+    /* === RECEIPTS MODULE === */
+    .receipts-module {
+      border: 1.5px dashed #d4c479;
+      background: #fef9e7;
+      border-radius: 12px;
+      padding: 12px 14px;
+    }
+
+    .receipts-label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #8a7420;
+    }
+
+    .receipts-body {
+      font-size: 12px;
+      color: #5a4e2f;
+      margin-top: 4px;
+      line-height: 1.6;
+    }
+
+    .receipts-body a { color: #b5470a; font-weight: 700; }
+
+    /* === STICKY BOTTOM BAR === */
+    .sticky-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(45,35,25,0.96);
+      padding: 10px 16px;
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      z-index: 100;
+    }
+
+    .sticky-bar-inner {
+      max-width: 640px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .sticky-bar-info {
+      font-size: 10.5px;
+      color: #d7c8b2;
+      line-height: 1.4;
+    }
+
+    .sticky-bar-info span { color: #93836c; }
+
+    .sticky-bar-cta {
+      margin-left: auto;
+      background: #e8642c;
+      color: #fff;
+      font-family: 'IBM Plex Mono', monospace;
+      font-weight: 700;
+      font-size: 12.5px;
+      border-radius: 8px;
+      padding: 0 18px;
+      text-decoration: none;
+      min-height: 44px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+      transition: background 0.15s ease;
+    }
+
+    .sticky-bar-cta:hover { background: #c4341c; color: #fff; }
+
+    /* === SEO STICKY BAR (content pages) === */
+    .seo-sticky-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(45,35,25,0.96);
+      padding: 10px 16px;
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      z-index: 100;
+    }
+
+    .seo-sticky-bar-inner {
+      max-width: 640px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .seo-sticky-label {
+      font-size: 10.5px;
+      color: #d7c8b2;
+      line-height: 1.4;
+    }
+
+    .seo-sticky-payout {
+      color: #7ee2a1;
+      font-family: 'Archivo', sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    .seo-sticky-cta {
+      margin-left: auto;
+      background: #e8642c;
+      color: #fff;
+      font-family: 'IBM Plex Mono', monospace;
+      font-weight: 700;
+      font-size: 12.5px;
+      border-radius: 8px;
+      padding: 0 18px;
+      text-decoration: none;
+      min-height: 44px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+      transition: background 0.15s ease;
+    }
+
+    .seo-sticky-cta:hover { background: #c4341c; color: #fff; }
+
+    /* === BOARD PROMO (on content pages) === */
     .board-promo {
-      margin: 24px 0;
-      padding: 16px 0;
-      border-top: 1.5px solid #e8cdb5;
-      border-bottom: 1.5px solid #e8cdb5;
+      margin: 16px 0;
     }
 
     .board-promo-header {
       font-size: 11px;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 1.2px;
+      letter-spacing: 2px;
       color: #b5470a;
-      margin-bottom: 12px;
-    }
-
-    .board-promo .board {
       margin-bottom: 12px;
     }
 
     .board-promo-cta {
       display: block;
       text-align: center;
-      font-size: 12px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 12.5px;
       font-weight: 700;
       color: #b5470a;
-      text-decoration: none;
-      padding: 8px 0;
-      letter-spacing: 0.3px;
       border: 1.5px solid #e8cdb5;
-      border-radius: 6px;
       background: #fff;
+      border-radius: 8px;
+      padding: 13px;
+      text-decoration: none;
+      margin-top: 12px;
       transition: all 0.15s ease;
     }
 
-    .board-promo-cta:hover {
-      background: #e8642c;
-      color: #fff;
-      border-color: #e8642c;
-    }
+    .board-promo-cta:hover { border-color: #e8642c; background: #fef0e4; color: #b5470a; }
 
     /* === PAGE CONTENT === */
-    h1, h2, h3 {
-      font-family: inherit;
-      line-height: inherit;
-    }
+    h1, h2, h3 { font-family: inherit; line-height: inherit; }
 
     .page-title {
-      font-size: 18px;
-      font-weight: 700;
+      font-family: 'Archivo', sans-serif;
+      font-weight: 900;
+      font-size: 28px;
+      line-height: 1.1;
+      letter-spacing: -0.5px;
       color: #2d2319;
-      margin-bottom: 8px;
-      letter-spacing: -0.3px;
+      margin: 12px 0 0;
     }
 
-    .page-intro {
-      font-size: 14px;
+    .byline {
+      font-size: 10.5px;
+      color: #806b5b;
+      margin-top: 8px;
+    }
+
+    .byline a { color: #6b5744; }
+
+    .trust-chips {
+      display: flex;
+      gap: 6px;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+
+    .trust-chip-green {
+      font-size: 10px;
+      font-weight: 600;
+      color: #237a3f;
+      background: #e8f5ec;
+      border: 1px solid #b8ddc5;
+      border-radius: 100px;
+      padding: 4px 10px;
+    }
+
+    .trust-chip-neutral {
+      font-size: 10px;
+      font-weight: 600;
+      color: #6b5744;
+      background: #fef0e4;
+      border: 1px solid #f0dcc8;
+      border-radius: 100px;
+      padding: 4px 10px;
+    }
+
+    .quick-answer {
+      font-size: 13px;
       color: #3d2e1f;
-      line-height: 1.7;
-      margin-bottom: 18px;
-    }
-
-    .page-intro p {
-      margin-bottom: 10px;
-    }
-
-    .section-head {
-      font-size: 15px;
-      font-weight: 700;
-      color: #2d2319;
-      margin: 24px 0 10px 0;
-      letter-spacing: -0.2px;
-    }
-
-    .section-note {
-      font-size: 12px;
-      color: #806b5b;
-      font-style: italic;
-      margin-bottom: 12px;
-    }
-
-    .empty-note {
-      font-size: 12px;
-      color: #806b5b;
-      font-style: italic;
-      padding: 12px;
-    }
-
-    /* === RECAP BLOCKS === */
-    .recap-block {
-      margin-bottom: 20px;
-      padding: 14px;
-      background: #ffffff;
-      border: 1.5px solid #e8cdb5;
+      line-height: 1.65;
+      margin-top: 14px;
+      padding: 13px 14px;
+      background: #fff;
+      border: 1px solid #e8cdb5;
+      border-left: 3px solid #e8642c;
       border-radius: 8px;
     }
 
-    .recap-label {
-      font-size: 11px;
-      font-weight: 700;
-      color: #b5470a;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      margin-bottom: 4px;
-    }
-
-    .recap-title {
-      font-size: 14px;
-      font-weight: 700;
-      color: #2d2319;
-    }
-
-    .recap-detail {
-      font-size: 12px;
-      color: #6b5744;
-      margin-top: 2px;
-    }
-
-    .recap-quip {
-      font-size: 11.5px;
-      color: #806b5b;
-      font-style: italic;
-      margin-top: 4px;
-    }
-
-    /* === AUTOPSY === */
-    .autopsy-section {
-      margin-bottom: 16px;
-    }
-
-    .autopsy-section h3 {
-      font-size: 13px;
-      font-weight: 700;
-      color: #6b5744;
-      margin-bottom: 4px;
-    }
-
-    .autopsy-section p {
-      font-size: 13px;
-      color: #6b5744;
+    .affiliate-strip {
+      font-size: 10.5px;
+      color: #8a7420;
+      background: #fef9e7;
+      border: 1px solid #d4c479;
+      border-radius: 8px;
+      padding: 8px 12px;
+      margin-top: 10px;
       line-height: 1.6;
     }
 
-    .autopsy-verdict {
-      font-size: 14px;
-      font-weight: 700;
-      color: #2d2319;
-      padding: 14px;
-      background: #fef0e4;
+    .article-body {
+      background: #fff;
       border: 1.5px solid #e8cdb5;
-      border-radius: 8px;
-      margin: 16px 0;
-      font-style: italic;
+      border-radius: 12px;
+      padding: 18px 16px;
+      margin-top: 20px;
     }
+
+    .article-body h2 {
+      font-family: 'Archivo', sans-serif;
+      font-weight: 700;
+      font-size: 17px;
+      margin: 20px 0 0;
+      letter-spacing: -0.3px;
+    }
+
+    .article-body h2:first-child { margin-top: 0; }
+
+    .article-body p {
+      font-size: 13px;
+      color: #3d2e1f;
+      line-height: 1.7;
+      margin: 8px 0 0;
+    }
+
+    .article-body .faq-item {
+      margin-top: 12px;
+      border-top: 1px solid #f0e0d0;
+      padding-top: 12px;
+    }
+
+    .article-body .faq-item:first-child { border-top: none; padding-top: 0; }
+
+    .article-body h3 {
+      font-size: 13px;
+      font-weight: 700;
+      margin: 0;
+      font-family: 'IBM Plex Mono', monospace;
+    }
+
+    .internal-links-row {
+      font-size: 11px;
+      color: #6b5744;
+      margin-top: 16px;
+      line-height: 2;
+    }
+
+    .internal-links-row a { color: #6b5744; }
+
+    .legal-strip {
+      font-size: 9.5px;
+      color: #a08b77;
+      line-height: 1.7;
+      margin-top: 14px;
+      border-top: 1.5px solid #e8cdb5;
+      padding-top: 12px;
+    }
+
+    .legal-strip a { color: #6b5744; }
+
+    /* === RANKED CARDS (content pages) === */
+    .ranked-card {
+      background: #fff;
+      border: 1.5px solid #e8cdb5;
+      border-radius: 12px;
+      padding: 14px;
+    }
+
+    .ranked-card.tier-green { border-left: 5px solid #4caf50; }
+    .ranked-card.tier-yellow { border-left: 5px solid #e6c731; }
+    .ranked-card.tier-orange { border-left: 5px solid #d06a1a; }
+    .ranked-card.tier-red { border-left: 5px solid #e05252; }
+    .ranked-card.tier-purple { border-left: 5px solid #9c5ec7; }
+
+    .ranked-card-inner { display: flex; gap: 12px; }
+
+    .rank-numeral {
+      font-family: 'Archivo', sans-serif;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+
+    .rank-numeral.rank-1 { color: #e8642c; }
+    .rank-numeral.rank-other { color: #d9c6ac; }
+
+    .ranked-card-body { flex: 1; min-width: 0; }
+
+    .ranked-card-title {
+      font-family: 'Archivo', sans-serif;
+      font-weight: 700;
+      font-size: 15.5px;
+      line-height: 1.35;
+      color: #2d2319;
+    }
+
+    .ranked-card-quip {
+      font-size: 12px;
+      color: #6b5744;
+      font-style: italic;
+      margin-top: 3px;
+    }
+
+    .ranked-card-payout-row {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+      margin-top: 8px;
+    }
+
+    .ranked-pays { font-size: 11px; color: #806b5b; }
+
+    .ranked-payout {
+      font-family: 'Archivo', sans-serif;
+      font-weight: 900;
+      font-size: 20px;
+      color: #237a3f;
+      letter-spacing: -0.5px;
+    }
+
+    .ranked-meta { font-size: 9.5px; color: #a08b77; margin-left: auto; }
+
+    .ranked-cta {
+      display: block;
+      margin-top: 10px;
+      background: #237a3f;
+      color: #fff;
+      font-family: 'IBM Plex Mono', monospace;
+      font-weight: 700;
+      font-size: 12.5px;
+      text-align: center;
+      border-radius: 8px;
+      padding: 13px;
+      min-height: 44px;
+      box-sizing: border-box;
+      text-decoration: none;
+      transition: background 0.15s ease;
+    }
+
+    .ranked-cta:hover { background: #1a5c2f; color: #fff; }
+
+    /* === LEGACY / MISC === */
+    .page-intro { font-size: 13px; color: #3d2e1f; line-height: 1.7; margin-bottom: 18px; }
+    .page-intro p { margin-bottom: 10px; }
+    .section-head { font-family: 'Archivo', sans-serif; font-size: 15px; font-weight: 700; color: #2d2319; margin: 24px 0 10px; }
+    .section-note { font-size: 12px; color: #806b5b; font-style: italic; margin-bottom: 12px; }
+    .empty-note { font-size: 12px; color: #806b5b; font-style: italic; padding: 12px; }
+    .legend { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; }
+    .legend-pill { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; color: #6b5744; background: #fef0e4; border: 1px solid #f0dcc8; border-radius: 100px; padding: 4px 12px 4px 8px; white-space: nowrap; text-decoration: none; transition: all 0.15s ease; }
+    a.legend-pill:hover { color: #b5470a; border-color: #e8642c; }
+    .recap-block { margin-bottom: 20px; padding: 14px; background: #fff; border: 1.5px solid #e8cdb5; border-radius: 12px; }
+    .recap-label { font-size: 11px; font-weight: 700; color: #b5470a; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+    .recap-title { font-size: 14px; font-weight: 700; color: #2d2319; }
+    .recap-detail { font-size: 12px; color: #6b5744; margin-top: 2px; }
+    .recap-quip { font-size: 11.5px; color: #806b5b; font-style: italic; margin-top: 4px; }
+    .autopsy-section { margin-bottom: 16px; }
+    .autopsy-section h3 { font-size: 13px; font-weight: 700; color: #6b5744; margin-bottom: 4px; }
+    .autopsy-section p { font-size: 13px; color: #6b5744; line-height: 1.6; }
+    .autopsy-verdict { font-size: 14px; font-weight: 700; color: #2d2319; padding: 14px; background: #fef0e4; border: 1.5px solid #e8cdb5; border-radius: 8px; margin: 16px 0; font-style: italic; }
 
     /* === SIGNUP === */
-    .signup {
-      margin: 28px 0;
-    }
-
-    .signup iframe {
-      width: 100%;
-      height: 340px;
-      border: none;
-      background: transparent;
-    }
-
-    .signup-fallback {
-      display: none;
-      text-align: center;
-      padding: 16px 0;
-    }
-
-    .signup-fallback a {
-      color: #b5470a;
-      font-weight: 700;
-      text-decoration: underline;
-    }
+    .signup { margin: 28px 0; }
+    .signup iframe { width: 100%; height: 340px; border: none; background: transparent; }
+    .signup-fallback { display: none; text-align: center; padding: 16px 0; }
+    .signup-fallback a { color: #b5470a; font-weight: 700; text-decoration: underline; }
 
     /* === FOOTER === */
-    .footer {
-      margin-top: 32px;
-      padding-top: 16px;
-      border-top: 1.5px solid #e8cdb5;
-      font-size: 10px;
-      color: #806b5b;
-      line-height: 1.8;
-    }
-
-    .footer a {
-      color: #6b5744;
-      transition: color 0.12s;
-    }
-
-    .footer a:hover { color: #b5470a; }
-
-    /* === BOARD NAV BOTTOM (repeated browsing nav) === */
-    .board-nav-bottom {
-      text-align: center;
-      font-size: 11px;
-      color: #806b5b;
-      padding: 14px 0;
-      line-height: 2.2;
-      letter-spacing: 0.3px;
-    }
-
-    .board-nav-bottom a {
-      color: #6b5744;
-      text-decoration: none;
-      transition: color 0.12s;
-    }
-
-    .board-nav-bottom a:hover { color: #b5470a; }
-
-    /* === FOOTER INFO NAV (quiet secondary links) === */
     .footer-info-nav {
       text-align: center;
       font-size: 10px;
@@ -839,70 +1005,39 @@ SHARED_CSS = """
       line-height: 2.2;
     }
 
-    .footer-info-nav a {
-      color: #806b5b;
-      text-decoration: none;
-      transition: color 0.12s;
-    }
-
+    .footer-info-nav a { color: #806b5b; text-decoration: none; }
     .footer-info-nav a:hover { color: #b5470a; }
 
-    /* === FILTHY LITTLE LONGSHOT === */
-    .wager.longshot-pick a {
-      border-width: 2.5px;
-    }
-
-    .longshot-label {
+    .board-nav-bottom {
+      text-align: center;
       font-size: 10px;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      font-weight: 700;
-      margin-bottom: 4px;
+      color: #806b5b;
+      padding: 14px 0;
+      line-height: 2.2;
     }
 
-    .longshot-pick .wager-quip {
-      font-weight: 700;
+    .board-nav-bottom a { color: #6b5744; text-decoration: none; }
+    .board-nav-bottom a:hover { color: #b5470a; }
+
+    .footer {
+      margin-top: 24px;
+      padding-top: 14px;
+      border-top: 1.5px solid #e8cdb5;
+      font-size: 9.5px;
+      color: #a08b77;
+      line-height: 1.8;
     }
 
-    /* Always-visible site disclosure strip — yellow notice box that sits
-       between the tier legend and the first bet on every board page.
-       Geo-compliance is handled at the /go/ interstitial (api/go.py), not
-       on the board pages themselves. */
-    .disclosure-strip {
-      background: #fef9e7; border: 1px solid #d4c479; color: #5a4e2f;
-      padding: 10px 14px; font-size: 11px; margin: 0 0 18px;
-      font-family: 'Courier New', monospace; text-transform: lowercase;
-      line-height: 1.6; border-radius: 4px;
-    }
+    .footer a { color: #6b5744; }
+    .footer a:hover { color: #b5470a; }
 
     /* === MOBILE === */
     @media (max-width: 500px) {
-      .container { padding: 16px 12px; }
+      .container { padding: 16px 12px 110px; }
       .site-title { font-size: 22px; }
-      .site-logo { font-size: 22px; }
-      .wager a { padding: 12px; }
       .wager-title { font-size: 14px; }
-      .wager-payout { font-size: 12px; }
-      .wager-quip { font-size: 12px; }
-      .legend {
-        overflow-x: auto;
-        flex-wrap: nowrap;
-        -webkit-overflow-scrolling: touch;
-        padding-bottom: 4px;
-        /* Fade right edge when content overflows, hinting horizontal scroll */
-        -webkit-mask-image: linear-gradient(to right, black calc(100% - 28px), transparent);
-        mask-image: linear-gradient(to right, black calc(100% - 28px), transparent);
-      }
-      /* Let payout-row wrap on narrow viewports so [share] never overflows the card.
-         When wrap happens (e.g. long platform labels at 320–393px), share drops
-         to a second line, right-aligned. Payout stays inline with open-platform. */
-      .wager-payout-row {
-        flex-wrap: wrap;
-        row-gap: 6px;
-      }
-      .share-wrap {
-        margin-left: auto;
-      }
+      .hero-longshot-amount { font-size: 26px; }
+      .page-title { font-size: 22px; }
     }
 """
 
@@ -940,23 +1075,16 @@ BOARD_NAV_LINKS = [
 
 
 def nav_html(current=""):
-    """Primary board nav — browsing destinations only.
-
-    Single flex row that wraps naturally based on container width. The
-    earlier hand-coded split (first 6 in row 1, last 4 in row 2) created
-    a half-empty line 2 on mobile because the second container forced a
-    fresh row break. Letting the items flow as one list packs line 2
-    fully before any spill into line 3.
-    """
-    def render_link(href, label):
+    """Primary board nav — chip pills. The .nav class (scroll container) is
+    on the <nav> element in page_shell; this function returns the items only."""
+    def render_chip(href, label):
         norm_href = href if href == "/" else href.strip("/")
         norm_cur = current if current == "/" else current.strip("/")
         if norm_cur and norm_href == norm_cur:
             return f'<span class="active">{label}</span>'
         return f'<a href="{href}">{label}</a>'
 
-    items = " ".join(render_link(h, l) for h, l in BOARD_NAV_LINKS)
-    return f'<div class="nav"><div class="nav-row">{items}</div></div>'
+    return " ".join(render_chip(h, l) for h, l in BOARD_NAV_LINKS)
 
 
 def board_nav_bottom(current=""):
@@ -1009,11 +1137,13 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
     # the site-title stays a <div> to avoid duplicate h1s.
     is_homepage = canonical == "/"
     title_tag = "h1" if is_homepage else "div"
+    # Wordmark: DOLLAR in ink, BETS in orange
     site_title_html = (
         f'<{title_tag} class="site-title">'
-        f'<a href="/"><span class="site-logo">💵</span> Dollar Bets</a>'
+        f'<a href="/">DOLLAR<span class="site-logo-bets">BETS</span></a>'
         f'</{title_tag}>'
     )
+    date_str = datetime.now().strftime("%B %d, %Y").replace(" 0", " ")
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -1042,6 +1172,9 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;900&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   {analytics_head()}
   {extra_head}
   <style>{SHARED_CSS}
@@ -1052,35 +1185,37 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
 
     <header class="header">
       {site_title_html}
-      <div class="tagline">The world's most interesting $1 wagers. A buck says maybe.</div>
+      <span class="freshness-pill">&#9679; updated daily</span>
     </header>
+    <div class="tagline">The world's most interesting $1 wagers. A buck says maybe.</div>
 
-    <hr>
+    <nav aria-label="Boards" class="nav">{nav_html(current_nav)}</nav>
 
-    <nav aria-label="Main navigation">{nav_html(current_nav)}</nav>
+    <div class="disclosure-strip">{date_str} &mdash; we scan <strong>CFTC-regulated exchanges</strong> + major prediction markets every morning. we earn a commission if you sign up through our links &mdash; never a cut of your bet, and we never hold your money.</div>
 
     <main id="content">
 {body}
     </main>
 
-    <hr>
-
-{board_nav_bottom(current_nav)}
-
 {SIGNUP_HTML}
-
-    <div style="font-size:10px;color:#7a6e5f;text-align:center;padding:6px 0;line-height:1.6">links open third-party markets. prices and availability change.</div>
 
 {footer_info_nav()}
 
     <footer class="footer">
       <p>dollar bets is an editorial discovery site, not a broker, exchange, bookmaker, financial adviser, or gambling operator. we do not operate markets, take bets, or provide betting, financial, investment, or legal advice. market availability varies by jurisdiction. users are responsible for complying with local laws and platform eligibility rules. longshots are unlikely by definition. never risk money you cannot afford to lose.</p>
-      <p style="margin-top:6px">"$1 pays" = what one dollar returns if the event happens. actual returns depend on price at purchase. some links may be affiliate links — see our <a href="/affiliate-disclosure/">disclosure</a>.</p>
-      <p style="margin-top:6px">this site is intended for adults only. do not use this site if you are under the legal age for gambling, trading, or participating in prediction markets in your jurisdiction.</p>
+      <p style="margin-top:6px">"$1 pays" = what one dollar returns if the event happens. actual returns depend on price at purchase. some links may be affiliate links &mdash; see our <a href="/affiliate-disclosure/">disclosure</a>. this site is intended for adults only.</p>
       <p style="margin-top:6px">&copy; {year} dollarbets.lol</p>
     </footer>
 
   </div>
+
+  <div class="sticky-bar">
+    <div class="sticky-bar-inner">
+      <div class="sticky-bar-info">live prediction markets<br><span>kalshi &middot; polymarket</span></div>
+      <a href="/" class="sticky-bar-cta">see today's best odds &raquo;</a>
+    </div>
+  </div>
+
 {consent_banner_html()}
 {SIGNUP_JS}
 <script>
@@ -1113,12 +1248,12 @@ function shareTo(e, platform, btn) {{
     var redditTitle = t + ' — $1 pays ' + p + ' | Dollar Bets';
     window.open('https://www.reddit.com/submit?url=' + encodeURIComponent(shareUrl) + '&title=' + encodeURIComponent(redditTitle), '_blank', 'noopener');
   }} else if (platform === 'x') {{
-    var tweet = t + '\\n"' + q + '"\\n$1 → ' + p + '\\n' + shareUrl;
+    var tweet = t + '\\n"' + q + '"\\n$1 \\u2192 ' + p + '\\n' + shareUrl;
     window.open('https://x.com/intent/tweet?text=' + encodeURIComponent(tweet), '_blank', 'noopener');
   }} else if (platform === 'fb') {{
     window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(shareUrl) + '&quote=' + encodeURIComponent(t + ' — $1 pays ' + p), '_blank', 'noopener');
   }} else if (platform === 'copy') {{
-    var text = t + '\\n"' + q + '"\\n$1 → ' + p + '\\n' + shareUrl;
+    var text = t + '\\n"' + q + '"\\n$1 \\u2192 ' + p + '\\n' + shareUrl;
     navigator.clipboard.writeText(text).then(function() {{
       btn.textContent = 'copied!';
       btn.classList.add('copied');
@@ -1142,9 +1277,6 @@ function shareTo(e, platform, btn) {{
 }}
 
 // Geo compliance is handled on the /go/ interstitial (see api/go.py).
-// The homepage no longer runs region-aware JS — every visitor sees the
-// same board and the same disclosure strip; restriction warnings appear
-// only at click-through time, against the specific partner being opened.
 </script>
 </body>
 </html>"""
@@ -1292,20 +1424,19 @@ PLATFORM_DISPLAY_NAMES = {
 
 
 def render_bet_card(m, is_longshot_pick=False):
-    """Render a single bet as an <li> element."""
-    emoji = tier_emoji(m.get("tier", ""))
+    """Render a single bet card (Ticket Stand design)."""
     tier = m.get("tier", "")
-    payout_str = format_payout(m.get("payout", 0))
+    payout_val = m.get("payout", 0)
+    payout_str = format_payout(payout_val)
     raw_title = m.get("title", "")
     raw_quip = m.get("quip", "")
     title = _e(raw_title)
     quip = _e(raw_quip)
-    # Use market ticker for /go/ link (fallback to old url field for backward compatibility)
+
     ticker = m.get("ticker", "")
     if ticker:
         url = market_link(ticker)
     else:
-        # Fallback: extract ticker from old-format URL
         old_url = m.get("url", "")
         if old_url and "kalshi.com" in old_url:
             ticker = old_url.split("/")[-1].split("?")[0]
@@ -1313,45 +1444,77 @@ def render_bet_card(m, is_longshot_pick=False):
         else:
             url = "#"
 
-    # data-* attributes — html.escape with quote=True is correct for attribute values
     share_title = _e(raw_title)
     share_quip = _e(raw_quip)
 
-    # Platform name for pill button
     platform = m.get("platform", "kalshi")
     platform_name = PLATFORM_DISPLAY_NAMES.get(platform, platform.title())
 
     tier_class = f" tier-{tier}" if tier else ""
-    longshot_class = " longshot-pick" if is_longshot_pick else ""
-    tier_color = TIER_COLORS.get(tier, "#806b5b")
 
-    # Longshot label (only on homepage pick)
-    longshot_label = ""
-    if is_longshot_pick:
-        longshot_label = f'<span class="longshot-label" style="color:{tier_color}">today\'s filthy little longshot &#127919;</span>'
+    # Priced-in % from real payout (no fake data)
+    priced_in = f"{round(100 / payout_val)}%" if payout_val > 0 else ""
+    reg_note = " &middot; CFTC-regulated" if platform == "kalshi" else ""
+    meta_line = f"{platform_name}{reg_note} &middot; {priced_in} chance priced in" if priced_in else platform_name
 
-    return f"""      <li class="wager{tier_class}{longshot_class}">
-        <a href="{url}" target="_blank" rel="noopener nofollow" data-platform="{platform}" data-tier="{tier}" data-payout="{m.get('payout', 0)}" data-ticker="{ticker}">
-          <span class="wager-emoji">{emoji}</span>
-          <span class="wager-body">
-            {longshot_label}
-            <span class="wager-title">{title}</span>
-            <span class="wager-quip">{quip}</span>
-            <span class="wager-payout-row">
-              <span class="wager-payout"><span class="payout-stake">$1</span> <span class="payout-arrow">&rarr;</span> <span class="payout-return">{payout_str}</span></span>
-              <span class="open-platform">{platform_name} <span class="cta-arrow">&raquo;</span></span>
-              <span class="share-wrap" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}" data-ticker="{ticker}">
-                <button class="share-btn" onclick="toggleShare(event, this)">[share]</button>
-                <div class="share-menu">
-                  <button class="sm-reddit" onclick="shareTo(event,'reddit',this)">reddit</button>
-                  <button class="sm-x" onclick="shareTo(event,'x',this)">x / twitter</button>
-                  <button class="sm-fb" onclick="shareTo(event,'fb',this)">facebook</button>
-                  <button class="sm-copy" onclick="shareTo(event,'copy',this)">copy link</button>
-                </div>
-              </span>
+    return f"""      <li class="wager{tier_class}">
+        <div class="wager-card">
+          <div class="wager-title-row">
+            <div class="wager-title">{title}</div>
+            <div class="wager-payout-block">
+              <div class="payout-label">$1 pays</div>
+              <div class="payout-number">{payout_str}</div>
+            </div>
+          </div>
+          <div class="wager-quip">{quip}</div>
+          <div class="wager-cta-row">
+            <a href="{url}" target="_blank" rel="noopener nofollow" class="open-platform" data-platform="{platform}" data-tier="{tier}" data-payout="{payout_val}" data-ticker="{ticker}">view market on {platform_name} &raquo;</a>
+            <span class="share-wrap" data-title="{share_title}" data-quip="{share_quip}" data-payout="{payout_str}" data-url="{url}" data-ticker="{ticker}">
+              <button class="share-btn" onclick="toggleShare(event, this)" title="share">&#x2197;</button>
+              <div class="share-menu">
+                <button class="sm-reddit" onclick="shareTo(event,'reddit',this)">reddit</button>
+                <button class="sm-x" onclick="shareTo(event,'x',this)">x / twitter</button>
+                <button class="sm-fb" onclick="shareTo(event,'fb',this)">facebook</button>
+                <button class="sm-copy" onclick="shareTo(event,'copy',this)">copy link</button>
+              </div>
             </span>
-          </span>
-        </a>
+          </div>
+          <div class="wager-meta">{meta_line}</div>
+        </div>
+      </li>"""
+
+
+def render_longshot_hero(m):
+    """Render the dark 'filthy little longshot' hero ticket at the top of the board."""
+    payout_val = m.get("payout", 0)
+    payout_str = format_payout(payout_val)
+    raw_title = m.get("title", "")
+    raw_quip = m.get("quip", "")
+    title = _e(raw_title)
+    quip = _e(raw_quip)
+    ticker = m.get("ticker", "")
+    if ticker:
+        url = market_link(ticker)
+    else:
+        url = m.get("url", "#")
+    platform = m.get("platform", "kalshi")
+    platform_name = PLATFORM_DISPLAY_NAMES.get(platform, platform.title())
+    priced_in = "&lt;1%" if payout_val >= 100 else (f"{round(100 / payout_val)}%" if payout_val > 0 else "")
+
+    return f"""      <li class="wager">
+        <div class="hero-longshot">
+          <div class="hero-longshot-notch-left"></div>
+          <div class="hero-longshot-notch-right"></div>
+          <div class="hero-longshot-label">&#127919; today's filthy little longshot</div>
+          <div class="hero-longshot-title">{title}</div>
+          <div class="hero-longshot-quip">{quip}</div>
+          <div class="hero-longshot-payout-row">
+            <span class="hero-longshot-pays">$1 pays</span>
+            <span class="hero-longshot-amount">{payout_str}</span>
+            <span class="hero-longshot-meta">{platform_name}<br>{priced_in} priced in</span>
+          </div>
+          <a href="{url}" target="_blank" rel="noopener nofollow" class="hero-longshot-cta" data-platform="{platform}" data-tier="purple" data-payout="{payout_val}" data-ticker="{ticker}">see the odds on {platform_name} &raquo;</a>
+        </div>
       </li>"""
 
 
@@ -1423,15 +1586,25 @@ def render_sports_bet_list(bets, empty_msg="no bets yet — check back soon.", f
 
 
 def render_bet_list(bets, empty_msg="no bets yet — check back soon.", longshot_idx=None):
-    """Render a list of bets as a <ul>."""
+    """Render bet list: longshot hero first (dark ticket), then remaining cards payout desc."""
     if not bets:
         return f'    <div class="empty-note">{empty_msg}</div>'
-    rows = "\n".join(
-        render_bet_card(b, is_longshot_pick=(i == longshot_idx))
-        for i, b in enumerate(bets)
-    )
+
+    rows = []
+    if longshot_idx is not None and 0 <= longshot_idx < len(bets):
+        hero = bets[longshot_idx]
+        others = [b for i, b in enumerate(bets) if i != longshot_idx]
+        # Sort remaining by payout descending
+        others_sorted = sorted(others, key=lambda x: x.get("payout", 0), reverse=True)
+        rows.append(render_longshot_hero(hero))
+        rows.extend(render_bet_card(b) for b in others_sorted)
+    else:
+        sorted_bets = sorted(bets, key=lambda x: x.get("payout", 0), reverse=True)
+        rows.extend(render_bet_card(b) for b in sorted_bets)
+
+    items = "\n".join(rows)
     return f"""    <ul class="board" role="list">
-{rows}
+{items}
     </ul>"""
 
 
@@ -1476,44 +1649,78 @@ def _pick_promo_bets(board, count=3):
     return picks
 
 
-def render_board_promo(board_data=None, position="top"):
-    """Render a 'Today on the Board' promo module using real bet cards.
-
-    Uses the exact same bet card HTML/CSS as the homepage so the cards
-    become recognizable brand iconography across the site.
+def render_board_promo(board_data=None, position="top", platform_filter=None):
+    """Render ranked top-5 bet cards for content pages (Ticket Stand design).
 
     Args:
         board_data: The board dict (with "board" key). If None, loads latest.
-        position: "top" or "bottom" — affects the header/CTA phrasing.
+        position: "top" or "bottom" — kept for backward compat, ignored (always top-5).
+        platform_filter: "kalshi" or "polymarket" to filter by platform first.
     """
     if board_data is None:
-        # Load the latest board
         boards = load_all_boards()
         if not boards:
             return ""
         _, board_data = boards[-1]
 
     bets = board_data.get("board", [])
-    count = 1 if position == "top" else 3
-    picks = _pick_promo_bets(bets, count=count)
-    if not picks:
+
+    # Filter by platform if specified, fallback to all if filtered list is empty
+    if platform_filter:
+        filtered = [b for b in bets if b.get("platform", "kalshi") == platform_filter]
+        if not filtered:
+            filtered = bets
+    else:
+        filtered = bets
+
+    # Sort by payout desc, take top 5
+    top5 = sorted(filtered, key=lambda x: x.get("payout", 0), reverse=True)[:5]
+    if not top5:
         return ""
 
-    cards = "\n".join(render_bet_card(b) for b in picks)
+    cards = []
+    for i, b in enumerate(top5):
+        rank = i + 1
+        tier = b.get("tier", "")
+        payout_val = b.get("payout", 0)
+        payout_str = format_payout(payout_val)
+        raw_title = b.get("title", "")
+        raw_quip = b.get("quip", "")
+        title_e = _e(raw_title)
+        quip_e = _e(raw_quip)
+        ticker = b.get("ticker", "")
+        url = market_link(ticker) if ticker else b.get("url", "#")
+        platform = b.get("platform", "kalshi")
+        platform_name = PLATFORM_DISPLAY_NAMES.get(platform, platform.title())
+        priced_in = f"{round(100 / payout_val)}%" if payout_val > 0 else ""
+        num_class = "rank-1" if rank == 1 else "rank-other"
+        tier_class = f"tier-{tier}" if tier else ""
 
-    if position == "top":
-        header = "today on the board"
-        cta_text = f"see all {len(bets)} of today's bets &rarr;"
-    else:
-        header = "before you go — today's board"
-        cta_text = f"see all {len(bets)} bets &rarr;"
+        cards.append(f"""        <div class="ranked-card {tier_class}">
+          <div class="ranked-card-inner">
+            <div class="rank-numeral {num_class}">{rank}</div>
+            <div class="ranked-card-body">
+              <div class="ranked-card-title">{title_e}</div>
+              <div class="ranked-card-quip">{quip_e}</div>
+              <div class="ranked-card-payout-row">
+                <span class="ranked-pays">$1 pays</span>
+                <span class="ranked-payout">{payout_str}</span>
+                <span class="ranked-meta">{priced_in} priced in</span>
+              </div>
+            </div>
+          </div>
+          <a href="{url}" target="_blank" rel="noopener nofollow" class="ranked-cta" data-platform="{platform}" data-tier="{tier}" data-payout="{payout_val}" data-ticker="{ticker}">see odds on {platform_name} &raquo;</a>
+        </div>""")
+
+    cards_html = "\n".join(cards)
+    total = len(bets)
 
     return f"""    <div class="board-promo">
-      <div class="board-promo-header">{header}</div>
-      <ul class="board" role="list">
-{cards}
-      </ul>
-      <a href="/" class="board-promo-cta">{cta_text}</a>
+      <div class="board-promo-header">the top 5, live from this morning's board</div>
+      <div style="display:flex;flex-direction:column;gap:12px;">
+{cards_html}
+      </div>
+      <a href="/" class="board-promo-cta">see all {total} on today's board &rarr;</a>
     </div>"""
 
 

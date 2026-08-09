@@ -598,28 +598,15 @@ def unavailable_html(market_id, platform_display, user_country, partner_config,
 
 
 def interstitial_html(platform_name, destination_url, market_id, min_age=21):
-    """Generate a jurisdiction warning interstitial page with age-gate overlay.
+    """Generate the /go/ interstitial — Ticket Stand dark design with combined age ack.
 
-    All dynamic values are HTML-escaped so an attacker can't inject markup via
-    crafted /go/ paths or poisoned board data. The outbound link carries
-    rel="nofollow sponsored noopener noreferrer" — required for affiliate
-    compliance and to strip the Referer header on the third-party hop.
-
-    The age-gate modal overlays the interstitial on first visit. A user who
-    acknowledges sets a `db_age_ack` cookie storing the highest age confirmed
-    (e.g. confirming 21+ also satisfies later 18+ gates). The gate is hidden
-    by client-side JS if the cookie meets the threshold — keeps the HTML
-    cacheable and the response stateless.
+    All dynamic values are HTML-escaped. Outbound link carries
+    rel="nofollow sponsored noopener noreferrer". One-tap age ack (checkbox)
+    replaces the old two-step modal flow. Cookie semantics unchanged.
     """
     safe_platform = html.escape(str(platform_name or ""), quote=True)
     safe_market_id = html.escape(str(market_id or ""), quote=True)
-    # destination_url is placed inside an href attribute — escape with quote=True
-    # so embedded quotes can't break out. Scheme is already restricted to https
-    # by _is_allowed_destination before we get here.
     safe_destination = html.escape(str(destination_url or ""), quote=True)
-    # min_age is from a server-controlled dict (PLATFORM_MIN_AGE), but coerce
-    # to int and clamp anyway so a stray value can't break the template or
-    # weaken the gate.
     try:
         gate_age = int(min_age)
     except (TypeError, ValueError):
@@ -628,99 +615,226 @@ def interstitial_html(platform_name, destination_url, market_id, min_age=21):
         gate_age = 18
     if gate_age > 21:
         gate_age = 21
+
+    # Look up market details from latest board for the recap ticket
+    board_data = load_latest_board_data()
+    market = find_market_in_board(market_id, board_data) if board_data else None
+    if market:
+        m_title = html.escape(str(market.get("title", market_id)), quote=False)
+        m_quip = html.escape(str(market.get("quip", "")), quote=False)
+        m_payout_raw = market.get("payout", 0)
+        m_payout = f"${m_payout_raw:.2f}" if m_payout_raw and m_payout_raw != int(m_payout_raw) else (f"${int(m_payout_raw)}" if m_payout_raw else "")
+        platform_key = market.get("platform", "kalshi")
+        reg_label = "CFTC-regulated" if platform_key == "kalshi" else "prediction market"
+    else:
+        m_title = html.escape(str(market_id), quote=False)
+        m_quip = ""
+        m_payout_raw = 0
+        m_payout = ""
+        reg_label = safe_platform
+
+    payout_row_html = ""
+    if m_payout:
+        payout_row_html = f"""
+          <div style="display:flex;align-items:baseline;gap:8px;margin-top:12px;border-top:1px dashed #d9c6ac;padding-top:12px;">
+            <span style="font-size:12px;color:#806b5b;">$1 pays</span>
+            <span style="font-family:'Archivo',sans-serif;font-weight:900;font-size:26px;color:#237a3f;letter-spacing:-0.5px;">{m_payout}</span>
+            <span style="font-size:10px;color:#a08b77;margin-left:auto;text-align:right;">{safe_platform}<br>{reg_label}</span>
+          </div>"""
+
+    quip_html = f'<div style="font-size:11.5px;color:#6b5744;font-style:italic;margin-top:3px;">{m_quip}</div>' if m_quip else ""
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>leaving dollar bets</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;900&family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
+  * {{ margin: 0; padding: 0; box-sizing: border-box; }}
   body {{
-    background: #fdf6ee; color: #2d2319; font-family: 'Courier New', monospace;
-    display: flex; justify-content: center; align-items: center;
-    min-height: 100vh; margin: 0; padding: 16px; box-sizing: border-box;
+    background: #2d2319;
+    color: #d7c8b2;
+    font-family: 'IBM Plex Mono', 'Courier New', monospace;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    -webkit-font-smoothing: antialiased;
   }}
-  .box {{
-    max-width: 480px; width: 100%; border: 1px solid #e8cdb5; padding: 24px;
-    background: #faf7f3;
+  a {{ color: #e8642c; }}
+  a:hover {{ color: #ff8a50; }}
+  .wrap {{
+    max-width: 480px;
+    width: 100%;
+    padding: 32px 20px 24px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
   }}
-  h1 {{ font-size: 16px; margin: 0 0 16px 0; text-transform: lowercase; color: #2d2319; }}
-  p {{ font-size: 13px; line-height: 1.6; margin: 0 0 12px 0; color: #5a4e2f; }}
-  .warn {{
-    background: #fef9e7; border: 1px solid #d4c479; color: #5a4e2f;
-    padding: 10px 12px; margin: 16px 0; font-size: 12px;
+  .wordmark {{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }}
-  a.go {{
-    display: inline-block; margin-top: 16px; padding: 10px 24px;
-    border: 2px solid #e8642c; color: #e8642c; text-decoration: none;
-    font-family: 'Courier New', monospace; font-size: 14px; font-weight: 700;
+  .wordmark-text {{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    color: #fdf6ee;
+    text-decoration: none;
   }}
-  a.go:hover {{ background: #e8642c; color: #fdf6ee; }}
-  a.back {{ color: #a08b77; font-size: 12px; margin-left: 16px; }}
-  a.back:hover {{ color: #6b5744; }}
-  .fine {{ font-size: 11px; color: #a08b77; margin-top: 20px; }}
-
-  /* Age gate overlay */
-  #age-gate {{
-    display: none;
-    position: fixed; inset: 0;
-    background: rgba(45,35,25,0.94);
-    justify-content: center; align-items: center;
-    z-index: 9999; padding: 16px; box-sizing: border-box;
+  .wordmark-text span {{ color: #e8642c; }}
+  .leaving-label {{
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #93836c;
   }}
-  #age-gate.show {{ display: flex; }}
-  .age-box {{
-    max-width: 380px; width: 100%; background: #faf7f3;
-    border: 2px solid #e8642c; padding: 24px;
-    font-family: 'Courier New', monospace;
+  .ticket {{
+    background: #fdf6ee;
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 20px;
+    position: relative;
+    color: #2d2319;
+    overflow: hidden;
   }}
-  .age-box h2 {{
-    font-size: 16px; margin: 0 0 12px 0; color: #2d2319;
-    text-transform: lowercase; letter-spacing: -0.3px;
+  .ticket-notch-l {{
+    position: absolute;
+    left: -8px;
+    top: 62%;
+    width: 16px;
+    height: 16px;
+    background: #2d2319;
+    border-radius: 50%;
   }}
-  .age-box p {{ font-size: 13px; line-height: 1.6; margin: 0 0 16px 0; color: #5a4e2f; }}
-  .age-box .actions {{ display: flex; gap: 8px; flex-wrap: wrap; }}
-  .age-box button {{
-    font-family: 'Courier New', monospace;
-    border: 2px solid #e8642c; color: #e8642c;
-    background: transparent; padding: 10px 16px;
-    font-size: 13px; font-weight: 700; cursor: pointer;
-    text-transform: lowercase;
+  .ticket-notch-r {{
+    position: absolute;
+    right: -8px;
+    top: 62%;
+    width: 16px;
+    height: 16px;
+    background: #2d2319;
+    border-radius: 50%;
   }}
-  .age-box button:hover {{ background: #e8642c; color: #fdf6ee; }}
-  .age-box button.no {{
-    border-color: #a08b77; color: #a08b77;
+  .ticket-label {{
+    font-size: 9.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #b5470a;
   }}
-  .age-box button.no:hover {{ background: #a08b77; color: #fdf6ee; }}
-  .age-box .help {{
-    font-size: 11px; color: #a08b77; margin-top: 16px;
+  .ticket-title {{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 1.3;
+    margin-top: 4px;
+    color: #2d2319;
   }}
-  .age-box .help a {{ color: #a08b77; text-decoration: underline; }}
+  .juris-note {{
+    background: rgba(254,249,231,0.06);
+    border: 1px solid #5a4e3f;
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-top: 16px;
+    font-size: 11.5px;
+    line-height: 1.7;
+    color: #b7a894;
+  }}
+  .age-label {{
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    margin-top: 16px;
+    font-size: 12.5px;
+    line-height: 1.6;
+    color: #d7c8b2;
+    cursor: pointer;
+  }}
+  .age-label input[type="checkbox"] {{
+    width: 20px;
+    height: 20px;
+    accent-color: #e8642c;
+    margin: 1px 0 0;
+    flex-shrink: 0;
+    cursor: pointer;
+  }}
+  .cta-btn {{
+    display: block;
+    margin-top: 16px;
+    background: #e8642c;
+    color: #fff;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 48px;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: background 0.15s ease;
+    pointer-events: none;
+    opacity: 0.5;
+  }}
+  .cta-btn.enabled {{
+    pointer-events: auto;
+    opacity: 1;
+  }}
+  .cta-btn.enabled:hover {{ background: #c4341c; color: #fff; }}
+  .back-link {{
+    text-align: center;
+    font-size: 12px;
+    color: #93836c;
+    margin-top: 14px;
+    text-decoration: underline;
+    display: block;
+  }}
+  .back-link:hover {{ color: #d7c8b2; }}
+  .fine-print {{
+    margin-top: auto;
+    font-size: 10px;
+    color: #6f6250;
+    line-height: 1.7;
+    padding-top: 28px;
+  }}
+  .fine-print a {{ color: #93836c; text-decoration: underline; }}
 </style>
 </head>
 <body>
-<div class="box">
-  <h1>you are leaving dollar bets</h1>
-  <p>you are about to visit <strong>{safe_platform}</strong> to view market <strong>{safe_market_id}</strong>.</p>
-  <div class="warn">
-    <p>availability depends on your location. confirm you are in an eligible jurisdiction before continuing. dollar bets does not verify your eligibility.</p>
+<div class="wrap">
+  <div class="wordmark">
+    <a href="/" class="wordmark-text">DOLLAR<span>BETS</span></a>
+    <span class="leaving-label">leaving &rarr;</span>
   </div>
-  <p>dollar bets is an editorial site. we are not affiliated with, endorsed by, or acting as an agent of {safe_platform}.</p>
-  <a class="go" href="{safe_destination}" target="_blank" rel="nofollow sponsored noopener noreferrer">continue to {safe_platform}</a>
-  <a class="back" href="/">go back</a>
-  <p class="fine">by clicking continue you acknowledge that you are solely responsible for complying with the laws and regulations of your jurisdiction.</p>
-</div>
 
-<div id="age-gate" role="dialog" aria-modal="true" aria-labelledby="age-gate-title">
-  <div class="age-box">
-    <h2 id="age-gate-title">are you {gate_age}+?</h2>
-    <p>you must be {gate_age} or older to continue to {safe_platform}. by confirming, you acknowledge you meet the minimum age in your jurisdiction.</p>
-    <div class="actions">
-      <button type="button" id="age-yes">yes, i am {gate_age}+</button>
-      <button type="button" class="no" id="age-no">no</button>
-    </div>
-    <p class="help">struggling with gambling? <a href="/responsible-gambling/">get help &rarr;</a></p>
+  <div class="ticket">
+    <div class="ticket-notch-l"></div>
+    <div class="ticket-notch-r"></div>
+    <div class="ticket-label">your pick</div>
+    <div class="ticket-title">{m_title}</div>
+    {quip_html}
+    {payout_row_html}
   </div>
+
+  <div class="juris-note">availability depends on your location &mdash; confirm you're in an eligible jurisdiction before continuing. dollar bets doesn't verify eligibility and isn't affiliated with, endorsed by, or an agent of {safe_platform}.</div>
+
+  <label class="age-label">
+    <input type="checkbox" id="age-ack">
+    <span>i'm <strong style="color:#fdf6ee;">{gate_age} or older</strong> and responsible for complying with the laws of my jurisdiction.</span>
+  </label>
+
+  <a href="{safe_destination}" target="_blank" rel="nofollow sponsored noopener noreferrer" id="cta-btn" class="cta-btn">continue to {safe_platform} &raquo;</a>
+
+  <a href="/" class="back-link">go back to the board</a>
+
+  <div class="fine-print">by continuing you acknowledge you are solely responsible for complying with the laws and regulations of your jurisdiction. struggling with gambling? <a href="/responsible-gambling/">get help &rarr;</a></div>
 </div>
 
 <script>
@@ -728,22 +842,23 @@ def interstitial_html(platform_name, destination_url, market_id, min_age=21):
   var minAge = {gate_age};
   var match = document.cookie.match(/(?:^|;\\s*)db_age_ack=(\\d+)/);
   var acked = match ? parseInt(match[1], 10) : 0;
-  var gate = document.getElementById('age-gate');
-  if (!gate) return;
-  if (!acked || acked < minAge) {{
-    gate.classList.add('show');
-    document.body.style.overflow = 'hidden';
+  var checkbox = document.getElementById('age-ack');
+  var btn = document.getElementById('cta-btn');
+
+  // Pre-check if already acked at this age threshold
+  if (acked >= minAge) {{
+    checkbox.checked = true;
+    btn.classList.add('enabled');
   }}
-  var yes = document.getElementById('age-yes');
-  var no = document.getElementById('age-no');
-  if (yes) yes.addEventListener('click', function() {{
-    var newAck = acked > minAge ? acked : minAge;
-    document.cookie = 'db_age_ack=' + newAck + ';max-age=31536000;path=/;samesite=lax;secure';
-    gate.classList.remove('show');
-    document.body.style.overflow = '';
-  }});
-  if (no) no.addEventListener('click', function() {{
-    window.location.href = '/';
+
+  checkbox.addEventListener('change', function() {{
+    if (this.checked) {{
+      btn.classList.add('enabled');
+      var newAck = Math.max(acked, minAge);
+      document.cookie = 'db_age_ack=' + newAck + ';max-age=31536000;path=/;samesite=lax;secure';
+    }} else {{
+      btn.classList.remove('enabled');
+    }}
   }});
 }})();
 </script>

@@ -172,42 +172,40 @@ def load_content_files():
 # ── Body renderer ──────────────────────────────────────────
 
 def render_body(body_blocks):
-    """Render body content blocks into HTML."""
+    """Render body content blocks into HTML (for use inside .article-body wrapper)."""
     parts = []
     for block in body_blocks:
         btype = block.get("type", "text")
         content = block.get("content", "")
 
         if btype == "heading":
-            parts.append(f'    <h2 class="section-head">{content}</h2>')
+            parts.append(f'      <h2>{content}</h2>')
         elif btype == "text":
-            parts.append(f'    <div class="page-intro"><p>{content}</p></div>')
+            parts.append(f'      <p>{content}</p>')
         elif btype == "list":
             items = content if isinstance(content, list) else [content]
-            li_html = "\n".join(f"      <li>{item}</li>" for item in items)
-            # font-family deliberately omitted — inherit Courier from body so
-            # list items match the rest of the page (old-internet aesthetic).
-            parts.append(f'    <ul style="font-size:14px;color:#3d2e1f;line-height:1.7;margin:0 0 14px 20px;list-style:disc">\n{li_html}\n    </ul>')
+            li_html = "\n".join(f"        <li>{item}</li>" for item in items)
+            parts.append(f'      <ul style="font-size:13px;color:#3d2e1f;line-height:1.7;margin:8px 0 0 20px;list-style:disc">\n{li_html}\n      </ul>')
 
-    return "\n\n".join(parts)
+    return "\n".join(parts)
 
 
 # ── FAQ renderer + schema ─────────────────────────────────
 
 def render_faqs(faqs):
-    """Render visible FAQ section from a list of {q, a} dicts."""
+    """Render visible FAQ section from a list of {q, a} dicts (for inside .article-body)."""
     if not faqs:
         return ""
     items = []
     for faq in faqs:
         q = faq.get("q", "")
         a = faq.get("a", "")
-        items.append(f"""      <div style="margin-bottom:14px">
-        <h3 style="font-size:14px;font-weight:700;color:#2d2319;margin-bottom:4px">{q}</h3>
-        <div class="page-intro"><p>{a}</p></div>
+        items.append(f"""      <div class="faq-item">
+        <h3>{q}</h3>
+        <p>{a}</p>
       </div>""")
 
-    return f"""    <h2 class="section-head">frequently asked questions</h2>
+    return f"""      <h2>frequently asked questions</h2>
 {chr(10).join(items)}"""
 
 
@@ -276,11 +274,7 @@ def render_internal_links(links):
     if not links:
         return ""
 
-    # Drop links whose TARGET is policy-noindexed. An indexed page linking to a
-    # noindexed dead-end bleeds PageRank into a URL we've told Google to ignore.
-    # Reuses the exact policy_noindex gate the target page applies to itself, so
-    # a link is dropped iff that page would be noindexed anyway (bare "/" and
-    # anchors with no slug always stay).
+    # Drop links whose TARGET is policy-noindexed.
     def _target_indexable(link):
         slug = (link.get("url", "") or "").strip("/")
         if not slug:
@@ -291,14 +285,12 @@ def render_internal_links(links):
     if not links:
         return ""
 
-    link_items = " · ".join(
-        f'<a href="{link["url"]}" style="color:#666">{link["text"]}</a>'
+    link_items = " &middot; ".join(
+        f'<a href="{link["url"]}">{link["text"]}</a>'
         for link in links
     )
 
-    return f"""    <div style="margin:20px 0;padding:12px;border-top:1px solid #e8e7e0;font-size:11px;color:#6b5744">
-      more: {link_items}
-    </div>"""
+    return f'    <div class="internal-links-row">more: {link_items}</div>'
 
 
 # ── Compliance footer ──────────────────────────────────────
@@ -307,7 +299,7 @@ def render_compliance(text):
     """Render compliance disclaimer."""
     if not text:
         return ""
-    return f'    <div style="font-size:10px;color:#b0afa8;line-height:1.6;margin:14px 0">{text}</div>'
+    return f'    <div class="legal-strip">{text}</div>'
 
 
 # ── Page generators by format ──────────────────────────────
@@ -349,74 +341,109 @@ def generate_content_page(page_data):
     # H1
     body_parts.append(f'    <h1 class="page-title">{seo.get("h1", "")}</h1>')
 
-    # Byline + date line
+    # Byline
     author = page_data.get("author", DEFAULT_AUTHOR)
     pub_date = page_data.get("publish_date", "")
     last_updated = page_data.get("last_updated", "")
 
     meta_parts = []
-    meta_parts.append(f'by <a href="{author["url"]}" style="color:#555">{author["name"]}</a>')
+    meta_parts.append(f'by <a href="{author["url"]}">{author["name"]}</a>')
     if pub_date:
         meta_parts.append(pub_date)
     if last_updated and last_updated != pub_date:
         meta_parts.append(f'updated {last_updated}')
 
-    body_parts.append(f'    <div class="date-line" style="margin-bottom:14px">{" · ".join(meta_parts)}</div>')
+    body_parts.append(f'    <div class="byline">{" &middot; ".join(meta_parts)}</div>')
+
+    # Trust chips
+    platform_hint = page_data.get("platform_hint", "")
+    if platform_hint == "polymarket":
+        reg_chip = '<span class="trust-chip-green">&#10003; CFTC-regulated &amp; decentralized</span>'
+    else:
+        reg_chip = '<span class="trust-chip-green">&#10003; CFTC-regulated exchange</span>'
+    body_parts.append(f'''    <div class="trust-chips">
+      {reg_chip}
+      <span class="trust-chip-neutral">re-ranked every morning</span>
+      <span class="trust-chip-neutral">every result logged</span>
+    </div>''')
 
     # Quick Answer block — optimized for AI engine extraction (AEO)
     quick_answer = page_data.get("quick_answer", "")
     if quick_answer:
-        body_parts.append(f'    <div class="quick-answer" style="font-size:13.5px;color:#2d2319;line-height:1.7;margin:10px 0 16px 0;padding:12px 14px;border-left:3px solid #e8642c;background:#fff;border:1px solid #e8e7e0;border-radius:3px" role="doc-abstract"><strong>Quick answer:</strong> {quick_answer}</div>')
+        body_parts.append(f'    <div class="quick-answer" role="doc-abstract"><strong>Quick answer:</strong> {quick_answer}</div>')
     else:
-        # Fallback to summary as tl;dr if no quick_answer
         summary = page_data.get("summary", "")
         if summary:
-            body_parts.append(f'    <div style="font-size:13px;color:#333;line-height:1.7;margin:10px 0 16px 0;padding:10px 12px;border-left:3px solid #e8642c;background:#fff;border:1px solid #e8e7e0;border-left:3px solid #e8642c;border-radius:3px"><strong>tl;dr:</strong> {summary}</div>')
+            body_parts.append(f'    <div class="quick-answer"><strong>tl;dr:</strong> {summary}</div>')
 
-    # Hero bet
-    hero = page_data.get("hero_bet")
-    if hero:
-        body_parts.append(render_hero_bet(hero))
+    # Affiliate disclosure mini-strip
+    body_parts.append('    <div class="affiliate-strip">affiliate disclosure: dollar bets earns a commission if you sign up to kalshi or polymarket through our links &mdash; never a cut of your bet, and we never hold your money. <a href="/affiliate-disclosure/">full disclosure &rarr;</a></div>')
 
-    # === TODAY'S BOARD PROMO (top position) ===
-    # Load board data once, reuse for both placements
+    # === RANKED TOP-5 BOARD PROMO ===
+    # Load board data once, detect platform from page cluster/slug
     _boards = load_all_boards()
     _latest_board = _boards[-1][1] if _boards else None
-    top_promo = render_board_promo(_latest_board, position="top")
+    slug_lower = (slug or "").lower()
+    cluster_lower = (page_data.get("cluster", "") or "").lower()
+    # Detect primary platform from slug/cluster for ranking filter
+    _pf = None
+    if "polymarket" in slug_lower or "polymarket" in cluster_lower:
+        _pf = "polymarket"
+    elif "kalshi" in slug_lower or "kalshi" in cluster_lower:
+        _pf = "kalshi"
+    top_promo = render_board_promo(_latest_board, position="top", platform_filter=_pf)
     if top_promo:
         body_parts.append(top_promo)
 
-    # Body content — wrapped in a white card for readability
+    # Body content — wrapped in .article-body card
     body_blocks = page_data.get("body", [])
     article_inner = render_body(body_blocks)
 
     # Current equivalent (for Hall of Filth) — inside the article box
     equiv = page_data.get("current_equivalent")
     if equiv:
-        article_inner += f"""\n\n    <div style="margin:20px 0 0 0;padding:14px;background:#f5f4ef;border:1px solid #e8e7e0;border-radius:3px">
-      <div style="font-size:11px;color:#6b5744;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px">the modern equivalent</div>
-      <div style="font-size:13px;color:#333"><a href="{equiv['url']}" style="color:#333;font-weight:700">{equiv['text']} &rarr;</a></div>
-    </div>"""
+        article_inner += f"""
+      <div style="margin:20px 0 0 0;padding:14px;background:#fef0e4;border:1px solid #e8cdb5;border-radius:8px">
+        <div style="font-size:11px;color:#6b5744;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px">the modern equivalent</div>
+        <div style="font-size:13px;color:#2d2319"><a href="{equiv['url']}" style="font-weight:700">{equiv['text']} &rarr;</a></div>
+      </div>"""
 
     # FAQs — rendered inside the article box if present
     faqs = page_data.get("faqs", [])
     if faqs:
-        article_inner += "\n\n" + render_faqs(faqs)
+        article_inner += "\n" + render_faqs(faqs)
 
-    body_parts.append(f"""    <div style="background:#fff;border:1.5px solid #e8e7e0;border-radius:8px;padding:20px 18px;margin:16px 0">
+    body_parts.append(f"""    <div class="article-body">
 {article_inner}
     </div>""")
 
     # Internal links
     body_parts.append(render_internal_links(page_data.get("internal_links", [])))
 
-    # === TODAY'S BOARD PROMO (bottom position) ===
-    bottom_promo = render_board_promo(_latest_board, position="bottom")
-    if bottom_promo:
-        body_parts.append(bottom_promo)
-
-    # Compliance
+    # Compliance / legal strip
     body_parts.append(render_compliance(page_data.get("compliance", "")))
+
+    # SEO sticky bar — shows top-payout pick from the board
+    _sticky_html = ""
+    if _latest_board:
+        _bets = _latest_board.get("board", [])
+        _filtered = [b for b in _bets if not _pf or b.get("platform") == _pf] or _bets
+        _top = sorted(_filtered, key=lambda x: x.get("payout", 0), reverse=True)
+        if _top:
+            _t = _top[0]
+            from generate import format_payout, market_link, PLATFORM_DISPLAY_NAMES
+            _ticker = _t.get("ticker", "")
+            _payout_str = format_payout(_t.get("payout", 0))
+            _pname = PLATFORM_DISPLAY_NAMES.get(_t.get("platform", "kalshi"), "Kalshi")
+            _go_url = market_link(_ticker) if _ticker else "/"
+            _sticky_html = f"""    <div class="seo-sticky-bar">
+      <div class="seo-sticky-bar-inner">
+        <div class="seo-sticky-label">#1 bet pays<br><span class="seo-sticky-payout">{_payout_str} per $1</span></div>
+        <a href="{_go_url}" class="seo-sticky-cta">see odds on {_pname} &raquo;</a>
+      </div>
+    </div>"""
+    if _sticky_html:
+        body_parts.append(_sticky_html)
 
     body = "\n\n".join(body_parts)
 
