@@ -1,0 +1,130 @@
+{
+  "slug": "weird-prediction-markets-report",
+  "format": "weird_market_roundup",
+  "seo": {
+    "title": "Weird Prediction Markets Report: 94 Days of Data | Dollar Bets",
+    "h1": "The Weird Prediction Markets Report",
+    "meta_description": "94 days, 523 markets, 77.1% one-day wonders. Our own board data on the longshots, the swings, and the markets that just wouldn't leave.",
+    "canonical": "/weird-prediction-markets-report/"
+  },
+  "summary": "77.1% of every market that ever hit our board vanished after a single day. Four hundred and three one-night bookings, five $2,000 longshots, and one Moon-landing market that stuck around for 48 days straight — all from 94 days of our own daily snapshots.",
+  "quick_answer": "Our board tracked 523 unique markets across 938 total slots over 94 days, and 403 of them (77.1%) appeared exactly once before disappearing. The most persistent market was a lunar-landing bet that logged 48 days on the board, while five markets hit the $2,000 payout ceiling and lasted exactly one day each.",
+  "internal_links": [
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "funny Polymarket bets",
+      "url": "/funny-polymarket-bets/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "content": "the board is mostly a revolving door"
+    },
+    {
+      "type": "text",
+      "content": "77.1% of everything that ever landed on this board showed up once and never came back. Four hundred and three markets, one appearance each, gone by morning. That's the board in one number: a revolving door dressed up as a leaderboard."
+    },
+    {
+      "type": "text",
+      "content": "This report runs on our own daily market-board snapshots — 94 days of them, April 25 through August 9, covering 523 unique markets across 938 total board slots. Nobody else has this file. It's not the whole prediction-market universe, just what made our curated top-10 each day."
+    },
+    {
+      "type": "heading",
+      "content": "the headline numbers"
+    },
+    {
+      "type": "text",
+      "content": "Over four and a half months we watched 523 distinct markets cycle through a board that only ever shows ten at a time. Median board volume climbed from $8,108 in April to a peak of $25,285 in June before settling back to $20,536 in July. Mean payout size did the same climb — $16.93 in April, $39.65 by June — which tells you the board got both busier and weirder as summer went on."
+    },
+    {
+      "type": "heading",
+      "content": "the biggest longshots"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Jonathan McColumn's Georgia GOP Senate bid: \"a lottery ticket filing for office\"",
+        "Elon Musk posting 140-164 tweets in three days: \"the odds of this are the same as a controlled demolition landing on one specific tile\"",
+        "WTI crude hitting $175: \"someone's short-selling the sun\"",
+        "Bitcoin at a specific price at 3AM: \"someone set an alarm for this exact moment\"",
+        "Ethereum's direction over a two-hour window: \"a dollar on whether the number goes left or right\""
+      ]
+    },
+    {
+      "type": "text",
+      "content": "All five hit the $2,000 payout ceiling, and every single one lasted exactly one day. Below the ceiling, the board kept finding new ways to be strange: Lebanon's Taqaddom Party paid $666.67 to win (\"Hezbollah pivoting to competitive pickleball\"), Delhi Capitals winning the 2026 IPL paid $400 (\"not with a bang but a 0.0025\"), and Kim Moon-soo winning a South Korean governorship also paid $400 (\"four hundred dollars says hello from the void\")."
+    },
+    {
+      "type": "heading",
+      "content": "the markets that wouldn't leave"
+    },
+    {
+      "type": "text",
+      "content": "While hundreds of markets flashed and vanished, a handful just stayed. The lunar landing market — \"Will NASA land a person on the Moon before 2028?\" — logged 48 days on the board between April 26 and July 25, more than double the runner-up, captioned \"one small bet for man.\" Starship-carries-humans-to-Mars held 17 days, the Japan 8.0-magnitude earthquake market held 15 (across two separate stints), and Taylor Swift's papal audience market also ran 15 days, still open as of this report's last snapshot. The Iran nuclear deal market matched it at 15 days before resolving out of the picture by May 31."
+    },
+    {
+      "type": "heading",
+      "content": "the wildest odds swings"
+    },
+    {
+      "type": "text",
+      "content": "Nothing moved harder than \"Trump drops more UFO files this month,\" which swung from a 3% YES on June 8 to 65% YES on May 28 — a 62-point round trip in six days. The California 8.0 earthquake market swung 29 points across its 10 tracked days, a perfect-game market jumped from 14.5% to 39.5%, and South Korea's 3% inflation market swung 23.5 points in just four tracked days. Even the slow-burn Japan earthquake market drifted between 43% and 66% over its 15 days — proof that \"long-running\" and \"stable\" aren't the same thing here."
+    },
+    {
+      "type": "heading",
+      "content": "month over month"
+    },
+    {
+      "type": "text",
+      "content": "April was a soft launch — 58 board slots, dominated by Science and Technology. May and June each filled out to 300 slots, and that's when \"Other\" took over as the top tag. Median volume roughly tripled from April's $8,108 to June's $25,285. July cooled slightly (250 slots, median volume $20,536) but kept the same category order. August, so far, is a partial month with Politics making the top five for the first time all year."
+    },
+    {
+      "type": "heading",
+      "content": "about this data"
+    },
+    {
+      "type": "text",
+      "content": "This board is a curated daily top-10 (up to 30 in busier stretches), not a scrape of the entire prediction-market world. There's a real gap in the record too: snapshots stopped after July 25 and didn't resume until August 7, a 12-day hole in an otherwise daily cadence. Category labels are the scanner's own automated tags — useful for trend-spotting but imperfect. None of the payout figures should be read as predictions; they're illustrative snapshots of market prices at the time, and markets move."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What counts as a \"one-day wonder\"?",
+      "a": "Any market that appeared in exactly one daily snapshot before disappearing from the board. That's 403 of the 523 unique markets tracked — 77.1% of everything we've ever seen."
+    },
+    {
+      "q": "Why did June look so different from April?",
+      "a": "Board size grew from 58 slots to 300, median volume roughly tripled, and both mean and max payout size climbed sharply — June also produced two of the five all-time $2,000 longshots."
+    },
+    {
+      "q": "Is the 12-day gap in late July/early August a data problem?",
+      "a": "It's a real gap in daily snapshotting (July 25 to August 7), so any month-over-month comparisons touching that window should be read with that hole in mind — it's disclosed here rather than smoothed over."
+    },
+    {
+      "q": "Does a market's category ever change over its run?",
+      "a": "The tags reflect the scanner's read at each snapshot; we've reported them as recorded rather than reconciling or relabeling anything after the fact."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate prediction markets, and nothing here is financial or betting advice. Prediction markets carry real risk of total loss, and availability varies by jurisdiction — check your local laws before participating on any platform.",
+  "publish_date": "2026-08-09",
+  "last_updated": "2026-08-09",
+  "cluster": "Weird Bets",
+  "priority": 75,
+  "hero_bet": {
+    "title": "Taylor Swift meets Pope Leo XIV before 2027",
+    "payout": 20.0,
+    "quip": "So It Goes..., Vatican edition",
+    "tier": "red",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com/markets/KXPOPESWIFT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  }
+}
