@@ -333,15 +333,47 @@ SHARED_CSS = """
       background: #fef0e4;
     }
 
-    /* === DISCLOSURE LINE === */
+    /* === SCAN LINE (bold pitch under the nav) === */
+    .scan-line {
+      font-size: 13px;
+      font-weight: 700;
+      color: #2d2319;
+      margin-top: 12px;
+      line-height: 1.6;
+    }
+
+    /* === DISCLOSURE LINE (dated commission line — sits below the boards) === */
     .disclosure-strip {
       font-size: 10.5px;
       color: #806b5b;
-      margin-top: 10px;
+      margin-top: 20px;
+      padding-top: 12px;
+      border-top: 1.5px solid #e8cdb5;
       line-height: 1.6;
     }
 
     .disclosure-strip strong { color: #5a4e2f; }
+
+    /* Trust strip — always renders directly under the disclosure line */
+    .trust-strip {
+      font-size: 10px;
+      color: #806b5b;
+      margin: 8px 0 20px;
+      line-height: 1.6;
+    }
+
+    .trust-strip a { color: #6b5744; }
+
+    /* === PAGE QUIP (big one-liner under each board's h1) === */
+    .page-quip {
+      font-size: 17px;
+      font-style: italic;
+      font-weight: 500;
+      color: #2d2319;
+      line-height: 1.5;
+      margin-bottom: 6px;
+      letter-spacing: -0.2px;
+    }
 
     /* === BOARD (card list) === */
     .board { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px; }
@@ -357,11 +389,20 @@ SHARED_CSS = """
       position: relative;
     }
 
-    .wager.tier-green .wager-card { border-left: 5px solid #4caf50; }
-    .wager.tier-yellow .wager-card { border-left: 5px solid #e6c731; }
-    .wager.tier-orange .wager-card { border-left: 5px solid #d06a1a; }
-    .wager.tier-red .wager-card { border-left: 5px solid #e05252; }
-    .wager.tier-purple .wager-card { border-left: 5px solid #9c5ec7; }
+    /* Tinted ticket (Option A, 2026-08-09): border + a light wash of the
+       tier colour across the card + payout number inked to match. Makes the
+       tier system readable at a glance even on single-tier boards (chalk). */
+    .wager.tier-green .wager-card { border-left: 5px solid #4caf50; background: #f2f9f0; }
+    .wager.tier-yellow .wager-card { border-left: 5px solid #e6c731; background: #fdf9e8; }
+    .wager.tier-orange .wager-card { border-left: 5px solid #d06a1a; background: #fdf2e7; }
+    .wager.tier-red .wager-card { border-left: 5px solid #e05252; background: #fdf0ef; }
+    .wager.tier-purple .wager-card { border-left: 5px solid #9c5ec7; background: #f8f2fc; }
+
+    .wager.tier-green .payout-number { color: #2e7d32; }
+    .wager.tier-yellow .payout-number { color: #a08508; }
+    .wager.tier-orange .payout-number { color: #c05a10; }
+    .wager.tier-red .payout-number { color: #c73e3e; }
+    .wager.tier-purple .payout-number { color: #8546b3; }
 
     .wager-title-row {
       display: flex;
@@ -903,11 +944,18 @@ SHARED_CSS = """
       padding: 14px;
     }
 
-    .ranked-card.tier-green { border-left: 5px solid #4caf50; }
-    .ranked-card.tier-yellow { border-left: 5px solid #e6c731; }
-    .ranked-card.tier-orange { border-left: 5px solid #d06a1a; }
-    .ranked-card.tier-red { border-left: 5px solid #e05252; }
-    .ranked-card.tier-purple { border-left: 5px solid #9c5ec7; }
+    /* Tinted ticket (Option A) — same treatment as .wager-card */
+    .ranked-card.tier-green { border-left: 5px solid #4caf50; background: #f2f9f0; }
+    .ranked-card.tier-yellow { border-left: 5px solid #e6c731; background: #fdf9e8; }
+    .ranked-card.tier-orange { border-left: 5px solid #d06a1a; background: #fdf2e7; }
+    .ranked-card.tier-red { border-left: 5px solid #e05252; background: #fdf0ef; }
+    .ranked-card.tier-purple { border-left: 5px solid #9c5ec7; background: #f8f2fc; }
+
+    .ranked-card.tier-green .ranked-payout { color: #2e7d32; }
+    .ranked-card.tier-yellow .ranked-payout { color: #a08508; }
+    .ranked-card.tier-orange .ranked-payout { color: #c05a10; }
+    .ranked-card.tier-red .ranked-payout { color: #c73e3e; }
+    .ranked-card.tier-purple .ranked-payout { color: #8546b3; }
 
     .ranked-card-inner { display: flex; gap: 12px; }
 
@@ -1044,11 +1092,56 @@ SHARED_CSS = """
     .autopsy-section p { font-size: 13px; color: #6b5744; line-height: 1.6; }
     .autopsy-verdict { font-size: 14px; font-weight: 700; color: #2d2319; padding: 14px; background: #fef0e4; border: 1.5px solid #e8cdb5; border-radius: 12px; margin: 16px 0; font-style: italic; }
 
-    /* === SIGNUP === */
-    .signup { margin: 28px 0; }
-    .signup iframe { width: 100%; height: 340px; border: none; background: transparent; }
-    .signup-fallback { display: none; text-align: center; padding: 16px 0; }
-    .signup-fallback a { color: #b5470a; font-weight: 700; text-decoration: underline; }
+    /* === SIGNUP (native Resend form — compact, vertically short) === */
+    .signup { margin: 16px 0; }
+    .signup-box {
+      background: #fff;
+      border: 1.5px solid #e8cdb5;
+      border-radius: 12px;
+      padding: 12px 14px;
+    }
+    .signup-title {
+      font-family: 'Archivo', sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      color: #2d2319;
+      letter-spacing: -0.3px;
+      margin-bottom: 8px;
+    }
+    .signup-form { display: flex; gap: 8px; }
+    .signup-input {
+      flex: 1;
+      min-width: 0;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 13px;
+      color: #2d2319;
+      background: #fdf6ee;
+      border: 1.5px solid #e8cdb5;
+      border-radius: 8px;
+      padding: 0 10px;
+      min-height: 44px;
+      box-sizing: border-box;
+    }
+    .signup-input:focus { outline: none; border-color: #e8642c; }
+    .signup-btn {
+      font-family: 'IBM Plex Mono', monospace;
+      font-weight: 700;
+      font-size: 12.5px;
+      color: #fff;
+      background: #b5470a;
+      border: none;
+      border-radius: 8px;
+      padding: 0 16px;
+      min-height: 44px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.15s ease;
+    }
+    .signup-btn:hover { background: #8f3808; }
+    .signup-hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+    .signup-msg { font-size: 11px; color: #806b5b; margin-top: 6px; display: none; }
+    .signup-msg.ok { color: #237a3f; display: block; }
+    .signup-msg.err { color: #b03a3a; display: block; }
 
     /* === FOOTER === */
     .footer-info-nav {
@@ -1092,21 +1185,66 @@ SHARED_CSS = """
       .wager-title { font-size: 14px; }
       .hero-longshot-amount { font-size: 26px; }
       .page-title { font-size: 22px; }
+      .page-quip { font-size: 15px; }
     }
 """
 
 SIGNUP_HTML = """
     <div class="signup">
-      <iframe src="https://subscribe-forms.beehiiv.com/78789979-d89a-4de1-adb9-cb88a40ce0dd" scrolling="no" title="Email newsletter signup form"></iframe>
-      <noscript><div class="signup-fallback" style="display:block"><p><a href="https://subscribe-forms.beehiiv.com/78789979-d89a-4de1-adb9-cb88a40ce0dd" target="_blank">subscribe here</a></p></div></noscript>
+      <div class="signup-box">
+        <div class="signup-title">get the daily board in your inbox.</div>
+        <form class="signup-form" method="post" action="/api/subscribe" onsubmit="return dbSubscribe(event)">
+          <input type="email" name="email" required placeholder="you@wherever.com" class="signup-input" autocomplete="email" aria-label="Email address">
+          <input type="text" name="website" class="signup-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button type="submit" class="signup-btn">sign me up &raquo;</button>
+        </form>
+        <div class="signup-msg" role="status"></div>
+      </div>
     </div>
 """
 
-# Always-visible site disclosure shown between the tier legend and the
-# first bet on every board page. Plain-English trust signal — visible to
-# every visitor regardless of region. Geo-restriction warnings happen at
-# the /go/ interstitial.
-SIGNUP_JS = ""
+SUBSCRIBE_JS = """
+<script>
+function dbSubscribe(e) {
+  e.preventDefault();
+  var form = e.target;
+  var box = form.closest('.signup-box');
+  var msg = box.querySelector('.signup-msg');
+  var btn = form.querySelector('.signup-btn');
+  var email = form.email.value.trim();
+  if (!email) { return false; }
+  btn.disabled = true;
+  btn.textContent = 'signing up\\u2026';
+  fetch('/api/subscribe', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ email: email, website: form.website.value })
+  }).then(function(r) { return r.json().then(function(d) { return { ok: r.ok, data: d }; }); })
+    .then(function(res) {
+      if (res.ok) {
+        form.style.display = 'none';
+        msg.className = 'signup-msg ok';
+        msg.textContent = "you're on the list. \\ud83d\\udcb8";
+      } else {
+        msg.className = 'signup-msg err';
+        msg.textContent = (res.data && res.data.error) || 'that didn\\u2019t take \\u2014 try again?';
+        btn.disabled = false;
+        btn.textContent = 'sign me up \\u00bb';
+      }
+    })
+    .catch(function() {
+      msg.className = 'signup-msg err';
+      msg.textContent = 'network hiccup \\u2014 try again?';
+      btn.disabled = false;
+      btn.textContent = 'sign me up \\u00bb';
+    });
+  return false;
+}
+</script>
+"""
+
+# Page-bottom script block: the signup form's fetch handler.
+SIGNUP_JS = SUBSCRIBE_JS
 
 _BOARD_META_CACHE = "unset"
 
@@ -1212,7 +1350,7 @@ def footer_info_nav():
     return f'    <div class="footer-info-nav">\n        {items}\n    </div>\n'
 
 
-def page_shell(title, description, body, canonical="", noindex=False, current_nav="", extra_head="", sticky_html=None, compact_header=False):
+def page_shell(title, description, body, canonical="", noindex=False, current_nav="", extra_head="", sticky_html=None, compact_header=False, show_signup=True):
     """Wrap body content in the full HTML shell.
 
     `sticky_html` — optional pre-built fixed bottom bar; replaces the default
@@ -1263,11 +1401,19 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
     if compact_header:
         tagline_html = ""
         nav_block = ""
-        disclosure_line = ""
+        scan_line = ""
+        below_board_strips = ""
     else:
-        tagline_html = '<div class="tagline">The world\'s most interesting $1 wagers. A buck says maybe.</div>'
+        tagline_html = '<div class="tagline">The world\'s most interesting $1 wagers. A buck says maybe. 💸</div>'
         nav_block = f'<nav aria-label="Boards" class="nav">{nav_html(current_nav)}</nav>'
-        disclosure_line = f'<div class="disclosure-strip">{date_str} &mdash; we scan <strong>CFTC-regulated exchanges</strong> + major prediction markets every morning. we earn a commission if you sign up through our links &mdash; never a cut of your bet, and we never hold your money.</div>'
+        # Bold pitch line under the nav (replaces the old dated disclosure,
+        # which now lives below the boards). "Bookmark us" will become a link
+        # once the update-ping feature ships.
+        scan_line = '<div class="scan-line">Every day we scan regulated exchanges, prediction markets, and sports books to find the most interesting odds. Bookmark us to get the latest updates.</div>'
+        # Dated commission disclosure + trust strip — rendered together,
+        # directly below the page's main content on every non-compact page.
+        below_board_strips = f"""    <div class="disclosure-strip">{date_str} &mdash; we scan <strong>CFTC-regulated exchanges</strong> + major prediction markets every morning. we earn a commission if you sign up through our links &mdash; never a cut of your bet, and we never hold your money.</div>
+    <div class="trust-strip">tiny stakes. huge maybes. dollar bets is entertainment-first market discovery &mdash; not betting advice, not financial advice, and not a guarantee that any market is available where you live. odds and markets change. <a href="/responsible-gambling/">gamble responsibly</a>. <a href="/availability/">check availability</a>.</div>"""
 
     if sticky_html is None:
         if board_meta:
@@ -1327,13 +1473,15 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
 
     {nav_block}
 
-    {disclosure_line}
+    {scan_line}
 
     <main id="content">
 {body}
     </main>
 
-{SIGNUP_HTML}
+{below_board_strips}
+
+{SIGNUP_HTML if show_signup else ""}
 
 {footer_info_nav()}
 
@@ -1710,22 +1858,31 @@ def render_sports_bet_card(m, from_slug=None):
       </li>"""
 
 
-def render_sports_bet_list(bets, empty_msg="no bets yet — check back soon.", from_slug=None):
+def render_sports_bet_list(bets, empty_msg="no bets yet — check back soon.", from_slug=None, order="desc"):
     """Render a list of sports bets as a <ul>.
 
     `from_slug` is propagated into each card's /go/ link so failure
     redirects can return users to the correct originating board.
+
+    `order` — "desc" (default) puts the biggest payout on top, matching the
+    homepage. Chalk passes "asc": on that board the smallest payout is the
+    chalkiest pick, so the surest thing leads.
     """
     if not bets:
         return f'    <div class="empty-note">{empty_msg}</div>'
-    rows = "\n".join(render_sports_bet_card(b, from_slug=from_slug) for b in bets)
+    sorted_bets = sorted(bets, key=lambda x: x.get("payout", 0), reverse=(order == "desc"))
+    rows = "\n".join(render_sports_bet_card(b, from_slug=from_slug) for b in sorted_bets)
     return f"""    <ul class="board" role="list">
 {rows}
     </ul>"""
 
 
-def render_bet_list(bets, empty_msg="no bets yet — check back soon.", longshot_idx=None):
-    """Render bet list: longshot hero first (dark ticket), then remaining cards payout desc."""
+def render_bet_list(bets, empty_msg="no bets yet — check back soon.", longshot_idx=None, signup_after_hero=False):
+    """Render bet list: longshot hero first (dark ticket), then remaining cards payout desc.
+
+    `signup_after_hero` — homepage only: renders the compact email signup box
+    directly below the filthy-little-longshot hero ticket.
+    """
     if not bets:
         return f'    <div class="empty-note">{empty_msg}</div>'
 
@@ -1736,6 +1893,8 @@ def render_bet_list(bets, empty_msg="no bets yet — check back soon.", longshot
         # Sort remaining by payout descending
         others_sorted = sorted(others, key=lambda x: x.get("payout", 0), reverse=True)
         rows.append(render_longshot_hero(hero))
+        if signup_after_hero:
+            rows.append(f'      <li>{SIGNUP_HTML}</li>')
         rows.extend(render_bet_card(b) for b in others_sorted)
     else:
         sorted_bets = sorted(bets, key=lambda x: x.get("payout", 0), reverse=True)
@@ -2046,31 +2205,36 @@ CATEGORIES = {
         "title": "weird prediction markets — dollar bets",
         "h1": "black swans",
         "description": "The internet's strangest prediction markets, translated into what a $1 bet could pay. Weather, pop culture, science, tech — the black swans.",
-        "tagline": "The internet's strangest prediction markets. Snow in April, celebrity announcements, AI breakthroughs, earthquake odds — the kind of stuff that sounds fake but has actual money behind it. Translated into $1 payouts.",
+        "quip": "Sounds fake. The money is real.",
+        "tagline": "Snow in April, celebrity announcements, AI breakthroughs, earthquake odds — the internet's strangest prediction markets, translated into $1 payouts.",
     },
     "sports-markets": {
         "title": "sports prediction markets — dollar bets",
         "h1": "sports prediction markets",
         "description": "Sports prediction markets where $1 could pay big. Playoff sweeps, championship longshots, and underdog bets translated into dollar payouts.",
-        "tagline": "Sports prediction markets are where drama meets math. A playoff sweep priced at 45 cents. A championship longshot at 3 cents. The kinds of bets your fantasy league group chat argues about.",
+        "quip": "Drama, meet math.",
+        "tagline": "A playoff sweep priced at 45 cents. A championship longshot at 3 cents. The kinds of bets your fantasy league group chat argues about — translated into $1 payouts.",
     },
     "politics-markets": {
         "title": "political prediction markets — dollar bets",
         "h1": "gridlock",
         "description": "Political prediction markets — elections, policy, and gridlock. Real money odds on what happens next in Washington and beyond, framed as $1 payouts.",
-        "tagline": "Political prediction markets where public opinion gets a price tag. Elections, legislation, Supreme Court decisions, international crises — if it can be resolved with a yes or no, someone's trading on it. Framed as $1 payouts.",
+        "quip": "Public opinion gets a price tag.",
+        "tagline": "Elections, legislation, Supreme Court decisions, international crises — if it can be resolved with a yes or no, someone's trading on it. Framed as $1 payouts.",
     },
     "financial-markets": {
         "title": "financial prediction markets — dollar bets",
         "h1": "ball street",
         "description": "Financial prediction markets — the Fed, interest rates, recessions, stock market milestones, and economic indicators. What does $1 pay when Wall Street gets weird?",
-        "tagline": "The Fed, interest rates, recessions, stock market milestones. The markets where the suits meet the spreadsheet degenerates — framed by what a single dollar could pay out.",
+        "quip": "Where the suits meet the spreadsheet degenerates.",
+        "tagline": "The Fed, interest rates, recessions, stock market milestones — framed by what a single dollar could pay out.",
     },
     "crypto-markets": {
         "title": "crypto prediction markets — dollar bets",
         "h1": "moonshots",
         "description": "Crypto prediction markets — Bitcoin milestones, ETH price targets, and blockchain moonshots. What does $1 pay if the chart cooperates?",
-        "tagline": "Bitcoin milestones, ETH price targets, and blockchain moonshots. The most volatile corner of an already volatile world — framed as $1 payouts with real expiration dates.",
+        "quip": "Leverage on leverage, with an expiration date.",
+        "tagline": "Bitcoin milestones, ETH price targets, and blockchain moonshots — the most volatile corner of an already volatile world, framed as $1 payouts.",
     },
 }
 
@@ -2151,19 +2315,14 @@ def generate_daily_board(boards):
     legend = legend_html(board)
     date_line = f'    <div class="date-line" style="margin-bottom:14px">{date_str}</div>\n'
 
-    trust_strip = """
-    <div style="margin:20px 0;padding:12px;border-top:1.5px solid #e8cdb5;font-size:10px;color:#806b5b;line-height:1.6">
-      tiny stakes. huge maybes. dollar bets is entertainment-first market discovery — not betting advice, not financial advice, and not a guarantee that any market is available where you live. odds and markets change. <a href="/responsible-gambling/" style="color:#6b5744">gamble responsibly</a>. <a href="/availability/" style="color:#6b5744">check availability</a>.
-    </div>
-"""
-
     # Select today's filthy little longshot (homepage only)
     longshot_idx = select_filthy_longshot(board)
 
-    # Old date_line / legend pills / duplicate disclosure strip removed —
-    # page_shell now renders the merged date+disclosure line and the tier
-    # colors read from the card left-borders (Ticket Stand mock has no legend).
-    body = render_bet_list(board, longshot_idx=longshot_idx) + trust_strip
+    # Trust strip + dated disclosure now render in page_shell, directly
+    # below <main> on every non-compact page. The signup box renders inline
+    # right after the longshot hero (show_signup=False suppresses the
+    # page_shell bottom copy so it doesn't appear twice).
+    body = render_bet_list(board, longshot_idx=longshot_idx, signup_after_hero=True)
 
     # Homepage structured data: Organization + WebSite + ItemList
     market_items = []
@@ -2204,6 +2363,7 @@ def generate_daily_board(boards):
         canonical="/",
         current_nav="/",
         extra_head=homepage_schema,
+        show_signup=False,
     )
 
     write_page("index.html", html)
@@ -2232,10 +2392,13 @@ def generate_lineup_board(sports_boards):
     legend = legend_html(board)
     date_line = f'    <div class="date-line" style="margin-bottom:14px">{date_str}</div>\n'
 
-    # Sports-specific header
+    # Sports-specific header — big quip line + smaller detail line
     header = """    <h1 class="page-title">the lineup</h1>
+    <div class="page-quip">
+      Sports bets for people who believe garbage time is destiny with a shot clock.
+    </div>
     <div class="page-intro">
-      Sports bets for people who believe garbage time is destiny with a shot clock. Every market is translated into what a single dollar could pay — from respectable favorites to franchise miracles.
+      Every market is translated into what a single dollar could pay — from respectable favorites to franchise miracles.
     </div>
 """
 
@@ -2255,13 +2418,7 @@ def generate_lineup_board(sports_boards):
     </style>
 """
 
-    trust_strip = """
-    <div style="margin:20px 0;padding:12px;border-top:1.5px solid #e8cdb5;font-size:10px;color:#806b5b;line-height:1.6">
-      tiny stakes. huge maybes. dollar bets is entertainment-first market discovery — not betting advice, not financial advice, and not a guarantee that any market is available where you live. odds and markets change. <a href="/responsible-gambling/" style="color:#6b5744">gamble responsibly</a>. <a href="/availability/" style="color:#6b5744">check availability</a>.
-    </div>
-"""
-
-    body = header + render_sports_bet_list(board, from_slug="the-lineup") + trust_strip
+    body = header + render_sports_bet_list(board, from_slug="the-lineup")
 
     # Structured data
     market_items = []
@@ -2317,7 +2474,8 @@ SPORTS_BOARD_CONFIGS = {
         "file_prefix": "underdogs",
         "url_slug": "underdogs",
         "page_title": "underdogs",
-        "tagline": "Pure moneyline underdogs. Every pick on this board is a team that isn't supposed to win — but what if they do? $1 bets on davids vs goliaths.",
+        "quip": "Every team here is supposed to lose. That's the whole point.",
+        "tagline": "Pure moneyline underdogs — davids vs goliaths, translated into what a $1 bet pays if the upset lands.",
         "meta_title": "underdogs — moneyline longshots | dollar bets",
         "meta_description": "Today's best moneyline underdogs, framed as $1 payouts. Every pick is a team that isn't supposed to win.",
     },
@@ -2325,7 +2483,8 @@ SPORTS_BOARD_CONFIGS = {
         "file_prefix": "ocho",
         "url_slug": "the-ocho",
         "page_title": "the ocho",
-        "tagline": "If ESPN won't cover it, we will. Cricket, rugby, Aussie rules, handball, lacrosse — the sports your bookie forgot existed, translated into $1 payouts.",
+        "quip": "If ESPN won't cover it, we will.",
+        "tagline": "Cricket, rugby, Aussie rules, handball, lacrosse — the sports your bookie forgot existed, translated into $1 payouts.",
         "meta_title": "the ocho — obscure sports odds | dollar bets",
         "meta_description": "Odds on sports you didn't know had odds. Cricket, rugby league, AFL, handball, and more — framed as $1 payouts.",
     },
@@ -2333,7 +2492,9 @@ SPORTS_BOARD_CONFIGS = {
         "file_prefix": "chalk",
         "url_slug": "chalk",
         "page_title": "chalk",
-        "tagline": "Heavy favorites only. The bets that should hit. Tiny payouts, high probability, deadpan energy. Boring money is still money.",
+        "quip": "Boring money is still money.",
+        "tagline": "Heavy favorites only — the bets that should hit. Sorted surest thing first: on this board, the smallest payout is the biggest brag.",
+        "sort": "asc",
         "meta_title": "chalk — heavy favorites | dollar bets",
         "meta_description": "Today's heaviest favorites in sports, framed as $1 payouts. Near-locks for people who like boring money.",
     },
@@ -2341,7 +2502,8 @@ SPORTS_BOARD_CONFIGS = {
         "file_prefix": "combo",
         "url_slug": "combo-meal",
         "page_title": "the combo meal",
-        "tagline": "Pre-built parlays served hot. Each combo stacks 2-3 legs into a single $1 payout — from the value menu to the triple bypass. Would you like to supersize that?",
+        "quip": "Would you like to supersize that?",
+        "tagline": "Pre-built parlays served hot — each combo stacks 2-3 legs into a single $1 payout, from the value menu to the triple bypass.",
         "meta_title": "the combo meal — pre-built parlays | dollar bets",
         "meta_description": "Pre-built sports parlays framed as $1 payouts. From safe combos to degenerate stacks.",
     },
@@ -2370,6 +2532,9 @@ def generate_sports_sub_board(board_key):
     date_line = f'    <div class="date-line" style="margin-bottom:14px">{date_str}</div>\n'
 
     header = f"""    <h1 class="page-title">{config["page_title"]}</h1>
+    <div class="page-quip">
+      {config["quip"]}
+    </div>
     <div class="page-intro">
       {config["tagline"]}
     </div>
@@ -2390,14 +2555,8 @@ def generate_sports_sub_board(board_key):
     </style>
 """
 
-    trust_strip = """
-    <div style="margin:20px 0;padding:12px;border-top:1.5px solid #e8cdb5;font-size:10px;color:#806b5b;line-height:1.6">
-      tiny stakes. huge maybes. dollar bets is entertainment-first market discovery — not betting advice, not financial advice, and not a guarantee that any market is available where you live. odds and markets change. <a href="/responsible-gambling/" style="color:#6b5744">gamble responsibly</a>. <a href="/availability/" style="color:#6b5744">check availability</a>.
-    </div>
-"""
-
     empty_msg = "no picks right now — check back soon. some sports sleep so the board can wake up swinging."
-    body = header + render_sports_bet_list(board, empty_msg, from_slug=config["url_slug"]) + trust_strip
+    body = header + render_sports_bet_list(board, empty_msg, from_slug=config["url_slug"], order=config.get("sort", "desc"))
 
     slug = config["url_slug"]
     schema = f"""<script type="application/ld+json">{{
@@ -2617,6 +2776,9 @@ def generate_category_pages(all_bets):
             related_html = f'    <div style="padding:16px 0;font-size:12px;color:#6b5744;border-top:1.5px solid #e8cdb5;margin-top:16px">more boards: {related_links}</div>\n'
 
         body = f"""    <h1 class="page-title">{config['h1']}</h1>
+    <div class="page-quip">
+      {config['quip']}
+    </div>
     <div class="page-intro">
       {config['tagline']}
     </div>

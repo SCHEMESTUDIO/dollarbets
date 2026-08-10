@@ -64,6 +64,7 @@
 | `api/board.py` | ~344 | CMS API — GET/POST board JSON via GitHub commits. HMAC token TTL = one UTC day. |
 | `api/go.py` | ~1213 | `/go/` redirect handler — geo-aware affiliate routing, interstitial, country/state plurals, stale-ticker fallbacks. All geo-compliance lives here (per-partner `allowed_countries`/`blocked_countries`). Destination-host allowlist (`_ALLOWED_REDIRECT_HOSTS`, https-only) + market-id regex defend against open-redirect / reflected-XSS; every dynamic value in interstitial templates is `html.escape`d. Offshore books (bovada.lv, betonline.ag) removed from allowlist + display-name map 2026-05-14. Age gate (2026-05-18): `PLATFORM_MIN_AGE` dict drives modal injected by `interstitial_html(..., min_age)`; `db_age_ack` cookie stores highest age confirmed so a 21-gated partner skips the modal if the visitor already passed 21 elsewhere. Sportsbooks + Kalshi = 21, Polymarket/Coinbase = 18, unknown = 21 (fail-safe). |
 | `api/login.py` | ~82 | CMS login — HMAC token auth, one-UTC-day TTL (no rolling window — `/api/login` has no rate limiting, so a captured token shouldn't grant a second day) |
+| `api/subscribe.py` | ~110 | `/api/subscribe` — email signup. Adds a contact to the Dollar Bets audience in Resend (replaced the beehiiv iframe embed 2026-08-09). Needs `RESEND_API_KEY` + `RESEND_AUDIENCE_ID` env vars in Vercel; fails soft (503) if unset. Honeypot field `website` silently drops bots. |
 | `api/geo.py` | ~50 | `/api/geo` endpoint — returns visitor country (from `x-vercel-ip-country`) + `commentary_only` flag derived from `partners.json → geo_compliance`. Designed for client-side CTA softening but currently **not consumed by any rendered HTML or JS**, and `vercel.json` has no explicit `/api/geo` route (Vercel's filesystem-based routing still serves it from `/api/geo.py`). Originally deleted in commit 65a2248 when geo compliance moved to `/go/`; re-committed in af3a267 (2026-05-19) per commit message "was previously untracked despite docs reference". Don't delete without checking; don't assume it's wired up either. |
 
 ### CI / config / data
@@ -105,6 +106,7 @@
 | GET | `/api/board?date=YYYY-MM-DD` | Returns board JSON for a date |
 | POST | `/api/board` | CMS save — commits updated board JSON to GitHub |
 | POST | `/api/login` | CMS auth — returns HMAC session token |
+| POST | `/api/subscribe` | Email signup → Resend audience contact. JSON body `{email, website(honeypot)}`. Env: `RESEND_API_KEY`, `RESEND_AUDIENCE_ID`. |
 | GET | `/go/{ticker}` | Geo-aware market redirect with affiliate params (handles all per-region compliance via partner-level allowed/blocked lists) |
 | GET | `/api/geo` | Returns `{country, commentary_only, cta_label?, banner?}` for the visitor. Available but unused by current static HTML (see file map note). |
 

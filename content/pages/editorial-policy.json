@@ -16,7 +16,7 @@
   "body": [
     {
       "type": "text",
-      "content": "Dollar Bets is a daily editorial board, not a sportsbook, not a tout sheet, and not an algorithm pretending to be a person. Every page on this site reflects human editorial judgment. Here's how that works."
+      "content": "Dollar Bets is a daily editorial board, not a sportsbook, not a tout sheet, and not an algorithm pretending to be a person. The editorial standards on this site — what gets picked, how it's framed, what's off-limits — are set and supervised by humans, and much of the daily publishing is automated to those standards. Here's how that works."
     },
     {
       "type": "heading",
@@ -52,7 +52,7 @@
     },
     {
       "type": "text",
-      "content": "Dollar Bets uses software and AI tools to help monitor markets, organize research, draft summaries, and format betting-slip cards. Every published page is reviewed, edited, and approved by a human editor. Our market selections and quips reflect editorial judgment, not automated betting advice. We use AI the way a newsroom uses wire services — as inputs to a human editorial process, not as a replacement for it."
+      "content": "Dollar Bets uses software and AI tools to monitor markets, organize research, and write and publish daily pages. Some pages are published automatically by an editorial pipeline that applies the human-written selection criteria, style rules, and compliance checks described on this page. Humans design those rules, spot-check what gets published, and review and correct anything the automation gets wrong — see corrections below. Our framing standards reflect editorial judgment, not automated betting advice, and nothing here is a recommendation to bet."
     },
     {
       "type": "heading",
