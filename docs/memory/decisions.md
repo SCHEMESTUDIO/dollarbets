@@ -56,6 +56,17 @@ delete. Keep entries short; link evidence.
   fallback; its schedule is removed. Weekly briefs are now consumed by
   Postwerks, not by a nightly in-repo writer.
 
+- **2026-08-08 — Quip model upgraded to Opus-5 (commit 435b5bc).**
+  Three-model tier restructure: (1) `QUIP_MODEL = "claude-opus-5"` — writes
+  original quips with extended thinking (fixes Sonnet-5 reliability where it
+  returned blank despite tiny budget), (2) `PAIRING_MODEL = "claude-sonnet-5"`
+  — ranks/pairs best pool quip per bet (mechanical, not creative), (3) taste
+  engine + GSC/wiki workflows dropped to `claude-haiku-4-5-20251001` (ops tier,
+  not product tier). Quips are THE product and volume is tiny (hundreds of
+  tokens/day), so the joke writer gets top tier. Fallback: if thinking/timeout
+  fails, board ships with pool quips, never blank. Optional upgrade path:
+  swap Opus for `"claude-fable-5"` (2x cost, unmeasured humor gain—A/B first).
+
 ## Superseded (kept for archaeology)
 
 - ~~2026-06-11 rebuild: publish.sh sole git writer via launchd 11:30~~ →
