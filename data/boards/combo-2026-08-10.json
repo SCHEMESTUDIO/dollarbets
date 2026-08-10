@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T09:18:08.273992+00:00",
+  "generated_at": "2026-08-10T16:53:03.603528+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,27 +8,70 @@
     "green": 10
   },
   "sport_mix": {
-    "MLB": 3,
-    "Multi": 7
+    "Multi": 7,
+    "MLB": 2,
+    "MLS": 1
   },
   "board": [
     {
-      "ticker": "PARLAY-372EF6D5",
-      "title": "New York Mets +1.5 + Los Angeles Angels +1.5",
-      "payout": 2.58,
+      "ticker": "PARLAY-E77C8784",
+      "title": "Seattle Sounders FC wins + Los Angeles Angels +1.5",
+      "payout": 2.54,
       "tier": "green",
-      "quip": "just showing up",
+      "quip": "as sure as gravity",
       "yes_price": "0.39",
       "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19861117-1549058106-2270593275&type=Single",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.596662526&selectionId=4019787",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Austin FC @ Seattle Sounders FC + Texas Rangers @ Los Angeles Angels",
+      "market_type": "2-leg parlay",
+      "american_odds": 154,
+      "implied_probability": 0.394,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Austin FC @ Seattle Sounders FC",
+          "pick": "Seattle Sounders FC wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.596662526&selectionId=4019787",
+          "commence_time": "2026-08-20T01:30:00Z"
+        },
+        {
+          "matchup": "Texas Rangers @ Los Angeles Angels",
+          "pick": "Los Angeles Angels +1.5",
+          "odds": -172,
+          "implied_prob": "63%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598543704&selectionId=1093236",
+          "commence_time": "2026-08-11T01:38:00Z"
+        }
+      ],
+      "close_time": "2026-08-11T01:38:00Z"
+    },
+    {
+      "ticker": "PARLAY-372EF6D5",
+      "title": "New York Mets +1.5 + Los Angeles Angels +1.5",
+      "payout": 2.55,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598556247&selectionId=29174",
       "sport": "baseball_mlb",
       "sport_display": "MLB",
       "matchup": "New York Mets @ Atlanta Braves + Texas Rangers @ Los Angeles Angels",
       "market_type": "2-leg parlay",
-      "american_odds": 158,
-      "implied_probability": 0.388,
+      "american_odds": 155,
+      "implied_probability": 0.392,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
@@ -36,80 +79,80 @@
         {
           "matchup": "New York Mets @ Atlanta Braves",
           "pick": "New York Mets +1.5",
-          "odds": -165,
+          "odds": -164,
           "implied_prob": "62%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861117-1549058106-2270593275&type=Single",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598556247&selectionId=29174",
           "commence_time": "2026-08-10T23:15:00Z"
         },
         {
           "matchup": "Texas Rangers @ Los Angeles Angels",
           "pick": "Los Angeles Angels +1.5",
-          "odds": -165,
-          "implied_prob": "62%",
+          "odds": -172,
+          "implied_prob": "63%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861588-1549079100-2270654723&type=Single",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598543704&selectionId=1093236",
           "commence_time": "2026-08-11T01:38:00Z"
         }
       ],
       "close_time": "2026-08-10T23:15:00Z"
     },
     {
-      "ticker": "PARLAY-AA5D3C90",
-      "title": "New York Mets +1.5 + Houston Astros wins",
-      "payout": 2.58,
+      "ticker": "PARLAY-783A5083",
+      "title": "St. Louis Cardinals +1.5 + Los Angeles Angels +1.5",
+      "payout": 2.55,
       "tier": "green",
-      "quip": "the boring middle",
+      "quip": "the fundamentals",
       "yes_price": "0.39",
       "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19861117-1549058106-2270593275&type=Single",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598543457&selectionId=50291",
       "sport": "baseball_mlb",
       "sport_display": "MLB",
-      "matchup": "New York Mets @ Atlanta Braves + Houston Astros @ San Francisco Giants",
+      "matchup": "Philadelphia Phillies @ St. Louis Cardinals + Texas Rangers @ Los Angeles Angels",
       "market_type": "2-leg parlay",
-      "american_odds": 158,
-      "implied_probability": 0.388,
+      "american_odds": 155,
+      "implied_probability": 0.392,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "New York Mets @ Atlanta Braves",
-          "pick": "New York Mets +1.5",
-          "odds": -165,
+          "matchup": "Philadelphia Phillies @ St. Louis Cardinals",
+          "pick": "St. Louis Cardinals +1.5",
+          "odds": -164,
           "implied_prob": "62%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861117-1549058106-2270593275&type=Single",
-          "commence_time": "2026-08-10T23:15:00Z"
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598543457&selectionId=50291",
+          "commence_time": "2026-08-10T23:46:00Z"
         },
         {
-          "matchup": "Houston Astros @ San Francisco Giants",
-          "pick": "Houston Astros wins",
-          "odds": -165,
-          "implied_prob": "62%",
+          "matchup": "Texas Rangers @ Los Angeles Angels",
+          "pick": "Los Angeles Angels +1.5",
+          "odds": -172,
+          "implied_prob": "63%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861598-1549079791-2270656704&type=Single",
-          "commence_time": "2026-08-11T01:46:00Z"
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598543704&selectionId=1093236",
+          "commence_time": "2026-08-11T01:38:00Z"
         }
       ],
-      "close_time": "2026-08-10T23:15:00Z"
+      "close_time": "2026-08-10T23:46:00Z"
     },
     {
-      "ticker": "PARLAY-F208C70C",
-      "title": "New York Mets +1.5 + Under 3.5",
+      "ticker": "PARLAY-AB647EE4",
+      "title": "St. Louis Cardinals +1.5 + Under 3.5",
       "payout": 2.58,
       "tier": "green",
-      "quip": "water is wet",
+      "quip": "tuesday energy",
       "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19861117-1549058106-2270593275&type=Single",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19861119-1549058238-2270593540&type=Single",
       "sport": "baseball_mlb",
       "sport_display": "Multi",
-      "matchup": "New York Mets @ Atlanta Braves + St. Louis City SC @ San Jose Earthquakes",
+      "matchup": "Philadelphia Phillies @ St. Louis Cardinals + St. Louis City SC @ San Jose Earthquakes",
       "market_type": "2-leg parlay",
       "american_odds": 158,
       "implied_probability": 0.388,
@@ -118,13 +161,13 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "New York Mets @ Atlanta Braves",
-          "pick": "New York Mets +1.5",
+          "matchup": "Philadelphia Phillies @ St. Louis Cardinals",
+          "pick": "St. Louis Cardinals +1.5",
           "odds": -165,
           "implied_prob": "62%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861117-1549058106-2270593275&type=Single",
-          "commence_time": "2026-08-10T23:15:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861119-1549058238-2270593540&type=Single",
+          "commence_time": "2026-08-10T23:46:00Z"
         },
         {
           "matchup": "St. Louis City SC @ San Jose Earthquakes",
@@ -136,22 +179,22 @@
           "commence_time": "2026-08-16T02:30:00Z"
         }
       ],
-      "close_time": "2026-08-10T23:15:00Z"
+      "close_time": "2026-08-10T23:46:00Z"
     },
     {
-      "ticker": "PARLAY-5B6D2880",
-      "title": "New York Mets +1.5 + Over 2.5",
+      "ticker": "PARLAY-2A60C866",
+      "title": "St. Louis Cardinals +1.5 + Over 2.5",
       "payout": 2.58,
       "tier": "green",
-      "quip": "just showing up",
+      "quip": "checking all the boxes",
       "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19861117-1549058106-2270593275&type=Single",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19861119-1549058238-2270593540&type=Single",
       "sport": "baseball_mlb",
       "sport_display": "Multi",
-      "matchup": "New York Mets @ Atlanta Braves + Philadelphia Union @ New York City FC",
+      "matchup": "Philadelphia Phillies @ St. Louis Cardinals + Philadelphia Union @ New York City FC",
       "market_type": "2-leg parlay",
       "american_odds": 158,
       "implied_probability": 0.388,
@@ -160,13 +203,13 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "New York Mets @ Atlanta Braves",
-          "pick": "New York Mets +1.5",
+          "matchup": "Philadelphia Phillies @ St. Louis Cardinals",
+          "pick": "St. Louis Cardinals +1.5",
           "odds": -165,
           "implied_prob": "62%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861117-1549058106-2270593275&type=Single",
-          "commence_time": "2026-08-10T23:15:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861119-1549058238-2270593540&type=Single",
+          "commence_time": "2026-08-10T23:46:00Z"
         },
         {
           "matchup": "Philadelphia Union @ New York City FC",
@@ -178,22 +221,22 @@
           "commence_time": "2026-08-16T22:00:00Z"
         }
       ],
-      "close_time": "2026-08-10T23:15:00Z"
+      "close_time": "2026-08-10T23:46:00Z"
     },
     {
-      "ticker": "PARLAY-7FF14425",
-      "title": "New York Mets +1.5 + Over 2.5",
+      "ticker": "PARLAY-9EC8ACF0",
+      "title": "St. Louis Cardinals +1.5 + Over 2.5",
       "payout": 2.58,
       "tier": "green",
-      "quip": "no surprises here",
+      "quip": "the fundamentals",
       "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19861117-1549058106-2270593275&type=Single",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19861119-1549058238-2270593540&type=Single",
       "sport": "baseball_mlb",
       "sport_display": "Multi",
-      "matchup": "New York Mets @ Atlanta Braves + Charlotte FC @ Toronto FC",
+      "matchup": "Philadelphia Phillies @ St. Louis Cardinals + Charlotte FC @ Toronto FC",
       "market_type": "2-leg parlay",
       "american_odds": 158,
       "implied_probability": 0.388,
@@ -202,13 +245,13 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "New York Mets @ Atlanta Braves",
-          "pick": "New York Mets +1.5",
+          "matchup": "Philadelphia Phillies @ St. Louis Cardinals",
+          "pick": "St. Louis Cardinals +1.5",
           "odds": -165,
           "implied_prob": "62%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861117-1549058106-2270593275&type=Single",
-          "commence_time": "2026-08-10T23:15:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861119-1549058238-2270593540&type=Single",
+          "commence_time": "2026-08-10T23:46:00Z"
         },
         {
           "matchup": "Charlotte FC @ Toronto FC",
@@ -220,22 +263,22 @@
           "commence_time": "2026-08-19T23:30:00Z"
         }
       ],
-      "close_time": "2026-08-10T23:15:00Z"
+      "close_time": "2026-08-10T23:46:00Z"
     },
     {
-      "ticker": "PARLAY-D797C9D8",
-      "title": "New York Mets +1.5 + Under 3.5",
+      "ticker": "PARLAY-92BC857C",
+      "title": "St. Louis Cardinals +1.5 + Under 3.5",
       "payout": 2.58,
       "tier": "green",
-      "quip": "steady hands",
+      "quip": "bread and butter",
       "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19861117-1549058106-2270593275&type=Single",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19861119-1549058238-2270593540&type=Single",
       "sport": "baseball_mlb",
       "sport_display": "Multi",
-      "matchup": "New York Mets @ Atlanta Braves + St. Louis City SC @ Sporting Kansas City",
+      "matchup": "Philadelphia Phillies @ St. Louis Cardinals + St. Louis City SC @ Sporting Kansas City",
       "market_type": "2-leg parlay",
       "american_odds": 158,
       "implied_probability": 0.388,
@@ -244,13 +287,13 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "New York Mets @ Atlanta Braves",
-          "pick": "New York Mets +1.5",
+          "matchup": "Philadelphia Phillies @ St. Louis Cardinals",
+          "pick": "St. Louis Cardinals +1.5",
           "odds": -165,
           "implied_prob": "62%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861117-1549058106-2270593275&type=Single",
-          "commence_time": "2026-08-10T23:15:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861119-1549058238-2270593540&type=Single",
+          "commence_time": "2026-08-10T23:46:00Z"
         },
         {
           "matchup": "St. Louis City SC @ Sporting Kansas City",
@@ -262,64 +305,22 @@
           "commence_time": "2026-08-20T00:00:00Z"
         }
       ],
-      "close_time": "2026-08-10T23:15:00Z"
+      "close_time": "2026-08-10T23:46:00Z"
     },
     {
-      "ticker": "PARLAY-5B5AD56D",
-      "title": "Los Angeles Angels +1.5 + Houston Astros wins",
+      "ticker": "PARLAY-431425B6",
+      "title": "St. Louis Cardinals +1.5 + Under 3.5",
       "payout": 2.58,
       "tier": "green",
-      "quip": "as sure as gravity",
+      "quip": "checking all the boxes",
       "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19861588-1549079100-2270654723&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Texas Rangers @ Los Angeles Angels + Houston Astros @ San Francisco Giants",
-      "market_type": "2-leg parlay",
-      "american_odds": 158,
-      "implied_probability": 0.388,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Texas Rangers @ Los Angeles Angels",
-          "pick": "Los Angeles Angels +1.5",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861588-1549079100-2270654723&type=Single",
-          "commence_time": "2026-08-11T01:38:00Z"
-        },
-        {
-          "matchup": "Houston Astros @ San Francisco Giants",
-          "pick": "Houston Astros wins",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861598-1549079791-2270656704&type=Single",
-          "commence_time": "2026-08-11T01:46:00Z"
-        }
-      ],
-      "close_time": "2026-08-11T01:38:00Z"
-    },
-    {
-      "ticker": "PARLAY-F1B87EAF",
-      "title": "Los Angeles Angels +1.5 + Under 3.5",
-      "payout": 2.58,
-      "tier": "green",
-      "quip": "tuesday energy",
-      "yes_price": "0.39",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19861588-1549079100-2270654723&type=Single",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19861119-1549058238-2270593540&type=Single",
       "sport": "baseball_mlb",
       "sport_display": "Multi",
-      "matchup": "Texas Rangers @ Los Angeles Angels + St. Louis City SC @ San Jose Earthquakes",
+      "matchup": "Philadelphia Phillies @ St. Louis Cardinals + FC Dallas @ Real Salt Lake",
       "market_type": "2-leg parlay",
       "american_odds": 158,
       "implied_probability": 0.388,
@@ -328,14 +329,89 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Texas Rangers @ Los Angeles Angels",
-          "pick": "Los Angeles Angels +1.5",
+          "matchup": "Philadelphia Phillies @ St. Louis Cardinals",
+          "pick": "St. Louis Cardinals +1.5",
           "odds": -165,
           "implied_prob": "62%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861588-1549079100-2270654723&type=Single",
-          "commence_time": "2026-08-11T01:38:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861119-1549058238-2270593540&type=Single",
+          "commence_time": "2026-08-10T23:46:00Z"
         },
+        {
+          "matchup": "FC Dallas @ Real Salt Lake",
+          "pick": "Under 3.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7840813-202380082-769817642&type=Single",
+          "commence_time": "2026-08-20T01:30:00Z"
+        }
+      ],
+      "close_time": "2026-08-10T23:46:00Z"
+    },
+    {
+      "ticker": "PARLAY-08B238A6",
+      "title": "St. Louis Cardinals +1.5 + Under 3.5",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19861119-1549058238-2270593540&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Philadelphia Phillies @ St. Louis Cardinals + Houston Dynamo @ Vancouver Whitecaps FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Philadelphia Phillies @ St. Louis Cardinals",
+          "pick": "St. Louis Cardinals +1.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861119-1549058238-2270593540&type=Single",
+          "commence_time": "2026-08-10T23:46:00Z"
+        },
+        {
+          "matchup": "Houston Dynamo @ Vancouver Whitecaps FC",
+          "pick": "Under 3.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7840807-202379066-769814830&type=Single",
+          "commence_time": "2026-08-20T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-08-10T23:46:00Z"
+    },
+    {
+      "ticker": "PARLAY-C9957D3A",
+      "title": "Under 3.5 + Over 2.5",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7837234-202048029-767825077&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "MLS",
+      "matchup": "St. Louis City SC @ San Jose Earthquakes + Philadelphia Union @ New York City FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
         {
           "matchup": "St. Louis City SC @ San Jose Earthquakes",
           "pick": "Under 3.5",
@@ -344,39 +420,6 @@
           "sport": "soccer_usa_mls",
           "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837234-202048029-767825077&type=Single",
           "commence_time": "2026-08-16T02:30:00Z"
-        }
-      ],
-      "close_time": "2026-08-11T01:38:00Z"
-    },
-    {
-      "ticker": "PARLAY-AE68F4DE",
-      "title": "Los Angeles Angels +1.5 + Over 2.5",
-      "payout": 2.58,
-      "tier": "green",
-      "quip": "as sure as gravity",
-      "yes_price": "0.39",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19861588-1549079100-2270654723&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Texas Rangers @ Los Angeles Angels + Philadelphia Union @ New York City FC",
-      "market_type": "2-leg parlay",
-      "american_odds": 158,
-      "implied_probability": 0.388,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Texas Rangers @ Los Angeles Angels",
-          "pick": "Los Angeles Angels +1.5",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861588-1549079100-2270654723&type=Single",
-          "commence_time": "2026-08-11T01:38:00Z"
         },
         {
           "matchup": "Philadelphia Union @ New York City FC",
@@ -388,49 +431,7 @@
           "commence_time": "2026-08-16T22:00:00Z"
         }
       ],
-      "close_time": "2026-08-11T01:38:00Z"
-    },
-    {
-      "ticker": "PARLAY-51360DA8",
-      "title": "Los Angeles Angels +1.5 + Over 2.5",
-      "payout": 2.58,
-      "tier": "green",
-      "quip": "another day at the office",
-      "yes_price": "0.39",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19861588-1549079100-2270654723&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Texas Rangers @ Los Angeles Angels + Charlotte FC @ Toronto FC",
-      "market_type": "2-leg parlay",
-      "american_odds": 158,
-      "implied_probability": 0.388,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Texas Rangers @ Los Angeles Angels",
-          "pick": "Los Angeles Angels +1.5",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861588-1549079100-2270654723&type=Single",
-          "commence_time": "2026-08-11T01:38:00Z"
-        },
-        {
-          "matchup": "Charlotte FC @ Toronto FC",
-          "pick": "Over 2.5",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7840809-202502824-770559551&type=Single",
-          "commence_time": "2026-08-19T23:30:00Z"
-        }
-      ],
-      "close_time": "2026-08-11T01:38:00Z"
+      "close_time": "2026-08-16T02:30:00Z"
     }
   ]
 }
