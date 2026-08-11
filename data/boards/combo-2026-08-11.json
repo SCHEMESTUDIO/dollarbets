@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-08-11T08:54:28.573950+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "MMA": 3,
+    "Multi": 7
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-A8E58577",
+      "title": "Joel Alvarez wins + Donte Johnson wins",
+      "payout": 1.96,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.51",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028660564?coupon={pickType}|4287770243|{wagerAmount}",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "MMA",
+      "matchup": "Joel Alvarez @ Chidi Njokuani + Eric McConico @ Donte Johnson",
+      "market_type": "2-leg parlay",
+      "american_odds": -104,
+      "implied_probability": 0.51,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Joel Alvarez @ Chidi Njokuani",
+          "pick": "Joel Alvarez wins",
+          "odds": -250,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028660564?coupon={pickType}|4287770243|{wagerAmount}",
+          "commence_time": "2026-08-16T02:00:00Z"
+        },
+        {
+          "matchup": "Eric McConico @ Donte Johnson",
+          "pick": "Donte Johnson wins",
+          "odds": -250,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028660569?coupon={pickType}|4287786353|{wagerAmount}",
+          "commence_time": "2026-08-16T02:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-16T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-0016F691",
+      "title": "Joel Alvarez wins + Mackenzie Dern wins",
+      "payout": 1.96,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.51",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028660564?coupon={pickType}|4287770243|{wagerAmount}",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "MMA",
+      "matchup": "Joel Alvarez @ Chidi Njokuani + Gillian Robertson @ Mackenzie Dern",
+      "market_type": "2-leg parlay",
+      "american_odds": -104,
+      "implied_probability": 0.51,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Joel Alvarez @ Chidi Njokuani",
+          "pick": "Joel Alvarez wins",
+          "odds": -250,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028660564?coupon={pickType}|4287770243|{wagerAmount}",
+          "commence_time": "2026-08-16T02:00:00Z"
+        },
+        {
+          "matchup": "Gillian Robertson @ Mackenzie Dern",
+          "pick": "Mackenzie Dern wins",
+          "odds": -250,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028064576?coupon={pickType}|4227323724|{wagerAmount}",
+          "commence_time": "2026-08-16T02:45:00Z"
+        }
+      ],
+      "close_time": "2026-08-16T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-032FAF7A",
+      "title": "Donte Johnson wins + Mackenzie Dern wins",
+      "payout": 1.96,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.51",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028660569?coupon={pickType}|4287786353|{wagerAmount}",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "MMA",
+      "matchup": "Eric McConico @ Donte Johnson + Gillian Robertson @ Mackenzie Dern",
+      "market_type": "2-leg parlay",
+      "american_odds": -104,
+      "implied_probability": 0.51,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Eric McConico @ Donte Johnson",
+          "pick": "Donte Johnson wins",
+          "odds": -250,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028660569?coupon={pickType}|4287786353|{wagerAmount}",
+          "commence_time": "2026-08-16T02:00:00Z"
+        },
+        {
+          "matchup": "Gillian Robertson @ Mackenzie Dern",
+          "pick": "Mackenzie Dern wins",
+          "odds": -250,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028064576?coupon={pickType}|4227323724|{wagerAmount}",
+          "commence_time": "2026-08-16T02:45:00Z"
+        }
+      ],
+      "close_time": "2026-08-16T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-CF1F8378",
+      "title": "Philadelphia Eagles wins + Joel Alvarez wins",
+      "payout": 2.05,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.49",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Washington Commanders @ Philadelphia Eagles + Joel Alvarez @ Chidi Njokuani",
+      "market_type": "2-leg parlay",
+      "american_odds": 105,
+      "implied_probability": 0.488,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington Commanders @ Philadelphia Eagles",
+          "pick": "Philadelphia Eagles wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Joel Alvarez @ Chidi Njokuani",
+          "pick": "Joel Alvarez wins",
+          "odds": -250,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028660564?coupon={pickType}|4287770243|{wagerAmount}",
+          "commence_time": "2026-08-16T02:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-16T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-58920463",
+      "title": "Philadelphia Eagles wins + Donte Johnson wins",
+      "payout": 2.05,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.49",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Washington Commanders @ Philadelphia Eagles + Eric McConico @ Donte Johnson",
+      "market_type": "2-leg parlay",
+      "american_odds": 105,
+      "implied_probability": 0.488,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington Commanders @ Philadelphia Eagles",
+          "pick": "Philadelphia Eagles wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Eric McConico @ Donte Johnson",
+          "pick": "Donte Johnson wins",
+          "odds": -250,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028660569?coupon={pickType}|4287786353|{wagerAmount}",
+          "commence_time": "2026-08-16T02:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-16T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-AE05E047",
+      "title": "Philadelphia Eagles wins + Mackenzie Dern wins",
+      "payout": 2.05,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.49",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Washington Commanders @ Philadelphia Eagles + Gillian Robertson @ Mackenzie Dern",
+      "market_type": "2-leg parlay",
+      "american_odds": 105,
+      "implied_probability": 0.488,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington Commanders @ Philadelphia Eagles",
+          "pick": "Philadelphia Eagles wins",
+          "odds": -215,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663021?coupon={pickType}|4184153927|{wagerAmount}",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Gillian Robertson @ Mackenzie Dern",
+          "pick": "Mackenzie Dern wins",
+          "odds": -250,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028064576?coupon={pickType}|4227323724|{wagerAmount}",
+          "commence_time": "2026-08-16T02:45:00Z"
+        }
+      ],
+      "close_time": "2026-08-16T02:45:00Z"
+    },
+    {
+      "ticker": "PARLAY-4BC4F113",
+      "title": "Baltimore Ravens wins + Joel Alvarez wins",
+      "payout": 2.07,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.48",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Baltimore Ravens @ Indianapolis Colts + Joel Alvarez @ Chidi Njokuani",
+      "market_type": "2-leg parlay",
+      "american_odds": 107,
+      "implied_probability": 0.483,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Joel Alvarez @ Chidi Njokuani",
+          "pick": "Joel Alvarez wins",
+          "odds": -250,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028660564?coupon={pickType}|4287770243|{wagerAmount}",
+          "commence_time": "2026-08-16T02:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-16T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-9D80C1A8",
+      "title": "Baltimore Ravens wins + Donte Johnson wins",
+      "payout": 2.07,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.48",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Baltimore Ravens @ Indianapolis Colts + Eric McConico @ Donte Johnson",
+      "market_type": "2-leg parlay",
+      "american_odds": 107,
+      "implied_probability": 0.483,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Eric McConico @ Donte Johnson",
+          "pick": "Donte Johnson wins",
+          "odds": -250,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028660569?coupon={pickType}|4287786353|{wagerAmount}",
+          "commence_time": "2026-08-16T02:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-16T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-84DA55E6",
+      "title": "Baltimore Ravens wins + Mackenzie Dern wins",
+      "payout": 2.07,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.48",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Baltimore Ravens @ Indianapolis Colts + Gillian Robertson @ Mackenzie Dern",
+      "market_type": "2-leg parlay",
+      "american_odds": 107,
+      "implied_probability": 0.483,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663026?coupon={pickType}|4184205134|{wagerAmount}",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Gillian Robertson @ Mackenzie Dern",
+          "pick": "Mackenzie Dern wins",
+          "odds": -250,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028064576?coupon={pickType}|4227323724|{wagerAmount}",
+          "commence_time": "2026-08-16T02:45:00Z"
+        }
+      ],
+      "close_time": "2026-08-16T02:45:00Z"
+    },
+    {
+      "ticker": "PARLAY-90838DD2",
+      "title": "Las Vegas Raiders wins + Joel Alvarez wins",
+      "payout": 2.07,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.48",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663025?coupon={pickType}|4184189228|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Miami Dolphins @ Las Vegas Raiders + Joel Alvarez @ Chidi Njokuani",
+      "market_type": "2-leg parlay",
+      "american_odds": 107,
+      "implied_probability": 0.483,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Dolphins @ Las Vegas Raiders",
+          "pick": "Las Vegas Raiders wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663025?coupon={pickType}|4184189228|{wagerAmount}",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Joel Alvarez @ Chidi Njokuani",
+          "pick": "Joel Alvarez wins",
+          "odds": -250,
+          "implied_prob": "71%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028660564?coupon={pickType}|4287770243|{wagerAmount}",
+          "commence_time": "2026-08-16T02:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-16T02:00:00Z"
+    }
+  ]
+}
