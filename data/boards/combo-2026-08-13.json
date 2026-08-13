@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T16:55:15.099882+00:00",
+  "generated_at": "2026-08-13T22:39:33.919332+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,394 +8,16 @@
     "green": 10
   },
   "sport_mix": {
-    "Multi": 8,
-    "NFL": 2
+    "NFL": 2,
+    "Multi": 8
   },
   "board": [
     {
-      "ticker": "PARLAY-6918A405",
-      "title": "Pittsburgh Steelers wins + Seattle Mariners +1.5",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "just showing up",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Atlanta Falcons @ Pittsburgh Steelers + Seattle Mariners @ New York Yankees",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
-          "pick": "Pittsburgh Steelers wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "Seattle Mariners @ New York Yankees",
-          "pick": "Seattle Mariners +1.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19862274-1549117658-2270754010&type=Single",
-          "commence_time": "2026-08-13T17:36:00Z"
-        }
-      ],
-      "close_time": "2026-08-13T17:36:00Z"
-    },
-    {
-      "ticker": "PARLAY-E6A8AC07",
-      "title": "Pittsburgh Steelers wins + Oklahoma City Thunder wins",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "checking all the boxes",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Atlanta Falcons @ Pittsburgh Steelers + Oklahoma City Thunder @ Minnesota Timberwolves",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
-          "pick": "Pittsburgh Steelers wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
-          "pick": "Oklahoma City Thunder wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
-          "commence_time": "2026-12-26T01:00:00Z"
-        }
-      ],
-      "close_time": "2026-09-13T17:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-F8C3926F",
-      "title": "Pittsburgh Steelers wins + Over 2.5",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "rent money",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "Multi",
-      "matchup": "Atlanta Falcons @ Pittsburgh Steelers + Columbus Crew SC @ Charlotte FC",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
-          "pick": "Pittsburgh Steelers wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
-        },
-        {
-          "matchup": "Columbus Crew SC @ Charlotte FC",
-          "pick": "Over 2.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837244-202049256-767830367&type=Single",
-          "commence_time": "2026-08-15T23:30:00Z"
-        }
-      ],
-      "close_time": "2026-08-15T23:30:00Z"
-    },
-    {
-      "ticker": "PARLAY-8CB928FD",
-      "title": "Seattle Mariners +1.5 + Oklahoma City Thunder wins",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "as sure as gravity",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19862274-1549117658-2270754010&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Seattle Mariners @ New York Yankees + Oklahoma City Thunder @ Minnesota Timberwolves",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Seattle Mariners @ New York Yankees",
-          "pick": "Seattle Mariners +1.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19862274-1549117658-2270754010&type=Single",
-          "commence_time": "2026-08-13T17:36:00Z"
-        },
-        {
-          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
-          "pick": "Oklahoma City Thunder wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
-          "commence_time": "2026-12-26T01:00:00Z"
-        }
-      ],
-      "close_time": "2026-08-13T17:36:00Z"
-    },
-    {
-      "ticker": "PARLAY-EC91DCE7",
-      "title": "Seattle Mariners +1.5 + Over 2.5",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "water is wet",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19862274-1549117658-2270754010&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Seattle Mariners @ New York Yankees + Columbus Crew SC @ Charlotte FC",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Seattle Mariners @ New York Yankees",
-          "pick": "Seattle Mariners +1.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19862274-1549117658-2270754010&type=Single",
-          "commence_time": "2026-08-13T17:36:00Z"
-        },
-        {
-          "matchup": "Columbus Crew SC @ Charlotte FC",
-          "pick": "Over 2.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837244-202049256-767830367&type=Single",
-          "commence_time": "2026-08-15T23:30:00Z"
-        }
-      ],
-      "close_time": "2026-08-13T17:36:00Z"
-    },
-    {
-      "ticker": "PARLAY-579B9933",
-      "title": "Oklahoma City Thunder wins + Over 2.5",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "checking all the boxes",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
-      "sport": "basketball_nba",
-      "sport_display": "Multi",
-      "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves + Columbus Crew SC @ Charlotte FC",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
-          "pick": "Oklahoma City Thunder wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
-          "commence_time": "2026-12-26T01:00:00Z"
-        },
-        {
-          "matchup": "Columbus Crew SC @ Charlotte FC",
-          "pick": "Over 2.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837244-202049256-767830367&type=Single",
-          "commence_time": "2026-08-15T23:30:00Z"
-        }
-      ],
-      "close_time": "2026-08-15T23:30:00Z"
-    },
-    {
-      "ticker": "PARLAY-6918A405",
-      "title": "New York Yankees wins + Pittsburgh Steelers wins",
-      "payout": 2.65,
-      "tier": "green",
-      "quip": "just showing up",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.599234709&selectionId=29161",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Seattle Mariners @ New York Yankees + Atlanta Falcons @ Pittsburgh Steelers",
-      "market_type": "2-leg parlay",
-      "american_odds": 165,
-      "implied_probability": 0.376,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Seattle Mariners @ New York Yankees",
-          "pick": "New York Yankees wins",
-          "odds": -156,
-          "implied_prob": "61%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.599234709&selectionId=29161",
-          "commence_time": "2026-08-13T17:36:00Z"
-        },
-        {
-          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
-          "pick": "Pittsburgh Steelers wins",
-          "odds": -162,
-          "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578577025&selectionId=50208",
-          "commence_time": "2026-09-13T17:00:00Z"
-        }
-      ],
-      "close_time": "2026-08-13T17:36:00Z"
-    },
-    {
-      "ticker": "PARLAY-6918A405",
-      "title": "Seattle Mariners +1.5 + Pittsburgh Steelers wins",
-      "payout": 2.65,
-      "tier": "green",
-      "quip": "just showing up",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.599295358&selectionId=7100968",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Seattle Mariners @ New York Yankees + Atlanta Falcons @ Pittsburgh Steelers",
-      "market_type": "2-leg parlay",
-      "american_odds": 165,
-      "implied_probability": 0.376,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Seattle Mariners @ New York Yankees",
-          "pick": "Seattle Mariners +1.5",
-          "odds": -156,
-          "implied_prob": "61%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.599295358&selectionId=7100968",
-          "commence_time": "2026-08-13T17:36:00Z"
-        },
-        {
-          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
-          "pick": "Pittsburgh Steelers wins",
-          "odds": -162,
-          "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578577025&selectionId=50208",
-          "commence_time": "2026-09-13T17:00:00Z"
-        }
-      ],
-      "close_time": "2026-08-13T17:36:00Z"
-    },
-    {
       "ticker": "PARLAY-DC098EF0",
       "title": "Kansas City Chiefs wins + Pittsburgh Steelers wins",
       "payout": 2.67,
       "tier": "green",
-      "quip": "the sun also rises",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578093954&selectionId=50214",
-      "sport": "americanfootball_nfl",
-      "sport_display": "NFL",
-      "matchup": "Denver Broncos @ Kansas City Chiefs + Atlanta Falcons @ Pittsburgh Steelers",
-      "market_type": "2-leg parlay",
-      "american_odds": 167,
-      "implied_probability": 0.375,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Denver Broncos @ Kansas City Chiefs",
-          "pick": "Kansas City Chiefs wins",
-          "odds": -154,
-          "implied_prob": "61%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578093954&selectionId=50214",
-          "commence_time": "2026-09-15T00:15:00Z"
-        },
-        {
-          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
-          "pick": "Pittsburgh Steelers wins",
-          "odds": -162,
-          "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578577025&selectionId=50208",
-          "commence_time": "2026-09-13T17:00:00Z"
-        }
-      ],
-      "close_time": "2026-09-13T17:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-DC098EF0",
-      "title": "Kansas City Chiefs wins + Pittsburgh Steelers wins",
-      "payout": 2.67,
-      "tier": "green",
-      "quip": "the sun also rises",
+      "quip": "steady hands",
       "yes_price": "0.37",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -431,6 +53,384 @@
         }
       ],
       "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-2A6EEAA3",
+      "title": "Texas Rangers wins + Pittsburgh Steelers wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19862279-1549118151-2270755086&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Texas Rangers @ Los Angeles Angels + Atlanta Falcons @ Pittsburgh Steelers",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Texas Rangers @ Los Angeles Angels",
+          "pick": "Texas Rangers wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19862279-1549118151-2270755086&type=Single",
+          "commence_time": "2026-08-14T02:08:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-14T02:08:00Z"
+    },
+    {
+      "ticker": "PARLAY-93727CEF",
+      "title": "Pittsburgh Pirates +1.5 + Pittsburgh Steelers wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19861674-1549083427-2270668975&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Boston Red Sox @ Pittsburgh Pirates + Atlanta Falcons @ Pittsburgh Steelers",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Boston Red Sox @ Pittsburgh Pirates",
+          "pick": "Pittsburgh Pirates +1.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861674-1549083427-2270668975&type=Single",
+          "commence_time": "2026-08-14T22:41:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-14T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-5E50E889",
+      "title": "New York Yankees wins + Pittsburgh Steelers wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19861676-1549083610-2270669376&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "New York Yankees @ Toronto Blue Jays + Atlanta Falcons @ Pittsburgh Steelers",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York Yankees @ Toronto Blue Jays",
+          "pick": "New York Yankees wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861676-1549083610-2270669376&type=Single",
+          "commence_time": "2026-08-14T23:16:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-14T23:16:00Z"
+    },
+    {
+      "ticker": "PARLAY-E83E7D17",
+      "title": "Milwaukee Brewers +1.5 + Pittsburgh Steelers wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19861696-1549084710-2270671720&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Milwaukee Brewers @ Los Angeles Dodgers + Atlanta Falcons @ Pittsburgh Steelers",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Milwaukee Brewers @ Los Angeles Dodgers",
+          "pick": "Milwaukee Brewers +1.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19861696-1549084710-2270671720&type=Single",
+          "commence_time": "2026-08-15T02:11:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-15T02:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-4AA83AEE",
+      "title": "Under 3.5 + Pittsburgh Steelers wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7837231-202438072-770135886&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "San Diego FC @ Los Angeles FC + Atlanta Falcons @ Pittsburgh Steelers",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Diego FC @ Los Angeles FC",
+          "pick": "Under 3.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837231-202438072-770135886&type=Single",
+          "commence_time": "2026-08-16T02:30:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-16T02:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-50D82959",
+      "title": "Chicago Bears wins + Pittsburgh Steelers wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43156-3331099-5259923&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Chicago Bears @ Carolina Panthers + Atlanta Falcons @ Pittsburgh Steelers",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Bears @ Carolina Panthers",
+          "pick": "Chicago Bears wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43156-3331099-5259923&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-F957D598",
+      "title": "Over 2.5 + Pittsburgh Steelers wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7837193-202042747-767809291&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "D.C. United @ CF Montreal + Atlanta Falcons @ Pittsburgh Steelers",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "D.C. United @ CF Montreal",
+          "pick": "Over 2.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837193-202042747-767809291&type=Single",
+          "commence_time": "2026-08-15T23:30:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-15T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-E60CE8BF",
+      "title": "Over 3.5 + Pittsburgh Steelers wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7837245-202099433-768181069&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "FC Cincinnati @ Orlando City SC + Atlanta Falcons @ Pittsburgh Steelers",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "FC Cincinnati @ Orlando City SC",
+          "pick": "Over 3.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7837245-202099433-768181069&type=Single",
+          "commence_time": "2026-08-15T23:30:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-15T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-2D69E2F4",
+      "title": "Kansas City Chiefs wins + Texas Rangers wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43160-3331278-5260136&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Denver Broncos @ Kansas City Chiefs + Texas Rangers @ Los Angeles Angels",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.37,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Denver Broncos @ Kansas City Chiefs",
+          "pick": "Kansas City Chiefs wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43160-3331278-5260136&type=Single",
+          "commence_time": "2026-09-15T00:15:00Z"
+        },
+        {
+          "matchup": "Texas Rangers @ Los Angeles Angels",
+          "pick": "Texas Rangers wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19862279-1549118151-2270755086&type=Single",
+          "commence_time": "2026-08-14T02:08:00Z"
+        }
+      ],
+      "close_time": "2026-08-14T02:08:00Z"
     }
   ]
 }
