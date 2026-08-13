@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T09:09:31.226824+00:00",
+  "generated_at": "2026-08-13T16:54:35.899759+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -10,9 +10,9 @@
   },
   "sport_mix": {
     "NFL": 2,
+    "NCAAF": 1,
     "MMA": 1,
-    "EPL": 1,
-    "NCAAF": 1
+    "EPL": 1
   },
   "board": [
     {
@@ -20,7 +20,7 @@
       "title": "Jets upset the Packers tonight",
       "payout": 3.05,
       "tier": "yellow",
-      "quip": "MetLife turf swallows another Love drive",
+      "quip": "somewhere Aaron Rodgers is darkly amused",
       "yes_price": "0.33",
       "category": "NFL",
       "platform": "draftkings",
@@ -40,7 +40,7 @@
       "title": "Colts stun the Chiefs at Arrowhead",
       "payout": 3.3,
       "tier": "yellow",
-      "quip": "Mahomes finally meets a defense that hits back",
+      "quip": "someone finally sends Mahomes home in January cosplay",
       "yes_price": "0.30",
       "category": "NFL",
       "platform": "draftkings",
@@ -56,11 +56,31 @@
       "has_deep_link": true
     },
     {
+      "ticker": "SB-B8981943",
+      "title": "Citadel stuns Charlotte on the road",
+      "payout": 7.1,
+      "tier": "orange",
+      "quip": "the Corps of Cadets marches into Jerry Richardson Stadium",
+      "yes_price": "0.14",
+      "category": "NCAAF",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.592355950&selectionId=12115426",
+      "close_time": "2026-09-05T19:30:00Z",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Citadel Bulldogs @ Charlotte 49ers",
+      "market_type": "h2h",
+      "american_odds": 610,
+      "implied_probability": 0.141,
+      "has_deep_link": true
+    },
+    {
       "ticker": "SB-77D7E153",
-      "title": "Jeremiah Wells knocks off Orolbai tonight",
+      "title": "Jeremiah Wells upsets Orolbai",
       "payout": 8.0,
       "tier": "orange",
-      "quip": "Wells has one punch and only needs one",
+      "quip": "Wells throws hands until the Kyrgyz wrestling stops working",
       "yes_price": "0.12",
       "category": "MMA",
       "platform": "betmgm",
@@ -77,10 +97,10 @@
     },
     {
       "ticker": "SB-4013FF7B",
-      "title": "Hull City stun Manchester United",
+      "title": "Hull City topple Man United at home",
       "payout": 8.5,
       "tier": "orange",
-      "quip": "Tigers of the Humber writing their own Roy of the Rovers",
+      "quip": "the Tigers turn the MKM into a haunted house",
       "yes_price": "0.12",
       "category": "EPL",
       "platform": "betrivers",
@@ -93,26 +113,6 @@
       "market_type": "h2h",
       "american_odds": 750,
       "implied_probability": 0.118,
-      "has_deep_link": true
-    },
-    {
-      "ticker": "SB-B3FFBF7F",
-      "title": "Alcorn State stuns Southern Miss on the road",
-      "payout": 14.0,
-      "tier": "orange",
-      "quip": "SWAC band outplays the Golden Eagles defense too",
-      "yes_price": "0.07",
-      "category": "NCAAF",
-      "platform": "draftkings",
-      "platform_display": "DraftKings",
-      "url": "https://sportsbook.draftkings.com/?outcomes=0ML85821998_3",
-      "close_time": "2026-09-05T21:00:00Z",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "NCAAF",
-      "matchup": "Alcorn State Braves @ Southern Mississippi Golden Eagles",
-      "market_type": "h2h",
-      "american_odds": 1300,
-      "implied_probability": 0.071,
       "has_deep_link": true
     }
   ]
