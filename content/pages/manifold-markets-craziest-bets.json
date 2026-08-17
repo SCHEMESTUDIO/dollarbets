@@ -3,12 +3,12 @@
   "format": "weird_market_roundup",
   "seo": {
     "title": "Manifold Markets' Craziest Bets (2026) | Dollar Bets",
-    "h1": "Manifold Markets' Craziest Bets (2026 Roundup)",
-    "meta_description": "From extinction odds to accountability dares, here are the wildest play-money markets on Manifold right now — and why mana keeps the platform this weird.",
+    "h1": "Manifold Markets' Craziest Bets (2026)",
+    "meta_description": "From a 96% bet that 'something will happen in 2026' to play-money Ponzi schemes, here are Manifold's weirdest markets and why mana makes them possible.",
     "canonical": "/manifold-markets-craziest-bets/"
   },
-  "summary": "Somewhere on Manifold, someone's trading shares in whether humanity survives the decade — and losing conviction is the profitable side. Add meme markets, meta-markets about the site itself, and dare bets where you stake your own reputation, and it's the internet's group chat, priced.",
-  "quick_answer": "Manifold Markets' craziest bets range from a humanity-extinction-by-2030 market rigged to resolve N/A so it can only pay out if we're all still alive, to meta-markets about Manifold's own stock crashing, to personal accountability bets where users stake mana on their own weight loss or dissertation deadlines. It's all play money — mana can't be cashed out, only donated to charity at a fixed rate.",
+  "summary": "Manifold runs on play money called mana, and that single design choice explains everything weird about it: a market betting 96% that 'something will happen in 2026,' a viral self-aware Ponzi scheme, and accountability contracts where strangers bet against your dissertation.",
+  "quick_answer": "Manifold Markets' craziest bets include a 96%-YES market on whether 'something will happen in 2026,' a viral play-money Ponzi scheme, and accountability markets where users bet on their own goals. They get this weird because mana can't be cashed out, so there's no regulatory or financial brake on absurd questions.",
   "internal_links": [
     {
       "text": "today's board",
@@ -22,86 +22,94 @@
   "body": [
     {
       "type": "heading",
-      "content": "what even is manifold markets"
+      "content": "why manifold's markets get this strange"
     },
     {
       "type": "text",
-      "content": "Mana is the play-money currency used to bet on Manifold Markets, and it cannot be converted to cash — all users start with a free balance just for signing up. Mana can be redeemed as a charitable donation at a fixed exchange rate, and creating a market costs a small mana fee that seeds the liquidity pool for others to trade against. Anyone can post a question, which is exactly why the board looks nothing like a sportsbook menu — it looks like the group chat of the entire internet, priced. None of the numbers below are real dollars changing hands; treat them as illustrative snapshots of what a community-run play-money market produces when you let anyone post anything."
-    },
-    {
-      "type": "heading",
-      "content": "absurdist and pop-culture bets"
+      "content": "Manifold is primarily a play-money platform, and its native mana is effectively a database entry, not a cryptocurrency — it can't be withdrawn for cash, and is used to keep score, climb leaderboards, and signal confidence. That single design choice is the whole reason the \"craziest\" list looks the way it does: separating mana from cash is deliberate, keeping Manifold outside the realm of gambling or profit motivation, so users from jurisdictions with strict gambling laws can participate freely and bet on hyper-local or silly questions that would be illegal on a real-money site."
     },
     {
       "type": "text",
-      "content": "Manifold's own community keeps a running list of its best chaos, and it includes a market on a room-temperature superconductor claim that brought a lot of attention to Manifold and had high trading volume before the science fell apart — a physics rumor turned into a genuine market event. The platform is popular enough with its own users that it runs an annual \"funniest market\" award category judged by staff and traders, which tells you the absurd stuff isn't a side effect — it's a genre."
+      "content": "It also means Manifold sidesteps the regulatory apparatus that shapes what Kalshi and Polymarket can list. Play money isn't subject to CFTC regulation or gambling laws, which is a big part of why a market can exist on Manifold — like a personal accountability bet or a joke about the heat death of the universe — that would never clear compliance on a regulated exchange."
     },
     {
       "type": "heading",
-      "content": "meta bets — betting on the site betting on itself"
+      "content": "\"will something happen in 2026?\""
     },
     {
       "type": "text",
-      "content": "This is where Manifold gets genuinely strange: markets about Manifold. There's site lore around a market on \"Manifold got coal for Christmas\" tanking the platform's own daily stock markets, and a running joke thread about a user who knew who the Speaker of the House would be before anyone else on the site did. Even the mechanics turn into content — one creator built a whole chain of markets titled \"will I make mana on this market\" specifically to study a trading bot's behavior in real time."
-    },
-    {
-      "type": "heading",
-      "content": "personal and dare bets"
+      "content": "The single best encapsulation of Manifold's sense of humor this year is a market that's technically about nothing and practically about everything. Created by a user going by Bandors, it's trading at a 96% implied chance of YES as of August 1, 2026, tying YES to concrete triggers like leadership changes involving Trump, Putin, or Xi Jinping, a Taiwan invasion, or a credible AGI claim."
     },
     {
       "type": "text",
-      "content": "Fun wagers with friends about your interests or personal life, and accountability markets where you bet YES on your own goal and let other people bet NO to keep you honest, are official, listed use cases on Manifold — not a loophole. It's accountability with an audience and a scoreboard, which is a meaner, funnier version of just telling your friends your New Year's resolution."
+      "content": "What actually moved the price recently is the funniest part: the market surged after an AI system helped disprove an 87-year-old mathematics problem, the Jacobian conjecture, in late July, and traders are now arguing over whether that counts as \"something happening.\""
     },
     {
       "type": "heading",
-      "content": "long-shot doomsday and sci-fi bets"
+      "content": "the play-money ponzi scheme"
     },
     {
       "type": "text",
-      "content": "There's a standing market asking whether humanity will go extinct before 2030, alongside a companion question on whether AI specifically wipes out humanity first — both wrestling with a genuinely broken incentive, since you can never win by betting Yes on extinction, because if it happens you won't exist to collect. One creator solved this by rigging the market to resolve to N/A and return everyone's mana automatically, assuming humanity survives to a set date — a market that can only ever pay out because we're all still here to read it."
+      "content": "Not every wild market on Manifold is about the outside world. One market that went viral was built as a play-money Ponzi scheme by a user named CodeandSolder, drawing people in with the glee of yeeting their mana savings into a scheme they knew was doomed — proof that mana-denominated betting produces reputational chaos, not financial chaos."
     },
     {
       "type": "heading",
-      "content": "play money vs. real money — why it matters"
+      "content": "accountability markets: betting on yourself"
     },
     {
       "type": "text",
-      "content": "Mana keeps Manifold weird in a way cash markets can't be. Play money has the advantage of not being subject to CFTC regulation or gambling laws, which enables a good deal of innovation that gets stifled on real-money platforms open to US residents. As one longtime trader put it, play money misses out on the discipline of large real-money markets, where manipulation faces arbitrarily large costs — so prices on Manifold should be trusted less than the best financial markets. It's a sandbox for questions too niche, too personal, or too legally awkward for a regulated exchange to touch."
+      "content": "A user bets YES on their own market and allows other people to bet NO to motivate them — dissertations, weight-loss goals, side projects. The creator stakes mana on succeeding while a crowd of skeptics bets against them, creating public pressure a private to-do list never could."
     },
     {
       "type": "heading",
-      "content": "how to find your own weird markets on manifold"
+      "content": "personal and hyper-specific markets"
     },
     {
       "type": "list",
       "content": [
-        "Use the tag system — Manifold groups markets by topic and community tags, so searching something specific surfaces the long tail faster than browsing the homepage feed",
-        "Sort by newest rather than most-traded, since the popular tab skews toward politics and AI questions that dominate volume",
-        "Follow a few prolific market creators — the same usernames tend to show up behind the funniest questions"
+        "Will there be a trillionaire by the end of 2028?",
+        "Will we have a terrestrial space elevator by 2150?",
+        "Will two heads of state meet in virtual reality before 2025?"
       ]
+    },
+    {
+      "type": "heading",
+      "content": "what changed on manifold in 2026"
+    },
+    {
+      "type": "text",
+      "content": "Loans now carry interest: previously interest-free loans that unlock capital in long-dated markets now charge 0.03% daily as of January 2026, with critics arguing loans effectively \"print\" new mana. Real-money mana is gone again too — Manifold ended its sweepstakes program in February 2025 and sunset the \"sweepcash\" real-money feature on March 28, 2025, returning to a mana-only model that keeps every market on this list settling in play money."
+    },
+    {
+      "type": "heading",
+      "content": "how this compares to real-money markets"
+    },
+    {
+      "type": "text",
+      "content": "Mana markets swing harder and weirder on thin volume than cash markets do, because even a modest mana position can shift prices 2–5% in less liquid markets, with no dollar-denominated downside stopping a trader from leaning all the way into a joke."
     }
   ],
   "faqs": [
     {
       "q": "Can you cash out mana from Manifold Markets?",
-      "a": "No. Mana cannot be converted to cash — it can only be redeemed as a charitable donation at a fixed exchange rate."
+      "a": "No. Mana cannot be withdrawn for cash — it's used to keep score, climb leaderboards, and signal confidence, though it can be redeemed as a charitable donation."
     },
     {
       "q": "Is Manifold Markets subject to gambling laws?",
-      "a": "Because it's play money rather than real currency, Manifold isn't subject to CFTC regulation or gambling laws the way real-money prediction markets are."
+      "a": "No. Because it's play money, Manifold isn't subject to CFTC regulation or gambling laws the way real-money prediction markets like Kalshi are."
     },
     {
       "q": "What's the craziest type of market on Manifold?",
-      "a": "Meta-markets about Manifold itself and existential-risk markets on human extinction stand out — including one rigged to resolve N/A so it can only pay out because humanity is still around to read it."
+      "a": "Meta-markets that comment on Manifold itself and long-shot existential questions — like the 96%-YES bet that 'something will happen in 2026' — tend to be the most talked-about."
     },
     {
-      "q": "How do accountability markets work on Manifold?",
-      "a": "A user bets YES on their own goal — like losing weight or finishing a dissertation — and lets other traders bet NO, creating public accountability with mana on the line."
+      "q": "Did Manifold ever pay out real money?",
+      "a": "Briefly. Manifold introduced real-money betting via 'sweepcash' in September 2024, but sunset it on March 28, 2025, returning fully to the mana-only model."
     }
   ],
-  "compliance": "This is entertainment and informational content, not betting, financial, or legal advice. Manifold Markets uses play money — mana has no cash value and isn't a Dollar Bets partner. If you're exploring real-money prediction markets instead, remember availability varies by jurisdiction and none of this is a guarantee of anything. Gamble responsibly: 1-800-GAMBLER.",
+  "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate prediction markets or accept wagers. Manifold Markets uses play-money mana with no cash value, so nothing described here involves real financial risk — always check a platform's own terms before participating.",
   "publish_date": "2026-07-28",
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-08-17",
   "cluster": "Weird Bets",
-  "priority": 70
+  "priority": 60
 }
