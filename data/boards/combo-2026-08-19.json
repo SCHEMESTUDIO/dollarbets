@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T16:28:58.195948+00:00",
+  "generated_at": "2026-08-19T22:22:18.943631+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,24 +8,24 @@
     "green": 10
   },
   "sport_mix": {
-    "MLB": 3,
-    "Multi": 7
+    "MLB": 2,
+    "Multi": 8
   },
   "board": [
     {
-      "ticker": "PARLAY-52B7490C",
-      "title": "Chicago Cubs wins + Baltimore Orioles +1.5",
+      "ticker": "PARLAY-D49C39CB",
+      "title": "Philadelphia Phillies wins + Houston Astros wins",
       "payout": 2.71,
       "tier": "green",
-      "quip": "rent money",
+      "quip": "the boring middle",
       "yes_price": "0.37",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19864125-1549317048-2271274571&type=Single",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19864190-1549326372-2271298692&type=Single",
       "sport": "baseball_mlb",
       "sport_display": "MLB",
-      "matchup": "Chicago White Sox @ Chicago Cubs + New York Yankees @ Baltimore Orioles",
+      "matchup": "Miami Marlins @ Philadelphia Phillies + Los Angeles Angels @ Houston Astros",
       "market_type": "2-leg parlay",
       "american_odds": 171,
       "implied_probability": 0.37,
@@ -34,32 +34,116 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Chicago White Sox @ Chicago Cubs",
-          "pick": "Chicago Cubs wins",
+          "matchup": "Miami Marlins @ Philadelphia Phillies",
+          "pick": "Philadelphia Phillies wins",
           "odds": -155,
           "implied_prob": "61%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19864125-1549317048-2271274571&type=Single",
-          "commence_time": "2026-08-19T18:21:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19864190-1549326372-2271298692&type=Single",
+          "commence_time": "2026-08-19T22:06:11Z"
         },
         {
-          "matchup": "New York Yankees @ Baltimore Orioles",
-          "pick": "Baltimore Orioles +1.5",
+          "matchup": "Los Angeles Angels @ Houston Astros",
+          "pick": "Houston Astros wins",
           "odds": -155,
           "implied_prob": "61%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19864128-1549317386-2271275353&type=Single",
-          "commence_time": "2026-08-19T22:36:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19865017-1549385135-2271463447&type=Single",
+          "commence_time": "2026-08-20T00:10:00Z"
         }
       ],
-      "close_time": "2026-08-19T18:21:00Z"
+      "close_time": "2026-08-19T22:06:11Z"
     },
     {
-      "ticker": "PARLAY-068047E0",
-      "title": "UNLV Rebels wins + Chicago Cubs wins",
+      "ticker": "PARLAY-F3777B11",
+      "title": "Philadelphia Phillies wins + Under 3.5",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19864190-1549326372-2271298692&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Miami Marlins @ Philadelphia Phillies + New York City FC @ FC Cincinnati",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.37,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Marlins @ Philadelphia Phillies",
+          "pick": "Philadelphia Phillies wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19864190-1549326372-2271298692&type=Single",
+          "commence_time": "2026-08-19T22:06:11Z"
+        },
+        {
+          "matchup": "New York City FC @ FC Cincinnati",
+          "pick": "Under 3.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7840804-202379142-769815040&type=Single",
+          "commence_time": "2026-08-19T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-08-19T22:06:11Z"
+    },
+    {
+      "ticker": "PARLAY-20562808",
+      "title": "Houston Astros wins + Under 3.5",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19865017-1549385135-2271463447&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Los Angeles Angels @ Houston Astros + New York City FC @ FC Cincinnati",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.37,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles Angels @ Houston Astros",
+          "pick": "Houston Astros wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19865017-1549385135-2271463447&type=Single",
+          "commence_time": "2026-08-20T00:10:00Z"
+        },
+        {
+          "matchup": "New York City FC @ FC Cincinnati",
+          "pick": "Under 3.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7840804-202379142-769815040&type=Single",
+          "commence_time": "2026-08-19T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-08-19T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-F665DDB6",
+      "title": "UNLV Rebels wins + Philadelphia Phillies wins",
       "payout": 2.74,
       "tier": "green",
-      "quip": "the boring middle",
+      "quip": "autopilot engaged",
       "yes_price": "0.36",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -67,7 +151,7 @@
       "url": "https://sports.{state}.betmgm.com/en/sports?options=19645888-1527387095-2211450900&type=Single",
       "sport": "americanfootball_ncaaf",
       "sport_display": "Multi",
-      "matchup": "UNLV Rebels @ Hawaii Rainbow Warriors + Chicago White Sox @ Chicago Cubs",
+      "matchup": "UNLV Rebels @ Hawaii Rainbow Warriors + Miami Marlins @ Philadelphia Phillies",
       "market_type": "2-leg parlay",
       "american_odds": 174,
       "implied_probability": 0.365,
@@ -85,23 +169,23 @@
           "commence_time": "2026-09-06T02:00:00Z"
         },
         {
-          "matchup": "Chicago White Sox @ Chicago Cubs",
-          "pick": "Chicago Cubs wins",
+          "matchup": "Miami Marlins @ Philadelphia Phillies",
+          "pick": "Philadelphia Phillies wins",
           "odds": -155,
           "implied_prob": "61%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19864125-1549317048-2271274571&type=Single",
-          "commence_time": "2026-08-19T18:21:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19864190-1549326372-2271298692&type=Single",
+          "commence_time": "2026-08-19T22:06:11Z"
         }
       ],
-      "close_time": "2026-08-19T18:21:00Z"
+      "close_time": "2026-08-19T22:06:11Z"
     },
     {
-      "ticker": "PARLAY-35E41704",
-      "title": "UNLV Rebels wins + Baltimore Orioles +1.5",
+      "ticker": "PARLAY-80EA4822",
+      "title": "UNLV Rebels wins + Houston Astros wins",
       "payout": 2.74,
       "tier": "green",
-      "quip": "another day at the office",
+      "quip": "rent money",
       "yes_price": "0.36",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -109,7 +193,7 @@
       "url": "https://sports.{state}.betmgm.com/en/sports?options=19645888-1527387095-2211450900&type=Single",
       "sport": "americanfootball_ncaaf",
       "sport_display": "Multi",
-      "matchup": "UNLV Rebels @ Hawaii Rainbow Warriors + New York Yankees @ Baltimore Orioles",
+      "matchup": "UNLV Rebels @ Hawaii Rainbow Warriors + Los Angeles Angels @ Houston Astros",
       "market_type": "2-leg parlay",
       "american_odds": 174,
       "implied_probability": 0.365,
@@ -127,23 +211,65 @@
           "commence_time": "2026-09-06T02:00:00Z"
         },
         {
-          "matchup": "New York Yankees @ Baltimore Orioles",
-          "pick": "Baltimore Orioles +1.5",
+          "matchup": "Los Angeles Angels @ Houston Astros",
+          "pick": "Houston Astros wins",
           "odds": -155,
           "implied_prob": "61%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19864128-1549317386-2271275353&type=Single",
-          "commence_time": "2026-08-19T22:36:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19865017-1549385135-2271463447&type=Single",
+          "commence_time": "2026-08-20T00:10:00Z"
         }
       ],
-      "close_time": "2026-08-19T22:36:00Z"
+      "close_time": "2026-08-20T00:10:00Z"
     },
     {
-      "ticker": "PARLAY-833CCF22",
-      "title": "Kansas City Chiefs wins + Chicago Cubs wins",
+      "ticker": "PARLAY-BCC7490E",
+      "title": "UNLV Rebels wins + Under 3.5",
       "payout": 2.74,
       "tier": "green",
-      "quip": "tuesday energy",
+      "quip": "rent money",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19645888-1527387095-2211450900&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "UNLV Rebels @ Hawaii Rainbow Warriors + New York City FC @ FC Cincinnati",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "UNLV Rebels @ Hawaii Rainbow Warriors",
+          "pick": "UNLV Rebels wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19645888-1527387095-2211450900&type=Single",
+          "commence_time": "2026-09-06T02:00:00Z"
+        },
+        {
+          "matchup": "New York City FC @ FC Cincinnati",
+          "pick": "Under 3.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7840804-202379142-769815040&type=Single",
+          "commence_time": "2026-08-19T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-08-19T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-E2977B3B",
+      "title": "Kansas City Chiefs wins + Philadelphia Phillies wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "as sure as gravity",
       "yes_price": "0.36",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -151,7 +277,7 @@
       "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43160-3331278-5260136&type=Single",
       "sport": "americanfootball_nfl",
       "sport_display": "Multi",
-      "matchup": "Denver Broncos @ Kansas City Chiefs + Chicago White Sox @ Chicago Cubs",
+      "matchup": "Denver Broncos @ Kansas City Chiefs + Miami Marlins @ Philadelphia Phillies",
       "market_type": "2-leg parlay",
       "american_odds": 174,
       "implied_probability": 0.365,
@@ -169,20 +295,62 @@
           "commence_time": "2026-09-15T00:15:00Z"
         },
         {
-          "matchup": "Chicago White Sox @ Chicago Cubs",
-          "pick": "Chicago Cubs wins",
+          "matchup": "Miami Marlins @ Philadelphia Phillies",
+          "pick": "Philadelphia Phillies wins",
           "odds": -155,
           "implied_prob": "61%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19864125-1549317048-2271274571&type=Single",
-          "commence_time": "2026-08-19T18:21:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19864190-1549326372-2271298692&type=Single",
+          "commence_time": "2026-08-19T22:06:11Z"
         }
       ],
-      "close_time": "2026-08-19T18:21:00Z"
+      "close_time": "2026-08-19T22:06:11Z"
     },
     {
-      "ticker": "PARLAY-560EDC40",
-      "title": "Kansas City Chiefs wins + Baltimore Orioles +1.5",
+      "ticker": "PARLAY-C13988A5",
+      "title": "Kansas City Chiefs wins + Houston Astros wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43160-3331278-5260136&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Denver Broncos @ Kansas City Chiefs + Los Angeles Angels @ Houston Astros",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Denver Broncos @ Kansas City Chiefs",
+          "pick": "Kansas City Chiefs wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43160-3331278-5260136&type=Single",
+          "commence_time": "2026-09-15T00:15:00Z"
+        },
+        {
+          "matchup": "Los Angeles Angels @ Houston Astros",
+          "pick": "Houston Astros wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19865017-1549385135-2271463447&type=Single",
+          "commence_time": "2026-08-20T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-08-20T00:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-94B441E2",
+      "title": "Kansas City Chiefs wins + Under 3.5",
       "payout": 2.74,
       "tier": "green",
       "quip": "like taking candy from a vending machine",
@@ -193,7 +361,7 @@
       "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43160-3331278-5260136&type=Single",
       "sport": "americanfootball_nfl",
       "sport_display": "Multi",
-      "matchup": "Denver Broncos @ Kansas City Chiefs + New York Yankees @ Baltimore Orioles",
+      "matchup": "Denver Broncos @ Kansas City Chiefs + New York City FC @ FC Cincinnati",
       "market_type": "2-leg parlay",
       "american_odds": 174,
       "implied_probability": 0.365,
@@ -211,31 +379,31 @@
           "commence_time": "2026-09-15T00:15:00Z"
         },
         {
-          "matchup": "New York Yankees @ Baltimore Orioles",
-          "pick": "Baltimore Orioles +1.5",
+          "matchup": "New York City FC @ FC Cincinnati",
+          "pick": "Under 3.5",
           "odds": -155,
           "implied_prob": "61%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19864128-1549317386-2271275353&type=Single",
-          "commence_time": "2026-08-19T22:36:00Z"
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7840804-202379142-769815040&type=Single",
+          "commence_time": "2026-08-19T23:30:00Z"
         }
       ],
-      "close_time": "2026-08-19T22:36:00Z"
+      "close_time": "2026-08-19T23:30:00Z"
     },
     {
-      "ticker": "PARLAY-05DDA3CA",
-      "title": "Cincinnati Reds wins + Chicago Cubs wins",
+      "ticker": "PARLAY-AC06B816",
+      "title": "Under 13.5 + Philadelphia Phillies wins",
       "payout": 2.74,
       "tier": "green",
-      "quip": "another day at the office",
+      "quip": "the fundamentals",
       "yes_price": "0.36",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19864523-1549361456-2271396489&type=Single",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19864189-1549326315-2271298543&type=Single",
       "sport": "baseball_mlb",
       "sport_display": "MLB",
-      "matchup": "St. Louis Cardinals @ Cincinnati Reds + Chicago White Sox @ Chicago Cubs",
+      "matchup": "Arizona Diamondbacks @ Boston Red Sox + Miami Marlins @ Philadelphia Phillies",
       "market_type": "2-leg parlay",
       "american_odds": 174,
       "implied_probability": 0.365,
@@ -244,193 +412,25 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "St. Louis Cardinals @ Cincinnati Reds",
-          "pick": "Cincinnati Reds wins",
+          "matchup": "Arizona Diamondbacks @ Boston Red Sox",
+          "pick": "Under 13.5",
           "odds": -150,
           "implied_prob": "60%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19864523-1549361456-2271396489&type=Single",
-          "commence_time": "2026-08-19T22:40:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19864189-1549326315-2271298543&type=Single",
+          "commence_time": "2026-08-19T20:10:26Z"
         },
         {
-          "matchup": "Chicago White Sox @ Chicago Cubs",
-          "pick": "Chicago Cubs wins",
+          "matchup": "Miami Marlins @ Philadelphia Phillies",
+          "pick": "Philadelphia Phillies wins",
           "odds": -155,
           "implied_prob": "61%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19864125-1549317048-2271274571&type=Single",
-          "commence_time": "2026-08-19T18:21:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19864190-1549326372-2271298692&type=Single",
+          "commence_time": "2026-08-19T22:06:11Z"
         }
       ],
-      "close_time": "2026-08-19T18:21:00Z"
-    },
-    {
-      "ticker": "PARLAY-70956520",
-      "title": "Cincinnati Reds wins + Baltimore Orioles +1.5",
-      "payout": 2.74,
-      "tier": "green",
-      "quip": "clock in, cash out",
-      "yes_price": "0.36",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19864523-1549361456-2271396489&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "St. Louis Cardinals @ Cincinnati Reds + New York Yankees @ Baltimore Orioles",
-      "market_type": "2-leg parlay",
-      "american_odds": 174,
-      "implied_probability": 0.365,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "St. Louis Cardinals @ Cincinnati Reds",
-          "pick": "Cincinnati Reds wins",
-          "odds": -150,
-          "implied_prob": "60%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19864523-1549361456-2271396489&type=Single",
-          "commence_time": "2026-08-19T22:40:00Z"
-        },
-        {
-          "matchup": "New York Yankees @ Baltimore Orioles",
-          "pick": "Baltimore Orioles +1.5",
-          "odds": -155,
-          "implied_prob": "61%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19864128-1549317386-2271275353&type=Single",
-          "commence_time": "2026-08-19T22:36:00Z"
-        }
-      ],
-      "close_time": "2026-08-19T22:36:00Z"
-    },
-    {
-      "ticker": "PARLAY-B133CFDE",
-      "title": "Over 2.5 + Chicago Cubs wins",
-      "payout": 2.74,
-      "tier": "green",
-      "quip": "just showing up",
-      "yes_price": "0.36",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7840810-202508460-770585997&type=Single",
-      "sport": "soccer_usa_mls",
-      "sport_display": "Multi",
-      "matchup": "Los Angeles FC @ Colorado Rapids + Chicago White Sox @ Chicago Cubs",
-      "market_type": "2-leg parlay",
-      "american_odds": 174,
-      "implied_probability": 0.365,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Los Angeles FC @ Colorado Rapids",
-          "pick": "Over 2.5",
-          "odds": -150,
-          "implied_prob": "60%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7840810-202508460-770585997&type=Single",
-          "commence_time": "2026-08-20T01:30:00Z"
-        },
-        {
-          "matchup": "Chicago White Sox @ Chicago Cubs",
-          "pick": "Chicago Cubs wins",
-          "odds": -155,
-          "implied_prob": "61%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19864125-1549317048-2271274571&type=Single",
-          "commence_time": "2026-08-19T18:21:00Z"
-        }
-      ],
-      "close_time": "2026-08-19T18:21:00Z"
-    },
-    {
-      "ticker": "PARLAY-D3EF8C9B",
-      "title": "Over 2.5 + Baltimore Orioles +1.5",
-      "payout": 2.74,
-      "tier": "green",
-      "quip": "just showing up",
-      "yes_price": "0.36",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7840810-202508460-770585997&type=Single",
-      "sport": "soccer_usa_mls",
-      "sport_display": "Multi",
-      "matchup": "Los Angeles FC @ Colorado Rapids + New York Yankees @ Baltimore Orioles",
-      "market_type": "2-leg parlay",
-      "american_odds": 174,
-      "implied_probability": 0.365,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Los Angeles FC @ Colorado Rapids",
-          "pick": "Over 2.5",
-          "odds": -150,
-          "implied_prob": "60%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7840810-202508460-770585997&type=Single",
-          "commence_time": "2026-08-20T01:30:00Z"
-        },
-        {
-          "matchup": "New York Yankees @ Baltimore Orioles",
-          "pick": "Baltimore Orioles +1.5",
-          "odds": -155,
-          "implied_prob": "61%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19864128-1549317386-2271275353&type=Single",
-          "commence_time": "2026-08-19T22:36:00Z"
-        }
-      ],
-      "close_time": "2026-08-19T22:36:00Z"
-    },
-    {
-      "ticker": "PARLAY-B9D3C439",
-      "title": "Western Kentucky Hilltoppers wins + Chicago Cubs wins",
-      "payout": 2.78,
-      "tier": "green",
-      "quip": "paint drying, but profitable",
-      "yes_price": "0.36",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19645885-1527388906-2211456857&type=Single",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "Multi",
-      "matchup": "Western Kentucky Hilltoppers @ Nevada Wolf Pack + Chicago White Sox @ Chicago Cubs",
-      "market_type": "2-leg parlay",
-      "american_odds": 178,
-      "implied_probability": 0.36,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Western Kentucky Hilltoppers @ Nevada Wolf Pack",
-          "pick": "Western Kentucky Hilltoppers wins",
-          "odds": -145,
-          "implied_prob": "59%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19645885-1527388906-2211456857&type=Single",
-          "commence_time": "2026-09-06T02:30:00Z"
-        },
-        {
-          "matchup": "Chicago White Sox @ Chicago Cubs",
-          "pick": "Chicago Cubs wins",
-          "odds": -155,
-          "implied_prob": "61%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19864125-1549317048-2271274571&type=Single",
-          "commence_time": "2026-08-19T18:21:00Z"
-        }
-      ],
-      "close_time": "2026-08-19T18:21:00Z"
+      "close_time": "2026-08-19T20:10:26Z"
     }
   ]
 }
