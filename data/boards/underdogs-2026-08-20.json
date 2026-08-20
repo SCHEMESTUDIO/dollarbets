@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-08-20T16:32:13.181560+00:00",
+  "generated_at": "2026-08-20T22:24:19.028655+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
   "source": "odds_api",
   "tier_mix": {
     "yellow": 2,
-    "orange": 3
+    "orange": 2,
+    "red": 1
   },
   "sport_mix": {
     "NFL": 2,
-    "MMA": 1,
     "NCAAF": 1,
-    "EPL": 1
+    "EPL": 2
   },
   "board": [
     {
       "ticker": "SB-4E9577E5",
-      "title": "Colts upset the Chiefs at Arrowhead",
+      "title": "Colts walk into Arrowhead and beat the Chiefs",
       "payout": 3.4,
       "tier": "yellow",
-      "quip": "Indy has been Mahomes' weirdest recurring nightmare",
+      "quip": "Mahomes has lost to weirder AFC South teams",
       "yes_price": "0.29",
       "category": "NFL",
       "platform": "draftkings",
@@ -37,10 +37,10 @@
     },
     {
       "ticker": "SB-483BB820",
-      "title": "Falcons stun the Packers at Lambeau",
+      "title": "Falcons upset the Packers at Lambeau",
       "payout": 3.85,
       "tier": "yellow",
-      "quip": "Bijan Robinson in the frozen tundra, why not",
+      "quip": "Bijan Robinson versus the frozen tundra, roll tape",
       "yes_price": "0.26",
       "category": "NFL",
       "platform": "draftkings",
@@ -56,31 +56,11 @@
       "has_deep_link": true
     },
     {
-      "ticker": "SB-FEC4B1C0",
-      "title": "Chatman upsets Wint tonight",
-      "payout": 8.0,
-      "tier": "orange",
-      "quip": "every prospect record is padding until someone hits back",
-      "yes_price": "0.12",
-      "category": "MMA",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19881552-1551212386-2276483120&type=Single",
-      "close_time": "2026-08-23T00:00:00Z",
-      "sport": "mma_mixed_martial_arts",
-      "sport_display": "MMA",
-      "matchup": "Terrance Chatman @ Anthony Wint",
-      "market_type": "h2h",
-      "american_odds": 700,
-      "implied_probability": 0.125,
-      "has_deep_link": true
-    },
-    {
       "ticker": "SB-B8981943",
       "title": "Citadel shocks Charlotte on the road",
       "payout": 8.5,
       "tier": "orange",
-      "quip": "the triple option is a time machine, not an offense",
+      "quip": "military school precision meets 49ers tackling drills",
       "yes_price": "0.12",
       "category": "NCAAF",
       "platform": "betrivers",
@@ -97,10 +77,10 @@
     },
     {
       "ticker": "SB-4013FF7B",
-      "title": "Hull City shock Manchester United",
+      "title": "Hull City stun Manchester United",
       "payout": 9.0,
       "tier": "orange",
-      "quip": "the Tigers writing their own FA Cup fan fiction",
+      "quip": "the Tigers remember 2014 and Old Trafford doesn't",
       "yes_price": "0.11",
       "category": "EPL",
       "platform": "fanduel",
@@ -113,6 +93,26 @@
       "market_type": "h2h",
       "american_odds": 800,
       "implied_probability": 0.111,
+      "has_deep_link": true
+    },
+    {
+      "ticker": "SB-0AC8BDB4",
+      "title": "Coventry City shock Arsenal",
+      "payout": 18.0,
+      "tier": "red",
+      "quip": "Championship side storms the Emirates like a Roy of the Rovers panel",
+      "yes_price": "0.06",
+      "category": "EPL",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028072415?coupon={pickType}|4228581864|{wagerAmount}",
+      "close_time": "2026-08-21T19:00:00Z",
+      "sport": "soccer_epl",
+      "sport_display": "EPL",
+      "matchup": "Coventry City @ Arsenal",
+      "market_type": "h2h",
+      "american_odds": 1700,
+      "implied_probability": 0.056,
       "has_deep_link": true
     }
   ]
