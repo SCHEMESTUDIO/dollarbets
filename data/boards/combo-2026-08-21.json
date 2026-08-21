@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T16:31:15.591872+00:00",
+  "generated_at": "2026-08-21T22:22:07.882997+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,184 +8,17 @@
     "green": 10
   },
   "sport_mix": {
-    "Multi": 7,
-    "NBA": 3
+    "NBA": 3,
+    "Multi": 6,
+    "MLS": 1
   },
   "board": [
-    {
-      "ticker": "PARLAY-59CCDBB7",
-      "title": "Kansas City Royals +1.5 + New York Knicks wins",
-      "payout": 2.58,
-      "tier": "green",
-      "quip": "just showing up",
-      "yes_price": "0.39",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19865507-1549431117-2271585534&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Detroit Tigers @ Kansas City Royals + Philadelphia 76ers @ New York Knicks",
-      "market_type": "2-leg parlay",
-      "american_odds": 158,
-      "implied_probability": 0.388,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Detroit Tigers @ Kansas City Royals",
-          "pick": "Kansas City Royals +1.5",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19865507-1549431117-2271585534&type=Single",
-          "commence_time": "2026-08-22T00:11:00Z"
-        },
-        {
-          "matchup": "Philadelphia 76ers @ New York Knicks",
-          "pick": "New York Knicks wins",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19873679-1550339802-2274063515&type=Single",
-          "commence_time": "2026-10-20T23:00:00Z"
-        }
-      ],
-      "close_time": "2026-08-22T00:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-FBD07BD4",
-      "title": "Kansas City Royals +1.5 + Charlotte Hornets wins",
-      "payout": 2.58,
-      "tier": "green",
-      "quip": "the fundamentals",
-      "yes_price": "0.39",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19865507-1549431117-2271585534&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Detroit Tigers @ Kansas City Royals + Charlotte Hornets @ Brooklyn Nets",
-      "market_type": "2-leg parlay",
-      "american_odds": 158,
-      "implied_probability": 0.388,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Detroit Tigers @ Kansas City Royals",
-          "pick": "Kansas City Royals +1.5",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19865507-1549431117-2271585534&type=Single",
-          "commence_time": "2026-08-22T00:11:00Z"
-        },
-        {
-          "matchup": "Charlotte Hornets @ Brooklyn Nets",
-          "pick": "Charlotte Hornets wins",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19883987-1551545234-2277392647&type=Single",
-          "commence_time": "2026-10-21T23:40:00Z"
-        }
-      ],
-      "close_time": "2026-08-22T00:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-7BC98553",
-      "title": "Kansas City Royals +1.5 + Indiana Pacers wins",
-      "payout": 2.58,
-      "tier": "green",
-      "quip": "no surprises here",
-      "yes_price": "0.39",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19865507-1549431117-2271585534&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Detroit Tigers @ Kansas City Royals + Indiana Pacers @ New Orleans Pelicans",
-      "market_type": "2-leg parlay",
-      "american_odds": 158,
-      "implied_probability": 0.388,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Detroit Tigers @ Kansas City Royals",
-          "pick": "Kansas City Royals +1.5",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19865507-1549431117-2271585534&type=Single",
-          "commence_time": "2026-08-22T00:11:00Z"
-        },
-        {
-          "matchup": "Indiana Pacers @ New Orleans Pelicans",
-          "pick": "Indiana Pacers wins",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884070-1551554224-2277417843&type=Single",
-          "commence_time": "2026-10-22T00:10:00Z"
-        }
-      ],
-      "close_time": "2026-08-22T00:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-DA8666DC",
-      "title": "Kansas City Royals +1.5 + Over 2.5",
-      "payout": 2.58,
-      "tier": "green",
-      "quip": "bread and butter",
-      "yes_price": "0.39",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19865507-1549431117-2271585534&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Detroit Tigers @ Kansas City Royals + Philadelphia Union @ Austin FC",
-      "market_type": "2-leg parlay",
-      "american_odds": 158,
-      "implied_probability": 0.388,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Detroit Tigers @ Kansas City Royals",
-          "pick": "Kansas City Royals +1.5",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19865507-1549431117-2271585534&type=Single",
-          "commence_time": "2026-08-22T00:11:00Z"
-        },
-        {
-          "matchup": "Philadelphia Union @ Austin FC",
-          "pick": "Over 2.5",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7843862-203116639-774487850&type=Single",
-          "commence_time": "2026-08-23T00:30:00Z"
-        }
-      ],
-      "close_time": "2026-08-22T00:11:00Z"
-    },
     {
       "ticker": "PARLAY-FAA90623",
       "title": "New York Knicks wins + Charlotte Hornets wins",
       "payout": 2.58,
       "tier": "green",
-      "quip": "checking all the boxes",
+      "quip": "no surprises here",
       "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -227,7 +60,7 @@
       "title": "New York Knicks wins + Indiana Pacers wins",
       "payout": 2.58,
       "tier": "green",
-      "quip": "checking all the boxes",
+      "quip": "bread and butter",
       "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -269,7 +102,7 @@
       "title": "New York Knicks wins + Over 2.5",
       "payout": 2.58,
       "tier": "green",
-      "quip": "paint drying, but profitable",
+      "quip": "another day at the office",
       "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -307,11 +140,53 @@
       "close_time": "2026-08-23T00:30:00Z"
     },
     {
+      "ticker": "PARLAY-C3090F99",
+      "title": "New York Knicks wins + Under 3.5",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19873679-1550339802-2274063515&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Philadelphia 76ers @ New York Knicks + Minnesota United FC @ San Jose Earthquakes",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Philadelphia 76ers @ New York Knicks",
+          "pick": "New York Knicks wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19873679-1550339802-2274063515&type=Single",
+          "commence_time": "2026-10-20T23:00:00Z"
+        },
+        {
+          "matchup": "Minnesota United FC @ San Jose Earthquakes",
+          "pick": "Under 3.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7843868-203117429-774490107&type=Single",
+          "commence_time": "2026-08-23T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-08-23T02:30:00Z"
+    },
+    {
       "ticker": "PARLAY-AEA2B223",
       "title": "Charlotte Hornets wins + Indiana Pacers wins",
       "payout": 2.58,
       "tier": "green",
-      "quip": "the safe bet",
+      "quip": "water is wet",
       "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -353,7 +228,7 @@
       "title": "Charlotte Hornets wins + Over 2.5",
       "payout": 2.58,
       "tier": "green",
-      "quip": "no surprises here",
+      "quip": "like taking candy from a vending machine",
       "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -391,11 +266,53 @@
       "close_time": "2026-08-23T00:30:00Z"
     },
     {
+      "ticker": "PARLAY-75C6134A",
+      "title": "Charlotte Hornets wins + Under 3.5",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19883987-1551545234-2277392647&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Charlotte Hornets @ Brooklyn Nets + Minnesota United FC @ San Jose Earthquakes",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Charlotte Hornets @ Brooklyn Nets",
+          "pick": "Charlotte Hornets wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19883987-1551545234-2277392647&type=Single",
+          "commence_time": "2026-10-21T23:40:00Z"
+        },
+        {
+          "matchup": "Minnesota United FC @ San Jose Earthquakes",
+          "pick": "Under 3.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7843868-203117429-774490107&type=Single",
+          "commence_time": "2026-08-23T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-08-23T02:30:00Z"
+    },
+    {
       "ticker": "PARLAY-1E29A2C5",
       "title": "Indiana Pacers wins + Over 2.5",
       "payout": 2.58,
       "tier": "green",
-      "quip": "water is wet",
+      "quip": "the sun also rises",
       "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -428,6 +345,90 @@
           "sport": "soccer_usa_mls",
           "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7843862-203116639-774487850&type=Single",
           "commence_time": "2026-08-23T00:30:00Z"
+        }
+      ],
+      "close_time": "2026-08-23T00:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-E8961E47",
+      "title": "Indiana Pacers wins + Under 3.5",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19884070-1551554224-2277417843&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Indiana Pacers @ New Orleans Pelicans + Minnesota United FC @ San Jose Earthquakes",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Indiana Pacers @ New Orleans Pelicans",
+          "pick": "Indiana Pacers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884070-1551554224-2277417843&type=Single",
+          "commence_time": "2026-10-22T00:10:00Z"
+        },
+        {
+          "matchup": "Minnesota United FC @ San Jose Earthquakes",
+          "pick": "Under 3.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7843868-203117429-774490107&type=Single",
+          "commence_time": "2026-08-23T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-08-23T02:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-825244EE",
+      "title": "Over 2.5 + Under 3.5",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7843862-203116639-774487850&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "MLS",
+      "matchup": "Philadelphia Union @ Austin FC + Minnesota United FC @ San Jose Earthquakes",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Philadelphia Union @ Austin FC",
+          "pick": "Over 2.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7843862-203116639-774487850&type=Single",
+          "commence_time": "2026-08-23T00:30:00Z"
+        },
+        {
+          "matchup": "Minnesota United FC @ San Jose Earthquakes",
+          "pick": "Under 3.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7843868-203117429-774490107&type=Single",
+          "commence_time": "2026-08-23T02:30:00Z"
         }
       ],
       "close_time": "2026-08-23T00:30:00Z"
