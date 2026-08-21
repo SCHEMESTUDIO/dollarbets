@@ -2,12 +2,20 @@
   "buildCommand": "bash build.sh",
   "outputDirectory": "public",
   "trailingSlash": true,
+  "functions": {
+    "api/sitemap.py": { "includeFiles": "public/sitemap.xml" }
+  },
   "redirects": [
     {
       "source": "/(.*)",
       "has": [{ "type": "host", "value": "dollarbets.lol" }],
       "destination": "https://www.dollarbets.lol/$1",
       "permanent": true
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/api/sitemap.py",
+      "permanent": false
     },
     {
       "source": "/craziest-kalshi-markets",

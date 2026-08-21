@@ -3314,6 +3314,10 @@ def generate_sitemap(pages):
 </urlset>"""
 
     write_page("sitemap.xml", xml)
+    # Second copy on a redirect-free path: /sitemap.xml now 307s to
+    # /api/sitemap.py (see vercel.json + api/sitemap.py, 2026-08-20), and the
+    # function needs a loop-free URL to fetch when its bundled copy is missing.
+    write_page("sitemap-data.xml", xml)
 
 
 def generate_text_sitemap(pages):
