@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T08:27:52.369599+00:00",
+  "generated_at": "2026-08-22T16:21:10.265731+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,16 +8,58 @@
     "green": 10
   },
   "sport_mix": {
-    "Multi": 7,
-    "NBA": 3
+    "Multi": 9,
+    "NBA": 1
   },
   "board": [
+    {
+      "ticker": "PARLAY-25A0452E",
+      "title": "Pittsburgh Steelers wins + Milwaukee Brewers wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Atlanta Falcons @ Pittsburgh Steelers + Atlanta Braves @ Milwaukee Brewers",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Atlanta Braves @ Milwaukee Brewers",
+          "pick": "Milwaukee Brewers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19865288-1549403694-2271514808&type=Single",
+          "commence_time": "2026-08-22T18:11:00Z"
+        }
+      ],
+      "close_time": "2026-08-22T18:11:00Z"
+    },
     {
       "ticker": "PARLAY-FA34860D",
       "title": "Pittsburgh Steelers wins + New York Knicks wins",
       "payout": 2.58,
       "tier": "green",
-      "quip": "tuesday energy",
+      "quip": "another day at the office",
       "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -59,7 +101,7 @@
       "title": "Pittsburgh Steelers wins + Charlotte Hornets wins",
       "payout": 2.58,
       "tier": "green",
-      "quip": "bread and butter",
+      "quip": "as sure as gravity",
       "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -97,11 +139,263 @@
       "close_time": "2026-09-13T17:00:00Z"
     },
     {
+      "ticker": "PARLAY-7454FD3D",
+      "title": "Pittsburgh Steelers wins + Indiana Pacers wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Atlanta Falcons @ Pittsburgh Steelers + Indiana Pacers @ New Orleans Pelicans",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Indiana Pacers @ New Orleans Pelicans",
+          "pick": "Indiana Pacers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884070-1551554224-2277417843&type=Single",
+          "commence_time": "2026-10-22T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-3FFCC53E",
+      "title": "Pittsburgh Steelers wins + Under 3.5",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Atlanta Falcons @ Pittsburgh Steelers + FC Dallas @ Vancouver Whitecaps FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "FC Dallas @ Vancouver Whitecaps FC",
+          "pick": "Under 3.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7843749-203117689-774490830&type=Single",
+          "commence_time": "2026-08-23T01:30:00Z"
+        }
+      ],
+      "close_time": "2026-08-23T01:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-A5251BEE",
+      "title": "Milwaukee Brewers wins + New York Knicks wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19865288-1549403694-2271514808&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Atlanta Braves @ Milwaukee Brewers + Philadelphia 76ers @ New York Knicks",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Braves @ Milwaukee Brewers",
+          "pick": "Milwaukee Brewers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19865288-1549403694-2271514808&type=Single",
+          "commence_time": "2026-08-22T18:11:00Z"
+        },
+        {
+          "matchup": "Philadelphia 76ers @ New York Knicks",
+          "pick": "New York Knicks wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19873679-1550339802-2274063515&type=Single",
+          "commence_time": "2026-10-20T23:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-22T18:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-2CD16F11",
+      "title": "Milwaukee Brewers wins + Charlotte Hornets wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19865288-1549403694-2271514808&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Atlanta Braves @ Milwaukee Brewers + Charlotte Hornets @ Brooklyn Nets",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Braves @ Milwaukee Brewers",
+          "pick": "Milwaukee Brewers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19865288-1549403694-2271514808&type=Single",
+          "commence_time": "2026-08-22T18:11:00Z"
+        },
+        {
+          "matchup": "Charlotte Hornets @ Brooklyn Nets",
+          "pick": "Charlotte Hornets wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19883987-1551545234-2277392647&type=Single",
+          "commence_time": "2026-10-21T23:40:00Z"
+        }
+      ],
+      "close_time": "2026-08-22T18:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-E27974AF",
+      "title": "Milwaukee Brewers wins + Indiana Pacers wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19865288-1549403694-2271514808&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Atlanta Braves @ Milwaukee Brewers + Indiana Pacers @ New Orleans Pelicans",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Braves @ Milwaukee Brewers",
+          "pick": "Milwaukee Brewers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19865288-1549403694-2271514808&type=Single",
+          "commence_time": "2026-08-22T18:11:00Z"
+        },
+        {
+          "matchup": "Indiana Pacers @ New Orleans Pelicans",
+          "pick": "Indiana Pacers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884070-1551554224-2277417843&type=Single",
+          "commence_time": "2026-10-22T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-08-22T18:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-875E409C",
+      "title": "Milwaukee Brewers wins + Under 3.5",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19865288-1549403694-2271514808&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Atlanta Braves @ Milwaukee Brewers + FC Dallas @ Vancouver Whitecaps FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Braves @ Milwaukee Brewers",
+          "pick": "Milwaukee Brewers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19865288-1549403694-2271514808&type=Single",
+          "commence_time": "2026-08-22T18:11:00Z"
+        },
+        {
+          "matchup": "FC Dallas @ Vancouver Whitecaps FC",
+          "pick": "Under 3.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7843749-203117689-774490830&type=Single",
+          "commence_time": "2026-08-23T01:30:00Z"
+        }
+      ],
+      "close_time": "2026-08-22T18:11:00Z"
+    },
+    {
       "ticker": "PARLAY-FAA90623",
       "title": "New York Knicks wins + Charlotte Hornets wins",
       "payout": 2.58,
       "tier": "green",
-      "quip": "the safe bet",
+      "quip": "paint drying, but profitable",
       "yes_price": "0.39",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -137,300 +431,6 @@
         }
       ],
       "close_time": "2026-10-20T23:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-E6A8AC07",
-      "title": "Oklahoma City Thunder wins + Pittsburgh Steelers wins",
-      "payout": 2.61,
-      "tier": "green",
-      "quip": "bread and butter",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
-      "sport": "basketball_nba",
-      "sport_display": "Multi",
-      "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves + Atlanta Falcons @ Pittsburgh Steelers",
-      "market_type": "2-leg parlay",
-      "american_odds": 161,
-      "implied_probability": 0.383,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
-          "pick": "Oklahoma City Thunder wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
-          "commence_time": "2026-12-26T01:00:00Z"
-        },
-        {
-          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
-          "pick": "Pittsburgh Steelers wins",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
-        }
-      ],
-      "close_time": "2026-09-13T17:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-BE66843F",
-      "title": "Oklahoma City Thunder wins + New York Knicks wins",
-      "payout": 2.61,
-      "tier": "green",
-      "quip": "routine maintenance",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
-      "sport": "basketball_nba",
-      "sport_display": "NBA",
-      "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves + Philadelphia 76ers @ New York Knicks",
-      "market_type": "2-leg parlay",
-      "american_odds": 161,
-      "implied_probability": 0.383,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
-          "pick": "Oklahoma City Thunder wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
-          "commence_time": "2026-12-26T01:00:00Z"
-        },
-        {
-          "matchup": "Philadelphia 76ers @ New York Knicks",
-          "pick": "New York Knicks wins",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19873679-1550339802-2274063515&type=Single",
-          "commence_time": "2026-10-20T23:00:00Z"
-        }
-      ],
-      "close_time": "2026-10-20T23:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-D2CE5727",
-      "title": "Oklahoma City Thunder wins + Charlotte Hornets wins",
-      "payout": 2.61,
-      "tier": "green",
-      "quip": "as sure as gravity",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
-      "sport": "basketball_nba",
-      "sport_display": "NBA",
-      "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves + Charlotte Hornets @ Brooklyn Nets",
-      "market_type": "2-leg parlay",
-      "american_odds": 161,
-      "implied_probability": 0.383,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
-          "pick": "Oklahoma City Thunder wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
-          "commence_time": "2026-12-26T01:00:00Z"
-        },
-        {
-          "matchup": "Charlotte Hornets @ Brooklyn Nets",
-          "pick": "Charlotte Hornets wins",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19883987-1551545234-2277392647&type=Single",
-          "commence_time": "2026-10-21T23:40:00Z"
-        }
-      ],
-      "close_time": "2026-10-21T23:40:00Z"
-    },
-    {
-      "ticker": "PARLAY-BB370363",
-      "title": "Over 2.5 + Pittsburgh Steelers wins",
-      "payout": 2.61,
-      "tier": "green",
-      "quip": "the boring middle",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7843850-203118264-774494531&type=Single",
-      "sport": "soccer_usa_mls",
-      "sport_display": "Multi",
-      "matchup": "D.C. United @ Charlotte FC + Atlanta Falcons @ Pittsburgh Steelers",
-      "market_type": "2-leg parlay",
-      "american_odds": 161,
-      "implied_probability": 0.383,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "D.C. United @ Charlotte FC",
-          "pick": "Over 2.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7843850-203118264-774494531&type=Single",
-          "commence_time": "2026-08-22T23:30:00Z"
-        },
-        {
-          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
-          "pick": "Pittsburgh Steelers wins",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
-        }
-      ],
-      "close_time": "2026-08-22T23:30:00Z"
-    },
-    {
-      "ticker": "PARLAY-26A8C97A",
-      "title": "Over 2.5 + New York Knicks wins",
-      "payout": 2.61,
-      "tier": "green",
-      "quip": "bread and butter",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7843850-203118264-774494531&type=Single",
-      "sport": "soccer_usa_mls",
-      "sport_display": "Multi",
-      "matchup": "D.C. United @ Charlotte FC + Philadelphia 76ers @ New York Knicks",
-      "market_type": "2-leg parlay",
-      "american_odds": 161,
-      "implied_probability": 0.383,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "D.C. United @ Charlotte FC",
-          "pick": "Over 2.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7843850-203118264-774494531&type=Single",
-          "commence_time": "2026-08-22T23:30:00Z"
-        },
-        {
-          "matchup": "Philadelphia 76ers @ New York Knicks",
-          "pick": "New York Knicks wins",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19873679-1550339802-2274063515&type=Single",
-          "commence_time": "2026-10-20T23:00:00Z"
-        }
-      ],
-      "close_time": "2026-08-22T23:30:00Z"
-    },
-    {
-      "ticker": "PARLAY-F057F54A",
-      "title": "Over 2.5 + Charlotte Hornets wins",
-      "payout": 2.61,
-      "tier": "green",
-      "quip": "rent money",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7843850-203118264-774494531&type=Single",
-      "sport": "soccer_usa_mls",
-      "sport_display": "Multi",
-      "matchup": "D.C. United @ Charlotte FC + Charlotte Hornets @ Brooklyn Nets",
-      "market_type": "2-leg parlay",
-      "american_odds": 161,
-      "implied_probability": 0.383,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "D.C. United @ Charlotte FC",
-          "pick": "Over 2.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7843850-203118264-774494531&type=Single",
-          "commence_time": "2026-08-22T23:30:00Z"
-        },
-        {
-          "matchup": "Charlotte Hornets @ Brooklyn Nets",
-          "pick": "Charlotte Hornets wins",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19883987-1551545234-2277392647&type=Single",
-          "commence_time": "2026-10-21T23:40:00Z"
-        }
-      ],
-      "close_time": "2026-08-22T23:30:00Z"
-    },
-    {
-      "ticker": "PARLAY-3FFCC53E",
-      "title": "Under 3.5 + Pittsburgh Steelers wins",
-      "payout": 2.61,
-      "tier": "green",
-      "quip": "the safe bet",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7843749-203117689-774490830&type=Single",
-      "sport": "soccer_usa_mls",
-      "sport_display": "Multi",
-      "matchup": "FC Dallas @ Vancouver Whitecaps FC + Atlanta Falcons @ Pittsburgh Steelers",
-      "market_type": "2-leg parlay",
-      "american_odds": 161,
-      "implied_probability": 0.383,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "FC Dallas @ Vancouver Whitecaps FC",
-          "pick": "Under 3.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7843749-203117689-774490830&type=Single",
-          "commence_time": "2026-08-23T01:30:00Z"
-        },
-        {
-          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
-          "pick": "Pittsburgh Steelers wins",
-          "odds": -165,
-          "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
-        }
-      ],
-      "close_time": "2026-08-23T01:30:00Z"
     }
   ]
 }
