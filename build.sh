@@ -98,26 +98,17 @@ INDEXNOW_KEY="d0b1e5f7a3c94e8b"
 # Bing/Yandex/DuckDuckGo are covered by IndexNow below. There is no
 # programmatic "submit to Google" — that must come from earned crawl demand.
 
-# IndexNow — notify Bing/Yandex/DuckDuckGo of changed URLs (NOT Google)
-# Collect all HTML files generated in public/ as URL paths
-echo "[build] Submitting URLs via IndexNow..."
-URL_LIST=$(find public -name "index.html" -type f | sed "s|^public||" | sed "s|/index.html|/|" | head -100)
-JSON_URLS=""
-for u in $URL_LIST; do
-  JSON_URLS="${JSON_URLS}\"${SITE_URL}${u}\","
-done
-# Remove trailing comma
-JSON_URLS="${JSON_URLS%,}"
+# IndexNow — notify Bing/Yandex/DuckDuckGo of CHANGED URLs (NOT Google)
+#
+# This used to POST an arbitrary `head -100` slice of every generated page on
+# every single build — ~3x/day forever, whether or not anything had changed.
+# It is now gated on content hashes: scripts/indexnow_submit.py diffs this
+# build's pages against the manifest published by the previous deploy and
+# submits only what actually changed. If it can't fetch that baseline it
+# submits nothing rather than falling back to spraying the whole site.
+echo "[build] Submitting changed URLs via IndexNow..."
+INDEXNOW_SITE_URL="$SITE_URL" INDEXNOW_KEY="$INDEXNOW_KEY" \
+  python3 scripts/indexnow_submit.py --public-dir public \
+  || echo "[build] WARNING: IndexNow step failed (non-fatal)"
 
-curl -sS -X POST "https://api.indexnow.org/indexnow" \
-  -H "Content-Type: application/json" \
-  -d "{
-    \"host\": \"www.dollarbets.lol\",
-    \"key\": \"${INDEXNOW_KEY}\",
-    \"keyLocation\": \"${SITE_URL}/${INDEXNOW_KEY}.txt\",
-    \"urlList\": [${JSON_URLS}]
-  }" -o /dev/null 2>&1 \
-  || echo "[build] WARNING: IndexNow submission failed"
-
-echo "[build] Indexing pings sent."
 echo "[build] Done."
