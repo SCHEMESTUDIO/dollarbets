@@ -3467,6 +3467,7 @@ Disallow: /admin/
 
 Sitemap: {SITE_URL}/sitemap.xml
 Sitemap: {SITE_URL}/sitemap-urls.txt
+Sitemap: https://headshotswithabird.com/dollarbets-sitemap.xml
 """
     write_page("robots.txt", txt)
 
