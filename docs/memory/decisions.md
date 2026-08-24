@@ -67,6 +67,25 @@ delete. Keep entries short; link evidence.
   fails, board ships with pool quips, never blank. Optional upgrade path:
   swap Opus for `"claude-fable-5"` (2x cost, unmeasured humor gain—A/B first).
 
+- **2026-08-21 — Sitemap moved to serverless (commit 5b61cee).**
+  `/sitemap.xml` now served via `api/sitemap.py` instead of static file.
+  Root cause: GSC reported "Sitemap could not be read" for every sitemap on
+  this host (static XML, cache-busted XML, plain-text alike) since May, while
+  parsing the same formats fine on non-Vercel hosts and fetching regular pages
+  fine here. Vercel's static-file response path breaks Google's sitemap parser;
+  the serverless path sidesteps it by serving identical bytes. Bundles
+  `public/sitemap.xml` at build time; falls back to `/sitemap-data.xml` (a
+  second copy generate.py writes on a non-redirected path) if needed.
+
+- **2026-08-23 — IndexNow submission changed from blind to change-gated (commit a4d9c93).**
+  Previous behavior: every build (~3x/day) POSTed an arbitrary 100-page slice
+  to IndexNow regardless of changes. New: `scripts/indexnow_submit.py` hashes
+  pages against the previous deploy's manifest (fetched from live site), submits
+  only new/changed URLs. Manifests are written into public/ so each deploy
+  becomes the next build's baseline. Fail-closed: if baseline can't be fetched,
+  submits nothing rather than falling back to spray-all. Cost impact: ~97% fewer
+  IndexNow API calls (typical week: 3 changes instead of 300+ submissions).
+
 ## Superseded (kept for archaeology)
 
 - ~~2026-06-11 rebuild: publish.sh sole git writer via launchd 11:30~~ →
