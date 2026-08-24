@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T08:46:49.305375+00:00",
+  "generated_at": "2026-08-24T16:34:49.199615+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,394 +8,100 @@
     "green": 10
   },
   "sport_mix": {
-    "MLB": 3,
-    "Multi": 7
+    "Multi": 9,
+    "MLB": 1
   },
   "board": [
     {
-      "ticker": "PARLAY-EA404F2C",
-      "title": "Miami Marlins +1.5 + Detroit Tigers +1.5",
-      "payout": 2.64,
+      "ticker": "PARLAY-463B9B13",
+      "title": "Minnesota Twins wins + Pittsburgh Steelers wins",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886495-1551789221-2278075412&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Minnesota Twins @ Athletics + Atlanta Falcons @ Pittsburgh Steelers",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Minnesota Twins @ Athletics",
+          "pick": "Minnesota Twins wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886495-1551789221-2278075412&type=Single",
+          "commence_time": "2026-08-25T01:41:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-25T01:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-DF98DB5F",
+      "title": "Cincinnati Reds wins + Pittsburgh Steelers wins",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886498-1551789515-2278076059&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Cincinnati Reds @ San Francisco Giants + Atlanta Falcons @ Pittsburgh Steelers",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Cincinnati Reds @ San Francisco Giants",
+          "pick": "Cincinnati Reds wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886498-1551789515-2278076059&type=Single",
+          "commence_time": "2026-08-25T01:45:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-25T01:45:00Z"
+    },
+    {
+      "ticker": "PARLAY-E6A8AC07",
+      "title": "Oklahoma City Thunder wins + Pittsburgh Steelers wins",
+      "payout": 2.61,
       "tier": "green",
       "quip": "water is wet",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886489-1551788665-2278074193&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Boston Red Sox @ Miami Marlins + Tampa Bay Rays @ Detroit Tigers",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Boston Red Sox @ Miami Marlins",
-          "pick": "Miami Marlins +1.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886489-1551788665-2278074193&type=Single",
-          "commence_time": "2026-08-24T22:41:00Z"
-        },
-        {
-          "matchup": "Tampa Bay Rays @ Detroit Tigers",
-          "pick": "Detroit Tigers +1.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886490-1551788758-2278074397&type=Single",
-          "commence_time": "2026-08-24T22:41:00Z"
-        }
-      ],
-      "close_time": "2026-08-24T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-8DE2DDE5",
-      "title": "Miami Marlins +1.5 + Cleveland Guardians wins",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "checking all the boxes",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886489-1551788665-2278074193&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Boston Red Sox @ Miami Marlins + Cleveland Guardians @ Los Angeles Angels",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Boston Red Sox @ Miami Marlins",
-          "pick": "Miami Marlins +1.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886489-1551788665-2278074193&type=Single",
-          "commence_time": "2026-08-24T22:41:00Z"
-        },
-        {
-          "matchup": "Cleveland Guardians @ Los Angeles Angels",
-          "pick": "Cleveland Guardians wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886493-1551789035-2278075004&type=Single",
-          "commence_time": "2026-08-25T01:39:00Z"
-        }
-      ],
-      "close_time": "2026-08-24T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-41BEE226",
-      "title": "Miami Marlins +1.5 + Oklahoma City Thunder wins",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "rent money",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886489-1551788665-2278074193&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Boston Red Sox @ Miami Marlins + Oklahoma City Thunder @ Minnesota Timberwolves",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Boston Red Sox @ Miami Marlins",
-          "pick": "Miami Marlins +1.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886489-1551788665-2278074193&type=Single",
-          "commence_time": "2026-08-24T22:41:00Z"
-        },
-        {
-          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
-          "pick": "Oklahoma City Thunder wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
-          "commence_time": "2026-12-26T01:00:00Z"
-        }
-      ],
-      "close_time": "2026-08-24T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-A71EFF8D",
-      "title": "Miami Marlins +1.5 + Under 3.5",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "the boring middle",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886489-1551788665-2278074193&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Boston Red Sox @ Miami Marlins + San Jose Earthquakes @ Houston Dynamo",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Boston Red Sox @ Miami Marlins",
-          "pick": "Miami Marlins +1.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886489-1551788665-2278074193&type=Single",
-          "commence_time": "2026-08-24T22:41:00Z"
-        },
-        {
-          "matchup": "San Jose Earthquakes @ Houston Dynamo",
-          "pick": "Under 3.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7848098-203500765-777075530&type=Single",
-          "commence_time": "2026-08-30T00:30:00Z"
-        }
-      ],
-      "close_time": "2026-08-24T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-0BF9678B",
-      "title": "Detroit Tigers +1.5 + Cleveland Guardians wins",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "as sure as gravity",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886490-1551788758-2278074397&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Tampa Bay Rays @ Detroit Tigers + Cleveland Guardians @ Los Angeles Angels",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Tampa Bay Rays @ Detroit Tigers",
-          "pick": "Detroit Tigers +1.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886490-1551788758-2278074397&type=Single",
-          "commence_time": "2026-08-24T22:41:00Z"
-        },
-        {
-          "matchup": "Cleveland Guardians @ Los Angeles Angels",
-          "pick": "Cleveland Guardians wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886493-1551789035-2278075004&type=Single",
-          "commence_time": "2026-08-25T01:39:00Z"
-        }
-      ],
-      "close_time": "2026-08-24T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-14CBA139",
-      "title": "Detroit Tigers +1.5 + Oklahoma City Thunder wins",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "rent money",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886490-1551788758-2278074397&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Tampa Bay Rays @ Detroit Tigers + Oklahoma City Thunder @ Minnesota Timberwolves",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Tampa Bay Rays @ Detroit Tigers",
-          "pick": "Detroit Tigers +1.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886490-1551788758-2278074397&type=Single",
-          "commence_time": "2026-08-24T22:41:00Z"
-        },
-        {
-          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
-          "pick": "Oklahoma City Thunder wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
-          "commence_time": "2026-12-26T01:00:00Z"
-        }
-      ],
-      "close_time": "2026-08-24T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-AFE3E499",
-      "title": "Detroit Tigers +1.5 + Under 3.5",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "checking all the boxes",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886490-1551788758-2278074397&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Tampa Bay Rays @ Detroit Tigers + San Jose Earthquakes @ Houston Dynamo",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Tampa Bay Rays @ Detroit Tigers",
-          "pick": "Detroit Tigers +1.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886490-1551788758-2278074397&type=Single",
-          "commence_time": "2026-08-24T22:41:00Z"
-        },
-        {
-          "matchup": "San Jose Earthquakes @ Houston Dynamo",
-          "pick": "Under 3.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7848098-203500765-777075530&type=Single",
-          "commence_time": "2026-08-30T00:30:00Z"
-        }
-      ],
-      "close_time": "2026-08-24T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-ADBDB192",
-      "title": "Cleveland Guardians wins + Oklahoma City Thunder wins",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "just showing up",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886493-1551789035-2278075004&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Cleveland Guardians @ Los Angeles Angels + Oklahoma City Thunder @ Minnesota Timberwolves",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Cleveland Guardians @ Los Angeles Angels",
-          "pick": "Cleveland Guardians wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886493-1551789035-2278075004&type=Single",
-          "commence_time": "2026-08-25T01:39:00Z"
-        },
-        {
-          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
-          "pick": "Oklahoma City Thunder wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
-          "commence_time": "2026-12-26T01:00:00Z"
-        }
-      ],
-      "close_time": "2026-08-25T01:39:00Z"
-    },
-    {
-      "ticker": "PARLAY-FDC636CE",
-      "title": "Cleveland Guardians wins + Under 3.5",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "tuesday energy",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886493-1551789035-2278075004&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Cleveland Guardians @ Los Angeles Angels + San Jose Earthquakes @ Houston Dynamo",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Cleveland Guardians @ Los Angeles Angels",
-          "pick": "Cleveland Guardians wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886493-1551789035-2278075004&type=Single",
-          "commence_time": "2026-08-25T01:39:00Z"
-        },
-        {
-          "matchup": "San Jose Earthquakes @ Houston Dynamo",
-          "pick": "Under 3.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7848098-203500765-777075530&type=Single",
-          "commence_time": "2026-08-30T00:30:00Z"
-        }
-      ],
-      "close_time": "2026-08-25T01:39:00Z"
-    },
-    {
-      "ticker": "PARLAY-A1314B98",
-      "title": "Oklahoma City Thunder wins + Under 3.5",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "bread and butter",
       "yes_price": "0.38",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -403,10 +109,10 @@
       "url": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
       "sport": "basketball_nba",
       "sport_display": "Multi",
-      "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves + San Jose Earthquakes @ Houston Dynamo",
+      "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves + Atlanta Falcons @ Pittsburgh Steelers",
       "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
+      "american_odds": 161,
+      "implied_probability": 0.383,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
@@ -421,6 +127,300 @@
           "commence_time": "2026-12-26T01:00:00Z"
         },
         {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-7A54A533",
+      "title": "Under 3.5 + Pittsburgh Steelers wins",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7848098-203500765-777075530&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "San Jose Earthquakes @ Houston Dynamo + Atlanta Falcons @ Pittsburgh Steelers",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Jose Earthquakes @ Houston Dynamo",
+          "pick": "Under 3.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7848098-203500765-777075530&type=Single",
+          "commence_time": "2026-08-30T00:30:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-30T00:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-2C1DFD42",
+      "title": "Under 3.5 + Pittsburgh Steelers wins",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7847905-203500699-777075340&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Austin FC @ Portland Timbers + Atlanta Falcons @ Pittsburgh Steelers",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Austin FC @ Portland Timbers",
+          "pick": "Under 3.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7847905-203500699-777075340&type=Single",
+          "commence_time": "2026-08-30T02:30:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-30T02:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-2AE84FC7",
+      "title": "Over 2.5 + Pittsburgh Steelers wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7847896-203500415-777074232&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Los Angeles FC @ D.C. United + Atlanta Falcons @ Pittsburgh Steelers",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.379,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles FC @ D.C. United",
+          "pick": "Over 2.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7847896-203500415-777074232&type=Single",
+          "commence_time": "2026-08-29T23:30:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-29T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-0D98675E",
+      "title": "Under 3.5 + Pittsburgh Steelers wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7848101-203500517-777074677&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Orlando City SC @ Minnesota United FC + Atlanta Falcons @ Pittsburgh Steelers",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.379,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Orlando City SC @ Minnesota United FC",
+          "pick": "Under 3.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7848101-203500517-777074677&type=Single",
+          "commence_time": "2026-08-30T00:30:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43165-3330998-5259817&type=Single",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-30T00:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-09755B34",
+      "title": "Minnesota Twins wins + Cincinnati Reds wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886495-1551789221-2278075412&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Minnesota Twins @ Athletics + Cincinnati Reds @ San Francisco Giants",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Minnesota Twins @ Athletics",
+          "pick": "Minnesota Twins wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886495-1551789221-2278075412&type=Single",
+          "commence_time": "2026-08-25T01:41:00Z"
+        },
+        {
+          "matchup": "Cincinnati Reds @ San Francisco Giants",
+          "pick": "Cincinnati Reds wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886498-1551789515-2278076059&type=Single",
+          "commence_time": "2026-08-25T01:45:00Z"
+        }
+      ],
+      "close_time": "2026-08-25T01:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-8724A407",
+      "title": "Minnesota Twins wins + Oklahoma City Thunder wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886495-1551789221-2278075412&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Minnesota Twins @ Athletics + Oklahoma City Thunder @ Minnesota Timberwolves",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Minnesota Twins @ Athletics",
+          "pick": "Minnesota Twins wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886495-1551789221-2278075412&type=Single",
+          "commence_time": "2026-08-25T01:41:00Z"
+        },
+        {
+          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
+          "pick": "Oklahoma City Thunder wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
+          "commence_time": "2026-12-26T01:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-25T01:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-90E5569D",
+      "title": "Minnesota Twins wins + Under 3.5",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886495-1551789221-2278075412&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Minnesota Twins @ Athletics + San Jose Earthquakes @ Houston Dynamo",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Minnesota Twins @ Athletics",
+          "pick": "Minnesota Twins wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886495-1551789221-2278075412&type=Single",
+          "commence_time": "2026-08-25T01:41:00Z"
+        },
+        {
           "matchup": "San Jose Earthquakes @ Houston Dynamo",
           "pick": "Under 3.5",
           "odds": -160,
@@ -430,7 +430,7 @@
           "commence_time": "2026-08-30T00:30:00Z"
         }
       ],
-      "close_time": "2026-08-30T00:30:00Z"
+      "close_time": "2026-08-25T01:41:00Z"
     }
   ]
 }
