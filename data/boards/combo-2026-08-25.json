@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-08-25T08:40:42.381969+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "MLB": 6,
+    "Multi": 4
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-162EF7EC",
+      "title": "Boston Red Sox wins + Detroit Tigers +1.5",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886856-1551810124-2278133744&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Boston Red Sox @ Miami Marlins + Tampa Bay Rays @ Detroit Tigers",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Boston Red Sox @ Miami Marlins",
+          "pick": "Boston Red Sox wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886856-1551810124-2278133744&type=Single",
+          "commence_time": "2026-08-25T22:40:00Z"
+        },
+        {
+          "matchup": "Tampa Bay Rays @ Detroit Tigers",
+          "pick": "Detroit Tigers +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886857-1551810221-2278133957&type=Single",
+          "commence_time": "2026-08-25T22:41:00Z"
+        }
+      ],
+      "close_time": "2026-08-25T22:40:00Z"
+    },
+    {
+      "ticker": "PARLAY-5ADF254D",
+      "title": "Boston Red Sox wins + Colorado Rockies +1.5",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886856-1551810124-2278133744&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Boston Red Sox @ Miami Marlins + Colorado Rockies @ Washington Nationals",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Boston Red Sox @ Miami Marlins",
+          "pick": "Boston Red Sox wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886856-1551810124-2278133744&type=Single",
+          "commence_time": "2026-08-25T22:40:00Z"
+        },
+        {
+          "matchup": "Colorado Rockies @ Washington Nationals",
+          "pick": "Colorado Rockies +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886858-1551810313-2278134158&type=Single",
+          "commence_time": "2026-08-25T22:46:00Z"
+        }
+      ],
+      "close_time": "2026-08-25T22:40:00Z"
+    },
+    {
+      "ticker": "PARLAY-4BD5D069",
+      "title": "Boston Red Sox wins + Milwaukee Brewers wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886856-1551810124-2278133744&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Boston Red Sox @ Miami Marlins + Milwaukee Brewers @ New York Mets",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Boston Red Sox @ Miami Marlins",
+          "pick": "Boston Red Sox wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886856-1551810124-2278133744&type=Single",
+          "commence_time": "2026-08-25T22:40:00Z"
+        },
+        {
+          "matchup": "Milwaukee Brewers @ New York Mets",
+          "pick": "Milwaukee Brewers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886861-1551810599-2278134794&type=Single",
+          "commence_time": "2026-08-25T23:11:00Z"
+        }
+      ],
+      "close_time": "2026-08-25T22:40:00Z"
+    },
+    {
+      "ticker": "PARLAY-624C0F11",
+      "title": "Boston Red Sox wins + Oklahoma City Thunder wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886856-1551810124-2278133744&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Boston Red Sox @ Miami Marlins + Oklahoma City Thunder @ Minnesota Timberwolves",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Boston Red Sox @ Miami Marlins",
+          "pick": "Boston Red Sox wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886856-1551810124-2278133744&type=Single",
+          "commence_time": "2026-08-25T22:40:00Z"
+        },
+        {
+          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
+          "pick": "Oklahoma City Thunder wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
+          "commence_time": "2026-12-26T01:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-25T22:40:00Z"
+    },
+    {
+      "ticker": "PARLAY-C795D70C",
+      "title": "Detroit Tigers +1.5 + Colorado Rockies +1.5",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886857-1551810221-2278133957&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Tampa Bay Rays @ Detroit Tigers + Colorado Rockies @ Washington Nationals",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tampa Bay Rays @ Detroit Tigers",
+          "pick": "Detroit Tigers +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886857-1551810221-2278133957&type=Single",
+          "commence_time": "2026-08-25T22:41:00Z"
+        },
+        {
+          "matchup": "Colorado Rockies @ Washington Nationals",
+          "pick": "Colorado Rockies +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886858-1551810313-2278134158&type=Single",
+          "commence_time": "2026-08-25T22:46:00Z"
+        }
+      ],
+      "close_time": "2026-08-25T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-D5A4DEDF",
+      "title": "Detroit Tigers +1.5 + Milwaukee Brewers wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886857-1551810221-2278133957&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Tampa Bay Rays @ Detroit Tigers + Milwaukee Brewers @ New York Mets",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tampa Bay Rays @ Detroit Tigers",
+          "pick": "Detroit Tigers +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886857-1551810221-2278133957&type=Single",
+          "commence_time": "2026-08-25T22:41:00Z"
+        },
+        {
+          "matchup": "Milwaukee Brewers @ New York Mets",
+          "pick": "Milwaukee Brewers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886861-1551810599-2278134794&type=Single",
+          "commence_time": "2026-08-25T23:11:00Z"
+        }
+      ],
+      "close_time": "2026-08-25T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-AFC7D0CB",
+      "title": "Detroit Tigers +1.5 + Oklahoma City Thunder wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886857-1551810221-2278133957&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Tampa Bay Rays @ Detroit Tigers + Oklahoma City Thunder @ Minnesota Timberwolves",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tampa Bay Rays @ Detroit Tigers",
+          "pick": "Detroit Tigers +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886857-1551810221-2278133957&type=Single",
+          "commence_time": "2026-08-25T22:41:00Z"
+        },
+        {
+          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
+          "pick": "Oklahoma City Thunder wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
+          "commence_time": "2026-12-26T01:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-25T22:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-691B6F15",
+      "title": "Colorado Rockies +1.5 + Milwaukee Brewers wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886858-1551810313-2278134158&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Colorado Rockies @ Washington Nationals + Milwaukee Brewers @ New York Mets",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Colorado Rockies @ Washington Nationals",
+          "pick": "Colorado Rockies +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886858-1551810313-2278134158&type=Single",
+          "commence_time": "2026-08-25T22:46:00Z"
+        },
+        {
+          "matchup": "Milwaukee Brewers @ New York Mets",
+          "pick": "Milwaukee Brewers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886861-1551810599-2278134794&type=Single",
+          "commence_time": "2026-08-25T23:11:00Z"
+        }
+      ],
+      "close_time": "2026-08-25T22:46:00Z"
+    },
+    {
+      "ticker": "PARLAY-DDFF9708",
+      "title": "Colorado Rockies +1.5 + Oklahoma City Thunder wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886858-1551810313-2278134158&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Colorado Rockies @ Washington Nationals + Oklahoma City Thunder @ Minnesota Timberwolves",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Colorado Rockies @ Washington Nationals",
+          "pick": "Colorado Rockies +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886858-1551810313-2278134158&type=Single",
+          "commence_time": "2026-08-25T22:46:00Z"
+        },
+        {
+          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
+          "pick": "Oklahoma City Thunder wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
+          "commence_time": "2026-12-26T01:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-25T22:46:00Z"
+    },
+    {
+      "ticker": "PARLAY-5A7F14FC",
+      "title": "Milwaukee Brewers wins + Oklahoma City Thunder wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19886861-1551810599-2278134794&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Milwaukee Brewers @ New York Mets + Oklahoma City Thunder @ Minnesota Timberwolves",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Milwaukee Brewers @ New York Mets",
+          "pick": "Milwaukee Brewers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19886861-1551810599-2278134794&type=Single",
+          "commence_time": "2026-08-25T23:11:00Z"
+        },
+        {
+          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
+          "pick": "Oklahoma City Thunder wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
+          "commence_time": "2026-12-26T01:00:00Z"
+        }
+      ],
+      "close_time": "2026-08-25T23:11:00Z"
+    }
+  ]
+}
