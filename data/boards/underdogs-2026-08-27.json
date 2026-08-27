@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T02:53:54.063876+00:00",
+  "generated_at": "2026-08-27T18:49:37.037808+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -16,10 +16,10 @@
   "board": [
     {
       "ticker": "SB-4E9577E5",
-      "title": "Colts shock the Chiefs at Arrowhead",
+      "title": "Colts upset the Chiefs at Arrowhead",
       "payout": 3.35,
       "tier": "yellow",
-      "quip": "Jonathan Taylor grinding the clock into dust",
+      "quip": "Jonathan Taylor grinding Mahomes into a spectator",
       "yes_price": "0.30",
       "category": "NFL",
       "platform": "draftkings",
@@ -37,9 +37,9 @@
     {
       "ticker": "SB-483BB820",
       "title": "Falcons upset the Packers at Lambeau",
-      "payout": 3.85,
+      "payout": 3.8,
       "tier": "yellow",
-      "quip": "Bijan Robinson doesn't check the weather report",
+      "quip": "Bijan Robinson in the frozen tundra, no fear",
       "yes_price": "0.26",
       "category": "NFL",
       "platform": "draftkings",
@@ -50,8 +50,8 @@
       "sport_display": "NFL",
       "matchup": "Atlanta Falcons @ Green Bay Packers",
       "market_type": "h2h",
-      "american_odds": 285,
-      "implied_probability": 0.26,
+      "american_odds": 280,
+      "implied_probability": 0.263,
       "has_deep_link": true
     },
     {
@@ -59,7 +59,7 @@
       "title": "Oklahoma State stuns Oregon in Stillwater",
       "payout": 7.4,
       "tier": "orange",
-      "quip": "Boone Pickens ghost demands one more upset in orange",
+      "quip": "Boone Pickens Stadium orange-out summons one last miracle",
       "yes_price": "0.14",
       "category": "NCAAF",
       "platform": "fanduel",
@@ -76,10 +76,10 @@
     },
     {
       "ticker": "SB-39933B2B",
-      "title": "Ipswich stun Man United at Old Trafford",
+      "title": "Ipswich shock Manchester United at Old Trafford",
       "payout": 7.5,
       "tier": "orange",
-      "quip": "the Tractor Boys towing United back to the Championship",
+      "quip": "Tractor Boys drive straight through the Theatre of Dreams",
       "yes_price": "0.13",
       "category": "EPL",
       "platform": "betrivers",
@@ -96,10 +96,10 @@
     },
     {
       "ticker": "SB-B8981943",
-      "title": "Citadel upsets Charlotte on the road",
+      "title": "Citadel shocks Charlotte on the road",
       "payout": 8.2,
       "tier": "orange",
-      "quip": "military school triple option, 49ers unprepared for 1940s football",
+      "quip": "cadets running triple option straight through the 49ers",
       "yes_price": "0.12",
       "category": "NCAAF",
       "platform": "fanduel",
