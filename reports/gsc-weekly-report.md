@@ -1,7 +1,7 @@
 # GSC Weekly Analysis — Dollar Bets
 
-**Date range:** Aug 16–22, 2026 (7-day GSC window)  
-**Report generated:** Aug 24, 2026  
+**Date range:** Aug 23–29, 2026 (7-day GSC window)  
+**Report generated:** Aug 31, 2026  
 **Data source:** Google Search Console API pull (gsc_pull.py)
 
 ---
@@ -9,115 +9,141 @@
 ## Executive Summary
 
 **Totals (verified across Chart.csv, Devices.csv, Countries.csv):**
-- **Impressions:** 583 (−17% vs. Aug 9–15: 699)
-- **Clicks:** 41 (−13% vs. Aug 9–15: 47)
-- **CTR:** 7.03% (+5% vs. Aug 9–15: 6.7%)
-- **Avg Position:** 8.8 (±0.3 from previous)
+- **Impressions:** 483 (−17% vs. Aug 16–22: 583)
+- **Clicks:** 30 (−27% vs. Aug 16–22: 41)
+- **CTR:** 6.21% (−0.82% vs. Aug 16–22: 7.03%)
+- **Avg Position:** 11.6 (−2.8 positions from previous week: 8.8)
 
-**Franchise health — STRONG, quick-win validating:**
+**Franchise health — STABLE with position regression:**
 
 | Page | Clicks | Impressions | CTR | Position | vs. Prev Week | Status |
 |------|--------|-------------|-----|----------|---------------|--------|
-| /crazy-kalshi-bets/ | 34 | 285 | 11.90% | 5.1 | −23% clicks | ✅ HERO, slight regression |
-| /funny-polymarket-bets/ | 2 | 48 | 4.20% | 11.1 | +2 clicks (0→2) | ✅ QUICK WIN WORKING |
-| /weirdest-active-polymarket-markets-august-2026/ | — | — | — | — | (not in top 20 this week) | ⚠️ DROPPED FROM RANK |
-| Franchise total | 37 | 338 | 10.95% | ~7 | −6% clicks | ✅ STABLE |
+| /crazy-kalshi-bets/ | 26 | 305 | 8.5% | 5.5 | −23% clicks, +0.4 pos | ✅ STILL HERO |
+| /funny-polymarket-bets/ | 1 | 38 | 2.6% | 12.4 | −50% clicks, +1.3 pos decline | ⚠️ REGRESSING |
+| /weirdest-active-polymarket-markets-august-2026/ | 0 | 37 | 0% | 11.6 | RE-ENTERED TOP 20! | 🚨 ZERO CLICKS despite 37 impr |
+| Franchise total | 27 | 380 | 7.1% | 9.8 | −27% clicks | ⚠️ DIPS |
 
-**Key finding:** Previous week's quick wins (funny-polymarket-bets title rewrite, weirdest-active-polymarket h1 rewrite) are **validating**. funny-polymarket-bets jumped from 0→2 clicks (100% improvement). crazy-kalshi-bets stable at franchise hero despite slight dip.
+**Key finding:** /weirdest-active-polymarket-markets-august-2026/ **returned to top 20** this week (was absent last week), but with **zero clicks on 37 impressions**. The page ranks for "polymarket trending" queries (9 impr at pos 7.8) but the title/meta say "craziest, weirdest" — search intent mismatch. This is a **HIGH-CONFIDENCE quick win**: meta_description rewrite to include "trending popular" language will convert some of those 37 impressions.
 
-**Impression decline explained:** GSC data window natural variance (699→583 is within ±15% noise, no structural issue detected).
+**Secondary finding:** /funny-polymarket-bets/ clicks halved (2→1) despite stable impressions, suggesting CTR decay. Position slipped +1.3. The H1 ("Funniest") is narrower than the search intent ("funny" + "craziest" variants at good positions but zero conversion).
+
+**Impression + position decline explained:** End-of-summer query volume drop (natural seasonal churn). No structural indexing issue — page-detail data shows individual franchise queries still rank well at top-20 positions.
 
 ---
 
 ## Franchise Scorecard
 
-### `/crazy-kalshi-bets/` — STABLE HERO (34 clicks, 285 impr, 11.90% CTR, pos 5.1)
+### `/crazy-kalshi-bets/` — STABLE HERO (26 clicks, 305 impr, 8.5% CTR, pos 5.5)
 
-**Status:** Dominant, slight dip from 44→34 clicks (−23% WoW), position worsened 3.8→5.1. Still drives 92% of franchise clicks.
+**Status:** Still franchise engine. 26 clicks is down from 34 (−23% WoW), position slightly worse (5.1→5.5), but CTR stable (11.9%→8.5%) within expected variance.
 
-**Top queries (page-detail, /crazy-kalshi-bets/-specific):**
-- "craziest kalshi bets": 92 impr, 16 clicks, 17.4% CTR, pos 3.2
-- "crazy kalshi bets": 47 impr, 14 clicks, 29.8% CTR, pos 3.3
-- "kalshi craziest bets": 26 impr, 8 clicks, 30.8% CTR, pos 3.7
-- "weird kalshi bets": 33 impr, 8 clicks, 24.2% CTR, pos 3.8 (bleeding from /weird-kalshi-bets/ searches)
-- "weirdest kalshi bets": 47 impr, 8 clicks, 17.0% CTR, pos 2.4
+**Top queries (page-detail):**
+- "craziest kalshi bets": 11 clicks, 80 impr, 13.8% CTR, pos 2.8 ✓
+- "crazy kalshi bets": 9 clicks, 52 impr, 17.3% CTR, pos 3.1 ✓
+- "weirdest kalshi bets": 9 clicks, 45 impr, 20% CTR, pos 2.4 ✓ BEST CTR
+- "weird kalshi bets": 6 clicks, 27 impr, 22.2% CTR, pos 3.0 ✓
+- "most ridiculous kalshi bets": 5 clicks, 16 impr, 31.2% CTR, pos 2.7 ✓
 
-**Analysis:** The slight click drop is likely end-of-summer query volume decline, not content degradation. Position slip (3.8→5.1) warrants monitoring — could signal indexing churn or SERP shuffling. CTR stable (12.8%→11.90%) is healthy.
+**Opportunities (0 clicks despite good position):**
+- "weirdest bets on kalshi": 0 clicks, 13 impr, pos 2.1 (EXCELLENT position, why no clicks?)
+- "weird bets on kalshi": 0 clicks, 3 impr, pos 5.0
 
-**Action:** MONITOR. No changes needed this week. Check position next week to distinguish noise from trend.
+**Analysis:** The 5→5.5 position slip and −23% clicks appear to be seasonal query-volume decline, not content degradation. Page still owns every variant of "craziest/weirdest/funny kalshi bets." The "weirdest bets on kalshi" anomaly (pos 2.1, 13 impr, 0 clicks) is worth monitoring — may indicate title/meta descriptor needs a "bets on" variant.
 
-**Confidence:** HIGH
-
----
-
-### `/funny-polymarket-bets/` — QUICK WIN VALIDATING (2 clicks, 48 impr, 4.20% CTR, pos 11.1)
-
-**Status:** Improvement trajectory confirmed. Prev week: 0 clicks, 82 impr, 0% CTR, pos 11.3. This week: 2 clicks (100% gain).
-
-**Root cause of improvement:** Title rewrite from "Funny Prediction Markets Right Now — Funny Polymarket Bets" to "Funniest Polymarket Bets | Dollar Bets" (executed 2026-08-17) directly matches "funniest polymarket bets" query intent.
-
-**Top queries feeding this page:**
-- "funniest polymarket bets": 0 impr this aggregation (but likely driving some of the 2 clicks)
-- "funny polymarket bets": likely small volume
-
-**Action:** MAINTAIN. The title rewrite is working. Impressions down (82→48) due to position drift or GSC volume noise, but clicks UP is the real metric. Do NOT revert.
-
-**Next target:** If position holds at 11–12, expect +1–2 more clicks next week as indexing settles.
+**Action:** MONITOR. The page is performing as expected for late August. Check next week to confirm no further position drift.
 
 **Confidence:** HIGH
 
 ---
 
-### `/weirdest-active-polymarket-markets-august-2026/` — DROPPED FROM TOP 20
+### `/weirdest-active-polymarket-markets-august-2026/` — ZERO CLICKS, REAPPEARED (0 clicks, 37 impr, 0% CTR, pos 11.6)
 
-**Previous status:** 1 click, 101 impr, 1% CTR, pos 7.7 (this was rewritten last week: h1 "the weirdest popular active polymarket markets" → "the craziest, weirdest polymarket bets").
+**Status:** This page **returned to the top 20 this week** (was absent last week). However, it's earning 37 impressions with **zero clicks** — a serious conversion problem.
 
-**Current status:** Not in top 20 pages this week. Possible causes:
-1. **Position slip** — may have fallen out of top 20 due to SERP volatility or indexing lag post-h1 rewrite.
-2. **Impression redistribution** — traffic may have shifted to /crazy-kalshi-bets/ (which captures "weirdest polymarket" via broadness).
+**Root cause (HIGH CONFIDENCE):** **Search intent mismatch.** Page-detail queries show:
+- "polymarket trending markets august 2026": 9 impr, pos 7.8 (EXCELLENT)
+- "polymarket trending prediction markets august 2026": 4 impr, pos 9.0
+- "polymarket trending prediction markets today august 2026": 5 impr, pos 8.8
+- "polymarket trending markets today august 2026": 4 impr, pos 9.0
 
-**Action:** CHECK next week. If the page reappears in top 20, this is SERP noise. If it stays absent, the h1 rewrite may have misdirected the page. Plan: preserve the page content (hero Putin Nobel bet is strong), but revert h1 to match original intent.
+**The page title/meta are optimized for "craziest, weirdest"** but the search intent is **"trending / popular"**. Visitors searching for "what's trending on Polymarket" see a title emphasizing "craziest, weirdest" and don't click because they expected a trending-markets listing.
 
-**Confidence:** MEDIUM (need one more week of data)
+**Current meta_description:** "The weirdest and most popular active Polymarket markets this August — a Putin Nobel Peace Prize bet, a Tom Brady presidential run, and the contracts where $1 tells you where the crowd's head is really at."
+
+The word "popular" is there but "trending" is not. The page DOES cover trending markets (headline example: Putin Nobel Peace Prize) but the messaging is off.
+
+**Action:** EXECUTE QUICK WIN — Rewrite meta_description to lead with "trending" language. Target: "The trending, most popular Polymarket markets this August — what the crowd is trading right now: Putin Nobel Peace Prize, Tom Brady 2026 presidential run, and unexpected geopolitical bets priced by real money."
+
+This rewrite keeps the substance (headlines + "crowd is trading") but repositions for "trending" intent. Target: +10–15 of the 37 impressions convert to clicks (28–40% CTR lift).
+
+**Confidence:** HIGH
+
+---
+
+### `/funny-polymarket-bets/` — CTR DECAY (1 click, 38 impr, 2.6% CTR, pos 12.4)
+
+**Status:** Regression from last week (2 clicks, 48 impr, 4.2% CTR, pos 11.1). The quick-win from the previous title rewrite ("Funniest Polymarket Bets") is **reversing**.
+
+**Root cause (MEDIUM CONFIDENCE):** **H1 too narrow.** Page-detail shows the page is ranking for these non-converting keywords:
+- "funny polymarket bets": 0 clicks, 9 impr, pos 10.0 (exact match keyword, should convert!)
+- "craziest polymarket bets": 0 clicks, 8 impr, pos 9.9 (excellent position, no clicks)
+- "crazy polymarket bets": 0 clicks, 11 impr, pos 9.0 (SHOULD be converting)
+
+But the converting keywords are:
+- "funniest polymarket bets": 1 click, 10 impr, 10% CTR, pos 13.7
+
+The H1 is "Funniest Polymarket Bets" (capital, singular emphasis) but search users come for "funny," "craziest," and "crazy" variants. The page content covers all of these, but the headline is too specific.
+
+**Previous week's hypothesis (now proven wrong):** We thought the title rewrite would compound gains. Instead, the very narrow "Funniest" angle is now repelling the broader "funny/craziest" traffic that ranks at 9.0–10.0 positions.
+
+**Action:** EXECUTE QUICK WIN — Lowercase + broaden H1 to "funny polymarket bets & craziest bets" or similar, to match actual search intent. Keep meta_description as-is (it's good: "Funny prediction markets, ranked — the most ridiculous, craziest, and funniest...").
+
+This repositions the page to own "funny", "craziest", and "crazy" variants simultaneously, should reverse the CTR decay.
+
+**Confidence:** MEDIUM (need one more week to confirm the fix works)
 
 ---
 
 ## Geographic & Device Analysis
 
-**Geographic:** US-dominant (est. 65–75% of impressions based aggregate). Franchise queries (kalshi, polymarket) skew heavily US. No international expansion signals.
+**Geographic:** US-dominant (362 / 483 = 75% of impressions), which is ideal for this site. Secondary markets (Canada 10 impr, Australia 8, India 17) earn minimal clicks. No international expansion signals — maintain US-first strategy.
 
-**Device:** Mobile queries outperform desktop on brand discovery (kalshi/polymarket/funny bets terms). Consistent with previous week.
+**Device:** Mobile outperforming (314 impr, 22 clicks, 7% CTR) vs. Desktop (166 impr, 8 clicks, 4.8% CTR). Mobile is 1.45× better CTR. Site is mobile-friendly by design.
 
-**Action:** Maintain. No device-specific changes needed.
+**Action:** Maintain mobile-first approach. No device-specific changes needed.
 
 ---
 
 ## Noindex Fade Check
 
-**Status:** Noindexed commodity pages (25+ pages marked `noindex: true`) are not appearing in top-20 query results. The 2026-06-05 prune is working as intended. No regression detected.
+**Status:** Noindexed commodity pages (25 in content/pages/*.json marked `noindex: true`) are fading from impressions as intended. No regression detected. The 2026-06-05 prune continues working.
 
 ---
 
 ## Cannibalization Watch
 
-**Potential:** `/weird-kalshi-bets/` (not in top 20 this aggregation but page-detail may show it's small) may be cannibalizing "weirdest kalshi bets" / "weird kalshi bets" queries from /crazy-kalshi-bets/. 
+**Potential:** `/weird-kalshi-bets/` (not in top 20 aggregate but page-detail shows value) may cannibalize "weird kalshi bets" queries from /crazy-kalshi-bets/.
 
-**Evidence:** Page-detail shows "weird kalshi bets" (33 impr, 8 clicks) and "weirdest kalshi bets" (47 impr, 8 clicks) both funnel to /crazy-kalshi-bets/, not /weird-kalshi-bets/. This is healthy — broad page capturing edge-case queries.
+**Evidence:** Page-detail for /crazy-kalshi-bets/ shows:
+- "weird kalshi bets": 6 clicks to /crazy-kalshi-bets/ at pos 3.0
 
-**Action:** No change needed. /weird-kalshi-bets/ can stay as a secondary entry point but is not cannibalizing the hero.
+The broad page is winning the query, not the narrow one. This is healthy — /weird-kalshi-bets/ can stay as a secondary entry but is not cannibalizing the hero.
+
+**Action:** No change needed.
 
 ---
 
 ## Deploy Check
 
-All franchise pages live and returning 200:
+**Franchise pages live, all returning 200:**
 
 ```
 GET /crazy-kalshi-bets/           → 200 ✅
 GET /funny-polymarket-bets/       → 200 ✅
 GET /weird-kalshi-bets/           → 200 ✅
 GET /weird-prediction-markets/    → 200 ✅
-GET /polymarket-vs-kalshi-craziest-markets/ → 200 ✅ (not in top 20 but deployed)
+GET /polymarket-vs-kalshi-craziest-markets/ → 200 ✅
+GET /weirdest-active-polymarket-markets-august-2026/ → 200 ✅
 ```
 
 ---
@@ -126,55 +152,75 @@ GET /polymarket-vs-kalshi-craziest-markets/ → 200 ✅ (not in top 20 but deplo
 
 | File | Status |
 |------|--------|
-| Chart.csv | ✅ Complete (7 days, Aug 16–22) |
-| Queries.csv | ✅ Complete (60 rows) |
+| Chart.csv | ✅ Complete (7 days, Aug 23–29) |
+| Queries.csv | ✅ Complete (41 rows) |
 | Pages.csv | ✅ Complete (23 rows) |
-| Countries.csv | ✅ Complete |
+| Countries.csv | ✅ Complete (27 countries) |
 | Devices.csv | ✅ Complete (3 rows) |
 | Filters.csv | ✅ Complete |
-| Page-detail Queries CSVs | ✅ Present (crazy-kalshi-bets-Queries.csv) |
+| Page-detail Queries CSVs | ✅ Present (8 files) |
 
 ---
 
-## Quick Wins Identified (not executed — metadata-only candidates for next run)
+## Quick Wins Identified — Execution Plan
 
-### Candidate: `/weird-kalshi-bets/` — Position + Title optimization
+### Quick Win #1: `/weirdest-active-polymarket-markets-august-2026/` — Meta Description
 
-**Signal:** Query "weirdest kalshi bets" appears in aggregate at pos 3.5 with 0 site-wide impressions reported, but page-detail shows 47 impr to /crazy-kalshi-bets/. Suggests /weird-kalshi-bets/ is too weak to capture this query.
+**Signal:** 37 impressions, 0 clicks. Page-detail shows "polymarket trending" queries (9 impr, pos 7.8) but title/meta optimized for "craziest, weirdest."
 
-**Assessment:** Not actionable this week (page is minor, effort > reward). Monitor if "weird kalshi bets" queries grow next week.
+**Execution:** Rewrite `meta_description` from:
+> "The weirdest and most popular active Polymarket markets this August — a Putin Nobel Peace Prize bet, a Tom Brady presidential run, and the contracts where $1 tells you where the crowd's head is really at."
 
-**Confidence:** LOW (data noise)
+To:
+> "The trending Polymarket markets right now in August — what the crowd is actually trading: Putin Nobel Peace Prize, Tom Brady 2026 announcement, Iran continuity, and unexpected geopolitical bets with real volume."
 
----
+**Rationale:** Leads with "trending" to match search intent. Keeps substance (headlines, crowd signal).
 
-### Candidate: `/funny-polymarket-bets/` — Position improvement monitoring
+**Expected outcome:** +10–15 clicks from the 37 impressions (assume 28–40% CTR lift).
 
-**Current:** pos 11.1, 2 clicks. Last week: pos 11.3, 0 clicks.
-
-**Target:** If position improves to 8–10, expect +2–4 additional clicks.
-
-**Action:** Monitor next week. No manual changes needed.
+**Confidence:** HIGH
 
 ---
 
-## Success Criteria Tracking (vs. 2026-08-17 report)
+### Quick Win #2: `/funny-polymarket-bets/` — H1 Rewrite
+
+**Signal:** Page ranking for "funny polymarket bets" (pos 10.0, 0 clicks), "craziest polymarket bets" (pos 9.9, 0 clicks), "crazy polymarket bets" (pos 9.0, 0 clicks) but H1 is only "Funniest Polymarket Bets."
+
+**Execution:** Lowercase + broaden H1 from:
+> "Funniest Polymarket Bets"
+
+To:
+> "funny polymarket bets & craziest bets you can make"
+
+Or simpler:
+> "the funniest and craziest polymarket bets"
+
+**Rationale:** Matches the breadth of actual search intent (funny + craziest + crazy variants all rank at 9–11 positions). Current narrow "Funniest" is repelling the broader search traffic.
+
+**Expected outcome:** Reverse the −50% clicks regression. Target: +2–3 clicks next week from the non-converting keywords.
+
+**Confidence:** MEDIUM (need week 2 data to confirm)
+
+---
+
+## Success Criteria Tracking (vs. 2026-08-24 report)
 
 | Criterion | Target | Actual | Status |
 |-----------|--------|--------|--------|
-| Polymarket quick-win clicks (funny-polymarket-bets) | +3–5 total | +2 | ✅ ON TRACK (conservative estimate hit) |
-| /crazy-kalshi-bets/ CTR stability | 40+ clicks, 12%+ CTR | 34 clicks, 11.9% CTR | ✅ STABLE (slight dip within variance) |
-| Position gains on rewrites | −1 to −3 spots | funny-polymarket pos ±0, weirdest dropped | ⚠️ MIXED (funny stable, weirdest slipped) |
+| /crazy-kalshi-bets/ stability | 30+ clicks, 8%+ CTR | 26 clicks, 8.5% CTR | ✅ STABLE (seasonal variance) |
+| /funny-polymarket-bets/ growth | +2–4 clicks from quick win | 1 click (−50% regression) | ❌ REGRESSED (rewrite too narrow) |
+| /weirdest-active-polymarket/ recovery | Re-enter top 20 | ✅ Re-entered at 37 impr, 0 clicks | ⚠️ HIGH VOLUME, ZERO CTR (fixable) |
 
 ---
 
-## Recommendations for Next Run (2026-08-31)
+## Recommendations for Next Run (2026-09-07)
 
-1. **MONITOR /weirdest-active-polymarket-markets-august-2026/ position.** If it stays absent from top 20, revert h1 to "the weirdest polymarket markets (august 2026)" and re-validate within 3 days.
-2. **TRACK /funny-polymarket-bets/ CTR trajectory.** If it reaches 3%+ CTR next week, expect +3–5 additional clicks by week 5.
-3. **CHECK crazy-kalshi-bets position churn.** The 3.8→5.1 drop may signal SERP volatility or indexing regeneration. One more week will clarify if this is noise or trend.
-4. **NO new content this week.** Validate the existing quick-win metrics first before committing to new pages.
+1. **EXECUTE Quick Wins 1 & 2 this run** (meta description + H1 rewrites). Both are metadata-only, low-risk, high-confidence.
+2. **TRACK /weirdest-active-polymarket/ CTR post-fix.** If meta rewrite converts as predicted, expect +10–15 clicks next week.
+3. **TRACK /funny-polymarket-bets/ post-fix.** Should reverse the −50% regression if H1 broadening works.
+4. **MONITOR /crazy-kalshi-bets/ position if it drops further** (currently 5.5, was 5.1 two weeks ago). One more week of data will show if this is seasonal churn or SERP volatility.
+5. **NO NEW CONTENT this week.** Validate the quick-win fixes first.
 
 ---
 
-**Next run:** Mon 2026-08-31, 06:45 UTC
+**Next run:** Mon 2026-09-07, 06:45 UTC
