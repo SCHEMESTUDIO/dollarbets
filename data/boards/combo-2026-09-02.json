@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T19:13:14.481105+00:00",
+  "generated_at": "2026-09-02T23:51:42.774163+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -9,15 +9,267 @@
   },
   "sport_mix": {
     "Multi": 9,
-    "NFL": 1
+    "MLB": 1
   },
   "board": [
+    {
+      "ticker": "PARLAY-5D2CD217",
+      "title": "Dallas Cowboys wins + New York Yankees wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Dallas Cowboys @ New York Giants + New York Yankees @ Los Angeles Angels",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Dallas Cowboys @ New York Giants",
+          "pick": "Dallas Cowboys wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
+          "commence_time": "2026-09-14T00:20:00Z"
+        },
+        {
+          "matchup": "New York Yankees @ Los Angeles Angels",
+          "pick": "New York Yankees wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19889042-1551948466-2278485374&type=Single",
+          "commence_time": "2026-09-03T01:39:00Z"
+        }
+      ],
+      "close_time": "2026-09-03T01:39:00Z"
+    },
+    {
+      "ticker": "PARLAY-CDE41C45",
+      "title": "Dallas Cowboys wins + Houston Astros wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Dallas Cowboys @ New York Giants + Chicago White Sox @ Houston Astros",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Dallas Cowboys @ New York Giants",
+          "pick": "Dallas Cowboys wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
+          "commence_time": "2026-09-14T00:20:00Z"
+        },
+        {
+          "matchup": "Chicago White Sox @ Houston Astros",
+          "pick": "Houston Astros wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19888921-1551939946-2278463268&type=Single",
+          "commence_time": "2026-09-03T18:10:00Z"
+        }
+      ],
+      "close_time": "2026-09-03T18:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-CA1CA7B4",
+      "title": "Dallas Cowboys wins + Oklahoma City Thunder wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Dallas Cowboys @ New York Giants + Oklahoma City Thunder @ Minnesota Timberwolves",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Dallas Cowboys @ New York Giants",
+          "pick": "Dallas Cowboys wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
+          "commence_time": "2026-09-14T00:20:00Z"
+        },
+        {
+          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
+          "pick": "Oklahoma City Thunder wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
+          "commence_time": "2026-12-26T01:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-14T00:20:00Z"
+    },
+    {
+      "ticker": "PARLAY-842EFD34",
+      "title": "New York Yankees wins + Houston Astros wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19889042-1551948466-2278485374&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "New York Yankees @ Los Angeles Angels + Chicago White Sox @ Houston Astros",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York Yankees @ Los Angeles Angels",
+          "pick": "New York Yankees wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19889042-1551948466-2278485374&type=Single",
+          "commence_time": "2026-09-03T01:39:00Z"
+        },
+        {
+          "matchup": "Chicago White Sox @ Houston Astros",
+          "pick": "Houston Astros wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19888921-1551939946-2278463268&type=Single",
+          "commence_time": "2026-09-03T18:10:00Z"
+        }
+      ],
+      "close_time": "2026-09-03T01:39:00Z"
+    },
+    {
+      "ticker": "PARLAY-13747DAB",
+      "title": "New York Yankees wins + Oklahoma City Thunder wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19889042-1551948466-2278485374&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "New York Yankees @ Los Angeles Angels + Oklahoma City Thunder @ Minnesota Timberwolves",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York Yankees @ Los Angeles Angels",
+          "pick": "New York Yankees wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19889042-1551948466-2278485374&type=Single",
+          "commence_time": "2026-09-03T01:39:00Z"
+        },
+        {
+          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
+          "pick": "Oklahoma City Thunder wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
+          "commence_time": "2026-12-26T01:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-03T01:39:00Z"
+    },
+    {
+      "ticker": "PARLAY-E1A81C18",
+      "title": "Houston Astros wins + Oklahoma City Thunder wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19888921-1551939946-2278463268&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Chicago White Sox @ Houston Astros + Oklahoma City Thunder @ Minnesota Timberwolves",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago White Sox @ Houston Astros",
+          "pick": "Houston Astros wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19888921-1551939946-2278463268&type=Single",
+          "commence_time": "2026-09-03T18:10:00Z"
+        },
+        {
+          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
+          "pick": "Oklahoma City Thunder wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
+          "commence_time": "2026-12-26T01:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-03T18:10:00Z"
+    },
     {
       "ticker": "PARLAY-02917FD5",
       "title": "Colorado State Rams wins + Dallas Cowboys wins",
       "payout": 2.67,
       "tier": "green",
-      "quip": "water is wet",
+      "quip": "paint drying, but profitable",
       "yes_price": "0.37",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -55,8 +307,8 @@
       "close_time": "2026-09-05T22:00:00Z"
     },
     {
-      "ticker": "PARLAY-1BADDFDF",
-      "title": "Chicago Bears wins + Dallas Cowboys wins",
+      "ticker": "PARLAY-6551C765",
+      "title": "Colorado State Rams wins + New York Yankees wins",
       "payout": 2.67,
       "tier": "green",
       "quip": "steady hands",
@@ -64,10 +316,10 @@
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43156-3331099-5259923&type=Single",
-      "sport": "americanfootball_nfl",
-      "sport_display": "NFL",
-      "matchup": "Chicago Bears @ Carolina Panthers + Dallas Cowboys @ New York Giants",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43788-3483308-5455374&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Wyoming Cowboys @ Colorado State Rams + New York Yankees @ Los Angeles Angels",
       "market_type": "2-leg parlay",
       "american_odds": 167,
       "implied_probability": 0.374,
@@ -76,29 +328,29 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Chicago Bears @ Carolina Panthers",
-          "pick": "Chicago Bears wins",
+          "matchup": "Wyoming Cowboys @ Colorado State Rams",
+          "pick": "Colorado State Rams wins",
           "odds": -155,
           "implied_prob": "61%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43156-3331099-5259923&type=Single",
-          "commence_time": "2026-09-13T17:00:00Z"
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43788-3483308-5455374&type=Single",
+          "commence_time": "2026-09-05T22:00:00Z"
         },
         {
-          "matchup": "Dallas Cowboys @ New York Giants",
-          "pick": "Dallas Cowboys wins",
+          "matchup": "New York Yankees @ Los Angeles Angels",
+          "pick": "New York Yankees wins",
           "odds": -160,
           "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
-          "commence_time": "2026-09-14T00:20:00Z"
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19889042-1551948466-2278485374&type=Single",
+          "commence_time": "2026-09-03T01:39:00Z"
         }
       ],
-      "close_time": "2026-09-13T17:00:00Z"
+      "close_time": "2026-09-03T01:39:00Z"
     },
     {
-      "ticker": "PARLAY-3134CC45",
-      "title": "Pittsburgh Pirates wins + Dallas Cowboys wins",
+      "ticker": "PARLAY-547476D2",
+      "title": "Colorado State Rams wins + Houston Astros wins",
       "payout": 2.67,
       "tier": "green",
       "quip": "tuesday energy",
@@ -106,331 +358,79 @@
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19888626-1551920973-2278417974&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "San Francisco Giants @ Pittsburgh Pirates + Dallas Cowboys @ New York Giants",
-      "market_type": "2-leg parlay",
-      "american_odds": 167,
-      "implied_probability": 0.374,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "San Francisco Giants @ Pittsburgh Pirates",
-          "pick": "Pittsburgh Pirates wins",
-          "odds": -155,
-          "implied_prob": "61%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19888626-1551920973-2278417974&type=Single",
-          "commence_time": "2026-09-02T22:41:00Z"
-        },
-        {
-          "matchup": "Dallas Cowboys @ New York Giants",
-          "pick": "Dallas Cowboys wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
-          "commence_time": "2026-09-14T00:20:00Z"
-        }
-      ],
-      "close_time": "2026-09-02T22:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-B8F88E63",
-      "title": "Over 3.5 + Dallas Cowboys wins",
-      "payout": 2.67,
-      "tier": "green",
-      "quip": "routine maintenance",
-      "yes_price": "0.37",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7852167-203545777-777489475&type=Single",
-      "sport": "soccer_usa_mls",
-      "sport_display": "Multi",
-      "matchup": "Atlanta United FC @ Inter Miami CF + Dallas Cowboys @ New York Giants",
-      "market_type": "2-leg parlay",
-      "american_odds": 167,
-      "implied_probability": 0.374,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Atlanta United FC @ Inter Miami CF",
-          "pick": "Over 3.5",
-          "odds": -155,
-          "implied_prob": "61%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7852167-203545777-777489475&type=Single",
-          "commence_time": "2026-09-05T23:30:00Z"
-        },
-        {
-          "matchup": "Dallas Cowboys @ New York Giants",
-          "pick": "Dallas Cowboys wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
-          "commence_time": "2026-09-14T00:20:00Z"
-        }
-      ],
-      "close_time": "2026-09-05T23:30:00Z"
-    },
-    {
-      "ticker": "PARLAY-A706470B",
-      "title": "Eastern Michigan Eagles wins + Dallas Cowboys wins",
-      "payout": 2.71,
-      "tier": "green",
-      "quip": "like taking candy from a vending machine",
-      "yes_price": "0.37",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43925-3483126-5455100&type=Single",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43788-3483308-5455374&type=Single",
       "sport": "americanfootball_ncaaf",
       "sport_display": "Multi",
-      "matchup": "San Jose State Spartans @ Eastern Michigan Eagles + Dallas Cowboys @ New York Giants",
+      "matchup": "Wyoming Cowboys @ Colorado State Rams + Chicago White Sox @ Houston Astros",
       "market_type": "2-leg parlay",
-      "american_odds": 171,
-      "implied_probability": 0.369,
+      "american_odds": 167,
+      "implied_probability": 0.374,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "San Jose State Spartans @ Eastern Michigan Eagles",
-          "pick": "Eastern Michigan Eagles wins",
-          "odds": -150,
-          "implied_prob": "60%",
+          "matchup": "Wyoming Cowboys @ Colorado State Rams",
+          "pick": "Colorado State Rams wins",
+          "odds": -155,
+          "implied_prob": "61%",
           "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43925-3483126-5455100&type=Single",
-          "commence_time": "2026-09-04T22:30:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43788-3483308-5455374&type=Single",
+          "commence_time": "2026-09-05T22:00:00Z"
         },
         {
-          "matchup": "Dallas Cowboys @ New York Giants",
-          "pick": "Dallas Cowboys wins",
+          "matchup": "Chicago White Sox @ Houston Astros",
+          "pick": "Houston Astros wins",
           "odds": -160,
           "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
-          "commence_time": "2026-09-14T00:20:00Z"
-        }
-      ],
-      "close_time": "2026-09-04T22:30:00Z"
-    },
-    {
-      "ticker": "PARLAY-C0FB4D60",
-      "title": "Over 10.5 + Dallas Cowboys wins",
-      "payout": 2.71,
-      "tier": "green",
-      "quip": "the safe bet",
-      "yes_price": "0.37",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19888857-1551936256-2278454346&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "San Diego Padres @ Cincinnati Reds + Dallas Cowboys @ New York Giants",
-      "market_type": "2-leg parlay",
-      "american_odds": 171,
-      "implied_probability": 0.369,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "San Diego Padres @ Cincinnati Reds",
-          "pick": "Over 10.5",
-          "odds": -150,
-          "implied_prob": "60%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19888857-1551936256-2278454346&type=Single",
-          "commence_time": "2026-09-02T16:41:00Z"
-        },
-        {
-          "matchup": "Dallas Cowboys @ New York Giants",
-          "pick": "Dallas Cowboys wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
-          "commence_time": "2026-09-14T00:20:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19888921-1551939946-2278463268&type=Single",
+          "commence_time": "2026-09-03T18:10:00Z"
         }
       ],
-      "close_time": "2026-09-02T16:41:00Z"
+      "close_time": "2026-09-03T18:10:00Z"
     },
     {
-      "ticker": "PARLAY-A0BB5AC8",
-      "title": "Texas Rangers -1.5 + Dallas Cowboys wins",
-      "payout": 2.71,
+      "ticker": "PARLAY-FCB4317C",
+      "title": "Colorado State Rams wins + Oklahoma City Thunder wins",
+      "payout": 2.67,
       "tier": "green",
-      "quip": "like taking candy from a vending machine",
+      "quip": "the sun also rises",
       "yes_price": "0.37",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19888859-1551936369-2278454623&type=Single",
-      "sport": "baseball_mlb",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43788-3483308-5455374&type=Single",
+      "sport": "americanfootball_ncaaf",
       "sport_display": "Multi",
-      "matchup": "Athletics @ Texas Rangers + Dallas Cowboys @ New York Giants",
+      "matchup": "Wyoming Cowboys @ Colorado State Rams + Oklahoma City Thunder @ Minnesota Timberwolves",
       "market_type": "2-leg parlay",
-      "american_odds": 171,
-      "implied_probability": 0.369,
+      "american_odds": 167,
+      "implied_probability": 0.374,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Athletics @ Texas Rangers",
-          "pick": "Texas Rangers -1.5",
-          "odds": -150,
-          "implied_prob": "60%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19888859-1551936369-2278454623&type=Single",
-          "commence_time": "2026-09-02T18:36:00Z"
+          "matchup": "Wyoming Cowboys @ Colorado State Rams",
+          "pick": "Colorado State Rams wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43788-3483308-5455374&type=Single",
+          "commence_time": "2026-09-05T22:00:00Z"
         },
         {
-          "matchup": "Dallas Cowboys @ New York Giants",
-          "pick": "Dallas Cowboys wins",
+          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
+          "pick": "Oklahoma City Thunder wins",
           "odds": -160,
           "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
-          "commence_time": "2026-09-14T00:20:00Z"
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
+          "commence_time": "2026-12-26T01:00:00Z"
         }
       ],
-      "close_time": "2026-09-02T18:36:00Z"
-    },
-    {
-      "ticker": "PARLAY-885548B0",
-      "title": "Arizona Diamondbacks +1.5 + Dallas Cowboys wins",
-      "payout": 2.71,
-      "tier": "green",
-      "quip": "paint drying, but profitable",
-      "yes_price": "0.37",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19888623-1551920697-2278417368&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Philadelphia Phillies @ Arizona Diamondbacks + Dallas Cowboys @ New York Giants",
-      "market_type": "2-leg parlay",
-      "american_odds": 171,
-      "implied_probability": 0.369,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Philadelphia Phillies @ Arizona Diamondbacks",
-          "pick": "Arizona Diamondbacks +1.5",
-          "odds": -150,
-          "implied_prob": "60%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19888623-1551920697-2278417368&type=Single",
-          "commence_time": "2026-09-02T19:41:00Z"
-        },
-        {
-          "matchup": "Dallas Cowboys @ New York Giants",
-          "pick": "Dallas Cowboys wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
-          "commence_time": "2026-09-14T00:20:00Z"
-        }
-      ],
-      "close_time": "2026-09-02T19:41:00Z"
-    },
-    {
-      "ticker": "PARLAY-D2DAA2F3",
-      "title": "Boston Red Sox wins + Dallas Cowboys wins",
-      "payout": 2.71,
-      "tier": "green",
-      "quip": "the boring middle",
-      "yes_price": "0.37",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19888624-1551920787-2278417566&type=Single",
-      "sport": "baseball_mlb",
-      "sport_display": "Multi",
-      "matchup": "Seattle Mariners @ Boston Red Sox + Dallas Cowboys @ New York Giants",
-      "market_type": "2-leg parlay",
-      "american_odds": 171,
-      "implied_probability": 0.369,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Seattle Mariners @ Boston Red Sox",
-          "pick": "Boston Red Sox wins",
-          "odds": -150,
-          "implied_prob": "60%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19888624-1551920787-2278417566&type=Single",
-          "commence_time": "2026-09-02T20:11:00Z"
-        },
-        {
-          "matchup": "Dallas Cowboys @ New York Giants",
-          "pick": "Dallas Cowboys wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
-          "commence_time": "2026-09-14T00:20:00Z"
-        }
-      ],
-      "close_time": "2026-09-02T20:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-683D7D3C",
-      "title": "Delphine Benouaich wins + Dallas Cowboys wins",
-      "payout": 2.71,
-      "tier": "green",
-      "quip": "clock in, cash out",
-      "yes_price": "0.37",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19901825-1553196968-2281921037&type=Single",
-      "sport": "mma_mixed_martial_arts",
-      "sport_display": "Multi",
-      "matchup": "Delphine Benouaich @ Sofia Montenegro + Dallas Cowboys @ New York Giants",
-      "market_type": "2-leg parlay",
-      "american_odds": 171,
-      "implied_probability": 0.369,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Delphine Benouaich @ Sofia Montenegro",
-          "pick": "Delphine Benouaich wins",
-          "odds": -150,
-          "implied_prob": "60%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19901825-1553196968-2281921037&type=Single",
-          "commence_time": "2026-09-05T16:00:00Z"
-        },
-        {
-          "matchup": "Dallas Cowboys @ New York Giants",
-          "pick": "Dallas Cowboys wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
-          "commence_time": "2026-09-14T00:20:00Z"
-        }
-      ],
-      "close_time": "2026-09-05T16:00:00Z"
+      "close_time": "2026-09-05T22:00:00Z"
     }
   ]
 }
