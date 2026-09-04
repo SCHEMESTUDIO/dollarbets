@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T12:30:23.289911+00:00",
+  "generated_at": "2026-09-04T18:49:03.155840+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,58 +8,16 @@
     "green": 10
   },
   "sport_mix": {
-    "NCAAF": 1,
-    "Multi": 9
+    "Multi": 9,
+    "MLB": 1
   },
   "board": [
-    {
-      "ticker": "PARLAY-5935DE24",
-      "title": "Colorado State Rams wins + UNLV Rebels wins",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "no surprises here",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43788-3483308-5455374&type=Single",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "NCAAF",
-      "matchup": "Wyoming Cowboys @ Colorado State Rams + UNLV Rebels @ Hawaii Rainbow Warriors",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Wyoming Cowboys @ Colorado State Rams",
-          "pick": "Colorado State Rams wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43788-3483308-5455374&type=Single",
-          "commence_time": "2026-09-05T22:00:00Z"
-        },
-        {
-          "matchup": "UNLV Rebels @ Hawaii Rainbow Warriors",
-          "pick": "UNLV Rebels wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43793-3483410-5455532&type=Single",
-          "commence_time": "2026-09-06T02:00:00Z"
-        }
-      ],
-      "close_time": "2026-09-05T22:00:00Z"
-    },
     {
       "ticker": "PARLAY-02917FD5",
       "title": "Colorado State Rams wins + Dallas Cowboys wins",
       "payout": 2.64,
       "tier": "green",
-      "quip": "water is wet",
+      "quip": "business as usual",
       "yes_price": "0.38",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -101,7 +59,7 @@
       "title": "Colorado State Rams wins + Milwaukee Brewers wins",
       "payout": 2.64,
       "tier": "green",
-      "quip": "autopilot engaged",
+      "quip": "like taking candy from a vending machine",
       "yes_price": "0.38",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -139,11 +97,53 @@
       "close_time": "2026-09-04T22:11:00Z"
     },
     {
+      "ticker": "PARLAY-78E2F305",
+      "title": "Colorado State Rams wins + Chicago Cubs wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43788-3483308-5455374&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Wyoming Cowboys @ Colorado State Rams + Chicago Cubs @ Miami Marlins",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Wyoming Cowboys @ Colorado State Rams",
+          "pick": "Colorado State Rams wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43788-3483308-5455374&type=Single",
+          "commence_time": "2026-09-05T22:00:00Z"
+        },
+        {
+          "matchup": "Chicago Cubs @ Miami Marlins",
+          "pick": "Chicago Cubs wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19888933-1551941120-2278465890&type=Single",
+          "commence_time": "2026-09-04T23:10:00Z"
+        }
+      ],
+      "close_time": "2026-09-04T23:10:00Z"
+    },
+    {
       "ticker": "PARLAY-FCB4317C",
       "title": "Colorado State Rams wins + Oklahoma City Thunder wins",
       "payout": 2.64,
       "tier": "green",
-      "quip": "the sun also rises",
+      "quip": "steady hands",
       "yes_price": "0.38",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -185,7 +185,7 @@
       "title": "Colorado State Rams wins + Over 2.5",
       "payout": 2.64,
       "tier": "green",
-      "quip": "bread and butter",
+      "quip": "routine maintenance",
       "yes_price": "0.38",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -223,179 +223,11 @@
       "close_time": "2026-09-05T22:00:00Z"
     },
     {
-      "ticker": "PARLAY-7A6FBFB7",
-      "title": "UNLV Rebels wins + Dallas Cowboys wins",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "another day at the office",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43793-3483410-5455532&type=Single",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "Multi",
-      "matchup": "UNLV Rebels @ Hawaii Rainbow Warriors + Dallas Cowboys @ New York Giants",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "UNLV Rebels @ Hawaii Rainbow Warriors",
-          "pick": "UNLV Rebels wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43793-3483410-5455532&type=Single",
-          "commence_time": "2026-09-06T02:00:00Z"
-        },
-        {
-          "matchup": "Dallas Cowboys @ New York Giants",
-          "pick": "Dallas Cowboys wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "americanfootball_nfl",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
-          "commence_time": "2026-09-14T00:20:00Z"
-        }
-      ],
-      "close_time": "2026-09-06T02:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-B071FC42",
-      "title": "UNLV Rebels wins + Milwaukee Brewers wins",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "business as usual",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43793-3483410-5455532&type=Single",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "Multi",
-      "matchup": "UNLV Rebels @ Hawaii Rainbow Warriors + Milwaukee Brewers @ Cincinnati Reds",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "UNLV Rebels @ Hawaii Rainbow Warriors",
-          "pick": "UNLV Rebels wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43793-3483410-5455532&type=Single",
-          "commence_time": "2026-09-06T02:00:00Z"
-        },
-        {
-          "matchup": "Milwaukee Brewers @ Cincinnati Reds",
-          "pick": "Milwaukee Brewers wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19888929-1551940707-2278464933&type=Single",
-          "commence_time": "2026-09-04T22:11:00Z"
-        }
-      ],
-      "close_time": "2026-09-04T22:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-7D08435A",
-      "title": "UNLV Rebels wins + Oklahoma City Thunder wins",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "the fundamentals",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43793-3483410-5455532&type=Single",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "Multi",
-      "matchup": "UNLV Rebels @ Hawaii Rainbow Warriors + Oklahoma City Thunder @ Minnesota Timberwolves",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "UNLV Rebels @ Hawaii Rainbow Warriors",
-          "pick": "UNLV Rebels wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43793-3483410-5455532&type=Single",
-          "commence_time": "2026-09-06T02:00:00Z"
-        },
-        {
-          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
-          "pick": "Oklahoma City Thunder wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
-          "commence_time": "2026-12-26T01:00:00Z"
-        }
-      ],
-      "close_time": "2026-09-06T02:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-6152A224",
-      "title": "UNLV Rebels wins + Over 2.5",
-      "payout": 2.64,
-      "tier": "green",
-      "quip": "water is wet",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43793-3483410-5455532&type=Single",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "Multi",
-      "matchup": "UNLV Rebels @ Hawaii Rainbow Warriors + Los Angeles FC @ Real Salt Lake",
-      "market_type": "2-leg parlay",
-      "american_odds": 164,
-      "implied_probability": 0.378,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "UNLV Rebels @ Hawaii Rainbow Warriors",
-          "pick": "UNLV Rebels wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43793-3483410-5455532&type=Single",
-          "commence_time": "2026-09-06T02:00:00Z"
-        },
-        {
-          "matchup": "Los Angeles FC @ Real Salt Lake",
-          "pick": "Over 2.5",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "soccer_usa_mls",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7852173-203545448-777488533&type=Single",
-          "commence_time": "2026-09-06T01:30:00Z"
-        }
-      ],
-      "close_time": "2026-09-06T01:30:00Z"
-    },
-    {
       "ticker": "PARLAY-0D2CABBF",
       "title": "Dallas Cowboys wins + Milwaukee Brewers wins",
       "payout": 2.64,
       "tier": "green",
-      "quip": "routine maintenance",
+      "quip": "the safe bet",
       "yes_price": "0.38",
       "category": "sports-parlay",
       "platform": "betmgm",
@@ -428,6 +260,174 @@
           "sport": "baseball_mlb",
           "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19888929-1551940707-2278464933&type=Single",
           "commence_time": "2026-09-04T22:11:00Z"
+        }
+      ],
+      "close_time": "2026-09-04T22:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-6A0F8B7F",
+      "title": "Dallas Cowboys wins + Chicago Cubs wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Dallas Cowboys @ New York Giants + Chicago Cubs @ Miami Marlins",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Dallas Cowboys @ New York Giants",
+          "pick": "Dallas Cowboys wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
+          "commence_time": "2026-09-14T00:20:00Z"
+        },
+        {
+          "matchup": "Chicago Cubs @ Miami Marlins",
+          "pick": "Chicago Cubs wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19888933-1551941120-2278465890&type=Single",
+          "commence_time": "2026-09-04T23:10:00Z"
+        }
+      ],
+      "close_time": "2026-09-04T23:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-CA1CA7B4",
+      "title": "Dallas Cowboys wins + Oklahoma City Thunder wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Dallas Cowboys @ New York Giants + Oklahoma City Thunder @ Minnesota Timberwolves",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Dallas Cowboys @ New York Giants",
+          "pick": "Dallas Cowboys wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
+          "commence_time": "2026-09-14T00:20:00Z"
+        },
+        {
+          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
+          "pick": "Oklahoma City Thunder wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19874119-1550382508-2274182861&type=Single",
+          "commence_time": "2026-12-26T01:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-14T00:20:00Z"
+    },
+    {
+      "ticker": "PARLAY-5F9F8D92",
+      "title": "Dallas Cowboys wins + Over 2.5",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Dallas Cowboys @ New York Giants + Los Angeles FC @ Real Salt Lake",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Dallas Cowboys @ New York Giants",
+          "pick": "Dallas Cowboys wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43157-3331241-5260094&type=Single",
+          "commence_time": "2026-09-14T00:20:00Z"
+        },
+        {
+          "matchup": "Los Angeles FC @ Real Salt Lake",
+          "pick": "Over 2.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7852173-203545448-777488533&type=Single",
+          "commence_time": "2026-09-06T01:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-06T01:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-2DA5AF88",
+      "title": "Milwaukee Brewers wins + Chicago Cubs wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19888929-1551940707-2278464933&type=Single",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Milwaukee Brewers @ Cincinnati Reds + Chicago Cubs @ Miami Marlins",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Milwaukee Brewers @ Cincinnati Reds",
+          "pick": "Milwaukee Brewers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19888929-1551940707-2278464933&type=Single",
+          "commence_time": "2026-09-04T22:11:00Z"
+        },
+        {
+          "matchup": "Chicago Cubs @ Miami Marlins",
+          "pick": "Chicago Cubs wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19888933-1551941120-2278465890&type=Single",
+          "commence_time": "2026-09-04T23:10:00Z"
         }
       ],
       "close_time": "2026-09-04T22:11:00Z"
