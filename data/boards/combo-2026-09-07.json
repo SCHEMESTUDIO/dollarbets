@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-09-07T13:58:50.005267+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "NCAAF": 2,
+    "Multi": 8
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-463D4071",
+      "title": "Boston College Eagles wins + Syracuse Orange wins",
+      "payout": 2.63,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.603355332&selectionId=673181",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Rutgers Scarlet Knights @ Boston College Eagles + California Golden Bears @ Syracuse Orange",
+      "market_type": "2-leg parlay",
+      "american_odds": 163,
+      "implied_probability": 0.38,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Rutgers Scarlet Knights @ Boston College Eagles",
+          "pick": "Boston College Eagles wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.603355332&selectionId=673181",
+          "commence_time": "2026-09-11T23:30:00Z"
+        },
+        {
+          "matchup": "California Golden Bears @ Syracuse Orange",
+          "pick": "Syracuse Orange wins",
+          "odds": -162,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.603361638&selectionId=962159",
+          "commence_time": "2026-09-12T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-11T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-5A4F4A6C",
+      "title": "Chicago Bears wins + Syracuse Orange wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578428708&selectionId=50194",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Chicago Bears @ Carolina Panthers + California Golden Bears @ Syracuse Orange",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Bears @ Carolina Panthers",
+          "pick": "Chicago Bears wins",
+          "odds": -158,
+          "implied_prob": "61%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578428708&selectionId=50194",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "California Golden Bears @ Syracuse Orange",
+          "pick": "Syracuse Orange wins",
+          "odds": -162,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.603361638&selectionId=962159",
+          "commence_time": "2026-09-12T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-12T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-C2A0664E",
+      "title": "Los Angeles Dodgers wins + Syracuse Orange wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.605853749&selectionId=29171",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Cincinnati Reds @ Los Angeles Dodgers + California Golden Bears @ Syracuse Orange",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Cincinnati Reds @ Los Angeles Dodgers",
+          "pick": "Los Angeles Dodgers wins",
+          "odds": -158,
+          "implied_prob": "61%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.605853749&selectionId=29171",
+          "commence_time": "2026-09-08T01:11:00Z"
+        },
+        {
+          "matchup": "California Golden Bears @ Syracuse Orange",
+          "pick": "Syracuse Orange wins",
+          "odds": -162,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.603361638&selectionId=962159",
+          "commence_time": "2026-09-12T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-08T01:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-77F2BCB0",
+      "title": "Chicago Bears wins + Boston College Eagles wins",
+      "payout": 2.65,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578428708&selectionId=50194",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Chicago Bears @ Carolina Panthers + Rutgers Scarlet Knights @ Boston College Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 165,
+      "implied_probability": 0.376,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Bears @ Carolina Panthers",
+          "pick": "Chicago Bears wins",
+          "odds": -158,
+          "implied_prob": "61%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578428708&selectionId=50194",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Rutgers Scarlet Knights @ Boston College Eagles",
+          "pick": "Boston College Eagles wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.603355332&selectionId=673181",
+          "commence_time": "2026-09-11T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-11T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-DF1261BA",
+      "title": "Los Angeles Dodgers wins + Boston College Eagles wins",
+      "payout": 2.65,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.605853749&selectionId=29171",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Cincinnati Reds @ Los Angeles Dodgers + Rutgers Scarlet Knights @ Boston College Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 165,
+      "implied_probability": 0.376,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Cincinnati Reds @ Los Angeles Dodgers",
+          "pick": "Los Angeles Dodgers wins",
+          "odds": -158,
+          "implied_prob": "61%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.605853749&selectionId=29171",
+          "commence_time": "2026-09-08T01:11:00Z"
+        },
+        {
+          "matchup": "Rutgers Scarlet Knights @ Boston College Eagles",
+          "pick": "Boston College Eagles wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.603355332&selectionId=673181",
+          "commence_time": "2026-09-11T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-08T01:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-841B03CE",
+      "title": "SMU Mustangs wins + Syracuse Orange wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581878681&selectionId=4242049",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "SMU Mustangs @ Florida State Seminoles + California Golden Bears @ Syracuse Orange",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.375,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "SMU Mustangs @ Florida State Seminoles",
+          "pick": "SMU Mustangs wins",
+          "odds": -154,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.581878681&selectionId=4242049",
+          "commence_time": "2026-09-07T23:30:00Z"
+        },
+        {
+          "matchup": "California Golden Bears @ Syracuse Orange",
+          "pick": "Syracuse Orange wins",
+          "odds": -162,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.603361638&selectionId=962159",
+          "commence_time": "2026-09-12T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-07T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-E34292C2",
+      "title": "Dallas Cowboys wins + Syracuse Orange wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.577894698&selectionId=50189",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Dallas Cowboys @ New York Giants + California Golden Bears @ Syracuse Orange",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.375,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Dallas Cowboys @ New York Giants",
+          "pick": "Dallas Cowboys wins",
+          "odds": -154,
+          "implied_prob": "61%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.577894698&selectionId=50189",
+          "commence_time": "2026-09-14T00:20:00Z"
+        },
+        {
+          "matchup": "California Golden Bears @ Syracuse Orange",
+          "pick": "Syracuse Orange wins",
+          "odds": -162,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.603361638&selectionId=962159",
+          "commence_time": "2026-09-12T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-12T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-E515FCF8",
+      "title": "Buffalo Bills wins + Syracuse Orange wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578457166&selectionId=50203",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Kansas City Chiefs @ Buffalo Bills + California Golden Bears @ Syracuse Orange",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.375,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Kansas City Chiefs @ Buffalo Bills",
+          "pick": "Buffalo Bills wins",
+          "odds": -154,
+          "implied_prob": "61%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578457166&selectionId=50203",
+          "commence_time": "2026-11-27T01:20:00Z"
+        },
+        {
+          "matchup": "California Golden Bears @ Syracuse Orange",
+          "pick": "Syracuse Orange wins",
+          "odds": -162,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.603361638&selectionId=962159",
+          "commence_time": "2026-09-12T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-12T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-A97FC9E0",
+      "title": "Chicago Bears wins + Los Angeles Dodgers wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578428708&selectionId=50194",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Chicago Bears @ Carolina Panthers + Cincinnati Reds @ Los Angeles Dodgers",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.375,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Bears @ Carolina Panthers",
+          "pick": "Chicago Bears wins",
+          "odds": -158,
+          "implied_prob": "61%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578428708&selectionId=50194",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Cincinnati Reds @ Los Angeles Dodgers",
+          "pick": "Los Angeles Dodgers wins",
+          "odds": -158,
+          "implied_prob": "61%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.605853749&selectionId=29171",
+          "commence_time": "2026-09-08T01:11:00Z"
+        }
+      ],
+      "close_time": "2026-09-08T01:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-4B5CCDAC",
+      "title": "Atlanta Braves +1.5 + Syracuse Orange wins",
+      "payout": 2.68,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606003899&selectionId=7100960",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Atlanta Braves @ Philadelphia Phillies + California Golden Bears @ Syracuse Orange",
+      "market_type": "2-leg parlay",
+      "american_odds": 168,
+      "implied_probability": 0.373,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Braves @ Philadelphia Phillies",
+          "pick": "Atlanta Braves +1.5",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606003899&selectionId=7100960",
+          "commence_time": "2026-09-07T17:06:00Z"
+        },
+        {
+          "matchup": "California Golden Bears @ Syracuse Orange",
+          "pick": "Syracuse Orange wins",
+          "odds": -162,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.603361638&selectionId=962159",
+          "commence_time": "2026-09-12T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-07T17:06:00Z"
+    }
+  ]
+}
