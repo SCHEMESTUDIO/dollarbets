@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-09-10T12:42:43.079647+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "NFL": 3,
+    "Multi": 7
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-FB561F03",
+      "title": "Pittsburgh Steelers wins + Baltimore Ravens wins",
+      "payout": 2.43,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578577025&selectionId=50208",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Atlanta Falcons @ Pittsburgh Steelers + Baltimore Ravens @ Indianapolis Colts",
+      "market_type": "2-leg parlay",
+      "american_odds": 143,
+      "implied_probability": 0.412,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578577025&selectionId=50208",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -180,
+          "implied_prob": "64%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578647440&selectionId=50205",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-05BD9F4B",
+      "title": "Tommy McMillen wins + Baltimore Ravens wins",
+      "payout": 2.43,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.605402298&selectionId=87965146",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Marwan Rahiki @ Tommy McMillen + Baltimore Ravens @ Indianapolis Colts",
+      "market_type": "2-leg parlay",
+      "american_odds": 143,
+      "implied_probability": 0.412,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Marwan Rahiki @ Tommy McMillen",
+          "pick": "Tommy McMillen wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.605402298&selectionId=87965146",
+          "commence_time": "2026-09-12T22:45:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -180,
+          "implied_prob": "64%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578647440&selectionId=50205",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-12T22:45:00Z"
+    },
+    {
+      "ticker": "PARLAY-7976ACA1",
+      "title": "Pittsburgh Steelers wins + Tommy McMillen wins",
+      "payout": 2.44,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578577025&selectionId=50208",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Atlanta Falcons @ Pittsburgh Steelers + Marwan Rahiki @ Tommy McMillen",
+      "market_type": "2-leg parlay",
+      "american_odds": 144,
+      "implied_probability": 0.41,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578577025&selectionId=50208",
+          "commence_time": "2026-09-13T17:00:00Z"
+        },
+        {
+          "matchup": "Marwan Rahiki @ Tommy McMillen",
+          "pick": "Tommy McMillen wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.605402298&selectionId=87965146",
+          "commence_time": "2026-09-12T22:45:00Z"
+        }
+      ],
+      "close_time": "2026-09-12T22:45:00Z"
+    },
+    {
+      "ticker": "PARLAY-EEF062AD",
+      "title": "Las Vegas Raiders wins + Baltimore Ravens wins",
+      "payout": 2.46,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578577003&selectionId=27443341",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Miami Dolphins @ Las Vegas Raiders + Baltimore Ravens @ Indianapolis Colts",
+      "market_type": "2-leg parlay",
+      "american_odds": 146,
+      "implied_probability": 0.406,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Dolphins @ Las Vegas Raiders",
+          "pick": "Las Vegas Raiders wins",
+          "odds": -172,
+          "implied_prob": "63%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578577003&selectionId=27443341",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -180,
+          "implied_prob": "64%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578647440&selectionId=50205",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-1E5173CA",
+      "title": "Petr Yan wins + Baltimore Ravens wins",
+      "payout": 2.46,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.600461378&selectionId=19289678",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Merab Dvalishvili @ Petr Yan + Baltimore Ravens @ Indianapolis Colts",
+      "market_type": "2-leg parlay",
+      "american_odds": 146,
+      "implied_probability": 0.406,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Merab Dvalishvili @ Petr Yan",
+          "pick": "Petr Yan wins",
+          "odds": -172,
+          "implied_prob": "63%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.600461378&selectionId=19289678",
+          "commence_time": "2026-10-25T03:30:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -180,
+          "implied_prob": "64%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578647440&selectionId=50205",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-91E35508",
+      "title": "Illinois State Redbirds wins + Baltimore Ravens wins",
+      "payout": 2.47,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606098605&selectionId=2552004",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Illinois State Redbirds @ Northern Illinois Huskies + Baltimore Ravens @ Indianapolis Colts",
+      "market_type": "2-leg parlay",
+      "american_odds": 147,
+      "implied_probability": 0.405,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Illinois State Redbirds @ Northern Illinois Huskies",
+          "pick": "Illinois State Redbirds wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606098605&selectionId=2552004",
+          "commence_time": "2026-09-12T23:00:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -180,
+          "implied_prob": "64%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578647440&selectionId=50205",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-12T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-ACC8F95F",
+      "title": "Casey O'Neill wins + Baltimore Ravens wins",
+      "payout": 2.47,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606004437&selectionId=38331814",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Eduarda Moura @ Casey O'Neill + Baltimore Ravens @ Indianapolis Colts",
+      "market_type": "2-leg parlay",
+      "american_odds": 147,
+      "implied_probability": 0.405,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Eduarda Moura @ Casey O'Neill",
+          "pick": "Casey O'Neill wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606004437&selectionId=38331814",
+          "commence_time": "2026-09-19T22:15:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "pick": "Baltimore Ravens wins",
+          "odds": -180,
+          "implied_prob": "64%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578647440&selectionId=50205",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-99910744",
+      "title": "Las Vegas Raiders wins + Pittsburgh Steelers wins",
+      "payout": 2.47,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578577003&selectionId=27443341",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Miami Dolphins @ Las Vegas Raiders + Atlanta Falcons @ Pittsburgh Steelers",
+      "market_type": "2-leg parlay",
+      "american_odds": 147,
+      "implied_probability": 0.404,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Dolphins @ Las Vegas Raiders",
+          "pick": "Las Vegas Raiders wins",
+          "odds": -172,
+          "implied_prob": "63%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578577003&selectionId=27443341",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578577025&selectionId=50208",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-E32A2E53",
+      "title": "Las Vegas Raiders wins + Tommy McMillen wins",
+      "payout": 2.47,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578577003&selectionId=27443341",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Miami Dolphins @ Las Vegas Raiders + Marwan Rahiki @ Tommy McMillen",
+      "market_type": "2-leg parlay",
+      "american_odds": 147,
+      "implied_probability": 0.404,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Dolphins @ Las Vegas Raiders",
+          "pick": "Las Vegas Raiders wins",
+          "odds": -172,
+          "implied_prob": "63%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578577003&selectionId=27443341",
+          "commence_time": "2026-09-13T20:25:00Z"
+        },
+        {
+          "matchup": "Marwan Rahiki @ Tommy McMillen",
+          "pick": "Tommy McMillen wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.605402298&selectionId=87965146",
+          "commence_time": "2026-09-12T22:45:00Z"
+        }
+      ],
+      "close_time": "2026-09-12T22:45:00Z"
+    },
+    {
+      "ticker": "PARLAY-7524F337",
+      "title": "Petr Yan wins + Pittsburgh Steelers wins",
+      "payout": 2.47,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.600461378&selectionId=19289678",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Merab Dvalishvili @ Petr Yan + Atlanta Falcons @ Pittsburgh Steelers",
+      "market_type": "2-leg parlay",
+      "american_odds": 147,
+      "implied_probability": 0.404,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Merab Dvalishvili @ Petr Yan",
+          "pick": "Petr Yan wins",
+          "odds": -172,
+          "implied_prob": "63%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.600461378&selectionId=19289678",
+          "commence_time": "2026-10-25T03:30:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578577025&selectionId=50208",
+          "commence_time": "2026-09-13T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-13T17:00:00Z"
+    }
+  ]
+}
