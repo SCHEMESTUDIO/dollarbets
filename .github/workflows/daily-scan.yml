@@ -5,8 +5,12 @@ on:
     # Three runs/day (cut from six 2026-07-20, cost audit). Morning slot is 08:00 UTC = 9am London during BST
     # (will read as 8am London during GMT — accepted tradeoff vs the
     # complexity of a DST-aware check).
-    # 08:00 UTC triggers the daily prediction-market scan (Kalshi/Polymarket).
-    # The other five slots cover US peak hours for sports/combo refreshes.
+    # The 08:00 slot is intended to produce the day's prediction-market board
+    # (Kalshi/Polymarket); the 16:00/22:00 slots cover US peak hours for
+    # sports/combo refreshes. NOTE: GitHub cron is best-effort and this
+    # workflow's 08:00 run has been landing at 12:30-14:00 UTC, so the
+    # prediction scan is gated on "no board file for today yet", NOT on the
+    # wall-clock hour — see the scanner step.
     # ~600 Odds API tokens/day total, well inside monthly budget.
     - cron: '0 8,16,22 * * *'
   workflow_dispatch: # Allow manual trigger from GitHub UI
@@ -29,20 +33,21 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run prediction market scanner (daily only)
+      - name: Run prediction market scanner (once per UTC day)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           mkdir -p data/boards
-          HOUR=$(date -u +%H)
           TODAY=$(date -u +%Y-%m-%d)
-          # Only run prediction market scan at 08:00 UTC (9am London BST) or on manual trigger
-          if [ "$HOUR" != "08" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
-            echo "Skipping prediction market scan (hourly run, not 08:00 UTC)"
-            exit 0
-          fi
+          # Gate on the board file, not the wall-clock hour. The old check
+          # (HOUR == "08" unless workflow_dispatch) silently skipped the scan
+          # every day from 2026-08-27 because GitHub cron delay pushed the
+          # 08:00 run past 12:00 UTC. Now the first scheduled run of the UTC
+          # day that finds no board for today runs the scan; every later run
+          # (and any re-run or manual dispatch) sees the file and skips, which
+          # keeps it to one scan/day and preserves manual CMS edits.
           if [ -f "data/boards/${TODAY}.json" ]; then
-            echo "Board for ${TODAY} already exists — skipping scan to preserve manual edits"
+            echo "Board for ${TODAY} already exists — skipping scan"
             exit 0
           fi
           echo "Scanning markets for ${TODAY}..."
@@ -206,9 +211,9 @@ jobs:
             echo "No new data to commit"
             echo "changed=false" >> $GITHUB_OUTPUT
           else
-            TODAY=$(date -u +%Y-%m-%d)
-            HOUR=$(date -u +%H)
-            git commit -m "board update: ${TODAY} ${HOUR}:00 UTC"
+            # Stamp the actual run time. Cron slots land late, so "${HOUR}:00"
+            # was recording a slot the run never hit (e.g. "12:00" for a 12:41 run).
+            git commit -m "board update: $(date -u +'%Y-%m-%d %H:%M') UTC"
             git push
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
