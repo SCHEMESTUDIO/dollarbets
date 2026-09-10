@@ -1,3 +1,10 @@
+# Cloud-session workaround dir for stale .git/*.lock files the VM cannot
+# unlink. Committed by accident in the dogshow repo (c0f3a77) and, because it
+# was not in .vercelignore either, served stale duplicate copies of six real
+# pages at /_to_delete/restage/* until 2026-08-22. It will keep reappearing —
+# keep it ignored. See Postwerks link-rail-handover.md.
+_to_delete/
+
 public/
 node_modules/
 .vercel/

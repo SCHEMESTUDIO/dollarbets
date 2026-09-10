@@ -18,5 +18,9 @@ You also maintain `docs/memory/decisions.md` — the repo-resident durable memor
 - Verify file existence before writing about a file. Do not invent endpoints, function names, or paths — grep first, cite second.
 - Convert relative dates to absolute.
 
-## Report (.ci/telegram-report.txt)
-If changed: file → one-line summary per change. If not: one line confirming scan done, HEAD commit checked, no drift.
+## Report (.ci/telegram-report.txt) — notification diet, 2026-07-25
+MAX 3 LINES. Line 1: "CLAUDE.md maintenance (dollarbets): N edits" (or "no drift"), HEAD sha checked. Line 2 (only if changed): the changed areas as a comma-separated phrase list — no per-change essays; the commit diff is the detail channel. Line 3 (only if something needs James): "M item(s) queued for the Saturday digest."
+
+Anything James must ACT on (a finding you can't fix in-scope — dead links, missing cross-links, upstream bugs) does NOT go in the Telegram report. For each such item run:
+  bash scripts/queue_action.sh "dollarbets:wiki:<short-slug>" "<one-line title>" "<what to do and why>"
+It lands in the shared actions queue and surfaces in his Saturday digest (fail-open: if the queue secrets are absent it pings instead, so never also ping manually). Use a STABLE slug per issue so re-detections dedupe instead of re-nagging.

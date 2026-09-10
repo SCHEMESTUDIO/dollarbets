@@ -4,7 +4,7 @@ You are analyzing Google Search Console data for dollarbets.lol, a daily predict
 
 RULES OF THE ROAD (CI):
 - You may read anything, write files, and run `python3 generate_content.py`. Do NOT run any git command that writes (add/commit/push/rebase) — the workflow's guarded-commit step handles that after you finish.
-- When you finish, write a concise report (the "Step 6" headline format below) to `.ci/telegram-report.txt`. That file is sent to James's Telegram. It is the ONLY channel he sees — put anything that needs attention there. Keep it under 3500 chars.
+- When you finish, write a concise report (the "Step 6" format below) to `.ci/telegram-report.txt`. That file is sent to James's Telegram. Notification diet (2026-07-25): the Telegram message is a SCORECARD, not an essay — hard cap 1200 chars. Everything deep lives in `reports/gsc-weekly-report.md`. Anything that needs James to ACT goes in the shared actions queue via `bash scripts/queue_action.sh "dollarbets:gsc:<stable-slug>" "<title>" "<what+why>"` (fail-open to a ping if queue secrets are absent) — it surfaces in his Saturday digest. Use the SAME slug when re-detecting a known issue so it dedupes instead of re-nagging week after week.
 - Do NOT fabricate data. Label non-trivial claims High/Medium/Low confidence.
 
 ## Strategy context (2026-06-05 audit — anchor every judgment to it)
@@ -49,13 +49,24 @@ For each franchise quick win that is a pure metadata/copy edit to an EXISTING fr
 2. Bump "last_updated" to today.
 3. Rebuild: `python3 generate_content.py`. Confirm no errors, page still indexable.
 4. List each edit in the report under "Executed this run."
-Franchise pages only, metadata/copy only. Structural changes go in the brief as slots.
+Franchise pages only, metadata/copy only. Structural TEMPLATE changes (generate.py nav/footer/layout) remain BANNED for this pipeline — generate.py is the backbone and stays human-reviewed. When the data says a template change is needed (e.g. zero sitewide internal links to franchise pages), queue it once: `bash scripts/queue_action.sh "dollarbets:gsc:<slug>" ...` — do not re-flag it in prose every week.
+
+## Step 3.6 — EXECUTE page retirements (widened remit, 2026-07-25)
+
+When the data says a page should be retired (a carried, fully-faded, or cannibalizing page — e.g. 2+ weeks flagged in prior reports), you now do BOTH halves yourself in this run:
+1. Set "noindex": true in the page's content/ JSON.
+2. Add the 301 to vercel.json ("redirects" array, source = the retired path, destination = the surviving franchise page, permanent = true). Keep JSON valid — python3 -c "import json; json.load(open('vercel.json'))" must pass.
+3. Rebuild (`python3 generate_content.py`), confirm exit 0.
+4. List the retirement under "Executed this run" in the report.
+This replaced the old split where the 301 waited for James's manual commit — that gap carried the politicians-june page for 2+ weeks for no reason. The workflow's guarded commit includes vercel.json.
 
 ## Step 4 — Generate the franchise-only content brief
 
 Save to `reports/content-week-{monday-date}-to-{sunday-date}.md`.
 
 UP TO 7 specs Mon–Sun; fewer new pages + "improve existing franchise page" slots is encouraged. Allowed NEW formats: E (weird_market_roundup), G (historical_story / Hall of Filth), franchise-differentiated Polymarket-vs-Kalshi comparisons. Never spec B/H/I/commodity-C — the generator auto-noindexes them.
+
+EXECUTION RAIL (2026-07-28): specs in this brief are executed by the external Postwerks pipeline (`Publish: postwerks m2` commits), NOT by an in-repo nightly writer. daily-article.yml is retired (manual-dispatch fallback only). Do not flag the absence of `Article: auto` commits as an outage, and do not spec slots assuming a same-day automated writer — assume Postwerks picks items up on its own cadence.
 
 Each NEW spec: Day+date+working title, slug (MUST pass the content-policy guardrail — no odds-explained, -odds-mean, what-is-a*-bet, nba, weather, -vs-sports-betting, nothing generic/definitional), format code, cluster, primary keyword (weird/funny/outrageous-market or named-entity query), target queries with positions from this week's data, hero market guidance, internal links (franchise pages only, never noindexed pages), editorial note, cannibalization watch with evidence.
 
@@ -69,6 +80,11 @@ HTTP-check this week's new franchise slugs and any from last week's brief:
 `curl -sS -o /dev/null -w "%{http_code}" -L --max-time 10 {url}`
 Bucket LIVE (200) vs BROKEN. New-this-run pages ship when this workflow's commit lands + Vercel builds — normal. Pages from PREVIOUS weeks still broken = real flag. Append a short "Deploy check — {monday-date}" section to the brief, including optional GSC URL Inspection deep links for NEW franchise pages only (https://search.google.com/search-console/inspect?resource_id=sc-domain%3Adollarbets.lol&id={URL-encoded URL}). Never the Indexing API.
 
-## Step 6 — Telegram report → `.ci/telegram-report.txt`
+## Step 6 — Telegram report → `.ci/telegram-report.txt` (max 1200 chars)
 
-Headline: franchise scorecard (clicks/CTR/position vs last week), one-line prune-aware totals read, quick wins EXECUTED, what the brief ships this week. Below: noindex fade status, cannibalization risks, deploy check (normal vs real problem), data completeness (all CSVs present?). Lead with anything urgent.
+EXACTLY this shape, nothing more:
+- Line 1-3: franchise scorecard — total clicks/CTR/position vs last week, best mover, worst mover.
+- Line 4: what ran autonomously — "Executed: N quick wins, M retirements" (or "nothing executed").
+- Line 5: what the brief ships this week, one line.
+- Line 6 (only when true): "K item(s) queued for Saturday" / "⚠️ <one truly urgent thing>".
+Fade status, cannibalization detail, deploy checks, data completeness, methodology — reports/gsc-weekly-report.md ONLY. If they're normal, James never needs to read them; if they need him, they're queue items.
