@@ -139,6 +139,26 @@ Return a JSON array of exactly 3 objects, ranked best-first:
 Respond with ONLY the JSON array. Tickers must match exactly from the board above."""
 
 
+def claude_text(result):
+    """Return the joined text blocks of a Messages API response.
+
+    With adaptive thinking (requested explicitly, or on by default for
+    claude-sonnet-5 / claude-opus-5) the first content block is a thinking
+    block, so ``result["content"][0]["text"]`` raises ``KeyError: 'text'``.
+    Select the text blocks by type instead of by position.
+    """
+    blocks = result.get("content") or []
+    parts = [b.get("text", "") for b in blocks
+             if isinstance(b, dict) and b.get("type") == "text"]
+    if not parts:
+        kinds = [b.get("type") for b in blocks if isinstance(b, dict)]
+        raise ValueError(
+            f"no text block in Claude response "
+            f"(stop_reason={result.get('stop_reason')!r}, block types={kinds})"
+        )
+    return "".join(parts).strip()
+
+
 def call_claude_for_selection(board: list[dict], date: str, anti_dupe: set[str]) -> list[dict]:
     if not ANTHROPIC_API_KEY:
         raise SystemExit("ANTHROPIC_API_KEY not set — can't run --mode select")
@@ -185,7 +205,7 @@ def call_claude_for_selection(board: list[dict], date: str, anti_dupe: set[str])
     log("calling Claude for selection...")
     with urllib.request.urlopen(req, timeout=45) as resp:
         result = json.loads(resp.read().decode())
-    text = result["content"][0]["text"].strip()
+    text = claude_text(result)
     if text.startswith("```"):
         text = re.sub(r"^```\w*\n?", "", text)
         text = re.sub(r"\n?```$", "", text).strip()
