@@ -1841,6 +1841,26 @@ def _load_recent_quip_anti_corpus(days_back=7, max_verbatim=40, max_formulas=20)
     return "\n".join(lines)
 
 
+def claude_text(result):
+    """Return the joined text blocks of a Messages API response.
+
+    With adaptive thinking (requested explicitly, or on by default for
+    claude-sonnet-5 / claude-opus-5) the first content block is a thinking
+    block, so ``result["content"][0]["text"]`` raises ``KeyError: 'text'``.
+    Select the text blocks by type instead of by position.
+    """
+    blocks = result.get("content") or []
+    parts = [b.get("text", "") for b in blocks
+             if isinstance(b, dict) and b.get("type") == "text"]
+    if not parts:
+        kinds = [b.get("type") for b in blocks if isinstance(b, dict)]
+        raise ValueError(
+            f"no text block in Claude response "
+            f"(stop_reason={result.get('stop_reason')!r}, block types={kinds})"
+        )
+    return "".join(parts).strip()
+
+
 def match_quips_ai(board):
     """Generate quips for each bet using the style guide + pool as tone reference.
     Falls back to hash-based quips from the pool if the API call fails.
@@ -1971,7 +1991,7 @@ Respond with ONLY the JSON array."""
         with urllib.request.urlopen(req, timeout=180) as resp:
             raw = resp.read().decode()
             result = json.loads(raw)
-            text = result["content"][0]["text"].strip()
+            text = claude_text(result)
 
             if text.startswith("```"):
                 text = re.sub(r'^```\w*\n?', '', text)
@@ -2061,7 +2081,7 @@ Respond with ONLY the JSON array of integers. Example: [42, 7, 183, 91, ...]"""
         with urllib.request.urlopen(req, timeout=180) as resp:
             raw = resp.read().decode()
             result = json.loads(raw)
-            text = result["content"][0]["text"].strip()
+            text = claude_text(result)
 
             if text.startswith("```"):
                 text = re.sub(r'^```\w*\n?', '', text)

@@ -739,6 +739,26 @@ def prune_quip_cache(cache):
     return pruned
 
 
+def claude_text(result):
+    """Return the joined text blocks of a Messages API response.
+
+    With adaptive thinking (requested explicitly, or on by default for
+    claude-sonnet-5 / claude-opus-5) the first content block is a thinking
+    block, so ``result["content"][0]["text"]`` raises ``KeyError: 'text'``.
+    Select the text blocks by type instead of by position.
+    """
+    blocks = result.get("content") or []
+    parts = [b.get("text", "") for b in blocks
+             if isinstance(b, dict) and b.get("type") == "text"]
+    if not parts:
+        kinds = [b.get("type") for b in blocks if isinstance(b, dict)]
+        raise ValueError(
+            f"no text block in Claude response "
+            f"(stop_reason={result.get('stop_reason')!r}, block types={kinds})"
+        )
+    return "".join(parts).strip()
+
+
 def generate_quips_ai(board):
     """
     Use Claude to generate editorial quips for each sports pick.
@@ -843,7 +863,7 @@ Respond with ONLY the JSON array."""
         with urllib.request.urlopen(req, timeout=180) as resp:
             raw = resp.read().decode()
             result = json.loads(raw)
-            text = result["content"][0]["text"].strip()
+            text = claude_text(result)
 
             # Strip markdown code fence if present
             if text.startswith("```"):
