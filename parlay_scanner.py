@@ -412,7 +412,9 @@ def format_parlay_for_board(parlay, index=0):
         tier = "purple"
 
     # Pick a quip
-    quip_index = hash(ticker) % len(OFFICE_QUIPS)
+    # md5, not hash(): Python salts str hashes per process, so the built-in
+    # reshuffled every combo's quip on every run.
+    quip_index = int(hashlib.md5(ticker.encode()).hexdigest(), 16) % len(OFFICE_QUIPS)
     quip = OFFICE_QUIPS[quip_index]
 
     # Build matchup descriptions
