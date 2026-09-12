@@ -1,13 +1,13 @@
 {
   "noindex": true,
-  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible \u2014 delete the two noindex lines to re-index.",
+  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible — delete the two noindex lines to re-index.",
   "slug": "what-is-an-underdog-bet",
   "format": "explainer",
   "publish_date": "2026-05-06",
   "last_updated": "2026-05-06",
   "priority": 85,
   "seo": {
-    "title": "What Is an Underdog Bet? — Dollar Bets",
+    "title": "What Is an Underdog Bet? | Dollar Bets",
     "h1": "What Is an Underdog Bet?",
     "meta_description": "Underdog bets pay more because they're less likely to win. Here's how underdogs work across sportsbooks and prediction markets — and what $1 pays when chaos delivers.",
     "canonical": "/what-is-an-underdog-bet/"
@@ -67,7 +67,7 @@
     },
     {
       "type": "heading",
-      "content": "the appeal of the underdog"
+      "content": "The appeal of the underdog"
     },
     {
       "type": "text",
@@ -75,7 +75,7 @@
     },
     {
       "type": "heading",
-      "content": "famous underdog wins"
+      "content": "Famous underdog wins"
     },
     {
       "type": "text",

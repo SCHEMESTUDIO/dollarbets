@@ -14,9 +14,18 @@
   },
   "hero_bet": null,
   "internal_links": [
-    {"text": "about Dollar Bets", "url": "/about/"},
-    {"text": "terms of use", "url": "/terms/"},
-    {"text": "affiliate disclosure", "url": "/affiliate-disclosure/"}
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    },
+    {
+      "text": "terms of use",
+      "url": "/terms/"
+    },
+    {
+      "text": "affiliate disclosure",
+      "url": "/affiliate-disclosure/"
+    }
   ],
   "body": [
     {
@@ -25,7 +34,7 @@
     },
     {
       "type": "heading",
-      "content": "what we collect"
+      "content": "What we collect"
     },
     {
       "type": "text",
@@ -33,7 +42,7 @@
     },
     {
       "type": "heading",
-      "content": "email newsletter"
+      "content": "Email newsletter"
     },
     {
       "type": "text",
@@ -41,7 +50,7 @@
     },
     {
       "type": "heading",
-      "content": "cookies and tracking"
+      "content": "Cookies and tracking"
     },
     {
       "type": "text",
@@ -49,7 +58,7 @@
     },
     {
       "type": "heading",
-      "content": "third-party links"
+      "content": "Third-party links"
     },
     {
       "type": "text",
@@ -57,7 +66,7 @@
     },
     {
       "type": "heading",
-      "content": "your rights"
+      "content": "Your rights"
     },
     {
       "type": "text",
@@ -65,7 +74,7 @@
     },
     {
       "type": "heading",
-      "content": "changes"
+      "content": "Changes"
     },
     {
       "type": "text",

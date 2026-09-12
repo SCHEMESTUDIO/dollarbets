@@ -1,10 +1,10 @@
 {
   "noindex": true,
-  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible \u2014 delete the two noindex lines to re-index.",
+  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible — delete the two noindex lines to re-index.",
   "slug": "how-to-read-prediction-market-odds",
   "format": "explainer",
   "seo": {
-    "title": "How to Read Prediction Market Odds — A Plain English Guide | Dollar Bets",
+    "title": "How to Read Prediction Market Odds | Dollar Bets",
     "h1": "How to Read Prediction Market Odds",
     "meta_description": "How prediction market odds work, explained without jargon. Yes shares, no shares, and what the price actually means.",
     "canonical": "/how-to-read-prediction-market-odds/"
@@ -48,7 +48,7 @@
     },
     {
       "type": "heading",
-      "content": "the basic mechanic"
+      "content": "The basic mechanic"
     },
     {
       "type": "text",
@@ -56,7 +56,7 @@
     },
     {
       "type": "heading",
-      "content": "price equals probability (sort of)"
+      "content": "Price equals probability (sort of)"
     },
     {
       "type": "text",
@@ -64,7 +64,7 @@
     },
     {
       "type": "heading",
-      "content": "what dollar bets shows you"
+      "content": "What Dollar Bets shows you"
     },
     {
       "type": "text",
@@ -72,7 +72,7 @@
     },
     {
       "type": "heading",
-      "content": "yes shares and no shares"
+      "content": "Yes shares and no shares"
     },
     {
       "type": "text",
@@ -80,7 +80,7 @@
     },
     {
       "type": "heading",
-      "content": "why prices move"
+      "content": "Why prices move"
     },
     {
       "type": "text",
@@ -88,7 +88,7 @@
     },
     {
       "type": "heading",
-      "content": "the spread and fees"
+      "content": "The spread and fees"
     },
     {
       "type": "text",
@@ -96,7 +96,7 @@
     },
     {
       "type": "heading",
-      "content": "reading odds vs reading prices"
+      "content": "Reading odds vs reading prices"
     },
     {
       "type": "text",

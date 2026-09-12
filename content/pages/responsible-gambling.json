@@ -9,10 +9,22 @@
   },
   "hero_bet": null,
   "internal_links": [
-    {"text": "about Dollar Bets", "url": "/about/"},
-    {"text": "editorial policy", "url": "/editorial-policy/"},
-    {"text": "affiliate disclosure", "url": "/affiliate-disclosure/"},
-    {"text": "jurisdiction & availability", "url": "/availability/"}
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    },
+    {
+      "text": "editorial policy",
+      "url": "/editorial-policy/"
+    },
+    {
+      "text": "affiliate disclosure",
+      "url": "/affiliate-disclosure/"
+    },
+    {
+      "text": "jurisdiction & availability",
+      "url": "/availability/"
+    }
   ],
   "body": [
     {
@@ -25,7 +37,7 @@
     },
     {
       "type": "heading",
-      "content": "please remember"
+      "content": "Please remember"
     },
     {
       "type": "list",
@@ -40,7 +52,7 @@
     },
     {
       "type": "heading",
-      "content": "about longshots"
+      "content": "About longshots"
     },
     {
       "type": "text",
@@ -48,7 +60,7 @@
     },
     {
       "type": "heading",
-      "content": "is this for you?"
+      "content": "Is this for you?"
     },
     {
       "type": "text",
@@ -67,7 +79,7 @@
     },
     {
       "type": "heading",
-      "content": "getting help"
+      "content": "Getting help"
     },
     {
       "type": "text",
@@ -91,7 +103,7 @@
     },
     {
       "type": "heading",
-      "content": "self-exclusion and blocking tools"
+      "content": "Self-exclusion and blocking tools"
     },
     {
       "type": "text",
@@ -115,7 +127,7 @@
     },
     {
       "type": "heading",
-      "content": "not advice"
+      "content": "Not advice"
     },
     {
       "type": "text",
@@ -123,7 +135,7 @@
     },
     {
       "type": "heading",
-      "content": "the philosophy"
+      "content": "The philosophy"
     },
     {
       "type": "text",

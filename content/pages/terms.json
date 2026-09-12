@@ -14,10 +14,22 @@
   },
   "hero_bet": null,
   "internal_links": [
-    {"text": "privacy policy", "url": "/privacy/"},
-    {"text": "affiliate disclosure", "url": "/affiliate-disclosure/"},
-    {"text": "responsible gambling", "url": "/responsible-gambling/"},
-    {"text": "jurisdiction & availability", "url": "/availability/"}
+    {
+      "text": "privacy policy",
+      "url": "/privacy/"
+    },
+    {
+      "text": "affiliate disclosure",
+      "url": "/affiliate-disclosure/"
+    },
+    {
+      "text": "responsible gambling",
+      "url": "/responsible-gambling/"
+    },
+    {
+      "text": "jurisdiction & availability",
+      "url": "/availability/"
+    }
   ],
   "body": [
     {
@@ -26,7 +38,7 @@
     },
     {
       "type": "heading",
-      "content": "what Dollar Bets is"
+      "content": "What Dollar Bets is"
     },
     {
       "type": "text",
@@ -34,7 +46,7 @@
     },
     {
       "type": "heading",
-      "content": "not advice"
+      "content": "Not advice"
     },
     {
       "type": "text",
@@ -42,7 +54,7 @@
     },
     {
       "type": "heading",
-      "content": "no guarantees"
+      "content": "No guarantees"
     },
     {
       "type": "text",
@@ -50,7 +62,7 @@
     },
     {
       "type": "heading",
-      "content": "third-party links and platforms"
+      "content": "Third-party links and platforms"
     },
     {
       "type": "text",
@@ -58,7 +70,7 @@
     },
     {
       "type": "heading",
-      "content": "availability and jurisdiction"
+      "content": "Availability and jurisdiction"
     },
     {
       "type": "text",
@@ -66,7 +78,7 @@
     },
     {
       "type": "heading",
-      "content": "adult use only"
+      "content": "Adult use only"
     },
     {
       "type": "text",
@@ -74,7 +86,7 @@
     },
     {
       "type": "heading",
-      "content": "affiliate links"
+      "content": "Affiliate links"
     },
     {
       "type": "text",
@@ -82,7 +94,7 @@
     },
     {
       "type": "heading",
-      "content": "risk"
+      "content": "Risk"
     },
     {
       "type": "text",
@@ -90,7 +102,7 @@
     },
     {
       "type": "heading",
-      "content": "changes"
+      "content": "Changes"
     },
     {
       "type": "text",
@@ -98,7 +110,7 @@
     },
     {
       "type": "heading",
-      "content": "contact"
+      "content": "Contact"
     },
     {
       "type": "text",

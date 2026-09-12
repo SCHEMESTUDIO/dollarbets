@@ -2,16 +2,28 @@
   "slug": "editorial-policy",
   "format": "explainer",
   "seo": {
-    "title": "Editorial Policy — How We Pick Bets & Make Content | Dollar Bets",
+    "title": "Editorial Policy | Dollar Bets",
     "h1": "Editorial Policy",
     "meta_description": "How Dollar Bets picks markets, makes content, uses AI tools, and keeps things honest. Our editorial standards, selection criteria, and corrections policy.",
     "canonical": "/editorial-policy/"
   },
   "internal_links": [
-    {"text": "about Dollar Bets", "url": "/about/"},
-    {"text": "affiliate disclosure", "url": "/affiliate-disclosure/"},
-    {"text": "responsible gambling", "url": "/responsible-gambling/"},
-    {"text": "jurisdiction & availability", "url": "/availability/"}
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    },
+    {
+      "text": "affiliate disclosure",
+      "url": "/affiliate-disclosure/"
+    },
+    {
+      "text": "responsible gambling",
+      "url": "/responsible-gambling/"
+    },
+    {
+      "text": "jurisdiction & availability",
+      "url": "/availability/"
+    }
   ],
   "body": [
     {
@@ -20,7 +32,7 @@
     },
     {
       "type": "heading",
-      "content": "how we pick markets"
+      "content": "How we pick markets"
     },
     {
       "type": "text",
@@ -36,7 +48,7 @@
     },
     {
       "type": "heading",
-      "content": "our editorial goal"
+      "content": "Our editorial goal"
     },
     {
       "type": "text",
@@ -48,7 +60,7 @@
     },
     {
       "type": "heading",
-      "content": "how we use AI tools"
+      "content": "How we use AI tools"
     },
     {
       "type": "text",
@@ -56,7 +68,7 @@
     },
     {
       "type": "heading",
-      "content": "what we do not do"
+      "content": "What we do not do"
     },
     {
       "type": "list",
@@ -72,7 +84,7 @@
     },
     {
       "type": "heading",
-      "content": "affiliate links"
+      "content": "Affiliate links"
     },
     {
       "type": "text",
@@ -80,7 +92,7 @@
     },
     {
       "type": "heading",
-      "content": "corrections and updates"
+      "content": "Corrections and updates"
     },
     {
       "type": "text",
@@ -88,7 +100,7 @@
     },
     {
       "type": "heading",
-      "content": "responsible gambling"
+      "content": "Responsible gambling"
     },
     {
       "type": "text",

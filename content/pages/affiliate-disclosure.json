@@ -14,10 +14,22 @@
   },
   "hero_bet": null,
   "internal_links": [
-    {"text": "about Dollar Bets", "url": "/about/"},
-    {"text": "editorial policy", "url": "/editorial-policy/"},
-    {"text": "responsible gambling", "url": "/responsible-gambling/"},
-    {"text": "jurisdiction & availability", "url": "/availability/"}
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    },
+    {
+      "text": "editorial policy",
+      "url": "/editorial-policy/"
+    },
+    {
+      "text": "responsible gambling",
+      "url": "/responsible-gambling/"
+    },
+    {
+      "text": "jurisdiction & availability",
+      "url": "/availability/"
+    }
   ],
   "body": [
     {
@@ -26,7 +38,7 @@
     },
     {
       "type": "heading",
-      "content": "what compensation does and does not affect"
+      "content": "What compensation does and does not affect"
     },
     {
       "type": "text",
@@ -34,7 +46,7 @@
     },
     {
       "type": "heading",
-      "content": "what Dollar Bets is not"
+      "content": "What Dollar Bets is not"
     },
     {
       "type": "text",
@@ -42,7 +54,7 @@
     },
     {
       "type": "heading",
-      "content": "availability"
+      "content": "Availability"
     },
     {
       "type": "text",
@@ -50,7 +62,7 @@
     },
     {
       "type": "heading",
-      "content": "not advice"
+      "content": "Not advice"
     },
     {
       "type": "text",

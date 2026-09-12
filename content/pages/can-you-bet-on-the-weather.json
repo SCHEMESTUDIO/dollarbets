@@ -1,10 +1,10 @@
 {
   "noindex": true,
-  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible \u2014 delete the two noindex lines to re-index.",
+  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible — delete the two noindex lines to re-index.",
   "slug": "can-you-bet-on-the-weather",
   "format": "explainer",
   "seo": {
-    "title": "Can You Bet on the Weather? Yes — Here's How It Works | Dollar Bets",
+    "title": "Can You Bet on the Weather? | Dollar Bets",
     "h1": "Can You Bet on the Weather?",
     "meta_description": "Yes — you can bet on the weather. Here's how weather betting works on Kalshi, plus five real markets on rain, heat records, and hurricanes where a dollar gets interesting.",
     "canonical": "/can-you-bet-on-the-weather/"
@@ -45,7 +45,7 @@
     },
     {
       "type": "heading",
-      "content": "so, can you actually bet on the weather?"
+      "content": "So, can you actually bet on the weather?"
     },
     {
       "type": "text",
@@ -53,7 +53,7 @@
     },
     {
       "type": "heading",
-      "content": "five weather markets you can bet a dollar on"
+      "content": "Five weather markets you can bet a dollar on"
     },
     {
       "type": "list",
@@ -67,7 +67,7 @@
     },
     {
       "type": "heading",
-      "content": "is there a weather betting app?"
+      "content": "Is there a weather betting app?"
     },
     {
       "type": "text",
@@ -75,7 +75,7 @@
     },
     {
       "type": "heading",
-      "content": "what makes weather markets worth a dollar"
+      "content": "What makes weather markets worth a dollar"
     },
     {
       "type": "text",

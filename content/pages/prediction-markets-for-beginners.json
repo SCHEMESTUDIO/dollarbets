@@ -1,10 +1,10 @@
 {
   "noindex": true,
-  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible \u2014 delete the two noindex lines to re-index.",
+  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible — delete the two noindex lines to re-index.",
   "slug": "prediction-markets-for-beginners",
   "format": "explainer",
   "seo": {
-    "title": "Prediction Markets for Beginners — Start With $1 | Dollar Bets",
+    "title": "Prediction Markets for Beginners | Dollar Bets",
     "h1": "Prediction Markets for Beginners",
     "meta_description": "A beginner's guide to prediction markets. What they are, how to trade them, and why $1 is the perfect starting point.",
     "canonical": "/prediction-markets-for-beginners/"
@@ -52,7 +52,7 @@
     },
     {
       "type": "heading",
-      "content": "what you're actually buying"
+      "content": "What you're actually buying"
     },
     {
       "type": "text",
@@ -60,7 +60,7 @@
     },
     {
       "type": "heading",
-      "content": "how pricing works"
+      "content": "How pricing works"
     },
     {
       "type": "text",
@@ -68,7 +68,7 @@
     },
     {
       "type": "heading",
-      "content": "your first trade: step by step"
+      "content": "Your first trade: step by step"
     },
     {
       "type": "text",
@@ -76,7 +76,7 @@
     },
     {
       "type": "heading",
-      "content": "you can sell before the event resolves"
+      "content": "You can sell before the event resolves"
     },
     {
       "type": "text",
@@ -84,7 +84,7 @@
     },
     {
       "type": "heading",
-      "content": "the $1 framing: why it matters for beginners"
+      "content": "The $1 framing: why it matters for beginners"
     },
     {
       "type": "text",
@@ -92,7 +92,7 @@
     },
     {
       "type": "heading",
-      "content": "common beginner mistakes"
+      "content": "Common beginner mistakes"
     },
     {
       "type": "text",

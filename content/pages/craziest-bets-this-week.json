@@ -2,7 +2,7 @@
   "slug": "craziest-bets-this-week",
   "format": "weird_market_roundup",
   "seo": {
-    "title": "Craziest Bets This Week — Weekly Weird Roundup | Dollar Bets",
+    "title": "Craziest Bets This Week | Dollar Bets",
     "h1": "Craziest Bets This Week",
     "meta_description": "This week's craziest bets from across sports, politics, and prediction markets. Updated every Friday.",
     "canonical": "/craziest-bets-this-week/"
@@ -58,7 +58,7 @@
     },
     {
       "type": "heading",
-      "content": "what qualifies as crazy"
+      "content": "What qualifies as crazy"
     },
     {
       "type": "text",
@@ -66,7 +66,7 @@
     },
     {
       "type": "heading",
-      "content": "the prediction market weirdness"
+      "content": "The prediction market weirdness"
     },
     {
       "type": "text",
@@ -74,7 +74,7 @@
     },
     {
       "type": "heading",
-      "content": "sports props gone wild"
+      "content": "Sports props gone wild"
     },
     {
       "type": "text",
@@ -82,7 +82,7 @@
     },
     {
       "type": "heading",
-      "content": "the political and policy circus"
+      "content": "The political and policy circus"
     },
     {
       "type": "text",
@@ -90,7 +90,7 @@
     },
     {
       "type": "heading",
-      "content": "the one we can't stop thinking about"
+      "content": "The one we can't stop thinking about"
     },
     {
       "type": "text",
@@ -98,7 +98,7 @@
     },
     {
       "type": "heading",
-      "content": "why this page exists"
+      "content": "Why this page exists"
     },
     {
       "type": "text",

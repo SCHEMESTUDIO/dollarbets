@@ -3,19 +3,37 @@
   "format": "cluster_pillar",
   "parent_category": "",
   "seo": {
-    "title": "Prediction Markets — Bet $1 on Basically Anything | Dollar Bets",
+    "title": "Prediction Markets | Dollar Bets",
     "h1": "Prediction Markets",
     "meta_description": "Prediction markets let you bet on real-world events — elections, sports, weather, crypto, the genuinely absurd. Here's how they work, how they differ from a sportsbook, and where a single dollar goes furthest.",
     "canonical": "/prediction-markets/"
   },
   "quick_answer": "A prediction market is a marketplace where you buy and sell contracts on whether a real-world event will happen. Each contract pays $1 if it resolves yes and $0 if it resolves no, so the price — say $0.30 — is roughly the crowd's odds, about 30%. Dollar Bets tracks these markets every day and reframes each one as a single question: what does $1 return if this actually hits?",
   "internal_links": [
-    { "text": "today's $1 board", "url": "/" },
-    { "text": "prediction market longshots", "url": "/prediction-markets/prediction-market-longshots/" },
-    { "text": "weird markets", "url": "/weird-markets/" },
-    { "text": "politics markets", "url": "/politics-markets/" },
-    { "text": "sports markets", "url": "/sports-markets/" },
-    { "text": "Hall of Filth", "url": "/hall-of-filth/" }
+    {
+      "text": "today's $1 board",
+      "url": "/"
+    },
+    {
+      "text": "prediction market longshots",
+      "url": "/prediction-markets/prediction-market-longshots/"
+    },
+    {
+      "text": "weird markets",
+      "url": "/weird-markets/"
+    },
+    {
+      "text": "politics markets",
+      "url": "/politics-markets/"
+    },
+    {
+      "text": "sports markets",
+      "url": "/sports-markets/"
+    },
+    {
+      "text": "Hall of Filth",
+      "url": "/hall-of-filth/"
+    }
   ],
   "body": [
     {

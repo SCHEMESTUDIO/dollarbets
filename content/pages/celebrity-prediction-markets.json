@@ -2,7 +2,7 @@
   "slug": "celebrity-prediction-markets",
   "format": "weird_market_roundup",
   "seo": {
-    "title": "Celebrity Prediction Markets — Bet on Pop Culture | Dollar Bets",
+    "title": "Celebrity Prediction Markets | Dollar Bets",
     "h1": "Celebrity Prediction Markets",
     "meta_description": "Current celebrity and pop culture prediction markets. Awards, scandals, career moves — all priced at what $1 returns.",
     "canonical": "/celebrity-prediction-markets/"
@@ -42,7 +42,7 @@
     },
     {
       "type": "heading",
-      "content": "awards and nominations"
+      "content": "Awards and nominations"
     },
     {
       "type": "text",
@@ -50,7 +50,7 @@
     },
     {
       "type": "heading",
-      "content": "career moves and announcements"
+      "content": "Career moves and announcements"
     },
     {
       "type": "text",
@@ -58,7 +58,7 @@
     },
     {
       "type": "heading",
-      "content": "public feuds and drama"
+      "content": "Public feuds and drama"
     },
     {
       "type": "text",
@@ -66,7 +66,7 @@
     },
     {
       "type": "heading",
-      "content": "reality tv and competition shows"
+      "content": "Reality tv and competition shows"
     },
     {
       "type": "text",
@@ -74,7 +74,7 @@
     },
     {
       "type": "heading",
-      "content": "why celebrity markets are inefficient"
+      "content": "Why celebrity markets are inefficient"
     },
     {
       "type": "text",

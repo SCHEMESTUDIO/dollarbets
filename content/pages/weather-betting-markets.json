@@ -1,13 +1,13 @@
 {
   "noindex": true,
-  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible \u2014 delete the two noindex lines to re-index.",
+  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible — delete the two noindex lines to re-index.",
   "slug": "weather-betting-markets",
   "format": "explainer",
   "publish_date": "2026-05-06",
   "last_updated": "2026-05-06",
   "priority": 70,
   "seo": {
-    "title": "Weather Betting Markets — Can You Bet on the Weather? | Dollar Bets",
+    "title": "Weather Betting Markets | Dollar Bets",
     "h1": "Weather Betting Markets",
     "meta_description": "Yes, you can bet on the weather. Prediction markets on Kalshi let you wager on rain, temperature, and hurricanes. Here's how weather markets work.",
     "canonical": "/weather-betting-markets/"
@@ -75,7 +75,7 @@
     },
     {
       "type": "heading",
-      "content": "weather on the dollar bets board"
+      "content": "Weather on the Dollar Bets board"
     },
     {
       "type": "text",

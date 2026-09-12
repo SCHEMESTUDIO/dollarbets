@@ -3,7 +3,7 @@
   "format": "weird_market_roundup",
   "parent_category": "weird-markets",
   "seo": {
-    "title": "Weird Prop Bets You Can Make Right Now | Dollar Bets",
+    "title": "Weird Prop Bets You Can Actually Make | Dollar Bets",
     "h1": "Weird Prop Bets You Can Actually Make",
     "meta_description": "The weirdest prop bets currently available. Culture, weather, politics, and things that shouldn't be markets but are.",
     "canonical": "/weird-markets/weird-prop-bets/"
@@ -41,7 +41,7 @@
     },
     {
       "type": "heading",
-      "content": "weather markets (the practical weird)"
+      "content": "Weather markets (the practical weird)"
     },
     {
       "type": "text",
@@ -53,7 +53,7 @@
     },
     {
       "type": "heading",
-      "content": "culture and entertainment markets (the viral weird)"
+      "content": "Culture and entertainment markets (the viral weird)"
     },
     {
       "type": "text",
@@ -65,7 +65,7 @@
     },
     {
       "type": "heading",
-      "content": "economic and political markets (the serious weird)"
+      "content": "Economic and political markets (the serious weird)"
     },
     {
       "type": "text",
@@ -77,7 +77,7 @@
     },
     {
       "type": "heading",
-      "content": "things that shouldn't be markets (the absurd weird)"
+      "content": "Things that shouldn't be markets (the absurd weird)"
     },
     {
       "type": "text",
@@ -89,7 +89,7 @@
     },
     {
       "type": "heading",
-      "content": "why weird props are the point"
+      "content": "Why weird props are the point"
     },
     {
       "type": "text",

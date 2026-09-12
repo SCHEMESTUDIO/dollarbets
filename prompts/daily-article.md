@@ -47,11 +47,11 @@ Path: roundups/comparisons → `content/pages/{slug}.json`; Hall of Filth → `c
 
 Required fields:
 - "slug" (from brief, strip slashes), "format" (E→"weird_market_roundup", G→"historical_story"; "comparison" only for Polymarket-vs-Kalshi craziest-markets angles)
-- "seo" — title, h1, meta_description, canonical (match the /crazy-kalshi-bets/ template; specific, date-stamped H1 where the brief calls for a live refresh)
+- "seo" — title, h1, meta_description, canonical. H1 in Title Case; title = H1 + " | Dollar Bets" (the generator enforces both). Specific, date-stamped H1 where the brief calls for a live refresh.
 - "summary" — 40-60 words, lead with the specific funny/outrageous market
 - "hero_bet" — from today's board, per brief guidance; plausible illustrative payout + tier; sourcePlatform + marketType required; URL: "https://kalshi.com?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
 - "internal_links" — from brief + always "/" and "/about/"; franchise pages only; grep target JSON for "noindex" before linking
-- "body" — 6-10 blocks (heading|text|list). Voice: prediction-market trader's gossip-column take; casual, witty, never preachy. NO "why it probably loses" sections. NO AI filler ("in conclusion", "it's important to note"). NO "guaranteed"/"lock"/"risk-free"/"free money"/"can't lose". Lowercase headings as plain statements/questions. Use the brief's synonym variants.
+- "body" — 6-10 blocks (heading|text|list). Voice: prediction-market trader's gossip-column take; casual, witty, never preachy. NO "why it probably loses" sections. NO AI filler ("in conclusion", "it's important to note"). NO "guaranteed"/"lock"/"risk-free"/"free money"/"can't lose". Headings in sentence case as plain statements/questions (editorial standards 2026-09-12: H1 in Title Case, H2/H3 sentence case, never all-lowercase; keep the dry, direct voice in the heading itself). Use the brief's synonym variants.
 - "faqs" — 3-4 real questions [{"q","a"}]
 - "compliance" — adapt to cluster (politics → election betting laws; crypto → volatility/total-loss)
 - "publish_date"/"last_updated" — today; "cluster" from brief; "priority" 7

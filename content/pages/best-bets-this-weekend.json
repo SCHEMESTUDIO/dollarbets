@@ -4,7 +4,7 @@
   "slug": "best-bets-this-weekend",
   "format": "ranked_list",
   "seo": {
-    "title": "Best Bets This Weekend — $1 Picks for Saturday & Sunday | Dollar Bets",
+    "title": "Best Bets This Weekend | Dollar Bets",
     "h1": "Best Bets This Weekend",
     "meta_description": "This weekend's best bets. Saturday and Sunday picks across sports, fights, and prediction markets.",
     "canonical": "/best-bets-this-weekend/"
@@ -52,7 +52,7 @@
     },
     {
       "type": "heading",
-      "content": "how we pick these"
+      "content": "How we pick these"
     },
     {
       "type": "text",
@@ -60,7 +60,7 @@
     },
     {
       "type": "heading",
-      "content": "saturday sports underdogs"
+      "content": "Saturday sports underdogs"
     },
     {
       "type": "text",
@@ -68,7 +68,7 @@
     },
     {
       "type": "heading",
-      "content": "sunday headliners"
+      "content": "Sunday headliners"
     },
     {
       "type": "text",
@@ -76,7 +76,7 @@
     },
     {
       "type": "heading",
-      "content": "weekend prediction markets"
+      "content": "Weekend prediction markets"
     },
     {
       "type": "text",
@@ -84,7 +84,7 @@
     },
     {
       "type": "heading",
-      "content": "weekend weird bets"
+      "content": "Weekend weird bets"
     },
     {
       "type": "text",
@@ -92,7 +92,7 @@
     },
     {
       "type": "heading",
-      "content": "what to check on monday"
+      "content": "What to check on Monday"
     },
     {
       "type": "text",

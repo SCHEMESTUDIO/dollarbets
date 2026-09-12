@@ -9,9 +9,18 @@
   },
   "hero_bet": null,
   "internal_links": [
-    {"text": "about Dollar Bets", "url": "/about/"},
-    {"text": "affiliate disclosure", "url": "/affiliate-disclosure/"},
-    {"text": "responsible gambling", "url": "/responsible-gambling/"}
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    },
+    {
+      "text": "affiliate disclosure",
+      "url": "/affiliate-disclosure/"
+    },
+    {
+      "text": "responsible gambling",
+      "url": "/responsible-gambling/"
+    }
   ],
   "body": [
     {
@@ -24,7 +33,7 @@
     },
     {
       "type": "heading",
-      "content": "what a link on Dollar Bets does not mean"
+      "content": "What a link on Dollar Bets does not mean"
     },
     {
       "type": "list",
@@ -39,7 +48,7 @@
     },
     {
       "type": "heading",
-      "content": "what to do"
+      "content": "What to do"
     },
     {
       "type": "text",
@@ -47,7 +56,7 @@
     },
     {
       "type": "heading",
-      "content": "about Dollar Bets"
+      "content": "About Dollar Bets"
     },
     {
       "type": "text",

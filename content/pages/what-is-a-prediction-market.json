@@ -1,10 +1,10 @@
 {
   "noindex": true,
-  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible \u2014 delete the two noindex lines to re-index.",
+  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible — delete the two noindex lines to re-index.",
   "slug": "what-is-a-prediction-market",
   "format": "explainer",
   "seo": {
-    "title": "What Is a Prediction Market? — Plain English Guide | Dollar Bets",
+    "title": "What Is a Prediction Market? | Dollar Bets",
     "h1": "What Is a Prediction Market?",
     "meta_description": "What prediction markets are, how they work, and why they're the most interesting way to bet on almost anything.",
     "canonical": "/what-is-a-prediction-market/"
@@ -43,7 +43,7 @@
     },
     {
       "type": "heading",
-      "content": "how the price works"
+      "content": "How the price works"
     },
     {
       "type": "text",
@@ -55,7 +55,7 @@
     },
     {
       "type": "heading",
-      "content": "the $1 framing"
+      "content": "The $1 framing"
     },
     {
       "type": "text",
@@ -91,7 +91,7 @@
     },
     {
       "type": "heading",
-      "content": "the bottom line"
+      "content": "The bottom line"
     },
     {
       "type": "text",

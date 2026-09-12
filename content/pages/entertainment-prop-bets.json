@@ -2,7 +2,7 @@
   "slug": "entertainment-prop-bets",
   "format": "weird_market_roundup",
   "seo": {
-    "title": "Entertainment Prop Bets — Awards, Shows, Movies | Dollar Bets",
+    "title": "Entertainment Prop Bets | Dollar Bets",
     "h1": "Entertainment Prop Bets",
     "meta_description": "Current entertainment prop bets. Oscars, Emmys, reality TV, box office — what $1 says about Hollywood.",
     "canonical": "/entertainment-prop-bets/"
@@ -46,7 +46,7 @@
     },
     {
       "type": "heading",
-      "content": "awards show markets"
+      "content": "Awards show markets"
     },
     {
       "type": "text",
@@ -54,7 +54,7 @@
     },
     {
       "type": "heading",
-      "content": "reality TV outcomes"
+      "content": "Reality TV outcomes"
     },
     {
       "type": "text",
@@ -62,7 +62,7 @@
     },
     {
       "type": "heading",
-      "content": "box office and streaming"
+      "content": "Box office and streaming"
     },
     {
       "type": "text",
@@ -70,7 +70,7 @@
     },
     {
       "type": "heading",
-      "content": "music and pop culture"
+      "content": "Music and pop culture"
     },
     {
       "type": "text",
@@ -78,7 +78,7 @@
     },
     {
       "type": "heading",
-      "content": "narrative criticism with skin in the game"
+      "content": "Narrative criticism with skin in the game"
     },
     {
       "type": "text",

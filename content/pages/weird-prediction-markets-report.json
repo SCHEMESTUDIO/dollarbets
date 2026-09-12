@@ -2,7 +2,7 @@
   "slug": "weird-prediction-markets-report",
   "format": "historical_story",
   "seo": {
-    "title": "Weird Prediction Markets Report: 600 Markets | Dollar Bets",
+    "title": "Weird Prediction Markets Report: 107 Days, 600 Markets, One $2,000 Payout | Dollar Bets",
     "h1": "Weird Prediction Markets Report: 107 Days, 600 Markets, One $2,000 Payout",
     "meta_description": "We tracked our daily top-10 board for 107 days across 600 unique markets. Here's what the biggest longshots, longest-running markets, and wildest swings looked like.",
     "canonical": "/weird-prediction-markets-report/"
@@ -26,7 +26,7 @@
   "body": [
     {
       "type": "heading",
-      "content": "107 days, 600 markets, one $2,000 ceiling"
+      "content": "107 Days, 600 markets, one $2,000 ceiling"
     },
     {
       "type": "text",
@@ -38,7 +38,7 @@
     },
     {
       "type": "heading",
-      "content": "the biggest longshots"
+      "content": "The biggest longshots"
     },
     {
       "type": "text",
@@ -56,7 +56,7 @@
     },
     {
       "type": "heading",
-      "content": "the markets that wouldn't leave"
+      "content": "The markets that wouldn't leave"
     },
     {
       "type": "text",
@@ -64,7 +64,7 @@
     },
     {
       "type": "heading",
-      "content": "one-day wonders"
+      "content": "One-day wonders"
     },
     {
       "type": "text",
@@ -72,7 +72,7 @@
     },
     {
       "type": "heading",
-      "content": "the wildest odds swings"
+      "content": "The wildest odds swings"
     },
     {
       "type": "text",
@@ -80,7 +80,7 @@
     },
     {
       "type": "heading",
-      "content": "the board, month over month"
+      "content": "The board, month over month"
     },
     {
       "type": "text",
@@ -88,7 +88,7 @@
     },
     {
       "type": "heading",
-      "content": "the honest caveats"
+      "content": "The honest caveats"
     },
     {
       "type": "text",

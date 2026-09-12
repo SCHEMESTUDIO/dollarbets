@@ -2,7 +2,7 @@
   "slug": "supreme-court-prediction-markets",
   "format": "weird_market_roundup",
   "seo": {
-    "title": "Supreme Court Prediction Markets — Rulings, Retirements, Nominations | Dollar Bets",
+    "title": "Supreme Court Prediction Markets | Dollar Bets",
     "h1": "Supreme Court Prediction Markets",
     "meta_description": "Supreme Court prediction markets. Ruling outcomes, retirement odds, and nomination markets — what $1 says about SCOTUS.",
     "canonical": "/supreme-court-prediction-markets/"
@@ -42,7 +42,7 @@
     },
     {
       "type": "heading",
-      "content": "ruling outcome markets"
+      "content": "Ruling outcome markets"
     },
     {
       "type": "text",
@@ -50,7 +50,7 @@
     },
     {
       "type": "heading",
-      "content": "retirement and vacancy markets"
+      "content": "Retirement and vacancy markets"
     },
     {
       "type": "text",
@@ -58,7 +58,7 @@
     },
     {
       "type": "heading",
-      "content": "nomination and confirmation markets"
+      "content": "Nomination and confirmation markets"
     },
     {
       "type": "text",
@@ -66,7 +66,7 @@
     },
     {
       "type": "heading",
-      "content": "why scotus markets are different"
+      "content": "Why SCOTUS markets are different"
     },
     {
       "type": "text",
@@ -74,7 +74,7 @@
     },
     {
       "type": "heading",
-      "content": "what shows up on the board"
+      "content": "What shows up on the board"
     },
     {
       "type": "text",

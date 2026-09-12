@@ -1,10 +1,10 @@
 {
   "noindex": true,
-  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible \u2014 delete the two noindex lines to re-index.",
+  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible — delete the two noindex lines to re-index.",
   "slug": "betting-odds-explained",
   "format": "explainer",
   "seo": {
-    "title": "Betting Odds Explained — American, Decimal & Fractional | Dollar Bets",
+    "title": "Betting Odds Explained | Dollar Bets",
     "h1": "Betting Odds Explained",
     "meta_description": "How betting odds work across every format. American, decimal, fractional — all translated into what $1 returns.",
     "canonical": "/betting-odds-explained/"

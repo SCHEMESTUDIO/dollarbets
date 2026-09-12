@@ -1,13 +1,13 @@
 {
   "noindex": true,
-  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible \u2014 delete the two noindex lines to re-index.",
+  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible — delete the two noindex lines to re-index.",
   "slug": "what-is-a-spread-bet",
   "format": "explainer",
   "publish_date": "2026-05-06",
   "last_updated": "2026-05-06",
   "priority": 80,
   "seo": {
-    "title": "What Is a Spread Bet? — Point Spreads Explained | Dollar Bets",
+    "title": "What Is a Spread Bet? | Dollar Bets",
     "h1": "What Is a Spread Bet?",
     "meta_description": "Point spreads level the playing field between favorites and underdogs. Here's how spread betting works, translated into plain English.",
     "canonical": "/what-is-a-spread-bet/"

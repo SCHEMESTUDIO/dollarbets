@@ -21,6 +21,7 @@ Outputs to public/ alongside the pages from generate.py.
 """
 
 import json
+import re
 import os
 import glob
 from datetime import datetime
@@ -28,10 +29,17 @@ from datetime import datetime
 # Import shared components from main generator
 from generate import (
     page_shell, render_bet_card, nav_html,
-    render_board_promo, load_all_boards,
+    render_board_promo, load_all_boards, market_link,
     SITE_URL, OUTPUT_DIR, SHARED_CSS,
-    policy_noindex,
+    policy_noindex, _latest_board_meta,
 )
+from editorial import learn_proper_nouns, sentence_case, title_case, nyt_date, reduce_dashes
+
+# Board-promo placement by page format (editorial standards, 2026-09-12). On weird-market
+# roundups the live cards ARE the answer to the query, so they sit above the body. On every
+# other format they interrupted the lede and now sit below it. A page can override with
+# "promo": "top" | "bottom" | "none".
+PROMO_TOP_FORMATS = {"weird_market_roundup"}
 
 
 # ── Author config ─────────────────────────────────────────
@@ -62,10 +70,9 @@ def build_article_schema(page_data, canonical):
         "description": seo.get("meta_description", ""),
         "url": f"{SITE_URL}{canonical}",
         "author": {
-            "@type": "Person",
-            "name": author["name"],
+            "@type": "Organization",
+            "name": "Dollar Bets",
             "url": f"{SITE_URL}{author['url']}",
-            "jobTitle": author.get("role", ""),
         },
         "publisher": {
             "@type": "Organization",
@@ -123,19 +130,19 @@ def build_breadcrumbs(page_data, canonical):
     parent = page_data.get("parent_category", "")
     fmt = page_data.get("format", "")
 
-    crumbs = [("dollar bets", "/")]
+    crumbs = [("Dollar Bets", "/")]
 
     if fmt == "historical_story":
-        crumbs.append(("hall of filth", "/hall-of-filth/"))
+        crumbs.append(("Hall of Filth", "/hall-of-filth/"))
     elif parent and parent in KNOWN_HUB_ROUTES:
         # Only add a category crumb when its /{parent}/ hub page exists.
         # A parent with no generated hub would emit a breadcrumb link to a
         # 404 (ahrefs "links to broken page"); skip it so the trail is just
         # "dollar bets > page".
-        cat_name = parent.replace("-", " ")
+        cat_name = sentence_case(parent.replace("-", " "))
         crumbs.append((cat_name, f"/{parent}/"))
 
-    crumbs.append((seo.get("h1", "").lower(), canonical))
+    crumbs.append((title_case(seo.get("h1", "")), canonical))
 
     # Visible breadcrumb HTML
     links = []
@@ -171,6 +178,9 @@ def load_content_files():
 
 # ── Body renderer ──────────────────────────────────────────
 
+PROPER_NOUNS = None  # set per page in generate_content_page
+
+
 def render_body(body_blocks):
     """Render body content blocks into HTML (for use inside .article-body wrapper)."""
     parts = []
@@ -179,13 +189,14 @@ def render_body(body_blocks):
         content = block.get("content", "")
 
         if btype == "heading":
-            parts.append(f'      <h2>{content}</h2>')
+            hid = re.sub(r"[^a-z0-9]+", "-", re.sub(r"<[^>]+>", "", content).lower()).strip("-")[:60]
+            parts.append(f'      <h2 id="{hid}">{sentence_case(content, PROPER_NOUNS)}</h2>')
         elif btype == "text":
             parts.append(f'      <p>{content}</p>')
         elif btype == "list":
             items = content if isinstance(content, list) else [content]
             li_html = "\n".join(f"        <li>{item}</li>" for item in items)
-            parts.append(f'      <ul style="font-size:13px;color:#3d2e1f;line-height:1.7;margin:8px 0 0 20px;list-style:disc">\n{li_html}\n      </ul>')
+            parts.append(f'      <ul class="article-list">\n{li_html}\n      </ul>')
 
     return "\n".join(parts)
 
@@ -201,11 +212,11 @@ def render_faqs(faqs):
         q = faq.get("q", "")
         a = faq.get("a", "")
         items.append(f"""      <div class="faq-item">
-        <h3>{q}</h3>
+        <h3>{sentence_case(q, PROPER_NOUNS)}</h3>
         <p>{a}</p>
       </div>""")
 
-    return f"""      <h2>frequently asked questions</h2>
+    return f"""      <h2 id="faq">Frequently asked questions</h2>
 {chr(10).join(items)}"""
 
 
@@ -235,35 +246,35 @@ def build_faq_schema(faqs):
 # ── Hero bet renderer ──────────────────────────────────────
 
 def render_hero_bet(hero):
-    """Render a hero betting slip for a content page."""
+    """Contextual feature ticket for a content page: the one market the page is about,
+    in the board's dark-ticket language. Routes through /go/ when a ticker is known."""
     if not hero:
         return ""
-
-    note = hero.get("note", "")
-    note_html = f'<div style="font-size:10px;color:#a08b77;margin-top:4px;font-style:italic">{note}</div>' if note else ""
-
-    # Optional disclaimer fields
-    disclaimer_parts = []
-    if hero.get("sourcePlatform"):
-        disclaimer_parts.append(f'Source: {hero["sourcePlatform"]}.')
-    disclaimer_parts.append("Odds and availability may change.")
-    if hero.get("marketType") == "prediction_market":
-        disclaimer_parts.append("Event contracts may not be available in all jurisdictions.")
-    else:
-        disclaimer_parts.append("Check platform terms before taking action.")
-    disclaimer = " ".join(disclaimer_parts)
-
-    note_html_inv = ""
-    if note:
-        note_html_inv = f'<div style="font-size:10px;color:rgba(255,255,255,0.6);margin-top:4px;font-style:italic">{note}</div>'
-
-    return f"""    <div style="margin:18px 0;padding:14px;background:#e8642c;border-radius:6px">
-      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:rgba(255,255,255,0.7);margin-bottom:4px">featured market</div>
-      <div style="font-size:15px;font-weight:700;color:#fff;margin-bottom:4px">{hero.get('title', '')}</div>
-      <div style="font-size:14px;font-weight:700;color:#ffecd6">$1 &rarr; ${hero.get('payout', 0):,}</div>
-      <div style="font-size:11.5px;color:rgba(255,255,255,0.65);font-style:italic;margin-top:4px">{hero.get('quip', '')}</div>
-      {note_html_inv}
-      <div style="font-size:9px;color:rgba(255,255,255,0.45);margin-top:6px;line-height:1.5">{disclaimer}</div>
+    ticker = hero.get("ticker", "")
+    url = hero.get("url", "#") or "#"
+    if not ticker and "kalshi.com/markets/" in url:
+        ticker = url.split("kalshi.com/markets/")[1].split("?")[0].split("/")[0]
+    if ticker:
+        url = market_link(ticker)
+    platform = hero.get("sourcePlatform", "Kalshi")
+    try:
+        payout = float(hero.get("payout", 0) or 0)
+    except (TypeError, ValueError):
+        payout = 0
+    payout_str = f"${payout:,.2f}".rstrip("0").rstrip(".") if payout else ""
+    priced_in = f"{round(100 / payout)}% priced in" if payout >= 1.01 else ""
+    quip = hero.get("quip", "")
+    return f"""    <div class="feature-ticket">
+      <div class="feature-ticket-label">Featured market</div>
+      <div class="feature-ticket-title">{hero.get('title', '')}</div>
+      {f'<div class="feature-ticket-quip">{quip}</div>' if quip else ''}
+      <div class="feature-ticket-row">
+        <span class="feature-ticket-pays">$1 pays</span>
+        <span class="feature-ticket-amount">{payout_str}</span>
+        <span class="feature-ticket-meta">{platform}{' · ' + priced_in if priced_in else ''}</span>
+      </div>
+      <a href="{url}" target="_blank" rel="noopener nofollow sponsored" class="feature-ticket-cta">See the odds on {platform} &raquo;</a>
+      <div class="feature-ticket-fine">Price at time of writing. Odds and availability change; event contracts are not available in every state.</div>
     </div>"""
 
 
@@ -290,7 +301,7 @@ def render_internal_links(links):
         for link in links
     )
 
-    return f'    <div class="internal-links-row">more: {link_items}</div>'
+    return f'    <div class="internal-links-row">More: {link_items}</div>'
 
 
 # ── Compliance footer ──────────────────────────────────────
@@ -329,6 +340,16 @@ def generate_content_page(page_data):
     # Determine canonical early (needed for breadcrumbs + schema)
     canonical = seo.get("canonical", f"/{slug}/")
 
+    # Per-page proper-noun dictionary (learned from the page's own copy) drives casing.
+    global PROPER_NOUNS
+    PROPER_NOUNS = learn_proper_nouns(
+        [page_data.get("summary", ""), page_data.get("quick_answer", "")]
+        + [str(b.get("content", "")) for b in page_data.get("body", [])]
+        + [f.get("a", "") for f in page_data.get("faqs", [])])
+    headline = title_case(seo.get("h1", ""), PROPER_NOUNS)
+    seo["h1"] = headline
+    seo["title"] = f"{headline} | Dollar Bets" if headline else seo.get("title", slug)
+
     # Build breadcrumbs
     breadcrumb_html, breadcrumb_schema = build_breadcrumbs(page_data, canonical)
 
@@ -346,12 +367,11 @@ def generate_content_page(page_data):
     pub_date = page_data.get("publish_date", "")
     last_updated = page_data.get("last_updated", "")
 
-    meta_parts = []
-    meta_parts.append(f'by <a href="{author["url"]}">{author["name"]}</a>')
+    meta_parts = ['By <a href="/about/">Dollar Bets Staff</a>']
     if pub_date:
-        meta_parts.append(pub_date)
+        meta_parts.append(f'<time datetime="{pub_date}">{nyt_date(pub_date)}</time>')
     if last_updated and last_updated != pub_date:
-        meta_parts.append(f'updated {last_updated}')
+        meta_parts.append(f'Updated <time datetime="{last_updated}">{nyt_date(last_updated)}</time>')
 
     body_parts.append(f'    <div class="byline">{" &middot; ".join(meta_parts)}</div>')
 
@@ -367,37 +387,44 @@ def generate_content_page(page_data):
 
     # Trust chips. Compliance: "CFTC-regulated" may only be claimed for
     # Kalshi (see compliance-notes.md) — never on Polymarket-focused pages.
-    if _pf == "polymarket":
-        reg_chip = '<span class="trust-chip-green">&#10003; live market prices</span>'
-    elif _pf == "kalshi":
-        reg_chip = '<span class="trust-chip-green">&#10003; CFTC-regulated exchange</span>'
-    else:
-        reg_chip = '<span class="trust-chip-green">&#10003; CFTC-regulated + major markets</span>'
-    body_parts.append(f'''    <div class="trust-chips">
-      {reg_chip}
-      <span class="trust-chip-neutral">re-ranked every morning</span>
-      <span class="trust-chip-neutral">every board archived</span>
-    </div>''')
+    # Sourcing line (replaces the trust chips, 2026-09-12): where the numbers come from and
+    # when they were read, plus the standards pages. Real scan time from the board meta.
+    _bm = _latest_board_meta() or {}
+    def _nyt_ds(ds):
+        try: return nyt_date(datetime.strptime(ds, "%B %d, %Y").date())
+        except Exception: return ds
+    _read = f"read {_bm['scan_time_et']} on {_nyt_ds(_bm['date_str'])}" if _bm.get("scan_time_et") else (f"read {_nyt_ds(_bm['date_str'])}" if _bm.get("date_str") else "read each morning")
+    _src = "Polymarket" if _pf == "polymarket" else "Kalshi" if _pf == "kalshi" else "Kalshi and Polymarket"
+    body_parts.append(f'    <div class="sourcing">Prices from {_src}, {_read} &middot; <a href="/editorial-policy/">Editorial policy</a> &middot; <a href="/editorial-policy/#corrections">Corrections</a></div>')
 
     # Quick Answer block — optimized for AI engine extraction (AEO)
-    quick_answer = page_data.get("quick_answer", "")
+    quick_answer = page_data.get("quick_answer", "") or page_data.get("summary", "")
     if quick_answer:
-        body_parts.append(f'    <div class="quick-answer" role="doc-abstract"><strong>Quick answer:</strong> {quick_answer}</div>')
-    else:
-        summary = page_data.get("summary", "")
-        if summary:
-            body_parts.append(f'    <div class="quick-answer"><strong>tl;dr:</strong> {summary}</div>')
+        body_parts.append(f'    <p class="dek" role="doc-abstract">{quick_answer}</p>')
+
+    # The one market this page is about, as a ticket. Part of the funnel, not an interruption.
+    hero_html = render_hero_bet(page_data.get("hero_bet"))
+    if hero_html:
+        body_parts.append(hero_html)
 
     # Affiliate disclosure mini-strip — platform-specific per the mock
     _strip_platforms = _pf if _pf else "kalshi or polymarket"
-    body_parts.append(f'    <div class="affiliate-strip">affiliate disclosure: dollar bets earns a commission if you sign up to {_strip_platforms} through our links &mdash; never a cut of your bet, and we never hold your money. <a href="/affiliate-disclosure/">full disclosure &rarr;</a></div>')
+    body_parts.append(f'    <div class="affiliate-strip">Affiliate disclosure: Dollar Bets earns a commission if you sign up to {_strip_platforms.replace("kalshi", "Kalshi").replace("polymarket", "Polymarket")} through our links, never a cut of your bet, and we never hold your money. <a href="/affiliate-disclosure/">Full disclosure &rarr;</a></div>')
 
-    # === RANKED TOP-5 BOARD PROMO ===
+    # === RANKED TOP-5 BOARD PROMO — placement by format ===
     _boards = load_all_boards()
     _latest_board = _boards[-1][1] if _boards else None
-    top_promo = render_board_promo(_latest_board, position="top", platform_filter=_pf)
-    if top_promo:
-        body_parts.append(top_promo)
+    _promo_pos = page_data.get("promo") or ("top" if fmt in PROMO_TOP_FORMATS else "bottom")
+    board_promo = render_board_promo(_latest_board, position=_promo_pos, platform_filter=_pf) if _promo_pos != "none" else ""
+    if board_promo and _promo_pos == "top":
+        body_parts.append(board_promo)
+
+    # Section chips for long list/comparison pages: the page's own headings as anchors.
+    if fmt in ("ranked_list", "comparison", "cluster_pillar", "glossary"):
+        _heads = [b.get("content", "") for b in page_data.get("body", []) if b.get("type") == "heading"]
+        if len(_heads) >= 4:
+            _chips = "".join(f'<a href="#{re.sub(r"[^a-z0-9]+", "-", re.sub(r"<[^>]+>", "", h).lower()).strip("-")[:60]}">{sentence_case(re.sub(r"^\d+\.\s*", "", h), PROPER_NOUNS)}</a>' for h in _heads)
+            body_parts.append(f'    <nav class="nav section-chips" aria-label="Sections">{_chips}</nav>')
 
     # Body content — wrapped in .article-body card
     body_blocks = page_data.get("body", [])
@@ -417,9 +444,13 @@ def generate_content_page(page_data):
     if faqs:
         article_inner += "\n" + render_faqs(faqs)
 
+    article_inner, _cut = reduce_dashes(article_inner, keep=2)
     body_parts.append(f"""    <div class="article-body">
 {article_inner}
     </div>""")
+
+    if board_promo and _promo_pos == "bottom":
+        body_parts.append(board_promo)
 
     # Internal links
     body_parts.append(render_internal_links(page_data.get("internal_links", [])))
@@ -473,8 +504,9 @@ def generate_content_page(page_data):
         canonical=canonical,
         noindex=ni,
         extra_head=schema_tags,
-        sticky_html=_sticky_html,
+        sticky_html="",  # no fixed CTA bar on editorial pages (2026-09-12)
         compact_header=True,
+        article=True,
     )
 
     # Determine output path from canonical
@@ -505,7 +537,7 @@ def generate_hall_of_filth_index(stories):
         </a>
       </li>""")
 
-    body = f"""    <h1 class="page-title">hall of filth</h1>
+    body = f"""    <h1 class="page-title">Hall of Filth</h1>
     <div class="page-intro">
       <p>The greatest longshot wins in history. Each one reframed as what $1 would have returned. These are the bets that broke the math, the bookmakers, and the brains of everyone watching.</p>
       <p>Every story here links back to today's board — because the modern equivalents of Leicester City and Buster Douglas are being priced right now. Somewhere on Kalshi, there's a market at 3 cents that everyone thinks is a joke. Most of the time, they're right. But not always.</p>
@@ -608,7 +640,7 @@ def generate_guides_index(pages):
     # Count for page intro
     count_note = f"{len(editorial)} guides published" if editorial else ""
 
-    body = f"""    <h1 class="page-title">guides</h1>
+    body = f"""    <h1 class="page-title">Guides</h1>
     <div class="page-intro">
       <p>Everything you wanted to know about prediction markets, odds, and $1 bets — explained without jargon, without hype, and without pretending we know the future.</p>
     </div>

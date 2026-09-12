@@ -1,10 +1,10 @@
 {
   "noindex": true,
-  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible \u2014 delete the two noindex lines to re-index.",
+  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible — delete the two noindex lines to re-index.",
   "slug": "what-is-a-prop-bet",
   "format": "explainer",
   "seo": {
-    "title": "What Is a Prop Bet? — Proposition Bets Explained | Dollar Bets",
+    "title": "What Is a Prop Bet? | Dollar Bets",
     "h1": "What Is a Prop Bet?",
     "meta_description": "What prop bets are and why they're the most entertaining corner of the betting world.",
     "canonical": "/what-is-a-prop-bet/"
@@ -64,7 +64,7 @@
     },
     {
       "type": "heading",
-      "content": "novelty and super bowl props"
+      "content": "Novelty and Super Bowl props"
     },
     {
       "type": "text",
@@ -72,7 +72,7 @@
     },
     {
       "type": "heading",
-      "content": "props and prediction markets — cousins, not twins"
+      "content": "Props and prediction markets — cousins, not twins"
     },
     {
       "type": "text",
@@ -80,7 +80,7 @@
     },
     {
       "type": "heading",
-      "content": "the appeal of the prop"
+      "content": "The appeal of the prop"
     },
     {
       "type": "text",

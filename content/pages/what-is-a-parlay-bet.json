@@ -1,10 +1,10 @@
 {
   "noindex": true,
-  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible \u2014 delete the two noindex lines to re-index.",
+  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible — delete the two noindex lines to re-index.",
   "slug": "what-is-a-parlay-bet",
   "format": "explainer",
   "seo": {
-    "title": "What Is a Parlay? — Multi-Leg Bets Explained | Dollar Bets",
+    "title": "What Is a Parlay Bet? | Dollar Bets",
     "h1": "What Is a Parlay Bet?",
     "meta_description": "How parlay bets work. Stack multiple bets into one ticket, multiply the odds, and watch the payout fantasy unfold.",
     "canonical": "/what-is-a-parlay-bet/"
@@ -44,7 +44,7 @@
     },
     {
       "type": "heading",
-      "content": "how parlays actually work"
+      "content": "How parlays actually work"
     },
     {
       "type": "text",
@@ -52,7 +52,7 @@
     },
     {
       "type": "heading",
-      "content": "the math is not your friend"
+      "content": "The math is not your friend"
     },
     {
       "type": "text",
@@ -60,7 +60,7 @@
     },
     {
       "type": "heading",
-      "content": "why people love them anyway"
+      "content": "Why people love them anyway"
     },
     {
       "type": "text",
@@ -68,7 +68,7 @@
     },
     {
       "type": "heading",
-      "content": "parlays vs. prediction market contracts"
+      "content": "Parlays vs. prediction market contracts"
     },
     {
       "type": "text",

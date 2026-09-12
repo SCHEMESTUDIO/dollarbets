@@ -2,7 +2,7 @@
   "slug": "biggest-payouts-this-week",
   "format": "ranked_list",
   "seo": {
-    "title": "Biggest Payouts This Week — Highest $1 Returns | Dollar Bets",
+    "title": "Biggest Payouts This Week | Dollar Bets",
     "h1": "Biggest Payouts This Week",
     "meta_description": "This week's biggest potential payouts on prediction markets. The markets where $1 returns the most — and why they probably won't.",
     "canonical": "/biggest-payouts-this-week/"
@@ -46,7 +46,7 @@
     },
     {
       "type": "heading",
-      "content": "why big payouts exist"
+      "content": "Why big payouts exist"
     },
     {
       "type": "text",
@@ -54,7 +54,7 @@
     },
     {
       "type": "heading",
-      "content": "why they probably won't hit"
+      "content": "Why they probably won't hit"
     },
     {
       "type": "text",
@@ -62,7 +62,7 @@
     },
     {
       "type": "heading",
-      "content": "the entertainment value"
+      "content": "The entertainment value"
     },
     {
       "type": "text",
@@ -70,7 +70,7 @@
     },
     {
       "type": "heading",
-      "content": "this week's top payouts"
+      "content": "This week's top payouts"
     },
     {
       "type": "text",

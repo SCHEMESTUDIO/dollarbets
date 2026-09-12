@@ -1,10 +1,10 @@
 {
   "noindex": true,
-  "noindex_reason": "Pass 2 (2026-06-05): 40 imp at pos 75, 0 clicks \u2014 impressions-without-clicks harm; loses to incumbents on a generic comparison query. Rewrite before re-indexing.",
+  "noindex_reason": "Pass 2 (2026-06-05): 40 imp at pos 75, 0 clicks — impressions-without-clicks harm; loses to incumbents on a generic comparison query. Rewrite before re-indexing.",
   "slug": "prediction-markets-vs-sports-betting",
   "format": "comparison",
   "seo": {
-    "title": "Prediction Markets vs Sports Betting — Key Differences | Dollar Bets",
+    "title": "Prediction Markets vs Sports Betting: What's the Difference? | Dollar Bets",
     "h1": "Prediction Markets vs Sports Betting: What's the Difference?",
     "meta_description": "What's the difference between prediction markets and sports betting? Structure, regulation, and what it means for your dollar.",
     "canonical": "/prediction-markets-vs-sports-betting/"
@@ -48,7 +48,7 @@
     },
     {
       "type": "heading",
-      "content": "the basic structural difference"
+      "content": "The basic structural difference"
     },
     {
       "type": "text",
@@ -72,7 +72,7 @@
     },
     {
       "type": "heading",
-      "content": "how odds are expressed"
+      "content": "How odds are expressed"
     },
     {
       "type": "text",
@@ -80,7 +80,7 @@
     },
     {
       "type": "heading",
-      "content": "the vig question"
+      "content": "The vig question"
     },
     {
       "type": "text",
@@ -88,7 +88,7 @@
     },
     {
       "type": "heading",
-      "content": "liquidity and availability"
+      "content": "Liquidity and availability"
     },
     {
       "type": "text",
@@ -96,7 +96,7 @@
     },
     {
       "type": "heading",
-      "content": "which is better for $1 bets"
+      "content": "Which is better for $1 bets"
     },
     {
       "type": "text",

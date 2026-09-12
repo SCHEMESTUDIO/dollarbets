@@ -1,10 +1,10 @@
 {
   "noindex": true,
-  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible \u2014 delete the two noindex lines to re-index.",
+  "noindex_reason": "Pruned 2026-06-05: commodity/off-strategy cluster ranking pos 60+ with 0 clicks; harms site-wide quality signal. Reversible — delete the two noindex lines to re-index.",
   "slug": "what-is-a-futures-bet",
   "format": "explainer",
   "seo": {
-    "title": "What Is a Futures Bet? — Season-Long Wagers Explained | Dollar Bets",
+    "title": "What Is a Futures Bet? | Dollar Bets",
     "h1": "What Is a Futures Bet?",
     "meta_description": "What futures bets are: long-term wagers on championships, awards, and outcomes that take months to resolve.",
     "canonical": "/what-is-a-futures-bet/"
@@ -48,7 +48,7 @@
     },
     {
       "type": "heading",
-      "content": "what makes a bet a future"
+      "content": "What makes a bet a future"
     },
     {
       "type": "text",
@@ -56,7 +56,7 @@
     },
     {
       "type": "heading",
-      "content": "how the odds work"
+      "content": "How the odds work"
     },
     {
       "type": "text",
@@ -64,7 +64,7 @@
     },
     {
       "type": "heading",
-      "content": "the locked-in price"
+      "content": "The locked-in price"
     },
     {
       "type": "text",
@@ -72,7 +72,7 @@
     },
     {
       "type": "heading",
-      "content": "futures vs prediction markets"
+      "content": "Futures vs prediction markets"
     },
     {
       "type": "text",
@@ -80,7 +80,7 @@
     },
     {
       "type": "heading",
-      "content": "common types of futures"
+      "content": "Common types of futures"
     },
     {
       "type": "list",
