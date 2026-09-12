@@ -402,14 +402,20 @@ def generate_content_page(page_data):
     if quick_answer:
         body_parts.append(f'    <p class="dek" role="doc-abstract">{quick_answer}</p>')
 
-    # The one market this page is about, as a ticket. Part of the funnel, not an interruption.
+    # Featured-market ticket. On top only when it is the page's own market (roundups, or a
+    # page that says so with "hero": "top"); otherwise it follows the article, so nothing
+    # commercial sits between the headline and the first paragraph (2026-09-13).
     hero_html = render_hero_bet(page_data.get("hero_bet"))
-    if hero_html:
+    _hero_pos = page_data.get("hero") or ("top" if fmt in PROMO_TOP_FORMATS else "bottom")
+    if hero_html and _hero_pos == "top":
         body_parts.append(hero_html)
 
     # Affiliate disclosure mini-strip — platform-specific per the mock
     _strip_platforms = _pf if _pf else "kalshi or polymarket"
-    body_parts.append(f'    <div class="affiliate-strip">Affiliate disclosure: Dollar Bets earns a commission if you sign up to {_strip_platforms.replace("kalshi", "Kalshi").replace("polymarket", "Polymarket")} through our links, never a cut of your bet, and we never hold your money. <a href="/affiliate-disclosure/">Full disclosure &rarr;</a></div>')
+    _strip_html = f'    <div class="affiliate-strip">Affiliate disclosure: Dollar Bets earns a commission if you sign up to {_strip_platforms.replace("kalshi", "Kalshi").replace("polymarket", "Polymarket")} through our links, never a cut of your bet, and we never hold your money. <a href="/affiliate-disclosure/">Full disclosure &rarr;</a></div>'
+    _strip_done = False
+    if (hero_html and _hero_pos == "top"):
+        body_parts.insert(len(body_parts) - 1, _strip_html); _strip_done = True  # before the ticket
 
     # === RANKED TOP-5 BOARD PROMO — placement by format ===
     _boards = load_all_boards()
@@ -417,6 +423,7 @@ def generate_content_page(page_data):
     _promo_pos = page_data.get("promo") or ("top" if fmt in PROMO_TOP_FORMATS else "bottom")
     board_promo = render_board_promo(_latest_board, position=_promo_pos, platform_filter=_pf) if _promo_pos != "none" else ""
     if board_promo and _promo_pos == "top":
+        if not _strip_done: body_parts.append(_strip_html); _strip_done = True
         body_parts.append(board_promo)
 
     # Section chips for long list/comparison pages: the page's own headings as anchors.
@@ -449,8 +456,12 @@ def generate_content_page(page_data):
 {article_inner}
     </div>""")
 
-    if board_promo and _promo_pos == "bottom":
-        body_parts.append(board_promo)
+    _below = ([hero_html] if hero_html and _hero_pos != "top" else []) + ([board_promo] if board_promo and _promo_pos == "bottom" else [])
+    if _below:
+        if not _strip_done: body_parts.append(_strip_html); _strip_done = True
+        body_parts.extend(_below)
+    if not _strip_done:
+        body_parts.append(_strip_html)  # no affiliate element on the page; disclosure still shown
 
     # Internal links
     body_parts.append(render_internal_links(page_data.get("internal_links", [])))
