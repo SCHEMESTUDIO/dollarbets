@@ -1,0 +1,4 @@
+{
+  "mode": "digest",
+  "note": "Set by James 2026-09-12: Telegram pings paused. scripts/notify_telegram.sh prints instead of sending; this repo's run status is reported once a week by the Postwerks Sunday email (postwerks/scripts/notify_digest.py). mode: 'instant' restores the ping."
+}
