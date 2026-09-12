@@ -61,7 +61,7 @@
     },
     {
       "type": "text",
-      "content": "Kalshi is a CFTC-regulated exchange and the closest thing to a literal bet-on-anything app that Americans can legally use. Weather (daily highs in 20 cities, hurricane landfalls, snow on Christmas), the economy (Fed decisions, inflation prints, gas prices), politics (every 2026 Senate, House and governor race, government shutdowns, 2028 nominees), entertainment (Oscars, Emmys, Grammys, Rotten Tomatoes scores, Billboard number ones, how many times a word gets said on a broadcast), science (SpaceX launches, asteroid passes) and sports. Contracts price from 1¢ to 99¢; the fee is about 1.75¢ per contract at a 50¢ price and near zero at the extremes. Age-gated at 18, higher where state law requires it. Blocked in Nevada; sports contracts blocked in Michigan and Massachusetts; most non-financial contracts blocked in Washington since August 2026. Our <a href=\"/crazy-kalshi-bets/\">craziest Kalshi bets</a> page is the guided tour."
+      "content": "Kalshi is a CFTC-regulated exchange and the closest thing to a literal bet-on-anything app that Americans can legally use. Weather (daily highs in 20 cities, hurricane landfalls, snow on Christmas), the economy (Fed decisions, inflation prints, gas prices), politics (every 2026 Senate, House and governor race, government shutdowns, 2028 nominees), entertainment (Oscars, Emmys, Grammys, Rotten Tomatoes scores, Billboard number ones, how many times a word gets said on a broadcast), science (SpaceX launches, asteroid passes) and sports. Contracts price from 1¢ to 99¢; the fee is about 1.75¢ per contract at a 50¢ price and near zero at the extremes. Age-gated at 18, higher where state law requires it. Sports contracts blocked by court order in Nevada, Michigan and Massachusetts; most non-financial contracts blocked in Washington since August 2026; Utah is enforcing its own ban on sports contracts. Our <a href=\"/crazy-kalshi-bets/\">craziest Kalshi bets</a> page is the guided tour."
     },
     {
       "type": "heading",
@@ -77,7 +77,7 @@
     },
     {
       "type": "text",
-      "content": "Robinhood does not run its own exchange yet; it routes event contracts to Kalshi and other exchanges and charges a penny of commission plus a penny of exchange fee per contract. The range is close to Kalshi's: elections at every level, economics, weather, culture, sports and crypto. No event contracts in Maryland; no sports contracts in Nevada or New Jersey."
+      "content": "Robinhood does not run its own exchange yet; it routes event contracts to Kalshi and other exchanges. Since June 2026 its commission is 10% of price × (1 − price) per contract, 5% with Gold, capped at a penny, plus an exchange fee of up to a penny. The range is close to Kalshi's: elections at every level, economics, weather, culture, sports and crypto. No event contracts in Maryland; no sports contracts in Nevada or New Jersey."
     },
     {
       "type": "heading",
@@ -85,7 +85,7 @@
     },
     {
       "type": "text",
-      "content": "Coinbase's Predict tab distributes Kalshi contracts, including the Emmys and the rest of the entertainment shelf, and launched in all 50 states in January 2026 (one review reports Nevada excluded since). Fees mirror Kalshi's. You can fund it in dollars or USDC."
+      "content": "Coinbase's Predict tab distributes Kalshi contracts, including the Emmys and the rest of the entertainment shelf, and is available in every state except Nevada, per Coinbase's own help pages. Fees are shown at order time rather than published as a formula. You can fund it in dollars or USDC."
     },
     {
       "type": "heading",
@@ -93,7 +93,7 @@
     },
     {
       "type": "text",
-      "content": "Underdog runs its own exchange since July 2026 and lists government and politics, economics, entertainment, weather, geopolitics and mentions markets (will a word be said during an event) alongside sports. About 2¢ per contract, baked into the payout. Not available in Arizona, Michigan, Nevada or New York."
+      "content": "Underdog runs its own exchange since July 2026 and lists government and politics, economics, entertainment, weather, geopolitics and mentions markets (will a word be said during an event) alongside sports. About 2¢ per contract, baked into the payout. Underdog publishes no full state list and the trackers disagree; Arizona, Michigan and Nevada are excluded on every one of them."
     },
     {
       "type": "heading",
@@ -181,7 +181,7 @@
     },
     {
       "q": "Are these apps legal in the US?",
-      "a": "Kalshi, Polymarket US and the exchanges behind Robinhood, Coinbase, DraftKings, Underdog and Fanatics are regulated federally by the CFTC. States are fighting over sports contracts in 2026: Nevada has blocked Kalshi outright, several states have blocked sports contracts, and cases are pending elsewhere. Each app geofences itself to where it is allowed."
+      "a": "Kalshi, Polymarket US and the exchanges behind Robinhood, Coinbase, DraftKings, Underdog and Fanatics are regulated federally by the CFTC. States are fighting over sports contracts in 2026: courts in Nevada, Michigan and Massachusetts have blocked Kalshi's sports contracts, Washington has blocked most of its non-financial contracts, and cases are pending elsewhere. Each app geofences itself to where it is allowed."
     },
     {
       "q": "How much money do you need?",
