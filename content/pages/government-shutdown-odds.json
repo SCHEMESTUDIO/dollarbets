@@ -1,0 +1,58 @@
+{
+  "slug": "government-shutdown-odds",
+  "format": "explainer",
+  "cluster": "Politics",
+  "priority": 86,
+  "seo": {
+    "title": "Government Shutdown Odds: What Kalshi and Polymarket Say About October 1, 2026 | Dollar Bets",
+    "h1": "government shutdown odds: the markets on october 1, 2026",
+    "meta_description": "Government shutdown odds from real-money prediction markets: Kalshi prices a shutdown on October 1, 2026 at 2¢, Polymarket at about 1¢, and a second shutdown before 2027 at 62%. What the numbers mean, what $1 pays, and where to watch them move.",
+    "canonical": "/government-shutdown-odds/"
+  },
+  "summary": "As of September 12, 2026, Kalshi prices a government shutdown on October 1 at 2% and Polymarket at about 1%, meaning both markets expect Congress to fund the government past the September 30 deadline. Kalshi's separate market on how many shutdowns happen in 2026 puts a second one at 62% and a third at 31%. A $1 contract on the October 1 shutdown pays $50 if it happens.",
+  "quick_answer": "The odds of a government shutdown on October 1, 2026 are about 2% on Kalshi and 1% on Polymarket as of September 12, 2026. Both are real-money markets, so that is what people with cash at risk believe: a funding deal or a stopgap gets done. Kalshi's market on the number of shutdowns in 2026 prices two or more at 62% and three or more at 31%. Live, refreshed prices for both exchanges are on the Odds Desk shutdown tracker.",
+  "hero_bet": {
+    "title": "The US government shuts down on October 1, 2026",
+    "payout": 50.0,
+    "quip": "Two cents. The rules say a shutdown means an actual lapse in appropriations at 10 AM ET on October 1, not a near miss, so the contract pays on chaos and nothing else.",
+    "tier": "red",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com/markets/KXGOVTSHUTDOWN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {"text": "apps where you can bet on anything", "url": "/bet-on-anything/"},
+    {"text": "can you legally bet on elections?", "url": "/can-you-legally-bet-on-elections/"},
+    {"text": "the craziest kalshi bets right now", "url": "/crazy-kalshi-bets/"},
+    {"text": "how to read prediction market odds", "url": "/how-to-read-prediction-market-odds/"}
+  ],
+  "body": [
+    {"type": "text", "content": "Government shutdown odds used to mean a pundit's gut. Now they mean a price. Kalshi and Polymarket both run real-money markets on whether the federal government is shut down on October 1, the first day of the fiscal year, and the price of those contracts is the closest thing to a live probability that exists. Here is where they stand, what they mean, and why the number is so low this year."},
+    {"type": "heading", "content": "what are the government shutdown odds right now?"},
+    {"type": "text", "content": "As of September 12, 2026: Kalshi's contract on a shutdown on October 1 last traded at <strong>2¢</strong>, with about $300,000 of open interest. Polymarket's 'government shutdown by October 1' market sits at about <strong>1¢</strong> on far less volume ($15,000 over the life of the market), and its 'appropriations lapse on October 1' market at about 1¢. A contract at 2¢ pays $1 if the government shuts down, so $1 buys 50 contracts and returns $50 on a shutdown. These prices move every hour; the live versions, both exchanges side by side with 90 days of history, are on our sister site's <a href=\"https://oddsdesk.vercel.app/government-shutdown/\" rel=\"noopener\">government shutdown odds tracker</a>."},
+    {"type": "heading", "content": "why so low?"},
+    {"type": "text", "content": "We do not know, and the honest answer is that nobody does: a price is a summary of what traders believe, not an explanation. What the price says is that the people risking money expect appropriations or a continuing resolution to pass before midnight on September 30. It is worth noticing what it does not say. It does not say there will be no shutdown in 2026. Kalshi's separate market on how many distinct shutdowns happen before January 1, 2027 prices <strong>two or more at 62%</strong>, three or more at 31%, four or more at 6%. Read together: the market thinks October 1 is safe and a later deadline is not."},
+    {"type": "heading", "content": "what counts as a shutdown?"},
+    {"type": "text", "content": "Kalshi's rules are specific: the market resolves Yes if the federal government is at least partially shut down due to a lapse in appropriations at 10:00 AM ET on October 1, 2026. The examples in the rules are an OMB directive telling agencies to execute orderly shutdown plans, or OPM posting a partial-lapse operating status. A technical lapse that is cured before the morning does not count, and a stopgap passed at 11:58 PM counts as no shutdown. If you are trading it, that timestamp is the whole contract."},
+    {"type": "heading", "content": "how last year's shutdown traded"},
+    {"type": "text", "content": "The 2025 shutdown is why these markets exist at their current size. Polymarket's market on whether the government would shut down that Saturday did about $157 million in volume, and its markets on when the shutdown would end did another $70 million. Kalshi ran the same book in dollars. Both exchanges now open a new October 1 market every summer, and both open new deadline markets whenever Congress passes a short-term continuing resolution, which is why the tracker follows the deadline rather than a date."},
+    {"type": "heading", "content": "how to read the price"},
+    {"type": "list", "content": [
+      "<strong>2¢ is not zero.</strong> Markets price near-certain outcomes at 1¢ to 3¢ because someone always wants the lottery ticket and the fee structure makes the last penny expensive to sell.",
+      "<strong>Open interest matters.</strong> $300,000 on Kalshi means a real crowd. $15,000 on Polymarket's version means a small one; a single large order could move it.",
+      "<strong>Watch the gap.</strong> When Kalshi and Polymarket disagree by more than a few points on the same deadline, one of them is about to be right. They agree today.",
+      "<strong>Watch the deadline markets, not the date.</strong> A continuing resolution moves the risk to a new date, and the exchanges list a new contract for it within days."
+    ]},
+    {"type": "heading", "content": "where to bet on a government shutdown"},
+    {"type": "text", "content": "Kalshi (CFTC-regulated, US, age-gated, not available in every state) lists the October 1 contract, the number-of-shutdowns market, and a shutdown-length market when one is under way. Polymarket US lists shutdown markets on its app; the larger Polymarket global exchange does not serve US residents. Robinhood and Coinbase carry Kalshi's contracts inside their own apps. Our <a href=\"/bet-on-anything/\">guide to apps where you can bet on anything</a> has the ages, states and fees for each."}
+  ],
+  "faqs": [
+    {"q": "What are the odds of a government shutdown in 2026?", "a": "As of September 12, 2026, Kalshi prices a shutdown on October 1 at 2% and Polymarket at about 1%. Kalshi's market on the number of shutdowns before 2027 prices a second shutdown in 2026 at 62% and a third at 31%, so the market sees the October deadline as safe and a later one as live."},
+    {"q": "Can you bet on a government shutdown?", "a": "Yes. Kalshi lists real-money contracts on whether the government is shut down on October 1, 2026 and on how many shutdowns happen in 2026. Polymarket lists shutdown markets too. Both are exchanges where the price is set by traders."},
+    {"q": "What does a 2¢ shutdown contract pay?", "a": "A Yes contract at 2¢ pays $1 if the government is shut down at 10 AM ET on October 1, 2026. One dollar buys 50 contracts, so $1 returns $50 on a shutdown and $0 otherwise, before fees."},
+    {"q": "Where can I see the live shutdown odds?", "a": "The Odds Desk government shutdown tracker shows Kalshi and Polymarket prices side by side with price history, refreshed every couple of hours."}
+  ],
+  "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate markets or provide betting advice. Prices quoted are as of September 12, 2026 and move constantly. Kalshi is a separate, CFTC-regulated platform; Polymarket's global exchange does not serve US residents. Most longshot bets lose. Some links are affiliate links; we earn a commission if you sign up, never a cut of your bet.",
+  "publish_date": "2026-09-12",
+  "last_updated": "2026-09-12"
+}

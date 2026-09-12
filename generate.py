@@ -3969,6 +3969,10 @@ def main():
             if entry not in sitemap_pages:
                 sitemap_pages.append(entry)
 
+    # /trending/ is built by generate_trending.py (live volume page, 2026-09-12).
+    if not any(e[0] == "/trending/" for e in sitemap_pages):
+        sitemap_pages.append(("/trending/", 0.8))
+
     # Include the HTML sitemap itself in the XML sitemap so it's indexable.
     sitemap_entry = ("/sitemap/", 0.3)
     if sitemap_entry not in sitemap_pages:

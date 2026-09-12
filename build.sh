@@ -79,6 +79,9 @@ python3 generate.py
 # Generate content pages (SEO articles, Hall of Filth, explainers)
 python3 generate_content.py
 
+# /trending/ — live-volume page (Polymarket 24h volume + today's board). Non-fatal.
+python3 generate_trending.py || echo "[build] WARNING: trending page failed (non-fatal)"
+
 # Copy static source files (admin CMS, etc.)
 if [ -d "src" ]; then
   echo "[build] Copying static source files..."

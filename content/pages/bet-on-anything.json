@@ -1,0 +1,198 @@
+{
+  "slug": "bet-on-anything",
+  "format": "ranked_list",
+  "cluster": "Prediction Markets",
+  "priority": 88,
+  "seo": {
+    "title": "Bet on Anything: 12 Apps and Sites Where You Can Bet on Almost Anything (2026) | Dollar Bets",
+    "h1": "apps where you can bet on anything",
+    "meta_description": "Looking for an app where you can bet on anything? 12 real-money prediction market apps and sites ranked by how weird they let you get — weather, the Fed, the Oscars, asteroids, elections — with ages, states and fees as of September 2026.",
+    "canonical": "/bet-on-anything/"
+  },
+  "summary": "The apps where you can bet on (almost) anything are prediction markets: Kalshi has the widest catalogue in the US (weather, the Fed, awards, elections, asteroids), Polymarket US is the second exchange, and Robinhood and Coinbase put Kalshi's contracts inside apps you may already have. Underdog, Crypto.com, DraftKings and Fanatics list narrower sets. None of them will take a bet on anything illegal, and federal rules bar contracts on terrorism or assassination.",
+  "quick_answer": "The app where you can bet on the most things in the US is Kalshi: a CFTC-regulated exchange listing weather, Fed decisions, government shutdowns, the Oscars, elections, asteroid flybys and sports, usually from about $1 a contract. Polymarket US is the other exchange. Robinhood and Coinbase carry Kalshi's contracts inside their own apps. Below: 12 apps ranked by how much of 'anything' they actually cover, with age limits, blocked states and fees as of September 12, 2026.",
+  "hero_bet": {
+    "title": "The US government shuts down on October 1, 2026",
+    "payout": 50.0,
+    "quip": "Two cents on Kalshi for a shutdown at the September 30 deadline. Last year's shutdown market did $157 million on Polymarket. This year the money says: deal.",
+    "tier": "red",
+    "sourcePlatform": "Kalshi",
+    "marketType": "prediction_market",
+    "url": "https://kalshi.com/markets/KXGOVTSHUTDOWN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
+  },
+  "internal_links": [
+    {
+      "text": "trending prediction markets this week",
+      "url": "/trending/"
+    },
+    {
+      "text": "best prediction market sites",
+      "url": "/best-prediction-market-sites/"
+    },
+    {
+      "text": "the craziest kalshi bets right now",
+      "url": "/crazy-kalshi-bets/"
+    },
+    {
+      "text": "can you bet on the weather?",
+      "url": "/can-you-bet-on-the-weather/"
+    },
+    {
+      "text": "can you legally bet on elections?",
+      "url": "/can-you-legally-bet-on-elections/"
+    },
+    {
+      "text": "government shutdown odds",
+      "url": "/government-shutdown-odds/"
+    }
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Every few weeks someone searches for an app where you can bet on anything, finds a sportsbook, and leaves disappointed. Sportsbooks take bets on sports. The apps that take bets on <em>anything</em> — whether it snows in New York on Christmas, whether the Fed cuts in December, who wins Best Picture, whether the government shuts down on October 1 — are prediction markets. They are regulated like exchanges, not casinos, and most of them let you start with a dollar."
+    },
+    {
+      "type": "text",
+      "content": "This is the list, ranked by how much of 'anything' each one actually covers. Ages, blocked states and fees are as of September 12, 2026 and change often; every app geofences itself, so if it lets you trade where you are, that is the current answer. Our sister site <a href=\"https://oddsdesk.vercel.app/\" rel=\"noopener\">Odds Desk</a> shows the live prices on the two big exchanges side by side."
+    },
+    {
+      "type": "heading",
+      "content": "1. kalshi — the widest catalogue in the US"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi is a CFTC-regulated exchange and the closest thing to a literal bet-on-anything app that Americans can legally use. Weather (daily highs in 20 cities, hurricane landfalls, snow on Christmas), the economy (Fed decisions, inflation prints, gas prices), politics (every 2026 Senate, House and governor race, government shutdowns, 2028 nominees), entertainment (Oscars, Emmys, Grammys, Rotten Tomatoes scores, Billboard number ones, how many times a word gets said on a broadcast), science (SpaceX launches, asteroid passes) and sports. Contracts price from 1¢ to 99¢; the fee is about 1.75¢ per contract at a 50¢ price and near zero at the extremes. Age-gated at 18, higher where state law requires it. Blocked in Nevada; sports contracts blocked in Michigan and Massachusetts; most non-financial contracts blocked in Washington since August 2026. Our <a href=\"/crazy-kalshi-bets/\">craziest Kalshi bets</a> page is the guided tour."
+    },
+    {
+      "type": "heading",
+      "content": "2. polymarket us — the other exchange"
+    },
+    {
+      "type": "text",
+      "content": "Polymarket's global site is the biggest prediction market in the world and does not serve US residents. Polymarket US is the separate, CFTC-regulated app that launched in 2026: sports, politics, crypto, weather, tech, culture and economics, in dollars, 18+, mobile only, with the lowest taker fees of the exchanges (about 1.5¢ per contract at 50¢, with a rebate if your order sits on the book) and no deposit or withdrawal fees. Trading is paused in Nevada. The US app's catalogue is narrower than the global site's, so if you have read about a wild Polymarket market on the news, check the US app actually lists it."
+    },
+    {
+      "type": "heading",
+      "content": "3. robinhood — kalshi's contracts in the app you already have"
+    },
+    {
+      "type": "text",
+      "content": "Robinhood does not run its own exchange yet; it routes event contracts to Kalshi and other exchanges and charges a penny of commission plus a penny of exchange fee per contract. The range is close to Kalshi's: elections at every level, economics, weather, culture, sports and crypto. No event contracts in Maryland; no sports contracts in Nevada or New Jersey."
+    },
+    {
+      "type": "heading",
+      "content": "4. coinbase — kalshi's contracts, 50 states at launch"
+    },
+    {
+      "type": "text",
+      "content": "Coinbase's Predict tab distributes Kalshi contracts, including the Emmys and the rest of the entertainment shelf, and launched in all 50 states in January 2026 (one review reports Nevada excluded since). Fees mirror Kalshi's. You can fund it in dollars or USDC."
+    },
+    {
+      "type": "heading",
+      "content": "5. underdog — politics, weather and 'mentions' next to the fantasy app"
+    },
+    {
+      "type": "text",
+      "content": "Underdog runs its own exchange since July 2026 and lists government and politics, economics, entertainment, weather, geopolitics and mentions markets (will a word be said during an event) alongside sports. About 2¢ per contract, baked into the payout. Not available in Arizona, Michigan, Nevada or New York."
+    },
+    {
+      "type": "heading",
+      "content": "6. crypto.com / og.com — awards and politics with a sports skew"
+    },
+    {
+      "type": "text",
+      "content": "Crypto.com's exchange (branded OG.com in the US) lists sports, entertainment and awards, politics, economics and crypto. Two cents to open a contract, two to close early, nothing on a winner at settlement. Not available in New York or Arizona; sports blocked in seven more states."
+    },
+    {
+      "type": "heading",
+      "content": "7. draftkings predictions — congressional races and the oscars"
+    },
+    {
+      "type": "text",
+      "content": "DraftKings put event contracts inside its main app and, since June 2026, on its own exchange. Politics (Congressional races), economics, crypto and the Oscars, plus sports in the 18 states where it cannot run a sportsbook. About 2¢ per contract. Not in Maine or New Hampshire."
+    },
+    {
+      "type": "heading",
+      "content": "8. fanatics markets — 22 states, 2028 already on the board"
+    },
+    {
+      "type": "text",
+      "content": "Fanatics Markets is available in 22 states and four territories, broadly the ones without a legal sportsbook, and lists sports, politics (party to win the presidency in 2028), economics, finance and crypto, with movies and music promised. Fees top out at 2¢ per contract. 21+."
+    },
+    {
+      "type": "heading",
+      "content": "9. fanduel predicts — finance, crypto and culture, no politics"
+    },
+    {
+      "type": "text",
+      "content": "FanDuel's standalone Predicts app covers stock indices, commodities, crypto, economics and culture, with sports in 18 states. It does not list politics. The fee is 2% of the potential payout, charged when you buy and again if you cash out early, which is the least friendly structure on this list for cheap longshots."
+    },
+    {
+      "type": "heading",
+      "content": "10. predictit — the political original"
+    },
+    {
+      "type": "text",
+      "content": "PredictIt has taken real money on US politics since 2014 and only politics. It charges 10% of profit per trade and 5% on withdrawals, so its prices run a little wider than the exchanges'. Its regulatory footing was rebuilt through a 2025 settlement and its exchange partner changed hands in 2026; it is still trading."
+    },
+    {
+      "type": "heading",
+      "content": "11. novig and prophetx — sports only, but real exchanges"
+    },
+    {
+      "type": "text",
+      "content": "Both launched as CFTC-regulated exchanges in summer 2026 and both are sports-only by design. Novig charges nothing on straight trades for now; ProphetX charges 2% of net gains. They are here because people searching for a bet-on-anything app often want a sports exchange with better prices than a sportsbook, and these are those."
+    },
+    {
+      "type": "heading",
+      "content": "12. manifold — literally anything, for play money"
+    },
+    {
+      "type": "text",
+      "content": "Manifold lets anyone create a market on anything: whether a friend's startup raises, whether a paper replicates, whether it rains at a specific wedding. The currency is play money you can buy but not cash out. It is the purest bet-on-anything site that exists and it pays nothing, which is also why it can list anything."
+    },
+    {
+      "type": "heading",
+      "content": "what you still cannot bet on"
+    },
+    {
+      "type": "text",
+      "content": "Federal rules for these exchanges bar contracts on terrorism, assassination, war and anything illegal under state or federal law, and each exchange's rulebook adds its own exclusions. The other limit is liquidity: an exchange can list a market on whether a celebrity couple gets engaged, but if nobody trades it the price is one person's opinion. Open interest and volume are shown on every market page; a price with $200 behind it is not a forecast."
+    },
+    {
+      "type": "heading",
+      "content": "how to choose"
+    },
+    {
+      "type": "list",
+      "content": [
+        "<strong>Widest range, one app:</strong> Kalshi. If it is a yes-or-no question about the real world, it is probably listed.",
+        "<strong>Lowest exchange fees:</strong> Polymarket US, then Kalshi. Brokers (Robinhood, Coinbase, DraftKings) add a cent or two on top.",
+        "<strong>Already have the app:</strong> Robinhood or Coinbase get you Kalshi's catalogue without a new account.",
+        "<strong>Only politics:</strong> PredictIt is the old hand; Kalshi and Polymarket US now have deeper books.",
+        "<strong>Anything at all, no money:</strong> Manifold."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is there an app where you can bet on anything?",
+      "a": "Prediction-market apps come closest. Kalshi, a CFTC-regulated exchange, lists contracts on weather, the economy, elections, award shows, science and sports. Polymarket US is the other US exchange. No app takes bets on things that are illegal, and federal rules bar contracts on terrorism, assassination and war."
+    },
+    {
+      "q": "Are these apps legal in the US?",
+      "a": "Kalshi, Polymarket US and the exchanges behind Robinhood, Coinbase, DraftKings, Underdog and Fanatics are regulated federally by the CFTC. States are fighting over sports contracts in 2026: Nevada has blocked Kalshi outright, several states have blocked sports contracts, and cases are pending elsewhere. Each app geofences itself to where it is allowed."
+    },
+    {
+      "q": "How much money do you need?",
+      "a": "Contracts are priced between 1¢ and 99¢ and pay $1 if you are right, so a single contract costs under a dollar. Most apps have a $5 to $10 minimum deposit."
+    },
+    {
+      "q": "What is the difference between an exchange and a broker here?",
+      "a": "Kalshi and Polymarket US are exchanges: your order meets another trader's order on their book. Robinhood, Coinbase, DraftKings and Fanatics are brokers that send your order to an exchange and add a small fee. Same contracts, one extra hop."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate markets, hold your money or give betting advice. Ages, blocked states and fees are as stated by each platform or in court records as of September 12, 2026 and change often; each app's own geofence is the authority for where you are. Most longshot bets lose. Some links are affiliate links; we earn a commission if you sign up, never a cut of your bet.",
+  "publish_date": "2026-09-12",
+  "last_updated": "2026-09-12"
+}
