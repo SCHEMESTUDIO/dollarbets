@@ -86,6 +86,35 @@ delete. Keep entries short; link evidence.
   submits nothing rather than falling back to spray-all. Cost impact: ~97% fewer
   IndexNow API calls (typical week: 3 changes instead of 300+ submissions).
 
+- **2026-09-10 — Prediction-market scan switched to file-gated (commit 7096ad3).**
+  GitHub cron delays pushed the 08:00 UTC daily-scan run past 12:00 every day
+  since 2026-08-27, breaking the time-based (`HOUR == "08"`) gate, so the main
+  Kalshi/Polymarket board stopped updating on 2026-08-26 while sports/combo kept
+  refreshing. Fix: prediction board now scans only when no board exists for
+  today's UTC date (file-gated instead of time-gated). If a board already exists
+  (from a prior slot or manual edit), later runs skip the scan, ensuring exactly
+  one scan/day and preserving manual CMS edits. A failed scan fails the entire
+  job before the commit step, so the next slot retries cleanly.
+
+- **2026-09-12 — Telegram notifications switched to weekly digest mode (commit 9ee947b).**
+  James: "Telegram pings are useless; I never check them. Pause it and replace
+  with a weekly digest." Implementation: `notify-policy.json` root file added
+  with `"mode": "digest"` (new default). `scripts/notify_telegram.sh` now prints
+  messages to the run log instead of sending pings; per-run override via
+  `NOTIFY_MODE` env var or editing the file to `"mode": "instant"`. All CI run
+  status (incl. failures) now surfaces once weekly in the Postwerks Sunday email
+  ("Ops this week", via postwerks/scripts/notify_digest.py). No secrets changed.
+
+- **2026-09-12 — Editorial standards + `/trending/` hub (commits 381ac50/6c9a921).**
+  Three concurrent changes: (1) Headline casing rule: H1 and `<title>` in Title
+  Case; all UI labels, section headings, buttons in sentence case; all-lowercase
+  display text retired site-wide. (2) Article page layout: affiliate strip +
+  featured ticket moved BELOW the body on every format except `weird_market_roundup`
+  (where cards are the answer). Per-page override via `"promo": "top"|"bottom"|"none"`.
+  (3) New `/trending/` hub page (generate_trending.py) shows Polymarket's top
+  events by 24-hour volume + today's board picks, grouped by category. Never
+  fails the build (falls back to board alone if Polymarket API fails).
+
 ## Superseded (kept for archaeology)
 
 - ~~2026-06-11 rebuild: publish.sh sole git writer via launchd 11:30~~ →
