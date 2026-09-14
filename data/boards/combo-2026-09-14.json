@@ -1,0 +1,437 @@
+{
+  "generated_at": "2026-09-14T14:45:04.145707+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 7,
+    "MMA": 2,
+    "NCAAF": 1
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-7F1289F7",
+      "title": "South Carolina Gamecocks wins + Hugo Guillon wins",
+      "payout": 2.46,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607155520&selectionId=550999",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Mississippi State Bulldogs @ South Carolina Gamecocks + Luis Hernandez @ Hugo Guillon",
+      "market_type": "2-leg parlay",
+      "american_odds": 146,
+      "implied_probability": 0.407,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Mississippi State Bulldogs @ South Carolina Gamecocks",
+          "pick": "South Carolina Gamecocks wins",
+          "odds": -176,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607155520&selectionId=550999",
+          "commence_time": "2026-09-19T20:15:00Z"
+        },
+        {
+          "matchup": "Luis Hernandez @ Hugo Guillon",
+          "pick": "Hugo Guillon wins",
+          "odds": -176,
+          "implied_prob": "64%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608071606&selectionId=102817523",
+          "commence_time": "2026-09-15T23:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-15T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-6664A2EF",
+      "title": "Petr Yan wins + South Carolina Gamecocks wins",
+      "payout": 2.48,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.600461378&selectionId=19289678",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Merab Dvalishvili @ Petr Yan + Mississippi State Bulldogs @ South Carolina Gamecocks",
+      "market_type": "2-leg parlay",
+      "american_odds": 148,
+      "implied_probability": 0.403,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Merab Dvalishvili @ Petr Yan",
+          "pick": "Petr Yan wins",
+          "odds": -172,
+          "implied_prob": "63%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.600461378&selectionId=19289678",
+          "commence_time": "2026-10-25T03:30:00Z"
+        },
+        {
+          "matchup": "Mississippi State Bulldogs @ South Carolina Gamecocks",
+          "pick": "South Carolina Gamecocks wins",
+          "odds": -176,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607155520&selectionId=550999",
+          "commence_time": "2026-09-19T20:15:00Z"
+        }
+      ],
+      "close_time": "2026-09-19T20:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-DF2B6E2D",
+      "title": "Petr Yan wins + Hugo Guillon wins",
+      "payout": 2.48,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.600461378&selectionId=19289678",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "MMA",
+      "matchup": "Merab Dvalishvili @ Petr Yan + Luis Hernandez @ Hugo Guillon",
+      "market_type": "2-leg parlay",
+      "american_odds": 148,
+      "implied_probability": 0.403,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Merab Dvalishvili @ Petr Yan",
+          "pick": "Petr Yan wins",
+          "odds": -172,
+          "implied_prob": "63%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.600461378&selectionId=19289678",
+          "commence_time": "2026-10-25T03:30:00Z"
+        },
+        {
+          "matchup": "Luis Hernandez @ Hugo Guillon",
+          "pick": "Hugo Guillon wins",
+          "odds": -176,
+          "implied_prob": "64%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608071606&selectionId=102817523",
+          "commence_time": "2026-09-15T23:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-15T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-313B76B6",
+      "title": "UConn Huskies wins + South Carolina Gamecocks wins",
+      "payout": 2.49,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607158978&selectionId=943071",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "UConn Huskies @ Southern Mississippi Golden Eagles + Mississippi State Bulldogs @ South Carolina Gamecocks",
+      "market_type": "2-leg parlay",
+      "american_odds": 149,
+      "implied_probability": 0.402,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "UConn Huskies @ Southern Mississippi Golden Eagles",
+          "pick": "UConn Huskies wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607158978&selectionId=943071",
+          "commence_time": "2026-09-19T23:00:00Z"
+        },
+        {
+          "matchup": "Mississippi State Bulldogs @ South Carolina Gamecocks",
+          "pick": "South Carolina Gamecocks wins",
+          "odds": -176,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607155520&selectionId=550999",
+          "commence_time": "2026-09-19T20:15:00Z"
+        }
+      ],
+      "close_time": "2026-09-19T20:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-7B73BD9F",
+      "title": "UConn Huskies wins + Hugo Guillon wins",
+      "payout": 2.49,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607158978&selectionId=943071",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "UConn Huskies @ Southern Mississippi Golden Eagles + Luis Hernandez @ Hugo Guillon",
+      "market_type": "2-leg parlay",
+      "american_odds": 149,
+      "implied_probability": 0.402,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "UConn Huskies @ Southern Mississippi Golden Eagles",
+          "pick": "UConn Huskies wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607158978&selectionId=943071",
+          "commence_time": "2026-09-19T23:00:00Z"
+        },
+        {
+          "matchup": "Luis Hernandez @ Hugo Guillon",
+          "pick": "Hugo Guillon wins",
+          "odds": -176,
+          "implied_prob": "64%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608071606&selectionId=102817523",
+          "commence_time": "2026-09-15T23:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-15T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-48E1478D",
+      "title": "Edmen Shahbazyan wins + South Carolina Gamecocks wins",
+      "payout": 2.49,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606004445&selectionId=21818224",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Brunno Ferreira @ Edmen Shahbazyan + Mississippi State Bulldogs @ South Carolina Gamecocks",
+      "market_type": "2-leg parlay",
+      "american_odds": 149,
+      "implied_probability": 0.402,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Brunno Ferreira @ Edmen Shahbazyan",
+          "pick": "Edmen Shahbazyan wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606004445&selectionId=21818224",
+          "commence_time": "2026-09-19T22:15:00Z"
+        },
+        {
+          "matchup": "Mississippi State Bulldogs @ South Carolina Gamecocks",
+          "pick": "South Carolina Gamecocks wins",
+          "odds": -176,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607155520&selectionId=550999",
+          "commence_time": "2026-09-19T20:15:00Z"
+        }
+      ],
+      "close_time": "2026-09-19T20:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-35893B70",
+      "title": "Edmen Shahbazyan wins + Hugo Guillon wins",
+      "payout": 2.49,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606004445&selectionId=21818224",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "MMA",
+      "matchup": "Brunno Ferreira @ Edmen Shahbazyan + Luis Hernandez @ Hugo Guillon",
+      "market_type": "2-leg parlay",
+      "american_odds": 149,
+      "implied_probability": 0.402,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Brunno Ferreira @ Edmen Shahbazyan",
+          "pick": "Edmen Shahbazyan wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606004445&selectionId=21818224",
+          "commence_time": "2026-09-19T22:15:00Z"
+        },
+        {
+          "matchup": "Luis Hernandez @ Hugo Guillon",
+          "pick": "Hugo Guillon wins",
+          "odds": -176,
+          "implied_prob": "64%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608071606&selectionId=102817523",
+          "commence_time": "2026-09-15T23:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-15T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-DCD3C957",
+      "title": "Los Angeles Lakers wins + South Carolina Gamecocks wins",
+      "payout": 2.51,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.599273524&selectionId=5368712",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Golden State Warriors @ Los Angeles Lakers + Mississippi State Bulldogs @ South Carolina Gamecocks",
+      "market_type": "2-leg parlay",
+      "american_odds": 151,
+      "implied_probability": 0.398,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Golden State Warriors @ Los Angeles Lakers",
+          "pick": "Los Angeles Lakers wins",
+          "odds": -166,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.599273524&selectionId=5368712",
+          "commence_time": "2026-10-22T02:10:00Z"
+        },
+        {
+          "matchup": "Mississippi State Bulldogs @ South Carolina Gamecocks",
+          "pick": "South Carolina Gamecocks wins",
+          "odds": -176,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607155520&selectionId=550999",
+          "commence_time": "2026-09-19T20:15:00Z"
+        }
+      ],
+      "close_time": "2026-09-19T20:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-25DB22E1",
+      "title": "Los Angeles Lakers wins + Hugo Guillon wins",
+      "payout": 2.51,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.599273524&selectionId=5368712",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Golden State Warriors @ Los Angeles Lakers + Luis Hernandez @ Hugo Guillon",
+      "market_type": "2-leg parlay",
+      "american_odds": 151,
+      "implied_probability": 0.398,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Golden State Warriors @ Los Angeles Lakers",
+          "pick": "Los Angeles Lakers wins",
+          "odds": -166,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.599273524&selectionId=5368712",
+          "commence_time": "2026-10-22T02:10:00Z"
+        },
+        {
+          "matchup": "Luis Hernandez @ Hugo Guillon",
+          "pick": "Hugo Guillon wins",
+          "odds": -176,
+          "implied_prob": "64%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608071606&selectionId=102817523",
+          "commence_time": "2026-09-15T23:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-15T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-1148EE7D",
+      "title": "UConn Huskies wins + Petr Yan wins",
+      "payout": 2.51,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607158978&selectionId=943071",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "UConn Huskies @ Southern Mississippi Golden Eagles + Merab Dvalishvili @ Petr Yan",
+      "market_type": "2-leg parlay",
+      "american_odds": 151,
+      "implied_probability": 0.398,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "UConn Huskies @ Southern Mississippi Golden Eagles",
+          "pick": "UConn Huskies wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607158978&selectionId=943071",
+          "commence_time": "2026-09-19T23:00:00Z"
+        },
+        {
+          "matchup": "Merab Dvalishvili @ Petr Yan",
+          "pick": "Petr Yan wins",
+          "odds": -172,
+          "implied_prob": "63%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.600461378&selectionId=19289678",
+          "commence_time": "2026-10-25T03:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-19T23:00:00Z"
+    }
+  ]
+}
