@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-09-15T00:18:17.380556+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 7,
+    "MLS": 3
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-9AA6007E",
+      "title": "Texas State Bobcats wins + Under 3.5",
+      "payout": 2.75,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027433006?coupon={pickType}|4335443672|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "North Texas Mean Green @ Texas State Bobcats + Los Angeles FC @ San Jose Earthquakes",
+      "market_type": "2-leg parlay",
+      "american_odds": 175,
+      "implied_probability": 0.364,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "North Texas Mean Green @ Texas State Bobcats",
+          "pick": "Texas State Bobcats wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027433006?coupon={pickType}|4335443672|{wagerAmount}",
+          "commence_time": "2026-09-19T16:00:00Z"
+        },
+        {
+          "matchup": "Los Angeles FC @ San Jose Earthquakes",
+          "pick": "Under 3.5",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806446?coupon={pickType}|4334592901|{wagerAmount}",
+          "commence_time": "2026-09-19T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-19T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-C7D86FE9",
+      "title": "Texas State Bobcats wins + FC Dallas wins",
+      "payout": 2.75,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027433006?coupon={pickType}|4335443672|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "North Texas Mean Green @ Texas State Bobcats + Austin FC @ FC Dallas",
+      "market_type": "2-leg parlay",
+      "american_odds": 175,
+      "implied_probability": 0.364,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "North Texas Mean Green @ Texas State Bobcats",
+          "pick": "Texas State Bobcats wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027433006?coupon={pickType}|4335443672|{wagerAmount}",
+          "commence_time": "2026-09-19T16:00:00Z"
+        },
+        {
+          "matchup": "Austin FC @ FC Dallas",
+          "pick": "FC Dallas wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806458?coupon={pickType}|4334638135|{wagerAmount}",
+          "commence_time": "2026-09-20T00:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-19T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-E3BA427E",
+      "title": "Texas State Bobcats wins + Minnesota United FC wins",
+      "payout": 2.75,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027433006?coupon={pickType}|4335443672|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "North Texas Mean Green @ Texas State Bobcats + LA Galaxy @ Minnesota United FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 175,
+      "implied_probability": 0.364,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "North Texas Mean Green @ Texas State Bobcats",
+          "pick": "Texas State Bobcats wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027433006?coupon={pickType}|4335443672|{wagerAmount}",
+          "commence_time": "2026-09-19T16:00:00Z"
+        },
+        {
+          "matchup": "LA Galaxy @ Minnesota United FC",
+          "pick": "Minnesota United FC wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806421?coupon={pickType}|4334676502|{wagerAmount}",
+          "commence_time": "2026-09-20T00:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-19T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-F9BAD573",
+      "title": "Under 3.5 + FC Dallas wins",
+      "payout": 2.75,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1025806446?coupon={pickType}|4334592901|{wagerAmount}",
+      "sport": "soccer_usa_mls",
+      "sport_display": "MLS",
+      "matchup": "Los Angeles FC @ San Jose Earthquakes + Austin FC @ FC Dallas",
+      "market_type": "2-leg parlay",
+      "american_odds": 175,
+      "implied_probability": 0.364,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles FC @ San Jose Earthquakes",
+          "pick": "Under 3.5",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806446?coupon={pickType}|4334592901|{wagerAmount}",
+          "commence_time": "2026-09-19T23:30:00Z"
+        },
+        {
+          "matchup": "Austin FC @ FC Dallas",
+          "pick": "FC Dallas wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806458?coupon={pickType}|4334638135|{wagerAmount}",
+          "commence_time": "2026-09-20T00:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-19T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-61267558",
+      "title": "Under 3.5 + Minnesota United FC wins",
+      "payout": 2.75,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1025806446?coupon={pickType}|4334592901|{wagerAmount}",
+      "sport": "soccer_usa_mls",
+      "sport_display": "MLS",
+      "matchup": "Los Angeles FC @ San Jose Earthquakes + LA Galaxy @ Minnesota United FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 175,
+      "implied_probability": 0.364,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles FC @ San Jose Earthquakes",
+          "pick": "Under 3.5",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806446?coupon={pickType}|4334592901|{wagerAmount}",
+          "commence_time": "2026-09-19T23:30:00Z"
+        },
+        {
+          "matchup": "LA Galaxy @ Minnesota United FC",
+          "pick": "Minnesota United FC wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806421?coupon={pickType}|4334676502|{wagerAmount}",
+          "commence_time": "2026-09-20T00:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-19T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-15F03D22",
+      "title": "FC Dallas wins + Minnesota United FC wins",
+      "payout": 2.75,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1025806458?coupon={pickType}|4334638135|{wagerAmount}",
+      "sport": "soccer_usa_mls",
+      "sport_display": "MLS",
+      "matchup": "Austin FC @ FC Dallas + LA Galaxy @ Minnesota United FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 175,
+      "implied_probability": 0.364,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Austin FC @ FC Dallas",
+          "pick": "FC Dallas wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806458?coupon={pickType}|4334638135|{wagerAmount}",
+          "commence_time": "2026-09-20T00:30:00Z"
+        },
+        {
+          "matchup": "LA Galaxy @ Minnesota United FC",
+          "pick": "Minnesota United FC wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806421?coupon={pickType}|4334676502|{wagerAmount}",
+          "commence_time": "2026-09-20T00:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-20T00:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-35DFECA5",
+      "title": "Kansas City Chiefs wins + Texas State Bobcats wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663046?coupon={pickType}|4184180878|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Denver Broncos @ Kansas City Chiefs + North Texas Mean Green @ Texas State Bobcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Denver Broncos @ Kansas City Chiefs",
+          "pick": "Kansas City Chiefs wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663046?coupon={pickType}|4184180878|{wagerAmount}",
+          "commence_time": "2026-09-15T00:16:13Z"
+        },
+        {
+          "matchup": "North Texas Mean Green @ Texas State Bobcats",
+          "pick": "Texas State Bobcats wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027433006?coupon={pickType}|4335443672|{wagerAmount}",
+          "commence_time": "2026-09-19T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-15T00:16:13Z"
+    },
+    {
+      "ticker": "PARLAY-70D54A5F",
+      "title": "Kansas City Chiefs wins + Under 3.5",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663046?coupon={pickType}|4184180878|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Denver Broncos @ Kansas City Chiefs + Los Angeles FC @ San Jose Earthquakes",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Denver Broncos @ Kansas City Chiefs",
+          "pick": "Kansas City Chiefs wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663046?coupon={pickType}|4184180878|{wagerAmount}",
+          "commence_time": "2026-09-15T00:16:13Z"
+        },
+        {
+          "matchup": "Los Angeles FC @ San Jose Earthquakes",
+          "pick": "Under 3.5",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806446?coupon={pickType}|4334592901|{wagerAmount}",
+          "commence_time": "2026-09-19T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-15T00:16:13Z"
+    },
+    {
+      "ticker": "PARLAY-63FEE779",
+      "title": "Kansas City Chiefs wins + FC Dallas wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663046?coupon={pickType}|4184180878|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Denver Broncos @ Kansas City Chiefs + Austin FC @ FC Dallas",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Denver Broncos @ Kansas City Chiefs",
+          "pick": "Kansas City Chiefs wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663046?coupon={pickType}|4184180878|{wagerAmount}",
+          "commence_time": "2026-09-15T00:16:13Z"
+        },
+        {
+          "matchup": "Austin FC @ FC Dallas",
+          "pick": "FC Dallas wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806458?coupon={pickType}|4334638135|{wagerAmount}",
+          "commence_time": "2026-09-20T00:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-15T00:16:13Z"
+    },
+    {
+      "ticker": "PARLAY-0FAC9555",
+      "title": "Kansas City Chiefs wins + Minnesota United FC wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027663046?coupon={pickType}|4184180878|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Denver Broncos @ Kansas City Chiefs + LA Galaxy @ Minnesota United FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Denver Broncos @ Kansas City Chiefs",
+          "pick": "Kansas City Chiefs wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027663046?coupon={pickType}|4184180878|{wagerAmount}",
+          "commence_time": "2026-09-15T00:16:13Z"
+        },
+        {
+          "matchup": "LA Galaxy @ Minnesota United FC",
+          "pick": "Minnesota United FC wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806421?coupon={pickType}|4334676502|{wagerAmount}",
+          "commence_time": "2026-09-20T00:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-15T00:16:13Z"
+    }
+  ]
+}
