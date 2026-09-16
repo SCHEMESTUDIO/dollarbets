@@ -20,6 +20,7 @@ Ceilings and floors:
 - 3-4: "is SO back", "szn", "is BACK baby", "category 4 is a lifestyle", any noun-plus-vibe, any meta about betting or odds.
 Mode weights: American-sports comparisons and unfair-at-a-place lines are underrated by default, score them up. Impressions (a politician's voice) are good but only if the words are funny without the voice. The "my group chat" / "me, to my roommate" self-narration device is a formula: cap at 5. "in other news" cap at 6 unless the news is genuinely the joke.
 Length is not a fault. Explanation is. A flat tag after the punchline is not explanation.
+A film or TV quote that is only the quote caps at 8; the reference has to do something to the bet. On a tie between a first-person confession and a sports or board-game comparison, take the comparison, and prefer "you" over "i". A concrete picture beats a named emotion ("seething" tells the joke; a lift line that starts in another state's car park shows it). The bet's own number turned into something else (a phone number, an SAT score, a payout per American) is a top-tier move even when it is juvenile.
 
 PICKING FOR THE BOARD
 After scoring, pick exactly one candidate per market under these board rules:

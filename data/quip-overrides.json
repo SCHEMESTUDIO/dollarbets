@@ -1185,5 +1185,45 @@
     "original_quip": "Artemis III slipping faster than the countdown ticks",
     "editor_quip": "Cancel this and you could give every American $44 which is exactly this payout. coincidence? i think not.",
     "source": "quip-room-2026-09-12"
+  },
+  {
+    "date": "2026-09-16",
+    "title": "Israel annexes territory this year",
+    "category": "Other",
+    "payout": 13.33,
+    "tier": "orange",
+    "original_quip": "i've downloaded and deleted three news apps this year alone",
+    "editor_quip": "like the part of Risk where you stop being friends with people",
+    "source": "quip-room-2026-09-16"
+  },
+  {
+    "date": "2026-09-16",
+    "title": "Humans colonize Mars before 2050",
+    "category": "Science and Technology",
+    "payout": 4.76,
+    "tier": "yellow",
+    "original_quip": "get your ass to Mars, is all i'm saying",
+    "editor_quip": "first Martian colony meeting is an HOA fight about dome paint",
+    "source": "quip-room-2026-09-16"
+  },
+  {
+    "date": "2026-09-16",
+    "title": "ChatGPT is first to 1550 on Text Arena",
+    "category": "Science and Technology",
+    "payout": 10.0,
+    "tier": "orange",
+    "original_quip": "this is Duke winning again and an entire nation groaning",
+    "editor_quip": "1-550-DEE-NUTZ",
+    "source": "quip-room-2026-09-16"
+  },
+  {
+    "date": "2026-09-16",
+    "title": "Utah tops 6 million skier visits this season",
+    "category": "Economics",
+    "payout": 1.72,
+    "tier": "green",
+    "original_quip": "Colorado quietly seething in a Vail parking garage",
+    "editor_quip": "The Park City lift line starts in the Vail parking lot",
+    "source": "quip-room-2026-09-16"
   }
 ]
