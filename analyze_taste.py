@@ -34,6 +34,26 @@ CUSTOM_CLUSTERS_PATH = os.path.join(DATA_DIR, "custom-clusters.json")
 MIN_OVERRIDES = 5
 
 
+def claude_text(result):
+    """Return the joined text blocks of a Messages API response.
+
+    With adaptive thinking (requested explicitly, or on by default for
+    claude-sonnet-5 / claude-opus-5) the first content block is a thinking
+    block, so ``result["content"][0]["text"]`` raises ``KeyError: 'text'``.
+    Select the text blocks by type instead of by position.
+    """
+    blocks = result.get("content") or []
+    parts = [b.get("text", "") for b in blocks
+             if isinstance(b, dict) and b.get("type") == "text"]
+    if not parts:
+        kinds = [b.get("type") for b in blocks if isinstance(b, dict)]
+        raise ValueError(
+            f"no text block in Claude response "
+            f"(stop_reason={result.get('stop_reason')!r}, block types={kinds})"
+        )
+    return "".join(parts).strip()
+
+
 def load_overrides():
     """Load editor quip overrides."""
     try:
@@ -199,7 +219,7 @@ Respond with ONLY the JSON object."""
         with urllib.request.urlopen(req, timeout=120) as resp:
             raw = resp.read().decode()
             result = json.loads(raw)
-            text = result["content"][0]["text"].strip()
+            text = claude_text(result)
 
             # Strip markdown fences if present
             if text.startswith("```"):
@@ -310,7 +330,7 @@ def main():
     guide = analyze_taste(overrides, existing_guide)
     if not guide:
         print("[taste] Analysis failed, keeping existing guide", file=sys.stderr)
-        return
+        sys.exit(1)
 
     # Add metadata
     from datetime import datetime, timezone
