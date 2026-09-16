@@ -397,12 +397,12 @@ SHARED_CSS = """
       background: #fef0e4;
     }
 
-    /* === SCAN LINE (bold pitch under the nav) === */
+    /* === SCAN LINE (bold pitch directly below the email signup) === */
     .scan-line {
       font-size: 13px;
       font-weight: 700;
       color: #2d2319;
-      margin-top: 12px;
+      margin: -6px 0 16px;
       line-height: 1.6;
     }
 
@@ -1253,6 +1253,11 @@ SHARED_CSS = """
     }
 """
 
+# Bold pitch line, rendered directly below the email signup on every page
+# that shows one (James, 2026-09-16; it used to sit under the nav).
+# "Bookmark us" will become a link once the update-ping feature ships.
+SCAN_LINE_HTML = '<div class="scan-line">Every day we scan regulated exchanges, prediction markets, and sports books to find the most interesting odds. Bookmark us to get the latest updates.</div>'
+
 SIGNUP_HTML = """
     <div class="signup">
       <div class="signup-box">
@@ -1469,15 +1474,10 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
     if compact_header:
         tagline_html = ""
         nav_block = ""
-        scan_line = ""
         below_board_strips = ""
     else:
         tagline_html = '<div class="tagline">The world\'s most interesting $1 wagers. A buck says maybe. 💸</div>'
         nav_block = f'<nav aria-label="Boards" class="nav">{nav_html(current_nav)}</nav>'
-        # Bold pitch line under the nav (replaces the old dated disclosure,
-        # which now lives below the boards). "Bookmark us" will become a link
-        # once the update-ping feature ships.
-        scan_line = '<div class="scan-line">Every day we scan regulated exchanges, prediction markets, and sports books to find the most interesting odds. Bookmark us to get the latest updates.</div>'
         # Dated commission disclosure + trust strip — rendered together,
         # directly below the page's main content on every non-compact page.
         below_board_strips = f"""    <div class="disclosure-strip">{date_str}: we scan <strong>CFTC-regulated exchanges</strong> and major prediction markets every morning. We earn a commission if you sign up through our links, never a cut of your bet, and we never hold your money.</div>
@@ -1541,15 +1541,13 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
 
     {nav_block}
 
-    {scan_line}
-
     <main id="content">
 {body}
     </main>
 
 {below_board_strips}
 
-{SIGNUP_HTML if show_signup else ""}
+{SIGNUP_HTML + SCAN_LINE_HTML if show_signup else ""}
 
 {footer_info_nav()}
 
@@ -1962,7 +1960,7 @@ def render_bet_list(bets, empty_msg="no bets yet — check back soon.", longshot
         others_sorted = sorted(others, key=lambda x: x.get("payout", 0), reverse=True)
         rows.append(render_longshot_hero(hero))
         if signup_after_hero:
-            rows.append(f'      <li>{SIGNUP_HTML}</li>')
+            rows.append(f'      <li>{SIGNUP_HTML}{SCAN_LINE_HTML}</li>')
         rows.extend(render_bet_card(b) for b in others_sorted)
     else:
         sorted_bets = sorted(bets, key=lambda x: x.get("payout", 0), reverse=True)
