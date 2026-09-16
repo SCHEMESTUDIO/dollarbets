@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "note": "Per-market lessons from the editor's verdicts on machine candidates. Rendered into the judge prompt (prompts/quip-judge.md, {{LESSONS}}). Append a lesson per market each time he reviews a board; keep each one to what he did and why it beat the machine's pick.",
+    "updated_at": "2026-09-16",
+    "scoreboard": {
+      "2026-09-12": {
+        "ship": 2,
+        "tweak": 0,
+        "alt": 1,
+        "mine": 7,
+        "note": "A/B page; 'ship' = kept a revised pick"
+      },
+      "2026-09-16": {
+        "ship": 6,
+        "tweak": 1,
+        "alt": 0,
+        "mine": 3
+      }
+    }
+  },
+  "lessons": [
+    {
+      "date": "2026-09-12",
+      "ticker": "KXROBOTMARS-35",
+      "text": "Robot walks on Mars. Machine's top pick (scored 8.5): \"we argued about budgets for sixty years and the toaster just went\". He ignored it and built his line from a candidate scored 5: \"Matt Damon in shambles\" → shipped \"Matt Damon didn't become the greatest botanist on the planet for this\". A shared reference the reader already owns beats an original image every time."
+    },
+    {
+      "date": "2026-09-12",
+      "ticker": "0x62cbf6438c0aa2064e2fa8ca2fa2db556d08749d4f9db23fae48fffb520b4e48",
+      "text": "Swallows beat the Carp. Top pick (8): \"the Carp have not been relevant since my last haircut\". He built from a candidate scored 6: \"a bird beating a fish is nature at its most electric\" → shipped it with a flat tag: \"…that's Japanese baseball for you.\" The dumb literal observation delivered as awe wins, and a deadpan tag after the punchline is allowed when it adds attitude, not explanation."
+    },
+    {
+      "date": "2026-09-12",
+      "ticker": "0xdf55c317915311fca1240a05d949f4098e9480479d47d6291b3040b5cdee872a",
+      "text": "Coquimbo Unido win. Top pick (8.5): \"\\\"COQUIMBOOO\\\" — me, to my roommate, unprompted, on a Saturday\". He built from a candidate scored 5: \"like a Sun Belt team winning a bowl game nobody televised\" → shipped \"like a Sun Belt team winning an untelevised bowl game\". The American-sports comparison is his home mode. Self-narrated performance (\"me, to my roommate\") reads as a bit being performed and he never picks it."
+    },
+    {
+      "date": "2026-09-12",
+      "ticker": "KXHURCAT-26LEAH-T4",
+      "text": "Leah becomes a Category 4. Candidate scored 9: \"Tampa did something to deserve this and they know what it was\" → he shipped \"Tampa probably deserves this\". Right idea, a third of the words. He passed over the other 9, \"Leah sounds exactly like a girl who would do this to us\"."
+    },
+    {
+      "date": "2026-09-12",
+      "ticker": "0xf7c284a338a93a3427db8fcc649ad730a49bb3baf692aaf2022687213228835f",
+      "text": "Ohtani leads MLB in ERA. Top pick (8.5): \"he takes the ERA title and apologizes to the runner-up in two languages\". He took a candidate scored 8 verbatim: \"Angels fans watching from a Denny's parking lot\". Mean and specific beats gracious and clever."
+    },
+    {
+      "date": "2026-09-12",
+      "ticker": "KXRAMPBREX-40-BREX",
+      "text": "Brex IPOs before Ramp. Nothing in sixteen candidates. He wrote \"Begun, the corporate card war has\". A famous syntax (Yoda) applied to the bet's own phrase, no explanation."
+    },
+    {
+      "date": "2026-09-12",
+      "ticker": "MOON-27DEC31",
+      "text": "NASA on the Moon before 2028. He wrote \"Cancel this and you could give every American $44 which is exactly this payout. coincidence? i think not.\" The bet's own numbers (the $ payout) are material, the voice is a conspiracy guy, and two sentences are fine when the second one is the joke."
+    },
+    {
+      "date": "2026-09-12",
+      "ticker": "KXUSAIRANAGREEMENT-27-26DEC",
+      "text": "US-Iran nuclear deal. Top pick (8): \"my geopolitics guy in the group chat finally eats this week\". He wrote \"at this point I don't know how many deals we've had and I'm too embarrassed to ask\". Weary first-person confession beats the \"my group chat\" device, which is a formula and scores 5 at best."
+    },
+    {
+      "date": "2026-09-12",
+      "ticker": "KXNFLDEBUT-27DALLAR16-W7W10",
+      "text": "Drew Allar starts: he shipped the machine pick untouched, \"he throws for 94 yards and a town renames a bridge\". Escalating concrete consequences work when every item is specific."
+    },
+    {
+      "date": "2026-09-12",
+      "ticker": "0x6eb86679303704bfc4dc014b21914063124bdd26702a77f5bc1d6d1aa6178483",
+      "text": "Lutnick exits: he shipped the machine pick untouched, \"back at Cantor by Tuesday, book deal by Thursday, podcast by Lent\". A list of consequences that gets pettier as it goes."
+    },
+    {
+      "date": "2026-09-16",
+      "ticker": "KXUTSKIVISITS-27JUL31-T6000000",
+      "text": "Utah tops 6 million skier visits. Shipped (scored 9): \"Colorado quietly seething in a Vail parking garage\". He wrote \"The Park City lift line starts in the Vail parking lot\", fusing a candidate scored 6.5 (\"the Park City lift line becomes visible from orbit\") with the Vail parking lot image. A concrete picture beats a named emotion: \"seething\" tells you the joke, a lift line that starts in another state's car park shows it. He will splice two candidates."
+    },
+    {
+      "date": "2026-09-16",
+      "ticker": "KXCOLONIZEMARS-50",
+      "text": "Humans colonize Mars before 2050. Shipped (8.5): \"get your ass to Mars, is all i'm saying\" (Total Recall). He took the candidate scored 8, \"first Martian city council meeting is an HOA fight about dome paint\", and shipped it as \"first Martian colony meeting is an HOA fight about dome paint\". A film quote that is only the quote is not an automatic win; the mundane consequence (an HOA fight) is a shared specific too, and funnier. Cap a bare quote at 8."
+    },
+    {
+      "date": "2026-09-16",
+      "ticker": "KXMODELHIGH-27-1550-CHAT",
+      "text": "ChatGPT first to 1550 on Text Arena. Shipped (9): \"this is Duke winning again and an entire nation groaning\". He wrote \"1-550-DEE-NUTZ\". The bet's own number turned into a phone number and a schoolyard joke. Juvenile is allowed; the number-as-material mode beat a ten-word sports comparison; four tokens beat ten words."
+    },
+    {
+      "date": "2026-09-16",
+      "ticker": "0x8b2d3edd0500a52b39676e1d59a0da5ac145f4e03e97b0d0412da13ca0e70c2a",
+      "text": "Israel annexes territory. Shipped (8.5): \"i've downloaded and deleted three news apps this year alone\". Tied at 8.5 was \"this is the part of Risk where i stop being friends with people\"; he shipped that one, reworded to \"like the part of Risk where you stop being friends with people\". On a tie between a confession and a game/sports comparison, take the comparison, and prefer \"you\" (implicating the reader) over \"i\"."
+    },
+    {
+      "date": "2026-09-16",
+      "ticker": "KXNEXTHURDATE-26DEC01-26OCT01",
+      "text": "Next Atlantic hurricane before October. Shipped untouched: \"Florida, assume the position\" (deadpan, four words, mean at a place)."
+    },
+    {
+      "date": "2026-09-16",
+      "ticker": "KXEARTHQUAKEJAPAN-30",
+      "text": "Japan 8.0 earthquake before 2030. Shipped untouched: \"the vending machines start handing out free water bottles, which is incredible\". Invented consequence with a sincere flat tag; the tag is what makes it."
+    },
+    {
+      "date": "2026-09-16",
+      "ticker": "0xcd0982df2b103913cf57b35e3b19a839388e0279ff2532e7681b31627089d93f",
+      "text": "Hylo launches a token. Shipped untouched: \"another token. love it. keep them coming. i'm being serious\". Dumb enthusiasm in four short sentences; periods inside the line are fine."
+    },
+    {
+      "date": "2026-09-16",
+      "ticker": "0xb66b710cf927a7156315648b147d52696c16c6530a63fb7a5680daad408275f5",
+      "text": "Nayarit governor race. Shipped untouched: \"state governor races are the minor league baseball of world politics\". American-sports comparison for an obscure market, no explanation."
+    },
+    {
+      "date": "2026-09-16",
+      "ticker": "KXUAPFILES-26AUG10-26SEP18",
+      "text": "Trump releases UFO files. Shipped untouched: \"\\\"we have the files. tremendous files. some of them glow\\\"\". Impression where the words are funny without the voice."
+    },
+    {
+      "date": "2026-09-16",
+      "ticker": "0x46a8b55c8c9491f12133f9612615e256062754dba0170619f654ba6e6dbb3ee1",
+      "text": "Trump and Putin meet in Russia. Shipped untouched: \"away game, hostile crowd, no replay review, no timeouts\". Sports vocabulary as a list, escalating, on a geopolitics market."
+    }
+  ]
+}

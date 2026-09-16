@@ -82,7 +82,7 @@
   },
   {
     "date": "2026-04-29",
-    "title": "Will SpaceX\u2019s IPO valuation be between 1.50T and 1.75T?",
+    "title": "Will SpaceX’s IPO valuation be between 1.50T and 1.75T?",
     "category": "Science and Technology",
     "payout": 3,
     "tier": "green",
@@ -109,7 +109,7 @@
   },
   {
     "date": "2026-04-29",
-    "title": "No change in the Selic rate after Bank of Brazil\u2019s April 2026 meeting?",
+    "title": "No change in the Selic rate after Bank of Brazil’s April 2026 meeting?",
     "category": "Other",
     "payout": 41.67,
     "tier": "red",
@@ -163,7 +163,7 @@
   },
   {
     "date": "2026-05-01",
-    "title": "Will Donald Trump be the #1 rank on Google\u2019s Year in Search 2026 Global \u2013 People?",
+    "title": "Will Donald Trump be the #1 rank on Google’s Year in Search 2026 Global – People?",
     "category": "Entertainment",
     "payout": 4.76,
     "tier": "yellow",
@@ -185,7 +185,7 @@
     "category": "Science and Technology",
     "payout": 90.91,
     "tier": "purple",
-    "original_quip": "\u6cf0\u52d2\u7d72 could not be reached for comment",
+    "original_quip": "泰勒絲 could not be reached for comment",
     "editor_quip": "if geopolitics was Catan, this is like blocking longest road with a port"
   },
   {
@@ -244,7 +244,7 @@
   },
   {
     "date": "2026-05-01",
-    "title": "Will Fran\u00e7ois Hollande win the 2027 French presidential election?",
+    "title": "Will François Hollande win the 2027 French presidential election?",
     "category": "World",
     "payout": 20.2,
     "tier": "red",
@@ -379,7 +379,7 @@
   },
   {
     "date": "2026-05-05",
-    "title": "PSG wins the 2025\u201326 Champions League",
+    "title": "PSG wins the 2025–26 Champions League",
     "category": "Other",
     "payout": 3.17,
     "tier": "yellow",
@@ -617,7 +617,7 @@
     "category": "World",
     "payout": 13.7,
     "tier": "orange",
-    "original_quip": "here we go again \u2014 Whitesnake, probably",
+    "original_quip": "here we go again — Whitesnake, probably",
     "editor_quip": "Ok Go - \"Here It Goes Again\" as performed by the Supreme Court"
   },
   {
@@ -725,12 +725,12 @@
     "category": "Science and Technology",
     "payout": 6.45,
     "tier": "yellow",
-    "original_quip": "the machines are assembling their r\u00e9sum\u00e9s",
+    "original_quip": "the machines are assembling their résumés",
     "editor_quip": "WWF but make it computers "
   },
   {
     "date": "2026-05-15",
-    "title": "Elon posts exactly 200\u2013219 tweets in a week",
+    "title": "Elon posts exactly 200–219 tweets in a week",
     "category": "Other",
     "payout": 12.12,
     "tier": "orange",
@@ -1105,5 +1105,125 @@
     "tier": "red",
     "original_quip": "in other news: Boeing delivers on time",
     "editor_quip": "it would be so sick if like Monster Energy sponsored this "
+  },
+  {
+    "date": "2026-09-12",
+    "title": "Swallows beat the Carp",
+    "category": "Other",
+    "payout": 4.0,
+    "tier": "yellow",
+    "original_quip": "Jingu beer girls carrying more weight than the bullpen",
+    "editor_quip": "a bird beating a fish is nature at its most electric. that's Japanese baseball for you.",
+    "source": "quip-room-2026-09-12"
+  },
+  {
+    "date": "2026-09-12",
+    "title": "Coquimbo Unido win this weekend",
+    "category": "Other",
+    "payout": 4.96,
+    "tier": "yellow",
+    "original_quip": "the Pirates sailing into somebody's relegation nightmare",
+    "editor_quip": "like a Sun Belt team winning an untelevised bowl game",
+    "source": "quip-room-2026-09-12"
+  },
+  {
+    "date": "2026-09-12",
+    "title": "Ohtani leads MLB in ERA next season",
+    "category": "Sports",
+    "payout": 57.14,
+    "tier": "purple",
+    "original_quip": "he'd do it just to make the Cy Young voters cry",
+    "editor_quip": "Angels fans watching from a Denny's parking lot",
+    "source": "quip-room-2026-09-12"
+  },
+  {
+    "date": "2026-09-12",
+    "title": "Leah strengthens into a Category 4",
+    "category": "Climate and Weather",
+    "payout": 9.09,
+    "tier": "orange",
+    "original_quip": "warm water, no shear, and a name nobody's retired yet",
+    "editor_quip": "Tampa probably deserves this",
+    "source": "quip-room-2026-09-12"
+  },
+  {
+    "date": "2026-09-12",
+    "title": "Brex IPOs before Ramp",
+    "category": "Financials",
+    "payout": 11.11,
+    "tier": "orange",
+    "original_quip": "the corporate card wars end in a bell-ringing ceremony",
+    "editor_quip": "Begun, the corporate card war has",
+    "source": "quip-room-2026-09-12"
+  },
+  {
+    "date": "2026-09-12",
+    "title": "A humanoid robot walks on Mars before any human",
+    "category": "Science and Technology",
+    "payout": 2.04,
+    "tier": "green",
+    "original_quip": "Optimus gets the flag photo, we get the livestream",
+    "editor_quip": "Matt Damon didn't become the greatest botanist on the planet for this",
+    "source": "quip-room-2026-09-12"
+  },
+  {
+    "date": "2026-09-12",
+    "title": "US signs a new Iran nuclear deal this year",
+    "category": "Politics",
+    "payout": 16.67,
+    "tier": "red",
+    "original_quip": "Vienna hotel bar quietly restocking for nothing",
+    "editor_quip": "at this point I don't know how many deals we've had and I'm too embarrassed to ask",
+    "source": "quip-room-2026-09-12"
+  },
+  {
+    "date": "2026-09-12",
+    "title": "NASA lands a person on the Moon before 2028",
+    "category": "Science and Technology",
+    "payout": 43.48,
+    "tier": "red",
+    "original_quip": "Artemis III slipping faster than the countdown ticks",
+    "editor_quip": "Cancel this and you could give every American $44 which is exactly this payout. coincidence? i think not.",
+    "source": "quip-room-2026-09-12"
+  },
+  {
+    "date": "2026-09-16",
+    "title": "Israel annexes territory this year",
+    "category": "Other",
+    "payout": 13.33,
+    "tier": "orange",
+    "original_quip": "i've downloaded and deleted three news apps this year alone",
+    "editor_quip": "like the part of Risk where you stop being friends with people",
+    "source": "quip-room-2026-09-16"
+  },
+  {
+    "date": "2026-09-16",
+    "title": "Humans colonize Mars before 2050",
+    "category": "Science and Technology",
+    "payout": 4.76,
+    "tier": "yellow",
+    "original_quip": "get your ass to Mars, is all i'm saying",
+    "editor_quip": "first Martian colony meeting is an HOA fight about dome paint",
+    "source": "quip-room-2026-09-16"
+  },
+  {
+    "date": "2026-09-16",
+    "title": "ChatGPT is first to 1550 on Text Arena",
+    "category": "Science and Technology",
+    "payout": 10.0,
+    "tier": "orange",
+    "original_quip": "this is Duke winning again and an entire nation groaning",
+    "editor_quip": "1-550-DEE-NUTZ",
+    "source": "quip-room-2026-09-16"
+  },
+  {
+    "date": "2026-09-16",
+    "title": "Utah tops 6 million skier visits this season",
+    "category": "Economics",
+    "payout": 1.72,
+    "tier": "green",
+    "original_quip": "Colorado quietly seething in a Vail parking garage",
+    "editor_quip": "The Park City lift line starts in the Vail parking lot",
+    "source": "quip-room-2026-09-16"
   }
 ]
