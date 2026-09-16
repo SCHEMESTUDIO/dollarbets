@@ -2031,6 +2031,228 @@ Respond with ONLY the JSON array."""
     return _match_from_pool(board, market_lines)
 
 
+# ── Quip pipeline v2: persona + overgenerate + judge ────────────
+#
+# Enabled with QUIP_PIPELINE=v2 (daily-scan.yml sets it for the prediction
+# board). Two streamed Opus calls per board: the generator writes the title
+# plus 8 candidate quips per market in named modes; the judge scores every
+# candidate the way the editor does and picks one per market under board
+# rules. Any failure falls back to match_quips_ai() (v1), so a board always
+# ships. Prompts live in prompts/quip-persona.md and prompts/quip-judge.md;
+# the editor's calibration in data/quip-lessons.json; his examples come from
+# data/quip-overrides.json (the CMS writes that file). Background and the
+# eval that motivated this: ../quip-judge/README.md in the project folder.
+
+_V2_PROMPTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "prompts")
+_V2_MAX_TOKENS = 16000
+_V2_CANDIDATES = 8
+_V2_EXAMPLES = 48
+_V2_CONTRASTS = 14
+_V2_POOL_ANCHORS = {"probably gravy", "outrageously plausible", "crazier things have happened",
+                    "money printer go brrrr", "fine, sure, gravy", "seen this one before",
+                    "you see it every day"}
+
+
+def _v2_read_prompt(name):
+    with open(os.path.join(_V2_PROMPTS_DIR, name), encoding="utf-8") as f:
+        return f.read().strip()
+
+
+def _v2_parse_sse(raw):
+    """Collect text deltas, stop_reason and usage from a Messages API SSE stream."""
+    text, stop, usage = [], None, {}
+    for chunk in raw.split("\n\n"):
+        data = None
+        for line in chunk.splitlines():
+            if line.startswith("data:"):
+                data = line[5:].strip()
+        if not data or data == "[DONE]":
+            continue
+        try:
+            ev = json.loads(data)
+        except json.JSONDecodeError:
+            continue
+        t = ev.get("type")
+        if t == "content_block_delta":
+            d = ev.get("delta") or {}
+            if d.get("type") == "text_delta":
+                text.append(d.get("text", ""))
+        elif t == "message_delta":
+            stop = (ev.get("delta") or {}).get("stop_reason", stop)
+            usage.update(ev.get("usage") or {})
+        elif t == "message_start":
+            usage.update(((ev.get("message") or {}).get("usage")) or {})
+        elif t == "error":
+            raise RuntimeError(f"stream error: {ev.get('error')}")
+    return "".join(text), stop, usage
+
+
+def _v2_claude(system, user, label, timeout=420):
+    """One streamed Opus call. Streaming because the generator runs long enough
+    that a non-streaming request has been cut off mid-response."""
+    body = json.dumps({
+        "model": QUIP_MODEL,
+        "max_tokens": _V2_MAX_TOKENS,
+        "stream": True,
+        "thinking": {"type": "adaptive"},
+        "output_config": {"effort": "high"},
+        "system": system,
+        "messages": [{"role": "user", "content": user}],
+    }).encode()
+    req = urllib.request.Request(
+        "https://api.anthropic.com/v1/messages", data=body, method="POST",
+        headers={"Content-Type": "application/json", "x-api-key": ANTHROPIC_API_KEY,
+                 "anthropic-version": "2023-06-01", "Accept": "text/event-stream"})
+    t0 = time.time()
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        raw = resp.read().decode("utf-8", "replace")
+    text, stop, usage = _v2_parse_sse(raw)
+    print(f"[quip-v2] {label}: {usage.get('input_tokens', '?')}in/{usage.get('output_tokens', '?')}out "
+          f"{time.time() - t0:.0f}s stop={stop}", file=sys.stderr)
+    if stop == "refusal":
+        raise RuntimeError("model refused")
+    text = text.strip()
+    if text.startswith("```"):
+        text = re.sub(r"^```\w*\n?", "", text)
+        text = re.sub(r"\n?```$", "", text).strip()
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        i, j = text.find("["), text.rfind("]")
+        return json.loads(text[i:j + 1])
+
+
+def _v2_editor_examples():
+    """The editor's own rewrites from data/quip-overrides.json: not pool picks, not
+    trims of the machine line. Oldest first, so [-n:] is the freshest."""
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "quip-overrides.json")
+    try:
+        with open(path) as f:
+            rows = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+    pool = {q.lower() for q in ALL_QUIPS}
+
+    def toks(s):
+        return set(re.findall(r"[a-z0-9']+", s.lower()))
+    seen, out = set(), []
+    for o in rows:
+        q = (o.get("editor_quip") or "").strip()
+        k = q.lower()
+        if not q or k in seen or k in pool or any(b in k for b in _V2_POOL_ANCHORS):
+            continue
+        a, b = toks(o.get("original_quip") or ""), toks(q)
+        if b and len(a & b) / len(b) >= 0.5:
+            continue
+        seen.add(k)
+        out.append(o)
+    return out
+
+
+def _v2_examples_block(ex, n):
+    rows = ex[-n:]
+    if not rows:
+        return ""
+    return "EDITOR'S OWN LINES (title → what he actually shipped). Match this, do not copy it:\n" + "\n".join(
+        f'- "{o["title"].strip()}" [{o.get("tier", "")}] → {o["editor_quip"].strip()}' for o in rows)
+
+
+def _v2_contrast_block(ex, n):
+    rows = [o for o in ex if (o.get("original_quip") or "").strip()][-n:]
+    if not rows:
+        return ""
+    return "WHAT HE CHANGES (the machine wrote the first line, he replaced it with the second):\n" + "\n".join(
+        f'- "{o["title"].strip()}"\n    machine: {o["original_quip"].strip()}\n    editor:  {o["editor_quip"].strip()}'
+        for o in rows)
+
+
+def _v2_lessons_block():
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "quip-lessons.json")
+    try:
+        with open(path) as f:
+            lessons = json.load(f).get("lessons", [])
+    except (FileNotFoundError, json.JSONDecodeError):
+        lessons = []
+    return "\n".join(f"- {l['text']}" for l in lessons[-20:]) or "- (no verdicts recorded yet)"
+
+
+def _v2_market_lines(board):
+    lines = []
+    for i, m in enumerate(board):
+        yes = m.get("yes_sub_title") or ""
+        yes_c = f', YES_RESOLVES_TO: "{yes}"' if yes else ""
+        lines.append(f'{i + 1}. "{m["title"]}" (${m["payout"]} payout on $1, yes_price: {m.get("yes_price", "?")}'
+                     f'{yes_c}, category: {m.get("category", "n/a")}, tier: {m.get("tier", "n/a")}, '
+                     f'platform: {m.get("platform", "kalshi")})')
+    return "\n".join(lines)
+
+
+def generate_quips_v2(board):
+    """Persona generator (8 candidates per market) + calibrated judge. Falls back
+    to match_quips_ai() on any failure so the board always ships."""
+    if not ANTHROPIC_API_KEY:
+        print("[quip-v2] No ANTHROPIC_API_KEY, using v1 path", file=sys.stderr)
+        return match_quips_ai(board)
+    try:
+        ex = _v2_editor_examples()
+        persona = _v2_read_prompt("quip-persona.md")
+        judge_sys = (_v2_read_prompt("quip-judge.md")
+                     .replace("{{LESSONS}}", _v2_lessons_block())
+                     .replace("{{EXAMPLES}}", _v2_examples_block(ex, 30))
+                     .replace("{{CONTRASTS}}", _v2_contrast_block(ex, 10)))
+        anti = _load_recent_quip_anti_corpus(days_back=7)
+        n = len(board)
+
+        gen_user = f"""{_v2_examples_block(ex, _V2_EXAMPLES)}
+
+{_v2_contrast_block(ex, _V2_CONTRASTS)}
+
+TODAY'S BETS
+{_v2_market_lines(board)}
+{anti}
+
+THE JOB
+For each bet: rewrite the title per the TITLE REWRITING RULES, then write {_V2_CANDIDATES} candidate quips. Across the {_V2_CANDIDATES}, use at least 5 different modes from the list and label each candidate with its mode number. Vary hard: no two candidates for the same bet may share a structure or a punchword. At least two candidates per bet must be in first person. At least one per bet must be a deadpan tag of five words or fewer. At least one per bet must use a shared reference (mode 8) or the bet's own number (mode 5). Every candidate is a real attempt at the funniest line.
+
+Return ONLY a JSON array of {n} objects: {{"n": 1, "title": "...", "candidates": [{{"mode": 1, "quip": "..."}}, ...]}}"""
+
+        print(f"[quip-v2] Generating {_V2_CANDIDATES} candidates × {n} markets ({len(ex)} editor examples)...", file=sys.stderr)
+        gen = sorted(_v2_claude(persona, gen_user, "generate"), key=lambda x: int(x["n"]))
+        if len(gen) != n or any(not g.get("candidates") or not g.get("title") for g in gen):
+            raise ValueError(f"generator returned {len(gen)} markets for {n}")
+        cands = [[c for c in g["candidates"] if c.get("quip")][:_V2_CANDIDATES] for g in gen]
+
+        blocks = []
+        for i, m in enumerate(board):
+            cl = "\n".join(f'   [{k}] (mode {c.get("mode", "?")}) {c["quip"]}' for k, c in enumerate(cands[i]))
+            blocks.append(f'{i + 1}. "{gen[i]["title"]}" (${m["payout"]}, tier {m.get("tier")})\n{cl}')
+        judge_user = "CANDIDATES\n" + "\n\n".join(blocks) + f"""
+
+Score every candidate 1-10 as the editor would (half points allowed), then pick one per market under the board rules.
+Return ONLY a JSON array of {n} objects: {{"n": 1, "scores": {{"0": 7, "1": 5.5, ...}}, "pick": <candidate index>}}. One score per candidate index. No other keys, no prose."""
+
+        print("[quip-v2] Judging...", file=sys.stderr)
+        jd = {int(j["n"]): j for j in _v2_claude(judge_sys, judge_user, "judge")}
+
+        for i, m in enumerate(board):
+            j = jd[i + 1]
+            scores = j.get("scores") or {}
+            pick = int(j["pick"])
+            if not (0 <= pick < len(cands[i])):
+                raise ValueError(f"judge pick {pick} out of range for market {i + 1}")
+            m["title"] = gen[i]["title"].strip()
+            m["quip"] = cands[i][pick]["quip"].strip()
+            m["quip_alts"] = [{"quip": c["quip"].strip(), "mode": c.get("mode"),
+                               "score": scores.get(str(k))} for k, c in enumerate(cands[i])]
+        print(f"[quip-v2] Picked {n} quips", file=sys.stderr)
+        return board
+    except Exception as e:
+        print(f"[quip-v2] FAILED ({type(e).__name__}: {e}); falling back to v1", file=sys.stderr)
+        for m in board:
+            m.pop("quip_alts", None)
+        return match_quips_ai(board)
+
+
 def _match_from_pool(board, market_lines):
     """Original pool-picking mode — used as fallback when generation fails
     or when no style guide exists yet."""
@@ -2584,8 +2806,11 @@ def build_board(events, poly_candidates=None):
     # Sort: smallest to largest payout
     board.sort(key=lambda x: x["payout"])
 
-    # AI quip matching — pick best quip from pool for each bet
-    board = match_quips_ai(board)
+    # AI quips: v2 (persona + candidates + judge) when QUIP_PIPELINE=v2, else v1
+    if os.environ.get("QUIP_PIPELINE", "v1").lower() == "v2":
+        board = generate_quips_v2(board)
+    else:
+        board = match_quips_ai(board)
 
     # Clean up internal fields before output
     for m in board:
@@ -2649,6 +2874,7 @@ def main():
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "market_count": len(board),
         "source": "kalshi+polymarket",
+        "quip_pipeline": os.environ.get("QUIP_PIPELINE", "v1").lower(),
         "platform_mix": {"kalshi": kalshi_on_board, "polymarket": poly_on_board},
         "board": board,
     }

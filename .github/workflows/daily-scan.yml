@@ -36,6 +36,9 @@ jobs:
       - name: Run prediction market scanner (once per UTC day)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # v2 = persona generator + calibrated judge (prompts/quip-*.md); any
+          # failure inside scanner.py falls back to the v1 prompt. Unset to revert.
+          QUIP_PIPELINE: v2
         run: |
           mkdir -p data/boards
           TODAY=$(date -u +%Y-%m-%d)
