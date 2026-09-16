@@ -9,6 +9,7 @@ Every conflict we've ever had came from breaking the ownership rule below.
 - `gsc-data/**` — weekly GSC pulls (gsc-weekly workflow)
 - `reports/**` — weekly reports + content briefs (gsc-weekly workflow)
 - `data/boards/**` — board scans (daily-scan workflow)
+- `data/quip_cache.json` — sports quip cache (daily-scan workflow)
 - `content/**` page JSONs — daily-article + gsc-weekly quick-win edits
 - `CLAUDE.md` — wiki-update workflow maintains it
 - `public/**` — generated output

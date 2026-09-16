@@ -207,6 +207,14 @@ jobs:
           git config user.name "Dollar Bets Bot"
           git config user.email "bot@dollarbets.lol"
           git add data/boards/
+          # sports_scanner.py caches Claude titles/quips by ticker (3-day TTL) in
+          # data/quip_cache.json so a pick that persists across the day's runs
+          # keeps the same copy and is not re-generated. The cache only helps if
+          # it survives the run, so commit it with the boards. Absent when the
+          # sports step was skipped (no ODDS_API_KEY).
+          if [ -f data/quip_cache.json ]; then
+            git add data/quip_cache.json
+          fi
           if git diff --staged --quiet; then
             echo "No new data to commit"
             echo "changed=false" >> $GITHUB_OUTPUT
