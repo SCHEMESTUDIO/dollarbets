@@ -1,0 +1,597 @@
+{
+  "generated_at": "2026-09-17T00:07:50.212444+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket": 5
+  },
+  "board": [
+    {
+      "ticker": "KXUTSKIVISITS-27JUL31-T6000000",
+      "title": "Utah tops 6 million skier visits this season",
+      "subtitle": "the 2026\u201327 ski season",
+      "yes_sub_title": "Above 6,000,000 skier visits",
+      "no_sub_title": "Above 6,000,000 skier visits",
+      "payout": 1.72,
+      "tier": "green",
+      "quip": "6 million people, 4 working chairlifts, one $19 chicken tender basket",
+      "yes_price": "0.5800",
+      "volume": 3029.24,
+      "category": "Economics",
+      "close_time": "2027-07-31T15:29:00Z",
+      "url": "https://kalshi.com/markets/KXUTSKIVISITS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 41.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "Little Cottonwood canyon traffic gets declared a federal disaster area",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i haven't skied in four years and i resent every one of these people",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "powder is undefeated",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "6 million people, 4 working chairlifts, one $19 chicken tender basket",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Dumb and Dumber promised me Aspen, and this is what i got",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "Colorado can keep its ice sheet and its attitude",
+          "mode": 7,
+          "score": 6.5
+        },
+        {
+          "quip": "'sir the lot filled at 5:40am.' cool. open the shoulder lane",
+          "mode": 4,
+          "score": 6
+        },
+        {
+          "quip": "my ACL heard about this and filed a restraining order",
+          "mode": 2,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "0xe8dfbf03163a581fb4f02c0c80d1940328c41c0ab30d077d9662d069d388b1b7",
+      "title": "NIP beat B8 in one map tonight",
+      "subtitle": "",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "Ninjas in Pyjamas is still the greatest name in sports, hockey included",
+      "yes_price": "0.4450",
+      "volume": 9114.278883,
+      "category": "Other",
+      "close_time": "2026-09-17T17:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/cs2-nip-b8-2026-09-17",
+      "platform": "polymarket",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "best of one, worst of everything",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "i've explained esports to my dad three times and we're both worse for it",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "B8's coach is already standing up, putting his jacket back on",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "$2.25 riding on five guys and a chair with lumbar support",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Ninjas in Pyjamas is still the greatest name in sports, hockey included",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "nice one man, nice one, okay rotate B, rotate B, RO\u2014 gg",
+          "mode": 4,
+          "score": 6
+        },
+        {
+          "quip": "i'm thirty-one years old and i still flinch at a flashbang",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "one map is the coin flip of tournaments, pure MAC-tion chaos",
+          "mode": 6,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xa2f6e38c21cd25f6ba3c74aee034b4854d40fae53845f37722aa0ed36341f178",
+      "title": "Renan takes second place in the Alagoas Senate race",
+      "subtitle": "",
+      "payout": 2.99,
+      "tier": "green",
+      "quip": "he's the Ringo, and Ringo still got paid",
+      "yes_price": "0.3350",
+      "volume": 9492.620711,
+      "category": "World",
+      "close_time": "2026-10-04T06:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/alagoas-senate-election-2nd-place",
+      "platform": "polymarket",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "i have never been more confident about a place i learned about today",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "silver medal politics",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "second place still wins a Senate seat, which is a beautiful scam",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "$2.99 turns me into the guy at the party who brings up Alagoas",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "he's the Ringo, and Ringo still got paid",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "somewhere in Macei\u00f3 a sound truck is already circling with the horn on",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "'we finished second' he says, uncorking something, legally a winner",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "in Alagoas the Calheiros name is basically municipal infrastructure",
+          "mode": 7,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXFUSION-30-JAN01",
+      "title": "Nuclear fusion gets cracked before 2030",
+      "subtitle": "Nuclear fusion achieved",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 3.03,
+      "tier": "yellow",
+      "quip": "we harness a star and the first thing we plug in is a leaf blower",
+      "yes_price": "0.3300",
+      "volume": 30111.14,
+      "category": "Science and Technology",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXFUSION?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 94.0,
+      "_specificity": 5,
+      "quip_alts": [
+        {
+          "quip": "i was promised this by a middle school textbook with a torn cover",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "always thirty years away",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "we harness a star and the first thing we plug in is a leaf blower",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "$3.03 says the sun finally gets a competitor",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "Doc Ock had this running in a Manhattan loft in 2004",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "'we achieved net gain.' for how long. 'four seconds'",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "i would genuinely cry about a donut in Oxfordshire, that's where i'm at",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "and your electric bill stays exactly the same, congratulations everyone",
+          "mode": 7,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXEARTHQUAKECALIFORNIA-35",
+      "title": "California gets an 8.0 earthquake before 2035",
+      "subtitle": "Before 2035",
+      "yes_sub_title": "Before 2035",
+      "no_sub_title": "Before 2035",
+      "payout": 3.03,
+      "tier": "yellow",
+      "quip": "Malibu deck slides into the ocean, guy relists it at 4.2 million",
+      "yes_price": "0.3300",
+      "volume": 27304.95,
+      "category": "Climate and Weather",
+      "close_time": "2035-12-31T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXEARTHQUAKECALIFORNIA?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 68.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i own a flashlight, a granola bar, and absolutely no plan",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the 405 finally stops",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "every sourdough starter in Silver Lake dies in the same eleven seconds",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "ten years and $3.03 for the state to do one enormous shrug",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "Lex Luthor's whole plan, except nobody bought the desert first",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "Malibu deck slides into the ocean, guy relists it at 4.2 million",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "'that felt like a six' \u2014 a man standing in his own chimney",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "my one year in LA taught me to sleep through anything under a 5",
+          "mode": 2,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0x41e7c27975bd53fe08a5ab30960934bfea92b60b88f56ee9d9b42b8b0c97d98d",
+      "title": "David Sacks exits the Trump administration before 2027",
+      "subtitle": "",
+      "payout": 4.34,
+      "tier": "yellow",
+      "quip": "crypto czar, AI czar, and one $4.34 going-away brunch",
+      "yes_price": "0.2305",
+      "volume": 9182.017601999998,
+      "category": "World",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/who-will-leave-trump-administration-before-2027",
+      "platform": "polymarket",
+      "score": 48.0,
+      "quip_alts": [
+        {
+          "quip": "the podcast mic is already warm and three rich guys are waiting",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i've listened to enough of these guys to know nobody ever actually leaves",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "czar no more",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "crypto czar, AI czar, and one $4.34 going-away brunch",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Succession, but everyone owns a Gulfstream and a microphone",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "'stepping back to spend more time with my portfolio'",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "another tech guy discovers that government is mostly meetings",
+          "mode": 7,
+          "score": 6
+        },
+        {
+          "quip": "i miss when my news had fewer venture capitalists in it",
+          "mode": 2,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "STARSHIPMARS-29DEC31",
+      "title": "Starship puts humans on Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Not Before 2030",
+      "payout": 7.69,
+      "tier": "orange",
+      "quip": "i can't get a Tesla door handle to open but sure, Mars",
+      "yes_price": "0.1300",
+      "volume": 53053.56,
+      "category": "Companies",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i can't get a Tesla door handle to open but sure, Mars",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "seven years, zero bathrooms",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "first crew lands and immediately posts a tweet that arrives 20 minutes late",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "$7.69 on four people in a stainless silo eating the same tortilla",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "you know in Interstellar when they don't tell the crew the actual plan",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "'we're targeting 2028' \u2014 a man who previously targeted 2024, 2026 and 2027",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "Boca Chica beach closed again, this time until the 2030s",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "people on another planet while i'm alive would honestly wreck me",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27",
+      "title": "The US cuts a new Iran nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 12.5,
+      "tier": "orange",
+      "quip": "like a coaching search that leaks the same three names every single winter",
+      "yes_price": "0.0800",
+      "volume": 1680267.92,
+      "category": "Politics",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 115.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i formed a take on this in 2015 and i'm still lugging it around",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "centrifuge guy stays busy",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "handshake photo, two flags, then seventeen months of nobody signing anything",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "$12.50 is roughly what the commemorative signing pen costs",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "every Bond movie wraps the nuclear thing faster than this",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "'we have a framework for the framework.' okay",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "like a coaching search that leaks the same three names every single winter",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "i would love, just once, for my phone to buzz about something else",
+          "mode": 2,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xc25047033f8a3c8172bb22bd955917cdb32491956df02206472db4ba97e535fa",
+      "title": "The LAPTOP token lands on Binance this month",
+      "subtitle": "",
+      "payout": 28.99,
+      "tier": "red",
+      "quip": "next comes MOUSEPAD, then the Discord goes very quiet around Thanksgiving",
+      "yes_price": "0.0345",
+      "volume": 9707.116291,
+      "category": "Other",
+      "close_time": "2026-12-31T23:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/laptop-listed-on-within-30-days-of-tge",
+      "platform": "polymarket",
+      "score": 55.0,
+      "quip_alts": [
+        {
+          "quip": "i hold three tokens i cannot explain and my cousin holds nine",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "named after my Dell",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "next comes MOUSEPAD, then the Discord goes very quiet around Thanksgiving",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "$28.99 payout, which is also roughly the entire market cap",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the Office Space printer scene, except the printer has a ticker",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "'the utility is the laptop.' sir. what does it do",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "some guy's ThinkPad is a financial instrument now and we all allowed it",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "a coin called LAPTOP is the most honest ticker of the decade",
+          "mode": 3,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0x9b83942cf29b599b8a79edac5b9dbac7f82abcdd7f96ea25d76ae0cb4155361f",
+      "title": "The Rangers lead MLB in home runs next season",
+      "subtitle": "",
+      "payout": 222.22,
+      "tier": "purple",
+      "quip": "Yankees fans learning home runs are available outside the Bronx",
+      "yes_price": "0.0045",
+      "volume": 95009.03600000001,
+      "category": "Sports",
+      "close_time": "2026-10-11T23:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/mlb-most-home-runs-team-20260702215911955",
+      "platform": "polymarket",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "i'll believe in Texas offense the second they stop telling me to",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Arlington heat does things",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "roof stays closed, air stays 72, baseballs keep leaving anyway",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "$222.22 says the Globe Life air conditioning is a performance enhancer",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the Major League montage, and Wild Thing isn't even involved",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "Yankees fans learning home runs are available outside the Bronx",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "'we really like our guys' \u2014 every Rangers presser since the parade",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "my fantasy team learned this lesson in the most expensive way possible",
+          "mode": 2,
+          "score": 6
+        }
+      ]
+    }
+  ]
+}
