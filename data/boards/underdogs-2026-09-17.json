@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T00:08:14.189683+00:00",
+  "generated_at": "2026-09-17T13:02:15.877033+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -9,28 +9,30 @@
     "orange": 3
   },
   "sport_mix": {
-    "NFL": 3,
-    "NCAAF": 2
+    "MLB": 1,
+    "NFL": 2,
+    "NCAAF": 1,
+    "EPL": 1
   },
   "board": [
     {
-      "ticker": "SB-4E9577E5",
-      "title": "Colts upset Chiefs at Arrowhead",
-      "payout": 3.65,
+      "ticker": "SB-0E2E0C01",
+      "title": "Athletics upset the Rays in Tampa",
+      "payout": 3.28,
       "tier": "yellow",
-      "quip": "Jonathan Taylor doing his best clock-killing impression",
-      "yes_price": "0.27",
-      "category": "NFL",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606514534&selectionId=50200",
-      "close_time": "2026-09-21T00:20:00Z",
-      "sport": "americanfootball_nfl",
-      "sport_display": "NFL",
-      "matchup": "Indianapolis Colts @ Kansas City Chiefs",
+      "quip": "two rosters nobody can name, one gets a trophy",
+      "yes_price": "0.30",
+      "category": "MLB",
+      "platform": "draftkings",
+      "platform_display": "DraftKings",
+      "url": "https://sportsbook.draftkings.com/?outcomes=0ML86335263_3",
+      "close_time": "2026-09-17T17:10:00Z",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Athletics @ Tampa Bay Rays",
       "market_type": "h2h",
-      "american_odds": 265,
-      "implied_probability": 0.274,
+      "american_odds": 228,
+      "implied_probability": 0.305,
       "has_deep_link": true
     },
     {
@@ -56,7 +58,7 @@
     {
       "ticker": "SB-823E66B4",
       "title": "Dolphins upset the Niners in San Francisco",
-      "payout": 7.75,
+      "payout": 7.5,
       "tier": "orange",
       "quip": "Tyreek in California weather is a genuine plot",
       "yes_price": "0.13",
@@ -69,8 +71,8 @@
       "sport_display": "NFL",
       "matchup": "Miami Dolphins @ San Francisco 49ers",
       "market_type": "h2h",
-      "american_odds": 675,
-      "implied_probability": 0.129,
+      "american_odds": 650,
+      "implied_probability": 0.133,
       "has_deep_link": true
     },
     {
@@ -94,23 +96,23 @@
       "has_deep_link": true
     },
     {
-      "ticker": "SB-41659017",
-      "title": "Eastern Michigan stuns Wisconsin at Camp Randall",
-      "payout": 15.0,
+      "ticker": "SB-BFB75D58",
+      "title": "Sunderland stun Man City at the Etihad",
+      "payout": 10.0,
       "tier": "orange",
-      "quip": "Jump Around, but the MAC is doing the jumping",
-      "yes_price": "0.07",
-      "category": "NCAAF",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607140436&selectionId=3346186",
-      "close_time": "2026-09-19T16:30:00Z",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "NCAAF",
-      "matchup": "Eastern Michigan Eagles @ Wisconsin Badgers",
+      "quip": "Black Cats going full Sunderland 'Til I Die finale",
+      "yes_price": "0.10",
+      "category": "EPL",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028072793?coupon={pickType}|4327279665|{wagerAmount}",
+      "close_time": "2026-09-20T13:00:00Z",
+      "sport": "soccer_epl",
+      "sport_display": "EPL",
+      "matchup": "Sunderland @ Manchester City",
       "market_type": "h2h",
-      "american_odds": 1400,
-      "implied_probability": 0.067,
+      "american_odds": 900,
+      "implied_probability": 0.1,
       "has_deep_link": true
     }
   ]
