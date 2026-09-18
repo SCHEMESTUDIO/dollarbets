@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-09-18T12:46:18.946005+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 9,
+    "NFL": 1
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-D503E12C",
+      "title": "Virginia Tech Hokies wins + Denver Broncos wins",
+      "payout": 2.82,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607143600&selectionId=484728",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Virginia Tech Hokies @ Maryland Terrapins + Jacksonville Jaguars @ Denver Broncos",
+      "market_type": "2-leg parlay",
+      "american_odds": 182,
+      "implied_probability": 0.354,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Virginia Tech Hokies @ Maryland Terrapins",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607143600&selectionId=484728",
+          "commence_time": "2026-09-19T23:30:00Z"
+        },
+        {
+          "matchup": "Jacksonville Jaguars @ Denver Broncos",
+          "pick": "Denver Broncos wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606514489&selectionId=50211",
+          "commence_time": "2026-09-20T20:05:00Z"
+        }
+      ],
+      "close_time": "2026-09-19T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-CD374984",
+      "title": "Texas Rangers +1.5 + Denver Broncos wins",
+      "payout": 2.82,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609049297&selectionId=29163",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Toronto Blue Jays @ Texas Rangers + Jacksonville Jaguars @ Denver Broncos",
+      "market_type": "2-leg parlay",
+      "american_odds": 182,
+      "implied_probability": 0.354,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Toronto Blue Jays @ Texas Rangers",
+          "pick": "Texas Rangers +1.5",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609049297&selectionId=29163",
+          "commence_time": "2026-09-19T00:06:00Z"
+        },
+        {
+          "matchup": "Jacksonville Jaguars @ Denver Broncos",
+          "pick": "Denver Broncos wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606514489&selectionId=50211",
+          "commence_time": "2026-09-20T20:05:00Z"
+        }
+      ],
+      "close_time": "2026-09-19T00:06:00Z"
+    },
+    {
+      "ticker": "PARLAY-94CE7382",
+      "title": "New York City FC wins + Denver Broncos wins",
+      "payout": 2.83,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608631609&selectionId=9280784",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "New York Red Bulls @ New York City FC + Jacksonville Jaguars @ Denver Broncos",
+      "market_type": "2-leg parlay",
+      "american_odds": 183,
+      "implied_probability": 0.353,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York Red Bulls @ New York City FC",
+          "pick": "New York City FC wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608631609&selectionId=9280784",
+          "commence_time": "2026-09-18T23:30:00Z"
+        },
+        {
+          "matchup": "Jacksonville Jaguars @ Denver Broncos",
+          "pick": "Denver Broncos wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606514489&selectionId=50211",
+          "commence_time": "2026-09-20T20:05:00Z"
+        }
+      ],
+      "close_time": "2026-09-18T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-95ED2E76",
+      "title": "Texas State Bobcats wins + Denver Broncos wins",
+      "payout": 2.84,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607149482&selectionId=6624048",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "North Texas Mean Green @ Texas State Bobcats + Jacksonville Jaguars @ Denver Broncos",
+      "market_type": "2-leg parlay",
+      "american_odds": 184,
+      "implied_probability": 0.352,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "North Texas Mean Green @ Texas State Bobcats",
+          "pick": "Texas State Bobcats wins",
+          "odds": -144,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607149482&selectionId=6624048",
+          "commence_time": "2026-09-19T16:00:00Z"
+        },
+        {
+          "matchup": "Jacksonville Jaguars @ Denver Broncos",
+          "pick": "Denver Broncos wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606514489&selectionId=50211",
+          "commence_time": "2026-09-20T20:05:00Z"
+        }
+      ],
+      "close_time": "2026-09-19T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-1D5EDE92",
+      "title": "LSU Tigers wins + Denver Broncos wins",
+      "payout": 2.84,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.543905079&selectionId=484738",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "LSU Tigers @ Ole Miss Rebels + Jacksonville Jaguars @ Denver Broncos",
+      "market_type": "2-leg parlay",
+      "american_odds": 184,
+      "implied_probability": 0.352,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "LSU Tigers @ Ole Miss Rebels",
+          "pick": "LSU Tigers wins",
+          "odds": -144,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.543905079&selectionId=484738",
+          "commence_time": "2026-09-19T23:30:00Z"
+        },
+        {
+          "matchup": "Jacksonville Jaguars @ Denver Broncos",
+          "pick": "Denver Broncos wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606514489&selectionId=50211",
+          "commence_time": "2026-09-20T20:05:00Z"
+        }
+      ],
+      "close_time": "2026-09-19T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-CF955B86",
+      "title": "Houston Texans wins + Denver Broncos wins",
+      "payout": 2.84,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608420591&selectionId=179823",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Houston Texans @ Indianapolis Colts + Jacksonville Jaguars @ Denver Broncos",
+      "market_type": "2-leg parlay",
+      "american_odds": 184,
+      "implied_probability": 0.352,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Houston Texans @ Indianapolis Colts",
+          "pick": "Houston Texans wins",
+          "odds": -144,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608420591&selectionId=179823",
+          "commence_time": "2026-09-27T17:00:00Z"
+        },
+        {
+          "matchup": "Jacksonville Jaguars @ Denver Broncos",
+          "pick": "Denver Broncos wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606514489&selectionId=50211",
+          "commence_time": "2026-09-20T20:05:00Z"
+        }
+      ],
+      "close_time": "2026-09-20T20:05:00Z"
+    },
+    {
+      "ticker": "PARLAY-D4583F9F",
+      "title": "Baltimore Orioles +1.5 + Denver Broncos wins",
+      "payout": 2.84,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609041561&selectionId=29157",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Milwaukee Brewers @ Baltimore Orioles + Jacksonville Jaguars @ Denver Broncos",
+      "market_type": "2-leg parlay",
+      "american_odds": 184,
+      "implied_probability": 0.352,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Milwaukee Brewers @ Baltimore Orioles",
+          "pick": "Baltimore Orioles +1.5",
+          "odds": -144,
+          "implied_prob": "59%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609041561&selectionId=29157",
+          "commence_time": "2026-09-18T23:06:00Z"
+        },
+        {
+          "matchup": "Jacksonville Jaguars @ Denver Broncos",
+          "pick": "Denver Broncos wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606514489&selectionId=50211",
+          "commence_time": "2026-09-20T20:05:00Z"
+        }
+      ],
+      "close_time": "2026-09-18T23:06:00Z"
+    },
+    {
+      "ticker": "PARLAY-0CA31EC1",
+      "title": "Virginia Tech Hokies wins + Texas Rangers +1.5",
+      "payout": 2.84,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607143600&selectionId=484728",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Virginia Tech Hokies @ Maryland Terrapins + Toronto Blue Jays @ Texas Rangers",
+      "market_type": "2-leg parlay",
+      "american_odds": 184,
+      "implied_probability": 0.352,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Virginia Tech Hokies @ Maryland Terrapins",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607143600&selectionId=484728",
+          "commence_time": "2026-09-19T23:30:00Z"
+        },
+        {
+          "matchup": "Toronto Blue Jays @ Texas Rangers",
+          "pick": "Texas Rangers +1.5",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609049297&selectionId=29163",
+          "commence_time": "2026-09-19T00:06:00Z"
+        }
+      ],
+      "close_time": "2026-09-19T00:06:00Z"
+    },
+    {
+      "ticker": "PARLAY-121E9182",
+      "title": "New York City FC wins + Virginia Tech Hokies wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608631609&selectionId=9280784",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "New York Red Bulls @ New York City FC + Virginia Tech Hokies @ Maryland Terrapins",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.351,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York Red Bulls @ New York City FC",
+          "pick": "New York City FC wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608631609&selectionId=9280784",
+          "commence_time": "2026-09-18T23:30:00Z"
+        },
+        {
+          "matchup": "Virginia Tech Hokies @ Maryland Terrapins",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607143600&selectionId=484728",
+          "commence_time": "2026-09-19T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-09-18T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-913F591A",
+      "title": "New York City FC wins + Texas Rangers +1.5",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608631609&selectionId=9280784",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "New York Red Bulls @ New York City FC + Toronto Blue Jays @ Texas Rangers",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.351,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York Red Bulls @ New York City FC",
+          "pick": "New York City FC wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608631609&selectionId=9280784",
+          "commence_time": "2026-09-18T23:30:00Z"
+        },
+        {
+          "matchup": "Toronto Blue Jays @ Texas Rangers",
+          "pick": "Texas Rangers +1.5",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609049297&selectionId=29163",
+          "commence_time": "2026-09-19T00:06:00Z"
+        }
+      ],
+      "close_time": "2026-09-18T23:30:00Z"
+    }
+  ]
+}

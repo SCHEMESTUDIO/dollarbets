@@ -1,0 +1,597 @@
+{
+  "generated_at": "2026-09-18T12:45:27.645854+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket": 5
+  },
+  "board": [
+    {
+      "ticker": "KXROBOTMARS-35",
+      "title": "A humanoid robot walks on Mars before any human",
+      "subtitle": "Before 2035",
+      "yes_sub_title": "Before 2035",
+      "no_sub_title": "Before 2035",
+      "payout": 1.92,
+      "tier": "green",
+      "quip": "Boston Dynamics finally found a planet where nobody kicks it over",
+      "yes_price": "0.5200",
+      "volume": 52722.84,
+      "category": "Science and Technology",
+      "close_time": "2035-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXROBOTMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 31.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "first thing it does up there is plant a flag for its shareholders",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "i was promised a Mars landing and got a Roomba with a passport",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "no boots, just bolts",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "this is how Terminator starts except nobody even fought back",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "we pay $1.92 to watch ourselves get benched by a torso",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Boston Dynamics finally found a planet where nobody kicks it over",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "a machine taking the flag photo alone actually rules, i'm sorry",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "\"humanity has arrived,\" says the thing that is not humanity",
+          "mode": 4,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXEARTHQUAKEJAPAN-30",
+      "title": "Japan gets an 8.0 earthquake before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 2.63,
+      "tier": "green",
+      "quip": "vending machines still upright, still selling hot corn soup",
+      "yes_price": "0.3800",
+      "volume": 44615.78,
+      "category": "Climate and Weather",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXEARTHQUAKEJAPAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 81.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "Japanese building codes about to flex on the entire planet",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "vending machines still upright, still selling hot corn soup",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "this is literally the first ten minutes of every Godzilla movie",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "i felt a 3.1 in Ohio once and called my mother",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Godzilla's warmup set",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "the shinkansen stops, apologizes, and i'd still make my connection",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "meanwhile California loses power because it drizzled",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"please remain calm,\" says the calmest man ever put on television",
+          "mode": 4,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXEARTHQUAKECALIFORNIA-35",
+      "title": "California gets an 8.0 earthquake before 2035",
+      "subtitle": "Before 2035",
+      "yes_sub_title": "Before 2035",
+      "no_sub_title": "Before 2035",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "Malibu slides into the ocean and Zillow relists it as waterfront",
+      "yes_price": "0.3400",
+      "volume": 27306.4,
+      "category": "Climate and Weather",
+      "close_time": "2035-12-31T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXEARTHQUAKECALIFORNIA?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 60.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "Malibu slides into the ocean and Zillow relists it as waterfront",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "my earthquake kit is a Costco water pack and pure vibes",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "upside: the 405 finally clears",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "San Andreas, but this time The Rock is stuck on Sepulveda",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "finally, a real deadline",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "that fault's been loading torque since 1857, patient guy",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "i find plate tectonics genuinely underrated as an entertainment product",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "\"we're overdue\" \u2014 every Californian, continuously, since 1994",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xa2f6e38c21cd25f6ba3c74aee034b4854d40fae53845f37722aa0ed36341f178",
+      "title": "Renan finishes second in the Alagoas Senate race",
+      "subtitle": "",
+      "payout": 3.08,
+      "tier": "yellow",
+      "quip": "the CONCACAF group stage of democracy and i'm watching every minute",
+      "yes_price": "0.3250",
+      "volume": 9492.620711,
+      "category": "World",
+      "close_time": "2026-10-04T06:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/alagoas-senate-election-2nd-place",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i have never known less about a man i now need to place",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the CONCACAF group stage of democracy and i'm watching every minute",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "somewhere in Macei\u00f3 a sound truck is getting its speakers duct-taped on",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "silver medal senator",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "House of Cards except everyone's already at the beach",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "i've decided Alagoas politics has more plot than most prestige TV",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "the Calheiros family has held office since roughly the Pleistocene",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "Alagoas deserves whatever it votes for",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0x2dae180c294ec6f92c5a95f5498d9ac59f71a6c57fb36ae9e4f0950e12698d32",
+      "title": "Robinhood drops to $100 this month",
+      "subtitle": "",
+      "payout": 3.45,
+      "tier": "yellow",
+      "quip": "$3.45 is also the exact balance left in my brokerage",
+      "yes_price": "0.2900",
+      "volume": 9467.903942000003,
+      "category": "Other",
+      "close_time": "2026-10-01T03:59:59.999Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/what-price-will-hood-hit-in-september-2026",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "still haven't emotionally recovered from what that app did to me in 2021",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "confetti animation returns, this time firing on the way down",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "Vlad back on the podcast circuit explaining payment for order flow again",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "the app that radicalized me",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "$3.45 is also the exact balance left in my brokerage",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "i love when a brokerage becomes a meme stock about itself",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "everybody's options cousin gets real quiet at Thanksgiving",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we're democratizing finance\" said the guy selling you to Citadel",
+          "mode": 4,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x6eb86679303704bfc4dc014b21914063124bdd26702a77f5bc1d6d1aa6178483",
+      "title": "Howard Lutnick leaves the Trump administration before 2027",
+      "subtitle": "",
+      "payout": 4.08,
+      "tier": "yellow",
+      "quip": "\"tremendous guy, great relationship, i've never met him in my life\"",
+      "yes_price": "0.2450",
+      "volume": 94554.38492800001,
+      "category": "World",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/who-will-leave-trump-administration-before-2027",
+      "platform": "polymarket",
+      "score": 53.0,
+      "quip_alts": [
+        {
+          "quip": "the Cantor Fitzgerald parking spot was never actually reassigned",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i can never remember which billionaire currently owns Commerce",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "another chair opens up",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "\"tremendous guy, great relationship, i've never met him in my life\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "the Apprentice boardroom except the loser takes tariffs with him",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "that's the sixth guy this year and it's somehow still February",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "nobody in that building bothers unpacking the boxes",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "i respect cabinet turnover as America's single most reliable industry",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "0x4553e65674ee74f86d480abde37f4fbd6a56e87ef82f299f7e846cd952cb6fd8",
+      "title": "Bezos ends the year as second-richest person",
+      "subtitle": "",
+      "payout": 13.51,
+      "tier": "orange",
+      "quip": "Zuckerberg refreshing that list like it's his fantasy lineup",
+      "yes_price": "0.0740",
+      "volume": 9745.86896,
+      "category": "Other",
+      "close_time": "2026-03-31T00:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/2nd-richest-person-on-december-31",
+      "platform": "polymarket",
+      "score": 70.0,
+      "quip_alts": [
+        {
+          "quip": "i think about his arms more than i think about my own money",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the support yacht gets a support yacht, purely out of spite",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "silver medal, titanium abs",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "Lex Luthor was never a metaphor, it was a schedule",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "second out of eight billion, brutal year for the guy",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "i love a billionaire leaderboard, it's Madden ratings for yachts",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "Zuckerberg refreshing that list like it's his fantasy lineup",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we'll be doing some rebalancing\" \u2014 man who owns a mountain clock",
+          "mode": 4,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXPOPESWIFT-27",
+      "title": "Taylor Swift meets Pope Leo XIV before 2027",
+      "subtitle": "Before Jan 1, 2027",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "Pope Leo is from Chicago so technically this counts as a hometown show",
+      "yes_price": "0.0700",
+      "volume": 20990.17,
+      "category": "Social",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXPOPESWIFT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 117.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Vatican gift shop stocking friendship bracelets by Wednesday morning",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "my mother would convert on the spot for this photograph",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the Eras Vatican stop",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "\"so which one of these is about the boyfriend\" \u2014 His Holiness",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "Pope Leo is from Chicago so technically this counts as a hometown show",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "i need this more than i've needed most things this year",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "she plays three and a half hours, he blocked off forty minutes",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Travis waiting in the hallway like a dad at the mall",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUAPFILES-26AUG10-26SEP18",
+      "title": "Trump releases more UFO files this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Sep 18, 2026",
+      "no_sub_title": "Before Sep 18, 2026",
+      "payout": 33.33,
+      "tier": "red",
+      "quip": "33 pages and 31 of them are black rectangles",
+      "yes_price": "0.0300",
+      "volume": 10915.75,
+      "category": "Politics",
+      "close_time": "2026-09-18T14:00:00Z",
+      "url": "https://kalshi.com/markets/KXUAPFILES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 141.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "three PDFs, two of them scanned upside down",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i will read every page and understand nothing, as god intended",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "redacted, but make it spooky",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "\"the aliens love me. very strong aliens. tremendous ships.\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "X-Files but Mulder is posting the evidence on Truth Social",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "33 pages and 31 of them are black rectangles",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "i want the tapes, i want them uncut, i want them tonight",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "Pentagon footage shot exclusively on a 2003 flip phone",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xe6b05ad08aed09244800cce65b4913a1e550e3ab8e044282726d7c721dba37fc",
+      "title": "Kevin Gausman leads MLB in strikeouts next season",
+      "subtitle": "",
+      "payout": 181.82,
+      "tier": "purple",
+      "quip": "this is a backup quarterback throwing for five thousand yards",
+      "yes_price": "0.0055",
+      "volume": 929756.76,
+      "category": "Sports",
+      "close_time": "",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/mlb-strikeouts-leader-pitcher",
+      "platform": "polymarket",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "i have rostered this man in fantasy and i have suffered greatly",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the splitter gets a six-part Netflix documentary with slow piano",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "this is a backup quarterback throwing for five thousand yards",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "splitter szn, apparently",
+          "mode": 9,
+          "score": 3
+        },
+        {
+          "quip": "he'll be 36 throwing a pitch invented in 1910",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "Skenes hears about this and immediately does four hundred pushups",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "i think the splitter is the rudest pitch in all of sports",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "Blue Jays fans permitted one nice thing per decade",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    }
+  ]
+}
