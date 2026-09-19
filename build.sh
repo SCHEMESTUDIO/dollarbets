@@ -35,6 +35,28 @@ if [ ! -f "$FONT_DIR/DejaVuSerif-Bold.ttf" ]; then
   rm -rf /tmp/dejavu /tmp/dejavu.zip
 fi
 
+# Site typefaces for the 1080×1080 social cards (share_card.py): Archivo
+# (variable font, one file covers 700/900) + IBM Plex Mono. Pulled from the
+# google/fonts repo, pinned to main. share_card.py falls back to DejaVu if
+# any of these are missing, so a failed download costs the look, not the build.
+GF="https://github.com/google/fonts/raw/main/ofl"
+if [ ! -f "$FONT_DIR/Archivo-VF.ttf" ]; then
+  echo "[build] Downloading Archivo + IBM Plex Mono for share cards..."
+  mkdir -p "$FONT_DIR"
+  curl -sL "$GF/archivo/Archivo%5Bwdth%2Cwght%5D.ttf" -o "$FONT_DIR/Archivo-VF.ttf" \
+    && curl -sL "$GF/ibmplexmono/IBMPlexMono-Regular.ttf" -o "$FONT_DIR/IBMPlexMono-Regular.ttf" \
+    && curl -sL "$GF/ibmplexmono/IBMPlexMono-SemiBold.ttf" -o "$FONT_DIR/IBMPlexMono-SemiBold.ttf" \
+    && echo "[build] Card fonts downloaded" \
+    || echo "[build] WARNING: Could not download card fonts, cards fall back to DejaVu"
+  # A GitHub error page is not a font — drop anything under 50KB
+  for f in Archivo-VF IBMPlexMono-Regular IBMPlexMono-SemiBold; do
+    if [ -f "$FONT_DIR/$f.ttf" ] && [ "$(wc -c < "$FONT_DIR/$f.ttf")" -lt 50000 ]; then
+      echo "[build] WARNING: $f.ttf looks wrong (too small), removing"
+      rm -f "$FONT_DIR/$f.ttf"
+    fi
+  done
+fi
+
 # Ensure data directory exists
 mkdir -p data/boards
 

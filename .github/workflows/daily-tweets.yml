@@ -1,30 +1,41 @@
 name: Daily X Tweets
 
-# Posts 3 cards/day from the latest board to @dollarbets on X.
+# Posts 3 cards/day from the latest board to @dollarbetslol on X.
 #
-# Schedule (UTC → US Eastern):
-#   13:00 UTC = 9am ET — select 3 cards (Claude) + post slot 1
-#   17:00 UTC = 1pm ET — post slot 2
-#   21:00 UTC = 5pm ET — post slot 3
+# Every scheduled run does the same thing (`--mode run`):
+#   1. If there is no queue file for the latest board yet, ask Claude to pick
+#      two board cards; the day's filthy little longshot is always slot 3.
+#   2. Post the next slot that hasn't gone out yet. Nothing left = no-op.
 #
-# Daily scan runs at 08:00 UTC (Kalshi/Polymarket). Vercel rebuild kicks in
-# on the resulting commit, so by 13:00 UTC the new /share/{ticker}/og.png URLs
-# are deployed and ready for the image attachment.
+# So the slot is decided by queue state, not by the runner's clock. GitHub
+# cron routinely fires 10–60+ minutes late (the old hour→slot mapping silently
+# fell through to dry-run when it did — same bug that starved the prediction
+# board in September). Three fires a day = three posts a day, whenever they land.
 #
-# DRY-RUN BY DEFAULT. Set repo variable TWEET_LIVE=1 to start actually posting.
-# (Use a repo *variable*, not a secret — secrets can't be conditionally compared
-# in a workflow without leaking, and "1" isn't sensitive.)
+# Schedule (UTC → US Eastern, EDT):
+#   12:30 UTC = 8:30am ET — morning pick  (tile card)
+#   16:30 UTC = 12:30pm ET — lunch pick    (tile card)
+#   00:30 UTC = 8:30pm ET  — the longshot  (dark ticket)
+# Evening is where betting Twitter lives; the longshot gets that slot.
+#
+# The 08:00 UTC board scan + Vercel rebuild have long finished by 12:30, so
+# /share/{ticker}/card.png exists before the first post pulls it.
+#
+# DRY-RUN BY DEFAULT. Repo variable TWEET_LIVE=1 makes it post for real.
+# (A repo *variable*, not a secret — secrets can't be compared in a workflow
+# without leaking, and "1" isn't sensitive.)
 
 on:
   schedule:
-    - cron: '0 13,17,21 * * *'
+    - cron: '30 12,16 * * *'
+    - cron: '30 0 * * *'
   workflow_dispatch:
     inputs:
       mode:
         description: 'Which step to run'
         type: choice
-        options: [select-and-post-1, post-2, post-3, select-only, dry-run-all]
-        default: dry-run-all
+        options: [run, select-only, dry-run-all]
+        default: run
       live:
         description: 'Override TWEET_LIVE for this manual run'
         type: choice
@@ -34,6 +45,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: social-queue
+  cancel-in-progress: false
+
 jobs:
   tweet:
     runs-on: ubuntu-latest
@@ -41,8 +56,8 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          # Need full history so we can pull --rebase before pushing the queue
-          # update without conflicting against the daily-scan commit.
+          # Full history so the queue commit can rebase over a concurrent
+          # daily-scan commit instead of conflicting.
           fetch-depth: 0
 
       - name: Set up Python
@@ -53,20 +68,11 @@ jobs:
       - name: Install deps
         run: pip install --quiet tweepy
 
-      - name: Resolve schedule slot
-        id: slot
+      - name: Resolve mode + live flag
+        id: cfg
         run: |
-          # Map cron hour → slot. Manual dispatch overrides via inputs.mode.
           MODE="${{ github.event.inputs.mode }}"
-          if [ -z "$MODE" ]; then
-            HOUR=$(date -u +%H)
-            case "$HOUR" in
-              13) MODE="select-and-post-1" ;;
-              17) MODE="post-2" ;;
-              21) MODE="post-3" ;;
-              *)  MODE="dry-run-all" ;;  # unscheduled run = safety net
-            esac
-          fi
+          [ -z "$MODE" ] && MODE="run"
           echo "mode=$MODE" >> "$GITHUB_OUTPUT"
 
           # TWEET_LIVE resolution: manual override > repo variable > 0
@@ -86,26 +92,21 @@ jobs:
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-          TWEET_LIVE: ${{ steps.slot.outputs.live }}
-          TWEET_LINK_MODE: ${{ vars.TWEET_LINK_MODE || 'inline' }}
+          TWEET_LIVE: ${{ steps.cfg.outputs.live }}
+          TWEET_LINK_MODE: ${{ vars.TWEET_LINK_MODE || 'reply' }}
         run: |
           set -e
-          case "${{ steps.slot.outputs.mode }}" in
-            select-and-post-1)
-              python3 scripts/daily_tweets.py --mode select --also-post-slot 1
+          case "${{ steps.cfg.outputs.mode }}" in
+            run)
+              python3 scripts/daily_tweets.py --mode run
               ;;
             select-only)
               python3 scripts/daily_tweets.py --mode select
               ;;
-            post-2)
-              python3 scripts/daily_tweets.py --mode post --slot 2
-              ;;
-            post-3)
-              python3 scripts/daily_tweets.py --mode post --slot 3
-              ;;
             dry-run-all)
-              # Force dry-run for this synthesis path
-              TWEET_LIVE=0 python3 scripts/daily_tweets.py --mode select --also-post-slot 1
+              # Compose all three without posting; the queue file records them.
+              TWEET_LIVE=0 python3 scripts/daily_tweets.py --mode select
+              TWEET_LIVE=0 python3 scripts/daily_tweets.py --mode post --slot 1
               TWEET_LIVE=0 python3 scripts/daily_tweets.py --mode post --slot 2
               TWEET_LIVE=0 python3 scripts/daily_tweets.py --mode post --slot 3
               ;;
@@ -121,8 +122,7 @@ jobs:
           git config user.name "dollarbets-bot"
           git config user.email "bot@dollarbets.lol"
           git add data/social-queue/
-          TODAY=$(date -u +%Y-%m-%d)
-          git commit -m "tweet queue ${TODAY}: ${{ steps.slot.outputs.mode }}"
-          # Rebase against any concurrent daily-scan commit, then push
+          git commit -m "tweet queue: ${{ steps.cfg.outputs.mode }} $(date -u +%Y-%m-%dT%H:%MZ)"
+          # Rebase over any concurrent daily-scan commit, then push
           git pull --rebase origin main
           git push origin HEAD:main

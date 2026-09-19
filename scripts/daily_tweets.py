@@ -1,27 +1,40 @@
 #!/usr/bin/env python3
 """
-Dollar Bets — daily X/Twitter posting agent.
+Dollar Bets — daily X posting agent for @dollarbetslol.
 
-Two modes:
-  --mode select     Pick 3 cards from today's board (with Claude), write queue file.
-                    Also posts slot 1 if --post-slot 1 is passed.
-  --mode post       Post a specific slot from today's queue file.
+Modes:
+  --mode run        The scheduled entry point. Ensures a queue exists for the
+                    latest board (selecting with Claude if not), then posts the
+                    next slot that hasn't gone out. Idempotent: run it as often
+                    as you like, it never double-posts and never re-selects.
+  --mode select     Pick the day's 3 cards and write the queue file. No posting.
+  --mode post       Post one slot from the latest queue (--slot N, or "next").
 
-The queue file at data/social-queue/YYYY-MM-DD.json is the source of truth for
-which 3 cards we picked, what the tweet text is, and which slots have already
-posted. It's committed to git so we have a public record.
+The queue file at data/social-queue/YYYY-MM-DD.json (keyed by BOARD date, not
+run date — the evening slot lands after midnight UTC) is the source of truth:
+which 3 cards, what each post says, which slots have posted. Committed to git
+as a public record. The Telegram rail reads the same file.
+
+What a post looks like:
+  parent  = the quip as the text, the 1080×1080 card as the image, no link
+  reply   = the share link (link_mode "reply", the default)
+X throttles posts carrying an external URL in the body; the link in a
+self-reply keeps the parent eligible for For You and still carries the click.
+
+Slot 3 is always the day's filthy little longshot, on the dark ticket card —
+the same hero the board itself leads with.
 
 Env vars:
-  ANTHROPIC_API_KEY      required for --mode select
+  ANTHROPIC_API_KEY      required for selection
   X_API_KEY              X app consumer key   (required in LIVE mode)
   X_API_SECRET           X app consumer secret
-  X_ACCESS_TOKEN         User-context access token for the posting account
+  X_ACCESS_TOKEN         User-context access token for @dollarbetslol
   X_ACCESS_TOKEN_SECRET  User-context access token secret
   TWEET_LIVE             "1" to actually post. Anything else = dry-run (default).
-  TWEET_LINK_MODE        "inline" (default) | "reply" | "none"
-                           inline: URL in tweet body (1 post, drives clicks)
-                           reply:  URL in self-reply (2 posts, marginal reach gain)
-                           none:   no URL, rely on image watermark + bio link
+  TWEET_LINK_MODE        "reply" (default) | "inline" | "none"
+                           reply:  URL in a self-reply (2 posts, parent stays link-free)
+                           inline: URL in the post body (1 post, throttled reach)
+                           none:   no URL, rely on the card + bio link
 """
 
 import argparse
@@ -39,6 +52,7 @@ BOARDS_DIR = ROOT / "data" / "boards"
 QUEUE_DIR = ROOT / "data" / "social-queue"  # shared between X + Telegram
 SITE_URL = "https://www.dollarbets.lol"
 ANTI_DUPE_DAYS = 14
+SLOTS = 3
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
@@ -53,19 +67,21 @@ def utc_today():
 
 
 def safe_ticker(ticker: str) -> str:
-    """Mirror generate.py's share-dir sanitization so OG image URLs line up."""
+    """Mirror generate.py's share-dir sanitization so image URLs line up."""
     s = re.sub(r"[^A-Za-z0-9_.\-]", "_", ticker or "")
     return s if s.strip(".") else ""
 
 
 def format_payout(p) -> str:
-    """Mirror generate.py's format_payout. $1 → $X.XX style."""
+    """Mirror generate.py's format_payout."""
     try:
         v = float(p)
     except (TypeError, ValueError):
         return "?"
-    if v >= 100:
+    if v >= 1000:
         return f"${v:,.0f}"
+    if v == int(v):
+        return f"${int(v)}"
     return f"${v:.2f}"
 
 
@@ -75,13 +91,23 @@ def load_latest_board() -> tuple[str, dict]:
     if not files:
         raise SystemExit("no main-board JSON files found in data/boards/")
     latest = files[-1]
-    date = latest.stem
     with open(latest) as f:
-        return date, json.load(f)
+        return latest.stem, json.load(f)
+
+
+def pick_longshot(board: list[dict]):
+    """The board's own hero pick — generate.py owns the rule, we just call it."""
+    sys.path.insert(0, str(ROOT))
+    try:
+        from generate import select_filthy_longshot
+    except Exception as e:  # never let the site module break selection
+        log(f"could not import select_filthy_longshot ({e}); no forced longshot")
+        return None
+    return select_filthy_longshot(board)
 
 
 def load_anti_dupe_tickers() -> set[str]:
-    """Return tickers we've already tweeted in the last N days."""
+    """Tickers already queued in the last N days."""
     tickers: set[str] = set()
     if not QUEUE_DIR.exists():
         return tickers
@@ -106,62 +132,43 @@ def load_anti_dupe_tickers() -> set[str]:
 
 # ── Claude selection ───────────────────────────────────────────────────────
 
-SELECTION_PROMPT = """You are picking 3 cards from today's Dollar Bets board to tweet from @dollarbets.
+SELECTION_PROMPT = """You are picking {n} cards from today's Dollar Bets board to post from @dollarbetslol on X.
 
 Dollar Bets voice: dry, specific, slightly oblique. The reader is in on the joke. \
 Drudge/Craigslist energy, not a polished startup. The quip already carries the voice — \
-you're just picking which 3 are most tweetable, not rewriting them.
+you're just picking which {n} are most postable, not rewriting them.
 
-What makes a card tweetable (in order of weight):
-1. The quip lands on its own without needing a screenshot of the headline
+Each post is the quip as the text and a card image showing the market title and the \
+payout. So the quip has to land as a standalone line above a picture of the wager.
+
+What makes a card postable (in order of weight):
+1. The quip lands on its own, without the title — it will sit above the card, not inside it
 2. The market itself is weird/specific/culturally legible — something a stranger \
-   would screenshot or reply to
-3. The payout is interesting (small odds = surprising "wait that's cheap", large \
-   odds = "wait you'd pay that for a dollar?")
-4. NOT a near-duplicate of recently tweeted markets (anti-dupe list below)
+would screenshot or reply to
+3. The payout is interesting (small odds = "wait that's cheap", large \
+odds = "wait you'd pay that for a dollar?")
+4. NOT a near-duplicate of recently posted markets (anti-dupe list below)
 
 DO NOT pick cards where the quip is bland, the market is generic, or the topic \
-overlaps recently-tweeted picks.
+overlaps recently-posted picks.
 
 TODAY'S BOARD ({date}):
 {markets}
 
-RECENTLY TWEETED (last {anti_dupe_days} days) — avoid topical near-duplicates:
+RECENTLY POSTED (last {anti_dupe_days} days) — avoid topical near-duplicates:
 {anti_dupe}
 
-Return a JSON array of exactly 3 objects, ranked best-first:
+Return a JSON array of exactly {n} objects, ranked best-first:
 [
-  {{"ticker": "...", "rank": 1, "reason": "one short sentence on why this lands"}},
-  {{"ticker": "...", "rank": 2, "reason": "..."}},
-  {{"ticker": "...", "rank": 3, "reason": "..."}}
+  {{"ticker": "...", "rank": 1, "reason": "one short sentence on why this lands"}}{more}
 ]
 
 Respond with ONLY the JSON array. Tickers must match exactly from the board above."""
 
 
-def claude_text(result):
-    """Return the joined text blocks of a Messages API response.
-
-    With adaptive thinking (requested explicitly, or on by default for
-    claude-sonnet-5 / claude-opus-5) the first content block is a thinking
-    block, so ``result["content"][0]["text"]`` raises ``KeyError: 'text'``.
-    Select the text blocks by type instead of by position.
-    """
-    blocks = result.get("content") or []
-    parts = [b.get("text", "") for b in blocks
-             if isinstance(b, dict) and b.get("type") == "text"]
-    if not parts:
-        kinds = [b.get("type") for b in blocks if isinstance(b, dict)]
-        raise ValueError(
-            f"no text block in Claude response "
-            f"(stop_reason={result.get('stop_reason')!r}, block types={kinds})"
-        )
-    return "".join(parts).strip()
-
-
-def call_claude_for_selection(board: list[dict], date: str, anti_dupe: set[str]) -> list[dict]:
+def call_claude_for_selection(board: list[dict], date: str, anti_dupe: set[str], n: int) -> list[dict]:
     if not ANTHROPIC_API_KEY:
-        raise SystemExit("ANTHROPIC_API_KEY not set — can't run --mode select")
+        raise SystemExit("ANTHROPIC_API_KEY not set — can't select")
 
     market_lines = []
     for i, m in enumerate(board, 1):
@@ -173,16 +180,12 @@ def call_claude_for_selection(board: list[dict], date: str, anti_dupe: set[str])
             f"platform={m.get('platform','?')} category={m.get('category','?')}"
         )
 
-    if anti_dupe:
-        anti_str = "\n".join(f"- {t}" for t in sorted(anti_dupe))
-    else:
-        anti_str = "(none yet)"
+    anti_str = "\n".join(f"- {t}" for t in sorted(anti_dupe)) if anti_dupe else "(none yet)"
+    more = "".join(f',\n  {{"ticker": "...", "rank": {k}, "reason": "..."}}' for k in range(2, n + 1))
 
     prompt = SELECTION_PROMPT.format(
-        date=date,
-        markets="\n\n".join(market_lines),
-        anti_dupe=anti_str,
-        anti_dupe_days=ANTI_DUPE_DAYS,
+        n=n, date=date, markets="\n\n".join(market_lines),
+        anti_dupe=anti_str, anti_dupe_days=ANTI_DUPE_DAYS, more=more,
     )
 
     body = json.dumps({
@@ -202,17 +205,17 @@ def call_claude_for_selection(board: list[dict], date: str, anti_dupe: set[str])
         method="POST",
     )
 
-    log("calling Claude for selection...")
+    log(f"calling Claude for {n} picks...")
     with urllib.request.urlopen(req, timeout=45) as resp:
         result = json.loads(resp.read().decode())
-    text = claude_text(result)
+    text = result["content"][0]["text"].strip()
     if text.startswith("```"):
         text = re.sub(r"^```\w*\n?", "", text)
         text = re.sub(r"\n?```$", "", text).strip()
 
     picks = json.loads(text)
-    if not isinstance(picks, list) or len(picks) != 3:
-        raise SystemExit(f"Claude returned {len(picks) if isinstance(picks, list) else 'non-list'} picks, expected 3")
+    if not isinstance(picks, list) or len(picks) != n:
+        raise SystemExit(f"Claude returned {len(picks) if isinstance(picks, list) else 'non-list'} picks, expected {n}")
 
     valid_tickers = {m.get("ticker") for m in board}
     for p in picks:
@@ -221,85 +224,51 @@ def call_claude_for_selection(board: list[dict], date: str, anti_dupe: set[str])
     return picks
 
 
-# ── Tweet building ─────────────────────────────────────────────────────────
+# ── Post text ──────────────────────────────────────────────────────────────
 
 # X counts every URL as 23 chars (t.co shortening) regardless of real length.
 TCO_LEN = 23
 TWEET_MAX = 280
 
 
-def build_tweet_text(market: dict, link_mode: str) -> tuple[str, str | None]:
-    """Return (main_tweet_text, reply_tweet_text_or_none).
+def share_url_for(market: dict, utm: bool = True) -> str:
+    safe = safe_ticker(market.get("ticker", ""))
+    url = f"{SITE_URL}/share/{safe}/"
+    return url + "?utm_source=x&utm_medium=daily_card" if utm else url
 
-    link_mode:
-      - "inline": URL in the main tweet body
-      - "reply":  URL becomes a self-reply
-      - "none":   no URL anywhere
+
+def build_tweet_text(market: dict, link_mode: str) -> tuple[str, str | None]:
+    """Return (main_text, reply_text_or_none).
+
+    The card image carries the title and the payout, so the text is the quip
+    alone. Saying the number twice reads as an ad; the quip alone reads as a
+    person. Title is the fallback if a market has no quip.
     """
-    ticker = market.get("ticker", "")
     quip = (market.get("quip") or "").strip()
     title = (market.get("title") or "").strip()
-    payout = format_payout(market.get("payout"))
+    body = quip or title
+    if len(body) > TWEET_MAX:
+        body = body[:TWEET_MAX - 1].rstrip() + "…"
 
-    safe = safe_ticker(ticker)
-    share_url = f"{SITE_URL}/share/{safe}/?utm_source=x&utm_medium=daily_card"
-
-    # Body without the URL — used as the main tweet in all modes
-    body = f'"{quip}"\n\n$1 pays {payout} — {title}'
+    url = share_url_for(market)
 
     if link_mode == "inline":
-        main = f"{body}\n\n{share_url}"
-        # Length budget: real string length minus URL length plus 23
+        main = f"{body}\n\n{url}"
         if length_with_tco(main) > TWEET_MAX:
-            # Truncate the title until it fits; quip is sacred
-            main = truncate_to_fit(body, share_url)
+            cut = TWEET_MAX - (2 + TCO_LEN) - 1
+            main = f"{body[:cut].rstrip()}…\n\n{url}"
         return main, None
 
     if link_mode == "reply":
-        main = body
-        if len(main) > TWEET_MAX:
-            main = truncate_body(quip, payout, title)
-        reply = f"link: {share_url}"
-        return main, reply
+        return body, f"the odds, and the rest of today’s board → {url}"
 
-    # link_mode == "none"
-    main = body
-    if len(main) > TWEET_MAX:
-        main = truncate_body(quip, payout, title)
-    return main, None
+    return body, None
 
 
 def length_with_tco(text: str) -> int:
     """Real X length: every URL counts as 23 chars."""
-    url_re = re.compile(r"https?://\S+")
-    urls = url_re.findall(text)
-    real_url_chars = sum(len(u) for u in urls)
-    return len(text) - real_url_chars + TCO_LEN * len(urls)
-
-
-def truncate_body(quip: str, payout: str, title: str) -> str:
-    """Title is the only sacrificial part. Quip and payout always stay."""
-    base = f'"{quip}"\n\n$1 pays {payout} — '
-    budget = TWEET_MAX - len(base) - 1  # 1 for ellipsis
-    if budget < 10:
-        return base.rstrip(" —")  # quip + payout only
-    return base + title[:budget].rstrip() + "…"
-
-
-def truncate_to_fit(body: str, url: str) -> str:
-    """Shrink body until body + \\n\\n + URL fits the 280-char tweet limit."""
-    overhead = 2 + TCO_LEN  # \n\n + shortened url
-    target = TWEET_MAX - overhead
-    if len(body) <= target:
-        return f"{body}\n\n{url}"
-    # Find last ' — ' and trim the title after it
-    if " — " in body:
-        head, tail = body.rsplit(" — ", 1)
-        budget = target - len(head) - len(" — ") - 1
-        if budget >= 10:
-            return f"{head} — {tail[:budget].rstrip()}…\n\n{url}"
-    # Last resort: hard cut
-    return f"{body[:target-1].rstrip()}…\n\n{url}"
+    urls = re.findall(r"https?://\S+", text)
+    return len(text) - sum(len(u) for u in urls) + TCO_LEN * len(urls)
 
 
 # ── Queue file management ──────────────────────────────────────────────────
@@ -323,11 +292,10 @@ def build_telegram_caption_html(market: dict, share_url: str) -> str:
     )
 
 
-def build_queue_entry(market: dict, rank: int, reason: str, link_mode: str) -> dict:
+def build_queue_entry(market: dict, rank: int, reason: str, link_mode: str, variant: str) -> dict:
     main, reply = build_tweet_text(market, link_mode)
     safe = safe_ticker(market.get("ticker", ""))
     share_url = f"{SITE_URL}/share/{safe}/"
-    image_url = f"{SITE_URL}/share/{safe}/og.png"
     return {
         "ticker": market.get("ticker"),
         "rank": rank,
@@ -336,8 +304,11 @@ def build_queue_entry(market: dict, rank: int, reason: str, link_mode: str) -> d
         "quip": market.get("quip"),
         "payout": market.get("payout"),
         "platform": market.get("platform"),
+        "tier": market.get("tier"),
+        "card_variant": variant,                            # "tile" | "ticket"
         "share_url": share_url,
-        "image_url": image_url,
+        "image_url": f"{SITE_URL}/share/{safe}/card.png",   # 1080×1080 post image
+        "og_image_url": f"{SITE_URL}/share/{safe}/og.png",  # 1200×630 link preview
         # Pre-rendered content per channel, locked at selection time so the
         # queue file is a complete audit log of what's planned.
         "content": {
@@ -355,22 +326,40 @@ def build_queue_entry(market: dict, rank: int, reason: str, link_mode: str) -> d
     }
 
 
+def queue_path(date: str) -> Path:
+    return QUEUE_DIR / f"{date}.json"
+
+
 def write_queue_file(date: str, payload: dict) -> Path:
     QUEUE_DIR.mkdir(parents=True, exist_ok=True)
-    path = QUEUE_DIR / f"{date}.json"
+    path = queue_path(date)
     path.write_text(json.dumps(payload, indent=2) + "\n")
     log(f"wrote queue file: {path}")
     return path
 
 
 def read_queue_file(date: str) -> dict:
-    path = QUEUE_DIR / f"{date}.json"
+    path = queue_path(date)
     if not path.exists():
         raise SystemExit(f"no queue file for {date} — run --mode select first")
     return json.loads(path.read_text())
 
 
-# ── X / Twitter posting ────────────────────────────────────────────────────
+def latest_queue_date() -> str | None:
+    if not QUEUE_DIR.exists():
+        return None
+    files = sorted(QUEUE_DIR.glob("2[0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9].json"))
+    return files[-1].stem if files else None
+
+
+def next_unposted_slot(queue: dict) -> int | None:
+    for i, entry in enumerate(queue.get("selections", []), 1):
+        if not entry.get("posts", {}).get("x", {}).get("posted"):
+            return i
+    return None
+
+
+# ── X posting ──────────────────────────────────────────────────────────────
 
 def download_image(url: str, dest: Path) -> bool:
     log(f"downloading image: {url}")
@@ -395,7 +384,7 @@ def download_image(url: str, dest: Path) -> bool:
     return True
 
 
-def post_tweet_live(text: str, image_path: Path, in_reply_to_id: str | None = None) -> str:
+def post_tweet_live(text: str, image_path: Path | None, in_reply_to_id: str | None = None) -> str:
     """Post via tweepy. Returns the new tweet ID. Raises on failure."""
     import tweepy  # imported lazily so dry-runs don't need the dep
 
@@ -404,7 +393,7 @@ def post_tweet_live(text: str, image_path: Path, in_reply_to_id: str | None = No
     access_token = os.environ["X_ACCESS_TOKEN"]
     access_secret = os.environ["X_ACCESS_TOKEN_SECRET"]
 
-    # Media upload still goes through v1.1 auth (OAuth 1.0a user context)
+    # Media upload goes through v1.1 (OAuth 1.0a user context)
     auth = tweepy.OAuth1UserHandler(api_key, api_secret, access_token, access_secret)
     api_v1 = tweepy.API(auth)
     media_id = None
@@ -412,7 +401,7 @@ def post_tweet_live(text: str, image_path: Path, in_reply_to_id: str | None = No
         media = api_v1.media_upload(filename=str(image_path))
         media_id = media.media_id_string
 
-    # Tweet creation uses v2
+    # Post creation uses v2
     client = tweepy.Client(
         consumer_key=api_key, consumer_secret=api_secret,
         access_token=access_token, access_token_secret=access_secret,
@@ -430,7 +419,7 @@ def post_tweet_live(text: str, image_path: Path, in_reply_to_id: str | None = No
 
 
 def post_slot(date: str, slot: int) -> None:
-    """Post the Nth slot (1-indexed) from today's queue to X."""
+    """Post the Nth slot (1-indexed) from the queue for `date` to X."""
     queue = read_queue_file(date)
     selections = queue.get("selections", [])
     if slot < 1 or slot > len(selections):
@@ -444,21 +433,20 @@ def post_slot(date: str, slot: int) -> None:
     content = entry.get("content", {})
     tweet_text = content.get("x_tweet_text")
     reply_text = content.get("x_reply_text")
-    link_mode = content.get("x_link_mode", "inline")
+    link_mode = content.get("x_link_mode", "reply")
     if not tweet_text:
         raise SystemExit(f"slot {slot} missing content.x_tweet_text — queue file is malformed")
 
     live = os.environ.get("TWEET_LIVE") == "1"
     img_path = QUEUE_DIR / f"{date}-slot{slot}.png"
-    image_ok = download_image(entry["image_url"], img_path)
-    if not image_ok:
+    if not download_image(entry["image_url"], img_path):
         raise SystemExit(f"slot {slot} image fetch failed — aborting post")
 
     print("=" * 60)
-    print(f"SLOT {slot}  [X]  ({'LIVE' if live else 'DRY-RUN'})")
+    print(f"SLOT {slot}  [X]  ({'LIVE' if live else 'DRY-RUN'})  card={entry.get('card_variant', '?')}")
     print(f"image: {entry['image_url']}  ({img_path.stat().st_size} bytes)")
     print(f"link mode: {link_mode}")
-    print("-- tweet text --")
+    print("-- post text --")
     print(tweet_text)
     print(f"-- length: {length_with_tco(tweet_text)} / {TWEET_MAX} --")
     if reply_text:
@@ -467,7 +455,7 @@ def post_slot(date: str, slot: int) -> None:
     print("=" * 60)
 
     if not live:
-        log("TWEET_LIVE != 1 — not posting. Run with TWEET_LIVE=1 to go live.")
+        log("TWEET_LIVE != 1 — not posting. Set TWEET_LIVE=1 to go live.")
         _safe_unlink(img_path)
         return
 
@@ -475,12 +463,15 @@ def post_slot(date: str, slot: int) -> None:
     x_state["posted"] = True
     x_state["posted_at"] = datetime.now(timezone.utc).isoformat()
     x_state["tweet_id"] = tweet_id
+    # Record the parent before attempting the reply, so a reply failure can't
+    # leave a posted parent unrecorded (which would double-post next run).
+    write_queue_file(date, queue)
 
     if reply_text:
         reply_id = post_tweet_live(reply_text, None, in_reply_to_id=tweet_id)
         x_state["reply_tweet_id"] = reply_id
+        write_queue_file(date, queue)
 
-    write_queue_file(date, queue)
     _safe_unlink(img_path)
 
 
@@ -495,66 +486,96 @@ def _safe_unlink(path: Path) -> None:
 
 # ── Top-level commands ─────────────────────────────────────────────────────
 
-def cmd_select(date_arg: str | None, link_mode: str, also_post_slot: int | None) -> None:
+def ensure_queue(link_mode: str) -> str:
+    """Select for the latest board if no queue exists for it. Returns board date."""
     date, data = load_latest_board()
-    if date_arg and date_arg != date:
-        log(f"warning: requested {date_arg} but latest board is {date}; using {date}")
+    if queue_path(date).exists():
+        log(f"queue for board {date} already exists — not re-selecting")
+        return date
 
     board = data.get("board", [])
-    if len(board) < 3:
-        raise SystemExit(f"board only has {len(board)} markets — need at least 3 to pick from")
+    if len(board) < SLOTS:
+        raise SystemExit(f"board only has {len(board)} markets — need at least {SLOTS}")
 
     anti_dupe = load_anti_dupe_tickers()
-    log(f"loaded {len(board)} markets, anti-dupe set has {len(anti_dupe)} tickers")
+    log(f"board {date}: {len(board)} markets, anti-dupe set has {len(anti_dupe)} tickers")
 
-    picks = call_claude_for_selection(board, date, anti_dupe)
-    by_ticker = {m.get("ticker"): m for m in board}
+    # Slot 3 is the board's own hero unless it went out in the last 14 days.
+    hero_idx = pick_longshot(board)
+    hero = board[hero_idx] if hero_idx is not None else None
+    if hero and hero.get("ticker") in anti_dupe:
+        log(f"longshot {hero.get('ticker')} already posted recently — Claude picks all {SLOTS}")
+        hero = None
+
+    pool = [m for m in board if m is not hero]
+    n_claude = SLOTS - (1 if hero else 0)
+    picks = call_claude_for_selection(pool, date, anti_dupe, n_claude)
+    by_ticker = {m.get("ticker"): m for m in pool}
 
     selections = []
     for p in picks:
-        m = by_ticker[p["ticker"]]
         selections.append(build_queue_entry(
-            market=m,
-            rank=p.get("rank"),
-            reason=(p.get("reason") or "").strip(),
-            link_mode=link_mode,
+            market=by_ticker[p["ticker"]], rank=p.get("rank"),
+            reason=(p.get("reason") or "").strip(), link_mode=link_mode, variant="tile",
+        ))
+    if hero:
+        selections.append(build_queue_entry(
+            market=hero, rank=SLOTS,
+            reason="today's filthy little longshot — the board's own hero pick",
+            link_mode=link_mode, variant="ticket",
         ))
 
-    payload = {
+    write_queue_file(date, {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "board_date": date,
         "link_mode": link_mode,
         "selections": selections,
-    }
-    write_queue_file(date, payload)
+    })
     for s in selections:
-        log(f"  rank {s['rank']}: {s['ticker']}  ({s['selection_reason']})")
-
-    if also_post_slot:
-        post_slot(date, also_post_slot)
+        log(f"  slot {s['rank']} [{s['card_variant']}]: {s['ticker']}  ({s['selection_reason']})")
+    return date
 
 
-def cmd_post(date_arg: str | None, slot: int) -> None:
-    date = date_arg or utc_today()
+def cmd_run(link_mode: str) -> None:
+    date = ensure_queue(link_mode)
+    queue = read_queue_file(date)
+    slot = next_unposted_slot(queue)
+    if slot is None:
+        log(f"all {len(queue.get('selections', []))} slots for board {date} already posted — nothing to do")
+        return
+    post_slot(date, slot)
+
+
+def cmd_post(date_arg: str | None, slot_arg: str) -> None:
+    date = date_arg or latest_queue_date()
+    if not date:
+        raise SystemExit("no queue files yet — run --mode select first")
+    if slot_arg == "next":
+        slot = next_unposted_slot(read_queue_file(date))
+        if slot is None:
+            log(f"all slots for {date} already posted")
+            return
+    else:
+        slot = int(slot_arg)
     post_slot(date, slot)
 
 
 def main() -> None:
     p = argparse.ArgumentParser(description="Dollar Bets daily X poster")
-    p.add_argument("--mode", choices=["select", "post"], required=True)
-    p.add_argument("--date", help="YYYY-MM-DD (defaults to UTC today)")
-    p.add_argument("--slot", type=int, help="1-indexed slot (1, 2, or 3)")
-    p.add_argument("--also-post-slot", type=int,
-                   help="In select mode, also post this slot after selecting")
-    p.add_argument("--link-mode", default=os.environ.get("TWEET_LINK_MODE", "inline"),
+    p.add_argument("--mode", choices=["run", "select", "post"], required=True)
+    p.add_argument("--date", help="queue date (YYYY-MM-DD); default = latest queue file")
+    p.add_argument("--slot", help='1-indexed slot, or "next"')
+    p.add_argument("--link-mode", default=os.environ.get("TWEET_LINK_MODE", "reply"),
                    choices=["inline", "reply", "none"])
     args = p.parse_args()
 
-    if args.mode == "select":
-        cmd_select(args.date, args.link_mode, args.also_post_slot)
+    if args.mode == "run":
+        cmd_run(args.link_mode)
+    elif args.mode == "select":
+        ensure_queue(args.link_mode)
     else:
         if not args.slot:
-            raise SystemExit("--mode post requires --slot")
+            raise SystemExit('--mode post requires --slot N or --slot next')
         cmd_post(args.date, args.slot)
 
 

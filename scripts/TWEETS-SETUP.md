@@ -1,109 +1,98 @@
-# Daily X Tweets — setup
+# Daily X posts — setup and ops
 
-The agent that posts 3 cards/day from the board to @dollarbets.
+The agent that posts 3 cards/day from the board to **@dollarbetslol**.
 
-## What's already in place
+## What's in place
 
-- `scripts/daily_tweets.py` — the agent (select via Claude, render copy, fetch image, post)
-- `.github/workflows/daily-tweets.yml` — schedule (13:00 / 17:00 / 21:00 UTC = 9am / 1pm / 5pm ET)
-- `data/social-queue/YYYY-MM-DD.json` — daily picks log, committed to git as a public record of what was tweeted (shared with the Telegram rail)
+- `scripts/daily_tweets.py` — the agent. `--mode run` is the scheduled entry
+  point: make sure a queue exists for the latest board (Claude picks two, the
+  board's own filthy little longshot is always slot 3), then post the next slot
+  that hasn't gone out. Idempotent — never double-posts, never re-selects.
+- `share_card.py` — renders the 1080×1080 post image for every market at build
+  time: `/share/{ticker}/card.png`. Two variants: the light **tile** (board
+  picks) and the dark **ticket** (the longshot). The 1200×630 `og.png` stays
+  for link previews.
+- `.github/workflows/daily-tweets.yml` — three cron fires a day, 12:30 / 16:30
+  / 00:30 UTC (8:30am / 12:30pm / 8:30pm ET). The slot is decided by queue
+  state, not by the clock, so GitHub's cron drift cannot skip a post.
+- `data/social-queue/YYYY-MM-DD.json` — the day's picks + post state, keyed by
+  **board** date, committed to git as a public record. Shared with the
+  Telegram rail.
 
-The workflow is **dry-run by default**. It will run on schedule, do everything except actually post, and write the proposed tweets to the GitHub Actions log. Flip one variable when ready to go live.
+## What a post is
 
-## One-time setup
+Parent post = the quip as the text, the card as the image, **no link**. A
+self-reply carries the share link (`TWEET_LINK_MODE=reply`). X throttles posts
+with an external URL in the body; the reply keeps the parent eligible for For
+You and still carries the click.
 
-### 1. Create the X account
+## One-time setup — DONE 2026-09-19
 
-The agent expects to post to a single handle (presumably @dollarbets or @dollarbetslol). Create it manually before any of the below works.
+- X account: @dollarbetslol, Premium (blue check, For You ranking boost).
+- Developer account: pay-per-use, app `2101241197779976193dollarbetsl`, OAuth
+  1.0a permissions **Read and write**, app type "Web App, Automated App or Bot".
+- Repo secrets: `X_API_KEY`, `X_API_SECRET`, `X_ACCESS_TOKEN`,
+  `X_ACCESS_TOKEN_SECRET` (+ the existing `ANTHROPIC_API_KEY`).
+- Repo variables: `TWEET_LIVE=0`, `TWEET_LINK_MODE=reply`.
+- Credits: the pay-per-use balance must be above zero or every post 402s.
+  Console → Buy Credits. ~$20 covers a month.
 
-### 2. Enroll in X API pay-per-use
+Pricing as verified 2026-09-19 (docs.x.com/x-api/getting-started/pricing):
+$0.015 per post without a URL, $0.20 per post containing a URL. Reply mode is
+$0.215 per card → ~$19/month at 3/day.
 
-Sign up at <https://developer.x.com> with the same X account.
+## Going live
 
-Pricing as of June 2026 (verified at setup time — re-check before going live):
-- $0.015 per post **without** a URL
-- **$0.20 per post containing a URL** (13× penalty, this is intentional)
-- No new-customer free tier; no new-customer Basic ($200/mo) — pay-per-use is the only on-ramp
+1. Merge the card PR. Wait for the Vercel deploy — cards only exist after a
+   build with `share_card.py` in it. Check one:
+   `https://www.dollarbets.lol/share/<ticker>/card.png`.
+2. Enable the workflow (it was disabled by hand in June):
+   `gh workflow enable "Daily X Tweets" -R SCHEMESTUDIO/dollarbets`
+3. Smoke test: Actions → Daily X Tweets → Run workflow → `mode = dry-run-all`.
+   The log shows all three posts composed and the card bytes downloaded; a
+   queue file is committed.
+4. Flip live: `gh variable set TWEET_LIVE -b 1 -R SCHEMESTUDIO/dollarbets`.
+   The next cron fire posts the next unposted slot. Or trigger `mode = run` by
+   hand and watch it land.
+5. Leave it. Three fires a day, three posts a day.
 
-Expected monthly spend at 3 posts/day with `inline` link mode: ~$18. Without the URL (`none` mode): ~$1.35.
-
-### 3. Create an app and grab credentials
-
-In the X developer portal:
-1. Create a new app under your Project
-2. App permissions: **Read and Write** (default is Read only — this is the most common gotcha)
-3. User authentication settings: enable **OAuth 1.0a** with Read+Write
-4. Go to Keys & Tokens, generate:
-   - Consumer Keys: API Key + API Key Secret
-   - Authentication Tokens → Access Token and Secret (these grant *your account* write access; regenerating them invalidates the old ones)
-
-You should end up with four strings.
-
-### 4. Add secrets to GitHub repo
-
-In <https://github.com/SCHEMESTUDIO/dollarbets/settings/secrets/actions>, add four repository secrets:
-
-| Secret name | Value |
-|-------------|-------|
-| `X_API_KEY` | Consumer API Key |
-| `X_API_SECRET` | Consumer API Key Secret |
-| `X_ACCESS_TOKEN` | Access Token |
-| `X_ACCESS_TOKEN_SECRET` | Access Token Secret |
-
-`ANTHROPIC_API_KEY` is already set (used by the daily scanner) — the tweet agent reuses it.
-
-### 5. Add repo variables (not secrets — these aren't sensitive)
-
-In <https://github.com/SCHEMESTUDIO/dollarbets/settings/variables/actions>:
-
-| Variable | Value | Notes |
-|----------|-------|-------|
-| `TWEET_LIVE` | `0` (for now) | Set to `1` to actually post |
-| `TWEET_LINK_MODE` | `inline` | `inline` \| `reply` \| `none` |
-
-## Going live — recommended sequence
-
-### Day 0: smoke test the dry-run path
-
-- Go to Actions → **Daily X Tweets** → Run workflow
-- Set `mode = dry-run-all`, `live = inherit`
-- Confirm in the log: 3 tweets composed, image bytes downloaded (~30–50KB each PNG), no errors
-- A `data/social-queue/YYYY-MM-DD.json` is committed showing the picks
-
-### Day 1–3: live-fire one tweet at a time
-
-- Set repo variable `TWEET_LIVE = 1`
-- Manually trigger with `mode = select-and-post-1` — watch it post to X, verify the image rendered correctly, copy reads right
-- Wait 4 hours, manually trigger `mode = post-2`
-- Wait 4 more, `mode = post-3`
-- If all three feel good, leave it alone — the cron will take over tomorrow at 13:00 UTC
-
-### Day 4+: scheduled, on autopilot
-
-- Cron fires 13/17/21 UTC daily
-- Each run commits the updated queue file so you can audit what posted
-- If you ever want to pause: set `TWEET_LIVE = 0` (no posts, but the workflow still runs and logs the would-be tweets — useful for editorial review)
-
-## Things to watch for
-
-**Image 404s.** The OG image lives at `https://www.dollarbets.lol/share/{ticker}/og.png` and is regenerated by every site build. If the morning scan (08:00 UTC) fails or Vercel doesn't redeploy before 13:00 UTC, the image fetch will fail and the workflow errors out rather than tweeting a broken card. The PNG magic-byte check in `download_image()` is what catches that — don't remove it.
-
-**Daily-scan and tweet-workflow race.** Both want to commit to `main`. The tweet workflow does `git pull --rebase` before pushing, but if the scan workflow is mid-flight at 13:00 UTC, the tweet workflow's push could conflict. The scan runs at 08:00 UTC so this is unlikely, but if you see weird push failures in the log, that's the suspect.
-
-**URL-in-tweet cost.** Every tweet with a URL is $0.20 (vs $0.015 without). Three tweets/day with URLs = $18/mo. If you want to test "link in reply" mode (parent tweet gets more reach, link as self-reply), change repo variable `TWEET_LINK_MODE` to `reply`. Cost is the same — you're just trading inline visibility for marginal algorithm boost on the parent. Recommended once you're past ~5k followers.
-
-**Selection quality.** Claude picks 3 from the board of 10 each morning. The anti-dupe corpus is the last 14 days of queue files — it won't re-tweet the same ticker, but it will happily re-tweet *similar* markets (two Trump quips back to back, etc.). If you see this pattern, tighten the selection prompt in `daily_tweets.py → SELECTION_PROMPT`.
-
-**No editorial review by default.** This auto-posts. If you want a "draft first, approve before live" flow, set `TWEET_LIVE = 0` permanently and treat the daily Actions log as an inbox — copy/paste the approved tweets into X manually. Costs $0 instead of $18/mo and gives you full veto.
-
-## Manual ops cheat sheet
+## Ops cheat sheet
 
 | Need to... | Do this |
-|------------|---------|
-| Pause posting | Set repo var `TWEET_LIVE = 0` |
-| Skip today's tweets | Same as pause — re-enable tomorrow |
-| Re-tweet a missed slot | Actions → Run workflow → `mode = post-2` (or 3) |
-| Force a re-selection | Delete today's queue file, re-run `select-only` |
-| Test with no live post | Run workflow with `live = 0` override |
-| Change drip times | Edit `cron` in `.github/workflows/daily-tweets.yml` |
-| Stop using URLs | Set repo var `TWEET_LINK_MODE = none` |
+|---|---|
+| Pause posting | `gh variable set TWEET_LIVE -b 0` |
+| Skip today | Same — the unposted slots just never go out; tomorrow's board makes a new queue |
+| Re-run a missed slot | Actions → Run workflow → `mode = run` (posts the next unposted) |
+| Force a re-selection | Delete today's queue file from `data/social-queue/`, run `mode = run` |
+| Preview without posting | Run workflow with `live = 0` |
+| Change times | Edit `cron` in the workflow |
+| Put the link in the body instead | `gh variable set TWEET_LINK_MODE -b inline` |
+
+## Things to watch
+
+**Card 404s.** The image is rebuilt on every deploy. If the morning scan or
+the Vercel build fails, the fetch fails and the run aborts rather than posting
+a broken card. The PNG magic-byte check in `download_image()` is what catches
+a 200-disguised error page — don't remove it.
+
+**Zero credit balance.** Pay-per-use draws from a prepaid balance. When it hits
+zero every post fails. Auto-recharge is optional; a hard balance is also a
+spend cap.
+
+**Stale board.** The queue is keyed by board date. If the board stops updating,
+the three slots for the last board post and then nothing more goes out — by
+design. Fix the board, not the poster.
+
+**Selection quality.** Claude picks two from the board. The anti-dupe corpus is
+the last 14 days of queue files, keyed by ticker, so it won't repeat a market
+but can repeat a topic. Tighten `SELECTION_PROMPT` if that becomes a pattern.
+
+**Telegram.** `daily_telegram.py` still maps slots from the clock hour and
+reads `utc_today()`. It is disabled and untouched by the card PR; if it is
+ever switched on, port it to the queue-state model first.
+
+## Measurement
+
+The reply link carries `utm_source=x&utm_medium=daily_card`. Judge the rail on
+GA4 sessions from that source against API spend. Written gate: thirty days
+live; if clicks per dollar don't beat the paid campaign on dogshow, pause it.
