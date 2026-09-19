@@ -3825,6 +3825,7 @@ def generate_share_pages(boards):
 
     latest_date, latest_data = boards[-1]
     board = latest_data.get("board", [])
+    longshot_idx = select_filthy_longshot(board)
 
     count = 0
     for m in board:
@@ -3851,6 +3852,17 @@ def generate_share_pages(boards):
         og_img_path = os.path.join(og_dir, "og.png")
         os.makedirs(og_dir, exist_ok=True)
         has_og_image = generate_share_og_image(title, quip, payout_str, og_img_path)
+
+        # Square social card (1080×1080) beside the OG image. The OG stays the
+        # link preview; the card is what daily_tweets.py attaches to the post.
+        # The day's filthy little longshot gets the dark ticket, the same way
+        # the board itself presents it.
+        try:
+            from share_card import render_card as _render_card
+            _variant = "ticket" if m is board[longshot_idx] else "tile"
+            _render_card(m, _variant, os.path.join(og_dir, "card.png"), board_date=latest_date)
+        except Exception as e:  # a card failure must never break the build
+            print(f"[generate] WARNING: share card failed for {safe_ticker}: {e}")
 
         # Use per-bet image if generated, otherwise fall back to site-wide
         if has_og_image:
