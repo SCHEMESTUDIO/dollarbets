@@ -214,7 +214,7 @@ def _stamp(board_date):
 
 def _render_tile(img, draw, fonts, m, board_date):
     bar, wash, ink_tier, _ = TIERS.get(m.get("tier", ""), TIER_DEFAULT)
-    pad, r, barw = 24, 30, 16   # thin outer margin: X frames the image itself
+    pad, r, barw = 0, 0, 16   # full bleed: X frames and rounds the image itself
     box = (pad, pad, W - pad, H - pad)
 
     # Tier bar under a wash panel offset by the bar width — same shape a CSS
@@ -229,7 +229,7 @@ def _render_tile(img, draw, fonts, m, board_date):
 
     # Head: wordmark + date stamp
     _wordmark(draw, fonts, x0, y, INK)
-    f_stamp = fonts.mono(22)
+    f_stamp = fonts.mono(22, semibold=True)
     _draw_tracked(draw, (x1, y + 12), _stamp(board_date), f_stamp, INK_2, 1, anchor_right=True)
 
     # Title
@@ -249,7 +249,7 @@ def _render_tile(img, draw, fonts, m, board_date):
     _dashed_h(draw, x0, x1, rule_y, RULE_DASH)
 
     # Meta column first, so the payout can be sized to the room left beside it
-    f_meta = fonts.mono(24)
+    f_meta = fonts.mono(24, semibold=True)
     platform = m.get("platform", "kalshi") or "kalshi"
     pname = PLATFORM_NAMES.get(platform, platform.title())
     line1 = pname + (" · CFTC-regulated" if platform == "kalshi" else "")
@@ -263,8 +263,8 @@ def _render_tile(img, draw, fonts, m, board_date):
     _draw_tracked(draw, (x0, base_y), payout_str, f_pay, ink_tier, -0.03 * psize, baseline=True)
     cap_top = f_pay.getbbox("0", anchor="ls")[1]   # negative: distance above baseline
 
-    f_label = fonts.mono(22, semibold=True)
-    _draw_tracked(draw, (x0, base_y + cap_top - 22 - 16), "$1 PAYS", f_label, INK_2, 4)
+    f_label = fonts.mono(28, semibold=True)   # a step above the other small text
+    _draw_tracked(draw, (x0, base_y + cap_top - 28 - 16), "$1 PAYS", f_label, INK_2, 4)
 
     if line2:
         _draw_tracked(draw, (x1, base_y - 6), line2, f_meta, INK_2, 0, anchor_right=True, baseline=True)
@@ -275,7 +275,7 @@ def _render_tile(img, draw, fonts, m, board_date):
 
 def _render_ticket(img, draw, fonts, m, board_date):
     _, _, _, bright = TIERS.get(m.get("tier", ""), TIER_DEFAULT)
-    pad, r = 24, 30   # thin outer margin: X frames the image itself
+    pad, r = 0, 0   # full bleed: X frames and rounds the image itself
     draw.rounded_rectangle((pad, pad, W - pad, H - pad), radius=r, fill=INK)
 
     # Notches at 60% height, like the hero ticket on the board
@@ -288,7 +288,7 @@ def _render_ticket(img, draw, fonts, m, board_date):
     y = pad + 64
 
     _wordmark(draw, fonts, x0, y, PAPER)
-    f_stamp = fonts.mono(22)
+    f_stamp = fonts.mono(22, semibold=True)
     _draw_tracked(draw, (x1, y + 12), _stamp(board_date), f_stamp, DARK_MUTE_2, 1, anchor_right=True)
 
     y += 44 + 56
@@ -308,14 +308,14 @@ def _render_ticket(img, draw, fonts, m, board_date):
     draw.text((x0, foot_y), "dollarbets.lol", font=f_foot, fill=DARK_MUTE_2)
     _draw_tracked(draw, (x1, foot_y), "what does a dollar pay?", f_foot, DARK_MUTE_2, 0, anchor_right=True)
 
-    f_meta = fonts.mono(24)
+    f_meta = fonts.mono(24, semibold=True)
     platform = m.get("platform", "kalshi") or "kalshi"
     pname = PLATFORM_NAMES.get(platform, platform.title())
     pi = _priced_in(m.get("payout", 0))
     line2 = f"{pi} priced in" if pi else ""
     meta_w = max(_text_w(draw, pname, f_meta), _text_w(draw, line2, f_meta) if line2 else 0)
 
-    f_pays = fonts.mono(30)
+    f_pays = fonts.mono(30, semibold=True)
     pays_w = _text_w(draw, "$1 pays", f_pays)
     payout_str = format_payout(m.get("payout", 0))
     base_y = foot_y - 46                      # shared baseline for the row
