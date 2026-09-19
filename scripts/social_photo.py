@@ -247,7 +247,7 @@ def _fetch_original(c):
     """The full-size file for the chosen candidate, with one retry. Falls back
     to the thumbnail already in hand (600px, upscaled) rather than losing the pick."""
     import time
-    url = _wikimedia_thumb(c["download"], 1600) or c["download"]
+    url = _wikimedia_thumb(c["download"], 1280) or c["download"]
     for attempt in (1, 2):
         try:
             return _fetch_image(url)
