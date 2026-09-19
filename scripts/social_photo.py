@@ -32,6 +32,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -143,15 +144,45 @@ def _get_json(url, headers=None):
         return json.loads(r.read().decode())
 
 
-def pexels(query, key):
-    if not key:
+_PEXELS_KEY_OK = None
+
+
+def _pexels_keys():
+    """Every distinct non-empty line of the secret. A secret set through a
+    shell pipe once arrived as three lines (a placeholder, then the key twice);
+    the first line that Pexels accepts is remembered for the rest of the run."""
+    raw = os.environ.get("PEXELS_API_KEY") or ""
+    seen, out = set(), []
+    for line in raw.splitlines():
+        k = line.strip()
+        if k and k not in seen:
+            seen.add(k); out.append(k)
+    return out
+
+
+def pexels(query, key=None):
+    global _PEXELS_KEY_OK
+    keys = [_PEXELS_KEY_OK] if _PEXELS_KEY_OK else _pexels_keys()
+    if not keys:
         return []
     url = "https://api.pexels.com/v1/search?" + urllib.parse.urlencode(
         {"query": query, "per_page": PER_QUERY, "orientation": "square", "size": "large"})
-    try:
-        data = _get_json(url, {"Authorization": key})
-    except Exception as e:
-        log(f"pexels error for {query!r}: {e}")
+    data = None
+    for k in keys:
+        try:
+            data = _get_json(url, {"Authorization": k})
+            _PEXELS_KEY_OK = k
+            break
+        except urllib.error.HTTPError as e:
+            if e.code in (401, 403) and k is not keys[-1]:
+                continue            # not this line — try the next
+            log(f"pexels error for {query!r}: {e}")
+            return []
+        except Exception as e:
+            log(f"pexels error for {query!r}: {e}")
+            return []
+    if data is None:
+        log(f"pexels: no line of PEXELS_API_KEY was accepted")
         return []
     out = []
     for ph in data.get("photos", []):
@@ -261,7 +292,7 @@ def choose_photo(market):
         phrases = [DEFAULT_QUERY_BY_CATEGORY.get(market.get("category", ""), "city skyline night")]
     log(f"phrases: {phrases}")
 
-    pexels_key = _secret("PEXELS_API_KEY")
+    pexels_key = bool(_pexels_keys())
 
     def variants(q):
         """The phrase, then its first two words, then its last two — Openverse
@@ -325,7 +356,7 @@ def choose_photo(market):
     # the vision pass rejecting the whole pool is the usual "wrong subject" case.
     c = None
     if pexels_key:
-        c = vet(pool(lambda q: pexels(q, pexels_key), "pexels"))
+        c = vet(pool(pexels, "pexels"))
         if c is None:
             log("pexels: nothing acceptable — trying openverse")
     if c is None:
