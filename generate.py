@@ -243,7 +243,7 @@ SHARED_CSS = """
     .feature-ticket { position: relative; margin: 18px 0 0; padding: 16px 18px 18px; background: #2d2319; color: #fdf6ee; border-radius: 12px; }
     .feature-ticket-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #f0a070; }
     .feature-ticket-title { font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 19px; line-height: 1.25; margin-top: 6px; letter-spacing: -0.3px; }
-    .feature-ticket-quip { font-size: 12.5px; color: #d9c6ac; font-style: italic; margin-top: 6px; line-height: 1.5; }
+    .feature-ticket-quip { font-size: 15.5px; color: #e8dcc6; font-style: italic; margin-top: 8px; line-height: 1.5; }
     .feature-ticket-row { display: flex; align-items: baseline; gap: 10px; margin-top: 12px; }
     .feature-ticket-pays { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: #d9c6ac; }
     .feature-ticket-amount { font-family: 'Archivo', sans-serif; font-weight: 900; font-size: 30px; color: #7fd89a; letter-spacing: -0.5px; line-height: 1; }
@@ -505,10 +505,11 @@ SHARED_CSS = """
     }
 
     .wager-quip {
-      font-size: 12px;
-      color: #6b5744;
+      font-size: 15px;
+      color: #4a3a2a;
       font-style: italic;
-      margin-top: 4px;
+      line-height: 1.45;
+      margin-top: 6px;
     }
 
     .wager-cta-row {
@@ -655,10 +656,11 @@ SHARED_CSS = """
     }
 
     .hero-longshot-quip {
-      font-size: 12px;
-      color: #b7a894;
+      font-size: 15px;
+      color: #e3d5bd;
       font-style: italic;
-      margin-top: 4px;
+      line-height: 1.45;
+      margin-top: 6px;
     }
 
     .hero-longshot-payout-row {
@@ -1045,10 +1047,11 @@ SHARED_CSS = """
     }
 
     .ranked-card-quip {
-      font-size: 12px;
-      color: #6b5744;
+      font-size: 15px;
+      color: #4a3a2a;
       font-style: italic;
-      margin-top: 3px;
+      line-height: 1.45;
+      margin-top: 6px;
     }
 
     .ranked-card-payout-row {
@@ -1150,7 +1153,7 @@ SHARED_CSS = """
     .recap-label { font-size: 11px; font-weight: 700; color: #b5470a; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 4px; }
     .recap-title { font-size: 14px; font-weight: 700; color: #2d2319; }
     .recap-detail { font-size: 12px; color: #6b5744; margin-top: 2px; }
-    .recap-quip { font-size: 11.5px; color: #806b5b; font-style: italic; margin-top: 4px; }
+    .recap-quip { font-size: 14px; color: #4a3a2a; font-style: italic; line-height: 1.45; margin-top: 5px; }
     .autopsy-section { margin-bottom: 16px; }
     .autopsy-section h3 { font-size: 13px; font-weight: 700; color: #2d2319; margin-bottom: 4px; }
     .autopsy-section p { font-size: 13px; color: #6b5744; line-height: 1.6; }
@@ -1247,6 +1250,8 @@ SHARED_CSS = """
       .container { padding: 16px 12px 110px; }
       .site-title { font-size: 22px; }
       .wager-title { font-size: 14px; }
+      .wager-quip, .ranked-card-quip, .hero-longshot-quip { font-size: 14px; }
+      .feature-ticket-quip { font-size: 14.5px; }
       .hero-longshot-amount { font-size: 26px; }
       .page-title { font-size: 22px; }
       .page-quip { font-size: 15px; }
