@@ -19,6 +19,38 @@ The agent that posts 3 cards/day from the board to **@dollarbetslol**.
   **board** date, committed to git as a public record. Shared with the
   Telegram rail.
 
+## When it runs, and why the slots are queue-driven
+
+GitHub fires cron late and unevenly. Measured over the week to 2026-09-18 the
+08:00 UTC board scan started between 12:41 and 14:45, and the 22:00 one
+sometimes after midnight UTC, which makes the file-gated scan build *tomorrow's*
+board at 00:08. So:
+
+- **Selection is triggered by the scan finishing** (`workflow_run`), not by
+  the clock. The queue for a new board exists the minute the board does.
+- **Posting drains the oldest queue that still has an unposted slot**, as long
+  as its board is at most a day older than the latest. A board landing at
+  00:08 no longer orphans yesterday's longshot.
+- Cron fires at 13:45 / 17:30 / 00:30 UTC, behind the usual board landing.
+
+## The photo behind the card
+
+At post time `scripts/social_photo.py` tries to put a subject-matched photo
+behind the card:
+
+1. Opus 5 writes two search phrases in plain nouns (scene, not subject).
+2. Pexels is searched (needs `PEXELS_API_KEY`). Every candidate is scored for
+   darkness and low detail; the best 16 go to Haiku 4.5, which picks one or
+   none, rejecting people, logos, text and anything about the wrong subject.
+3. If Pexels has nothing acceptable, Openverse (commercial-use CC only) gets
+   the same treatment.
+4. Nothing acceptable = the plain card. A photo is never forced.
+
+Cost is about 4,300 input tokens per card, roughly $0.02 with Opus on the
+phrases and Haiku on the ranking; under a dollar a month at three a day. The
+queue file records source, id, page, photographer and licence for every
+photo used. `SOCIAL_PHOTOS=0` (repo variable) switches the whole thing off.
+
 ## What a post is
 
 Parent post = the quip as the text, the card as the image, **no link**. A
