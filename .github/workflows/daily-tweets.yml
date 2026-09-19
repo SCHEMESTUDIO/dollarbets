@@ -2,33 +2,38 @@ name: Daily X Tweets
 
 # Posts 3 cards/day from the latest board to @dollarbetslol on X.
 #
-# Every scheduled run does the same thing (`--mode run`):
-#   1. If there is no queue file for the latest board yet, ask Claude to pick
-#      two board cards; the day's filthy little longshot is always slot 3.
-#   2. Post the next slot that hasn't gone out yet. Nothing left = no-op.
+# Two triggers:
+#   workflow_run  — when Daily Board Scan finishes, run `--mode select` so the
+#                   queue for the new board exists the minute the board does.
+#                   Idempotent: if the queue already exists it does nothing.
+#   schedule      — three fires a day run `--mode run`: post the next unposted
+#                   slot from the oldest queue that still has one (see the
+#                   agent's docstring for why oldest-first). Nothing left = no-op.
 #
-# So the slot is decided by queue state, not by the runner's clock. GitHub
-# cron routinely fires 10–60+ minutes late (the old hour→slot mapping silently
-# fell through to dry-run when it did — same bug that starved the prediction
-# board in September). Three fires a day = three posts a day, whenever they land.
+# GitHub's cron fires late and unevenly — the 08:00 scan has been landing
+# between 12:41 and 14:45 UTC, and the 22:00 one sometimes after midnight.
+# Slots are decided by queue state, not the runner's clock, so drift can
+# delay a post but never skip or double it.
 #
 # Schedule (UTC → US Eastern, EDT):
-#   12:30 UTC = 8:30am ET — morning pick  (tile card)
-#   16:30 UTC = 12:30pm ET — lunch pick    (tile card)
-#   00:30 UTC = 8:30pm ET  — the longshot  (dark ticket)
-# Evening is where betting Twitter lives; the longshot gets that slot.
+#   13:45 UTC = 9:45am ET — morning pick  (behind the usual board landing)
+#   17:30 UTC = 1:30pm ET — lunch pick
+#   00:30 UTC = 8:30pm ET — the longshot  (dark ticket)
 #
-# The 08:00 UTC board scan + Vercel rebuild have long finished by 12:30, so
-# /share/{ticker}/card.png exists before the first post pulls it.
+# Each post tries a subject-matched photo behind the card (Pexels, then
+# Openverse; Opus writes the search, Haiku vets the candidates). Nothing
+# acceptable = plain card. Repo variable SOCIAL_PHOTOS=0 switches it off.
 #
-# DRY-RUN BY DEFAULT. Repo variable TWEET_LIVE=1 makes it post for real.
-# (A repo *variable*, not a secret — secrets can't be compared in a workflow
-# without leaking, and "1" isn't sensitive.)
+# DRY-RUN unless repo variable TWEET_LIVE=1.
 
 on:
   schedule:
-    - cron: '30 12,16 * * *'
+    - cron: '45 13 * * *'
+    - cron: '30 17 * * *'
     - cron: '30 0 * * *'
+  workflow_run:
+    workflows: ["Daily Board Scan"]
+    types: [completed]
   workflow_dispatch:
     inputs:
       mode:
@@ -52,10 +57,13 @@ concurrency:
 jobs:
   tweet:
     runs-on: ubuntu-latest
+    # After a scan we only select; a failed scan changes nothing, so skip.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
+          ref: main
           # Full history so the queue commit can rebase over a concurrent
           # daily-scan commit instead of conflicting.
           fetch-depth: 0
@@ -66,13 +74,29 @@ jobs:
           python-version: '3.11'
 
       - name: Install deps
-        run: pip install --quiet tweepy
+        run: pip install --quiet tweepy Pillow
+
+      - name: Fonts for the photo card
+        run: |
+          mkdir -p .fonts
+          GF="https://github.com/google/fonts/raw/main/ofl"
+          curl -sL "$GF/archivo/Archivo%5Bwdth%2Cwght%5D.ttf" -o .fonts/Archivo-VF.ttf
+          curl -sL "$GF/ibmplexmono/IBMPlexMono-Regular.ttf" -o .fonts/IBMPlexMono-Regular.ttf
+          curl -sL "$GF/ibmplexmono/IBMPlexMono-SemiBold.ttf" -o .fonts/IBMPlexMono-SemiBold.ttf
+          for f in Archivo-VF IBMPlexMono-Regular IBMPlexMono-SemiBold; do
+            [ "$(wc -c < .fonts/$f.ttf)" -lt 50000 ] && { echo "font $f looks wrong, dropping"; rm -f .fonts/$f.ttf; }
+          done
+          ls -la .fonts
 
       - name: Resolve mode + live flag
         id: cfg
         run: |
-          MODE="${{ github.event.inputs.mode }}"
-          [ -z "$MODE" ] && MODE="run"
+          if [ "${{ github.event_name }}" = "workflow_run" ]; then
+            MODE="select-only"
+          else
+            MODE="${{ github.event.inputs.mode }}"
+            [ -z "$MODE" ] && MODE="run"
+          fi
           echo "mode=$MODE" >> "$GITHUB_OUTPUT"
 
           # TWEET_LIVE resolution: manual override > repo variable > 0
@@ -83,17 +107,19 @@ jobs:
             LIVE="${{ vars.TWEET_LIVE || '0' }}"
           fi
           echo "live=$LIVE" >> "$GITHUB_OUTPUT"
-          echo "Resolved mode=$MODE  live=$LIVE"
+          echo "Resolved event=${{ github.event_name }} mode=$MODE live=$LIVE"
 
       - name: Run agent
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           TWEET_LIVE: ${{ steps.cfg.outputs.live }}
           TWEET_LINK_MODE: ${{ vars.TWEET_LINK_MODE || 'reply' }}
+          SOCIAL_PHOTOS: ${{ vars.SOCIAL_PHOTOS || '1' }}
         run: |
           set -e
           case "${{ steps.cfg.outputs.mode }}" in

@@ -7,6 +7,9 @@ Two variants, mirroring how the board itself presents a market:
   "tile"    — the light tinted ticket. Standard board pick. Tier wash + left
               bar carry the odds colour system; the payout is the hook.
   "ticket"  — the dark hero ticket. Today's filthy little longshot. One a day.
+  "photo"   — the tile layout in the dark palette over a subject-matched photo
+              (chosen by scripts/social_photo.py at post time; never built by
+              the site). Pass `photo=` (PIL image) and `credit=`.
 
 generate.py renders one per market at build time into
 public/share/{ticker}/card.png, next to the 1200×630 og.png (which stays:
@@ -335,9 +338,74 @@ def _render_ticket(img, draw, fonts, m, board_date):
     _dashed_h(draw, x0, x1, rule_y, DARK_RULE, width=3)
 
 
+
+def _render_photo(fonts, m, board_date, photo, credit):
+    """Tile layout in the dark palette over a photo + gradient scrim.
+    `photo` is a PIL image (any size); `credit` is the attribution line that
+    replaces the tagline in the footer. Returns the finished RGB image."""
+    from PIL import Image, ImageDraw, ImageOps
+
+    bar, _, _, bright = TIERS.get(m.get("tier", ""), TIER_DEFAULT)
+    barw = 16
+    LIGHT = "#d9c9b6"
+
+    base = ImageOps.fit(photo.convert("RGB"), (W, H), method=Image.LANCZOS, centering=(0.5, 0.5))
+    # Scrim: light at the top so the photo reads, heavy at the bottom under the payout.
+    alpha = Image.new("L", (1, H))
+    for y in range(H):
+        t = y / (H - 1)
+        alpha.putpixel((0, y), int(255 * (0.30 + 0.58 * (t ** 1.6))))
+    base = Image.composite(Image.new("RGB", (W, H), (20, 14, 10)), base, alpha.resize((W, H)))
+    draw = ImageDraw.Draw(base)
+    draw.rectangle((0, 0, barw, H), fill=bar)
+
+    x0 = barw + 64
+    x1 = W - 64
+    y = 60
+    _wordmark(draw, fonts, x0, y, PAPER)
+    _draw_tracked(draw, (x1, y + 12), _stamp(board_date), fonts.mono(22, semibold=True), LIGHT, 1, anchor_right=True)
+
+    y += 44 + 64
+    f_title, lines, size = _fit_title(draw, m.get("title", ""), fonts, x1 - x0)
+    lh = int(size * 1.12)
+    for ln in lines:
+        _draw_tracked(draw, (x0 + 2, y + 3), ln, f_title, (0, 0, 0), -1.5)   # soft shadow
+        _draw_tracked(draw, (x0, y), ln, f_title, PAPER, -1.5)
+        y += lh
+
+    f_foot = fonts.mono(24)
+    foot_y = H - 56 - 30
+    draw.text((x0, foot_y), "dollarbets.lol", font=f_foot, fill=LIGHT)
+    _draw_tracked(draw, (x1, foot_y + 2), credit, fonts.mono(20), DARK_MUTE, 0, anchor_right=True)
+    rule_y = foot_y - 28
+    _dashed_h(draw, x0, x1, rule_y, "#8a7a68")
+
+    f_meta = fonts.mono(24, semibold=True)
+    platform = m.get("platform", "kalshi") or "kalshi"
+    pname = PLATFORM_NAMES.get(platform, platform.title())
+    line1 = pname + (" · CFTC-regulated" if platform == "kalshi" else "")
+    pi = _priced_in(m.get("payout", 0))
+    line2 = f"{pi} chance priced in" if pi else ""
+    meta_w = max(_text_w(draw, line1, f_meta), _text_w(draw, line2, f_meta) if line2 else 0)
+
+    payout_str = format_payout(m.get("payout", 0))
+    base_y = rule_y - 40
+    f_pay, psize = _fit_payout(draw, fonts, payout_str, 200, (x1 - x0) - meta_w - 32)
+    _draw_tracked(draw, (x0 + 3, base_y + 4), payout_str, f_pay, (0, 0, 0), -0.03 * psize, baseline=True)
+    _draw_tracked(draw, (x0, base_y), payout_str, f_pay, bright, -0.03 * psize, baseline=True)
+    cap_top = f_pay.getbbox("0", anchor="ls")[1]
+    _draw_tracked(draw, (x0, base_y + cap_top - 28 - 16), "$1 PAYS", fonts.mono(28, semibold=True), LIGHT, 4)
+    if line2:
+        _draw_tracked(draw, (x1, base_y - 6), line2, f_meta, LIGHT, 0, anchor_right=True, baseline=True)
+        _draw_tracked(draw, (x1, base_y - 42), line1, f_meta, LIGHT, 0, anchor_right=True, baseline=True)
+    else:
+        _draw_tracked(draw, (x1, base_y - 6), line1, f_meta, LIGHT, 0, anchor_right=True, baseline=True)
+    return base
+
+
 # ── Public API ─────────────────────────────────────────────────────────────
 
-def render_card(market, variant, output_path, board_date="", fonts_dir=None):
+def render_card(market, variant, output_path, board_date="", fonts_dir=None, photo=None, credit=""):
     """Render one 1080×1080 card. Returns True on success, False if fonts or
     Pillow are unavailable (caller falls back to no card, never a broken one)."""
     try:
@@ -352,12 +420,17 @@ def render_card(market, variant, output_path, board_date="", fonts_dir=None):
         print(f"[share_card] WARNING: no usable fonts in {fonts_dir}, skipping card")
         return False
 
-    img = Image.new("RGB", (W, H), PAPER)
-    draw = ImageDraw.Draw(img)
-    if variant == "ticket":
-        _render_ticket(img, draw, fonts, market, board_date)
+    if variant == "photo" and photo is None:
+        variant = "tile"   # no usable photo: the plain card, never a broken one
+    if variant == "photo":
+        img = _render_photo(fonts, market, board_date, photo, credit)
     else:
-        _render_tile(img, draw, fonts, market, board_date)
+        img = Image.new("RGB", (W, H), PAPER)
+        draw = ImageDraw.Draw(img)
+        if variant == "ticket":
+            _render_ticket(img, draw, fonts, market, board_date)
+        else:
+            _render_tile(img, draw, fonts, market, board_date)
 
     os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
     img.save(output_path, "PNG", optimize=True)

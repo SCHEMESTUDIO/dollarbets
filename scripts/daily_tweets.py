@@ -24,6 +24,16 @@ self-reply keeps the parent eligible for For You and still carries the click.
 Slot 3 is always the day's filthy little longshot, on the dark ticket card —
 the same hero the board itself leads with.
 
+At post time scripts/social_photo.py tries to put a subject-matched photo
+behind the card (Pexels, then Openverse; Opus writes the search, Haiku vets
+the candidates). If nothing acceptable comes back, the plain card posts.
+
+Which queue posts: the OLDEST queue with an unposted slot, as long as its
+board is at most a day older than the latest board. The scan lands late and
+unevenly, so this is what keeps a new board from orphaning yesterday's
+longshot. Selection for a new board happens when the scan commits
+(workflow_run) or, failing that, at the next cron fire.
+
 Env vars:
   ANTHROPIC_API_KEY      required for selection
   X_API_KEY              X app consumer key   (required in LIVE mode)
@@ -31,6 +41,8 @@ Env vars:
   X_ACCESS_TOKEN         User-context access token for @dollarbetslol
   X_ACCESS_TOKEN_SECRET  User-context access token secret
   TWEET_LIVE             "1" to actually post. Anything else = dry-run (default).
+  SOCIAL_PHOTOS          "1" (default) tries a photo card; "0" always posts the plain card
+  PEXELS_API_KEY         photo source (optional; Openverse is used regardless)
   TWEET_LINK_MODE        "reply" (default) | "inline" | "none"
                            reply:  URL in a self-reply (2 posts, parent stays link-free)
                            inline: URL in the post body (1 post, throttled reach)
@@ -305,6 +317,7 @@ def build_queue_entry(market: dict, rank: int, reason: str, link_mode: str, vari
         "payout": market.get("payout"),
         "platform": market.get("platform"),
         "tier": market.get("tier"),
+        "category": market.get("category"),
         "card_variant": variant,                            # "tile" | "ticket"
         "share_url": share_url,
         "image_url": f"{SITE_URL}/share/{safe}/card.png",   # 1080×1080 post image
@@ -350,6 +363,35 @@ def latest_queue_date() -> str | None:
         return None
     files = sorted(QUEUE_DIR.glob("2[0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9].json"))
     return files[-1].stem if files else None
+
+
+def queue_dates_desc() -> list[str]:
+    if not QUEUE_DIR.exists():
+        return []
+    return sorted((f.stem for f in QUEUE_DIR.glob("2[0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9].json")), reverse=True)
+
+
+def pick_queue_to_post(latest_board_date: str) -> str | None:
+    """The queue to post from: the OLDEST one that still has an unposted slot,
+    provided its board is no more than a day older than the latest board.
+
+    The board scan lands late and unevenly (13:00 one day, 00:08 the next), so
+    a new queue can appear while yesterday's still has its longshot waiting.
+    Draining the older queue first means no slot is orphaned and the longshot
+    still goes out in the evening; anything older than a day is stale and skipped."""
+    from datetime import date as _date
+    latest = _date.fromisoformat(latest_board_date)
+    candidates = []
+    for d in queue_dates_desc():
+        try:
+            age = (latest - _date.fromisoformat(d)).days
+        except ValueError:
+            continue
+        if age > 1:
+            continue
+        if next_unposted_slot(read_queue_file(d)) is not None:
+            candidates.append(d)
+    return min(candidates) if candidates else None
 
 
 def next_unposted_slot(queue: dict) -> int | None:
@@ -442,8 +484,18 @@ def post_slot(date: str, slot: int) -> None:
     if not download_image(entry["image_url"], img_path):
         raise SystemExit(f"slot {slot} image fetch failed — aborting post")
 
+    # Subject-matched photo behind the card, chosen at post time. Any failure
+    # or rejection leaves the plain card in place — never a broken image.
+    if os.environ.get("SOCIAL_PHOTOS", "1") == "1":
+        try:
+            photo_card = try_photo_card(entry, date, img_path)
+        except Exception as e:
+            log(f"photo card failed ({type(e).__name__}: {e}) — using the plain card")
+            photo_card = None
+        entry["photo"] = photo_card or {"used": False}
+
     print("=" * 60)
-    print(f"SLOT {slot}  [X]  ({'LIVE' if live else 'DRY-RUN'})  card={entry.get('card_variant', '?')}")
+    print(f"SLOT {slot}  [X]  ({'LIVE' if live else 'DRY-RUN'})  card={entry.get('card_variant', '?')}  photo={'yes' if entry.get('photo', {}).get('used') else 'no'}")
     print(f"image: {entry['image_url']}  ({img_path.stat().st_size} bytes)")
     print(f"link mode: {link_mode}")
     print("-- post text --")
@@ -473,6 +525,30 @@ def post_slot(date: str, slot: int) -> None:
         write_queue_file(date, queue)
 
     _safe_unlink(img_path)
+
+
+def try_photo_card(entry: dict, date: str, img_path: Path) -> dict | None:
+    """Pick a photo for this market and overwrite img_path with the photo card.
+    Returns the attribution record for the queue file, or None."""
+    sys.path.insert(0, str(ROOT))
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from social_photo import choose_photo
+    from share_card import render_card
+    market = {k: entry.get(k) for k in ("ticker", "title", "quip", "payout", "platform", "tier")}
+    market["category"] = entry.get("category", "")
+    pick = choose_photo(market)
+    if not pick:
+        return None
+    fonts_dir = ROOT / ".fonts"
+    ok = render_card(market, "photo", str(img_path), board_date=date,
+                     fonts_dir=str(fonts_dir), photo=pick["img"], credit=pick["credit"])
+    if not ok:
+        log("photo render failed — using the plain card")
+        return None
+    log(f"photo card rendered ({pick['source']} {pick['id']}, {pick['photographer']})")
+    return {"used": True, "source": pick["source"], "id": pick["id"], "page": pick["page"],
+            "photographer": pick["photographer"], "license": pick["license"],
+            "phrases": pick["phrases"], "tokens": pick["usage"]}
 
 
 def _safe_unlink(path: Path) -> None:
@@ -537,12 +613,12 @@ def ensure_queue(link_mode: str) -> str:
 
 
 def cmd_run(link_mode: str) -> None:
-    date = ensure_queue(link_mode)
-    queue = read_queue_file(date)
-    slot = next_unposted_slot(queue)
-    if slot is None:
-        log(f"all {len(queue.get('selections', []))} slots for board {date} already posted — nothing to do")
+    latest = ensure_queue(link_mode)
+    date = pick_queue_to_post(latest)
+    if date is None:
+        log(f"no unposted slots in any queue within a day of board {latest} — nothing to do")
         return
+    slot = next_unposted_slot(read_queue_file(date))
     post_slot(date, slot)
 
 
