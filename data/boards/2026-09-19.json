@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-09-19T12:20:10.272901+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 6,
+    "polymarket": 4
+  },
+  "board": [
+    {
+      "ticker": "KXMETEOR-30",
+      "title": "A major meteor hits Earth before 2030",
+      "subtitle": "Large meteor strike",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 2.13,
+      "tier": "green",
+      "quip": "47 cents for the end of everything, the dinosaurs paid full price",
+      "yes_price": "0.4700",
+      "volume": 142498.15,
+      "category": "Science and Technology",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXMETEOR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 99.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Armageddon had drillers and an Aerosmith song. we have a guy with a telescope",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "i've been telling my landlord this exact thing about the lease renewal",
+          "mode": 2,
+          "score": 4
+        },
+        {
+          "quip": "big rock, small planet",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "47 cents for the end of everything, the dinosaurs paid full price",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "\"sir, it's the size of a stadium.\" which stadium. SIR. which stadium",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "let it hit Newark, honestly nobody would be able to tell",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "sky turns green, church attendance triples, the Waffle House stays open",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "like a punt returner nobody bothered to block",
+          "mode": 6,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0xa590e64c23a615083a2bcedd3d6cb8ac8ac0bfaeb8baf3531af93d14da530ff0",
+      "title": "Rams win by eight or more tonight",
+      "subtitle": "",
+      "payout": 2.15,
+      "tier": "green",
+      "quip": "SoFi doing its full we-leave-in-the-third-quarter routine",
+      "yes_price": "0.4650",
+      "volume": 9719.861314999998,
+      "category": "Other",
+      "close_time": "2026-09-22T00:15:00Z",
+      "_specificity": 5,
+      "url": "https://polymarket.com/event/nfl-nyg-la-2026-09-22",
+      "platform": "polymarket",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "i have never once trusted a 7.5 and yet here i am again",
+          "mode": 2,
+          "score": 4
+        },
+        {
+          "quip": "Stafford's arm, sure",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "McVay covers his mouth, says something, it's 31-10 before the second beer",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "SoFi doing its full we-leave-in-the-third-quarter routine",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Sean McVay is still somehow 39 and still looks like a camp counselor",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "win by exactly 8 and I'm framing the $2.15",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "half that building is wearing the other jersey anyway, who cares",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "this is the part of the movie where the training montage actually worked",
+          "mode": 8,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "0x509f046b7c469e369f4bd82221f8915e925b113898d349efcec99a317fb9cbda",
+      "title": "Ken Martin is out as DNC Chair by next year",
+      "subtitle": "",
+      "payout": 2.22,
+      "tier": "green",
+      "quip": "new chair, same email, subject line: \"we're going to be honest with you\"",
+      "yes_price": "0.4500",
+      "volume": 9869.599982000002,
+      "category": "Science and Technology",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/ken-martin-out-as-dnc-chair-by",
+      "platform": "polymarket",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "i couldn't pick him out of a lineup of two guys and i'm invested",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "who? oh right. exactly",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "new chair, same email, subject line: \"we're going to be honest with you\"",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "changing chairs is the only muscle that party has left",
+          "mode": 7,
+          "score": 6.5
+        },
+        {
+          "quip": "\"we need to have a serious conversation about messaging.\" that's it, that's the plan",
+          "mode": 4,
+          "score": 6
+        },
+        {
+          "quip": "like firing the offensive coordinator when the quarterback is clearly the problem",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "$2.22 says the next guy texts me four times before breakfast",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "weirdly thrilling watching a man lose a job i didn't know existed",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXVEI4-26DEC31-A3",
+      "title": "At least three major volcanoes erupt this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "At least 3",
+      "no_sub_title": "At least 3",
+      "payout": 3.85,
+      "tier": "yellow",
+      "quip": "sunsets get unbelievable, bread gets expensive, nobody connects the two",
+      "yes_price": "0.2600",
+      "volume": 10135.8,
+      "category": "Climate and Weather",
+      "close_time": "2027-06-29T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXVEI4?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 84.0,
+      "_specificity": 0,
+      "quip_alts": [
+        {
+          "quip": "three of them! that's not an eruption that's a tour",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "my flight to Europe has been cancelled by rocks before, it will happen again",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "earth clearing its throat",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "sunsets get unbelievable, bread gets expensive, nobody connects the two",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "three eruptions for $3.85, roughly a dollar per volcano plus tip",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Iceland is just the closer at this point",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "the Pompeii guy who stayed for one more cup of wine, that's me",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "Yellowstone naps while Indonesia does all the actual labor, as usual",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0xbb12ad2ac9c3e69ebd2022a8f705d7f758a4c6027f43dc44df4e5ec5ed1c285f",
+      "title": "The Saudi East-West pipeline restarts this month",
+      "subtitle": "",
+      "payout": 5.56,
+      "tier": "yellow",
+      "quip": "Brent guys about to be completely insufferable at brunch",
+      "yes_price": "0.1800",
+      "volume": 99853.01536099998,
+      "category": "Other",
+      "close_time": "2026-09-23T03:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/saudi-oil-pipeline-east-west-restarts-byptptpt",
+      "platform": "polymarket",
+      "score": 60.0,
+      "quip_alts": [
+        {
+          "quip": "i pretend to understand this every time gas jumps eleven cents",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the tube resumes tubing",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "a guy turns a wheel in the desert and my Civic gets cheaper",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "$5.56 to reopen a pipe, my plumber charges more just to look",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "\"crude's down two.\" cool man. anyway what are we eating",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "the offensive line of the world economy, noticed only when it collapses",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "pipelines are the most underrated infrastructure on this planet and i'll say it loud",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "Brent guys about to be completely insufferable at brunch",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNFLSZNRECORD-27SACK-Y",
+      "title": "Someone breaks the single-season sack record this season",
+      "subtitle": "Sack - 2026-27",
+      "yes_sub_title": "Over 23 sacks",
+      "no_sub_title": "Over 23 sacks",
+      "payout": 5.88,
+      "tier": "yellow",
+      "quip": "all it takes is playing Carolina's offensive line eight times",
+      "yes_price": "0.1700",
+      "volume": 347.57,
+      "category": "Sports",
+      "close_time": "2027-01-18T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNFLSZNRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 48.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "i still think Favre gift-wrapped Strahan's and i'll die on that hill",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "22.5 was never safe",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "Strahan finds out live on morning TV and smiles the entire segment",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "24 sacks for $5.88, about a quarter per ruined quarterback",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "a grown man reaching the QB 24 times is my favorite kind of violence",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "like 62 home runs except nobody has follow-up questions",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "all it takes is playing Carolina's offensive line eight times",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "somewhere a left tackle is becoming the villain of a documentary",
+          "mode": 8,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "STARSHIPMARS-29DEC31",
+      "title": "Starship sends humans to Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Not Before 2030",
+      "payout": 7.69,
+      "tier": "orange",
+      "quip": "the Browns have a cleaner path to a parade",
+      "yes_price": "0.1300",
+      "volume": 53055.01,
+      "category": "Companies",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i can't get a package out of Memphis in two days but okay",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "four years. sure. love it",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "first crew leaves with a Cybertruck strapped in the cargo bay for content",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we're targeting 2028, which realistically means 2031, which realistically means\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "13 cents for humanity leaving the planet, cheaper than a gumball",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "if this actually happens i will cry into my cereal, no notes",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "the Browns have a cleaner path to a parade",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "somebody is about to read The Martian as a training manual again",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27",
+      "title": "The US cuts a new Iran nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 12.5,
+      "tier": "orange",
+      "quip": "a rebuilding year that has now lasted since 2003",
+      "yes_price": "0.0800",
+      "volume": 1683776.83,
+      "category": "Politics",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i have a folder of tabs about this and i've opened exactly zero",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "signed, unsigned, resigned",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "handshake photo, two flags, everyone back in the same room by March",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "a rebuilding year that has now lasted since 2003",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "\"we have a concept of a framework toward the beginning of a deal\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "12.5x because nobody in that building can locate a working pen",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "i'd love some good news right now, even fake, even briefly",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "like the last season of Lost, lots of talking, nothing resolves",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26SALLY-T4",
+      "title": "Sally strengthens into a Category 4 hurricane",
+      "subtitle": "Hurricane Sally",
+      "yes_sub_title": "Category 4 or above",
+      "no_sub_title": "Category 4 or above",
+      "payout": 50.0,
+      "tier": "red",
+      "quip": "Mobile, Alabama has an unblemished record of catching these things",
+      "yes_price": "0.0200",
+      "volume": 25.0,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 80.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "my aunt in Pensacola has already sent the family a wind speed screenshot",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Sally? a Category 4 Sally",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "ice gone from every gas station by noon, Waffle House index goes yellow",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "50 to 1 that a woman named Sally cancels my entire weekend",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "the name implies a bake sale and instead we get 140 miles an hour",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "Mobile, Alabama has an unblemished record of catching these things",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "like a 15 seed reaching the Sweet Sixteen, except everybody loses",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"we're asking residents to evacuate.\" meanwhile a guy is surfing the pier",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x2785303a9349d892f464c251c1a39b838a8c535022c54b5a826c9d55c4049db1",
+      "title": "The Cardinals win the NFC Championship in 2027",
+      "subtitle": "",
+      "payout": 222.22,
+      "tier": "purple",
+      "quip": "222 to 1, roughly one dollar per good year in franchise history",
+      "yes_price": "0.0045",
+      "volume": 988523.5355089998,
+      "category": "Sports",
+      "close_time": "2027-01-25T00:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/pro-football-2027-nfc-champion",
+      "platform": "polymarket",
+      "score": 48.0,
+      "quip_alts": [
+        {
+          "quip": "i will drive to Glendale personally and apologize for everything i've said",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Kyler unlocks the achievement",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "222 to 1, roughly one dollar per good year in franchise history",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "the roof opens and the sun immediately says absolutely not",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "Larry Fitzgerald unretires out of pure confusion and catches nine",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "like my cousin winning his league entirely off Tuesday waiver pickups",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "a red bird finally doing something. nature remains genuinely unpredictable",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "Kurt Warner quietly restocking a grocery aisle, waiting for the call",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    }
+  ]
+}
