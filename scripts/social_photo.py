@@ -54,10 +54,21 @@ def log(msg):
     print(f"[photo] {msg}", file=sys.stderr)
 
 
+def _secret(name):
+    """A secret set through a shell pipe can arrive with a trailing newline or
+    even two copies on two lines. Header values can't contain newlines, so take
+    the first non-empty line and strip it."""
+    raw = os.environ.get(name) or ""
+    for line in raw.splitlines():
+        if line.strip():
+            return line.strip()
+    return ""
+
+
 # ── Claude ─────────────────────────────────────────────────────────────────
 
 def _claude(messages, model, max_tokens, effort=None):
-    key = (os.environ.get("ANTHROPIC_API_KEY") or "").strip()
+    key = _secret("ANTHROPIC_API_KEY")
     if not key:
         return None, {}
     body = {"model": model, "max_tokens": max_tokens, "messages": messages}
@@ -250,7 +261,7 @@ def choose_photo(market):
         phrases = [DEFAULT_QUERY_BY_CATEGORY.get(market.get("category", ""), "city skyline night")]
     log(f"phrases: {phrases}")
 
-    pexels_key = (os.environ.get("PEXELS_API_KEY") or "").strip()   # a secret set via a pipe can carry a newline
+    pexels_key = _secret("PEXELS_API_KEY")
 
     def variants(q):
         """The phrase, then its first two words, then its last two — Openverse
