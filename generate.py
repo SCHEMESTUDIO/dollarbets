@@ -85,10 +85,15 @@ def analytics_head():
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){{dataLayer.push(arguments);}}
-    // Google Consent Mode v2 defaults — deny-by-default for analytics so the
-    // baseline is GDPR / UK GDPR / ePrivacy compliant. The on-page consent
-    // banner (see consent_banner_html) prompts the user to opt in; the choice
-    // is stored in the db_consent cookie and restored on subsequent visits.
+    // Google Consent Mode v2, region-aware (2026-09-19; was a universal
+    // deny-by-default banner that dropped ~2/3 of GA4 sessions — GSC 522 clicks
+    // vs GA4 179 organic sessions over 90 days, 78% of clicks US).
+    //   EEA / UK / CH : analytics denied until the banner's "accept".
+    //   Everywhere else: analytics granted before the first hit, no banner.
+    // Region comes from /api/geo/ (Vercel x-vercel-ip-country), cached 30 days
+    // in db_region=eu|row. An explicit db_consent=accept|decline always wins.
+    // wait_for_update holds the first hits up to 2.5s for the lookup; on
+    // timeout or fetch failure the hit goes out denied (fail-safe, EU rules).
     // Ad_* stays denied permanently since the site serves no ads.
     gtag('consent', 'default', {{
       ad_storage: 'denied',
@@ -96,14 +101,36 @@ def analytics_head():
       ad_personalization: 'denied',
       analytics_storage: 'denied',
       functionality_storage: 'granted',
-      security_storage: 'granted'
+      security_storage: 'granted',
+      wait_for_update: 2500
     }});
-    // Restore prior choice synchronously so granted users don't lose a hit.
     (function() {{
-      var m = document.cookie.match(/(?:^|;\\s*)db_consent=(\\w+)/);
-      if (m && m[1] === 'accept') {{
-        gtag('consent', 'update', {{ analytics_storage: 'granted' }});
+      function cookie(n) {{
+        var p = ('; ' + document.cookie).split('; ' + n + '=');
+        return p.length > 1 ? p.pop().split(';')[0] : null;
       }}
+      function grant() {{ gtag('consent', 'update', {{ analytics_storage: 'granted' }}); }}
+      function deny() {{ gtag('consent', 'update', {{ analytics_storage: 'denied' }}); }}
+      function announce(region) {{
+        window.dbRegion = region;
+        document.dispatchEvent(new CustomEvent('db:region', {{ detail: region }}));
+      }}
+      var choice = cookie('db_consent'), region = cookie('db_region');
+      window.dbRegion = region;
+      if (choice === 'accept') {{ grant(); return; }}
+      if (choice === 'decline') {{ deny(); return; }}
+      if (region === 'row') {{ grant(); return; }}
+      if (region === 'eu') {{ deny(); return; }}
+      fetch('/api/geo/', {{ credentials: 'omit' }})
+        .then(function(r) {{ return r.json(); }})
+        .then(function(j) {{
+          var eu = !j || j.consent_required !== false;
+          var reg = eu ? 'eu' : 'row';
+          document.cookie = 'db_region=' + reg + ';max-age=2592000;path=/;samesite=lax;secure';
+          if (eu) deny(); else grant();
+          announce(reg);
+        }})
+        .catch(function() {{ deny(); announce('eu'); }});
     }})();
     gtag('js', new Date());
     gtag('config', '{GA4_ID}', {{ anonymize_ip: true }});
@@ -134,9 +161,10 @@ def consent_banner_html():
     gtag consent update to grant analytics_storage; decline leaves it denied.
     Banner is hidden after a choice; the choice persists for 1 year.
 
-    Universal banner (shown to all visitors, not geo-restricted) — over-compliant
-    for US visitors but cheap and defensible. EU/UK visitors are the legally
-    binding case; deny-by-default + this banner satisfies that path.
+    Shown only when analytics_head() resolves the visitor's region to 'eu'
+    (EEA / UK / CH, or unknown) — via window.dbRegion if the /api/geo/ lookup
+    already finished, else the 'db:region' event it dispatches. Everyone else
+    is granted by default and never sees the banner (2026-09-19).
     """
     return """
     <div id="db-consent" role="dialog" aria-live="polite" aria-label="Cookie consent" hidden>
@@ -195,9 +223,15 @@ def consent_banner_html():
     (function() {
       var banner = document.getElementById('db-consent');
       if (!banner) return;
-      var m = document.cookie.match(/(?:^|;\\s*)db_consent=(\\w+)/);
-      if (m && (m[1] === 'accept' || m[1] === 'decline')) return;
-      banner.hidden = false;
+      function cookie(n) {
+        var p = ('; ' + document.cookie).split('; ' + n + '=');
+        return p.length > 1 ? p.pop().split(';')[0] : null;
+      }
+      var choice = cookie('db_consent');
+      if (choice === 'accept' || choice === 'decline') return;
+      function showIfEu(region) { if (region === 'eu') banner.hidden = false; }
+      if (window.dbRegion) showIfEu(window.dbRegion);
+      else document.addEventListener('db:region', function(e) { showIfEu(e.detail); });
       function setChoice(choice) {
         document.cookie = 'db_consent=' + choice + ';max-age=31536000;path=/;samesite=lax;secure';
         banner.hidden = true;
