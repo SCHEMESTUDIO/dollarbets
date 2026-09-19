@@ -24,10 +24,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-19T10:14:17.621907+00:00",
+          "tweet_id": "2101253537413923055",
+          "reply_tweet_id": "2101253539041345624"
         },
         "telegram_channel": {
           "posted": false,
