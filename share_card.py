@@ -214,7 +214,7 @@ def _stamp(board_date):
 
 def _render_tile(img, draw, fonts, m, board_date):
     bar, wash, ink_tier, _ = TIERS.get(m.get("tier", ""), TIER_DEFAULT)
-    pad, r, barw = 64, 30, 16
+    pad, r, barw = 24, 30, 16   # thin outer margin: X frames the image itself
     box = (pad, pad, W - pad, H - pad)
 
     # Tier bar under a wash panel offset by the bar width — same shape a CSS
@@ -275,7 +275,7 @@ def _render_tile(img, draw, fonts, m, board_date):
 
 def _render_ticket(img, draw, fonts, m, board_date):
     _, _, _, bright = TIERS.get(m.get("tier", ""), TIER_DEFAULT)
-    pad, r = 64, 30
+    pad, r = 24, 30   # thin outer margin: X frames the image itself
     draw.rounded_rectangle((pad, pad, W - pad, H - pad), radius=r, fill=INK)
 
     # Notches at 60% height, like the hero ticket on the board
