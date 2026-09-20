@@ -1593,7 +1593,7 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
 
     <footer class="footer">
       <p>dollar bets is an editorial discovery site, not a broker, exchange, bookmaker, financial adviser, or gambling operator. we do not operate markets, take bets, or provide betting, financial, investment, or legal advice. market availability varies by jurisdiction. users are responsible for complying with local laws and platform eligibility rules. longshots are unlikely by definition. never risk money you cannot afford to lose.</p>
-      <p style="margin-top:6px">"$1 pays" = what one dollar returns if the event happens. actual returns depend on price at purchase. some links may be affiliate links &mdash; see our <a href="/affiliate-disclosure/">disclosure</a>.</p>
+      <p style="margin-top:6px">"$1 pays" = what one dollar returns if the event happens. actual returns depend on price at purchase. some links may be affiliate links, see our <a href="/affiliate-disclosure/">disclosure</a>.</p>
       <p style="margin-top:6px">this site is intended for adults only. do not use this site if you are under the legal age for gambling, trading, or participating in prediction markets in your jurisdiction.</p>
       <p style="margin-top:6px">&copy; {year} dollarbets.lol</p>
     </footer>
@@ -2308,81 +2308,81 @@ def get_archetypes(bet):
 
 CATEGORIES = {
     "weird-markets": {
-        "title": "weird prediction markets — dollar bets",
+        "title": "weird prediction markets · dollar bets",
         "h1": "black swans",
         "description": "The internet's strangest prediction markets, translated into what a $1 bet could pay. Weather, pop culture, science, tech — the black swans.",
         "quip": "Sounds fake. The money is real.",
-        "tagline": "Snow in April, celebrity announcements, AI breakthroughs, earthquake odds — the internet's strangest prediction markets, translated into $1 payouts.",
+        "tagline": "Snow in April, celebrity announcements, AI breakthroughs, earthquake odds. The internet's strangest prediction markets, translated into $1 payouts.",
     },
     "sports-markets": {
-        "title": "sports prediction markets — dollar bets",
+        "title": "sports prediction markets · dollar bets",
         "h1": "sports prediction markets",
         "description": "Sports prediction markets where $1 could pay big. Playoff sweeps, championship longshots, and underdog bets translated into dollar payouts.",
         "quip": "Drama, meet math.",
-        "tagline": "A playoff sweep priced at 45 cents. A championship longshot at 3 cents. The kinds of bets your fantasy league group chat argues about — translated into $1 payouts.",
+        "tagline": "A playoff sweep priced at 45 cents. A championship longshot at 3 cents. The kinds of bets your fantasy league group chat argues about, translated into $1 payouts.",
     },
     "politics-markets": {
-        "title": "political prediction markets — dollar bets",
+        "title": "political prediction markets · dollar bets",
         "h1": "gridlock",
         "description": "Political prediction markets — elections, policy, and gridlock. Real money odds on what happens next in Washington and beyond, framed as $1 payouts.",
         "quip": "Public opinion gets a price tag.",
-        "tagline": "Elections, legislation, Supreme Court decisions, international crises — if it can be resolved with a yes or no, someone's trading on it. Framed as $1 payouts.",
+        "tagline": "Elections, legislation, Supreme Court decisions, international crises. If it can be resolved with a yes or no, someone's trading on it. Framed as $1 payouts.",
     },
     "financial-markets": {
-        "title": "financial prediction markets — dollar bets",
+        "title": "financial prediction markets · dollar bets",
         "h1": "ball street",
         "description": "Financial prediction markets — the Fed, interest rates, recessions, stock market milestones, and economic indicators. What does $1 pay when Wall Street gets weird?",
         "quip": "Where the suits meet the spreadsheet degenerates.",
-        "tagline": "The Fed, interest rates, recessions, stock market milestones — framed by what a single dollar could pay out.",
+        "tagline": "The Fed, interest rates, recessions, stock market milestones, framed by what a single dollar could pay out.",
     },
     "crypto-markets": {
-        "title": "crypto prediction markets — dollar bets",
+        "title": "crypto prediction markets · dollar bets",
         "h1": "moonshots",
         "description": "Crypto prediction markets — Bitcoin milestones, ETH price targets, and blockchain moonshots. What does $1 pay if the chart cooperates?",
         "quip": "Leverage on leverage, with an expiration date.",
-        "tagline": "Bitcoin milestones, ETH price targets, and blockchain moonshots — the most volatile corner of an already volatile world, framed as $1 payouts.",
+        "tagline": "Bitcoin milestones, ETH price targets, and blockchain moonshots, the most volatile corner of an already volatile world, framed as $1 payouts.",
     },
 }
 
 ARCHETYPES = {
     "weather-freakout": {
-        "title": "the weather freakout bet — dollar bets",
+        "title": "the weather freakout bet · dollar bets",
         "h1": "the weather freakout bet",
         "emoji": "🌪️",
         "description": "When weather prediction markets panic — snow in April, earthquakes, hurricanes, and temperature records. The markets where Mother Nature sets the odds.",
         "intro": """<p>Every few weeks, a weather market goes from background noise to front-page drama. Snow in a city that shouldn't have snow. A hurricane track that shifts toward somewhere expensive. A temperature record that sounds made up.</p>
-<p>Weather freakout bets are some of the most entertaining on Kalshi because nature doesn't read the forecast. The odds can swing wildly in hours, and resolution is binary — it either snowed or it didn't. No spin, no interpretation, just the weather station.</p>
+<p>Weather freakout bets are some of the most entertaining on Kalshi because nature doesn't read the forecast. The odds can swing wildly in hours, and resolution is binary. It either snowed or it didn't. No spin, no interpretation, just the weather station.</p>
 <p>These are the bets where you check your weather app and your portfolio at the same time.</p>""",
     },
     "crypto-moonshot": {
-        "title": "the crypto moonshot bet — dollar bets",
+        "title": "the crypto moonshot bet · dollar bets",
         "h1": "the crypto moonshot bet",
         "emoji": "🚀",
         "description": "Bitcoin milestones, ETH targets, and memecoin madness. Crypto prediction markets where $1 chases the chart.",
         "intro": """<p>The crypto moonshot is prediction markets at their most degenerate and most entertaining. Will Bitcoin hit a round number by a specific date? Will Ethereum do something nobody can quite explain? Will a token that started as a joke outperform the S&P?</p>
-<p>What makes these bets special is that the underlying asset is already volatile — and then you're betting on a specific threshold by a specific date. It's leverage on leverage. The payout swings are violent and the charts tell stories.</p>
+<p>What makes these bets special is that the underlying asset is already volatile, and then you're betting on a specific threshold by a specific date. It's leverage on leverage. The payout swings are violent and the charts tell stories.</p>
 <p>Dollar Bets tracks the crypto markets that are entertaining, not just profitable. The ones you screenshot for the group chat.</p>""",
     },
     "sports-collapse": {
-        "title": "the sports collapse bet — dollar bets",
+        "title": "the sports collapse bet · dollar bets",
         "h1": "the sports collapse bet",
         "emoji": "💀",
         "description": "Playoff sweeps, coaching firings, losing streaks, and underdog collapses. Sports prediction markets for when everything falls apart.",
         "intro": """<p>The sports collapse bet is the one you place when you sense the vibes are off. A team up 3-0 in a series that suddenly looks nervous. A coach whose press conferences are getting weird. A franchise that traded for someone who hasn't practiced.</p>
-<p>These markets are fascinating because sports collapses are always obvious in hindsight and invisible in real time. The odds tell you what the crowd thinks — and the crowd is often wrong right up until it's catastrophically right.</p>
+<p>These markets are fascinating because sports collapses are always obvious in hindsight and invisible in real time. The odds tell you what the crowd thinks, and the crowd is often wrong right up until it's catastrophically right.</p>
 <p>These are the bets for the people who watch the postgame interviews more closely than the game.</p>""",
     },
     "political-chaos": {
-        "title": "the political chaos bet — dollar bets",
+        "title": "the political chaos bet · dollar bets",
         "h1": "the political chaos bet",
         "emoji": "🏛️",
         "description": "Resignations, investigations, shutdowns, and surprises. Political prediction markets for when Washington gets weird.",
         "intro": """<p>Political chaos bets are the prediction market equivalent of watching cable news with a price tag. Someone resigns unexpectedly. An investigation gets announced. A vote that was supposed to be routine turns into a spectacle.</p>
-<p>These markets move on headlines — sometimes before the headline is even confirmed. A rumor hits, the price swings 30 cents, and then everyone waits. That's the drama.</p>
-<p>Dollar Bets tracks the political chaos markets that cut through the noise — the ones where something is actually happening, not just being talked about.</p>""",
+<p>These markets move on headlines, sometimes before the headline is even confirmed. A rumor hits, the price swings 30 cents, and then everyone waits. That's the drama.</p>
+<p>Dollar Bets tracks the political chaos markets that cut through the noise, the ones where something is actually happening, not just being talked about.</p>""",
     },
     "celebrity-wildcard": {
-        "title": "the celebrity wildcard bet — dollar bets",
+        "title": "the celebrity wildcard bet · dollar bets",
         "h1": "the celebrity wildcard bet",
         "emoji": "⭐",
         "description": "Album drops, tour announcements, award shows, and Elon tweets. Celebrity prediction markets where fame meets probability.",
@@ -2391,12 +2391,12 @@ ARCHETYPES = {
 <p>If you've ever had a strong opinion about a celebrity's next move, there might be a market for that.</p>""",
     },
     "the-surely-not": {
-        "title": "the \"surely not\" bet — dollar bets",
+        "title": "the \"surely not\" bet · dollar bets",
         "h1": "the \"surely not\" bet",
         "emoji": "🟪",
         "description": "Extreme longshot prediction markets where $1 could pay $50, $100, or more. The bets that sound impossible until they aren't.",
-        "intro": """<p>The "surely not" bet is the extreme longshot — the market priced so low that the payout on a dollar is absurd. $50. $100. $500. The kind of number that makes you do the math twice and then think about it for the rest of the day.</p>
-<p>Most of these won't hit. That's the point. But prediction markets occasionally misprice things — and when a "surely not" suddenly starts moving, it becomes the most interesting market on the board.</p>
+        "intro": """<p>The "surely not" bet is the extreme longshot, the market priced so low that the payout on a dollar is absurd. $50. $100. $500. The kind of number that makes you do the math twice and then think about it for the rest of the day.</p>
+<p>Most of these won't hit. That's the point. But prediction markets occasionally misprice things, and when a "surely not" suddenly starts moving, it becomes the most interesting market on the board.</p>
 <p>These are the bets filed under "entertainment expenses." A dollar and a dream, priced by the crowd.</p>""",
     },
 }
@@ -2457,7 +2457,7 @@ def generate_daily_board(boards):
   <script type="application/ld+json">{{
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "Today's Board — {date_str}",
+  "name": "Today's Board · {date_str}",
   "numberOfItems": {len(board)},
   "itemListElement": [{", ".join(market_items)}]
 }}</script>"""
@@ -2539,7 +2539,7 @@ def generate_lineup_board(sports_boards):
     lineup_schema = f"""<script type="application/ld+json">{{
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "The Lineup — Sports Board",
+  "name": "The Lineup · Sports Board",
   "url": "{SITE_URL}/the-lineup/",
   "description": "Today's sharpest sports wagers, framed as $1 payouts.",
   "isPartOf": {{
@@ -2551,7 +2551,7 @@ def generate_lineup_board(sports_boards):
   <script type="application/ld+json">{{
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "The Lineup — {date_str}",
+  "name": "The Lineup · {date_str}",
   "numberOfItems": {len(board)},
   "itemListElement": [{", ".join(market_items)}]
 }}</script>"""
@@ -2581,8 +2581,8 @@ SPORTS_BOARD_CONFIGS = {
         "url_slug": "underdogs",
         "page_title": "underdogs",
         "quip": "Every team here is supposed to lose. That's the whole point.",
-        "tagline": "Pure moneyline underdogs — davids vs goliaths, translated into what a $1 bet pays if the upset lands.",
-        "meta_title": "underdogs — moneyline longshots | dollar bets",
+        "tagline": "Pure moneyline underdogs, davids vs goliaths, translated into what a $1 bet pays if the upset lands.",
+        "meta_title": "underdogs · moneyline longshots | dollar bets",
         "meta_description": "Today's best moneyline underdogs, framed as $1 payouts. Every pick is a team that isn't supposed to win.",
     },
     "ocho": {
@@ -2590,18 +2590,18 @@ SPORTS_BOARD_CONFIGS = {
         "url_slug": "the-ocho",
         "page_title": "the ocho",
         "quip": "If ESPN won't cover it, we will.",
-        "tagline": "Cricket, rugby, Aussie rules, handball, lacrosse — the sports your bookie forgot existed, translated into $1 payouts.",
-        "meta_title": "the ocho — obscure sports odds | dollar bets",
-        "meta_description": "Odds on sports you didn't know had odds. Cricket, rugby league, AFL, handball, and more — framed as $1 payouts.",
+        "tagline": "Cricket, rugby, Aussie rules, handball, lacrosse. The sports your bookie forgot existed, translated into $1 payouts.",
+        "meta_title": "the ocho · obscure sports odds | dollar bets",
+        "meta_description": "Odds on sports you didn't know had odds. Cricket, rugby league, AFL, handball, and more, framed as $1 payouts.",
     },
     "chalk": {
         "file_prefix": "chalk",
         "url_slug": "chalk",
         "page_title": "chalk",
         "quip": "Boring money is still money.",
-        "tagline": "Heavy favorites only — the bets that should hit. Sorted surest thing first: on this board, the smallest payout is the biggest brag.",
+        "tagline": "Heavy favorites only, the bets that should hit. Sorted surest thing first: on this board, the smallest payout is the biggest brag.",
         "sort": "asc",
-        "meta_title": "chalk — heavy favorites | dollar bets",
+        "meta_title": "chalk · heavy favorites | dollar bets",
         "meta_description": "Today's heaviest favorites in sports, framed as $1 payouts. Near-locks for people who like boring money.",
     },
     "combo-meal": {
@@ -2609,8 +2609,8 @@ SPORTS_BOARD_CONFIGS = {
         "url_slug": "combo-meal",
         "page_title": "the combo meal",
         "quip": "Would you like to supersize that?",
-        "tagline": "Pre-built parlays served hot — each combo stacks 2-3 legs into a single $1 payout, from the value menu to the triple bypass.",
-        "meta_title": "the combo meal — pre-built parlays | dollar bets",
+        "tagline": "Pre-built parlays served hot. Each combo stacks 2-3 legs into a single $1 payout, from the value menu to the triple bypass.",
+        "meta_title": "the combo meal · pre-built parlays | dollar bets",
         "meta_description": "Pre-built sports parlays framed as $1 payouts. From safe combos to degenerate stacks.",
     },
 }
@@ -2661,7 +2661,7 @@ def generate_sports_sub_board(board_key):
     </style>
 """
 
-    empty_msg = "no picks right now — check back soon. some sports sleep so the board can wake up swinging."
+    empty_msg = "no picks right now, check back soon. some sports sleep so the board can wake up swinging."
     body = header + render_sports_bet_list(board, empty_msg, from_slug=config["url_slug"], order=config.get("sort", "desc"))
 
     slug = config["url_slug"]
@@ -2700,37 +2700,37 @@ def generate_tier_pages(boards, sports_boards):
         "green": {
             "label": "respectable",
             "emoji": "🟩",
-            "title": "respectable bets — $2-3 payouts | dollar bets",
-            "description": "Every active prediction market bet paying $2-3 on a dollar. The board's most grounded wagers — unlikely, but not unreasonable.",
-            "intro": "The green tier. These pay $2–3 on a dollar — the kind of odds that make you think twice before dismissing them. Not moonshots. Not safe bets. Just the ones where the math isn't laughing at you.",
+            "title": "respectable bets · $2-3 payouts | dollar bets",
+            "description": "Every active prediction market bet paying $2-3 on a dollar. The board's most grounded wagers, unlikely but not unreasonable.",
+            "intro": "The green tier. These pay $2–3 on a dollar, the kind of odds that make you think twice before dismissing them. Not moonshots. Not safe bets. Just the ones where the math isn't laughing at you.",
         },
         "yellow": {
             "label": "alive",
             "emoji": "🟨",
-            "title": "alive bets — $4-6 payouts | dollar bets",
+            "title": "alive bets · $4-6 payouts | dollar bets",
             "description": "Every active prediction market bet paying $4-6 on a dollar. Longshots that still have a pulse.",
-            "intro": "The yellow tier. $4–6 on a dollar — still breathing, still plausible, still the kind of thing that makes you refresh the news at midnight. These are alive.",
+            "intro": "The yellow tier. $4–6 on a dollar and still breathing, still plausible, still the kind of thing that makes you refresh the news at midnight. These are alive.",
         },
         "orange": {
             "label": "heater",
             "emoji": "🟧",
-            "title": "heater bets — $7-15 payouts | dollar bets",
+            "title": "heater bets · $7-15 payouts | dollar bets",
             "description": "Every active prediction market bet paying $7-15 on a dollar. The board's hottest longshots.",
-            "intro": "The orange tier. $7–15 on a dollar — now you're gambling on chaos. These are the bets that make the board interesting. Low probability. High entertainment value.",
+            "intro": "The orange tier. $7–15 on a dollar, and now you're gambling on chaos. These are the bets that make the board interesting. Low probability. High entertainment value.",
         },
         "red": {
             "label": "filthy",
             "emoji": "🟥",
-            "title": "filthy bets — $20+ payouts | dollar bets",
+            "title": "filthy bets · $20+ payouts | dollar bets",
             "description": "Every active prediction market bet paying $20+ on a dollar. The filthiest longshots on the board.",
-            "intro": "The red tier. $20+ on a dollar — filthy. The market thinks these are nearly impossible. History disagrees just often enough to keep things interesting.",
+            "intro": "The red tier. $20+ on a dollar, which is filthy. The market thinks these are nearly impossible. History disagrees just often enough to keep things interesting.",
         },
         "purple": {
             "label": "generational",
             "emoji": "🟪",
-            "title": "generational bets — $100+ payouts | dollar bets",
+            "title": "generational bets · $100+ payouts | dollar bets",
             "description": "Every active prediction market bet paying $100+ on a dollar. Once-in-a-generation longshots.",
-            "intro": "The purple tier. $100+ on a dollar — generational. If one of these hits, it's the kind of thing people talk about for years. You'd tell your grandchildren.",
+            "intro": "The purple tier. $100+ on a dollar, which is generational. If one of these hits, it's the kind of thing people talk about for years. You'd tell your grandchildren.",
         },
     }
 
@@ -2770,12 +2770,12 @@ def generate_tier_pages(boards, sports_boards):
         mkt_word = "market" if len(tier_markets) == 1 else "markets"
         count_line = f'    <div class="section-note">{len(tier_markets)} active {mkt_word} across all boards</div>\n'
 
-        body = header + count_line + render_bet_list(tier_markets, empty_msg="no active markets at this tier right now — check back tomorrow.")
+        body = header + count_line + render_bet_list(tier_markets, empty_msg="no active markets at this tier right now, check back tomorrow.")
 
         tier_schema = f"""<script type="application/ld+json">{{
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "{tier_info['label'].title()} Tier — Dollar Bets",
+  "name": "{tier_info['label'].title()} Tier · Dollar Bets",
   "url": "{SITE_URL}/tier/{tier_info['label']}/",
   "description": "{tier_info['description']}"
 }}</script>"""
@@ -2856,7 +2856,7 @@ def generate_category_pages(all_bets):
 
         # Build body with today's section + archive section
         cat_name = config['h1']
-        empty_state = CATEGORY_EMPTY_STATES.get(slug, "no markets in this category today — check back soon.")
+        empty_state = CATEGORY_EMPTY_STATES.get(slug, "no markets in this category today, check back soon.")
 
         today_section = ""
         if today_bets:
@@ -2968,7 +2968,7 @@ def generate_archetype_pages(all_bets):
     <h2 class="section-head">examples from the board</h2>
     <div class="section-note">{len(unique_bets)} markets matched this archetype</div>
 
-{render_bet_list(display_bets, "no examples yet — this archetype is waiting for its moment.")}
+{render_bet_list(display_bets, "no examples yet, this archetype is waiting for its moment.")}
 """
 
         html = page_shell(
@@ -3042,14 +3042,14 @@ def generate_weekly_recaps(boards):
             blocks.append(recap_block(
                 "most respectable longshot",
                 best_sweet,
-                f"$1 pays {format_payout(best_sweet.get('payout', 0))} — dramatic but credible"
+                f"$1 pays {format_payout(best_sweet.get('payout', 0))}, dramatic but credible"
             ))
 
         if lowest_payout and lowest_payout != highest_payout:
             blocks.append(recap_block(
                 "lowest payout on the board",
                 lowest_payout,
-                f"$1 pays {format_payout(lowest_payout.get('payout', 0))} — barely worth bragging about"
+                f"$1 pays {format_payout(lowest_payout.get('payout', 0))}, barely worth bragging about"
             ))
 
         # Deduplicated full list
@@ -3142,7 +3142,7 @@ def generate_market_autopsies(all_bets):
 
     <div class="autopsy-section">
       <h3>What this market was</h3>
-      <p>{title}. Priced on Kalshi with a $1 payout of {format_payout(payout)} — the market gave this roughly a {round(100/payout, 1)}% chance of happening.</p>
+      <p>{title}. Priced on Kalshi with a $1 payout of {format_payout(payout)}. The market gave this roughly a {round(100/payout, 1)}% chance of happening.</p>
     </div>
 
     <div class="autopsy-section">
@@ -3152,7 +3152,7 @@ def generate_market_autopsies(all_bets):
 
     <div class="autopsy-section">
       <h3>The bet type</h3>
-      <p>This is a classic {_e(_archetype_name(bet))} — the kind of market that shows up on prediction platforms whenever the news cycle gets interesting. The structure is simple: yes or no, by a deadline, with real money on the line.</p>
+      <p>This is a classic {_e(_archetype_name(bet))}, the kind of market that shows up on prediction platforms whenever the news cycle gets interesting. The structure is simple: yes or no, by a deadline, with real money on the line.</p>
     </div>
 
     <div class="autopsy-section">
@@ -3237,11 +3237,11 @@ def generate_about_page():
     <div class="page-intro">
       <h2 class="section-head">the payout tiers</h2>
 
-      <p><span class="tier-swatch" style="background:#4caf50"></span><strong>$1–$10</strong> — respectable<br>
-      <span class="tier-swatch" style="background:#e6c731"></span><strong>$11–$50</strong> — alive<br>
-      <span class="tier-swatch" style="background:#d06a1a"></span><strong>$51–$100</strong> — heater<br>
-      <span class="tier-swatch" style="background:#e05252"></span><strong>$101–$500</strong> — filthy<br>
-      <span class="tier-swatch" style="background:#9c5ec7"></span><strong>$500+</strong> — generational</p>
+      <p><span class="tier-swatch" style="background:#4caf50"></span><strong>$1–$10</strong> respectable<br>
+      <span class="tier-swatch" style="background:#e6c731"></span><strong>$11–$50</strong> alive<br>
+      <span class="tier-swatch" style="background:#d06a1a"></span><strong>$51–$100</strong> heater<br>
+      <span class="tier-swatch" style="background:#e05252"></span><strong>$101–$500</strong> filthy<br>
+      <span class="tier-swatch" style="background:#9c5ec7"></span><strong>$500+</strong> generational</p>
 
       <h2 class="section-head">what dollar bets is not</h2>
 
@@ -3252,7 +3252,7 @@ def generate_about_page():
         &#10005;&nbsp; not a guarantee anything is available where you live
       </div>
 
-      <p>Dollar Bets is a discovery and editorial layer — we curate markets the way a good newspaper curates headlines, with taste, timing, and a mild disregard for conventional financial advice. Every listing links directly to the market on the relevant platform.</p>
+      <p>Dollar Bets is a discovery and editorial layer. We curate markets the way a good newspaper curates headlines, with taste, timing, and a mild disregard for conventional financial advice. Every listing links directly to the market on the relevant platform.</p>
 
       <p>The markets we feature are real. They have real money behind them, real deadlines, and real outcomes. Most of the longshots will not pay off. That's what makes them longshots. The point is not to win — the point is that these markets exist at all, and they're frequently absurd, occasionally profound, and almost always more entertaining than whatever else you were going to do with a dollar.</p>
 
@@ -3260,9 +3260,9 @@ def generate_about_page():
 
       <p>we like markets that are:</p>
       <p style="padding-left:12px;color:#6b5744">
-        — weird enough to screenshot<br>
-        — specific enough to resolve<br>
-        — current enough to matter<br>
+        weird enough to screenshot<br>
+        specific enough to resolve<br>
+        current enough to matter<br>
         — funny before they are profitable
       </p>
 
@@ -3282,7 +3282,7 @@ def generate_about_page():
     </div>
 
     <div class="ss-cc-wrap">
-      <a class="ss-cc" href="https://www.schemestudio.lol" target="_blank" rel="noopener" aria-label="A production of SCHEME STUDIO — visit schemestudio.lol">
+      <a class="ss-cc" href="https://www.schemestudio.lol" target="_blank" rel="noopener" aria-label="A production of SCHEME STUDIO, visit schemestudio.lol">
         <div class="ss-cc-label">A production of</div>
         <div class="ss-cc-name">SCHEME<br>STUDIO</div>
         <div class="ss-cc-tag">schemestudio.lol &#8599;</div>
@@ -3300,7 +3300,7 @@ def generate_about_page():
     "@type": "Organization",
     "name": "Dollar Bets",
     "url": "{SITE_URL}",
-    "description": "A daily discovery board of the internet's most entertaining prediction-market wagers, framed as $1 payouts. Not a sportsbook — an editorial discovery layer.",
+    "description": "A daily discovery board of the internet's most entertaining prediction-market wagers, framed as $1 payouts. Not a sportsbook, an editorial discovery layer.",
     "foundingDate": "2026",
     "logo": "{SITE_URL}/favicon.svg",
     "sameAs": [
@@ -3338,7 +3338,7 @@ def generate_about_page():
 
     html = page_shell(
         title="About Dollar Bets",
-        description="Dollar Bets is a daily board of weird, funny, and culturally relevant prediction markets, translated into what a $1 bet could pay. Not a sportsbook — a discovery layer.",
+        description="Dollar Bets is a daily board of weird, funny, and culturally relevant prediction markets, translated into what a $1 bet could pay. Not a sportsbook, a discovery layer.",
         body=body,
         canonical="/about/",
         current_nav="/about/",
@@ -3571,6 +3571,24 @@ Disallow: /go/
 Disallow: /api/
 Disallow: /admin/
 
+User-agent: Google-Extended
+Allow: /
+Disallow: /go/
+Disallow: /api/
+Disallow: /admin/
+
+User-agent: CCBot
+Allow: /
+Disallow: /go/
+Disallow: /api/
+Disallow: /admin/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /go/
+Disallow: /api/
+Disallow: /admin/
+
 Sitemap: {SITE_URL}/sitemap.xml
 Sitemap: {SITE_URL}/sitemap-urls.txt
 Sitemap: https://headshotswithabird.com/dollarbets-sitemap.xml
@@ -3595,7 +3613,7 @@ def generate_archetype_index():
 
     body = f"""    <h1 class="page-title">bet archetypes</h1>
     <div class="page-intro">
-      <p>Prediction markets produce the same kinds of bets over and over — weather panics, crypto moonshots, political chaos, celebrity wildcards. We call these archetypes. Each one has its own personality, its own rhythm, and its own kind of drama.</p>
+      <p>Prediction markets produce the same kinds of bets over and over: weather panics, crypto moonshots, political chaos, celebrity wildcards. We call these archetypes. Each one has its own personality, its own rhythm, and its own kind of drama.</p>
     </div>
 
     <ul class="board" role="list">
@@ -3605,7 +3623,7 @@ def generate_archetype_index():
 
     html = page_shell(
         title="Bet Archetypes | Dollar Bets",
-        description="Recurring prediction market narratives: weather freakouts, crypto moonshots, sports collapses, and more. The same kinds of bets keep showing up — here's why.",
+        description="Recurring prediction market narratives: weather freakouts, crypto moonshots, sports collapses, and more. The same kinds of bets keep showing up, and here's why.",
         body=body,
         canonical="/archetypes/",
     )
@@ -3653,7 +3671,7 @@ def generate_recap_index(boards):
 
     body = f"""    <h1 class="page-title">weekly recaps</h1>
     <div class="page-intro">
-      <p>Every week, Dollar Bets looks back at the most interesting prediction markets from the daily board — the biggest longshots, the weirdest bets, and the markets that made people pay attention.</p>
+      <p>Every week, Dollar Bets looks back at the most interesting prediction markets from the daily board: the biggest longshots, the weirdest bets, and the markets that made people pay attention.</p>
     </div>
 
     <ul class="board" role="list">
@@ -3663,7 +3681,7 @@ def generate_recap_index(boards):
 
     html = page_shell(
         title="Weekly Recaps | Dollar Bets",
-        description="Weekly recaps from Dollar Bets — the most interesting prediction markets, biggest longshots, and weirdest bets from each week.",
+        description="Weekly recaps from Dollar Bets: the most interesting prediction markets, biggest longshots, and weirdest bets from each week.",
         body=body,
         canonical="/recap/",
     )
@@ -3697,7 +3715,7 @@ def generate_404_page():
     """Generate a custom 404 error page."""
     body = """    <h1 class="page-title">404: Page Not Found</h1>
     <div class="page-intro">
-      <p>This page doesn't exist. Maybe it never did. Maybe the market expired. Either way, the odds of finding what you wanted here are exactly zero — and we don't list markets with zero payout.</p>
+      <p>This page doesn't exist. Maybe it never did. Maybe the market expired. Either way, the odds of finding what you wanted here are exactly zero, and we don't list markets with zero payout.</p>
       <p style="margin-top:12px">Try one of these instead:</p>
       <p style="margin-top:8px">
         <a href="/" style="color:#b5470a;font-weight:700">today's board</a> ·
@@ -3710,7 +3728,7 @@ def generate_404_page():
 """
 
     html = page_shell(
-        title="404 — page not found — dollar bets",
+        title="404 · page not found · dollar bets",
         description="This page doesn't exist on Dollar Bets.",
         body=body,
         canonical="",
@@ -3925,8 +3943,8 @@ def generate_share_pages(boards):
         # safe to interpolate into content="..." attributes and <title> text.
         safe_quip = _e(quip)
         safe_title_og = _e(title)
-        og_desc = f'&quot;{safe_quip}&quot; — $1 pays {_e(payout_str)} on Dollar Bets. Daily prediction market picks where every bet starts at a buck.'
-        og_title = f"{safe_title_og} — $1 → {_e(payout_str)}"
+        og_desc = f'&quot;{safe_quip}&quot; · $1 pays {_e(payout_str)} on Dollar Bets. Daily prediction market picks where every bet starts at a buck.'
+        og_title = f"{safe_title_og} · $1 → {_e(payout_str)}"
 
         # Build a lightweight share page that redirects to homepage via JS
         # (JS redirect so crawlers read OG tags; meta refresh would bypass them)

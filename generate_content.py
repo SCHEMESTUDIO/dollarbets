@@ -194,7 +194,7 @@ def render_body(body_blocks):
         elif btype == "text":
             parts.append(f'      <p>{content}</p>')
         elif btype == "list":
-            items = content if isinstance(content, list) else [content]
+            items = content if isinstance(content, list) else (block.get("items") or ([content] if content else []))
             li_html = "\n".join(f"        <li>{item}</li>" for item in items)
             parts.append(f'      <ul class="article-list">\n{li_html}\n      </ul>')
 
@@ -381,6 +381,8 @@ def generate_content_page(page_data):
         [page_data.get("summary", ""), page_data.get("quick_answer", "")]
         + [str(b.get("content", "")) for b in page_data.get("body", [])]
         + [f.get("a", "") for f in page_data.get("faqs", [])])
+    if seo.get("meta_description"):
+        seo["meta_description"] = reduce_dashes(seo["meta_description"], keep=0)[0]
     headline = title_case(seo.get("h1", ""), PROPER_NOUNS)
     seo["h1"] = headline
     seo["title"] = f"{headline} | Dollar Bets" if headline else seo.get("title", slug)
@@ -434,6 +436,7 @@ def generate_content_page(page_data):
 
     # Quick Answer block — optimized for AI engine extraction (AEO)
     quick_answer = page_data.get("quick_answer", "") or page_data.get("summary", "")
+    quick_answer, _ = reduce_dashes(quick_answer, keep=0)
     if quick_answer:
         body_parts.append(f'    <p class="dek" role="doc-abstract">{quick_answer}</p>')
 
@@ -486,7 +489,7 @@ def generate_content_page(page_data):
     if faqs:
         article_inner += "\n" + render_faqs(faqs)
 
-    article_inner, _cut = reduce_dashes(article_inner, keep=2)
+    article_inner, _cut = reduce_dashes(article_inner, keep=0)
     video_html, video_schema = build_video_block(page_data.get("video"), seo)
     if video_html:
         body_parts.append(video_html)  # the Short, above the article body, where a video result is earned
@@ -505,7 +508,7 @@ def generate_content_page(page_data):
     body_parts.append(render_internal_links(page_data.get("internal_links", [])))
 
     # Compliance / legal strip
-    body_parts.append(render_compliance(page_data.get("compliance", "")))
+    body_parts.append(render_compliance(reduce_dashes(page_data.get("compliance", ""), keep=0)[0]))
 
     # SEO sticky bar — top-payout pick from the board, passed to page_shell
     # so it REPLACES the default sticky bar (never two stacked fixed bars).

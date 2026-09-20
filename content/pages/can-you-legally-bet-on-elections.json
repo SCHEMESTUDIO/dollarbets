@@ -7,7 +7,7 @@
     "meta_description": "Can you legally bet on elections in the US? The short answer, the long answer, and what prediction markets actually are.",
     "canonical": "/can-you-legally-bet-on-elections/"
   },
-  "summary": "Yes, sort of, it depends. In the US, you can legally trade election contracts on CFTC-regulated prediction markets like Kalshi. Traditional sportsbooks generally can't offer election betting. The legal landscape shifted significantly in 2023-2024 and continues to evolve.",
+  "summary": "Yes, sort of, it depends. In the US, you can legally trade election contracts on CFTC-regulated prediction markets like Kalshi. Traditional sportsbooks generally can't offer election betting. The legal picture shifted significantly in 2023-2024 and continues to evolve.",
   "hero_bet": {
     "title": "Example election contract on Kalshi",
     "payout": 3,
@@ -110,7 +110,7 @@
     },
     {
       "type": "text",
-      "content": "If you're in an eligible state and want to put $1 on a political outcome, you can do that on Kalshi right now. The contracts are real, the payouts are real, and the legal framework — while still evolving — has been validated by a federal court. It's not the Wild West anymore. It's more like the Regulated Midwest."
+      "content": "If you're in an eligible state and want to put $1 on a political outcome, you can do that on Kalshi right now. The contracts are real, the payouts are real, and the legal framework — while still evolving — has been validated by a federal court. Call it the Regulated Midwest."
     }
   ],
   "faqs": [
@@ -140,7 +140,7 @@
     },
     {
       "q": "Are prediction market odds better than polls?",
-      "a": "Different, not necessarily better. Prediction markets aggregate the opinions of people with money at stake, which can capture information polls miss. But markets can also be wrong — they're a probability estimate, not a crystal ball."
+      "a": "Different, not necessarily better. Prediction markets aggregate the opinions of people with money at stake, which can capture information polls miss. But markets can also be wrong — they're a probability estimate and nothing more."
     }
   ],
   "compliance": "This page is for informational purposes and does not constitute legal advice. Election contract availability varies by jurisdiction and may change. Consult the specific platform and your local regulations before trading. Prediction market contracts involve risk of loss. Some links are affiliate links — see our affiliate disclosure.",
