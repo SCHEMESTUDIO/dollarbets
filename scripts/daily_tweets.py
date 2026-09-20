@@ -244,8 +244,9 @@ TWEET_MAX = 280
 
 
 def share_url_for(market: dict, utm: bool = True) -> str:
-    safe = safe_ticker(market.get("ticker", ""))
-    url = f"{SITE_URL}/share/{safe}/"
+    """The link in the reply. The board itself, not the /share/ page: share
+    pages only exist for the latest board and a slot can post a day later."""
+    url = f"{SITE_URL}/"
     return url + "?utm_source=x&utm_medium=daily_card" if utm else url
 
 
@@ -481,8 +482,14 @@ def post_slot(date: str, slot: int) -> None:
 
     live = os.environ.get("TWEET_LIVE") == "1"
     img_path = QUEUE_DIR / f"{date}-slot{slot}.png"
-    if not download_image(entry["image_url"], img_path):
-        raise SystemExit(f"slot {slot} image fetch failed — aborting post")
+    # Render the card here from the queue entry. The site only builds cards for
+    # the LATEST board, so a slot from yesterday's queue 404s once today's board
+    # deploys (that deadlocked the poster on 2026-09-19). The site's card.png is
+    # only a fallback now.
+    if not render_card_locally(entry, date, img_path):
+        log("local render failed — falling back to the site's card.png")
+        if not download_image(entry["image_url"], img_path):
+            raise SystemExit(f"slot {slot} image unavailable — aborting post")
 
     # Subject-matched photo behind the card, chosen at post time. Any failure
     # or rejection leaves the plain card in place — never a broken image.
@@ -527,6 +534,27 @@ def post_slot(date: str, slot: int) -> None:
     _safe_unlink(img_path)
 
 
+def _market_from_entry(entry: dict) -> dict:
+    m = {k: entry.get(k) for k in ("ticker", "title", "quip", "payout", "platform", "tier")}
+    m["category"] = entry.get("category", "")
+    return m
+
+
+def render_card_locally(entry: dict, date: str, img_path: Path) -> bool:
+    """Draw the plain card (tile or ticket) from the queue entry with share_card.py."""
+    try:
+        sys.path.insert(0, str(ROOT))
+        from share_card import render_card
+        ok = render_card(_market_from_entry(entry), entry.get("card_variant") or "tile",
+                         str(img_path), board_date=date, fonts_dir=str(ROOT / ".fonts"))
+        if ok:
+            log(f"rendered {entry.get('card_variant') or 'tile'} card locally ({img_path.stat().st_size} bytes)")
+        return bool(ok)
+    except Exception as e:
+        log(f"local render error ({type(e).__name__}: {e})")
+        return False
+
+
 def try_photo_card(entry: dict, date: str, img_path: Path) -> dict | None:
     """Pick a photo for this market and overwrite img_path with the photo card.
     Returns the attribution record for the queue file, or None."""
@@ -534,8 +562,7 @@ def try_photo_card(entry: dict, date: str, img_path: Path) -> dict | None:
     sys.path.insert(0, str(ROOT / "scripts"))
     from social_photo import choose_photo
     from share_card import render_card
-    market = {k: entry.get(k) for k in ("ticker", "title", "quip", "payout", "platform", "tier")}
-    market["category"] = entry.get("category", "")
+    market = _market_from_entry(entry)
     pick = choose_photo(market)
     if not pick:
         return None
