@@ -3571,6 +3571,24 @@ Disallow: /go/
 Disallow: /api/
 Disallow: /admin/
 
+User-agent: Google-Extended
+Allow: /
+Disallow: /go/
+Disallow: /api/
+Disallow: /admin/
+
+User-agent: CCBot
+Allow: /
+Disallow: /go/
+Disallow: /api/
+Disallow: /admin/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /go/
+Disallow: /api/
+Disallow: /admin/
+
 Sitemap: {SITE_URL}/sitemap.xml
 Sitemap: {SITE_URL}/sitemap-urls.txt
 Sitemap: https://headshotswithabird.com/dollarbets-sitemap.xml
