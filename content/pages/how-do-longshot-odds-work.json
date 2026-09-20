@@ -79,7 +79,7 @@
     },
     {
       "type": "text",
-      "content": "So +5000 odds: divide 100 by 5100 = roughly 1.96% implied probability. That doesn't mean there's exactly a 1.96% chance. It means that's what the market price implies. The actual probability could be higher or lower. Markets aren't fortune tellers. They're just prices where buyers and sellers agree."
+      "content": "So +5000 odds: divide 100 by 5100 = roughly 1.96% implied probability. That doesn't mean there's exactly a 1.96% chance. It means that's what the market price implies. The actual probability could be higher or lower. Markets are prices where buyers and sellers agree, and nothing more."
     },
     {
       "type": "heading",
@@ -87,7 +87,7 @@
     },
     {
       "type": "text",
-      "content": "Understanding the math doesn't ruin the fun — it adds to it. You see a +5000 payout and it feels insane. Now you know why: the market thinks there's roughly a 2% chance. You're buying a lottery ticket at transparent odds, not a blind hope. That clarity is the whole point."
+      "content": "Understanding the math doesn't ruin the fun — it adds to it. You see a +5000 payout and it feels insane. Now you know why: the market thinks there's roughly a 2% chance. You're buying a lottery ticket at transparent odds. The clarity is the point."
     },
     {
       "type": "text",
