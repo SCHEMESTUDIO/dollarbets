@@ -62,10 +62,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-20T12:36:01.235967+00:00",
+          "tweet_id": "2101651592013320202",
+          "reply_tweet_id": "2101651593779171532"
         },
         "telegram_channel": {
           "posted": false,
@@ -76,6 +76,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "10157740",
+        "page": "https://www.pexels.com/photo/stars-in-the-evening-sky-10157740/",
+        "photographer": "\u0415\u0432\u0433\u0435\u043d\u0438\u0439 \u0428\u0443\u0445\u043c\u0430\u043d",
+        "license": "Pexels License",
+        "phrases": [
+          "desert highway night sky",
+          "file cabinets basement archive"
+        ],
+        "tokens": {
+          "input_tokens": 3613,
+          "output_tokens": 29
         }
       }
     },
