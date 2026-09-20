@@ -129,16 +129,16 @@
       "og_image_url": "https://www.dollarbets.lol/share/0x2785303a9349d892f464c251c1a39b838a8c535022c54b5a826c9d55c4049db1/og.png",
       "content": {
         "x_tweet_text": "222 to 1, roughly one dollar per good year in franchise history",
-        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/share/0x2785303a9349d892f464c251c1a39b838a8c535022c54b5a826c9d55c4049db1/?utm_source=x&utm_medium=daily_card",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-09-19",
         "x_link_mode": "reply",
         "telegram_caption_html": "<b>The Cardinals win the NFC Championship in 2027</b>\n\n\u201c<i>222 to 1, roughly one dollar per good year in franchise history</i>\u201d\n\n$1 pays $222.22\n\n<a href=\"https://www.dollarbets.lol/share/0x2785303a9349d892f464c251c1a39b838a8c535022c54b5a826c9d55c4049db1/\">see the card \u2192</a>"
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-20T19:39:55.530958+00:00",
+          "tweet_id": "2101758271354962203",
+          "reply_tweet_id": "2101758272961397081"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "openverse",
+        "id": "1dd60426-12ea-4a8d-9904-fec83ef96ca0",
+        "page": "https://commons.wikimedia.org/w/index.php?curid=96255991",
+        "photographer": "All-Pro Reels",
+        "license": "CC BY-SA 2.0",
+        "phrases": [
+          "empty stadium night desert",
+          "desert highway dusk saguaro"
+        ],
+        "tokens": {
+          "input_tokens": 8055,
+          "output_tokens": 42
         }
       }
     }
