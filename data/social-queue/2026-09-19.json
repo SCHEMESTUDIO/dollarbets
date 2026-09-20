@@ -19,16 +19,16 @@
       "og_image_url": "https://www.dollarbets.lol/share/KXMETEOR-30/og.png",
       "content": {
         "x_tweet_text": "47 cents for the end of everything, the dinosaurs paid full price",
-        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/share/KXMETEOR-30/?utm_source=x&utm_medium=daily_card",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card",
         "x_link_mode": "reply",
         "telegram_caption_html": "<b>A major meteor hits Earth before 2030</b>\n\n\u201c<i>47 cents for the end of everything, the dinosaurs paid full price</i>\u201d\n\n$1 pays $2.13\n\n<a href=\"https://www.dollarbets.lol/share/KXMETEOR-30/\">see the card \u2192</a>"
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-20T18:38:15.296289+00:00",
+          "tweet_id": "2101742751276495179",
+          "reply_tweet_id": "2101742753126219881"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "10157740",
+        "page": "https://www.pexels.com/photo/stars-in-the-evening-sky-10157740/",
+        "photographer": "\u0415\u0432\u0433\u0435\u043d\u0438\u0439 \u0428\u0443\u0445\u043c\u0430\u043d",
+        "license": "Pexels License",
+        "phrases": [
+          "meteor shower night sky desert",
+          "crater lake dusk horizon"
+        ],
+        "tokens": {
+          "input_tokens": 4095,
+          "output_tokens": 33
         }
       }
     },
