@@ -273,7 +273,7 @@ def build_video_block(video, seo):
     cap = video.get("caption") or f"{name} ({dur} seconds)."
     html_out = f"""    <figure class="page-video" style="margin:0 0 20px 0;padding:0">
       <div style="position:relative;max-width:300px;aspect-ratio:9/16;border-radius:10px;overflow:hidden;background:#111">
-        <iframe src="https://www.youtube.com/embed/{vid}" title="{_html.escape(name, quote=True)}" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;border:0" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        <iframe src="https://www.youtube-nocookie.com/embed/{vid}" title="{_html.escape(name, quote=True)}" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;border:0" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
       </div>
       <figcaption style="font-size:13px;color:#6b5744;margin-top:6px">{_html.escape(cap)}</figcaption>
     </figure>"""
