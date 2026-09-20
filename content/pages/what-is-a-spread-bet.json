@@ -12,7 +12,7 @@
     "meta_description": "Point spreads level the playing field between favorites and underdogs. Here's how spread betting works, translated into plain English.",
     "canonical": "/what-is-a-spread-bet/"
   },
-  "summary": "A spread bet is a wager on the margin of victory. The sportsbook gives the underdog a head start (or handicaps the favorite) so both sides are roughly even money. You're not just picking who wins — you're picking who wins by enough.",
+  "summary": "A spread bet is a wager on the margin of victory. The sportsbook gives the underdog a head start (or handicaps the favorite) so both sides are roughly even money. You're picking who wins by enough.",
   "hero_bet": {
     "title": "Example: underdog +7.5 at -110",
     "payout": 1.91,
@@ -71,7 +71,7 @@
     },
     {
       "type": "text",
-      "content": "Most spread bets are priced at -110 on both sides. That means you risk $1.10 to win $1. This is the vig — the sportsbook's cut. They set the spread at a number where they expect roughly equal action on both sides, then collect the 10% gap. The spread isn't a prediction of the final margin. It's the number where the sportsbook thinks the money splits evenly. When the spread moves, it's because the money moved, not because someone got smarter."
+      "content": "Most spread bets are priced at -110 on both sides. That means you risk $1.10 to win $1. This is the vig — the sportsbook's cut. They set the spread at a number where they expect roughly equal action on both sides, then collect the 10% gap. The spread is the number where the sportsbook thinks the money splits evenly. Predicting the final margin is a different job. When the spread moves, it's because the money moved, not because someone got smarter."
     },
     {
       "type": "heading",

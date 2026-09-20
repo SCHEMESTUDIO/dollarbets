@@ -72,7 +72,7 @@
     },
     {
       "type": "text",
-      "content": "Pick a market that interests you — something where you have a genuine opinion or just find the question entertaining. Look at the current 'yes' price. If you think the event is more likely than the price suggests, buy 'yes.' If you think it's less likely, buy 'no.' Decide how much you want to spend (we suggest starting at $1, obviously). Place the order. Then wait for the event to resolve. That's it. You're now a prediction market participant."
+      "content": "Pick a market that interests you — something where you have a genuine opinion or just find the question entertaining. Look at the current 'yes' price. If you think the event is more likely than the price suggests, buy 'yes.' If you think it's less likely, buy 'no.' Decide how much you want to spend (we suggest starting at $1, obviously). Place the order. Then wait for the event to resolve. You're now a prediction market participant."
     },
     {
       "type": "heading",
@@ -80,7 +80,7 @@
     },
     {
       "type": "text",
-      "content": "Unlike a traditional bet where you're locked in until the final whistle, prediction market contracts can be sold at any time before the event resolves. If you bought 'yes' at $0.20 and the price moves to $0.50, you can sell for a profit without waiting for the outcome. This makes prediction markets more like trading than traditional betting — you're not just predicting the event, you're predicting how the market will move."
+      "content": "Unlike a traditional bet where you're locked in until the final whistle, prediction market contracts can be sold at any time before the event resolves. If you bought 'yes' at $0.20 and the price moves to $0.50, you can sell for a profit without waiting for the outcome. This makes prediction markets more like trading than traditional betting — you're predicting how the market will move as well as the event itself."
     },
     {
       "type": "heading",

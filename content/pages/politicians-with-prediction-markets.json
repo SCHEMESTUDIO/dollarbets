@@ -43,11 +43,11 @@
   "body": [
     {
       "type": "text",
-      "content": "Right now there are three named politicians with live prediction markets on Kalshi and Polymarket. Not three categories. Not three races. Three specific human beings whose individual political futures are being priced as a financial contract this week. Below is the roster."
+      "content": "Right now there are three named politicians with live prediction markets on Kalshi and Polymarket. Three specific human beings whose individual political futures are being priced as a financial contract this week. Below is the roster."
     },
     {
       "type": "text",
-      "content": "This is a snapshot, not a permanent record. The roster turns over as primaries resolve and new ones list, so the names here are the names that happened to be live the morning this page was built. The numbers next to each politician are what a single dollar returns if their market resolves yes — pulled from the live board, not invented."
+      "content": "This is a snapshot. The roster turns over as primaries resolve and new ones list, so the names here are the names that happened to be live the morning this page was built. The numbers next to each politician are what a single dollar returns if their market resolves yes — pulled from the live board, not invented."
     },
     {
       "type": "heading",

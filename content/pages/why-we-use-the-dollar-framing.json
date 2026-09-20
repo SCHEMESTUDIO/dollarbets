@@ -10,7 +10,7 @@
   "hero_bet": {
     "title": "Same bet, two ways: $1 returns $33 vs 3% implied probability",
     "payout": 33,
-    "quip": "A dollar you can afford to lose. That's the whole point.",
+    "quip": "A dollar you can afford to lose.",
     "tier": "orange",
     "url": "/",
     "category": "culture"
@@ -36,7 +36,7 @@
     },
     {
       "type": "text",
-      "content": "This isn't a brand gimmick. It's a philosophy. Here's why we do it."
+      "content": "The dollar framing is a philosophy, and here is why we use it."
     },
     {
       "type": "heading",
@@ -52,7 +52,7 @@
     },
     {
       "type": "text",
-      "content": "This is the big one. The dollar is a unit that makes sense. It's not too much to laugh about losing. It's not so little that it feels pointless. On Kalshi, you could technically bet $0.01, but that creates a psychological weirdness. On the other end, if someone says 'you could win $5000,' the stakes sound astronomical."
+      "content": "This is the big one. The dollar is a unit that makes sense. Losing one is still funny. Losing less than one would feel pointless. On Kalshi, you could technically bet $0.01, but that creates a psychological weirdness. On the other end, if someone says 'you could win $5000,' the stakes sound astronomical."
     },
     {
       "type": "text",
@@ -72,7 +72,7 @@
     },
     {
       "type": "text",
-      "content": "Most longshots won't hit. That's not a bug. That's the feature. The markets Dollar Bets shows you are priced that way for a reason — the crowd thinks they're unlikely. So when we frame a bet as '$1 returns $500,' we're being honest about what you're doing: you're buying an extremely cheap ticket to an extremely unlikely event. The dollar is the price of that ticket. The $500 is what makes the story worth a dollar."
+      "content": "Most longshots won't hit. That is the feature. The markets Dollar Bets shows you are priced that way for a reason — the crowd thinks they're unlikely. So when we frame a bet as '$1 returns $500,' we're being honest about what you're doing: you're buying an extremely cheap ticket to an extremely unlikely event. The dollar is the price of that ticket. The $500 is what makes the story worth a dollar."
     },
     {
       "type": "text",

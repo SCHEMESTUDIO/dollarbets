@@ -66,7 +66,7 @@
     },
     {
       "type": "text",
-      "content": "The point of tracking biggest payouts isn't financial strategy. It's the question: what would the world look like if this actually happened? A $1,000 payout on a political event means something so unlikely that if it occurred, you'd hear about it for years. The payout tier tells the story: 🟥 filthy means you'd screenshot the trade. 🟪 generational means you'd frame it."
+      "content": "Tracking the biggest payouts is a way of asking what the world would look like if one of them actually happened. A $1,000 payout on a political event means something so unlikely that if it occurred, you'd hear about it for years. The payout tier tells the story: 🟥 filthy means you'd screenshot the trade. 🟪 generational means you'd frame it."
     },
     {
       "type": "heading",
@@ -96,5 +96,5 @@
   "last_updated": "2026-04-29",
   "cluster": "Biggest Payouts",
   "priority": 80,
-  "quick_answer": "This week's biggest potential payouts on prediction markets — the contracts where $1 returns the most if the event happens. These are extreme longshots by definition. Most will lose. That's the whole point."
+  "quick_answer": "This week's biggest potential payouts on prediction markets — the contracts where $1 returns the most if the event happens. These are extreme longshots by definition, and most will lose."
 }

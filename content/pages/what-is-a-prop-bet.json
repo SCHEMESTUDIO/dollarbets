@@ -68,7 +68,7 @@
     },
     {
       "type": "text",
-      "content": "This is where props get weird and beautiful. Super Bowl prop betting is its own industry: the length of the national anthem, the color of the Gatorade shower, whether a specific commercial will air in the first quarter. These aren't serious analytical exercises. They're group-chat entertainment priced like financial instruments. The fact that someone at a sportsbook had to set a line on Gatorade color is one of the great achievements of modern capitalism."
+      "content": "This is where props get weird and beautiful. Super Bowl prop betting is its own industry: the length of the national anthem, the color of the Gatorade shower, whether a specific commercial will air in the first quarter. These are group-chat entertainment priced like financial instruments. The fact that someone at a sportsbook had to set a line on Gatorade color is one of the great achievements of modern capitalism."
     },
     {
       "type": "heading",
@@ -110,5 +110,5 @@
   "last_updated": "2026-05-06",
   "cluster": "Betting Explainers",
   "priority": 66,
-  "quick_answer": "A prop bet (proposition bet) is a wager on a specific occurrence within an event, rather than the final outcome. Player props cover individual stats like touchdowns or strikeouts. Game props cover things like first team to score or whether the game goes to overtime. Prop bets let you bet on the details, not just the result."
+  "quick_answer": "A prop bet (proposition bet) is a wager on a specific occurrence within an event, rather than the final outcome. Player props cover individual stats like touchdowns or strikeouts. Game props cover things like first team to score or whether the game goes to overtime. Prop bets let you bet on the details as well as the result."
 }
