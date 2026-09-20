@@ -272,7 +272,7 @@ def _score(img):
 
 # ── Public API ─────────────────────────────────────────────────────────────
 
-def choose_photo(market):
+def choose_photo(market, exclude_ids=()):
     """Return {"img": PIL image, "credit": str, ...attribution, "usage": {...}}
     or None when nothing acceptable was found. Never raises for a source or
     model failure — the caller falls back to the plain card."""
@@ -306,13 +306,14 @@ def choose_photo(market):
         return out
 
     def pool(source_fn, tag, loosen=False):
-        cands, seen = [], set()
+        cands, seen = [], set(f"{src}:{i}" for src, i in exclude_ids)   # photos used recently
         for q in phrases:
             for qq in (variants(q) if loosen else [q]):
                 got = 0
                 for c in source_fn(qq):
-                    if c["id"] not in seen:
-                        seen.add(c["id"]); cands.append(c); got += 1
+                    key = f"{c['source']}:{c['id']}"
+                    if key not in seen:
+                        seen.add(key); cands.append(c); got += 1
                 if got >= 4:
                     break
         scored = []

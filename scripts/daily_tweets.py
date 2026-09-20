@@ -592,6 +592,26 @@ def _market_from_entry(entry: dict) -> dict:
     return m
 
 
+def recent_photo_ids() -> set[tuple[str, str]]:
+    """(source, id) of every photo used in the last ANTI_DUPE_DAYS — the feed
+    shouldn't show the same night sky twice in a week."""
+    out: set[tuple[str, str]] = set()
+    if not QUEUE_DIR.exists():
+        return out
+    cutoff = datetime.now(timezone.utc) - timedelta(days=ANTI_DUPE_DAYS)
+    for f in QUEUE_DIR.glob("2[0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9].json"):
+        try:
+            if datetime.strptime(f.stem, "%Y-%m-%d").replace(tzinfo=timezone.utc) < cutoff:
+                continue
+            for sel in json.loads(f.read_text()).get("selections", []):
+                ph = sel.get("photo") or {}
+                if ph.get("used") and ph.get("source") and ph.get("id"):
+                    out.add((str(ph["source"]), str(ph["id"])))
+        except Exception:
+            continue
+    return out
+
+
 def render_card_locally(entry: dict, date: str, img_path: Path) -> bool:
     """Draw the plain card (tile or ticket) from the queue entry with share_card.py."""
     try:
@@ -615,7 +635,7 @@ def try_photo_card(entry: dict, date: str, img_path: Path) -> dict | None:
     from social_photo import choose_photo
     from share_card import render_card
     market = _market_from_entry(entry)
-    pick = choose_photo(market)
+    pick = choose_photo(market, exclude_ids=recent_photo_ids())
     if not pick:
         return None
     fonts_dir = ROOT / ".fonts"
