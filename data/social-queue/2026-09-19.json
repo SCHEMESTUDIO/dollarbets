@@ -74,16 +74,16 @@
       "og_image_url": "https://www.dollarbets.lol/share/KXHURCAT-26SALLY-T4/og.png",
       "content": {
         "x_tweet_text": "Mobile, Alabama has an unblemished record of catching these things",
-        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/share/KXHURCAT-26SALLY-T4/?utm_source=x&utm_medium=daily_card",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card",
         "x_link_mode": "reply",
         "telegram_caption_html": "<b>Sally strengthens into a Category 4 hurricane</b>\n\n\u201c<i>Mobile, Alabama has an unblemished record of catching these things</i>\u201d\n\n$1 pays $50\n\n<a href=\"https://www.dollarbets.lol/share/KXHURCAT-26SALLY-T4/\">see the card \u2192</a>"
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-20T18:42:30.187250+00:00",
+          "tweet_id": "2101743820547494368",
+          "reply_tweet_id": "2101743821935825065"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "9012395",
+        "page": "https://www.pexels.com/photo/palm-trees-under-cloudy-sky-9012395/",
+        "photographer": "Jim Clark",
+        "license": "Pexels License",
+        "phrases": [
+          "storm clouds gulf coast shoreline",
+          "empty pier rain dusk"
+        ],
+        "tokens": {
+          "input_tokens": 4330,
+          "output_tokens": 36
         }
       }
     },
