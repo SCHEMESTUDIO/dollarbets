@@ -14,7 +14,7 @@
   "hero_bet": {
     "title": "The US government shuts down on October 1, 2026",
     "payout": 50.0,
-    "quip": "Two cents on Kalshi for a shutdown at the September 30 deadline. Last year's shutdown market did $157 million on Polymarket. This year the money says: deal.",
+    "quip": "Two cents on Kalshi for a shutdown at the September 30 deadline. Last year's shutdown market did $157 million on Polymarket. This year the money says deal.",
     "tier": "red",
     "sourcePlatform": "Kalshi",
     "marketType": "prediction_market",
@@ -157,7 +157,7 @@
     },
     {
       "type": "text",
-      "content": "Federal rules for these exchanges bar contracts on terrorism, assassination, war and anything illegal under state or federal law, and each exchange's rulebook adds its own exclusions. The other limit is liquidity: an exchange can list a market on whether a celebrity couple gets engaged, but if nobody trades it the price is one person's opinion. Open interest and volume are shown on every market page; a price with $200 behind it is not a forecast."
+      "content": "Federal rules for these exchanges bar contracts on terrorism, assassination, war and anything illegal under state or federal law, and each exchange's rulebook adds its own exclusions. The other limit is liquidity. An exchange can list a market on whether a celebrity couple gets engaged, but if nobody trades it the price is one person's opinion. Open interest and volume are shown on every market page; a price with $200 behind it is not a forecast."
     },
     {
       "type": "heading",

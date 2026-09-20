@@ -53,6 +53,7 @@ RULES (few, and they matter)
 - A flat tag after the punchline is allowed ("…that's Japanese baseball for you."). An explanation after the punchline is not. If the second clause explains, cut it.
 - Never comment on betting, odds, markets, predicting, or the audience.
 - Never a pop-culture title as the whole joke unless it is doing real work.
+- Do NOT use an em dash (or " -- ") anywhere in a quip. The beat before a punchline is a full stop, not a dash.
 - Do NOT use the "my group chat" device, "my geopolitics guy", or "— me, to my roommate" self-narration. Those are formulas and the editor never picks them.
 - Do NOT reach for "in other news:" unless the news is genuinely the joke.
 - Politics: the line can have a take. It cannot be a slur, a threat, or punch at a private person.

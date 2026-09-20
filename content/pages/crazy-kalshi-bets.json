@@ -83,7 +83,7 @@
         "Taylor Swift meets Pope Leo XIV before Jan 1, 2027: $1 returns $16.67. Kalshi listed this the day Leo XIV was elected. Volume crossed $18,700. The crowd puts the probability at 6%. The crowd may be optimistic.",
         "NASA lands on the Moon before 2028: $1 returns $13.89. The deadline moved from 2027 to 2028 and the implied odds barely moved — still about 7 cents. Artemis's track record is doing a lot of work in that number.",
         "California hits an 8.0 earthquake before 2028: $1 returns $6.25. The crowd says 16%. That is not a comforting probability from a seismology standpoint.",
-        "So Easy (To Fall In Love) lands a Grammy nomination in 2027: $1 returns $4.55. Kalshi has individual Grammy nomination contracts. This is a feature, not a bug."
+        "So Easy (To Fall In Love) lands a Grammy nomination in 2027: $1 returns $4.55. Kalshi lists individual Grammy nomination contracts on purpose."
       ]
     },
     {
@@ -140,7 +140,7 @@
     },
     {
       "type": "text",
-      "content": "The shutdown markets are consistently the most traded crazy bets. When a funding deadline approaches, the contracts swing wildly based on Congressional statements and closed-door deals. A contract priced at $0.30 on Monday can hit $0.80 by Thursday if a deal falls apart. The $1 framing makes this tangible: your dollar either returns $3.30 or evaporates."
+      "content": "The shutdown markets are consistently the most traded crazy bets. When a funding deadline approaches, the contracts swing wildly based on Congressional statements and closed-door deals. A contract priced at $0.30 on Monday can hit $0.80 by Thursday if a deal falls apart. The $1 framing makes it concrete. Your dollar either returns $3.30 or evaporates."
     },
     {
       "type": "heading",
@@ -196,7 +196,7 @@
     },
     {
       "type": "text",
-      "content": "Dollar Bets scans Kalshi markets daily and surfaces the wildest ones on the main board. The prediction market categories — weird markets, politics markets, financial markets — all pull from Kalshi's live data. New markets get listed constantly as events approach. A quiet week in politics might produce boring Kalshi markets. A week where Congress is fighting over a deadline? The crazy bets multiply."
+      "content": "Dollar Bets scans Kalshi markets daily and surfaces the wildest ones on the main board. The prediction market categories — weird markets, politics markets, financial markets — all pull from Kalshi's live data. New markets get listed constantly as events approach. A quiet week in politics might produce boring Kalshi markets. In a week where Congress is fighting over a deadline, the crazy bets multiply."
     },
     {
       "type": "text",
