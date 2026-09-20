@@ -289,14 +289,19 @@ TCO_LEN = 23
 TWEET_MAX = 280
 
 
-def share_url_for(market: dict, utm: bool = True) -> str:
+def share_url_for(market: dict, utm: bool = True, date: str = "") -> str:
     """The link in the reply. The board itself, not the /share/ page: share
-    pages only exist for the latest board and a slot can post a day later."""
+    pages only exist for the latest board and a slot can post a day later.
+    The board date rides along as utm_content so X fetches a fresh link card
+    each day instead of serving the one it cached for the bare URL."""
     url = f"{SITE_URL}/"
-    return url + "?utm_source=x&utm_medium=daily_card" if utm else url
+    if not utm:
+        return url
+    q = "?utm_source=x&utm_medium=daily_card"
+    return url + q + (f"&utm_content={date}" if date else "")
 
 
-def build_tweet_text(market: dict, link_mode: str) -> tuple[str, str | None]:
+def build_tweet_text(market: dict, link_mode: str, date: str = "") -> tuple[str, str | None]:
     """Return (main_text, reply_text_or_none).
 
     The card image carries the title and the payout, so the text is the quip
@@ -309,7 +314,7 @@ def build_tweet_text(market: dict, link_mode: str) -> tuple[str, str | None]:
     if len(body) > TWEET_MAX:
         body = body[:TWEET_MAX - 1].rstrip() + "…"
 
-    url = share_url_for(market)
+    url = share_url_for(market, date=date)
 
     if link_mode == "inline":
         main = f"{body}\n\n{url}"
@@ -351,8 +356,8 @@ def build_telegram_caption_html(market: dict, share_url: str) -> str:
     )
 
 
-def build_queue_entry(market: dict, rank: int, reason: str, link_mode: str, variant: str) -> dict:
-    main, reply = build_tweet_text(market, link_mode)
+def build_queue_entry(market: dict, rank: int, reason: str, link_mode: str, variant: str, date: str = "") -> dict:
+    main, reply = build_tweet_text(market, link_mode, date)
     safe = safe_ticker(market.get("ticker", ""))
     share_url = f"{SITE_URL}/share/{safe}/"
     return {
@@ -525,8 +530,8 @@ def post_slot(date: str, slot: int) -> None:
     link_mode = content.get("x_link_mode", "reply")
     # Queue entries written before 2026-09-20 carry a /share/ link that 404s
     # once the board rolls. Rebuild the link at post time from the entry.
-    if reply_text and "/share/" in reply_text:
-        _, reply_text = build_tweet_text(_market_from_entry(entry), link_mode)
+    if reply_text and ("/share/" in reply_text or "utm_content=" not in reply_text):
+        _, reply_text = build_tweet_text(_market_from_entry(entry), link_mode, date)
         content["x_reply_text"] = reply_text
         log("rewrote a stale /share/ reply link")
     if not tweet_text:
@@ -691,13 +696,13 @@ def ensure_queue(link_mode: str) -> str:
     for p in picks:
         selections.append(build_queue_entry(
             market=by_ticker[p["ticker"]], rank=p.get("rank"),
-            reason=(p.get("reason") or "").strip(), link_mode=link_mode, variant="tile",
+            reason=(p.get("reason") or "").strip(), link_mode=link_mode, variant="tile", date=date,
         ))
     if hero:
         selections.append(build_queue_entry(
             market=hero, rank=SLOTS,
             reason="today's filthy little longshot — the board's own hero pick",
-            link_mode=link_mode, variant="ticket",
+            link_mode=link_mode, variant="ticket", date=date,
         ))
 
     write_queue_file(date, {

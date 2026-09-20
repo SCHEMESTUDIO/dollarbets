@@ -1458,7 +1458,8 @@ def footer_info_nav():
     return f'    <div class="footer-info-nav">\n        {items}\n    </div>\n'
 
 
-def page_shell(title, description, body, canonical="", noindex=False, current_nav="", extra_head="", sticky_html=None, compact_header=False, show_signup=True, article=False):
+def page_shell(title, description, body, canonical="", noindex=False, current_nav="", extra_head="", sticky_html=None, compact_header=False, show_signup=True, article=False, og_image=None):
+    og_image_url = og_image or f"{SITE_URL}/og-image.png"   # board pages pass the daily card
     """Wrap body content in the full HTML shell.
 
     `sticky_html` — optional pre-built fixed bottom bar; replaces the default
@@ -1548,14 +1549,14 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
   <meta property="og:type" content="website">
   <meta property="og:url" content="{SITE_URL}{safe_canonical}">
   <meta property="og:site_name" content="Dollar Bets">
-  <meta property="og:image" content="{SITE_URL}/og-image.png">
+  <meta property="og:image" content="{og_image_url}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:type" content="image/png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{safe_title}">
   <meta name="twitter:description" content="{safe_desc}">
-  <meta name="twitter:image" content="{SITE_URL}/og-image.png">
+  <meta name="twitter:image" content="{og_image_url}">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -2461,7 +2462,7 @@ def generate_daily_board(boards):
   "itemListElement": [{", ".join(market_items)}]
 }}</script>"""
 
-    html = page_shell(
+    html = page_shell(og_image=f"{SITE_URL}/og-board.png", 
         title="Dollar Bets: What Does $1 Pay?",
         description="A buck says maybe. Daily board of the internet's most entertaining wagers.",
         body=body,
@@ -4024,6 +4025,18 @@ def main():
     # 6. Per-bet share pages + OG images
     print("[generate] Building share pages...")
     generate_share_pages(boards)
+
+    # Homepage link preview: today's longshot as a wide ticket (share_card.py).
+    # Rebuilt every deploy so a shared board link shows today's board.
+    try:
+        from share_card import render_og_board
+        _d, _data = boards[-1]
+        _b = _data.get("board", [])
+        _hero = select_filthy_longshot(_b)
+        if _hero is not None and render_og_board(_b[_hero], _d, os.path.join(OUTPUT_DIR, "og-board.png")):
+            print("[generate] Wrote og-board.png")
+    except Exception as e:  # never block the build on a preview image
+        print(f"[generate] WARNING: og-board.png failed: {e}")
 
     # 7. About page
     print("[generate] Building about page...")
