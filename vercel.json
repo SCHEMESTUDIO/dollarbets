@@ -26,6 +26,16 @@
       "source": "/craziest-kalshi-markets/",
       "destination": "/crazy-kalshi-bets/",
       "permanent": true
+    },
+    {
+      "source": "/weird-kalshi-bets",
+      "destination": "/crazy-kalshi-bets/",
+      "permanent": true
+    },
+    {
+      "source": "/weird-kalshi-bets/",
+      "destination": "/crazy-kalshi-bets/",
+      "permanent": true
     }
   ],
   "rewrites": [
