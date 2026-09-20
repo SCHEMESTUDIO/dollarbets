@@ -245,6 +245,41 @@ def build_faq_schema(faqs):
 
 # ── Hero bet renderer ──────────────────────────────────────
 
+def build_video_block(video, seo):
+    """Optional `video` block on a content page (Postwerks video/PROTOCOL.md, 2026-09-20):
+    {"youtube_id", "title", "description", "upload_date" (YYYY-MM-DD), "duration_seconds", "transcript"?, "thumbnail"?}.
+    Renders a portrait YouTube Shorts embed above the article body plus VideoObject JSON-LD, so the page
+    itself can earn a video result (Search Console searchAppearance = VIDEO). Returns (html, schema_tag);
+    both empty when the page has no video. Nothing here is fetched at build time."""
+    if not video or not video.get("youtube_id"):
+        return "", ""
+    import html as _html
+    vid = video["youtube_id"]
+    name = video.get("title") or (seo or {}).get("title") or ""
+    desc = video.get("description") or (seo or {}).get("meta_description") or ""
+    dur = int(video.get("duration_seconds") or 20)
+    thumb = video.get("thumbnail") or f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"
+    obj = {
+        "@context": "https://schema.org", "@type": "VideoObject",
+        "name": name, "description": desc, "thumbnailUrl": [thumb],
+        "uploadDate": video.get("upload_date", ""), "duration": f"PT{dur}S",
+        "embedUrl": f"https://www.youtube.com/embed/{vid}",
+        "contentUrl": f"https://www.youtube.com/shorts/{vid}",
+        "publisher": {"@type": "Organization", "name": "Dollar Bets", "url": "https://dollarbets.lol/"},
+    }
+    if video.get("transcript"):
+        obj["transcript"] = video["transcript"]
+    schema = f'<script type="application/ld+json">{json.dumps(obj, ensure_ascii=False)}</script>'
+    cap = video.get("caption") or f"{name} ({dur} seconds)."
+    html_out = f"""    <figure class="page-video" style="margin:0 0 20px 0;padding:0">
+      <div style="position:relative;max-width:300px;aspect-ratio:9/16;border-radius:10px;overflow:hidden;background:#111">
+        <iframe src="https://www.youtube.com/embed/{vid}" title="{_html.escape(name, quote=True)}" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;border:0" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>
+      <figcaption style="font-size:13px;color:#6b5744;margin-top:6px">{_html.escape(cap)}</figcaption>
+    </figure>"""
+    return html_out, schema
+
+
 def render_hero_bet(hero):
     """Contextual feature ticket for a content page: the one market the page is about,
     in the board's dark-ticket language. Routes through /go/ when a ticker is known."""
@@ -452,6 +487,9 @@ def generate_content_page(page_data):
         article_inner += "\n" + render_faqs(faqs)
 
     article_inner, _cut = reduce_dashes(article_inner, keep=2)
+    video_html, video_schema = build_video_block(page_data.get("video"), seo)
+    if video_html:
+        body_parts.append(video_html)  # the Short, above the article body, where a video result is earned
     body_parts.append(f"""    <div class="article-body">
 {article_inner}
     </div>""")
@@ -500,8 +538,9 @@ def generate_content_page(page_data):
     article_schema = build_article_schema(page_data, canonical)
     faq_schema = build_faq_schema(faqs) if faqs else ""
     faq_tag = f"\n  {faq_schema}" if faq_schema else ""
+    video_tag = f"\n  {video_schema}" if video_schema else ""
     schema_tags = f"""<script type="application/ld+json">{article_schema}</script>
-  <script type="application/ld+json">{breadcrumb_schema}</script>{faq_tag}"""
+  <script type="application/ld+json">{breadcrumb_schema}</script>{faq_tag}{video_tag}"""
 
     ni, ni_reason = policy_noindex(page_data)
     if ni and not page_data.get("noindex"):
