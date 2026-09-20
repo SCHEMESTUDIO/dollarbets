@@ -436,6 +436,115 @@ def render_card(market, variant, output_path, board_date="", fonts_dir=None, pho
     img.save(output_path, "PNG", optimize=True)
     return True
 
+# ── Link-preview images (1200×630) ─────────────────────────────────────────
+
+OG_W, OG_H = 1200, 630
+
+
+def render_og_board(market, board_date, output_path, fonts_dir=None):
+    """The homepage link preview: today's filthy little longshot as a wide dark
+    ticket. Rebuilt on every deploy, so a link to the board shows today's
+    board, not a logo. Returns True on success."""
+    try:
+        from PIL import Image, ImageDraw
+    except ImportError:
+        return False
+    fonts_dir = fonts_dir or os.path.join(os.path.dirname(os.path.abspath(__file__)), ".fonts")
+    fonts = _Fonts(fonts_dir)
+    if not fonts.ok:
+        return False
+    _, _, _, bright = TIERS.get(market.get("tier", ""), TIER_DEFAULT)
+
+    img = Image.new("RGB", (OG_W, OG_H), INK)
+    draw = ImageDraw.Draw(img)
+    # notches on the long edges, like the ticket
+    ny = int(OG_H * 0.62)
+    for cx in (0, OG_W):
+        draw.ellipse((cx - 18, ny - 18, cx + 18, ny + 18), fill=PAPER)
+
+    x0, x1 = 64, OG_W - 64
+    y = 48
+    _wordmark(draw, fonts, x0, y, PAPER)
+    _draw_tracked(draw, (x1, y + 12), _stamp(board_date), fonts.mono(20, semibold=True), DARK_MUTE_2, 1, anchor_right=True)
+
+    y += 44 + 34
+    _draw_tracked(draw, (x0, y), "TODAY’S FILTHY LITTLE LONGSHOT", fonts.mono(18, semibold=True), LAVENDER, 4)
+    y += 18 + 22
+    f_title, lines, size = _fit_title(draw, market.get("title", ""), fonts, x1 - x0, sizes=(56, 48, 42), max_lines=3)
+    lh = int(size * 1.1)
+    for ln in lines:
+        _draw_tracked(draw, (x0, y), ln, f_title, PAPER, -1.2)
+        y += lh
+
+    # payout row on the baseline near the bottom
+    base_y = OG_H - 64
+    f_pays = fonts.mono(24, semibold=True)
+    pays_w = _text_w(draw, "$1 pays", f_pays)
+    payout_str = format_payout(market.get("payout", 0))
+    f_meta = fonts.mono(20, semibold=True)
+    platform = market.get("platform", "kalshi") or "kalshi"
+    pname = PLATFORM_NAMES.get(platform, platform.title())
+    pi = _priced_in(market.get("payout", 0))
+    meta = f"{pname} · {pi} priced in" if pi else pname
+    meta_w = _text_w(draw, meta, f_meta)
+    f_pay, psize = _fit_payout(draw, fonts, payout_str, 132, (x1 - x0) - pays_w - 20 - meta_w - 40, floor=80)
+    draw.text((x0, base_y), "$1 pays", font=f_pays, fill=DARK_MUTE, anchor="ls")
+    _draw_tracked(draw, (x0 + pays_w + 20, base_y), payout_str, f_pay, bright, -0.03 * psize, baseline=True)
+    _draw_tracked(draw, (x1, base_y - 4), meta, f_meta, DARK_MUTE_2, 0, anchor_right=True, baseline=True)
+    cap_top = f_pay.getbbox("0", anchor="ls")[1]
+    _dashed_h(draw, x0, x1, base_y + cap_top - 28, DARK_RULE, width=3)
+    _draw_tracked(draw, (x1, 48 + 44 + 34), "dollarbets.lol", fonts.mono(18), DARK_MUTE_2, 0, anchor_right=True)
+
+    os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
+    img.save(output_path, "PNG", optimize=True)
+    return True
+
+
+def render_og_brand(output_path, fonts_dir=None):
+    """The site-wide link preview for every non-board page: wordmark, the
+    tagline, and the five payout tiers as ticket chips. Static; committed as
+    src/og-image.png."""
+    from PIL import Image, ImageDraw
+    fonts_dir = fonts_dir or os.path.join(os.path.dirname(os.path.abspath(__file__)), ".fonts")
+    fonts = _Fonts(fonts_dir)
+    img = Image.new("RGB", (OG_W, OG_H), PAPER)
+    draw = ImageDraw.Draw(img)
+    draw.rectangle((0, 0, OG_W, 12), fill=ORANGE)
+
+    f = fonts.display(96, 900)
+    w = _tracked_w(draw, "DOLLAR", f, -3)
+    total = w + _tracked_w(draw, "BETS", f, -3) - 3
+    x = (OG_W - total) // 2
+    _draw_tracked(draw, (x, 150), "DOLLAR", f, INK, -3)
+    _draw_tracked(draw, (x + w - 3, 150), "BETS", f, ORANGE, -3)
+
+    tag = "what does a dollar pay?"
+    ft = fonts.mono(34, semibold=True)
+    draw.text(((OG_W - _text_w(draw, tag, ft)) // 2, 290), tag, font=ft, fill=INK_2)
+    sub = "the world’s most interesting $1 wagers · a buck says maybe"
+    fs = fonts.mono(22)
+    draw.text(((OG_W - _text_w(draw, sub, fs)) // 2, 345), sub, font=fs, fill=INK_3)
+
+    # tier chips
+    chips = [("green", "$1–10", "likely"), ("yellow", "$11–50", "toss-up"), ("orange", "$51–100", "longshot"),
+             ("red", "$101–500", "wild"), ("purple", "$500+", "absurd")]
+    cw, ch, gap = 196, 104, 18
+    x = (OG_W - (cw * 5 + gap * 4)) // 2
+    y = 440
+    fa = fonts.display(34, 900)
+    fl = fonts.mono(16, semibold=True)
+    for tier, amount, label in chips:
+        bar, wash, ink_t, _ = TIERS[tier]
+        draw.rounded_rectangle((x, y, x + cw, y + ch), radius=14, fill=wash, outline=RULE, width=2)
+        draw.rounded_rectangle((x, y, x + 10, y + ch), radius=5, fill=bar)
+        _draw_tracked(draw, (x + 26, y + 18), amount, fa, ink_t, -1)
+        _draw_tracked(draw, (x + 26, y + 66), label.upper(), fl, INK_2, 2)
+        x += cw + gap
+
+    os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
+    img.save(output_path, "PNG", optimize=True)
+    return True
+
 
 def safe_ticker(ticker):
     """Same sanitisation generate.py applies to the share directory name."""
