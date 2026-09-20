@@ -1,0 +1,597 @@
+{
+  "generated_at": "2026-09-20T12:54:18.437040+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket": 5
+  },
+  "board": [
+    {
+      "ticker": "0x8ae77a846b4303f9cbe52f6c7ce00df07cc121113b68d41ccecdfa9e8b14a099",
+      "title": "Schalke win their match this weekend",
+      "subtitle": "",
+      "payout": 2.02,
+      "tier": "green",
+      "quip": "like Rutgers covering a road spread in November",
+      "yes_price": "0.4950",
+      "volume": 97590.336326,
+      "category": "Other",
+      "close_time": "2026-09-20T15:30:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/bun-s04-elv-2026-09-20",
+      "platform": "polymarket",
+      "score": 60.0,
+      "quip_alts": [
+        {
+          "quip": "the entire Ruhr valley calls in sick Monday morning",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i have supported worse clubs for far dumber reasons",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "blue and white miracle",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "like Rutgers covering a road spread in November",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Dortmund fans pretending they didn't check the score",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "2.02 euros, also the price of a Gelsenkirchen beer, coincidence?",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "sixty thousand Germans screaming into cold rain, genuinely beautiful stuff",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "Bad News Bears energy but everyone's chanting in unison",
+          "mode": 8,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "ticker": "0xf0a3a1e91457480e86590b11e694d3c5599d709ffe737f7bbc371ee44853e8fa",
+      "title": "Shipping gets targeted in Hormuz today",
+      "subtitle": "",
+      "payout": 2.08,
+      "tier": "green",
+      "quip": "the gas station sign guy is already up on the ladder",
+      "yes_price": "0.4800",
+      "volume": 9886.077693,
+      "category": "Other",
+      "close_time": "2026-09-29T19:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/shipping-successfully-targeted-in-hormuz-onptptpt",
+      "platform": "polymarket",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "my gas bill and a tanker in the Gulf, same invoice somehow",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "the gas station sign guy is already up on the ladder",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "the strait does its thing",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "$2.08, which is also the gallon price by Thursday",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "\"freedom of navigation,\" says a man who has never navigated anything",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "a chokepoint with more weekly drama than the AFC North",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "shoutout to whoever decided all the oil goes down one hallway",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "Midland, Texas lighting a small celebratory candle",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXEARTHQUAKEJAPAN-30",
+      "title": "Japan gets an 8.0 earthquake before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 2.63,
+      "tier": "green",
+      "quip": "an 8.0 is roughly 31 Costcos of energy, i looked it up",
+      "yes_price": "0.3800",
+      "volume": 44619.0,
+      "category": "Climate and Weather",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXEARTHQUAKEJAPAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 78.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "i watched one Nankai Trough documentary and never emotionally recovered",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Godzilla wakes up, stretches, decides against it",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "the trench has plans",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "you know that wave in Interstellar. yeah. that.",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "California checking its own fault lines, visibly insecure",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "an 8.0 is roughly 31 Costcos of energy, i looked it up",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Japanese building codes are the best thing our species has produced",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "\"we have drilled for this since kindergarten,\" says every fifth grader in Osaka",
+          "mode": 4,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xc2d9e2df0b1d1005b22ace7655928da4e92177718bd367372897aa1aff30d3c5",
+      "title": "CAQ finishes second in the Quebec election",
+      "subtitle": "",
+      "payout": 3.08,
+      "tier": "yellow",
+      "quip": "second place in Quebec is the NIT of world politics",
+      "yes_price": "0.3250",
+      "volume": 9698.478023000001,
+      "category": "World",
+      "close_time": "2026-10-05T00:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/quebec-general-election-second-place-20260825152158",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i could not place Quebec under pressure and i'm fully invested",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "second place in Quebec is the NIT of world politics",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "silver medal, poutine included",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "Montreal already flipping cars over something completely unrelated",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "Legault writes a memoir, it's in French, nobody outside reads it",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "if you ain't first you're last, unless apparently you're CAQ",
+          "mode": 8,
+          "score": 6.5
+        },
+        {
+          "quip": "provincial politics is the most underrated genre on this planet",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "$3.08 to care deeply about a Canadian province, cheapest hobby i own",
+          "mode": 5,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXNEXTHURDATE-26DEC01-26OCT01",
+      "title": "The next hurricane forms before October",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Oct 1, 2026",
+      "no_sub_title": "Before Oct 1, 2026",
+      "payout": 4.17,
+      "tier": "yellow",
+      "quip": "Jim Cantore is already booking the rental car",
+      "yes_price": "0.2400",
+      "volume": 11875.14,
+      "category": "Climate and Weather",
+      "close_time": "2026-10-01T03:59:00Z",
+      "url": "https://kalshi.com/markets/KXNEXTHURDATE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 5,
+      "quip_alts": [
+        {
+          "quip": "Florida's turn again and honestly, sure",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "i refresh the cone graphic like it's a live box score",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Jim Cantore is already booking the rental car",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "warm water, bad news",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "the Atlantic running 4.17 degrees too horny this month",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "hurricane season is the only season that fully respects its own name",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "\"little breezy out here, Bob,\" he says, leaning at forty degrees",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "like a bullpen arm warming in the fifth, you just know",
+          "mode": 6,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXELONMARS-99",
+      "title": "Elon Musk sets foot on Mars",
+      "subtitle": "Before 2099",
+      "yes_sub_title": "Mars",
+      "no_sub_title": "Mars",
+      "payout": 8.33,
+      "tier": "orange",
+      "quip": "first post from Mars is a meme he saw in 2016",
+      "yes_price": "0.1200",
+      "volume": 118844.56,
+      "category": "World",
+      "close_time": "2099-08-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXELONMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 115.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i'd watch the whole livestream and i hate that about myself",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "first post from Mars is a meme he saw in 2016",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "Mars gets a landlord",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "eight bucks to go, verification badge included",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "Earth quietly changing all the locks while he packs",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"gravity's like, way better there for my lower back\"",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "a human standing on Mars would rule, even that human",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "the end of Wall-E except the captain has a phone",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x86049cbc345ce8981afb368c3d19436fd56e90a546ad2df537b1ccafd5c02ade",
+      "title": "Kimi scores 60% on Humanity's Last Exam this year",
+      "subtitle": "",
+      "payout": 9.52,
+      "tier": "orange",
+      "quip": "60% is a D minus and it would still finish us",
+      "yes_price": "0.1050",
+      "volume": 9733.075308000001,
+      "category": "Science and Technology",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/highest-kimi-score-on-humanitys-last-exam-in-2026-20260723191206820",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i got 60% on normal exams and my mother was thrilled",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "they rename it Humanity's Second To Last Exam and move on",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "final exam, curved generously",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "Euroleague team walking into an NBA gym and hanging 40",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "60% is a D minus and it would still finish us",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "\"describe your weaknesses.\" \"i have none.\" \"correct\"",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "naming your benchmark Humanity's Last Exam is elite marketing, i'm obsessed",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "the Kobayashi Maru except somebody actually studied for it",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26DEC",
+      "title": "US signs a new Iran nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Dec 1, 2026",
+      "no_sub_title": "Before Dec 1, 2026",
+      "payout": 16.67,
+      "tier": "red",
+      "quip": "Charlie Brown, the football, forty straight years of foreign policy",
+      "yes_price": "0.0600",
+      "volume": 205866.86,
+      "category": "Politics",
+      "close_time": "2026-12-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i turned off the alerts, it was hurting my self esteem",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Geneva caterers have been on standby since roughly 2015",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "sure, any day now",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "$16.67, or one centrifuge bolt, depending who you ask",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we've reached a framework toward a framework,\" says the blue tie",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "Charlie Brown, the football, forty straight years of foreign policy",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "attempt number nine thousand and i do respect the grind",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "like the Sixers announcing another timeline for the same guy",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXMODELHIGH-27-1550-GEMI",
+      "title": "Gemini hits 1550 on Text Arena first",
+      "subtitle": "Before 2027",
+      "yes_sub_title": "Gemini",
+      "no_sub_title": "Gemini",
+      "payout": 50.0,
+      "tier": "red",
+      "quip": "1550 was also my SAT score, we are not the same",
+      "yes_price": "0.0200",
+      "volume": 18253.33,
+      "category": "Science and Technology",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 117.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Sundar permits himself one (1) smile, then a shareholder letter",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "i still call it Bard and it still answers me",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "google remembered it's google",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "like the Spurs winning quietly with nobody watching the broadcast",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "1550 was also my SAT score, we are not the same",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "\"as a large language model, i'd like to thank my mother\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "Skynet but it has a Workspace subscription and a calendar invite",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "the search engine woke up furious and i'm here for it",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x2785303a9349d892f464c251c1a39b838a8c535022c54b5a826c9d55c4049db1",
+      "title": "Cardinals win the NFC Championship",
+      "subtitle": "",
+      "payout": 250.0,
+      "tier": "purple",
+      "quip": "like the Rockies winning a pennant, which happened, and nobody remembers",
+      "yes_price": "0.0040",
+      "volume": 988523.535509,
+      "category": "Sports",
+      "close_time": "2027-01-25T00:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/pro-football-2027-nfc-champion",
+      "platform": "polymarket",
+      "score": 48.0,
+      "quip_alts": [
+        {
+          "quip": "Arizona has never been handed anything, and there's a reason",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "i'd have to learn who plays quarterback there and i'd do it gladly",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "desert bird ascends",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "Kyler takes the podium mid Warzone match, refuses to pause",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "like the Rockies winning a pennant, which happened, and nobody remembers",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "$250, or eleven minutes of parking at State Farm Stadium",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "full Flying V, ducks fly together, the whole thing",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "that stadium is a warehouse in a parking lot and i love it",
+          "mode": 3,
+          "score": 8
+        }
+      ]
+    }
+  ]
+}
