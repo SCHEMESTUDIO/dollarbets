@@ -170,12 +170,12 @@ TODAY'S BOARD ({date}):
 RECENTLY POSTED (last {anti_dupe_days} days) — avoid topical near-duplicates:
 {anti_dupe}
 
-Return a JSON array of exactly {n} objects, ranked best-first:
+Return a JSON array of exactly {n} objects, ranked best-first, using the NUMBER of the market from the list above (not the ticker):
 [
-  {{"ticker": "...", "rank": 1, "reason": "one short sentence on why this lands"}}{more}
+  {{"n": 3, "rank": 1, "reason": "one short sentence on why this lands"}}{more}
 ]
 
-Respond with ONLY the JSON array. Tickers must match exactly from the board above."""
+Respond with ONLY the JSON array."""
 
 
 def call_claude_for_selection(board: list[dict], date: str, anti_dupe: set[str], n: int) -> list[dict]:
@@ -193,7 +193,7 @@ def call_claude_for_selection(board: list[dict], date: str, anti_dupe: set[str],
         )
 
     anti_str = "\n".join(f"- {t}" for t in sorted(anti_dupe)) if anti_dupe else "(none yet)"
-    more = "".join(f',\n  {{"ticker": "...", "rank": {k}, "reason": "..."}}' for k in range(2, n + 1))
+    more = "".join(f',\n  {{"n": 0, "rank": {k}, "reason": "..."}}' for k in range(2, n + 1))
 
     prompt = SELECTION_PROMPT.format(
         n=n, date=date, markets="\n\n".join(market_lines),
@@ -225,15 +225,61 @@ def call_claude_for_selection(board: list[dict], date: str, anti_dupe: set[str],
         text = re.sub(r"^```\w*\n?", "", text)
         text = re.sub(r"\n?```$", "", text).strip()
 
-    picks = json.loads(text)
-    if not isinstance(picks, list) or len(picks) != n:
-        raise SystemExit(f"Claude returned {len(picks) if isinstance(picks, list) else 'non-list'} picks, expected {n}")
+    picks = _parse_picks(text, board, n)
+    if len(picks) < n:
+        log(f"selection returned {len(picks)}/{n} usable picks — retrying once")
+        with urllib.request.urlopen(req, timeout=45) as resp:
+            result = json.loads(resp.read().decode())
+        text2 = result["content"][0]["text"].strip()
+        text2 = re.sub(r"^```\w*\n?", "", text2); text2 = re.sub(r"\n?```$", "", text2).strip()
+        picks = _parse_picks(text2, board, n)
+    if len(picks) < n:
+        # Fill from the board in payout order rather than fail the day.
+        chosen = {p["ticker"] for p in picks}
+        for m in sorted(board, key=lambda x: float(x.get("payout") or 0), reverse=True):
+            if len(picks) >= n:
+                break
+            if m.get("ticker") not in chosen:
+                picks.append({"ticker": m["ticker"], "rank": len(picks) + 1, "reason": "filled by payout order — selection came back short"})
+                chosen.add(m["ticker"])
+        log("selection filled from the board by payout order")
+    return picks[:n]
 
-    valid_tickers = {m.get("ticker") for m in board}
-    for p in picks:
-        if p.get("ticker") not in valid_tickers:
-            raise SystemExit(f"Claude picked ticker not on the board: {p.get('ticker')!r}")
-    return picks
+
+def _parse_picks(text: str, board: list[dict], n: int) -> list[dict]:
+    """Accept {"n": k} (1-based list number) or a ticker; drop anything that
+    doesn't resolve to a board market. Never raises."""
+    try:
+        raw = json.loads(text)
+    except Exception as e:
+        log(f"selection was not JSON ({e}): {text[:120]!r}")
+        return []
+    if not isinstance(raw, list):
+        return []
+    by_ticker = {m.get("ticker"): m for m in board}
+    out, seen = [], set()
+    for p in raw:
+        if not isinstance(p, dict):
+            continue
+        m = None
+        k = p.get("n")
+        if isinstance(k, int) and 1 <= k <= len(board):
+            m = board[k - 1]
+        elif isinstance(k, str) and k.strip().isdigit() and 1 <= int(k) <= len(board):
+            m = board[int(k) - 1]
+        elif p.get("ticker") in by_ticker:
+            m = by_ticker[p["ticker"]]
+        else:
+            t = str(p.get("ticker") or "")
+            hits = [bt for bt in by_ticker if t and (bt.startswith(t) or t.startswith(bt))]
+            if len(hits) == 1:
+                m = by_ticker[hits[0]]
+        if m is None or m.get("ticker") in seen:
+            log(f"dropping unusable pick: {p!r}")
+            continue
+        seen.add(m.get("ticker"))
+        out.append({"ticker": m["ticker"], "rank": len(out) + 1, "reason": (p.get("reason") or "").strip()})
+    return out
 
 
 # ── Post text ──────────────────────────────────────────────────────────────
@@ -646,7 +692,13 @@ def ensure_queue(link_mode: str) -> str:
 
 
 def cmd_run(link_mode: str) -> None:
-    latest = ensure_queue(link_mode)
+    try:
+        latest = ensure_queue(link_mode)
+    except SystemExit as e:
+        # Selection failed (model hiccup, thin board, ...). Log it and keep
+        # posting from whatever queues already exist — never lose a slot to it.
+        log(f"selection failed: {e} — posting from existing queues")
+        latest, _ = load_latest_board()
     date = pick_queue_to_post(latest)
     if date is None:
         log(f"no unposted slots in any queue within a day of board {latest} — nothing to do")
