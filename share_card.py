@@ -531,8 +531,9 @@ def render_og_brand(output_path, fonts_dir=None):
     fs = fonts.mono(24)
     draw.text(((OG_W - _text_w(draw, sub, fs)) // 2, 304), sub, font=fs, fill=INK_3)
 
-    chips = [("green", "$1–10", "likely"), ("yellow", "$11–50", "toss-up"), ("orange", "$51–100", "longshot"),
-             ("red", "$101–500", "wild"), ("purple", "$500+", "absurd")]
+    # The site's own tier names and ranges (generate.py tier pages) — not invented here.
+    chips = [("green", "$2–3", "respectable"), ("yellow", "$4–6", "alive"), ("orange", "$7–15", "heater"),
+             ("red", "$20+", "filthy"), ("purple", "$100+", "generational")]
     gap = 16
     cw = (OG_W - 2 * 48 - gap * 4) // 5
     ch = 190
@@ -550,7 +551,10 @@ def render_og_brand(output_path, fonts_dir=None):
             size -= 2                      # "$101–500" must stay inside its chip
         fa = fonts.display(size, 900)
         _draw_tracked(draw, (x + 30, y + 62 + (44 - size) // 2), amount, fa, ink_t, -1.5)
-        _draw_tracked(draw, (x + 30, y + 132), label.upper(), fl, INK_2, 3)
+        lsize, ltrack = 18, 3
+        while lsize > 13 and _tracked_w(draw, label.upper(), fonts.mono(lsize, semibold=True), ltrack) > cw - 30 - 22:
+            lsize -= 1; ltrack = 2
+        _draw_tracked(draw, (x + 30, y + 132), label.upper(), fonts.mono(lsize, semibold=True), INK_2, ltrack)
         x += cw + gap
 
     os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
