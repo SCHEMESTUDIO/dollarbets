@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T12:55:00.853606+00:00",
+  "generated_at": "2026-09-20T18:29:24.496405+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,234 +8,24 @@
     "green": 10
   },
   "sport_mix": {
-    "MLB": 2,
-    "Multi": 8
+    "Multi": 8,
+    "MLB": 2
   },
   "board": [
     {
-      "ticker": "PARLAY-7A4C272B",
-      "title": "Texas Rangers wins + Seattle Mariners wins",
-      "payout": 2.59,
-      "tier": "green",
-      "quip": "no surprises here",
-      "yes_price": "0.39",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609464065&selectionId=29163",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Toronto Blue Jays @ Texas Rangers + Seattle Mariners @ Colorado Rockies",
-      "market_type": "2-leg parlay",
-      "american_odds": 159,
-      "implied_probability": 0.386,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Toronto Blue Jays @ Texas Rangers",
-          "pick": "Texas Rangers wins",
-          "odds": -164,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609464065&selectionId=29163",
-          "commence_time": "2026-09-20T18:36:00Z"
-        },
-        {
-          "matchup": "Seattle Mariners @ Colorado Rockies",
-          "pick": "Seattle Mariners wins",
-          "odds": -164,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609464070&selectionId=7100968",
-          "commence_time": "2026-09-20T19:11:00Z"
-        }
-      ],
-      "close_time": "2026-09-20T18:36:00Z"
-    },
-    {
-      "ticker": "PARLAY-FF046B1B",
-      "title": "Army Black Knights wins + Texas Rangers wins",
-      "payout": 2.62,
-      "tier": "green",
-      "quip": "water is wet",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608175378&selectionId=1004069",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "Multi",
-      "matchup": "Army Black Knights @ Temple Owls + Toronto Blue Jays @ Texas Rangers",
-      "market_type": "2-leg parlay",
-      "american_odds": 162,
-      "implied_probability": 0.382,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Army Black Knights @ Temple Owls",
-          "pick": "Army Black Knights wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608175378&selectionId=1004069",
-          "commence_time": "2026-09-25T20:00:00Z"
-        },
-        {
-          "matchup": "Toronto Blue Jays @ Texas Rangers",
-          "pick": "Texas Rangers wins",
-          "odds": -164,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609464065&selectionId=29163",
-          "commence_time": "2026-09-20T18:36:00Z"
-        }
-      ],
-      "close_time": "2026-09-20T18:36:00Z"
-    },
-    {
-      "ticker": "PARLAY-0710F578",
-      "title": "Army Black Knights wins + Seattle Mariners wins",
-      "payout": 2.62,
-      "tier": "green",
-      "quip": "bread and butter",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608175378&selectionId=1004069",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "Multi",
-      "matchup": "Army Black Knights @ Temple Owls + Seattle Mariners @ Colorado Rockies",
-      "market_type": "2-leg parlay",
-      "american_odds": 162,
-      "implied_probability": 0.382,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Army Black Knights @ Temple Owls",
-          "pick": "Army Black Knights wins",
-          "odds": -160,
-          "implied_prob": "62%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608175378&selectionId=1004069",
-          "commence_time": "2026-09-25T20:00:00Z"
-        },
-        {
-          "matchup": "Seattle Mariners @ Colorado Rockies",
-          "pick": "Seattle Mariners wins",
-          "odds": -164,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609464070&selectionId=7100968",
-          "commence_time": "2026-09-20T19:11:00Z"
-        }
-      ],
-      "close_time": "2026-09-20T19:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-0B3B663D",
-      "title": "Oklahoma City Thunder wins + Texas Rangers wins",
-      "payout": 2.63,
-      "tier": "green",
-      "quip": "rent money",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598956099&selectionId=3319741",
-      "sport": "basketball_nba",
-      "sport_display": "Multi",
-      "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves + Toronto Blue Jays @ Texas Rangers",
-      "market_type": "2-leg parlay",
-      "american_odds": 163,
-      "implied_probability": 0.38,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
-          "pick": "Oklahoma City Thunder wins",
-          "odds": -158,
-          "implied_prob": "61%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598956099&selectionId=3319741",
-          "commence_time": "2026-12-26T01:00:00Z"
-        },
-        {
-          "matchup": "Toronto Blue Jays @ Texas Rangers",
-          "pick": "Texas Rangers wins",
-          "odds": -164,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609464065&selectionId=29163",
-          "commence_time": "2026-09-20T18:36:00Z"
-        }
-      ],
-      "close_time": "2026-09-20T18:36:00Z"
-    },
-    {
-      "ticker": "PARLAY-2666FB53",
-      "title": "Oklahoma City Thunder wins + Seattle Mariners wins",
-      "payout": 2.63,
-      "tier": "green",
-      "quip": "steady hands",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598956099&selectionId=3319741",
-      "sport": "basketball_nba",
-      "sport_display": "Multi",
-      "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves + Seattle Mariners @ Colorado Rockies",
-      "market_type": "2-leg parlay",
-      "american_odds": 163,
-      "implied_probability": 0.38,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
-          "pick": "Oklahoma City Thunder wins",
-          "odds": -158,
-          "implied_prob": "61%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598956099&selectionId=3319741",
-          "commence_time": "2026-12-26T01:00:00Z"
-        },
-        {
-          "matchup": "Seattle Mariners @ Colorado Rockies",
-          "pick": "Seattle Mariners wins",
-          "odds": -164,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609464070&selectionId=7100968",
-          "commence_time": "2026-09-20T19:11:00Z"
-        }
-      ],
-      "close_time": "2026-09-20T19:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-7A4C272B",
-      "title": "Toronto Blue Jays +1.5 + Seattle Mariners wins",
+      "ticker": "PARLAY-441C4E4A",
+      "title": "Army Black Knights wins + Tampa Bay Rays -3.5",
       "payout": 2.64,
       "tier": "green",
-      "quip": "no surprises here",
+      "quip": "as sure as gravity",
       "yes_price": "0.38",
       "category": "sports-parlay",
       "platform": "fanduel",
       "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609596481&selectionId=29164",
-      "sport": "baseball_mlb",
-      "sport_display": "MLB",
-      "matchup": "Toronto Blue Jays @ Texas Rangers + Seattle Mariners @ Colorado Rockies",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608175378&selectionId=1004069",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Army Black Knights @ Temple Owls + Boston Red Sox @ Tampa Bay Rays",
       "market_type": "2-leg parlay",
       "american_odds": 164,
       "implied_probability": 0.378,
@@ -244,25 +34,109 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Toronto Blue Jays @ Texas Rangers",
-          "pick": "Toronto Blue Jays +1.5",
-          "odds": -156,
-          "implied_prob": "61%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609596481&selectionId=29164",
-          "commence_time": "2026-09-20T18:36:00Z"
+          "matchup": "Army Black Knights @ Temple Owls",
+          "pick": "Army Black Knights wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608175378&selectionId=1004069",
+          "commence_time": "2026-09-25T20:00:00Z"
         },
         {
-          "matchup": "Seattle Mariners @ Colorado Rockies",
-          "pick": "Seattle Mariners wins",
-          "odds": -164,
+          "matchup": "Boston Red Sox @ Tampa Bay Rays",
+          "pick": "Tampa Bay Rays -3.5",
+          "odds": -160,
           "implied_prob": "62%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609464070&selectionId=7100968",
-          "commence_time": "2026-09-20T19:11:00Z"
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609589978&selectionId=29162",
+          "commence_time": "2026-09-20T17:39:54Z"
         }
       ],
-      "close_time": "2026-09-20T18:36:00Z"
+      "close_time": "2026-09-20T17:39:54Z"
+    },
+    {
+      "ticker": "PARLAY-5A6A6188",
+      "title": "Pittsburgh Pirates +1.5 + Army Black Knights wins",
+      "payout": 2.65,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609589305&selectionId=29176",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Kansas City Royals @ Pittsburgh Pirates + Army Black Knights @ Temple Owls",
+      "market_type": "2-leg parlay",
+      "american_odds": 165,
+      "implied_probability": 0.376,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Kansas City Royals @ Pittsburgh Pirates",
+          "pick": "Pittsburgh Pirates +1.5",
+          "odds": -158,
+          "implied_prob": "61%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609589305&selectionId=29176",
+          "commence_time": "2026-09-20T17:37:00Z"
+        },
+        {
+          "matchup": "Army Black Knights @ Temple Owls",
+          "pick": "Army Black Knights wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608175378&selectionId=1004069",
+          "commence_time": "2026-09-25T20:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-20T17:37:00Z"
+    },
+    {
+      "ticker": "PARLAY-6910B822",
+      "title": "Pittsburgh Pirates +1.5 + Tampa Bay Rays -3.5",
+      "payout": 2.65,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609589305&selectionId=29176",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Kansas City Royals @ Pittsburgh Pirates + Boston Red Sox @ Tampa Bay Rays",
+      "market_type": "2-leg parlay",
+      "american_odds": 165,
+      "implied_probability": 0.376,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Kansas City Royals @ Pittsburgh Pirates",
+          "pick": "Pittsburgh Pirates +1.5",
+          "odds": -158,
+          "implied_prob": "61%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609589305&selectionId=29176",
+          "commence_time": "2026-09-20T17:37:00Z"
+        },
+        {
+          "matchup": "Boston Red Sox @ Tampa Bay Rays",
+          "pick": "Tampa Bay Rays -3.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609589978&selectionId=29162",
+          "commence_time": "2026-09-20T17:39:54Z"
+        }
+      ],
+      "close_time": "2026-09-20T17:37:00Z"
     },
     {
       "ticker": "PARLAY-69FFECEC",
@@ -307,130 +181,256 @@
       "close_time": "2026-09-25T20:00:00Z"
     },
     {
-      "ticker": "PARLAY-C9465A14",
-      "title": "James Madison Dukes wins + Texas Rangers wins",
-      "payout": 2.66,
+      "ticker": "PARLAY-87E266B1",
+      "title": "Oklahoma City Thunder wins + Tampa Bay Rays -3.5",
+      "payout": 2.65,
       "tier": "green",
-      "quip": "the boring middle",
+      "quip": "the safe bet",
       "yes_price": "0.38",
       "category": "sports-parlay",
       "platform": "fanduel",
       "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608190225&selectionId=4864881",
-      "sport": "americanfootball_ncaaf",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598956099&selectionId=3319741",
+      "sport": "basketball_nba",
       "sport_display": "Multi",
-      "matchup": "James Madison Dukes @ Old Dominion Monarchs + Toronto Blue Jays @ Texas Rangers",
+      "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves + Boston Red Sox @ Tampa Bay Rays",
       "market_type": "2-leg parlay",
-      "american_odds": 166,
+      "american_odds": 165,
       "implied_probability": 0.376,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "James Madison Dukes @ Old Dominion Monarchs",
-          "pick": "James Madison Dukes wins",
-          "odds": -154,
+          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
+          "pick": "Oklahoma City Thunder wins",
+          "odds": -158,
           "implied_prob": "61%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608190225&selectionId=4864881",
-          "commence_time": "2026-09-26T16:00:00Z"
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598956099&selectionId=3319741",
+          "commence_time": "2026-12-26T01:00:00Z"
         },
         {
-          "matchup": "Toronto Blue Jays @ Texas Rangers",
-          "pick": "Texas Rangers wins",
-          "odds": -164,
+          "matchup": "Boston Red Sox @ Tampa Bay Rays",
+          "pick": "Tampa Bay Rays -3.5",
+          "odds": -160,
           "implied_prob": "62%",
           "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609464065&selectionId=29163",
-          "commence_time": "2026-09-20T18:36:00Z"
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609589978&selectionId=29162",
+          "commence_time": "2026-09-20T17:39:54Z"
         }
       ],
-      "close_time": "2026-09-20T18:36:00Z"
+      "close_time": "2026-09-20T17:39:54Z"
     },
     {
-      "ticker": "PARLAY-694512E7",
-      "title": "James Madison Dukes wins + Seattle Mariners wins",
-      "payout": 2.66,
+      "ticker": "PARLAY-6D42449D",
+      "title": "Cincinnati Bengals wins + Army Black Knights wins",
+      "payout": 2.67,
       "tier": "green",
       "quip": "steady hands",
       "yes_price": "0.38",
       "category": "sports-parlay",
       "platform": "fanduel",
       "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608190225&selectionId=4864881",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "Multi",
-      "matchup": "James Madison Dukes @ Old Dominion Monarchs + Seattle Mariners @ Colorado Rockies",
-      "market_type": "2-leg parlay",
-      "american_odds": 166,
-      "implied_probability": 0.376,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "James Madison Dukes @ Old Dominion Monarchs",
-          "pick": "James Madison Dukes wins",
-          "odds": -154,
-          "implied_prob": "61%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608190225&selectionId=4864881",
-          "commence_time": "2026-09-26T16:00:00Z"
-        },
-        {
-          "matchup": "Seattle Mariners @ Colorado Rockies",
-          "pick": "Seattle Mariners wins",
-          "odds": -164,
-          "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609464070&selectionId=7100968",
-          "commence_time": "2026-09-20T19:11:00Z"
-        }
-      ],
-      "close_time": "2026-09-20T19:11:00Z"
-    },
-    {
-      "ticker": "PARLAY-F5F9B55B",
-      "title": "Houston Texans wins + Texas Rangers wins",
-      "payout": 2.66,
-      "tier": "green",
-      "quip": "paint drying, but profitable",
-      "yes_price": "0.38",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606514426&selectionId=179823",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606514426&selectionId=50210",
       "sport": "americanfootball_nfl",
       "sport_display": "Multi",
-      "matchup": "Cincinnati Bengals @ Houston Texans + Toronto Blue Jays @ Texas Rangers",
+      "matchup": "Cincinnati Bengals @ Houston Texans + Army Black Knights @ Temple Owls",
       "market_type": "2-leg parlay",
-      "american_odds": 166,
-      "implied_probability": 0.376,
+      "american_odds": 167,
+      "implied_probability": 0.375,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
         {
           "matchup": "Cincinnati Bengals @ Houston Texans",
-          "pick": "Houston Texans wins",
-          "odds": -154,
+          "pick": "Cincinnati Bengals wins",
+          "odds": -156,
           "implied_prob": "61%",
           "sport": "americanfootball_nfl",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606514426&selectionId=179823",
-          "commence_time": "2026-09-20T17:00:00Z"
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606514426&selectionId=50210",
+          "commence_time": "2026-09-20T17:02:38Z"
         },
         {
-          "matchup": "Toronto Blue Jays @ Texas Rangers",
-          "pick": "Texas Rangers wins",
-          "odds": -164,
+          "matchup": "Army Black Knights @ Temple Owls",
+          "pick": "Army Black Knights wins",
+          "odds": -160,
           "implied_prob": "62%",
-          "sport": "baseball_mlb",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609464065&selectionId=29163",
-          "commence_time": "2026-09-20T18:36:00Z"
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608175378&selectionId=1004069",
+          "commence_time": "2026-09-25T20:00:00Z"
         }
       ],
-      "close_time": "2026-09-20T17:00:00Z"
+      "close_time": "2026-09-20T17:02:38Z"
+    },
+    {
+      "ticker": "PARLAY-E32E51D4",
+      "title": "Cincinnati Bengals wins + Tampa Bay Rays -3.5",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606514426&selectionId=50210",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Cincinnati Bengals @ Houston Texans + Boston Red Sox @ Tampa Bay Rays",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.375,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Cincinnati Bengals @ Houston Texans",
+          "pick": "Cincinnati Bengals wins",
+          "odds": -156,
+          "implied_prob": "61%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.606514426&selectionId=50210",
+          "commence_time": "2026-09-20T17:02:38Z"
+        },
+        {
+          "matchup": "Boston Red Sox @ Tampa Bay Rays",
+          "pick": "Tampa Bay Rays -3.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609589978&selectionId=29162",
+          "commence_time": "2026-09-20T17:39:54Z"
+        }
+      ],
+      "close_time": "2026-09-20T17:02:38Z"
+    },
+    {
+      "ticker": "PARLAY-FF046B1B",
+      "title": "Toronto Blue Jays +1.5 + Army Black Knights wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609596481&selectionId=29164",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Toronto Blue Jays @ Texas Rangers + Army Black Knights @ Temple Owls",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.375,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Toronto Blue Jays @ Texas Rangers",
+          "pick": "Toronto Blue Jays +1.5",
+          "odds": -156,
+          "implied_prob": "61%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609596481&selectionId=29164",
+          "commence_time": "2026-09-20T18:36:00Z"
+        },
+        {
+          "matchup": "Army Black Knights @ Temple Owls",
+          "pick": "Army Black Knights wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608175378&selectionId=1004069",
+          "commence_time": "2026-09-25T20:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-20T18:36:00Z"
+    },
+    {
+      "ticker": "PARLAY-D0671DC8",
+      "title": "Toronto Blue Jays +1.5 + Tampa Bay Rays -3.5",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609596481&selectionId=29164",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Toronto Blue Jays @ Texas Rangers + Boston Red Sox @ Tampa Bay Rays",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.375,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Toronto Blue Jays @ Texas Rangers",
+          "pick": "Toronto Blue Jays +1.5",
+          "odds": -156,
+          "implied_prob": "61%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609596481&selectionId=29164",
+          "commence_time": "2026-09-20T18:36:00Z"
+        },
+        {
+          "matchup": "Boston Red Sox @ Tampa Bay Rays",
+          "pick": "Tampa Bay Rays -3.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609589978&selectionId=29162",
+          "commence_time": "2026-09-20T17:39:54Z"
+        }
+      ],
+      "close_time": "2026-09-20T17:39:54Z"
+    },
+    {
+      "ticker": "PARLAY-68BBB57C",
+      "title": "Pittsburgh Pirates +1.5 + Oklahoma City Thunder wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609589305&selectionId=29176",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Kansas City Royals @ Pittsburgh Pirates + Oklahoma City Thunder @ Minnesota Timberwolves",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.375,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Kansas City Royals @ Pittsburgh Pirates",
+          "pick": "Pittsburgh Pirates +1.5",
+          "odds": -158,
+          "implied_prob": "61%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609589305&selectionId=29176",
+          "commence_time": "2026-09-20T17:37:00Z"
+        },
+        {
+          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
+          "pick": "Oklahoma City Thunder wins",
+          "odds": -158,
+          "implied_prob": "61%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598956099&selectionId=3319741",
+          "commence_time": "2026-12-26T01:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-20T17:37:00Z"
     }
   ]
 }
