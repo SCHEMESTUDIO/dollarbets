@@ -477,6 +477,12 @@ def post_slot(date: str, slot: int) -> None:
     tweet_text = content.get("x_tweet_text")
     reply_text = content.get("x_reply_text")
     link_mode = content.get("x_link_mode", "reply")
+    # Queue entries written before 2026-09-20 carry a /share/ link that 404s
+    # once the board rolls. Rebuild the link at post time from the entry.
+    if reply_text and "/share/" in reply_text:
+        _, reply_text = build_tweet_text(_market_from_entry(entry), link_mode)
+        content["x_reply_text"] = reply_text
+        log("rewrote a stale /share/ reply link")
     if not tweet_text:
         raise SystemExit(f"slot {slot} missing content.x_tweet_text — queue file is malformed")
 

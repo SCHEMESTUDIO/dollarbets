@@ -3852,17 +3852,32 @@ def generate_share_og_image(title, quip, payout_str, output_path):
     return True
 
 
+SHARE_PAGE_BOARDS = 4   # keep share pages for the last N boards: social posts link to them up to a day or two after the board rolls
+
+
 def generate_share_pages(boards):
-    """Generate /share/TICKER/ pages with per-bet OG tags + OG images."""
+    """Generate /share/TICKER/ pages with per-bet OG tags + OG images.
+
+    Built for the last SHARE_PAGE_BOARDS boards, newest first, so a link posted
+    from yesterday's queue still resolves after today's board deploys. A ticker
+    that appears on several boards keeps its newest version."""
     if not boards:
         return
 
     latest_date, latest_data = boards[-1]
-    board = latest_data.get("board", [])
-    longshot_idx = select_filthy_longshot(board)
+    seen = set()
+    entries = []   # (board_date, market, is_longshot)
+    for b_date, b_data in reversed(boards[-SHARE_PAGE_BOARDS:]):
+        b = b_data.get("board", [])
+        hero = select_filthy_longshot(b)
+        for i, m in enumerate(b):
+            t = m.get("ticker", "")
+            if t and t not in seen:
+                seen.add(t)
+                entries.append((b_date, m, i == hero))
 
     count = 0
-    for m in board:
+    for latest_date, m, is_hero in entries:
         ticker = m.get("ticker", "")
         if not ticker:
             continue
@@ -3893,7 +3908,7 @@ def generate_share_pages(boards):
         # the board itself presents it.
         try:
             from share_card import render_card as _render_card
-            _variant = "ticket" if m is board[longshot_idx] else "tile"
+            _variant = "ticket" if is_hero else "tile"
             _render_card(m, _variant, os.path.join(og_dir, "card.png"), board_date=latest_date)
         except Exception as e:  # a card failure must never break the build
             print(f"[generate] WARNING: share card failed for {safe_ticker}: {e}")
