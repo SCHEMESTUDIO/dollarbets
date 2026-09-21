@@ -129,16 +129,16 @@
       "og_image_url": "https://www.dollarbets.lol/share/0x86049cbc345ce8981afb368c3d19436fd56e90a546ad2df537b1ccafd5c02ade/og.png",
       "content": {
         "x_tweet_text": "60% is a D minus and it would still finish us",
-        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-09-20",
         "x_link_mode": "reply",
         "telegram_caption_html": "<b>Kimi scores 60% on Humanity&#x27;s Last Exam this year</b>\n\n\u201c<i>60% is a D minus and it would still finish us</i>\u201d\n\n$1 pays $9.52\n\n<a href=\"https://www.dollarbets.lol/share/0x86049cbc345ce8981afb368c3d19436fd56e90a546ad2df537b1ccafd5c02ade/\">see the card \u2192</a>"
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-21T21:11:45.241373+00:00",
+          "tweet_id": "2102143768388325588",
+          "reply_tweet_id": "2102143770250612900"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "14402403",
+        "page": "https://www.pexels.com/photo/square-29-14402403/",
+        "photographer": "Yusuf P",
+        "license": "Pexels License",
+        "phrases": [
+          "empty lecture hall dusk",
+          "server room corridor night"
+        ],
+        "tokens": {
+          "input_tokens": 4332,
+          "output_tokens": 29
         }
       }
     }
