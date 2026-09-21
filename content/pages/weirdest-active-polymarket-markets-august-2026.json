@@ -123,6 +123,8 @@
   "compliance": "Dollar Bets is an editorial discovery site. We do not operate prediction markets, place bets, or provide financial advice. Some markets listed here involve political and geopolitical outcomes; prediction market contracts on such events may be subject to additional restrictions depending on your jurisdiction. Polymarket is a separate platform with its own terms, risks, and regulatory status. Prediction market contracts involve the risk of total loss. Some links may be affiliate links — see our affiliate disclosure.",
   "publish_date": "2026-07-15",
   "last_updated": "2026-08-31",
+  "noindex": true,
+  "noindex_reason": "stale dated content (August 2026, current month is September); consolidated under /funny-polymarket-bets/",
   "cluster": "polymarket-weird",
   "priority": 7
 }

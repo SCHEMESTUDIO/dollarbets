@@ -36,6 +36,16 @@
       "source": "/weird-kalshi-bets/",
       "destination": "/crazy-kalshi-bets/",
       "permanent": true
+    },
+    {
+      "source": "/weirdest-active-polymarket-markets-august-2026",
+      "destination": "/funny-polymarket-bets/",
+      "permanent": true
+    },
+    {
+      "source": "/weirdest-active-polymarket-markets-august-2026/",
+      "destination": "/funny-polymarket-bets/",
+      "permanent": true
     }
   ],
   "rewrites": [
