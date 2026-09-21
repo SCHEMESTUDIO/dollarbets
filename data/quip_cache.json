@@ -1,224 +1,4 @@
 {
-  "SB-45B1C70A": {
-    "title": "Astros handle Royals by two or more",
-    "quip": "Crawford Boxes do most of the arguing",
-    "cached_at": "2026-09-17T00:08:06.508253+00:00"
-  },
-  "SB-A9F8F2DA": {
-    "title": "Mariners take Angels by multiple runs",
-    "quip": "Cal Raleigh keeps the Big Dumper rolling",
-    "cached_at": "2026-09-17T00:08:06.508253+00:00"
-  },
-  "SB-4ACEA81E": {
-    "title": "Red Sox beat Rangers by two-plus",
-    "quip": "Fenway bats travel better than the flight",
-    "cached_at": "2026-09-17T00:08:06.508253+00:00"
-  },
-  "SB-EE5BA1CD": {
-    "title": "Leafs blow past Canadiens by two",
-    "quip": "Matthews treats the Original Six like homework",
-    "cached_at": "2026-09-17T00:08:06.508253+00:00"
-  },
-  "SB-483BB820": {
-    "title": "Falcons steal one at Lambeau",
-    "quip": "Bijan Robinson versus frozen tundra, Sunday matinee",
-    "cached_at": "2026-09-17T00:08:06.508253+00:00"
-  },
-  "SB-4E9577E5": {
-    "title": "Colts upset Chiefs at Arrowhead",
-    "quip": "Jonathan Taylor doing his best clock-killing impression",
-    "cached_at": "2026-09-17T00:08:06.508253+00:00"
-  },
-  "SB-4A4AC454": {
-    "title": "Titans shock Eagles in Nashville",
-    "quip": "Cam Ward against the Tush Push, Broadway edition",
-    "cached_at": "2026-09-17T00:08:06.508253+00:00"
-  },
-  "SB-823E66B4": {
-    "title": "Dolphins upset the Niners in San Francisco",
-    "quip": "Tyreek in California weather is a genuine plot",
-    "cached_at": "2026-09-17T00:08:06.508253+00:00"
-  },
-  "SB-BFB75D58": {
-    "title": "Sunderland stun Man City at the Etihad",
-    "quip": "Black Cats going full Sunderland 'Til I Die finale",
-    "cached_at": "2026-09-17T00:08:06.508253+00:00"
-  },
-  "SB-22B59D56": {
-    "title": "Reds blow out Dodgers by seven-plus",
-    "quip": "Elly De La Cruz auditions for a Greek myth",
-    "cached_at": "2026-09-17T00:08:06.508253+00:00"
-  },
-  "SB-C62A7838": {
-    "title": "Charlotte shocks App State in Boone",
-    "quip": "the Rock nobody wants to climb, until someone does",
-    "cached_at": "2026-09-17T00:08:14.189212+00:00"
-  },
-  "SB-41659017": {
-    "title": "Eastern Michigan stuns Wisconsin at Camp Randall",
-    "quip": "Jump Around, but the MAC is doing the jumping",
-    "cached_at": "2026-09-17T00:08:14.189212+00:00"
-  },
-  "SB-E1396EF7": {
-    "title": "Eagles handle Marines by two-plus tonight",
-    "quip": "Rakuten's bats wake up in Chiba",
-    "cached_at": "2026-09-17T00:08:29.777619+00:00"
-  },
-  "SB-428166B3": {
-    "title": "Jukurit and Pelicans light up the scoreboard",
-    "quip": "Mikkeli goalies packing sieves tonight",
-    "cached_at": "2026-09-17T00:08:29.777619+00:00"
-  },
-  "SB-2D029BD2": {
-    "title": "SaiPa beat KooKoo by two or more",
-    "quip": "Lappeenranta's finest, Kouvola's nightmare",
-    "cached_at": "2026-09-17T00:08:29.777619+00:00"
-  },
-  "SB-06959376": {
-    "title": "Carp upset the Tigers at Koshien",
-    "quip": "Hiroshima crashing the party at the ivy",
-    "cached_at": "2026-09-17T00:08:29.777619+00:00"
-  },
-  "SB-47626990": {
-    "title": "JYP handle Jokerit by a comfortable margin",
-    "quip": "Jyv\u00e4skyl\u00e4 doesn't respect the Helsinki brand",
-    "cached_at": "2026-09-17T00:08:29.777619+00:00"
-  },
-  "SB-29B498A1": {
-    "title": "Tappara roll TPS by two-plus",
-    "quip": "Tampere still owns Turku, sorry",
-    "cached_at": "2026-09-17T00:08:29.777619+00:00"
-  },
-  "SB-CE4C5103": {
-    "title": "Sparks upset the Wings in Dallas",
-    "quip": "Paige Bueckers gets a rude welcome home",
-    "cached_at": "2026-09-17T00:08:29.777619+00:00"
-  },
-  "SB-762AAD65": {
-    "title": "Malaysia shock UAE",
-    "quip": "associate cricket's tiny giant-killing dream night",
-    "cached_at": "2026-09-17T00:08:29.777619+00:00"
-  },
-  "SB-0A3A7787": {
-    "title": "Afghanistan stun India",
-    "quip": "Rashid Khan turning it sideways in Delhi's face",
-    "cached_at": "2026-09-17T00:08:29.777619+00:00"
-  },
-  "SB-CBB21941": {
-    "title": "Sun steal one in Atlanta",
-    "quip": "Connecticut walks into the Dream's house uninvited",
-    "cached_at": "2026-09-17T00:08:29.777619+00:00"
-  },
-  "SB-672DE22E": {
-    "title": "Mets take down the Phillies by two-plus tonight",
-    "quip": "Citi Field still owes Bryce Harper nothing",
-    "cached_at": "2026-09-17T13:02:10.687970+00:00"
-  },
-  "SB-BCA9FC36": {
-    "title": "Lightning bury the Rangers by two-plus tonight",
-    "quip": "Kucherov treats the Garden like a home rink",
-    "cached_at": "2026-09-17T13:02:10.687970+00:00"
-  },
-  "SB-1B83017C": {
-    "title": "Lions walk into Buffalo and beat the Bills",
-    "quip": "Goff's revenge tour needs a cold-weather episode",
-    "cached_at": "2026-09-17T13:02:10.687970+00:00"
-  },
-  "SB-0E2E0C01": {
-    "title": "Athletics upset the Rays in Tampa",
-    "quip": "two rosters nobody can name, one gets a trophy",
-    "cached_at": "2026-09-17T13:02:10.687970+00:00"
-  },
-  "SB-2735E26B": {
-    "title": "Reds blow out the Dodgers by five-plus",
-    "quip": "Elly De La Cruz doing donuts on Ohtani's lawn",
-    "cached_at": "2026-09-17T13:02:10.687970+00:00"
-  },
-  "SB-2A8586E2": {
-    "title": "Pirates crush the Brewers by nine-plus",
-    "quip": "Skenes pitches, Pittsburgh remembers what scoring feels like",
-    "cached_at": "2026-09-17T13:02:10.687970+00:00"
-  },
-  "SB-1D240E91": {
-    "title": "Waterdogs handle the Outlaws by two-plus",
-    "quip": "Michael Sowers threading passes through Denver's zone again",
-    "cached_at": "2026-09-17T13:02:28.954098+00:00"
-  },
-  "SB-308337F9": {
-    "title": "FC Tokyo and Nagoya keep it under three goals",
-    "quip": "J-League defending, patient as a bullet train schedule",
-    "cached_at": "2026-09-17T13:02:28.954098+00:00"
-  },
-  "SB-7EB9D475": {
-    "title": "Portland Fire beat the Mercury tonight",
-    "quip": "Rose City's new franchise enjoying its housewarming",
-    "cached_at": "2026-09-17T13:02:28.954098+00:00"
-  },
-  "SB-63367715": {
-    "title": "Swans beat the Dockers at home",
-    "quip": "long flight from Perth, longer afternoon at the SCG",
-    "cached_at": "2026-09-17T13:02:28.954098+00:00"
-  },
-  "SB-D95FC02D": {
-    "title": "Sport upset Lukko in Rauma",
-    "quip": "Vaasa's finest crashing the party with three bags of sisu",
-    "cached_at": "2026-09-17T13:02:28.954098+00:00"
-  },
-  "SB-B3253339": {
-    "title": "TPS beat Tappara by two or more",
-    "quip": "Turku hanging a loss on the Liiga's reigning bullies",
-    "cached_at": "2026-09-17T13:02:28.954098+00:00"
-  },
-  "SB-595A327D": {
-    "title": "Knicks handle the Sixers at the Garden",
-    "quip": "Brunson does his best work in a hostile Philly rotation",
-    "cached_at": "2026-09-17T13:02:42.457330+00:00"
-  },
-  "SB-377334AC": {
-    "title": "Penguins keep it close in Washington",
-    "quip": "Crosby and Ovechkin still refuse to make it easy",
-    "cached_at": "2026-09-17T13:02:42.457330+00:00"
-  },
-  "SB-8F7C1614": {
-    "title": "Phillies stay within a run of the Mets",
-    "quip": "Citi Field rivalry games never end quietly",
-    "cached_at": "2026-09-17T13:02:42.457330+00:00"
-  },
-  "SB-CA4A040D": {
-    "title": "Packers roll into New Jersey and beat the Jets",
-    "quip": "the Jets remain a Sunday afternoon cautionary tale",
-    "cached_at": "2026-09-17T13:02:42.457330+00:00"
-  },
-  "SB-114378DC": {
-    "title": "Dodgers take care of the Reds in Cincinnati",
-    "quip": "Ohtani in a bandbox is just rude",
-    "cached_at": "2026-09-17T13:02:42.457330+00:00"
-  },
-  "SB-BA4D86F0": {
-    "title": "Padres beat the Rockies in Denver",
-    "quip": "Coors is the only place the Rockies are scary",
-    "cached_at": "2026-09-17T13:02:42.457330+00:00"
-  },
-  "SB-C6BC119E": {
-    "title": "Royals keep it tight with the Astros",
-    "quip": "Witt Jr. refuses to be a rounding error",
-    "cached_at": "2026-09-17T13:02:42.457330+00:00"
-  },
-  "SB-618638ED": {
-    "title": "Bruins stay within a goal in Minnesota",
-    "quip": "Swayman versus Kaprizov, one save at a time",
-    "cached_at": "2026-09-17T13:02:42.457330+00:00"
-  },
-  "SB-EAB82EA5": {
-    "title": "Kings keep it close in Colorado",
-    "quip": "LA's shot-smothering system versus MacKinnon's chaos",
-    "cached_at": "2026-09-17T13:02:42.457330+00:00"
-  },
-  "SB-2E9C246A": {
-    "title": "Ravens beat the Cowboys in Dallas",
-    "quip": "Lamar treats AT&T Stadium like an open field drill",
-    "cached_at": "2026-09-17T13:02:42.457330+00:00"
-  },
   "SB-A1724028": {
     "title": "Red Sox win by two or more in Texas",
     "quip": "Arlington roof closed, Boston bats unbothered",
@@ -1098,5 +878,100 @@
     "title": "Tigers take care of the Nationals",
     "quip": "Skubal's rotation versus a rebuild, the math checks out",
     "cached_at": "2026-09-20T23:50:50.234443+00:00"
+  },
+  "SB-8945B22F": {
+    "title": "Sixers steal one at the Garden tonight",
+    "quip": "Embiid vs. the Knicks crowd, a classic feud",
+    "cached_at": "2026-09-21T14:53:46.493139+00:00"
+  },
+  "SB-EE5BA1CD": {
+    "title": "Leafs beat Habs by two or more",
+    "quip": "the oldest rivalry, the newest Matthews line",
+    "cached_at": "2026-09-21T14:53:46.493139+00:00"
+  },
+  "SB-E99C79F3": {
+    "title": "Giants upset the Rams in LA",
+    "quip": "Stafford gets haunted by his old NFC East nemesis",
+    "cached_at": "2026-09-21T14:53:46.493139+00:00"
+  },
+  "SB-483BB820": {
+    "title": "Falcons win at Lambeau tonight",
+    "quip": "Bijan Robinson in the frozen tundra, unbothered",
+    "cached_at": "2026-09-21T14:53:46.493139+00:00"
+  },
+  "SB-B1ECE840": {
+    "title": "Orioles bury Blue Jays by six",
+    "quip": "Camden Yards turns into a batting cage",
+    "cached_at": "2026-09-21T14:53:46.493139+00:00"
+  },
+  "SB-96469419": {
+    "title": "Tigers blow out Nationals by seven",
+    "quip": "Skubal throws seven, Comerica does the rest",
+    "cached_at": "2026-09-21T14:53:46.493139+00:00"
+  },
+  "SB-67E28E37": {
+    "title": "Twins humiliate Giants by nine",
+    "quip": "Oracle Park's marine layer files a missing persons report",
+    "cached_at": "2026-09-21T14:53:46.493139+00:00"
+  },
+  "SB-F49530DC": {
+    "title": "Lotte upset Hanwha in Daejeon",
+    "quip": "the Giants keep ruining Eagles nights",
+    "cached_at": "2026-09-21T14:54:01.649865+00:00"
+  },
+  "SB-26A647FE": {
+    "title": "KT Wiz beat SSG by two or more",
+    "quip": "Landers bullpen hands out free souvenirs",
+    "cached_at": "2026-09-21T14:54:01.649865+00:00"
+  },
+  "SB-5DEFE3E7": {
+    "title": "Yomiuri beat Hiroshima by two or more",
+    "quip": "Tokyo money walks into Mazda Stadium unbothered",
+    "cached_at": "2026-09-21T14:54:01.649865+00:00"
+  },
+  "SB-6BA52E84": {
+    "title": "Swallows knock off Hanshin tonight",
+    "quip": "Jingu umbrellas out, Tigers fans quietly folding theirs",
+    "cached_at": "2026-09-21T14:54:01.649865+00:00"
+  },
+  "SB-3A0C4FBE": {
+    "title": "Sri Lanka stun England in ODI",
+    "quip": "Colombo spin turning English batters into garden gnomes",
+    "cached_at": "2026-09-21T14:54:01.649865+00:00"
+  },
+  "SB-E8ED9AD0": {
+    "title": "Pirotton shocks Johnny Fisher",
+    "quip": "the Romford Bull meets an actual matador",
+    "cached_at": "2026-09-21T14:54:01.649865+00:00"
+  },
+  "SB-5F2A95B8": {
+    "title": "Celtics handle the Wizards in D.C.",
+    "quip": "Tatum in a building with no playoff memories",
+    "cached_at": "2026-09-21T14:54:11.973532+00:00"
+  },
+  "SB-B542703C": {
+    "title": "Eagles beat the Bears in Chicago",
+    "quip": "Saquon against Soldier Field's lawn-care budget",
+    "cached_at": "2026-09-21T14:54:11.973532+00:00"
+  },
+  "SB-595A327D": {
+    "title": "Knicks hold off the Sixers at the Garden",
+    "quip": "Brunson bullying Philly's guards again",
+    "cached_at": "2026-09-21T14:54:11.973532+00:00"
+  },
+  "SB-D361809D": {
+    "title": "Nationals stay within a run of Tigers",
+    "quip": "Skubal's bullpen hands it back in the eighth",
+    "cached_at": "2026-09-21T14:54:11.973532+00:00"
+  },
+  "SB-618638ED": {
+    "title": "Bruins keep it close in Minnesota",
+    "quip": "Swayman steals three periods, Kaprizov steals one",
+    "cached_at": "2026-09-21T14:54:11.973532+00:00"
+  },
+  "SB-EAB82EA5": {
+    "title": "Kings hang tough with the Avs in Denver",
+    "quip": "LA's 1-3-1 trap versus MacKinnon's patience",
+    "cached_at": "2026-09-21T14:54:11.973532+00:00"
   }
 }

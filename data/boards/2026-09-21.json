@@ -1,0 +1,597 @@
+{
+  "generated_at": "2026-09-21T14:53:33.370080+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket": 5
+  },
+  "board": [
+    {
+      "ticker": "0x4d3f90d64216d30bf6620eb1ce5503ada14dd1b48df0662c38e6063864b07b11",
+      "title": "Afghanistan hits the most sixes tonight",
+      "subtitle": "",
+      "payout": 2.01,
+      "tier": "green",
+      "quip": "each six is worth six runs. i looked it up. incredible sport",
+      "yes_price": "0.4985",
+      "volume": 9189.481,
+      "category": "Other",
+      "close_time": "2026-03-24T10:30:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/crint-afg-lka-2026-03-17-most-sixes",
+      "platform": "polymarket",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "swing hard, count later",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "i have watched nine total minutes of cricket and i'm ready to testify",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "like a Big 12 team deciding defense is fully optional",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "somewhere a scorekeeper is out of chalk and looking for a wall",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "\"oh he has absolutely launched that one\" and i have no idea what happened",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "each six is worth six runs. i looked it up. incredible sport",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Sri Lanka bowling like it's a corporate team-building exercise",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "Afghanistan going full Happy Gilmore on the gentleman's game",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXDEELRIP-40-RIPP",
+      "title": "Rippling beats Deel to the IPO",
+      "subtitle": "Before 2040",
+      "yes_sub_title": "Rippling",
+      "no_sub_title": "Rippling",
+      "payout": 2.44,
+      "tier": "green",
+      "quip": "the Duke-UNC of onboarding portals",
+      "yes_price": "0.4100",
+      "volume": 4195.93,
+      "category": "Financials",
+      "close_time": "2040-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXDEELRIP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 69.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "payroll beef, now public",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "the S-1 has an entire exhibit about the other guy's spy",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "my HR software has better lawyers than i do",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "i couldn't pick either CEO out of a lineup and they'd both be relieved",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the Duke-UNC of onboarding portals",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "corporate espionage between payroll startups is the most alive i've felt all year",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "$2.44 and the mole gets his own chapter in the prospectus",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "\"we are not in the spying business, we are in the people business\"",
+          "mode": 4,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x1a98a273b978bcc935c73810e57ba96c7c01a924b0fe76aec4302d74ed61255f",
+      "title": "Zcash falls to $700 before 2027",
+      "subtitle": "",
+      "payout": 3.17,
+      "tier": "yellow",
+      "quip": "the Bengals of crypto. one good year, decades of patience",
+      "yes_price": "0.3150",
+      "volume": 9550.59253,
+      "category": "Other",
+      "close_time": "2027-01-01T05:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/what-price-will-zcash-hit-before-2027",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "anonymous money, public collapse",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "i bought this in 2017 and i'm still not sure what it does",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "i own privacy coins and legally cannot tell you. that's the whole point",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the Zcash discord scheduling an emergency group meditation",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "like Fight Club if the first rule was also the price chart",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "the Bengals of crypto. one good year, decades of patience",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "cypherpunks logging on to explain why $700 is actually bullish",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "700 is a very round number to feel bad about",
+          "mode": 5,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0x9e1c7c007b2b1c03050ceb0da4ed2f07b7dc62a76662329f2914e0a42679c20c",
+      "title": "Israel takes military action in Lebanon today",
+      "subtitle": "",
+      "payout": 3.64,
+      "tier": "yellow",
+      "quip": "Groundhog Day, except nobody learns the piano",
+      "yes_price": "0.2750",
+      "volume": 9175.92857,
+      "category": "Science and Technology",
+      "close_time": "2026-09-18T23:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/israel-military-action-against-lebanon-onptptpt-20260903",
+      "platform": "polymarket",
+      "score": 60.0,
+      "quip_alts": [
+        {
+          "quip": "the calendar keeps asking",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "i open the news the way you check a bill you can't pay",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "i keep refreshing a map i cannot actually read",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the cable news graphics team already had the border loaded and waiting",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "Groundhog Day, except nobody learns the piano",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "roughly the 2,750th headline this decade with these exact two nouns",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we are monitoring the situation closely\" says every man standing at a podium",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "a rivalry game that stopped being scheduled and just happens now",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xbb0d2443a9c76fce0910ca7a602f3a6d56bc676c9a1b078829fd20a782e2560f",
+      "title": "RFK Jr. leaves the Trump administration before 2027",
+      "subtitle": "",
+      "payout": 6.45,
+      "tier": "yellow",
+      "quip": "the worms voted him out",
+      "yes_price": "0.1550",
+      "volume": 91280.49872099998,
+      "category": "World",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/who-will-leave-trump-administration-before-2027",
+      "platform": "polymarket",
+      "score": 53.0,
+      "quip_alts": [
+        {
+          "quip": "the worms voted him out",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "back on a podcast with a bear carcass by March",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i've been waiting for this exit interview my entire adult life",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "i will personally read every single word of that resignation letter",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "$6.45 and a raw milk chaser",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "like a coach who keeps the press conferences but loses the playbook",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "the food dye lobby throwing the party of the decade",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "genuinely the most watchable cabinet member since whoever the last one was",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26ODALYS-T5",
+      "title": "Odalys becomes a Category 5 hurricane",
+      "subtitle": "Hurricane Odalys",
+      "yes_sub_title": "Category 5 or above",
+      "no_sub_title": "Category 5 or above",
+      "payout": 9.09,
+      "tier": "orange",
+      "quip": "\"we're getting some bands now, Jim\" as a stop sign flies past his head",
+      "yes_price": "0.1100",
+      "volume": 0.0,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 65.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "nature at full throttle",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "somewhere a cruise ship captain is making a very fast left turn",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "i will absolutely watch a grown man stand in this on live television",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "my storm tracker app has never felt more purpose",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "9 bucks says the Weather Channel guy leans at exactly 45 degrees",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the Twister sequel nobody greenlit and everybody watches",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "going from JV to first round pick in twelve hours",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"we're getting some bands now, Jim\" as a stop sign flies past his head",
+          "mode": 4,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURPATHHAWAII-26DEC",
+      "title": "A hurricane makes landfall in Hawaii this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before 2027",
+      "no_sub_title": "Before 2027",
+      "payout": 10.0,
+      "tier": "orange",
+      "quip": "those islands dodge storms like prime Barry Sanders in a phone booth",
+      "yes_price": "0.1000",
+      "volume": 94665.96,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURPATHHAWAII?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 129.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "paradise gets a bill",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "i've been saving for this trip since 2019 and now this",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "i have booked nothing and i am emotionally invested in Maui",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the Mai Tai supply chain in genuine peril tonight",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "those islands dodge storms like prime Barry Sanders in a phone booth",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "ten dollars on the one weather event Hawaii isn't charging tourists for",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the Pacific finally aiming at something with a gift shop",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "every mainland transplant realizing the open-air lanai was a choice",
+          "mode": 7,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26NOV",
+      "title": "The US signs a new Iran nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Nov 1, 2026",
+      "no_sub_title": "Before Nov 1, 2026",
+      "payout": 25.0,
+      "tier": "red",
+      "quip": "this thing has more reboots than Spider-Man and worse box office",
+      "yes_price": "0.0400",
+      "volume": 444401.47,
+      "category": "Politics",
+      "close_time": "2026-11-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the annual tradition returns",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "i've had relationships shorter than the negotiation over font size",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "25 to 1, same odds as me finishing the article about it",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "somebody in Geneva unwrapping the good pens again",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "this thing has more reboots than Spider-Man and worse box office",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we have a framework toward a framework\" says the man in the blue tie",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "the Lions before 2023. every preseason, the same hype video",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "honestly i would stand up in my apartment and clap",
+          "mode": 3,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA lands a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 43.48,
+      "tier": "red",
+      "quip": "43 dollars a head. i'd rather everyone just get a telescope",
+      "yes_price": "0.0230",
+      "volume": 217244.04,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "sure. 2028. okay",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "i am calling in sick for this and i will not apologize",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "43 dollars a head. i'd rather everyone just get a telescope",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the flag arrives on schedule, the astronaut arrives six years later",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "Apollo was a trilogy and this is the streaming reboot",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "\"one small step for\" and then he checks the phrasing on his phone",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "a program that signs five-stars every year and loses to Vandy",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "moon boots coming back into the culture, i'm so ready",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "0x09f514f374b5ce8713b94f7e9a05402f65fe5a6aed976b96065863048a95cf82",
+      "title": "Die Linke wins 35 to 39 Berlin seats",
+      "subtitle": "",
+      "payout": 74.07,
+      "tier": "purple",
+      "quip": "i have opinions on Berlin coalition math now and nobody did this to me",
+      "yes_price": "0.0135",
+      "volume": 9621.380428000002,
+      "category": "World",
+      "close_time": "2026-09-20T23:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/berlin-state-elections-linke-of-seats-20260805192827457",
+      "platform": "polymarket",
+      "score": 60.0,
+      "quip_alts": [
+        {
+          "quip": "very specific. very German",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "i have opinions on Berlin coalition math now and nobody did this to me",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "74 dollars for nailing a five seat window. i'm in",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "coalition talks open Monday and conclude sometime after the next election",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "calling the exact seat range is a half court shot with a hand in your face",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "like picking the score AND the cover, but auf Deutsch",
+          "mode": 8,
+          "score": 6
+        },
+        {
+          "quip": "socialists surging in Berlin is the most on-brand sentence available to man",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "Bavaria seething into a liter of beer somewhere",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    }
+  ]
+}
