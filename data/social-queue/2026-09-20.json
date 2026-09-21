@@ -19,16 +19,16 @@
       "og_image_url": "https://www.dollarbets.lol/share/KXELONMARS-99/og.png",
       "content": {
         "x_tweet_text": "first post from Mars is a meme he saw in 2016",
-        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-09-20",
         "x_link_mode": "reply",
         "telegram_caption_html": "<b>Elon Musk sets foot on Mars</b>\n\n\u201c<i>first post from Mars is a meme he saw in 2016</i>\u201d\n\n$1 pays $8.33\n\n<a href=\"https://www.dollarbets.lol/share/KXELONMARS-99/\">see the card \u2192</a>"
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-21T05:16:32.096215+00:00",
+          "tweet_id": "2101903379702104381",
+          "reply_tweet_id": "2101903381333741922"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "38954087",
+        "page": "https://www.pexels.com/photo/wadi-rum-desert-landscape-with-sandstone-mountains-38954087/",
+        "photographer": "Lincoli Xavier",
+        "license": "Pexels License",
+        "phrases": [
+          "red desert dunes dusk",
+          "launch pad night fog"
+        ],
+        "tokens": {
+          "input_tokens": 4084,
+          "output_tokens": 29
         }
       }
     },
