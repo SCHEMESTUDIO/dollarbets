@@ -1,69 +1,4 @@
 {
-  "SB-5B9ED5D5": {
-    "title": "Blue Jays run away from Rangers in Arlington",
-    "quip": "Vladdy treats Globe Life like a batting cage",
-    "cached_at": "2026-09-18T12:45:43.170548+00:00"
-  },
-  "SB-13DB6250": {
-    "title": "Rays handle Red Sox by two or more",
-    "quip": "the Trop bounce is a home-field advantage",
-    "cached_at": "2026-09-18T12:45:43.170548+00:00"
-  },
-  "SB-F51CC90F": {
-    "title": "Phillies bully the Mets at Citi Field",
-    "quip": "Schwarber hits one into the Flushing night",
-    "cached_at": "2026-09-18T12:45:43.170548+00:00"
-  },
-  "SB-19D67121": {
-    "title": "Bruins beat Rangers by a couple tonight",
-    "quip": "Pastrnak at the top of the circle, again",
-    "cached_at": "2026-09-18T12:45:43.170548+00:00"
-  },
-  "SB-D6806F6A": {
-    "title": "Giants upset the Dodgers at Chavez Ravine",
-    "quip": "oldest grudge in baseball still pays rent",
-    "cached_at": "2026-09-18T12:45:43.170548+00:00"
-  },
-  "SB-DF804026": {
-    "title": "Fr\u00f6lunda beat V\u00e4xj\u00f6 Lakers by two tonight",
-    "quip": "Scandinavium is a bad place to visit",
-    "cached_at": "2026-09-18T12:46:01.602066+00:00"
-  },
-  "SB-47A11C82": {
-    "title": "Adelaide upset Melbourne United on the road",
-    "quip": "36ers still run on Gaze-era grudges",
-    "cached_at": "2026-09-18T12:46:01.602066+00:00"
-  },
-  "SB-4A794E60": {
-    "title": "Konyaspor win at Kasimpasa",
-    "quip": "the Anatolian Eagle likes Istanbul air",
-    "cached_at": "2026-09-18T12:46:01.602066+00:00"
-  },
-  "SB-29D0A1DB": {
-    "title": "HIFK beat Lukko by two in Helsinki",
-    "quip": "Rauma's long drive home starts early",
-    "cached_at": "2026-09-18T12:46:01.602066+00:00"
-  },
-  "SB-62AD5981": {
-    "title": "Portland Fire shock the Valkyries in San Francisco",
-    "quip": "Rose City expansion ball crashes Chase Center's housewarming",
-    "cached_at": "2026-09-18T12:46:01.602066+00:00"
-  },
-  "SB-883789BD": {
-    "title": "Toronto Tempo stun Caitlin Clark and the Fever",
-    "quip": "Drake courtside, Clark on the wrong end",
-    "cached_at": "2026-09-18T12:46:01.602066+00:00"
-  },
-  "SB-43728404": {
-    "title": "Mets keep it close against Phillies tonight",
-    "quip": "Citi Field crowd stays nervous into the ninth",
-    "cached_at": "2026-09-18T12:46:10.719205+00:00"
-  },
-  "SB-14FC2858": {
-    "title": "Diamondbacks hang with Yankees in the desert",
-    "quip": "Chase Field turns pinstripes into a one-run problem",
-    "cached_at": "2026-09-18T12:46:10.719205+00:00"
-  },
   "SB-16F873EB": {
     "title": "Newcastle and Hull stay under two goals",
     "quip": "St James' Park cup tie, all grind no glamour",
@@ -948,5 +883,55 @@
     "title": "Tigers take care of the Nationals tonight",
     "quip": "Skubal weather in Detroit",
     "cached_at": "2026-09-22T00:39:20.026119+00:00"
+  },
+  "SB-19D67121": {
+    "title": "Bruins beat Rangers by two or more tonight",
+    "quip": "the Garden crowd goes home quiet again",
+    "cached_at": "2026-09-22T13:04:41.489782+00:00"
+  },
+  "SB-4D8F1F9B": {
+    "title": "Orioles bury Blue Jays by five tonight",
+    "quip": "Camden Yards turns into a batting cage",
+    "cached_at": "2026-09-22T13:04:41.489782+00:00"
+  },
+  "SB-8982DACF": {
+    "title": "Yankees blow out Rays by six tonight",
+    "quip": "Judge treats the Rays bullpen like batting practice",
+    "cached_at": "2026-09-22T13:04:41.489782+00:00"
+  },
+  "SB-501AC7B8": {
+    "title": "Lindenwood stuns Eastern Michigan on the road",
+    "quip": "Lions walk into Ypsilanti like Rudy with a playbook",
+    "cached_at": "2026-09-22T13:04:41.489782+00:00"
+  },
+  "SB-243A0715": {
+    "title": "Malm\u00f6 Redhawks upset V\u00e4xj\u00f6 Lakers on the road",
+    "quip": "V\u00e4xj\u00f6's trophy case is heavy, their legs heavier",
+    "cached_at": "2026-09-22T13:04:55.251215+00:00"
+  },
+  "SB-A242D2D1": {
+    "title": "K\u00e4rp\u00e4t knock off Tappara in Tampere",
+    "quip": "Oulu still remembers who owned the nineties",
+    "cached_at": "2026-09-22T13:04:55.251215+00:00"
+  },
+  "SB-3B90849F": {
+    "title": "Djurg\u00e5rden steal one at R\u00f6gle",
+    "quip": "the Stockholm road trip with zero sightseeing planned",
+    "cached_at": "2026-09-22T13:04:55.251215+00:00"
+  },
+  "SB-96055B4D": {
+    "title": "Bryn\u00e4s beat Link\u00f6ping by two or more",
+    "quip": "G\u00e4vle's oldest dynasty wants a decisive night, not overtime",
+    "cached_at": "2026-09-22T13:04:55.251215+00:00"
+  },
+  "SB-87BAD7B4": {
+    "title": "K\u00e4rp\u00e4t handle HIFK by multiple goals",
+    "quip": "Helsinki's Sunday best gets mussed by northern manners",
+    "cached_at": "2026-09-22T13:04:55.251215+00:00"
+  },
+  "SB-DF46FFC1": {
+    "title": "Dodgers win or lose by one to Padres",
+    "quip": "these two never settle anything before the ninth",
+    "cached_at": "2026-09-22T13:05:02.032077+00:00"
   }
 }
