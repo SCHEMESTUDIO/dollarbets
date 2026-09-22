@@ -1,0 +1,597 @@
+{
+  "generated_at": "2026-09-22T00:38:49.423912+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket": 5
+  },
+  "board": [
+    {
+      "ticker": "KXDEELRIP-40-RIPP",
+      "title": "Rippling beats Deel to the IPO",
+      "subtitle": "Before 2040",
+      "yes_sub_title": "Rippling",
+      "no_sub_title": "Rippling",
+      "payout": 2.44,
+      "tier": "green",
+      "quip": "two Big Ten schools fistfighting over a three star from Dayton",
+      "yes_price": "0.4100",
+      "volume": 4195.93,
+      "category": "Financials",
+      "close_time": "2040-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXDEELRIP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 61.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "\"we're not competitors, we're a platform,\" says guy who allegedly planted a spy",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "Deel's founders watching the opening bell from inside a Slack huddle",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "my payroll software has a nemesis and somehow I have a side",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "payroll beef is real",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "$2.44 is also what they bill per contractor per month, coincidentally",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "two Big Ten schools fistfighting over a three star from Dayton",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "I cannot wait for the HR software wars documentary, six parts minimum",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "both of these companies are a spreadsheet with a login screen",
+          "mode": 7,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUTSKIVISITS-27JUL31-T6000000",
+      "title": "Utah tops 6 million skier visits next season",
+      "subtitle": "the 2026\u201327 ski season",
+      "yes_sub_title": "Above 6,000,000 skier visits",
+      "no_sub_title": "Above 6,000,000 skier visits",
+      "payout": 2.56,
+      "tier": "green",
+      "quip": "six million people, four open lifts, one guy screaming about his pass",
+      "yes_price": "0.3900",
+      "volume": 5672.7,
+      "category": "Economics",
+      "close_time": "2027-07-31T15:29:00Z",
+      "url": "https://kalshi.com/markets/KXUTSKIVISITS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 76.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "I have never skied and I resent all six million of these people",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the Salt Lake rental car line gets its own zip code",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "six million people, four open lifts, one guy screaming about his pass",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "greatest snow on marketing",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "Ikon holders descending on the Wasatch like a weather event",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "skiing is golf for people who enjoy being cold and broke",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "every winter I say this is the year I learn. it is not",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "\"you skiing today?\" \"I'm working remote today\" \"so yes\"",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXEARTHQUAKEJAPAN-30",
+      "title": "Japan gets an 8.0 earthquake before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 2.63,
+      "tier": "green",
+      "quip": "the vending machines start handing out free drinks, which is the coolest part",
+      "yes_price": "0.3800",
+      "volume": 44646.44,
+      "category": "Climate and Weather",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXEARTHQUAKEJAPAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 70.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "this is how every Godzilla movie opens and nobody ever evacuates",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "I felt a 4.1 once and dined out on it for a year",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the tectonic plates are chatty",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "Japanese building codes are genuinely the most impressive thing our species does",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "the NHK anchor keeps perfect posture while the studio lights swing",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "the vending machines start handing out free drinks, which is the coolest part",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "my go bag is three protein bars and a Switch",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "California quietly relieved to not be the one on the board",
+          "mode": 7,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x627ed310dc3977b2d71d96a4f2fccd6050553f6f165efd6c29578f5678f3f863",
+      "title": "Russia takes all of Kostyantynivka this year",
+      "subtitle": "",
+      "payout": 3.39,
+      "tier": "yellow",
+      "quip": "the YouTube map channels already rendered the thumbnail, arrow and all",
+      "yes_price": "0.2950",
+      "volume": 917977.6598089999,
+      "category": "Other",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/will-russia-capture-all-of-kostyantynivka-by",
+      "platform": "polymarket",
+      "score": 55.0,
+      "quip_alts": [
+        {
+          "quip": "the part of Risk where one guy will not stop rolling threes",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "I know more Ukrainian town names than US state capitals at this point",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "another dot turns red",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "the YouTube map channels already rendered the thumbnail, arrow and all",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "eighteen months for three streets and a grain silo",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "WWI trench math with a drone camera and a subscribe button",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "I check this map like a box score and I don't know when that started",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "\"operational pause\" continues to do an enormous amount of heavy lifting",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0x9048aaafab7a2db29ad9f886a1f213db655c4d9204a790819596d712c8f22225",
+      "title": "Carlos Bolsonaro tops the Santa Catarina Senate vote",
+      "subtitle": "",
+      "payout": 4.26,
+      "tier": "yellow",
+      "quip": "the Mannings, if the Mannings were subpoenaed instead of drafted",
+      "yes_price": "0.2350",
+      "volume": 9607.815362,
+      "category": "World",
+      "close_time": "2026-10-04T06:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/santa-catarina-senate-election-1st-place",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "dad calls from house arrest to say he's proud of the wrong son",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "I can name three Bolsonaros and that is three more than I wanted",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the sons keep coming",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "the Godfather stretch where the youngest one is suddenly running it",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "southern Brazil basically running the Florida panhandle playbook in Portuguese",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "there are apparently at least four of them and all four are electable",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "the Mannings, if the Mannings were subpoenaed instead of drafted",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "I could not find Santa Catarina on a map and yet here I am, invested",
+          "mode": 2,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0xcba723273d10d1ed532c4e5ebcd7ae647941ca74839f5503253d8cdeca7c703c",
+      "title": "Steven Snell wins Williamson County Judge this year",
+      "subtitle": "",
+      "payout": 6.06,
+      "tier": "yellow",
+      "quip": "watch party at a Chili's off I-35 and it is absolutely packed",
+      "yes_price": "0.1650",
+      "volume": 9462.497678,
+      "category": "World",
+      "close_time": "2026-11-03T23:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/2026-williamson-county-judge-election-winner-20260626004801174",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "it's 2am and I am learning how Texas county administration works",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "watch party at a Chili's off I-35 and it is absolutely packed",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "Snell nation, rise up",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "$6.06 is also the entire yard sign budget for the general",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "county judge isn't even a judge, which is the most Texas fact available",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Parks and Rec was a documentary and this is the Texas spinoff",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "somebody out there has a Steven Snell bumper sticker and I love them",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "Williamson County: where Austin moves when it wants a three car garage",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26DEC",
+      "title": "US signs a new Iran nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Dec 1, 2026",
+      "no_sub_title": "Before Dec 1, 2026",
+      "payout": 12.5,
+      "tier": "orange",
+      "quip": "world peace currently valued at twelve dollars and fifty cents, which tracks",
+      "yes_price": "0.0800",
+      "volume": 215152.45,
+      "category": "Politics",
+      "close_time": "2026-12-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "\"we're very close. very very close. nobody has ever been this close\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "I have a Google alert for this and it has genuinely ruined my mornings",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "centrifuges spinning, phones ringing",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "Witkoff books Muscat, buys the duty free Toblerone, flies home empty handed",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "this negotiation has now outlasted three Bachelor franchises and a Kardashian marriage",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "world peace currently valued at twelve dollars and fifty cents, which tracks",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "like season four of Lost, everyone still stuck on the same island",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "I will watch the signing ceremony live like it's the NFL draft",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x74e1f1fb2a0f4eaf9abecfb214ea336161215e73456f6169f64c980cd9ddf75d",
+      "title": "Russia enters Moskovka by the end of September",
+      "subtitle": "",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "a Call of Duty map with significantly worse spawn points",
+      "yes_price": "0.0700",
+      "volume": 9599.998998000001,
+      "category": "Other",
+      "close_time": "2026-10-01T03:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/will-russia-enter-moskovka-by",
+      "platform": "polymarket",
+      "score": 65.0,
+      "quip_alts": [
+        {
+          "quip": "I zoomed in four separate times before I found this place",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "another village, another flag",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "population maybe a thousand, and nine hundred of them left in 2022",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "the geolocation guys stay up all night arguing about one treeline",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "a Call of Duty map with significantly worse spawn points",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "\"we have entered the outskirts\" has now been said about nine towns",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "couldn't pronounce this two minutes ago, fully invested now",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Telegram war bloggers get to post the flag video again, everybody wins",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA puts a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 23.81,
+      "tier": "red",
+      "quip": "\"we are go for 2028,\" says man who also said 2024, 2025 and 2026",
+      "yes_price": "0.0420",
+      "volume": 217955.11,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "boots hit the dust, there's already a Starlink dish out there",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "I will call out of work for this and I will not apologize",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "SLS remains a rumor",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "$23.81 is roughly what the launch pad charges for a coffee",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "First Man, except the third act is a schedule slip",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Artemis is the summer blockbuster that keeps getting bumped to spring",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we are go for 2028,\" says man who also said 2024, 2025 and 2026",
+          "mode": 4,
+          "score": 9
+        },
+        {
+          "quip": "put me on the rocket, I'll read the checklist myself, genuinely",
+          "mode": 3,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0xa08a5ce99e14ce0b22767af6f16c08a2ab012249444c20887193a9a3e98e11fc",
+      "title": "Hormuz shipping traffic is normal again by September",
+      "subtitle": "",
+      "payout": 153.85,
+      "tier": "purple",
+      "quip": "the most important road on earth and it's two miles wide",
+      "yes_price": "0.0065",
+      "volume": 9189089.314398002,
+      "category": "Science and Technology",
+      "close_time": "2026-10-01T03:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-september-30-20260702154339440",
+      "platform": "polymarket",
+      "score": 55.0,
+      "quip_alts": [
+        {
+          "quip": "I know the draft depth of a Suezmax now and I hate that",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the tanker tracking accounts go back to posting about absolutely nothing",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "gas station prices disagree",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "nine hundred ships currently idling in a circle like a canceled flight",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the most important road on earth and it's two miles wide",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "the Ever Given walked so this chokepoint could sprint",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "\"traffic is flowing normally,\" says the man standing on a smoking pier",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "I have opinions about marine insurance underwriters now. this is my life",
+          "mode": 2,
+          "score": 7.5
+        }
+      ]
+    }
+  ]
+}

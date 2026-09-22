@@ -1,49 +1,4 @@
 {
-  "SB-A2F4D659": {
-    "title": "Twins win by two-plus in Anaheim",
-    "quip": "the Angels bullpen remains a public works project",
-    "cached_at": "2026-09-17T23:54:14.386847+00:00"
-  },
-  "SB-E6CC370F": {
-    "title": "Red Sox handle Rays by multiple runs",
-    "quip": "Tampa's roster still reads like a AAA call sheet",
-    "cached_at": "2026-09-17T23:54:14.386847+00:00"
-  },
-  "SB-6718378D": {
-    "title": "Mets bury Phillies by nine tonight",
-    "quip": "Citi Field turns into a Nuremberg rally for Alonso",
-    "cached_at": "2026-09-17T23:54:14.386847+00:00"
-  },
-  "SB-3CC5668D": {
-    "title": "Wake Forest stuns Miami in Winston-Salem",
-    "quip": "Deacon Deacon riding the motorcycle straight through Miami's playoff hopes",
-    "cached_at": "2026-09-17T23:54:21.434572+00:00"
-  },
-  "SB-16C5FDE0": {
-    "title": "Hanwha Eagles knock off Samsung Lions tonight",
-    "quip": "Daejeon's finest still throwing fastballs at the dynasty",
-    "cached_at": "2026-09-17T23:54:33.574339+00:00"
-  },
-  "SB-98C23FFC": {
-    "title": "Storm upset the Aces in Seattle",
-    "quip": "A'ja Wilson meets a Climate Pledge crowd that hasn't blinked",
-    "cached_at": "2026-09-17T23:54:33.574339+00:00"
-  },
-  "SB-0F562518": {
-    "title": "Liam Walsh shocks Tom Rafferty",
-    "quip": "the old lion remembers where he left the jab",
-    "cached_at": "2026-09-17T23:54:33.574339+00:00"
-  },
-  "SB-ACDB5149": {
-    "title": "Guardians handle the A's tonight",
-    "quip": "Sacramento minor league tour rolls into Progressive Field",
-    "cached_at": "2026-09-17T23:54:41.581558+00:00"
-  },
-  "SB-77E5765B": {
-    "title": "Pirates take down the Royals tonight",
-    "quip": "Paul Skenes makes the whole rotation look employable",
-    "cached_at": "2026-09-17T23:54:41.581558+00:00"
-  },
   "SB-5B9ED5D5": {
     "title": "Blue Jays run away from Rangers in Arlington",
     "quip": "Vladdy treats Globe Life like a batting cage",
@@ -943,5 +898,55 @@
     "title": "Ravens win in Dallas",
     "quip": "Lamar in AT&T Stadium is a highlight factory",
     "cached_at": "2026-09-21T20:15:43.595582+00:00"
+  },
+  "SB-E9A5C503": {
+    "title": "Mets take down the Rangers in Arlington",
+    "quip": "Lindor's hair alone outranks the Texas lineup",
+    "cached_at": "2026-09-22T00:39:01.086807+00:00"
+  },
+  "SB-DC3B4BA6": {
+    "title": "Red Sox beat Guardians by two or more",
+    "quip": "Fenway's Green Monster eats Cleveland's flyball staff",
+    "cached_at": "2026-09-22T00:39:01.086807+00:00"
+  },
+  "SB-769A15D3": {
+    "title": "Leafs beat Islanders by two or more",
+    "quip": "Matthews scores, Toronto pretends June exists",
+    "cached_at": "2026-09-22T00:39:01.086807+00:00"
+  },
+  "SB-B2F5E2A5": {
+    "title": "Warriors upset the Spurs in San Antonio",
+    "quip": "Curry vs Wemby, the height chart means nothing",
+    "cached_at": "2026-09-22T00:39:01.086807+00:00"
+  },
+  "SB-0D0D9AB5": {
+    "title": "Twins blow out the Giants by six",
+    "quip": "Oracle Park turns into batting practice, fog and all",
+    "cached_at": "2026-09-22T00:39:01.086807+00:00"
+  },
+  "SB-64F630AE": {
+    "title": "Sun stun the Mystics in D.C.",
+    "quip": "Connecticut's rebuild skips the awkward teenage phase",
+    "cached_at": "2026-09-22T00:39:13.222924+00:00"
+  },
+  "SB-61F880B9": {
+    "title": "Portland Fire burn the Valkyries",
+    "quip": "expansion team, Rip City volume, Valhalla postponed",
+    "cached_at": "2026-09-22T00:39:13.222924+00:00"
+  },
+  "SB-08D2CBCA": {
+    "title": "Braves handle the Reds in Atlanta tonight",
+    "quip": "Acu\u00f1a in the batter's box, Cincinnati in the way",
+    "cached_at": "2026-09-22T00:39:20.026119+00:00"
+  },
+  "SB-377334AC": {
+    "title": "Penguins keep it close in Washington tonight",
+    "quip": "Crosby and Ovechkin never make it easy",
+    "cached_at": "2026-09-22T00:39:20.026119+00:00"
+  },
+  "SB-A8F49D5F": {
+    "title": "Tigers take care of the Nationals tonight",
+    "quip": "Skubal weather in Detroit",
+    "cached_at": "2026-09-22T00:39:20.026119+00:00"
   }
 }
