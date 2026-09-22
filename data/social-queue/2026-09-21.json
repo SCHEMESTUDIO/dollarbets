@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-22T20:23:28.183409+00:00",
+          "tweet_id": "2102494005212672364",
+          "reply_tweet_id": "2102494006840021246"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "24701885",
+        "page": "https://www.pexels.com/photo/dry-trees-on-a-hill-of-the-grass-in-black-and-white-24701885/",
+        "photographer": "Q. H\u01b0ng Ph\u1ea1m",
+        "license": "Pexels License",
+        "phrases": [
+          "berlin street dusk rain",
+          "empty parliament chamber seats"
+        ],
+        "tokens": {
+          "input_tokens": 4333,
+          "output_tokens": 32
         }
       }
     }
