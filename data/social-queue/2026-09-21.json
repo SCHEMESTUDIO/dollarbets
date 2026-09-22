@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-22T17:45:54.899970+00:00",
+          "tweet_id": "2102454355316142455",
+          "reply_tweet_id": "2102454357132296277"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "23963815",
+        "page": "https://www.pexels.com/photo/northern-lights-at-dusk-23963815/",
+        "photographer": "chris clark",
+        "license": "Pexels License",
+        "phrases": [
+          "palm trees wind rain coastline",
+          "empty street dusk storm clouds"
+        ],
+        "tokens": {
+          "input_tokens": 3872,
+          "output_tokens": 35
         }
       }
     },
