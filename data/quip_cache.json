@@ -1,59 +1,4 @@
 {
-  "SB-16F873EB": {
-    "title": "Newcastle and Hull stay under two goals",
-    "quip": "St James' Park cup tie, all grind no glamour",
-    "cached_at": "2026-09-18T18:51:49.861720+00:00"
-  },
-  "SB-A6534656": {
-    "title": "Brentford and Chelsea split the points",
-    "quip": "the Gtech has a way of humbling London royalty",
-    "cached_at": "2026-09-18T18:51:49.861720+00:00"
-  },
-  "SB-F0D69F4B": {
-    "title": "Red Bulls take the Hudson River Derby",
-    "quip": "Harrison's finest crashing the Yankee Stadium party",
-    "cached_at": "2026-09-18T18:51:49.861720+00:00"
-  },
-  "SB-7B179E6D": {
-    "title": "Cubs bury the Reds by seven-plus",
-    "quip": "Great American Ball Park, where the wind blows out",
-    "cached_at": "2026-09-18T18:51:49.861720+00:00"
-  },
-  "SB-66BC5A4B": {
-    "title": "Hawks handle Rakuten by two or more tonight",
-    "quip": "Sendai gets the full Yamakawa treatment",
-    "cached_at": "2026-09-18T18:52:05.984589+00:00"
-  },
-  "SB-3D88F10E": {
-    "title": "Hanwha Eagles beat LG Twins by two-plus",
-    "quip": "Ryu Hyun-jin's old house still has good bones",
-    "cached_at": "2026-09-18T18:52:05.984589+00:00"
-  },
-  "SB-E6346D75": {
-    "title": "TPS beat HPK by multiple goals tonight",
-    "quip": "Turku doesn't visit H\u00e4meenlinna to be polite",
-    "cached_at": "2026-09-18T18:52:05.984589+00:00"
-  },
-  "SB-767A8A59": {
-    "title": "Tiger-Cats upset the Alouettes in Hamilton",
-    "quip": "Steeltown wants the Labour Day grudge early",
-    "cached_at": "2026-09-18T18:52:05.984589+00:00"
-  },
-  "SB-29AA8884": {
-    "title": "Mercury stun the Wings in Dallas",
-    "quip": "Paige Bueckers learns the Diana Taurasi lesson",
-    "cached_at": "2026-09-18T18:52:05.984589+00:00"
-  },
-  "SB-DB3C68CF": {
-    "title": "Red Sox stay within a run of the Rays",
-    "quip": "Tropicana Field one-run grinders, catwalks and all",
-    "cached_at": "2026-09-18T18:52:15.121448+00:00"
-  },
-  "SB-66E5444B": {
-    "title": "Rangers keep it close against the Blue Jays",
-    "quip": "Arlington bullpens turn everything into a coin-flip ninth",
-    "cached_at": "2026-09-18T18:52:15.121448+00:00"
-  },
   "SB-9974ECE9": {
     "title": "Braves handle Astros by two or more tonight",
     "quip": "Acu\u00f1a doesn't do one-run games, he does statements",
@@ -933,5 +878,60 @@
     "title": "Dodgers win or lose by one to Padres",
     "quip": "these two never settle anything before the ninth",
     "cached_at": "2026-09-22T13:05:02.032077+00:00"
+  },
+  "SB-96A9AB99": {
+    "title": "Yankees beat Rays by two or more tonight",
+    "quip": "the Bronx handles bullpen games like batting practice",
+    "cached_at": "2026-09-22T19:33:39.431962+00:00"
+  },
+  "SB-EBBC1FDF": {
+    "title": "Brewers bury Phillies by five in Philadelphia",
+    "quip": "Citizens Bank boos arriving by the fourth inning",
+    "cached_at": "2026-09-22T19:33:39.431962+00:00"
+  },
+  "SB-6B0FE21E": {
+    "title": "Tigers blow out Nationals by seven-plus",
+    "quip": "Skubal starts it, Detroit's bats finish the eulogy",
+    "cached_at": "2026-09-22T19:33:39.431962+00:00"
+  },
+  "SB-0568F671": {
+    "title": "Kia Tigers beat Doosan by two-plus tonight",
+    "quip": "Doosan's bullpen keeps leaving the door unlocked",
+    "cached_at": "2026-09-22T19:33:55.174964+00:00"
+  },
+  "SB-3B896D77": {
+    "title": "NC Dinos handle KT Wiz by a couple",
+    "quip": "Changwon's dinosaurs still eating wizards for breakfast",
+    "cached_at": "2026-09-22T19:33:55.174964+00:00"
+  },
+  "SB-999E9C18": {
+    "title": "Nippon-Ham Fighters roll Rakuten by two-plus",
+    "quip": "Escon Field turns the Eagles into carry-on luggage",
+    "cached_at": "2026-09-22T19:33:55.174964+00:00"
+  },
+  "SB-0F5B362B": {
+    "title": "Toronto Tempo upset the Sky in Chicago",
+    "quip": "expansion team crashes the Angel Reese housewarming",
+    "cached_at": "2026-09-22T19:33:55.174964+00:00"
+  },
+  "SB-250BB899": {
+    "title": "Swallows upset Hanshin at Jingu",
+    "quip": "Tokyo's umbrella dance gets a real reason tonight",
+    "cached_at": "2026-09-22T19:33:55.174964+00:00"
+  },
+  "SB-E026B6F9": {
+    "title": "Cayman Islands stun Bermuda in T20",
+    "quip": "two tiny islands, one very large upset",
+    "cached_at": "2026-09-22T19:33:55.174964+00:00"
+  },
+  "SB-D0E54F2A": {
+    "title": "Guardians keep it close in Boston tonight",
+    "quip": "the Green Monster giveth, the bullpen taketh away",
+    "cached_at": "2026-09-22T19:34:02.073524+00:00"
+  },
+  "SB-61E5645B": {
+    "title": "Pirates take down the Cardinals tonight",
+    "quip": "Paul Skenes turns PNC into a haunted house",
+    "cached_at": "2026-09-22T19:34:02.073524+00:00"
   }
 }
