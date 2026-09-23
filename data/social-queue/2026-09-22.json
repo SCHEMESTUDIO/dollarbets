@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-23T04:59:23.387062+00:00",
+          "tweet_id": "2102623840920891490",
+          "reply_tweet_id": "2102623842317504926"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "29320941",
+        "page": "https://www.pexels.com/photo/monochrome-staircase-with-mysterious-artwork-29320941/",
+        "photographer": "Anh Ha",
+        "license": "Pexels License",
+        "phrases": [
+          "empty tokyo alley night",
+          "seismograph paper rolls desk"
+        ],
+        "tokens": {
+          "input_tokens": 3639,
+          "output_tokens": 33
         }
       }
     },
