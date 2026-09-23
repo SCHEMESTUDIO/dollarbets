@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-23T20:36:32.458825+00:00",
+          "tweet_id": "2102859682435973545",
+          "reply_tweet_id": "2102859684361142291"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "54324",
+        "page": "https://www.pexels.com/photo/body-of-water-under-blue-sky-54324/",
+        "photographer": "Pixabay",
+        "license": "Pexels License",
+        "phrases": [
+          "tanker strait dusk",
+          "lighthouse coastline night"
+        ],
+        "tokens": {
+          "input_tokens": 3855,
+          "output_tokens": 30
         }
       }
     }
