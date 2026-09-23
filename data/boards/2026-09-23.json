@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-09-23T13:24:57.995789+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 3
+  },
+  "board": [
+    {
+      "ticker": "KXSCOTUSCASE-MAXTHO28",
+      "title": "SCOTUS allows halfway-house claims before 2028",
+      "subtitle": "Before 2028",
+      "yes_sub_title": "Before Aug 1, 2028",
+      "no_sub_title": "Before Aug 1, 2028",
+      "payout": 1.59,
+      "tier": "green",
+      "quip": "Shawshank, except the tunnel is a footnote",
+      "yes_price": "0.6300",
+      "volume": 805.0,
+      "category": "Politics",
+      "close_time": "2028-08-01T14:00:00Z",
+      "url": "https://kalshi.com/markets/KXSCOTUSCASE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 54.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i pretended to understand section 2241 for four straight paragraphs",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "\"the text is clear,\" says man who has never read the text",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "nine robes, one hallway",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "Shawshank, except the tunnel is a footnote",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "somewhere a federal magistrate cracks a Celsius and clears his afternoon",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "like a backup long snapper getting his own ESPN feature",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "the Fifth Circuit is going to take this extremely personally",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "my one legal opinion is that halfway houses should have better wifi",
+          "mode": 2,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xafbc0a8a26996422c729e06e51db70c4b8b58e4b1dd6b82f52014981dfec466a",
+      "title": "Doosan Bears beat the KT Wiz today",
+      "subtitle": "",
+      "payout": 2.06,
+      "tier": "green",
+      "quip": "a bear fighting a wizard is the best thing baseball has ever done",
+      "yes_price": "0.4850",
+      "volume": 9468.574147000001,
+      "category": "Other",
+      "close_time": "2026-07-29T09:30:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/kbo-doo-kt-2026-07-22",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "a bear fighting a wizard is the best thing baseball has ever done",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "i set a 4am alarm for Korean baseball and my girlfriend has questions",
+          "mode": 2,
+          "score": 5.5
+        },
+        {
+          "quip": "\"that ball is GONE\" at 5:40am, into my pillow, alone",
+          "mode": 4,
+          "score": 5
+        },
+        {
+          "quip": "bears over wizards, historically",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "seventh inning cheer routine goes viral and the game becomes a side quest",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "Gandalf would not have allowed this",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "Doosan has hit 400 bat flips this season and i counted every one",
+          "mode": 5,
+          "score": 6
+        },
+        {
+          "quip": "KBO is what happens when an SEC tailgate learns choreography",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXEARTHQUAKECALIFORNIA-35",
+      "title": "California gets an 8.0 earthquake before 2035",
+      "subtitle": "Before 2035",
+      "yes_sub_title": "Before 2035",
+      "no_sub_title": "Before 2035",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "finally, something that moves faster than the 405",
+      "yes_price": "0.3600",
+      "volume": 27776.86,
+      "category": "Climate and Weather",
+      "close_time": "2035-12-31T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXEARTHQUAKECALIFORNIA?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 50.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "my earthquake kit is three Clif bars and a charger i already stole back",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Zillow listings in Boise quietly refreshing their photos",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "The Rock is already in a helicopter looking for his daughter",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "tectonics remain undefeated",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "ten more years of me not bolting the bookshelf to the wall",
+          "mode": 5,
+          "score": 6
+        },
+        {
+          "quip": "finally, something that moves faster than the 405",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "the San Andreas has been quiet and quiet guys are always the worst",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "\"we always knew it was coming,\" says every geologist, smugly, forever",
+          "mode": 4,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXARTISTSTREAMSY-BMARS26DEC31-18.5B",
+      "title": "Bruno Mars clears 18.5 billion streams next year",
+      "subtitle": "Bruno Mars: January 01 - December 31, 2026",
+      "yes_sub_title": "Above 18.5B",
+      "no_sub_title": "Above 18.5B",
+      "payout": 3.12,
+      "tier": "yellow",
+      "quip": "the Costco hot dog of pop music",
+      "yes_price": "0.3200",
+      "volume": 5074.03,
+      "category": "Entertainment",
+      "close_time": "2027-01-02T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXARTISTSTREAMSY?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 79.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "my dentist's waiting room is personally responsible for 400 million of these",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "every wedding DJ in America locking in for the greater good",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "the man has never made a bad song and i have checked twice",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "18.5 billion streams and six of them are my mom looping Grenade",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "silk sonic tax",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "\"don't believe me just watch\" and then we watched for twelve years",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "the Costco hot dog of pop music",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "Spotify Wrapped about to expose your entire family",
+          "mode": 7,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXSPACEXMARS-30",
+      "title": "SpaceX lands something on Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 4.17,
+      "tier": "yellow",
+      "quip": "anything counts. a fork counts. i'm rooting hard for the fork",
+      "yes_price": "0.2400",
+      "volume": 89529.57,
+      "category": "Science and Technology",
+      "close_time": "2030-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXSPACEXMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 100.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "first object on Mars is a Cybertruck with a dead 12 volt",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i will absolutely cry at 3am watching a livestream of dust",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "\"it's uh, it's pretty big, i think, for humanity\"",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "anything counts. a fork counts. i'm rooting hard for the fork",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "litter, but historic",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "putting metal on another planet is still the sickest thing we do",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "Wall-E starting his shift four hundred years early",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "Blue Origin watching this with a tall glass of water",
+          "mode": 7,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xcd0982df2b103913cf57b35e3b19a839388e0279ff2532e7681b31627089d93f",
+      "title": "Hylo launches a token next year",
+      "subtitle": "",
+      "payout": 6.9,
+      "tier": "yellow",
+      "quip": "like a mid-major redesigning the mascot to move merch",
+      "yes_price": "0.1450",
+      "volume": 9673.419558,
+      "category": "Other",
+      "close_time": "2027-01-01T05:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/will-hylo-launch-a-token-by",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "i have never heard of Hylo and i am somehow already holding a bag",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "airdrop hits at 2am, the discord melts, my cousin buys a Supra",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "\"we're not a token. we're an ecosystem with a roadmap\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "supply of 69 billion, unlock schedule written in crayon",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "whitepaper, but shorter",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "like a mid-major redesigning the mascot to move merch",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Hylo sounds like a Pok\u00e9mon and honestly that is the stronger pitch",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "Solana guys waking up and choosing violence before coffee",
+          "mode": 7,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26DEC",
+      "title": "US strikes a new Iran nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Dec 1, 2026",
+      "no_sub_title": "Before Dec 1, 2026",
+      "payout": 12.5,
+      "tier": "orange",
+      "quip": "fourth remake of this movie and nobody finished the second one",
+      "yes_price": "0.0800",
+      "volume": 248388.21,
+      "category": "Politics",
+      "close_time": "2026-12-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i still have a Vienna news alert from 2015 buzzing on my phone",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the pen gets its own Truth Social post before the ink dries",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "\"we had a deal. then a better deal. this one's the best deal\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "centrifuges, but polite",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "this is a coach signing a ten year extension in March",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "fourth remake of this movie and nobody finished the second one",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "put a tarmac handshake photo directly into my veins",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "Geneva bar staff bracing for the worst tippers in diplomacy",
+          "mode": 7,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXAUCTIONRECORD-27-PIC-179365000",
+      "title": "A Picasso breaks the auction record this season",
+      "subtitle": "Picasso",
+      "yes_sub_title": "Above $179,365,000",
+      "no_sub_title": "Above $179,365,000",
+      "payout": 12.5,
+      "tier": "orange",
+      "quip": "the art market is free agency with better catering",
+      "yes_price": "0.0800",
+      "volume": 2913.39,
+      "category": "Entertainment",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXAUCTIONRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 89.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "$179,365,000 for a lady with two faces and one very confident nose",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "i owned this poster in college and it cost me fourteen dollars",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "a guy nods once and a Geneva warehouse gets slightly heavier",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "\"one eighty. i have one eighty. thank you, sir, on the phone\"",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "blue period, green money",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "the art market is free agency with better catering",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "a crypto guy is already explaining why this is actually dumb",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "man drew a bull in four lines and broke a national economy",
+          "mode": 3,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA lands a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 24.39,
+      "tier": "red",
+      "quip": "$24.39 is also what NASA budgeted for the ladder",
+      "yes_price": "0.0410",
+      "volume": 217983.11,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "$24.39 is also what NASA budgeted for the ladder",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "i am calling in sick for this, to my boss, out loud",
+          "mode": 2,
+          "score": 5.5
+        },
+        {
+          "quip": "flag planted, then a ninety second ad read for a mattress company",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "\"houston, there is a Dave and Buster's up here\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "moon: still there",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "Armstrong did this with a slide rule and a crew cut",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "like Notre Dame announcing a national title in July",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Boeing about to be blamed, and correctly",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x0687236dace728be2aa72be8b802918f45de83e4ded7d0c3fa3fe9b83c83db74",
+      "title": "Warriors win the 2027 NBA Finals",
+      "subtitle": "",
+      "payout": 95.24,
+      "tier": "purple",
+      "quip": "Draymond ejected from the parade, somehow, by a horse cop",
+      "yes_price": "0.0105",
+      "volume": 984528.5639989997,
+      "category": "Sports",
+      "close_time": "2027-07-01T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/nba-2027-champion",
+      "platform": "polymarket",
+      "score": 53.0,
+      "quip_alts": [
+        {
+          "quip": "i still own a 2016 Warriors shirt and we do not discuss it",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Steph at 39 dropping 40 would end several podcasts on the spot",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Draymond ejected from the parade, somehow, by a horse cop",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "night night, apparently",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "Steph hits 95 threes in that Finals alone. i did the math",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "Benjamin Button, if he shot from the logo",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Kings fans will still find a way to feel worse about it",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we ain't done yet\" and god help us, we believed him",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    }
+  ]
+}
