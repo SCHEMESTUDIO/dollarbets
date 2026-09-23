@@ -1,89 +1,4 @@
 {
-  "SB-697173B2": {
-    "title": "Fulham and United grind out a low-scoring one",
-    "quip": "Craven Cottage, two banks of four, zero joy",
-    "cached_at": "2026-09-19T18:24:44.835378+00:00"
-  },
-  "SB-0398CEAE": {
-    "title": "Diamondbacks knock off the Yankees tonight",
-    "quip": "the desert never did respect pinstripes",
-    "cached_at": "2026-09-19T18:24:44.835378+00:00"
-  },
-  "SB-0BD87E2A": {
-    "title": "Bournemouth upset Liverpool at the Vitality",
-    "quip": "Iraola's press eats Anfield royalty for breakfast",
-    "cached_at": "2026-09-19T18:24:44.835378+00:00"
-  },
-  "SB-2D785324": {
-    "title": "Despaigne beats Tuivasa without a knockout",
-    "quip": "no shoey tonight, just a taekwondo man stalling",
-    "cached_at": "2026-09-19T18:24:44.835378+00:00"
-  },
-  "SB-AB096221": {
-    "title": "Gandra beats Ozzy Diaz but can't finish him",
-    "quip": "fifteen minutes of grip-fighting and zero highlight reel",
-    "cached_at": "2026-09-19T18:24:44.835378+00:00"
-  },
-  "SB-9D96869D": {
-    "title": "Red Sox blow out the Rays by five-plus",
-    "quip": "Fenway bats visiting the Trop like a crime scene",
-    "cached_at": "2026-09-19T18:24:44.835378+00:00"
-  },
-  "SB-00EADC3B": {
-    "title": "SSG Landers pull away from Kiwoom tonight",
-    "quip": "Kiwoom's rebuild is still in the blueprint phase",
-    "cached_at": "2026-09-19T18:25:02.849717+00:00"
-  },
-  "SB-A91C765C": {
-    "title": "Kia Tigers handle NC Dinos by two",
-    "quip": "Tigers bats travel better than the Dinos' bullpen",
-    "cached_at": "2026-09-19T18:25:02.849717+00:00"
-  },
-  "SB-3B68AD47": {
-    "title": "Yomiuri Giants bury the Swallows tonight",
-    "quip": "Tokyo Dome umbrellas stay folded this time",
-    "cached_at": "2026-09-19T18:25:02.849717+00:00"
-  },
-  "SB-5483A5BF": {
-    "title": "F\u00e4rjestad run \u00d6rebro off the ice",
-    "quip": "Karlstad's answer to a Bergman film, but violent",
-    "cached_at": "2026-09-19T18:25:02.849717+00:00"
-  },
-  "SB-E628DECE": {
-    "title": "Botafogo win at Mirassol tonight",
-    "quip": "the Glorioso remembers it won a Libertadores",
-    "cached_at": "2026-09-19T18:25:02.849717+00:00"
-  },
-  "SB-F21D8909": {
-    "title": "Bj\u00f6rkl\u00f6ven bury Djurg\u00e5rden by four",
-    "quip": "Ume\u00e5's finest crashing the Stockholm party uninvited",
-    "cached_at": "2026-09-19T18:25:02.849717+00:00"
-  },
-  "SB-4C586FFA": {
-    "title": "Atl\u00e9tico Mineiro and Chapecoense split the points",
-    "quip": "Galo huff and puff, Chape bunker in",
-    "cached_at": "2026-09-19T18:25:02.849717+00:00"
-  },
-  "SB-67489B9A": {
-    "title": "Chicago Sky stun the Dream in Atlanta",
-    "quip": "Angel Reese decides the rebuild ends tonight",
-    "cached_at": "2026-09-19T18:25:02.849717+00:00"
-  },
-  "SB-59CABBE3": {
-    "title": "Phillies keep it close against Mets in Queens",
-    "quip": "Citi Field crowd stays nervous into the ninth",
-    "cached_at": "2026-09-19T18:25:11.247625+00:00"
-  },
-  "SB-9D122D18": {
-    "title": "South Carolina handles Mississippi State in Columbia",
-    "quip": "Sandstorm plays, Bulldogs wilt, everyone goes home",
-    "cached_at": "2026-09-19T18:25:11.247625+00:00"
-  },
-  "SB-1BC687D8": {
-    "title": "Yankees take care of Diamondbacks in the desert",
-    "quip": "Judge enjoys the climate-controlled roof in Phoenix",
-    "cached_at": "2026-09-19T18:25:11.247625+00:00"
-  },
   "SB-992CCC91": {
     "title": "Padres bury the Marlins by two or more tonight",
     "quip": "Machado feasting on a Miami payroll that fits in a glovebox",
@@ -883,5 +798,60 @@
     "title": "Rays hang within a run at Yankee Stadium",
     "quip": "the short porch giveth, the Rays bullpen survives",
     "cached_at": "2026-09-23T13:25:37.320826+00:00"
+  },
+  "SB-31670E6F": {
+    "title": "Red Sox beat Guardians by two or more tonight",
+    "quip": "Fenway's Green Monster doesn't do one-run games quietly",
+    "cached_at": "2026-09-23T19:26:06.606337+00:00"
+  },
+  "SB-C1B4CF13": {
+    "title": "Reds upset Braves in Atlanta tonight",
+    "quip": "Elly De La Cruz turns Truist Park into a track meet",
+    "cached_at": "2026-09-23T19:26:06.606337+00:00"
+  },
+  "SB-7988E3A4": {
+    "title": "Twins blow out Giants by seven tonight",
+    "quip": "Oracle Park fog rolls in, Giants bullpen never rolls out",
+    "cached_at": "2026-09-23T19:26:06.606337+00:00"
+  },
+  "SB-2974C994": {
+    "title": "LG Twins beat Lotte by two or more tonight",
+    "quip": "Jamsil crowd gets a comfortable evening",
+    "cached_at": "2026-09-23T19:26:21.586090+00:00"
+  },
+  "SB-3F632234": {
+    "title": "Rakuten Eagles upset Nippon-Ham in Sapporo",
+    "quip": "Escon Field's giant Shohei statue watches an away win",
+    "cached_at": "2026-09-23T19:26:21.586090+00:00"
+  },
+  "SB-9667DA5C": {
+    "title": "Yomiuri Giants bury the Carp by two-plus",
+    "quip": "Tokyo money walks into Mazda Stadium and takes it",
+    "cached_at": "2026-09-23T19:26:21.586090+00:00"
+  },
+  "SB-5C0D06A4": {
+    "title": "HV71 knock off Skellefte\u00e5 tonight",
+    "quip": "J\u00f6nk\u00f6ping still believes in the old green machine",
+    "cached_at": "2026-09-23T19:26:21.586090+00:00"
+  },
+  "SB-585EB103": {
+    "title": "Nakamura handles Hiestand by decision or better",
+    "quip": "Rinya's wrestling turns fights into long hugs",
+    "cached_at": "2026-09-23T19:26:29.462333+00:00"
+  },
+  "SB-EBA5AF2C": {
+    "title": "Cubs take care of the Marlins at Wrigley",
+    "quip": "the Wrigley faithful get their W flag",
+    "cached_at": "2026-09-23T19:26:29.462333+00:00"
+  },
+  "SB-C5C9CC5E": {
+    "title": "Diamondbacks win in the Coors thin air",
+    "quip": "Rockies at home is still just batting practice",
+    "cached_at": "2026-09-23T19:26:29.462333+00:00"
+  },
+  "SB-4ABC84B8": {
+    "title": "Twins beat the Giants by the Bay",
+    "quip": "Buster's front office hasn't fixed that lineup yet",
+    "cached_at": "2026-09-23T19:26:29.462333+00:00"
   }
 }
