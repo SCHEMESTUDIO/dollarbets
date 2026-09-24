@@ -1,99 +1,4 @@
 {
-  "SB-AD318980": {
-    "title": "Commanders spoil Dallas at AT&T Stadium",
-    "quip": "Jerry's Christmas decorations up, Cowboys defense still missing",
-    "cached_at": "2026-09-20T18:28:43.859414+00:00"
-  },
-  "SB-001DB61E": {
-    "title": "Giants walk into Chavez Ravine and beat the Dodgers",
-    "quip": "a $2 billion payroll can still lose to a rookie lefty",
-    "cached_at": "2026-09-20T18:28:43.859414+00:00"
-  },
-  "SB-A8F9F759": {
-    "title": "Raiders ruin the Chargers' night in LA",
-    "quip": "Herbert stares blankly into the SoFi void again",
-    "cached_at": "2026-09-20T18:28:43.859414+00:00"
-  },
-  "SB-7B245E15": {
-    "title": "Phillies bury the Mets by nine or more",
-    "quip": "Citi Field staff turning the lights off by the sixth",
-    "cached_at": "2026-09-20T18:28:43.859414+00:00"
-  },
-  "SB-86FA1BAF": {
-    "title": "Red Sox stun the Rays in Tampa tonight",
-    "quip": "the Trop crowd of 8,000 witnesses something",
-    "cached_at": "2026-09-20T18:28:52.534405+00:00"
-  },
-  "SB-3F7D9701": {
-    "title": "Mets take down the Phillies tonight",
-    "quip": "Bryce Harper meets an actual Citi Field miracle",
-    "cached_at": "2026-09-20T18:28:52.534405+00:00"
-  },
-  "SB-F42887CA": {
-    "title": "Dragons beat Carp by two or more tonight",
-    "quip": "Nagoya's pitching staff still allergic to close games",
-    "cached_at": "2026-09-20T18:29:06.085234+00:00"
-  },
-  "SB-F8431257": {
-    "title": "Lions handle Marines by multiple runs tonight",
-    "quip": "Seibu's lineup finds the Chiba sea breeze agreeable",
-    "cached_at": "2026-09-20T18:29:06.085234+00:00"
-  },
-  "SB-EDC5E167": {
-    "title": "BayStars take down Tigers by two-plus",
-    "quip": "Koshien crowd goes quiet, Yokohama goes loud",
-    "cached_at": "2026-09-20T18:29:06.085234+00:00"
-  },
-  "SB-5AE68D1A": {
-    "title": "Vitoria upset Cruzeiro at the Barradao",
-    "quip": "Barradao on a Sunday is a genuine haunted house",
-    "cached_at": "2026-09-20T18:29:06.085234+00:00"
-  },
-  "SB-1D41E3D0": {
-    "title": "Bahia knock off Atletico Paranaense on the road",
-    "quip": "Rogerio Ceni teams travel better than the brochure says",
-    "cached_at": "2026-09-20T18:29:06.085234+00:00"
-  },
-  "SB-5963EAE5": {
-    "title": "Fluminense beat Corinthians in Sao Paulo",
-    "quip": "Tricolor away days, powered entirely by spite",
-    "cached_at": "2026-09-20T18:29:06.085234+00:00"
-  },
-  "SB-B8C351CA": {
-    "title": "Bragantino shock Flamengo at the Maracana",
-    "quip": "Red Bull gives you wings, Mengao gives you nightmares",
-    "cached_at": "2026-09-20T18:29:06.085234+00:00"
-  },
-  "SB-609D3552": {
-    "title": "Tempo stun the Liberty in Toronto",
-    "quip": "expansion team, meet Breanna Stewart, good luck babe",
-    "cached_at": "2026-09-20T18:29:06.085234+00:00"
-  },
-  "SB-4FD9FDC4": {
-    "title": "Niners handle the Dolphins at home",
-    "quip": "Miami in January weather, already booking flights home",
-    "cached_at": "2026-09-20T18:29:16.227180+00:00"
-  },
-  "SB-9077B49B": {
-    "title": "Cowboys take care of Washington tonight",
-    "quip": "Dallas beating the NFC East's other soap opera",
-    "cached_at": "2026-09-20T18:29:16.227180+00:00"
-  },
-  "SB-F681B095": {
-    "title": "Yankees squeak past Arizona in a tight one",
-    "quip": "the Bronx wins, the desert keeps it respectable",
-    "cached_at": "2026-09-20T18:29:16.227180+00:00"
-  },
-  "SB-F6892D0E": {
-    "title": "Mariners win in the thin air at Coors",
-    "quip": "Colorado pitching is a rumor at this point",
-    "cached_at": "2026-09-20T18:29:16.227180+00:00"
-  },
-  "SB-F5214A14": {
-    "title": "Padres handle the Marlins in San Diego",
-    "quip": "Petco sunshine, Miami's payroll still on a budget",
-    "cached_at": "2026-09-20T18:29:16.227180+00:00"
-  },
   "SB-7999ED48": {
     "title": "Cowboys knock off the Ravens in Dallas",
     "quip": "Lamar's road trip ends at Jerry World",
@@ -798,5 +703,75 @@
     "title": "Pirates beat the Cardinals tonight",
     "quip": "Skenes makes Busch Stadium bats look ceremonial",
     "cached_at": "2026-09-24T13:11:52.189261+00:00"
+  },
+  "SB-AE9C8F34": {
+    "title": "Phillies handle Brewers by two or more tonight",
+    "quip": "Bryce Harper doesn't do one-run games quietly",
+    "cached_at": "2026-09-24T19:47:14.657346+00:00"
+  },
+  "SB-A597885F": {
+    "title": "Red Sox bury Guardians by two-plus tonight",
+    "quip": "the Monster eats Cleveland pitching for lunch",
+    "cached_at": "2026-09-24T19:47:14.657346+00:00"
+  },
+  "SB-DBF6FD5A": {
+    "title": "Mets blow out Rangers by five tonight",
+    "quip": "Lindor conducting a full Arlington demolition, hard hats required",
+    "cached_at": "2026-09-24T19:47:14.657346+00:00"
+  },
+  "SB-251B693A": {
+    "title": "Hanwha Eagles handle NC Dinos by two-plus tonight",
+    "quip": "Ryu Hyun-jin's kids playing spoiler in Changwon",
+    "cached_at": "2026-09-24T19:47:35.660251+00:00"
+  },
+  "SB-A77B0F3F": {
+    "title": "Lotte Giants clear Doosan Bears by two runs",
+    "quip": "Busan's seagull chorus warming up early",
+    "cached_at": "2026-09-24T19:47:35.660251+00:00"
+  },
+  "SB-D68014FB": {
+    "title": "Seibu Lions beat Marines by multiple runs tonight",
+    "quip": "Chiba's bats go quiet in Tokorozawa",
+    "cached_at": "2026-09-24T19:47:35.660251+00:00"
+  },
+  "SB-4BCADBAC": {
+    "title": "KooKoo shock Ilves in Tampere tonight",
+    "quip": "Kouvola arrives like a Finnish tango nobody requested",
+    "cached_at": "2026-09-24T19:47:35.660251+00:00"
+  },
+  "SB-59DA84BE": {
+    "title": "Mercury upset the Aces in Phoenix",
+    "quip": "A'ja Wilson finally meets a Valley crowd that bites",
+    "cached_at": "2026-09-24T19:47:35.660251+00:00"
+  },
+  "SB-9CEA5075": {
+    "title": "Sky stun the Mystics in Washington",
+    "quip": "Angel Reese boxing out the entire District",
+    "cached_at": "2026-09-24T19:47:35.660251+00:00"
+  },
+  "SB-724158DE": {
+    "title": "Packers handle the Falcons at Lambeau",
+    "quip": "Atlanta finding new ways to blow it since 28-3",
+    "cached_at": "2026-09-24T19:47:47.996611+00:00"
+  },
+  "SB-EBBE9781": {
+    "title": "Brewers keep it within a run at Philadelphia",
+    "quip": "Citizens Bank crowd gets nervous in the eighth",
+    "cached_at": "2026-09-24T19:47:47.996611+00:00"
+  },
+  "SB-A5BF9920": {
+    "title": "Brenner goes the distance with Harrell",
+    "quip": "Harrell wins the scorecards, not the highlight reel",
+    "cached_at": "2026-09-24T19:47:47.996611+00:00"
+  },
+  "SB-16B99142": {
+    "title": "Astros take care of the A's",
+    "quip": "Sacramento minor league park, major league beating",
+    "cached_at": "2026-09-24T19:47:47.996611+00:00"
+  },
+  "SB-C6A501BB": {
+    "title": "Yankees handle the Rays in the Bronx",
+    "quip": "Judge does Judge things, everyone goes home",
+    "cached_at": "2026-09-24T19:47:47.996611+00:00"
   }
 }

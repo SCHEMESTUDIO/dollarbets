@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T13:11:30.129287+00:00",
+  "generated_at": "2026-09-24T19:47:20.623709+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -21,9 +21,9 @@
       "quip": "Bijan Robinson in the frozen tundra, unbothered",
       "yes_price": "0.32",
       "category": "NFL",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028811658?coupon={pickType}|4338899407|{wagerAmount}",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.608420545&selectionId=50199",
       "close_time": "2026-09-25T00:15:00Z",
       "sport": "americanfootball_nfl",
       "sport_display": "NFL",
@@ -36,10 +36,10 @@
     {
       "ticker": "SB-A48C9F90",
       "title": "Cardinals stun the 49ers in San Francisco",
-      "payout": 4.6,
+      "payout": 4.85,
       "tier": "yellow",
       "quip": "Kyler doing his best Levi's Stadium spoiler act",
-      "yes_price": "0.22",
+      "yes_price": "0.21",
       "category": "NFL",
       "platform": "fanduel",
       "platform_display": "FanDuel",
@@ -49,8 +49,8 @@
       "sport_display": "NFL",
       "matchup": "Arizona Cardinals @ San Francisco 49ers",
       "market_type": "h2h",
-      "american_odds": 360,
-      "implied_probability": 0.217,
+      "american_odds": 385,
+      "implied_probability": 0.206,
       "has_deep_link": true
     },
     {
@@ -96,10 +96,10 @@
     {
       "ticker": "SB-684F5FB2",
       "title": "Southern Miss shocks Tulane in New Orleans",
-      "payout": 9.0,
+      "payout": 9.5,
       "tier": "orange",
       "quip": "Golden Eagles crashing the Green Wave's playoff dinner party",
-      "yes_price": "0.11",
+      "yes_price": "0.10",
       "category": "NCAAF",
       "platform": "betrivers",
       "platform_display": "BetRivers",
@@ -109,8 +109,8 @@
       "sport_display": "NCAAF",
       "matchup": "Southern Mississippi Golden Eagles @ Tulane Green Wave",
       "market_type": "h2h",
-      "american_odds": 800,
-      "implied_probability": 0.111,
+      "american_odds": 850,
+      "implied_probability": 0.105,
       "has_deep_link": true
     }
   ]
