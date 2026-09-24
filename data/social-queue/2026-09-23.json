@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-24T05:10:19.906665+00:00",
+          "tweet_id": "2102988982321615006",
+          "reply_tweet_id": "2102988983936426477"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "36833573",
+        "page": "https://www.pexels.com/photo/child-leaping-over-water-in-outdoor-landscape-36833573/",
+        "photographer": "mehmet aramaz",
+        "license": "Pexels License",
+        "phrases": [
+          "empty baseball stadium night",
+          "infield dirt rain puddles"
+        ],
+        "tokens": {
+          "input_tokens": 4094,
+          "output_tokens": 32
         }
       }
     },
