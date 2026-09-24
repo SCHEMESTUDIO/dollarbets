@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-24T20:40:00.729749+00:00",
+          "tweet_id": "2103222943824142643",
+          "reply_tweet_id": "2103222945833271715"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "23338647",
+        "page": "https://www.pexels.com/photo/person-on-bike-and-cars-on-street-at-sunset-23338647/",
+        "photographer": "Traveler stories photos  \u65c5\u4eba\u6545\u4e8b\u76f8\u7247\u96c6",
+        "license": "Pexels License",
+        "phrases": [
+          "empty basketball arena night",
+          "confetti street dusk"
+        ],
+        "tokens": {
+          "input_tokens": 4327,
+          "output_tokens": 28
         }
       }
     }
