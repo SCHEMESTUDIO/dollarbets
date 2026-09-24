@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-24T17:57:27.589197+00:00",
+          "tweet_id": "2103182036412629441",
+          "reply_tweet_id": "2103182037981294729"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "5982830",
+        "page": "https://www.pexels.com/photo/dry-grass-in-cloudy-day-5982830/",
+        "photographer": "Jamie Saw",
+        "license": "Pexels License",
+        "phrases": [
+          "red desert dunes dusk",
+          "launch pad night fog"
+        ],
+        "tokens": {
+          "input_tokens": 3866,
+          "output_tokens": 29
         }
       }
     },
