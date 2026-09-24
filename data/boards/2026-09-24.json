@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-09-24T00:16:47.767620+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 3
+  },
+  "board": [
+    {
+      "ticker": "0x0cd75f7ad75be2e0a02560cad7c6803f55660810a831ed3d69b47b6a41e9f751",
+      "title": "Mendon\u00e7a Filho finishes second in Pernambuco's Senate race",
+      "subtitle": "",
+      "payout": 2.53,
+      "tier": "green",
+      "quip": "second Senate seat is the NIT of federal office and they still cut the nets",
+      "yes_price": "0.3950",
+      "volume": 9410.745222000001,
+      "category": "World",
+      "close_time": "2026-10-05T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/pernambuco-senate-election-2nd-place",
+      "platform": "polymarket",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "silver medal senator",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "i have opinions about Pernambuco now and absolutely nobody asked for them",
+          "mode": 2,
+          "score": 5.5
+        },
+        {
+          "quip": "second Senate seat is the NIT of federal office and they still cut the nets",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "the runner-up confetti falls on a stage they already started disassembling",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "wins it by 2.53 votes and i will not be taking questions",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "Brazil hands out TWO Senate seats per state and that genuinely rules",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "\"obrigado, second place\" is a hell of a speech to have to give",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "Recife deserves this in whichever direction it lands",
+          "mode": 7,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUTSKIVISITS-27JUL31-T6000000",
+      "title": "Utah clears 6 million skier visits this season",
+      "subtitle": "the 2026\u201327 ski season",
+      "yes_sub_title": "Above 6,000,000 skier visits",
+      "no_sub_title": "Above 6,000,000 skier visits",
+      "payout": 2.56,
+      "tier": "green",
+      "quip": "the tram line is a Waffle House at 2am and everyone has goggles",
+      "yes_price": "0.3900",
+      "volume": 5672.7,
+      "category": "Economics",
+      "close_time": "2027-07-31T15:29:00Z",
+      "url": "https://kalshi.com/markets/KXUTSKIVISITS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 53.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "powder day, gridlock night",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "i drove nine hours to stand in a canyon with Texans",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the canyon closes and everybody just skis the parking structure",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "six million visits and maybe four of them can actually turn",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Californians moved here and brought the commute with them",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "they put the snow on the license plate. that is confidence",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "the tram line is a Waffle House at 2am and everyone has goggles",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"sir, the tram is full\" okay fine, i'll hike the ridge",
+          "mode": 4,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "0x11eb402c95775b5ca26d4e3defe796e850976d67c2cc456730a4ff47152708c3",
+      "title": "Claude 6 lands before spring 2027",
+      "subtitle": "",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "version numbers moving faster than Madden covers now",
+      "yes_price": "0.3600",
+      "volume": 9778.714999,
+      "category": "Other",
+      "close_time": "2027-03-31T23:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/claude-6-released-byptptpt",
+      "platform": "polymarket",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "constitutional AI, unconstitutional pace",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "i'm still apologizing to Claude 4 for how i talked to it",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Claude 5 gets nine days of being loved before it's a legacy model",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "skipping numbers like a PlayStation, except they're not skipping any",
+          "mode": 8,
+          "score": 6.5
+        },
+        {
+          "quip": "i have never been more ready to read a changelog at 10am",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "Claude 6 ships, Claude 7 teased 36 hours later, we all pretend that's normal",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "\"i want to sit with the complexity here\" buddy just write the email",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "version numbers moving faster than Madden covers now",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXMARSVRAIL-50",
+      "title": "Mars gets humans before California gets high-speed rail",
+      "subtitle": "Before 2050",
+      "yes_sub_title": "Before 2050",
+      "no_sub_title": "Before 2050",
+      "payout": 3.33,
+      "tier": "yellow",
+      "quip": "first kid born on Mars and CalTrans is still doing the soil study",
+      "yes_price": "0.3000",
+      "volume": 16217.38,
+      "category": "Science and Technology",
+      "close_time": "2050-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXMARSVRAIL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 84.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "environmental review on Phobos",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "i've been hearing about this train since i had knees that worked",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Fresno station groundbreaking ceremony, year forty-one, catering provided",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "first kid born on Mars and CalTrans is still doing the soil study",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "Total Recall got a guy there faster and that was a memory implant",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "$3.33 says a man reaches Mars before a man reaches Merced",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "i'm rooting for both of these and fully expect to get neither",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "Mars is the easier permit and everyone in Sacramento knows it",
+          "mode": 6,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXSPACEXMARS-30",
+      "title": "SpaceX lands something on Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 4.0,
+      "tier": "yellow",
+      "quip": "eleven craters in, one of them legally counts",
+      "yes_price": "0.2500",
+      "volume": 89603.77,
+      "category": "Science and Technology",
+      "close_time": "2030-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXSPACEXMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 102.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "loosely defining the word lands",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "i will watch that livestream at 4am and cry in a kitchen",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "it touches down and gets a Tesla ad wrap before the dust settles",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "eleven craters in, one of them legally counts",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "it's a spectrum. debris field on one end, parking job on the other",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "\"rapid unscheduled disassembly, but on Mars\" is not the sentence i wanted",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "throwing metal at another planet on purpose still short circuits me",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "like a punter pinning it inside the five from another hemisphere",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSSAUDINUCLEAR-27-27JAN01",
+      "title": "The US-Saudi nuclear pact enters force by 2027",
+      "subtitle": "the bilateral U.S.\u2013Saudi agreement for peaceful nuclear cooperation under Section 123 of the Atomic Energy Act has entered into force and become legally operative between the two governments",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 5.0,
+      "tier": "yellow",
+      "quip": "\"tremendous sand. the best sand for a reactor, people tell me\"",
+      "yes_price": "0.2000",
+      "volume": 13806.57,
+      "category": "Politics",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXUSSAUDINUCLEAR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 89.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "civilian purposes, they assure me",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "i keep waiting for the week where this stops sounding insane",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "reactor in Riyadh, ribbon cutting sponsored by a golf league",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "the 123 Agreement sounds like a boy band and it is plutonium paperwork",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "20 cents on the dollar and the enrichment clause is one sentence",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "Michael Corleone doing the family business out in the desert",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "so Vegas gets a nuclear golf course, essentially",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "\"tremendous sand. the best sand for a reactor, people tell me\"",
+          "mode": 4,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26FAY-T1",
+      "title": "Fay becomes a Category 1 hurricane",
+      "subtitle": "Hurricane Fay",
+      "yes_sub_title": "Category 1 or above",
+      "no_sub_title": "Category 1 or above",
+      "payout": 10.0,
+      "tier": "orange",
+      "quip": "Cantore lands at the airport and the locals start loading the truck",
+      "yes_price": "0.1000",
+      "volume": 11054.08,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 123.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Fay finally got serious",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "i have never once trusted a storm named Fay and here we are",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "naming her Fay is how a whole county sleeps through the roof leaving",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "Cantore lands at the airport and the locals start loading the truck",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "Category 1 is the participation trophy of hurricanes and she earned it",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "ten dollars per dollar and she only has to hit 74 miles an hour",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "Fay is the walk-on who suddenly starts. Rudy with wind",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "storm names peaked at Fay and the panel refuses to admit it",
+          "mode": 3,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXYELLVISITS-27MAR31-T5000000",
+      "title": "Yellowstone tops 5 million visits next year",
+      "subtitle": "2026",
+      "yes_sub_title": "Above 5 million",
+      "no_sub_title": "Above 5 million",
+      "payout": 10.0,
+      "tier": "orange",
+      "quip": "five million people driving nine hours to watch water be punctual",
+      "yes_price": "0.1000",
+      "volume": 22177.27,
+      "category": "Economics",
+      "close_time": "2027-03-31T15:29:00Z",
+      "url": "https://kalshi.com/markets/KXYELLVISITS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 114.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "bison jam, all summer",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "i went once and a bison decided where i was parking",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the geyser goes and four hundred phones rise like a stadium wave",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "five million people driving nine hours to watch water be punctual",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "5 million visitors, 4.9 million of them stopped dead in the road",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "Kevin Costner did not have this kind of traffic in mind",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "a hole in the ground that keeps a schedule is nature's best employee",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "Old Faithful is the halftime show and the tourists are the wave",
+          "mode": 6,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXPOPESWIFT-27",
+      "title": "Taylor Swift meets Pope Leo XIV this year",
+      "subtitle": "Before Jan 1, 2027",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 20.0,
+      "tier": "red",
+      "quip": "\"your holiness, are you ready for it\"",
+      "yes_price": "0.0500",
+      "volume": 21116.13,
+      "category": "Social",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXPOPESWIFT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 122.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "holy trinity, expanded roster",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "i need this photograph more than i need most things in my life",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "he blesses the vault tracks and gets canonized by the fandom on Friday",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "\"your holiness, are you ready for it\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "twenty bucks for a handshake photo is the cheapest merch she's ever moved",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "first American pope and the move is clearly a friendship bracelet",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "bigger crossover than the Chiefs thing and that ate an entire season",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "Vatican gift shop stocking cardigans by noon",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0x8a57ddd3751bf7ec1e1741bffe6a33a504ad68003f7673f6e310a709e0a5db65",
+      "title": "GTE launches a token by September",
+      "subtitle": "",
+      "payout": 83.33,
+      "tier": "purple",
+      "quip": "GTE was my grandmother's phone company and i refuse to let that go",
+      "yes_price": "0.0120",
+      "volume": 9380.248798,
+      "category": "Other",
+      "close_time": "2026-10-01T03:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/will-gte-launch-a-token-by",
+      "platform": "polymarket",
+      "score": 55.0,
+      "quip_alts": [
+        {
+          "quip": "points, then a token",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "i do not know what GTE is and i am 83 dollars curious",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "83 to 1 on a ticker nobody has typed yet",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "the airdrop farmers have been awake since 2024 and they can smell it",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "GTE was my grandmother's phone company and i refuse to let that go",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "every exchange eventually decides it should print its own money. beautiful cycle",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we have no plans for a token\" three tweets later, there are plans",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "somebody's eighteen month testnet grind about to be worth a sandwich",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    }
+  ]
+}
