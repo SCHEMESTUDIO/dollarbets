@@ -1,104 +1,4 @@
 {
-  "SB-7999ED48": {
-    "title": "Cowboys knock off the Ravens in Dallas",
-    "quip": "Lamar's road trip ends at Jerry World",
-    "cached_at": "2026-09-20T23:50:23.883185+00:00"
-  },
-  "SB-6BA8FC90": {
-    "title": "Tigers handle the Nationals by two or more",
-    "quip": "Skubal makes it look like batting practice",
-    "cached_at": "2026-09-20T23:50:23.883185+00:00"
-  },
-  "SB-A48C9F90": {
-    "title": "Cardinals stun the 49ers in San Francisco",
-    "quip": "Kyler doing his best Levi's Stadium spoiler act",
-    "cached_at": "2026-09-20T23:50:23.883185+00:00"
-  },
-  "SB-57118862": {
-    "title": "Blue Jays bury the Orioles by five",
-    "quip": "Vladdy turning Camden Yards into a home run derby booth",
-    "cached_at": "2026-09-20T23:50:23.883185+00:00"
-  },
-  "SB-C9F62B4E": {
-    "title": "White Sox blow out the Tigers by ten",
-    "quip": "the South Side rises like it's 2005 again",
-    "cached_at": "2026-09-20T23:50:23.883185+00:00"
-  },
-  "SB-ACAADF65": {
-    "title": "Bowling Green stuns South Florida tonight",
-    "quip": "MAC-tion doesn't care about your Group of Five rankings",
-    "cached_at": "2026-09-20T23:50:30.229883+00:00"
-  },
-  "SB-684F5FB2": {
-    "title": "Southern Miss shocks Tulane in New Orleans",
-    "quip": "Golden Eagles crashing the Green Wave's playoff dinner party",
-    "cached_at": "2026-09-20T23:50:30.229883+00:00"
-  },
-  "SB-55A5E92E": {
-    "title": "Golden Eagles knock off the Hawks in Sendai",
-    "quip": "Rakuten playing landlord to the Pacific League bully",
-    "cached_at": "2026-09-20T23:50:41.719699+00:00"
-  },
-  "SB-BE55F7C9": {
-    "title": "Carp swim past the Dragons in Nagoya",
-    "quip": "Hiroshima red taking the Vantelin floor",
-    "cached_at": "2026-09-20T23:50:41.719699+00:00"
-  },
-  "SB-ADEA7333": {
-    "title": "Buffaloes stampede the Fighters in Sapporo",
-    "quip": "Orix remembering they won three straight pennants",
-    "cached_at": "2026-09-20T23:50:41.719699+00:00"
-  },
-  "SB-949B5ACC": {
-    "title": "KalPa beat KooKoo by two or more",
-    "quip": "Kuopio hockey arriving in Kouvola with intent",
-    "cached_at": "2026-09-20T23:50:41.719699+00:00"
-  },
-  "SB-712408EA": {
-    "title": "HIFK bury K\u00e4rp\u00e4t by two-plus goals",
-    "quip": "Helsinki's loudest barn wants a laugher",
-    "cached_at": "2026-09-20T23:50:41.719699+00:00"
-  },
-  "SB-9DC6A55C": {
-    "title": "Link\u00f6ping run Bryn\u00e4s off the ice",
-    "quip": "Saab Arena turning G\u00e4vle into a road trip nightmare",
-    "cached_at": "2026-09-20T23:50:41.719699+00:00"
-  },
-  "SB-1E1E2A0F": {
-    "title": "Lewis Morris stuns Nelson Birchall",
-    "quip": "every British card needs one Rocky Balboa night",
-    "cached_at": "2026-09-20T23:50:41.719699+00:00"
-  },
-  "SB-8B5F606D": {
-    "title": "Storm shock the Aces in Vegas",
-    "quip": "Seattle walking into A'ja Wilson's house uninvited",
-    "cached_at": "2026-09-20T23:50:41.719699+00:00"
-  },
-  "SB-2D8C12D6": {
-    "title": "Chiefs handle the Colts at Arrowhead",
-    "quip": "Mahomes at home in January weather, rent money",
-    "cached_at": "2026-09-20T23:50:50.234443+00:00"
-  },
-  "SB-101A6300": {
-    "title": "Orioles keep it close against Toronto",
-    "quip": "Camden Yards keeps everything within a swing",
-    "cached_at": "2026-09-20T23:50:50.234443+00:00"
-  },
-  "SB-1DA9DE61": {
-    "title": "Tigers stay within a touchdown of White Sox",
-    "quip": "the South Side isn't blowing anybody out",
-    "cached_at": "2026-09-20T23:50:50.234443+00:00"
-  },
-  "SB-D5298BA9": {
-    "title": "Giants stay within a run of the Twins",
-    "quip": "Oracle Park fog swallows the extra run",
-    "cached_at": "2026-09-20T23:50:50.234443+00:00"
-  },
-  "SB-12CA4C17": {
-    "title": "Tigers take care of the Nationals",
-    "quip": "Skubal's rotation versus a rebuild, the math checks out",
-    "cached_at": "2026-09-20T23:50:50.234443+00:00"
-  },
   "SB-8945B22F": {
     "title": "Sixers steal one at the Garden tonight",
     "quip": "Embiid vs. the Knicks crowd, a classic feud",
@@ -773,5 +673,60 @@
     "title": "Yankees handle the Rays in the Bronx",
     "quip": "Judge does Judge things, everyone goes home",
     "cached_at": "2026-09-24T19:47:47.996611+00:00"
+  },
+  "SB-1EE727D0": {
+    "title": "Mets bury the Nationals by two or more",
+    "quip": "the Nats bullpen hands out extra-base gifts like Halloween candy",
+    "cached_at": "2026-09-25T00:19:38.299613+00:00"
+  },
+  "SB-7211E0DE": {
+    "title": "Dodgers beat Padres by two or more tonight",
+    "quip": "Ohtani and Freeman versus a rivalry that keeps ending badly",
+    "cached_at": "2026-09-25T00:19:38.299613+00:00"
+  },
+  "SB-945D5CCA": {
+    "title": "Rangers handle Twins by two-plus in Minnesota",
+    "quip": "Target Field in September, Twins already mailing postcards home",
+    "cached_at": "2026-09-25T00:19:38.299613+00:00"
+  },
+  "SB-A48C9F90": {
+    "title": "Cardinals walk into San Francisco and beat the Niners",
+    "quip": "Kyler Murray plays best when nobody sets an alarm",
+    "cached_at": "2026-09-25T00:19:38.299613+00:00"
+  },
+  "SB-ACAADF65": {
+    "title": "Bowling Green stuns South Florida in Ohio",
+    "quip": "MAC-tion at the Doyt, where logic goes to die",
+    "cached_at": "2026-09-25T00:19:38.299613+00:00"
+  },
+  "SB-54DCB856": {
+    "title": "Red Sox blow out Guardians by six-plus",
+    "quip": "Green Monster doubles until Cleveland's bullpen asks for mercy",
+    "cached_at": "2026-09-25T00:19:38.299613+00:00"
+  },
+  "SB-684F5FB2": {
+    "title": "Southern Miss shocks Tulane in New Orleans",
+    "quip": "Golden Eagles crashing the Green Wave's second line parade",
+    "cached_at": "2026-09-25T00:19:45.742719+00:00"
+  },
+  "SB-6C851580": {
+    "title": "Sparks knock off the Valkyries tonight",
+    "quip": "Cameron Brink's homecoming crowd wants one loud night",
+    "cached_at": "2026-09-25T00:19:55.795435+00:00"
+  },
+  "SB-75BBD019": {
+    "title": "Bahamas upset Bermuda on the pitch",
+    "quip": "island cricket beef older than the shorts",
+    "cached_at": "2026-09-25T00:19:55.795435+00:00"
+  },
+  "SB-8382D0D5": {
+    "title": "Mariners handle the Angels tonight",
+    "quip": "Cal Raleigh's bat makes this arithmetic simple",
+    "cached_at": "2026-09-25T00:20:02.702780+00:00"
+  },
+  "SB-4CBF77EB": {
+    "title": "Twins stay within a run of the Rangers",
+    "quip": "Target Field games die by a single Seager swing",
+    "cached_at": "2026-09-25T00:20:02.702780+00:00"
   }
 }

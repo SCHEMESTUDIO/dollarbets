@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-09-25T00:19:24.917831+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 6,
+    "polymarket": 4
+  },
+  "board": [
+    {
+      "ticker": "KXNFLSZNRECORD-27RECYDS-Y",
+      "title": "The single season receiving yards record falls",
+      "subtitle": "Receiving Yards - 2026-27",
+      "yes_sub_title": "Over 1964 receiving yards",
+      "no_sub_title": "Over 1964 receiving yards",
+      "payout": 1.52,
+      "tier": "green",
+      "quip": "Calvin Johnson watching from a pontoon boat, slowly lowering his beer",
+      "yes_price": "0.6600",
+      "volume": 555.47,
+      "category": "Sports",
+      "close_time": "2027-01-18T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNFLSZNRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 31.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "Calvin Johnson watching from a pontoon boat, slowly lowering his beer",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "eleven catches a game for eighteen straight weeks and my fantasy team still misses playoffs",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "I have had Megatron's number memorized since middle school and now what do I do",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "sorry Calvin",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "receiving yards are officially back on the menu",
+          "mode": 3,
+          "score": 4
+        },
+        {
+          "quip": "like somebody finally beating the arcade high score that's been initialed ASS since 2004",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "\"the scheme is we throw it deep every single play,\" says a genius",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "Megatron got up from the table for one second",
+          "mode": 8,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXROBOTMARS-35",
+      "title": "A robot walks on Mars before any human",
+      "subtitle": "Before 2035",
+      "yes_sub_title": "Before 2035",
+      "no_sub_title": "Before 2035",
+      "payout": 1.99,
+      "tier": "green",
+      "quip": "beaten by a Roomba",
+      "yes_price": "0.5020",
+      "volume": 52927.57,
+      "category": "Science and Technology",
+      "close_time": "2035-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXROBOTMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 57.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "first words transmitted from Mars are a firmware update notification",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "I'm not saying I'm jealous of a machine but I am absolutely jealous of a machine",
+          "mode": 2,
+          "score": 5.5
+        },
+        {
+          "quip": "beaten by a Roomba",
+          "mode": 9,
+          "score": 9
+        },
+        {
+          "quip": "the first footprint on another planet costs $1.99 and is made of rubber",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "like your little brother beating the level you've been stuck on for a month",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "\"one small step\" but it's a bluetooth speaker strapped to a Boston Dynamics dog",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "I'm fine with it honestly, robots never complain about the commute",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "this is exactly the Terminator backstory and Congress is doing nothing",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXMETEOR-30",
+      "title": "A major meteor hits Earth this decade",
+      "subtitle": "Large meteor strike",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 2.13,
+      "tier": "green",
+      "quip": "aim for Florida, they've been asking nicely for years",
+      "yes_price": "0.4700",
+      "volume": 142822.34,
+      "category": "Science and Technology",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXMETEOR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 91.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Bruce Willis is seventy now and the drill union has questions",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "I would like it to land on my student loan servicer specifically",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the dinosaurs are laughing",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "$2.13 and I finally get to use the phrase impact winter in conversation",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "aim for Florida, they've been asking nicely for years",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "space rocks are historically, mathematically, gloriously undefeated",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "like the Yankees signing another guy. nothing anybody can do",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"we've known about this one since 2021,\" says a NASA guy in a Hawaiian shirt",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0xc37f85182c9f8e6a25d9ac915e350f29ec6abd34adcfc75b42235214fcf1a8fd",
+      "title": "Kristi Noem leaves the Trump administration before 2027",
+      "subtitle": "",
+      "payout": 3.03,
+      "tier": "yellow",
+      "quip": "book deal by spring, cable contributor by summer, ballroom dancing by October",
+      "yes_price": "0.3300",
+      "volume": 98151.493174,
+      "category": "World",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/who-will-leave-trump-administration-before-2027",
+      "platform": "polymarket",
+      "score": 53.0,
+      "quip_alts": [
+        {
+          "quip": "book deal by spring, cable contributor by summer, ballroom dancing by October",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "I cannot name three cabinet secretaries and I'm somehow tracking departures now",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "cowboy hat, new job",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "$3.03 and a going away sheet cake in the DHS break room",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "cabinet turnover is the NFL coaching carousel with worse tailgates",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "South Dakota tourism ads about to get a serious budget bump",
+          "mode": 7,
+          "score": 6.5
+        },
+        {
+          "quip": "\"she's been fantastic, incredible really, we'll see what happens\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "I do love a resignation letter clearly written from inside a helicopter",
+          "mode": 3,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0x2e31c0152cf639dc7f4e5ffa07575902bae250d3d9eaf97d8e645936c5c73c19",
+      "title": "Rasilingwane becomes the next mayor of Ekurhuleni",
+      "subtitle": "",
+      "payout": 5.95,
+      "tier": "yellow",
+      "quip": "coalition council votes are the Champions League group stage of local government",
+      "yes_price": "0.1680",
+      "volume": 9766.537115,
+      "category": "Other",
+      "close_time": "2027-07-01T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/next-mayor-of-ekurhuleni-germiston",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "I have read this name eleven times and I will still say it wrong out loud",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "South African municipal politics is the deepest lore in the entire game",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "mayor szn in Ekurhuleni",
+          "mode": 9,
+          "score": 3
+        },
+        {
+          "quip": "coalition council votes are the Champions League group stage of local government",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "coalition collapses Tuesday, new mayor Wednesday, same potholes Thursday morning",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "five ninety five and a geography lesson I did not ask for",
+          "mode": 5,
+          "score": 6
+        },
+        {
+          "quip": "Veep, except the episode runs ninety minutes and nobody subtitled it",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "\"the coalition remains strong,\" says a man who will not be mayor by Friday",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xb66b710cf927a7156315648b147d52696c16c6530a63fb7a5680daad408275f5",
+      "title": "Geraldine Ponce wins the Nayarit governor race",
+      "subtitle": "",
+      "payout": 6.39,
+      "tier": "yellow",
+      "quip": "like a local news anchor winning a Senate seat, which happens constantly here",
+      "yes_price": "0.1565",
+      "volume": 9306.293704,
+      "category": "World",
+      "close_time": "2028-01-01T04:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/nayarit-governor-election-winner-20260803170329",
+      "platform": "polymarket",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "I know more about Nayarit than I do about my own county commissioner",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Tepic's finest going full statewide and I am loudly for it",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "governor of the beach",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "like a local news anchor winning a Senate seat, which happens constantly here",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "inauguration in Tepic, mariachi added to the state payroll by noon",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "2027 is three whole years of me pretending I followed this closely",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "the Parks and Rec arc where Leslie actually gets the bigger job",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "\"puro Nayarit,\" she says, to a plaza that fully agrees",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "STARSHIPMARS-29DEC31",
+      "title": "Starship sends humans to Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Not Before 2030",
+      "payout": 7.14,
+      "tier": "orange",
+      "quip": "$7.14 to Mars, which beats what I paid for LaGuardia last Thursday",
+      "yes_price": "0.1400",
+      "volume": 53195.88,
+      "category": "Companies",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "crew of four: three engineers and one guy who posted his way on",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "I would not get in that thing to go to Newark",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "seven dollars, one way ticket",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "$7.14 to Mars, which beats what I paid for LaGuardia last Thursday",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "you know in Alien when the crew wakes up and immediately regrets everything",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "put me on the manifest, I'll do dishes the whole way",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "this is the Browns guaranteeing a parade, except with more explosions",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we're targeting 2029\" has been said out loud every year since 2016",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26FAY-T1",
+      "title": "Fay strengthens into a hurricane",
+      "subtitle": "Hurricane Fay",
+      "yes_sub_title": "Category 1 or above",
+      "no_sub_title": "Category 1 or above",
+      "payout": 10.0,
+      "tier": "orange",
+      "quip": "Jim Cantore touches down somewhere before the first gust, as prophesied",
+      "yes_price": "0.1000",
+      "volume": 31929.38,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Fay sounds like a substitute teacher and she is going to wreck the Outer Banks",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "my cousin in Jacksonville already bought nine cases of water and zero flashlights",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Fay means business",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "Jim Cantore touches down somewhere before the first gust, as prophesied",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "a Wilmington gas station sells out of ice and White Claw simultaneously",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "category one is the tutorial level and we still lose the boat",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "a Cat 1 is the preseason game of hurricanes",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"we're on the dirty side of it,\" says a man in waders, thrilled",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHMONTH-26SEP",
+      "title": "This is the hottest September ever recorded",
+      "subtitle": "In Sep 2026",
+      "yes_sub_title": "Hottest ever",
+      "no_sub_title": "Hottest ever",
+      "payout": 25.0,
+      "tier": "red",
+      "quip": "the part in Interstellar where they quietly stop mentioning the corn",
+      "yes_price": "0.0400",
+      "volume": 32318.51,
+      "category": "Climate and Weather",
+      "close_time": "2026-10-16T03:59:00Z",
+      "url": "https://kalshi.com/markets/KXHMONTH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 144.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "I have accepted that I now own exactly one season of clothing",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "pumpkin spice launches in August and melts in the drive thru",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "September, now summer",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "$25 covers roughly four minutes of my August power bill",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Phoenix residents genuinely will not notice this happening",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "records are records and I clap for all of them, nervously",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "the climate running hurry up offense with nobody subbing out",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "the part in Interstellar where they quietly stop mentioning the corn",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x02def3545714ba14f74a8ec4d73c1f5dc05485d469a8bbcc3098403958d83eb5",
+      "title": "Johnnie LaRossa wins this season of The Bachelorette",
+      "subtitle": "",
+      "payout": 142.86,
+      "tier": "purple",
+      "quip": "final rose, sponsored gummies, then a joint statement in June asking for privacy",
+      "yes_price": "0.0070",
+      "volume": 9544.243647999996,
+      "category": "Other",
+      "close_time": "2026-11-30T00:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/bachelorette-season-22-winner",
+      "platform": "polymarket",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "I do not watch this show and I suddenly have a guy",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "one dollar becomes 142 and Johnnie becomes a teeth whitening spokesman by March",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "team Johnnie, apparently",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "final rose, sponsored gummies, then a joint statement in June asking for privacy",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "a man named Johnnie LaRossa cannot lose, I've decided this",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "this is a 16 seed and he is playing like one",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "the Fantasy Suite is just the Situation Room with candles",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "\"I didn't come here to make friends,\" says a man with zero friends",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    }
+  ]
+}
