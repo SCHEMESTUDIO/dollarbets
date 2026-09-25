@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-25T05:12:42.290340+00:00",
+          "tweet_id": "2103351967389282577",
+          "reply_tweet_id": "2103351968932786562"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "18665841",
+        "page": "https://www.pexels.com/photo/dark-railway-station-18665841/",
+        "photographer": "Yi\u011fit  KARAAL\u0130O\u011eLU",
+        "license": "Pexels License",
+        "phrases": [
+          "desert canyon dusk",
+          "empty rail track fog"
+        ],
+        "tokens": {
+          "input_tokens": 3632,
+          "output_tokens": 28
         }
       }
     },
