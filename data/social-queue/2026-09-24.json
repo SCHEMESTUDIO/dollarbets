@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-25T18:05:03.782402+00:00",
+          "tweet_id": "2103546337690272235",
+          "reply_tweet_id": "2103546339250643164"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "openverse",
+        "id": "5256e45e-ac5e-460c-b966-b930b8179eff",
+        "page": "https://commons.wikimedia.org/w/index.php?curid=678854",
+        "photographer": "Wing-Chi Poon",
+        "license": "CC BY-SA 2.5",
+        "phrases": [
+          "geyser basin steam dusk",
+          "empty park road mountains"
+        ],
+        "tokens": {
+          "input_tokens": 7576,
+          "output_tokens": 40
         }
       }
     },
