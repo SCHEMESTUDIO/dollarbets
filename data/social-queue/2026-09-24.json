@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-25T20:39:32.017787+00:00",
+          "tweet_id": "2103585211468447771",
+          "reply_tweet_id": "2103585213053862331"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "6451424",
+        "page": "https://www.pexels.com/photo/an-electric-post-at-night-6451424/",
+        "photographer": "Intricate Explorer",
+        "license": "Pexels License",
+        "phrases": [
+          "telephone poles dusk highway",
+          "empty switchboard room night"
+        ],
+        "tokens": {
+          "input_tokens": 4083,
+          "output_tokens": 31
         }
       }
     }
