@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-26T17:23:23.463303+00:00",
+          "tweet_id": "2103898238508216732",
+          "reply_tweet_id": "2103898240030777510"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "116149",
+        "page": "https://www.pexels.com/photo/sea-shore-view-during-afternoon-116149/",
+        "photographer": "Snapwire",
+        "license": "Pexels License",
+        "phrases": [
+          "empty football stadium dusk",
+          "pontoon boat lake evening"
+        ],
+        "tokens": {
+          "input_tokens": 4091,
+          "output_tokens": 32
         }
       }
     },
