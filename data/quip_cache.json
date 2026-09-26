@@ -1,54 +1,4 @@
 {
-  "SB-E9A5C503": {
-    "title": "Mets take down the Rangers in Arlington",
-    "quip": "Lindor's hair alone outranks the Texas lineup",
-    "cached_at": "2026-09-22T00:39:01.086807+00:00"
-  },
-  "SB-DC3B4BA6": {
-    "title": "Red Sox beat Guardians by two or more",
-    "quip": "Fenway's Green Monster eats Cleveland's flyball staff",
-    "cached_at": "2026-09-22T00:39:01.086807+00:00"
-  },
-  "SB-769A15D3": {
-    "title": "Leafs beat Islanders by two or more",
-    "quip": "Matthews scores, Toronto pretends June exists",
-    "cached_at": "2026-09-22T00:39:01.086807+00:00"
-  },
-  "SB-B2F5E2A5": {
-    "title": "Warriors upset the Spurs in San Antonio",
-    "quip": "Curry vs Wemby, the height chart means nothing",
-    "cached_at": "2026-09-22T00:39:01.086807+00:00"
-  },
-  "SB-0D0D9AB5": {
-    "title": "Twins blow out the Giants by six",
-    "quip": "Oracle Park turns into batting practice, fog and all",
-    "cached_at": "2026-09-22T00:39:01.086807+00:00"
-  },
-  "SB-64F630AE": {
-    "title": "Sun stun the Mystics in D.C.",
-    "quip": "Connecticut's rebuild skips the awkward teenage phase",
-    "cached_at": "2026-09-22T00:39:13.222924+00:00"
-  },
-  "SB-61F880B9": {
-    "title": "Portland Fire burn the Valkyries",
-    "quip": "expansion team, Rip City volume, Valhalla postponed",
-    "cached_at": "2026-09-22T00:39:13.222924+00:00"
-  },
-  "SB-08D2CBCA": {
-    "title": "Braves handle the Reds in Atlanta tonight",
-    "quip": "Acu\u00f1a in the batter's box, Cincinnati in the way",
-    "cached_at": "2026-09-22T00:39:20.026119+00:00"
-  },
-  "SB-377334AC": {
-    "title": "Penguins keep it close in Washington tonight",
-    "quip": "Crosby and Ovechkin never make it easy",
-    "cached_at": "2026-09-22T00:39:20.026119+00:00"
-  },
-  "SB-A8F49D5F": {
-    "title": "Tigers take care of the Nationals tonight",
-    "quip": "Skubal weather in Detroit",
-    "cached_at": "2026-09-22T00:39:20.026119+00:00"
-  },
   "SB-19D67121": {
     "title": "Bruins beat Rangers by two or more tonight",
     "quip": "the Garden crowd goes home quiet again",
@@ -813,5 +763,80 @@
     "title": "Lakers handle the Blazers tonight",
     "quip": "Portland's rebuild visits a title payroll",
     "cached_at": "2026-09-26T00:25:07.272739+00:00"
+  },
+  "SB-E12ABEBA": {
+    "title": "Rangers take down Twins by two or more",
+    "quip": "Target Field crowd filing out by the seventh",
+    "cached_at": "2026-09-26T12:39:44.309828+00:00"
+  },
+  "SB-2D6BA462": {
+    "title": "Pirates bury the Tigers in Detroit",
+    "quip": "Paul Skenes energy even on days he isn't pitching",
+    "cached_at": "2026-09-26T12:39:44.309828+00:00"
+  },
+  "SB-769A15D3": {
+    "title": "Leafs beat Islanders by two-plus tonight",
+    "quip": "Matthews treating the Isles trap like a speed bump",
+    "cached_at": "2026-09-26T12:39:44.309828+00:00"
+  },
+  "SB-FB76DB64": {
+    "title": "Colorado upsets Baylor in Waco",
+    "quip": "Prime rolls into Waco in full Cartier shades",
+    "cached_at": "2026-09-26T12:39:44.309828+00:00"
+  },
+  "SB-A3CCD654": {
+    "title": "Mets blow out Nationals by six-plus",
+    "quip": "Lindor turning Nationals Park into batting practice",
+    "cached_at": "2026-09-26T12:39:44.309828+00:00"
+  },
+  "SB-FE16D032": {
+    "title": "Pelicans skate past HIFK by two tonight",
+    "quip": "Lahti ice, Helsinki tears, same old script",
+    "cached_at": "2026-09-26T12:39:57.595667+00:00"
+  },
+  "SB-516659CC": {
+    "title": "HV71 raid V\u00e4xj\u00f6 and win outright",
+    "quip": "J\u00f6nk\u00f6ping's finest crashing the Lakers' house party",
+    "cached_at": "2026-09-26T12:39:57.595667+00:00"
+  },
+  "SB-AC647279": {
+    "title": "HPK handle \u00c4ss\u00e4t by a clear two",
+    "quip": "H\u00e4meenlinna doesn't do one-goal drama",
+    "cached_at": "2026-09-26T12:39:57.595667+00:00"
+  },
+  "SB-64AB34C4": {
+    "title": "KooKoo bury Jukurit by two or more",
+    "quip": "Kouvola's finest sending Mikkeli home quiet",
+    "cached_at": "2026-09-26T12:39:57.595667+00:00"
+  },
+  "SB-C8FD5840": {
+    "title": "Amir Abubaker shocks Bradley Goldsmith",
+    "quip": "Goldsmith's chin is about to file a complaint",
+    "cached_at": "2026-09-26T12:39:57.595667+00:00"
+  },
+  "SB-9AAF9CF1": {
+    "title": "Texas takes down Tennessee in Knoxville tonight",
+    "quip": "Rocky Top gets muted by Arch Manning's arm",
+    "cached_at": "2026-09-26T12:40:05.862865+00:00"
+  },
+  "SB-2DD4DF3D": {
+    "title": "Pirates keep it within a run against Tigers",
+    "quip": "Skenes turns Comerica into a library",
+    "cached_at": "2026-09-26T12:40:05.862865+00:00"
+  },
+  "SB-A4382320": {
+    "title": "Blue Jays handle the Reds at Rogers Centre",
+    "quip": "Vladdy feasts, Cincinnati's bullpen sets the table",
+    "cached_at": "2026-09-26T12:40:05.862865+00:00"
+  },
+  "SB-104CA874": {
+    "title": "Rangers stay within a run of the Twins",
+    "quip": "Target Field nail-biters are basically a Minnesota tradition",
+    "cached_at": "2026-09-26T12:40:05.862865+00:00"
+  },
+  "SB-97BC9C23": {
+    "title": "Kent State beats Ball State in MACtion",
+    "quip": "Tuesday night football nobody asked for, everybody watches",
+    "cached_at": "2026-09-26T12:40:05.862865+00:00"
   }
 }
