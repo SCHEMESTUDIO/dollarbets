@@ -1,59 +1,4 @@
 {
-  "SB-3401E2FB": {
-    "title": "Yankees bury the Rays by two or more tonight",
-    "quip": "the Bronx doesn't do one-run wins gracefully",
-    "cached_at": "2026-09-21T20:15:20.335077+00:00"
-  },
-  "SB-9A6E25CE": {
-    "title": "Eagles steal one from the Fighters in Sapporo",
-    "quip": "Rakuten's bats wake up inside the Big Boss dome",
-    "cached_at": "2026-09-21T20:15:35.442344+00:00"
-  },
-  "SB-17DC8937": {
-    "title": "Mercury handle the Wings in Phoenix",
-    "quip": "Arike gets buckets, Phoenix gets the win",
-    "cached_at": "2026-09-21T20:15:35.442344+00:00"
-  },
-  "SB-6268D4BA": {
-    "title": "Fr\u00f6lunda beat F\u00e4rjestad by two or more",
-    "quip": "Scandinavium crowd gets its two-goal cushion",
-    "cached_at": "2026-09-21T20:15:35.442344+00:00"
-  },
-  "SB-F1CB80E2": {
-    "title": "Pelicans win by multiple goals at Jokerit",
-    "quip": "Lahti's birds bully Helsinki's clowns, as nature intended",
-    "cached_at": "2026-09-21T20:15:35.442344+00:00"
-  },
-  "SB-D5040F41": {
-    "title": "\u00d6rebro roll Timr\u00e5 by two on the road",
-    "quip": "quiet Behrn Arena types crashing the Timr\u00e5 party",
-    "cached_at": "2026-09-21T20:15:35.442344+00:00"
-  },
-  "SB-D33BBCCB": {
-    "title": "Lukko beat HPK by two-plus in H\u00e4meenlinna",
-    "quip": "Rauma's finest treat this like a Tuesday chore",
-    "cached_at": "2026-09-21T20:15:35.442344+00:00"
-  },
-  "SB-A4EAC688": {
-    "title": "Mets keep it close in Texas",
-    "quip": "Rangers win, Mets hang around like a bad sinker",
-    "cached_at": "2026-09-21T20:15:43.595582+00:00"
-  },
-  "SB-43442512": {
-    "title": "Lakers handle the Warriors tonight",
-    "quip": "Steph can't carry a nursing home by himself",
-    "cached_at": "2026-09-21T20:15:43.595582+00:00"
-  },
-  "SB-1FDA3D80": {
-    "title": "Lakers take care of Portland tonight",
-    "quip": "Blazers road trips end like a Hallmark funeral",
-    "cached_at": "2026-09-21T20:15:43.595582+00:00"
-  },
-  "SB-2E9C246A": {
-    "title": "Ravens win in Dallas",
-    "quip": "Lamar in AT&T Stadium is a highlight factory",
-    "cached_at": "2026-09-21T20:15:43.595582+00:00"
-  },
   "SB-E9A5C503": {
     "title": "Mets take down the Rangers in Arlington",
     "quip": "Lindor's hair alone outranks the Texas lineup",
@@ -788,5 +733,85 @@
     "title": "Bruins keep it tight in Minnesota",
     "quip": "Swayman steals enough of it to matter",
     "cached_at": "2026-09-25T19:49:03.575864+00:00"
+  },
+  "SB-4F8E60F6": {
+    "title": "Padres beat Diamondbacks by two or more tonight",
+    "quip": "Petco air swallows Arizona bats whole",
+    "cached_at": "2026-09-26T00:24:40.619081+00:00"
+  },
+  "SB-225941A2": {
+    "title": "Angels take down Mariners by two-plus tonight",
+    "quip": "Trout's ghost haunts T-Mobile Park one more time",
+    "cached_at": "2026-09-26T00:24:40.619081+00:00"
+  },
+  "SB-DCDAFBB2": {
+    "title": "Jets beat Bruins by two tonight in Winnipeg",
+    "quip": "Connor Hellebuyck turns the Bruins into a highlight reel",
+    "cached_at": "2026-09-26T00:24:40.619081+00:00"
+  },
+  "SB-85CA2C39": {
+    "title": "Giants upset the Dodgers at Oracle",
+    "quip": "Ohtani in orange-and-black territory is a horror film",
+    "cached_at": "2026-09-26T00:24:40.619081+00:00"
+  },
+  "SB-9E5509E5": {
+    "title": "Tigers take down BayStars by two or more tonight",
+    "quip": "Koshien crowd already singing the Rokko Oroshi",
+    "cached_at": "2026-09-26T00:24:57.818579+00:00"
+  },
+  "SB-8FB7828D": {
+    "title": "Orix runs away from the Fighters tonight",
+    "quip": "Buffaloes bullpen turning Kyocera Dome into a vault",
+    "cached_at": "2026-09-26T00:24:57.818579+00:00"
+  },
+  "SB-56945F71": {
+    "title": "Tiger-Cats upset the Elks in Edmonton",
+    "quip": "Commonwealth Stadium is cold, the Elks offense is colder",
+    "cached_at": "2026-09-26T00:24:57.818579+00:00"
+  },
+  "SB-E8ED9AD0": {
+    "title": "Michael Pirotton stuns Johnny Fisher",
+    "quip": "the Romford Bull walks into an actual matador",
+    "cached_at": "2026-09-26T00:24:57.818579+00:00"
+  },
+  "SB-D3EBFF55": {
+    "title": "Ivan Trofimovich shocks Lewis Richardson",
+    "quip": "Olympic medal, meet the guy who didn't read the script",
+    "cached_at": "2026-09-26T00:24:57.818579+00:00"
+  },
+  "SB-D700691E": {
+    "title": "Diamondbacks keep it close in San Diego tonight",
+    "quip": "Petco keeps the runs in the yard",
+    "cached_at": "2026-09-26T00:25:07.272739+00:00"
+  },
+  "SB-EE2844D2": {
+    "title": "Dodgers beat Giants by two or more tonight",
+    "quip": "Ohtani doesn't do one-run games at Oracle",
+    "cached_at": "2026-09-26T00:25:07.272739+00:00"
+  },
+  "SB-D278B8F3": {
+    "title": "Astros handle the A's tonight",
+    "quip": "Sacramento minor league park, major league lineup",
+    "cached_at": "2026-09-26T00:25:07.272739+00:00"
+  },
+  "SB-2E9C246A": {
+    "title": "Ravens beat the Cowboys in Dallas",
+    "quip": "Lamar makes that secondary look like traffic cones",
+    "cached_at": "2026-09-26T00:25:07.272739+00:00"
+  },
+  "SB-184C97E3": {
+    "title": "Dodgers win the Giants rematch by two-plus",
+    "quip": "payroll gap does its usual arithmetic",
+    "cached_at": "2026-09-26T00:25:07.272739+00:00"
+  },
+  "SB-43442512": {
+    "title": "Lakers beat the Warriors at Crypto",
+    "quip": "Luka and LeBron versus Steph's knees",
+    "cached_at": "2026-09-26T00:25:07.272739+00:00"
+  },
+  "SB-1FDA3D80": {
+    "title": "Lakers handle the Blazers tonight",
+    "quip": "Portland's rebuild visits a title payroll",
+    "cached_at": "2026-09-26T00:25:07.272739+00:00"
   }
 }

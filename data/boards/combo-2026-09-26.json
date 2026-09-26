@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-09-26T00:25:13.639150+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 9,
+    "NFL": 1
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-BD19D407",
+      "title": "Toledo Rockets wins + Carolina Panthers wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:45056-3648433-5792770&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "San Diego State Aztecs @ Toledo Rockets + Carolina Panthers @ Cleveland Browns",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Diego State Aztecs @ Toledo Rockets",
+          "pick": "Toledo Rockets wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45056-3648433-5792770&type=Single",
+          "commence_time": "2026-09-26T16:00:00Z"
+        },
+        {
+          "matchup": "Carolina Panthers @ Cleveland Browns",
+          "pick": "Carolina Panthers wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43442-3652327-5800110&type=Single",
+          "commence_time": "2026-09-27T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-26T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-BC37972C",
+      "title": "Toledo Rockets wins + New York Giants wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:45056-3648433-5792770&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "San Diego State Aztecs @ Toledo Rockets + Tennessee Titans @ New York Giants",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Diego State Aztecs @ Toledo Rockets",
+          "pick": "Toledo Rockets wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45056-3648433-5792770&type=Single",
+          "commence_time": "2026-09-26T16:00:00Z"
+        },
+        {
+          "matchup": "Tennessee Titans @ New York Giants",
+          "pick": "New York Giants wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43446-3652386-5800214&type=Single",
+          "commence_time": "2026-09-27T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-26T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-5FDAACA0",
+      "title": "Toledo Rockets wins + Utah Jazz wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:45056-3648433-5792770&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "San Diego State Aztecs @ Toledo Rockets + Utah Jazz @ Memphis Grizzlies",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Diego State Aztecs @ Toledo Rockets",
+          "pick": "Toledo Rockets wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45056-3648433-5792770&type=Single",
+          "commence_time": "2026-09-26T16:00:00Z"
+        },
+        {
+          "matchup": "Utah Jazz @ Memphis Grizzlies",
+          "pick": "Utah Jazz wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19883989-1551545241-2277392653&type=Single",
+          "commence_time": "2026-10-22T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-09-26T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-6AF9E0F4",
+      "title": "Toledo Rockets wins + Tampa Bay Lightning wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:45056-3648433-5792770&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "San Diego State Aztecs @ Toledo Rockets + Tampa Bay Lightning @ New York Rangers",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Diego State Aztecs @ Toledo Rockets",
+          "pick": "Toledo Rockets wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45056-3648433-5792770&type=Single",
+          "commence_time": "2026-09-26T16:00:00Z"
+        },
+        {
+          "matchup": "Tampa Bay Lightning @ New York Rangers",
+          "pick": "Tampa Bay Lightning wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19921088-1555444747-2288127461&type=Single",
+          "commence_time": "2026-10-01T23:10:00Z"
+        }
+      ],
+      "close_time": "2026-09-26T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-0981E49F",
+      "title": "Carolina Panthers wins + New York Giants wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43442-3652327-5800110&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Carolina Panthers @ Cleveland Browns + Tennessee Titans @ New York Giants",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Carolina Panthers @ Cleveland Browns",
+          "pick": "Carolina Panthers wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43442-3652327-5800110&type=Single",
+          "commence_time": "2026-09-27T17:00:00Z"
+        },
+        {
+          "matchup": "Tennessee Titans @ New York Giants",
+          "pick": "New York Giants wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43446-3652386-5800214&type=Single",
+          "commence_time": "2026-09-27T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-09-27T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-C7DEF449",
+      "title": "Carolina Panthers wins + Utah Jazz wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43442-3652327-5800110&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Carolina Panthers @ Cleveland Browns + Utah Jazz @ Memphis Grizzlies",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Carolina Panthers @ Cleveland Browns",
+          "pick": "Carolina Panthers wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43442-3652327-5800110&type=Single",
+          "commence_time": "2026-09-27T17:00:00Z"
+        },
+        {
+          "matchup": "Utah Jazz @ Memphis Grizzlies",
+          "pick": "Utah Jazz wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19883989-1551545241-2277392653&type=Single",
+          "commence_time": "2026-10-22T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-09-27T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-F2CDE57F",
+      "title": "Carolina Panthers wins + Tampa Bay Lightning wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43442-3652327-5800110&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Carolina Panthers @ Cleveland Browns + Tampa Bay Lightning @ New York Rangers",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Carolina Panthers @ Cleveland Browns",
+          "pick": "Carolina Panthers wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43442-3652327-5800110&type=Single",
+          "commence_time": "2026-09-27T17:00:00Z"
+        },
+        {
+          "matchup": "Tampa Bay Lightning @ New York Rangers",
+          "pick": "Tampa Bay Lightning wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19921088-1555444747-2288127461&type=Single",
+          "commence_time": "2026-10-01T23:10:00Z"
+        }
+      ],
+      "close_time": "2026-09-27T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-FD8258A6",
+      "title": "New York Giants wins + Utah Jazz wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43446-3652386-5800214&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Tennessee Titans @ New York Giants + Utah Jazz @ Memphis Grizzlies",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tennessee Titans @ New York Giants",
+          "pick": "New York Giants wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43446-3652386-5800214&type=Single",
+          "commence_time": "2026-09-27T17:00:00Z"
+        },
+        {
+          "matchup": "Utah Jazz @ Memphis Grizzlies",
+          "pick": "Utah Jazz wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19883989-1551545241-2277392653&type=Single",
+          "commence_time": "2026-10-22T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-09-27T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-7106FFA6",
+      "title": "New York Giants wins + Tampa Bay Lightning wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43446-3652386-5800214&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Tennessee Titans @ New York Giants + Tampa Bay Lightning @ New York Rangers",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tennessee Titans @ New York Giants",
+          "pick": "New York Giants wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43446-3652386-5800214&type=Single",
+          "commence_time": "2026-09-27T17:00:00Z"
+        },
+        {
+          "matchup": "Tampa Bay Lightning @ New York Rangers",
+          "pick": "Tampa Bay Lightning wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19921088-1555444747-2288127461&type=Single",
+          "commence_time": "2026-10-01T23:10:00Z"
+        }
+      ],
+      "close_time": "2026-09-27T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-50DD1710",
+      "title": "Utah Jazz wins + Tampa Bay Lightning wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19883989-1551545241-2277392653&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Utah Jazz @ Memphis Grizzlies + Tampa Bay Lightning @ New York Rangers",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Utah Jazz @ Memphis Grizzlies",
+          "pick": "Utah Jazz wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19883989-1551545241-2277392653&type=Single",
+          "commence_time": "2026-10-22T00:10:00Z"
+        },
+        {
+          "matchup": "Tampa Bay Lightning @ New York Rangers",
+          "pick": "Tampa Bay Lightning wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19921088-1555444747-2288127461&type=Single",
+          "commence_time": "2026-10-01T23:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-01T23:10:00Z"
+    }
+  ]
+}

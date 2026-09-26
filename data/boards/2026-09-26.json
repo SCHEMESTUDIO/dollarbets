@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-09-26T00:24:28.548084+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 3
+  },
+  "board": [
+    {
+      "ticker": "KXCOLONIZEMARS-50",
+      "title": "Humans colonize Mars before 2050",
+      "subtitle": "Before 2050",
+      "yes_sub_title": "Before 2050",
+      "no_sub_title": "Before 2050",
+      "payout": 1.73,
+      "tier": "green",
+      "quip": "first Mars Costco opens, membership somehow still $60",
+      "yes_price": "0.5770",
+      "volume": 26113.66,
+      "category": "Science and Technology",
+      "close_time": "2050-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXCOLONIZEMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 69.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "first Mars Costco opens, membership somehow still $60",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i can't get my building to fix the elevator but sure, another planet",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Total Recall was a documentary and we all just let it happen",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "red planet, same landlords",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "$1.73 for an entire planet, and eggs are still $8",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "the dust storms genuinely sound kind of sick though",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "Phoenix residents will barely register the change",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "\"we're bringing the jobs back. to Mars. tremendous gravity situation\"",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x2b6f5c1f7c6562bf2699a102dbd8536c9c0d56926a23ec4fc9521f5296579b0d",
+      "title": "Ravens win by four or more tonight",
+      "subtitle": "",
+      "payout": 2.11,
+      "tier": "green",
+      "quip": "Harbaugh goes for two up nine purely to hurt people",
+      "yes_price": "0.4750",
+      "volume": 99292.96871399999,
+      "category": "Other",
+      "close_time": "2026-09-27T20:25:00Z",
+      "_specificity": 5,
+      "url": "https://polymarket.com/event/nfl-bal-dal-2026-09-27",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i have trusted Lamar with my money more than my own mother",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "Harbaugh goes for two up nine purely to hurt people",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "winning by exactly four is this franchise's love language",
+          "mode": 6,
+          "score": 6
+        },
+        {
+          "quip": "purple math, simple math",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "3.5 points, $2.11, one kicker with a bad hamstring",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "other sideline already pricing flights out of Baltimore",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "a fourth quarter blowout in the cold is the purest thing in sports",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we're gonna run the ball.\" he says it every year. he means it every year\"",
+          "mode": 4,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "0x0cd75f7ad75be2e0a02560cad7c6803f55660810a831ed3d69b47b6a41e9f751",
+      "title": "Mendon\u00e7a Filho takes second in Pernambuco's Senate race",
+      "subtitle": "",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "the Ringo of the whole ticket and Ringo did fine",
+      "yes_price": "0.3400",
+      "volume": 9440.645222000001,
+      "category": "World",
+      "close_time": "2026-10-05T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/pernambuco-senate-election-2nd-place",
+      "platform": "polymarket",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "here i am at 2am learning the electoral geography of Pernambuco",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "two seats, so second place still gets the office. beautiful system",
+          "mode": 6,
+          "score": 5
+        },
+        {
+          "quip": "a race where losing by a little bit wins. love that for everybody",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "silver medal, full salary",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "Recife print shops already running the banners overnight",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "somewhere the first place finisher is being absolutely unbearable about it",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "i can now name three Brazilian senators and zero of my own",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the Ringo of the whole ticket and Ringo did fine",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSSAUDINUCLEAR-27-27JAN01",
+      "title": "The US-Saudi nuclear deal takes effect this year",
+      "subtitle": "the bilateral U.S.\u2013Saudi agreement for peaceful nuclear cooperation under Section 123 of the Atomic Energy Act has entered into force and become legally operative between the two governments",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 5.56,
+      "tier": "yellow",
+      "quip": "the 123 Agreement gets a LIV Golf sponsor patch by spring",
+      "yes_price": "0.1800",
+      "volume": 13851.57,
+      "category": "Politics",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXUSSAUDINUCLEAR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 76.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "the 123 Agreement gets a LIV Golf sponsor patch by spring",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i have read the phrase \"enrichment safeguards\" enough times to be on a list",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "\"they have a lot of sand. they need the power. incredible people\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "nuclear, but for golf",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "like your neighbor asking to borrow the chainsaw, warmly",
+          "mode": 6,
+          "score": 6.5
+        },
+        {
+          "quip": "Vienna gets absolutely nothing out of this one",
+          "mode": 7,
+          "score": 5.5
+        },
+        {
+          "quip": "$5.56 and suddenly i'm a nonproliferation guy at dinner",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "Oppenheimer got three hours. this gets a press release on a Friday",
+          "mode": 8,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXBANDANTES-27JAN",
+      "title": "Dantes gets banned from Twitch this year",
+      "subtitle": "Before Jan 2027",
+      "yes_sub_title": "Before Jan 2027",
+      "no_sub_title": "Before Jan 2027",
+      "payout": 6.25,
+      "tier": "yellow",
+      "quip": "\"it was taken out of context.\" sir it was a nine hour stream\"",
+      "yes_price": "0.1600",
+      "volume": 1738.21,
+      "category": "Social",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXBANDANTES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 94.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "the unban appeal stream outdraws everything that caused the ban",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i don't know who this man is and i'm fully invested now",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "a Twitch ban is the French sabbatical, paid and dignified",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "three day vacation, basically",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "nothing unites a chat like a purple screen at midnight",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "Kick already has the contract printed and warm",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "$6.25, or roughly four months of sub revenue in his currency",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "\"it was taken out of context.\" sir it was a nine hour stream\"",
+          "mode": 4,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXEARTHQUAKECALIFORNIA-28",
+      "title": "California gets an 8.0 earthquake before 2028",
+      "subtitle": "Before 2028",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 6.25,
+      "tier": "yellow",
+      "quip": "the Bay Area will somehow make this about zoning within an hour",
+      "yes_price": "0.1600",
+      "volume": 14202.68,
+      "category": "Climate and Weather",
+      "close_time": "2028-12-31T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXEARTHQUAKECALIFORNIA?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 81.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "my emergency kit is in the trunk of a car i sold in 2019",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Dodgers postpone a game and that becomes the lead story",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "San Andreas, except The Rock has scheduling conflicts",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "Arizona becomes beachfront, allegedly",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "tectonics is the last thing on earth nobody figured out how to sponsor",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "the Bay Area will somehow make this about zoning within an hour",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "an 8.0 is thirty times a 7.0, a fact they teach you right after you stop caring",
+          "mode": 5,
+          "score": 6
+        },
+        {
+          "quip": "\"this is the big one,\" says the guy who has said that four times",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "STARSHIPMARS-29DEC31",
+      "title": "Starship carries humans to Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Not Before 2030",
+      "payout": 8.33,
+      "tier": "orange",
+      "quip": "$8.33 and seven months with no door on the bathroom",
+      "yes_price": "0.1200",
+      "volume": 53299.98,
+      "category": "Companies",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i won't get in a Tesla on the 405, so good luck to these people",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "crew selection announced via a poll posted at 3:40am",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "the Nostromo had better catering and that ended poorly",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "six year road trip",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "strapping actual humans to that thing is the most insane idea currently alive",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "four engineers and one guy whose whole job is posting",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "$8.33 and seven months with no door on the bathroom",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "\"it's like, fundamentally, a two year, um, transfer window thing\"",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXRECORDNFLWORST-27-CLE",
+      "title": "Cleveland finishes with the league's worst record next season",
+      "subtitle": "2026-27 season",
+      "yes_sub_title": "Cleveland",
+      "no_sub_title": "Cleveland",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "the Major League theme playing over a 14 win season",
+      "yes_price": "0.0700",
+      "volume": 107098.72,
+      "category": "Sports",
+      "close_time": "2027-02-22T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXRECORDNFLWORST?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 129.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "Cleveland has reps at this. Cleveland is well trained",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "i defended this city at a wedding once and i'm still paying for it",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the parade route gets permitted in February out of habit",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "factory settings restored",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "tanking is just rebuilding with the honesty turned all the way up",
+          "mode": 6,
+          "score": 6
+        },
+        {
+          "quip": "the Major League theme playing over a 14 win season",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "$14.29 for eighty two scheduled nights of documented suffering",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "losing every single night takes a commitment most of us simply don't have",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26FAY-T1",
+      "title": "Fay becomes a Category 1 hurricane",
+      "subtitle": "Hurricane Fay",
+      "yes_sub_title": "Category 1 or above",
+      "no_sub_title": "Category 1 or above",
+      "payout": 33.33,
+      "tier": "red",
+      "quip": "Florida has earned a girl named Fay",
+      "yes_price": "0.0300",
+      "volume": 40426.9,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Florida has earned a girl named Fay",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "i have never once evacuated and that's between me and God",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the Waffle House index blinks yellow for about nine hours",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "a Cat 1 is a tuesday",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "naming storms remains the last great American tradition",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "74 mph for $33, call it fifty cents a mile",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Cat 1 is the weeknight conference game of hurricanes",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we're watching Fay. we're tracking Fay. Fay is a fighter\"",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x144a0a6d2b65893c2c961952049075f40c349752376de16c11048b351cb939c3",
+      "title": "Nansen launches a token by next September",
+      "subtitle": "",
+      "payout": 153.85,
+      "tier": "purple",
+      "quip": "$153 for a coin worth a dollar fifty by Halloween",
+      "yes_price": "0.0065",
+      "volume": 97186.90186200003,
+      "category": "Other",
+      "close_time": "2026-10-01T03:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/will-nansen-launch-a-token-by",
+      "platform": "polymarket",
+      "score": 60.0,
+      "quip_alts": [
+        {
+          "quip": "another token, another chance to feel something real",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "my wallet holds 41 tokens and i can name four of them",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "airdrop criteria announced, changed, then announced again, angrier",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "points now, token later",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "$153 for a coin worth a dollar fifty by Halloween",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the guy selling shovels decided to also start selling dirt",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "the Discord mods have been insufferable about this since June",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "Icarus had a whitepaper too and it also mentioned vesting",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    }
+  ]
+}
