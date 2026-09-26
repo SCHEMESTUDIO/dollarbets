@@ -1,54 +1,4 @@
 {
-  "SB-19D67121": {
-    "title": "Bruins beat Rangers by two or more tonight",
-    "quip": "the Garden crowd goes home quiet again",
-    "cached_at": "2026-09-22T13:04:41.489782+00:00"
-  },
-  "SB-4D8F1F9B": {
-    "title": "Orioles bury Blue Jays by five tonight",
-    "quip": "Camden Yards turns into a batting cage",
-    "cached_at": "2026-09-22T13:04:41.489782+00:00"
-  },
-  "SB-8982DACF": {
-    "title": "Yankees blow out Rays by six tonight",
-    "quip": "Judge treats the Rays bullpen like batting practice",
-    "cached_at": "2026-09-22T13:04:41.489782+00:00"
-  },
-  "SB-501AC7B8": {
-    "title": "Lindenwood stuns Eastern Michigan on the road",
-    "quip": "Lions walk into Ypsilanti like Rudy with a playbook",
-    "cached_at": "2026-09-22T13:04:41.489782+00:00"
-  },
-  "SB-243A0715": {
-    "title": "Malm\u00f6 Redhawks upset V\u00e4xj\u00f6 Lakers on the road",
-    "quip": "V\u00e4xj\u00f6's trophy case is heavy, their legs heavier",
-    "cached_at": "2026-09-22T13:04:55.251215+00:00"
-  },
-  "SB-A242D2D1": {
-    "title": "K\u00e4rp\u00e4t knock off Tappara in Tampere",
-    "quip": "Oulu still remembers who owned the nineties",
-    "cached_at": "2026-09-22T13:04:55.251215+00:00"
-  },
-  "SB-3B90849F": {
-    "title": "Djurg\u00e5rden steal one at R\u00f6gle",
-    "quip": "the Stockholm road trip with zero sightseeing planned",
-    "cached_at": "2026-09-22T13:04:55.251215+00:00"
-  },
-  "SB-96055B4D": {
-    "title": "Bryn\u00e4s beat Link\u00f6ping by two or more",
-    "quip": "G\u00e4vle's oldest dynasty wants a decisive night, not overtime",
-    "cached_at": "2026-09-22T13:04:55.251215+00:00"
-  },
-  "SB-87BAD7B4": {
-    "title": "K\u00e4rp\u00e4t handle HIFK by multiple goals",
-    "quip": "Helsinki's Sunday best gets mussed by northern manners",
-    "cached_at": "2026-09-22T13:04:55.251215+00:00"
-  },
-  "SB-DF46FFC1": {
-    "title": "Dodgers win or lose by one to Padres",
-    "quip": "these two never settle anything before the ninth",
-    "cached_at": "2026-09-22T13:05:02.032077+00:00"
-  },
   "SB-96A9AB99": {
     "title": "Yankees beat Rays by two or more tonight",
     "quip": "the Bronx handles bullpen games like batting practice",
@@ -838,5 +788,110 @@
     "title": "Kent State beats Ball State in MACtion",
     "quip": "Tuesday night football nobody asked for, everybody watches",
     "cached_at": "2026-09-26T12:40:05.862865+00:00"
+  },
+  "SB-B4CC8960": {
+    "title": "Harrell takes a clear decision over Brenner",
+    "quip": "Harrell grinds it out like a wrestling practice",
+    "cached_at": "2026-09-26T18:59:39.372641+00:00"
+  },
+  "SB-B306D95E": {
+    "title": "Hiestand goes the distance with Nakamura",
+    "quip": "losing rounds, not losing consciousness",
+    "cached_at": "2026-09-26T18:59:39.372641+00:00"
+  },
+  "SB-6FEB147E": {
+    "title": "Rockies upset the White Sox in Chicago",
+    "quip": "two rebuilds enter, someone has to win",
+    "cached_at": "2026-09-26T18:59:39.372641+00:00"
+  },
+  "SB-4BE8627D": {
+    "title": "Castaneda finishes Alateng inside two rounds",
+    "quip": "Chito's guillotine doesn't do small talk",
+    "cached_at": "2026-09-26T18:59:39.372641+00:00"
+  },
+  "SB-3705B61F": {
+    "title": "Charlotte upsets Louisiana at home",
+    "quip": "the 49ers finally strike gold",
+    "cached_at": "2026-09-26T18:59:39.372641+00:00"
+  },
+  "SB-30EDB204": {
+    "title": "Reds blow out the Blue Jays by eight",
+    "quip": "Elly De La Cruz turning Rogers Centre into a track meet",
+    "cached_at": "2026-09-26T18:59:39.372641+00:00"
+  },
+  "SB-9C3AC96A": {
+    "title": "Stampeders ride past Redblacks in Ottawa",
+    "quip": "Calgary treats TD Place like a second home",
+    "cached_at": "2026-09-26T18:59:58.164392+00:00"
+  },
+  "SB-02D34F23": {
+    "title": "Flamengo-Fluminense Fla-Flu stays under two goals",
+    "quip": "the Maracan\u00e3 derby is a chess match with cleats",
+    "cached_at": "2026-09-26T18:59:58.164392+00:00"
+  },
+  "SB-45148C7E": {
+    "title": "Vasco and Remo grind out a low-scoring night",
+    "quip": "S\u00e3o Janu\u00e1rio nights end 1-0 and everyone knows it",
+    "cached_at": "2026-09-26T18:59:58.164392+00:00"
+  },
+  "SB-04BB4FAD": {
+    "title": "Lotte Giants handle Hanwha by two or more",
+    "quip": "Sajik Stadium crowd singing Busan Galmaegi by the seventh",
+    "cached_at": "2026-09-26T18:59:58.164392+00:00"
+  },
+  "SB-E3535C20": {
+    "title": "Ilves skate past TPS by two goals",
+    "quip": "the Turku rivalry ends with Tampere doing the celebrating",
+    "cached_at": "2026-09-26T18:59:58.164392+00:00"
+  },
+  "SB-9304DB42": {
+    "title": "Nathaniel Collins upsets Liam Davies",
+    "quip": "Collins has been sharpening that right hand in Glasgow",
+    "cached_at": "2026-09-26T18:59:58.164392+00:00"
+  },
+  "SB-0215E5B6": {
+    "title": "Nathan Heaney beats Gerome Warburton",
+    "quip": "Stoke will sing Delilah until the final bell",
+    "cached_at": "2026-09-26T18:59:58.164392+00:00"
+  },
+  "SB-CBE3B952": {
+    "title": "Elisabeth Mronsz shocks Kayla Allen",
+    "quip": "every Rocky script starts exactly like this",
+    "cached_at": "2026-09-26T18:59:58.164392+00:00"
+  },
+  "SB-1AE1F99E": {
+    "title": "Bengals take down the Steelers in Pittsburgh",
+    "quip": "Burrow treats Acrisure Stadium like a walk-in closet",
+    "cached_at": "2026-09-26T19:00:20.081992+00:00"
+  },
+  "SB-B542703C": {
+    "title": "Eagles handle the Bears in Chicago",
+    "quip": "Tush push works fine in lake-effect wind",
+    "cached_at": "2026-09-26T19:00:20.081992+00:00"
+  },
+  "SB-426FCD8C": {
+    "title": "Osmanli beats Akylbek on the cards",
+    "quip": "three rounds of clinch work, zero highlight reels",
+    "cached_at": "2026-09-26T19:00:20.081992+00:00"
+  },
+  "SB-7D1DCF79": {
+    "title": "Marlins keep it within a run against the Braves",
+    "quip": "loanDepot park, late innings, nobody comfortable",
+    "cached_at": "2026-09-26T19:00:20.081992+00:00"
+  },
+  "SB-873B80BF": {
+    "title": "Royals stay within a run of the Guardians",
+    "quip": "Kauffman bullpen games end 3-2 by law",
+    "cached_at": "2026-09-26T19:00:20.081992+00:00"
+  },
+  "SB-85356A28": {
+    "title": "Brewers beat the Cardinals at American Family Field",
+    "quip": "Bernie's slide gets a workout",
+    "cached_at": "2026-09-26T19:00:20.081992+00:00"
+  },
+  "SB-755A8037": {
+    "title": "Jaguars beat the Patriots in Jacksonville",
+    "quip": "Duval heat plus Drake Maye's first road humidity",
+    "cached_at": "2026-09-26T19:00:20.081992+00:00"
   }
 }
