@@ -1,74 +1,4 @@
 {
-  "SB-6603D3A4": {
-    "title": "Rays take down the Yankees in the Bronx",
-    "quip": "the Rays farm system prints October spoilers",
-    "cached_at": "2026-09-23T13:25:09.859645+00:00"
-  },
-  "SB-7D451817": {
-    "title": "Padres steal one in Chavez Ravine",
-    "quip": "Machado enjoys ruining Dodger Stadium's evening",
-    "cached_at": "2026-09-23T13:25:09.859645+00:00"
-  },
-  "SB-9529ABD3": {
-    "title": "Tigers bury the Nationals by seven or more",
-    "quip": "Skubal turns Washington's lineup into batting practice footage",
-    "cached_at": "2026-09-23T13:25:09.859645+00:00"
-  },
-  "SB-7F77B2A1": {
-    "title": "Orioles rout the Blue Jays by six-plus",
-    "quip": "Camden Yards wall or not, Rutschman's swinging",
-    "cached_at": "2026-09-23T13:25:09.859645+00:00"
-  },
-  "SB-23315BE5": {
-    "title": "Sport hold off Kiekko-Espoo tonight",
-    "quip": "Vaasa ice, Espoo leaves cold",
-    "cached_at": "2026-09-23T13:25:27.223906+00:00"
-  },
-  "SB-C76BFE3E": {
-    "title": "\u00c4ss\u00e4t upset SaiPa in Lappeenranta",
-    "quip": "Pori's pirates raiding the Kisapuisto",
-    "cached_at": "2026-09-23T13:25:27.223906+00:00"
-  },
-  "SB-4F5335F7": {
-    "title": "Golden Eagles top Nippon-Ham tonight",
-    "quip": "Rakuten spoiling the Escon Field housewarming",
-    "cached_at": "2026-09-23T13:25:27.223906+00:00"
-  },
-  "SB-68812A3A": {
-    "title": "Djurg\u00e5rden beat V\u00e4xj\u00f6 by two or more",
-    "quip": "Stockholm's stripes don't do one-goal drama",
-    "cached_at": "2026-09-23T13:25:27.223906+00:00"
-  },
-  "SB-BB3A38A8": {
-    "title": "Lule\u00e5 bury Fr\u00f6lunda by two-plus",
-    "quip": "Coop Norrbotten in December is basically Hoth",
-    "cached_at": "2026-09-23T13:25:27.223906+00:00"
-  },
-  "SB-AD45B5E1": {
-    "title": "Storm stun the Wings in Seattle",
-    "quip": "Arike gets the Climate Pledge silent treatment",
-    "cached_at": "2026-09-23T13:25:27.223906+00:00"
-  },
-  "SB-61C32192": {
-    "title": "Blue Jays stay within a run at Baltimore",
-    "quip": "Camden Yards keeps everything one swing away",
-    "cached_at": "2026-09-23T13:25:37.320826+00:00"
-  },
-  "SB-2692BBAE": {
-    "title": "Rangers keep it within a run against the Mets",
-    "quip": "Arlington baseball, decided by a single Seager double",
-    "cached_at": "2026-09-23T13:25:37.320826+00:00"
-  },
-  "SB-A9286AB3": {
-    "title": "Tigers handle the Nationals in Detroit",
-    "quip": "Skubal's rotation versus a rebuild, the math checks out",
-    "cached_at": "2026-09-23T13:25:37.320826+00:00"
-  },
-  "SB-5AC8D356": {
-    "title": "Rays hang within a run at Yankee Stadium",
-    "quip": "the short porch giveth, the Rays bullpen survives",
-    "cached_at": "2026-09-23T13:25:37.320826+00:00"
-  },
   "SB-31670E6F": {
     "title": "Red Sox beat Guardians by two or more tonight",
     "quip": "Fenway's Green Monster doesn't do one-run games quietly",
@@ -893,5 +823,105 @@
     "title": "Astros take care of the A's",
     "quip": "Sacramento minor league park, major league beating",
     "cached_at": "2026-09-27T00:17:21.358288+00:00"
+  },
+  "SB-B5B4A4F9": {
+    "title": "Patriots take down the Jaguars in Jacksonville",
+    "quip": "Drake Maye enjoys the 9:30am body-clock special",
+    "cached_at": "2026-09-27T13:31:23.363769+00:00"
+  },
+  "SB-303F0CF5": {
+    "title": "Cubs beat Red Sox by two or more at Fenway",
+    "quip": "the Green Monster is just a taller Wrigley ivy",
+    "cached_at": "2026-09-27T13:31:23.363769+00:00"
+  },
+  "SB-2D609A2E": {
+    "title": "Steelers handle the Bengals at Acrisure",
+    "quip": "Burrow's offensive line remains a rumor",
+    "cached_at": "2026-09-27T13:31:23.363769+00:00"
+  },
+  "SB-99ADAD1B": {
+    "title": "Giants upset the Dodgers in San Francisco",
+    "quip": "Oracle Park swallows Ohtani flyballs whole",
+    "cached_at": "2026-09-27T13:31:23.363769+00:00"
+  },
+  "SB-19D67121": {
+    "title": "Bruins beat the Rangers by two or more",
+    "quip": "Igor faces 40 shots and gets zero goals of support",
+    "cached_at": "2026-09-27T13:31:23.363769+00:00"
+  },
+  "SB-FDE169F5": {
+    "title": "Orioles blow out the Yankees by five in the Bronx",
+    "quip": "Camden's kids treat the short porch like a pi\u00f1ata",
+    "cached_at": "2026-09-27T13:31:23.363769+00:00"
+  },
+  "SB-3659662D": {
+    "title": "Mets crush the Nationals by five in D.C.",
+    "quip": "Lindor conducts, the Nats bullpen plays along",
+    "cached_at": "2026-09-27T13:31:23.363769+00:00"
+  },
+  "SB-4AF925B1": {
+    "title": "Galatasaray stun Barcelona in Istanbul",
+    "quip": "Hell is real and Osimhen has the keys",
+    "cached_at": "2026-09-27T13:31:30.518225+00:00"
+  },
+  "SB-4C37C44E": {
+    "title": "Leeds shock Arsenal at the Emirates",
+    "quip": "Marching on Together straight into Saliba's nightmares",
+    "cached_at": "2026-09-27T13:31:30.518225+00:00"
+  },
+  "SB-3C58730D": {
+    "title": "Boston College upsets SMU on the road",
+    "quip": "Eagles crash the Mustangs' Dallas dinner party uninvited",
+    "cached_at": "2026-09-27T13:31:30.518225+00:00"
+  },
+  "SB-FEE2A970": {
+    "title": "Skellefte\u00e5 bury Lule\u00e5 by two tonight",
+    "quip": "the northern derby belongs to the boys in maroon",
+    "cached_at": "2026-09-27T13:31:41.537104+00:00"
+  },
+  "SB-9BEE0827": {
+    "title": "Macarthur and Perth Glory trade four-plus goals",
+    "quip": "Bulls and Glory allergic to clean sheets",
+    "cached_at": "2026-09-27T13:31:41.537104+00:00"
+  },
+  "SB-6565A43E": {
+    "title": "HV71 handle Bj\u00f6rkl\u00f6ven by two goals",
+    "quip": "J\u00f6nk\u00f6ping ships the Ume\u00e5 boys back down",
+    "cached_at": "2026-09-27T13:31:41.537104+00:00"
+  },
+  "SB-293605AF": {
+    "title": "Liberty stun the Lynx in Minnesota",
+    "quip": "Breanna Stewart ruins Napheesa Collier's evening",
+    "cached_at": "2026-09-27T13:31:41.537104+00:00"
+  },
+  "SB-6AA1A88A": {
+    "title": "Wings shock Valkyries in the Bay",
+    "quip": "Paige Bueckers takes the expansion team's crowd out of it",
+    "cached_at": "2026-09-27T13:31:41.537104+00:00"
+  },
+  "SB-C4AC4B63": {
+    "title": "Mystics upset the Dream in Atlanta",
+    "quip": "Kiki Iriafen playing spoiler in the Gateway Center",
+    "cached_at": "2026-09-27T13:31:41.537104+00:00"
+  },
+  "SB-1AC386A9": {
+    "title": "HPK beat Jokerit by two tonight",
+    "quip": "H\u00e4meenlinna raiding the Helsinki jesters' house",
+    "cached_at": "2026-09-27T13:31:41.537104+00:00"
+  },
+  "SB-4948AA32": {
+    "title": "Chiefs handle the Dolphins in Miami",
+    "quip": "Mahomes has seen this movie, he owns the DVD",
+    "cached_at": "2026-09-27T13:31:48.919937+00:00"
+  },
+  "SB-011A431E": {
+    "title": "Red Sox stay within a run of the Cubs",
+    "quip": "Fenway keeps it tight, Green Monster demands nothing less",
+    "cached_at": "2026-09-27T13:31:48.919937+00:00"
+  },
+  "SB-DF8D1C10": {
+    "title": "Twins keep it close against the Rangers",
+    "quip": "Target Field specializes in the one-run heartbreak",
+    "cached_at": "2026-09-27T13:31:48.919937+00:00"
   }
 }
