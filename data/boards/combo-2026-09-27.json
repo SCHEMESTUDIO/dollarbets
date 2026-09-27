@@ -1,0 +1,437 @@
+{
+  "generated_at": "2026-09-27T00:17:27.589364+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 7,
+    "MLB": 2,
+    "NFL": 1
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-B4903806",
+      "title": "Detroit Lions wins + Colorado Rockies -1.5",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028812992?coupon={pickType}|4346755598|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Detroit Lions @ Carolina Panthers + Colorado Rockies @ Chicago White Sox",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Detroit Lions @ Carolina Panthers",
+          "pick": "Detroit Lions wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028812992?coupon={pickType}|4346755598|{wagerAmount}",
+          "commence_time": "2026-10-05T00:20:00Z"
+        },
+        {
+          "matchup": "Colorado Rockies @ Chicago White Sox",
+          "pick": "Colorado Rockies -1.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024788216?coupon={pickType}|4352407276|{wagerAmount}",
+          "commence_time": "2026-09-26T23:11:00Z"
+        }
+      ],
+      "close_time": "2026-09-26T23:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-EE82D879",
+      "title": "Seattle Mariners wins + Detroit Lions wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024788197?coupon={pickType}|4351320312|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Los Angeles Angels @ Seattle Mariners + Detroit Lions @ Carolina Panthers",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles Angels @ Seattle Mariners",
+          "pick": "Seattle Mariners wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024788197?coupon={pickType}|4351320312|{wagerAmount}",
+          "commence_time": "2026-09-27T01:41:00Z"
+        },
+        {
+          "matchup": "Detroit Lions @ Carolina Panthers",
+          "pick": "Detroit Lions wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028812992?coupon={pickType}|4346755598|{wagerAmount}",
+          "commence_time": "2026-10-05T00:20:00Z"
+        }
+      ],
+      "close_time": "2026-09-27T01:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-3A5B4F61",
+      "title": "Seattle Mariners wins + Colorado Rockies -1.5",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024788197?coupon={pickType}|4351320312|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Los Angeles Angels @ Seattle Mariners + Colorado Rockies @ Chicago White Sox",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles Angels @ Seattle Mariners",
+          "pick": "Seattle Mariners wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024788197?coupon={pickType}|4351320312|{wagerAmount}",
+          "commence_time": "2026-09-27T01:41:00Z"
+        },
+        {
+          "matchup": "Colorado Rockies @ Chicago White Sox",
+          "pick": "Colorado Rockies -1.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024788216?coupon={pickType}|4352407276|{wagerAmount}",
+          "commence_time": "2026-09-26T23:11:00Z"
+        }
+      ],
+      "close_time": "2026-09-26T23:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-EE82D879",
+      "title": "Los Angeles Angels +1.5 + Detroit Lions wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024788197?coupon={pickType}|4351320314|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Los Angeles Angels @ Seattle Mariners + Detroit Lions @ Carolina Panthers",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles Angels @ Seattle Mariners",
+          "pick": "Los Angeles Angels +1.5",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024788197?coupon={pickType}|4351320314|{wagerAmount}",
+          "commence_time": "2026-09-27T01:41:00Z"
+        },
+        {
+          "matchup": "Detroit Lions @ Carolina Panthers",
+          "pick": "Detroit Lions wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028812992?coupon={pickType}|4346755598|{wagerAmount}",
+          "commence_time": "2026-10-05T00:20:00Z"
+        }
+      ],
+      "close_time": "2026-09-27T01:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-3A5B4F61",
+      "title": "Los Angeles Angels +1.5 + Colorado Rockies -1.5",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024788197?coupon={pickType}|4351320314|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Los Angeles Angels @ Seattle Mariners + Colorado Rockies @ Chicago White Sox",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles Angels @ Seattle Mariners",
+          "pick": "Los Angeles Angels +1.5",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024788197?coupon={pickType}|4351320314|{wagerAmount}",
+          "commence_time": "2026-09-27T01:41:00Z"
+        },
+        {
+          "matchup": "Colorado Rockies @ Chicago White Sox",
+          "pick": "Colorado Rockies -1.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024788216?coupon={pickType}|4352407276|{wagerAmount}",
+          "commence_time": "2026-09-26T23:11:00Z"
+        }
+      ],
+      "close_time": "2026-09-26T23:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-A49CDEEB",
+      "title": "Utah Jazz wins + Detroit Lions wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Utah Jazz @ Memphis Grizzlies + Detroit Lions @ Carolina Panthers",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Utah Jazz @ Memphis Grizzlies",
+          "pick": "Utah Jazz wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+          "commence_time": "2026-10-22T00:10:00Z"
+        },
+        {
+          "matchup": "Detroit Lions @ Carolina Panthers",
+          "pick": "Detroit Lions wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028812992?coupon={pickType}|4346755598|{wagerAmount}",
+          "commence_time": "2026-10-05T00:20:00Z"
+        }
+      ],
+      "close_time": "2026-10-05T00:20:00Z"
+    },
+    {
+      "ticker": "PARLAY-1CA51570",
+      "title": "Utah Jazz wins + Colorado Rockies -1.5",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Utah Jazz @ Memphis Grizzlies + Colorado Rockies @ Chicago White Sox",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Utah Jazz @ Memphis Grizzlies",
+          "pick": "Utah Jazz wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+          "commence_time": "2026-10-22T00:10:00Z"
+        },
+        {
+          "matchup": "Colorado Rockies @ Chicago White Sox",
+          "pick": "Colorado Rockies -1.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024788216?coupon={pickType}|4352407276|{wagerAmount}",
+          "commence_time": "2026-09-26T23:11:00Z"
+        }
+      ],
+      "close_time": "2026-09-26T23:11:00Z"
+    },
+    {
+      "ticker": "PARLAY-11CA9D3A",
+      "title": "Seattle Mariners wins + Utah Jazz wins",
+      "payout": 2.81,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024788197?coupon={pickType}|4351320312|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Los Angeles Angels @ Seattle Mariners + Utah Jazz @ Memphis Grizzlies",
+      "market_type": "2-leg parlay",
+      "american_odds": 181,
+      "implied_probability": 0.356,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles Angels @ Seattle Mariners",
+          "pick": "Seattle Mariners wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024788197?coupon={pickType}|4351320312|{wagerAmount}",
+          "commence_time": "2026-09-27T01:41:00Z"
+        },
+        {
+          "matchup": "Utah Jazz @ Memphis Grizzlies",
+          "pick": "Utah Jazz wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+          "commence_time": "2026-10-22T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-09-27T01:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-11CA9D3A",
+      "title": "Los Angeles Angels +1.5 + Utah Jazz wins",
+      "payout": 2.81,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1024788197?coupon={pickType}|4351320314|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Los Angeles Angels @ Seattle Mariners + Utah Jazz @ Memphis Grizzlies",
+      "market_type": "2-leg parlay",
+      "american_odds": 181,
+      "implied_probability": 0.356,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles Angels @ Seattle Mariners",
+          "pick": "Los Angeles Angels +1.5",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1024788197?coupon={pickType}|4351320314|{wagerAmount}",
+          "commence_time": "2026-09-27T01:41:00Z"
+        },
+        {
+          "matchup": "Utah Jazz @ Memphis Grizzlies",
+          "pick": "Utah Jazz wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+          "commence_time": "2026-10-22T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-09-27T01:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-7A2FDFC4",
+      "title": "Pittsburgh Steelers wins + Detroit Lions wins",
+      "payout": 2.83,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1029234879?coupon={pickType}|4346763610|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Pittsburgh Steelers @ Cleveland Browns + Detroit Lions @ Carolina Panthers",
+      "market_type": "2-leg parlay",
+      "american_odds": 183,
+      "implied_probability": 0.353,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Steelers @ Cleveland Browns",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -143,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029234879?coupon={pickType}|4346763610|{wagerAmount}",
+          "commence_time": "2026-10-02T00:15:00Z"
+        },
+        {
+          "matchup": "Detroit Lions @ Carolina Panthers",
+          "pick": "Detroit Lions wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028812992?coupon={pickType}|4346755598|{wagerAmount}",
+          "commence_time": "2026-10-05T00:20:00Z"
+        }
+      ],
+      "close_time": "2026-10-02T00:15:00Z"
+    }
+  ]
+}

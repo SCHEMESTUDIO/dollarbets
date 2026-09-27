@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-09-27T00:16:38.133622+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 3
+  },
+  "board": [
+    {
+      "ticker": "KXROBOTMARS-35",
+      "title": "A robot walks on Mars before any human",
+      "subtitle": "Before 2035",
+      "yes_sub_title": "Before 2035",
+      "no_sub_title": "Before 2035",
+      "payout": 1.96,
+      "tier": "green",
+      "quip": "Wall-E was a documentary, we just got the release date wrong",
+      "yes_price": "0.5100",
+      "volume": 53041.36,
+      "category": "Science and Technology",
+      "close_time": "2035-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXROBOTMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 57.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "first thing it does is plant a flag for a battery company",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "i will absolutely be watching this alone in my kitchen at 3am",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "tin man gets there first",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "Wall-E was a documentary, we just got the release date wrong",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "51 cents says the astronauts land and the parking spot is already taken",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "a machine walking on another planet rules and i won't hear otherwise",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "like the ball boy scoring the game winner while the starters stretch",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "\"one small step for a unit, one giant firmware update for unitkind\"",
+          "mode": 4,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "KXUTSKIVISITS-27JUL31-T6000000",
+      "title": "Utah tops 6 million skier visits next season",
+      "subtitle": "the 2026\u201327 ski season",
+      "yes_sub_title": "Above 6,000,000 skier visits",
+      "no_sub_title": "Above 6,000,000 skier visits",
+      "payout": 2.56,
+      "tier": "green",
+      "quip": "6 million people, four working lifts, one bathroom",
+      "yes_price": "0.3900",
+      "volume": 5672.7,
+      "category": "Economics",
+      "close_time": "2027-07-31T15:29:00Z",
+      "url": "https://kalshi.com/markets/KXUTSKIVISITS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 53.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "my knees have filed a formal objection to this entire bet",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "Little Cottonwood closes and everyone just skis down the interstate",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "greatest snow on earth, allegedly",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "6 million people, four working lifts, one bathroom",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Californians discovered salt and simply never went home",
+          "mode": 7,
+          "score": 6.5
+        },
+        {
+          "quip": "a powder morning is undefeated and i am smashing the over",
+          "mode": 3,
+          "score": 4
+        },
+        {
+          "quip": "like a mid-major selling out the arena because the football team stinks",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"sir, the tram is at capacity.\" then strap me to the roof",
+          "mode": 4,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "0x509f046b7c469e369f4bd82221f8915e925b113898d349efcec99a317fb9cbda",
+      "title": "Ken Martin is out as DNC chair by next year",
+      "subtitle": "",
+      "payout": 2.82,
+      "tier": "green",
+      "quip": "i had to google him and i read three newsletters a day",
+      "yes_price": "0.3550",
+      "volume": 9935.537481999998,
+      "category": "Science and Technology",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/ken-martin-out-as-dnc-chair-by",
+      "platform": "polymarket",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "i had to google him and i read three newsletters a day",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "replaced by a 31 year old with a podcast and a vape",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "the DNC does this quarterly",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "Democrats love a leadership change the way other parties love winning",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "35 cents to watch a man i cannot picture clean out a desk",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "this is the Succession episode where nothing happens and everyone screams",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "firing the coach when the roster is very clearly the problem",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we are rebuilding the bench.\" sir, the bench is on fire",
+          "mode": 4,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x62cbf6438c0aa2064e2fa8ca2fa2db556d08749d4f9db23fae48fffb520b4e48",
+      "title": "Swallows beat the Carp",
+      "subtitle": "",
+      "payout": 4.55,
+      "tier": "yellow",
+      "quip": "like the Pirates taking a Tuesday in June, nobody watching, still counts",
+      "yes_price": "0.2200",
+      "volume": 9834.453973000003,
+      "category": "Other",
+      "close_time": "2026-08-20T09:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/npb-tok-hir-2026-08-13",
+      "platform": "polymarket",
+      "score": 60.0,
+      "quip_alts": [
+        {
+          "quip": "japanese baseball nicknames are a national treasure and i am learning all of them",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "i stayed up until 4am for this and my manager will never find out",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "small bird, big swing",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "like the Pirates taking a Tuesday in June, nobody watching, still counts",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "the umbrellas come out, the whole section sings, i get a little emotional",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "$4.55 and a tall Sapporo, greatest afternoon available to man",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Carp fans already doing the bit where they blame the bullpen coach",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "\"ike ike Swallows\" is now the ringtone, sorry to everyone at my office",
+          "mode": 4,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNFLSZNRECORD-27RECYDS-Y",
+      "title": "Someone breaks the single season receiving yards record",
+      "subtitle": "Receiving Yards - 2026-27",
+      "yes_sub_title": "Over 1964 receiving yards",
+      "no_sub_title": "Over 1964 receiving yards",
+      "payout": 5.0,
+      "tier": "yellow",
+      "quip": "Calvin Johnson watching from his couch, slowly setting the sandwich back down",
+      "yes_price": "0.2000",
+      "volume": 555.47,
+      "category": "Sports",
+      "close_time": "2027-01-18T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNFLSZNRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 71.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "Calvin Johnson watching from his couch, slowly setting the sandwich back down",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "i would start this guy in a fantasy league i am not even in",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "17 games is cheating anyway",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "1,964 yards is over a mile. a full MILE of catching footballs",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the receiving version of 62 home runs, except with significantly more dancing",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "some poor nickel corner is about to become a permanent internet artifact",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "give the man the ball 220 times, i want to see the damage",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "\"just throw it up to him\" is a legally recognized offensive scheme now",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0x2e31c0152cf639dc7f4e5ffa07575902bae250d3d9eaf97d8e645936c5c73c19",
+      "title": "Rasilingwane becomes the next mayor of Ekurhuleni",
+      "subtitle": "",
+      "payout": 5.88,
+      "tier": "yellow",
+      "quip": "South African coalition politics is conference realignment with much better suits",
+      "yes_price": "0.1700",
+      "volume": 9766.537115,
+      "category": "Other",
+      "close_time": "2027-07-01T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/next-mayor-of-ekurhuleni-germiston",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i now know more about Ekurhuleni than about my own city council",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "municipal chaos, my favorite genre",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "the coalition collapses before the man even finds his office keys",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "South African coalition politics is conference realignment with much better suits",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "17 cents on a name i practiced out loud four separate times",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "mayors of enormous cities you have never heard of, that is my beat now",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "Ekurhuleni is the Cleveland of Gauteng, no offense intended and some delivered",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"the coalition is stable and united.\" it is currently 9am",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXPOPESWIFT-27",
+      "title": "Taylor Swift meets Pope Leo XIV this year",
+      "subtitle": "Before Jan 1, 2027",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 11.11,
+      "tier": "orange",
+      "quip": "Vatican gift shop stocking friendship bracelets by Easter, sold out by Pentecost",
+      "yes_price": "0.0900",
+      "volume": 21810.13,
+      "category": "Social",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXPOPESWIFT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 117.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Vatican gift shop stocking friendship bracelets by Easter, sold out by Pentecost",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "my mother would convert on the spot and take my aunts with her",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "holy father, meet holy mother",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "two popes, and one of them has a re-recorded discography",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "$11 says Travis wears a suit that makes a cardinal blink twice",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "an American pope and an American pop star, i have never been prouder",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "\"bless you my child.\" \"thank you, the vault tracks drop friday\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "like a halftime show but with more Latin and worse pyro",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXDEMFIRSTCONTEST-28-IA",
+      "title": "Iowa goes first in the 2028 Democratic calendar",
+      "subtitle": "Before Apr 1, 2028",
+      "yes_sub_title": "Iowa",
+      "no_sub_title": "Iowa",
+      "payout": 11.11,
+      "tier": "orange",
+      "quip": "twelve reporters in a Des Moines Pizza Ranch pretending it is 2004 again",
+      "yes_price": "0.0900",
+      "volume": 28122.44,
+      "category": "Politics",
+      "close_time": "2028-04-01T03:59:00Z",
+      "url": "https://kalshi.com/markets/KXDEMFIRSTCONTEST?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 94.0,
+      "_specificity": 5,
+      "quip_alts": [
+        {
+          "quip": "i have not thought about a caucus since i was a happier man",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "twelve reporters in a Des Moines Pizza Ranch pretending it is 2004 again",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "corn wants its country back",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "like handing the preseason number one back to a 4-8 team",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "9 cents on Iowa, which is 9 more than South Carolina ever gave them",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "New Hampshire is already three paragraphs into a very long letter",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "bring back the dumb coin flips, i genuinely loved the dumb coin flips",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "\"the people of Iowa deserve a voice.\" the people of Iowa deserve a Casey's",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26NOV",
+      "title": "US strikes a new Iran nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Nov 1, 2026",
+      "no_sub_title": "Before Nov 1, 2026",
+      "payout": 25.0,
+      "tier": "red",
+      "quip": "\"we have reached a framework.\" you have reached a napkin",
+      "yes_price": "0.0400",
+      "volume": 579377.43,
+      "category": "Politics",
+      "close_time": "2026-11-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i have officially aged out of caring about centrifuges",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "handshake photo, two op-eds, everybody forgets the whole thing by Thursday",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "the deal cinematic universe",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "25 to 1, same number my friends give me on finishing Ulysses",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "like your team announcing an extension for a guy already on IR",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we have reached a framework.\" you have reached a napkin",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "the sequel nobody greenlit and they keep shooting it anyway",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "honestly? peace. would love some. big fan of it",
+          "mode": 3,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26FAY-T2",
+      "title": "Fay strengthens into a Category 2",
+      "subtitle": "Hurricane Fay",
+      "yes_sub_title": "Category 2 or above",
+      "no_sub_title": "Category 2 or above",
+      "payout": 25.0,
+      "tier": "red",
+      "quip": "a cat 2 is the 8 seed of hurricanes and it still busts your bracket",
+      "yes_price": "0.0400",
+      "volume": 22022.2,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Fay sounds like a sweet lady who is going to flatten a marina",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "i still have plywood in the garage from the last one of these",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Florida checks its shutters",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "gas station lines by Thursday, every generator in the county gone by Friday",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "4 cents on Fay, roughly what my insurance deductible feels like",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "a cat 2 is the 8 seed of hurricanes and it still busts your bracket",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "\"we're riding this one out\" says man holding a single dying flashlight",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "cone of uncertainty remains the most metal phrase in all of weather",
+          "mode": 3,
+          "score": 8
+        }
+      ]
+    }
+  ]
+}
