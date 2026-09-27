@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-27T20:18:57.752133+00:00",
+          "tweet_id": "2104304810094662051",
+          "reply_tweet_id": "2104304812896444518"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "831899",
+        "page": "https://www.pexels.com/photo/landscape-photo-of-sea-during-golden-hour-831899/",
+        "photographer": "Josh Sorenson",
+        "license": "Pexels License",
+        "phrases": [
+          "glass office tower night rain",
+          "empty highway dusk horizon"
+        ],
+        "tokens": {
+          "input_tokens": 4082,
+          "output_tokens": 31
         }
       }
     }
