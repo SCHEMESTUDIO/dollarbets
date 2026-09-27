@@ -1,59 +1,4 @@
 {
-  "SB-31670E6F": {
-    "title": "Red Sox beat Guardians by two or more tonight",
-    "quip": "Fenway's Green Monster doesn't do one-run games quietly",
-    "cached_at": "2026-09-23T19:26:06.606337+00:00"
-  },
-  "SB-C1B4CF13": {
-    "title": "Reds upset Braves in Atlanta tonight",
-    "quip": "Elly De La Cruz turns Truist Park into a track meet",
-    "cached_at": "2026-09-23T19:26:06.606337+00:00"
-  },
-  "SB-7988E3A4": {
-    "title": "Twins blow out Giants by seven tonight",
-    "quip": "Oracle Park fog rolls in, Giants bullpen never rolls out",
-    "cached_at": "2026-09-23T19:26:06.606337+00:00"
-  },
-  "SB-2974C994": {
-    "title": "LG Twins beat Lotte by two or more tonight",
-    "quip": "Jamsil crowd gets a comfortable evening",
-    "cached_at": "2026-09-23T19:26:21.586090+00:00"
-  },
-  "SB-3F632234": {
-    "title": "Rakuten Eagles upset Nippon-Ham in Sapporo",
-    "quip": "Escon Field's giant Shohei statue watches an away win",
-    "cached_at": "2026-09-23T19:26:21.586090+00:00"
-  },
-  "SB-9667DA5C": {
-    "title": "Yomiuri Giants bury the Carp by two-plus",
-    "quip": "Tokyo money walks into Mazda Stadium and takes it",
-    "cached_at": "2026-09-23T19:26:21.586090+00:00"
-  },
-  "SB-5C0D06A4": {
-    "title": "HV71 knock off Skellefte\u00e5 tonight",
-    "quip": "J\u00f6nk\u00f6ping still believes in the old green machine",
-    "cached_at": "2026-09-23T19:26:21.586090+00:00"
-  },
-  "SB-585EB103": {
-    "title": "Nakamura handles Hiestand by decision or better",
-    "quip": "Rinya's wrestling turns fights into long hugs",
-    "cached_at": "2026-09-23T19:26:29.462333+00:00"
-  },
-  "SB-EBA5AF2C": {
-    "title": "Cubs take care of the Marlins at Wrigley",
-    "quip": "the Wrigley faithful get their W flag",
-    "cached_at": "2026-09-23T19:26:29.462333+00:00"
-  },
-  "SB-C5C9CC5E": {
-    "title": "Diamondbacks win in the Coors thin air",
-    "quip": "Rockies at home is still just batting practice",
-    "cached_at": "2026-09-23T19:26:29.462333+00:00"
-  },
-  "SB-4ABC84B8": {
-    "title": "Twins beat the Giants by the Bay",
-    "quip": "Buster's front office hasn't fixed that lineup yet",
-    "cached_at": "2026-09-23T19:26:29.462333+00:00"
-  },
   "SB-126DE7CC": {
     "title": "Angels take down the A's by two-plus tonight",
     "quip": "Trout's supporting cast versus Sacramento's minor league vibes",
@@ -923,5 +868,100 @@
     "title": "Twins keep it close against the Rangers",
     "quip": "Target Field specializes in the one-run heartbreak",
     "cached_at": "2026-09-27T13:31:48.919937+00:00"
+  },
+  "SB-F74D3BF8": {
+    "title": "Yankees take down Red Sox by two or more tonight",
+    "quip": "the Bronx still charges rent in this rivalry",
+    "cached_at": "2026-09-27T19:31:29.615223+00:00"
+  },
+  "SB-AE19779E": {
+    "title": "Yankees bury Orioles by two-plus tonight",
+    "quip": "Camden's kids keep donating to the Judge fund",
+    "cached_at": "2026-09-27T19:31:29.615223+00:00"
+  },
+  "SB-B57CF7B7": {
+    "title": "Lakers upset the Spurs in San Antonio",
+    "quip": "LeBron has been beating this franchise since Wemby was in preschool",
+    "cached_at": "2026-09-27T19:31:29.615223+00:00"
+  },
+  "SB-B2F5E2A5": {
+    "title": "Warriors stun Wembanyama and the Spurs",
+    "quip": "Curry logic: gravity is a suggestion, not a rule",
+    "cached_at": "2026-09-27T19:31:29.615223+00:00"
+  },
+  "SB-57A8A70F": {
+    "title": "Mets blow out the Nationals by four-plus",
+    "quip": "Lindor turns a Tuesday in DC into batting practice",
+    "cached_at": "2026-09-27T19:31:29.615223+00:00"
+  },
+  "SB-83C4528F": {
+    "title": "Dolphins shock the Chiefs in Miami",
+    "quip": "Tyreek against Mahomes is a Greek tragedy with a jet ski",
+    "cached_at": "2026-09-27T19:31:29.615223+00:00"
+  },
+  "SB-1FED7D34": {
+    "title": "Athletics crush the Astros by eight or more",
+    "quip": "Moneyball sequel nobody greenlit, filmed in a minor league park",
+    "cached_at": "2026-09-27T19:31:29.615223+00:00"
+  },
+  "SB-7F354F1E": {
+    "title": "Titans stun the Giants in New York",
+    "quip": "Ward and Dart swap rookie-QB dignity for one Sunday",
+    "cached_at": "2026-09-27T19:31:35.688106+00:00"
+  },
+  "SB-B6C22D59": {
+    "title": "Seibu Lions handle Rakuten by two-plus tonight",
+    "quip": "Belledome crowd gets the comfortable version",
+    "cached_at": "2026-09-27T19:31:48.610789+00:00"
+  },
+  "SB-BBB58694": {
+    "title": "Nippon-Ham cruise past Lotte in Chiba",
+    "quip": "Shinjo's boys treat ZOZO Marine like a home game",
+    "cached_at": "2026-09-27T19:31:48.610789+00:00"
+  },
+  "SB-13486A14": {
+    "title": "Jokerit bury HPK by a couple",
+    "quip": "Helsinki jester still has a punchline left",
+    "cached_at": "2026-09-27T19:31:48.610789+00:00"
+  },
+  "SB-A88D243E": {
+    "title": "Kiekko-Espoo roll TPS by multiple goals",
+    "quip": "Turku's oldest club gets a lesson from the suburbs",
+    "cached_at": "2026-09-27T19:31:48.610789+00:00"
+  },
+  "SB-FB6D5D51": {
+    "title": "K\u00e4rp\u00e4t blank out SaiPa by two or more",
+    "quip": "Oulu weasels bite clean through Lappeenranta",
+    "cached_at": "2026-09-27T19:31:48.610789+00:00"
+  },
+  "SB-3DA06ED5": {
+    "title": "Hiroshima Carp upset the BayStars in Yokohama",
+    "quip": "red helmets crash the party at Hamastadium",
+    "cached_at": "2026-09-27T19:31:48.610789+00:00"
+  },
+  "SB-0AB9178D": {
+    "title": "West Indies stun India in the ODI",
+    "quip": "Caribbean calypso revival, Clive Lloyd energy required",
+    "cached_at": "2026-09-27T19:31:48.610789+00:00"
+  },
+  "SB-6F09CA2B": {
+    "title": "49ers handle the Cardinals at home tonight",
+    "quip": "Kyler running for his life behind that line again",
+    "cached_at": "2026-09-27T19:31:56.538017+00:00"
+  },
+  "SB-D28E8331": {
+    "title": "Cubs keep it close at Fenway tonight",
+    "quip": "the Green Monster turns every flyball into drama",
+    "cached_at": "2026-09-27T19:31:56.538017+00:00"
+  },
+  "SB-A01881C8": {
+    "title": "Red Sox stay within a run at Yankee Stadium",
+    "quip": "this rivalry never met a blowout it liked",
+    "cached_at": "2026-09-27T19:31:56.538017+00:00"
+  },
+  "SB-815ED922": {
+    "title": "Mets hang tough with the Nationals tonight",
+    "quip": "CJ Abrams and Lindor trading haymakers into the ninth",
+    "cached_at": "2026-09-27T19:31:56.538017+00:00"
   }
 }
