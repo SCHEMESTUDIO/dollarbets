@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-27T05:34:23.675577+00:00",
+          "tweet_id": "2104082201289580809",
+          "reply_tweet_id": "2104082202979938762"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "13706564",
+        "page": "https://www.pexels.com/photo/full-moon-in-the-night-sky-13706564/",
+        "photographer": "Tom Fisk",
+        "license": "Pexels License",
+        "phrases": [
+          "desert power plant dusk",
+          "empty conference room night"
+        ],
+        "tokens": {
+          "input_tokens": 3868,
+          "output_tokens": 27
         }
       }
     },
