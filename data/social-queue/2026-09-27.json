@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-28T05:43:15.472673+00:00",
+          "tweet_id": "2104446819942182916",
+          "reply_tweet_id": "2104446821468930368"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "openverse",
+        "id": "6c9fe6b6-d617-449b-bab2-4a9b7c37877d",
+        "page": "https://commons.wikimedia.org/w/index.php?curid=47575722",
+        "photographer": "Rodolph",
+        "license": "CC BY-SA 3.0",
+        "phrases": [
+          "empty diner booths night",
+          "snowy cornfield dusk barn"
+        ],
+        "tokens": {
+          "input_tokens": 8307,
+          "output_tokens": 42
         }
       }
     },
