@@ -1,49 +1,4 @@
 {
-  "SB-126DE7CC": {
-    "title": "Angels take down the A's by two-plus tonight",
-    "quip": "Trout's supporting cast versus Sacramento's minor league vibes",
-    "cached_at": "2026-09-24T00:16:59.259186+00:00"
-  },
-  "SB-FA380B68": {
-    "title": "Mariners beat Houston by two or more tonight",
-    "quip": "Cal Raleigh does his Big Dumper thing in the Astros' face",
-    "cached_at": "2026-09-24T00:16:59.259186+00:00"
-  },
-  "SB-60EDED5F": {
-    "title": "Yankees beat the Rays by two-plus tonight",
-    "quip": "Judge hitting a baseball into the short porch, as scheduled",
-    "cached_at": "2026-09-24T00:16:59.259186+00:00"
-  },
-  "SB-7044C24A": {
-    "title": "Orioles blow out the Blue Jays by eight",
-    "quip": "Camden Yards turning into a Vladdy-proof crime scene",
-    "cached_at": "2026-09-24T00:16:59.259186+00:00"
-  },
-  "SB-57B321D7": {
-    "title": "Kiekko-Espoo beat Jukurit by two-plus tonight",
-    "quip": "Espoo playing like the Mikkeli ice offended them personally",
-    "cached_at": "2026-09-24T00:17:12.685503+00:00"
-  },
-  "SB-43586CA9": {
-    "title": "Bahamas upset Cayman Islands on the road",
-    "quip": "Caribbean cricket's answer to Cool Runnings, minus the bobsled",
-    "cached_at": "2026-09-24T00:17:12.685503+00:00"
-  },
-  "SB-D8F98D03": {
-    "title": "Dodgers handle the Padres at Chavez Ravine",
-    "quip": "Ohtani and a payroll the size of Delaware",
-    "cached_at": "2026-09-24T00:17:21.447678+00:00"
-  },
-  "SB-534F9085": {
-    "title": "Astros keep it within a run in Seattle",
-    "quip": "nobody scores at T-Mobile Park anyway",
-    "cached_at": "2026-09-24T00:17:21.447678+00:00"
-  },
-  "SB-CA6ADF4C": {
-    "title": "Rays hang tough with the Yankees in the Bronx",
-    "quip": "Tampa always plays New York like a knife fight",
-    "cached_at": "2026-09-24T00:17:21.447678+00:00"
-  },
   "SB-66424AF8": {
     "title": "Rangers take down the Mets by two or more tonight",
     "quip": "Globe Life crowd gets the comfortable version",
@@ -963,5 +918,50 @@
     "title": "Mets hang tough with the Nationals tonight",
     "quip": "CJ Abrams and Lindor trading haymakers into the ninth",
     "cached_at": "2026-09-27T19:31:56.538017+00:00"
+  },
+  "SB-BCA9FC36": {
+    "title": "Lightning skate past Rangers by two or more",
+    "quip": "Kucherov does not believe in one-goal games",
+    "cached_at": "2026-09-28T00:20:49.356438+00:00"
+  },
+  "SB-5E3E15FD": {
+    "title": "Raiders upset the Chiefs in Vegas",
+    "quip": "Mahomes' one bad night per season has to land somewhere",
+    "cached_at": "2026-09-28T00:20:49.356438+00:00"
+  },
+  "SB-DE769B20": {
+    "title": "Jukurit steal one in Tampere from Ilves",
+    "quip": "Mikkeli's finest crashing the Ilves sauna party",
+    "cached_at": "2026-09-28T00:21:00.891691+00:00"
+  },
+  "SB-C7FAD78F": {
+    "title": "Cubs keep it close in San Diego",
+    "quip": "Petco keeps everything honest except the hitters",
+    "cached_at": "2026-09-28T00:21:09.958417+00:00"
+  },
+  "SB-377334AC": {
+    "title": "Penguins hang tough in Washington",
+    "quip": "Crosby and Ovechkin still refusing to age gracefully",
+    "cached_at": "2026-09-28T00:21:09.958417+00:00"
+  },
+  "SB-E1CF64EF": {
+    "title": "White Sox stay within a run in Houston",
+    "quip": "even the South Side deserves one civil evening",
+    "cached_at": "2026-09-28T00:21:09.958417+00:00"
+  },
+  "SB-EAB82EA5": {
+    "title": "Kings keep it tight at Colorado altitude",
+    "quip": "LA's neutral zone trap versus MacKinnon's jet engine",
+    "cached_at": "2026-09-28T00:21:09.958417+00:00"
+  },
+  "SB-A013CA07": {
+    "title": "49ers handle the Broncos at home",
+    "quip": "Levi's Stadium, Shanahan script, first fifteen plays",
+    "cached_at": "2026-09-28T00:21:09.958417+00:00"
+  },
+  "SB-403C6182": {
+    "title": "Yankees take down the Red Sox in the Bronx",
+    "quip": "Judge in that short porch, as tradition demands",
+    "cached_at": "2026-09-28T00:21:09.958417+00:00"
   }
 }

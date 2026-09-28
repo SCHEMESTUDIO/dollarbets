@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-09-28T00:20:39.785501+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 3
+  },
+  "board": [
+    {
+      "ticker": "KXHURCAT-26NOLO-T5",
+      "title": "Nolo strengthens into a Category 5",
+      "subtitle": "Hurricane Nolo",
+      "yes_sub_title": "Category 5 or above",
+      "no_sub_title": "Category 5 or above",
+      "payout": 2.56,
+      "tier": "green",
+      "quip": "Jim Cantore arriving in your town is the real evacuation order",
+      "yes_price": "0.3900",
+      "volume": 8254.91,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 70.0,
+      "_specificity": 5,
+      "quip_alts": [
+        {
+          "quip": "the Weather Channel guy is already leaning hard into a light breeze",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "name a hurricane Nolo and it shows up with something to prove",
+          "mode": 7,
+          "score": 6.5
+        },
+        {
+          "quip": "i checked the spaghetti models at work today like an absolute sicko",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the ocean is cooking",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "2.56 is what i paid for a warm water in the evacuation lane",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "Jim Cantore arriving in your town is the real evacuation order",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "this is a bullpen arm hitting 103 in his third big league inning",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"we're getting a little wind here, Sam.\" brother you are horizontal",
+          "mode": 4,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXSPACEXMARS-30",
+      "title": "SpaceX lands something on Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 3.7,
+      "tier": "yellow",
+      "quip": "the Browns drafting a quarterback and everybody nodding along this time",
+      "yes_price": "0.2700",
+      "volume": 89798.68,
+      "category": "Science and Technology",
+      "close_time": "2030-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXSPACEXMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 89.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "first object on Mars is a crater and a dealership permit application",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "i will absolutely watch this live at 3am with a bowl of cereal",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "Wall-E clocking in several centuries ahead of schedule",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "rapid unscheduled Martian disassembly",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "anything counts. a bolt, a seat cushion, a hubcap, i'm thrilled",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "$3.70 covers roughly four seconds of that engine burn",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we're gonna, uh, put a dome there. probably. multiplanetary, folks.\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "the Browns drafting a quarterback and everybody nodding along this time",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNFLSZNRECORD-27RECYDS-Y",
+      "title": "Someone breaks the single season receiving yards record",
+      "subtitle": "Receiving Yards - 2026-27",
+      "yes_sub_title": "Over 1964 receiving yards",
+      "no_sub_title": "Over 1964 receiving yards",
+      "payout": 5.0,
+      "tier": "yellow",
+      "quip": "a grown man running sideways for a mile and a half still moves me",
+      "yes_price": "0.2000",
+      "volume": 555.47,
+      "category": "Sports",
+      "close_time": "2027-01-18T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNFLSZNRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 63.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i drafted this guy in the eleventh round and i will never stop talking",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "the corner who got cooked in week 14 deletes the app that night",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "1,964 yards, which is nineteen football fields, i did that math badly",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "throw it deep, coward",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "defensive backs are just cones with dental insurance now",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "somebody left the Madden sliders on rookie again",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "a grown man running sideways for a mile and a half still moves me",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "\"i want the record, i want the ring, i want the ball more\"",
+          "mode": 4,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "KXOAIANTH-40-OAI",
+      "title": "OpenAI IPOs before Anthropic",
+      "subtitle": "Before 2040",
+      "yes_sub_title": "OpenAI",
+      "no_sub_title": "OpenAI",
+      "payout": 6.25,
+      "tier": "yellow",
+      "quip": "Anthropic responds with a forty page blog post about restraint",
+      "yes_price": "0.1600",
+      "volume": 195622.82,
+      "category": "Financials",
+      "close_time": "2040-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXOAIANTH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 109.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "Sam rings the bell then immediately asks the room for another trillion",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i'd buy one share purely so i can yell on the earnings call",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "an IPO pop so large it buys Nevada a second power grid",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "safety team says maybe later",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "the nerdy twin graduating early while the other one takes a gap year",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "$6.25 and a ticker symbol standing between me and a boat",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "Anthropic responds with a forty page blog post about restraint",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "\"AGI should benefit all of humanity, and also our Series Z investors\"",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0x13faa876e0bc41ff44bd250ed3745bd62d33763e727f2193d3dfb5e789008fce",
+      "title": "Iran sees a coup attempt this year",
+      "subtitle": "",
+      "payout": 10.0,
+      "tier": "orange",
+      "quip": "act three of every Tom Clancy paperback on my dad's shelf",
+      "yes_price": "0.1000",
+      "volume": 98708.48551,
+      "category": "Other",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/iran-coup-attempt-by-june-30",
+      "platform": "polymarket",
+      "score": 60.0,
+      "quip_alts": [
+        {
+          "quip": "the state TV anchor starts reading the evening news noticeably faster",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i've been pronouncing every name in this story wrong for eleven years",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "somebody's uncle has plans",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "boosters firing the coach in October and pretending it was the players",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "pays ten bucks, same as the ride from the airport to the palace",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "act three of every Tom Clancy paperback on my dad's shelf",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "history deciding to happen on a random Tuesday, as it does",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "\"we of course do not comment on internal Iranian matters,\" says a guy grinning",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27",
+      "title": "US and Iran sign a nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 10.31,
+      "tier": "orange",
+      "quip": "i love a treaty. the big folder, the flags, the handshake, all of it",
+      "yes_price": "0.0970",
+      "volume": 1733396.47,
+      "category": "Politics",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 115.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the signing pen gets its own press release and a commemorative coin",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "my dad will call me about this and i will let it ring",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "centrifuges spinning, hopes too",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "the on again off again couple announcing a move in date",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "pays 10.31, expires on Halloween, make of that what you will",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "peace in our time, now with significantly better lighting",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "i love a treaty. the big folder, the flags, the handshake, all of it",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "\"nobody has ever made a deal like this one. nobody. maybe ever\"",
+          "mode": 4,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA puts a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 24.39,
+      "tier": "red",
+      "quip": "like your buddy who has been moving to Austin next spring since 2019",
+      "yes_price": "0.0410",
+      "volume": 218761.45,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "he plants the flag and immediately checks whether he has bars up there",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i will cry at the landing broadcast and deny it to everyone",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "still waiting on the spacesuits",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "$24.39 is what's left of the budget after the contractors finish",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "like your buddy who has been moving to Austin next spring since 2019",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "one small step, one enormous change order",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "humans on the moon again would rule so hard i'd take the day off",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we're going back, folks, and this time somebody's bringing a putter\"",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26FAY-T1",
+      "title": "Fay strengthens into a hurricane",
+      "subtitle": "Hurricane Fay",
+      "yes_sub_title": "Category 1 or above",
+      "no_sub_title": "Category 1 or above",
+      "payout": 25.0,
+      "tier": "red",
+      "quip": "Fay sounds like a sweet lady right up until she takes your carport",
+      "yes_price": "0.0400",
+      "volume": 65820.29,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Fay sounds like a sweet lady right up until she takes your carport",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "i own two flashlights and neither has ever contained a battery",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "gas stations out of ice",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "twenty five dollars bought eleven sheets of plywood, in normal times",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "local news sends the newest hire to stand in a parking lot puddle",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "a tropical storm getting the September call up from Triple A",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Fay from accounting finally snapped and i cannot blame her",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "category one is still a hurricane and i respect the promotion",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xdb085c16d131ff8ffbc13a846aa21a7da63b8569dfb77051a136792c1ee95d81",
+      "title": "LeBron and Bronny play together next season",
+      "subtitle": "",
+      "payout": 41.67,
+      "tier": "red",
+      "quip": "Bronny's four garbage minutes get more camera time than the actual game",
+      "yes_price": "0.0240",
+      "volume": 99415.181014,
+      "category": "Sports",
+      "close_time": "2026-11-01T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/nba-lebron-james-and-bronny-james-jrpt-to-play-together-in-2026-27-20260630182039143",
+      "platform": "polymarket",
+      "score": 58.0,
+      "quip_alts": [
+        {
+          "quip": "i am getting older and this bet keeps bringing it up unprompted",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "Bronny's four garbage minutes get more camera time than the actual game",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "dad is still hooping",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "the man spends 41.67 million a year on a cryo chamber and a chef",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "this is Succession except the company is a pick and roll",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Griffey Sr and Jr, if Sr had a documentary crew in the tunnel",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "a father and son on an NBA floor genuinely still gets me",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "\"we're just building good habits,\" says the forty one year old billionaire",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0x20e8b34a0988303f54332c9078059e029c5aac5db77d3c43309ddf4bc8ee364e",
+      "title": "Primetime opens to $22 million or more",
+      "subtitle": "",
+      "payout": 2000.0,
+      "tier": "purple",
+      "quip": "22 million in tickets, 21 million of them bought by Colorado boosters",
+      "yes_price": "0.0005",
+      "volume": 97496.510641,
+      "category": "Other",
+      "close_time": "2026-09-27T12:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/primetime-opening-weekend-box-office",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i'd go opening night and buy the large nachos, do not test me",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Deion turns up to a Thursday preview in sunglasses with a marching band",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "the hat alone sells tickets",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "22 million in tickets, 21 million of them bought by Colorado boosters",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "Marvel opening numbers for a man whose whole personality is sunglasses",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Field of Dreams, except the corn is full of defensive backs",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "everybody in that theater drove down from Boulder and they are LOUD",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "a real sports movie in a real theater. we are so back",
+          "mode": 3,
+          "score": 4
+        }
+      ]
+    }
+  ]
+}
