@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-28T22:37:01.346474+00:00",
+          "tweet_id": "2104701941942997459",
+          "reply_tweet_id": "2104701943624994852"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "openverse",
+        "id": "65ea1167-99fe-448a-a368-8597031aa77f",
+        "page": "https://commons.wikimedia.org/w/index.php?curid=73126863",
+        "photographer": "Mythyan",
+        "license": "CC BY-SA 4.0",
+        "phrases": [
+          "empty negotiation table conference room",
+          "hotel lobby night rain"
+        ],
+        "tokens": {
+          "input_tokens": 6874,
+          "output_tokens": 42
         }
       }
     }
