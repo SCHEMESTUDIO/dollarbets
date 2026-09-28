@@ -115,6 +115,26 @@ delete. Keep entries short; link evidence.
   events by 24-hour volume + today's board picks, grouped by category. Never
   fails the build (falls back to board alone if Polymarket API fails).
 
+- **2026-09-19 — Region-aware GA4 consent: grant by default outside EEA/UK/CH (commit 83b19b5).**
+  The universal deny-by-default banner was dropping ~2/3 of analytics sessions,
+  78% of them US where no banner is legally required. `analytics_head()` now holds
+  the first hit (wait_for_update 2.5s), fetches `consent_required` flag from
+  `/api/geo/` (EEA + UK + CH = true, others = false, unknown = true). Caches
+  `db_region` cookie for 30 days. Non-restricted regions grant consent automatically;
+  EEA/UK/CH still see the deny-by-default banner. Net result: US/ROW sessions
+  restored to analytics baseline (~360 sessions/week), only legally-required
+  regions interrupted by the banner. Privacy page updated to describe actual
+  behavior instead of the banner as a roadmap.
+
+- **2026-09-19 — Social photo overlay on cards (commit 244836f).**
+  `scripts/social_photo.py` (~398 lines) added to match background photos to
+  markets at posting time. (1) Opus 5 writes two scene-based stock-photo search
+  phrases; (2) Pexels API searched, Openverse (CC-only) as fallback; (3) Pillow
+  scores for darkness and low detail in the lower half (payout area); (4) Haiku
+  vetted best 16, picks one or rejects all (people, faces, logos, text, wrong
+  subject rejected). Cost: ~$0.02/card. Called by `daily_tweets.py` at post time.
+  Anti-reuse: photos never reused within 14 days per queue file (commit de486ec).
+
 ## Superseded (kept for archaeology)
 
 - ~~2026-06-11 rebuild: publish.sh sole git writer via launchd 11:30~~ →
