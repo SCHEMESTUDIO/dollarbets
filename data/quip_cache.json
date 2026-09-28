@@ -1,74 +1,4 @@
 {
-  "SB-66424AF8": {
-    "title": "Rangers take down the Mets by two or more tonight",
-    "quip": "Globe Life crowd gets the comfortable version",
-    "cached_at": "2026-09-24T13:11:21.724980+00:00"
-  },
-  "SB-BB97950D": {
-    "title": "White Sox blow out the Royals by seven",
-    "quip": "the South Side remembers how offense works",
-    "cached_at": "2026-09-24T13:11:21.724980+00:00"
-  },
-  "SB-C0499144": {
-    "title": "Pirates bury the Cardinals by six-plus",
-    "quip": "Paul Skenes leaves the bats nothing to do",
-    "cached_at": "2026-09-24T13:11:21.724980+00:00"
-  },
-  "SB-C048DCE4": {
-    "title": "Marlins humiliate the Cubs by seven at Wrigley",
-    "quip": "the wind blows out and Miami rides the jet stream",
-    "cached_at": "2026-09-24T13:11:21.724980+00:00"
-  },
-  "SB-B0BFDCA8": {
-    "title": "Georgia Southern stuns Houston in Statesboro",
-    "quip": "triple option ghosts haunting Paulson Stadium one more time",
-    "cached_at": "2026-09-24T13:11:30.128008+00:00"
-  },
-  "SB-39CF8540": {
-    "title": "Lukko knock off Tappara tonight",
-    "quip": "Rauma's finest remember who Tappara used to be",
-    "cached_at": "2026-09-24T13:11:42.658059+00:00"
-  },
-  "SB-1AE2E54D": {
-    "title": "R\u00f6gle stun F\u00e4rjestad in Karlstad",
-    "quip": "the Angels ride into L\u00f6fbergs Arena uninvited",
-    "cached_at": "2026-09-24T13:11:42.658059+00:00"
-  },
-  "SB-19F33877": {
-    "title": "\u00d6rebro beat Bj\u00f6rkl\u00f6ven by two or more",
-    "quip": "Ume\u00e5's bus ride home gets very quiet",
-    "cached_at": "2026-09-24T13:11:42.658059+00:00"
-  },
-  "SB-663D6734": {
-    "title": "\u00c4ss\u00e4t bury SaiPa by two goals",
-    "quip": "Pori brings the bear, Lappeenranta brings the excuses",
-    "cached_at": "2026-09-24T13:11:42.658059+00:00"
-  },
-  "SB-D92DCA5A": {
-    "title": "Kay Prospere upsets Luke McCormack",
-    "quip": "Saint Lucia's whole island gets a national holiday",
-    "cached_at": "2026-09-24T13:11:42.658059+00:00"
-  },
-  "SB-84033F4E": {
-    "title": "Mets keep it close in Texas tonight",
-    "quip": "run-line insurance, the Seinfeld of baseball bets",
-    "cached_at": "2026-09-24T13:11:52.189261+00:00"
-  },
-  "SB-C33CCB14": {
-    "title": "Diamondbacks handle the Rockies at Coors",
-    "quip": "Colorado's rotation still allergic to thin air",
-    "cached_at": "2026-09-24T13:11:52.189261+00:00"
-  },
-  "SB-C39B5702": {
-    "title": "Dodgers take down the Padres tonight",
-    "quip": "Ohtani versus a payroll with feelings",
-    "cached_at": "2026-09-24T13:11:52.189261+00:00"
-  },
-  "SB-A4B905A1": {
-    "title": "Pirates beat the Cardinals tonight",
-    "quip": "Skenes makes Busch Stadium bats look ceremonial",
-    "cached_at": "2026-09-24T13:11:52.189261+00:00"
-  },
   "SB-AE9C8F34": {
     "title": "Phillies handle Brewers by two or more tonight",
     "quip": "Bryce Harper doesn't do one-run games quietly",
@@ -963,5 +893,50 @@
     "title": "Yankees take down the Red Sox in the Bronx",
     "quip": "Judge in that short porch, as tradition demands",
     "cached_at": "2026-09-28T00:21:09.958417+00:00"
+  },
+  "SB-27F82BF8": {
+    "title": "Bucs knock off the Packers in Tampa",
+    "quip": "Baker Mayfield eats Lambeau cheese for breakfast",
+    "cached_at": "2026-09-28T16:26:18.194339+00:00"
+  },
+  "SB-DF94F548": {
+    "title": "Red Sox bludgeon the Yankees by four-plus",
+    "quip": "the Bronx boo birds warming up by the fifth",
+    "cached_at": "2026-09-28T16:26:18.194339+00:00"
+  },
+  "SB-F8248165": {
+    "title": "Wyoming stuns North Dakota State in Fargo",
+    "quip": "nobody walks out of the FargoDome smiling",
+    "cached_at": "2026-09-28T16:26:18.194339+00:00"
+  },
+  "SB-CF27A7E2": {
+    "title": "White Sox crush the Astros by nine-plus",
+    "quip": "the South Side finally remembers what offense looks like",
+    "cached_at": "2026-09-28T16:26:18.194339+00:00"
+  },
+  "SB-FE73457C": {
+    "title": "Twins take down SSG by two or more tonight",
+    "quip": "Jamsil bats travel better than anyone admits",
+    "cached_at": "2026-09-28T16:26:36.219616+00:00"
+  },
+  "SB-776865BF": {
+    "title": "Chiba Lotte beat Rakuten in Sendai tonight",
+    "quip": "the Marines fan section out-chants the scoreboard again",
+    "cached_at": "2026-09-28T16:26:36.219616+00:00"
+  },
+  "SB-23F9ECED": {
+    "title": "Kia Tigers beat KT Wiz by multiple runs",
+    "quip": "Gwangju crowd doing the tomahawk before the fifth",
+    "cached_at": "2026-09-28T16:26:36.219616+00:00"
+  },
+  "SB-45125344": {
+    "title": "Hanwha Eagles upset Samsung Lions on the road",
+    "quip": "Eagles fandom is a lifestyle, not a hobby",
+    "cached_at": "2026-09-28T16:26:36.219616+00:00"
+  },
+  "SB-61FCFDBA": {
+    "title": "Packers handle the Bucs in Tampa",
+    "quip": "Love throwing darts while Baker takes hits",
+    "cached_at": "2026-09-28T16:26:43.382940+00:00"
   }
 }
