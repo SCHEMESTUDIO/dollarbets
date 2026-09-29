@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-29T21:30:14.404518+00:00",
+          "tweet_id": "2105047523723538896",
+          "reply_tweet_id": "2105047525212504338"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "18440206",
+        "page": "https://www.pexels.com/photo/illuminated-building-at-night-18440206/",
+        "photographer": "Tori Pezzulla\u2764\ufe0f",
+        "license": "Pexels License",
+        "phrases": [
+          "empty movie theater seats night",
+          "cinema marquee lights rain"
+        ],
+        "tokens": {
+          "input_tokens": 3863,
+          "output_tokens": 32
         }
       }
     }
