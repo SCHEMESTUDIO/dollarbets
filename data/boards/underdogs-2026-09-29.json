@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T01:32:03.311806+00:00",
+  "generated_at": "2026-09-29T14:36:38.208120+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -10,8 +10,9 @@
   },
   "sport_mix": {
     "NBA": 2,
+    "UCL": 1,
     "EPL": 1,
-    "NCAAF": 2
+    "NCAAF": 1
   },
   "board": [
     {
@@ -55,6 +56,26 @@
       "has_deep_link": true
     },
     {
+      "ticker": "SB-4AF925B1",
+      "title": "Galatasaray stun Barcelona in Istanbul",
+      "payout": 8.0,
+      "tier": "orange",
+      "quip": "Hell is real and Osimhen has the keys",
+      "yes_price": "0.12",
+      "category": "UCL",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607209142&selectionId=2436",
+      "close_time": "2026-10-13T19:00:00Z",
+      "sport": "soccer_uefa_champs_league",
+      "sport_display": "UCL",
+      "matchup": "Barcelona @ Galatasaray",
+      "market_type": "h2h",
+      "american_odds": 700,
+      "implied_probability": 0.125,
+      "has_deep_link": true
+    },
+    {
       "ticker": "SB-4C37C44E",
       "title": "Leeds shock Arsenal at the Emirates",
       "payout": 8.5,
@@ -77,7 +98,7 @@
     {
       "ticker": "SB-F8248165",
       "title": "Wyoming stuns North Dakota State in Fargo",
-      "payout": 9.25,
+      "payout": 8.75,
       "tier": "orange",
       "quip": "nobody walks out of the FargoDome smiling",
       "yes_price": "0.11",
@@ -90,28 +111,8 @@
       "sport_display": "NCAAF",
       "matchup": "Wyoming Cowboys @ North Dakota State Bison",
       "market_type": "h2h",
-      "american_odds": 825,
-      "implied_probability": 0.108,
-      "has_deep_link": true
-    },
-    {
-      "ticker": "SB-A7368ACB",
-      "title": "Charlotte shocks Memphis in the Queen City",
-      "payout": 10.0,
-      "tier": "orange",
-      "quip": "the 49ers finally strike gold in Niner Nation",
-      "yes_price": "0.10",
-      "category": "NCAAF",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:45358-3728604-5931237&type=Single",
-      "close_time": "2026-10-03T19:30:00Z",
-      "sport": "americanfootball_ncaaf",
-      "sport_display": "NCAAF",
-      "matchup": "Memphis Tigers @ Charlotte 49ers",
-      "market_type": "h2h",
-      "american_odds": 900,
-      "implied_probability": 0.1,
+      "american_odds": 775,
+      "implied_probability": 0.114,
       "has_deep_link": true
     }
   ]

@@ -1,84 +1,4 @@
 {
-  "SB-7999ED48": {
-    "title": "Cowboys knock off the Ravens at home",
-    "quip": "Dak at home in prime time, Jerry grinning in the box",
-    "cached_at": "2026-09-25T13:14:42.173524+00:00"
-  },
-  "SB-40887185": {
-    "title": "Bears upset the Eagles at Soldier Field",
-    "quip": "Caleb Williams ruins the Tush Push parade",
-    "cached_at": "2026-09-25T13:14:42.173524+00:00"
-  },
-  "SB-2D13CE1D": {
-    "title": "Giants take down the Dodgers in San Francisco",
-    "quip": "Oracle Park fog swallows the Ohtani hype",
-    "cached_at": "2026-09-25T13:14:42.173524+00:00"
-  },
-  "SB-7AE9DAA8": {
-    "title": "Red Sox beat Cubs by four or more",
-    "quip": "Green Monster doubles pile up like Fenway traffic",
-    "cached_at": "2026-09-25T13:14:42.173524+00:00"
-  },
-  "SB-69465FA0": {
-    "title": "Orioles blow out the Yankees in the Bronx",
-    "quip": "Gunnar Henderson silences the bleacher creatures early",
-    "cached_at": "2026-09-25T13:14:42.173524+00:00"
-  },
-  "SB-710800B0": {
-    "title": "Red Sox bury the Cubs by seven-plus",
-    "quip": "Wrigley faithful walk out humming Sweet Caroline in defeat",
-    "cached_at": "2026-09-25T13:14:42.173524+00:00"
-  },
-  "SB-F6C973A0": {
-    "title": "HIFK handle JYP in Helsinki tonight",
-    "quip": "Nordis crowd does half the checking",
-    "cached_at": "2026-09-25T13:14:58.401972+00:00"
-  },
-  "SB-CA748451": {
-    "title": "Hanwha Eagles beat NC Dinos by two or more",
-    "quip": "Ryu Hyun-jin's carrot-orange faithful get a comfortable one",
-    "cached_at": "2026-09-25T13:14:58.401972+00:00"
-  },
-  "SB-544A8719": {
-    "title": "LG Twins bury Kia Tigers by two-plus",
-    "quip": "defending champs treat Gwangju like a road trip warmup",
-    "cached_at": "2026-09-25T13:14:58.401972+00:00"
-  },
-  "SB-FE40F8C5": {
-    "title": "Fr\u00f6lunda roll Malm\u00f6 Redhawks by two in Sweden",
-    "quip": "the Indians have made a hobby of Malm\u00f6 nights",
-    "cached_at": "2026-09-25T13:14:58.401972+00:00"
-  },
-  "SB-53BD0F80": {
-    "title": "Rakuten Eagles stun SoftBank Hawks in Fukuoka",
-    "quip": "Sendai's finest crash the Hawks' annual coronation",
-    "cached_at": "2026-09-25T13:14:58.401972+00:00"
-  },
-  "SB-7A225B0C": {
-    "title": "Michael Stephenson shocks Leon Hughes in the ring",
-    "quip": "one left hook and the whole broadcast booth goes silent",
-    "cached_at": "2026-09-25T13:14:58.401972+00:00"
-  },
-  "SB-1C248400": {
-    "title": "Orioles keep it within a run in the Bronx",
-    "quip": "Camden's kids don't blink under the frieze",
-    "cached_at": "2026-09-25T13:15:06.702173+00:00"
-  },
-  "SB-E7B9A667": {
-    "title": "Red Sox and Cubs decided by one run at Fenway",
-    "quip": "the Green Monster keeps everything honest",
-    "cached_at": "2026-09-25T13:15:06.702173+00:00"
-  },
-  "SB-450FA2F7": {
-    "title": "Orioles stay glued to the Yankees tonight",
-    "quip": "Gunnar Henderson doesn't do blowouts",
-    "cached_at": "2026-09-25T13:15:06.702173+00:00"
-  },
-  "SB-08A38D7A": {
-    "title": "Cubs stick with Boston to the final out",
-    "quip": "Wrigley ivy travels well to Yawkey Way",
-    "cached_at": "2026-09-25T13:15:06.702173+00:00"
-  },
   "SB-EE5BA1CD": {
     "title": "Leafs beat Habs by two or more tonight",
     "quip": "the Original Six rivalry, still Toronto's favorite therapy session",
@@ -848,5 +768,40 @@
     "title": "Braves handle the Phillies in Atlanta",
     "quip": "Acu\u00f1a hitting like the chop is a threat",
     "cached_at": "2026-09-29T01:32:16.211154+00:00"
+  },
+  "SB-92559414": {
+    "title": "Eagles beat the Rams tonight",
+    "quip": "Saquon running downhill in January air",
+    "cached_at": "2026-09-29T14:36:32.345374+00:00"
+  },
+  "SB-1082CC06": {
+    "title": "Hanwha Eagles knock off Samsung Lions tonight",
+    "quip": "Ryu Hyun-jin's hometown crowd wants a show",
+    "cached_at": "2026-09-29T14:36:54.849437+00:00"
+  },
+  "SB-F32111E0": {
+    "title": "Rakuten Golden Eagles beat Chiba Lotte by two-plus",
+    "quip": "Sendai bullpen closing the door, no ninth-inning drama",
+    "cached_at": "2026-09-29T14:36:54.849437+00:00"
+  },
+  "SB-54913E9C": {
+    "title": "Bj\u00f6rkl\u00f6ven blow out HV71 by two or more",
+    "quip": "Ume\u00e5's finest treating J\u00f6nk\u00f6ping like a practice squad",
+    "cached_at": "2026-09-29T14:36:54.849437+00:00"
+  },
+  "SB-8B3A805F": {
+    "title": "Timr\u00e5 upset Bryn\u00e4s in G\u00e4vle",
+    "quip": "the little steel town that keeps ruining Bryn\u00e4s weekends",
+    "cached_at": "2026-09-29T14:36:54.849437+00:00"
+  },
+  "SB-3C30EE31": {
+    "title": "Sonny Hardy shocks Ibraheem Sulaimaan",
+    "quip": "Rocky Balboa energy, one right hand rewrites everything",
+    "cached_at": "2026-09-29T14:36:54.849437+00:00"
+  },
+  "SB-66ECFA30": {
+    "title": "Rams handle the Eagles in Philadelphia",
+    "quip": "Stafford's seen scarier crowds than the Linc",
+    "cached_at": "2026-09-29T14:37:04.953700+00:00"
   }
 }
