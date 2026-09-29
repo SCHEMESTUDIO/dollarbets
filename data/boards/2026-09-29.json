@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-09-29T01:31:44.440353+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 3
+  },
+  "board": [
+    {
+      "ticker": "0x95dade1e149c3ed92600ce1a28e3a63caf6cc96422b6d2411614e160be8e9ff0",
+      "title": "Colts win by four or more tonight",
+      "subtitle": "",
+      "payout": 2.02,
+      "tier": "green",
+      "quip": "Indiana's whole personality is basketball and one guy in a horseshoe hat",
+      "yes_price": "0.4950",
+      "volume": 99273.57695799999,
+      "category": "Other",
+      "close_time": "2026-10-04T13:30:00Z",
+      "_specificity": 5,
+      "url": "https://polymarket.com/event/nfl-ind-was-2026-10-04",
+      "platform": "polymarket",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "i have watched Colts football voluntarily this season and i'd like that noted",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Indiana's whole personality is basketball and one guy in a horseshoe hat",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "horseshoe guys eating good",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "Jonathan Taylor gets 28 carries and the city breaks ground on a statue Monday",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "Peyton watching from inside an insurance commercial, nodding slowly",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "four points, which is 3.5 plus the half point god has owed Indianapolis since 2019",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "good Colts football is back and it feels vaguely illegal to enjoy",
+          "mode": 3,
+          "score": 4
+        },
+        {
+          "quip": "like your dad's Buick calmly passing everyone in the left lane",
+          "mode": 6,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x516110a68c7d48512b2937d5ea03334faa9548218f5788d8d0cd8389b2311173",
+      "title": "Luis Guto Miguel wins in Curitiba today",
+      "subtitle": "",
+      "payout": 2.06,
+      "tier": "green",
+      "quip": "challenger tennis in Brazil is the open mic night of professional sports",
+      "yes_price": "0.4850",
+      "volume": 9973.331741000002,
+      "category": "Other",
+      "close_time": "2026-10-05T13:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/atp-miguel-mena-2026-09-28",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "challenger tennis in Brazil is the open mic night of professional sports",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "i learned both of these names eleven seconds ago and i'm already emotionally involved",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "clay court, folding chairs, glory",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "twelve people, a lawnmower running somewhere nearby, one man screaming VAMOS",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "a grown man named Guto is about to become my entire personality",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "\"game, set, match, Miguel\" announced to a hillside of nine people",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "Facundo flying home in a middle seat with a racquet bag and a grudge",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "Guto doing the full Guga on Guga's own clay",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXDEELRIP-40-RIPP",
+      "title": "Rippling beats Deel to the IPO",
+      "subtitle": "Before 2040",
+      "yes_sub_title": "Rippling",
+      "no_sub_title": "Rippling",
+      "payout": 2.44,
+      "tier": "green",
+      "quip": "HR software with an actual mole in it. Donnie Brasco but payroll",
+      "yes_price": "0.4100",
+      "volume": 4195.93,
+      "category": "Financials",
+      "close_time": "2040-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXDEELRIP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 61.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "the S-1 has a whole risk section about the spy. legally it has to",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "HR software with an actual mole in it. Donnie Brasco but payroll",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "i cannot believe my favorite drama this year is employer of record compliance",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "payroll nerds, first blood",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "somewhere a Deel exec is deleting another Slack workspace",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "corporate espionage between two apps that track PTO. we are so back",
+          "mode": 3,
+          "score": 3.5
+        },
+        {
+          "quip": "\"ring the bell, and somebody get that man out of the bathroom\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "$2.44, which is less than either company charges to onboard a contractor",
+          "mode": 5,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXMOONMAN-31-PRC",
+      "title": "China is next to put humans on the Moon",
+      "subtitle": "Before 2031",
+      "yes_sub_title": "China",
+      "no_sub_title": "China",
+      "payout": 3.23,
+      "tier": "yellow",
+      "quip": "the flag doesn't ripple because they filmed it correctly",
+      "yes_price": "0.3100",
+      "volume": 49189.03,
+      "category": "Science and Technology",
+      "close_time": "2031-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOONMAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 94.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "the flag doesn't ripple because they filmed it correctly",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "i'll be watching that livestream with a translation app and genuine respect",
+          "mode": 2,
+          "score": 5
+        },
+        {
+          "quip": "NASA responds with a 40 page slide deck about schedule risk",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "moon: now with 5G",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "one small step, and the commemorative plaque has a QR code on it",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "honestly? sick. space race sequels historically go extremely hard",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "\"we didn't lose the moon, we simply let them have it,\" says a man in a hard hat",
+          "mode": 4,
+          "score": 6
+        },
+        {
+          "quip": "like dropping a home game to the one team that took the sport seriously",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXSPACEXMARS-30",
+      "title": "SpaceX lands something on Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 3.7,
+      "tier": "yellow",
+      "quip": "Boeing hearing about this from a Huntsville Applebee's parking lot",
+      "yes_price": "0.2700",
+      "volume": 89932.09,
+      "category": "Science and Technology",
+      "close_time": "2030-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXSPACEXMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 86.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "it lands, it tips over, and by dinner it's being called a partial success",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i was promised Mars in middle school and now i have a mortgage",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "anything counts. debris counts",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "Wall-E shows up and immediately starts stacking whatever's left",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "a metal tube surviving Martian entry is genuinely sick, i'm sorry",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "Boeing hearing about this from a Huntsville Applebee's parking lot",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "first payload is 9 tons of Starlink dishes nobody up there requested",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"it's basically a crater with our logo in it. beautiful\"",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXEARTHQUAKECALIFORNIA-28",
+      "title": "California gets an 8.0 earthquake before 2028",
+      "subtitle": "Before 2028",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 6.25,
+      "tier": "yellow",
+      "quip": "the Waffle House index opens its first West Coast branch office",
+      "yes_price": "0.1600",
+      "volume": 14229.35,
+      "category": "Climate and Weather",
+      "close_time": "2028-12-31T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXEARTHQUAKECALIFORNIA?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 83.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "the Waffle House index opens its first West Coast branch office",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "i keep one gallon of water, a flashlight, and absolutely no plan",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Arizona realtors sprinting full speed toward their phones",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "the San Andreas clears its throat",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "The Rock already flew a helicopter through this exact situation",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "plate tectonics is the last thing on this planet with real leverage",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "\"we've been saying thirty years for about sixty years now,\" says a guy at a seismograph",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "$6.25, same as the water bottle you'll buy at LAX the following morning",
+          "mode": 5,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "ticker": "KXNFLDEBUT-27CBECK19-W5W7",
+      "title": "Carson Beck makes his first start in Weeks 5 to 7",
+      "subtitle": "Carson Beck (2026-27)",
+      "yes_sub_title": "Week 5 to Week 7",
+      "no_sub_title": "Week 5 to Week 7",
+      "payout": 7.69,
+      "tier": "orange",
+      "quip": "Wally Pipp took one day off and lost the rest of his life",
+      "yes_price": "0.1300",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2027-01-19T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNFLDEBUT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 79.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "week 4, a pick six, and an entire stadium starts chanting a backup's name",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i drafted this man in a dynasty league and have told nobody",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the clipboard era ends",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "every backup QB is the most beloved man in town until he plays",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Wally Pipp took one day off and lost the rest of his life",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Georgia, then Miami, then a Week 6 baptism. sincerely love the arc",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "the veteran gets a firm handshake and a very nice folding chair",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "seven weeks, $7.69, the numerology is doing more work than the offensive line",
+          "mode": 5,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26NOV",
+      "title": "US and Iran sign a nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Nov 1, 2026",
+      "no_sub_title": "Before Nov 1, 2026",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "by my count this is deal fourteen, and the payout agrees with me",
+      "yes_price": "0.0700",
+      "volume": 640488.1,
+      "category": "Politics",
+      "close_time": "2026-11-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "\"we have the best centrifuges. tremendous spinning. everybody says so\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "i've read four explainers on this and retained exactly one map",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "somebody get Witkoff a jet",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "gold pen, handshake photo, cropped by Friday and printed on a hat",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "like the offseason trade rumor the same reporter files every single February",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "the think tank guys getting paid either way, as always",
+          "mode": 7,
+          "score": 6.5
+        },
+        {
+          "quip": "if they actually pull this off i am buying a commemorative plate",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "by my count this is deal fourteen, and the payout agrees with me",
+          "mode": 5,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26FAY-T1",
+      "title": "Fay becomes a Category 1 hurricane",
+      "subtitle": "Hurricane Fay",
+      "yes_sub_title": "Category 1 or above",
+      "no_sub_title": "Category 1 or above",
+      "payout": 20.0,
+      "tier": "red",
+      "quip": "Cantore appearing on your beach like an omen in a horror opening",
+      "yes_price": "0.0500",
+      "volume": 79383.85,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "a Cat 1 in Florida is just the day the pool guy calls off",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "i have never in my life met a Fay i trusted",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the man in the yellow poncho is already booking a flight to stand in surf",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "welcome back, Fay",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "gorgeous name, absolute menace, genuinely thrilled for her",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "Cantore appearing on your beach like an omen in a horror opening",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Category 1 is the preseason game of hurricanes",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "she hits 74 mph exactly, takes the title, retires to a gas station lot",
+          "mode": 5,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xccb52c915cd4e825665dc00c274f78aa13c047b559fae7a1b600b9d1f375746f",
+      "title": "Trump deports 200 to 300 thousand people this year",
+      "subtitle": "",
+      "payout": 166.67,
+      "tier": "purple",
+      "quip": "like a box score where both teams dispute the attendance figure",
+      "yes_price": "0.0060",
+      "volume": 9864.290787,
+      "category": "World",
+      "close_time": "2027-03-01T04:59:00Z",
+      "_specificity": 5,
+      "url": "https://polymarket.com/event/how-many-people-will-trump-deport-in-2026-823",
+      "platform": "polymarket",
+      "score": 33.0,
+      "quip_alts": [
+        {
+          "quip": "a hundred thousand wide, and somehow the spreadsheet still lands in the middle",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "i stopped trusting any federal number with three zeros on the end",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "\"nobody has ever counted like we count. it's the best counting\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "the figure gets announced, revised twice, then printed on a banner anyway",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "an oddly specific window",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "the press office is already three drafts into the infographic",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "like a box score where both teams dispute the attendance figure",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "amazed anyone in that building can agree on a denominator at all",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    }
+  ]
+}

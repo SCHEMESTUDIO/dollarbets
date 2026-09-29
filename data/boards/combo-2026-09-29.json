@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-09-29T01:32:22.910837+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 7,
+    "NCAAF": 3
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-6E722016",
+      "title": "Virginia Tech Hokies wins + Petr Yan wins",
+      "payout": 2.56,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.610963054&selectionId=484728",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies + Merab Dvalishvili @ Petr Yan",
+      "market_type": "2-leg parlay",
+      "american_odds": 156,
+      "implied_probability": 0.391,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -162,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.610963054&selectionId=484728",
+          "commence_time": "2026-10-02T23:00:00Z"
+        },
+        {
+          "matchup": "Merab Dvalishvili @ Petr Yan",
+          "pick": "Petr Yan wins",
+          "odds": -172,
+          "implied_prob": "63%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.600461378&selectionId=19289678",
+          "commence_time": "2026-10-25T03:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-02T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-F779E52E",
+      "title": "Ohio Bobcats wins + Petr Yan wins",
+      "payout": 2.56,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.610975237&selectionId=2205296",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Ohio Bobcats @ Kent State Golden Flashes + Merab Dvalishvili @ Petr Yan",
+      "market_type": "2-leg parlay",
+      "american_odds": 156,
+      "implied_probability": 0.391,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Ohio Bobcats @ Kent State Golden Flashes",
+          "pick": "Ohio Bobcats wins",
+          "odds": -162,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.610975237&selectionId=2205296",
+          "commence_time": "2026-10-03T19:30:00Z"
+        },
+        {
+          "matchup": "Merab Dvalishvili @ Petr Yan",
+          "pick": "Petr Yan wins",
+          "odds": -172,
+          "implied_prob": "63%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.600461378&selectionId=19289678",
+          "commence_time": "2026-10-25T03:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-03T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-2ABFCCA7",
+      "title": "Virginia Tech Hokies wins + Air Force Falcons wins",
+      "payout": 2.56,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027507924?coupon={pickType}|4353049086|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies + Navy Midshipmen @ Air Force Falcons",
+      "market_type": "2-leg parlay",
+      "american_odds": 156,
+      "implied_probability": 0.391,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -167,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027507924?coupon={pickType}|4353049086|{wagerAmount}",
+          "commence_time": "2026-10-02T23:00:00Z"
+        },
+        {
+          "matchup": "Navy Midshipmen @ Air Force Falcons",
+          "pick": "Air Force Falcons wins",
+          "odds": -167,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508107?coupon={pickType}|4353115888|{wagerAmount}",
+          "commence_time": "2026-10-03T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-02T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-2186EA6D",
+      "title": "Iowa State Cyclones wins + Virginia Tech Hokies wins",
+      "payout": 2.57,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027508093?coupon={pickType}|4353163693|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "West Virginia Mountaineers @ Iowa State Cyclones + Pittsburgh Panthers @ Virginia Tech Hokies",
+      "market_type": "2-leg parlay",
+      "american_odds": 157,
+      "implied_probability": 0.389,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "West Virginia Mountaineers @ Iowa State Cyclones",
+          "pick": "Iowa State Cyclones wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508093?coupon={pickType}|4353163693|{wagerAmount}",
+          "commence_time": "2026-10-03T16:00:00Z"
+        },
+        {
+          "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -167,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027507924?coupon={pickType}|4353049086|{wagerAmount}",
+          "commence_time": "2026-10-02T23:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-02T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-07284C51",
+      "title": "Iowa State Cyclones wins + Air Force Falcons wins",
+      "payout": 2.57,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027508093?coupon={pickType}|4353163693|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "West Virginia Mountaineers @ Iowa State Cyclones + Navy Midshipmen @ Air Force Falcons",
+      "market_type": "2-leg parlay",
+      "american_odds": 157,
+      "implied_probability": 0.389,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "West Virginia Mountaineers @ Iowa State Cyclones",
+          "pick": "Iowa State Cyclones wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508093?coupon={pickType}|4353163693|{wagerAmount}",
+          "commence_time": "2026-10-03T16:00:00Z"
+        },
+        {
+          "matchup": "Navy Midshipmen @ Air Force Falcons",
+          "pick": "Air Force Falcons wins",
+          "odds": -167,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508107?coupon={pickType}|4353115888|{wagerAmount}",
+          "commence_time": "2026-10-03T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-03T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-A9416917",
+      "title": "Oklahoma City Thunder wins + Virginia Tech Hokies wins",
+      "payout": 2.57,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028726112?coupon={pickType}|4293745618|{wagerAmount}",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves + Pittsburgh Panthers @ Virginia Tech Hokies",
+      "market_type": "2-leg parlay",
+      "american_odds": 157,
+      "implied_probability": 0.389,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
+          "pick": "Oklahoma City Thunder wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028726112?coupon={pickType}|4293745618|{wagerAmount}",
+          "commence_time": "2026-12-26T01:00:00Z"
+        },
+        {
+          "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -167,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027507924?coupon={pickType}|4353049086|{wagerAmount}",
+          "commence_time": "2026-10-02T23:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-02T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-C9382A2E",
+      "title": "Oklahoma City Thunder wins + Air Force Falcons wins",
+      "payout": 2.57,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028726112?coupon={pickType}|4293745618|{wagerAmount}",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves + Navy Midshipmen @ Air Force Falcons",
+      "market_type": "2-leg parlay",
+      "american_odds": 157,
+      "implied_probability": 0.389,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
+          "pick": "Oklahoma City Thunder wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028726112?coupon={pickType}|4293745618|{wagerAmount}",
+          "commence_time": "2026-12-26T01:00:00Z"
+        },
+        {
+          "matchup": "Navy Midshipmen @ Air Force Falcons",
+          "pick": "Air Force Falcons wins",
+          "odds": -167,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508107?coupon={pickType}|4353115888|{wagerAmount}",
+          "commence_time": "2026-10-03T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-03T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-581B7884",
+      "title": "Oklahoma City Thunder wins + Petr Yan wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598956099&selectionId=3319741",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves + Merab Dvalishvili @ Petr Yan",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.387,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
+          "pick": "Oklahoma City Thunder wins",
+          "odds": -158,
+          "implied_prob": "61%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598956099&selectionId=3319741",
+          "commence_time": "2026-12-26T01:00:00Z"
+        },
+        {
+          "matchup": "Merab Dvalishvili @ Petr Yan",
+          "pick": "Petr Yan wins",
+          "odds": -172,
+          "implied_prob": "63%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.600461378&selectionId=19289678",
+          "commence_time": "2026-10-25T03:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-25T03:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-91F7BFB1",
+      "title": "Iowa State Cyclones wins + Oklahoma City Thunder wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027508093?coupon={pickType}|4353163693|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "West Virginia Mountaineers @ Iowa State Cyclones + Oklahoma City Thunder @ Minnesota Timberwolves",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "West Virginia Mountaineers @ Iowa State Cyclones",
+          "pick": "Iowa State Cyclones wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508093?coupon={pickType}|4353163693|{wagerAmount}",
+          "commence_time": "2026-10-03T16:00:00Z"
+        },
+        {
+          "matchup": "Oklahoma City Thunder @ Minnesota Timberwolves",
+          "pick": "Oklahoma City Thunder wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028726112?coupon={pickType}|4293745618|{wagerAmount}",
+          "commence_time": "2026-12-26T01:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-03T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-E4D736E6",
+      "title": "Air Force Falcons wins + Petr Yan wins",
+      "payout": 2.6,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.610972400&selectionId=943072",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Navy Midshipmen @ Air Force Falcons + Merab Dvalishvili @ Petr Yan",
+      "market_type": "2-leg parlay",
+      "american_odds": 160,
+      "implied_probability": 0.385,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Navy Midshipmen @ Air Force Falcons",
+          "pick": "Air Force Falcons wins",
+          "odds": -156,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.610972400&selectionId=943072",
+          "commence_time": "2026-10-03T16:00:00Z"
+        },
+        {
+          "matchup": "Merab Dvalishvili @ Petr Yan",
+          "pick": "Petr Yan wins",
+          "odds": -172,
+          "implied_prob": "63%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.600461378&selectionId=19289678",
+          "commence_time": "2026-10-25T03:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-03T16:00:00Z"
+    }
+  ]
+}
