@@ -1,79 +1,4 @@
 {
-  "SB-E12ABEBA": {
-    "title": "Rangers take down Twins by two or more",
-    "quip": "Target Field crowd filing out by the seventh",
-    "cached_at": "2026-09-26T12:39:44.309828+00:00"
-  },
-  "SB-2D6BA462": {
-    "title": "Pirates bury the Tigers in Detroit",
-    "quip": "Paul Skenes energy even on days he isn't pitching",
-    "cached_at": "2026-09-26T12:39:44.309828+00:00"
-  },
-  "SB-769A15D3": {
-    "title": "Leafs beat Islanders by two-plus tonight",
-    "quip": "Matthews treating the Isles trap like a speed bump",
-    "cached_at": "2026-09-26T12:39:44.309828+00:00"
-  },
-  "SB-FB76DB64": {
-    "title": "Colorado upsets Baylor in Waco",
-    "quip": "Prime rolls into Waco in full Cartier shades",
-    "cached_at": "2026-09-26T12:39:44.309828+00:00"
-  },
-  "SB-A3CCD654": {
-    "title": "Mets blow out Nationals by six-plus",
-    "quip": "Lindor turning Nationals Park into batting practice",
-    "cached_at": "2026-09-26T12:39:44.309828+00:00"
-  },
-  "SB-FE16D032": {
-    "title": "Pelicans skate past HIFK by two tonight",
-    "quip": "Lahti ice, Helsinki tears, same old script",
-    "cached_at": "2026-09-26T12:39:57.595667+00:00"
-  },
-  "SB-516659CC": {
-    "title": "HV71 raid V\u00e4xj\u00f6 and win outright",
-    "quip": "J\u00f6nk\u00f6ping's finest crashing the Lakers' house party",
-    "cached_at": "2026-09-26T12:39:57.595667+00:00"
-  },
-  "SB-AC647279": {
-    "title": "HPK handle \u00c4ss\u00e4t by a clear two",
-    "quip": "H\u00e4meenlinna doesn't do one-goal drama",
-    "cached_at": "2026-09-26T12:39:57.595667+00:00"
-  },
-  "SB-64AB34C4": {
-    "title": "KooKoo bury Jukurit by two or more",
-    "quip": "Kouvola's finest sending Mikkeli home quiet",
-    "cached_at": "2026-09-26T12:39:57.595667+00:00"
-  },
-  "SB-C8FD5840": {
-    "title": "Amir Abubaker shocks Bradley Goldsmith",
-    "quip": "Goldsmith's chin is about to file a complaint",
-    "cached_at": "2026-09-26T12:39:57.595667+00:00"
-  },
-  "SB-9AAF9CF1": {
-    "title": "Texas takes down Tennessee in Knoxville tonight",
-    "quip": "Rocky Top gets muted by Arch Manning's arm",
-    "cached_at": "2026-09-26T12:40:05.862865+00:00"
-  },
-  "SB-2DD4DF3D": {
-    "title": "Pirates keep it within a run against Tigers",
-    "quip": "Skenes turns Comerica into a library",
-    "cached_at": "2026-09-26T12:40:05.862865+00:00"
-  },
-  "SB-A4382320": {
-    "title": "Blue Jays handle the Reds at Rogers Centre",
-    "quip": "Vladdy feasts, Cincinnati's bullpen sets the table",
-    "cached_at": "2026-09-26T12:40:05.862865+00:00"
-  },
-  "SB-104CA874": {
-    "title": "Rangers stay within a run of the Twins",
-    "quip": "Target Field nail-biters are basically a Minnesota tradition",
-    "cached_at": "2026-09-26T12:40:05.862865+00:00"
-  },
-  "SB-97BC9C23": {
-    "title": "Kent State beats Ball State in MACtion",
-    "quip": "Tuesday night football nobody asked for, everybody watches",
-    "cached_at": "2026-09-26T12:40:05.862865+00:00"
-  },
   "SB-B4CC8960": {
     "title": "Harrell takes a clear decision over Brenner",
     "quip": "Harrell grinds it out like a wrestling practice",
@@ -793,5 +718,55 @@
     "title": "Canadiens stay within a goal of the Leafs",
     "quip": "the oldest rivalry in hockey never ends politely",
     "cached_at": "2026-09-30T01:07:03.680189+00:00"
+  },
+  "SB-769A15D3": {
+    "title": "Leafs bury the Islanders by two tonight",
+    "quip": "Matthews doesn't do one-goal games quietly",
+    "cached_at": "2026-09-30T14:36:20.907813+00:00"
+  },
+  "SB-3D4215F8": {
+    "title": "Red Sox rout the Yankees in the Bronx",
+    "quip": "Devers turning the short porch into a public service",
+    "cached_at": "2026-09-30T14:36:20.907813+00:00"
+  },
+  "SB-8B020CB4": {
+    "title": "White Sox humiliate the Astros by nine",
+    "quip": "a plague of locusts descends on Minute Maid Park",
+    "cached_at": "2026-09-30T14:36:20.907813+00:00"
+  },
+  "SB-217F1A5E": {
+    "title": "Doosan runs away from the Dinos tonight",
+    "quip": "Jamsil bears don't share the honey",
+    "cached_at": "2026-09-30T14:36:38.873930+00:00"
+  },
+  "SB-2D2DCB16": {
+    "title": "Hanwha upset the Lions in Daegu",
+    "quip": "the Eagles found their Ryu-era swagger again",
+    "cached_at": "2026-09-30T14:36:38.873930+00:00"
+  },
+  "SB-7C064DDC": {
+    "title": "Rakuten knock off the SoftBank Hawks",
+    "quip": "Sendai remembers what beating the Hawks feels like",
+    "cached_at": "2026-09-30T14:36:38.873930+00:00"
+  },
+  "SB-78E3E779": {
+    "title": "HV71 beat \u00d6rebro by two or more",
+    "quip": "J\u00f6nk\u00f6ping crowd noise doing real defensive work",
+    "cached_at": "2026-09-30T14:36:38.873930+00:00"
+  },
+  "SB-62376988": {
+    "title": "Alan Sanchez stuns Omari Jones",
+    "quip": "Olympic medal means nothing when Sanchez lands the left",
+    "cached_at": "2026-09-30T14:36:38.873930+00:00"
+  },
+  "SB-61F3086B": {
+    "title": "Cubs keep it close in San Diego tonight",
+    "quip": "Wrigley road trips end in one-run heartbreak",
+    "cached_at": "2026-09-30T14:36:47.496094+00:00"
+  },
+  "SB-F9887573": {
+    "title": "Red Sox stay within a run at the Stadium",
+    "quip": "no rivalry blowouts, just nine innings of grinding",
+    "cached_at": "2026-09-30T14:36:47.496094+00:00"
   }
 }
