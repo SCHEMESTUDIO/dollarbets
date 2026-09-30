@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-09-30T01:07:12.086722+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 9,
+    "NCAAF": 1
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-83FA10DF",
+      "title": "Iowa State Cyclones wins + Ismail Naurdiev wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027508093?coupon={pickType}|4353163693|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "West Virginia Mountaineers @ Iowa State Cyclones + Ismail Naurdiev @ Marvin Vettori",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "West Virginia Mountaineers @ Iowa State Cyclones",
+          "pick": "Iowa State Cyclones wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508093?coupon={pickType}|4353163693|{wagerAmount}",
+          "commence_time": "2026-10-03T16:00:00Z"
+        },
+        {
+          "matchup": "Ismail Naurdiev @ Marvin Vettori",
+          "pick": "Ismail Naurdiev wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029162023?coupon={pickType}|4352584677|{wagerAmount}",
+          "commence_time": "2026-10-04T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-03T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-F109699E",
+      "title": "Hawaii Rainbow Warriors wins + Iowa State Cyclones wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027508085?coupon={pickType}|4353026416|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "San Jose State Spartans @ Hawaii Rainbow Warriors + West Virginia Mountaineers @ Iowa State Cyclones",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Jose State Spartans @ Hawaii Rainbow Warriors",
+          "pick": "Hawaii Rainbow Warriors wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508085?coupon={pickType}|4353026416|{wagerAmount}",
+          "commence_time": "2026-10-04T03:59:00Z"
+        },
+        {
+          "matchup": "West Virginia Mountaineers @ Iowa State Cyclones",
+          "pick": "Iowa State Cyclones wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508093?coupon={pickType}|4353163693|{wagerAmount}",
+          "commence_time": "2026-10-03T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-03T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-66E04125",
+      "title": "Hawaii Rainbow Warriors wins + Ismail Naurdiev wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027508085?coupon={pickType}|4353026416|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "San Jose State Spartans @ Hawaii Rainbow Warriors + Ismail Naurdiev @ Marvin Vettori",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Jose State Spartans @ Hawaii Rainbow Warriors",
+          "pick": "Hawaii Rainbow Warriors wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508085?coupon={pickType}|4353026416|{wagerAmount}",
+          "commence_time": "2026-10-04T03:59:00Z"
+        },
+        {
+          "matchup": "Ismail Naurdiev @ Marvin Vettori",
+          "pick": "Ismail Naurdiev wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029162023?coupon={pickType}|4352584677|{wagerAmount}",
+          "commence_time": "2026-10-04T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-04T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-439A57AD",
+      "title": "Pittsburgh Steelers wins + Iowa State Cyclones wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1029234879?coupon={pickType}|4346763610|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Pittsburgh Steelers @ Cleveland Browns + West Virginia Mountaineers @ Iowa State Cyclones",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Steelers @ Cleveland Browns",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029234879?coupon={pickType}|4346763610|{wagerAmount}",
+          "commence_time": "2026-10-02T00:15:00Z"
+        },
+        {
+          "matchup": "West Virginia Mountaineers @ Iowa State Cyclones",
+          "pick": "Iowa State Cyclones wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508093?coupon={pickType}|4353163693|{wagerAmount}",
+          "commence_time": "2026-10-03T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-02T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-DE00A5FF",
+      "title": "Pittsburgh Steelers wins + Ismail Naurdiev wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1029234879?coupon={pickType}|4346763610|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Pittsburgh Steelers @ Cleveland Browns + Ismail Naurdiev @ Marvin Vettori",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Steelers @ Cleveland Browns",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029234879?coupon={pickType}|4346763610|{wagerAmount}",
+          "commence_time": "2026-10-02T00:15:00Z"
+        },
+        {
+          "matchup": "Ismail Naurdiev @ Marvin Vettori",
+          "pick": "Ismail Naurdiev wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029162023?coupon={pickType}|4352584677|{wagerAmount}",
+          "commence_time": "2026-10-04T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-02T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-81254CAB",
+      "title": "San Francisco 49ers wins + Iowa State Cyclones wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1029006773?coupon={pickType}|4346784341|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Denver Broncos @ San Francisco 49ers + West Virginia Mountaineers @ Iowa State Cyclones",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Denver Broncos @ San Francisco 49ers",
+          "pick": "San Francisco 49ers wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029006773?coupon={pickType}|4346784341|{wagerAmount}",
+          "commence_time": "2026-10-04T20:25:00Z"
+        },
+        {
+          "matchup": "West Virginia Mountaineers @ Iowa State Cyclones",
+          "pick": "Iowa State Cyclones wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508093?coupon={pickType}|4353163693|{wagerAmount}",
+          "commence_time": "2026-10-03T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-03T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-B6853886",
+      "title": "San Francisco 49ers wins + Ismail Naurdiev wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1029006773?coupon={pickType}|4346784341|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Denver Broncos @ San Francisco 49ers + Ismail Naurdiev @ Marvin Vettori",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Denver Broncos @ San Francisco 49ers",
+          "pick": "San Francisco 49ers wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029006773?coupon={pickType}|4346784341|{wagerAmount}",
+          "commence_time": "2026-10-04T20:25:00Z"
+        },
+        {
+          "matchup": "Ismail Naurdiev @ Marvin Vettori",
+          "pick": "Ismail Naurdiev wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029162023?coupon={pickType}|4352584677|{wagerAmount}",
+          "commence_time": "2026-10-04T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-04T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-72E403E9",
+      "title": "Utah Jazz wins + Iowa State Cyclones wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Utah Jazz @ Memphis Grizzlies + West Virginia Mountaineers @ Iowa State Cyclones",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Utah Jazz @ Memphis Grizzlies",
+          "pick": "Utah Jazz wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+          "commence_time": "2026-10-22T00:10:00Z"
+        },
+        {
+          "matchup": "West Virginia Mountaineers @ Iowa State Cyclones",
+          "pick": "Iowa State Cyclones wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508093?coupon={pickType}|4353163693|{wagerAmount}",
+          "commence_time": "2026-10-03T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-03T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-F3F163D2",
+      "title": "Utah Jazz wins + Ismail Naurdiev wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Utah Jazz @ Memphis Grizzlies + Ismail Naurdiev @ Marvin Vettori",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Utah Jazz @ Memphis Grizzlies",
+          "pick": "Utah Jazz wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+          "commence_time": "2026-10-22T00:10:00Z"
+        },
+        {
+          "matchup": "Ismail Naurdiev @ Marvin Vettori",
+          "pick": "Ismail Naurdiev wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029162023?coupon={pickType}|4352584677|{wagerAmount}",
+          "commence_time": "2026-10-04T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-04T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-6645428B",
+      "title": "Marcus McGhee wins + Iowa State Cyclones wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1029162022?coupon={pickType}|4352573200|{wagerAmount}",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Benardo Sopaj @ Marcus McGhee + West Virginia Mountaineers @ Iowa State Cyclones",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Benardo Sopaj @ Marcus McGhee",
+          "pick": "Marcus McGhee wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029162022?coupon={pickType}|4352573200|{wagerAmount}",
+          "commence_time": "2026-10-04T00:00:00Z"
+        },
+        {
+          "matchup": "West Virginia Mountaineers @ Iowa State Cyclones",
+          "pick": "Iowa State Cyclones wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027508093?coupon={pickType}|4353163693|{wagerAmount}",
+          "commence_time": "2026-10-03T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-03T16:00:00Z"
+    }
+  ]
+}

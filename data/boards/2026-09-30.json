@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-09-30T01:06:20.915324+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 3
+  },
+  "board": [
+    {
+      "ticker": "KXHURCAT-26PENA-T5",
+      "title": "Pena spins up to Category 5",
+      "subtitle": "Hurricane Pena",
+      "yes_sub_title": "Category 5 or above",
+      "no_sub_title": "Category 5 or above",
+      "payout": 2.63,
+      "tier": "green",
+      "quip": "wasted on open water when Boca Raton was right there",
+      "yes_price": "0.3800",
+      "volume": 0.0,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 45.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Jim Cantore checks into a motel with a flashlight and an expression",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "I have a cousin in Cabo who will absolutely livestream this vertically",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "the Pacific is showing off",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "$2.63 back, which buys one bottle of water at the airport after",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we are seeing a wobble. folks, this is a significant WOBBLE\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "wasted on open water when Boca Raton was right there",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "the Perfect Storm except every guy on the boat has a phone",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "going from Cat 4 to Cat 5 is a walk-off in a blowout",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXFUSION-30-JAN01",
+      "title": "Nuclear fusion gets cracked before 2030",
+      "subtitle": "Nuclear fusion achieved",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 3.03,
+      "tier": "yellow",
+      "quip": "Doc Ock had this running in a loft apartment in 2004",
+      "yes_price": "0.3300",
+      "volume": 31323.07,
+      "category": "Science and Technology",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXFUSION?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 94.0,
+      "_specificity": 5,
+      "quip_alts": [
+        {
+          "quip": "a Discovery Channel special promised me this in 1998 and I still tell people",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "gas station sign goes to zero, then back up, then higher than before",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "Doc Ock had this running in a loft apartment in 2004",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "homemade sun, finally",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "a tiny star in a shed in Oxfordshire and I am emotional about it",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "thirty years away since 1957, now allegedly four",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"net positive gain\" means the toaster ran for nine seconds, congratulations",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "fusion is the physics version of a five star recruit redshirting until 40",
+          "mode": 6,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x92b502c683e2cc8cad23d670ad5e1d6efbf51fdc70310f8594e4c2ffc663bed4",
+      "title": "California passes voter ID",
+      "subtitle": "",
+      "payout": 3.7,
+      "tier": "yellow",
+      "quip": "the state that cards you for cough syrup draws the line here",
+      "yes_price": "0.2700",
+      "volume": 9851.863502999997,
+      "category": "Other",
+      "close_time": "2026-11-04T04:59:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/california-voter-id-referendum-passes",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "the state that cards you for cough syrup draws the line here",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "I do not know where my ID is and it's noon on a Tuesday",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Sacramento reaches the bargaining stage by Thursday, acceptance never",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "the DMV wins again",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "you need two forms of ID to buy spray paint in Fresno already",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "like Texas waking up and building a bullet train out of spite",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"papers please\" but the guy saying it is in Rainbow sandals",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "i just want to see the group of people who wrote this thing",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNEXTOUTUS-26SEP28-PHEG",
+      "title": "Hegseth is the first one out the door",
+      "subtitle": "HHS Secretary, Defense Secretary and FBI Director",
+      "yes_sub_title": "Pete Hegseth",
+      "no_sub_title": "Pete Hegseth",
+      "payout": 3.85,
+      "tier": "yellow",
+      "quip": "couch at Fox and Friends still warm, he's back on it by Monday",
+      "yes_price": "0.2600",
+      "volume": 2897.17,
+      "category": "Politics",
+      "close_time": "2029-01-20T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNEXTOUTUS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 109.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "couch at Fox and Friends still warm, he's back on it by Monday",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i genuinely could not name four people currently in this cabinet",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "musical chairs, Pentagon edition",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "\"tremendous guy, tremendous. barely knew him. terrific family\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "first one voted off the island and he brought the boat",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "the Browns cycle through coordinators slower than this building does",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "$3.85 and one Signal chat quietly archiving itself",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "somebody has to go first and that building is full of candidates",
+          "mode": 7,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "ticker": "KXFSLR-26OCTMWSOLD-4500",
+      "title": "First Solar ships over 4,500 megawatts this quarter",
+      "subtitle": "module volume sold in Q3 2026",
+      "yes_sub_title": "Above 4500 mw",
+      "no_sub_title": "Above 4500 mw",
+      "payout": 10.0,
+      "tier": "orange",
+      "quip": "4,500 megawatts, or one chatbot answering the word thanks",
+      "yes_price": "0.1000",
+      "volume": 5228.0,
+      "category": "Financials",
+      "close_time": "2027-02-25T04:00:00Z",
+      "url": "https://kalshi.com/markets/KXFSLR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 104.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "my dad has called panels a scam since 2011 and I need this badly",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "an entire Arizona parking lot vanishes under glass by Tuesday",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "the sun stays winning",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "4,500 megawatts, or one chatbot answering the word thanks",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "this is a 40 burger and the arena is a factory in Ohio",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "i love when a company just makes a whole lot of one thing",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "Mr. Burns ordering the sun blocker as we speak",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we are volume constrained, not demand constrained\" says man reading a slide",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXNFLFIRSTSTART-27SSANDERS2-W3W4",
+      "title": "Shedeur Sanders starts in Week 3 or 4",
+      "subtitle": "Shedeur Sanders (2026-27)",
+      "yes_sub_title": "Week 3 to Week 4",
+      "no_sub_title": "Week 3 to Week 4",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "every Cleveland quarterback gets a jersey and a Wikipedia footnote",
+      "yes_price": "0.0700",
+      "volume": 16916.31,
+      "category": "Sports",
+      "close_time": "2027-01-19T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNFLFIRSTSTART?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "Deion in the box, sunglasses indoors, filming the whole thing vertically",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "I am going to watch a Browns game in September on purpose",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "factory of sadness, now hiring",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "\"we're rolling with the kid,\" said the coach whose neck was already gone",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "every Cleveland quarterback gets a jersey and a Wikipedia footnote",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Major League, except the owner is losing on purpose and the kid is famous",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "fourteen bucks and one more fresh set of Cleveland feelings",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "a rookie starting in week 3 is the most electric thing in football",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x660e5732754d03a62f717db5dbcdd65fca9866311da5d185f19f8ffb4bfa7f0b",
+      "title": "Trump renames ICE to NICE this year",
+      "subtitle": "",
+      "payout": 18.18,
+      "tier": "red",
+      "quip": "\"we're calling it NICE. because it's nicer. very simple. very beautiful\"",
+      "yes_price": "0.0550",
+      "volume": 9968.286250000003,
+      "category": "World",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/trump-renames-ice-to-nice-by-june-30",
+      "platform": "polymarket",
+      "score": 63.0,
+      "quip_alts": [
+        {
+          "quip": "\"we're calling it NICE. because it's nicer. very simple. very beautiful\"",
+          "mode": 4,
+          "score": 9
+        },
+        {
+          "quip": "new hats arrive Friday, spelled wrong, distributed anyway",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "branding solves everything, apparently",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "i hate that I laughed and I hate more that I believe it",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Orwell's editor sent this back for being a little on the nose",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "like the two years Washington's team just went by nothing",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "$18.18 and an entire decal budget for a federal fleet",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "acronym department has never once missed and I respect the grind",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA gets someone on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 25.0,
+      "tier": "red",
+      "quip": "Buzz Aldrin standing by to punch anybody who doubts it",
+      "yes_price": "0.0400",
+      "volume": 220482.6,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 129.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "crew opens the hangar and the lander is still a rendering",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "i told my nephew we were going back and now I am a liar",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "moon: still up there",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "Buzz Aldrin standing by to punch anybody who doubts it",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "$25 back, roughly one astronaut ice cream from the gift shop",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the space program keeps redshirting the same senior class",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "if this happens I am taking the day off work, unpaid, gladly",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "\"2027, maybe 2026. the moon is beautiful. I've seen it, personally\"",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26FAY-T1",
+      "title": "Fay turns into a hurricane",
+      "subtitle": "Hurricane Fay",
+      "yes_sub_title": "Category 1 or above",
+      "no_sub_title": "Category 1 or above",
+      "payout": 50.0,
+      "tier": "red",
+      "quip": "gas stations out of gas, Publix out of subs, Fay out of patience",
+      "yes_price": "0.0200",
+      "volume": 93023.94,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Florida keeps ordering off the same menu and acting surprised",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "gas stations out of gas, Publix out of subs, Fay out of patience",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "one notification on my phone all week and it's a woman named Fay",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Fay means business",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "category 1 is the junior varsity of destruction",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Fay is the name of a woman who takes your parking spot and stares",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "$50 for a tropical storm getting the promotion it earned",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"little wind, little rain, we're staying\" says guy tying down a jet ski",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0x223fe79ad38e49e02a8e935947d2dc06c210aed1fe1d671cad3cd6146565b06b",
+      "title": "Silver hits $72 this month",
+      "subtitle": "",
+      "payout": 181.82,
+      "tier": "purple",
+      "quip": "the Hunt brothers rolling over in bed and reaching for the phone",
+      "yes_price": "0.0055",
+      "volume": 9771.859496,
+      "category": "Other",
+      "close_time": "2026-10-01T03:59:59.999Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/what-price-will-xagusd-hit-in-september-2026",
+      "platform": "polymarket",
+      "score": 60.0,
+      "quip_alts": [
+        {
+          "quip": "grandma's flatware quietly becomes a retirement account in the hutch",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "apologies to the guy in 2011 I made fun of, you were just early",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "gold's little brother eating",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "silver is Robin finally getting his own movie and it's good",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "the Hunt brothers rolling over in bed and reaching for the phone",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "$72 an ounce and every coin shop in Ohio locks the door",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "\"it's a monetary metal, bro\" says man with a tub under his bed",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "guys with metal detectors on the beach have never felt more seen",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    }
+  ]
+}
