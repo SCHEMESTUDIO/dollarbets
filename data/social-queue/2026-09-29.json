@@ -122,10 +122,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-09-30T21:30:19.401160+00:00",
+          "tweet_id": "2105409932400955395",
+          "reply_tweet_id": "2105409934158368979"
         },
         "telegram_channel": {
           "posted": false,
@@ -136,6 +136,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "8454124",
+        "page": "https://www.pexels.com/photo/deer-eating-grass-through-fence-8454124/",
+        "photographer": "Alexey Chudin",
+        "license": "Pexels License",
+        "phrases": [
+          "border fence desert dusk",
+          "empty bus depot night"
+        ],
+        "tokens": {
+          "input_tokens": 4089,
+          "output_tokens": 28
         }
       }
     }
