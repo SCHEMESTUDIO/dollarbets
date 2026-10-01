@@ -67,10 +67,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-01T19:02:31.145336+00:00",
+          "tweet_id": "2105735123152838674",
+          "reply_tweet_id": "2105735125996548203"
         },
         "telegram_channel": {
           "posted": false,
@@ -81,6 +81,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "29094001",
+        "page": "https://www.pexels.com/photo/black-and-white-glass-block-window-in-brick-wall-29094001/",
+        "photographer": "Anton Ivanov",
+        "license": "Pexels License",
+        "phrases": [
+          "bank vault door dusk",
+          "nightstand telephone dark bedroom"
+        ],
+        "tokens": {
+          "input_tokens": 4082,
+          "output_tokens": 34
         }
       }
     },
