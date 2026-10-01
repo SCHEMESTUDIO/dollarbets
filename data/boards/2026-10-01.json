@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-10-01T01:06:40.671902+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 3
+  },
+  "board": [
+    {
+      "ticker": "0x9962e726dfb4d0e063c3111fe9c2e1f4ad4740721c03b4c5e8bea046d33ecf34",
+      "title": "NATO invokes Article 4 again before 2027",
+      "subtitle": "",
+      "payout": 2.17,
+      "tier": "green",
+      "quip": "the Bat Signal goes up and the Bat issues a press release",
+      "yes_price": "0.4600",
+      "volume": 9895.532062999999,
+      "category": "Other",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/another-nato-article-4-byptptpt-20260726214235871",
+      "platform": "polymarket",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "i had to google Article 4 again and i'm not proud",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "\"we are deeply concerned.\" love that for us",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "concern, formally filed",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "Estonia calls the meeting, Belgium shows up with a slide deck",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "like calling timeout so everyone can yell at the ref together",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Article 4 is the group project of treaties",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "the Bat Signal goes up and the Bat issues a press release",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "i put a map on my wall and my girlfriend hates the map",
+          "mode": 2,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "KXUTSKIVISITS-27JUL31-T6000000",
+      "title": "Utah tops 6 million skier visits next season",
+      "subtitle": "the 2026\u201327 ski season",
+      "yes_sub_title": "Above 6,000,000 skier visits",
+      "no_sub_title": "Above 6,000,000 skier visits",
+      "payout": 2.56,
+      "tier": "green",
+      "quip": "Colorado can keep the altitude sickness and the $9 water",
+      "yes_price": "0.3900",
+      "volume": 5672.7,
+      "category": "Economics",
+      "close_time": "2027-07-31T15:29:00Z",
+      "url": "https://kalshi.com/markets/KXUTSKIVISITS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 53.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "i paid thirty-one dollars for chicken tenders at Snowbird and said thank you",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "6 million people, four of whom understand how a lift line merges",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "Ikon pass doing numbers",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "Colorado can keep the altitude sickness and the $9 water",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "by February Little Cottonwood is just a parking lot with scenery",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "greatest snow on earth. it says so on the license plate",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "\"brother it snowed forty inches, tell them i died\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "the SLC airport is now a terminal attached to a chairlift",
+          "mode": 6,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x62cbf6438c0aa2064e2fa8ca2fa2db556d08749d4f9db23fae48fffb520b4e48",
+      "title": "Swallows beat the Carp today",
+      "subtitle": "",
+      "payout": 3.39,
+      "tier": "yellow",
+      "quip": "Carp fans clapping politely like the band on the Titanic",
+      "yes_price": "0.2950",
+      "volume": 9834.453973000003,
+      "category": "Other",
+      "close_time": "2026-08-20T09:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/npb-tok-hir-2026-08-13",
+      "platform": "polymarket",
+      "score": 60.0,
+      "quip_alts": [
+        {
+          "quip": "i watch this at 5am now and my sleep schedule is a crime scene",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the umbrella dance is the best celebration in sports and it isn't close",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "Hiroshima is the Pittsburgh of this and i mean that with love",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Tokyo bird law",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "nine thousand tiny umbrellas go up and a man in Cleveland weeps",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "\"SWAAAALLOWS\" yells a man with a trumpet for four straight hours",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "$3.39 and a 2am alarm. i've made worse trades",
+          "mode": 5,
+          "score": 4
+        },
+        {
+          "quip": "Carp fans clapping politely like the band on the Titanic",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNEXTOUTUS-26SEP28-PHEG",
+      "title": "Hegseth is the first cabinet member to leave",
+      "subtitle": "HHS Secretary, Defense Secretary and FBI Director",
+      "yes_sub_title": "Pete Hegseth",
+      "no_sub_title": "Pete Hegseth",
+      "payout": 3.85,
+      "tier": "yellow",
+      "quip": "a Fox green room is already keeping a chair warm with tape on it",
+      "yes_price": "0.2600",
+      "volume": 2979.51,
+      "category": "Politics",
+      "close_time": "2029-01-20T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNEXTOUTUS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 91.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "a Fox green room is already keeping a chair warm with tape on it",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i have a whiteboard in my kitchen for this and my wife has questions",
+          "mode": 2,
+          "score": 5.5
+        },
+        {
+          "quip": "\"i serve at the pleasure of the president.\" for now",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "pentagon chair, rotating",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "like drafting a fantasy league where the categories are resignations",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "cabinet turnover is now measured in half-lives",
+          "mode": 5,
+          "score": 6
+        },
+        {
+          "quip": "tribal council but everyone's wearing a flag lapel pin",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "i check his name in the morning the way other people check weather",
+          "mode": 2,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x41e7c27975bd53fe08a5ab30960934bfea92b60b88f56ee9d9b42b8b0c97d98d",
+      "title": "David Sacks leaves the Trump administration before 2027",
+      "subtitle": "",
+      "payout": 4.64,
+      "tier": "yellow",
+      "quip": "back on the pod by Friday explaining why it was always the plan",
+      "yes_price": "0.2155",
+      "volume": 9844.410226999998,
+      "category": "World",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/who-will-leave-trump-administration-before-2027",
+      "platform": "polymarket",
+      "score": 48.0,
+      "quip_alts": [
+        {
+          "quip": "back on the pod by Friday explaining why it was always the plan",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i will know the second it happens because my feed becomes unusable",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "all in, then all out",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "crypto czar was never a real job and that absolutely ruled",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "\"look, besties, we're gonna do a whole episode on this\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "that's czar number four and i stopped counting at two",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "like a guest star who talked his way into a full arc",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "i'd rather he stay just so the poker game stays interesting",
+          "mode": 2,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26VICKY-T2",
+      "title": "Vicky strengthens into a Category 2 hurricane",
+      "subtitle": "Hurricane Vicky",
+      "yes_sub_title": "Category 2 or above",
+      "no_sub_title": "Category 2 or above",
+      "payout": 9.09,
+      "tier": "orange",
+      "quip": "a Vicky would absolutely key your car in a Publix lot",
+      "yes_price": "0.1100",
+      "volume": 0.0,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 65.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "a Vicky would absolutely key your car in a Publix lot",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "the local news guy is already standing in a puddle in a windbreaker",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i know three Vickys and every one of them could pull this off",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Vicky from accounting, unhinged",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "Category 2 is the lukewarm coffee of hurricanes",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "basically a preseason game with property damage",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "finally a storm named like it owns a tanning salon",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "she's the Aunt Linda of the Atlantic and she brought wine",
+          "mode": 8,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXYELLVISITS-27MAR31-T5000000",
+      "title": "Yellowstone tops 5 million visits this year",
+      "subtitle": "2026",
+      "yes_sub_title": "Above 5 million",
+      "no_sub_title": "Above 5 million",
+      "payout": 10.0,
+      "tier": "orange",
+      "quip": "Disney World but the characters can kill you",
+      "yes_price": "0.1000",
+      "volume": 22720.95,
+      "category": "Economics",
+      "close_time": "2027-03-31T15:29:00Z",
+      "url": "https://kalshi.com/markets/KXYELLVISITS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 96.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "five million people and one guy trying to pet a bison",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i waited ninety minutes for Old Faithful and said \"huh, neat\"",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "bison traffic jam economy",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "half of them came because of a Kevin Costner show set elsewhere",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "5 million visitors, 4.9 million photos of the exact same steam",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Clark Griswold would drive two days to see that parking lot",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "earth's largest hot tub and we all want in",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "Disney World but the characters can kill you",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA lands a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 25.0,
+      "tier": "red",
+      "quip": "plant the flag and i will cry into a Costco hot dog",
+      "yes_price": "0.0400",
+      "volume": 220687.44,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the lander arrives with a some assembly required sticker on the hatch",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i would call in sick for this and i'd do it twice",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Artemis, eventually, probably",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "$25 says it slips to 2031 and i buy a telescope instead",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "we did it once with a calculator dumber than my microwave",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "plant the flag and i will cry into a Costco hot dog",
+          "mode": 3,
+          "score": 9
+        },
+        {
+          "quip": "\"we're going back, folks. bigger moon. a much better moon\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "like a stadium renovation with three different announced opening days",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXMODELHIGH-27-1550-GROK",
+      "title": "Grok is first to 1550 on Text Arena",
+      "subtitle": "Before 2027",
+      "yes_sub_title": "Grok",
+      "no_sub_title": "Grok",
+      "payout": 25.0,
+      "tier": "red",
+      "quip": "1550 was also my SAT and neither of us got hired",
+      "yes_price": "0.0400",
+      "volume": 15515.24,
+      "category": "Science and Technology",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "announcement lands at 3:41am and the owner quote tweets himself twice",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i asked it one question and it called me bro",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "based model, allegedly",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "1550 was also my SAT and neither of us got hired",
+          "mode": 5,
+          "score": 9.5
+        },
+        {
+          "quip": "the training montage where the coach also owns the gym and the league",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "i need these things doing postgame pressers, trash talk included",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "like the owner's son starting at quarterback and genuinely cooking",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"concerning\" replies a man with a rocket in his display name",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26GONZALO-T5",
+      "title": "Gonzalo becomes a Category 5 hurricane",
+      "subtitle": "Hurricane Gonzalo",
+      "yes_sub_title": "Category 5 or above",
+      "no_sub_title": "Category 5 or above",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "Jim Cantore lands at the airport and the city evacuates itself",
+      "yes_price": "0.0100",
+      "volume": 50.0,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 60.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "$100 off one dollar. that's Florida pricing",
+          "mode": 5,
+          "score": 5.5
+        },
+        {
+          "quip": "Florida has been running its mouth since the last one",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "i own a hurricane tracker app and live in Ohio",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Gonzalo means business",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "Jim Cantore lands at the airport and the city evacuates itself",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "Category 5 is the Thanos snap of weather",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "a name like Gonzalo deserves the top shelf, honestly",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "like a 16 seed hitting a buzzer beater where everybody loses",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    }
+  ]
+}
