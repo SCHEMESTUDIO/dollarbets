@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-02T21:24:50.139855+00:00",
+          "tweet_id": "2106133327270875471",
+          "reply_tweet_id": "2106133328860434795"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "3730625",
+        "page": "https://www.pexels.com/photo/body-of-water-during-sunset-3730625/",
+        "photographer": "Suzy Hazelwood",
+        "license": "Pexels License",
+        "phrases": [
+          "storm clouds ocean horizon",
+          "empty airport terminal night"
+        ],
+        "tokens": {
+          "input_tokens": 2935,
+          "output_tokens": 32
         }
       }
     }
