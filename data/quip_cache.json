@@ -1,49 +1,4 @@
 {
-  "SB-27F82BF8": {
-    "title": "Bucs knock off the Packers in Tampa",
-    "quip": "Baker Mayfield eats Lambeau cheese for breakfast",
-    "cached_at": "2026-09-28T16:26:18.194339+00:00"
-  },
-  "SB-DF94F548": {
-    "title": "Red Sox bludgeon the Yankees by four-plus",
-    "quip": "the Bronx boo birds warming up by the fifth",
-    "cached_at": "2026-09-28T16:26:18.194339+00:00"
-  },
-  "SB-F8248165": {
-    "title": "Wyoming stuns North Dakota State in Fargo",
-    "quip": "nobody walks out of the FargoDome smiling",
-    "cached_at": "2026-09-28T16:26:18.194339+00:00"
-  },
-  "SB-CF27A7E2": {
-    "title": "White Sox crush the Astros by nine-plus",
-    "quip": "the South Side finally remembers what offense looks like",
-    "cached_at": "2026-09-28T16:26:18.194339+00:00"
-  },
-  "SB-FE73457C": {
-    "title": "Twins take down SSG by two or more tonight",
-    "quip": "Jamsil bats travel better than anyone admits",
-    "cached_at": "2026-09-28T16:26:36.219616+00:00"
-  },
-  "SB-776865BF": {
-    "title": "Chiba Lotte beat Rakuten in Sendai tonight",
-    "quip": "the Marines fan section out-chants the scoreboard again",
-    "cached_at": "2026-09-28T16:26:36.219616+00:00"
-  },
-  "SB-23F9ECED": {
-    "title": "Kia Tigers beat KT Wiz by multiple runs",
-    "quip": "Gwangju crowd doing the tomahawk before the fifth",
-    "cached_at": "2026-09-28T16:26:36.219616+00:00"
-  },
-  "SB-45125344": {
-    "title": "Hanwha Eagles upset Samsung Lions on the road",
-    "quip": "Eagles fandom is a lifestyle, not a hobby",
-    "cached_at": "2026-09-28T16:26:36.219616+00:00"
-  },
-  "SB-61FCFDBA": {
-    "title": "Packers handle the Bucs in Tampa",
-    "quip": "Love throwing darts while Baker takes hits",
-    "cached_at": "2026-09-28T16:26:43.382940+00:00"
-  },
   "SB-A4DFC9B8": {
     "title": "Broncos win in San Francisco tonight",
     "quip": "Bo Nix keeps quietly ruining everyone's power rankings",
@@ -673,5 +628,65 @@
     "title": "Blues stay within a goal of Stars",
     "quip": "Dallas wins, Binnington makes it annoying",
     "cached_at": "2026-10-02T14:26:54.650822+00:00"
+  },
+  "SB-D048627C": {
+    "title": "Capitals steal one in Carolina tonight",
+    "quip": "Ovechkin still finds the office in Raleigh",
+    "cached_at": "2026-10-02T20:21:05.666008+00:00"
+  },
+  "SB-C7371851": {
+    "title": "Blues upset the Stars in Dallas",
+    "quip": "Jordan Binnington thrives on being disliked",
+    "cached_at": "2026-10-02T20:21:05.666008+00:00"
+  },
+  "SB-D717223C": {
+    "title": "Delaware upsets Liberty on the Blue Hens' turf",
+    "quip": "Flames offense meets an actual defense",
+    "cached_at": "2026-10-02T20:21:05.666008+00:00"
+  },
+  "SB-84725A39": {
+    "title": "Dodgers bury the Braves by seven or more",
+    "quip": "Ohtani and Freeman hosting a housewarming for Atlanta",
+    "cached_at": "2026-10-02T20:21:05.666008+00:00"
+  },
+  "SB-F8248165": {
+    "title": "Wyoming shocks North Dakota State in Fargo",
+    "quip": "nobody wins in Fargo except Marge Gunderson",
+    "cached_at": "2026-10-02T20:21:05.666008+00:00"
+  },
+  "SB-917F9DAA": {
+    "title": "White Sox blow out Cleveland by eight",
+    "quip": "the South Side discovers offense for one glorious afternoon",
+    "cached_at": "2026-10-02T20:21:05.666008+00:00"
+  },
+  "SB-4C90CCE7": {
+    "title": "KT Wiz run away from Lotte in Suwon",
+    "quip": "Lotte's bullpen hands out gifts like Suwon street vendors",
+    "cached_at": "2026-10-02T20:21:22.750070+00:00"
+  },
+  "SB-42AE002E": {
+    "title": "Stampeders steal one in Regina tonight",
+    "quip": "Mosaic Stadium watermelon helmets left speechless again",
+    "cached_at": "2026-10-02T20:21:22.750070+00:00"
+  },
+  "SB-B41199A7": {
+    "title": "K\u00e4rp\u00e4t bury HPK by two tonight",
+    "quip": "Oulu's answer to the H\u00e4meenlinna derby, loudly",
+    "cached_at": "2026-10-02T20:21:22.750070+00:00"
+  },
+  "SB-8AEFC179": {
+    "title": "Yankees stay within a run of the Rays tonight",
+    "quip": "the Trop turns every game into a one-run grind",
+    "cached_at": "2026-10-02T20:21:32.804024+00:00"
+  },
+  "SB-A352B222": {
+    "title": "Stars send the Blues home losers tonight",
+    "quip": "Robertson and Hintz feasting in Dallas",
+    "cached_at": "2026-10-02T20:21:32.804024+00:00"
+  },
+  "SB-61FCFDBA": {
+    "title": "Packers handle the Bucs in Tampa tonight",
+    "quip": "Love's revenge tour rolls through Raymond James",
+    "cached_at": "2026-10-02T20:21:32.804024+00:00"
   }
 }
