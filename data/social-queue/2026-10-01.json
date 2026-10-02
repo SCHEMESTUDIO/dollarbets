@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-02T18:41:31.203778+00:00",
+          "tweet_id": "2106092227294289972",
+          "reply_tweet_id": "2106092229215326274"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "18346132",
+        "page": "https://www.pexels.com/photo/river-and-town-behind-18346132/",
+        "photographer": "Traveler stories photos  \u65c5\u4eba\u6545\u4e8b\u76f8\u7247\u96c6",
+        "license": "Pexels License",
+        "phrases": [
+          "empty baseball stadium dusk",
+          "harbor pier night rain"
+        ],
+        "tokens": {
+          "input_tokens": 3853,
+          "output_tokens": 32
         }
       }
     },
