@@ -1,0 +1,435 @@
+{
+  "generated_at": "2026-10-02T01:21:10.306723+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 10
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-58BBCD99",
+      "title": "Florida Panthers wins + New Orleans Saints wins",
+      "payout": 2.76,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028398376?coupon={pickType}|4357138726|{wagerAmount}",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Florida Panthers @ San Jose Sharks + Atlanta Falcons @ New Orleans Saints",
+      "market_type": "2-leg parlay",
+      "american_odds": 176,
+      "implied_probability": 0.362,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Florida Panthers @ San Jose Sharks",
+          "pick": "Florida Panthers wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028398376?coupon={pickType}|4357138726|{wagerAmount}",
+          "commence_time": "2026-10-02T02:10:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ New Orleans Saints",
+          "pick": "New Orleans Saints wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028812993?coupon={pickType}|4346758199|{wagerAmount}",
+          "commence_time": "2026-10-06T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-10-02T02:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-15111A2E",
+      "title": "Imanol Rodriguez wins + New Orleans Saints wins",
+      "payout": 2.76,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1029162017?coupon={pickType}|4352581706|{wagerAmount}",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Alden Coria @ Imanol Rodriguez + Atlanta Falcons @ New Orleans Saints",
+      "market_type": "2-leg parlay",
+      "american_odds": 176,
+      "implied_probability": 0.362,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Alden Coria @ Imanol Rodriguez",
+          "pick": "Imanol Rodriguez wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029162017?coupon={pickType}|4352581706|{wagerAmount}",
+          "commence_time": "2026-10-04T00:00:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ New Orleans Saints",
+          "pick": "New Orleans Saints wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028812993?coupon={pickType}|4346758199|{wagerAmount}",
+          "commence_time": "2026-10-06T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-10-04T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-F6BACE3E",
+      "title": "Virginia Tech Hokies wins + New Orleans Saints wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027507924?coupon={pickType}|4353049086|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies + Atlanta Falcons @ New Orleans Saints",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027507924?coupon={pickType}|4353049086|{wagerAmount}",
+          "commence_time": "2026-10-02T23:00:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ New Orleans Saints",
+          "pick": "New Orleans Saints wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028812993?coupon={pickType}|4346758199|{wagerAmount}",
+          "commence_time": "2026-10-06T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-10-02T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-52503239",
+      "title": "Cleveland Guardians wins + New Orleans Saints wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1029333114?coupon={pickType}|4357396222|{wagerAmount}",
+      "sport": "baseball_mlb",
+      "sport_display": "Multi",
+      "matchup": "Chicago White Sox @ Cleveland Guardians + Atlanta Falcons @ New Orleans Saints",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago White Sox @ Cleveland Guardians",
+          "pick": "Cleveland Guardians wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "baseball_mlb",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029333114?coupon={pickType}|4357396222|{wagerAmount}",
+          "commence_time": "2026-10-03T17:01:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ New Orleans Saints",
+          "pick": "New Orleans Saints wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028812993?coupon={pickType}|4346758199|{wagerAmount}",
+          "commence_time": "2026-10-06T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-10-03T17:01:00Z"
+    },
+    {
+      "ticker": "PARLAY-49043B01",
+      "title": "Utah Jazz wins + New Orleans Saints wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Utah Jazz @ Memphis Grizzlies + Atlanta Falcons @ New Orleans Saints",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Utah Jazz @ Memphis Grizzlies",
+          "pick": "Utah Jazz wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+          "commence_time": "2026-10-22T00:10:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ New Orleans Saints",
+          "pick": "New Orleans Saints wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028812993?coupon={pickType}|4346758199|{wagerAmount}",
+          "commence_time": "2026-10-06T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-10-06T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-B0F3360C",
+      "title": "Chicago Blackhawks +1.5 + New Orleans Saints wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028398372?coupon={pickType}|4357091470|{wagerAmount}",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Chicago Blackhawks @ Utah Mammoth + Atlanta Falcons @ New Orleans Saints",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Blackhawks @ Utah Mammoth",
+          "pick": "Chicago Blackhawks +1.5",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028398372?coupon={pickType}|4357091470|{wagerAmount}",
+          "commence_time": "2026-10-02T01:40:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ New Orleans Saints",
+          "pick": "New Orleans Saints wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028812993?coupon={pickType}|4346758199|{wagerAmount}",
+          "commence_time": "2026-10-06T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-10-02T01:40:00Z"
+    },
+    {
+      "ticker": "PARLAY-23098A0C",
+      "title": "Carolina Hurricanes wins + New Orleans Saints wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028411084?coupon={pickType}|4358257690|{wagerAmount}",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Washington Capitals @ Carolina Hurricanes + Atlanta Falcons @ New Orleans Saints",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington Capitals @ Carolina Hurricanes",
+          "pick": "Carolina Hurricanes wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028411084?coupon={pickType}|4358257690|{wagerAmount}",
+          "commence_time": "2026-10-02T23:00:00Z"
+        },
+        {
+          "matchup": "Atlanta Falcons @ New Orleans Saints",
+          "pick": "New Orleans Saints wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028812993?coupon={pickType}|4346758199|{wagerAmount}",
+          "commence_time": "2026-10-06T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-10-02T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-9C664FCC",
+      "title": "Florida Panthers wins + Imanol Rodriguez wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028398376?coupon={pickType}|4357138726|{wagerAmount}",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Florida Panthers @ San Jose Sharks + Alden Coria @ Imanol Rodriguez",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Florida Panthers @ San Jose Sharks",
+          "pick": "Florida Panthers wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028398376?coupon={pickType}|4357138726|{wagerAmount}",
+          "commence_time": "2026-10-02T02:10:00Z"
+        },
+        {
+          "matchup": "Alden Coria @ Imanol Rodriguez",
+          "pick": "Imanol Rodriguez wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029162017?coupon={pickType}|4352581706|{wagerAmount}",
+          "commence_time": "2026-10-04T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-02T02:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-9BD138B2",
+      "title": "Virginia Tech Hokies wins + Florida Panthers wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027507924?coupon={pickType}|4353049086|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies + Florida Panthers @ San Jose Sharks",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027507924?coupon={pickType}|4353049086|{wagerAmount}",
+          "commence_time": "2026-10-02T23:00:00Z"
+        },
+        {
+          "matchup": "Florida Panthers @ San Jose Sharks",
+          "pick": "Florida Panthers wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028398376?coupon={pickType}|4357138726|{wagerAmount}",
+          "commence_time": "2026-10-02T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-02T02:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-1B12E616",
+      "title": "Virginia Tech Hokies wins + Imanol Rodriguez wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027507924?coupon={pickType}|4353049086|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies + Alden Coria @ Imanol Rodriguez",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027507924?coupon={pickType}|4353049086|{wagerAmount}",
+          "commence_time": "2026-10-02T23:00:00Z"
+        },
+        {
+          "matchup": "Alden Coria @ Imanol Rodriguez",
+          "pick": "Imanol Rodriguez wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029162017?coupon={pickType}|4352581706|{wagerAmount}",
+          "commence_time": "2026-10-04T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-02T23:00:00Z"
+    }
+  ]
+}

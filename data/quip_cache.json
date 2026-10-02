@@ -1,49 +1,4 @@
 {
-  "SB-BCA9FC36": {
-    "title": "Lightning skate past Rangers by two or more",
-    "quip": "Kucherov does not believe in one-goal games",
-    "cached_at": "2026-09-28T00:20:49.356438+00:00"
-  },
-  "SB-5E3E15FD": {
-    "title": "Raiders upset the Chiefs in Vegas",
-    "quip": "Mahomes' one bad night per season has to land somewhere",
-    "cached_at": "2026-09-28T00:20:49.356438+00:00"
-  },
-  "SB-DE769B20": {
-    "title": "Jukurit steal one in Tampere from Ilves",
-    "quip": "Mikkeli's finest crashing the Ilves sauna party",
-    "cached_at": "2026-09-28T00:21:00.891691+00:00"
-  },
-  "SB-C7FAD78F": {
-    "title": "Cubs keep it close in San Diego",
-    "quip": "Petco keeps everything honest except the hitters",
-    "cached_at": "2026-09-28T00:21:09.958417+00:00"
-  },
-  "SB-377334AC": {
-    "title": "Penguins hang tough in Washington",
-    "quip": "Crosby and Ovechkin still refusing to age gracefully",
-    "cached_at": "2026-09-28T00:21:09.958417+00:00"
-  },
-  "SB-E1CF64EF": {
-    "title": "White Sox stay within a run in Houston",
-    "quip": "even the South Side deserves one civil evening",
-    "cached_at": "2026-09-28T00:21:09.958417+00:00"
-  },
-  "SB-EAB82EA5": {
-    "title": "Kings keep it tight at Colorado altitude",
-    "quip": "LA's neutral zone trap versus MacKinnon's jet engine",
-    "cached_at": "2026-09-28T00:21:09.958417+00:00"
-  },
-  "SB-A013CA07": {
-    "title": "49ers handle the Broncos at home",
-    "quip": "Levi's Stadium, Shanahan script, first fifteen plays",
-    "cached_at": "2026-09-28T00:21:09.958417+00:00"
-  },
-  "SB-403C6182": {
-    "title": "Yankees take down the Red Sox in the Bronx",
-    "quip": "Judge in that short porch, as tradition demands",
-    "cached_at": "2026-09-28T00:21:09.958417+00:00"
-  },
   "SB-27F82BF8": {
     "title": "Bucs knock off the Packers in Tampa",
     "quip": "Baker Mayfield eats Lambeau cheese for breakfast",
@@ -603,5 +558,60 @@
     "title": "Devils handle the Flyers tonight",
     "quip": "Hughes versus the Broad Street rebuild, pick a lane",
     "cached_at": "2026-10-01T20:47:44.265521+00:00"
+  },
+  "SB-3B753AFD": {
+    "title": "Guardians beat White Sox by two or more tonight",
+    "quip": "the South Side rebuild is still mostly scaffolding",
+    "cached_at": "2026-10-02T01:20:39.564053+00:00"
+  },
+  "SB-14981FB2": {
+    "title": "Blackhawks upset the Mammoth in Utah",
+    "quip": "Bedard tourism board, Salt Lake chapter",
+    "cached_at": "2026-10-02T01:20:39.564053+00:00"
+  },
+  "SB-1C71E726": {
+    "title": "Braves bury the Phillies by seven-plus",
+    "quip": "Acu\u00f1a turning Citizens Bank refugees into witnesses",
+    "cached_at": "2026-10-02T01:20:39.564053+00:00"
+  },
+  "SB-A0B6340D": {
+    "title": "Yankees blow out the Rays by five-plus",
+    "quip": "Judge treating that stadium like a batting cage",
+    "cached_at": "2026-10-02T01:20:39.564053+00:00"
+  },
+  "SB-97AEECC6": {
+    "title": "Lightning stun the Rangers at the Garden",
+    "quip": "Vasilevskiy standing on his head under the Garden lights",
+    "cached_at": "2026-10-02T01:20:39.564053+00:00"
+  },
+  "SB-0D0750EB": {
+    "title": "JYP bury HPK by two tonight",
+    "quip": "Jyv\u00e4skyl\u00e4 doesn't do one-goal games quietly",
+    "cached_at": "2026-10-02T01:20:55.167810+00:00"
+  },
+  "SB-5F1135E4": {
+    "title": "Kiekko-Espoo handle K\u00e4rp\u00e4t by two",
+    "quip": "Oulu's dynasty era is a museum exhibit now",
+    "cached_at": "2026-10-02T01:20:55.167810+00:00"
+  },
+  "SB-908CA858": {
+    "title": "Santos stun S\u00e3o Paulo at Morumbi",
+    "quip": "Neymar's homecoming needs at least one good chapter",
+    "cached_at": "2026-10-02T01:20:55.167810+00:00"
+  },
+  "SB-06D5E4B6": {
+    "title": "Wings upset the Valkyries in San Francisco",
+    "quip": "Paige Bueckers ruins a perfectly nice Bay Area evening",
+    "cached_at": "2026-10-02T01:20:55.167810+00:00"
+  },
+  "SB-F2BF43F3": {
+    "title": "Caps keep it close against the Hurricanes tonight",
+    "quip": "Ovechkin doesn't do blowouts, he does one-goal grind jobs",
+    "cached_at": "2026-10-02T01:21:03.044315+00:00"
+  },
+  "SB-51238A0E": {
+    "title": "Lightning stay within striking distance of the Rangers",
+    "quip": "Vasilevskiy rarely lets a game get out of hand",
+    "cached_at": "2026-10-02T01:21:03.044315+00:00"
   }
 }

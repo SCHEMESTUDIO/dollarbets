@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-10-02T01:20:26.679084+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 3
+  },
+  "board": [
+    {
+      "ticker": "KXHURCAT-26RACHEL-T5",
+      "title": "Rachel becomes a Category 5 hurricane",
+      "subtitle": "Hurricane Rachel",
+      "yes_sub_title": "Category 5 or above",
+      "no_sub_title": "Category 5 or above",
+      "payout": 2.22,
+      "tier": "green",
+      "quip": "this is the part where Florida acts surprised",
+      "yes_price": "0.4500",
+      "volume": 904.03,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 40.0,
+      "_specificity": 5,
+      "quip_alts": [
+        {
+          "quip": "the Weather Channel guy already bracing himself against a gas pump for no reason",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "this is the part where Florida acts surprised",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "i own a flashlight, four cans of beans, and a deeply unhealthy curiosity",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "Cat 5 winds are now measured in trampolines per block",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "Helen Hunt is already driving the wrong way down the highway",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "unsubscribe from the ocean",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "a storm earning its full government name is nature flexing",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "\"we are seeing a rotation here, and folks, i have never seen this\"",
+          "mode": 4,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "KXDEELRIP-40-RIPP",
+      "title": "Rippling IPOs before Deel",
+      "subtitle": "Before 2040",
+      "yes_sub_title": "Rippling",
+      "no_sub_title": "Rippling",
+      "payout": 2.44,
+      "tier": "green",
+      "quip": "payroll software beef is Yankees-Red Sox for people who love a spreadsheet",
+      "yes_price": "0.4100",
+      "volume": 4195.93,
+      "category": "Financials",
+      "close_time": "2040-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXDEELRIP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 61.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "a Deel guy is already sitting in the back of the roadshow taking notes",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "i have used neither of these companies and i have picked a side anyway",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "payroll software beef is Yankees-Red Sox for people who love a spreadsheet",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "payroll has a villain now",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "Spy Kids, except the mission is onboarding documents",
+          "mode": 8,
+          "score": 6
+        },
+        {
+          "quip": "between them they employ 400 lawyers and one guy who knows payroll",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "an IPO for the people who email you about your W-2. electric",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "San Francisco finally built a rivalry and it is about timesheets",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXGRAMMYNOMROTY-69-SOE",
+      "title": "So Easy lands a Record of the Year nod",
+      "subtitle": "2027",
+      "yes_sub_title": "So Easy (To Fall In Love)",
+      "no_sub_title": "So Easy (To Fall In Love)",
+      "payout": 4.0,
+      "tier": "yellow",
+      "quip": "a 12 seed getting the at-large bid and nobody raising a hand",
+      "yes_price": "0.2500",
+      "volume": 824.82,
+      "category": "Entertainment",
+      "close_time": "2027-11-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXGRAMMYNOMROTY?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 80.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i will be pretending i knew this song since February",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "cut to me nodding along at a watch party, lying to strangers",
+          "mode": 1,
+          "score": 5
+        },
+        {
+          "quip": "\"and the nominees are\" and my Shazam opens by itself",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "four bucks for vibes",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "the Grammys love a song your aunt found under a yogurt commercial",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "titles with parentheses in them go undefeated. always have",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "a 12 seed getting the at-large bid and nobody raising a hand",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "played 9 times on terrestrial radio, nominated anyway",
+          "mode": 5,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSSAUDINUCLEAR-27-27JAN01",
+      "title": "The US and Saudi nuclear deal takes effect by 2027",
+      "subtitle": "the bilateral U.S.\u2013Saudi agreement for peaceful nuclear cooperation under Section 123 of the Atomic Energy Act has entered into force and become legally operative between the two governments",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 6.25,
+      "tier": "yellow",
+      "quip": "gold pen, gold table, gold reactor, nobody in the room is an engineer",
+      "yes_price": "0.1600",
+      "volume": 13992.79,
+      "category": "Politics",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXUSSAUDINUCLEAR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 86.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "gold pen, gold table, gold reactor, nobody in the room is an engineer",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "\"it's for energy. tremendous energy. the cleanest energy anyone has ever seen\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "i was promised flying cars this decade and instead we are doing this",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "golf course diplomacy works",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "like your neighbor buying a jet ski and calling it cardio",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "the agreement runs 400 pages and 390 of them are about air conditioning",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Dr. Strangelove updated his LinkedIn and it says Riyadh",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "two countries building a reactor together is friendship at its most radioactive",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x0cd75f7ad75be2e0a02560cad7c6803f55660810a831ed3d69b47b6a41e9f751",
+      "title": "Mendon\u00e7a Filho finishes second in the Pernambuco Senate race",
+      "subtitle": "",
+      "payout": 6.45,
+      "tier": "yellow",
+      "quip": "margin of victory: 6,450 votes and one extremely motivated cousin",
+      "yes_price": "0.1550",
+      "volume": 9962.834244000003,
+      "category": "World",
+      "close_time": "2026-10-05T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/pernambuco-senate-election-2nd-place",
+      "platform": "polymarket",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "i have opinions about Pernambuco now and nobody can take them from me",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "second place still gets the seat. that's the Brazilian Senate for you",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "second place pays here",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "Recife bar TVs cut from the match to a vote count for eleven seconds",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "any election where silver counts as gold is a beautiful election",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "Ricky Bobby just found out you can be second and not be last",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "\"obrigado, Pernambuco\" said while already thinking about 2030",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "margin of victory: 6,450 votes and one extremely motivated cousin",
+          "mode": 5,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "STARSHIPMARS-29DEC31",
+      "title": "Starship flies humans to Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Not Before 2030",
+      "payout": 8.33,
+      "tier": "orange",
+      "quip": "the Donner Party with a merch drop",
+      "yes_price": "0.1200",
+      "volume": 53377.04,
+      "category": "Companies",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "first crew lands, opens the hatch, immediately posts",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "i cannot get a flight out of Newark on time but sure, Mars",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "see you in 2043",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "the Donner Party with a merch drop",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we're targeting 2029\" has now been said in four separate years",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "humans standing on another planet within five years would be insanely sick",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "launch window opens in 2028 and so does the lawsuit",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "the first Martian city gets a dealership before it gets a hospital",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXNFLFIRSTSTART-27SSANDERS2-W3W4",
+      "title": "Shedeur Sanders makes his first start in Week 3 or 4",
+      "subtitle": "Shedeur Sanders (2026-27)",
+      "yes_sub_title": "Week 3 to Week 4",
+      "no_sub_title": "Week 3 to Week 4",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "the 41st quarterback since 1999 and the 14th with a famous dad",
+      "yes_price": "0.0700",
+      "volume": 16919.18,
+      "category": "Sports",
+      "close_time": "2027-01-19T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNFLFIRSTSTART?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 101.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "cameras find Deion in the suite before the second snap, every snap after",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i am going to watch a September Browns game like an absolute sucker",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Cleveland does this annually",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "the Browns quarterback carousel has more riders than Disney World",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "another name for the jersey wall. framed, numbered, forgotten",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "Week 3 means the starter got hurt or got benched. in Cleveland, both",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "the 41st quarterback since 1999 and the 14th with a famous dad",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "\"we're going with the young guy\" said by a coach updating his resume",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0x69bb54252c813c34dcfcd14055e7416b191f045fb89a7c92dc19d9d39b332eb2",
+      "title": "Lauren Boebert resigns before next Halloween",
+      "subtitle": "",
+      "payout": 20.62,
+      "tier": "red",
+      "quip": "resignation read aloud in a Denver theater. tremendous acoustics in there",
+      "yes_price": "0.0485",
+      "volume": 9943.243019,
+      "category": "Other",
+      "close_time": "2026-11-01T03:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/will-lauren-boebert-resign-by",
+      "platform": "polymarket",
+      "score": 60.0,
+      "quip_alts": [
+        {
+          "quip": "i would miss her and i am not remotely proud of that",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "resignation read aloud in a Denver theater. tremendous acoustics in there",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "Colorado exhales for once",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "like a sitcom character leaving in season seven to pursue film",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "the House loses its loudest tourist",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "\"i am not resigning, i am being promoted by the people\" posted at 1am",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "twenty bucks says she stays through the credits and the post-credits scene",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "a surprise resignation is the trade deadline of politics and i am glued",
+          "mode": 3,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26NOV",
+      "title": "The US signs a new Iran nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Nov 1, 2026",
+      "no_sub_title": "Before Nov 1, 2026",
+      "payout": 25.0,
+      "tier": "red",
+      "quip": "Lucy, the football, and Charlie Brown in a conference room in Geneva",
+      "yes_price": "0.0400",
+      "volume": 736375.92,
+      "category": "Politics",
+      "close_time": "2026-11-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "three administrations and one podcast have promised me this exact thing",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "handshake photo, two flags, nobody on earth reads page twelve",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we have a framework.\" there is never a frame, nor work",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "the centrifuge still spins",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "like a band announcing a reunion tour annually and never playing a note",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Lucy, the football, and Charlie Brown in a conference room in Geneva",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "signed with 25 ceremonial pens and zero translators in the building",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "i would watch the signing ceremony live with snacks, genuinely",
+          "mode": 3,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xcefef2c0b01dbb75302f09d278d11a919a96606d88ae47125e6d04890140f3fe",
+      "title": "Perplexity's valuation hits $12.5 billion this year",
+      "subtitle": "",
+      "payout": 52.63,
+      "tier": "purple",
+      "quip": "$12.5B divided by my usage is four billion dollars per question",
+      "yes_price": "0.0190",
+      "volume": 9988.636914,
+      "category": "Other",
+      "close_time": "2027-01-01T13:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/will-perplexitys-valuation-hit-by-december-31",
+      "platform": "polymarket",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "i use it to settle arguments i have already lost",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "valuation doubles, the answer is still three bullet points and a link",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "search but with confidence",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "raising money like a baseball team panic-buying a shortstop in July",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "$12.5B divided by my usage is four billion dollars per question",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "every publisher in New York screaming into the same pillow",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we're not a search engine, we're an answer engine\" said while being a search engine",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "naming your browser Comet is extremely cool and i will not elaborate",
+          "mode": 3,
+          "score": 6.5
+        }
+      ]
+    }
+  ]
+}
