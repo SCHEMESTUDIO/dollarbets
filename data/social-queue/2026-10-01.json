@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-02T05:59:19.817191+00:00",
+          "tweet_id": "2105900415950733340",
+          "reply_tweet_id": "2105900417758441937"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "33196720",
+        "page": "https://www.pexels.com/photo/leashed-saarloos-wolfdog-in-muiderberg-street-33196720/",
+        "photographer": "Haberdoedas Photography",
+        "license": "Pexels License",
+        "phrases": [
+          "storm clouds over palm trees",
+          "empty parking lot rain night"
+        ],
+        "tokens": {
+          "input_tokens": 4101,
+          "output_tokens": 32
         }
       }
     },
