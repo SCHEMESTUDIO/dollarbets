@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T01:20:44.341512+00:00",
+  "generated_at": "2026-10-02T14:26:35.180036+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -9,29 +9,29 @@
     "orange": 3
   },
   "sport_mix": {
-    "NBA": 1,
+    "MLB": 1,
     "NFL": 1,
     "NCAAF": 3
   },
   "board": [
     {
-      "ticker": "SB-B2F5E2A5",
-      "title": "Warriors steal one in San Antonio tonight",
-      "payout": 4.9,
+      "ticker": "SB-71B58444",
+      "title": "Braves take down the Dodgers in LA",
+      "payout": 3.05,
       "tier": "yellow",
-      "quip": "Steph still has one Wembanyama-sized dagger left",
-      "yes_price": "0.20",
-      "category": "NBA",
-      "platform": "draftkings",
-      "platform_display": "DraftKings",
-      "url": "https://sportsbook.draftkings.com/?outcomes=0ML85860027_3",
-      "close_time": "2026-11-14T02:40:00Z",
-      "sport": "basketball_nba",
-      "sport_display": "NBA",
-      "matchup": "Golden State Warriors @ San Antonio Spurs",
+      "quip": "October trauma, now available in regular season form",
+      "yes_price": "0.33",
+      "category": "MLB",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1029346464?coupon={pickType}|4358820622|{wagerAmount}",
+      "close_time": "2026-10-03T20:00:00Z",
+      "sport": "baseball_mlb",
+      "sport_display": "MLB",
+      "matchup": "Atlanta Braves @ Los Angeles Dodgers",
       "market_type": "h2h",
-      "american_odds": 390,
-      "implied_probability": 0.204,
+      "american_odds": 205,
+      "implied_probability": 0.328,
       "has_deep_link": true
     },
     {
@@ -97,7 +97,7 @@
     {
       "ticker": "SB-A7368ACB",
       "title": "Charlotte shocks Memphis in the Queen City",
-      "payout": 12.5,
+      "payout": 12.0,
       "tier": "orange",
       "quip": "the 49ers finally strike gold in Niner Nation",
       "yes_price": "0.08",
@@ -110,8 +110,8 @@
       "sport_display": "NCAAF",
       "matchup": "Memphis Tigers @ Charlotte 49ers",
       "market_type": "h2h",
-      "american_odds": 1150,
-      "implied_probability": 0.08,
+      "american_odds": 1100,
+      "implied_probability": 0.083,
       "has_deep_link": true
     }
   ]
