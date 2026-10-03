@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-03T17:37:10.770061+00:00",
+          "tweet_id": "2106438423477158283",
+          "reply_tweet_id": "2106438425070932127"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "32100388",
+        "page": "https://www.pexels.com/photo/spring-blossom-framing-apartment-windows-in-toronto-32100388/",
+        "photographer": "Aswin R S",
+        "license": "Pexels License",
+        "phrases": [
+          "empty theater seats dusk",
+          "colorado foothills highway evening"
+        ],
+        "tokens": {
+          "input_tokens": 3863,
+          "output_tokens": 32
         }
       }
     },
