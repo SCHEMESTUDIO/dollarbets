@@ -1,39 +1,4 @@
 {
-  "SB-A4DFC9B8": {
-    "title": "Broncos win in San Francisco tonight",
-    "quip": "Bo Nix keeps quietly ruining everyone's power rankings",
-    "cached_at": "2026-09-29T01:31:56.741401+00:00"
-  },
-  "SB-75B4078C": {
-    "title": "Braves bury the Phillies by six",
-    "quip": "Acu\u00f1a treating Citizens Bank refugees like batting practice",
-    "cached_at": "2026-09-29T01:31:56.741401+00:00"
-  },
-  "SB-5858199A": {
-    "title": "Red Sox rout the Yankees in the Bronx",
-    "quip": "Devers turning the short porch into a Fenway annex",
-    "cached_at": "2026-09-29T01:31:56.741401+00:00"
-  },
-  "SB-078E2BDD": {
-    "title": "Astros and White Sox combine for 18+ runs",
-    "quip": "Crawford Boxes plus a Chicago bullpen equals arson",
-    "cached_at": "2026-09-29T01:31:56.741401+00:00"
-  },
-  "SB-A7368ACB": {
-    "title": "Charlotte shocks Memphis in the Queen City",
-    "quip": "the 49ers finally strike gold in Niner Nation",
-    "cached_at": "2026-09-29T01:32:03.310505+00:00"
-  },
-  "SB-EDB4EB1D": {
-    "title": "Canadiens keep it close in Toronto tonight",
-    "quip": "oldest rivalry in hockey rarely ends in a blowout",
-    "cached_at": "2026-09-29T01:32:16.211154+00:00"
-  },
-  "SB-B510D955": {
-    "title": "Braves handle the Phillies in Atlanta",
-    "quip": "Acu\u00f1a hitting like the chop is a threat",
-    "cached_at": "2026-09-29T01:32:16.211154+00:00"
-  },
   "SB-92559414": {
     "title": "Eagles beat the Rams tonight",
     "quip": "Saquon running downhill in January air",
@@ -728,5 +693,75 @@
     "title": "Vettori goes the distance with Naurdiev",
     "quip": "nobody finishes Vettori, they just out-point him",
     "cached_at": "2026-10-03T00:58:52.005717+00:00"
+  },
+  "SB-AE1F0C0F": {
+    "title": "UConn upsets Syracuse at the Rent",
+    "quip": "Jim Mora's Huskies keep eating Big East leftovers",
+    "cached_at": "2026-10-03T13:02:43.452796+00:00"
+  },
+  "SB-94924E6A": {
+    "title": "Mammoth skate past Blue Jackets by two",
+    "quip": "Utah's new name, Columbus's old problems",
+    "cached_at": "2026-10-03T13:02:43.452796+00:00"
+  },
+  "SB-7BBC5C4A": {
+    "title": "UCF stuns Houston in Space City",
+    "quip": "Knights pack the charge-on flag for Willie Fritz",
+    "cached_at": "2026-10-03T13:02:43.452796+00:00"
+  },
+  "SB-A7368ACB": {
+    "title": "Charlotte shocks Memphis in Niner Nation upset",
+    "quip": "49ers mining for gold at Jerry Richardson Stadium",
+    "cached_at": "2026-10-03T13:02:43.452796+00:00"
+  },
+  "SB-EEEE8048": {
+    "title": "Kiwoom take down Hanwha by two or more",
+    "quip": "Eagles' bullpen hands out gifts like Daejeon street food",
+    "cached_at": "2026-10-03T13:03:02.225295+00:00"
+  },
+  "SB-404EF459": {
+    "title": "UAE upset Namibia in Dubai",
+    "quip": "home sand, home spin, home scoreboard",
+    "cached_at": "2026-10-03T13:03:02.225295+00:00"
+  },
+  "SB-BE297AE6": {
+    "title": "Argos handle the Lions in Toronto",
+    "quip": "BMO Field turf knows whose house it is",
+    "cached_at": "2026-10-03T13:03:02.225295+00:00"
+  },
+  "SB-94F30CBD": {
+    "title": "HV71 stun F\u00e4rjestad on the road",
+    "quip": "J\u00f6nk\u00f6ping showing up to Karlstad with bad intentions",
+    "cached_at": "2026-10-03T13:03:02.225295+00:00"
+  },
+  "SB-6D69EC37": {
+    "title": "Pelicans down KooKoo by two-plus",
+    "quip": "Lahti doesn't lose to a team named KooKoo",
+    "cached_at": "2026-10-03T13:03:02.225295+00:00"
+  },
+  "SB-E4A93158": {
+    "title": "KalPa beat Jukurit by two or more",
+    "quip": "Kuopio's finest reminding Mikkeli of the pecking order",
+    "cached_at": "2026-10-03T13:03:02.225295+00:00"
+  },
+  "SB-E2B24795": {
+    "title": "Linzi Buczynskyj upsets Paige Murney",
+    "quip": "Rocky steps, Leicester edition, nobody told Murney",
+    "cached_at": "2026-10-03T13:03:02.225295+00:00"
+  },
+  "SB-080F48FE": {
+    "title": "Senators keep it close against the Leafs",
+    "quip": "Battle of Ontario rarely ends in blowouts",
+    "cached_at": "2026-10-03T13:03:11.177462+00:00"
+  },
+  "SB-6E7C9E89": {
+    "title": "Canadiens hang tough in Pittsburgh",
+    "quip": "Crosby's Penguins don't bury anybody anymore",
+    "cached_at": "2026-10-03T13:03:11.177462+00:00"
+  },
+  "SB-6F2E17E2": {
+    "title": "Iowa State handles West Virginia in Ames",
+    "quip": "Jack Trice at night is a bad trip",
+    "cached_at": "2026-10-03T13:03:11.177462+00:00"
   }
 }
