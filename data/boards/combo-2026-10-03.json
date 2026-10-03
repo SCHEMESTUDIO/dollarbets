@@ -1,0 +1,437 @@
+{
+  "generated_at": "2026-10-03T00:58:59.900756+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "NCAAF": 3,
+    "Multi": 6,
+    "NHL": 1
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-2ABFCCA7",
+      "title": "Virginia Tech Hokies wins + Air Force Falcons wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:45320-3727881-5929751&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies + Navy Midshipmen @ Air Force Falcons",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45320-3727881-5929751&type=Single",
+          "commence_time": "2026-10-02T23:06:16Z"
+        },
+        {
+          "matchup": "Navy Midshipmen @ Air Force Falcons",
+          "pick": "Air Force Falcons wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45386-3728054-5930066&type=Single",
+          "commence_time": "2026-10-03T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-02T23:06:16Z"
+    },
+    {
+      "ticker": "PARLAY-286CEC5D",
+      "title": "Virginia Tech Hokies wins + Hawaii Rainbow Warriors wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:45320-3727881-5929751&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies + San Jose State Spartans @ Hawaii Rainbow Warriors",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45320-3727881-5929751&type=Single",
+          "commence_time": "2026-10-02T23:06:16Z"
+        },
+        {
+          "matchup": "San Jose State Spartans @ Hawaii Rainbow Warriors",
+          "pick": "Hawaii Rainbow Warriors wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45538-3729808-5933524&type=Single",
+          "commence_time": "2026-10-04T03:59:00Z"
+        }
+      ],
+      "close_time": "2026-10-02T23:06:16Z"
+    },
+    {
+      "ticker": "PARLAY-AFA33BC1",
+      "title": "Virginia Tech Hokies wins + Over 7.5",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:45320-3727881-5929751&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies + Washington Capitals @ Carolina Hurricanes",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45320-3727881-5929751&type=Single",
+          "commence_time": "2026-10-02T23:06:16Z"
+        },
+        {
+          "matchup": "Washington Capitals @ Carolina Hurricanes",
+          "pick": "Over 7.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19921477-1563569377-2310567289&type=Single",
+          "commence_time": "2026-10-02T23:08:41Z"
+        }
+      ],
+      "close_time": "2026-10-02T23:06:16Z"
+    },
+    {
+      "ticker": "PARLAY-4F5E4099",
+      "title": "Virginia Tech Hokies wins + Tampa Bay Lightning wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:45320-3727881-5929751&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies + Washington Capitals @ Tampa Bay Lightning",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Panthers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45320-3727881-5929751&type=Single",
+          "commence_time": "2026-10-02T23:06:16Z"
+        },
+        {
+          "matchup": "Washington Capitals @ Tampa Bay Lightning",
+          "pick": "Tampa Bay Lightning wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19921409-1555462900-2288185687&type=Single",
+          "commence_time": "2026-10-03T23:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-02T23:06:16Z"
+    },
+    {
+      "ticker": "PARLAY-309FCA85",
+      "title": "Air Force Falcons wins + Hawaii Rainbow Warriors wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:45386-3728054-5930066&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Navy Midshipmen @ Air Force Falcons + San Jose State Spartans @ Hawaii Rainbow Warriors",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Navy Midshipmen @ Air Force Falcons",
+          "pick": "Air Force Falcons wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45386-3728054-5930066&type=Single",
+          "commence_time": "2026-10-03T16:00:00Z"
+        },
+        {
+          "matchup": "San Jose State Spartans @ Hawaii Rainbow Warriors",
+          "pick": "Hawaii Rainbow Warriors wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45538-3729808-5933524&type=Single",
+          "commence_time": "2026-10-04T03:59:00Z"
+        }
+      ],
+      "close_time": "2026-10-03T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-588F6769",
+      "title": "Air Force Falcons wins + Over 7.5",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:45386-3728054-5930066&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Navy Midshipmen @ Air Force Falcons + Washington Capitals @ Carolina Hurricanes",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Navy Midshipmen @ Air Force Falcons",
+          "pick": "Air Force Falcons wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45386-3728054-5930066&type=Single",
+          "commence_time": "2026-10-03T16:00:00Z"
+        },
+        {
+          "matchup": "Washington Capitals @ Carolina Hurricanes",
+          "pick": "Over 7.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19921477-1563569377-2310567289&type=Single",
+          "commence_time": "2026-10-02T23:08:41Z"
+        }
+      ],
+      "close_time": "2026-10-02T23:08:41Z"
+    },
+    {
+      "ticker": "PARLAY-DB1FC7A8",
+      "title": "Air Force Falcons wins + Tampa Bay Lightning wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:45386-3728054-5930066&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Navy Midshipmen @ Air Force Falcons + Washington Capitals @ Tampa Bay Lightning",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Navy Midshipmen @ Air Force Falcons",
+          "pick": "Air Force Falcons wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45386-3728054-5930066&type=Single",
+          "commence_time": "2026-10-03T16:00:00Z"
+        },
+        {
+          "matchup": "Washington Capitals @ Tampa Bay Lightning",
+          "pick": "Tampa Bay Lightning wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19921409-1555462900-2288185687&type=Single",
+          "commence_time": "2026-10-03T23:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-03T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-3FD24627",
+      "title": "Hawaii Rainbow Warriors wins + Over 7.5",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:45538-3729808-5933524&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "San Jose State Spartans @ Hawaii Rainbow Warriors + Washington Capitals @ Carolina Hurricanes",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Jose State Spartans @ Hawaii Rainbow Warriors",
+          "pick": "Hawaii Rainbow Warriors wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45538-3729808-5933524&type=Single",
+          "commence_time": "2026-10-04T03:59:00Z"
+        },
+        {
+          "matchup": "Washington Capitals @ Carolina Hurricanes",
+          "pick": "Over 7.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19921477-1563569377-2310567289&type=Single",
+          "commence_time": "2026-10-02T23:08:41Z"
+        }
+      ],
+      "close_time": "2026-10-02T23:08:41Z"
+    },
+    {
+      "ticker": "PARLAY-26BCB86F",
+      "title": "Hawaii Rainbow Warriors wins + Tampa Bay Lightning wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:45538-3729808-5933524&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "San Jose State Spartans @ Hawaii Rainbow Warriors + Washington Capitals @ Tampa Bay Lightning",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Jose State Spartans @ Hawaii Rainbow Warriors",
+          "pick": "Hawaii Rainbow Warriors wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45538-3729808-5933524&type=Single",
+          "commence_time": "2026-10-04T03:59:00Z"
+        },
+        {
+          "matchup": "Washington Capitals @ Tampa Bay Lightning",
+          "pick": "Tampa Bay Lightning wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19921409-1555462900-2288185687&type=Single",
+          "commence_time": "2026-10-03T23:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-03T23:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-34001B88",
+      "title": "Over 7.5 + Tampa Bay Lightning wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19921477-1563569377-2310567289&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "NHL",
+      "matchup": "Washington Capitals @ Carolina Hurricanes + Washington Capitals @ Tampa Bay Lightning",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington Capitals @ Carolina Hurricanes",
+          "pick": "Over 7.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19921477-1563569377-2310567289&type=Single",
+          "commence_time": "2026-10-02T23:08:41Z"
+        },
+        {
+          "matchup": "Washington Capitals @ Tampa Bay Lightning",
+          "pick": "Tampa Bay Lightning wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19921409-1555462900-2288185687&type=Single",
+          "commence_time": "2026-10-03T23:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-02T23:08:41Z"
+    }
+  ]
+}

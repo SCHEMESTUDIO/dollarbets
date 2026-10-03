@@ -1,0 +1,541 @@
+{
+  "generated_at": "2026-10-03T00:58:15.896503+00:00",
+  "market_count": 9,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 2
+  },
+  "board": [
+    {
+      "ticker": "KXBOIPASSENGERS-27JAN22-T5229399",
+      "title": "Boise Airport sets a new passenger record this year",
+      "subtitle": "2026",
+      "yes_sub_title": "Above 5,229,399 total passengers",
+      "no_sub_title": "Above 5,229,399 total passengers",
+      "payout": 1.67,
+      "tier": "green",
+      "quip": "Napoleon Dynamite would absolutely hate what they've done with the place",
+      "yes_price": "0.6000",
+      "volume": 8891.02,
+      "category": "Economics",
+      "close_time": "2027-02-19T14:59:00Z",
+      "url": "https://kalshi.com/markets/KXBOIPASSENGERS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 84.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "every Californian who left in 2021 is flying back to visit their mother",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i have never once thought about Boise and now i'm reading terminal statistics",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Idaho's last secret is dead and the Patagonia vest guys killed it",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "passenger 5,229,400 gets a potato and a firm handshake from the mayor",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Boise is happening",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "concourse B getting a second Starbucks and i'm genuinely happy for them",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "Napoleon Dynamite would absolutely hate what they've done with the place",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "like a mid major making the tournament three years in a row",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHARVARDFUNDAPPEAL-HHS29",
+      "title": "First Circuit fully affirms the Harvard funding ruling",
+      "subtitle": "Before 2029",
+      "yes_sub_title": "Before 2029",
+      "no_sub_title": "Before 2029",
+      "payout": 2.7,
+      "tier": "green",
+      "quip": "a replay review that takes four years and confirms the call on the field",
+      "yes_price": "0.3700",
+      "volume": 7185.58,
+      "category": "Politics",
+      "close_time": "2029-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHARVARDFUNDAPPEAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 69.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i read four paragraphs of this and started saying \"respectfully, your honor\" out loud",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "somebody in Cambridge opens a bottle that costs more than my car",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "nothing unifies this country like watching Harvard need a favor",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "appeals court baby",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "Suits but every episode is the docket advancing one inch",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "2029 is also when i'll finally finish my Duolingo streak",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "a replay review that takes four years and confirms the call on the field",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "federal circuit nerds in Boston are about to go absolutely feral",
+          "mode": 3,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNEXTOUTUS-26SEP28-RFK",
+      "title": "RFK Jr is the first cabinet member out",
+      "subtitle": "HHS Secretary, Defense Secretary and FBI Director",
+      "yes_sub_title": "Robert F. Kennedy Jr.",
+      "no_sub_title": "Robert F. Kennedy Jr.",
+      "payout": 5.88,
+      "tier": "yellow",
+      "quip": "\"there's a worm in my brain and frankly he wants to go home\"",
+      "yes_price": "0.1700",
+      "volume": 2927.32,
+      "category": "Politics",
+      "close_time": "2029-01-20T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNEXTOUTUS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 78.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "\"there's a worm in my brain and frankly he wants to go home\"",
+          "mode": 4,
+          "score": 9
+        },
+        {
+          "quip": "the bear in the trunk drives itself back to Hyannis",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i keep a tab open purely to confirm he is still employed",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "raw milk severance package",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "the coach you fire in October so the fanbase stops calling the station",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "somewhere a Kennedy cousin is already drafting a statement nobody asked for",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "pays $5.88, same as the supplement he'll be hawking by March",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "a cabinet departure pool is the most fun i've had all year",
+          "mode": 3,
+          "score": 3.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXMODELHIGH-27-1550-CLAU",
+      "title": "Claude is first to 1550 on Text Arena",
+      "subtitle": "Before 2027",
+      "yes_sub_title": "Claude",
+      "no_sub_title": "Claude",
+      "payout": 8.33,
+      "tier": "orange",
+      "quip": "1550 was my SAT score and i turned out fine",
+      "yes_price": "0.1200",
+      "volume": 64490.48,
+      "category": "Science and Technology",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 122.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Claude is the only one of them who has never been mean to me",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the polite one wins. i'm getting emotional about this",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "\"you're absolutely right to push back on that\" all the way to the top",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "nice guys finish 1550",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "Spurs era Kawhi of chatbots. says nothing, takes everything",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "Anthropic throwing the slowest and most ethical party San Francisco has ever seen",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "1550 was my SAT score and i turned out fine",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "HAL would never apologize this sincerely about the pod bay doors",
+          "mode": 8,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXHMONTH-26SEP",
+      "title": "This September is the hottest ever recorded",
+      "subtitle": "In Sep 2026",
+      "yes_sub_title": "Hottest ever",
+      "no_sub_title": "Hottest ever",
+      "payout": 11.11,
+      "tier": "orange",
+      "quip": "week one college football where the heat index wins the Heisman",
+      "yes_price": "0.0900",
+      "volume": 38106.91,
+      "category": "Climate and Weather",
+      "close_time": "2026-10-16T03:59:00Z",
+      "url": "https://kalshi.com/markets/KXHMONTH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 134.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "pumpkin spice launches in July out of pure panic",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i bought a box fan in September and felt like a failed man",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Phoenix people reading this like it's a normal Tuesday",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "fall is a rumor",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "sweating through a flannel for the aesthetic is a commitment i respect",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "nine cents says i'm still running the AC on Halloween",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "week one college football where the heat index wins the Heisman",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "the Day After Tomorrow guy was just off by one season",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xbce528228ce8c7985aa8f13d4e3dd1fe116c4f15515083e6a0f47e5ff1873dd8",
+      "title": "Parker Messick wins AL Rookie of the Year",
+      "subtitle": "",
+      "payout": 21.98,
+      "tier": "red",
+      "quip": "Major League except the kid actually has stuff this time",
+      "yes_price": "0.0455",
+      "volume": 9991.564897,
+      "category": "Other",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/mlb-al-rookie-of-the-year",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "i had to look him up and now i'm deep in a Guardians fan arc",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "Cleveland growing another lefty out of a cornfield, it's all they do",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "changeup supremacy",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "the Friday starter nobody books a flight for until October",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "bootleg MESSICK shirts in the Progressive Field lot by June",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "i want to believe in a lefty named Parker Messick so badly",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "$21.98, roughly a beer and a hot dog in Cleveland",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Major League except the kid actually has stuff this time",
+          "mode": 8,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA lands a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 25.0,
+      "tier": "red",
+      "quip": "one small step, one giant stack of unopened Boeing invoices",
+      "yes_price": "0.0400",
+      "volume": 220842.35,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "hatch opens and it's a guy holding a 40 ounce Stanley",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i will watch this on a cracked phone in a parking lot and weep",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "Houston already behind schedule on parking for the parade",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "boots up, budget down",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "$25, which is also what Space Center Houston charges to look at a rock",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "people on the moon again would honestly make my entire decade",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "one small step, one giant stack of unopened Boeing invoices",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "announcing the throwback jersey before you've made the playoffs",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26MOKE-T3",
+      "title": "Moke strengthens into a Category 3 hurricane",
+      "subtitle": "Hurricane Moke",
+      "yes_sub_title": "Category 3 or above",
+      "no_sub_title": "Category 3 or above",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "Moke sounds like a guy who gets thrown out of a Hooters, not a storm",
+      "yes_price": "0.0100",
+      "volume": 8246.0,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 75.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Moke sounds like a guy who gets thrown out of a Hooters, not a storm",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "weather guy puts the windbreaker on. his whole year starts now",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i refuse to respect a hurricane named Moke and i won't be moved",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Moke means business",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "category 3 is the sweet spot where the palm trees do the thing",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "Moke is a backup tight end i cut from my fantasy team",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "100 to 1 on a guy named Moke. checks out",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Jim Cantore lands on the island and everyone knows it's over",
+          "mode": 8,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "ticker": "0x1b0a4870cd50bdf9e9e5bc9f8ad42b011fadd554610f99699db34dca6d09fde1",
+      "title": "US unemployment hits 6% this year",
+      "subtitle": "",
+      "payout": 285.71,
+      "tier": "purple",
+      "quip": "285 to 1, same odds as anybody opening my resume",
+      "yes_price": "0.0035",
+      "volume": 99898.55933999999,
+      "category": "Other",
+      "close_time": "2027-02-01T04:59:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/how-high-will-us-unemployment-go-in-2026",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i'd finally have time to learn guitar and that's the terrifying part",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "LinkedIn becomes group therapy with a green hiring banner on it",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "285 to 1, same odds as anybody opening my resume",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "everybody's a consultant now",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "every laid off tech guy launching a podcast about discipline and cold plunges",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "a 16 seed winning the whole thing except everybody loses",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "a jobs report Friday is the most electric morning in American life",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "Office Space, but Milton was right the entire time",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    }
+  ]
+}
