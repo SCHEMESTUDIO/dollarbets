@@ -1,39 +1,4 @@
 {
-  "SB-92559414": {
-    "title": "Eagles beat the Rams tonight",
-    "quip": "Saquon running downhill in January air",
-    "cached_at": "2026-09-29T14:36:32.345374+00:00"
-  },
-  "SB-1082CC06": {
-    "title": "Hanwha Eagles knock off Samsung Lions tonight",
-    "quip": "Ryu Hyun-jin's hometown crowd wants a show",
-    "cached_at": "2026-09-29T14:36:54.849437+00:00"
-  },
-  "SB-F32111E0": {
-    "title": "Rakuten Golden Eagles beat Chiba Lotte by two-plus",
-    "quip": "Sendai bullpen closing the door, no ninth-inning drama",
-    "cached_at": "2026-09-29T14:36:54.849437+00:00"
-  },
-  "SB-54913E9C": {
-    "title": "Bj\u00f6rkl\u00f6ven blow out HV71 by two or more",
-    "quip": "Ume\u00e5's finest treating J\u00f6nk\u00f6ping like a practice squad",
-    "cached_at": "2026-09-29T14:36:54.849437+00:00"
-  },
-  "SB-8B3A805F": {
-    "title": "Timr\u00e5 upset Bryn\u00e4s in G\u00e4vle",
-    "quip": "the little steel town that keeps ruining Bryn\u00e4s weekends",
-    "cached_at": "2026-09-29T14:36:54.849437+00:00"
-  },
-  "SB-3C30EE31": {
-    "title": "Sonny Hardy shocks Ibraheem Sulaimaan",
-    "quip": "Rocky Balboa energy, one right hand rewrites everything",
-    "cached_at": "2026-09-29T14:36:54.849437+00:00"
-  },
-  "SB-66ECFA30": {
-    "title": "Rams handle the Eagles in Philadelphia",
-    "quip": "Stafford's seen scarier crowds than the Linc",
-    "cached_at": "2026-09-29T14:37:04.953700+00:00"
-  },
   "SB-41A1C829": {
     "title": "Cowboys win in Houston tonight",
     "quip": "CJ Stroud vs the Dak revenge tour, again",
@@ -763,5 +728,105 @@
     "title": "Iowa State handles West Virginia in Ames",
     "quip": "Jack Trice at night is a bad trip",
     "cached_at": "2026-10-03T13:03:11.177462+00:00"
+  },
+  "SB-27F82BF8": {
+    "title": "Bucs take down the Packers at home",
+    "quip": "Baker Mayfield still plays every snap like he's been cut twice",
+    "cached_at": "2026-10-03T18:59:45.821483+00:00"
+  },
+  "SB-0C60549A": {
+    "title": "Bruins knock off the Wild in Minnesota",
+    "quip": "Pastrnak's wrister doesn't care about the time zone",
+    "cached_at": "2026-10-03T18:59:45.821483+00:00"
+  },
+  "SB-7025D11A": {
+    "title": "Yankees beat the Rays by three or more",
+    "quip": "Judge finding the short porch in a converted spring facility",
+    "cached_at": "2026-10-03T18:59:45.821483+00:00"
+  },
+  "SB-6012FB32": {
+    "title": "Braves blow out the Dodgers by five",
+    "quip": "Acu\u00f1a rounding third while Chavez Ravine files out early",
+    "cached_at": "2026-10-03T18:59:45.821483+00:00"
+  },
+  "SB-67E5D8F8": {
+    "title": "Samford shocks UAB on the road",
+    "quip": "Hoover's finest kicking down the door on Graymont Avenue",
+    "cached_at": "2026-10-03T18:59:45.821483+00:00"
+  },
+  "SB-FEB4CACB": {
+    "title": "Akron shocks Central Michigan in the MAC",
+    "quip": "MACtion at midnight, where logic clocks out",
+    "cached_at": "2026-10-03T18:59:54.545214+00:00"
+  },
+  "SB-BE4B1555": {
+    "title": "Patriots upset Bills in Buffalo",
+    "quip": "Drake Maye doing his best young Brady cosplay",
+    "cached_at": "2026-10-03T18:59:54.545214+00:00"
+  },
+  "SB-D37DB751": {
+    "title": "Marshall stuns James Madison on the road",
+    "quip": "We Are Marshall, sequel nobody greenlit",
+    "cached_at": "2026-10-03T18:59:54.545214+00:00"
+  },
+  "SB-F06C6603": {
+    "title": "Bruce Whitehead upsets Jacobe Smith",
+    "quip": "wrestler meets wall, wall occasionally loses",
+    "cached_at": "2026-10-03T18:59:54.545214+00:00"
+  },
+  "SB-5ED6DF54": {
+    "title": "Twins handle Kia Tigers by two-plus tonight",
+    "quip": "Jamsil crowd gets the trumpet song early",
+    "cached_at": "2026-10-03T19:00:08.061467+00:00"
+  },
+  "SB-5857B11C": {
+    "title": "Golden Eagles beat Marines by two or more",
+    "quip": "Sendai's finest treating Chiba like batting practice",
+    "cached_at": "2026-10-03T19:00:08.061467+00:00"
+  },
+  "SB-D92FEBF9": {
+    "title": "Samsung Lions bury Doosan by two-plus",
+    "quip": "Daegu bullpen closes the door on the Bears",
+    "cached_at": "2026-10-03T19:00:08.061467+00:00"
+  },
+  "SB-BE2C9016": {
+    "title": "NC Dinos beat SSG by two or more",
+    "quip": "Changwon dinosaurs stomping Landers into the dirt",
+    "cached_at": "2026-10-03T19:00:08.061467+00:00"
+  },
+  "SB-74670015": {
+    "title": "Bragantino shock Atletico Mineiro in Belo Horizonte",
+    "quip": "Red Bull wings versus the Galo rooster, nobody blinks",
+    "cached_at": "2026-10-03T19:00:08.061467+00:00"
+  },
+  "SB-3D07799D": {
+    "title": "Eithan James upsets Bilal Fawaz",
+    "quip": "young hands, old sparring stories, sudden ending",
+    "cached_at": "2026-10-03T19:00:08.061467+00:00"
+  },
+  "SB-18319ABE": {
+    "title": "Ritzakis stuns Odel Kamara in massive upset",
+    "quip": "a Greek tragedy where the chorus wins by knockout",
+    "cached_at": "2026-10-03T19:00:08.061467+00:00"
+  },
+  "SB-75F5928E": {
+    "title": "Lightning handle the Capitals in Tampa",
+    "quip": "Kucherov stat-padding season continues on schedule",
+    "cached_at": "2026-10-03T19:00:19.380688+00:00"
+  },
+  "SB-66ECFA30": {
+    "title": "Rams beat the Eagles in Philadelphia",
+    "quip": "Stafford and Nacua against a grounded Tush Push",
+    "cached_at": "2026-10-03T19:00:19.380688+00:00"
+  },
+  "SB-7F35732E": {
+    "title": "Bears take care of the Jets",
+    "quip": "Caleb Williams gets the gentlest possible Sunday",
+    "cached_at": "2026-10-03T19:00:19.380688+00:00"
+  },
+  "SB-9218036F": {
+    "title": "Johnny Walker edges Parkin, no blowout",
+    "quip": "Walker wins rounds, not championships \u2014 keep it close",
+    "cached_at": "2026-10-03T19:00:19.380688+00:00"
   }
 }
