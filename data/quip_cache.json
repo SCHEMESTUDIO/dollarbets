@@ -1,54 +1,4 @@
 {
-  "SB-769A15D3": {
-    "title": "Leafs bury the Islanders by two tonight",
-    "quip": "Matthews doesn't do one-goal games quietly",
-    "cached_at": "2026-09-30T14:36:20.907813+00:00"
-  },
-  "SB-3D4215F8": {
-    "title": "Red Sox rout the Yankees in the Bronx",
-    "quip": "Devers turning the short porch into a public service",
-    "cached_at": "2026-09-30T14:36:20.907813+00:00"
-  },
-  "SB-8B020CB4": {
-    "title": "White Sox humiliate the Astros by nine",
-    "quip": "a plague of locusts descends on Minute Maid Park",
-    "cached_at": "2026-09-30T14:36:20.907813+00:00"
-  },
-  "SB-217F1A5E": {
-    "title": "Doosan runs away from the Dinos tonight",
-    "quip": "Jamsil bears don't share the honey",
-    "cached_at": "2026-09-30T14:36:38.873930+00:00"
-  },
-  "SB-2D2DCB16": {
-    "title": "Hanwha upset the Lions in Daegu",
-    "quip": "the Eagles found their Ryu-era swagger again",
-    "cached_at": "2026-09-30T14:36:38.873930+00:00"
-  },
-  "SB-7C064DDC": {
-    "title": "Rakuten knock off the SoftBank Hawks",
-    "quip": "Sendai remembers what beating the Hawks feels like",
-    "cached_at": "2026-09-30T14:36:38.873930+00:00"
-  },
-  "SB-78E3E779": {
-    "title": "HV71 beat \u00d6rebro by two or more",
-    "quip": "J\u00f6nk\u00f6ping crowd noise doing real defensive work",
-    "cached_at": "2026-09-30T14:36:38.873930+00:00"
-  },
-  "SB-62376988": {
-    "title": "Alan Sanchez stuns Omari Jones",
-    "quip": "Olympic medal means nothing when Sanchez lands the left",
-    "cached_at": "2026-09-30T14:36:38.873930+00:00"
-  },
-  "SB-61F3086B": {
-    "title": "Cubs keep it close in San Diego tonight",
-    "quip": "Wrigley road trips end in one-run heartbreak",
-    "cached_at": "2026-09-30T14:36:47.496094+00:00"
-  },
-  "SB-F9887573": {
-    "title": "Red Sox stay within a run at the Stadium",
-    "quip": "no rivalry blowouts, just nine innings of grinding",
-    "cached_at": "2026-09-30T14:36:47.496094+00:00"
-  },
   "SB-A8B2BBC1": {
     "title": "Cubs take down the Padres in San Diego",
     "quip": "Wrigley road trip, Petco pitcher's park, easy math",
@@ -888,5 +838,65 @@
     "title": "Dodgers handle the Braves in LA",
     "quip": "Ohtani at home, Chavez Ravine humming",
     "cached_at": "2026-10-04T13:40:43.570446+00:00"
+  },
+  "SB-A4DFC9B8": {
+    "title": "Broncos knock off the 49ers in San Francisco",
+    "quip": "Bo Nix doing his best Brock Purdy impression",
+    "cached_at": "2026-10-04T19:10:12.629547+00:00"
+  },
+  "SB-5E3E15FD": {
+    "title": "Raiders upset the Chiefs in Vegas",
+    "quip": "the Black Hole still remembers Tyreek's handoff play",
+    "cached_at": "2026-10-04T19:10:12.629547+00:00"
+  },
+  "SB-241D6907": {
+    "title": "Senators beat the Bruins by two or more",
+    "quip": "Tkachuk bullying his way through the TD Garden boards",
+    "cached_at": "2026-10-04T19:10:12.629547+00:00"
+  },
+  "SB-5C93FC81": {
+    "title": "Canucks send Vegas home empty-handed",
+    "quip": "Rogers Arena, Green Men, full Hughes brothers chaos",
+    "cached_at": "2026-10-04T19:10:12.629547+00:00"
+  },
+  "SB-29D767A6": {
+    "title": "Dolphins stun the Vikings in Minnesota",
+    "quip": "Tua in a parka, forty degrees below palm trees",
+    "cached_at": "2026-10-04T19:10:12.629547+00:00"
+  },
+  "SB-F8499B55": {
+    "title": "Braves blow out the Dodgers by four-plus",
+    "quip": "Acu\u00f1a turning Chavez Ravine into a batting cage",
+    "cached_at": "2026-10-04T19:10:12.629547+00:00"
+  },
+  "SB-B482B351": {
+    "title": "Buffalo shocks Toledo in the Glass Bowl",
+    "quip": "MACtion means the Rockets forget how to tackle at midnight",
+    "cached_at": "2026-10-04T19:10:18.725132+00:00"
+  },
+  "SB-334CAE41": {
+    "title": "Jukurit beat \u00c4ss\u00e4t by two or more tonight",
+    "quip": "Mikkeli ice runs colder than a Finnish sauna cooldown plunge",
+    "cached_at": "2026-10-04T19:10:26.794766+00:00"
+  },
+  "SB-A813E933": {
+    "title": "Chiefs handle the Raiders in Vegas",
+    "quip": "Mahomes treats Allegiant Stadium like a second home",
+    "cached_at": "2026-10-04T19:10:34.888185+00:00"
+  },
+  "SB-3D93F4A0": {
+    "title": "Bears bury the Jets by two touchdowns",
+    "quip": "Caleb Williams against a Jets offense is unfair",
+    "cached_at": "2026-10-04T19:10:34.888185+00:00"
+  },
+  "SB-A013CA07": {
+    "title": "49ers beat the Broncos in the Bay",
+    "quip": "Bo Nix road trips rarely end in postcards",
+    "cached_at": "2026-10-04T19:10:34.888185+00:00"
+  },
+  "SB-C6560824": {
+    "title": "Kraken sink the Flames in Seattle",
+    "quip": "Calgary's rebuild is still mostly scaffolding",
+    "cached_at": "2026-10-04T19:10:34.888185+00:00"
   }
 }
