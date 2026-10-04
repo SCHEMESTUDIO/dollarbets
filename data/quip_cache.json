@@ -1,64 +1,4 @@
 {
-  "SB-5C0A8CFF": {
-    "title": "Blackhawks steal one in Vegas tonight",
-    "quip": "Bedard doesn't care what happens in Vegas",
-    "cached_at": "2026-09-30T01:06:35.756124+00:00"
-  },
-  "SB-DCDAFBB2": {
-    "title": "Jets skate past Bruins by two or more",
-    "quip": "Hellebuyck turning Boston's power play into a screensaver",
-    "cached_at": "2026-09-30T01:06:35.756124+00:00"
-  },
-  "SB-0D58E5B1": {
-    "title": "Cubs bury the Padres by six-plus",
-    "quip": "Wrigley bats crashing Petco's pitcher-friendly garden party",
-    "cached_at": "2026-09-30T01:06:35.756124+00:00"
-  },
-  "SB-AC4D0496": {
-    "title": "Braves blow out the Phillies by five",
-    "quip": "Acu\u00f1a and Olson ruining Philadelphia's whole weekend mood",
-    "cached_at": "2026-09-30T01:06:35.756124+00:00"
-  },
-  "SB-6534A016": {
-    "title": "Yankees-Red Sox turns into a 13-run slugfest",
-    "quip": "Judge, Devers, and a bullpen fire sale in the Bronx",
-    "cached_at": "2026-09-30T01:06:35.756124+00:00"
-  },
-  "SB-93243C4E": {
-    "title": "Kiwoom Heroes stun Lotte Giants in Busan",
-    "quip": "the Sajik Stadium orange bags go quiet early",
-    "cached_at": "2026-09-30T01:06:51.570062+00:00"
-  },
-  "SB-2265A09C": {
-    "title": "Narciso Carmona knocks off Ronny Alvarez",
-    "quip": "the B-side fighter forgets to read the script",
-    "cached_at": "2026-09-30T01:06:51.570062+00:00"
-  },
-  "SB-43442512": {
-    "title": "Lakers handle the Warriors at Crypto",
-    "quip": "Luka and LeBron against Steph's aging hamstrings",
-    "cached_at": "2026-09-30T01:07:03.680189+00:00"
-  },
-  "SB-FFD5A12A": {
-    "title": "Braves stay within a run of the Phillies",
-    "quip": "Truist Park keeps it to one swing",
-    "cached_at": "2026-09-30T01:07:03.680189+00:00"
-  },
-  "SB-AFF8874E": {
-    "title": "White Sox keep it close in Houston",
-    "quip": "even the South Side can lose by one",
-    "cached_at": "2026-09-30T01:07:03.680189+00:00"
-  },
-  "SB-618638ED": {
-    "title": "Bruins hang tough with the Wild in Minnesota",
-    "quip": "Swayman keeps the empty-netter off the board",
-    "cached_at": "2026-09-30T01:07:03.680189+00:00"
-  },
-  "SB-0423C7D6": {
-    "title": "Canadiens stay within a goal of the Leafs",
-    "quip": "the oldest rivalry in hockey never ends politely",
-    "cached_at": "2026-09-30T01:07:03.680189+00:00"
-  },
   "SB-769A15D3": {
     "title": "Leafs bury the Islanders by two tonight",
     "quip": "Matthews doesn't do one-goal games quietly",
@@ -853,5 +793,100 @@
     "title": "Talbott outpoints Figueiredo in a clear decision",
     "quip": "young gun rolls, Deiveson's miles finally show",
     "cached_at": "2026-10-04T00:25:15.983321+00:00"
+  },
+  "SB-8945B22F": {
+    "title": "Sixers steal one at the Garden tonight",
+    "quip": "Embiid vs the Knicks crowd, a reliable horror show",
+    "cached_at": "2026-10-04T13:40:15.896218+00:00"
+  },
+  "SB-EDAAAEC5": {
+    "title": "Red Wings beat Jets by two or more",
+    "quip": "Hellebuyck's one bad night a month has to land somewhere",
+    "cached_at": "2026-10-04T13:40:15.896218+00:00"
+  },
+  "SB-C20A75E4": {
+    "title": "Titans upset Ravens in Baltimore",
+    "quip": "Lamar's been known to throw one to the wrong jersey",
+    "cached_at": "2026-10-04T13:40:15.896218+00:00"
+  },
+  "SB-351F0F46": {
+    "title": "Brewers blow out Padres by six",
+    "quip": "American Family Field turns into a batting cage by the fifth",
+    "cached_at": "2026-10-04T13:40:15.896218+00:00"
+  },
+  "SB-9F7B89C3": {
+    "title": "White Sox bury Guardians by seven",
+    "quip": "somewhere in Cleveland, a bullpen door opens and smoke pours out",
+    "cached_at": "2026-10-04T13:40:15.896218+00:00"
+  },
+  "SB-1B03AFE7": {
+    "title": "Hawaii stuns Arizona State in the desert",
+    "quip": "island boys trade the Pacific for Tempe and take the trophy",
+    "cached_at": "2026-10-04T13:40:22.396721+00:00"
+  },
+  "SB-74E91295": {
+    "title": "Dream handle Liberty by four-plus tonight",
+    "quip": "Rhyne Howard cooking in the Gateway Center",
+    "cached_at": "2026-10-04T13:40:34.640770+00:00"
+  },
+  "SB-F79E0B38": {
+    "title": "Rakuten upset the Hawks in Sendai",
+    "quip": "the Eagles remember what Masahiro Tanaka built here",
+    "cached_at": "2026-10-04T13:40:34.640770+00:00"
+  },
+  "SB-B3E1DFF0": {
+    "title": "KT Wiz top the Lotte Giants by two",
+    "quip": "Suwon's finest, Busan's seagulls go hungry",
+    "cached_at": "2026-10-04T13:40:34.640770+00:00"
+  },
+  "SB-4522AE6B": {
+    "title": "Samsung Lions beat Doosan by two-plus",
+    "quip": "Daegu blue, and the Bears hibernate early",
+    "cached_at": "2026-10-04T13:40:34.640770+00:00"
+  },
+  "SB-819645CF": {
+    "title": "Kia Tigers go into Jamsil and beat the Twins",
+    "quip": "Yang Hyeon-jong energy, even when he isn't pitching",
+    "cached_at": "2026-10-04T13:40:34.640770+00:00"
+  },
+  "SB-CFAB6A2D": {
+    "title": "Kiwoom Heroes upset Hanwha in Daejeon",
+    "quip": "somebody has to spoil Ryu Hyun-jin's homecoming",
+    "cached_at": "2026-10-04T13:40:34.640770+00:00"
+  },
+  "SB-B2F021B9": {
+    "title": "Seibu Lions beat the Marines by two-plus",
+    "quip": "Chiba's wind blows the wrong way tonight",
+    "cached_at": "2026-10-04T13:40:34.640770+00:00"
+  },
+  "SB-CD03562A": {
+    "title": "Jets keep it close in Detroit tonight",
+    "quip": "Hellebuyck keeps the Red Wings honest",
+    "cached_at": "2026-10-04T13:40:43.570446+00:00"
+  },
+  "SB-6B8C6C96": {
+    "title": "Mammoth stay within a goal of the Rangers",
+    "quip": "Shesterkin can only do so much",
+    "cached_at": "2026-10-04T13:40:43.570446+00:00"
+  },
+  "SB-80DB505F": {
+    "title": "Lions handle the Panthers in Carolina",
+    "quip": "Gibbs and Montgomery eat on Sundays",
+    "cached_at": "2026-10-04T13:40:43.570446+00:00"
+  },
+  "SB-380F0CFC": {
+    "title": "Padres hang tough in Milwaukee",
+    "quip": "Brewers win small, like always",
+    "cached_at": "2026-10-04T13:40:43.570446+00:00"
+  },
+  "SB-637156C0": {
+    "title": "Rays keep the Yankees within a run",
+    "quip": "the Trop faithful love a one-run heartbreak",
+    "cached_at": "2026-10-04T13:40:43.570446+00:00"
+  },
+  "SB-BD8FA5D8": {
+    "title": "Dodgers handle the Braves in LA",
+    "quip": "Ohtani at home, Chavez Ravine humming",
+    "cached_at": "2026-10-04T13:40:43.570446+00:00"
   }
 }
