@@ -49,7 +49,7 @@
     },
     {
       "type": "text",
-      "content": "As of September 12, 2026: Kalshi's contract on a shutdown on October 1 last traded at <strong>2¢</strong>, with about $300,000 of open interest. Polymarket's 'government shutdown by October 1' market sits at about <strong>1¢</strong> on far less volume ($15,000 over the life of the market), and its 'appropriations lapse on October 1' market at about 1¢. A contract at 2¢ pays $1 if the government shuts down, so $1 buys 50 contracts and returns $50 on a shutdown. These prices move every hour; the live versions, both exchanges side by side with 90 days of history, are on our sister site's <a href=\"https://oddsdesk.vercel.app/government-shutdown/\" rel=\"noopener\">government shutdown odds tracker</a>."
+      "content": "As of September 12, 2026: Kalshi's contract on a shutdown on October 1 last traded at <strong>2¢</strong>, with about $300,000 of open interest. Polymarket's 'government shutdown by October 1' market sits at about <strong>1¢</strong> on far less volume ($15,000 over the life of the market), and its 'appropriations lapse on October 1' market at about 1¢. A contract at 2¢ pays $1 if the government shuts down, so $1 buys 50 contracts and returns $50 on a shutdown. These prices move every hour; the live versions, both exchanges side by side with 90 days of history, are on our sister site's <a href=\"https://stateoftheodds.com/government-shutdown/\" rel=\"noopener\">government shutdown odds tracker</a>."
     },
     {
       "type": "heading",
