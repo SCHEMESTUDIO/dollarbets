@@ -1,0 +1,541 @@
+{
+  "generated_at": "2026-10-04T00:24:36.921105+00:00",
+  "market_count": 9,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 2
+  },
+  "board": [
+    {
+      "ticker": "KXBOIPASSENGERS-27JAN22-T5229399",
+      "title": "Boise airport sets a new passenger record this year",
+      "subtitle": "2026",
+      "yes_sub_title": "Above 5,229,399 total passengers",
+      "no_sub_title": "Above 5,229,399 total passengers",
+      "payout": 1.67,
+      "tier": "green",
+      "quip": "Napoleon Dynamite would not have stood for this",
+      "yes_price": "0.6000",
+      "volume": 8891.02,
+      "category": "Economics",
+      "close_time": "2027-02-19T14:59:00Z",
+      "url": "https://kalshi.com/markets/KXBOIPASSENGERS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 51.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "my buddy moved there in 2021 and now has opinions about traffic",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the Cinnabon by gate B opens a second location out of pure fear",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "every last one of them a Californian with a Sprinter van",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "potato hub energy",
+          "mode": 9,
+          "score": 3
+        },
+        {
+          "quip": "passenger 5,229,400 gets a free hash brown and a handshake from the mayor",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "Boise is the Gonzaga of airports now",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "I love when a mid-size airport actually makes it, sincerely",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "Napoleon Dynamite would not have stood for this",
+          "mode": 8,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "ticker": "KXEARTHQUAKECALIFORNIA-35",
+      "title": "California gets an 8.0 earthquake before 2035",
+      "subtitle": "Before 2035",
+      "yes_sub_title": "Before 2035",
+      "no_sub_title": "Before 2035",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "the 8.0 hits and Zillow adjusts exactly four listings",
+      "yes_price": "0.3600",
+      "volume": 28210.28,
+      "category": "Climate and Weather",
+      "close_time": "2035-12-31T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXEARTHQUAKECALIFORNIA?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 86.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "I keep a case of water in the garage and feel insane about it",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the Hollywood sign slides down the hill and lands perfectly upright",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "San Andreas calling collect",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "The Rock already flew a helicopter through this one",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "finally something that makes LA traffic everyone's problem equally",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "tectonic plates are so underrated as entertainment",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "my go bag has sat in the closet since 2019 and it's just granola now",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the 8.0 hits and Zillow adjusts exactly four listings",
+          "mode": 5,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXMOONMAN-31-PRC",
+      "title": "China is next to put people on the Moon",
+      "subtitle": "Before 2031",
+      "yes_sub_title": "China",
+      "no_sub_title": "China",
+      "payout": 3.25,
+      "tier": "yellow",
+      "quip": "like a transfer portal kid winning a natty at his third school",
+      "yes_price": "0.3080",
+      "volume": 49273.44,
+      "category": "Science and Technology",
+      "close_time": "2031-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOONMAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 86.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "the flag planting stream buffers and I still watch it twice",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "I will be watching that landing with my whole chest, no notes",
+          "mode": 2,
+          "score": 5.5
+        },
+        {
+          "quip": "\"we did it first.\" \"no you didn't.\" \"we did it better.\"",
+          "mode": 4,
+          "score": 6
+        },
+        {
+          "quip": "space race, speedrun category",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "like a transfer portal kid winning a natty at his third school",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "one small step for a man, subtitled",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Houston gets a text that just says seen",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "the base has a Luckin Coffee inside eighteen months",
+          "mode": 5,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXDETSNOWM-26DEC-12",
+      "title": "Detroit gets over a foot of snow this December",
+      "subtitle": "In Dec 2026",
+      "yes_sub_title": "Above 12 inches",
+      "no_sub_title": "Above 12 inches",
+      "payout": 5.88,
+      "tier": "yellow",
+      "quip": "the only thing in that city that arrives on schedule",
+      "yes_price": "0.1700",
+      "volume": 300.0,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXDETSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 104.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "my uncle in Warren will still refuse to own a snow brush",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Lions tailgaters treating it like a complimentary spa treatment",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "twelve inches, zero complaints",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "Buffalo scoffing like a man ordering a small coffee",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "13 inches and the city officially files it under normal Tuesday",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "I would shovel that driveway smiling, once, for the photo",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "the only thing in that city that arrives on schedule",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "mom's spaghetti but frozen solid in the driveway",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27",
+      "title": "The US signs a new Iran nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 7.14,
+      "tier": "orange",
+      "quip": "it's the Lucy and the football of foreign policy",
+      "yes_price": "0.1400",
+      "volume": 1764332.89,
+      "category": "Politics",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "signing ceremony photo where nobody is looking at the same camera",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "I have now read the phrase framework agreement in four separate decades",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "\"they called it a deal. i said no, call it the BEST deal.\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "centrifuges on pause, allegedly",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "like a trade rumor that's been on the ticker since March",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "half that delegation is only there for the lunch service",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "I genuinely would love one piece of good news out of there",
+          "mode": 3,
+          "score": 4
+        },
+        {
+          "quip": "it's the Lucy and the football of foreign policy",
+          "mode": 8,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "ticker": "0x73509ec92de5dbd86a5a888e702a571325783ea208b3e9334f9d488a73e528ac",
+      "title": "Max Holloway fights Justin Gaethje next",
+      "subtitle": "",
+      "payout": 8.33,
+      "tier": "orange",
+      "quip": "Gaethje spends the entire camp practicing the last ten seconds",
+      "yes_price": "0.1200",
+      "volume": 9998.1297,
+      "category": "Other",
+      "close_time": "2027-07-12T03:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/who-will-max-holloway-fight-next-20260713185228591",
+      "platform": "polymarket",
+      "score": 60.0,
+      "quip_alts": [
+        {
+          "quip": "Gaethje spends the entire camp practicing the last ten seconds",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "I watched that knockout maybe forty times and I'd do it again",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "point at the floor again",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "asking the bully for a rematch at recess, respectfully",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"right here. last ten seconds. i'm not moving.\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "Gaethje's legs have quietly filed a restraining order",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "I'll be standing on the couch by round two, that's a promise",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "combined they have thrown 11,000 punches and blocked four",
+          "mode": 5,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXELONMARS-99",
+      "title": "Elon Musk sets foot on Mars in his lifetime",
+      "subtitle": "Before 2099",
+      "yes_sub_title": "Mars",
+      "no_sub_title": "Mars",
+      "payout": 9.09,
+      "tier": "orange",
+      "quip": "the first post from Mars lands 11 minutes late and still starts a fight",
+      "yes_price": "0.1100",
+      "volume": 119739.94,
+      "category": "World",
+      "close_time": "2099-08-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXELONMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "first thing he does up there is post, badly, with terrible reception",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "I just want to know who's running the site while he's gone",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Mars gets a town hall",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "like a founder moving to Austin but worse for everyone involved",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "honestly, send him, I want that footage so bad",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "Willy Wonka buying a ticket to his own factory",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Mars, now with a 420 day shipping delay",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "the first post from Mars lands 11 minutes late and still starts a fight",
+          "mode": 5,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA puts a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 25.0,
+      "tier": "red",
+      "quip": "Buzz Aldrin would like to throw hands about this",
+      "yes_price": "0.0400",
+      "volume": 220853.78,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the astronaut lands and immediately has to go do a podcast",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "I cried at the Curiosity landing so my availability is wide open",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Artemis, hold my calls",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "the lander has four cup holders and one check engine light",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the sequel nobody greenlit somehow getting a theatrical release",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "Buzz Aldrin would like to throw hands about this",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "\"we're going back. tremendous rocket. biggest rocket anyone's ever seen.\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "put boots up there again and I'll forgive everything else",
+          "mode": 3,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "ticker": "0x1b0a4870cd50bdf9e9e5bc9f8ad42b011fadd554610f99699db34dca6d09fde1",
+      "title": "US unemployment hits 6 percent this year",
+      "subtitle": "",
+      "payout": 250.0,
+      "tier": "purple",
+      "quip": "250 resumes, one response, the math finally checks out",
+      "yes_price": "0.0040",
+      "volume": 99919.35934,
+      "category": "Other",
+      "close_time": "2027-02-01T04:59:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/how-high-will-us-unemployment-go-in-2026",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "updating my LinkedIn headline to something humble and quietly terrifying",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "every podcast becomes a job board within six weeks",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "250 resumes, one response, the math finally checks out",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "open to work, universally",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "like the entire country entering the transfer portal at once",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "finally the consultants get to find out too",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "Office Space except it's the whole building",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "I'm weirdly excited to watch economists do that voice they do",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    }
+  ]
+}

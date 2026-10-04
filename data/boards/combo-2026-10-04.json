@@ -1,0 +1,435 @@
+{
+  "generated_at": "2026-10-04T00:25:22.200283+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 10
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-31D22983",
+      "title": "Washington State Cougars wins + Arizona Cardinals wins",
+      "payout": 2.81,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027507969?coupon={pickType}|4353274343|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Fresno State Bulldogs @ Washington State Cougars + Arizona Cardinals @ New York Giants",
+      "market_type": "2-leg parlay",
+      "american_odds": 181,
+      "implied_probability": 0.356,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Fresno State Bulldogs @ Washington State Cougars",
+          "pick": "Washington State Cougars wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027507969?coupon={pickType}|4353274343|{wagerAmount}",
+          "commence_time": "2026-10-04T01:30:00Z"
+        },
+        {
+          "matchup": "Arizona Cardinals @ New York Giants",
+          "pick": "Arizona Cardinals wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028812621?coupon={pickType}|4346741497|{wagerAmount}",
+          "commence_time": "2026-10-04T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-04T01:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-F9ACEEF3",
+      "title": "Washington State Cougars wins + Utah Jazz wins",
+      "payout": 2.81,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027507969?coupon={pickType}|4353274343|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Fresno State Bulldogs @ Washington State Cougars + Utah Jazz @ Memphis Grizzlies",
+      "market_type": "2-leg parlay",
+      "american_odds": 181,
+      "implied_probability": 0.356,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Fresno State Bulldogs @ Washington State Cougars",
+          "pick": "Washington State Cougars wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027507969?coupon={pickType}|4353274343|{wagerAmount}",
+          "commence_time": "2026-10-04T01:30:00Z"
+        },
+        {
+          "matchup": "Utah Jazz @ Memphis Grizzlies",
+          "pick": "Utah Jazz wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+          "commence_time": "2026-10-22T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-04T01:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-006B8C5F",
+      "title": "Washington State Cougars wins + Under 3.5",
+      "payout": 2.81,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027507969?coupon={pickType}|4353274343|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Fresno State Bulldogs @ Washington State Cougars + Vancouver Whitecaps FC @ Chicago Fire",
+      "market_type": "2-leg parlay",
+      "american_odds": 181,
+      "implied_probability": 0.356,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Fresno State Bulldogs @ Washington State Cougars",
+          "pick": "Washington State Cougars wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027507969?coupon={pickType}|4353274343|{wagerAmount}",
+          "commence_time": "2026-10-04T01:30:00Z"
+        },
+        {
+          "matchup": "Vancouver Whitecaps FC @ Chicago Fire",
+          "pick": "Under 3.5",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028411861?coupon={pickType}|4359101066|{wagerAmount}",
+          "commence_time": "2026-10-07T00:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-04T01:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-F36C3C73",
+      "title": "Arizona Cardinals wins + Utah Jazz wins",
+      "payout": 2.81,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028812621?coupon={pickType}|4346741497|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Arizona Cardinals @ New York Giants + Utah Jazz @ Memphis Grizzlies",
+      "market_type": "2-leg parlay",
+      "american_odds": 181,
+      "implied_probability": 0.356,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Arizona Cardinals @ New York Giants",
+          "pick": "Arizona Cardinals wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028812621?coupon={pickType}|4346741497|{wagerAmount}",
+          "commence_time": "2026-10-04T17:00:00Z"
+        },
+        {
+          "matchup": "Utah Jazz @ Memphis Grizzlies",
+          "pick": "Utah Jazz wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+          "commence_time": "2026-10-22T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-04T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-AC4A0B13",
+      "title": "Arizona Cardinals wins + Under 3.5",
+      "payout": 2.81,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028812621?coupon={pickType}|4346741497|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Arizona Cardinals @ New York Giants + Vancouver Whitecaps FC @ Chicago Fire",
+      "market_type": "2-leg parlay",
+      "american_odds": 181,
+      "implied_probability": 0.356,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Arizona Cardinals @ New York Giants",
+          "pick": "Arizona Cardinals wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028812621?coupon={pickType}|4346741497|{wagerAmount}",
+          "commence_time": "2026-10-04T17:00:00Z"
+        },
+        {
+          "matchup": "Vancouver Whitecaps FC @ Chicago Fire",
+          "pick": "Under 3.5",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028411861?coupon={pickType}|4359101066|{wagerAmount}",
+          "commence_time": "2026-10-07T00:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-04T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-00898D93",
+      "title": "Utah Jazz wins + Under 3.5",
+      "payout": 2.81,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Utah Jazz @ Memphis Grizzlies + Vancouver Whitecaps FC @ Chicago Fire",
+      "market_type": "2-leg parlay",
+      "american_odds": 181,
+      "implied_probability": 0.356,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Utah Jazz @ Memphis Grizzlies",
+          "pick": "Utah Jazz wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+          "commence_time": "2026-10-22T00:10:00Z"
+        },
+        {
+          "matchup": "Vancouver Whitecaps FC @ Chicago Fire",
+          "pick": "Under 3.5",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028411861?coupon={pickType}|4359101066|{wagerAmount}",
+          "commence_time": "2026-10-07T00:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-07T00:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-A19A4AC0",
+      "title": "Hawaii Rainbow Warriors wins + Cincinnati Bengals wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:45538-3729808-5933524&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "San Jose State Spartans @ Hawaii Rainbow Warriors + Jacksonville Jaguars @ Cincinnati Bengals",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Jose State Spartans @ Hawaii Rainbow Warriors",
+          "pick": "Hawaii Rainbow Warriors wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45538-3729808-5933524&type=Single",
+          "commence_time": "2026-10-04T03:59:00Z"
+        },
+        {
+          "matchup": "Jacksonville Jaguars @ Cincinnati Bengals",
+          "pick": "Cincinnati Bengals wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43505-3732739-5939254&type=Single",
+          "commence_time": "2026-10-04T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-04T03:59:00Z"
+    },
+    {
+      "ticker": "PARLAY-936E32D0",
+      "title": "Hawaii Rainbow Warriors wins + San Francisco 49ers wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:45538-3729808-5933524&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "San Jose State Spartans @ Hawaii Rainbow Warriors + Denver Broncos @ San Francisco 49ers",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Jose State Spartans @ Hawaii Rainbow Warriors",
+          "pick": "Hawaii Rainbow Warriors wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45538-3729808-5933524&type=Single",
+          "commence_time": "2026-10-04T03:59:00Z"
+        },
+        {
+          "matchup": "Denver Broncos @ San Francisco 49ers",
+          "pick": "San Francisco 49ers wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43510-3732707-5939204&type=Single",
+          "commence_time": "2026-10-04T20:25:00Z"
+        }
+      ],
+      "close_time": "2026-10-04T03:59:00Z"
+    },
+    {
+      "ticker": "PARLAY-24D39EE3",
+      "title": "Hawaii Rainbow Warriors wins + Utah Jazz wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:45538-3729808-5933524&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "San Jose State Spartans @ Hawaii Rainbow Warriors + Utah Jazz @ Memphis Grizzlies",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Jose State Spartans @ Hawaii Rainbow Warriors",
+          "pick": "Hawaii Rainbow Warriors wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45538-3729808-5933524&type=Single",
+          "commence_time": "2026-10-04T03:59:00Z"
+        },
+        {
+          "matchup": "Utah Jazz @ Memphis Grizzlies",
+          "pick": "Utah Jazz wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19883989-1551545241-2277392653&type=Single",
+          "commence_time": "2026-10-22T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-04T03:59:00Z"
+    },
+    {
+      "ticker": "PARLAY-5D192224",
+      "title": "Hawaii Rainbow Warriors wins + New Jersey Devils wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:45538-3729808-5933524&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "San Jose State Spartans @ Hawaii Rainbow Warriors + New Jersey Devils @ New York Islanders",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Jose State Spartans @ Hawaii Rainbow Warriors",
+          "pick": "Hawaii Rainbow Warriors wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:45538-3729808-5933524&type=Single",
+          "commence_time": "2026-10-04T03:59:00Z"
+        },
+        {
+          "matchup": "New Jersey Devils @ New York Islanders",
+          "pick": "New Jersey Devils wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19921283-1563765639-2311094492&type=Single",
+          "commence_time": "2026-10-03T23:46:52Z"
+        }
+      ],
+      "close_time": "2026-10-03T23:46:52Z"
+    }
+  ]
+}
