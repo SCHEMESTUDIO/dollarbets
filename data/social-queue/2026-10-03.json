@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-04T17:50:37.090333+00:00",
+          "tweet_id": "2106804193323278412",
+          "reply_tweet_id": "2106804194837413993"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "29039042",
+        "page": "https://www.pexels.com/photo/moody-tree-in-foggy-landscape-at-dusk-29039042/",
+        "photographer": "Q. H\u01b0ng Ph\u1ea1m",
+        "license": "Pexels License",
+        "phrases": [
+          "empty government office corridor night",
+          "dirt road dusk fog"
+        ],
+        "tokens": {
+          "input_tokens": 3627,
+          "output_tokens": 30
         }
       }
     },
