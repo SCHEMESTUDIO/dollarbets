@@ -3391,13 +3391,19 @@ def policy_noindex(page_data):
     return (False, "")
 
 
+NO_LASTMOD = "omit"
+
+
 def generate_sitemap(pages):
     """Generate sitemap.xml from (path, priority) or (path, priority, lastmod) tuples.
 
     Pages without an explicit lastmod default to today (correct for the daily
     board/section pages that genuinely change every build). Evergreen content
     passes its real last-updated date so the sitemap stops claiming every URL
-    changed today on every crawl (an anti-pattern Google discounts)."""
+    changed today on every crawl (an anti-pattern Google discounts).
+    NO_LASTMOD omits the element: for pages that have no date of their own
+    and do not change daily (about, archetypes, the HTML sitemap). An omitted
+    value is never false; the State of the Odds lesson, 2026-10-04."""
     today = datetime.now().strftime("%Y-%m-%d")
     urls = []
     for entry in pages:
@@ -3407,9 +3413,9 @@ def generate_sitemap(pages):
         else:
             path, priority = entry
             lastmod = today
+        lastmod_xml = "" if lastmod == NO_LASTMOD else f"\n    <lastmod>{lastmod}</lastmod>"
         urls.append(f"""  <url>
-    <loc>{SITE_URL}{path}</loc>
-    <lastmod>{lastmod}</lastmod>
+    <loc>{SITE_URL}{path}</loc>{lastmod_xml}
     <changefreq>{"daily" if priority >= 0.8 else "weekly"}</changefreq>
     <priority>{priority}</priority>
   </url>""")
@@ -4073,28 +4079,35 @@ def main():
         ("/the-ocho/", 0.8),
         ("/chalk/", 0.8),
         ("/combo-meal/", 0.8),
-        ("/about/", 0.7),
+        ("/about/", 0.7, NO_LASTMOD),
         ("/guides/", 0.8),
     ]
     for slug in CATEGORIES:
         sitemap_pages.append((f"/{slug}/", 0.8))
     for tier_name in ["respectable", "alive", "heater", "filthy", "generational"]:
         sitemap_pages.append((f"/tier/{tier_name}/", 0.7))
-    sitemap_pages.append(("/archetypes/", 0.7))
+    sitemap_pages.append(("/archetypes/", 0.7, NO_LASTMOD))
     for slug in ARCHETYPES:
-        sitemap_pages.append((f"/archetypes/{slug}/", 0.6))
+        sitemap_pages.append((f"/archetypes/{slug}/", 0.6, NO_LASTMOD))
     sitemap_pages.append(("/recap/", 0.7))
-    # Add individual recap pages
+    # Add individual recap pages. A recap changes only while its week is
+    # still collecting boards, so its lastmod is the newest board date in that
+    # week, not the build date (which re-stamped every past week, daily).
+    recap_last = {}
     for date_str, _ in boards:
         try:
             dt = datetime.fromisoformat(date_str)
             week_start = dt - timedelta(days=dt.weekday())
             week_slug = f"week-of-{week_start.strftime('%Y-%m-%d')}"
-            entry = (f"/recap/{week_slug}/", 0.5)
-            if entry not in sitemap_pages:
-                sitemap_pages.append(entry)
+            day = dt.strftime("%Y-%m-%d")
+            if day > recap_last.get(week_slug, ""):
+                recap_last[week_slug] = day
         except ValueError:
             pass
+    for week_slug in sorted(recap_last):
+        path = f"/recap/{week_slug}/"
+        if not any(e[0] == path for e in sitemap_pages):
+            sitemap_pages.append((path, 0.5, recap_last[week_slug]))
     # Autopsy pages are intentionally NOT in the sitemap. As of 2026-06-19 they
     # are noindexed (0 organic traffic, thin templated content), so listing them
     # would ask Google to crawl pages we've told it to ignore. They still build
@@ -4137,7 +4150,7 @@ def main():
         sitemap_pages.append(("/trending/", 0.8))
 
     # Include the HTML sitemap itself in the XML sitemap so it's indexable.
-    sitemap_entry = ("/sitemap/", 0.3)
+    sitemap_entry = ("/sitemap/", 0.3, NO_LASTMOD)
     if sitemap_entry not in sitemap_pages:
         sitemap_pages.append(sitemap_entry)
 
