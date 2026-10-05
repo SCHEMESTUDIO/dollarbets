@@ -1,0 +1,541 @@
+{
+  "generated_at": "2026-10-05T00:29:39.462625+00:00",
+  "market_count": 9,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 2
+  },
+  "board": [
+    {
+      "ticker": "KXMETEOR-30",
+      "title": "A major meteor hits Earth before 2030",
+      "subtitle": "Large meteor strike",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 2.04,
+      "tier": "green",
+      "quip": "Florida has been asking for this since roughly 2016",
+      "yes_price": "0.4900",
+      "volume": 144443.84,
+      "category": "Science and Technology",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXMETEOR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 99.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the dinosaurs start trending again and nobody can explain why",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "i've been quietly rooting for the sky to do something",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "my go bag is three snacks and a phone charger",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "big rock, small planet",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "Don't Look Up quietly reclassified as a documentary",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "\"tremendous rock. biggest rock anyone has ever seen. we're looking at it\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "Florida has been asking for this since roughly 2016",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "like a returner waving fair catch with ten guys already there",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXROBOTMARS-35",
+      "title": "A robot walks on Mars before any human",
+      "subtitle": "Before 2035",
+      "yes_sub_title": "Before 2035",
+      "no_sub_title": "Before 2035",
+      "payout": 2.17,
+      "tier": "green",
+      "quip": "i'd like it noted that i was always polite to my Roomba",
+      "yes_price": "0.4600",
+      "volume": 56177.17,
+      "category": "Science and Technology",
+      "close_time": "2035-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXROBOTMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 90.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "the robot plants the flag, dusts the lens, waves to absolutely nobody",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "i'd like it noted that i was always polite to my Roomba",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "i've made peace with being the species that watched from the couch",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "small step for Optimus",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "Wall-E got there first and he wasn't even trying",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "congrats to the rovers on hiring their first scab",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "\"boot sequence complete. please rate this historic moment one to five stars\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "like your little brother opening your presents while you're still asleep",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXNEXTHURDATE-26DEC01-26OCT15",
+      "title": "The next hurricane forms before mid-October",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Oct 15, 2026",
+      "no_sub_title": "Before Oct 15, 2026",
+      "payout": 3.33,
+      "tier": "yellow",
+      "quip": "the Weather Channel guy already picking which lamppost to lean on",
+      "yes_price": "0.3000",
+      "volume": 8723.87,
+      "category": "Climate and Weather",
+      "close_time": "2026-10-15T03:59:00Z",
+      "url": "https://kalshi.com/markets/KXNEXTHURDATE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 114.0,
+      "_specificity": 5,
+      "quip_alts": [
+        {
+          "quip": "the Weather Channel guy already picking which lamppost to lean on",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i only learn meteorology when the cone touches my mother's house",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "i have a favorite spaghetti model now and i hate that about me",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "names are pre-loaded",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "somewhere a Floridian buys plywood and a second cooler of beer",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "\"beautiful eye on this one. people are saying the best eye\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "the opening of Twister but everybody has worse haircuts",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "nothing unites a coastline like a swirl of red on a map",
+          "mode": 3,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "ticker": "KXBOSSNOWM-26DEC-10",
+      "title": "Boston gets over 10 inches of snow in December",
+      "subtitle": "In Dec 2026",
+      "yes_sub_title": "Above 10 inches",
+      "no_sub_title": "Above 10 inches",
+      "payout": 3.45,
+      "tier": "yellow",
+      "quip": "the Dunkins stay open",
+      "yes_price": "0.2900",
+      "volume": 1500.66,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXBOSSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 104.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "space savers out by the first flurry, lawn chair diplomacy begins",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "i grew up shoveling this stuff and i still resent everyone involved",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "i moved away specifically for this month and i would do it again",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the Dunkins stay open",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "ten inches, four Dunkins per inch, that's just the local ordinance",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Belichick nods approvingly from a completely different state",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "The Departed if every scene was just a guy salting a driveway",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "like a December Patriots game where the visitors quit during warmups",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXBANDANTES-27JAN",
+      "title": "Dantes gets banned from Twitch this year",
+      "subtitle": "Before Jan 2027",
+      "yes_sub_title": "Before Jan 2027",
+      "no_sub_title": "Before Jan 2027",
+      "payout": 6.67,
+      "tier": "yellow",
+      "quip": "the streaming version of a flagrant two with the whole arena chanting",
+      "yes_price": "0.1500",
+      "volume": 1766.85,
+      "category": "Social",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXBANDANTES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 84.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "my parents still think Twitch is a medical condition",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "i have never watched this guy once and suddenly i'm invested",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the apology stream is already lit. gray hoodie, softer lamp, no cap",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "unbanned by February",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "\"chat. chat. that is not what i said and you know it\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "a ban is the closest thing streaming has to a Hall of Fame plaque",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "the streaming version of a flagrant two with the whole arena chanting",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "ban number six. they're putting a little plaque up at headquarters",
+          "mode": 5,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "STARSHIPMARS-29DEC31",
+      "title": "Starship sends humans to Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Not Before 2030",
+      "payout": 7.14,
+      "tier": "orange",
+      "quip": "$7.14 is also what the in-flight wifi costs out there",
+      "yes_price": "0.1400",
+      "volume": 53492.78,
+      "category": "Companies",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 114.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i'd go. i have nothing scheduled until spring anyway",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "still can't get a train to Vegas but sure, Mars",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "first meal on Mars is a cold burrito and a sponsor read",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "pack light, bring snacks",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "you know in Alien when the crew signed up for cargo money",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "four engineers and one guy who replied to the right tweet",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"2030. maybe 2029. the rocket is extremely good. extremely\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "$7.14 is also what the in-flight wifi costs out there",
+          "mode": 5,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26NOV",
+      "title": "The US signs a new Iran nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Nov 1, 2026",
+      "no_sub_title": "Before Nov 1, 2026",
+      "payout": 33.33,
+      "tier": "red",
+      "quip": "like a trade both general managers deny for six straight months",
+      "yes_price": "0.0300",
+      "volume": 768715.9,
+      "category": "Politics",
+      "close_time": "2026-11-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "there's a folder on my laptop called iran_final_FINAL_v3",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "i've stopped reading past the word framework",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "handshake, photo, nothing",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "\"they called me. they said sir we need a deal. i said fine\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "like a trade both general managers deny for six straight months",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Groundhog Day except Bill Murray works at the State Department",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "the Geneva kitchen is on its 400th club sandwich this week",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "the pen goes into a museum case before the ink dries",
+          "mode": 1,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x1b0a4870cd50bdf9e9e5bc9f8ad42b011fadd554610f99699db34dca6d09fde1",
+      "title": "US unemployment hits 6% this year",
+      "subtitle": "",
+      "payout": 222.22,
+      "tier": "purple",
+      "quip": "every laid off worker gets $222.22 and a branded water bottle",
+      "yes_price": "0.0045",
+      "volume": 99937.35934000001,
+      "category": "Other",
+      "close_time": "2027-02-01T04:59:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/how-high-will-us-unemployment-go-in-2026",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i'll flip on open to work out of pure solidarity",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "i have a backup hustle ready and it is genuinely embarrassing",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "everyone becomes a consultant",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "LinkedIn buckles under the sheer weight of green banners",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "every laid off worker gets $222.22 and a branded water bottle",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "finally the finance guys have to learn an actual trade",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we're seeing some softness in the labor market.\" that's economist for RUN",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "like a bullpen coughing up six runs slowly, in public, nationally televised",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x358c8ff6e9806d4ca4e44019e21122d44fa9616741a552ab8cd2a7985448873b",
+      "title": "Chargers and Seahawks clear 53.5 points",
+      "subtitle": "",
+      "payout": 2000.0,
+      "tier": "purple",
+      "quip": "crowd noise plus zero tackling and suddenly it's a Big 12 game",
+      "yes_price": "0.0005",
+      "volume": 9993.097668999999,
+      "category": "Other",
+      "close_time": "2026-10-04T20:25:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/nfl-lac-sea-2026-10-04",
+      "platform": "polymarket",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "both defenses excuse themselves at halftime and never come back",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i need 54 points and the Chargers need a therapist",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "i've watched this team lose every way imaginable, just give me points",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Herbert throws it 60 times",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "crowd noise plus zero tackling and suddenly it's a Big 12 game",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "the Chargers will find a way to lose this 31 to 30",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "54 points, one blocked kick, and a safety nobody can explain",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the Madden slider glitch where nobody on the field can tackle",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,69 +1,4 @@
 {
-  "SB-A8B2BBC1": {
-    "title": "Cubs take down the Padres in San Diego",
-    "quip": "Wrigley road trip, Petco pitcher's park, easy math",
-    "cached_at": "2026-09-30T20:31:32.577100+00:00"
-  },
-  "SB-2796515D": {
-    "title": "Penguins win the Battle of Pennsylvania",
-    "quip": "Crosby still owns the Broad Street building",
-    "cached_at": "2026-09-30T20:31:32.577100+00:00"
-  },
-  "SB-813490C6": {
-    "title": "Red Bulls upset St. Louis City at home",
-    "quip": "Red Bull gives you three points, apparently",
-    "cached_at": "2026-09-30T20:31:32.577100+00:00"
-  },
-  "SB-FC072A36": {
-    "title": "White Sox blow out the Astros by five",
-    "quip": "South Side finds a pulse in Houston",
-    "cached_at": "2026-09-30T20:31:32.577100+00:00"
-  },
-  "SB-D3A55DD4": {
-    "title": "Braves bury the Phillies by four tonight",
-    "quip": "Truist Park turns Bryce Harper into a tourist",
-    "cached_at": "2026-09-30T20:31:32.577100+00:00"
-  },
-  "SB-822C907B": {
-    "title": "V\u00e4xj\u00f6 Lakers bury Bj\u00f6rkl\u00f6ven by two",
-    "quip": "the other Lakers, somehow more disciplined",
-    "cached_at": "2026-09-30T20:31:45.833155+00:00"
-  },
-  "SB-CEDA894C": {
-    "title": "Lule\u00e5 roll Link\u00f6ping by multiple goals",
-    "quip": "a long bus ride south, a longer one home",
-    "cached_at": "2026-09-30T20:31:45.833155+00:00"
-  },
-  "SB-46EA3643": {
-    "title": "KalPa handle SaiPa by two or more",
-    "quip": "Kuopio hospitality ends at the blue line",
-    "cached_at": "2026-09-30T20:31:45.833155+00:00"
-  },
-  "SB-27D340FF": {
-    "title": "Malm\u00f6 Redhawks stun Skellefte\u00e5 on the road",
-    "quip": "Skellefte\u00e5's fortress gets a Malm\u00f6-shaped dent",
-    "cached_at": "2026-09-30T20:31:45.833155+00:00"
-  },
-  "SB-2992B798": {
-    "title": "Islanders keep it close against the Leafs tonight",
-    "quip": "Sorokin standing on his head in Scotiabank Arena",
-    "cached_at": "2026-09-30T20:31:53.878007+00:00"
-  },
-  "SB-541C11D3": {
-    "title": "Penguins stay within a goal of the Flyers",
-    "quip": "Crosby refuses to lose quietly on Broad Street",
-    "cached_at": "2026-09-30T20:31:53.878007+00:00"
-  },
-  "SB-854D5889": {
-    "title": "Avalanche handle the Kings in Denver",
-    "quip": "MacKinnon at altitude, rent money",
-    "cached_at": "2026-09-30T20:31:53.878007+00:00"
-  },
-  "SB-37EB19DB": {
-    "title": "Astros take care of the White Sox",
-    "quip": "the South Side rebuild meets Minute Maid's short porch",
-    "cached_at": "2026-09-30T20:31:53.878007+00:00"
-  },
   "SB-D4BCC3BC": {
     "title": "Kings steal one in Denver from the Avalanche",
     "quip": "Kopitar still ruining MacKinnon's evenings",
@@ -898,5 +833,85 @@
     "title": "Kraken sink the Flames in Seattle",
     "quip": "Calgary's rebuild is still mostly scaffolding",
     "cached_at": "2026-10-04T19:10:34.888185+00:00"
+  },
+  "SB-791EDF20": {
+    "title": "Lightning skate past Flyers by two tonight",
+    "quip": "Kucherov treats the Flyers blue line like a turnstile",
+    "cached_at": "2026-10-05T00:29:52.596251+00:00"
+  },
+  "SB-D9908536": {
+    "title": "Niners win at Seattle tonight",
+    "quip": "Lumen Field noise never bothered Kyle Shanahan's script",
+    "cached_at": "2026-10-05T00:29:52.596251+00:00"
+  },
+  "SB-78306485": {
+    "title": "Eagles roll Jaguars in Jacksonville",
+    "quip": "Saquon untouched, Trevor Lawrence running for his life",
+    "cached_at": "2026-10-05T00:29:52.596251+00:00"
+  },
+  "SB-2B236543": {
+    "title": "Mammoth stun Rangers at the Garden",
+    "quip": "extinct species walks into Broadway, leaves with two points",
+    "cached_at": "2026-10-05T00:29:52.596251+00:00"
+  },
+  "SB-BD1B2D81": {
+    "title": "Yankees bury Rays by six or more",
+    "quip": "Judge turns the Trop into a batting cage",
+    "cached_at": "2026-10-05T00:29:52.596251+00:00"
+  },
+  "SB-B48D1B90": {
+    "title": "K\u00e4rp\u00e4t bury Kiekko-Espoo by two or more",
+    "quip": "Oulu's finest treating the new kids like a tutorial level",
+    "cached_at": "2026-10-05T00:30:06.958150+00:00"
+  },
+  "SB-B964380D": {
+    "title": "\u00c4ss\u00e4t handle Jukurit by two in Mikkeli",
+    "quip": "Pori pirates raiding the Savonia countryside",
+    "cached_at": "2026-10-05T00:30:06.958150+00:00"
+  },
+  "SB-35031190": {
+    "title": "Mirassol shock Bragantino on the road",
+    "quip": "the Serie A debutantes still haven't read the script",
+    "cached_at": "2026-10-05T00:30:06.958150+00:00"
+  },
+  "SB-5F3AD2E4": {
+    "title": "Brewers keep it close in San Diego tonight",
+    "quip": "Petco turns every slugger into a singles hitter",
+    "cached_at": "2026-10-05T00:30:18.285753+00:00"
+  },
+  "SB-595A327D": {
+    "title": "Knicks handle the Sixers at the Garden",
+    "quip": "Brunson cooks, Embiid's injury report does the rest",
+    "cached_at": "2026-10-05T00:30:18.285753+00:00"
+  },
+  "SB-8920D83E": {
+    "title": "Jaguars take down the Eagles tonight",
+    "quip": "Lawrence finally gets a home game that matters",
+    "cached_at": "2026-10-05T00:30:18.285753+00:00"
+  },
+  "SB-43442512": {
+    "title": "Lakers beat the Warriors in LA",
+    "quip": "Luka and LeBron against a lot of Steph",
+    "cached_at": "2026-10-05T00:30:18.285753+00:00"
+  },
+  "SB-4C9DA159": {
+    "title": "Sharks stay within a goal in Dallas",
+    "quip": "Celebrini keeps losing games interesting anyway",
+    "cached_at": "2026-10-05T00:30:18.285753+00:00"
+  },
+  "SB-5357096C": {
+    "title": "Jets lose a tight one in Pittsburgh",
+    "quip": "Hellebuyck makes sure nobody gets embarrassed",
+    "cached_at": "2026-10-05T00:30:18.285753+00:00"
+  },
+  "SB-5EB4AC20": {
+    "title": "Guardians handle the White Sox tonight",
+    "quip": "Chicago's rebuild is still mostly the word rebuild",
+    "cached_at": "2026-10-05T00:30:18.285753+00:00"
+  },
+  "SB-208879DC": {
+    "title": "Seahawks beat the Niners in Seattle",
+    "quip": "twelfth man still ruins Brock Purdy's snap count",
+    "cached_at": "2026-10-05T00:30:18.285753+00:00"
   }
 }
