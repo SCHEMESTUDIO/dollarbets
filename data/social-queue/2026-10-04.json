@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-05T23:16:58.326508+00:00",
+          "tweet_id": "2107248710774055406",
+          "reply_tweet_id": "2107248712434991378"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "18665831",
+        "page": "https://www.pexels.com/photo/display-of-merchandise-in-corridor-18665831/",
+        "photographer": "Yi\u011fit  KARAAL\u0130O\u011eLU",
+        "license": "Pexels License",
+        "phrases": [
+          "empty boxing arena night",
+          "stopwatch dark table"
+        ],
+        "tokens": {
+          "input_tokens": 3861,
+          "output_tokens": 29
         }
       }
     }
