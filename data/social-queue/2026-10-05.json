@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-06T06:41:35.220664+00:00",
+          "tweet_id": "2107360601756344531",
+          "reply_tweet_id": "2107360603882799133"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "10157740",
+        "page": "https://www.pexels.com/photo/stars-in-the-evening-sky-10157740/",
+        "photographer": "\u0415\u0432\u0433\u0435\u043d\u0438\u0439 \u0428\u0443\u0445\u043c\u0430\u043d",
+        "license": "Pexels License",
+        "phrases": [
+          "night sky meteor shower desert",
+          "empty beach road dusk"
+        ],
+        "tokens": {
+          "input_tokens": 4084,
+          "output_tokens": 31
         }
       }
     },
