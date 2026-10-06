@@ -1,64 +1,4 @@
 {
-  "SB-760CB5D2": {
-    "title": "Red Wings bury the Rangers by two tonight",
-    "quip": "Shesterkin can only stand on his head so long",
-    "cached_at": "2026-10-02T14:26:30.522061+00:00"
-  },
-  "SB-71B58444": {
-    "title": "Braves take down the Dodgers in LA",
-    "quip": "October trauma, now available in regular season form",
-    "cached_at": "2026-10-02T14:26:30.522061+00:00"
-  },
-  "SB-7EDC1CCB": {
-    "title": "Canadiens roll the Penguins by two",
-    "quip": "Crosby's knees versus Montreal's kindergarten speed",
-    "cached_at": "2026-10-02T14:26:30.522061+00:00"
-  },
-  "SB-835E21D8": {
-    "title": "White Sox blow out the Guardians by seven",
-    "quip": "the South Side writes its own Shawshank escape scene",
-    "cached_at": "2026-10-02T14:26:30.522061+00:00"
-  },
-  "SB-B5AD383B": {
-    "title": "Kiwoom upset Hanwha in Daejeon",
-    "quip": "the Heroes finally live up to the name",
-    "cached_at": "2026-10-02T14:26:46.216431+00:00"
-  },
-  "SB-241DCA9C": {
-    "title": "Hernandez drops Ortiz Nieves tonight",
-    "quip": "Fidencio brought the bad intentions",
-    "cached_at": "2026-10-02T14:26:46.216431+00:00"
-  },
-  "SB-B8356B41": {
-    "title": "Orix beat Rakuten by two or more",
-    "quip": "Buffaloes stampede through Sendai",
-    "cached_at": "2026-10-02T14:26:46.216431+00:00"
-  },
-  "SB-56802AE8": {
-    "title": "V\u00e4xj\u00f6 blow out R\u00f6gle on the road",
-    "quip": "Lakers skate, R\u00f6gle rolls over",
-    "cached_at": "2026-10-02T14:26:46.216431+00:00"
-  },
-  "SB-980BF1C5": {
-    "title": "Keithland King shocks Donte Layne",
-    "quip": "King gets the crown, Layne gets the canvas",
-    "cached_at": "2026-10-02T14:26:46.216431+00:00"
-  },
-  "SB-E59E33E4": {
-    "title": "Bruins keep it close in Winnipeg tonight",
-    "quip": "Hellebuyck's great, not empty-net-proof great",
-    "cached_at": "2026-10-02T14:26:54.650822+00:00"
-  },
-  "SB-FBA36024": {
-    "title": "Rangers hang with Red Wings in Detroit",
-    "quip": "Shesterkin keeps this one a one-goal argument",
-    "cached_at": "2026-10-02T14:26:54.650822+00:00"
-  },
-  "SB-AFFD9689": {
-    "title": "Blues stay within a goal of Stars",
-    "quip": "Dallas wins, Binnington makes it annoying",
-    "cached_at": "2026-10-02T14:26:54.650822+00:00"
-  },
   "SB-D048627C": {
     "title": "Capitals steal one in Carolina tonight",
     "quip": "Ovechkin still finds the office in Raleigh",
@@ -813,5 +753,70 @@
     "title": "Maple Leafs beat Predators tonight",
     "quip": "Matthews doing Matthews things at Scotiabank",
     "cached_at": "2026-10-06T02:06:59.967019+00:00"
+  },
+  "SB-AC2C03A8": {
+    "title": "Islanders take down the Rangers at the Garden",
+    "quip": "subway series on ice, chalk in disguise",
+    "cached_at": "2026-10-06T14:43:59.049660+00:00"
+  },
+  "SB-6079DB34": {
+    "title": "Yankees beat Rays by two or more tonight",
+    "quip": "the Bronx handles Tampa like a weeknight chore",
+    "cached_at": "2026-10-06T14:43:59.049660+00:00"
+  },
+  "SB-A5E343BE": {
+    "title": "Wild skate past Sabres by two-plus",
+    "quip": "Kaprizov against Buffalo's rebuild, again",
+    "cached_at": "2026-10-06T14:43:59.049660+00:00"
+  },
+  "SB-2DF80FA2": {
+    "title": "Brewers blow out Padres by five tonight",
+    "quip": "Milwaukee turns Petco into a batting cage",
+    "cached_at": "2026-10-06T14:43:59.049660+00:00"
+  },
+  "SB-E2E80627": {
+    "title": "Charlotte shocks North Texas on the road",
+    "quip": "49ers prospecting for gold in Denton, pickaxe and all",
+    "cached_at": "2026-10-06T14:43:59.049660+00:00"
+  },
+  "SB-E5D6260E": {
+    "title": "Kiwoom upset Hanwha in Gocheok tonight",
+    "quip": "the Heroes play spoiler to Ryu Hyun-jin's Eagles",
+    "cached_at": "2026-10-06T14:44:17.322574+00:00"
+  },
+  "SB-AB1AC4CA": {
+    "title": "LG Twins beat Doosan by two-plus tonight",
+    "quip": "same stadium, same subway, one landlord in Jamsil",
+    "cached_at": "2026-10-06T14:44:17.322574+00:00"
+  },
+  "SB-2B947173": {
+    "title": "Samsung Lions roll KT Wiz by two-plus",
+    "quip": "Suwon's lions don't do one-run thrillers",
+    "cached_at": "2026-10-06T14:44:17.322574+00:00"
+  },
+  "SB-CE356E40": {
+    "title": "\u00d6rebro steamroll Djurg\u00e5rden by two-plus tonight",
+    "quip": "Stockholm's finest get Behrn Arena'd in regulation",
+    "cached_at": "2026-10-06T14:44:17.322574+00:00"
+  },
+  "SB-DDFE53B0": {
+    "title": "Afghanistan beat Bangladesh in the Test",
+    "quip": "Rashid Khan turning a Test match into a magic show",
+    "cached_at": "2026-10-06T14:44:17.322574+00:00"
+  },
+  "SB-359F7AFB": {
+    "title": "Canadiens keep it close against Carolina tonight",
+    "quip": "the Bell Centre crowd gets its money's worth",
+    "cached_at": "2026-10-06T14:44:25.935815+00:00"
+  },
+  "SB-3D6BE22D": {
+    "title": "Islanders hang tough in Rangers rivalry tonight",
+    "quip": "subway series, ice edition, decided by one bounce",
+    "cached_at": "2026-10-06T14:44:25.935815+00:00"
+  },
+  "SB-037292A6": {
+    "title": "Yankees handle the Rays in the Bronx",
+    "quip": "Judge sees a lot of fastballs in October air",
+    "cached_at": "2026-10-06T14:44:25.935815+00:00"
   }
 }
