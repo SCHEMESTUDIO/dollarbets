@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-06T21:48:46.000293+00:00",
+          "tweet_id": "2107588900881371482",
+          "reply_tweet_id": "2107588902672388537"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "openverse",
+        "id": "953dd4f2-ef5a-49e9-9edd-ebc1c17803e1",
+        "page": "https://www.rawpixel.com/image/3298505/free-photo-image-architecture-asphalt-building",
+        "photographer": "unknown",
+        "license": "CC0 1.0",
+        "phrases": [
+          "empty football stadium night lights",
+          "rain on city street dusk"
+        ],
+        "tokens": {
+          "input_tokens": 8066,
+          "output_tokens": 40
         }
       }
     }
