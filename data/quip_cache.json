@@ -1,64 +1,4 @@
 {
-  "SB-D048627C": {
-    "title": "Capitals steal one in Carolina tonight",
-    "quip": "Ovechkin still finds the office in Raleigh",
-    "cached_at": "2026-10-02T20:21:05.666008+00:00"
-  },
-  "SB-C7371851": {
-    "title": "Blues upset the Stars in Dallas",
-    "quip": "Jordan Binnington thrives on being disliked",
-    "cached_at": "2026-10-02T20:21:05.666008+00:00"
-  },
-  "SB-D717223C": {
-    "title": "Delaware upsets Liberty on the Blue Hens' turf",
-    "quip": "Flames offense meets an actual defense",
-    "cached_at": "2026-10-02T20:21:05.666008+00:00"
-  },
-  "SB-84725A39": {
-    "title": "Dodgers bury the Braves by seven or more",
-    "quip": "Ohtani and Freeman hosting a housewarming for Atlanta",
-    "cached_at": "2026-10-02T20:21:05.666008+00:00"
-  },
-  "SB-F8248165": {
-    "title": "Wyoming shocks North Dakota State in Fargo",
-    "quip": "nobody wins in Fargo except Marge Gunderson",
-    "cached_at": "2026-10-02T20:21:05.666008+00:00"
-  },
-  "SB-917F9DAA": {
-    "title": "White Sox blow out Cleveland by eight",
-    "quip": "the South Side discovers offense for one glorious afternoon",
-    "cached_at": "2026-10-02T20:21:05.666008+00:00"
-  },
-  "SB-4C90CCE7": {
-    "title": "KT Wiz run away from Lotte in Suwon",
-    "quip": "Lotte's bullpen hands out gifts like Suwon street vendors",
-    "cached_at": "2026-10-02T20:21:22.750070+00:00"
-  },
-  "SB-42AE002E": {
-    "title": "Stampeders steal one in Regina tonight",
-    "quip": "Mosaic Stadium watermelon helmets left speechless again",
-    "cached_at": "2026-10-02T20:21:22.750070+00:00"
-  },
-  "SB-B41199A7": {
-    "title": "K\u00e4rp\u00e4t bury HPK by two tonight",
-    "quip": "Oulu's answer to the H\u00e4meenlinna derby, loudly",
-    "cached_at": "2026-10-02T20:21:22.750070+00:00"
-  },
-  "SB-8AEFC179": {
-    "title": "Yankees stay within a run of the Rays tonight",
-    "quip": "the Trop turns every game into a one-run grind",
-    "cached_at": "2026-10-02T20:21:32.804024+00:00"
-  },
-  "SB-A352B222": {
-    "title": "Stars send the Blues home losers tonight",
-    "quip": "Robertson and Hintz feasting in Dallas",
-    "cached_at": "2026-10-02T20:21:32.804024+00:00"
-  },
-  "SB-61FCFDBA": {
-    "title": "Packers handle the Bucs in Tampa tonight",
-    "quip": "Love's revenge tour rolls through Raymond James",
-    "cached_at": "2026-10-02T20:21:32.804024+00:00"
-  },
   "SB-6963ED27": {
     "title": "Ducks steal one in Vegas tonight",
     "quip": "Zegras types leaving the Strip with the house money",
@@ -818,5 +758,35 @@
     "title": "Yankees handle the Rays in the Bronx",
     "quip": "Judge sees a lot of fastballs in October air",
     "cached_at": "2026-10-06T14:44:25.935815+00:00"
+  },
+  "SB-D36F0E89": {
+    "title": "White Sox blow out Guardians by 8+ tonight",
+    "quip": "even the Rate Field fireworks guy forgot the code",
+    "cached_at": "2026-10-06T20:46:53.223653+00:00"
+  },
+  "SB-51971BC5": {
+    "title": "Doosan Bears take down LG Twins tonight",
+    "quip": "Jamsil landlords and tenants, same stadium, different mood",
+    "cached_at": "2026-10-06T20:47:06.392564+00:00"
+  },
+  "SB-DBE9FCEB": {
+    "title": "SSG Landers beat NC Dinos by two or more",
+    "quip": "Incheon crowd wants a cushion, not a coin flip",
+    "cached_at": "2026-10-06T20:47:06.392564+00:00"
+  },
+  "SB-DCBD2C34": {
+    "title": "West Indies stun India in T20",
+    "quip": "Calypso summer energy against a Suryakumar buzzsaw",
+    "cached_at": "2026-10-06T20:47:06.392564+00:00"
+  },
+  "SB-7BF0D022": {
+    "title": "Golden Knights sink the Kraken in Seattle",
+    "quip": "the tentacles still can't reach Eichl",
+    "cached_at": "2026-10-06T20:47:13.469178+00:00"
+  },
+  "SB-1DA466DD": {
+    "title": "Rangers handle the Islanders in the subway series",
+    "quip": "Shesterkin treats Belmont like a road trip",
+    "cached_at": "2026-10-06T20:47:13.469178+00:00"
   }
 }
