@@ -1,0 +1,541 @@
+{
+  "generated_at": "2026-10-06T02:06:28.758395+00:00",
+  "market_count": 9,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 2
+  },
+  "board": [
+    {
+      "ticker": "KXBLUESPACEX-30",
+      "title": "Blue Origin beats SpaceX to the Moon",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 1.64,
+      "tier": "green",
+      "quip": "lunar base opens with free two-day shipping and a 1.64 star review",
+      "yes_price": "0.6100",
+      "volume": 95093.98,
+      "category": "Science and Technology",
+      "close_time": "2030-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXBLUESPACEX?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 70.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "Bezos plants the flag and immediately adds the Sea of Tranquility to Prime delivery",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i have been loyal to the wrong billionaire this entire time",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "slow and steady, allegedly",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "this is the Mets getting to the parade before the Yankees",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Gradatim Ferociter is the hardest thing ever written on the side of anything",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "\"alexa, land the lander\" \"playing Lander Radio on Amazon Music\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "lunar base opens with free two-day shipping and a 1.64 star review",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Elon logging off for the first time since 2009",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0xbfb4a383d3a8bdfb1f47a388eaf0534af7f56403e1571d3e1e1f2f074d27838f",
+      "title": "Browns beat the Jets",
+      "subtitle": "",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "Jets fans already blaming a kicker who hasn't been signed yet",
+      "yes_price": "0.4450",
+      "volume": 9993.938402,
+      "category": "Other",
+      "close_time": "2026-10-11T17:00:00Z",
+      "_specificity": 5,
+      "url": "https://polymarket.com/event/nfl-cle-nyj-2026-10-11",
+      "platform": "polymarket",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "i cannot believe how much i suddenly care about this",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "the winner gets a parade down the third saddest street in America",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "football's dark web",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "Jets fans already blaming a kicker who hasn't been signed yet",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "this is the Big Ten West game of NFL Sundays",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "my uncle texted me about this matchup and i am genuinely frightened",
+          "mode": 2,
+          "score": 5
+        },
+        {
+          "quip": "$2.25 is also roughly what a ticket to this should cost",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "\"we're building something here\" sir you have built nothing",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXEARTHQUAKECALIFORNIA-35",
+      "title": "California gets an 8.0 earthquake before 2035",
+      "subtitle": "Before 2035",
+      "yes_sub_title": "Before 2035",
+      "no_sub_title": "Before 2035",
+      "payout": 2.86,
+      "tier": "green",
+      "quip": "the Hollywood sign ends up in an Erewhon parking lot",
+      "yes_price": "0.3500",
+      "volume": 28258.74,
+      "category": "Climate and Weather",
+      "close_time": "2035-12-31T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXEARTHQUAKECALIFORNIA?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 63.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "the Hollywood sign ends up in an Erewhon parking lot",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "i did duck and cover drills in third grade for exactly this",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "the big one, eventually",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "Arizona realtors sprinting directly at the camera",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "San Andreas with The Rock was a documentary released early",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "plate tectonics is the only thing in that state running on schedule",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "my go bag is three protein bars and a dead phone charger",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "a 7.0 is a Tuesday. an 8.0 is a playoff game",
+          "mode": 6,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNEXTOUTUS-26SEP28-KPAT",
+      "title": "Kash Patel is the first one out",
+      "subtitle": "HHS Secretary, Defense Secretary and FBI Director",
+      "yes_sub_title": "Kash Patel",
+      "no_sub_title": "Kash Patel",
+      "payout": 3.7,
+      "tier": "yellow",
+      "quip": "every cabinet is just Survivor with worse immunity challenges",
+      "yes_price": "0.2700",
+      "volume": 6555.28,
+      "category": "Politics",
+      "close_time": "2029-01-20T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNEXTOUTUS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 70.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the farewell post is already drafted and it is in all caps",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i can't keep track of who runs the FBI anymore and it's Tuesday",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "gone before the memo lands",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "\"i was never there. there is no bureau. next question\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "that building eats people, it's the one consistent thing in Washington",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "every cabinet is just Survivor with worse immunity challenges",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "the 37th director this year and we're all politely not mentioning it",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "turnover this quick is honestly kind of athletic",
+          "mode": 3,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNEXTCAT5HURDATE-26DEC01-26NOV01",
+      "title": "The next Category 5 hurricane forms before November",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Nov 1, 2026",
+      "no_sub_title": "Before Nov 1, 2026",
+      "payout": 9.09,
+      "tier": "orange",
+      "quip": "Florida deserves it and i will not be taking follow-ups",
+      "yes_price": "0.1100",
+      "volume": 3908.87,
+      "category": "Climate and Weather",
+      "close_time": "2026-11-01T03:59:00Z",
+      "url": "https://kalshi.com/markets/KXNEXTCAT5HURDATE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 99.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "Florida deserves it and i will not be taking follow-ups",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "Jim Cantore already waist deep in it, grinning like a lunatic",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "warm water does warm things",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "a Cat 5 is the last appointment television we have left",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "i refresh the spaghetti models the way other people check box scores",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "this is the Day After Tomorrow stretch before Jake starts burning books",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "we're on storm name number 9 and haven't touched the good letters",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"she's gonna wobble\" says a man standing in the ocean in waders",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXNBARECORD-27WORST-LAC",
+      "title": "Clippers finish with the league's worst record",
+      "subtitle": "Worst Record (2026-27)",
+      "yes_sub_title": "Los Angeles C",
+      "no_sub_title": "Los Angeles C",
+      "payout": 11.11,
+      "tier": "orange",
+      "quip": "like the Jaguars installing stadium pools and then going 2 and 15",
+      "yes_price": "0.0900",
+      "volume": 2123.06,
+      "category": "Sports",
+      "close_time": "2027-05-31T14:00:00Z",
+      "url": "https://kalshi.com/markets/KXNBARECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 104.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "Ballmer sweating through a two billion dollar arena for 17 wins",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "i knew a Clippers fan once. he moved and left no address",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Lob City is a cemetery",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "the Intuit Dome noise meter gets repurposed as a lie detector",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "like the Jaguars installing stadium pools and then going 2 and 15",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "the Succession ending where nobody gets to keep the company",
+          "mode": 8,
+          "score": 6
+        },
+        {
+          "quip": "$11.11 payout, eleven wins, i don't make the rules",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "bottoming out this thoroughly takes real commitment and i respect it",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA puts a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 24.39,
+      "tier": "red",
+      "quip": "Kubrick is unavailable this time so they'll have to actually go",
+      "yes_price": "0.0410",
+      "volume": 221311.15,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the first words are sponsored content and we all pretend that's fine",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "i would call out of work that entire week, genuinely",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the rocket is still drawings",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "\"two years, easy\" says the contractor who has never once been early",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "24 months away and 24 million PowerPoint slides away",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "Kubrick is unavailable this time so they'll have to actually go",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "boots crunching into regolith would fix something broken in me",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "like a 16 seed winning it all with four walk-ons",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26NOV",
+      "title": "US strikes a new Iran nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Nov 1, 2026",
+      "no_sub_title": "Before Nov 1, 2026",
+      "payout": 33.33,
+      "tier": "red",
+      "quip": "we're on the fourth Fast and Furious, everyone's family now",
+      "yes_price": "0.0300",
+      "volume": 778309.07,
+      "category": "Politics",
+      "close_time": "2026-11-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "\"it's a beautiful deal. the most beautiful. they called ME\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "i have a photo-op shaped hole where my memory of 2015 goes",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "handshake, hats, nothing changes",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "centrifuges go into storage right next to the Minsk agreements",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "the Swiss keep one conference room on permanent hold for this",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "we're on the fourth Fast and Furious, everyone's family now",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "the 33rd draft of the same two paragraphs",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "honestly i'd love it, no notes, everybody please relax",
+          "mode": 3,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0x1b0a4870cd50bdf9e9e5bc9f8ad42b011fadd554610f99699db34dca6d09fde1",
+      "title": "US unemployment hits 6% in 2026",
+      "subtitle": "",
+      "payout": 250.0,
+      "tier": "purple",
+      "quip": "every third person you know is suddenly a consultant with a Substack",
+      "yes_price": "0.0040",
+      "volume": 99937.35934,
+      "category": "Other",
+      "close_time": "2027-02-01T04:59:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/how-high-will-us-unemployment-go-in-2026",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i'd update the resume but i'd be behind nine million other guys",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "every third person you know is suddenly a consultant with a Substack",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "the vibes become data",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "six percent is where podcasts officially outnumber jobs",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "the AI did it and the AI will not be apologizing",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "Office Space except nobody even gets a meeting with the Bobs",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "like an entire league hitting a lockout on the same morning",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "i'll be fine. i say that out loud, to a mirror, daily",
+          "mode": 2,
+          "score": 7
+        }
+      ]
+    }
+  ]
+}
