@@ -1,0 +1,541 @@
+{
+  "generated_at": "2026-10-07T01:16:07.192659+00:00",
+  "market_count": 9,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 2
+  },
+  "board": [
+    {
+      "ticker": "KXBOIPASSENGERS-27JAN22-T5229399",
+      "title": "Boise Airport sets a passenger record this year",
+      "subtitle": "2026",
+      "yes_sub_title": "Above 5,229,399 total passengers",
+      "no_sub_title": "Above 5,229,399 total passengers",
+      "payout": 1.67,
+      "tier": "green",
+      "quip": "the Napoleon Dynamite tourism bump arriving two decades late",
+      "yes_price": "0.6000",
+      "volume": 8891.02,
+      "category": "Economics",
+      "close_time": "2027-02-19T14:59:00Z",
+      "url": "https://kalshi.com/markets/KXBOIPASSENGERS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 43.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "every Californian who sold a condo lands in Boise by March",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "I have never once thought about Boise and now I'm emotionally invested",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "a regional airport going parabolic is genuinely beautiful to me",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "passenger 5,229,400 is a guy carrying a potato through security",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "like a mid-major sneaking into the top 25 in November",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Idaho is cooking",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "Bay Area refugees clapping when the wheels touch down",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "the Napoleon Dynamite tourism bump arriving two decades late",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHARVARDFUNDAPPEAL-HHS29",
+      "title": "First Circuit fully affirms the Harvard funding ruling",
+      "subtitle": "Before 2029",
+      "yes_sub_title": "Before 2029",
+      "no_sub_title": "Before 2029",
+      "payout": 2.27,
+      "tier": "green",
+      "quip": "Harvard reopens the lab and immediately builds a second squash court",
+      "yes_price": "0.4400",
+      "volume": 7386.58,
+      "category": "Politics",
+      "close_time": "2029-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHARVARDFUNDAPPEAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 66.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "I read three paragraphs of this opinion and started seeing colors",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "Harvard reopens the lab and immediately builds a second squash court",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we are reviewing the decision.\" nobody is reviewing anything",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "a full affirm is a sweep in the Finals with no confetti",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "the endowment wins again",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "$2.27 says three judges have personal beef here",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "somewhere a Yale guy is furious and I'm completely fine with it",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "Elle Woods closed her case in ninety minutes flat",
+          "mode": 8,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXHMONTH-26OCT",
+      "title": "This October is the hottest one ever",
+      "subtitle": "In Oct 2026",
+      "yes_sub_title": "Hottest ever",
+      "no_sub_title": "Hottest ever",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "Phoenix residents calling 97 degrees crisp sweater weather",
+      "yes_price": "0.3600",
+      "volume": 6831.81,
+      "category": "Climate and Weather",
+      "close_time": "2026-11-16T03:59:00Z",
+      "url": "https://kalshi.com/markets/KXHMONTH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 96.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "I wore shorts to an October funeral and not one person blinked",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "trick or treating moves into the mall and the mall charges admission",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "October going for a personal best is, to me, kind of inspiring",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "peak leaf season now lands December 4th",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "fall is a rumor",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "Phoenix residents calling 97 degrees crisp sweater weather",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "this is the part of Interstellar right before they pack the ship",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "\"it's a dry heat,\" says my uncle, sweating through a Halloween costume",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27",
+      "title": "US strikes a new Iran nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 7.14,
+      "tier": "orange",
+      "quip": "Witkoff hits Diamond Medallion before anybody signs a single page",
+      "yes_price": "0.1400",
+      "volume": 1771472.22,
+      "category": "Politics",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Witkoff hits Diamond Medallion before anybody signs a single page",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "I've had a tweet drafted about this since 2015 and it still fits",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "\"we have a concept of a deal. very strong concept\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "the 14th draft of the exact same two pages",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "centrifuges spinning either way",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "like a ninth Fast and Furious movie nobody asked anyone about",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Switzerland billing both sides for the conference room and the pastries",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "honestly I'd love to watch diplomacy work once, purely for the bit",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "KXRECORDNFLBEST-27-BUF",
+      "title": "Buffalo finishes with the league's best record next season",
+      "subtitle": "2026-27 season",
+      "yes_sub_title": "Buffalo",
+      "no_sub_title": "Buffalo",
+      "payout": 10.0,
+      "tier": "orange",
+      "quip": "thirteen seconds, never forget",
+      "yes_price": "0.1000",
+      "volume": 100248.4,
+      "category": "Sports",
+      "close_time": "2027-02-22T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXRECORDNFLBEST?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "I'm not from Buffalo and I still don't think I survive another January there",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Bills Mafia breaks eleven tables and one ankle before the bye week",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "a one seed in Buffalo is a snow globe with home field",
+          "mode": 6,
+          "score": 6.5
+        },
+        {
+          "quip": "thirteen seconds, never forget",
+          "mode": 9,
+          "score": 9
+        },
+        {
+          "quip": "best record in the league, out by the second round, as scheduled",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "$10 payout, still cheaper than a January flight to Orchard Park",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "Lucy is holding the football and we are all Charlie Brown",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "Josh Allen hurdling a linebacker in a blizzard is the best thing I know",
+          "mode": 3,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0x660e5732754d03a62f717db5dbcdd65fca9866311da5d185f19f8ffb4bfa7f0b",
+      "title": "Trump renames ICE to NICE this year",
+      "subtitle": "",
+      "payout": 18.18,
+      "tier": "red",
+      "quip": "\"we added the N. people are telling me it's much nicer now\"",
+      "yes_price": "0.0550",
+      "volume": 9999.855669999999,
+      "category": "World",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/trump-renames-ice-to-nice-by-june-30",
+      "platform": "polymarket",
+      "score": 63.0,
+      "quip_alts": [
+        {
+          "quip": "\"we added the N. people are telling me it's much nicer now\"",
+          "mode": 4,
+          "score": 9
+        },
+        {
+          "quip": "new hats ship Tuesday, the vests take until spring",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "I hate that I laughed and I hate that you did too",
+          "mode": 2,
+          "score": 5
+        },
+        {
+          "quip": "the rebrand runs $18.18 a lanyard, times four hundred thousand lanyards",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "branding guy earned his check",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "like when IHOP became IHOb and we all pretended to care",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "a Florida man already has the new logo tattooed",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "honestly rebrands are the only policy area I fully understand",
+          "mode": 3,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA lands a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 24.39,
+      "tier": "red",
+      "quip": "Buzz Aldrin would throw hands over a timeline like this",
+      "yes_price": "0.0410",
+      "volume": 221483.02,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "I keep a countdown clock in my kitchen and it has been lying to me",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "first thing he does up there is check if his phone has bars",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "$24.39 is what SLS burns per second on hold music",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "\"Houston, we're slipping the launch for a totally normal reason\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "the ladder isn't built yet",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "Buzz Aldrin would throw hands over a timeline like this",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "like promising Thanksgiving dinner with no oven and a lot of confidence",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "if it happens I am crying live on camera, telling you now",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26FAY-T1",
+      "title": "Fay becomes a Category 1 hurricane",
+      "subtitle": "Hurricane Fay",
+      "yes_sub_title": "Category 1 or above",
+      "no_sub_title": "Category 1 or above",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "the Waffle House index flickers yellow, then goes back to sleep",
+      "yes_price": "0.0100",
+      "volume": 138798.76,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 105.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Fay sounds like a sweet grandma who takes your roof anyway",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "the Waffle House index flickers yellow, then goes back to sleep",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "a Cat 1 pays $100, a Cat 5 pays one FEMA form",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "I grew up with these. Cat 1 means leaves in the pool",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Fay is trying her best",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "\"we're not evacuating, we're hosting,\" says the man holding a cooler",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "Cat 1 is the preseason game of hurricanes",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Jim Cantore shows up in the rain and I know it's real",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x1b0a4870cd50bdf9e9e5bc9f8ad42b011fadd554610f99699db34dca6d09fde1",
+      "title": "US unemployment hits 6% this year",
+      "subtitle": "",
+      "payout": 181.82,
+      "tier": "purple",
+      "quip": "like your team starting the third stringer in week three of a lost year",
+      "yes_price": "0.0055",
+      "volume": 99937.35934,
+      "category": "Other",
+      "close_time": "2027-02-01T04:59:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/how-high-will-us-unemployment-go-in-2026",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "I've updated my resume twice this month purely out of superstition",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "LinkedIn becomes one enormous green halo and a lot of humility posts",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "I sent 181 applications and got one automated rejection, very efficient",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "\"the labor market remains solid,\" says a man watching it not be",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "the robots are winning",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "consultants rebranding the layoff as the start of your founder journey",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "Office Space except nobody even gets to keep the stapler",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "like your team starting the third stringer in week three of a lost year",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    }
+  ]
+}

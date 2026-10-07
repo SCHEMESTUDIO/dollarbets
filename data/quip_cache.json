@@ -1,44 +1,4 @@
 {
-  "SB-6963ED27": {
-    "title": "Ducks steal one in Vegas tonight",
-    "quip": "Zegras types leaving the Strip with the house money",
-    "cached_at": "2026-10-03T00:58:27.723320+00:00"
-  },
-  "SB-7C505351": {
-    "title": "Leafs beat Ottawa by two or more",
-    "quip": "Matthews treating the Battle of Ontario like a formality",
-    "cached_at": "2026-10-03T00:58:27.723320+00:00"
-  },
-  "SB-B0E812C8": {
-    "title": "LG Twins beat Kia Tigers by two or more tonight",
-    "quip": "Jamsil crowd gets the trumpet section warmed up early",
-    "cached_at": "2026-10-03T00:58:43.149458+00:00"
-  },
-  "SB-67C5BBC7": {
-    "title": "Blue Bombers upset Alouettes in Montreal",
-    "quip": "Zach Collaros loves ruining a Percival Molson afternoon",
-    "cached_at": "2026-10-03T00:58:43.149458+00:00"
-  },
-  "SB-542DDCD0": {
-    "title": "Capitals keep it close in Tampa tonight",
-    "quip": "Ovechkin doesn't let games get out of hand",
-    "cached_at": "2026-10-03T00:58:52.005717+00:00"
-  },
-  "SB-2BCF79F1": {
-    "title": "Wild handle the Bruins in Minnesota",
-    "quip": "Kaprizov at home is a different animal",
-    "cached_at": "2026-10-03T00:58:52.005717+00:00"
-  },
-  "SB-7923B212": {
-    "title": "Red Wings stay within a goal of the Rangers",
-    "quip": "Shesterkin keeps it 2-1 because of course",
-    "cached_at": "2026-10-03T00:58:52.005717+00:00"
-  },
-  "SB-941B7176": {
-    "title": "Vettori goes the distance with Naurdiev",
-    "quip": "nobody finishes Vettori, they just out-point him",
-    "cached_at": "2026-10-03T00:58:52.005717+00:00"
-  },
   "SB-AE1F0C0F": {
     "title": "UConn upsets Syracuse at the Rent",
     "quip": "Jim Mora's Huskies keep eating Big East leftovers",
@@ -788,5 +748,70 @@
     "title": "Rangers handle the Islanders in the subway series",
     "quip": "Shesterkin treats Belmont like a road trip",
     "cached_at": "2026-10-06T20:47:13.469178+00:00"
+  },
+  "SB-C0D0FF1F": {
+    "title": "Dodgers handle Braves in Atlanta by two or more",
+    "quip": "Ohtani doesn't do one-run games, he does statements",
+    "cached_at": "2026-10-07T01:16:20.314028+00:00"
+  },
+  "SB-881431FC": {
+    "title": "Rays upset Yankees in the Bronx tonight",
+    "quip": "the Bronx boo birds warming up early",
+    "cached_at": "2026-10-07T01:16:20.314028+00:00"
+  },
+  "SB-F0AD8D9E": {
+    "title": "Kraken sink Golden Knights in Seattle",
+    "quip": "Climate Pledge gets loud when Vegas visits",
+    "cached_at": "2026-10-07T01:16:20.314028+00:00"
+  },
+  "SB-CDCF71B5": {
+    "title": "Panthers beat Kings by two-plus in LA",
+    "quip": "Bobrovsky treating Crypto.com Arena like his summer home",
+    "cached_at": "2026-10-07T01:16:20.314028+00:00"
+  },
+  "SB-2E4BE541": {
+    "title": "White Sox blow out Guardians by six or more",
+    "quip": "the South Side demanding one good Tuesday, just one",
+    "cached_at": "2026-10-07T01:16:20.314028+00:00"
+  },
+  "SB-72AA48B8": {
+    "title": "Devils knock off the Mammoth tonight",
+    "quip": "Jack Hughes versus a species that already went extinct once",
+    "cached_at": "2026-10-07T01:16:27.499181+00:00"
+  },
+  "SB-7CD9748F": {
+    "title": "Braves take down the Dodgers tonight",
+    "quip": "Acu\u00f1a remembers what Atlanta did in 2021",
+    "cached_at": "2026-10-07T01:16:27.499181+00:00"
+  },
+  "SB-22EE9A5F": {
+    "title": "Corinthians steal one at Internacional",
+    "quip": "Tim\u00e3o travel light, Beira-Rio crowd goes quiet",
+    "cached_at": "2026-10-07T01:16:37.535102+00:00"
+  },
+  "SB-19A1B68A": {
+    "title": "Remo and Gr\u00eamio split the points",
+    "quip": "Mangueir\u00e3o humidity turns everything into a 1-1",
+    "cached_at": "2026-10-07T01:16:37.535102+00:00"
+  },
+  "SB-2337A71A": {
+    "title": "Kings hang with the Panthers tonight",
+    "quip": "Kuemper keeps it a one-goal headache for Bobrovsky",
+    "cached_at": "2026-10-07T01:16:47.145871+00:00"
+  },
+  "SB-377334AC": {
+    "title": "Penguins keep it close in Washington",
+    "quip": "Crosby and Ovechkin never did do blowouts",
+    "cached_at": "2026-10-07T01:16:47.145871+00:00"
+  },
+  "SB-AFFE460C": {
+    "title": "Braves stay within a run of the Dodgers",
+    "quip": "Atlanta's bullpen holds long enough to matter",
+    "cached_at": "2026-10-07T01:16:47.145871+00:00"
+  },
+  "SB-DB2119D3": {
+    "title": "Jets stay within a goal of the Avalanche",
+    "quip": "Hellebuyck turns MacKinnon's track meet into trench warfare",
+    "cached_at": "2026-10-07T01:16:47.145871+00:00"
   }
 }

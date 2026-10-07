@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-10-07T01:16:54.357877+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 7,
+    "NCAAF": 3
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-0D7B87BE",
+      "title": "Ohio Bobcats wins + Toronto Maple Leafs wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612666647&selectionId=2205296",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Central Michigan Chippewas @ Ohio Bobcats + Nashville Predators @ Toronto Maple Leafs",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Central Michigan Chippewas @ Ohio Bobcats",
+          "pick": "Ohio Bobcats wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612666647&selectionId=2205296",
+          "commence_time": "2026-10-10T19:30:00Z"
+        },
+        {
+          "matchup": "Nashville Predators @ Toronto Maple Leafs",
+          "pick": "Toronto Maple Leafs wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613901062&selectionId=25600",
+          "commence_time": "2026-10-06T23:08:05Z"
+        }
+      ],
+      "close_time": "2026-10-06T23:08:05Z"
+    },
+    {
+      "ticker": "PARLAY-509CEBF6",
+      "title": "Chicago Bears wins + Ohio Bobcats wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612291244&selectionId=50194",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Chicago Bears @ Green Bay Packers + Central Michigan Chippewas @ Ohio Bobcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Bears @ Green Bay Packers",
+          "pick": "Chicago Bears wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612291244&selectionId=50194",
+          "commence_time": "2026-10-11T17:00:00Z"
+        },
+        {
+          "matchup": "Central Michigan Chippewas @ Ohio Bobcats",
+          "pick": "Ohio Bobcats wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612666647&selectionId=2205296",
+          "commence_time": "2026-10-10T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-B314A548",
+      "title": "Chicago Bears wins + Toronto Maple Leafs wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612291244&selectionId=50194",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Chicago Bears @ Green Bay Packers + Nashville Predators @ Toronto Maple Leafs",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Bears @ Green Bay Packers",
+          "pick": "Chicago Bears wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612291244&selectionId=50194",
+          "commence_time": "2026-10-11T17:00:00Z"
+        },
+        {
+          "matchup": "Nashville Predators @ Toronto Maple Leafs",
+          "pick": "Toronto Maple Leafs wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613901062&selectionId=25600",
+          "commence_time": "2026-10-06T23:08:05Z"
+        }
+      ],
+      "close_time": "2026-10-06T23:08:05Z"
+    },
+    {
+      "ticker": "PARLAY-46A4268C",
+      "title": "Jacksonville State Gamecocks wins + Ohio Bobcats wins",
+      "payout": 2.81,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612071470&selectionId=4943282",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Jacksonville State Gamecocks @ Kennesaw State Owls + Central Michigan Chippewas @ Ohio Bobcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 181,
+      "implied_probability": 0.356,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Jacksonville State Gamecocks @ Kennesaw State Owls",
+          "pick": "Jacksonville State Gamecocks wins",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612071470&selectionId=4943282",
+          "commence_time": "2026-10-07T23:00:00Z"
+        },
+        {
+          "matchup": "Central Michigan Chippewas @ Ohio Bobcats",
+          "pick": "Ohio Bobcats wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612666647&selectionId=2205296",
+          "commence_time": "2026-10-10T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-07T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-BC4D92B4",
+      "title": "Jacksonville State Gamecocks wins + Toronto Maple Leafs wins",
+      "payout": 2.81,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612071470&selectionId=4943282",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Jacksonville State Gamecocks @ Kennesaw State Owls + Nashville Predators @ Toronto Maple Leafs",
+      "market_type": "2-leg parlay",
+      "american_odds": 181,
+      "implied_probability": 0.356,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Jacksonville State Gamecocks @ Kennesaw State Owls",
+          "pick": "Jacksonville State Gamecocks wins",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612071470&selectionId=4943282",
+          "commence_time": "2026-10-07T23:00:00Z"
+        },
+        {
+          "matchup": "Nashville Predators @ Toronto Maple Leafs",
+          "pick": "Toronto Maple Leafs wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613901062&selectionId=25600",
+          "commence_time": "2026-10-06T23:08:05Z"
+        }
+      ],
+      "close_time": "2026-10-06T23:08:05Z"
+    },
+    {
+      "ticker": "PARLAY-5C9E70C8",
+      "title": "Marshall Thundering Herd wins + Ohio Bobcats wins",
+      "payout": 2.81,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612668606&selectionId=532782",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Coastal Carolina Chanticleers @ Marshall Thundering Herd + Central Michigan Chippewas @ Ohio Bobcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 181,
+      "implied_probability": 0.356,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Coastal Carolina Chanticleers @ Marshall Thundering Herd",
+          "pick": "Marshall Thundering Herd wins",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612668606&selectionId=532782",
+          "commence_time": "2026-10-10T23:00:00Z"
+        },
+        {
+          "matchup": "Central Michigan Chippewas @ Ohio Bobcats",
+          "pick": "Ohio Bobcats wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612666647&selectionId=2205296",
+          "commence_time": "2026-10-10T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-140DD860",
+      "title": "Marshall Thundering Herd wins + Toronto Maple Leafs wins",
+      "payout": 2.81,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612668606&selectionId=532782",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Coastal Carolina Chanticleers @ Marshall Thundering Herd + Nashville Predators @ Toronto Maple Leafs",
+      "market_type": "2-leg parlay",
+      "american_odds": 181,
+      "implied_probability": 0.356,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Coastal Carolina Chanticleers @ Marshall Thundering Herd",
+          "pick": "Marshall Thundering Herd wins",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612668606&selectionId=532782",
+          "commence_time": "2026-10-10T23:00:00Z"
+        },
+        {
+          "matchup": "Nashville Predators @ Toronto Maple Leafs",
+          "pick": "Toronto Maple Leafs wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613901062&selectionId=25600",
+          "commence_time": "2026-10-06T23:08:05Z"
+        }
+      ],
+      "close_time": "2026-10-06T23:08:05Z"
+    },
+    {
+      "ticker": "PARLAY-218AB290",
+      "title": "Houston Cougars wins + Ohio Bobcats wins",
+      "payout": 2.81,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613684394&selectionId=36045494",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Oklahoma State Cowboys @ Houston Cougars + Central Michigan Chippewas @ Ohio Bobcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 181,
+      "implied_probability": 0.356,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Oklahoma State Cowboys @ Houston Cougars",
+          "pick": "Houston Cougars wins",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613684394&selectionId=36045494",
+          "commence_time": "2026-10-17T23:30:00Z"
+        },
+        {
+          "matchup": "Central Michigan Chippewas @ Ohio Bobcats",
+          "pick": "Ohio Bobcats wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612666647&selectionId=2205296",
+          "commence_time": "2026-10-10T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-E0E4C203",
+      "title": "Houston Cougars wins + Toronto Maple Leafs wins",
+      "payout": 2.81,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613684394&selectionId=36045494",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Oklahoma State Cowboys @ Houston Cougars + Nashville Predators @ Toronto Maple Leafs",
+      "market_type": "2-leg parlay",
+      "american_odds": 181,
+      "implied_probability": 0.356,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Oklahoma State Cowboys @ Houston Cougars",
+          "pick": "Houston Cougars wins",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613684394&selectionId=36045494",
+          "commence_time": "2026-10-17T23:30:00Z"
+        },
+        {
+          "matchup": "Nashville Predators @ Toronto Maple Leafs",
+          "pick": "Toronto Maple Leafs wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613901062&selectionId=25600",
+          "commence_time": "2026-10-06T23:08:05Z"
+        }
+      ],
+      "close_time": "2026-10-06T23:08:05Z"
+    },
+    {
+      "ticker": "PARLAY-CD0E93D3",
+      "title": "Brendan Allen wins + Ohio Bobcats wins",
+      "payout": 2.81,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613147311&selectionId=25064212",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Christian Leroy Duncan @ Brendan Allen + Central Michigan Chippewas @ Ohio Bobcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 181,
+      "implied_probability": 0.356,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Christian Leroy Duncan @ Brendan Allen",
+          "pick": "Brendan Allen wins",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613147311&selectionId=25064212",
+          "commence_time": "2026-10-11T00:00:00Z"
+        },
+        {
+          "matchup": "Central Michigan Chippewas @ Ohio Bobcats",
+          "pick": "Ohio Bobcats wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612666647&selectionId=2205296",
+          "commence_time": "2026-10-10T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T19:30:00Z"
+    }
+  ]
+}
