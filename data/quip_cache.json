@@ -1,104 +1,4 @@
 {
-  "SB-27F82BF8": {
-    "title": "Bucs take down the Packers at home",
-    "quip": "Baker Mayfield still plays every snap like he's been cut twice",
-    "cached_at": "2026-10-03T18:59:45.821483+00:00"
-  },
-  "SB-0C60549A": {
-    "title": "Bruins knock off the Wild in Minnesota",
-    "quip": "Pastrnak's wrister doesn't care about the time zone",
-    "cached_at": "2026-10-03T18:59:45.821483+00:00"
-  },
-  "SB-7025D11A": {
-    "title": "Yankees beat the Rays by three or more",
-    "quip": "Judge finding the short porch in a converted spring facility",
-    "cached_at": "2026-10-03T18:59:45.821483+00:00"
-  },
-  "SB-6012FB32": {
-    "title": "Braves blow out the Dodgers by five",
-    "quip": "Acu\u00f1a rounding third while Chavez Ravine files out early",
-    "cached_at": "2026-10-03T18:59:45.821483+00:00"
-  },
-  "SB-67E5D8F8": {
-    "title": "Samford shocks UAB on the road",
-    "quip": "Hoover's finest kicking down the door on Graymont Avenue",
-    "cached_at": "2026-10-03T18:59:45.821483+00:00"
-  },
-  "SB-FEB4CACB": {
-    "title": "Akron shocks Central Michigan in the MAC",
-    "quip": "MACtion at midnight, where logic clocks out",
-    "cached_at": "2026-10-03T18:59:54.545214+00:00"
-  },
-  "SB-BE4B1555": {
-    "title": "Patriots upset Bills in Buffalo",
-    "quip": "Drake Maye doing his best young Brady cosplay",
-    "cached_at": "2026-10-03T18:59:54.545214+00:00"
-  },
-  "SB-D37DB751": {
-    "title": "Marshall stuns James Madison on the road",
-    "quip": "We Are Marshall, sequel nobody greenlit",
-    "cached_at": "2026-10-03T18:59:54.545214+00:00"
-  },
-  "SB-F06C6603": {
-    "title": "Bruce Whitehead upsets Jacobe Smith",
-    "quip": "wrestler meets wall, wall occasionally loses",
-    "cached_at": "2026-10-03T18:59:54.545214+00:00"
-  },
-  "SB-5ED6DF54": {
-    "title": "Twins handle Kia Tigers by two-plus tonight",
-    "quip": "Jamsil crowd gets the trumpet song early",
-    "cached_at": "2026-10-03T19:00:08.061467+00:00"
-  },
-  "SB-5857B11C": {
-    "title": "Golden Eagles beat Marines by two or more",
-    "quip": "Sendai's finest treating Chiba like batting practice",
-    "cached_at": "2026-10-03T19:00:08.061467+00:00"
-  },
-  "SB-D92FEBF9": {
-    "title": "Samsung Lions bury Doosan by two-plus",
-    "quip": "Daegu bullpen closes the door on the Bears",
-    "cached_at": "2026-10-03T19:00:08.061467+00:00"
-  },
-  "SB-BE2C9016": {
-    "title": "NC Dinos beat SSG by two or more",
-    "quip": "Changwon dinosaurs stomping Landers into the dirt",
-    "cached_at": "2026-10-03T19:00:08.061467+00:00"
-  },
-  "SB-74670015": {
-    "title": "Bragantino shock Atletico Mineiro in Belo Horizonte",
-    "quip": "Red Bull wings versus the Galo rooster, nobody blinks",
-    "cached_at": "2026-10-03T19:00:08.061467+00:00"
-  },
-  "SB-3D07799D": {
-    "title": "Eithan James upsets Bilal Fawaz",
-    "quip": "young hands, old sparring stories, sudden ending",
-    "cached_at": "2026-10-03T19:00:08.061467+00:00"
-  },
-  "SB-18319ABE": {
-    "title": "Ritzakis stuns Odel Kamara in massive upset",
-    "quip": "a Greek tragedy where the chorus wins by knockout",
-    "cached_at": "2026-10-03T19:00:08.061467+00:00"
-  },
-  "SB-75F5928E": {
-    "title": "Lightning handle the Capitals in Tampa",
-    "quip": "Kucherov stat-padding season continues on schedule",
-    "cached_at": "2026-10-03T19:00:19.380688+00:00"
-  },
-  "SB-66ECFA30": {
-    "title": "Rams beat the Eagles in Philadelphia",
-    "quip": "Stafford and Nacua against a grounded Tush Push",
-    "cached_at": "2026-10-03T19:00:19.380688+00:00"
-  },
-  "SB-7F35732E": {
-    "title": "Bears take care of the Jets",
-    "quip": "Caleb Williams gets the gentlest possible Sunday",
-    "cached_at": "2026-10-03T19:00:19.380688+00:00"
-  },
-  "SB-9218036F": {
-    "title": "Johnny Walker edges Parkin, no blowout",
-    "quip": "Walker wins rounds, not championships \u2014 keep it close",
-    "cached_at": "2026-10-03T19:00:19.380688+00:00"
-  },
   "SB-41A1C829": {
     "title": "Cowboys take down the Texans in Houston",
     "quip": "the Governor's Cup belongs to Dak this year",
@@ -803,5 +703,75 @@
     "title": "Bears win at Lambeau tonight",
     "quip": "Caleb Williams enjoying the frozen tundra",
     "cached_at": "2026-10-07T15:04:15.095618+00:00"
+  },
+  "SB-C10BC58A": {
+    "title": "Penguins steal one in Washington tonight",
+    "quip": "Crosby still does this to Ovechkin's building",
+    "cached_at": "2026-10-07T20:59:27.721306+00:00"
+  },
+  "SB-792310C1": {
+    "title": "Jets beat the Avalanche in Winnipeg",
+    "quip": "Hellebuyck turns MacKinnon's highlight reel into a screensaver",
+    "cached_at": "2026-10-07T20:59:27.721306+00:00"
+  },
+  "SB-99E3C284": {
+    "title": "New Mexico State upsets FIU on the road",
+    "quip": "Aggies treating Miami like a bowl game audition",
+    "cached_at": "2026-10-07T20:59:27.721306+00:00"
+  },
+  "SB-2FC6352E": {
+    "title": "Utah Mammoth win by two-plus in Boston",
+    "quip": "an extinct animal stomping the Garden, somehow on brand",
+    "cached_at": "2026-10-07T20:59:27.721306+00:00"
+  },
+  "SB-C10EEA47": {
+    "title": "Yankees blow out the Rays by six",
+    "quip": "Judge turning a Tampa bullpen day into batting practice",
+    "cached_at": "2026-10-07T20:59:27.721306+00:00"
+  },
+  "SB-D30A5AA2": {
+    "title": "Fr\u00f6lunda skate past Timr\u00e5 by two or more",
+    "quip": "Gothenburg's trophy cabinet needs dusting anyway",
+    "cached_at": "2026-10-07T20:59:49.968206+00:00"
+  },
+  "SB-F420B7F9": {
+    "title": "Gr\u00eamio win at Remo tonight",
+    "quip": "the Imortal remembering it has a nickname to defend",
+    "cached_at": "2026-10-07T20:59:49.968206+00:00"
+  },
+  "SB-1747CBCB": {
+    "title": "Bragantino and Mirassol settle for a draw",
+    "quip": "two interior S\u00e3o Paulo sides agreeing to disagree",
+    "cached_at": "2026-10-07T20:59:49.968206+00:00"
+  },
+  "SB-D71432D7": {
+    "title": "Avalanche take down the Jets in Winnipeg",
+    "quip": "MacKinnon turns Hellebuyck into a highlight reel extra",
+    "cached_at": "2026-10-07T20:59:59.910470+00:00"
+  },
+  "SB-8BCDAA22": {
+    "title": "RJ Harris clears Allen Frye by a wide margin",
+    "quip": "Frye brought a gameplan, Harris brought a clock",
+    "cached_at": "2026-10-07T20:59:59.910470+00:00"
+  },
+  "SB-8F6939FC": {
+    "title": "Leafs keep it close in Vegas",
+    "quip": "losing by one is practically a Toronto tradition",
+    "cached_at": "2026-10-07T20:59:59.910470+00:00"
+  },
+  "SB-D67BDD48": {
+    "title": "Zheleznyakova goes the distance with Pereira",
+    "quip": "Pereira wins rounds, not the stoppage bonus",
+    "cached_at": "2026-10-07T20:59:59.910470+00:00"
+  },
+  "SB-4FEA90B0": {
+    "title": "Capitals beat the Penguins in Washington",
+    "quip": "Ovechkin still owns this rivalry's deed",
+    "cached_at": "2026-10-07T20:59:59.910470+00:00"
+  },
+  "SB-9EF1FDA1": {
+    "title": "Predators keep it tight in Montreal",
+    "quip": "Bell Centre crowd gets a nail-biter, not a party",
+    "cached_at": "2026-10-07T20:59:59.910470+00:00"
   }
 }

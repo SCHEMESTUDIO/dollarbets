@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T15:03:55.334897+00:00",
+  "generated_at": "2026-10-07T20:59:32.055870+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -9,30 +9,30 @@
     "orange": 3
   },
   "sport_mix": {
-    "NFL": 2,
+    "NCAAF": 2,
+    "NFL": 1,
     "EPL": 1,
-    "UCL": 1,
-    "NCAAF": 1
+    "UCL": 1
   },
   "board": [
     {
-      "ticker": "SB-78306485",
-      "title": "Eagles roll Jaguars in Jacksonville",
-      "payout": 4.0,
+      "ticker": "SB-99E3C284",
+      "title": "New Mexico State upsets FIU on the road",
+      "payout": 3.05,
       "tier": "yellow",
-      "quip": "Saquon untouched, Trevor Lawrence running for his life",
-      "yes_price": "0.25",
-      "category": "NFL",
-      "platform": "betrivers",
-      "platform_display": "BetRivers",
-      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028813030?coupon={pickType}|4356011967|{wagerAmount}",
-      "close_time": "2026-10-11T13:30:00Z",
-      "sport": "americanfootball_nfl",
-      "sport_display": "NFL",
-      "matchup": "Philadelphia Eagles @ Jacksonville Jaguars",
+      "quip": "Aggies treating Miami like a bowl game audition",
+      "yes_price": "0.33",
+      "category": "NCAAF",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612656267&selectionId=602741",
+      "close_time": "2026-10-07T23:30:00Z",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "New Mexico State Aggies @ Florida International Panthers",
       "market_type": "h2h",
-      "american_odds": 300,
-      "implied_probability": 0.25,
+      "american_odds": 205,
+      "implied_probability": 0.328,
       "has_deep_link": true
     },
     {
@@ -98,10 +98,10 @@
     {
       "ticker": "SB-B482B351",
       "title": "Buffalo shocks Toledo in the Glass Bowl",
-      "payout": 11.5,
+      "payout": 12.5,
       "tier": "orange",
       "quip": "MACtion means the Rockets forget how to tackle at midnight",
-      "yes_price": "0.09",
+      "yes_price": "0.08",
       "category": "NCAAF",
       "platform": "betrivers",
       "platform_display": "BetRivers",
@@ -111,8 +111,8 @@
       "sport_display": "NCAAF",
       "matchup": "Buffalo Bulls @ Toledo Rockets",
       "market_type": "h2h",
-      "american_odds": 1050,
-      "implied_probability": 0.087,
+      "american_odds": 1150,
+      "implied_probability": 0.08,
       "has_deep_link": true
     }
   ]
