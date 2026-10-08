@@ -1,0 +1,541 @@
+{
+  "generated_at": "2026-10-08T01:36:54.229678+00:00",
+  "market_count": 9,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 2
+  },
+  "board": [
+    {
+      "ticker": "KXGTEMP-26-P0",
+      "title": "2026 ends up the hottest year ever",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Hottest",
+      "no_sub_title": "Hottest",
+      "payout": 1.89,
+      "tier": "green",
+      "quip": "$1.89 is what a bag of ice runs now. it was 89 cents",
+      "yes_price": "0.5290",
+      "volume": 387502.02,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXGTEMP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 84.0,
+      "_specificity": 5,
+      "quip_alts": [
+        {
+          "quip": "July opens with a nationwide shortage of those little neck fans",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "i've started handling my steering wheel like a stovetop burner",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "$1.89 is what a bag of ice runs now. it was 89 cents",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "like a single season record that somebody breaks every other year now",
+          "mode": 6,
+          "score": 6
+        },
+        {
+          "quip": "Phoenix entering year three of its heat tolerance character arc",
+          "mode": 7,
+          "score": 6.5
+        },
+        {
+          "quip": "Al Gore dusting off the scissor lift for one more slide",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "earth going back to back",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "incredible consistency from a planet with no strength coach",
+          "mode": 3,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0xdf55222217299506bd9b7b348ac3be51137ac480da920567722824f0c40c5fc0",
+      "title": "Callum Turner is the next James Bond",
+      "subtitle": "",
+      "payout": 4.91,
+      "tier": "yellow",
+      "quip": "$4.91, which is also what a martini costs at airport Chili's",
+      "yes_price": "0.2035",
+      "volume": 99982.38524899997,
+      "category": "Other",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/next-james-bond-actor-398",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "i will google this man and then claim i knew him first",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "\"Turner. Callum Turner.\" and the whole theater goes who?",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "Amazon greenlights the spinoff where Q runs a Prime subscription",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "this is a team hiring the position coach nobody requested an interview with",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "$4.91, which is also what a martini costs at airport Chili's",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the Masters of the Air pipeline is officially a license to kill",
+          "mode": 8,
+          "score": 6
+        },
+        {
+          "quip": "fine. he's tall",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "a Bond who isn't already exhausted. i'm in on the ground floor",
+          "mode": 3,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "ticker": "KXSPACEXMARS-30",
+      "title": "SpaceX lands something on Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 5.0,
+      "tier": "yellow",
+      "quip": "like a punter pinning it inside the one. counts the same",
+      "yes_price": "0.2000",
+      "volume": 94535.35,
+      "category": "Science and Technology",
+      "close_time": "2030-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXSPACEXMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 110.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "first object on Mars is a Starship panel with a Tesla logo on it",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i'd watch that landing at 3am with cereal and zero shame",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "\"it's not a crash, it's a rapid unscheduled arrival\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "like a punter pinning it inside the one. counts the same",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Mars ends up with 14 pieces of American hardware and one glove",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "Wall-E gets there first and starts stacking the debris into cubes",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "red planet, red tape",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "scattering our junk across another world genuinely rules",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNFLALLPRO-271STDEF-MGARRETT95",
+      "title": "Myles Garrett makes All-Pro first team defense",
+      "subtitle": "1st Team Defense (2026-27)",
+      "yes_sub_title": "Myles Garrett",
+      "no_sub_title": "Myles Garrett",
+      "payout": 5.0,
+      "tier": "yellow",
+      "quip": "the only Cleveland highlight that doesn't end in a quarterback injury report",
+      "yes_price": "0.2000",
+      "volume": 10.8,
+      "category": "Sports",
+      "close_time": "2027-02-22T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNFLALLPRO?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 69.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "the only Cleveland highlight that doesn't end in a quarterback injury report",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "i rostered him in an IDP league once and felt powerful for a month",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "voters writing his name down in August and going to lunch",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "a lifeguard getting employee of the year at an empty pool",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "91 sacks, 400 double teams, one functional offense in nine years",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Sisyphus except the boulder is a backup left tackle",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "free him",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "a 270 pound man running a 4.6 and ruining Sundays. beautiful",
+          "mode": 3,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXELONMARS-99",
+      "title": "Elon Musk visits Mars in his lifetime",
+      "subtitle": "Before 2099",
+      "yes_sub_title": "Mars",
+      "no_sub_title": "Mars",
+      "payout": 9.09,
+      "tier": "orange",
+      "quip": "Mars logs its first HR complaint within nine hours of touchdown",
+      "yes_price": "0.1100",
+      "volume": 119806.03,
+      "category": "World",
+      "close_time": "2099-08-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXELONMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 117.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "first transmission from the surface is a dog coin and a poll",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "honestly i would help him pack",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "\"we're gonna, uh, we're gonna need a Cybertruck up there\"",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "the owner subbing himself in like a beer league Jerry Jones",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "$9.09 to Mars is cheaper than parking at Newark",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Wonka handing himself the golden ticket",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "pack light, buddy",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "Mars logs its first HR complaint within nine hours of touchdown",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXRECORDNFLBEST-27-MIN",
+      "title": "Minnesota has the best record next season",
+      "subtitle": "2026-27 season",
+      "yes_sub_title": "Minnesota",
+      "no_sub_title": "Minnesota",
+      "payout": 11.11,
+      "tier": "orange",
+      "quip": "Charlie Brown kicks the football. first half only",
+      "yes_price": "0.0900",
+      "volume": 86019.06,
+      "category": "Sports",
+      "close_time": "2027-02-22T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXRECORDNFLBEST?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 106.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "i refuse to emotionally invest in anything from Minnesota ever again",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "peaking in the regular season is the most Minnesota available option",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "the parade route already has a contingency plan for round one",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "a 13-0 start that dies in a wild card game. we've seen this",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "82 games of excellence and one catastrophic Tuesday in May",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Charlie Brown kicks the football. first half only",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Minnesota nice, briefly dominant",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "a cold weather team bullying everybody for six months. love it",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26NOV",
+      "title": "The US signs a new Iran nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Nov 1, 2026",
+      "no_sub_title": "Before Nov 1, 2026",
+      "payout": 33.33,
+      "tier": "red",
+      "quip": "like a coach's extension announced the week before the firing",
+      "yes_price": "0.0300",
+      "volume": 950979.57,
+      "category": "Politics",
+      "close_time": "2026-11-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "there's a folder on my desktop called iran deal FINAL v6",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "\"it's a beautiful one. the best one. people are crying about it\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "Witkoff books eleven nights in Geneva and flies home after two",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "$33 payout, 33 drafts, 33 photo ops on the same staircase",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "like a coach's extension announced the week before the firing",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Groundhog Day diner, except everybody orders the centrifuge",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "pen's out again",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "the Swiss ambassador's Instagram is about to become insufferable",
+          "mode": 7,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26ISAIAS-T5",
+      "title": "Isaias strengthens into a Category 5 hurricane",
+      "subtitle": "Hurricane Isaias",
+      "yes_sub_title": "Category 5 or above",
+      "no_sub_title": "Category 5 or above",
+      "payout": 33.33,
+      "tier": "red",
+      "quip": "the Waffle House Index goes dark for the first time in years",
+      "yes_price": "0.0300",
+      "volume": 6400.93,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the Waffle House Index goes dark for the first time in years",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "i will refresh the spaghetti models like they're my ex's stories",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "the Outer Banks have been asking for this since roughly 2011",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "185 mph and a guy in Naples still filming in flip flops",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "a Cat 5 is a 103 mph fastball with no command",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "every Publix bread aisle in the state stripped by Tuesday morning",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "name him, he grows",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "nature running it up. unmatched production value",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x1b0a4870cd50bdf9e9e5bc9f8ad42b011fadd554610f99699db34dca6d09fde1",
+      "title": "US unemployment hits 6% this year",
+      "subtitle": "",
+      "payout": 200.0,
+      "tier": "purple",
+      "quip": "turns out Milton was the only honest man in that building",
+      "yes_price": "0.0050",
+      "volume": 99937.35934,
+      "category": "Other",
+      "close_time": "2027-02-01T04:59:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/how-high-will-us-unemployment-go-in-2026",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i've started being weirdly nice to my manager, just in case",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "LinkedIn turns into a wall of green Open To Work frames",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "$200, which covers about three weeks of groceries these days",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "\"the labor market remains solid,\" he says, to an empty room",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "like a 2-14 season the owner keeps calling a reset",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "turns out Milton was the only honest man in that building",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "update the resume. now",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "every consultant in Chicago rediscovering their hobbies at once",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    }
+  ]
+}

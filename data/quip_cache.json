@@ -1,114 +1,4 @@
 {
-  "SB-41A1C829": {
-    "title": "Cowboys take down the Texans in Houston",
-    "quip": "the Governor's Cup belongs to Dak this year",
-    "cached_at": "2026-10-04T00:24:49.040215+00:00"
-  },
-  "SB-AA7F56EA": {
-    "title": "Rangers handle Utah by two or more",
-    "quip": "Shesterkin against an expansion-flavored roster, fine",
-    "cached_at": "2026-10-04T00:24:49.040215+00:00"
-  },
-  "SB-158D7F58": {
-    "title": "Canucks beat Calgary by a couple",
-    "quip": "Battle of Alberta energy, except Alberta loses",
-    "cached_at": "2026-10-04T00:24:49.040215+00:00"
-  },
-  "SB-AFA4D85F": {
-    "title": "Blues steal one in Denver",
-    "quip": "somebody has to make MacKinnon's night miserable",
-    "cached_at": "2026-10-04T00:24:49.040215+00:00"
-  },
-  "SB-0FD0FD73": {
-    "title": "Chargers go into Seattle and win",
-    "quip": "Herbert enjoys the rain more than Geno does",
-    "cached_at": "2026-10-04T00:24:49.040215+00:00"
-  },
-  "SB-845791EA": {
-    "title": "Brewers bury the Padres by six",
-    "quip": "American Family Field turns into a Bob Uecker fever dream",
-    "cached_at": "2026-10-04T00:24:49.040215+00:00"
-  },
-  "SB-F492C580": {
-    "title": "Braves blow out the Dodgers in LA",
-    "quip": "Acu\u00f1a dancing around the bases, Chavez Ravine silent",
-    "cached_at": "2026-10-04T00:24:49.040215+00:00"
-  },
-  "SB-DDA8AB53": {
-    "title": "Yankees crush the Rays by four plus",
-    "quip": "Judge treating that little spring training park like batting practice",
-    "cached_at": "2026-10-04T00:24:49.040215+00:00"
-  },
-  "SB-4AF925B1": {
-    "title": "Galatasaray stun Barcelona in Istanbul",
-    "quip": "Rams Park turns into a flare-lit hellmouth for Yamal",
-    "cached_at": "2026-10-04T00:24:55.867708+00:00"
-  },
-  "SB-7F832257": {
-    "title": "Coastal Carolina upset Georgia Southern",
-    "quip": "the Chanticleers crow loudest when nobody's listening",
-    "cached_at": "2026-10-04T00:24:55.867708+00:00"
-  },
-  "SB-4C37C44E": {
-    "title": "Leeds shock Arsenal at the Emirates",
-    "quip": "Marching On Together straight into Saliba's nightmares",
-    "cached_at": "2026-10-04T00:24:55.867708+00:00"
-  },
-  "SB-0B0FA4BC": {
-    "title": "Hawks steal one in Melbourne tonight",
-    "quip": "Phoenix keep rising, Illawarra keep lighting matches",
-    "cached_at": "2026-10-04T00:25:06.271223+00:00"
-  },
-  "SB-9721D251": {
-    "title": "Breakers take down the 36ers in Adelaide",
-    "quip": "a long flight and a short memory for Adelaide",
-    "cached_at": "2026-10-04T00:25:06.271223+00:00"
-  },
-  "SB-93B73812": {
-    "title": "West Indies stun India in the T20",
-    "quip": "Pooran swinging like it's 2016 Carlos Brathwaite",
-    "cached_at": "2026-10-04T00:25:06.271223+00:00"
-  },
-  "SB-771FA46D": {
-    "title": "Koen Mazoudier shocks Jermell Charlo",
-    "quip": "an Aussie knocking the belt off a Charlo twin",
-    "cached_at": "2026-10-04T00:25:06.271223+00:00"
-  },
-  "SB-956ECF0A": {
-    "title": "Oliver Zaren upsets Osleys Iglesias",
-    "quip": "Cuban amateur pedigree versus one very brave Swede",
-    "cached_at": "2026-10-04T00:25:06.271223+00:00"
-  },
-  "SB-490E284F": {
-    "title": "Flames keep it close in Vancouver tonight",
-    "quip": "Markstrom's old barn never gives him a quiet night",
-    "cached_at": "2026-10-04T00:25:15.983321+00:00"
-  },
-  "SB-D8C8B6A6": {
-    "title": "Flames hang with the Kraken tonight",
-    "quip": "Climate Pledge crowd louder than the scoreline",
-    "cached_at": "2026-10-04T00:25:15.983321+00:00"
-  },
-  "SB-452688FE": {
-    "title": "Braves stay within a run of the Dodgers",
-    "quip": "Ohtani can only bat once an inning",
-    "cached_at": "2026-10-04T00:25:15.983321+00:00"
-  },
-  "SB-1BB96D70": {
-    "title": "White Sox keep it close in Cleveland",
-    "quip": "even the Southside finds one-run heartbreak",
-    "cached_at": "2026-10-04T00:25:15.983321+00:00"
-  },
-  "SB-DA220DB1": {
-    "title": "Arizona State beats Baylor in Tempe",
-    "quip": "Cam Skattebo energy, Sun Devil Stadium at dusk",
-    "cached_at": "2026-10-04T00:25:15.983321+00:00"
-  },
-  "SB-E3CB3B1D": {
-    "title": "Talbott outpoints Figueiredo in a clear decision",
-    "quip": "young gun rolls, Deiveson's miles finally show",
-    "cached_at": "2026-10-04T00:25:15.983321+00:00"
-  },
   "SB-8945B22F": {
     "title": "Sixers steal one at the Garden tonight",
     "quip": "Embiid vs the Knicks crowd, a reliable horror show",
@@ -773,5 +663,90 @@
     "title": "Predators keep it tight in Montreal",
     "quip": "Bell Centre crowd gets a nail-biter, not a party",
     "cached_at": "2026-10-07T20:59:59.910470+00:00"
+  },
+  "SB-8FDD16A5": {
+    "title": "Guardians beat White Sox by two or more",
+    "quip": "the South Side bullpen keeps donating to charity",
+    "cached_at": "2026-10-08T01:37:07.360755+00:00"
+  },
+  "SB-B94EBC51": {
+    "title": "Predators win in Montreal tonight",
+    "quip": "Bell Centre organ plays a sad country song",
+    "cached_at": "2026-10-08T01:37:07.360755+00:00"
+  },
+  "SB-B19EDFC5": {
+    "title": "Oilers beat Ducks by two or more",
+    "quip": "McDavid treats Anaheim like a skills competition",
+    "cached_at": "2026-10-08T01:37:07.360755+00:00"
+  },
+  "SB-0E0F507E": {
+    "title": "Stars bury Sabres by two or more",
+    "quip": "Buffalo's playoff drought has its own Wikipedia page",
+    "cached_at": "2026-10-08T01:37:07.360755+00:00"
+  },
+  "SB-D244316B": {
+    "title": "South Florida upsets UTSA on the road",
+    "quip": "Alex Golesh raiding his old pantry in San Antonio",
+    "cached_at": "2026-10-08T01:37:07.360755+00:00"
+  },
+  "SB-4C37C44E": {
+    "title": "Leeds stun Arsenal at the Emirates",
+    "quip": "Marching On Together straight into North London's nightmares",
+    "cached_at": "2026-10-08T01:37:07.360755+00:00"
+  },
+  "SB-CD245ADC": {
+    "title": "Brewers blow out Padres by six",
+    "quip": "Petco Park turns into a Milwaukee polka tent",
+    "cached_at": "2026-10-08T01:37:07.360755+00:00"
+  },
+  "SB-4AF925B1": {
+    "title": "Galatasaray stun Barcelona in Istanbul",
+    "quip": "hell is real and it has flares and Osimhen",
+    "cached_at": "2026-10-08T01:37:13.865268+00:00"
+  },
+  "SB-B23B6E08": {
+    "title": "Atletico Mineiro win the Atletico derby in Curitiba",
+    "quip": "Galo raid the Arena da Baixada",
+    "cached_at": "2026-10-08T01:37:24.155488+00:00"
+  },
+  "SB-37235C5A": {
+    "title": "Santos upset Flamengo at Vila Belmiro",
+    "quip": "Vila Belmiro still smells faintly of Pele",
+    "cached_at": "2026-10-08T01:37:24.155488+00:00"
+  },
+  "SB-041455F5": {
+    "title": "Palmeiras and Bahia split the points",
+    "quip": "Abel Ferreira chess match ends in stalemate",
+    "cached_at": "2026-10-08T01:37:24.155488+00:00"
+  },
+  "SB-956ECF0A": {
+    "title": "Oliver Zaren stuns Osleys Iglesias",
+    "quip": "the Cuban's unbeaten record meets an unscheduled guest",
+    "cached_at": "2026-10-08T01:37:24.155488+00:00"
+  },
+  "SB-EE183EE1": {
+    "title": "Sharks keep it close in St. Louis tonight",
+    "quip": "Macklin Celebrini makes the Blues work for it",
+    "cached_at": "2026-10-08T01:37:33.555090+00:00"
+  },
+  "SB-0F403859": {
+    "title": "White Sox stay within a run of Cleveland",
+    "quip": "the South Side's ceiling is a one-run loss",
+    "cached_at": "2026-10-08T01:37:33.555090+00:00"
+  },
+  "SB-C530106A": {
+    "title": "Canadiens handle the Predators at the Bell Centre",
+    "quip": "Cole Caufield feasts, Nashville keeps rebuilding",
+    "cached_at": "2026-10-08T01:37:33.555090+00:00"
+  },
+  "SB-C29235E7": {
+    "title": "Blackhawks hang tough on Long Island tonight",
+    "quip": "Bedard refuses to let it get ugly",
+    "cached_at": "2026-10-08T01:37:33.555090+00:00"
+  },
+  "SB-7A393985": {
+    "title": "Canucks stay within reach of the Hurricanes",
+    "quip": "Carolina shoots 60 times, scores the usual three",
+    "cached_at": "2026-10-08T01:37:33.555090+00:00"
   }
 }
