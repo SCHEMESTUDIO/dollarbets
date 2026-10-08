@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-08T19:26:00.008256+00:00",
+          "tweet_id": "2108277746740724013",
+          "reply_tweet_id": "2108277750024847403"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "16155190",
+        "page": "https://www.pexels.com/photo/fog-over-house-at-night-16155190/",
+        "photographer": "Isaac Mitchell",
+        "license": "Pexels License",
+        "phrases": [
+          "empty negotiation room dusk",
+          "airport runway night window"
+        ],
+        "tokens": {
+          "input_tokens": 3164,
+          "output_tokens": 29
         }
       }
     },
