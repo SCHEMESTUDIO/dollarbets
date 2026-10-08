@@ -1,64 +1,4 @@
 {
-  "SB-A4DFC9B8": {
-    "title": "Broncos knock off the 49ers in San Francisco",
-    "quip": "Bo Nix doing his best Brock Purdy impression",
-    "cached_at": "2026-10-04T19:10:12.629547+00:00"
-  },
-  "SB-5E3E15FD": {
-    "title": "Raiders upset the Chiefs in Vegas",
-    "quip": "the Black Hole still remembers Tyreek's handoff play",
-    "cached_at": "2026-10-04T19:10:12.629547+00:00"
-  },
-  "SB-241D6907": {
-    "title": "Senators beat the Bruins by two or more",
-    "quip": "Tkachuk bullying his way through the TD Garden boards",
-    "cached_at": "2026-10-04T19:10:12.629547+00:00"
-  },
-  "SB-5C93FC81": {
-    "title": "Canucks send Vegas home empty-handed",
-    "quip": "Rogers Arena, Green Men, full Hughes brothers chaos",
-    "cached_at": "2026-10-04T19:10:12.629547+00:00"
-  },
-  "SB-29D767A6": {
-    "title": "Dolphins stun the Vikings in Minnesota",
-    "quip": "Tua in a parka, forty degrees below palm trees",
-    "cached_at": "2026-10-04T19:10:12.629547+00:00"
-  },
-  "SB-F8499B55": {
-    "title": "Braves blow out the Dodgers by four-plus",
-    "quip": "Acu\u00f1a turning Chavez Ravine into a batting cage",
-    "cached_at": "2026-10-04T19:10:12.629547+00:00"
-  },
-  "SB-B482B351": {
-    "title": "Buffalo shocks Toledo in the Glass Bowl",
-    "quip": "MACtion means the Rockets forget how to tackle at midnight",
-    "cached_at": "2026-10-04T19:10:18.725132+00:00"
-  },
-  "SB-334CAE41": {
-    "title": "Jukurit beat \u00c4ss\u00e4t by two or more tonight",
-    "quip": "Mikkeli ice runs colder than a Finnish sauna cooldown plunge",
-    "cached_at": "2026-10-04T19:10:26.794766+00:00"
-  },
-  "SB-A813E933": {
-    "title": "Chiefs handle the Raiders in Vegas",
-    "quip": "Mahomes treats Allegiant Stadium like a second home",
-    "cached_at": "2026-10-04T19:10:34.888185+00:00"
-  },
-  "SB-3D93F4A0": {
-    "title": "Bears bury the Jets by two touchdowns",
-    "quip": "Caleb Williams against a Jets offense is unfair",
-    "cached_at": "2026-10-04T19:10:34.888185+00:00"
-  },
-  "SB-A013CA07": {
-    "title": "49ers beat the Broncos in the Bay",
-    "quip": "Bo Nix road trips rarely end in postcards",
-    "cached_at": "2026-10-04T19:10:34.888185+00:00"
-  },
-  "SB-C6560824": {
-    "title": "Kraken sink the Flames in Seattle",
-    "quip": "Calgary's rebuild is still mostly scaffolding",
-    "cached_at": "2026-10-04T19:10:34.888185+00:00"
-  },
   "SB-791EDF20": {
     "title": "Lightning skate past Flyers by two tonight",
     "quip": "Kucherov treats the Flyers blue line like a turnstile",
@@ -733,5 +673,65 @@
     "title": "Flyers stay within a goal of Ottawa",
     "quip": "Tkachuk-less Sens can't shake a scrappy Philly",
     "cached_at": "2026-10-08T15:12:41.812134+00:00"
+  },
+  "SB-69605797": {
+    "title": "Golden Knights bury the Leafs by two-plus tonight",
+    "quip": "Toronto's road trip ends like every Game 7",
+    "cached_at": "2026-10-08T21:01:15.686836+00:00"
+  },
+  "SB-F05631F3": {
+    "title": "Canucks upset the Hurricanes in Raleigh",
+    "quip": "Quinn Hughes versus the Rod Brind'Amour forecheck, somehow",
+    "cached_at": "2026-10-08T21:01:15.686836+00:00"
+  },
+  "SB-B482B351": {
+    "title": "Buffalo stuns Toledo in the Glass Bowl",
+    "quip": "Rockets fly, Bulls aim for the horns",
+    "cached_at": "2026-10-08T21:01:21.734437+00:00"
+  },
+  "SB-A37E3B00": {
+    "title": "Kashima and Gamba grind out a low-scoring night",
+    "quip": "J-League defending, patient as a tea ceremony",
+    "cached_at": "2026-10-08T21:01:31.487666+00:00"
+  },
+  "SB-5109AA9C": {
+    "title": "\u00c4ss\u00e4t beat HPK by two or more tonight",
+    "quip": "Pori crowd wants the handshake line early",
+    "cached_at": "2026-10-08T21:01:31.487666+00:00"
+  },
+  "SB-91FCE7A1": {
+    "title": "Ilves bury Lukko by multiple goals tonight",
+    "quip": "Tampere is a hockey town, Rauma is a port",
+    "cached_at": "2026-10-08T21:01:31.487666+00:00"
+  },
+  "SB-6F6322D1": {
+    "title": "Kiekko-Espoo roll past JYP by two tonight",
+    "quip": "Jyv\u00e4skyl\u00e4 bus ride home gets very quiet",
+    "cached_at": "2026-10-08T21:01:31.487666+00:00"
+  },
+  "SB-F76123D8": {
+    "title": "Cowboys handle the Bucs at home tonight",
+    "quip": "Dak's offense feasts, Baker's comeback magic runs dry",
+    "cached_at": "2026-10-08T21:01:40.282086+00:00"
+  },
+  "SB-5094DD6B": {
+    "title": "Brewers keep it close against the Dodgers",
+    "quip": "Milwaukee's bullpen makes Ohtani work for every run",
+    "cached_at": "2026-10-08T21:01:40.282086+00:00"
+  },
+  "SB-B5F7C461": {
+    "title": "Islanders take care of the Blackhawks tonight",
+    "quip": "Bedard's rebuild meets a team that actually backchecks",
+    "cached_at": "2026-10-08T21:01:40.282086+00:00"
+  },
+  "SB-A5A8CEC6": {
+    "title": "Senators beat the Flyers in Ottawa",
+    "quip": "Tkachuk bullies Philadelphia on a Tuesday",
+    "cached_at": "2026-10-08T21:01:40.282086+00:00"
+  },
+  "SB-D07B1342": {
+    "title": "Brendan Allen beats Duncan but it goes long",
+    "quip": "Allen grinds it out, no first-round fireworks",
+    "cached_at": "2026-10-08T21:01:40.282086+00:00"
   }
 }

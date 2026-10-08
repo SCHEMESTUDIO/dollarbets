@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T15:12:48.663343+00:00",
+  "generated_at": "2026-10-08T21:01:46.288484+00:00",
   "board_type": "combo-meal",
   "board_name": "the combo meal",
   "market_count": 10,
@@ -8,27 +8,27 @@
     "green": 10
   },
   "sport_mix": {
-    "NCAAF": 2,
-    "Multi": 8
+    "Multi": 7,
+    "NCAAF": 3
   },
   "board": [
     {
-      "ticker": "PARLAY-519170A1",
-      "title": "Louisiana Tech Bulldogs wins + North Dakota State Bison wins",
-      "payout": 2.73,
+      "ticker": "PARLAY-F26733A4",
+      "title": "Louisiana Tech Bulldogs wins + Los Angeles Clippers wins",
+      "payout": 2.71,
       "tier": "green",
-      "quip": "rent money",
-      "yes_price": "0.36",
+      "quip": "clock in, cash out",
+      "yes_price": "0.37",
       "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612670183&selectionId=612809",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19996603-1565134322-2314852774&type=Single",
       "sport": "americanfootball_ncaaf",
-      "sport_display": "NCAAF",
-      "matchup": "Louisiana Ragin Cajuns @ Louisiana Tech Bulldogs + North Dakota State Bison @ UNLV Rebels",
+      "sport_display": "Multi",
+      "matchup": "Louisiana Ragin Cajuns @ Louisiana Tech Bulldogs + Sacramento Kings @ Los Angeles Clippers",
       "market_type": "2-leg parlay",
-      "american_odds": 173,
-      "implied_probability": 0.365,
+      "american_odds": 171,
+      "implied_probability": 0.37,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
@@ -36,65 +36,107 @@
         {
           "matchup": "Louisiana Ragin Cajuns @ Louisiana Tech Bulldogs",
           "pick": "Louisiana Tech Bulldogs wins",
-          "odds": -152,
-          "implied_prob": "60%",
+          "odds": -155,
+          "implied_prob": "61%",
           "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612670183&selectionId=612809",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19996603-1565134322-2314852774&type=Single",
           "commence_time": "2026-10-10T23:30:00Z"
         },
         {
-          "matchup": "North Dakota State Bison @ UNLV Rebels",
-          "pick": "North Dakota State Bison wins",
-          "odds": -154,
+          "matchup": "Sacramento Kings @ Los Angeles Clippers",
+          "pick": "Los Angeles Clippers wins",
+          "odds": -155,
           "implied_prob": "61%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612668535&selectionId=6868752",
-          "commence_time": "2026-10-10T23:00:00Z"
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884073-1551554233-2277417850&type=Single",
+          "commence_time": "2026-10-22T02:40:00Z"
         }
       ],
-      "close_time": "2026-10-10T23:00:00Z"
+      "close_time": "2026-10-10T23:30:00Z"
     },
     {
-      "ticker": "PARLAY-307748C9",
-      "title": "Los Angeles Clippers wins + North Dakota State Bison wins",
-      "payout": 2.73,
+      "ticker": "PARLAY-0F577932",
+      "title": "Arkansas State Red Wolves wins + Louisiana Tech Bulldogs wins",
+      "payout": 2.74,
       "tier": "green",
-      "quip": "bread and butter",
+      "quip": "no surprises here",
       "yes_price": "0.36",
       "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.599593022&selectionId=6023845",
-      "sport": "basketball_nba",
-      "sport_display": "Multi",
-      "matchup": "Sacramento Kings @ Los Angeles Clippers + North Dakota State Bison @ UNLV Rebels",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:46091-3705278-5883130&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "South Alabama Jaguars @ Arkansas State Red Wolves + Louisiana Ragin Cajuns @ Louisiana Tech Bulldogs",
       "market_type": "2-leg parlay",
-      "american_odds": 173,
+      "american_odds": 174,
       "implied_probability": 0.365,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Sacramento Kings @ Los Angeles Clippers",
-          "pick": "Los Angeles Clippers wins",
-          "odds": -152,
+          "matchup": "South Alabama Jaguars @ Arkansas State Red Wolves",
+          "pick": "Arkansas State Red Wolves wins",
+          "odds": -150,
           "implied_prob": "60%",
-          "sport": "basketball_nba",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.599593022&selectionId=6023845",
-          "commence_time": "2026-10-22T02:40:00Z"
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46091-3705278-5883130&type=Single",
+          "commence_time": "2026-10-08T23:30:00Z"
         },
         {
-          "matchup": "North Dakota State Bison @ UNLV Rebels",
-          "pick": "North Dakota State Bison wins",
-          "odds": -154,
+          "matchup": "Louisiana Ragin Cajuns @ Louisiana Tech Bulldogs",
+          "pick": "Louisiana Tech Bulldogs wins",
+          "odds": -155,
           "implied_prob": "61%",
           "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612668535&selectionId=6868752",
-          "commence_time": "2026-10-10T23:00:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19996603-1565134322-2314852774&type=Single",
+          "commence_time": "2026-10-10T23:30:00Z"
         }
       ],
-      "close_time": "2026-10-10T23:00:00Z"
+      "close_time": "2026-10-08T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-87FC0BA9",
+      "title": "Arkansas State Red Wolves wins + Los Angeles Clippers wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:46091-3705278-5883130&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "South Alabama Jaguars @ Arkansas State Red Wolves + Sacramento Kings @ Los Angeles Clippers",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "South Alabama Jaguars @ Arkansas State Red Wolves",
+          "pick": "Arkansas State Red Wolves wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46091-3705278-5883130&type=Single",
+          "commence_time": "2026-10-08T23:30:00Z"
+        },
+        {
+          "matchup": "Sacramento Kings @ Los Angeles Clippers",
+          "pick": "Los Angeles Clippers wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884073-1551554233-2277417850&type=Single",
+          "commence_time": "2026-10-22T02:40:00Z"
+        }
+      ],
+      "close_time": "2026-10-08T23:30:00Z"
     },
     {
       "ticker": "PARLAY-C8B013BC",
@@ -132,26 +174,26 @@
           "odds": -155,
           "implied_prob": "61%",
           "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46364-3719061-5915030&type=Single",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19996603-1565134322-2314852774&type=Single",
           "commence_time": "2026-10-10T23:30:00Z"
         }
       ],
       "close_time": "2026-10-09T00:10:00Z"
     },
     {
-      "ticker": "PARLAY-B36F1626",
-      "title": "Alice Pereira wins + Louisiana Tech Bulldogs wins",
+      "ticker": "PARLAY-6335A497",
+      "title": "St Louis Blues wins + Los Angeles Clippers wins",
       "payout": 2.74,
       "tier": "green",
-      "quip": "like taking candy from a vending machine",
+      "quip": "paint drying, but profitable",
       "yes_price": "0.36",
       "category": "sports-parlay",
       "platform": "betmgm",
       "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19963547-1560826008-2303041963&type=Single",
-      "sport": "mma_mixed_martial_arts",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19988838-1564281007-2312452702&type=Single",
+      "sport": "icehockey_nhl",
       "sport_display": "Multi",
-      "matchup": "Darya Zheleznyakova @ Alice Pereira + Louisiana Ragin Cajuns @ Louisiana Tech Bulldogs",
+      "matchup": "San Jose Sharks @ St Louis Blues + Sacramento Kings @ Los Angeles Clippers",
       "market_type": "2-leg parlay",
       "american_odds": 174,
       "implied_probability": 0.365,
@@ -160,67 +202,25 @@
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Darya Zheleznyakova @ Alice Pereira",
-          "pick": "Alice Pereira wins",
+          "matchup": "San Jose Sharks @ St Louis Blues",
+          "pick": "St Louis Blues wins",
           "odds": -150,
           "implied_prob": "60%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19963547-1560826008-2303041963&type=Single",
-          "commence_time": "2026-10-11T00:00:00Z"
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19988838-1564281007-2312452702&type=Single",
+          "commence_time": "2026-10-09T00:10:00Z"
         },
         {
-          "matchup": "Louisiana Ragin Cajuns @ Louisiana Tech Bulldogs",
-          "pick": "Louisiana Tech Bulldogs wins",
+          "matchup": "Sacramento Kings @ Los Angeles Clippers",
+          "pick": "Los Angeles Clippers wins",
           "odds": -155,
           "implied_prob": "61%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46364-3719061-5915030&type=Single",
-          "commence_time": "2026-10-10T23:30:00Z"
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884073-1551554233-2277417850&type=Single",
+          "commence_time": "2026-10-22T02:40:00Z"
         }
       ],
-      "close_time": "2026-10-10T23:30:00Z"
-    },
-    {
-      "ticker": "PARLAY-E8A2F20E",
-      "title": "Andre Fili wins + Louisiana Tech Bulldogs wins",
-      "payout": 2.74,
-      "tier": "green",
-      "quip": "like taking candy from a vending machine",
-      "yes_price": "0.36",
-      "category": "sports-parlay",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19963551-1560826015-2303041976&type=Single",
-      "sport": "mma_mixed_martial_arts",
-      "sport_display": "Multi",
-      "matchup": "Kai Kamaka @ Andre Fili + Louisiana Ragin Cajuns @ Louisiana Tech Bulldogs",
-      "market_type": "2-leg parlay",
-      "american_odds": 174,
-      "implied_probability": 0.365,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Kai Kamaka @ Andre Fili",
-          "pick": "Andre Fili wins",
-          "odds": -150,
-          "implied_prob": "60%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19963551-1560826015-2303041976&type=Single",
-          "commence_time": "2026-10-11T00:00:00Z"
-        },
-        {
-          "matchup": "Louisiana Ragin Cajuns @ Louisiana Tech Bulldogs",
-          "pick": "Louisiana Tech Bulldogs wins",
-          "odds": -155,
-          "implied_prob": "61%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46364-3719061-5915030&type=Single",
-          "commence_time": "2026-10-10T23:30:00Z"
-        }
-      ],
-      "close_time": "2026-10-10T23:30:00Z"
+      "close_time": "2026-10-09T00:10:00Z"
     },
     {
       "ticker": "PARLAY-D0E7A124",
@@ -258,29 +258,71 @@
           "odds": -155,
           "implied_prob": "61%",
           "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46364-3719061-5915030&type=Single",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19996603-1565134322-2314852774&type=Single",
           "commence_time": "2026-10-10T23:30:00Z"
         }
       ],
       "close_time": "2026-10-10T23:30:00Z"
     },
     {
-      "ticker": "PARLAY-EA1E2158",
-      "title": "Ohio Bobcats wins + North Dakota State Bison wins",
-      "payout": 2.75,
+      "ticker": "PARLAY-8D0FCC87",
+      "title": "Under 3.5 + Los Angeles Clippers wins",
+      "payout": 2.74,
       "tier": "green",
-      "quip": "as sure as gravity",
+      "quip": "business as usual",
       "yes_price": "0.36",
       "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612666647&selectionId=2205296",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7887160-205996056-793395917&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "San Jose Earthquakes @ Real Salt Lake + Sacramento Kings @ Los Angeles Clippers",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Jose Earthquakes @ Real Salt Lake",
+          "pick": "Under 3.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7887160-205996056-793395917&type=Single",
+          "commence_time": "2026-10-15T01:30:00Z"
+        },
+        {
+          "matchup": "Sacramento Kings @ Los Angeles Clippers",
+          "pick": "Los Angeles Clippers wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884073-1551554233-2277417850&type=Single",
+          "commence_time": "2026-10-22T02:40:00Z"
+        }
+      ],
+      "close_time": "2026-10-15T01:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-51E1A49F",
+      "title": "Ohio Bobcats wins + Louisiana Tech Bulldogs wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19996646-1565137830-2314862413&type=Single",
       "sport": "americanfootball_ncaaf",
       "sport_display": "NCAAF",
-      "matchup": "Central Michigan Chippewas @ Ohio Bobcats + North Dakota State Bison @ UNLV Rebels",
+      "matchup": "Central Michigan Chippewas @ Ohio Bobcats + Louisiana Ragin Cajuns @ Louisiana Tech Bulldogs",
       "market_type": "2-leg parlay",
-      "american_odds": 175,
-      "implied_probability": 0.364,
+      "american_odds": 178,
+      "implied_probability": 0.36,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
@@ -288,149 +330,107 @@
         {
           "matchup": "Central Michigan Chippewas @ Ohio Bobcats",
           "pick": "Ohio Bobcats wins",
-          "odds": -150,
-          "implied_prob": "60%",
+          "odds": -145,
+          "implied_prob": "59%",
           "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612666647&selectionId=2205296",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19996646-1565137830-2314862413&type=Single",
           "commence_time": "2026-10-10T19:30:00Z"
         },
         {
-          "matchup": "North Dakota State Bison @ UNLV Rebels",
-          "pick": "North Dakota State Bison wins",
-          "odds": -154,
+          "matchup": "Louisiana Ragin Cajuns @ Louisiana Tech Bulldogs",
+          "pick": "Louisiana Tech Bulldogs wins",
+          "odds": -155,
           "implied_prob": "61%",
           "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612668535&selectionId=6868752",
-          "commence_time": "2026-10-10T23:00:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19996603-1565134322-2314852774&type=Single",
+          "commence_time": "2026-10-10T23:30:00Z"
         }
       ],
       "close_time": "2026-10-10T19:30:00Z"
     },
     {
-      "ticker": "PARLAY-15E70BEE",
-      "title": "St Louis Blues wins + North Dakota State Bison wins",
-      "payout": 2.75,
+      "ticker": "PARLAY-919942F1",
+      "title": "Ohio Bobcats wins + Los Angeles Clippers wins",
+      "payout": 2.78,
       "tier": "green",
-      "quip": "like taking candy from a vending machine",
+      "quip": "autopilot engaged",
       "yes_price": "0.36",
       "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613294688&selectionId=25595",
-      "sport": "icehockey_nhl",
-      "sport_display": "Multi",
-      "matchup": "San Jose Sharks @ St Louis Blues + North Dakota State Bison @ UNLV Rebels",
-      "market_type": "2-leg parlay",
-      "american_odds": 175,
-      "implied_probability": 0.364,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "San Jose Sharks @ St Louis Blues",
-          "pick": "St Louis Blues wins",
-          "odds": -150,
-          "implied_prob": "60%",
-          "sport": "icehockey_nhl",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613294688&selectionId=25595",
-          "commence_time": "2026-10-09T00:10:00Z"
-        },
-        {
-          "matchup": "North Dakota State Bison @ UNLV Rebels",
-          "pick": "North Dakota State Bison wins",
-          "odds": -154,
-          "implied_prob": "61%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612668535&selectionId=6868752",
-          "commence_time": "2026-10-10T23:00:00Z"
-        }
-      ],
-      "close_time": "2026-10-09T00:10:00Z"
-    },
-    {
-      "ticker": "PARLAY-70E8307F",
-      "title": "Alice Pereira wins + North Dakota State Bison wins",
-      "payout": 2.75,
-      "tier": "green",
-      "quip": "tuesday energy",
-      "yes_price": "0.36",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613149249&selectionId=88127119",
-      "sport": "mma_mixed_martial_arts",
-      "sport_display": "Multi",
-      "matchup": "Darya Zheleznyakova @ Alice Pereira + North Dakota State Bison @ UNLV Rebels",
-      "market_type": "2-leg parlay",
-      "american_odds": 175,
-      "implied_probability": 0.364,
-      "has_deep_link": true,
-      "type": "parlay",
-      "num_legs": 2,
-      "legs": [
-        {
-          "matchup": "Darya Zheleznyakova @ Alice Pereira",
-          "pick": "Alice Pereira wins",
-          "odds": -150,
-          "implied_prob": "60%",
-          "sport": "mma_mixed_martial_arts",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613149249&selectionId=88127119",
-          "commence_time": "2026-10-11T00:00:00Z"
-        },
-        {
-          "matchup": "North Dakota State Bison @ UNLV Rebels",
-          "pick": "North Dakota State Bison wins",
-          "odds": -154,
-          "implied_prob": "61%",
-          "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612668535&selectionId=6868752",
-          "commence_time": "2026-10-10T23:00:00Z"
-        }
-      ],
-      "close_time": "2026-10-10T23:00:00Z"
-    },
-    {
-      "ticker": "PARLAY-F26733A4",
-      "title": "Louisiana Tech Bulldogs wins + Los Angeles Clippers wins",
-      "payout": 2.75,
-      "tier": "green",
-      "quip": "clock in, cash out",
-      "yes_price": "0.36",
-      "category": "sports-parlay",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612670183&selectionId=612809",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19996646-1565137830-2314862413&type=Single",
       "sport": "americanfootball_ncaaf",
       "sport_display": "Multi",
-      "matchup": "Louisiana Ragin Cajuns @ Louisiana Tech Bulldogs + Sacramento Kings @ Los Angeles Clippers",
+      "matchup": "Central Michigan Chippewas @ Ohio Bobcats + Sacramento Kings @ Los Angeles Clippers",
       "market_type": "2-leg parlay",
-      "american_odds": 175,
-      "implied_probability": 0.364,
+      "american_odds": 178,
+      "implied_probability": 0.36,
       "has_deep_link": true,
       "type": "parlay",
       "num_legs": 2,
       "legs": [
         {
-          "matchup": "Louisiana Ragin Cajuns @ Louisiana Tech Bulldogs",
-          "pick": "Louisiana Tech Bulldogs wins",
-          "odds": -152,
-          "implied_prob": "60%",
+          "matchup": "Central Michigan Chippewas @ Ohio Bobcats",
+          "pick": "Ohio Bobcats wins",
+          "odds": -145,
+          "implied_prob": "59%",
           "sport": "americanfootball_ncaaf",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612670183&selectionId=612809",
-          "commence_time": "2026-10-10T23:30:00Z"
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19996646-1565137830-2314862413&type=Single",
+          "commence_time": "2026-10-10T19:30:00Z"
         },
         {
           "matchup": "Sacramento Kings @ Los Angeles Clippers",
           "pick": "Los Angeles Clippers wins",
-          "odds": -152,
-          "implied_prob": "60%",
+          "odds": -155,
+          "implied_prob": "61%",
           "sport": "basketball_nba",
-          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.599593022&selectionId=6023845",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884073-1551554233-2277417850&type=Single",
           "commence_time": "2026-10-22T02:40:00Z"
         }
       ],
-      "close_time": "2026-10-10T23:30:00Z"
+      "close_time": "2026-10-10T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-31EB8F3C",
+      "title": "Kansas State Wildcats wins + Louisiana Tech Bulldogs wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19996479-1565125725-2314829264&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Houston Cougars @ Kansas State Wildcats + Louisiana Ragin Cajuns @ Louisiana Tech Bulldogs",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Houston Cougars @ Kansas State Wildcats",
+          "pick": "Kansas State Wildcats wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19996479-1565125725-2314829264&type=Single",
+          "commence_time": "2026-10-10T19:30:00Z"
+        },
+        {
+          "matchup": "Louisiana Ragin Cajuns @ Louisiana Tech Bulldogs",
+          "pick": "Louisiana Tech Bulldogs wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19996603-1565134322-2314852774&type=Single",
+          "commence_time": "2026-10-10T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T19:30:00Z"
     }
   ]
 }
