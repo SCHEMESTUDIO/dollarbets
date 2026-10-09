@@ -1,74 +1,4 @@
 {
-  "SB-29079ACB": {
-    "title": "Packers handle the Bears at Lambeau",
-    "quip": "Chicago still owns the all-time series and nothing else",
-    "cached_at": "2026-10-05T16:47:02.703793+00:00"
-  },
-  "SB-B2868922": {
-    "title": "Sabres beat the Wild by two or more",
-    "quip": "Buffalo throwing a party, Kirill Kaprizov not invited",
-    "cached_at": "2026-10-05T16:47:02.703793+00:00"
-  },
-  "SB-D15C9293": {
-    "title": "Bulls steal one in Toronto tonight",
-    "quip": "Scottie Barnes versus the Josh Giddey triple-double machine",
-    "cached_at": "2026-10-05T16:47:02.703793+00:00"
-  },
-  "SB-7BF7B19A": {
-    "title": "White Sox blow out Cleveland by five",
-    "quip": "the South Side remembers what a crooked number looks like",
-    "cached_at": "2026-10-05T16:47:02.703793+00:00"
-  },
-  "SB-C3DD3569": {
-    "title": "Braves bury the Dodgers by eight",
-    "quip": "Acu\u00f1a hits one into the Chop House, twice",
-    "cached_at": "2026-10-05T16:47:02.703793+00:00"
-  },
-  "SB-83F83004": {
-    "title": "Tigers bury the Carp by two-plus at Koshien",
-    "quip": "Koshien crowd gets its Rokko Oroshi singalong",
-    "cached_at": "2026-10-05T16:47:21.275539+00:00"
-  },
-  "SB-B8C10E31": {
-    "title": "Kia Tigers run away from Samsung Lions",
-    "quip": "Gwangju bullpen holds the lead for once",
-    "cached_at": "2026-10-05T16:47:21.275539+00:00"
-  },
-  "SB-1A125E30": {
-    "title": "Seibu Lions handle Lotte Marines by two-plus",
-    "quip": "the Marines faithful jump for nothing tonight",
-    "cached_at": "2026-10-05T16:47:21.275539+00:00"
-  },
-  "SB-78BC998F": {
-    "title": "Kiwoom Heroes upset KT Wiz tonight",
-    "quip": "Gocheok Dome roof keeps the vibes in",
-    "cached_at": "2026-10-05T16:47:21.275539+00:00"
-  },
-  "SB-92C130B6": {
-    "title": "McCrory shocks Khatev in the ring",
-    "quip": "Belfast lad writing his own Rocky III",
-    "cached_at": "2026-10-05T16:47:21.275539+00:00"
-  },
-  "SB-5F0F9ABE": {
-    "title": "Bruins keep it close against Ottawa tonight",
-    "quip": "Brady Tkachuk can only push so hard",
-    "cached_at": "2026-10-05T16:47:30.427694+00:00"
-  },
-  "SB-16F0ADC9": {
-    "title": "Braves stay within a run of the Dodgers",
-    "quip": "Truist Park doesn't do blowouts in October air",
-    "cached_at": "2026-10-05T16:47:30.427694+00:00"
-  },
-  "SB-5F2A95B8": {
-    "title": "Celtics handle the Wizards in Washington",
-    "quip": "Tatum gets his 28 and an early fourth quarter off",
-    "cached_at": "2026-10-05T16:47:30.427694+00:00"
-  },
-  "SB-1FDA3D80": {
-    "title": "Lakers take care of Portland tonight",
-    "quip": "Luka at home against a lottery roster, rent money",
-    "cached_at": "2026-10-05T16:47:30.427694+00:00"
-  },
   "SB-FE8A4ED8": {
     "title": "Predators steal one in Toronto tonight",
     "quip": "Leafs fans already drafting the April eulogy",
@@ -793,5 +723,75 @@
     "title": "Leafs keep it tight in Denver",
     "quip": "Toronto saves the collapse for playoff season",
     "cached_at": "2026-10-09T14:58:03.840326+00:00"
+  },
+  "SB-EFB8A8A0": {
+    "title": "Rangers take down the Capitals tonight",
+    "quip": "Shesterkin stonewalls Ovechkin's farewell tour",
+    "cached_at": "2026-10-09T20:32:20.784951+00:00"
+  },
+  "SB-942795ED": {
+    "title": "Spurs win at Old Trafford",
+    "quip": "Tottenham's away form is a coin with two sides",
+    "cached_at": "2026-10-09T20:32:20.784951+00:00"
+  },
+  "SB-3425339E": {
+    "title": "White Sox blow out Guardians by five",
+    "quip": "the South Side discovers offense, Cleveland discovers horror",
+    "cached_at": "2026-10-09T20:32:20.784951+00:00"
+  },
+  "SB-F1FD7A91": {
+    "title": "Lions handle Nippon-Ham by two or more tonight",
+    "quip": "Seibu's bullpen turns the ninth into a formality",
+    "cached_at": "2026-10-09T20:32:35.954247+00:00"
+  },
+  "SB-59F18998": {
+    "title": "BayStars beat the Giants by two-plus at Tokyo Dome",
+    "quip": "Yokohama treats the Kyojin like a road game",
+    "cached_at": "2026-10-09T20:32:35.954247+00:00"
+  },
+  "SB-3923355F": {
+    "title": "Ilves beat Jokerit by two tonight",
+    "quip": "Tampere doesn't drive to Helsinki for a one-goal win",
+    "cached_at": "2026-10-09T20:32:35.954247+00:00"
+  },
+  "SB-DBA0DF36": {
+    "title": "Redblacks stun BC Lions out west",
+    "quip": "Ottawa packs sunscreen and ruins the whole party",
+    "cached_at": "2026-10-09T20:32:35.954247+00:00"
+  },
+  "SB-EEFEC8C0": {
+    "title": "Mikey Dahlman upsets Grant Flores",
+    "quip": "one left hook and the broadcast goes completely silent",
+    "cached_at": "2026-10-09T20:32:35.954247+00:00"
+  },
+  "SB-147B4EBE": {
+    "title": "Afghanistan and Bangladesh grind out a draw",
+    "quip": "five days, no winner, Rashid Khan blocking out the gloom",
+    "cached_at": "2026-10-09T20:32:35.954247+00:00"
+  },
+  "SB-63C532F7": {
+    "title": "Penguins keep it close in Columbus tonight",
+    "quip": "Crosby doesn't do blowouts, he does paper cuts",
+    "cached_at": "2026-10-09T20:32:45.275083+00:00"
+  },
+  "SB-F02E384A": {
+    "title": "Kraken stay within one of Detroit tonight",
+    "quip": "Hockeytown wins ugly, Seattle loses politely",
+    "cached_at": "2026-10-09T20:32:45.275083+00:00"
+  },
+  "SB-2CB17B3F": {
+    "title": "Sharks hang with McDavid's Oilers tonight",
+    "quip": "San Jose plays spoiler for forty-five minutes, anyway",
+    "cached_at": "2026-10-09T20:32:45.275083+00:00"
+  },
+  "SB-067B65EE": {
+    "title": "Louisville beats Florida State tonight",
+    "quip": "the Seminoles' season remains a cautionary tale",
+    "cached_at": "2026-10-09T20:32:45.275083+00:00"
+  },
+  "SB-8B752668": {
+    "title": "Utah State handles Washington State tonight",
+    "quip": "Logan altitude, Cougars with no conference to call home",
+    "cached_at": "2026-10-09T20:32:45.275083+00:00"
   }
 }
