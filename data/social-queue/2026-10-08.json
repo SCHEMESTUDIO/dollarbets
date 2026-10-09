@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-09T21:49:50.739406+00:00",
+          "tweet_id": "2108676336130666563",
+          "reply_tweet_id": "2108676338022318109"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "29808579",
+        "page": "https://www.pexels.com/photo/serene-winter-landscape-in-kroderen-norway-29808579/",
+        "photographer": "Barnabas Davoti",
+        "license": "Pexels License",
+        "phrases": [
+          "empty football stadium night",
+          "lake erie shoreline dusk"
+        ],
+        "tokens": {
+          "input_tokens": 3633,
+          "output_tokens": 31
         }
       }
     }
