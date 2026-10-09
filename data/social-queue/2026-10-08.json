@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-09T19:00:11.275037+00:00",
+          "tweet_id": "2108633640481751135",
+          "reply_tweet_id": "2108633641995927639"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "8601124",
+        "page": "https://www.pexels.com/photo/footprints-on-the-sand-8601124/",
+        "photographer": "Petr Ganaj",
+        "license": "Pexels License",
+        "phrases": [
+          "desert canyon dusk",
+          "empty office corridor night"
+        ],
+        "tokens": {
+          "input_tokens": 3158,
+          "output_tokens": 28
         }
       }
     },
