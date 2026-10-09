@@ -1,0 +1,541 @@
+{
+  "generated_at": "2026-10-09T01:47:45.804020+00:00",
+  "market_count": 9,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 2
+  },
+  "board": [
+    {
+      "ticker": "KXROBOTMARS-35",
+      "title": "A robot walks on Mars before any human",
+      "subtitle": "Before 2035",
+      "yes_sub_title": "Before 2035",
+      "no_sub_title": "Before 2035",
+      "payout": 2.17,
+      "tier": "green",
+      "quip": "Wall-E did this exact bit and he did it sadder",
+      "yes_price": "0.4600",
+      "volume": 56177.17,
+      "category": "Science and Technology",
+      "close_time": "2035-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXROBOTMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 72.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "first thing it does up there is plant a flag for a mattress company",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "i was promised i'd die on Mars and now a toaster is taking my slot",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "beep boop manifest destiny",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "Wall-E did this exact bit and he did it sadder",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "like your little brother beating the final boss while you were making a sandwich",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "the first Martian footprint will have a serial number and a QR code in it",
+          "mode": 5,
+          "score": 6
+        },
+        {
+          "quip": "i'll be up at 3am watching a livestream of dirt and crying",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "\"one small step for a man.\" nobody asked it to say that",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0x8297e8d2b593a73ae4cd08d52c86799a3dd42593d19e48193ced275d36e4ee26",
+      "title": "FAMU and Alabama State go over 49.5",
+      "subtitle": "",
+      "payout": 2.2,
+      "tier": "green",
+      "quip": "Drumline was a documentary and this is the sequel",
+      "yes_price": "0.4550",
+      "volume": 9992.875654999998,
+      "category": "Other",
+      "close_time": "2026-10-09T16:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/cfb-flam-alast-2026-10-10",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "nobody in that stadium is here for the football and the bands are undefeated",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "both defenses quietly agree to stop participating around the third quarter",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "i don't know a single player on either roster and i'm already standing up",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "defense optional, tubas mandatory",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "Drumline was a documentary and this is the sequel",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "49.5 points and the halftime show somehow scores 30 of them",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "SWAC football is the most electric product on television and no one told you",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "my Saturday has been hijacked by two schools i cannot locate on a map",
+          "mode": 2,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXDEELRIP-40-RIPP",
+      "title": "Rippling IPOs before Deel",
+      "subtitle": "Before 2040",
+      "yes_sub_title": "Rippling",
+      "no_sub_title": "Rippling",
+      "payout": 2.44,
+      "tier": "green",
+      "quip": "the guy flushed his phone in the bathroom. that's the whole industry now",
+      "yes_price": "0.4100",
+      "volume": 4198.93,
+      "category": "Financials",
+      "close_time": "2040-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXDEELRIP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 61.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "the S-1 includes a whole section politely titled 'alleged espionage'",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "my HR software has a more interesting plot than my actual job",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the guy flushed his phone in the bathroom. that's the whole industry now",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "payroll noir",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "like the Yankees and Red Sox if both teams were onboarding tools",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "41 cents to watch a company ring the bell with a counterintelligence budget",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "i've never been this invested in payroll compliance and i'm a little scared",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "\"we're building the future of work,\" he says, sweeping the conference room for bugs",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUTSKIVISITS-27JUL31-T6000000",
+      "title": "Utah tops 6 million skier visits next season",
+      "subtitle": "the 2026\u201327 ski season",
+      "yes_sub_title": "Above 6,000,000 skier visits",
+      "no_sub_title": "Above 6,000,000 skier visits",
+      "payout": 2.5,
+      "tier": "green",
+      "quip": "cold smoke powder is the only drug you can legally enjoy in Utah",
+      "yes_price": "0.4000",
+      "volume": 6512.7,
+      "category": "Economics",
+      "close_time": "2027-07-31T15:29:00Z",
+      "url": "https://kalshi.com/markets/KXUTSKIVISITS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 69.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "Alta installs a second mountain purely as overflow parking",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i paid $289 for a lift ticket and a styrofoam cup of chili",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Californians found the Wasatch and did what Californians do",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "6 million visits and 5.9 million of them post the identical powder clip",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "the Costco of mountain ranges",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "greatest snow on earth, allegedly",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "cold smoke powder is the only drug you can legally enjoy in Utah",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "\"one more run,\" i announced at 4:02pm, to absolutely nobody",
+          "mode": 4,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "ticker": "KXBANDANTES-27JAN",
+      "title": "Dantes gets banned from Twitch this year",
+      "subtitle": "Before Jan 2027",
+      "yes_sub_title": "Before Jan 2027",
+      "no_sub_title": "Before Jan 2027",
+      "payout": 6.67,
+      "tier": "yellow",
+      "quip": "see you on Kick",
+      "yes_price": "0.1500",
+      "volume": 1773.87,
+      "category": "Social",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXBANDANTES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 76.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "back in 72 hours with a new emote and an energy drink deal",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i do not know who this man is and i'm already rooting against him",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "see you on Kick",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "Twitch moderation is the last functioning justice system in America",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "the apology stream pulls 40k concurrents, which is 40k more than the apology deserves",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "the streaming equivalent of a technical foul in the second quarter",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "i've watched three hours of a man apologizing this year and i'd do it again",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "\"chat, i genuinely did not know that was against TOS\"",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXNEXTCAT5HURDATE-26DEC01-26DEC01",
+      "title": "A Category 5 hurricane forms by next December",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Dec 1, 2026",
+      "no_sub_title": "Before Dec 1, 2026",
+      "payout": 7.14,
+      "tier": "orange",
+      "quip": "hurricanes are the only weather event with a legitimate draft class",
+      "yes_price": "0.1400",
+      "volume": 2594.88,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXNEXTCAT5HURDATE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 106.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "the Gulf has been cooking all summer and somebody's getting the bill",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "the local news guy already bought the windbreaker one size too big",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i check spaghetti models the way other people check their horoscope",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "cone of uncertainty season",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "157 mph, which is also how fast the gas station water aisle empties",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "hurricanes are the only weather event with a legitimate draft class",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "nothing looks cooler from space and worse from a driveway",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "i bought a generator for purely emotional reasons and i'd like it validated",
+          "mode": 2,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xdaafa20f645d3e955dda3af50481ee3aebca3295f1d54b01452f99e69afa6e1c",
+      "title": "Capitals win the Eastern Conference in 2027",
+      "subtitle": "",
+      "payout": 9.52,
+      "tier": "orange",
+      "quip": "nine bucks, eight of which goes toward fountain cleanup downtown",
+      "yes_price": "0.1050",
+      "volume": 9994.409694000002,
+      "category": "Other",
+      "close_time": "2027-07-01T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/nhl-2027-eastern-conference-champion-20260630185127005",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "i have not emotionally processed 2018 and neither has that fountain",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Ovi hoists it, shotguns a beer in Georgetown, the city burns a Metro card",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "nine bucks, eight of which goes toward fountain cleanup downtown",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the Commanders of hockey, except they actually finished the job once",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "ALL CAPS, one more time",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "a 40-year-old Russian still ripping one-timers from his office is genuinely beautiful",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "sorry Rangers fans, this one is going to hurt in a very specific spot",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "i bought that jersey in 2015 and it still fits if i don't exhale",
+          "mode": 2,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26ISAIAS-T4",
+      "title": "Isaias strengthens into a Category 4",
+      "subtitle": "Hurricane Isaias",
+      "yes_sub_title": "Category 4 or above",
+      "no_sub_title": "Category 4 or above",
+      "payout": 12.5,
+      "tier": "orange",
+      "quip": "Publix sells out of plywood, bread, and inexplicably one entire sheet cake",
+      "yes_price": "0.0800",
+      "volume": 34567.96,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "learn to pronounce it first",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "i still need a running start to say this name out loud",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Publix sells out of plywood, bread, and inexplicably one entire sheet cake",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "12 dollars gets you exactly one sheet of plywood in this economy",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the storm version of a pitcher coming back throwing four extra ticks",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "watching a storm hit its final form on radar is actual cinema",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "your uncle is going out on the dock with the camcorder again",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "my hurricane prep is a bathtub of water and increasingly bad decisions",
+          "mode": 2,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXMODELHIGH-27-1550-GROK",
+      "title": "Grok hits 1550 on Text Arena first",
+      "subtitle": "Before 2027",
+      "yes_sub_title": "Grok",
+      "no_sub_title": "Grok",
+      "payout": 50.0,
+      "tier": "red",
+      "quip": "anime girl wins science",
+      "yes_price": "0.0200",
+      "volume": 20707.86,
+      "category": "Science and Technology",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 127.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "victory lap posted at 4am, all lowercase, two rocket emojis, immediately deleted",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i'd pay fifty dollars to never hear the word benchmark again, so here we are",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "\"grok, is this a good benchmark?\" \"based.\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "like a backup QB winning MVP because the starter got suspended in week two",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "anime girl wins science",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "every other lab goes dark on LinkedIn for a full week",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "i asked it one question and it called me bro, so clearly it's ready",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "1550 points, 1500 of them from telling people what they want to hear",
+          "mode": 5,
+          "score": 8.5
+        }
+      ]
+    }
+  ]
+}

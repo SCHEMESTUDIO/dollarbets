@@ -1,84 +1,4 @@
 {
-  "SB-791EDF20": {
-    "title": "Lightning skate past Flyers by two tonight",
-    "quip": "Kucherov treats the Flyers blue line like a turnstile",
-    "cached_at": "2026-10-05T00:29:52.596251+00:00"
-  },
-  "SB-D9908536": {
-    "title": "Niners win at Seattle tonight",
-    "quip": "Lumen Field noise never bothered Kyle Shanahan's script",
-    "cached_at": "2026-10-05T00:29:52.596251+00:00"
-  },
-  "SB-78306485": {
-    "title": "Eagles roll Jaguars in Jacksonville",
-    "quip": "Saquon untouched, Trevor Lawrence running for his life",
-    "cached_at": "2026-10-05T00:29:52.596251+00:00"
-  },
-  "SB-2B236543": {
-    "title": "Mammoth stun Rangers at the Garden",
-    "quip": "extinct species walks into Broadway, leaves with two points",
-    "cached_at": "2026-10-05T00:29:52.596251+00:00"
-  },
-  "SB-BD1B2D81": {
-    "title": "Yankees bury Rays by six or more",
-    "quip": "Judge turns the Trop into a batting cage",
-    "cached_at": "2026-10-05T00:29:52.596251+00:00"
-  },
-  "SB-B48D1B90": {
-    "title": "K\u00e4rp\u00e4t bury Kiekko-Espoo by two or more",
-    "quip": "Oulu's finest treating the new kids like a tutorial level",
-    "cached_at": "2026-10-05T00:30:06.958150+00:00"
-  },
-  "SB-B964380D": {
-    "title": "\u00c4ss\u00e4t handle Jukurit by two in Mikkeli",
-    "quip": "Pori pirates raiding the Savonia countryside",
-    "cached_at": "2026-10-05T00:30:06.958150+00:00"
-  },
-  "SB-35031190": {
-    "title": "Mirassol shock Bragantino on the road",
-    "quip": "the Serie A debutantes still haven't read the script",
-    "cached_at": "2026-10-05T00:30:06.958150+00:00"
-  },
-  "SB-5F3AD2E4": {
-    "title": "Brewers keep it close in San Diego tonight",
-    "quip": "Petco turns every slugger into a singles hitter",
-    "cached_at": "2026-10-05T00:30:18.285753+00:00"
-  },
-  "SB-595A327D": {
-    "title": "Knicks handle the Sixers at the Garden",
-    "quip": "Brunson cooks, Embiid's injury report does the rest",
-    "cached_at": "2026-10-05T00:30:18.285753+00:00"
-  },
-  "SB-8920D83E": {
-    "title": "Jaguars take down the Eagles tonight",
-    "quip": "Lawrence finally gets a home game that matters",
-    "cached_at": "2026-10-05T00:30:18.285753+00:00"
-  },
-  "SB-43442512": {
-    "title": "Lakers beat the Warriors in LA",
-    "quip": "Luka and LeBron against a lot of Steph",
-    "cached_at": "2026-10-05T00:30:18.285753+00:00"
-  },
-  "SB-4C9DA159": {
-    "title": "Sharks stay within a goal in Dallas",
-    "quip": "Celebrini keeps losing games interesting anyway",
-    "cached_at": "2026-10-05T00:30:18.285753+00:00"
-  },
-  "SB-5357096C": {
-    "title": "Jets lose a tight one in Pittsburgh",
-    "quip": "Hellebuyck makes sure nobody gets embarrassed",
-    "cached_at": "2026-10-05T00:30:18.285753+00:00"
-  },
-  "SB-5EB4AC20": {
-    "title": "Guardians handle the White Sox tonight",
-    "quip": "Chicago's rebuild is still mostly the word rebuild",
-    "cached_at": "2026-10-05T00:30:18.285753+00:00"
-  },
-  "SB-208879DC": {
-    "title": "Seahawks beat the Niners in Seattle",
-    "quip": "twelfth man still ruins Brock Purdy's snap count",
-    "cached_at": "2026-10-05T00:30:18.285753+00:00"
-  },
   "SB-29079ACB": {
     "title": "Packers handle the Bears at Lambeau",
     "quip": "Chicago still owns the all-time series and nothing else",
@@ -733,5 +653,85 @@
     "title": "Brendan Allen beats Duncan but it goes long",
     "quip": "Allen grinds it out, no first-round fireworks",
     "cached_at": "2026-10-08T21:01:40.282086+00:00"
+  },
+  "SB-4D2E725D": {
+    "title": "Red Wings handle Kraken by two or more tonight",
+    "quip": "Larkin at the Little Caesars pizza oven",
+    "cached_at": "2026-10-09T01:47:58.454697+00:00"
+  },
+  "SB-0745DD14": {
+    "title": "Capitals bury the Rangers by two tonight",
+    "quip": "Ovechkin's office, same desk, same shot",
+    "cached_at": "2026-10-09T01:47:58.454697+00:00"
+  },
+  "SB-78306485": {
+    "title": "Eagles upset the Jaguars in Jacksonville",
+    "quip": "tush push travels better than Trevor Lawrence's ball security",
+    "cached_at": "2026-10-09T01:47:58.454697+00:00"
+  },
+  "SB-64CFCD67": {
+    "title": "Dodgers blow out the Brewers by five-plus",
+    "quip": "Ohtani turning Milwaukee into a batting cage",
+    "cached_at": "2026-10-09T01:47:58.454697+00:00"
+  },
+  "SB-E4B1E53D": {
+    "title": "White Sox beat Guardians by two or more",
+    "quip": "the South Side remembers how winning feels, vaguely",
+    "cached_at": "2026-10-09T01:47:58.454697+00:00"
+  },
+  "SB-1C4313F4": {
+    "title": "Mammoth keep it respectable against the Bruins in Boston",
+    "quip": "an extinct species staring down the Garden organ",
+    "cached_at": "2026-10-09T01:47:58.454697+00:00"
+  },
+  "SB-946A0D57": {
+    "title": "Djurg\u00e5rden bury Link\u00f6ping by two tonight",
+    "quip": "Hovet gets loud when the Link\u00f6ping power play naps",
+    "cached_at": "2026-10-09T01:48:14.028510+00:00"
+  },
+  "SB-B413B410": {
+    "title": "\u00d6rebro skate past V\u00e4xj\u00f6 by two tonight",
+    "quip": "Behrn Arena hospitality, V\u00e4xj\u00f6 leaving with the souvenir loss",
+    "cached_at": "2026-10-09T01:48:14.028510+00:00"
+  },
+  "SB-47CDFE91": {
+    "title": "Lotte Giants upset the LG Twins tonight",
+    "quip": "Busan's seagull chants drowning out the defending champs",
+    "cached_at": "2026-10-09T01:48:14.028510+00:00"
+  },
+  "SB-D49E1B49": {
+    "title": "Tiger-Cats send Elks home losers tonight",
+    "quip": "Edmonton's road record doing its usual Alberta disappearing act",
+    "cached_at": "2026-10-09T01:48:14.028510+00:00"
+  },
+  "SB-40A1D2CC": {
+    "title": "Rangers keep it close in Washington tonight",
+    "quip": "Shesterkin keeps Ovechkin's party from getting out of hand",
+    "cached_at": "2026-10-09T01:48:23.909466+00:00"
+  },
+  "SB-595A327D": {
+    "title": "Knicks handle the Sixers at the Garden",
+    "quip": "Brunson treats Philly like a personal highlight reel",
+    "cached_at": "2026-10-09T01:48:23.909466+00:00"
+  },
+  "SB-007FFFDC": {
+    "title": "San Jose State sends Wyoming home losers",
+    "quip": "the Mountain West's quiet air-raid keeps humming",
+    "cached_at": "2026-10-09T01:48:23.909466+00:00"
+  },
+  "SB-43442512": {
+    "title": "Lakers beat the Warriors at Crypto",
+    "quip": "Luka and LeBron versus a 37-year-old Curry miracle",
+    "cached_at": "2026-10-09T01:48:23.909466+00:00"
+  },
+  "SB-208879DC": {
+    "title": "Seahawks knock off the 49ers in Seattle",
+    "quip": "Lumen Field noise does half the pass rush",
+    "cached_at": "2026-10-09T01:48:23.909466+00:00"
+  },
+  "SB-A2A3E837": {
+    "title": "Blackhawks stay within reach of the Islanders",
+    "quip": "Bedard scores one, makes the box score respectable",
+    "cached_at": "2026-10-09T01:48:23.909466+00:00"
   }
 }

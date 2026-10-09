@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-10-09T01:48:30.487755+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 7,
+    "NCAAF": 3
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-062DF3A1",
+      "title": "Arkansas State Red Wolves +7.5 + Under 3.5",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:46091-3900565-6233107&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "South Alabama Jaguars @ Arkansas State Red Wolves + San Jose Earthquakes @ Real Salt Lake",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "South Alabama Jaguars @ Arkansas State Red Wolves",
+          "pick": "Arkansas State Red Wolves +7.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46091-3900565-6233107&type=Single",
+          "commence_time": "2026-10-08T23:37:00Z"
+        },
+        {
+          "matchup": "San Jose Earthquakes @ Real Salt Lake",
+          "pick": "Under 3.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7887160-205996056-793395917&type=Single",
+          "commence_time": "2026-10-15T01:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-08T23:37:00Z"
+    },
+    {
+      "ticker": "PARLAY-752E348D",
+      "title": "Ohio State Buckeyes wins + Alice Pereira wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028158526?coupon={pickType}|4236996588|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Ohio State Buckeyes @ Indiana Hoosiers + Alice Pereira @ Darya Zheleznyakova",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Ohio State Buckeyes @ Indiana Hoosiers",
+          "pick": "Ohio State Buckeyes wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028158526?coupon={pickType}|4236996588|{wagerAmount}",
+          "commence_time": "2026-10-17T16:00:00Z"
+        },
+        {
+          "matchup": "Alice Pereira @ Darya Zheleznyakova",
+          "pick": "Alice Pereira wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029249891?coupon={pickType}|4360755974|{wagerAmount}",
+          "commence_time": "2026-10-10T21:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T21:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-8A803D12",
+      "title": "Ohio Bobcats wins + Ohio State Buckeyes wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027552990?coupon={pickType}|4361954396|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Central Michigan Chippewas @ Ohio Bobcats + Ohio State Buckeyes @ Indiana Hoosiers",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Central Michigan Chippewas @ Ohio Bobcats",
+          "pick": "Ohio Bobcats wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027552990?coupon={pickType}|4361954396|{wagerAmount}",
+          "commence_time": "2026-10-10T19:30:00Z"
+        },
+        {
+          "matchup": "Ohio State Buckeyes @ Indiana Hoosiers",
+          "pick": "Ohio State Buckeyes wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028158526?coupon={pickType}|4236996588|{wagerAmount}",
+          "commence_time": "2026-10-17T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-12490BB8",
+      "title": "Ohio Bobcats wins + Alice Pereira wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027552990?coupon={pickType}|4361954396|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Central Michigan Chippewas @ Ohio Bobcats + Alice Pereira @ Darya Zheleznyakova",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Central Michigan Chippewas @ Ohio Bobcats",
+          "pick": "Ohio Bobcats wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027552990?coupon={pickType}|4361954396|{wagerAmount}",
+          "commence_time": "2026-10-10T19:30:00Z"
+        },
+        {
+          "matchup": "Alice Pereira @ Darya Zheleznyakova",
+          "pick": "Alice Pereira wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029249891?coupon={pickType}|4360755974|{wagerAmount}",
+          "commence_time": "2026-10-10T21:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-448A2AB6",
+      "title": "Utah Jazz wins + Ohio State Buckeyes wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Utah Jazz @ Memphis Grizzlies + Ohio State Buckeyes @ Indiana Hoosiers",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Utah Jazz @ Memphis Grizzlies",
+          "pick": "Utah Jazz wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+          "commence_time": "2026-10-22T00:10:00Z"
+        },
+        {
+          "matchup": "Ohio State Buckeyes @ Indiana Hoosiers",
+          "pick": "Ohio State Buckeyes wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028158526?coupon={pickType}|4236996588|{wagerAmount}",
+          "commence_time": "2026-10-17T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-A0D025E5",
+      "title": "Utah Jazz wins + Alice Pereira wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Utah Jazz @ Memphis Grizzlies + Alice Pereira @ Darya Zheleznyakova",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Utah Jazz @ Memphis Grizzlies",
+          "pick": "Utah Jazz wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+          "commence_time": "2026-10-22T00:10:00Z"
+        },
+        {
+          "matchup": "Alice Pereira @ Darya Zheleznyakova",
+          "pick": "Alice Pereira wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029249891?coupon={pickType}|4360755974|{wagerAmount}",
+          "commence_time": "2026-10-10T21:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T21:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-FFDF23E0",
+      "title": "Ohio Bobcats wins + Utah Jazz wins",
+      "payout": 2.81,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1027552990?coupon={pickType}|4361954396|{wagerAmount}",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Central Michigan Chippewas @ Ohio Bobcats + Utah Jazz @ Memphis Grizzlies",
+      "market_type": "2-leg parlay",
+      "american_odds": 181,
+      "implied_probability": 0.356,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Central Michigan Chippewas @ Ohio Bobcats",
+          "pick": "Ohio Bobcats wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1027552990?coupon={pickType}|4361954396|{wagerAmount}",
+          "commence_time": "2026-10-10T19:30:00Z"
+        },
+        {
+          "matchup": "Utah Jazz @ Memphis Grizzlies",
+          "pick": "Utah Jazz wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028754209?coupon={pickType}|4349968130|{wagerAmount}",
+          "commence_time": "2026-10-22T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-749EE20E",
+      "title": "Ohio Bobcats wins + Arkansas State Red Wolves +7.5",
+      "payout": 2.82,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19996646-1565137830-2314862413&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Central Michigan Chippewas @ Ohio Bobcats + South Alabama Jaguars @ Arkansas State Red Wolves",
+      "market_type": "2-leg parlay",
+      "american_odds": 182,
+      "implied_probability": 0.355,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Central Michigan Chippewas @ Ohio Bobcats",
+          "pick": "Ohio Bobcats wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19996646-1565137830-2314862413&type=Single",
+          "commence_time": "2026-10-10T19:30:00Z"
+        },
+        {
+          "matchup": "South Alabama Jaguars @ Arkansas State Red Wolves",
+          "pick": "Arkansas State Red Wolves +7.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46091-3900565-6233107&type=Single",
+          "commence_time": "2026-10-08T23:37:00Z"
+        }
+      ],
+      "close_time": "2026-10-08T23:37:00Z"
+    },
+    {
+      "ticker": "PARLAY-8738AE62",
+      "title": "Ohio Bobcats wins + Under 3.5",
+      "payout": 2.82,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19996646-1565137830-2314862413&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Central Michigan Chippewas @ Ohio Bobcats + San Jose Earthquakes @ Real Salt Lake",
+      "market_type": "2-leg parlay",
+      "american_odds": 182,
+      "implied_probability": 0.355,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Central Michigan Chippewas @ Ohio Bobcats",
+          "pick": "Ohio Bobcats wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19996646-1565137830-2314862413&type=Single",
+          "commence_time": "2026-10-10T19:30:00Z"
+        },
+        {
+          "matchup": "San Jose Earthquakes @ Real Salt Lake",
+          "pick": "Under 3.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7887160-205996056-793395917&type=Single",
+          "commence_time": "2026-10-15T01:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-EF437FF1",
+      "title": "Kansas State Wildcats wins + Arkansas State Red Wolves +7.5",
+      "payout": 2.82,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19996479-1565125725-2314829264&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Houston Cougars @ Kansas State Wildcats + South Alabama Jaguars @ Arkansas State Red Wolves",
+      "market_type": "2-leg parlay",
+      "american_odds": 182,
+      "implied_probability": 0.355,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Houston Cougars @ Kansas State Wildcats",
+          "pick": "Kansas State Wildcats wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19996479-1565125725-2314829264&type=Single",
+          "commence_time": "2026-10-10T19:30:00Z"
+        },
+        {
+          "matchup": "South Alabama Jaguars @ Arkansas State Red Wolves",
+          "pick": "Arkansas State Red Wolves +7.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46091-3900565-6233107&type=Single",
+          "commence_time": "2026-10-08T23:37:00Z"
+        }
+      ],
+      "close_time": "2026-10-08T23:37:00Z"
+    }
+  ]
+}
