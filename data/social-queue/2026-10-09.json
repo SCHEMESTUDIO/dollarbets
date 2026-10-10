@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-10T06:12:17.755679+00:00",
+          "tweet_id": "2108802781725216926",
+          "reply_tweet_id": "2108802783587475933"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "20276493",
+        "page": "https://www.pexels.com/photo/square-97-20276493/",
+        "photographer": "Yusuf P",
+        "license": "Pexels License",
+        "phrases": [
+          "office bathroom stalls night",
+          "glass tower lobby dusk"
+        ],
+        "tokens": {
+          "input_tokens": 3626,
+          "output_tokens": 32
         }
       }
     },
