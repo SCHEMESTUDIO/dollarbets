@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T01:34:17.525579+00:00",
+  "generated_at": "2026-10-10T14:12:50.423933+00:00",
   "board_type": "underdogs",
   "board_name": "underdogs",
   "market_count": 5,
@@ -11,8 +11,8 @@
   },
   "sport_mix": {
     "NFL": 1,
-    "EPL": 2,
-    "NCAAF": 2
+    "EPL": 1,
+    "NCAAF": 3
   },
   "board": [
     {
@@ -38,7 +38,7 @@
     {
       "ticker": "SB-942795ED",
       "title": "Spurs win at Old Trafford",
-      "payout": 4.6,
+      "payout": 4.5,
       "tier": "yellow",
       "quip": "Tottenham's away form is a coin with two sides",
       "yes_price": "0.22",
@@ -51,28 +51,8 @@
       "sport_display": "EPL",
       "matchup": "Tottenham Hotspur @ Manchester United",
       "market_type": "h2h",
-      "american_odds": 360,
-      "implied_probability": 0.217,
-      "has_deep_link": true
-    },
-    {
-      "ticker": "SB-4C37C44E",
-      "title": "Leeds stun Arsenal at the Emirates",
-      "payout": 8.0,
-      "tier": "orange",
-      "quip": "Marching On Together straight into North London's nightmares",
-      "yes_price": "0.12",
-      "category": "EPL",
-      "platform": "fanduel",
-      "platform_display": "FanDuel",
-      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.607648164&selectionId=48317",
-      "close_time": "2026-10-10T11:30:00Z",
-      "sport": "soccer_epl",
-      "sport_display": "EPL",
-      "matchup": "Leeds United @ Arsenal",
-      "market_type": "h2h",
-      "american_odds": 700,
-      "implied_probability": 0.125,
+      "american_odds": 350,
+      "implied_probability": 0.222,
       "has_deep_link": true
     },
     {
@@ -96,23 +76,43 @@
       "has_deep_link": true
     },
     {
+      "ticker": "SB-1B03AFE7",
+      "title": "Hawaii stuns Arizona State in the desert",
+      "payout": 11.0,
+      "tier": "orange",
+      "quip": "island boys trade the Pacific for Tempe and take the house",
+      "yes_price": "0.09",
+      "category": "NCAAF",
+      "platform": "draftkings",
+      "platform_display": "DraftKings",
+      "url": "https://sportsbook.draftkings.com/?outcomes=0ML86518130_3",
+      "close_time": "2026-10-11T02:30:00Z",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Hawaii Rainbow Warriors @ Arizona State Sun Devils",
+      "market_type": "h2h",
+      "american_odds": 1000,
+      "implied_probability": 0.091,
+      "has_deep_link": true
+    },
+    {
       "ticker": "SB-E2E80627",
       "title": "Charlotte shocks North Texas on the road",
-      "payout": 23.0,
+      "payout": 25.0,
       "tier": "red",
       "quip": "49ers prospecting for gold in Denton, pickaxe and all",
       "yes_price": "0.04",
       "category": "NCAAF",
-      "platform": "betmgm",
-      "platform_display": "BetMGM",
-      "url": "https://sports.{state}.betmgm.com/en/sports?options=19996647-1565137855-2314862494&type=Single",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612665873&selectionId=10159490",
       "close_time": "2026-10-10T19:30:00Z",
       "sport": "americanfootball_ncaaf",
       "sport_display": "NCAAF",
       "matchup": "Charlotte 49ers @ North Texas Mean Green",
       "market_type": "h2h",
-      "american_odds": 2200,
-      "implied_probability": 0.043,
+      "american_odds": 2400,
+      "implied_probability": 0.04,
       "has_deep_link": true
     }
   ]
