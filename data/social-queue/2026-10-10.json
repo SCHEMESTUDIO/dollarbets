@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-10-10T01:35:08.677804+00:00",
+  "board_date": "2026-10-10",
+  "link_mode": "reply",
+  "selections": [
+    {
+      "ticker": "KXMARSVRAIL-50",
+      "rank": 1,
+      "selection_reason": "Quip is perfect standalone\u2014Doc Ock reference lands immediately without needing the fusion market context, and $3.03 payout feels appropriately skeptical",
+      "title": "A human lands on Mars before California's high-speed rail",
+      "quip": "Mars has better permitting",
+      "payout": 2.94,
+      "platform": null,
+      "tier": "green",
+      "category": "Science and Technology",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/KXMARSVRAIL-50/",
+      "image_url": "https://www.dollarbets.lol/share/KXMARSVRAIL-50/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/KXMARSVRAIL-50/og.png",
+      "content": {
+        "x_tweet_text": "Mars has better permitting",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-10-10",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>A human lands on Mars before California&#x27;s high-speed rail</b>\n\n\u201c<i>Mars has better permitting</i>\u201d\n\n$1 pays $2.94\n\n<a href=\"https://www.dollarbets.lol/share/KXMARSVRAIL-50/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "KXSEASNOWM-26DEC-4",
+      "rank": 2,
+      "selection_reason": "Seattle snow market is culturally legible with a killer quip about regional overreaction, and $12.50 payout creates the right 'wait, people are betting this high on Seattle snow?' reaction",
+      "title": "Seattle gets four inches of snow next December",
+      "quip": "4 inches closes 12 school districts and one entire tech sector",
+      "payout": 12.5,
+      "platform": null,
+      "tier": "orange",
+      "category": "Climate and Weather",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/KXSEASNOWM-26DEC-4/",
+      "image_url": "https://www.dollarbets.lol/share/KXSEASNOWM-26DEC-4/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/KXSEASNOWM-26DEC-4/og.png",
+      "content": {
+        "x_tweet_text": "4 inches closes 12 school districts and one entire tech sector",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-10-10",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Seattle gets four inches of snow next December</b>\n\n\u201c<i>4 inches closes 12 school districts and one entire tech sector</i>\u201d\n\n$1 pays $12.50\n\n<a href=\"https://www.dollarbets.lol/share/KXSEASNOWM-26DEC-4/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "KXPOPESWIFT-27",
+      "rank": 3,
+      "selection_reason": "today's filthy little longshot \u2014 the board's own hero pick",
+      "title": "Taylor Swift meets Pope Leo before 2027",
+      "quip": "Travis Kelce in a chapel veil, visibly enormous, trying to whisper",
+      "payout": 16.67,
+      "platform": null,
+      "tier": "red",
+      "category": "Social",
+      "card_variant": "ticket",
+      "share_url": "https://www.dollarbets.lol/share/KXPOPESWIFT-27/",
+      "image_url": "https://www.dollarbets.lol/share/KXPOPESWIFT-27/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/KXPOPESWIFT-27/og.png",
+      "content": {
+        "x_tweet_text": "Travis Kelce in a chapel veil, visibly enormous, trying to whisper",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-10-10",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Taylor Swift meets Pope Leo before 2027</b>\n\n\u201c<i>Travis Kelce in a chapel veil, visibly enormous, trying to whisper</i>\u201d\n\n$1 pays $16.67\n\n<a href=\"https://www.dollarbets.lol/share/KXPOPESWIFT-27/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    }
+  ]
+}
