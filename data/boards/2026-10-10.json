@@ -1,0 +1,541 @@
+{
+  "generated_at": "2026-10-10T01:34:02.168748+00:00",
+  "market_count": 9,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 2
+  },
+  "board": [
+    {
+      "ticker": "KXMARSVRAIL-50",
+      "title": "A human lands on Mars before California's high-speed rail",
+      "subtitle": "Before 2050",
+      "yes_sub_title": "Before 2050",
+      "no_sub_title": "Before 2050",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "Mars has better permitting",
+      "yes_price": "0.3400",
+      "volume": 16719.17,
+      "category": "Science and Technology",
+      "close_time": "2050-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXMARSVRAIL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 79.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "flag planted on Mars while the Merced segment is still an orange cone",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "I'll be 61 years old and still driving myself to Bakersfield",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Fresno gets a beautiful station in 2140. no track. just the station.",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "Mars has better permitting",
+          "mode": 9,
+          "score": 9
+        },
+        {
+          "quip": "Matt Damon grew potatoes in Martian dirt faster than Caltrans crossed one creek",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "the rail has spent $2.94 per Californian on consultants all named Greg",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "two engineering marvels racing and one of them is losing to outer space",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "\"we have broken ground.\" sir. you broke ground in 2015. \"we have broken ground.\"",
+          "mode": 4,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXFUSION-30-JAN01",
+      "title": "Nuclear fusion gets achieved before 2030",
+      "subtitle": "Nuclear fusion achieved",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 3.03,
+      "tier": "yellow",
+      "quip": "Doc Ock had this running on a Tuesday afternoon in 2004",
+      "yes_price": "0.3300",
+      "volume": 31325.07,
+      "category": "Science and Technology",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXFUSION?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 84.0,
+      "_specificity": 5,
+      "quip_alts": [
+        {
+          "quip": "they'll bottle a star and my electric bill goes up anyway",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "unlimited clean energy, immediately spent on anime wallpapers and more data centers",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "still forty years away",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "Doc Ock had this running on a Tuesday afternoon in 2004",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "net gain sustained for 0.0033 seconds and they threw a parade in Livermore",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "I want to tell my landlord the heat is a star now",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "\"we got net gain.\" net gain of what. \"don't worry about it.\"",
+          "mode": 4,
+          "score": 6
+        },
+        {
+          "quip": "like the Browns drafting a quarterback. every few years, real sincere hope.",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXEARTHQUAKEJAPAN-30",
+      "title": "Japan gets an 8.0 earthquake before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 3.23,
+      "tier": "yellow",
+      "quip": "it's actually a 7.9 and Japan rounds down out of politeness",
+      "yes_price": "0.3100",
+      "volume": 45469.54,
+      "category": "Climate and Weather",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXEARTHQUAKEJAPAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 104.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "Godzilla's entrance music",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Japanese building codes are the most underrated flex on this entire planet",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "the bullet train slows, apologizes to every passenger, resumes exactly on schedule",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "I felt a 3.1 once and texted my mother a verbal will",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the catfish is restless",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "it's actually a 7.9 and Japan rounds down out of politeness",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the vending machines stay standing. that's engineering done with actual pride.",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"please remain calm.\" everybody already was. that's the part that gets me.",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXNBARECORD-27WORST-MIL",
+      "title": "Milwaukee finishes with the worst record next season",
+      "subtitle": "Worst Record (2026-27)",
+      "yes_sub_title": "Milwaukee",
+      "no_sub_title": "Milwaukee",
+      "payout": 7.14,
+      "tier": "orange",
+      "quip": "Giannis watching this in a different jersey with absolutely no expression",
+      "yes_price": "0.1400",
+      "volume": 2763.82,
+      "category": "Sports",
+      "close_time": "2027-05-31T14:00:00Z",
+      "url": "https://kalshi.com/markets/KXNBARECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 86.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "Giannis watching this in a different jersey with absolutely no expression",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "I went to Fiserv Forum once in 2021 and now I just have memories",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "Milwaukee's reward for one title is five straight years of ping pong balls",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "cheese curds and lottery balls",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "7 and 75 and the beer line still sells out by halftime",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "like the Lions years except nobody is making a documentary about it",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "small market tanking is the purest art form left in American sport",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "\"we love our young core.\" name one of them. \"we love our young core.\"",
+          "mode": 4,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xdaafa20f645d3e955dda3af50481ee3aebca3295f1d54b01452f99e69afa6e1c",
+      "title": "The Capitals win the Eastern Conference in 2027",
+      "subtitle": "",
+      "payout": 9.52,
+      "tier": "orange",
+      "quip": "Philadelphia has to watch this happen while being in Philadelphia",
+      "yes_price": "0.1050",
+      "volume": 9994.409694000004,
+      "category": "Other",
+      "close_time": "2027-07-01T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/nhl-2027-eastern-conference-champion-20260630185127005",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "I will watch a 2am conference final and be useless the entire next day",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "Ovechkin doing the fountain splits from a luxury box in a suit",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "the Wharf floods, a man in a Backstrom jersey climbs a crab shack",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "rock the red, again",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "like the Commanders being good. DC cannot handle two of those at once.",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Philadelphia has to watch this happen while being in Philadelphia",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "$9.52 is exactly one beer at Capital One Arena, before tax",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "playoff hockey in a swamp in June is my favorite crime against nature",
+          "mode": 3,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXSEASNOWM-26DEC-4",
+      "title": "Seattle gets four inches of snow next December",
+      "subtitle": "In Dec 2026",
+      "yes_sub_title": "Above 4 inches",
+      "no_sub_title": "Above 4 inches",
+      "payout": 12.5,
+      "tier": "orange",
+      "quip": "4 inches closes 12 school districts and one entire tech sector",
+      "yes_price": "0.0800",
+      "volume": 7709.6,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T07:59:00Z",
+      "url": "https://kalshi.com/markets/KXSEASNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 134.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "forty Subarus abandoned on one hill and everybody just walks home",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "I own exactly one pair of boots and they are suede. praying.",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "four inches and Amazon makes remote work permanent out of sheer fear",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "the hills win again",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "Atlanta snow energy with better coffee and worse attitudes about it",
+          "mode": 6,
+          "score": 6.5
+        },
+        {
+          "quip": "a Pacific Northwest snow day is the only time that city shuts up",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "4 inches closes 12 school districts and one entire tech sector",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we're calling it snowpocalypse.\" it's four inches, man. \"snowpocalypse.\"",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0xaa39c549fc77a5d0169753e841b2ed4fbb46a43ea78e9d220eca50d58f7ab32c",
+      "title": "Monthly inflation rises 0.4% in September",
+      "subtitle": "",
+      "payout": 13.33,
+      "tier": "orange",
+      "quip": "a turkey sandwich is now $19 and comes with half a pickle",
+      "yes_price": "0.0750",
+      "volume": 9999.803091,
+      "category": "Sports",
+      "close_time": "2026-10-15T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/september-inflation-us-monthly",
+      "platform": "polymarket",
+      "score": 60.0,
+      "quip_alts": [
+        {
+          "quip": "a turkey sandwich is now $19 and comes with half a pickle",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "I do arithmetic in the cereal aisle now like a 1930s widow",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "shrinkflation enters its final form",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "Powell's jaw doing that thing it does right before the podium question",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "like rent going up a little. every month. forever. until you die.",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "love that we all collectively agreed 0.4 is a small friendly number",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "\"transitory.\" we retired that word two years ago. \"transitory.\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "this is the 2am meeting scene in Margin Call but for eggs",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXPOPESWIFT-27",
+      "title": "Taylor Swift meets Pope Leo before 2027",
+      "subtitle": "Before Jan 1, 2027",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 16.67,
+      "tier": "red",
+      "quip": "Travis Kelce in a chapel veil, visibly enormous, trying to whisper",
+      "yes_price": "0.0600",
+      "volume": 21977.5,
+      "category": "Social",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXPOPESWIFT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 115.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Swiss Guard quietly rehearsing the Eras setlist in the courtyard",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "\"your holiness, Red or 1989.\" and he says Red. correctly.",
+          "mode": 4,
+          "score": 9
+        },
+        {
+          "quip": "I would convert on the spot for that photo and I'm barely baptized",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Chicago guy meets Pennsylvania girl",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "the Super Bowl but with incense and significantly worse acoustics",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "two of the three most powerful people alive in one small room",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "$16.67 is also what a rosary runs in the Vatican gift shop",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Travis Kelce in a chapel veil, visibly enormous, trying to whisper",
+          "mode": 8,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26NOV",
+      "title": "The US signs a new Iran nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Nov 1, 2026",
+      "no_sub_title": "Before Nov 1, 2026",
+      "payout": 33.33,
+      "tier": "red",
+      "quip": "like a trade deadline blockbuster that gets rescinded over a failed physical",
+      "yes_price": "0.0300",
+      "volume": 957034.83,
+      "category": "Politics",
+      "close_time": "2026-11-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "somebody's uncle in Tehran opens a Chevy dealership within the hour",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "I have received this exact push notification in four separate calendar years",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "centrifuges spinning down, allegedly",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "a 44 page framework containing 43 pages of footnotes and one map",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we signed a beautiful document. the best document. nobody has read it.\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "like a trade deadline blockbuster that gets rescinded over a failed physical",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "it's the Fast and Furious franchise now. everybody is family. somehow.",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "honestly I just want the handshake photo one more time before I die",
+          "mode": 3,
+          "score": 6.5
+        }
+      ]
+    }
+  ]
+}

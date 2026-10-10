@@ -1,0 +1,437 @@
+{
+  "generated_at": "2026-10-10T01:34:41.779734+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "NCAAF": 1,
+    "Multi": 8,
+    "NHL": 1
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-6E1DFDD3",
+      "title": "Ohio State Buckeyes wins + Houston Cougars wins",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579971104&selectionId=484727",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Ohio State Buckeyes @ Indiana Hoosiers + Oklahoma State Cowboys @ Houston Cougars",
+      "market_type": "2-leg parlay",
+      "american_odds": 194,
+      "implied_probability": 0.34,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Ohio State Buckeyes @ Indiana Hoosiers",
+          "pick": "Ohio State Buckeyes wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579971104&selectionId=484727",
+          "commence_time": "2026-10-17T16:00:00Z"
+        },
+        {
+          "matchup": "Oklahoma State Cowboys @ Houston Cougars",
+          "pick": "Houston Cougars wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613684394&selectionId=36045494",
+          "commence_time": "2026-10-17T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-7D668C53",
+      "title": "Ohio State Buckeyes wins + Boston Bruins wins",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579971104&selectionId=484727",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Ohio State Buckeyes @ Indiana Hoosiers + Philadelphia Flyers @ Boston Bruins",
+      "market_type": "2-leg parlay",
+      "american_odds": 194,
+      "implied_probability": 0.34,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Ohio State Buckeyes @ Indiana Hoosiers",
+          "pick": "Ohio State Buckeyes wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579971104&selectionId=484727",
+          "commence_time": "2026-10-17T16:00:00Z"
+        },
+        {
+          "matchup": "Philadelphia Flyers @ Boston Bruins",
+          "pick": "Boston Bruins wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614999044&selectionId=25596",
+          "commence_time": "2026-10-10T17:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T17:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-F62EF6E7",
+      "title": "Ohio State Buckeyes wins + St Louis Blues wins",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579971104&selectionId=484727",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Ohio State Buckeyes @ Indiana Hoosiers + Columbus Blue Jackets @ St Louis Blues",
+      "market_type": "2-leg parlay",
+      "american_odds": 194,
+      "implied_probability": 0.34,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Ohio State Buckeyes @ Indiana Hoosiers",
+          "pick": "Ohio State Buckeyes wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579971104&selectionId=484727",
+          "commence_time": "2026-10-17T16:00:00Z"
+        },
+        {
+          "matchup": "Columbus Blue Jackets @ St Louis Blues",
+          "pick": "St Louis Blues wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614998912&selectionId=25595",
+          "commence_time": "2026-10-10T23:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T23:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-706EC592",
+      "title": "Ohio State Buckeyes wins + Chicago Fire wins",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579971104&selectionId=484727",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Ohio State Buckeyes @ Indiana Hoosiers + New York City FC @ Chicago Fire",
+      "market_type": "2-leg parlay",
+      "american_odds": 194,
+      "implied_probability": 0.34,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Ohio State Buckeyes @ Indiana Hoosiers",
+          "pick": "Ohio State Buckeyes wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.579971104&selectionId=484727",
+          "commence_time": "2026-10-17T16:00:00Z"
+        },
+        {
+          "matchup": "New York City FC @ Chicago Fire",
+          "pick": "Chicago Fire wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609960916&selectionId=226469",
+          "commence_time": "2026-10-10T18:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T18:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-FDB17EC0",
+      "title": "Houston Cougars wins + Boston Bruins wins",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613684394&selectionId=36045494",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Oklahoma State Cowboys @ Houston Cougars + Philadelphia Flyers @ Boston Bruins",
+      "market_type": "2-leg parlay",
+      "american_odds": 194,
+      "implied_probability": 0.34,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Oklahoma State Cowboys @ Houston Cougars",
+          "pick": "Houston Cougars wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613684394&selectionId=36045494",
+          "commence_time": "2026-10-17T23:30:00Z"
+        },
+        {
+          "matchup": "Philadelphia Flyers @ Boston Bruins",
+          "pick": "Boston Bruins wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614999044&selectionId=25596",
+          "commence_time": "2026-10-10T17:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T17:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-4E468103",
+      "title": "Houston Cougars wins + St Louis Blues wins",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613684394&selectionId=36045494",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Oklahoma State Cowboys @ Houston Cougars + Columbus Blue Jackets @ St Louis Blues",
+      "market_type": "2-leg parlay",
+      "american_odds": 194,
+      "implied_probability": 0.34,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Oklahoma State Cowboys @ Houston Cougars",
+          "pick": "Houston Cougars wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613684394&selectionId=36045494",
+          "commence_time": "2026-10-17T23:30:00Z"
+        },
+        {
+          "matchup": "Columbus Blue Jackets @ St Louis Blues",
+          "pick": "St Louis Blues wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614998912&selectionId=25595",
+          "commence_time": "2026-10-10T23:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T23:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-4EB2B7FB",
+      "title": "Houston Cougars wins + Chicago Fire wins",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613684394&selectionId=36045494",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Oklahoma State Cowboys @ Houston Cougars + New York City FC @ Chicago Fire",
+      "market_type": "2-leg parlay",
+      "american_odds": 194,
+      "implied_probability": 0.34,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Oklahoma State Cowboys @ Houston Cougars",
+          "pick": "Houston Cougars wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613684394&selectionId=36045494",
+          "commence_time": "2026-10-17T23:30:00Z"
+        },
+        {
+          "matchup": "New York City FC @ Chicago Fire",
+          "pick": "Chicago Fire wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609960916&selectionId=226469",
+          "commence_time": "2026-10-10T18:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T18:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-57736ED0",
+      "title": "Boston Bruins wins + St Louis Blues wins",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614999044&selectionId=25596",
+      "sport": "icehockey_nhl",
+      "sport_display": "NHL",
+      "matchup": "Philadelphia Flyers @ Boston Bruins + Columbus Blue Jackets @ St Louis Blues",
+      "market_type": "2-leg parlay",
+      "american_odds": 194,
+      "implied_probability": 0.34,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Philadelphia Flyers @ Boston Bruins",
+          "pick": "Boston Bruins wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614999044&selectionId=25596",
+          "commence_time": "2026-10-10T17:10:00Z"
+        },
+        {
+          "matchup": "Columbus Blue Jackets @ St Louis Blues",
+          "pick": "St Louis Blues wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614998912&selectionId=25595",
+          "commence_time": "2026-10-10T23:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T17:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-A35A2123",
+      "title": "Boston Bruins wins + Chicago Fire wins",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614999044&selectionId=25596",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Philadelphia Flyers @ Boston Bruins + New York City FC @ Chicago Fire",
+      "market_type": "2-leg parlay",
+      "american_odds": 194,
+      "implied_probability": 0.34,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Philadelphia Flyers @ Boston Bruins",
+          "pick": "Boston Bruins wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614999044&selectionId=25596",
+          "commence_time": "2026-10-10T17:10:00Z"
+        },
+        {
+          "matchup": "New York City FC @ Chicago Fire",
+          "pick": "Chicago Fire wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609960916&selectionId=226469",
+          "commence_time": "2026-10-10T18:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T17:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-90E28815",
+      "title": "St Louis Blues wins + Chicago Fire wins",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614998912&selectionId=25595",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Columbus Blue Jackets @ St Louis Blues + New York City FC @ Chicago Fire",
+      "market_type": "2-leg parlay",
+      "american_odds": 194,
+      "implied_probability": 0.34,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Columbus Blue Jackets @ St Louis Blues",
+          "pick": "St Louis Blues wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.614998912&selectionId=25595",
+          "commence_time": "2026-10-10T23:10:00Z"
+        },
+        {
+          "matchup": "New York City FC @ Chicago Fire",
+          "pick": "Chicago Fire wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.609960916&selectionId=226469",
+          "commence_time": "2026-10-10T18:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-10T18:30:00Z"
+    }
+  ]
+}
