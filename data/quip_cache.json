@@ -1,69 +1,4 @@
 {
-  "SB-AC2C03A8": {
-    "title": "Islanders take down the Rangers at the Garden",
-    "quip": "subway series on ice, chalk in disguise",
-    "cached_at": "2026-10-06T14:43:59.049660+00:00"
-  },
-  "SB-6079DB34": {
-    "title": "Yankees beat Rays by two or more tonight",
-    "quip": "the Bronx handles Tampa like a weeknight chore",
-    "cached_at": "2026-10-06T14:43:59.049660+00:00"
-  },
-  "SB-A5E343BE": {
-    "title": "Wild skate past Sabres by two-plus",
-    "quip": "Kaprizov against Buffalo's rebuild, again",
-    "cached_at": "2026-10-06T14:43:59.049660+00:00"
-  },
-  "SB-2DF80FA2": {
-    "title": "Brewers blow out Padres by five tonight",
-    "quip": "Milwaukee turns Petco into a batting cage",
-    "cached_at": "2026-10-06T14:43:59.049660+00:00"
-  },
-  "SB-E2E80627": {
-    "title": "Charlotte shocks North Texas on the road",
-    "quip": "49ers prospecting for gold in Denton, pickaxe and all",
-    "cached_at": "2026-10-06T14:43:59.049660+00:00"
-  },
-  "SB-E5D6260E": {
-    "title": "Kiwoom upset Hanwha in Gocheok tonight",
-    "quip": "the Heroes play spoiler to Ryu Hyun-jin's Eagles",
-    "cached_at": "2026-10-06T14:44:17.322574+00:00"
-  },
-  "SB-AB1AC4CA": {
-    "title": "LG Twins beat Doosan by two-plus tonight",
-    "quip": "same stadium, same subway, one landlord in Jamsil",
-    "cached_at": "2026-10-06T14:44:17.322574+00:00"
-  },
-  "SB-2B947173": {
-    "title": "Samsung Lions roll KT Wiz by two-plus",
-    "quip": "Suwon's lions don't do one-run thrillers",
-    "cached_at": "2026-10-06T14:44:17.322574+00:00"
-  },
-  "SB-CE356E40": {
-    "title": "\u00d6rebro steamroll Djurg\u00e5rden by two-plus tonight",
-    "quip": "Stockholm's finest get Behrn Arena'd in regulation",
-    "cached_at": "2026-10-06T14:44:17.322574+00:00"
-  },
-  "SB-DDFE53B0": {
-    "title": "Afghanistan beat Bangladesh in the Test",
-    "quip": "Rashid Khan turning a Test match into a magic show",
-    "cached_at": "2026-10-06T14:44:17.322574+00:00"
-  },
-  "SB-359F7AFB": {
-    "title": "Canadiens keep it close against Carolina tonight",
-    "quip": "the Bell Centre crowd gets its money's worth",
-    "cached_at": "2026-10-06T14:44:25.935815+00:00"
-  },
-  "SB-3D6BE22D": {
-    "title": "Islanders hang tough in Rangers rivalry tonight",
-    "quip": "subway series, ice edition, decided by one bounce",
-    "cached_at": "2026-10-06T14:44:25.935815+00:00"
-  },
-  "SB-037292A6": {
-    "title": "Yankees handle the Rays in the Bronx",
-    "quip": "Judge sees a lot of fastballs in October air",
-    "cached_at": "2026-10-06T14:44:25.935815+00:00"
-  },
   "SB-D36F0E89": {
     "title": "White Sox blow out Guardians by 8+ tonight",
     "quip": "even the Rate Field fireworks guy forgot the code",
@@ -858,5 +793,100 @@
     "title": "Oilers beat the Sharks in San Jose",
     "quip": "McDavid at the Tank is unpaid overtime",
     "cached_at": "2026-10-10T14:13:14.407810+00:00"
+  },
+  "SB-3B3B4788": {
+    "title": "Canadiens skate past Red Wings by two tonight",
+    "quip": "Bell Centre crowd gets the Suzuki-Caufield show",
+    "cached_at": "2026-10-10T19:44:32.479341+00:00"
+  },
+  "SB-6C013355": {
+    "title": "Leafs steal one in Denver tonight",
+    "quip": "Matthews enjoys thin air more than MacKinnon does",
+    "cached_at": "2026-10-10T19:44:32.479341+00:00"
+  },
+  "SB-330DEAAD": {
+    "title": "Ribeiro goes the distance against Franco",
+    "quip": "both men discover round three is very long",
+    "cached_at": "2026-10-10T19:44:32.479341+00:00"
+  },
+  "SB-376B98E0": {
+    "title": "Blackhawks knock off the Hurricanes tonight",
+    "quip": "Bedard's turn to be the problem",
+    "cached_at": "2026-10-10T19:44:32.479341+00:00"
+  },
+  "SB-49230992": {
+    "title": "Georgia Southern upsets James Madison tomorrow",
+    "quip": "Statesboro humidity counts as a twelfth man",
+    "cached_at": "2026-10-10T19:44:32.479341+00:00"
+  },
+  "SB-76C57196": {
+    "title": "Real Salt Lake shock the Union in Chester",
+    "quip": "Subaru Park silenced by a team from the desert",
+    "cached_at": "2026-10-10T19:44:32.479341+00:00"
+  },
+  "SB-748BB9DE": {
+    "title": "Kawasaki and Nagoya trade goals, four or more tonight",
+    "quip": "Kawasaki defending like the doors are purely decorative",
+    "cached_at": "2026-10-10T19:44:51.026701+00:00"
+  },
+  "SB-64C8D24A": {
+    "title": "Vasco and Remo pile up four goals tonight",
+    "quip": "S\u00e3o Janu\u00e1rio has never once hosted a quiet evening",
+    "cached_at": "2026-10-10T19:44:51.026701+00:00"
+  },
+  "SB-D56F235F": {
+    "title": "KT Wiz take down Samsung Lions by two",
+    "quip": "Daegu crowd going home before the seventh-inning towels come out",
+    "cached_at": "2026-10-10T19:44:51.026701+00:00"
+  },
+  "SB-CDAE6598": {
+    "title": "Nippon-Ham Fighters beat Seibu by multiple runs",
+    "quip": "Shinjo's boys treat Belluna Dome like a batting cage",
+    "cached_at": "2026-10-10T19:44:51.026701+00:00"
+  },
+  "SB-38BFB5E4": {
+    "title": "BayStars knock off the Giants by two-plus",
+    "quip": "Tokyo Dome boos arriving somewhere around the sixth",
+    "cached_at": "2026-10-10T19:44:51.026701+00:00"
+  },
+  "SB-B1EEC288": {
+    "title": "Sao Paulo and Vitoria settle for a draw",
+    "quip": "Morumbi specialty: ninety minutes, zero conclusions",
+    "cached_at": "2026-10-10T19:44:51.026701+00:00"
+  },
+  "SB-2FE0D550": {
+    "title": "Cristian Williams upsets Asa Stevens",
+    "quip": "the Stevens hype train meets an actual set of brakes",
+    "cached_at": "2026-10-10T19:44:51.026701+00:00"
+  },
+  "SB-F637E3C5": {
+    "title": "Gatto beats Kareckaite but can't finish her",
+    "quip": "Kareckaite eats three rounds of damage and keeps walking forward",
+    "cached_at": "2026-10-10T19:45:01.227439+00:00"
+  },
+  "SB-6BFDB2F6": {
+    "title": "Canadiens handle the Red Wings at the Bell Centre",
+    "quip": "Suzuki and Caufield cook in front of the home crowd",
+    "cached_at": "2026-10-10T19:45:01.227439+00:00"
+  },
+  "SB-5228AF5D": {
+    "title": "Patriots beat the Raiders in Foxborough",
+    "quip": "Maye's October, Geno's nightmare",
+    "cached_at": "2026-10-10T19:45:01.227439+00:00"
+  },
+  "SB-1BA7008D": {
+    "title": "Stars take down the Penguins in Pittsburgh",
+    "quip": "Robertson and Hintz outgun a 38-year-old Crosby",
+    "cached_at": "2026-10-10T19:45:01.227439+00:00"
+  },
+  "SB-7954C862": {
+    "title": "Lightning beat the Islanders on the Island",
+    "quip": "Kucherov treats UBS Arena like a personal practice rink",
+    "cached_at": "2026-10-10T19:45:01.227439+00:00"
+  },
+  "SB-BF4FA9FF": {
+    "title": "Senators knock off the Predators in Ottawa",
+    "quip": "Tkachuk bullies a Nashville team already eyeing the draft",
+    "cached_at": "2026-10-10T19:45:01.227439+00:00"
   }
 }
