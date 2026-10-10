@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-10T18:01:43.734983+00:00",
+          "tweet_id": "2108981316620550201",
+          "reply_tweet_id": "2108981318059274510"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "openverse",
+        "id": "11e55685-89f3-41e7-b42b-26fe798c862b",
+        "page": "https://commons.wikimedia.org/w/index.php?curid=191344159",
+        "photographer": "PattayaPatrol",
+        "license": "CC BY-SA 4.0",
+        "phrases": [
+          "palm trees storm clouds dusk",
+          "empty supermarket shelves aisle"
+        ],
+        "tokens": {
+          "input_tokens": 7601,
+          "output_tokens": 47
         }
       }
     },
