@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-11T21:02:05.742309+00:00",
+          "tweet_id": "2109389095143162274",
+          "reply_tweet_id": "2109389096984486343"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "40035038",
+        "page": "https://www.pexels.com/photo/gothic-architecture-in-french-cathedral-40035038/",
+        "photographer": "Jean-Philippe Canto",
+        "license": "Pexels License",
+        "phrases": [
+          "empty cathedral nave dusk",
+          "vatican colonnade rain night"
+        ],
+        "tokens": {
+          "input_tokens": 3871,
+          "output_tokens": 34
         }
       }
     }
