@@ -1,69 +1,4 @@
 {
-  "SB-C0D0FF1F": {
-    "title": "Dodgers handle Braves in Atlanta by two or more",
-    "quip": "Ohtani doesn't do one-run games, he does statements",
-    "cached_at": "2026-10-07T01:16:20.314028+00:00"
-  },
-  "SB-881431FC": {
-    "title": "Rays upset Yankees in the Bronx tonight",
-    "quip": "the Bronx boo birds warming up early",
-    "cached_at": "2026-10-07T01:16:20.314028+00:00"
-  },
-  "SB-F0AD8D9E": {
-    "title": "Kraken sink Golden Knights in Seattle",
-    "quip": "Climate Pledge gets loud when Vegas visits",
-    "cached_at": "2026-10-07T01:16:20.314028+00:00"
-  },
-  "SB-CDCF71B5": {
-    "title": "Panthers beat Kings by two-plus in LA",
-    "quip": "Bobrovsky treating Crypto.com Arena like his summer home",
-    "cached_at": "2026-10-07T01:16:20.314028+00:00"
-  },
-  "SB-2E4BE541": {
-    "title": "White Sox blow out Guardians by six or more",
-    "quip": "the South Side demanding one good Tuesday, just one",
-    "cached_at": "2026-10-07T01:16:20.314028+00:00"
-  },
-  "SB-72AA48B8": {
-    "title": "Devils knock off the Mammoth tonight",
-    "quip": "Jack Hughes versus a species that already went extinct once",
-    "cached_at": "2026-10-07T01:16:27.499181+00:00"
-  },
-  "SB-7CD9748F": {
-    "title": "Braves take down the Dodgers tonight",
-    "quip": "Acu\u00f1a remembers what Atlanta did in 2021",
-    "cached_at": "2026-10-07T01:16:27.499181+00:00"
-  },
-  "SB-22EE9A5F": {
-    "title": "Corinthians steal one at Internacional",
-    "quip": "Tim\u00e3o travel light, Beira-Rio crowd goes quiet",
-    "cached_at": "2026-10-07T01:16:37.535102+00:00"
-  },
-  "SB-19A1B68A": {
-    "title": "Remo and Gr\u00eamio split the points",
-    "quip": "Mangueir\u00e3o humidity turns everything into a 1-1",
-    "cached_at": "2026-10-07T01:16:37.535102+00:00"
-  },
-  "SB-2337A71A": {
-    "title": "Kings hang with the Panthers tonight",
-    "quip": "Kuemper keeps it a one-goal headache for Bobrovsky",
-    "cached_at": "2026-10-07T01:16:47.145871+00:00"
-  },
-  "SB-377334AC": {
-    "title": "Penguins keep it close in Washington",
-    "quip": "Crosby and Ovechkin never did do blowouts",
-    "cached_at": "2026-10-07T01:16:47.145871+00:00"
-  },
-  "SB-AFFE460C": {
-    "title": "Braves stay within a run of the Dodgers",
-    "quip": "Atlanta's bullpen holds long enough to matter",
-    "cached_at": "2026-10-07T01:16:47.145871+00:00"
-  },
-  "SB-DB2119D3": {
-    "title": "Jets stay within a goal of the Avalanche",
-    "quip": "Hellebuyck turns MacKinnon's track meet into trench warfare",
-    "cached_at": "2026-10-07T01:16:47.145871+00:00"
-  },
   "SB-EB0490D2": {
     "title": "Avalanche skate past Jets by two tonight",
     "quip": "MacKinnon treats Winnipeg like a morning commute",
@@ -948,5 +883,100 @@
     "title": "Wild beat Panthers by two or more",
     "quip": "Kaprizov walking into the Stanley Cup banner raising unimpressed",
     "cached_at": "2026-10-11T00:43:47.928175+00:00"
+  },
+  "SB-82AA5A84": {
+    "title": "Bears win outright at Lambeau tonight",
+    "quip": "Caleb Williams finally exorcising the Lambeau ghosts",
+    "cached_at": "2026-10-11T14:37:11.492814+00:00"
+  },
+  "SB-A899C428": {
+    "title": "Liverpool upset Man City at Anfield",
+    "quip": "You'll Never Walk Alone hits different against Pep",
+    "cached_at": "2026-10-11T14:37:11.492814+00:00"
+  },
+  "SB-3E8064F8": {
+    "title": "Titans upset the Texans tonight",
+    "quip": "Will Levis throwing haymakers at a top-five defense",
+    "cached_at": "2026-10-11T14:37:11.492814+00:00"
+  },
+  "SB-E8FB8972": {
+    "title": "Yan finishes Merab inside five rounds",
+    "quip": "somebody has to stop the Machine's 40-takedown cardio",
+    "cached_at": "2026-10-11T14:37:11.492814+00:00"
+  },
+  "SB-8F430F76": {
+    "title": "Dolphins upset the Bengals in Miami",
+    "quip": "Tyreek in South Beach heat, Burrow in shorts weather",
+    "cached_at": "2026-10-11T14:37:11.492814+00:00"
+  },
+  "SB-C5B60292": {
+    "title": "Guardians blow out the Rays by seven",
+    "quip": "Steven Kwan leading a full-scale sacking of St. Pete",
+    "cached_at": "2026-10-11T14:37:11.492814+00:00"
+  },
+  "SB-325AAD49": {
+    "title": "LASK stun Liverpool in Linz",
+    "quip": "Klopp's B-team meets Austria's finest artificial turf",
+    "cached_at": "2026-10-11T14:37:18.574994+00:00"
+  },
+  "SB-93D1CDB2": {
+    "title": "Ipswich shock Man City at the Etihad",
+    "quip": "Kieran McKenna writing his own Leicester chapter",
+    "cached_at": "2026-10-11T14:37:18.574994+00:00"
+  },
+  "SB-0CFC858A": {
+    "title": "Gr\u00eamio and Inter trade goals in the Grenal",
+    "quip": "Grenal never ends 0-0, it ends in confessions",
+    "cached_at": "2026-10-11T14:37:33.251717+00:00"
+  },
+  "SB-4974F11A": {
+    "title": "Wellington and Melbourne Victory grind out a low-scoring night",
+    "quip": "two goals max, the Cake Tin wind sees to it",
+    "cached_at": "2026-10-11T14:37:33.251717+00:00"
+  },
+  "SB-77966148": {
+    "title": "TPS beat HIFK by two or more tonight",
+    "quip": "Turku skates out while Helsinki looks for its goalie",
+    "cached_at": "2026-10-11T14:37:33.251717+00:00"
+  },
+  "SB-56A8D486": {
+    "title": "JYP beat Lukko by multiple goals tonight",
+    "quip": "Jyv\u00e4skyl\u00e4 empty-netter, write it in pencil first",
+    "cached_at": "2026-10-11T14:37:33.251717+00:00"
+  },
+  "SB-5F70AB9B": {
+    "title": "Santos upset Atl\u00e9tico Mineiro on the road",
+    "quip": "Neymar's old club remembers what the shirt means",
+    "cached_at": "2026-10-11T14:37:33.251717+00:00"
+  },
+  "SB-537CF854": {
+    "title": "KalPa beat \u00c4ss\u00e4t by two or more",
+    "quip": "Kuopio has been feasting, Pori keeps setting the table",
+    "cached_at": "2026-10-11T14:37:33.251717+00:00"
+  },
+  "SB-0BFA6425": {
+    "title": "Palmeiras and Corinthians split the Derby Paulista",
+    "quip": "Allianz Parque draws end with four yellows and no joy",
+    "cached_at": "2026-10-11T14:37:33.251717+00:00"
+  },
+  "SB-CE2BD1E1": {
+    "title": "Flamengo and Fluminense draw the Fla-Flu",
+    "quip": "Maracan\u00e3 stalemate, both sets of fans equally furious",
+    "cached_at": "2026-10-11T14:37:33.251717+00:00"
+  },
+  "SB-8F90433A": {
+    "title": "Kocaelispor stun Be\u015fikta\u015f in Istanbul",
+    "quip": "the Black Eagles get mugged outside Vodafone Park",
+    "cached_at": "2026-10-11T14:37:33.251717+00:00"
+  },
+  "SB-777016BA": {
+    "title": "Afghanistan beat Bangladesh in the Test",
+    "quip": "Rashid Khan spinning a nation into the record books",
+    "cached_at": "2026-10-11T14:37:33.251717+00:00"
+  },
+  "SB-39C32398": {
+    "title": "Steelers handle the Colts at Acrisure tonight",
+    "quip": "Tomlin has never had a losing season, and Indy knows it",
+    "cached_at": "2026-10-11T14:37:39.829099+00:00"
   }
 }
