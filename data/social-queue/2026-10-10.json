@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-11T18:27:27.756021+00:00",
+          "tweet_id": "2109350180478759150",
+          "reply_tweet_id": "2109350182055748021"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "10813370",
+        "page": "https://www.pexels.com/photo/people-walking-on-snow-covered-road-10813370/",
+        "photographer": "Qingju Wen",
+        "license": "Pexels License",
+        "phrases": [
+          "snow city street dusk",
+          "empty parking lot fog"
+        ],
+        "tokens": {
+          "input_tokens": 3626,
+          "output_tokens": 28
         }
       }
     },
