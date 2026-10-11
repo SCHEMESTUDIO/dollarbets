@@ -1,0 +1,483 @@
+{
+  "generated_at": "2026-10-11T00:43:07.814697+00:00",
+  "market_count": 8,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 1
+  },
+  "board": [
+    {
+      "ticker": "KXEARTHQUAKEJAPAN-30",
+      "title": "Japan gets an 8.0 earthquake before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 3.23,
+      "tier": "yellow",
+      "quip": "Tokyo is built for this. Ohio closes school for one inch of snow",
+      "yes_price": "0.3100",
+      "volume": 45477.92,
+      "category": "Climate and Weather",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXEARTHQUAKEJAPAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 96.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "Godzilla finally gets an entrance worthy of the discography",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "my disaster kit is three Monster Energys and a phone charger i can't find",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Tokyo is built for this. Ohio closes school for one inch of snow",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "the plates are hungry",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "31 seconds of shaking and every vending machine in Tokyo apologizes personally",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"please remain calm and finish your ramen\" says the world's most composed voice",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "Japan versus the Pacific plate is the oldest rivalry game on the schedule",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "engineers in hard hats quietly running the greatest undefeated streak in human history",
+          "mode": 3,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNEXTOUTUS-26SEP28-KPAT",
+      "title": "Kash Patel is the first one out the door",
+      "subtitle": "HHS Secretary, Defense Secretary and FBI Director",
+      "yes_sub_title": "Kash Patel",
+      "no_sub_title": "Kash Patel",
+      "payout": 6.25,
+      "tier": "yellow",
+      "quip": "\"i'm not resigning. i'm spending more time with the files\"",
+      "yes_price": "0.1600",
+      "volume": 6672.27,
+      "category": "Politics",
+      "close_time": "2029-01-20T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNEXTOUTUS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 81.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "podcast mic shipped before the badge is even turned in",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i've held jobs this short and i leave them off the resume too",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "\"i'm not resigning. i'm spending more time with the files\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "first one voted off",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "like the Survivor guy who talked the most on day one",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "the Cabinet is a bullpen and this man is the opener",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "DC's real national sport is musical chairs with a security clearance",
+          "mode": 7,
+          "score": 6
+        },
+        {
+          "quip": "16 moving boxes in that office and 15 were never unpacked",
+          "mode": 5,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXOAIANTH-40-OAI",
+      "title": "OpenAI IPOs before Anthropic",
+      "subtitle": "Before 2040",
+      "yes_sub_title": "OpenAI",
+      "no_sub_title": "OpenAI",
+      "payout": 10.0,
+      "tier": "orange",
+      "quip": "the Yankees going public while the Rays explain their process",
+      "yes_price": "0.1000",
+      "volume": 203615.98,
+      "category": "Financials",
+      "close_time": "2040-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXOAIANTH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i will buy one share and be insufferable about it at Thanksgiving",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Sam rings the bell, the bell asks for equity",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "retail sprinting face first into the thing that already took their job",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "ticker GPT, obviously",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "Anthropic drafting a 40 page constitution about why they're not rushing",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "$10 a share, $10 trillion valuation, zero dollars of profit. numbers are decorative",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "the Yankees going public while the Rays explain their process",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we remain deeply concerned about safety,\" says man filing an S-1",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0xdaafa20f645d3e955dda3af50481ee3aebca3295f1d54b01452f99e69afa6e1c",
+      "title": "Capitals win the East in 2027",
+      "subtitle": "",
+      "payout": 11.11,
+      "tier": "orange",
+      "quip": "Washington gets one nice thing and of course it's the hockey team",
+      "yes_price": "0.0900",
+      "volume": 9994.409694000004,
+      "category": "Other",
+      "close_time": "2027-07-01T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/nhl-2027-eastern-conference-champion-20260630185127005",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "i am not emotionally prepared to watch Ovechkin cry on camera again",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the rat comes back and the rat gets a parade route",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "like squeezing one more good season out of a 41 year old power forward",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "DC briefly good, weirdly",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "Washington gets one nice thing and of course it's the hockey team",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "Gritty pacing his room like Michael Corleone at the end",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "Capital One Arena becomes the loudest building in America for nine entire days",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "$11.11 also the price of one arena beer, roughly, before tax",
+          "mode": 5,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26DEC",
+      "title": "US agrees to a new Iran nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Dec 1, 2026",
+      "no_sub_title": "Before Dec 1, 2026",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "the Fast and Furious franchise of foreign policy, somehow at part twelve",
+      "yes_price": "0.0700",
+      "volume": 274555.01,
+      "category": "Politics",
+      "close_time": "2026-12-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i stopped reading past the headline somewhere around the third one of these",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "\"the most beautiful centrifuges you have ever seen. and now they're ours\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "Witkoff books the Geneva Marriott on loyalty points again",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "diplomacy's rerun season",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "the Fast and Furious franchise of foreign policy, somehow at part twelve",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "signing this is a college coach signing an extension in November",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "honestly? peace would be a sick get",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "fourteenth draft, twenty nine footnotes, zero signatures",
+          "mode": 5,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA puts a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 24.39,
+      "tier": "red",
+      "quip": "boosters cost nine billion dollars, the ladder cost $24.39",
+      "yes_price": "0.0410",
+      "volume": 222651.42,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 129.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "flag lands in 2027, the astronauts show up sometime in 2031",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "i am calling out of work for this and i will not apologize",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Buzz Aldrin standing by to punch a guy live on air",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "ladder budget: unknowable",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "boosters cost nine billion dollars, the ladder cost $24.39",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "putting a guy on the moon rules. that's the entire take",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "like a rebuilding team promising a banner in two seasons, with better catering",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "nothing against the Mars people but you are losing and it's funny",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXMODELHIGH-27-1550-GROK",
+      "title": "Grok hits 1550 on Text Arena first",
+      "subtitle": "Before 2027",
+      "yes_sub_title": "Grok",
+      "no_sub_title": "Grok",
+      "payout": 50.0,
+      "tier": "red",
+      "quip": "this is Rocky IV except we're supposed to root for Drago",
+      "yes_price": "0.0200",
+      "volume": 21256.81,
+      "category": "Science and Technology",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 122.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "then i'd have to admit he was right about something and i refuse",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "victory post goes up at 4am and it's just a fire emoji",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "\"concerning,\" says Grok, grading its own homework",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "nerd olympics, Memphis edition",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "this is Rocky IV except we're supposed to root for Drago",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "the SEC team nobody respects until the scoreboard says 48",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "1550 points, 50 dollars, 5 lawsuits. the numbers all rhyme",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "other labs have safety teams. this one has a posting schedule",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26ISAIAS-T5",
+      "title": "Isaias becomes a Category 5 hurricane",
+      "subtitle": "Hurricane Isaias",
+      "yes_sub_title": "Category 5 or above",
+      "no_sub_title": "Category 5 or above",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "Jim Cantore shows up and the property values leave town",
+      "yes_price": "0.0100",
+      "volume": 27642.12,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 100.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Florida has had a couple quiet years. suspiciously quiet",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "i have never evacuated for anything and i know that's a character flaw",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Jim Cantore shows up and the property values leave town",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "Cat 5 season, apparently",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "185 mph winds and one gas station still selling plywood at $100 a sheet",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "a Cat 5 is the weather dropping a 60 burger in the Garden",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "meteorology's only real heavyweight division",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "\"this one's got a real angry look to it\" says man in a windbreaker",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    }
+  ]
+}

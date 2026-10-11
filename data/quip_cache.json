@@ -1,34 +1,4 @@
 {
-  "SB-D36F0E89": {
-    "title": "White Sox blow out Guardians by 8+ tonight",
-    "quip": "even the Rate Field fireworks guy forgot the code",
-    "cached_at": "2026-10-06T20:46:53.223653+00:00"
-  },
-  "SB-51971BC5": {
-    "title": "Doosan Bears take down LG Twins tonight",
-    "quip": "Jamsil landlords and tenants, same stadium, different mood",
-    "cached_at": "2026-10-06T20:47:06.392564+00:00"
-  },
-  "SB-DBE9FCEB": {
-    "title": "SSG Landers beat NC Dinos by two or more",
-    "quip": "Incheon crowd wants a cushion, not a coin flip",
-    "cached_at": "2026-10-06T20:47:06.392564+00:00"
-  },
-  "SB-DCBD2C34": {
-    "title": "West Indies stun India in T20",
-    "quip": "Calypso summer energy against a Suryakumar buzzsaw",
-    "cached_at": "2026-10-06T20:47:06.392564+00:00"
-  },
-  "SB-7BF0D022": {
-    "title": "Golden Knights sink the Kraken in Seattle",
-    "quip": "the tentacles still can't reach Eichl",
-    "cached_at": "2026-10-06T20:47:13.469178+00:00"
-  },
-  "SB-1DA466DD": {
-    "title": "Rangers handle the Islanders in the subway series",
-    "quip": "Shesterkin treats Belmont like a road trip",
-    "cached_at": "2026-10-06T20:47:13.469178+00:00"
-  },
   "SB-C0D0FF1F": {
     "title": "Dodgers handle Braves in Atlanta by two or more",
     "quip": "Ohtani doesn't do one-run games, he does statements",
@@ -888,5 +858,95 @@
     "title": "Senators knock off the Predators in Ottawa",
     "quip": "Tkachuk bullies a Nashville team already eyeing the draft",
     "cached_at": "2026-10-10T19:45:01.227439+00:00"
+  },
+  "SB-D9908536": {
+    "title": "Niners steal one in Seattle tonight",
+    "quip": "the 12s get quiet real fast after halftime",
+    "cached_at": "2026-10-11T00:43:21.502628+00:00"
+  },
+  "SB-A6CCD3B5": {
+    "title": "Hurricanes beat Flyers by two or more",
+    "quip": "Rod Brind'Amour's forecheck versus a Philly rebuild",
+    "cached_at": "2026-10-11T00:43:21.502628+00:00"
+  },
+  "SB-E4DA8D37": {
+    "title": "Golden Knights bury the Kings by two",
+    "quip": "the Fortress stays the Kings' least favorite address",
+    "cached_at": "2026-10-11T00:43:21.502628+00:00"
+  },
+  "SB-30953E25": {
+    "title": "Ducks handle Flames by two in Calgary",
+    "quip": "Cutter Gauthier is making the Saddledome awkward",
+    "cached_at": "2026-10-11T00:43:21.502628+00:00"
+  },
+  "SB-40A6CC2D": {
+    "title": "Canucks upset Rangers at the Garden",
+    "quip": "Quinn Hughes walks into Manhattan like he owns it",
+    "cached_at": "2026-10-11T00:43:21.502628+00:00"
+  },
+  "SB-DC979470": {
+    "title": "Liverpool and Man City split the points at Anfield",
+    "quip": "two heavyweights trading jabs, nobody hits the canvas",
+    "cached_at": "2026-10-11T00:43:21.502628+00:00"
+  },
+  "SB-B774E093": {
+    "title": "Guardians bludgeon White Sox by nine-plus",
+    "quip": "biblical flooding on the South Side, bring the ark",
+    "cached_at": "2026-10-11T00:43:21.502628+00:00"
+  },
+  "SB-19A401C4": {
+    "title": "Sabres stun the Mammoth in Buffalo",
+    "quip": "Tage Thompson vs an extinct animal, finally a fair fight",
+    "cached_at": "2026-10-11T00:43:27.885321+00:00"
+  },
+  "SB-C6799943": {
+    "title": "Besiktas and Kocaelispor grind out a low-scoring night",
+    "quip": "Besiktas attack still buffering at Vodafone Park",
+    "cached_at": "2026-10-11T00:43:38.381460+00:00"
+  },
+  "SB-8B5DFAC4": {
+    "title": "Adelaide stun the Kings in Sydney",
+    "quip": "36ers playing spoiler like it's their actual job",
+    "cached_at": "2026-10-11T00:43:38.381460+00:00"
+  },
+  "SB-25D666F9": {
+    "title": "Afghanistan beat Bangladesh in the Test",
+    "quip": "Rashid Khan turning a pitch into a crime scene",
+    "cached_at": "2026-10-11T00:43:38.381460+00:00"
+  },
+  "SB-6E658278": {
+    "title": "Bahdi knocks off Floyd Scholfield",
+    "quip": "Niagara Falls plumber swinging for the fences again",
+    "cached_at": "2026-10-11T00:43:38.381460+00:00"
+  },
+  "SB-2EE4F944": {
+    "title": "Flames keep it close with the Ducks tonight",
+    "quip": "two rebuilds staring at each other in the Saddledome mirror",
+    "cached_at": "2026-10-11T00:43:47.928175+00:00"
+  },
+  "SB-B0B5A677": {
+    "title": "Broncos win in LA tonight",
+    "quip": "Bo Nix keeps renting space in Herbert's head",
+    "cached_at": "2026-10-11T00:43:47.928175+00:00"
+  },
+  "SB-6129BE28": {
+    "title": "Commanders handle the Giants tonight",
+    "quip": "the NFC East's annual gift exchange, FedEx edition",
+    "cached_at": "2026-10-11T00:43:47.928175+00:00"
+  },
+  "SB-01B032B5": {
+    "title": "Golden Knights beat the Kings in Vegas",
+    "quip": "Eichel on the strip, house edge included",
+    "cached_at": "2026-10-11T00:43:47.928175+00:00"
+  },
+  "SB-4B1A69E2": {
+    "title": "Flyers hang tough against the Hurricanes",
+    "quip": "Tortorella teams don't get blown out, they get loud",
+    "cached_at": "2026-10-11T00:43:47.928175+00:00"
+  },
+  "SB-4E5381CA": {
+    "title": "Wild beat Panthers by two or more",
+    "quip": "Kaprizov walking into the Stanley Cup banner raising unimpressed",
+    "cached_at": "2026-10-11T00:43:47.928175+00:00"
   }
 }
