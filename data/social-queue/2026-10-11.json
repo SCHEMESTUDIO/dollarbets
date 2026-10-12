@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-12T06:18:22.816131+00:00",
+          "tweet_id": "2109529088847192383",
+          "reply_tweet_id": "2109529090872991864"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "6451424",
+        "page": "https://www.pexels.com/photo/an-electric-post-at-night-6451424/",
+        "photographer": "Intricate Explorer",
+        "license": "Pexels License",
+        "phrases": [
+          "Tokyo skyline night rain",
+          "seismograph needle paper dark room"
+        ],
+        "tokens": {
+          "input_tokens": 4105,
+          "output_tokens": 35
         }
       }
     },
