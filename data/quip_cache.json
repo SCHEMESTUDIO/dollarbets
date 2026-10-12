@@ -1,74 +1,4 @@
 {
-  "SB-C10BC58A": {
-    "title": "Penguins steal one in Washington tonight",
-    "quip": "Crosby still does this to Ovechkin's building",
-    "cached_at": "2026-10-07T20:59:27.721306+00:00"
-  },
-  "SB-792310C1": {
-    "title": "Jets beat the Avalanche in Winnipeg",
-    "quip": "Hellebuyck turns MacKinnon's highlight reel into a screensaver",
-    "cached_at": "2026-10-07T20:59:27.721306+00:00"
-  },
-  "SB-99E3C284": {
-    "title": "New Mexico State upsets FIU on the road",
-    "quip": "Aggies treating Miami like a bowl game audition",
-    "cached_at": "2026-10-07T20:59:27.721306+00:00"
-  },
-  "SB-2FC6352E": {
-    "title": "Utah Mammoth win by two-plus in Boston",
-    "quip": "an extinct animal stomping the Garden, somehow on brand",
-    "cached_at": "2026-10-07T20:59:27.721306+00:00"
-  },
-  "SB-C10EEA47": {
-    "title": "Yankees blow out the Rays by six",
-    "quip": "Judge turning a Tampa bullpen day into batting practice",
-    "cached_at": "2026-10-07T20:59:27.721306+00:00"
-  },
-  "SB-D30A5AA2": {
-    "title": "Fr\u00f6lunda skate past Timr\u00e5 by two or more",
-    "quip": "Gothenburg's trophy cabinet needs dusting anyway",
-    "cached_at": "2026-10-07T20:59:49.968206+00:00"
-  },
-  "SB-F420B7F9": {
-    "title": "Gr\u00eamio win at Remo tonight",
-    "quip": "the Imortal remembering it has a nickname to defend",
-    "cached_at": "2026-10-07T20:59:49.968206+00:00"
-  },
-  "SB-1747CBCB": {
-    "title": "Bragantino and Mirassol settle for a draw",
-    "quip": "two interior S\u00e3o Paulo sides agreeing to disagree",
-    "cached_at": "2026-10-07T20:59:49.968206+00:00"
-  },
-  "SB-D71432D7": {
-    "title": "Avalanche take down the Jets in Winnipeg",
-    "quip": "MacKinnon turns Hellebuyck into a highlight reel extra",
-    "cached_at": "2026-10-07T20:59:59.910470+00:00"
-  },
-  "SB-8BCDAA22": {
-    "title": "RJ Harris clears Allen Frye by a wide margin",
-    "quip": "Frye brought a gameplan, Harris brought a clock",
-    "cached_at": "2026-10-07T20:59:59.910470+00:00"
-  },
-  "SB-8F6939FC": {
-    "title": "Leafs keep it close in Vegas",
-    "quip": "losing by one is practically a Toronto tradition",
-    "cached_at": "2026-10-07T20:59:59.910470+00:00"
-  },
-  "SB-D67BDD48": {
-    "title": "Zheleznyakova goes the distance with Pereira",
-    "quip": "Pereira wins rounds, not the stoppage bonus",
-    "cached_at": "2026-10-07T20:59:59.910470+00:00"
-  },
-  "SB-4FEA90B0": {
-    "title": "Capitals beat the Penguins in Washington",
-    "quip": "Ovechkin still owns this rivalry's deed",
-    "cached_at": "2026-10-07T20:59:59.910470+00:00"
-  },
-  "SB-9EF1FDA1": {
-    "title": "Predators keep it tight in Montreal",
-    "quip": "Bell Centre crowd gets a nail-biter, not a party",
-    "cached_at": "2026-10-07T20:59:59.910470+00:00"
-  },
   "SB-8FDD16A5": {
     "title": "Guardians beat White Sox by two or more",
     "quip": "the South Side bullpen keeps donating to charity",
@@ -1008,5 +938,75 @@
     "title": "Colts stay within striking distance in Pittsburgh",
     "quip": "Jonathan Taylor keeps the clock away from Rodgers",
     "cached_at": "2026-10-11T19:54:52.391167+00:00"
+  },
+  "SB-D21AB179": {
+    "title": "Brentford and Liverpool trade four-plus goals tonight",
+    "quip": "the Gtech wind tunnel eats clean sheets for breakfast",
+    "cached_at": "2026-10-12T01:01:32.577159+00:00"
+  },
+  "SB-75E25BAD": {
+    "title": "Bills beat the Rams in LA",
+    "quip": "Josh Allen outdoors in January is a different animal",
+    "cached_at": "2026-10-12T01:01:32.577159+00:00"
+  },
+  "SB-72560F6B": {
+    "title": "Devils beat Senators by two or more",
+    "quip": "Hughes brothers treating Ottawa like a shootout drill",
+    "cached_at": "2026-10-12T01:01:32.577159+00:00"
+  },
+  "SB-519E0265": {
+    "title": "Sabres beat Panthers by two or more",
+    "quip": "Buffalo finally remembers it has Tage Thompson",
+    "cached_at": "2026-10-12T01:01:32.577159+00:00"
+  },
+  "SB-675E7728": {
+    "title": "Chargers stun the Chiefs at Arrowhead",
+    "quip": "Herbert's hair earns its first Arrowhead statue",
+    "cached_at": "2026-10-12T01:01:32.577159+00:00"
+  },
+  "SB-77F58A1C": {
+    "title": "Guardians blow out Rays by five",
+    "quip": "Jos\u00e9 Ram\u00edrez turning a spring-training ballpark into batting practice",
+    "cached_at": "2026-10-12T01:01:32.577159+00:00"
+  },
+  "SB-C5A57A65": {
+    "title": "Brewers bury the Dodgers by five",
+    "quip": "Bernie's slide becomes a full waterslide of payroll tears",
+    "cached_at": "2026-10-12T01:01:32.577159+00:00"
+  },
+  "SB-6CEBC68F": {
+    "title": "Slovan Bratislava stun Stuttgart in Europe tonight",
+    "quip": "Teheln\u00e9 pole hasn't tasted blood since the Soviet era",
+    "cached_at": "2026-10-12T01:01:38.590188+00:00"
+  },
+  "SB-8B97111C": {
+    "title": "Roughriders steal one in Montreal tonight",
+    "quip": "Rider Nation travels better than the Alouettes draw fans",
+    "cached_at": "2026-10-12T01:01:47.095316+00:00"
+  },
+  "SB-147B3D9A": {
+    "title": "Coritiba and Botafogo grind out a draw",
+    "quip": "Couto Pereira nil-nil, the national dish of survival football",
+    "cached_at": "2026-10-12T01:01:47.095316+00:00"
+  },
+  "SB-7BBFB887": {
+    "title": "Chapecoense upset Atletico Paranaense at home",
+    "quip": "Arena Conda still believes in the comeback story",
+    "cached_at": "2026-10-12T01:01:47.095316+00:00"
+  },
+  "SB-AAA6BAF9": {
+    "title": "Panthers stay within a goal in Buffalo",
+    "quip": "Bobrovsky rarely lets things get embarrassing",
+    "cached_at": "2026-10-12T01:01:54.608811+00:00"
+  },
+  "SB-381723B8": {
+    "title": "Rams handle the Bills in LA",
+    "quip": "Stafford at home in January weather that isn't",
+    "cached_at": "2026-10-12T01:01:54.608811+00:00"
+  },
+  "SB-834F890D": {
+    "title": "Rays take care of the Guardians",
+    "quip": "Cleveland bats still searching for the ball",
+    "cached_at": "2026-10-12T01:01:54.608811+00:00"
   }
 }

@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-10-12T01:01:20.485381+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 3
+  },
+  "board": [
+    {
+      "ticker": "KXUTSKIVISITS-27JUL31-T6000000",
+      "title": "Utah tops 6 million skier visits this season",
+      "subtitle": "the 2026\u201327 ski season",
+      "yes_sub_title": "Above 6,000,000 skier visits",
+      "no_sub_title": "Above 6,000,000 skier visits",
+      "payout": 2.5,
+      "tier": "green",
+      "quip": "6 million visitors, 4 parking spots, one gondola stuck at tower twelve",
+      "yes_price": "0.4000",
+      "volume": 6512.7,
+      "category": "Economics",
+      "close_time": "2027-07-31T15:29:00Z",
+      "url": "https://kalshi.com/markets/KXUTSKIVISITS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 61.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "Little Cottonwood road becomes a 3 hour parking lot with a view",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i paid $42 for a chicken tender basket at Snowbird and said thank you",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Colorado can keep its $300 tickets and its wind",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "greatest snow on earth, allegedly",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "6 million visitors, 4 parking spots, one gondola stuck at tower twelve",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "this is the Costco of mountains and i mean that lovingly",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "skiing is so back and my knees are so not",
+          "mode": 3,
+          "score": 3.5
+        },
+        {
+          "quip": "a Big Ten stadium where everyone is wearing goggles and a Patagonia",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXMARSVRAIL-50",
+      "title": "Humans reach Mars before California's high-speed rail",
+      "subtitle": "Before 2050",
+      "yes_sub_title": "Before 2050",
+      "no_sub_title": "Before 2050",
+      "payout": 2.86,
+      "tier": "green",
+      "quip": "Bakersfield to Merced opens in 2061 and it's a bus",
+      "yes_price": "0.3500",
+      "volume": 16719.17,
+      "category": "Science and Technology",
+      "close_time": "2050-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXMARSVRAIL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 61.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "Bakersfield to Merced opens in 2061 and it's a bus",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "i will be 62 years old and still driving the 5 like a chump",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Mars has fewer environmental reviews",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "Total Recall came out in 1990 and we picked the wrong half",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "the Fresno station is a napkin drawing in a Sacramento drawer",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "135 billion dollars spent and the train still begins in Merced",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "i'd take a shuttle to Phobos before i sit on the 405 again",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "\"now boarding for Olympus Mons. Gilroy service remains delayed\"",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXEARTHQUAKECALIFORNIA-35",
+      "title": "California gets an 8.0 earthquake before 2035",
+      "subtitle": "Before 2035",
+      "yes_sub_title": "Before 2035",
+      "no_sub_title": "Before 2035",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "the last one paused a World Series game. the A's swept anyway",
+      "yes_price": "0.3400",
+      "volume": 28857.74,
+      "category": "Climate and Weather",
+      "close_time": "2035-12-31T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXEARTHQUAKECALIFORNIA?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 76.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "Malibu listings quietly updated to oceanfront, truly oceanfront",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i keep a gallon of water, a flashlight, and absolutely no plan",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "San Andreas finally texts back",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "The Rock already handled this and he brought a boat",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "San Francisco rebuilds, permitting wraps up sometime around 2061",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "that fault has been loading up for a century. respect the patience",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "they'll call it 8.0, my Burbank apartment is rating it a twelve",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "the last one paused a World Series game. the A's swept anyway",
+          "mode": 6,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "ticker": "KXDETSNOWM-26DEC-12",
+      "title": "Detroit gets over a foot of snow this December",
+      "subtitle": "In Dec 2026",
+      "yes_sub_title": "Above 12 inches",
+      "no_sub_title": "Above 12 inches",
+      "payout": 3.12,
+      "tier": "yellow",
+      "quip": "Detroit has survived worse Decembers and most of them were football",
+      "yes_price": "0.3200",
+      "volume": 301.0,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXDETSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 69.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "every Michigander posts the identical driveway photo within nine minutes",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i have shoveled exactly once in my life and felt like a Viking",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "salt trucks, hero's welcome",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "Fargo, but the accents are worse and the Coney is better",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "twelve inches is a Tuesday up there. wake me at forty",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Detroit has survived worse Decembers and most of them were football",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "a foot of snow on Detroit is just the city exhaling",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "like asking whether the Yankees will spend money",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0xc37f85182c9f8e6a25d9ac915e350f29ec6abd34adcfc75b42235214fcf1a8fd",
+      "title": "Kristi Noem exits the Trump administration before 2027",
+      "subtitle": "",
+      "payout": 3.47,
+      "tier": "yellow",
+      "quip": "\"Kristi was incredible. tremendous person. i barely knew her\"",
+      "yes_price": "0.2885",
+      "volume": 98734.74356300003,
+      "category": "World",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/who-will-leave-trump-administration-before-2027",
+      "platform": "polymarket",
+      "score": 53.0,
+      "quip_alts": [
+        {
+          "quip": "the podcast studio is already framed out in a hangar somewhere",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i could not name one thing DHS accomplished this year and neither can you",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "cabinet turnover: the sequel",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "\"Kristi was incredible. tremendous person. i barely knew her\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "the Apprentice except the boardroom has a federal seal on the wall",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "coordinator leaves for a head coaching job nobody else applied to",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "my parents still think of her as the South Dakota tourism ad lady",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "twenty two months in, three Scaramuccis short of the record",
+          "mode": 5,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNFLALLPRO-271STDEF-MGARRETT95",
+      "title": "Myles Garrett makes All-Pro first team defense",
+      "subtitle": "1st Team Defense (2026-27)",
+      "yes_sub_title": "Myles Garrett",
+      "no_sub_title": "Myles Garrett",
+      "payout": 5.0,
+      "tier": "yellow",
+      "quip": "Browns go 4-13 and he gets a parade down Euclid anyway",
+      "yes_price": "0.2000",
+      "volume": 10.8,
+      "category": "Sports",
+      "close_time": "2027-02-22T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNFLALLPRO?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 56.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "Browns go 4-13 and he gets a parade down Euclid anyway",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "i would watch a full show of just him folding offensive tackles",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "the only Cleveland thing working",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "a Ferrari parked permanently in a Sam's Club lot",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "272 pounds moving like that is genuinely against the rules of biology",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "quarterbacks come and go in Cleveland, the sack total is eternal",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "102 career sacks, zero playoff wins, one very tired man",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "i open Browns box scores only to see what he did",
+          "mode": 2,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26DEC",
+      "title": "The US and Iran sign a nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Dec 1, 2026",
+      "no_sub_title": "Before Dec 1, 2026",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "the Jets of diplomacy. annual optimism, identical result",
+      "yes_price": "0.0700",
+      "volume": 275322.45,
+      "category": "Politics",
+      "close_time": "2026-12-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 115.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Witkoff unlocks another frequent flyer tier and nothing else",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i have reset my expectations so many times the button came off",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "centrifuges, but make it ceremonial",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "\"we have a deal. the best deal. nobody has read it\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "this is the Lost finale of foreign policy, all flashbacks no answers",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "the Jets of diplomacy. annual optimism, identical result",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "seven cents and forty six years of absolutely nothing",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "if this actually lands i'm buying shawarma for the whole floor",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXMODELHIGH-27-1550-CHAT",
+      "title": "ChatGPT hits 1550 on Text Arena first",
+      "subtitle": "Before 2027",
+      "yes_sub_title": "ChatGPT",
+      "no_sub_title": "ChatGPT",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "1550 is an SAT score and i personally topped out at 1180",
+      "yes_price": "0.0700",
+      "volume": 40107.91,
+      "category": "Science and Technology",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 114.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Altman posts one lowercase word and three stocks move four percent",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i asked it to write my best man toast and my aunt cried",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the default wins again",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "the Patriots taking the AFC East for the nineteenth time",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "1550 is an SAT score and i personally topped out at 1180",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "Gemini guys back to posting bar charts nobody requested",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"as a large language model, i am humbled, honored, and insufferable\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "1550 points, seven cents, zero personality",
+          "mode": 5,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x8452ab75745818363066cb7ccca1accedb926eb71c3098cc5458395bcbf65c3f",
+      "title": "Lovable gets acquired before 2027",
+      "subtitle": "",
+      "payout": 22.47,
+      "tier": "red",
+      "quip": "every startup is named like a mattress company now",
+      "yes_price": "0.0445",
+      "volume": 992983.3151690003,
+      "category": "Other",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/which-companies-will-be-acquired-before-2027",
+      "platform": "polymarket",
+      "score": 65.0,
+      "quip_alts": [
+        {
+          "quip": "acquired Monday, sunset email Friday, your app gone by Lent",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i built an app called hi with it and shipped literally nothing",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "swedish exit, american price tag",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "every startup is named like a mattress company now",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "a Swedish winger bought by City and immediately loaned to Girona",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "a company called Lovable getting bought is the most 2026 sentence available",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "four cents on a thing that turns a prompt into Squarespace",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "i have four abandoned projects in there and one is a wedding site",
+          "mode": 2,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0xa6483210e84d0b7709b1476a0cb9d14abb9b40a050c511584718ad563ad5db3e",
+      "title": "Alexandru Rogobete becomes Romania's next prime minister",
+      "subtitle": "",
+      "payout": 68.97,
+      "tier": "purple",
+      "quip": "the payout is 69 dollars and that is the only part i understood",
+      "yes_price": "0.0145",
+      "volume": 98766.691214,
+      "category": "Other",
+      "close_time": "2028-01-01T04:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/next-prime-minister-of-romania-732",
+      "platform": "polymarket",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "i have now googled a Romanian health minister. this is my life",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Bucharest, chaos as usual",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "his Wikipedia page gets edited four hundred times before sunrise",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "a 15 seed walking into the Sweet Sixteen of European politics",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "the payout is 69 dollars and that is the only part i understood",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "Romania swaps prime ministers like a man swaps shirts and honestly, respect",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "Romanian PMs now have shorter runs than Spider-Man reboots",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Romanian politics, where the cabinet is a group project nobody finished",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    }
+  ]
+}

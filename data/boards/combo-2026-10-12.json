@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-10-12T01:02:00.570920+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "NCAAF": 6,
+    "Multi": 4
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-5828A569",
+      "title": "Georgia Southern Eagles wins + Tulsa Golden Hurricane wins",
+      "payout": 2.44,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613676422&selectionId=3296868",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Georgia Southern Eagles @ Old Dominion Monarchs + Tulsa Golden Hurricane @ Rice Owls",
+      "market_type": "2-leg parlay",
+      "american_odds": 144,
+      "implied_probability": 0.41,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Georgia Southern Eagles @ Old Dominion Monarchs",
+          "pick": "Georgia Southern Eagles wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613676422&selectionId=3296868",
+          "commence_time": "2026-10-15T23:30:00Z"
+        },
+        {
+          "matchup": "Tulsa Golden Hurricane @ Rice Owls",
+          "pick": "Tulsa Golden Hurricane wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613741688&selectionId=612810",
+          "commence_time": "2026-10-17T20:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-15T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-9E461BEB",
+      "title": "Georgia Southern Eagles wins + Houston Cougars wins",
+      "payout": 2.44,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613676422&selectionId=3296868",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Georgia Southern Eagles @ Old Dominion Monarchs + Oklahoma State Cowboys @ Houston Cougars",
+      "market_type": "2-leg parlay",
+      "american_odds": 144,
+      "implied_probability": 0.41,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Georgia Southern Eagles @ Old Dominion Monarchs",
+          "pick": "Georgia Southern Eagles wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613676422&selectionId=3296868",
+          "commence_time": "2026-10-15T23:30:00Z"
+        },
+        {
+          "matchup": "Oklahoma State Cowboys @ Houston Cougars",
+          "pick": "Houston Cougars wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613684394&selectionId=36045494",
+          "commence_time": "2026-10-17T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-15T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-7321979C",
+      "title": "Tulsa Golden Hurricane wins + Houston Cougars wins",
+      "payout": 2.44,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613741688&selectionId=612810",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Tulsa Golden Hurricane @ Rice Owls + Oklahoma State Cowboys @ Houston Cougars",
+      "market_type": "2-leg parlay",
+      "american_odds": 144,
+      "implied_probability": 0.41,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tulsa Golden Hurricane @ Rice Owls",
+          "pick": "Tulsa Golden Hurricane wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613741688&selectionId=612810",
+          "commence_time": "2026-10-17T20:30:00Z"
+        },
+        {
+          "matchup": "Oklahoma State Cowboys @ Houston Cougars",
+          "pick": "Houston Cougars wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613684394&selectionId=36045494",
+          "commence_time": "2026-10-17T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T20:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-7A89CE1C",
+      "title": "Los Angeles Rams wins + Georgia Southern Eagles wins",
+      "payout": 2.45,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612291277&selectionId=10782388",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Buffalo Bills @ Los Angeles Rams + Georgia Southern Eagles @ Old Dominion Monarchs",
+      "market_type": "2-leg parlay",
+      "american_odds": 145,
+      "implied_probability": 0.408,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Buffalo Bills @ Los Angeles Rams",
+          "pick": "Los Angeles Rams wins",
+          "odds": -176,
+          "implied_prob": "64%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612291277&selectionId=10782388",
+          "commence_time": "2026-10-13T00:15:00Z"
+        },
+        {
+          "matchup": "Georgia Southern Eagles @ Old Dominion Monarchs",
+          "pick": "Georgia Southern Eagles wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613676422&selectionId=3296868",
+          "commence_time": "2026-10-15T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-13T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-7893AFBB",
+      "title": "Los Angeles Rams wins + Tulsa Golden Hurricane wins",
+      "payout": 2.45,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612291277&selectionId=10782388",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Buffalo Bills @ Los Angeles Rams + Tulsa Golden Hurricane @ Rice Owls",
+      "market_type": "2-leg parlay",
+      "american_odds": 145,
+      "implied_probability": 0.408,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Buffalo Bills @ Los Angeles Rams",
+          "pick": "Los Angeles Rams wins",
+          "odds": -176,
+          "implied_prob": "64%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612291277&selectionId=10782388",
+          "commence_time": "2026-10-13T00:15:00Z"
+        },
+        {
+          "matchup": "Tulsa Golden Hurricane @ Rice Owls",
+          "pick": "Tulsa Golden Hurricane wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613741688&selectionId=612810",
+          "commence_time": "2026-10-17T20:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-13T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-A633A9B7",
+      "title": "Los Angeles Rams wins + Houston Cougars wins",
+      "payout": 2.45,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.41",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612291277&selectionId=10782388",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Buffalo Bills @ Los Angeles Rams + Oklahoma State Cowboys @ Houston Cougars",
+      "market_type": "2-leg parlay",
+      "american_odds": 145,
+      "implied_probability": 0.408,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Buffalo Bills @ Los Angeles Rams",
+          "pick": "Los Angeles Rams wins",
+          "odds": -176,
+          "implied_prob": "64%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612291277&selectionId=10782388",
+          "commence_time": "2026-10-13T00:15:00Z"
+        },
+        {
+          "matchup": "Oklahoma State Cowboys @ Houston Cougars",
+          "pick": "Houston Cougars wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613684394&selectionId=36045494",
+          "commence_time": "2026-10-17T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-13T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-EE272FF3",
+      "title": "Kennesaw State Owls wins + Georgia Southern Eagles wins",
+      "payout": 2.47,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613674800&selectionId=20336927",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Kennesaw State Owls @ Missouri State Bears + Georgia Southern Eagles @ Old Dominion Monarchs",
+      "market_type": "2-leg parlay",
+      "american_odds": 147,
+      "implied_probability": 0.404,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Kennesaw State Owls @ Missouri State Bears",
+          "pick": "Kennesaw State Owls wins",
+          "odds": -172,
+          "implied_prob": "63%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613674800&selectionId=20336927",
+          "commence_time": "2026-10-14T23:30:00Z"
+        },
+        {
+          "matchup": "Georgia Southern Eagles @ Old Dominion Monarchs",
+          "pick": "Georgia Southern Eagles wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613676422&selectionId=3296868",
+          "commence_time": "2026-10-15T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-14T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-D8181572",
+      "title": "Kennesaw State Owls wins + Tulsa Golden Hurricane wins",
+      "payout": 2.47,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613674800&selectionId=20336927",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Kennesaw State Owls @ Missouri State Bears + Tulsa Golden Hurricane @ Rice Owls",
+      "market_type": "2-leg parlay",
+      "american_odds": 147,
+      "implied_probability": 0.404,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Kennesaw State Owls @ Missouri State Bears",
+          "pick": "Kennesaw State Owls wins",
+          "odds": -172,
+          "implied_prob": "63%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613674800&selectionId=20336927",
+          "commence_time": "2026-10-14T23:30:00Z"
+        },
+        {
+          "matchup": "Tulsa Golden Hurricane @ Rice Owls",
+          "pick": "Tulsa Golden Hurricane wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613741688&selectionId=612810",
+          "commence_time": "2026-10-17T20:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-14T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-60643E4C",
+      "title": "Kennesaw State Owls wins + Houston Cougars wins",
+      "payout": 2.47,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613674800&selectionId=20336927",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Kennesaw State Owls @ Missouri State Bears + Oklahoma State Cowboys @ Houston Cougars",
+      "market_type": "2-leg parlay",
+      "american_odds": 147,
+      "implied_probability": 0.404,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Kennesaw State Owls @ Missouri State Bears",
+          "pick": "Kennesaw State Owls wins",
+          "odds": -172,
+          "implied_prob": "63%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613674800&selectionId=20336927",
+          "commence_time": "2026-10-14T23:30:00Z"
+        },
+        {
+          "matchup": "Oklahoma State Cowboys @ Houston Cougars",
+          "pick": "Houston Cougars wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613684394&selectionId=36045494",
+          "commence_time": "2026-10-17T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-14T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-CA363AC5",
+      "title": "Petr Yan wins + Georgia Southern Eagles wins",
+      "payout": 2.47,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.600461378&selectionId=19289678",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Merab Dvalishvili @ Petr Yan + Georgia Southern Eagles @ Old Dominion Monarchs",
+      "market_type": "2-leg parlay",
+      "american_odds": 147,
+      "implied_probability": 0.404,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Merab Dvalishvili @ Petr Yan",
+          "pick": "Petr Yan wins",
+          "odds": -172,
+          "implied_prob": "63%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.600461378&selectionId=19289678",
+          "commence_time": "2026-10-25T03:30:00Z"
+        },
+        {
+          "matchup": "Georgia Southern Eagles @ Old Dominion Monarchs",
+          "pick": "Georgia Southern Eagles wins",
+          "odds": -178,
+          "implied_prob": "64%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613676422&selectionId=3296868",
+          "commence_time": "2026-10-15T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-15T23:30:00Z"
+    }
+  ]
+}
