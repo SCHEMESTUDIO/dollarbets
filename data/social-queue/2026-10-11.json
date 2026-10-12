@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-12T21:52:12.276456+00:00",
+          "tweet_id": "2109764093330497686",
+          "reply_tweet_id": "2109764095217971694"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "19984928",
+        "page": "https://www.pexels.com/photo/viaduct-over-roads-in-birds-eye-view-19984928/",
+        "photographer": "Joem Castillo",
+        "license": "Pexels License",
+        "phrases": [
+          "empty negotiation room table dusk",
+          "desert highway night headlights"
+        ],
+        "tokens": {
+          "input_tokens": 3634,
+          "output_tokens": 32
         }
       }
     },
