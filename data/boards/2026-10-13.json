@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-10-13T02:53:28.618728+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 3
+  },
+  "board": [
+    {
+      "ticker": "KXGTEMP-27-P0",
+      "title": "2026 becomes the hottest year on record",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Hottest",
+      "no_sub_title": "Hottest",
+      "payout": 1.67,
+      "tier": "green",
+      "quip": "67 cents of this payout goes straight to my electric bill, the rest to ice",
+      "yes_price": "0.6000",
+      "volume": 28487.45,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXGTEMP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 61.0,
+      "_specificity": 5,
+      "quip_alts": [
+        {
+          "quip": "my window AC unit has started leaving passive aggressive notes",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "i bought a second fan in February and that is my whole personality now",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "Phoenix residents cooking eggs on the sidewalk, now as a primary food source",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "every year wins this",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "the Day After Tomorrow guy was just a little early and a lot wetter",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "67 cents of this payout goes straight to my electric bill, the rest to ice",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "\"folks, it's a beautiful heat. people are saying the best heat anyone's ever seen\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "records exist to be broken and right now the planet is HIM",
+          "mode": 3,
+          "score": 3.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXROBOTMARS-35",
+      "title": "A robot walks on Mars before any human does",
+      "subtitle": "Before 2035",
+      "yes_sub_title": "Before 2035",
+      "no_sub_title": "Before 2035",
+      "payout": 2.04,
+      "tier": "green",
+      "quip": "like sending the kicker out alone for the coin toss and the handshake",
+      "yes_price": "0.4900",
+      "volume": 56197.29,
+      "category": "Science and Technology",
+      "close_time": "2035-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXROBOTMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 77.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "robot plants the flag, posts about it, then starts organizing the other robots",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "i will watch this live from my couch with a Capri Sun and zero contribution",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "Wall-E was a documentary, we just watched it out of order",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "small step for a toaster",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "like sending the kicker out alone for the coin toss and the handshake",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"mars log, sol one. nobody here. charging. will advise\"",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "honestly the robot earned it, it never once complained about the food on the way",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "2035 and i will be 47, still never having left the eastern time zone",
+          "mode": 5,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x664ee9273e1d3abec2062eb93efc84a3574ecf39ce353bc551cc1b6d2a7c82d2",
+      "title": "Cowboys and Eagles go over 54.5 points",
+      "subtitle": "",
+      "payout": 2.11,
+      "tier": "green",
+      "quip": "basically an Arena League game with better helmets and worse feelings",
+      "yes_price": "0.4740",
+      "volume": 9870.0,
+      "category": "Other",
+      "close_time": "2026-10-27T00:15:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/nfl-dal-phi-2026-10-27",
+      "platform": "polymarket",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "both defenses quietly leaving at halftime to go get a cheesesteak",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i have never once correctly guessed whether a football game would be loud",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "Dallas hangs 31 and somehow it still feels exactly like 1996 in there",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "points. so many points",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "55 total points and 54 of them arrive after the outcome is decided",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "basically an Arena League game with better helmets and worse feelings",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "this is the Fast Five of NFC East games and i am seated",
+          "mode": 8,
+          "score": 6.5
+        },
+        {
+          "quip": "a division game where nobody plays defense is the purest American art form",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXBOSSNOWM-26DEC-10",
+      "title": "Boston gets over 10 inches of snow next December",
+      "subtitle": "In Dec 2026",
+      "yes_sub_title": "Above 10 inches",
+      "no_sub_title": "Above 10 inches",
+      "payout": 3.03,
+      "tier": "yellow",
+      "quip": "a guy named Sully guarding a public parking spot with a lawn chair he found",
+      "yes_price": "0.3300",
+      "volume": 1501.66,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXBOSSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 69.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "the Dunkin parking lot becomes lawless territory by roughly 9am",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i owned a snow shovel for six years and used it twice, both times badly",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "a guy named Sully guarding a public parking spot with a lawn chair he found",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "space savers deployed. defcon one",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "\"ten inches? that's a dustin'. we played hockey in worse in seventy eight\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "like a Bills tailgate except it is the whole city and i am not invited",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "the Storm of the Century, if the century had any standards left",
+          "mode": 8,
+          "score": 6.5
+        },
+        {
+          "quip": "snow in Boston is the only weather in America that comes with its own accent",
+          "mode": 3,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x00714f5e3081d0ef7fcfcf0b02f839e2579f8a1d1a4208e97ff47d56f924ff1e",
+      "title": "Ethereum climbs back to $4K by 2027",
+      "subtitle": "",
+      "payout": 4.26,
+      "tier": "yellow",
+      "quip": "the Mets of crypto. it happens eventually, always later than promised",
+      "yes_price": "0.2350",
+      "volume": 9846.216953000001,
+      "category": "Crypto",
+      "close_time": "2027-04-01T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/when-will-ethereum-hit-4k",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "i still have a MetaMask seed phrase on a Chipotle napkin in a drawer somewhere",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the Miami Lambo showroom quietly turning the lights back on",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "vitalik eats a salad",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "a $4000 coin with a $4.26 payout. the numbers are talking to me",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "the Mets of crypto. it happens eventually, always later than promised",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "a coin grinding back from the dead is the most inspirational thing in finance",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "\"it's not a currency, it's a world computer.\" right. okay. sure. cool\"",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "Gatsby out on the lawn staring at one green candle across the bay",
+          "mode": 8,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXNFLALLPRO-271STDEF-MGARRETT95",
+      "title": "Myles Garrett makes All-Pro first team defense",
+      "subtitle": "1st Team Defense (2026-27)",
+      "yes_sub_title": "Myles Garrett",
+      "no_sub_title": "Myles Garrett",
+      "payout": 5.0,
+      "tier": "yellow",
+      "quip": "Cleveland's only functioning department",
+      "yes_price": "0.2000",
+      "volume": 10.8,
+      "category": "Sports",
+      "close_time": "2027-02-22T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNFLALLPRO?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 48.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "i watch Browns games exclusively to see one man ruin somebody's afternoon",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "an offensive coordinator wakes at 3am whispering the word chip to nobody",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "Cleveland's only functioning department",
+          "mode": 9,
+          "score": 9
+        },
+        {
+          "quip": "20 sacks, 4 wins, 0 explanations",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "the Giannis situation. generational human being, nothing around him but fog",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "a man doing this on a four win team makes me want to lie down",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "Thanos energy, wasted entirely inside a Chuck E Cheese",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "\"trade request? i never said that. i said i love Cleveland in February\"",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "STARSHIPMARS-29DEC31",
+      "title": "Starship sends humans to Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Not Before 2030",
+      "payout": 7.14,
+      "tier": "orange",
+      "quip": "crew of four, three of them content creators, one guy who can actually land",
+      "yes_price": "0.1400",
+      "volume": 54183.18,
+      "category": "Companies",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i cannot get a package out of Memphis in four days but sure, Mars",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "crew lands, immediately gets a push notification about a software update",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "four years. sure. yep",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we are targeting 2028, which on my personal calendar means 2041\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "like the friend who texts five minutes out and shows up on a Tuesday",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "Interstellar, except the docking scene is a Zoom call with legal",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "if anybody is doing this on pure delusion it is these guys and i respect it",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "crew of four, three of them content creators, one guy who can actually land",
+          "mode": 5,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26DEC",
+      "title": "The US and Iran sign a nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Dec 1, 2026",
+      "no_sub_title": "Before Dec 1, 2026",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "\"we have a concept of a deal and it's a very strong concept\"",
+      "yes_price": "0.0700",
+      "volume": 275652.11,
+      "category": "Politics",
+      "close_time": "2026-12-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 115.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i have read the phrase framework agreement so many times i can taste it",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the signing pen gets a bigger press rollout than the actual document",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "deal number nine",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "\"we have a concept of a deal and it's a very strong concept\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "like renewing a gym membership both parties know neither will ever use",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Groundhog Day, but Bill Murray works for the State Department",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "the only thing more enriched here is the consultant class",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "i would throw a real party for this. confetti. cake shaped like a centrifuge",
+          "mode": 3,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA puts a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 25.0,
+      "tier": "red",
+      "quip": "we had the tech in 1969 and now we have Slack",
+      "yes_price": "0.0400",
+      "volume": 222651.42,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 109.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "$25 payout against a $100 billion program. somebody go check that math",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "i was promised this when i was eight years old and i am still standing here",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "astronaut steps off the ladder, gets asked to film a TikTok for the agency",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "moon still there. allegedly",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "like a franchise rebuilding for fifty years and still selling the throwbacks",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we did it in sixty nine with a calculator, what's the holdup,\" says my uncle",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "we had the tech in 1969 and now we have Slack",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "put ONE guy up there. i am begging. i will watch the full eleven hour stream",
+          "mode": 3,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x2785303a9349d892f464c251c1a39b838a8c535022c54b5a826c9d55c4049db1",
+      "title": "Cardinals win the NFC Championship",
+      "subtitle": "",
+      "payout": 222.22,
+      "tier": "purple",
+      "quip": "Phoenix throws a parade in 118 degrees and loses three people to the asphalt",
+      "yes_price": "0.0045",
+      "volume": 989589.4955089998,
+      "category": "Sports",
+      "close_time": "2027-01-25T00:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/pro-football-2027-nfc-champion",
+      "platform": "polymarket",
+      "score": 48.0,
+      "quip_alts": [
+        {
+          "quip": "$222 for a franchise with two playoff wins since the Truman administration",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "i would have to learn at least six names on this roster and i am not ready",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "a red sea of empty seats finally fills up, somewhere around week seventeen",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "birds? okay. birds",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "Phoenix throws a parade in 118 degrees and loses three people to the asphalt",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "like the Marlins winning a World Series. it happens, nobody retains it",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Larry Fitzgerald climbing out of retirement like the Ultimate Warrior hitting the ropes",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "i will become a lifelong Cardinals guy overnight and lie about it forever",
+          "mode": 3,
+          "score": 7
+        }
+      ]
+    }
+  ]
+}
