@@ -1,74 +1,4 @@
 {
-  "SB-EFB8A8A0": {
-    "title": "Rangers take down the Capitals tonight",
-    "quip": "Shesterkin stonewalls Ovechkin's farewell tour",
-    "cached_at": "2026-10-09T20:32:20.784951+00:00"
-  },
-  "SB-942795ED": {
-    "title": "Spurs win at Old Trafford",
-    "quip": "Tottenham's away form is a coin with two sides",
-    "cached_at": "2026-10-09T20:32:20.784951+00:00"
-  },
-  "SB-3425339E": {
-    "title": "White Sox blow out Guardians by five",
-    "quip": "the South Side discovers offense, Cleveland discovers horror",
-    "cached_at": "2026-10-09T20:32:20.784951+00:00"
-  },
-  "SB-F1FD7A91": {
-    "title": "Lions handle Nippon-Ham by two or more tonight",
-    "quip": "Seibu's bullpen turns the ninth into a formality",
-    "cached_at": "2026-10-09T20:32:35.954247+00:00"
-  },
-  "SB-59F18998": {
-    "title": "BayStars beat the Giants by two-plus at Tokyo Dome",
-    "quip": "Yokohama treats the Kyojin like a road game",
-    "cached_at": "2026-10-09T20:32:35.954247+00:00"
-  },
-  "SB-3923355F": {
-    "title": "Ilves beat Jokerit by two tonight",
-    "quip": "Tampere doesn't drive to Helsinki for a one-goal win",
-    "cached_at": "2026-10-09T20:32:35.954247+00:00"
-  },
-  "SB-DBA0DF36": {
-    "title": "Redblacks stun BC Lions out west",
-    "quip": "Ottawa packs sunscreen and ruins the whole party",
-    "cached_at": "2026-10-09T20:32:35.954247+00:00"
-  },
-  "SB-EEFEC8C0": {
-    "title": "Mikey Dahlman upsets Grant Flores",
-    "quip": "one left hook and the broadcast goes completely silent",
-    "cached_at": "2026-10-09T20:32:35.954247+00:00"
-  },
-  "SB-147B4EBE": {
-    "title": "Afghanistan and Bangladesh grind out a draw",
-    "quip": "five days, no winner, Rashid Khan blocking out the gloom",
-    "cached_at": "2026-10-09T20:32:35.954247+00:00"
-  },
-  "SB-63C532F7": {
-    "title": "Penguins keep it close in Columbus tonight",
-    "quip": "Crosby doesn't do blowouts, he does paper cuts",
-    "cached_at": "2026-10-09T20:32:45.275083+00:00"
-  },
-  "SB-F02E384A": {
-    "title": "Kraken stay within one of Detroit tonight",
-    "quip": "Hockeytown wins ugly, Seattle loses politely",
-    "cached_at": "2026-10-09T20:32:45.275083+00:00"
-  },
-  "SB-2CB17B3F": {
-    "title": "Sharks hang with McDavid's Oilers tonight",
-    "quip": "San Jose plays spoiler for forty-five minutes, anyway",
-    "cached_at": "2026-10-09T20:32:45.275083+00:00"
-  },
-  "SB-067B65EE": {
-    "title": "Louisville beats Florida State tonight",
-    "quip": "the Seminoles' season remains a cautionary tale",
-    "cached_at": "2026-10-09T20:32:45.275083+00:00"
-  },
-  "SB-8B752668": {
-    "title": "Utah State handles Washington State tonight",
-    "quip": "Logan altitude, Cougars with no conference to call home",
-    "cached_at": "2026-10-09T20:32:45.275083+00:00"
-  },
   "SB-7A775E1B": {
     "title": "Oilers skate past Sharks by two or more tonight",
     "quip": "McDavid treats the Tank as a personal highlight reel",
@@ -873,5 +803,45 @@
     "title": "Guardians keep it close against the Rays tonight",
     "quip": "Cleveland losing quietly, like a Tropicana Field crowd",
     "cached_at": "2026-10-13T15:33:49.422960+00:00"
+  },
+  "SB-A8A3A338": {
+    "title": "FIU takes down Jacksonville State on the road",
+    "quip": "Conference USA chaos is a renewable resource",
+    "cached_at": "2026-10-13T20:58:28.317701+00:00"
+  },
+  "SB-B568731E": {
+    "title": "Sabres steal one in Montreal tonight",
+    "quip": "the Bell Centre crowd deserves better than this",
+    "cached_at": "2026-10-13T20:58:28.317701+00:00"
+  },
+  "SB-992E761E": {
+    "title": "Falcons upset the 49ers in Atlanta",
+    "quip": "Bijan Robinson against a secondary held together by tape",
+    "cached_at": "2026-10-13T20:58:28.317701+00:00"
+  },
+  "SB-5C4D06AC": {
+    "title": "Flyers beat Kraken by two or more",
+    "quip": "Michkov doing something ridiculous before the third period",
+    "cached_at": "2026-10-13T20:58:28.317701+00:00"
+  },
+  "SB-566947BA": {
+    "title": "Blues bury Ottawa by two-plus tonight",
+    "quip": "Binnington thriving on being extremely annoying in Canada",
+    "cached_at": "2026-10-13T20:58:28.317701+00:00"
+  },
+  "SB-A8CA258D": {
+    "title": "Commanders stun the 49ers in San Francisco",
+    "quip": "Jayden Daniels does his best Joe Montana impression at the Niners' house",
+    "cached_at": "2026-10-13T20:58:34.674331+00:00"
+  },
+  "SB-DECF20ED": {
+    "title": "Jacksonville State handles FIU at home",
+    "quip": "the Gamecocks keep the Panthers in Conference USA purgatory",
+    "cached_at": "2026-10-13T20:58:49.018309+00:00"
+  },
+  "SB-309E6523": {
+    "title": "Hurricanes beat the Caps in Raleigh",
+    "quip": "Ovechkin's chasing history, Carolina's chasing the forecheck",
+    "cached_at": "2026-10-13T20:58:49.018309+00:00"
   }
 }
