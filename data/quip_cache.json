@@ -1,64 +1,4 @@
 {
-  "SB-D775730C": {
-    "title": "Bruins bury the Flyers by two tonight",
-    "quip": "Pastrnak doesn't do one-goal games on Causeway Street",
-    "cached_at": "2026-10-09T14:57:36.300995+00:00"
-  },
-  "SB-280C8CE3": {
-    "title": "Blue Jackets beat Penguins by two tonight",
-    "quip": "Crosby's last ride keeps stalling out in Ohio",
-    "cached_at": "2026-10-09T14:57:36.300995+00:00"
-  },
-  "SB-A8CA258D": {
-    "title": "Commanders upset the Niners in San Francisco",
-    "quip": "Jayden Daniels treats Levi's Stadium like a bounce house",
-    "cached_at": "2026-10-09T14:57:36.300995+00:00"
-  },
-  "SB-F287C99B": {
-    "title": "Dinos beat Eagles by two or more tonight",
-    "quip": "Hanwha's bullpen writes checks the Eagles can't cash",
-    "cached_at": "2026-10-09T14:57:54.871391+00:00"
-  },
-  "SB-ED5BD677": {
-    "title": "Landers upset Kia Tigers in Gwangju",
-    "quip": "SSG playing spoiler like it's a Tigers home-field tax",
-    "cached_at": "2026-10-09T14:57:54.871391+00:00"
-  },
-  "SB-866B6C80": {
-    "title": "Sport skate into TPS and win",
-    "quip": "Vaasa boys crashing the Turku house party uninvited",
-    "cached_at": "2026-10-09T14:57:54.871391+00:00"
-  },
-  "SB-3CC78929": {
-    "title": "Kasimpasa shock Galatasaray in Istanbul",
-    "quip": "Icardi silenced, the Rams Park ultras in full mourning",
-    "cached_at": "2026-10-09T14:57:54.871391+00:00"
-  },
-  "SB-3F0F9CAB": {
-    "title": "South Africa and Australia grind out a draw",
-    "quip": "five days of toil, Bazball nowhere in sight",
-    "cached_at": "2026-10-09T14:57:54.871391+00:00"
-  },
-  "SB-11589152": {
-    "title": "White Sox keep it close in Cleveland",
-    "quip": "even the South Side can hang for one night",
-    "cached_at": "2026-10-09T14:58:03.840326+00:00"
-  },
-  "SB-E2D7E850": {
-    "title": "Penguins stay within a goal of the Stars",
-    "quip": "Crosby doesn't do blowouts, he does paperwork",
-    "cached_at": "2026-10-09T14:58:03.840326+00:00"
-  },
-  "SB-62B9A4FF": {
-    "title": "Predators hang tough with the Senators in Ottawa",
-    "quip": "Saros faces 40, Ottawa still only gets a couple",
-    "cached_at": "2026-10-09T14:58:03.840326+00:00"
-  },
-  "SB-1D17C0F9": {
-    "title": "Leafs keep it tight in Denver",
-    "quip": "Toronto saves the collapse for playoff season",
-    "cached_at": "2026-10-09T14:58:03.840326+00:00"
-  },
   "SB-EFB8A8A0": {
     "title": "Rangers take down the Capitals tonight",
     "quip": "Shesterkin stonewalls Ovechkin's farewell tour",
@@ -858,5 +798,80 @@
     "title": "Bills beat the Rams but it stays tight",
     "quip": "Allen and Stafford trading haymakers into the fourth",
     "cached_at": "2026-10-13T02:54:03.994305+00:00"
+  },
+  "SB-B7A160AD": {
+    "title": "Bruins skate past Sharks by two or more",
+    "quip": "San Jose's rebuild still smells like a Zamboni fire",
+    "cached_at": "2026-10-13T15:33:24.354403+00:00"
+  },
+  "SB-3631293B": {
+    "title": "Man United shock Atl\u00e9tico in Madrid",
+    "quip": "a European away night is the only therapy they respond to",
+    "cached_at": "2026-10-13T15:33:24.354403+00:00"
+  },
+  "SB-CB44104D": {
+    "title": "Guardians bury the Rays by five",
+    "quip": "Tampa's bullpen finally runs out of nameless relievers",
+    "cached_at": "2026-10-13T15:33:24.354403+00:00"
+  },
+  "SB-B916BC42": {
+    "title": "Viking FK hold Bayern to a draw",
+    "quip": "Stavanger weather doing more defending than the back four",
+    "cached_at": "2026-10-13T15:33:24.354403+00:00"
+  },
+  "SB-0BD5D55D": {
+    "title": "Lille stun Arsenal at the Emirates",
+    "quip": "Jonathan David's ghost still haunts that stadium",
+    "cached_at": "2026-10-13T15:33:24.354403+00:00"
+  },
+  "SB-C4A8BB99": {
+    "title": "Cardinals stun the Rams in LA tonight",
+    "quip": "Kyler Murray likes playing spoiler in SoFi's half-empty red seats",
+    "cached_at": "2026-10-13T15:33:30.620644+00:00"
+  },
+  "SB-3B4194FA": {
+    "title": "Club Brugge shock Inter Milan in the Champions League",
+    "quip": "Jan Breydel fog, Lautaro frustration, one Belgian miracle",
+    "cached_at": "2026-10-13T15:33:30.620644+00:00"
+  },
+  "SB-1C9AA36D": {
+    "title": "Doosan Bears bury LG Twins by two tonight",
+    "quip": "Jamsil's roommates, and the Bears took the big bedroom",
+    "cached_at": "2026-10-13T15:33:43.675106+00:00"
+  },
+  "SB-A7A54B9C": {
+    "title": "Hanshin Tigers roll BayStars by two",
+    "quip": "Koshien gets loud when Hanshin smells blood",
+    "cached_at": "2026-10-13T15:33:43.675106+00:00"
+  },
+  "SB-7580A501": {
+    "title": "V\u00e4xj\u00f6 Lakers beat Skellefte\u00e5 by two-plus",
+    "quip": "Vida Arena is where Skellefte\u00e5's road trips go to die",
+    "cached_at": "2026-10-13T15:33:43.675106+00:00"
+  },
+  "SB-B472846A": {
+    "title": "Nippon-Ham Fighters upset SoftBank Hawks in Fukuoka",
+    "quip": "Shinjo's circus act tips over the Hawks' empire",
+    "cached_at": "2026-10-13T15:33:43.675106+00:00"
+  },
+  "SB-AE7D2BC9": {
+    "title": "West Indies stun India in T20",
+    "quip": "Caribbean six-hitting is still the oldest cheat code",
+    "cached_at": "2026-10-13T15:33:43.675106+00:00"
+  },
+  "SB-2932889F": {
+    "title": "Ermal Hadribeaj shocks Sebastian Fundora",
+    "quip": "someone forgot to tell him Fundora is a lighthouse",
+    "cached_at": "2026-10-13T15:33:43.675106+00:00"
+  },
+  "SB-72E5BEB6": {
+    "title": "Miyo Yoshida upsets Skye Nicolson",
+    "quip": "Yoshida writes the ending Nicolson's highlight reel refuses to show",
+    "cached_at": "2026-10-13T15:33:43.675106+00:00"
+  },
+  "SB-B2922FA8": {
+    "title": "Guardians keep it close against the Rays tonight",
+    "quip": "Cleveland losing quietly, like a Tropicana Field crowd",
+    "cached_at": "2026-10-13T15:33:49.422960+00:00"
   }
 }
