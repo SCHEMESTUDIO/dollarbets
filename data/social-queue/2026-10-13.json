@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-14T05:11:55.465335+00:00",
+          "tweet_id": "2110237139812176276",
+          "reply_tweet_id": "2110237141921825265"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "36400341",
+        "page": "https://www.pexels.com/photo/gated-road-in-winter-rural-landscape-36400341/",
+        "photographer": "_ Whittington",
+        "license": "Pexels License",
+        "phrases": [
+          "snow covered city street night",
+          "empty lawn chair snowbank"
+        ],
+        "tokens": {
+          "input_tokens": 4105,
+          "output_tokens": 31
         }
       }
     },
