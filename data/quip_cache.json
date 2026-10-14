@@ -1,69 +1,4 @@
 {
-  "SB-7A775E1B": {
-    "title": "Oilers skate past Sharks by two or more tonight",
-    "quip": "McDavid treats the Tank as a personal highlight reel",
-    "cached_at": "2026-10-10T01:34:13.697033+00:00"
-  },
-  "SB-EEA17339": {
-    "title": "Dodgers bury the Brewers by multiple runs",
-    "quip": "Ohtani in Milwaukee, bratwurst optional",
-    "cached_at": "2026-10-10T01:34:13.697033+00:00"
-  },
-  "SB-F86DD64A": {
-    "title": "Utah Mammoth stomp the Sabres by two",
-    "quip": "Buffalo's rebuild enters its seventeenth season",
-    "cached_at": "2026-10-10T01:34:13.697033+00:00"
-  },
-  "SB-D1F3E6A1": {
-    "title": "Iowa State upsets BYU in Provo",
-    "quip": "Cyclone weather rolls into the Wasatch",
-    "cached_at": "2026-10-10T01:34:13.697033+00:00"
-  },
-  "SB-F9DFD740": {
-    "title": "White Sox blow out Guardians by nine or more",
-    "quip": "the 2024 White Sox rise from their grave to smite Cleveland",
-    "cached_at": "2026-10-10T01:34:13.697033+00:00"
-  },
-  "SB-E84B1E34": {
-    "title": "Avispa Fukuoka take down Fagiano Okayama",
-    "quip": "Fukuoka's back line turns Okayama into a slideshow",
-    "cached_at": "2026-10-10T01:34:28.409646+00:00"
-  },
-  "SB-17BD0C0C": {
-    "title": "HPK beat KooKoo by two or more",
-    "quip": "H\u00e4meenlinna's ice stays warm, Kouvola's goalie does not",
-    "cached_at": "2026-10-10T01:34:28.409646+00:00"
-  },
-  "SB-588651A2": {
-    "title": "Yokohama F Marinos win in Osaka",
-    "quip": "Marinos remember they used to run this league",
-    "cached_at": "2026-10-10T01:34:28.409646+00:00"
-  },
-  "SB-513A7819": {
-    "title": "Afghanistan beat Bangladesh in the Test",
-    "quip": "Rashid Khan turning a flat pitch into a minefield",
-    "cached_at": "2026-10-10T01:34:28.409646+00:00"
-  },
-  "SB-2D7AD1F2": {
-    "title": "Ivan Rosado upsets Tristan Kalkreuth",
-    "quip": "the undefeated prospect's record meets its Yoko Ono",
-    "cached_at": "2026-10-10T01:34:28.409646+00:00"
-  },
-  "SB-5F2A95B8": {
-    "title": "Celtics handle the Wizards in DC",
-    "quip": "Tatum's jumper versus a rebuild, rent money",
-    "cached_at": "2026-10-10T01:34:35.469607+00:00"
-  },
-  "SB-0C30299E": {
-    "title": "Islanders keep it close against the Lightning",
-    "quip": "Sorokin stands tall until Kucherov finds a seam",
-    "cached_at": "2026-10-10T01:34:35.469607+00:00"
-  },
-  "SB-1FDA3D80": {
-    "title": "Lakers take care of Portland at Crypto",
-    "quip": "Luka and LeBron against the Scoot experiment",
-    "cached_at": "2026-10-10T01:34:35.469607+00:00"
-  },
   "SB-D0C4EE68": {
     "title": "UCF shocks Oklahoma State in Stillwater",
     "quip": "Mike Gundy's mullet can't cover this spread",
@@ -908,5 +843,70 @@
     "title": "Ducks upend the Flames in Anaheim",
     "quip": "Cutter Gauthier is making Philadelphia very uncomfortable",
     "cached_at": "2026-10-14T00:55:06.973779+00:00"
+  },
+  "SB-F2B813A1": {
+    "title": "Feyenoord and Como trade goals, four or more tonight",
+    "quip": "De Kuip doesn't do 0-0, ask the neighbors",
+    "cached_at": "2026-10-14T13:18:26.480006+00:00"
+  },
+  "SB-4E92F3FB": {
+    "title": "Avalanche beat Stars by two or more tonight",
+    "quip": "MacKinnon treats Dallas like a morning skate",
+    "cached_at": "2026-10-14T13:18:26.480006+00:00"
+  },
+  "SB-C4AE5969": {
+    "title": "Capitals handle Canadiens by two tonight",
+    "quip": "Ovechkin still finds the office from the left circle",
+    "cached_at": "2026-10-14T13:18:26.480006+00:00"
+  },
+  "SB-F6E15437": {
+    "title": "Roma upset Real Madrid at the Olimpico",
+    "quip": "the Curva Sud turns Mbapp\u00e9 into a tourist",
+    "cached_at": "2026-10-14T13:18:26.480006+00:00"
+  },
+  "SB-5C266D02": {
+    "title": "Guardians blow out the Rays by five tonight",
+    "quip": "Progressive Field hosting a full Steamroller Sunday",
+    "cached_at": "2026-10-14T13:18:26.480006+00:00"
+  },
+  "SB-E7A5E2D1": {
+    "title": "Blue Bombers beat the Elks in Edmonton",
+    "quip": "Winnipeg treats Commonwealth Stadium like a second home",
+    "cached_at": "2026-10-14T13:18:42.109835+00:00"
+  },
+  "SB-990A7C66": {
+    "title": "\u00c4ss\u00e4t beat KalPa by two or more",
+    "quip": "Pori's finest turning Kuopio into a quiet night",
+    "cached_at": "2026-10-14T13:18:42.109835+00:00"
+  },
+  "SB-2D0D92CA": {
+    "title": "Bullets upset the Phoenix in Brisbane",
+    "quip": "Nickel Arena gets loud when Brisbane smells blood",
+    "cached_at": "2026-10-14T13:18:42.109835+00:00"
+  },
+  "SB-BBBADD8A": {
+    "title": "Kyoto stun Sanfrecce in Hiroshima",
+    "quip": "Purple Sanga walking into the Edion lion's den anyway",
+    "cached_at": "2026-10-14T13:18:42.109835+00:00"
+  },
+  "SB-06CB32BE": {
+    "title": "Rays keep it close in Cleveland tonight",
+    "quip": "Rays payroll is a rounding error, run differential isn't",
+    "cached_at": "2026-10-14T13:18:51.107512+00:00"
+  },
+  "SB-DB73B770": {
+    "title": "Stars hang with the Avs in Denver",
+    "quip": "Oettinger makes Mikko work for every inch",
+    "cached_at": "2026-10-14T13:18:51.107512+00:00"
+  },
+  "SB-43442512": {
+    "title": "Lakers handle the Warriors at Crypto",
+    "quip": "Steph's heat check meets Luka's step-back",
+    "cached_at": "2026-10-14T13:18:51.107512+00:00"
+  },
+  "SB-1FDA3D80": {
+    "title": "Lakers take care of Portland tonight",
+    "quip": "the Blazers are still in the lottery arc",
+    "cached_at": "2026-10-14T13:18:51.107512+00:00"
   }
 }
