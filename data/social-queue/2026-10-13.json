@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-14T20:53:23.670221+00:00",
+          "tweet_id": "2110474068923207715",
+          "reply_tweet_id": "2110474071574003960"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "openverse",
+        "id": "6bfb2064-768b-43a8-b920-64127df0a190",
+        "page": "https://www.rawpixel.com/image/5928173/photo-image-background-public-domain-mountain",
+        "photographer": "unknown",
+        "license": "CC0 1.0",
+        "phrases": [
+          "empty stadium dusk desert",
+          "asphalt road heat haze"
+        ],
+        "tokens": {
+          "input_tokens": 7586,
+          "output_tokens": 42
         }
       }
     }
