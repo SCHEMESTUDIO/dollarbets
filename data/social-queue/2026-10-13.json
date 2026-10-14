@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-14T18:10:20.232017+00:00",
+          "tweet_id": "2110433034356879576",
+          "reply_tweet_id": "2110433036361716116"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "38954087",
+        "page": "https://www.pexels.com/photo/wadi-rum-desert-landscape-with-sandstone-mountains-38954087/",
+        "photographer": "Lincoli Xavier",
+        "license": "Pexels License",
+        "phrases": [
+          "desert dunes dusk",
+          "launch pad night fog"
+        ],
+        "tokens": {
+          "input_tokens": 3627,
+          "output_tokens": 28
         }
       }
     },
