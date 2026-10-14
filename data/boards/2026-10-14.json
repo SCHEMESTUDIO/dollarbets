@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-10-14T00:54:33.563164+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 3
+  },
+  "board": [
+    {
+      "ticker": "KXROBOTMARS-35",
+      "title": "A robot walks on Mars before any human",
+      "subtitle": "Before 2035",
+      "yes_sub_title": "Before 2035",
+      "no_sub_title": "Before 2035",
+      "payout": 2.04,
+      "tier": "green",
+      "quip": "\"one small step for a man.\" it is saying this. it is not a man.",
+      "yes_price": "0.4890",
+      "volume": 56251.23,
+      "category": "Science and Technology",
+      "close_time": "2035-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXROBOTMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 64.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "first transmission from Mars is a firmware update notification",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "i keep volunteering for this and nobody from NASA has called me back",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "little guy gets the flag",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "Johnny Five is alive and he beat all of us there",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "$2.04 to watch a Boston Dynamics ad filmed on location",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Elon's robot eating dirt on a rock in front of zero witnesses",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "i will root for the machine and i will feel weird about it",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "\"one small step for a man.\" it is saying this. it is not a man.",
+          "mode": 4,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x05a291e83bd22cd3271b46fd8b90de55d55620393a6a4d95302e67c102365571",
+      "title": "Warriors make the playoffs in 2027",
+      "subtitle": "",
+      "payout": 2.08,
+      "tier": "green",
+      "quip": "the play-in is a playoff and i will fight you in a Chili's",
+      "yes_price": "0.4800",
+      "volume": 9874.042747,
+      "category": "Sports",
+      "close_time": "2027-05-16T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/nba-team-to-make-playoffs-20260708210742372",
+      "platform": "polymarket",
+      "score": 33.0,
+      "quip_alts": [
+        {
+          "quip": "i will be watching a 39 year old shoot from the parking lot, happily",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Draymond invents a brand new ejection just for April",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "old men still cooking",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "like your dad beating you in driveway one-on-one at 61",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Chase Center plays the 2015 hype reel until the building starts crying",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "Curry averaging 2.08 logo threes a quarter and we call that normal",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "the play-in is a playoff and i will fight you in a Chili's",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "the band reunites for one last tour and the merch costs $90",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x664ee9273e1d3abec2062eb93efc84a3574ecf39ce353bc551cc1b6d2a7c82d2",
+      "title": "Cowboys and Eagles clear 54.5 tonight",
+      "subtitle": "",
+      "payout": 2.11,
+      "tier": "green",
+      "quip": "the Dallas defense is optional, much like their January",
+      "yes_price": "0.4750",
+      "volume": 9870.0,
+      "category": "Other",
+      "close_time": "2026-10-27T00:15:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/nfl-dal-phi-2026-10-27",
+      "platform": "polymarket",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "both defensive coordinators filing for unemployment at halftime",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i have screamed at this rivalry since i was nine and learned nothing",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "scoreboard operator earning overtime",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "the Dallas defense is optional, much like their January",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "i need 55 points or i'm going to bed furious",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "this is a Big 12 game wearing very expensive NFL costumes",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"there's a lot of points out there. a lot of em. heck of a thing.\"",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "every punt tonight counts as a typo",
+          "mode": 3,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXBOSSNOWM-26DEC-10",
+      "title": "Boston gets over 10 inches of snow this December",
+      "subtitle": "In Dec 2026",
+      "yes_sub_title": "Above 10 inches",
+      "no_sub_title": "Above 10 inches",
+      "payout": 3.03,
+      "tier": "yellow",
+      "quip": "the Pike shuts down at exactly 10.5 inches, ask literally anyone",
+      "yes_price": "0.3300",
+      "volume": 1501.66,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXBOSSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 61.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i grew up shoveling that and i have never felt freer than the day i left",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Masshole drivers treating a snowbank as a personal insult",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "lawn chair in the parking spot by 6am, folding table by noon",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "space savers deployed. season open",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "i have scraped ice off a windshield with a CVS receipt and i'd do it again",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "the Pike shuts down at exactly 10.5 inches, ask literally anyone",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "like a Patriots December where the visiting team just quietly gives up",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"eleven inches, kid. pahk the cah and get inside.\"",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0x05870df20ec658dda5b01249ba08236525c26c155642487c573f541354dda988",
+      "title": "A$AP Rocky wins Best Rap Album",
+      "subtitle": "",
+      "payout": 5.71,
+      "tier": "yellow",
+      "quip": "like a guy redshirting four years and then winning the Heisman",
+      "yes_price": "0.1750",
+      "volume": 9828.712409000002,
+      "category": "Other",
+      "close_time": "2027-07-01T03:59:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/grammys-2027-best-rap-album-winner-1754500000000",
+      "platform": "polymarket",
+      "score": 33.0,
+      "quip_alts": [
+        {
+          "quip": "i waited so long for this album i forgot what it was called",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Rihanna's reaction shot becomes the only clip anybody posts for a week",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "nice. 69th. anyway",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "beat a trial and an album rollout in the same calendar year",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "Recording Academy voting for whoever they recognized at the Met Gala",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "album delayed 5.71 years, acceptance speech runs 11 seconds",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "i will take the cutaway to the kids over the actual trophy",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "like a guy redshirting four years and then winning the Heisman",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "STARSHIPMARS-29DEC31",
+      "title": "Starship flies humans to Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Not Before 2030",
+      "payout": 6.25,
+      "tier": "yellow",
+      "quip": "crew manifest is four engineers and one guy who posted his way on",
+      "yes_price": "0.1600",
+      "volume": 54466.34,
+      "category": "Companies",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 114.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "crew manifest is four engineers and one guy who posted his way on",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i have moved apartments twice in the time this thing has been exploding",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "pack snacks. lots of snacks",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "\"boots on Mars. probably. aspirationally. let's say 2031.\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "you know in Alien when nobody listens to the one crew member who's worried",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "six years, $6.25, and zero bathrooms on board",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "whoever signs up is not coming back and signs anyway",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "if this actually happens i'm getting the launch date tattooed on my ribs",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27",
+      "title": "US signs a new Iran nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 8.33,
+      "tier": "orange",
+      "quip": "like a conference realignment rumor that resurfaces every single July",
+      "yes_price": "0.1200",
+      "volume": 1796732.5,
+      "category": "Politics",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "my dad has been calling this the big one since 2015",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "handshake photo, two flags, one aide in the back visibly checking his phone",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "centrifuges hate this trick",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "\"tremendous deal. the best uranium deal. nobody's seen uranium like this.\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "like a conference realignment rumor that resurfaces every single July",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "eighth draft, twelfth envoy, $8.33 and a steak dinner",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "i have read this exact headline under three different presidents",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "sincerely, i would love one (1) boring news week",
+          "mode": 3,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXNBAPOSTASREC-27-POR",
+      "title": "Blazers have the best record at the All-Star break",
+      "subtitle": "2026-27",
+      "yes_sub_title": "Portland",
+      "no_sub_title": "Portland",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "seven people in Portland know there's a team and all seven are courtside",
+      "yes_price": "0.0700",
+      "volume": 78.18,
+      "category": "Sports",
+      "close_time": "2027-03-08T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNBAPOSTASREC?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 84.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i would have to learn every single one of these guys' names",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Oregon beats something that isn't a rain delay for once",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "ESPN desperately searching for a Blazers highlight filmed after 2019",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "Rip City. actually serious",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "like a mid-major sitting at 24-1 against nobody you've heard of",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "seven people in Portland know there's a team and all seven are courtside",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "give me a freezing Moda Center February and let me be happy",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "Bill Walton would have called this a cosmic realignment of the heavens",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXFSLR-26OCTMWSOLD-5300",
+      "title": "First Solar ships over 5300 MW of modules",
+      "subtitle": "module volume sold in Q3 2026",
+      "yes_sub_title": "Above 5300 mw",
+      "no_sub_title": "Above 5300 mw",
+      "payout": 25.0,
+      "tier": "red",
+      "quip": "Mr. Burns blocking out the sun had a better communications team",
+      "yes_price": "0.0400",
+      "volume": 6094.45,
+      "category": "Financials",
+      "close_time": "2027-02-25T04:00:00Z",
+      "url": "https://kalshi.com/markets/KXFSLR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 104.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i own this stock for reasons i can no longer reconstruct",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "panels. so many panels",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "an entire Ohio plant running on tax credits and pure spite",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "5,301 megawatts and an earnings call that wraps in nine minutes",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "i cannot name a second solar company and neither can you",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "flat glass rectangles making electricity out of nothing still rules",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "\"we are pleased with module throughput.\" the crowd goes mild",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "Mr. Burns blocking out the sun had a better communications team",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26MOKE-T3",
+      "title": "Moke becomes a Category 3 hurricane",
+      "subtitle": "Hurricane Moke",
+      "yes_sub_title": "Category 3 or above",
+      "no_sub_title": "Category 3 or above",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "that's a Pokemon name and it is about to evolve",
+      "yes_price": "0.0100",
+      "volume": 8246.0,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 75.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Moke sounds like a guy who owes me four hundred dollars",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "i will be watching that cone like it's RedZone on a Sunday",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Moke. respectfully, no",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "Jim Cantore materializes on your street like a very wet omen",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "$100 for a storm named after my cousin's vape",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "a Cat 3 named Moke is the most unhinged sentence available today",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "like a 16 seed showing up with an actual NBA lottery pick",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "that's a Pokemon name and it is about to evolve",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    }
+  ]
+}
