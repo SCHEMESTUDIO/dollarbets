@@ -1,94 +1,4 @@
 {
-  "SB-D9908536": {
-    "title": "Niners steal one in Seattle tonight",
-    "quip": "the 12s get quiet real fast after halftime",
-    "cached_at": "2026-10-11T00:43:21.502628+00:00"
-  },
-  "SB-A6CCD3B5": {
-    "title": "Hurricanes beat Flyers by two or more",
-    "quip": "Rod Brind'Amour's forecheck versus a Philly rebuild",
-    "cached_at": "2026-10-11T00:43:21.502628+00:00"
-  },
-  "SB-E4DA8D37": {
-    "title": "Golden Knights bury the Kings by two",
-    "quip": "the Fortress stays the Kings' least favorite address",
-    "cached_at": "2026-10-11T00:43:21.502628+00:00"
-  },
-  "SB-30953E25": {
-    "title": "Ducks handle Flames by two in Calgary",
-    "quip": "Cutter Gauthier is making the Saddledome awkward",
-    "cached_at": "2026-10-11T00:43:21.502628+00:00"
-  },
-  "SB-40A6CC2D": {
-    "title": "Canucks upset Rangers at the Garden",
-    "quip": "Quinn Hughes walks into Manhattan like he owns it",
-    "cached_at": "2026-10-11T00:43:21.502628+00:00"
-  },
-  "SB-DC979470": {
-    "title": "Liverpool and Man City split the points at Anfield",
-    "quip": "two heavyweights trading jabs, nobody hits the canvas",
-    "cached_at": "2026-10-11T00:43:21.502628+00:00"
-  },
-  "SB-B774E093": {
-    "title": "Guardians bludgeon White Sox by nine-plus",
-    "quip": "biblical flooding on the South Side, bring the ark",
-    "cached_at": "2026-10-11T00:43:21.502628+00:00"
-  },
-  "SB-19A401C4": {
-    "title": "Sabres stun the Mammoth in Buffalo",
-    "quip": "Tage Thompson vs an extinct animal, finally a fair fight",
-    "cached_at": "2026-10-11T00:43:27.885321+00:00"
-  },
-  "SB-C6799943": {
-    "title": "Besiktas and Kocaelispor grind out a low-scoring night",
-    "quip": "Besiktas attack still buffering at Vodafone Park",
-    "cached_at": "2026-10-11T00:43:38.381460+00:00"
-  },
-  "SB-8B5DFAC4": {
-    "title": "Adelaide stun the Kings in Sydney",
-    "quip": "36ers playing spoiler like it's their actual job",
-    "cached_at": "2026-10-11T00:43:38.381460+00:00"
-  },
-  "SB-25D666F9": {
-    "title": "Afghanistan beat Bangladesh in the Test",
-    "quip": "Rashid Khan turning a pitch into a crime scene",
-    "cached_at": "2026-10-11T00:43:38.381460+00:00"
-  },
-  "SB-6E658278": {
-    "title": "Bahdi knocks off Floyd Scholfield",
-    "quip": "Niagara Falls plumber swinging for the fences again",
-    "cached_at": "2026-10-11T00:43:38.381460+00:00"
-  },
-  "SB-2EE4F944": {
-    "title": "Flames keep it close with the Ducks tonight",
-    "quip": "two rebuilds staring at each other in the Saddledome mirror",
-    "cached_at": "2026-10-11T00:43:47.928175+00:00"
-  },
-  "SB-B0B5A677": {
-    "title": "Broncos win in LA tonight",
-    "quip": "Bo Nix keeps renting space in Herbert's head",
-    "cached_at": "2026-10-11T00:43:47.928175+00:00"
-  },
-  "SB-6129BE28": {
-    "title": "Commanders handle the Giants tonight",
-    "quip": "the NFC East's annual gift exchange, FedEx edition",
-    "cached_at": "2026-10-11T00:43:47.928175+00:00"
-  },
-  "SB-01B032B5": {
-    "title": "Golden Knights beat the Kings in Vegas",
-    "quip": "Eichel on the strip, house edge included",
-    "cached_at": "2026-10-11T00:43:47.928175+00:00"
-  },
-  "SB-4B1A69E2": {
-    "title": "Flyers hang tough against the Hurricanes",
-    "quip": "Tortorella teams don't get blown out, they get loud",
-    "cached_at": "2026-10-11T00:43:47.928175+00:00"
-  },
-  "SB-4E5381CA": {
-    "title": "Wild beat Panthers by two or more",
-    "quip": "Kaprizov walking into the Stanley Cup banner raising unimpressed",
-    "cached_at": "2026-10-11T00:43:47.928175+00:00"
-  },
   "SB-82AA5A84": {
     "title": "Bears win outright at Lambeau tonight",
     "quip": "Caleb Williams finally exorcising the Lambeau ghosts",
@@ -878,5 +788,75 @@
     "title": "Avalanche handle the Stars in Denver",
     "quip": "MacKinnon at altitude is just unfair",
     "cached_at": "2026-10-15T00:21:14.169755+00:00"
+  },
+  "SB-CEF66730": {
+    "title": "Old Dominion knocks off Georgia Southern tonight",
+    "quip": "Monarchs rule in Norfolk, the math checks out",
+    "cached_at": "2026-10-15T13:03:38.715857+00:00"
+  },
+  "SB-C7541C24": {
+    "title": "Galanti beats Leblanc but can't finish him",
+    "quip": "Leblanc eats three rounds like a Canadian Nate Diaz",
+    "cached_at": "2026-10-15T13:03:38.715857+00:00"
+  },
+  "SB-CDFC2E31": {
+    "title": "Dodgers bury the Brewers by five or more",
+    "quip": "Ohtani turns Milwaukee's bullpen into batting practice",
+    "cached_at": "2026-10-15T13:03:38.715857+00:00"
+  },
+  "SB-11B9806C": {
+    "title": "Guardians blow out the Rays tonight",
+    "quip": "Jose Ramirez treats Tampa's arms like a pi\u00f1ata",
+    "cached_at": "2026-10-15T13:03:38.715857+00:00"
+  },
+  "SB-B99807BD": {
+    "title": "Elon shocks Stanford in Palo Alto",
+    "quip": "Phoenix rising while the Cardinal tree weeps on the sideline",
+    "cached_at": "2026-10-15T13:03:38.715857+00:00"
+  },
+  "SB-9050814E": {
+    "title": "Colorado State shocks Texas State in San Marcos",
+    "quip": "Rams crash the Bobcats' bonfire in San Marcos",
+    "cached_at": "2026-10-15T13:03:46.266945+00:00"
+  },
+  "SB-138072D9": {
+    "title": "HPK steal one from SaiPa in Lappeenranta",
+    "quip": "H\u00e4meenlinna's finest export since the sauna stove",
+    "cached_at": "2026-10-15T13:04:00.145822+00:00"
+  },
+  "SB-A5E2F71F": {
+    "title": "Djurg\u00e5rden knock off Bryn\u00e4s in G\u00e4vle",
+    "quip": "Stockholm stripes raiding the old mining town",
+    "cached_at": "2026-10-15T13:04:00.145822+00:00"
+  },
+  "SB-60E9680C": {
+    "title": "Timr\u00e5 beat HV71 by two or more",
+    "quip": "J\u00f6nk\u00f6ping gets sent home down the E4",
+    "cached_at": "2026-10-15T13:04:00.145822+00:00"
+  },
+  "SB-DCC7F08B": {
+    "title": "Wanderers win the Sydney Derby outright",
+    "quip": "the RBB bouncing while the Cove goes quiet",
+    "cached_at": "2026-10-15T13:04:00.145822+00:00"
+  },
+  "SB-3602E0C9": {
+    "title": "Jokerit beat \u00c4ss\u00e4t by two or more",
+    "quip": "the Jester laughs last in Pori",
+    "cached_at": "2026-10-15T13:04:00.145822+00:00"
+  },
+  "SB-F6E07034": {
+    "title": "Freudis Rojas Jr stuns Joshua Kevin Anton",
+    "quip": "the kind of night that rewrites a wiki page",
+    "cached_at": "2026-10-15T13:04:00.145822+00:00"
+  },
+  "SB-A986CAA9": {
+    "title": "Sabres keep it close in Toronto tonight",
+    "quip": "Buffalo's whole brand is losing by exactly one",
+    "cached_at": "2026-10-15T13:04:08.029092+00:00"
+  },
+  "SB-2830A39E": {
+    "title": "Brewers hang with the Dodgers in LA",
+    "quip": "Milwaukee pitching keeps Ohtani to a single trot",
+    "cached_at": "2026-10-15T13:04:08.029092+00:00"
   }
 }
