@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-10-15T00:20:30.971375+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 3
+  },
+  "board": [
+    {
+      "ticker": "0x75ee71f41c90708fd891f13384bf563016523828c13fe64a268169c5bf68e062",
+      "title": "Brewers beat the Dodgers tonight",
+      "subtitle": "",
+      "payout": 2.2,
+      "tier": "green",
+      "quip": "$2.20 is also what a beer costs in Milwaukee. not in LA.",
+      "yes_price": "0.4550",
+      "volume": 991597.8512809987,
+      "category": "Other",
+      "close_time": "2026-10-22T00:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/mlb-mil-lad-2026-10-14",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "the Dodgers payroll per loss is somewhere in Gulfstream territory",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "I have never rooted for Milwaukee in my life and I'm doing it tonight out of spite",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "cheese beats money sometimes",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "Ohtani goes 0 for 4 and the dog gets blamed",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "David versus Goliath if Goliath also had a $400 million infield",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "a bratwurst team taking down a sushi payroll is sincerely beautiful",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "$2.20 is also what a beer costs in Milwaukee. not in LA.",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "computer. play the Bernie Brewer slide music. louder.",
+          "mode": 4,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXPITSNOWM-26DEC-10",
+      "title": "Pittsburgh gets over 10 inches of snow this December",
+      "subtitle": "In Dec 2026",
+      "yes_sub_title": "Above 10 inches",
+      "no_sub_title": "Above 10 inches",
+      "payout": 2.22,
+      "tier": "green",
+      "quip": "Primanti's just starts putting the snow in the sandwich",
+      "yes_price": "0.4500",
+      "volume": 500.0,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXPITSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 59.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "my uncle in Ross Township already has the lawn chair out on his parking spot",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Primanti's just starts putting the snow in the sandwich",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "yinz are getting buried",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "10 inches, which is 9 more than Atlanta needs to close every school",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "lake effect is the most underrated weather event in this entire country",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "Pittsburgh finally deserves something falling on it that isn't a bridge",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "Snowpiercer but it's a stuck Port Authority bus on the Liberty Bridge",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "like a Big Ten November game nobody watched but everybody respects",
+          "mode": 6,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXEARTHQUAKECALIFORNIA-35",
+      "title": "California gets an 8.0 earthquake before 2035",
+      "subtitle": "Before 2035",
+      "yes_sub_title": "Before 2035",
+      "no_sub_title": "Before 2035",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "The Rock already flew a helicopter through this one and he was fine",
+      "yes_price": "0.3400",
+      "volume": 28858.74,
+      "category": "Climate and Weather",
+      "close_time": "2035-12-31T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXEARTHQUAKECALIFORNIA?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 66.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "I did duck and cover drills in third grade for this exact payout",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Dodgers win the pennant and then the stadium relocates to Nevada",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "San Andreas finally clocks in",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "34 cents on the state splitting open feels a little rude honestly",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "The Rock already flew a helicopter through this one and he was fine",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "plate tectonics is the only thing on earth more patient than my dentist",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "Bay Area guys will turn it into a longevity podcast episode by Friday",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "\"we've been saying the big one for forty years.\" ok and?",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXNEXTOUTUS-26SEP28-KPAT",
+      "title": "Kash Patel is the first to leave office",
+      "subtitle": "HHS Secretary, Defense Secretary and FBI Director",
+      "yes_sub_title": "Kash Patel",
+      "no_sub_title": "Kash Patel",
+      "payout": 3.7,
+      "tier": "yellow",
+      "quip": "this is the coordinator getting fired four games before the head coach",
+      "yes_price": "0.2700",
+      "volume": 6979.09,
+      "category": "Politics",
+      "close_time": "2029-01-20T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNEXTOUTUS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 86.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the podcast mic arrives before the moving boxes do",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "I could not name one other person he's racing and I'm fine with that",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "shortest tenure speedrun, any%",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "this is the coordinator getting fired four games before the head coach",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "the revolving door is the only piece of Washington infrastructure that still works",
+          "mode": 7,
+          "score": 6
+        },
+        {
+          "quip": "firing people is America's fastest growing sport and I am emotionally invested",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "like a guy in the first ten minutes of a movie whose name you never catch",
+          "mode": 8,
+          "score": 6
+        },
+        {
+          "quip": "27 cents, which is also how many days he's been in the building lately",
+          "mode": 5,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0xf39f02e6d794c3bfcba332647fea6e2d130552a36b1df8416541a7b2063f83d7",
+      "title": "Russia captures Myropillia by year's end",
+      "subtitle": "",
+      "payout": 6.25,
+      "tier": "yellow",
+      "quip": "the YouTube map channels are already rendering the little red arrow",
+      "yes_price": "0.1600",
+      "volume": 9835.964771999998,
+      "category": "Other",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/will-russia-capture-myropillia-by-may-31",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "I zoomed into a map for forty minutes and came back knowing less",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "another dot, another winter",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "trading a whole season for one village is a bad Madden franchise rebuild",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Risk again, except nobody gets Australia and everyone is cold",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "sixteen cents for a town of maybe six hundred people and a grain silo",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "flag goes up, nine people see it, state TV runs it for a week",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "the YouTube map channels are already rendering the little red arrow",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "shoutout to whoever keeps naming these places, genuinely beautiful work",
+          "mode": 3,
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXOAIANTH-40-OAI",
+      "title": "OpenAI IPOs before Anthropic",
+      "subtitle": "Before 2040",
+      "yes_sub_title": "OpenAI",
+      "no_sub_title": "OpenAI",
+      "payout": 7.69,
+      "tier": "orange",
+      "quip": "Anthropic responds with a forty page blog post about why waiting was safer",
+      "yes_price": "0.1300",
+      "volume": 206958.41,
+      "category": "Financials",
+      "close_time": "2040-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXOAIANTH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 116.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "Sam rings the bell and the thing writes its own S-1 typo",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "I'd buy one share just so my brokerage app has something to look at",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "nonprofit to NASDAQ, cute",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "\"we're not a company, we're a mission.\" great, what's the ticker",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "Willy Wonka opening the factory to institutional investors instead of children",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "7.69 to one on the company that already ate the entire internet",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "Anthropic responds with a forty page blog post about why waiting was safer",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "retail has never been early to anything and they are showing up anyway",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "KXRECORDNFLWORST-27-LAC",
+      "title": "The Clippers have the worst record next season",
+      "subtitle": "2026-27 season",
+      "yes_sub_title": "Los Angeles C",
+      "no_sub_title": "Los Angeles C",
+      "payout": 12.5,
+      "tier": "orange",
+      "quip": "Ballmer sweats through three suits chasing a fifteenth win in March",
+      "yes_price": "0.0800",
+      "volume": 132656.72,
+      "category": "Sports",
+      "close_time": "2027-02-22T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXRECORDNFLWORST?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 134.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "nobody in Los Angeles will notice. that's the whole bit.",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "I have watched zero complete Clippers games and I sleep great",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Intuit Dome, intuitively empty",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "Ballmer sweats through three suits chasing a fifteenth win in March",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "this is relegation but the seats are nicer and nobody sings",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "12.5 to one that the second best team in their own city bottoms out",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "load management, finally applied to an entire franchise",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "tanking is a craft and these guys might be legitimate artisans",
+          "mode": 3,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA lands a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 25.0,
+      "tier": "red",
+      "quip": "Apollo 13 had better odds and they were actively on fire",
+      "yes_price": "0.0400",
+      "volume": 222651.42,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 109.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "$25 payout, roughly what a fake moon rock goes for on eBay",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "I will be forty years old watching another countdown get scrubbed at T minus nine",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "astronaut lands, posts a selfie, complains the service is terrible",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "the rocket is still PowerPoint",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we did it in 1969 with a calculator.\" alright grandpa",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "Apollo 13 had better odds and they were actively on fire",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "Boeing hears 2028 and laughs directly into a cost-plus contract",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "I want that boot print footage so bad I'd watch it on a Zune",
+          "mode": 3,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26NOV",
+      "title": "US agrees to a new Iran nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Nov 1, 2026",
+      "no_sub_title": "Before Nov 1, 2026",
+      "payout": 50.0,
+      "tier": "red",
+      "quip": "this is a coaching search that leaks every week and hires nobody",
+      "yes_price": "0.0200",
+      "volume": 1041143.09,
+      "category": "Politics",
+      "close_time": "2026-11-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "I have owned four phones since the first version of this headline",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "two flags, one handshake, everybody home before the ink dries",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "centrifuges hate this one trick",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "fifty to one, same as the number of frameworks Witkoff has drafted",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "\"we have a deal. the best deal. the frameworkiest framework ever.\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "the Nobel committee keeping one pen warm just in case",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "the Ocean's Eleven cut where they already pulled it off and we just haven't seen it",
+          "mode": 8,
+          "score": 6.5
+        },
+        {
+          "quip": "this is a coaching search that leaks every week and hires nobody",
+          "mode": 6,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "ticker": "0x3e4e5225054ad5168e0b249164f643453ba97a8947f84d7aacb4c768275d48e9",
+      "title": "Ukraine recognizes Russian sovereignty over its land this year",
+      "subtitle": "",
+      "payout": 64.52,
+      "tier": "purple",
+      "quip": "like a team forfeiting at halftime while winning the turnover battle",
+      "yes_price": "0.0155",
+      "volume": 99625.337338,
+      "category": "Science and Technology",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/ukraine-recognizes-russian-sovereignty-over-ukrainian-territory-in-2025",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "I'll take the 64 bucks but I'm not explaining this one to my grandfather",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "that's a forever no",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "$64.52 to bet against an entire country's personality",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "Red Dawn ends very differently in this timeline",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "a signature happens and forty million people pretend they didn't see it",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "like a team forfeiting at halftime while winning the turnover battle",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "somewhere a think tank intern is already renaming the map files",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "stubbornness as a national resource is my favorite thing going right now",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    }
+  ]
+}

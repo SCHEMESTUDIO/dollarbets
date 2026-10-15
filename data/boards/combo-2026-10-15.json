@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-10-15T00:21:21.928780+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 9,
+    "NBA": 1
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-3AFA3B04",
+      "title": "Los Angeles Clippers wins + Duke Blue Devils wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19884073-1551554233-2277417850&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Sacramento Kings @ Los Angeles Clippers + North Carolina Tar Heels @ Duke Blue Devils",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Sacramento Kings @ Los Angeles Clippers",
+          "pick": "Los Angeles Clippers wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884073-1551554233-2277417850&type=Single",
+          "commence_time": "2026-10-22T02:40:00Z"
+        },
+        {
+          "matchup": "North Carolina Tar Heels @ Duke Blue Devils",
+          "pick": "Duke Blue Devils wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46843-3798713-6055063&type=Single",
+          "commence_time": "2026-10-17T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-B3221B62",
+      "title": "Philadelphia 76ers wins + Duke Blue Devils wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19884074-1551554236-2277417852&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Cleveland Cavaliers @ Philadelphia 76ers + North Carolina Tar Heels @ Duke Blue Devils",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Cleveland Cavaliers @ Philadelphia 76ers",
+          "pick": "Philadelphia 76ers wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884074-1551554236-2277417852&type=Single",
+          "commence_time": "2026-10-22T23:10:00Z"
+        },
+        {
+          "matchup": "North Carolina Tar Heels @ Duke Blue Devils",
+          "pick": "Duke Blue Devils wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46843-3798713-6055063&type=Single",
+          "commence_time": "2026-10-17T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-F184C373",
+      "title": "Under 3.5 + Duke Blue Devils wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7889146-206343627-795974730&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Vancouver Whitecaps FC @ Austin FC + North Carolina Tar Heels @ Duke Blue Devils",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Vancouver Whitecaps FC @ Austin FC",
+          "pick": "Under 3.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7889146-206343627-795974730&type=Single",
+          "commence_time": "2026-10-18T00:30:00Z"
+        },
+        {
+          "matchup": "North Carolina Tar Heels @ Duke Blue Devils",
+          "pick": "Duke Blue Devils wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46843-3798713-6055063&type=Single",
+          "commence_time": "2026-10-17T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-E23491EF",
+      "title": "Under 3.5 + Duke Blue Devils wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7889108-206388523-796383359&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "CF Montreal @ Seattle Sounders FC + North Carolina Tar Heels @ Duke Blue Devils",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "CF Montreal @ Seattle Sounders FC",
+          "pick": "Under 3.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7889108-206388523-796383359&type=Single",
+          "commence_time": "2026-10-18T02:30:00Z"
+        },
+        {
+          "matchup": "North Carolina Tar Heels @ Duke Blue Devils",
+          "pick": "Duke Blue Devils wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46843-3798713-6055063&type=Single",
+          "commence_time": "2026-10-17T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-0A17A50F",
+      "title": "New Jersey Devils wins + Duke Blue Devils wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20007714-1566629402-2318877734&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "New York Rangers @ New Jersey Devils + North Carolina Tar Heels @ Duke Blue Devils",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York Rangers @ New Jersey Devils",
+          "pick": "New Jersey Devils wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20007714-1566629402-2318877734&type=Single",
+          "commence_time": "2026-10-15T23:10:00Z"
+        },
+        {
+          "matchup": "North Carolina Tar Heels @ Duke Blue Devils",
+          "pick": "Duke Blue Devils wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46843-3798713-6055063&type=Single",
+          "commence_time": "2026-10-17T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-15T23:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-C26C11D1",
+      "title": "Minnesota Wild wins + Duke Blue Devils wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20008419-1566697272-2319074557&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "St Louis Blues @ Minnesota Wild + North Carolina Tar Heels @ Duke Blue Devils",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "St Louis Blues @ Minnesota Wild",
+          "pick": "Minnesota Wild wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20008419-1566697272-2319074557&type=Single",
+          "commence_time": "2026-10-16T00:10:00Z"
+        },
+        {
+          "matchup": "North Carolina Tar Heels @ Duke Blue Devils",
+          "pick": "Duke Blue Devils wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46843-3798713-6055063&type=Single",
+          "commence_time": "2026-10-17T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-16T00:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-EA035A53",
+      "title": "Calgary Flames +2.5 + Duke Blue Devils wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20008422-1566697756-2319076089&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Calgary Flames @ Vegas Golden Knights + North Carolina Tar Heels @ Duke Blue Devils",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Calgary Flames @ Vegas Golden Knights",
+          "pick": "Calgary Flames +2.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20008422-1566697756-2319076089&type=Single",
+          "commence_time": "2026-10-16T02:10:00Z"
+        },
+        {
+          "matchup": "North Carolina Tar Heels @ Duke Blue Devils",
+          "pick": "Duke Blue Devils wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46843-3798713-6055063&type=Single",
+          "commence_time": "2026-10-17T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-16T02:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-C89CDF56",
+      "title": "Steven Koslow wins + Duke Blue Devils wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19976345-1562536182-2307719732&type=Single",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Steven Koslow @ Chad Anheliger + North Carolina Tar Heels @ Duke Blue Devils",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Steven Koslow @ Chad Anheliger",
+          "pick": "Steven Koslow wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19976345-1562536182-2307719732&type=Single",
+          "commence_time": "2026-10-17T22:00:00Z"
+        },
+        {
+          "matchup": "North Carolina Tar Heels @ Duke Blue Devils",
+          "pick": "Duke Blue Devils wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46843-3798713-6055063&type=Single",
+          "commence_time": "2026-10-17T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-EFAC5959",
+      "title": "Over 2.5 + Duke Blue Devils wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7889019-206342247-795967976&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Los Angeles FC @ New York City FC + North Carolina Tar Heels @ Duke Blue Devils",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles FC @ New York City FC",
+          "pick": "Over 2.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7889019-206342247-795967976&type=Single",
+          "commence_time": "2026-10-17T23:30:00Z"
+        },
+        {
+          "matchup": "North Carolina Tar Heels @ Duke Blue Devils",
+          "pick": "Duke Blue Devils wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46843-3798713-6055063&type=Single",
+          "commence_time": "2026-10-17T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-E8CAD163",
+      "title": "Los Angeles Clippers wins + Philadelphia 76ers wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19884073-1551554233-2277417850&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "NBA",
+      "matchup": "Sacramento Kings @ Los Angeles Clippers + Cleveland Cavaliers @ Philadelphia 76ers",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.37,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Sacramento Kings @ Los Angeles Clippers",
+          "pick": "Los Angeles Clippers wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884073-1551554233-2277417850&type=Single",
+          "commence_time": "2026-10-22T02:40:00Z"
+        },
+        {
+          "matchup": "Cleveland Cavaliers @ Philadelphia 76ers",
+          "pick": "Philadelphia 76ers wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884074-1551554236-2277417852&type=Single",
+          "commence_time": "2026-10-22T23:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-22T02:40:00Z"
+    }
+  ]
+}
