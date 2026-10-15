@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-15T04:59:27.618168+00:00",
+          "tweet_id": "2110596391634645240",
+          "reply_tweet_id": "2110596393203388619"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "33418893",
+        "page": "https://www.pexels.com/photo/musician-posing-with-electric-guitar-in-vibrant-lighting-33418893/",
+        "photographer": "\u0110\u1ee9c Trung \u0110\u00e0o",
+        "license": "Pexels License",
+        "phrases": [
+          "empty concert hall night",
+          "stadium tunnel lights dusk"
+        ],
+        "tokens": {
+          "input_tokens": 4325,
+          "output_tokens": 32
         }
       }
     },
