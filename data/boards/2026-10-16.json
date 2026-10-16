@@ -1,0 +1,597 @@
+{
+  "generated_at": "2026-10-16T00:08:14.351073+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket": 5
+  },
+  "board": [
+    {
+      "ticker": "0x664ee9273e1d3abec2062eb93efc84a3574ecf39ce353bc551cc1b6d2a7c82d2",
+      "title": "Cowboys and Eagles clear 54.5 tonight",
+      "subtitle": "",
+      "payout": 2.11,
+      "tier": "green",
+      "quip": "the Cowboys secondary exists to make other people's fantasy teams rich",
+      "yes_price": "0.4750",
+      "volume": 9870.0,
+      "category": "Other",
+      "close_time": "2026-10-27T00:15:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/nfl-dal-phi-2026-10-27",
+      "platform": "polymarket",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "both defensive coordinators already texting their position coaches that they feel a cold coming on",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "i have 54.5 reasons to stay up past midnight and every one is bad",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the Cowboys secondary exists to make other people's fantasy teams rich",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "field goals are for cowards",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "55 points by halftime, the rest is just garbage time cardio",
+          "mode": 5,
+          "score": 6
+        },
+        {
+          "quip": "Madden on rookie with every slider yanked all the way left",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "the scoreboard operator getting a full workout is why god invented Sunday",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "i'm cheering missed tackles like it's my kid's recital",
+          "mode": 2,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x05a291e83bd22cd3271b46fd8b90de55d55620393a6a4d95302e67c102365571",
+      "title": "Warriors make the 2027 playoffs",
+      "subtitle": "",
+      "payout": 2.2,
+      "tier": "green",
+      "quip": "the Rolling Stones farewell tour, sixth edition, still sold out",
+      "yes_price": "0.4550",
+      "volume": 9965.221266,
+      "category": "Sports",
+      "close_time": "2027-05-16T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/nba-team-to-make-playoffs-20260708210742372",
+      "platform": "polymarket",
+      "score": 33.0,
+      "quip_alts": [
+        {
+          "quip": "i own a Curry jersey and i refuse to let anyone call it vintage",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "Steph drops 50 in a play in game and the Bay files for emotional damages",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "Chase Center charging $19 for a beer to watch a 42 win team",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "old man still cooking",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "the Rolling Stones farewell tour, sixth edition, still sold out",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "a 38 year old jump shooter dragging a roster into April is beautiful",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "they finish 41-41 and Draymond ejects himself four separate times",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "computer. run it back. ignore the cap sheet",
+          "mode": 4,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "0xacec7e5b90ccb1ac4c950e3aff18156d6ce1bb7b0c87c001a281279412dca784",
+      "title": "Bitcoin hits $95K this year",
+      "subtitle": "",
+      "payout": 2.6,
+      "tier": "green",
+      "quip": "this is the Knicks of asset classes",
+      "yes_price": "0.3850",
+      "volume": 971702.9169860001,
+      "category": "Crypto",
+      "close_time": "2027-01-01T05:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027",
+      "platform": "polymarket",
+      "score": 53.0,
+      "quip_alts": [
+        {
+          "quip": "the guy at my gym starts handing out the pamphlet again",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "my cost basis and i have agreed to stop speaking for a while",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "number go up, eventually",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "$95,000 is just my rent with the decimal in a fun spot",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Rocky VI, except Rocky is a spreadsheet with no training montage",
+          "mode": 8,
+          "score": 6.5
+        },
+        {
+          "quip": "i love that an entire religion hangs on one round number",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "this is the Knicks of asset classes",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we are SO back,\" says a man who has been back eleven times this year",
+          "mode": 4,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26VICKY-T1",
+      "title": "Vicky becomes a Category 1 hurricane",
+      "subtitle": "Hurricane Vicky",
+      "yes_sub_title": "Category 1 or above",
+      "no_sub_title": "Category 1 or above",
+      "payout": 4.76,
+      "tier": "yellow",
+      "quip": "every Vicky i have ever met could absolutely take down a carport",
+      "yes_price": "0.2100",
+      "volume": 20.0,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 60.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "name a storm Vicky and she heads for the Panhandle out of pure spite",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "category 1 is the double espresso of natural disasters",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "i only learn geography when a storm gets named after somebody's aunt",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Vicky has plans",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "the local news guy pulls the windbreaker out of his trunk at 6am",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "every Vicky i have ever met could absolutely take down a carport",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "a Cat 1 is the preseason game of hurricanes",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "74 mph and suddenly everyone in my office is a meteorologist",
+          "mode": 5,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXSPACEXMARS-30",
+      "title": "SpaceX lands something on Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 5.0,
+      "tier": "yellow",
+      "quip": "ANYTHING. a hubcap. a vape. i'm counting all of it",
+      "yes_price": "0.2000",
+      "volume": 96371.97,
+      "category": "Science and Technology",
+      "close_time": "2030-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXSPACEXMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 110.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "a Starship fragment hits the regolith and the press release calls it a landing",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "you know in Interstellar when the robot does all the actual work",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "i'd watch this stream at 4am and be completely useless the next day",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "rapid unscheduled Mars arrival",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "ANYTHING. a hubcap. a vape. i'm counting all of it",
+          "mode": 3,
+          "score": 9
+        },
+        {
+          "quip": "\"we define the word landing very broadly around here\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "five bucks says the first object on Mars has a doge sticker",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "Mars receives its first piece of Texas litter",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x5d2afd0dbe1e4ce212f523b4eaf9fc4605a3df8a7f0c4036815821bbb3fcfef4",
+      "title": "Baidu gets off the Chinese military list by next summer",
+      "subtitle": "",
+      "payout": 6.25,
+      "tier": "yellow",
+      "quip": "a guy in a windowless Pentagon office hits backspace and goes to lunch",
+      "yes_price": "0.1600",
+      "volume": 98967.472414,
+      "category": "Science and Technology",
+      "close_time": "2027-07-01T03:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/who-will-be-removed-from-chinese-military-companies-list-by-june-30-2027-20260706223230550",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "i did not know Baidu was on a list and now i have follow ups",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "a guy in a windowless Pentagon office hits backspace and goes to lunch",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "delisted, debriefed, done",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "corporate equivalent of getting off the no fly list and immediately booking Cabo",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Baidu pulling a full Jason Bourne on the Department of Defense",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "i love a redemption arc where nobody involved explains a single thing",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "\"we are simply a search engine,\" says the search engine with a drone division",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "one lobbying firm, 16 cents on the dollar, and a very long dinner",
+          "mode": 5,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXBANDANTES-27JAN",
+      "title": "Dantes gets banned from Twitch this year",
+      "subtitle": "Before Jan 2027",
+      "yes_sub_title": "Before Jan 2027",
+      "no_sub_title": "Before Jan 2027",
+      "payout": 7.14,
+      "tier": "orange",
+      "quip": "Twitch moderation moving with the urgency of a DMV at 4:55",
+      "yes_price": "0.1400",
+      "volume": 1790.72,
+      "category": "Social",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXBANDANTES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 86.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i do not know who this man is and i am already invested",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the apology stream arrives with the chair spun around backwards",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "banned Tuesday, back Thursday",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "Twitch moderation moving with the urgency of a DMV at 4:55",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "nothing on earth is purer than a man explaining why it wasn't his fault",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "the Shawshank poster, but behind it is a YouTube backup channel",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "\"hey guys so i got an email and i want to be transparent with you\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "seven dollars says the ban clocks in at 72 hours",
+          "mode": 5,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXRECORDNFLWORST-27-ARI",
+      "title": "Arizona finishes with the worst record next season",
+      "subtitle": "2026-27 season",
+      "yes_sub_title": "Arizona",
+      "no_sub_title": "Arizona",
+      "payout": 11.11,
+      "tier": "orange",
+      "quip": "Phoenix in June, except it's the standings",
+      "yes_price": "0.0900",
+      "volume": 116986.98,
+      "category": "Sports",
+      "close_time": "2027-02-22T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXRECORDNFLWORST?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 121.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "Phoenix in June, except it's the standings",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "i will absolutely watch a 14 win team out of morbid curiosity",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "they tank so hard the mascot starts applying to other franchises",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "the desert claims another",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "this is the NBA version of a Tuesday night MAC game",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "there's something honest about a team that finally stops pretending",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "11 wins, 11 to 1, the universe is clearly telling us something",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we love where our young guys are at,\" said into a mic in an empty arena",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26NOV",
+      "title": "US strikes a new Iran nuclear deal this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Nov 1, 2026",
+      "no_sub_title": "Before Nov 1, 2026",
+      "payout": 50.0,
+      "tier": "red",
+      "quip": "the Jets of diplomacy",
+      "yes_price": "0.0200",
+      "volume": 1041443.09,
+      "category": "Politics",
+      "close_time": "2026-11-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 115.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i have a whole folder of unread push notifications about exactly this",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "handshake photo, two flags, one fancy pen, then silence for eight years",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "fiftieth time's the charm",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "the Lucy and the football of foreign policy",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "\"many people said it couldn't be done. frankly, a beautiful deal\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "the Jets of diplomacy",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "i would genuinely cheer. out loud. in my apartment. alone",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "fifty bucks says the ink isn't dry before somebody declares it dead",
+          "mode": 5,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0x61a98d44e4c5c94da61f6737ab38adfbbb76587a8daeec623a55843ea1742a61",
+      "title": "Elon posts 120 to 139 tweets this week",
+      "subtitle": "",
+      "payout": 117.65,
+      "tier": "purple",
+      "quip": "\"concerning,\" he posts, at 3:41am, for the ninth time",
+      "yes_price": "0.0085",
+      "volume": 9922.241600000001,
+      "category": "Other",
+      "close_time": "2026-10-23T16:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-october-16-october-23-2026",
+      "platform": "polymarket",
+      "score": 48.0,
+      "quip_alts": [
+        {
+          "quip": "120 is him on vacation. that's basically a nap for this guy",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "i checked my screen time, then i checked his, and i feel great now",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "somewhere an intern is tallying these by hand on a legal pad",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "a quiet week, apparently",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "like guessing jellybeans in a jar, if the jar owned a rocket company",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "somebody out there is charting this hourly and honestly good for them",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "\"concerning,\" he posts, at 3:41am, for the ninth time",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "it's a pitch count and the manager is not leaving the dugout",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,94 +1,4 @@
 {
-  "SB-F094AE92": {
-    "title": "Steelers bury Colts by double digits tonight",
-    "quip": "Terrible Towels out, Shane Steichen's headset already smoking",
-    "cached_at": "2026-10-11T19:54:18.093766+00:00"
-  },
-  "SB-261CB200": {
-    "title": "Cardinals upset Lions in the desert",
-    "quip": "Kyler plays spoiler better than he plays contender",
-    "cached_at": "2026-10-11T19:54:18.093766+00:00"
-  },
-  "SB-797EF657": {
-    "title": "Panthers beat Sabres by two or more",
-    "quip": "Buffalo's playoff drought has its own Wikipedia section",
-    "cached_at": "2026-10-11T19:54:18.093766+00:00"
-  },
-  "SB-D15C9293": {
-    "title": "Bulls steal one in Toronto tonight",
-    "quip": "Josh Giddey triple-double, Scotiabank Arena goes quiet",
-    "cached_at": "2026-10-11T19:54:18.093766+00:00"
-  },
-  "SB-D5B8C61E": {
-    "title": "Dodgers blow out Brewers by six-plus",
-    "quip": "Ohtani and Freeman turning American Family Field into a batting cage",
-    "cached_at": "2026-10-11T19:54:18.093766+00:00"
-  },
-  "SB-573110C4": {
-    "title": "Texans beat Titans but keep it under 23",
-    "quip": "Cal Stroud survives, dignity technically intact, Nashville exhales",
-    "cached_at": "2026-10-11T19:54:18.093766+00:00"
-  },
-  "SB-BC93E184": {
-    "title": "Giants stun the Commanders in Washington",
-    "quip": "Jayden Daniels meets the Big Blue speed bump",
-    "cached_at": "2026-10-11T19:54:32.101753+00:00"
-  },
-  "SB-B550A818": {
-    "title": "Twins roll past Kia Tigers tonight",
-    "quip": "Jamsil arms do the quiet work in Gwangju",
-    "cached_at": "2026-10-11T19:54:43.127040+00:00"
-  },
-  "SB-0E5A6665": {
-    "title": "Lotte Giants handle Doosan Bears by two",
-    "quip": "Busan seagulls circling Jamsil like it's a fish market",
-    "cached_at": "2026-10-11T19:54:43.127040+00:00"
-  },
-  "SB-5FFF63C5": {
-    "title": "Seibu Lions beat Nippon-Ham by two",
-    "quip": "Belluna Dome humidity is a fourth outfielder",
-    "cached_at": "2026-10-11T19:54:43.127040+00:00"
-  },
-  "SB-7DAB64D1": {
-    "title": "Gr\u00eamio and Internacional settle for a draw",
-    "quip": "Gre-Nal ends how it always ends: everyone furious",
-    "cached_at": "2026-10-11T19:54:43.127040+00:00"
-  },
-  "SB-C7FE55FC": {
-    "title": "Skellefte\u00e5 beat V\u00e4xj\u00f6 by a pair",
-    "quip": "Norrland hockey arriving with the cold front",
-    "cached_at": "2026-10-11T19:54:43.127040+00:00"
-  },
-  "SB-771FA46D": {
-    "title": "Mazoudier shocks Jermell Charlo",
-    "quip": "Charlo's been fighting press conferences, not fighters",
-    "cached_at": "2026-10-11T19:54:43.127040+00:00"
-  },
-  "SB-9ACD30F0": {
-    "title": "Sabres hang tough with Panthers tonight",
-    "quip": "Buffalo losing close is practically a civic tradition",
-    "cached_at": "2026-10-11T19:54:52.391167+00:00"
-  },
-  "SB-22ABA1E6": {
-    "title": "Wild and Golden Knights go down to the wire",
-    "quip": "Kaprizov keeps it tight at the Xcel",
-    "cached_at": "2026-10-11T19:54:52.391167+00:00"
-  },
-  "SB-BEA494B8": {
-    "title": "Senators keep it close in New Jersey",
-    "quip": "Hughes brothers win, Ottawa still gets a point",
-    "cached_at": "2026-10-11T19:54:52.391167+00:00"
-  },
-  "SB-FF85BA90": {
-    "title": "Falcons knock off the Ravens in Atlanta",
-    "quip": "Bijan Robinson runs it straight through Baltimore",
-    "cached_at": "2026-10-11T19:54:52.391167+00:00"
-  },
-  "SB-2853F2FC": {
-    "title": "Colts stay within striking distance in Pittsburgh",
-    "quip": "Jonathan Taylor keeps the clock away from Rodgers",
-    "cached_at": "2026-10-11T19:54:52.391167+00:00"
-  },
   "SB-D21AB179": {
     "title": "Brentford and Liverpool trade four-plus goals tonight",
     "quip": "the Gtech wind tunnel eats clean sheets for breakfast",
@@ -853,5 +763,60 @@
     "title": "Dodgers take care of the Brewers tonight",
     "quip": "Ohtani versus a bullpen game, do the math",
     "cached_at": "2026-10-15T19:41:43.548636+00:00"
+  },
+  "SB-DC238927": {
+    "title": "Eagles handle the Panthers tonight",
+    "quip": "Saquon runs downhill, Carolina runs out of answers",
+    "cached_at": "2026-10-16T00:08:26.709495+00:00"
+  },
+  "SB-F529D687": {
+    "title": "Wild beat the Blues by two or more",
+    "quip": "Kaprizov eats, the State of Hockey nods",
+    "cached_at": "2026-10-16T00:08:26.709495+00:00"
+  },
+  "SB-022F553A": {
+    "title": "Bruins roll the Ducks by two in Anaheim",
+    "quip": "Pastrnak on the west coast swing, unbothered",
+    "cached_at": "2026-10-16T00:08:26.709495+00:00"
+  },
+  "SB-A7C9C4FA": {
+    "title": "Flames upset the Golden Knights in Vegas",
+    "quip": "Dustin Wolf stealing one on the Strip",
+    "cached_at": "2026-10-16T00:08:26.709495+00:00"
+  },
+  "SB-024FC350": {
+    "title": "Guardians blow out the Rays by four",
+    "quip": "Jose Ramirez treating Tampa's bullpen like batting practice",
+    "cached_at": "2026-10-16T00:08:26.709495+00:00"
+  },
+  "SB-5286DDE9": {
+    "title": "Internacional stun Mirassol on the road tonight",
+    "quip": "Colorado faithful still singing at the Mai\u00e3o",
+    "cached_at": "2026-10-16T00:08:40.672983+00:00"
+  },
+  "SB-F9F0A540": {
+    "title": "Sydney FC and Wanderers split the derby points",
+    "quip": "Sydney Derby flares, red cards, nobody wins anything",
+    "cached_at": "2026-10-16T00:08:40.672983+00:00"
+  },
+  "SB-799247CA": {
+    "title": "Blackhawks keep it within a goal of Winnipeg",
+    "quip": "Bedard keeps games tight whether Chicago deserves it or not",
+    "cached_at": "2026-10-16T00:08:50.317260+00:00"
+  },
+  "SB-41D10009": {
+    "title": "Oilers stay within a goal of Utah tonight",
+    "quip": "McDavid alone covers this in the third period",
+    "cached_at": "2026-10-16T00:08:50.317260+00:00"
+  },
+  "SB-EBFF9EEF": {
+    "title": "Sharks hang within a goal in Nashville",
+    "quip": "Celebrini has made San Jose annoying again",
+    "cached_at": "2026-10-16T00:08:50.317260+00:00"
+  },
+  "SB-C2B1BFAB": {
+    "title": "Guardians stay within a run of the Rays",
+    "quip": "Progressive Field scores like it's rationing electricity",
+    "cached_at": "2026-10-16T00:08:50.317260+00:00"
   }
 }

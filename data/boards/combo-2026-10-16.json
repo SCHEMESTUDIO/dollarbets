@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-10-16T00:08:56.957395+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "MLS": 5,
+    "Multi": 5
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-A4A0B195",
+      "title": "Vancouver Whitecaps FC wins + Under 3.5",
+      "payout": 2.65,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1025806316?coupon={pickType}|4370073113|{wagerAmount}",
+      "sport": "soccer_usa_mls",
+      "sport_display": "MLS",
+      "matchup": "Vancouver Whitecaps FC @ Austin FC + Colorado Rapids @ Portland Timbers",
+      "market_type": "2-leg parlay",
+      "american_odds": 165,
+      "implied_probability": 0.377,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Vancouver Whitecaps FC @ Austin FC",
+          "pick": "Vancouver Whitecaps FC wins",
+          "odds": -159,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806316?coupon={pickType}|4370073113|{wagerAmount}",
+          "commence_time": "2026-10-18T00:30:00Z"
+        },
+        {
+          "matchup": "Colorado Rapids @ Portland Timbers",
+          "pick": "Under 3.5",
+          "odds": -159,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806335?coupon={pickType}|4370158251|{wagerAmount}",
+          "commence_time": "2026-10-18T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-18T00:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-A4A0B195",
+      "title": "Under 3.5 + Under 3.5",
+      "payout": 2.65,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1025806316?coupon={pickType}|4370073160|{wagerAmount}",
+      "sport": "soccer_usa_mls",
+      "sport_display": "MLS",
+      "matchup": "Vancouver Whitecaps FC @ Austin FC + Colorado Rapids @ Portland Timbers",
+      "market_type": "2-leg parlay",
+      "american_odds": 165,
+      "implied_probability": 0.377,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Vancouver Whitecaps FC @ Austin FC",
+          "pick": "Under 3.5",
+          "odds": -159,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806316?coupon={pickType}|4370073160|{wagerAmount}",
+          "commence_time": "2026-10-18T00:30:00Z"
+        },
+        {
+          "matchup": "Colorado Rapids @ Portland Timbers",
+          "pick": "Under 3.5",
+          "odds": -159,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806335?coupon={pickType}|4370158251|{wagerAmount}",
+          "commence_time": "2026-10-18T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-18T00:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-29408EEB",
+      "title": "Charles Oliveira wins + Vancouver Whitecaps FC wins",
+      "payout": 2.68,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1029370273?coupon={pickType}|4361885991|{wagerAmount}",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Diego Lopes @ Charles Oliveira + Vancouver Whitecaps FC @ Austin FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 168,
+      "implied_probability": 0.373,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Diego Lopes @ Charles Oliveira",
+          "pick": "Charles Oliveira wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029370273?coupon={pickType}|4361885991|{wagerAmount}",
+          "commence_time": "2026-12-13T04:00:00Z"
+        },
+        {
+          "matchup": "Vancouver Whitecaps FC @ Austin FC",
+          "pick": "Vancouver Whitecaps FC wins",
+          "odds": -159,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806316?coupon={pickType}|4370073113|{wagerAmount}",
+          "commence_time": "2026-10-18T00:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-18T00:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-29408EEB",
+      "title": "Charles Oliveira wins + Under 3.5",
+      "payout": 2.68,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1029370273?coupon={pickType}|4361885991|{wagerAmount}",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Diego Lopes @ Charles Oliveira + Vancouver Whitecaps FC @ Austin FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 168,
+      "implied_probability": 0.373,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Diego Lopes @ Charles Oliveira",
+          "pick": "Charles Oliveira wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029370273?coupon={pickType}|4361885991|{wagerAmount}",
+          "commence_time": "2026-12-13T04:00:00Z"
+        },
+        {
+          "matchup": "Vancouver Whitecaps FC @ Austin FC",
+          "pick": "Under 3.5",
+          "odds": -159,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806316?coupon={pickType}|4370073160|{wagerAmount}",
+          "commence_time": "2026-10-18T00:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-18T00:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-5845F407",
+      "title": "Charles Oliveira wins + Under 3.5",
+      "payout": 2.68,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1029370273?coupon={pickType}|4361885991|{wagerAmount}",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Diego Lopes @ Charles Oliveira + Colorado Rapids @ Portland Timbers",
+      "market_type": "2-leg parlay",
+      "american_odds": 168,
+      "implied_probability": 0.373,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Diego Lopes @ Charles Oliveira",
+          "pick": "Charles Oliveira wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029370273?coupon={pickType}|4361885991|{wagerAmount}",
+          "commence_time": "2026-12-13T04:00:00Z"
+        },
+        {
+          "matchup": "Colorado Rapids @ Portland Timbers",
+          "pick": "Under 3.5",
+          "odds": -159,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806335?coupon={pickType}|4370158251|{wagerAmount}",
+          "commence_time": "2026-10-18T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-18T02:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-A16EFC85",
+      "title": "Under 3.5 + Vancouver Whitecaps FC wins",
+      "payout": 2.68,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1025806340?coupon={pickType}|4369853724|{wagerAmount}",
+      "sport": "soccer_usa_mls",
+      "sport_display": "MLS",
+      "matchup": "St. Louis City SC @ Minnesota United FC + Vancouver Whitecaps FC @ Austin FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 168,
+      "implied_probability": 0.373,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "St. Louis City SC @ Minnesota United FC",
+          "pick": "Under 3.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806340?coupon={pickType}|4369853724|{wagerAmount}",
+          "commence_time": "2026-10-17T20:30:00Z"
+        },
+        {
+          "matchup": "Vancouver Whitecaps FC @ Austin FC",
+          "pick": "Vancouver Whitecaps FC wins",
+          "odds": -159,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806316?coupon={pickType}|4370073113|{wagerAmount}",
+          "commence_time": "2026-10-18T00:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T20:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-A16EFC85",
+      "title": "Under 3.5 + Under 3.5",
+      "payout": 2.68,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1025806340?coupon={pickType}|4369853724|{wagerAmount}",
+      "sport": "soccer_usa_mls",
+      "sport_display": "MLS",
+      "matchup": "St. Louis City SC @ Minnesota United FC + Vancouver Whitecaps FC @ Austin FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 168,
+      "implied_probability": 0.373,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "St. Louis City SC @ Minnesota United FC",
+          "pick": "Under 3.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806340?coupon={pickType}|4369853724|{wagerAmount}",
+          "commence_time": "2026-10-17T20:30:00Z"
+        },
+        {
+          "matchup": "Vancouver Whitecaps FC @ Austin FC",
+          "pick": "Under 3.5",
+          "odds": -159,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806316?coupon={pickType}|4370073160|{wagerAmount}",
+          "commence_time": "2026-10-18T00:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T20:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-4D2FB7F9",
+      "title": "Under 3.5 + Under 3.5",
+      "payout": 2.68,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1025806340?coupon={pickType}|4369853724|{wagerAmount}",
+      "sport": "soccer_usa_mls",
+      "sport_display": "MLS",
+      "matchup": "St. Louis City SC @ Minnesota United FC + Colorado Rapids @ Portland Timbers",
+      "market_type": "2-leg parlay",
+      "american_odds": 168,
+      "implied_probability": 0.373,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "St. Louis City SC @ Minnesota United FC",
+          "pick": "Under 3.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806340?coupon={pickType}|4369853724|{wagerAmount}",
+          "commence_time": "2026-10-17T20:30:00Z"
+        },
+        {
+          "matchup": "Colorado Rapids @ Portland Timbers",
+          "pick": "Under 3.5",
+          "odds": -159,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806335?coupon={pickType}|4370158251|{wagerAmount}",
+          "commence_time": "2026-10-18T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T20:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-C7AE0789",
+      "title": "Carolina Panthers wins + Vancouver Whitecaps FC wins",
+      "payout": 2.7,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028823703?coupon={pickType}|4373655603|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Tampa Bay Buccaneers @ Carolina Panthers + Vancouver Whitecaps FC @ Austin FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 170,
+      "implied_probability": 0.37,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tampa Bay Buccaneers @ Carolina Panthers",
+          "pick": "Carolina Panthers wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028823703?coupon={pickType}|4373655603|{wagerAmount}",
+          "commence_time": "2026-10-25T17:00:00Z"
+        },
+        {
+          "matchup": "Vancouver Whitecaps FC @ Austin FC",
+          "pick": "Vancouver Whitecaps FC wins",
+          "odds": -159,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806316?coupon={pickType}|4370073113|{wagerAmount}",
+          "commence_time": "2026-10-18T00:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-18T00:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-C7AE0789",
+      "title": "Carolina Panthers wins + Under 3.5",
+      "payout": 2.7,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028823703?coupon={pickType}|4373655603|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Tampa Bay Buccaneers @ Carolina Panthers + Vancouver Whitecaps FC @ Austin FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 170,
+      "implied_probability": 0.37,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tampa Bay Buccaneers @ Carolina Panthers",
+          "pick": "Carolina Panthers wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028823703?coupon={pickType}|4373655603|{wagerAmount}",
+          "commence_time": "2026-10-25T17:00:00Z"
+        },
+        {
+          "matchup": "Vancouver Whitecaps FC @ Austin FC",
+          "pick": "Under 3.5",
+          "odds": -159,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1025806316?coupon={pickType}|4370073160|{wagerAmount}",
+          "commence_time": "2026-10-18T00:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-18T00:30:00Z"
+    }
+  ]
+}
