@@ -122,10 +122,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-16T20:01:26.365285+00:00",
+          "tweet_id": "2111185769935044789",
+          "reply_tweet_id": "2111185771755352471"
         },
         "telegram_channel": {
           "posted": false,
@@ -136,6 +136,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "18346132",
+        "page": "https://www.pexels.com/photo/river-and-town-behind-18346132/",
+        "photographer": "Traveler stories photos  \u65c5\u4eba\u6545\u4e8b\u76f8\u7247\u96c6",
+        "license": "Pexels License",
+        "phrases": [
+          "empty negotiation table dusk",
+          "sunflower field at dusk"
+        ],
+        "tokens": {
+          "input_tokens": 4335,
+          "output_tokens": 32
         }
       }
     }
