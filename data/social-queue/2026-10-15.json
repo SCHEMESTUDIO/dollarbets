@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-16T04:49:12.713866+00:00",
+          "tweet_id": "2110956200351174913",
+          "reply_tweet_id": "2110956201890431244"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "18665841",
+        "page": "https://www.pexels.com/photo/dark-railway-station-18665841/",
+        "photographer": "Yi\u011fit  KARAAL\u0130O\u011eLU",
+        "license": "Pexels License",
+        "phrases": [
+          "empty trading floor dusk",
+          "glass skyscraper lobby night"
+        ],
+        "tokens": {
+          "input_tokens": 3860,
+          "output_tokens": 33
         }
       }
     },
