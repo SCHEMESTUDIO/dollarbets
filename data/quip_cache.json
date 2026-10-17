@@ -1,74 +1,4 @@
 {
-  "SB-E83C9A72": {
-    "title": "Lightning skate past Rangers by two at the Garden",
-    "quip": "Kucherov treats MSG like his personal highlight reel",
-    "cached_at": "2026-10-13T02:53:40.096247+00:00"
-  },
-  "SB-BBD725CF": {
-    "title": "Utah buries the Leafs by two",
-    "quip": "Toronto's road trip blues, now with altitude sickness",
-    "cached_at": "2026-10-13T02:53:40.096247+00:00"
-  },
-  "SB-4D4E5389": {
-    "title": "Red Wings handle the Devils by two in Detroit",
-    "quip": "Larkin remembers what Hockeytown used to sound like",
-    "cached_at": "2026-10-13T02:53:40.096247+00:00"
-  },
-  "SB-54C2F8B5": {
-    "title": "Dodgers bury the Brewers by nine-plus tonight",
-    "quip": "Ohtani, Betts, Freeman and a Milwaukee bullpen fire sale",
-    "cached_at": "2026-10-13T02:53:40.096247+00:00"
-  },
-  "SB-048D5FEE": {
-    "title": "Sport skate past KooKoo by two or more tonight",
-    "quip": "Rauma's finest, turning KooKoo into a cuckoo clock",
-    "cached_at": "2026-10-13T02:53:53.185381+00:00"
-  },
-  "SB-3CABB17D": {
-    "title": "Breakers steal one from the Kings in Sydney",
-    "quip": "the Haka travels better than Sydney's home-court aura",
-    "cached_at": "2026-10-13T02:53:53.185381+00:00"
-  },
-  "SB-8E34BC3D": {
-    "title": "Guardians beat Rays by two or more tonight",
-    "quip": "the Trop crowd won't even notice",
-    "cached_at": "2026-10-13T02:54:03.994305+00:00"
-  },
-  "SB-595A327D": {
-    "title": "Knicks handle the Sixers at the Garden",
-    "quip": "Brunson in a phone booth, as usual",
-    "cached_at": "2026-10-13T02:54:03.994305+00:00"
-  },
-  "SB-797338BA": {
-    "title": "Capitals keep it close in Carolina tonight",
-    "quip": "Ovechkin isn't going quietly anywhere",
-    "cached_at": "2026-10-13T02:54:03.994305+00:00"
-  },
-  "SB-A3646384": {
-    "title": "Dodgers take care of the Brewers tonight",
-    "quip": "payroll gravity doing its thing again",
-    "cached_at": "2026-10-13T02:54:03.994305+00:00"
-  },
-  "SB-45338EA0": {
-    "title": "Lightning win at Madison Square Garden tonight",
-    "quip": "Kucherov treats the Rangers like a buffet",
-    "cached_at": "2026-10-13T02:54:03.994305+00:00"
-  },
-  "SB-2E8E3755": {
-    "title": "Canadiens handle the Sabres at the Bell Centre",
-    "quip": "Suzuki and a building that actually shows up",
-    "cached_at": "2026-10-13T02:54:03.994305+00:00"
-  },
-  "SB-E3DA754F": {
-    "title": "Utah Mammoth beat the Maple Leafs tonight",
-    "quip": "Leafs road trips end like every Toronto spring",
-    "cached_at": "2026-10-13T02:54:03.994305+00:00"
-  },
-  "SB-270F23F5": {
-    "title": "Bills beat the Rams but it stays tight",
-    "quip": "Allen and Stafford trading haymakers into the fourth",
-    "cached_at": "2026-10-13T02:54:03.994305+00:00"
-  },
   "SB-B7A160AD": {
     "title": "Bruins skate past Sharks by two or more",
     "quip": "San Jose's rebuild still smells like a Zamboni fire",
@@ -848,5 +778,80 @@
     "title": "Houston handles Oklahoma State at home tonight",
     "quip": "Cowboys are still searching for a pulse in Big 12 play",
     "cached_at": "2026-10-17T00:13:14.532732+00:00"
+  },
+  "SB-92F8C215": {
+    "title": "Leafs beat Islanders by two or more tonight",
+    "quip": "Matthews doesn't do one-goal games quietly",
+    "cached_at": "2026-10-17T11:57:42.982787+00:00"
+  },
+  "SB-00BFD4C5": {
+    "title": "UMass upsets Buffalo on the road",
+    "quip": "the Minutemen remembered football is a sport",
+    "cached_at": "2026-10-17T11:57:42.982787+00:00"
+  },
+  "SB-B4BC54C4": {
+    "title": "Devils humiliate Capitals by five tonight",
+    "quip": "Ovechkin watching his own highlight reel for comfort",
+    "cached_at": "2026-10-17T11:57:42.982787+00:00"
+  },
+  "SB-DD01F0CE": {
+    "title": "Celtics-Pistons grinds under 183",
+    "quip": "Tatum and Cade both forget the rim exists",
+    "cached_at": "2026-10-17T11:57:42.982787+00:00"
+  },
+  "SB-CA9E65DC": {
+    "title": "Mississippi State upsets LSU in Baton Rouge",
+    "quip": "cowbells ringing all night in Death Valley",
+    "cached_at": "2026-10-17T11:57:48.374557+00:00"
+  },
+  "SB-0751B7EF": {
+    "title": "Ilves skate past Jokerit by two tonight",
+    "quip": "Tampere ice is colder and the Jokerit bench knows it",
+    "cached_at": "2026-10-17T11:57:59.007576+00:00"
+  },
+  "SB-2DCE8D6F": {
+    "title": "SaiPa hand HIFK a two-goal loss tonight",
+    "quip": "Lappeenranta's finest treating Helsinki like a road scrimmage",
+    "cached_at": "2026-10-17T11:57:59.007576+00:00"
+  },
+  "SB-66A78B02": {
+    "title": "Konyaspor win at Amed SK tonight",
+    "quip": "Diyarbakir's party crashed by a very green away kit",
+    "cached_at": "2026-10-17T11:57:59.007576+00:00"
+  },
+  "SB-6BB6030A": {
+    "title": "Alanyaspor stun Fenerbahce in Istanbul",
+    "quip": "Kadikoy silenced by a team from a beach town",
+    "cached_at": "2026-10-17T11:57:59.007576+00:00"
+  },
+  "SB-1FD543EC": {
+    "title": "Leonardo Baez knocks off Aaron Noriega",
+    "quip": "Baez auditioning for the Rocky montage nobody greenlit",
+    "cached_at": "2026-10-17T11:57:59.007576+00:00"
+  },
+  "SB-DF679E37": {
+    "title": "Guardians keep it close against the Rays tonight",
+    "quip": "Progressive Field crowds don't do blowouts, they do nail-biters",
+    "cached_at": "2026-10-17T11:58:07.661649+00:00"
+  },
+  "SB-D30B1C7F": {
+    "title": "Kansas State wins the Sunflower Showdown",
+    "quip": "the Jayhawks still play football as a hobby",
+    "cached_at": "2026-10-17T11:58:07.661649+00:00"
+  },
+  "SB-8E239A15": {
+    "title": "Ohio State handles Indiana in Bloomington",
+    "quip": "Curt Cignetti's talking season meets Ryan Day's revenge tour",
+    "cached_at": "2026-10-17T11:58:07.661649+00:00"
+  },
+  "SB-C9BA534B": {
+    "title": "Lightning beat Canucks by two or more",
+    "quip": "Kucherov treats Amalie Arena like his personal highlight reel",
+    "cached_at": "2026-10-17T11:58:07.661649+00:00"
+  },
+  "SB-D9CA9888": {
+    "title": "Fulham dispatch Hull City",
+    "quip": "Marco Silva's side versus a Championship side, Craven Cottage formality",
+    "cached_at": "2026-10-17T11:58:07.661649+00:00"
   }
 }
