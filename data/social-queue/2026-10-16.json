@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-17T19:38:28.057099+00:00",
+          "tweet_id": "2111542376829436349",
+          "reply_tweet_id": "2111542378238746702"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "openverse",
+        "id": "fdcf88aa-0774-45bd-a426-b9aa51a7480f",
+        "page": "https://commons.wikimedia.org/w/index.php?curid=195229015",
+        "photographer": "PattayaPatrol",
+        "license": "CC BY-SA 4.0",
+        "phrases": [
+          "phone screen glow dark bedroom",
+          "empty highway night streetlights"
+        ],
+        "tokens": {
+          "input_tokens": 6896,
+          "output_tokens": 44
         }
       }
     }
