@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-10-17T00:12:43.231078+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 3
+  },
+  "board": [
+    {
+      "ticker": "KXBOIPASSENGERS-27JAN22-T5229399",
+      "title": "Boise Airport sets a passenger record this year",
+      "subtitle": "2026",
+      "yes_sub_title": "Above 5,229,399 total passengers",
+      "no_sub_title": "Above 5,229,399 total passengers",
+      "payout": 1.64,
+      "tier": "green",
+      "quip": "all 5,229,399 of them heading to the same Costco off Milwaukee Street",
+      "yes_price": "0.6100",
+      "volume": 14863.5,
+      "category": "Economics",
+      "close_time": "2027-02-19T14:59:00Z",
+      "url": "https://kalshi.com/markets/KXBOIPASSENGERS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 59.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i moved to Boise for the quiet and apparently so did everyone",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the Cinnabon by gate B staffing up like it's O'Hare at Thanksgiving",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "all 5,229,399 of them heading to the same Costco off Milwaukee Street",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "Idaho is full now",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "every single one a Californian with a Subaru and a five-year plan",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "baggage carousel two is genuinely having the season of its life",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "Napoleon Dynamite would not recognize this town and that's the tragedy",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "\"now boarding group nine. yes, there are nine groups now.\"",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXBLUESPACEX-30",
+      "title": "Blue Origin beats SpaceX to the moon",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 1.67,
+      "tier": "green",
+      "quip": "like the Clippers taking a title the same year the Lakers tank",
+      "yes_price": "0.6000",
+      "volume": 95358.08,
+      "category": "Science and Technology",
+      "close_time": "2030-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXBLUESPACEX?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 80.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i would laugh for a solid week. i'd take time off work",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "Elon tweets through it 400 times starting at 3am our time",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "Bezos finally wins something",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "like the Clippers taking a title the same year the Lakers tank",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "tortoise and the hare except both of them own newspapers",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "a man in a cowboy hat on the lunar surface is content i need",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "lander arrives in a box marked Prime, two days late, slightly dented",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "\"alexa, land the lander.\" thank you for shopping with us",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0x662ed1d4d0d917b08bb132fe792cf20a4f6c094a6eea7cac9f07c368b6146e0a",
+      "title": "da Vinci surgery growth lands between 12.5% and 15%",
+      "subtitle": "",
+      "payout": 2.2,
+      "tier": "green",
+      "quip": "my surgeon played Rocket League competitively and honestly i find that comforting",
+      "yes_price": "0.4550",
+      "volume": 9979.838961000003,
+      "category": "Other",
+      "close_time": "2026-10-20T22:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/intuitive-surgical-isrg-q3-da-vinci-procedure-growth-20261008120014000",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "a robot took my gallbladder and i never even got to meet it",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "beep boop. hold still. i am 13.75% more confident than last quarter",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "the knife guy has an API",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "da Vinci sketched helicopters, we built one that does hernias",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "next quarter it asks for equity and a parking spot",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "robotic surgery is the Big Ten of growth, boring and quietly undefeated",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "truly the coolest thing a percentage range has ever meant to me",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "my surgeon played Rocket League competitively and honestly i find that comforting",
+          "mode": 5,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNBA1STTEAM-27-CWILSON8",
+      "title": "Caleb Wilson makes first team All-Pro",
+      "subtitle": "2026-27 season",
+      "yes_sub_title": "Caleb Wilson",
+      "no_sub_title": "Caleb Wilson",
+      "payout": 4.0,
+      "tier": "yellow",
+      "quip": "somewhere a 32-year-old averaging 19 is finding out on his phone",
+      "yes_price": "0.2500",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2027-07-08T14:00:00Z",
+      "url": "https://kalshi.com/markets/KXNBA1STTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 69.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i've watched four highlight reels and i'm already arguing with strangers about him",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "Carolina guys will not shut up about this until roughly 2040",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "first team, no notes",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "a kid skipping the line like it's a Costco samples table",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "dunks so hard the broadcast cuts to a replay nobody requested",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "Like Mike except the wish got granted on the very first try",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "somewhere a 32-year-old averaging 19 is finding out on his phone",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "four whole dollars for a man who cannot legally rent a car",
+          "mode": 5,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26NANA-T1",
+      "title": "Nana becomes a Category 1 hurricane",
+      "subtitle": "Hurricane Nana",
+      "yes_sub_title": "Category 1 or above",
+      "no_sub_title": "Category 1 or above",
+      "payout": 5.56,
+      "tier": "yellow",
+      "quip": "respect your elders, Florida",
+      "yes_price": "0.1800",
+      "volume": 36.0,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 60.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Nana sounds sweet right up until she's sitting on your carport",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "my actual nana also qualifies as a category 1 event",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "respect your elders, Florida",
+          "mode": 9,
+          "score": 9
+        },
+        {
+          "quip": "Weather Channel guy already leaning into wind that has not arrived",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "a hurricane named Nana is nature doing a bit and i'm thrilled",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "Category 1 is the first Fast and Furious. humble, but it escalates",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "18 extra miles an hour and suddenly everybody owns a generator",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we're getting some real gusts out here, Jim.\" the palm tree is fine",
+          "mode": 4,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x655973304dea33fa17443f66bdc5a7b566a79d094fdb7f88af3dfa8d4c107482",
+      "title": "Democrats win white voters in the midterms",
+      "subtitle": "",
+      "payout": 6.45,
+      "tier": "yellow",
+      "quip": "like Rutgers winning the Big Ten outright, in football",
+      "yes_price": "0.1550",
+      "volume": 9925.968374,
+      "category": "Other",
+      "close_time": "2026-11-07T04:59:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/which-party-will-win-white-voters-in-the-midterms",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i would have to unlearn everything i pretend to understand",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "cable news graphics department ordering an entirely new shade of blue",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "the map goes weird",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "like Rutgers winning the Big Ten outright, in football",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "somewhere in Ohio a man puts up a yard sign. sincerely",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "\"we are seeing something in the suburbs, Wolf, and i have no word for it\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "the Red Wedding for every pundit who already sold a 2024 book",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "every pollster in America quietly relocating to a cabin",
+          "mode": 5,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-27FEB",
+      "title": "US signs a new Iran nuclear deal",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Feb 1, 2027",
+      "no_sub_title": "Before Feb 1, 2027",
+      "payout": 7.69,
+      "tier": "orange",
+      "quip": "Groundhog Day, except Bill Murray wakes up as a centrifuge",
+      "yes_price": "0.1300",
+      "volume": 29126.53,
+      "category": "Politics",
+      "close_time": "2027-02-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 110.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i have been hearing about this deal since i had a different phone",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "signed, framed, shredded by March, framed again by summer",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "the deal cinematic universe",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "a sequel nobody asked for that everybody somehow watches",
+          "mode": 6,
+          "score": 6
+        },
+        {
+          "quip": "\"we have a deal. it's a beautiful deal. the paper is very thick.\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "Groundhog Day, except Bill Murray wakes up as a centrifuge",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "fourth deal this decade and the ink is still the same color",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "genuinely love a signing ceremony. the pens, the folders, the handshake",
+          "mode": 3,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXYELLVISITS-27MAR31-T5000000",
+      "title": "Yellowstone tops 5 million visits this year",
+      "subtitle": "2026",
+      "yes_sub_title": "Above 5 million",
+      "no_sub_title": "Above 5 million",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "Kevin Costner did not fight that whole family for this",
+      "yes_price": "0.0700",
+      "volume": 45125.93,
+      "category": "Economics",
+      "close_time": "2027-03-31T15:29:00Z",
+      "url": "https://kalshi.com/markets/KXYELLVISITS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "five million people in cargo shorts trying to pet a bison",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "i waited ninety minutes for Old Faithful and it went early out of spite",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the bison are unionizing",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "two mile backup caused by one elk standing vaguely near a road",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "Kevin Costner did not fight that whole family for this",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "Disney World wait times with significantly worse churros",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "5 million visitors, 4.9 million photos of the exact same steam",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "\"honey get closer to it, i want you both in the shot\"",
+          "mode": 4,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA lands a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 24.39,
+      "tier": "red",
+      "quip": "$24.39, or precisely one checked bag on the way to the Moon",
+      "yes_price": "0.0410",
+      "volume": 222686.3,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "$24.39, or precisely one checked bag on the way to the Moon",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "i will absolutely call out of work to watch this live",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "first words on the lunar surface immediately cut off by a sponsor read",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "the ladder looks fake again",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "Kubrick's estate politely declining all requests for comment",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Boeing hears 2028 and starts laughing directly into a slide deck",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "a human being. on the actual Moon. i'm emotional about it already",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "\"Houston, there's a flag up here and it's bleached completely white\"",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0x7627c2a9a37bc9c9d7d3eef8dcc626fc3abf18cc6f8be52c80024663237bcacc",
+      "title": "Peter Freshney wins the Latrobe mayoral election",
+      "subtitle": "",
+      "payout": 76.92,
+      "tier": "purple",
+      "quip": "Parks and Rec except everyone has a ute and a sunburn",
+      "yes_price": "0.0130",
+      "volume": 9713.858228000001,
+      "category": "World",
+      "close_time": "2026-10-28T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/latrobe-mayoral-election-winner-2026",
+      "platform": "polymarket",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "i now have a horse in a Tasmanian council race and i'm not okay",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "victory speech in the back room of a pub, two mics, one works",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "big night in Latrobe",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "$76 to care very deeply about a town of four thousand people",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Freshney. that is a mayor name. that is a man who fixes a roundabout",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "Parks and Rec except everyone has a ute and a sunburn",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "the platypuses have been waiting decades for new leadership",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "\"i'd like to thank the Rotary Club and my mum, in that order\"",
+          "mode": 4,
+          "score": 8.5
+        }
+      ]
+    }
+  ]
+}

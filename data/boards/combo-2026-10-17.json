@@ -1,0 +1,437 @@
+{
+  "generated_at": "2026-10-17T00:13:20.954247+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "NCAAF": 3,
+    "Multi": 6,
+    "NBA": 1
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-8ADD4216",
+      "title": "Ohio State Buckeyes wins + Louisiana Ragin Cajuns wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:46837-3798667-6055002&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Ohio State Buckeyes @ Indiana Hoosiers + Troy Trojans @ Louisiana Ragin Cajuns",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Ohio State Buckeyes @ Indiana Hoosiers",
+          "pick": "Ohio State Buckeyes wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46837-3798667-6055002&type=Single",
+          "commence_time": "2026-10-17T16:00:00Z"
+        },
+        {
+          "matchup": "Troy Trojans @ Louisiana Ragin Cajuns",
+          "pick": "Louisiana Ragin Cajuns wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46841-3798702-6055050&type=Single",
+          "commence_time": "2026-10-17T21:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-A1BE2A9E",
+      "title": "Ohio State Buckeyes wins + Portland Trail Blazers wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:46837-3798667-6055002&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Ohio State Buckeyes @ Indiana Hoosiers + Phoenix Suns @ Portland Trail Blazers",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Ohio State Buckeyes @ Indiana Hoosiers",
+          "pick": "Ohio State Buckeyes wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46837-3798667-6055002&type=Single",
+          "commence_time": "2026-10-17T16:00:00Z"
+        },
+        {
+          "matchup": "Phoenix Suns @ Portland Trail Blazers",
+          "pick": "Portland Trail Blazers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884072-1551554230-2277417848&type=Single",
+          "commence_time": "2026-10-22T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-2FD21F76",
+      "title": "Louisiana Ragin Cajuns wins + Portland Trail Blazers wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:46841-3798702-6055050&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Troy Trojans @ Louisiana Ragin Cajuns + Phoenix Suns @ Portland Trail Blazers",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Troy Trojans @ Louisiana Ragin Cajuns",
+          "pick": "Louisiana Ragin Cajuns wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46841-3798702-6055050&type=Single",
+          "commence_time": "2026-10-17T21:00:00Z"
+        },
+        {
+          "matchup": "Phoenix Suns @ Portland Trail Blazers",
+          "pick": "Portland Trail Blazers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884072-1551554230-2277417848&type=Single",
+          "commence_time": "2026-10-22T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T21:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-2C7616D9",
+      "title": "Duke Blue Devils wins + Ohio State Buckeyes wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:46843-3798713-6055063&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "North Carolina Tar Heels @ Duke Blue Devils + Ohio State Buckeyes @ Indiana Hoosiers",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "North Carolina Tar Heels @ Duke Blue Devils",
+          "pick": "Duke Blue Devils wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46843-3798713-6055063&type=Single",
+          "commence_time": "2026-10-17T19:30:00Z"
+        },
+        {
+          "matchup": "Ohio State Buckeyes @ Indiana Hoosiers",
+          "pick": "Ohio State Buckeyes wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46837-3798667-6055002&type=Single",
+          "commence_time": "2026-10-17T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-C27C5CF4",
+      "title": "Duke Blue Devils wins + Louisiana Ragin Cajuns wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:46843-3798713-6055063&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "North Carolina Tar Heels @ Duke Blue Devils + Troy Trojans @ Louisiana Ragin Cajuns",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "North Carolina Tar Heels @ Duke Blue Devils",
+          "pick": "Duke Blue Devils wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46843-3798713-6055063&type=Single",
+          "commence_time": "2026-10-17T19:30:00Z"
+        },
+        {
+          "matchup": "Troy Trojans @ Louisiana Ragin Cajuns",
+          "pick": "Louisiana Ragin Cajuns wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46841-3798702-6055050&type=Single",
+          "commence_time": "2026-10-17T21:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-48D439A7",
+      "title": "Duke Blue Devils wins + Portland Trail Blazers wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:46843-3798713-6055063&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "North Carolina Tar Heels @ Duke Blue Devils + Phoenix Suns @ Portland Trail Blazers",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "North Carolina Tar Heels @ Duke Blue Devils",
+          "pick": "Duke Blue Devils wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46843-3798713-6055063&type=Single",
+          "commence_time": "2026-10-17T19:30:00Z"
+        },
+        {
+          "matchup": "Phoenix Suns @ Portland Trail Blazers",
+          "pick": "Portland Trail Blazers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884072-1551554230-2277417848&type=Single",
+          "commence_time": "2026-10-22T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-E554F6F5",
+      "title": "Indiana Pacers wins + Ohio State Buckeyes wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19884070-1551554224-2277417843&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Indiana Pacers @ New Orleans Pelicans + Ohio State Buckeyes @ Indiana Hoosiers",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Indiana Pacers @ New Orleans Pelicans",
+          "pick": "Indiana Pacers wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884070-1551554224-2277417843&type=Single",
+          "commence_time": "2026-10-22T00:10:00Z"
+        },
+        {
+          "matchup": "Ohio State Buckeyes @ Indiana Hoosiers",
+          "pick": "Ohio State Buckeyes wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46837-3798667-6055002&type=Single",
+          "commence_time": "2026-10-17T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-1C13B9DC",
+      "title": "Indiana Pacers wins + Louisiana Ragin Cajuns wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19884070-1551554224-2277417843&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Indiana Pacers @ New Orleans Pelicans + Troy Trojans @ Louisiana Ragin Cajuns",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Indiana Pacers @ New Orleans Pelicans",
+          "pick": "Indiana Pacers wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884070-1551554224-2277417843&type=Single",
+          "commence_time": "2026-10-22T00:10:00Z"
+        },
+        {
+          "matchup": "Troy Trojans @ Louisiana Ragin Cajuns",
+          "pick": "Louisiana Ragin Cajuns wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46841-3798702-6055050&type=Single",
+          "commence_time": "2026-10-17T21:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T21:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-EE53A8A5",
+      "title": "Indiana Pacers wins + Portland Trail Blazers wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19884070-1551554224-2277417843&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "NBA",
+      "matchup": "Indiana Pacers @ New Orleans Pelicans + Phoenix Suns @ Portland Trail Blazers",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Indiana Pacers @ New Orleans Pelicans",
+          "pick": "Indiana Pacers wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884070-1551554224-2277417843&type=Single",
+          "commence_time": "2026-10-22T00:10:00Z"
+        },
+        {
+          "matchup": "Phoenix Suns @ Portland Trail Blazers",
+          "pick": "Portland Trail Blazers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884072-1551554230-2277417848&type=Single",
+          "commence_time": "2026-10-22T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-22T00:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-62D9668C",
+      "title": "Los Angeles Clippers wins + Ohio State Buckeyes wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=19884073-1551554233-2277417850&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Sacramento Kings @ Los Angeles Clippers + Ohio State Buckeyes @ Indiana Hoosiers",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Sacramento Kings @ Los Angeles Clippers",
+          "pick": "Los Angeles Clippers wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884073-1551554233-2277417850&type=Single",
+          "commence_time": "2026-10-22T02:40:00Z"
+        },
+        {
+          "matchup": "Ohio State Buckeyes @ Indiana Hoosiers",
+          "pick": "Ohio State Buckeyes wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:46837-3798667-6055002&type=Single",
+          "commence_time": "2026-10-17T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-17T16:00:00Z"
+    }
+  ]
+}
