@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-17T16:39:19.647990+00:00",
+          "tweet_id": "2111497294722011575",
+          "reply_tweet_id": "2111497296303255687"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "12866948",
+        "page": "https://www.pexels.com/photo/square-18-12866948/",
+        "photographer": "Yusuf P",
+        "license": "Pexels License",
+        "phrases": [
+          "empty office corridor night",
+          "server room blue light"
+        ],
+        "tokens": {
+          "input_tokens": 3173,
+          "output_tokens": 25
         }
       }
     },
