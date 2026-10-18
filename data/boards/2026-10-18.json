@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-10-18T12:30:23.940894+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 3
+  },
+  "board": [
+    {
+      "ticker": "KXROBOTMARS-35",
+      "title": "A robot beats humans to Mars by 2035",
+      "subtitle": "Before 2035",
+      "yes_sub_title": "Before 2035",
+      "no_sub_title": "Before 2035",
+      "payout": 1.93,
+      "tier": "green",
+      "quip": "Wall-E gets there first and starts gatekeeping the view",
+      "yes_price": "0.5190",
+      "volume": 56969.17,
+      "category": "Science and Technology",
+      "close_time": "2035-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXROBOTMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 49.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "first transmission from Mars is a firmware update at 3am",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i'd watch that landing live and feel genuinely replaced",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "a machine planting a flag for nobody. gorgeous stuff",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "Wall-E gets there first and starts gatekeeping the view",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "Mars population: 14 robots, zero bathrooms",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "like your little brother beating the final boss while you got snacks",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "Optimus will faceplant on another planet and i will cheer",
+          "mode": 7,
+          "score": 6.5
+        },
+        {
+          "quip": "robots eat first",
+          "mode": 9,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "0xaae4e59f5cf7f7b7ae56e27017925e220af17c69dd3d7e57dffc08f3de988d79",
+      "title": "Anduril hits a $125B valuation this year",
+      "subtitle": "",
+      "payout": 2.2,
+      "tier": "green",
+      "quip": "$125B buys 40,000 drones or one functioning government website",
+      "yes_price": "0.4550",
+      "volume": 9839.094874,
+      "category": "Other",
+      "close_time": "2027-01-05T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/will-andurils-valuation-hit-by-december-31",
+      "platform": "polymarket",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "Palmer Luckey upgrades to the expensive flip flops",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i sold my Oculus for 80 bucks and think about it nightly",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the Hawaiian shirt guy is building the Death Star, good for him",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "\"we named it after a sword from Lord of the Rings\" okay chief",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "$125B buys 40,000 drones or one functioning government website",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "defense is the only sector where the founder dresses like a pirate",
+          "mode": 6,
+          "score": 6
+        },
+        {
+          "quip": "Anduril, Flame of the West, now with a federal procurement office",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "mullet money",
+          "mode": 9,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUTSKIVISITS-27JUL31-T6000000",
+      "title": "Utah tops 6 million skier visits next season",
+      "subtitle": "the 2026\u201327 ski season",
+      "yes_sub_title": "Above 6,000,000 skier visits",
+      "no_sub_title": "Above 6,000,000 skier visits",
+      "payout": 2.22,
+      "tier": "green",
+      "quip": "lift lines like a Costco the Saturday before Thanksgiving",
+      "yes_price": "0.4500",
+      "volume": 12865.73,
+      "category": "Economics",
+      "close_time": "2027-07-31T15:29:00Z",
+      "url": "https://kalshi.com/markets/KXUTSKIVISITS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 61.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "Little Cottonwood becomes a four hour parking lot with a view",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "my knees have already filed paperwork against this entire season",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "greatest snow on earth, it's on the license plate, case closed",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "\"conditions are firm up top\" thanks Brad, very helpful",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "6 million skiers, 11 lifts, 2 bathrooms",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "lift lines like a Costco the Saturday before Thanksgiving",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Tahoe can't keep its water, let alone its skiers",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "bring cash for parking",
+          "mode": 9,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26NANA-T1",
+      "title": "Nana becomes a Category 1 hurricane",
+      "subtitle": "Hurricane Nana",
+      "yes_sub_title": "Category 1 or above",
+      "no_sub_title": "Category 1 or above",
+      "payout": 5.0,
+      "tier": "yellow",
+      "quip": "point her at Florida, they've been begging for attention",
+      "yes_price": "0.2000",
+      "volume": 36.0,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 60.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Nana hits 74 mph and immediately asks if you've eaten",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i refuse to evacuate for a storm named Nana",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Nana coming off the top rope at 75 years old",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "\"Nana, get down from there\" does not work this time",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "a Cat 1 is the preseason game of hurricanes",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "point her at Florida, they've been begging for attention",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "like the quiet aunt finally going off at Thanksgiving",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "respect your elders",
+          "mode": 9,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXBANDANTES-27JAN",
+      "title": "Dantes gets banned from Twitch this year",
+      "subtitle": "Before Jan 2027",
+      "yes_sub_title": "Before Jan 2027",
+      "no_sub_title": "Before Jan 2027",
+      "payout": 6.67,
+      "tier": "yellow",
+      "quip": "full Count of Monte Cristo arc, revenge stream lands in 2027",
+      "yes_price": "0.1500",
+      "volume": 1796.9,
+      "category": "Social",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXBANDANTES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 76.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "the apology video is already rendering in the background",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i do not know who Dantes is and i've picked a side",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "a ban is the last real form of knighthood left online",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "\"hey guys quick update, gonna be off the platform a few days\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "three day suspension, 40,000 new followers, standard arithmetic",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "full Count of Monte Cristo arc, revenge stream lands in 2027",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Twitch moderation moves slower than my dad opening a PDF",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "see you on Kick",
+          "mode": 9,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0xf21e7a47a5c0e4d81a6ddf7cc35d4c2f3be37e5c70a8b3705a16b2469c0cd422",
+      "title": "Magdeburg win this weekend",
+      "subtitle": "",
+      "payout": 6.9,
+      "tier": "yellow",
+      "quip": "$6.90 payout. nice. also Magdeburg",
+      "yes_price": "0.1450",
+      "volume": 9870.544777999998,
+      "category": "Other",
+      "close_time": "2026-10-18T11:30:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/bl2-dyn-fcm-2026-10-18",
+      "platform": "polymarket",
+      "score": 65.0,
+      "quip_alts": [
+        {
+          "quip": "a man in a windbreaker starts singing in Saxony-Anhalt and never stops",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i have googled Magdeburg twice now and i'm emotionally invested",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "only East German club with a European trophy and they will tell you",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "\"MAAAGDEBURG\" yelled directly into my ear by a stranger",
+          "mode": 4,
+          "score": 5.5
+        },
+        {
+          "quip": "$6.90 payout. nice. also Magdeburg",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "2. Bundesliga is the Big Ten West of Europe",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "a Werner Herzog film where the ball eventually goes in",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "east side stays up",
+          "mode": 9,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26DEC",
+      "title": "US cuts a new Iran nuclear deal this year",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Dec 1, 2026",
+      "no_sub_title": "Before Dec 1, 2026",
+      "payout": 11.11,
+      "tier": "orange",
+      "quip": "the Cowboys of foreign policy. every single year the window is open",
+      "yes_price": "0.0900",
+      "volume": 284515.92,
+      "category": "Politics",
+      "close_time": "2026-12-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the signing pens fly business, the deal flies coach",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "i set a news alert for this and it ruined every morning since",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "\"a beautiful deal. the best deal. nobody's ever done it before\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "eleven dollars and eleven cents, one dollar per announced deal",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the Cowboys of foreign policy. every single year the window is open",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "Groundhog Day but Bill Murray works at the State Department",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "centrifuges STOPPING. i love when metal stops spinning",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "we've run this play",
+          "mode": 9,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURPATHHAWAII-26DEC",
+      "title": "A hurricane makes landfall in Hawaii this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before 2027",
+      "no_sub_title": "Before 2027",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "Jurassic Park got its weather for free the last time this happened",
+      "yes_price": "0.0700",
+      "volume": 171239.48,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURPATHHAWAII?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "Jurassic Park got its weather for free the last time this happened",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "i have a trip booked and i'm refreshing the satellite loop hourly",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the ABC Store sells out of ponchos and Spam by noon",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "\"mahalo for nothing\" says the storm, very politely",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "Hawaii hasn't taken a real hit since 1992 and keeps the receipt",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "those mountains block storms like Gobert blocks shots. usually",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "nature keeps trying to get into Hawaii without a reservation",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "aloha works both ways",
+          "mode": 9,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA lands a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 25.64,
+      "tier": "red",
+      "quip": "$25.64 is also the price of the NASA hoodie at Target",
+      "yes_price": "0.0390",
+      "volume": 222697.3,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the lander arrives with a sticker reading some assembly required",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i'm calling in sick and watching it on a cracked phone",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "we are going back to the MOON and nobody is reacting correctly",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "\"houston, we have a podcast deal\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "$25.64 is also the price of the NASA hoodie at Target",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "launch dates slipping like a Knicks rebuild",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Apollo 13 except the thing that fails is a procurement form",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "moon stays undefeated",
+          "mode": 9,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x7627c2a9a37bc9c9d7d3eef8dcc626fc3abf18cc6f8be52c80024663237bcacc",
+      "title": "Peter Freshney wins the Latrobe mayor race",
+      "subtitle": "",
+      "payout": 76.92,
+      "tier": "purple",
+      "quip": "council elections are the Mountain West of democracy",
+      "yes_price": "0.0130",
+      "volume": 9713.858228000001,
+      "category": "World",
+      "close_time": "2026-10-28T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/latrobe-mayoral-election-winner-2026",
+      "platform": "polymarket",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "victory party is four guys, a sausage sizzle and one esky",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "never heard of Latrobe, already a Freshney man for life",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Freshney. that's a mayor name. that's a guy who fixes a roundabout",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "\"g'day, i'm Pete, bins go out Tuesday, cheers\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "77 dollars for a race decided by 11 people and a dog",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "council elections are the Mountain West of democracy",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "Parks and Rec but the accents make it better",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "mayor Freshney, let's go",
+          "mode": 9,
+          "score": 6
+        }
+      ]
+    }
+  ]
+}

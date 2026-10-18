@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-10-18T12:31:06.578130+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 9,
+    "NBA": 1
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-5664A73D",
+      "title": "Washington Wizards wins + Georgia Tech Yellow Jackets wins",
+      "payout": 2.26,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.599592975&selectionId=237485",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Milwaukee Bucks @ Washington Wizards + Boston College Eagles @ Georgia Tech Yellow Jackets",
+      "market_type": "2-leg parlay",
+      "american_odds": 126,
+      "implied_probability": 0.443,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Milwaukee Bucks @ Washington Wizards",
+          "pick": "Washington Wizards wins",
+          "odds": -198,
+          "implied_prob": "66%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.599592975&selectionId=237485",
+          "commence_time": "2026-10-21T23:00:00Z"
+        },
+        {
+          "matchup": "Boston College Eagles @ Georgia Tech Yellow Jackets",
+          "pick": "Georgia Tech Yellow Jackets wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617060531&selectionId=588240",
+          "commence_time": "2026-10-24T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-21T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-E169B0E7",
+      "title": "Minnesota Wild wins + Georgia Tech Yellow Jackets wins",
+      "payout": 2.27,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617270784&selectionId=25604",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Columbus Blue Jackets @ Minnesota Wild + Boston College Eagles @ Georgia Tech Yellow Jackets",
+      "market_type": "2-leg parlay",
+      "american_odds": 127,
+      "implied_probability": 0.44,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Columbus Blue Jackets @ Minnesota Wild",
+          "pick": "Minnesota Wild wins",
+          "odds": -194,
+          "implied_prob": "66%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617270784&selectionId=25604",
+          "commence_time": "2026-10-18T22:10:00Z"
+        },
+        {
+          "matchup": "Boston College Eagles @ Georgia Tech Yellow Jackets",
+          "pick": "Georgia Tech Yellow Jackets wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617060531&selectionId=588240",
+          "commence_time": "2026-10-24T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-18T22:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-4F097003",
+      "title": "Detroit Lions wins + Washington Wizards wins",
+      "payout": 2.27,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096247&selectionId=50193",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Green Bay Packers @ Detroit Lions + Milwaukee Bucks @ Washington Wizards",
+      "market_type": "2-leg parlay",
+      "american_odds": 127,
+      "implied_probability": 0.44,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Green Bay Packers @ Detroit Lions",
+          "pick": "Detroit Lions wins",
+          "odds": -196,
+          "implied_prob": "66%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096247&selectionId=50193",
+          "commence_time": "2026-10-25T20:25:00Z"
+        },
+        {
+          "matchup": "Milwaukee Bucks @ Washington Wizards",
+          "pick": "Washington Wizards wins",
+          "odds": -198,
+          "implied_prob": "66%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.599592975&selectionId=237485",
+          "commence_time": "2026-10-21T23:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-21T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-C69E0512",
+      "title": "Detroit Lions wins + Georgia Tech Yellow Jackets wins",
+      "payout": 2.27,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096247&selectionId=50193",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Green Bay Packers @ Detroit Lions + Boston College Eagles @ Georgia Tech Yellow Jackets",
+      "market_type": "2-leg parlay",
+      "american_odds": 127,
+      "implied_probability": 0.442,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Green Bay Packers @ Detroit Lions",
+          "pick": "Detroit Lions wins",
+          "odds": -196,
+          "implied_prob": "66%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096247&selectionId=50193",
+          "commence_time": "2026-10-25T20:25:00Z"
+        },
+        {
+          "matchup": "Boston College Eagles @ Georgia Tech Yellow Jackets",
+          "pick": "Georgia Tech Yellow Jackets wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617060531&selectionId=588240",
+          "commence_time": "2026-10-24T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-24T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-D483893D",
+      "title": "Minnesota Wild wins + Washington Wizards wins",
+      "payout": 2.28,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617270784&selectionId=25604",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Columbus Blue Jackets @ Minnesota Wild + Milwaukee Bucks @ Washington Wizards",
+      "market_type": "2-leg parlay",
+      "american_odds": 128,
+      "implied_probability": 0.438,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Columbus Blue Jackets @ Minnesota Wild",
+          "pick": "Minnesota Wild wins",
+          "odds": -194,
+          "implied_prob": "66%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617270784&selectionId=25604",
+          "commence_time": "2026-10-18T22:10:00Z"
+        },
+        {
+          "matchup": "Milwaukee Bucks @ Washington Wizards",
+          "pick": "Washington Wizards wins",
+          "odds": -198,
+          "implied_prob": "66%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.599592975&selectionId=237485",
+          "commence_time": "2026-10-21T23:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-18T22:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-6165C67C",
+      "title": "New York Knicks wins + Georgia Tech Yellow Jackets wins",
+      "payout": 2.29,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598945618&selectionId=237482",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Philadelphia 76ers @ New York Knicks + Boston College Eagles @ Georgia Tech Yellow Jackets",
+      "market_type": "2-leg parlay",
+      "american_odds": 129,
+      "implied_probability": 0.437,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Philadelphia 76ers @ New York Knicks",
+          "pick": "New York Knicks wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598945618&selectionId=237482",
+          "commence_time": "2026-10-20T23:00:00Z"
+        },
+        {
+          "matchup": "Boston College Eagles @ Georgia Tech Yellow Jackets",
+          "pick": "Georgia Tech Yellow Jackets wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617060531&selectionId=588240",
+          "commence_time": "2026-10-24T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-20T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-929FBCB5",
+      "title": "Minnesota Wild wins + Detroit Lions wins",
+      "payout": 2.29,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617270784&selectionId=25604",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Columbus Blue Jackets @ Minnesota Wild + Green Bay Packers @ Detroit Lions",
+      "market_type": "2-leg parlay",
+      "american_odds": 129,
+      "implied_probability": 0.437,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Columbus Blue Jackets @ Minnesota Wild",
+          "pick": "Minnesota Wild wins",
+          "odds": -194,
+          "implied_prob": "66%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617270784&selectionId=25604",
+          "commence_time": "2026-10-18T22:10:00Z"
+        },
+        {
+          "matchup": "Green Bay Packers @ Detroit Lions",
+          "pick": "Detroit Lions wins",
+          "odds": -196,
+          "implied_prob": "66%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096247&selectionId=50193",
+          "commence_time": "2026-10-25T20:25:00Z"
+        }
+      ],
+      "close_time": "2026-10-18T22:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-2D3DDE38",
+      "title": "New York Knicks wins + Washington Wizards wins",
+      "payout": 2.3,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.43",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598945618&selectionId=237482",
+      "sport": "basketball_nba",
+      "sport_display": "NBA",
+      "matchup": "Philadelphia 76ers @ New York Knicks + Milwaukee Bucks @ Washington Wizards",
+      "market_type": "2-leg parlay",
+      "american_odds": 130,
+      "implied_probability": 0.435,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Philadelphia 76ers @ New York Knicks",
+          "pick": "New York Knicks wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.598945618&selectionId=237482",
+          "commence_time": "2026-10-20T23:00:00Z"
+        },
+        {
+          "matchup": "Milwaukee Bucks @ Washington Wizards",
+          "pick": "Washington Wizards wins",
+          "odds": -198,
+          "implied_prob": "66%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.599592975&selectionId=237485",
+          "commence_time": "2026-10-21T23:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-20T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-40570315",
+      "title": "Baltimore Ravens wins + Washington Wizards wins",
+      "payout": 2.31,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.43",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096164&selectionId=50205",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Cincinnati Bengals @ Baltimore Ravens + Milwaukee Bucks @ Washington Wizards",
+      "market_type": "2-leg parlay",
+      "american_odds": 131,
+      "implied_probability": 0.432,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Cincinnati Bengals @ Baltimore Ravens",
+          "pick": "Baltimore Ravens wins",
+          "odds": -186,
+          "implied_prob": "65%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096164&selectionId=50205",
+          "commence_time": "2026-10-25T17:00:00Z"
+        },
+        {
+          "matchup": "Milwaukee Bucks @ Washington Wizards",
+          "pick": "Washington Wizards wins",
+          "odds": -198,
+          "implied_prob": "66%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.599592975&selectionId=237485",
+          "commence_time": "2026-10-21T23:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-21T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-7F10674C",
+      "title": "Baltimore Ravens wins + Georgia Tech Yellow Jackets wins",
+      "payout": 2.31,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.43",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096164&selectionId=50205",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Cincinnati Bengals @ Baltimore Ravens + Boston College Eagles @ Georgia Tech Yellow Jackets",
+      "market_type": "2-leg parlay",
+      "american_odds": 131,
+      "implied_probability": 0.434,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Cincinnati Bengals @ Baltimore Ravens",
+          "pick": "Baltimore Ravens wins",
+          "odds": -186,
+          "implied_prob": "65%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616096164&selectionId=50205",
+          "commence_time": "2026-10-25T17:00:00Z"
+        },
+        {
+          "matchup": "Boston College Eagles @ Georgia Tech Yellow Jackets",
+          "pick": "Georgia Tech Yellow Jackets wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617060531&selectionId=588240",
+          "commence_time": "2026-10-24T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-24T19:30:00Z"
+    }
+  ]
+}
