@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-18T04:55:55.634013+00:00",
+          "tweet_id": "2111682666198364376",
+          "reply_tweet_id": "2111682667561550258"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "openverse",
+        "id": "c02c1230-d3a5-4b30-b554-5a983db14e6f",
+        "page": "https://www.rawpixel.com/image/5963571/free-public-domain-cc0-photo",
+        "photographer": "unknown",
+        "license": "CC0 1.0",
+        "phrases": [
+          "empty negotiation room dusk",
+          "desert highway night"
+        ],
+        "tokens": {
+          "input_tokens": 6187,
+          "output_tokens": 38
         }
       }
     },
