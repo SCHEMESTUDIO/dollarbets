@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-18T16:54:51.882474+00:00",
+          "tweet_id": "2111863592584728906",
+          "reply_tweet_id": "2111863594203713972"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "36803598",
+        "page": "https://www.pexels.com/photo/bright-yellow-flags-on-lush-green-field-36803598/",
+        "photographer": "Wendee Cohee",
+        "license": "Pexels License",
+        "phrases": [
+          "empty football stadium night",
+          "locker room bench dusk"
+        ],
+        "tokens": {
+          "input_tokens": 4101,
+          "output_tokens": 28
         }
       }
     },
