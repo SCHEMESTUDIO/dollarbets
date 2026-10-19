@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-19T19:28:59.268234+00:00",
+          "tweet_id": "2112264766819586470",
+          "reply_tweet_id": "2112264768392413676"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "37539053",
+        "page": "https://www.pexels.com/photo/serene-beach-fishing-scene-with-two-rods-37539053/",
+        "photographer": "Eros Sack",
+        "license": "Pexels License",
+        "phrases": [
+          "palm trees storm clouds coastline",
+          "empty beach road rain dusk"
+        ],
+        "tokens": {
+          "input_tokens": 3863,
+          "output_tokens": 35
         }
       }
     },
