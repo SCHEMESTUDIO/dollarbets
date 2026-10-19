@@ -1,94 +1,4 @@
 {
-  "SB-4C405448": {
-    "title": "Broncos handle Seattle at altitude tonight",
-    "quip": "Bo Nix in thin air, Seahawks gasping by the fourth",
-    "cached_at": "2026-10-15T19:41:18.806175+00:00"
-  },
-  "SB-39135DBF": {
-    "title": "Utah Mammoth beat Edmonton by two or more",
-    "quip": "somebody tell McDavid the woolly ones showed up",
-    "cached_at": "2026-10-15T19:41:18.806175+00:00"
-  },
-  "SB-632F0D08": {
-    "title": "Kraken sink the Lightning in Tampa",
-    "quip": "the deep sea beats the thunderstorm, Vasilevskiy permitting",
-    "cached_at": "2026-10-15T19:41:18.806175+00:00"
-  },
-  "SB-1A8504F5": {
-    "title": "Canucks upset the Panthers in Sunrise",
-    "quip": "Quinn Hughes carrying luggage through the swamp",
-    "cached_at": "2026-10-15T19:41:18.806175+00:00"
-  },
-  "SB-B9F9A6BA": {
-    "title": "Dodgers blow out Brewers by six or more",
-    "quip": "Ohtani treats Milwaukee like a batting practice invitational",
-    "cached_at": "2026-10-15T19:41:18.806175+00:00"
-  },
-  "SB-B0FC2354": {
-    "title": "Rays walk into Cleveland and win outright",
-    "quip": "a payroll of pocket lint storming Progressive Field",
-    "cached_at": "2026-10-15T19:41:18.806175+00:00"
-  },
-  "SB-93D1CDB2": {
-    "title": "Ipswich stun Man City at the Etihad",
-    "quip": "Portman Road hasn't tasted this since Bobby Robson",
-    "cached_at": "2026-10-15T19:41:24.388963+00:00"
-  },
-  "SB-CE4B3E97": {
-    "title": "Tappara handle Lukko by two tonight",
-    "quip": "Tampere's hockey factory keeps the conveyor belt moving",
-    "cached_at": "2026-10-15T19:41:35.202239+00:00"
-  },
-  "SB-4F2F916A": {
-    "title": "Hanshin Tigers beat the BayStars by two",
-    "quip": "Koshien faithful already sharpening the Randy Bass chants",
-    "cached_at": "2026-10-15T19:41:35.202239+00:00"
-  },
-  "SB-556F6104": {
-    "title": "Ilves roll HPK by a couple",
-    "quip": "H\u00e4meenlinna gets the Tampere treatment again",
-    "cached_at": "2026-10-15T19:41:35.202239+00:00"
-  },
-  "SB-CBE24ED9": {
-    "title": "TPS bury Kiekko-Espoo by two in Turku",
-    "quip": "Espoo's new kids learning the old club's manners",
-    "cached_at": "2026-10-15T19:41:35.202239+00:00"
-  },
-  "SB-16BD065A": {
-    "title": "Rizespor win at \u00c7orum",
-    "quip": "the tea growers travel better than anyone expects",
-    "cached_at": "2026-10-15T19:41:35.202239+00:00"
-  },
-  "SB-AF4B88CD": {
-    "title": "Ferreira shocks Marco Romero",
-    "quip": "Rocky Balboa cosplay, full Philadelphia staircase energy",
-    "cached_at": "2026-10-15T19:41:35.202239+00:00"
-  },
-  "SB-CB99809B": {
-    "title": "Flyers keep it close in Detroit tonight",
-    "quip": "Yzerman's rebuild still isn't a blowout machine",
-    "cached_at": "2026-10-15T19:41:43.548636+00:00"
-  },
-  "SB-8F566D5F": {
-    "title": "Panthers upset the Eagles in Philly",
-    "quip": "Bryce Young's revenge tour rolls into Lincoln Financial",
-    "cached_at": "2026-10-15T19:41:43.548636+00:00"
-  },
-  "SB-E290E87C": {
-    "title": "Mahjoub beats Faglier but doesn't finish him",
-    "quip": "judo grinder, three rounds of mat time",
-    "cached_at": "2026-10-15T19:41:43.548636+00:00"
-  },
-  "SB-1826E75C": {
-    "title": "Senators handle the Islanders in Ottawa",
-    "quip": "Tkachuk bullies his way to two points",
-    "cached_at": "2026-10-15T19:41:43.548636+00:00"
-  },
-  "SB-24C4BB15": {
-    "title": "Dodgers take care of the Brewers tonight",
-    "quip": "Ohtani versus a bullpen game, do the math",
-    "cached_at": "2026-10-15T19:41:43.548636+00:00"
-  },
   "SB-DC238927": {
     "title": "Eagles handle the Panthers tonight",
     "quip": "Saquon runs downhill, Carolina runs out of answers",
@@ -913,5 +823,65 @@
     "title": "Rays take down the Guardians tonight",
     "quip": "Cleveland's bats still looking for the exit sign",
     "cached_at": "2026-10-19T15:20:00.493806+00:00"
+  },
+  "SB-39FE6610": {
+    "title": "Penguins knock off the Mammoth in Utah",
+    "quip": "Crosby's still got frequent flyer miles on that wrist shot",
+    "cached_at": "2026-10-19T20:52:32.132871+00:00"
+  },
+  "SB-2EA86153": {
+    "title": "Flyers stun the Avalanche in Philly",
+    "quip": "Broad Street doesn't care about MacKinnon's point streak",
+    "cached_at": "2026-10-19T20:52:32.132871+00:00"
+  },
+  "SB-9D2EDADA": {
+    "title": "Celtics bury the Pistons by nine or more",
+    "quip": "Cade's fun until Tatum starts cooking from the logo",
+    "cached_at": "2026-10-19T20:52:32.132871+00:00"
+  },
+  "SB-B67AE9EB": {
+    "title": "Rangers-Ducks turns into a ten-goal track meet",
+    "quip": "somebody hide Shesterkin's water bottle before warmups",
+    "cached_at": "2026-10-19T20:52:32.132871+00:00"
+  },
+  "SB-D68204E8": {
+    "title": "Guardians blow out the Rays by eight",
+    "quip": "Tropicana catwalks trembling at a full Cleveland touchdown",
+    "cached_at": "2026-10-19T20:52:32.132871+00:00"
+  },
+  "SB-FECB141F": {
+    "title": "Australia beat South Africa in the Test",
+    "quip": "the baggy green doesn't travel badly, it travels smug",
+    "cached_at": "2026-10-19T20:52:47.596978+00:00"
+  },
+  "SB-EE0EDD65": {
+    "title": "Pakistan beat England at home",
+    "quip": "spin on a dustbowl, England's sweep shot goes to therapy",
+    "cached_at": "2026-10-19T20:52:47.596978+00:00"
+  },
+  "SB-76B9BAC1": {
+    "title": "Sport beat Jukurit by two or more",
+    "quip": "Mikkeli's silence after the empty-netter would be symphonic",
+    "cached_at": "2026-10-19T20:52:47.596978+00:00"
+  },
+  "SB-8DA63AE0": {
+    "title": "Niners handle the Commanders tonight",
+    "quip": "Jayden Daniels running for his life behind that line",
+    "cached_at": "2026-10-19T20:52:56.519182+00:00"
+  },
+  "SB-7B2220F2": {
+    "title": "Utah Mammoth take down the Penguins",
+    "quip": "Crosby's farewell tour hits a Salt Lake snowbank",
+    "cached_at": "2026-10-19T20:52:56.519182+00:00"
+  },
+  "SB-8E448297": {
+    "title": "Leafs keep it close in Columbus",
+    "quip": "Matthews rarely lets a night get truly ugly",
+    "cached_at": "2026-10-19T20:52:56.519182+00:00"
+  },
+  "SB-983F7E3C": {
+    "title": "Rangers beat the Ducks at the Garden",
+    "quip": "Shesterkin versus a roster still finding its passport",
+    "cached_at": "2026-10-19T20:52:56.519182+00:00"
   }
 }
