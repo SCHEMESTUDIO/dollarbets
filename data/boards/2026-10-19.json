@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-10-19T15:19:25.888771+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 3
+  },
+  "board": [
+    {
+      "ticker": "KXBOIPASSENGERS-27JAN22-T5229399",
+      "title": "Boise Airport sets a new passenger record this year",
+      "subtitle": "2026",
+      "yes_sub_title": "Above 5,229,399 total passengers",
+      "no_sub_title": "Above 5,229,399 total passengers",
+      "payout": 1.61,
+      "tier": "green",
+      "quip": "every single one of them a Californian with a Tesla and a grievance",
+      "yes_price": "0.6200",
+      "volume": 17142.5,
+      "category": "Economics",
+      "close_time": "2027-02-19T14:59:00Z",
+      "url": "https://kalshi.com/markets/KXBOIPASSENGERS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 71.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "they're adding a second Chipotle to Concourse B as we speak",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "my buddy moved there in 2021 and now he talks about water rights",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "passenger 5,229,400 gets a plaque and a free sandwich, I don't make the rules",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "every single one of them a Californian with a Tesla and a grievance",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "potato hub international",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "Napoleon Dynamite's entire home state is now a layover",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "mid-sized airports are having a moment and I am HERE for it",
+          "mode": 3,
+          "score": 3
+        },
+        {
+          "quip": "like a mid-major sneaking into the 7 seed",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXMSPSNOWM-26DEC-12",
+      "title": "Minneapolis gets over a foot of snow in December",
+      "subtitle": "In Dec 2026",
+      "yes_sub_title": "Above 12 inches",
+      "no_sub_title": "Above 12 inches",
+      "payout": 2.04,
+      "tier": "green",
+      "quip": "Vikings fans start ice fishing in the stadium lot by 9am",
+      "yes_price": "0.4900",
+      "volume": 206.29,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T05:59:00Z",
+      "url": "https://kalshi.com/markets/KXMSPSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 64.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "I have never once enjoyed shoveling and I'd still enjoy this",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "Vikings fans start ice fishing in the stadium lot by 9am",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "12 inches is a Tuesday up there. they measure in feet and spite",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "december doing its job",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "Fargo was a documentary",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "meanwhile Florida gets hurricanes every year and still refuses to learn",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "a real foot of snow is the most honest weather available to man",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "ope, lemme just squeeze past ya with this snowblower",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXNBA1STTEAM-27-CFLAGG32",
+      "title": "Cooper Flagg makes First Team All-Pro this season",
+      "subtitle": "2026-27 season",
+      "yes_sub_title": "Cooper Flagg",
+      "no_sub_title": "Cooper Flagg",
+      "payout": 2.08,
+      "tier": "green",
+      "quip": "Nico Harrison watching this from a Blockbuster parking lot",
+      "yes_price": "0.4800",
+      "volume": 61.6,
+      "category": "Sports",
+      "close_time": "2027-07-08T14:00:00Z",
+      "url": "https://kalshi.com/markets/KXNBA1STTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 56.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "I was told he was a Duke guy and I have chosen to forgive him",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Mavs fans get to say a name out loud without flinching again",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "a kid from Maine playing like the league owes him money",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "the kid is nasty",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "second year, first team, 48 cents. the math is rude",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "Rookie of the Year was just the pilot episode",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "elite basketball out of MAINE. do you understand how cold it is there",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "Nico Harrison watching this from a Blockbuster parking lot",
+          "mode": 7,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "ticker": "0xc37f85182c9f8e6a25d9ac915e350f29ec6abd34adcfc75b42235214fcf1a8fd",
+      "title": "Kristi Noem leaves the Trump administration before 2027",
+      "subtitle": "",
+      "payout": 3.03,
+      "tier": "yellow",
+      "quip": "like the part of Survivor where they snuff your torch",
+      "yes_price": "0.3305",
+      "volume": 99363.16732300002,
+      "category": "World",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/who-will-leave-trump-administration-before-2027",
+      "platform": "polymarket",
+      "score": 53.0,
+      "quip_alts": [
+        {
+          "quip": "the cowboy hat gets its own farewell press conference",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "honestly I had to go check whether she was still in there",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "the revolving door spins",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "like the part of Survivor where they snuff your torch",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "cabinet turnover is the transfer portal with worse haircuts",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "33 cents says the book title is already picked out",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "South Dakota quietly changing the locks just in case",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "\"i serve at the pleasure of the president.\" sure you do",
+          "mode": 4,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x664ee9273e1d3abec2062eb93efc84a3574ecf39ce353bc551cc1b6d2a7c82d2",
+      "title": "Cowboys and Eagles clear 54.5 points",
+      "subtitle": "",
+      "payout": 3.47,
+      "tier": "yellow",
+      "quip": "55 points exactly, one more than you needed, as is tradition",
+      "yes_price": "0.2880",
+      "volume": 9870.0,
+      "category": "Other",
+      "close_time": "2026-10-27T00:15:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/nfl-dal-phi-2026-10-27",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "I need points and I need them before my cousin texts me at halftime",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "both defenses just walk off the field at the two minute warning",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "NFC East football, where nobody tackles and everybody tweets",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "let them cook, badly",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "55 points exactly, one more than you needed, as is tradition",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Jerry Jones in the box doing the Mr. Burns fingers",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "give me 31-30 in December with nobody playing defense. that's the good stuff",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "Dallas drops 30 and loses, which is the most Dallas sentence available",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x7f4ebe86ccefbda94f9e2a3b8d144de5b7ff2dab64066d3fa19fb35e3cb8292f",
+      "title": "Databricks hits a $225B valuation this year",
+      "subtitle": "",
+      "payout": 4.35,
+      "tier": "yellow",
+      "quip": "the Gonzaga of enterprise software",
+      "yes_price": "0.2300",
+      "volume": 9518.791326,
+      "category": "Other",
+      "close_time": "2027-01-05T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/will-databricks-valuation-hit-by-december-31",
+      "platform": "polymarket",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "I've read the pitch deck twice and still cannot tell you what they do",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "someone at Snowflake just threw a Yeti across an open floor plan",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "$225 billion for a company your mom has never once heard of",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "data is the new data",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "the Gonzaga of enterprise software",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "i love when a number just goes up because a guy in a vest said so",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "Silicon Valley ended and these guys kept filming anyway",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "IPO never. they will keep raising until the sun burns out",
+          "mode": 7,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26DEC",
+      "title": "US strikes a new Iran nuclear deal this year",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Dec 1, 2026",
+      "no_sub_title": "Before Dec 1, 2026",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "this is the Lions winning a Super Bowl, except with uranium",
+      "yes_price": "0.0700",
+      "volume": 286286.72,
+      "category": "Politics",
+      "close_time": "2026-12-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "every year I think this is the year and every year I feel stupid",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "the centrifuges post a LinkedIn update about exciting new beginnings",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "\"we have a concept of a deal, and it's a beautiful concept\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "7 cents of pure hope",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "this is the Lions winning a Super Bowl, except with uranium",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "Groundhog Day, but Bill Murray wakes up in Geneva every morning",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "I'd genuinely watch the signing. the pens, the folders, the little flags",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "fourteen bucks says the paper gets shredded by March",
+          "mode": 5,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXSWIFTWEDDING-26DEC31-LOU",
+      "title": "Taylor Swift wears Louis Vuitton at her wedding",
+      "subtitle": "Taylor Swift's first wedding ceremony to Travis Kelce during which they exchange wedding vows",
+      "yes_sub_title": "Louis Vuitton",
+      "no_sub_title": "Louis Vuitton",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "Kelce in a monogram tux looking like a very expensive duffel bag",
+      "yes_price": "0.0700",
+      "volume": 15529.1,
+      "category": "Entertainment",
+      "close_time": "2026-12-31T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXSWIFTWEDDING?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 110.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "I know too much about this and I chose none of it",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Kelce in a monogram tux looking like a very expensive duffel bag",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "7 percent chance it's Vuitton, 100 percent chance my feed dies that day",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "the merch of it all",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "bridal fashion's version of a Monday night flex game",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "a wedding with a halftime show and a two minute warning",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "Kansas City declares a municipal holiday and absolutely means it",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"are you ready for it,\" says the officiant, to applause",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA lands a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 25.64,
+      "tier": "red",
+      "quip": "\"Houston, we have a slide deck\"",
+      "yes_price": "0.0390",
+      "volume": 222796.3,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "I've been promised the moon since I was nine and I'm still standing here",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the flag shows up on time, the lander doesn't, everyone claps anyway",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "$25.64 is also what one livestream pretzel costs at the viewing party",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the rocket is in CAD",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "Artemis has racked up more delays than a Thanksgiving flight out of O'Hare",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Apollo 13 had problems in space, not in a procurement meeting",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "if a human stands up there again I am calling out of work",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "\"Houston, we have a slide deck\"",
+          "mode": 4,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "ticker": "KXNFLALLPRO-271STOFF-LJOHNSON65",
+      "title": "Lane Johnson makes First-Team All-Pro offense",
+      "subtitle": "1st Team Offense (2026-27)",
+      "yes_sub_title": "Lane Johnson",
+      "no_sub_title": "Lane Johnson",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "a dollar turns into a hundred because one man blocked people correctly for five months",
+      "yes_price": "0.0100",
+      "volume": 2771.0,
+      "category": "Sports",
+      "close_time": "2027-02-22T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNFLALLPRO?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 63.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "I have never once noticed a right tackle having a good day, which is the point",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "a dollar turns into a hundred because one man blocked people correctly for five months",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "linemen deserve things",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "Jason Kelce talks about this for forty uninterrupted minutes",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "like the bass player somehow walking off with the Grammy",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "pass blocking is the most underrated art form in this country and I'll say it louder",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "the only Eagle who hasn't filmed a car commercial yet",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "\"holding, number 65, offense.\" wrong guy, as always",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    }
+  ]
+}
