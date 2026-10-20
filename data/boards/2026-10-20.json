@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-10-20T00:57:56.510900+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 6,
+    "polymarket": 4
+  },
+  "board": [
+    {
+      "ticker": "KXMSPSNOWM-26DEC-12",
+      "title": "Minneapolis gets over a foot of snow in December",
+      "subtitle": "In Dec 2026",
+      "yes_sub_title": "Above 12 inches",
+      "no_sub_title": "Above 12 inches",
+      "payout": 2.04,
+      "tier": "green",
+      "quip": "$2.04 buys you exactly one gas station glove, for one hand",
+      "yes_price": "0.4900",
+      "volume": 206.29,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T05:59:00Z",
+      "url": "https://kalshi.com/markets/KXMSPSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 51.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "the Vikings immediately schedule an outdoor game just to feel something",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "I moved away from Minnesota years ago and I still feel this in my spine",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "twelve inches is a Tuesday up there. Floridians would simply perish",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "coldest place on earth",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "$2.04 buys you exactly one gas station glove, for one hand",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Fargo, except the woodchipper is just a guy's snowblower",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "I love a city that accepts its fate with a shovel and a thermos",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "\"ope, lemme just squeeze past ya and freeze to death\"",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUTSKIVISITS-27JUL31-T6000000",
+      "title": "Utah tops 6 million skier visits this season",
+      "subtitle": "the 2026\u201327 ski season",
+      "yes_sub_title": "Above 6,000,000 skier visits",
+      "no_sub_title": "Above 6,000,000 skier visits",
+      "payout": 2.08,
+      "tier": "green",
+      "quip": "6 million people, four working chairlifts, one bathroom",
+      "yes_price": "0.4800",
+      "volume": 12978.27,
+      "category": "Economics",
+      "close_time": "2027-07-31T15:29:00Z",
+      "url": "https://kalshi.com/markets/KXUTSKIVISITS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 66.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "I have never skied in my life and I'm already mad about the parking",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "every gondola ride is now a stranger pitching you his seed round",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "Colorado reading this from a hot tub, pretending very hard not to care",
+          "mode": 7,
+          "score": 6.5
+        },
+        {
+          "quip": "greatest snow on earth, allegedly",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "6 million people, four working chairlifts, one bathroom",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Dumb and Dumber ended in Aspen and that was the last good decision",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "powder day is the only religion I have ever respected",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "\"bluebird day, Chad. grab the GoPro and the fireball\"",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0x6d413fc2218e536a7023be97517c55b0e3acd570f29fd78607524cf039d425df",
+      "title": "Bonnie Crombie wins the Mississauga mayor race",
+      "subtitle": "",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "mayor of the airport",
+      "yes_price": "0.3650",
+      "volume": 9808.969163000002,
+      "category": "World",
+      "close_time": "2026-10-27T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/mississauga-mayoral-election-winner",
+      "platform": "polymarket",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "I have thought about Mississauga exactly zero times, and now twice",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "victory party in a Tim Hortons, confetti made entirely of double-doubles",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "this is the Canadian equivalent of winning the Commissioner's Cup",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "mayor of the airport",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "Toronto's suburbs finally get a storyline and it's zoning",
+          "mode": 7,
+          "score": 6
+        },
+        {
+          "quip": "Scott Pilgrim fought seven evil exes and still never crossed into Mississauga",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "municipal politics is undefeated and I am saying that completely sincerely",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "\"folks, we are going to fix the 403. somehow\"",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x1ae68b612dbd37d2685c994ff630b677a94440ff86d952e628bb2a875940161f",
+      "title": "Republicans win three races in states Kamala won",
+      "subtitle": "",
+      "payout": 3.68,
+      "tier": "yellow",
+      "quip": "New Jersey would absolutely do this purely out of spite",
+      "yes_price": "0.2720",
+      "volume": 9813.053533999999,
+      "category": "World",
+      "close_time": "2026-11-04T04:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/how-many-senate-and-governor-elections-will-republicans-win-in-states-won-by-kamala-20260702152603469",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "here's me pretending I've ever known what a gubernatorial coattail is",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "the cable news graphics department ordering four new shades of red",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "New Jersey would absolutely do this purely out of spite",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "split tickets are back",
+          "mode": 9,
+          "score": 3
+        },
+        {
+          "quip": "like a road team winning three straight inside Cameron Indoor",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "the Veep episode where Selina just stares at the map saying nothing",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "I genuinely love when voters do something deranged completely on purpose",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "three states, one map, $3.68, and my entire Tuesday night ruined",
+          "mode": 5,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x7f4ebe86ccefbda94f9e2a3b8d144de5b7ff2dab64066d3fa19fb35e3cb8292f",
+      "title": "Databricks is worth $225 billion by year's end",
+      "subtitle": "",
+      "payout": 4.35,
+      "tier": "yellow",
+      "quip": "private markets are the NIL era of finance",
+      "yes_price": "0.2300",
+      "volume": 9518.791326,
+      "category": "Other",
+      "close_time": "2027-01-05T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/will-databricks-valuation-hit-by-december-31",
+      "platform": "polymarket",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "I still don't know what Databricks does and I'm emotionally invested anyway",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the all-hands deck is one lakehouse emoji and nobody in the room blinks",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "$225 billion and the product is still a spreadsheet with a soul",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "data has a lake now",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "private markets are the NIL era of finance",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"you sit on a throne of data\" energy",
+          "mode": 8,
+          "score": 6
+        },
+        {
+          "quip": "I love a company whose only customers are other companies",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "\"we're not a database, we're a platform.\" sir, you are a database",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXNEXTOUTUS-26SEP28-KPAT",
+      "title": "Kash Patel is first out of Trump's cabinet",
+      "subtitle": "HHS Secretary, Defense Secretary and FBI Director",
+      "yes_sub_title": "Kash Patel",
+      "no_sub_title": "Kash Patel",
+      "payout": 4.76,
+      "tier": "yellow",
+      "quip": "like getting benched week three after they traded up to draft you",
+      "yes_price": "0.2100",
+      "volume": 7312.3,
+      "category": "Politics",
+      "close_time": "2029-01-20T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNEXTOUTUS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 86.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "resignation letter arrives as a tweet with four exclamation points and a flag",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "I've rewritten this man's Wikipedia page in my head three separate times",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "cabinet musical chairs begins",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "\"I serve at the pleasure of the president, who is currently golfing\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "like getting benched week three after they traded up to draft you",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "my rule in Washington is simple. never unpack",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "$4.76 is also roughly what they charge for coffee at Quantico",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "the Succession cold open where a guy eats it before the theme song",
+          "mode": 8,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27",
+      "title": "The US and Iran sign a nuclear deal this year",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 12.2,
+      "tier": "orange",
+      "quip": "this is the Jets announcing an open quarterback competition every single August",
+      "yes_price": "0.0820",
+      "volume": 1839099.41,
+      "category": "Politics",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 115.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Switzerland dusts off the same conference room it's held since 2015",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "I keep an Iran folder in my brain and it is mostly dust now",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "centrifuges take a nap",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "\"we have a concept of a deal\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "this is the Jets announcing an open quarterback competition every single August",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "Groundhog Day, except Bill Murray is a State Department undersecretary",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "honestly sign anything. I'll take a napkin with two signatures on it",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "twelve dollars and twenty cents, and the handshake photo is still blurry",
+          "mode": 5,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXYELLVISITS-27MAR31-T5000000",
+      "title": "Yellowstone tops 5 million visitors this year",
+      "subtitle": "2026",
+      "yes_sub_title": "Above 5 million",
+      "no_sub_title": "Above 5 million",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "Kevin Costner had nothing to do with this and gets all the credit",
+      "yes_price": "0.0700",
+      "volume": 45146.74,
+      "category": "Economics",
+      "close_time": "2027-03-31T15:29:00Z",
+      "url": "https://kalshi.com/markets/KXYELLVISITS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 96.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "Old Faithful adds a second show Saturdays to meet demand",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "five million people and at least nine of them will pet a bison",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "I went once and watched a man in Crocs chase an elk. never recovered",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "the geysers are overbooked",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "national parks are the music festivals of the Mountain West",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "Kevin Costner had nothing to do with this and gets all the credit",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "I'd drive fourteen hours for a hole that shoots hot water. gladly",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "5 million visitors, eleven parking spots",
+          "mode": 5,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA puts boots on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 25.64,
+      "tier": "red",
+      "quip": "Apollo 13 had duct tape and a slide rule and still beat this timeline",
+      "yes_price": "0.0390",
+      "volume": 222968.17,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the flag already has a sponsor and the rover has a QR code",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "I'm taking the entire day off work for this and I don't care who knows",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "one small delay for man",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "\"the moon? tremendous surface. people are saying the best surface\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "Artemis has had more delays than a Big Ten night game in November",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Apollo 13 had duct tape and a slide rule and still beat this timeline",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "$25.64, or roughly what a rocket costs per pound of regret",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "I will cry openly at the hardest thing humans have ever done, again",
+          "mode": 3,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0x157411dc46f1a2c74180e16126ffc21550475c5572b2d52954cc43a24c2e2932",
+      "title": "Elon posts exactly 400 to 419 tweets this week",
+      "subtitle": "",
+      "payout": 153.85,
+      "tier": "purple",
+      "quip": "\"concerning\" times four hundred",
+      "yes_price": "0.0065",
+      "volume": 96839.60813200001,
+      "category": "Other",
+      "close_time": "2026-10-20T16:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-october-13-october-20-2026",
+      "platform": "polymarket",
+      "score": 68.0,
+      "quip_alts": [
+        {
+          "quip": "I have posted 400 times in a week and nobody handed me $153",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the thumb files for workers comp sometime Thursday afternoon",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "419 or bust",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "\"concerning\" times four hundred",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "that's 57 a day, a full Westbrook usage rate",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "Lieutenant Dan screaming at the storm, except the storm is the replies",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "six companies and he still out-posts me. genuine respect",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "400 posts, two of them coherent, one deleted at 3am",
+          "mode": 5,
+          "score": 8.5
+        }
+      ]
+    }
+  ]
+}

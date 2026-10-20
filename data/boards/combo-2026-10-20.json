@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-10-20T00:58:44.937679+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "NCAAF": 6,
+    "Multi": 4
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-3064FD0A",
+      "title": "Toledo Rockets wins + Texas Longhorns wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617059271&selectionId=532781",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Western Michigan Broncos @ Toledo Rockets + Ole Miss Rebels @ Texas Longhorns",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Western Michigan Broncos @ Toledo Rockets",
+          "pick": "Toledo Rockets wins",
+          "odds": -154,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617059271&selectionId=532781",
+          "commence_time": "2026-10-24T16:00:00Z"
+        },
+        {
+          "matchup": "Ole Miss Rebels @ Texas Longhorns",
+          "pick": "Texas Longhorns wins",
+          "odds": -156,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617056145&selectionId=484725",
+          "commence_time": "2026-10-24T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-24T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-957B86AE",
+      "title": "Chicago Bears wins + Texas Longhorns wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616149652&selectionId=50194",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "New England Patriots @ Chicago Bears + Ole Miss Rebels @ Texas Longhorns",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New England Patriots @ Chicago Bears",
+          "pick": "Chicago Bears wins",
+          "odds": -154,
+          "implied_prob": "61%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616149652&selectionId=50194",
+          "commence_time": "2026-10-23T00:15:00Z"
+        },
+        {
+          "matchup": "Ole Miss Rebels @ Texas Longhorns",
+          "pick": "Texas Longhorns wins",
+          "odds": -156,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617056145&selectionId=484725",
+          "commence_time": "2026-10-24T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-23T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-BF639F36",
+      "title": "Delaware Blue Hens wins + Toledo Rockets wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "draftkings",
+      "platform_display": "DraftKings",
+      "url": "https://sportsbook.draftkings.com/?outcomes=0ML86731821_1",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Missouri State Bears @ Delaware Blue Hens + Western Michigan Broncos @ Toledo Rockets",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.37,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Missouri State Bears @ Delaware Blue Hens",
+          "pick": "Delaware Blue Hens wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML86731821_1",
+          "commence_time": "2026-10-20T23:00:00Z"
+        },
+        {
+          "matchup": "Western Michigan Broncos @ Toledo Rockets",
+          "pick": "Toledo Rockets wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML86731888_1",
+          "commence_time": "2026-10-24T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-20T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-7891B462",
+      "title": "Delaware Blue Hens wins + USC Trojans wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "draftkings",
+      "platform_display": "DraftKings",
+      "url": "https://sportsbook.draftkings.com/?outcomes=0ML86731821_1",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Missouri State Bears @ Delaware Blue Hens + USC Trojans @ Wisconsin Badgers",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.37,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Missouri State Bears @ Delaware Blue Hens",
+          "pick": "Delaware Blue Hens wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML86731821_1",
+          "commence_time": "2026-10-20T23:00:00Z"
+        },
+        {
+          "matchup": "USC Trojans @ Wisconsin Badgers",
+          "pick": "USC Trojans wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML86731861_3",
+          "commence_time": "2026-10-24T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-20T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-1B6591F3",
+      "title": "Delaware Blue Hens wins + Chicago Bears wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "draftkings",
+      "platform_display": "DraftKings",
+      "url": "https://sportsbook.draftkings.com/?outcomes=0ML86731821_1",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Missouri State Bears @ Delaware Blue Hens + New England Patriots @ Chicago Bears",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.37,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Missouri State Bears @ Delaware Blue Hens",
+          "pick": "Delaware Blue Hens wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML86731821_1",
+          "commence_time": "2026-10-20T23:00:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Chicago Bears",
+          "pick": "Chicago Bears wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML84695466_1",
+          "commence_time": "2026-10-23T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-10-20T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-2AB234DB",
+      "title": "Toledo Rockets wins + USC Trojans wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "draftkings",
+      "platform_display": "DraftKings",
+      "url": "https://sportsbook.draftkings.com/?outcomes=0ML86731888_1",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Western Michigan Broncos @ Toledo Rockets + USC Trojans @ Wisconsin Badgers",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.37,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Western Michigan Broncos @ Toledo Rockets",
+          "pick": "Toledo Rockets wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML86731888_1",
+          "commence_time": "2026-10-24T16:00:00Z"
+        },
+        {
+          "matchup": "USC Trojans @ Wisconsin Badgers",
+          "pick": "USC Trojans wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML86731861_3",
+          "commence_time": "2026-10-24T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-24T16:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-91399CF1",
+      "title": "Toledo Rockets wins + Chicago Bears wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "draftkings",
+      "platform_display": "DraftKings",
+      "url": "https://sportsbook.draftkings.com/?outcomes=0ML86731888_1",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Western Michigan Broncos @ Toledo Rockets + New England Patriots @ Chicago Bears",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.37,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Western Michigan Broncos @ Toledo Rockets",
+          "pick": "Toledo Rockets wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML86731888_1",
+          "commence_time": "2026-10-24T16:00:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Chicago Bears",
+          "pick": "Chicago Bears wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML84695466_1",
+          "commence_time": "2026-10-23T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-10-23T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-4612DEF0",
+      "title": "USC Trojans wins + Chicago Bears wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "draftkings",
+      "platform_display": "DraftKings",
+      "url": "https://sportsbook.draftkings.com/?outcomes=0ML86731861_3",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "USC Trojans @ Wisconsin Badgers + New England Patriots @ Chicago Bears",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.37,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "USC Trojans @ Wisconsin Badgers",
+          "pick": "USC Trojans wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML86731861_3",
+          "commence_time": "2026-10-24T23:30:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Chicago Bears",
+          "pick": "Chicago Bears wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML84695466_1",
+          "commence_time": "2026-10-23T00:15:00Z"
+        }
+      ],
+      "close_time": "2026-10-23T00:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-E6D6FC9E",
+      "title": "Delaware Blue Hens wins + Texas Longhorns wins",
+      "payout": 2.72,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617043359&selectionId=661910",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Missouri State Bears @ Delaware Blue Hens + Ole Miss Rebels @ Texas Longhorns",
+      "market_type": "2-leg parlay",
+      "american_odds": 172,
+      "implied_probability": 0.367,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Missouri State Bears @ Delaware Blue Hens",
+          "pick": "Delaware Blue Hens wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617043359&selectionId=661910",
+          "commence_time": "2026-10-20T23:00:00Z"
+        },
+        {
+          "matchup": "Ole Miss Rebels @ Texas Longhorns",
+          "pick": "Texas Longhorns wins",
+          "odds": -156,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617056145&selectionId=484725",
+          "commence_time": "2026-10-24T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-20T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-2F7A555B",
+      "title": "South Alabama Jaguars wins + Texas Longhorns wins",
+      "payout": 2.72,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616473989&selectionId=6813154",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "South Alabama Jaguars @ Marshall Thundering Herd + Ole Miss Rebels @ Texas Longhorns",
+      "market_type": "2-leg parlay",
+      "american_odds": 172,
+      "implied_probability": 0.367,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "South Alabama Jaguars @ Marshall Thundering Herd",
+          "pick": "South Alabama Jaguars wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.616473989&selectionId=6813154",
+          "commence_time": "2026-10-20T23:30:00Z"
+        },
+        {
+          "matchup": "Ole Miss Rebels @ Texas Longhorns",
+          "pick": "Texas Longhorns wins",
+          "odds": -156,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617056145&selectionId=484725",
+          "commence_time": "2026-10-24T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-20T23:30:00Z"
+    }
+  ]
+}
