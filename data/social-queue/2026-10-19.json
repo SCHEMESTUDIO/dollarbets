@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-20T05:06:53.929603+00:00",
+          "tweet_id": "2112410202813128881",
+          "reply_tweet_id": "2112410204406972834"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "31355456",
+        "page": "https://www.pexels.com/photo/modern-parking-shade-structure-in-dubai-31355456/",
+        "photographer": "aboodi vesakaran",
+        "license": "Pexels License",
+        "phrases": [
+          "empty basketball arena night",
+          "strip mall parking lot dusk"
+        ],
+        "tokens": {
+          "input_tokens": 4099,
+          "output_tokens": 32
         }
       }
     },
