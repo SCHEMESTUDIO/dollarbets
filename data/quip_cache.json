@@ -1,54 +1,4 @@
 {
-  "SB-21143E6C": {
-    "title": "Everton and Chelsea grind out a low-scoring one",
-    "quip": "Goodison ghosts still haunting the final third",
-    "cached_at": "2026-10-16T13:00:26.865253+00:00"
-  },
-  "SB-675E7728": {
-    "title": "Chargers steal one at Arrowhead",
-    "quip": "Herbert's arm vs. Mahomes' witchcraft, sealed envelope",
-    "cached_at": "2026-10-16T13:00:26.865253+00:00"
-  },
-  "SB-9060B21F": {
-    "title": "Brock Hamer upsets Khabalaev",
-    "quip": "every underdog needs a Rocky IV montage",
-    "cached_at": "2026-10-16T13:00:26.865253+00:00"
-  },
-  "SB-957CC73B": {
-    "title": "Penguins blow out the Avs by four",
-    "quip": "Crosby turns back the clock on Mile High ice",
-    "cached_at": "2026-10-16T13:00:26.865253+00:00"
-  },
-  "SB-DA4A70A2": {
-    "title": "Djurg\u00e5rden bury Malm\u00f6 Redhawks by two tonight",
-    "quip": "Hovet gets loud when the Redhawks visit",
-    "cached_at": "2026-10-16T13:00:44.265262+00:00"
-  },
-  "SB-EDC6CC97": {
-    "title": "Fr\u00f6lunda run Skellefte\u00e5 off the ice tonight",
-    "quip": "Scandinavium indoors, Skellefte\u00e5 outdoors by the third",
-    "cached_at": "2026-10-16T13:00:44.265262+00:00"
-  },
-  "SB-D3B939E6": {
-    "title": "Auckland and Melbourne City split the points",
-    "quip": "Go Media Stadium hosts a polite handshake",
-    "cached_at": "2026-10-16T13:00:44.265262+00:00"
-  },
-  "SB-86DD2D56": {
-    "title": "Perth Wildcats steal one in Sydney tonight",
-    "quip": "Bryce Cotton's whole career is road heartbreak",
-    "cached_at": "2026-10-16T13:00:44.265262+00:00"
-  },
-  "SB-E1893926": {
-    "title": "Galanti handles Leblanc on the cards tonight",
-    "quip": "Leblanc's cardio clock runs out in round two",
-    "cached_at": "2026-10-16T13:00:52.094188+00:00"
-  },
-  "SB-9A183CF6": {
-    "title": "Ducks keep it close against the Bruins",
-    "quip": "Anaheim loses politely, like a dinner guest",
-    "cached_at": "2026-10-16T13:00:52.094188+00:00"
-  },
   "SB-90ACA3AA": {
     "title": "Washington upsets Purdue in West Lafayette",
     "quip": "Huskies pack travels better than Boilermaker Special",
@@ -888,5 +838,65 @@
     "title": "Blue Jackets knock off the Leafs tonight",
     "quip": "Columbus still plays like it owes Johnny something",
     "cached_at": "2026-10-20T00:58:37.063526+00:00"
+  },
+  "SB-FE05CCD8": {
+    "title": "Leafs take down Blue Jackets in Columbus",
+    "quip": "Matthews doing Matthews things in Ohio",
+    "cached_at": "2026-10-20T13:19:31.686244+00:00"
+  },
+  "SB-0891FD87": {
+    "title": "Islanders beat Ducks by two or more",
+    "quip": "Anaheim's road trip keeps finding new floors",
+    "cached_at": "2026-10-20T13:19:31.686244+00:00"
+  },
+  "SB-D8E6C563": {
+    "title": "Liverpool and Villarreal settle for a draw",
+    "quip": "Anfield nights usually end louder than this",
+    "cached_at": "2026-10-20T13:19:31.686244+00:00"
+  },
+  "SB-BCF8108B": {
+    "title": "AEK Athens stun Man City at the Etihad",
+    "quip": "Pep's rotation experiment becomes a Greek tragedy",
+    "cached_at": "2026-10-20T13:19:31.686244+00:00"
+  },
+  "SB-E5AC726A": {
+    "title": "Spurs bury Thunder by 33+",
+    "quip": "Wemby blots out the sun over SGA",
+    "cached_at": "2026-10-20T13:19:31.686244+00:00"
+  },
+  "SB-5010EE36": {
+    "title": "Slovan Bratislava stun Roma at the Olimpico",
+    "quip": "Bratislava packing the Colosseum with lions of their own",
+    "cached_at": "2026-10-20T13:19:39.036453+00:00"
+  },
+  "SB-C9FE6D00": {
+    "title": "Ilves take down TPS in Turku tonight",
+    "quip": "the Tampere\u2013Turku grudge never gets old",
+    "cached_at": "2026-10-20T13:19:50.061920+00:00"
+  },
+  "SB-D20EA864": {
+    "title": "V\u00e4xj\u00f6 beat Lule\u00e5 by two or more",
+    "quip": "Lakers in five, wrong Lakers",
+    "cached_at": "2026-10-20T13:19:50.061920+00:00"
+  },
+  "SB-D2EDE85E": {
+    "title": "Pelicans bury HPK by multiple goals",
+    "quip": "Lahti's birds hunting in H\u00e4meenlinna, Zion not included",
+    "cached_at": "2026-10-20T13:19:50.061920+00:00"
+  },
+  "SB-7CFC2EB3": {
+    "title": "49ers handle the Falcons in Atlanta",
+    "quip": "Kyle Shanahan returns to his father's old haunt",
+    "cached_at": "2026-10-20T13:19:59.027237+00:00"
+  },
+  "SB-0CB7ED9A": {
+    "title": "Kings keep it close in Washington",
+    "quip": "Ovechkin scores, Kuemper keeps it a one-goal night",
+    "cached_at": "2026-10-20T13:19:59.027237+00:00"
+  },
+  "SB-A4584AC5": {
+    "title": "Rays stay within a run of the Brewers",
+    "quip": "American Family Field, where nobody runs away with anything",
+    "cached_at": "2026-10-20T13:19:59.027237+00:00"
   }
 }
