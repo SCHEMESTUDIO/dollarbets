@@ -1,99 +1,4 @@
 {
-  "SB-90ACA3AA": {
-    "title": "Washington upsets Purdue in West Lafayette",
-    "quip": "Huskies pack travels better than Boilermaker Special",
-    "cached_at": "2026-10-16T19:17:30.746143+00:00"
-  },
-  "SB-6C96894F": {
-    "title": "Canadiens skate past Sabres by two or more",
-    "quip": "Suzuki and Caufield keep Buffalo waiting another decade",
-    "cached_at": "2026-10-16T19:17:30.746143+00:00"
-  },
-  "SB-5AA13291": {
-    "title": "Capitals handle Devils by two tonight",
-    "quip": "Ovechkin still doing paperwork on the record books",
-    "cached_at": "2026-10-16T19:17:30.746143+00:00"
-  },
-  "SB-520C180D": {
-    "title": "Ducks run Bruins out of Anaheim",
-    "quip": "Cutter Gauthier remembers what it's like to be hated",
-    "cached_at": "2026-10-16T19:17:30.746143+00:00"
-  },
-  "SB-48D05047": {
-    "title": "Brentford and Liverpool split the points",
-    "quip": "the Gtech long throw as great equalizer",
-    "cached_at": "2026-10-16T19:17:30.746143+00:00"
-  },
-  "SB-C813EF55": {
-    "title": "Tulane upsets Memphis tonight in the Superdome",
-    "quip": "the Green Wave always crest when nobody's watching the AAC",
-    "cached_at": "2026-10-16T19:17:37.709670+00:00"
-  },
-  "SB-F74610C4": {
-    "title": "Michael Boylan shocks Gamid Khizriev",
-    "quip": "Khizriev's undefeated Dagestani grind meets a man with nothing to lose",
-    "cached_at": "2026-10-16T19:17:37.709670+00:00"
-  },
-  "SB-6036B0D1": {
-    "title": "Kia Tigers handle LG Twins by two",
-    "quip": "Gwangju still runs on Tigers pitching and cold beer",
-    "cached_at": "2026-10-16T19:17:52.253414+00:00"
-  },
-  "SB-C9614468": {
-    "title": "Bryn\u00e4s beat V\u00e4xj\u00f6 Lakers by two",
-    "quip": "G\u00e4vle's old guard remembering it has thirteen titles",
-    "cached_at": "2026-10-16T19:17:52.253414+00:00"
-  },
-  "SB-16A64BB5": {
-    "title": "BayStars take down Hanshin by two",
-    "quip": "silencing the Koshien trumpets is its own reward",
-    "cached_at": "2026-10-16T19:17:52.253414+00:00"
-  },
-  "SB-7E5E6B72": {
-    "title": "\u00c4ss\u00e4t beat TPS by two in Turku derby",
-    "quip": "Pori hockey, where the bear eats first",
-    "cached_at": "2026-10-16T19:17:52.253414+00:00"
-  },
-  "SB-1549C479": {
-    "title": "Pelicans beat KalPa by two in Kuopio",
-    "quip": "Lahti birds flying south with the points",
-    "cached_at": "2026-10-16T19:17:52.253414+00:00"
-  },
-  "SB-AF3627B6": {
-    "title": "Alouettes upset Roughriders in Regina",
-    "quip": "Mosaic Stadium watermelon helmets going quiet early",
-    "cached_at": "2026-10-16T19:17:52.253414+00:00"
-  },
-  "SB-5A3C8C4D": {
-    "title": "Redblacks shock Argos in Ottawa",
-    "quip": "the Lansdowne faithful deserve one weird Friday",
-    "cached_at": "2026-10-16T19:17:52.253414+00:00"
-  },
-  "SB-5735C0EF": {
-    "title": "Bruins keep it close in Anaheim",
-    "quip": "Swayman steals two periods, Ducks sneak the third",
-    "cached_at": "2026-10-16T19:18:04.214273+00:00"
-  },
-  "SB-470D224D": {
-    "title": "Sabres hang tough at the Bell Centre",
-    "quip": "Buffalo's whole brand is losing by exactly one",
-    "cached_at": "2026-10-16T19:18:04.214273+00:00"
-  },
-  "SB-8B082941": {
-    "title": "Purdue handles Washington at home",
-    "quip": "the Boilermaker Special runs on schedule",
-    "cached_at": "2026-10-16T19:18:04.214273+00:00"
-  },
-  "SB-95AFFBC9": {
-    "title": "Jets and Hurricanes decided by a goal",
-    "quip": "Hellebuyck doesn't let anything become a laugher",
-    "cached_at": "2026-10-16T19:18:04.214273+00:00"
-  },
-  "SB-67B4A009": {
-    "title": "Kraken stay within a goal in Sunrise",
-    "quip": "Bobrovsky bends, the rat trick stays in the stands",
-    "cached_at": "2026-10-16T19:18:04.214273+00:00"
-  },
   "SB-C8DFE28B": {
     "title": "Sabres steal one in Montreal tonight",
     "quip": "Buffalo finally remembers the Bell Centre has two nets",
@@ -898,5 +803,95 @@
     "title": "Rays stay within a run of the Brewers",
     "quip": "American Family Field, where nobody runs away with anything",
     "cached_at": "2026-10-20T13:19:59.027237+00:00"
+  },
+  "SB-63FA4FB4": {
+    "title": "Bruins steal one in Dallas tonight",
+    "quip": "Swayman standing on his head in the Central",
+    "cached_at": "2026-10-20T19:49:05.012662+00:00"
+  },
+  "SB-51E62EE2": {
+    "title": "Warriors spoil the Lakers' night at Crypto",
+    "quip": "Steph has never respected a Lakers banner",
+    "cached_at": "2026-10-20T19:49:05.012662+00:00"
+  },
+  "SB-5097E4D4": {
+    "title": "Sharks upset the Canadiens in Montr\u00e9al",
+    "quip": "Celebrini writing his name on the Bell Centre ice",
+    "cached_at": "2026-10-20T19:49:05.012662+00:00"
+  },
+  "SB-CEF41152": {
+    "title": "Devils beat the Avalanche by two or more",
+    "quip": "Hughes brothers turning Jersey into a problem",
+    "cached_at": "2026-10-20T19:49:05.012662+00:00"
+  },
+  "SB-AE794109": {
+    "title": "Thunder bury the Spurs by nine-plus",
+    "quip": "SGA treating Wembanyama like a speed bump",
+    "cached_at": "2026-10-20T19:49:05.012662+00:00"
+  },
+  "SB-40864502": {
+    "title": "Leafs-Blue Jackets turns into a ten-goal track meet",
+    "quip": "both goalies waving at pucks like parade floats",
+    "cached_at": "2026-10-20T19:49:05.012662+00:00"
+  },
+  "SB-738C7FE6": {
+    "title": "Brewers blow out the Rays by six-plus",
+    "quip": "American Family Field turning into a batting cage",
+    "cached_at": "2026-10-20T19:49:05.012662+00:00"
+  },
+  "SB-2F066CDB": {
+    "title": "Man City and AEK Athens finish level",
+    "quip": "Pep rotating eleven kids and finding out in Athens",
+    "cached_at": "2026-10-20T19:49:05.012662+00:00"
+  },
+  "SB-8822B9C5": {
+    "title": "Middle Tennessee upsets FIU in Miami",
+    "quip": "Conference USA chaos is the only chaos that matters",
+    "cached_at": "2026-10-20T19:49:11.705457+00:00"
+  },
+  "SB-18BA1CC7": {
+    "title": "Viking FK stun Aston Villa",
+    "quip": "Stavanger's finest storm Villa Park like it's 793 AD",
+    "cached_at": "2026-10-20T19:49:11.705457+00:00"
+  },
+  "SB-EECBE3AA": {
+    "title": "Kiekko-Espoo skate past KooKoo by two",
+    "quip": "Espoo's ice is colder than a Helsinki January",
+    "cached_at": "2026-10-20T19:49:22.743051+00:00"
+  },
+  "SB-A9388A04": {
+    "title": "Nagoya and Cerezo grind out a two-goal night",
+    "quip": "Nagoya's back line treats clean sheets like origami",
+    "cached_at": "2026-10-20T19:49:22.743051+00:00"
+  },
+  "SB-5780FE5C": {
+    "title": "Tappara handle \u00c4ss\u00e4t by multiple goals",
+    "quip": "Tampere's trophy cabinet needs another shelf",
+    "cached_at": "2026-10-20T19:49:22.743051+00:00"
+  },
+  "SB-753BE061": {
+    "title": "Avispa Fukuoka and Gamba Osaka split the points",
+    "quip": "honorable stalemate, the Seven Samurai ending nobody rewatches",
+    "cached_at": "2026-10-20T19:49:22.743051+00:00"
+  },
+  "SB-457CAD34": {
+    "title": "South Africa topple Australia in the Test",
+    "quip": "Bavuma's lot love an Aussie scalp",
+    "cached_at": "2026-10-20T19:49:22.743051+00:00"
+  },
+  "SB-5E8334DC": {
+    "title": "Merab and Yan don't reach the final bell",
+    "quip": "even Merab's cardio clock punches out eventually",
+    "cached_at": "2026-10-20T19:49:32.095274+00:00"
+  },
+  "SB-B2633E21": {
+    "title": "Capitals handle the Kings in D.C.",
+    "quip": "Ovechkin still files the paperwork at home",
+    "cached_at": "2026-10-20T19:49:32.095274+00:00"
+  },
+  "SB-F8BF4D7E": {
+    "title": "Islanders take care of the Ducks at home",
+    "quip": "Sorokin versus a rebuild is barely a fair fight",
+    "cached_at": "2026-10-20T19:49:32.095274+00:00"
   }
 }
