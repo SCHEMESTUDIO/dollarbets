@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-21T20:48:46.290630+00:00",
+          "tweet_id": "2113009620671213759",
+          "reply_tweet_id": "2113009622508290409"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "18294743",
+        "page": "https://www.pexels.com/photo/balls-on-billiard-table-18294743/",
+        "photographer": "aboodi vesakaran",
+        "license": "Pexels License",
+        "phrases": [
+          "phone screen glow dark room",
+          "server room corridor night"
+        ],
+        "tokens": {
+          "input_tokens": 3381,
+          "output_tokens": 28
         }
       }
     }
