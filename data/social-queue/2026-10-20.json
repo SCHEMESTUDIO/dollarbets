@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-21T05:07:56.654042+00:00",
+          "tweet_id": "2112772853963878875",
+          "reply_tweet_id": "2112772855385710678"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "14402403",
+        "page": "https://www.pexels.com/photo/square-29-14402403/",
+        "photographer": "Yusuf P",
+        "license": "Pexels License",
+        "phrases": [
+          "empty office corridor night",
+          "stadium bench dusk rain"
+        ],
+        "tokens": {
+          "input_tokens": 4091,
+          "output_tokens": 30
         }
       }
     },
