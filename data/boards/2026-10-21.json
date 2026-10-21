@@ -1,0 +1,597 @@
+{
+  "generated_at": "2026-10-21T00:26:19.568121+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket": 5
+  },
+  "board": [
+    {
+      "ticker": "KXNFLWORSTTOFIRST-27-Y",
+      "title": "A team goes worst to first this season",
+      "subtitle": "2026-27",
+      "yes_sub_title": "Any team to go from worst to first in their division",
+      "no_sub_title": "Any team to go from worst to first in their division",
+      "payout": 1.52,
+      "tier": "green",
+      "quip": "meanwhile the Nationals stay exactly where God put them",
+      "yes_price": "0.6600",
+      "volume": 1900.69,
+      "category": "Sports",
+      "close_time": "2027-01-24T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNFLWORSTTOFIRST?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 54.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "the last place banner comes down and nobody admits it was ever up",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "i was there for the 2013 Red Sox and i have never recovered",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "a basement team buying a banner is the entire reason i watch",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "meanwhile the Nationals stay exactly where God put them",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "cellar dwellers no more",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "worst to first is a 47 game swing and zero new players",
+          "mode": 5,
+          "score": 5
+        },
+        {
+          "quip": "the Ted Lasso arc except the payroll is real and the owner is worse",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we were never rebuilding. we were resting.\"",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0xac2028feaab257ec706dd19e7d5e118ff46cc7b2ea2337a31cd08e61b4292ab8",
+      "title": "Haaland is Google's most searched athlete this year",
+      "subtitle": "",
+      "payout": 2.82,
+      "tier": "green",
+      "quip": "sorry to every NFL quarterback, you are a regional act",
+      "yes_price": "0.3550",
+      "volume": 9878.751273999998,
+      "category": "Other",
+      "close_time": "2027-04-01T03:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/1-searched-athlete-on-google-2026-20260730195733",
+      "platform": "polymarket",
+      "score": 38.0,
+      "quip_alts": [
+        {
+          "quip": "i have googled this man's haircut more than my own medical symptoms",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Ronaldo refreshing the trends page at 3am like a man possessed",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "a Norwegian cyborg outsearching every American athlete makes me feel something",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "sorry to every NFL quarterback, you are a regional act",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "big Viking SEO energy",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "Terminator 2 if the T-1000 signed for Manchester and took penalties",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "the man has averaged 2.82 goals per game since birth, roughly",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"Patrick Mahomes? is that a cricket guy?\"",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXEARTHQUAKECALIFORNIA-35",
+      "title": "California gets an 8.0 earthquake before 2035",
+      "subtitle": "Before 2035",
+      "yes_sub_title": "Before 2035",
+      "no_sub_title": "Before 2035",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "ten years and $2.94. the fault line is on a payment plan",
+      "yes_price": "0.3400",
+      "volume": 28862.74,
+      "category": "Climate and Weather",
+      "close_time": "2035-12-31T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXEARTHQUAKECALIFORNIA?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 71.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "Silicon Valley pivots to tectonic-plates-as-a-service by Friday morning",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "i keep a go bag in my trunk and three forgotten granola bars",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the opening scene of every disaster movie, where the scientist gets muted on Zoom",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "Los Angeles finally gets a traffic excuse that actually holds up",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "the Big One, allegedly",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "ten years and $2.94. the fault line is on a payment plan",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "plate tectonics is the only hobby i genuinely respect",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "\"we've known about this fault since the seventies.\" cool. cool cool cool",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXNEXTOUTUS-26SEP28-KPAT",
+      "title": "Kash Patel is the first one out the door",
+      "subtitle": "HHS Secretary, Defense Secretary and FBI Director",
+      "yes_sub_title": "Kash Patel",
+      "no_sub_title": "Kash Patel",
+      "payout": 3.33,
+      "tier": "yellow",
+      "quip": "i cannot keep up with who runs the FBI and i stopped trying in March",
+      "yes_price": "0.3000",
+      "volume": 7352.7,
+      "category": "Politics",
+      "close_time": "2029-01-20T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNEXTOUTUS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 88.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the podcast gets recorded before the cardboard box is even taped",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i cannot keep up with who runs the FBI and i stopped trying in March",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "the Bureau's HR department keeps this form laminated now",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "first one off the bus",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "\"i wasn't fired. i transitioned to the private sector.\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "Survivor, but tribal council is a 1am post and nobody gets a torch",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "resignation letter is two sentences and one of them has a typo",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "i love a building where every single employee is a flight risk",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x1ae68b612dbd37d2685c994ff630b677a94440ff86d952e628bb2a875940161f",
+      "title": "Republicans flip three races in states Kamala won",
+      "subtitle": "",
+      "payout": 3.58,
+      "tier": "yellow",
+      "quip": "New Jersey will do literally anything for attention",
+      "yes_price": "0.2790",
+      "volume": 9813.053533999999,
+      "category": "World",
+      "close_time": "2026-11-04T04:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/how-many-senate-and-governor-elections-will-republicans-win-in-states-won-by-kamala-20260702152603469",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i am going to have to learn what a Nevada is all over again",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "cable news buys a brand new map and the map is also wrong",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "New Jersey will do literally anything for attention",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "the blue wall needs drywall",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "Moneyball but the scout says \"he's got a losing county profile\"",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "i stay up for the county by county meltdown, genuinely, every time",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "\"we have always been competitive in the suburbs.\" you have not",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "three races, $3.58, one anchor slowly dying in a swivel chair",
+          "mode": 5,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xc37f85182c9f8e6a25d9ac915e350f29ec6abd34adcfc75b42235214fcf1a8fd",
+      "title": "Kristi Noem leaves the Trump administration before 2027",
+      "subtitle": "",
+      "payout": 3.61,
+      "tier": "yellow",
+      "quip": "memoir in spring, Fox contributor by summer, Rushmore photo op by Labor Day",
+      "yes_price": "0.2770",
+      "volume": 99393.16732299999,
+      "category": "World",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/who-will-leave-trump-administration-before-2027",
+      "platform": "polymarket",
+      "score": 53.0,
+      "quip_alts": [
+        {
+          "quip": "memoir in spring, Fox contributor by summer, Rushmore photo op by Labor Day",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "i will find out about this from a push notification during a haircut",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "cowboy hat, box, door",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "\"it has been the honor of my life.\" fourteenth time i've heard that",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "Succession, except every single person in it is cousin Greg",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "South Dakota waiting by the phone like an ex with a plan",
+          "mode": 7,
+          "score": 6.5
+        },
+        {
+          "quip": "cabinet turnover is the only reality TV i still watch live",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "$3.61 and a goodbye tour with exactly one stop in Sioux Falls",
+          "mode": 5,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "0x374a116b3c8a4cbc567b095d01a9c176b50f66d6b47d4504766f5bfebb557de1",
+      "title": "Amazon launches a personal AI agent before 2027",
+      "subtitle": "",
+      "payout": 11.76,
+      "tier": "orange",
+      "quip": "Clippy with warehouse access",
+      "yes_price": "0.0850",
+      "volume": 9913.550004,
+      "category": "Other",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/who-will-launch-a-muse-like-personal-agent-before-2027",
+      "platform": "polymarket",
+      "score": 55.0,
+      "quip_alts": [
+        {
+          "quip": "it orders the paper towels, then it orders more paper towels",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i don't need an agent, i need Alexa to stop guessing my mood",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "\"i have reordered the item you returned. happy Prime Day.\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "Clippy with warehouse access",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "HAL 9000 but it keeps pitching me an Audible subscription",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "i'm genuinely hyped for a robot that knows my sock size",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "it will remember 11 things about you and 9 of them are wrong",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "Seattle ships this 60% done and calls it a beta",
+          "mode": 7,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXMODELHIGH-27-1550-CHAT",
+      "title": "ChatGPT is first to hit 1550 on Text Arena",
+      "subtitle": "Before 2027",
+      "yes_sub_title": "ChatGPT",
+      "no_sub_title": "ChatGPT",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "like the Yankees winning. correct, expensive, deeply annoying",
+      "yes_price": "0.0700",
+      "volume": 41573.71,
+      "category": "Science and Technology",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i've been using this thing like a therapist and it's billing me monthly",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Gemini posts a cryptic benchmark chart and deletes it an hour later",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "like the Yankees winning. correct, expensive, deeply annoying",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "the incumbent stays incumbent",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "Rocky III, except Clubber Lang is an open source model from Hangzhou",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "\"as a large language model i cannot gloat. however.\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "1550 points, 14 dollars, zero improvements to anything happening in my life",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "nerds dunking on each other with a leaderboard rules, actually",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA lands a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 26.32,
+      "tier": "red",
+      "quip": "$26 to reach the moon, still cheaper than parking downtown",
+      "yes_price": "0.0380",
+      "volume": 223018.17,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "they land, plant the flag, and the flag is a QR code",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i was promised this in fourth grade by a man with a poster",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "the moon has had fifty quiet years and deserves none of this",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "small step, tight schedule",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "Apollo 13 except the oxygen tank is a procurement meeting in Huntsville",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "$26 to reach the moon, still cheaper than parking downtown",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we're going back. and this time we're bringing a truck.\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "i will absolutely cry at a grainy livestream again, no notes",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "0xfbb36055840f0151f5d161f6c5cb90ff34641404c7dedf93605b53b7c0ffdd90",
+      "title": "Orlando Magic win the 2027 NBA Finals",
+      "subtitle": "",
+      "payout": 117.65,
+      "tier": "purple",
+      "quip": "Paolo gets a statue outside a Buffalo Wild Wings on I-4",
+      "yes_price": "0.0085",
+      "volume": 956860.048811,
+      "category": "Sports",
+      "close_time": "2027-07-01T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/nba-2027-champion",
+      "platform": "polymarket",
+      "score": 53.0,
+      "quip_alts": [
+        {
+          "quip": "Paolo gets a statue outside a Buffalo Wild Wings on I-4",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "i'd buy the hat, i'd wear the hat, i'd move to Kissimmee",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Florida getting a parade it can actually be proud of, for once",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "Disney World, actual championship",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "the final act of a sports movie where the villain is Boston",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "117 dollars and a parade down a highway that is just outlet malls",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "a defense that ugly winning a title would be genuine art",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "\"we always believed in Orlando.\" none of us did. not one",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    }
+  ]
+}
