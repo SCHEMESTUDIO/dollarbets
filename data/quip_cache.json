@@ -1,84 +1,4 @@
 {
-  "SB-FBE46B9F": {
-    "title": "Eastern Michigan knocks off Toledo tonight",
-    "quip": "Ypsilanti's finest ruin the MAC pecking order",
-    "cached_at": "2026-10-17T18:08:41.180163+00:00"
-  },
-  "SB-1B0B4CEB": {
-    "title": "Northern Illinois stuns Wyoming in Laramie",
-    "quip": "Huskies handle altitude better than the brown bottle",
-    "cached_at": "2026-10-17T18:08:41.180163+00:00"
-  },
-  "SB-9E09CD0D": {
-    "title": "Canucks upset the Lightning in Tampa",
-    "quip": "Demko stands on his head, Kucherov stands around",
-    "cached_at": "2026-10-17T18:08:41.180163+00:00"
-  },
-  "SB-87E0AC45": {
-    "title": "Auburn shocks Georgia between the hedges",
-    "quip": "Jordan-Hare energy smuggled into Sanford Stadium",
-    "cached_at": "2026-10-17T18:08:41.180163+00:00"
-  },
-  "SB-9DB544F0": {
-    "title": "Guardians bury the Rays by nine-plus",
-    "quip": "Progressive Field turns into a batting cage montage",
-    "cached_at": "2026-10-17T18:08:41.180163+00:00"
-  },
-  "SB-E157731D": {
-    "title": "Montreal stun the Sounders in Seattle",
-    "quip": "Lumen Field rain, Quebec road win, Raye Sr. smiling somewhere",
-    "cached_at": "2026-10-17T18:08:47.550411+00:00"
-  },
-  "SB-2B30FAFE": {
-    "title": "Atletico Mineiro and Coritiba trade goals tonight",
-    "quip": "Hulk doesn't know what a nil-nil is",
-    "cached_at": "2026-10-17T18:09:00.544722+00:00"
-  },
-  "SB-017CB571": {
-    "title": "BC Lions keep it within a point in Calgary",
-    "quip": "McMaster Stampede showdown goes down to the rouge",
-    "cached_at": "2026-10-17T18:09:00.544722+00:00"
-  },
-  "SB-2BAD7C52": {
-    "title": "Dream hang within two of the Valkyries",
-    "quip": "Rhyne Howard keeps Chase Center sweating late",
-    "cached_at": "2026-10-17T18:09:00.544722+00:00"
-  },
-  "SB-5FE911AA": {
-    "title": "Botafogo and Chapecoense combine for four goals",
-    "quip": "Nilton Santos turning into a pinball machine",
-    "cached_at": "2026-10-17T18:09:00.544722+00:00"
-  },
-  "SB-BB70F712": {
-    "title": "Machida Zelvia and Avispa Fukuoka clear three goals",
-    "quip": "Kuroda's long-throw chaos pays rent again",
-    "cached_at": "2026-10-17T18:09:00.544722+00:00"
-  },
-  "SB-6B19FDDA": {
-    "title": "Fabio Wardley knocks off Daniel Dubois",
-    "quip": "the ex-fishmonger keeps gutting the blue-chip prospects",
-    "cached_at": "2026-10-17T18:09:00.544722+00:00"
-  },
-  "SB-32949E47": {
-    "title": "Angel Carrillo shocks David Garcia",
-    "quip": "this is the Rocky steps montage, fully committed",
-    "cached_at": "2026-10-17T18:09:00.544722+00:00"
-  },
-  "SB-3A633973": {
-    "title": "Hurricanes take down the Jets in Winnipeg",
-    "quip": "Carolina forechecks until Hellebuyck files a complaint",
-    "cached_at": "2026-10-17T18:09:08.038545+00:00"
-  },
-  "SB-9117A9C6": {
-    "title": "Panthers handle the Kraken in Sunrise",
-    "quip": "Tkachuk brothers energy, Seattle brought a snorkel",
-    "cached_at": "2026-10-17T18:09:08.038545+00:00"
-  },
-  "SB-A851F5FF": {
-    "title": "Senators beat the Flyers in Philly",
-    "quip": "Tkachuk the other one, quietly running Ottawa",
-    "cached_at": "2026-10-17T18:09:08.038545+00:00"
-  },
   "SB-47767C5F": {
     "title": "Mammoth bury the Oilers by two tonight",
     "quip": "McDavid can't carry a whole roster through the desert",
@@ -953,5 +873,90 @@
     "title": "Kavanagh and Temirov need the judges",
     "quip": "flyweights trading pitter-patter until the horn",
     "cached_at": "2026-10-21T13:25:30.742354+00:00"
+  },
+  "SB-C3EC0409": {
+    "title": "Sam Houston upsets New Mexico State tonight",
+    "quip": "the Bearkats defend Huntsville like it's the Alamo",
+    "cached_at": "2026-10-21T19:54:52.717075+00:00"
+  },
+  "SB-EA536623": {
+    "title": "Packers spoil Detroit's night at Ford Field",
+    "quip": "Jordan Love has unfinished business on Dan Campbell's lawn",
+    "cached_at": "2026-10-21T19:54:52.717075+00:00"
+  },
+  "SB-3D57CE20": {
+    "title": "Rangers win by two-plus in Toronto",
+    "quip": "Shesterkin turning Scotiabank Arena into a silent film",
+    "cached_at": "2026-10-21T19:54:52.717075+00:00"
+  },
+  "SB-0550B4BA": {
+    "title": "Senators blow out the Panthers by two-plus",
+    "quip": "Tkachuk brother civil war, Brady takes this one",
+    "cached_at": "2026-10-21T19:54:52.717075+00:00"
+  },
+  "SB-A7D2E832": {
+    "title": "Bucks bury the Wizards by 16+",
+    "quip": "Giannis treating Washington like a layup line",
+    "cached_at": "2026-10-21T19:54:52.717075+00:00"
+  },
+  "SB-CFD97112": {
+    "title": "Hawks run Orlando off the floor by 18+",
+    "quip": "Magic offense goes dark, Trae starts waving goodbye",
+    "cached_at": "2026-10-21T19:54:52.717075+00:00"
+  },
+  "SB-70D34074": {
+    "title": "AEK Athens stun Real Madrid in Greece",
+    "quip": "the OPAP Arena smoke bombs do half the defending",
+    "cached_at": "2026-10-21T19:54:59.537168+00:00"
+  },
+  "SB-8F5DDE96": {
+    "title": "Cal shocks SMU in Dallas",
+    "quip": "Bears hauling the Pac-12 ghost into Ford Stadium",
+    "cached_at": "2026-10-21T19:54:59.537168+00:00"
+  },
+  "SB-2D2250D2": {
+    "title": "F\u00e4rjestad bury Timr\u00e5 by two tonight",
+    "quip": "Karlstad's finest treating Timr\u00e5 like a scrimmage",
+    "cached_at": "2026-10-21T19:55:08.276101+00:00"
+  },
+  "SB-28352F3E": {
+    "title": "Malm\u00f6 Redhawks run away from Bj\u00f6rkl\u00f6ven",
+    "quip": "the Ume\u00e5 ice gets thin by the third",
+    "cached_at": "2026-10-21T19:55:08.276101+00:00"
+  },
+  "SB-6C24309F": {
+    "title": "HPK upset JYP in Jyv\u00e4skyl\u00e4",
+    "quip": "H\u00e4meenlinna crashing the party like an uninvited cousin",
+    "cached_at": "2026-10-21T19:55:08.276101+00:00"
+  },
+  "SB-7B54A689": {
+    "title": "Raptors handle the Bulls tonight",
+    "quip": "Scottie Barnes doesn't need overtime for this one",
+    "cached_at": "2026-10-21T19:55:18.367352+00:00"
+  },
+  "SB-6A806A65": {
+    "title": "Panthers keep it close in Ottawa",
+    "quip": "Bobrovsky makes Tkachuk's team look respectable again",
+    "cached_at": "2026-10-21T19:55:18.367352+00:00"
+  },
+  "SB-6B3495DD": {
+    "title": "Sabres beat the Flyers in Buffalo",
+    "quip": "Tage Thompson against the Tortorella screaming machine",
+    "cached_at": "2026-10-21T19:55:18.367352+00:00"
+  },
+  "SB-8B3B907A": {
+    "title": "Predators hang with the Bruins in Boston",
+    "quip": "Saros has stolen uglier nights than this",
+    "cached_at": "2026-10-21T19:55:18.367352+00:00"
+  },
+  "SB-30FCD2A6": {
+    "title": "Red Wings and Canucks stay within a goal",
+    "quip": "Demko and Lyon trading saves until somebody blinks",
+    "cached_at": "2026-10-21T19:55:18.367352+00:00"
+  },
+  "SB-60CBE3E1": {
+    "title": "Malkoun survives Vagaev into the late rounds",
+    "quip": "wrestling grind beats Dagestani power until the final horn",
+    "cached_at": "2026-10-21T19:55:18.367352+00:00"
   }
 }
