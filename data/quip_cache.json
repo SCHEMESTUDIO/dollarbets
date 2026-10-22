@@ -1,99 +1,4 @@
 {
-  "SB-8945B22F": {
-    "title": "Sixers steal one at the Garden tonight",
-    "quip": "Embiid eats MSG alive when he feels like it",
-    "cached_at": "2026-10-18T18:26:54.575896+00:00"
-  },
-  "SB-CD9C95CC": {
-    "title": "Rangers beat Ducks by two or more",
-    "quip": "Shesterkin turns Anaheim's forecheck into a screensaver",
-    "cached_at": "2026-10-18T18:26:54.575896+00:00"
-  },
-  "SB-8AE660EF": {
-    "title": "Raiders upset the Bills in Vegas",
-    "quip": "Maxx Crosby plays every snap like it's personal",
-    "cached_at": "2026-10-18T18:26:54.575896+00:00"
-  },
-  "SB-A8CA258D": {
-    "title": "Commanders shock the 49ers in San Francisco",
-    "quip": "Jayden Daniels does not read the scouting report",
-    "cached_at": "2026-10-18T18:26:54.575896+00:00"
-  },
-  "SB-C4A8BB99": {
-    "title": "Cardinals knock off the Rams in LA",
-    "quip": "the desert birds love ruining McVay's Sundays",
-    "cached_at": "2026-10-18T18:26:54.575896+00:00"
-  },
-  "SB-2AC87C77": {
-    "title": "Guardians blow out the Rays by four",
-    "quip": "Tampa's bullpen pitching batting practice in Cleveland",
-    "cached_at": "2026-10-18T18:26:54.575896+00:00"
-  },
-  "SB-ED296DE3": {
-    "title": "Blue Jackets bury the Wild by three",
-    "quip": "Columbus plays every night for Johnny Gaudreau",
-    "cached_at": "2026-10-18T18:26:54.575896+00:00"
-  },
-  "SB-8A52CBAA": {
-    "title": "Flames demolish the Hurricanes by four",
-    "quip": "the Saddledome hasn't been this loud since the Iginla era",
-    "cached_at": "2026-10-18T18:26:54.575896+00:00"
-  },
-  "SB-63BA16FD": {
-    "title": "Falcons stun the Bears in Atlanta",
-    "quip": "Bijan Robinson against a 28-3 punchline, place your flags",
-    "cached_at": "2026-10-18T18:27:00.692860+00:00"
-  },
-  "SB-9A01547D": {
-    "title": "Trabzonspor and Besiktas trade four-plus goals tonight",
-    "quip": "Turkish derby defending is a rumor, not a system",
-    "cached_at": "2026-10-18T18:27:08.579912+00:00"
-  },
-  "SB-0D60D617": {
-    "title": "Santos upset Fluminense in Rio",
-    "quip": "Neymar's old club crashing the Maracana party",
-    "cached_at": "2026-10-18T18:27:08.579912+00:00"
-  },
-  "SB-48FFCF1B": {
-    "title": "Bahia knock off Flamengo at the Fonte Nova",
-    "quip": "Flamengo's superteam tends to nap in Salvador",
-    "cached_at": "2026-10-18T18:27:08.579912+00:00"
-  },
-  "SB-3E0B6938": {
-    "title": "Chiefs handle the Chargers at Arrowhead",
-    "quip": "Mahomes still owns Herbert's mailing address",
-    "cached_at": "2026-10-18T18:27:17.791950+00:00"
-  },
-  "SB-98F66B86": {
-    "title": "Ducks keep it close in New York",
-    "quip": "Shesterkin can only stop so many",
-    "cached_at": "2026-10-18T18:27:17.791950+00:00"
-  },
-  "SB-2CCCE082": {
-    "title": "Sharks hang tough in Toronto",
-    "quip": "Macklin Celebrini doesn't read the standings",
-    "cached_at": "2026-10-18T18:27:17.791950+00:00"
-  },
-  "SB-6BC93AD6": {
-    "title": "Wild handle the Blue Jackets in Minnesota",
-    "quip": "Kaprizov at home, lights on",
-    "cached_at": "2026-10-18T18:27:17.791950+00:00"
-  },
-  "SB-5F2A95B8": {
-    "title": "Celtics take care of the Wizards",
-    "quip": "Tatum's version of a scheduled day off",
-    "cached_at": "2026-10-18T18:27:17.791950+00:00"
-  },
-  "SB-1FDA3D80": {
-    "title": "Lakers hold off the Blazers at Crypto",
-    "quip": "Luka and LeBron versus a rebuild",
-    "cached_at": "2026-10-18T18:27:17.791950+00:00"
-  },
-  "SB-2A442AD8": {
-    "title": "Penguins stay within a goal in Utah",
-    "quip": "Crosby at 38 still refuses to go quietly",
-    "cached_at": "2026-10-18T18:27:17.791950+00:00"
-  },
   "SB-CF33F9E9": {
     "title": "Cowboys win at Lambeau tonight",
     "quip": "Dak's been waiting on a January-cold Green Bay crowd",
@@ -878,5 +783,65 @@
     "title": "Warriors take care of the Grizzlies at Chase",
     "quip": "Curry still treats Memphis like a home game",
     "cached_at": "2026-10-22T13:26:44.897376+00:00"
+  },
+  "SB-6C2FEDD0": {
+    "title": "Jets steal one in Dallas tonight",
+    "quip": "Hellebuyck has seen worse than Oettinger",
+    "cached_at": "2026-10-22T19:43:51.482474+00:00"
+  },
+  "SB-8E072E4B": {
+    "title": "Bruins bury Predators by four or more",
+    "quip": "Pastrnak doesn't do polite in the third",
+    "cached_at": "2026-10-22T19:43:51.482474+00:00"
+  },
+  "SB-5C1D88FB": {
+    "title": "Cavs blow out Sixers by 18+",
+    "quip": "Mobley and Allen turning Philly's paint into a crime scene",
+    "cached_at": "2026-10-22T19:43:51.482474+00:00"
+  },
+  "SB-D5D1ED93": {
+    "title": "Cruzeiro and Remo trade four-plus goals tonight",
+    "quip": "Mineir\u00e3o crowd wants fireworks, not a 0-0 chess match",
+    "cached_at": "2026-10-22T19:44:07.312969+00:00"
+  },
+  "SB-16793C8F": {
+    "title": "K\u00e4rp\u00e4t handle KalPa by two or more",
+    "quip": "Oulu's ice runs colder than a Lapland January",
+    "cached_at": "2026-10-22T19:44:07.312969+00:00"
+  },
+  "SB-4AC6264D": {
+    "title": "SaiPa roll into Vaasa and beat Sport by two",
+    "quip": "Lappeenranta's finest treating Sport like a practice squad",
+    "cached_at": "2026-10-22T19:44:07.312969+00:00"
+  },
+  "SB-3FEC52CA": {
+    "title": "Perth Glory upset Brisbane Roar on the road",
+    "quip": "longest commute in world football ends with three points",
+    "cached_at": "2026-10-22T19:44:07.312969+00:00"
+  },
+  "SB-F7BABABA": {
+    "title": "Zimbabwe stun Afghanistan in the ODI",
+    "quip": "Sikandar Raza alone can ruin Rashid Khan's afternoon",
+    "cached_at": "2026-10-22T19:44:07.312969+00:00"
+  },
+  "SB-EB979D5D": {
+    "title": "Kocaelispor take down Alanyaspor on the road",
+    "quip": "newly promoted side crashing the Mediterranean beach party",
+    "cached_at": "2026-10-22T19:44:07.312969+00:00"
+  },
+  "SB-2A10B637": {
+    "title": "Commanders handle the Eagles at home tonight",
+    "quip": "Jayden Daniels keeps writing the NFC East script",
+    "cached_at": "2026-10-22T19:44:15.372528+00:00"
+  },
+  "SB-4CC3A862": {
+    "title": "Pelicans keep it close in Utah tonight",
+    "quip": "two lottery hopefuls trading buckets in Salt Lake",
+    "cached_at": "2026-10-22T19:44:15.372528+00:00"
+  },
+  "SB-2D70C80A": {
+    "title": "Jets stay within a goal of Dallas",
+    "quip": "Hellebuyck turns the Stars into a Jake Oettinger duel",
+    "cached_at": "2026-10-22T19:44:15.372528+00:00"
   }
 }
