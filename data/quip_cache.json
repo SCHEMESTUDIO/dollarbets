@@ -1,99 +1,4 @@
 {
-  "SB-413B1E75": {
-    "title": "Brighton and Palace trade four-plus goals tonight",
-    "quip": "M23 derby, zero defending, Mitoma running free",
-    "cached_at": "2026-10-18T12:30:36.828741+00:00"
-  },
-  "SB-DB0CBC2C": {
-    "title": "Browns upset the Ravens in Cleveland",
-    "quip": "Myles Garrett lives in Lamar's nightmares",
-    "cached_at": "2026-10-18T12:30:36.828741+00:00"
-  },
-  "SB-AE3802FD": {
-    "title": "Jets stun the Patriots in Foxborough",
-    "quip": "Drake Maye's bad day, scheduled in advance",
-    "cached_at": "2026-10-18T12:30:36.828741+00:00"
-  },
-  "SB-40789F95": {
-    "title": "Celtics blow out Pistons by 17+",
-    "quip": "Tatum and the three-point carpet bomb",
-    "cached_at": "2026-10-18T12:30:36.828741+00:00"
-  },
-  "SB-7E886D7C": {
-    "title": "Knicks bury the Sixers by 24+",
-    "quip": "Garden crowd chanting while Embiid's listed questionable",
-    "cached_at": "2026-10-18T12:30:36.828741+00:00"
-  },
-  "SB-CED5B2B5": {
-    "title": "Guardians crush Rays by seven-plus runs",
-    "quip": "Ram\u00edrez bats flipping until the bullpen empties",
-    "cached_at": "2026-10-18T12:30:36.828741+00:00"
-  },
-  "SB-76A760FF": {
-    "title": "Wild and Blue Jackets combine for 13+ goals",
-    "quip": "both goalies pull a Steve Mason tribute act",
-    "cached_at": "2026-10-18T12:30:36.828741+00:00"
-  },
-  "SB-3100FC14": {
-    "title": "Sabah shock Dortmund in Baku",
-    "quip": "the Yellow Wall meets the Caspian Sea and blinks",
-    "cached_at": "2026-10-18T12:30:42.451668+00:00"
-  },
-  "SB-8C978C45": {
-    "title": "Tappara handle KooKoo by two-plus tonight",
-    "quip": "Tampere's finest treating Kouvola like a practice skate",
-    "cached_at": "2026-10-18T12:30:53.106552+00:00"
-  },
-  "SB-D85A359D": {
-    "title": "HV71 beat Link\u00f6ping by two or more",
-    "quip": "J\u00f6nk\u00f6ping crowd gets the full Kinnarps Arena bloodbath",
-    "cached_at": "2026-10-18T12:30:53.106552+00:00"
-  },
-  "SB-EDAC808D": {
-    "title": "Kocaelispor upset Goztepe at home",
-    "quip": "\u0130zmir's finest meet a wall in Kocaeli",
-    "cached_at": "2026-10-18T12:30:53.106552+00:00"
-  },
-  "SB-AE132C3B": {
-    "title": "Gr\u00eamio win at Cruzeiro",
-    "quip": "Renato's ghost still haunts the Mineir\u00e3o",
-    "cached_at": "2026-10-18T12:30:53.106552+00:00"
-  },
-  "SB-315F3417": {
-    "title": "Basaksehir and Gaziantep settle for a draw",
-    "quip": "two sides allergic to the final third",
-    "cached_at": "2026-10-18T12:30:53.106552+00:00"
-  },
-  "SB-881ABB11": {
-    "title": "Tarik Zaina shocks Frank Martin",
-    "quip": "somebody forgot to tell Zaina the script",
-    "cached_at": "2026-10-18T12:30:53.106552+00:00"
-  },
-  "SB-72E5BEB6": {
-    "title": "Miyo Yoshida upsets Skye Nicolson",
-    "quip": "Yoshida arrives in Australia with bad intentions",
-    "cached_at": "2026-10-18T12:30:53.106552+00:00"
-  },
-  "SB-CAC4CA1C": {
-    "title": "Lions handle the Packers tonight",
-    "quip": "Ford Field eats Love's turnovers for brunch",
-    "cached_at": "2026-10-18T12:31:00.400186+00:00"
-  },
-  "SB-7BA85663": {
-    "title": "Rays keep it close in Cleveland",
-    "quip": "Guardians bullpen leaves the door cracked as usual",
-    "cached_at": "2026-10-18T12:31:00.400186+00:00"
-  },
-  "SB-F6D9BD26": {
-    "title": "Arsenal win at the City Ground",
-    "quip": "Saka pulls the plug on Forest's night",
-    "cached_at": "2026-10-18T12:31:00.400186+00:00"
-  },
-  "SB-01D5D7B1": {
-    "title": "Blue Jackets keep it tight in St. Paul",
-    "quip": "Kaprizov scores, Columbus still hangs around",
-    "cached_at": "2026-10-18T12:31:00.400186+00:00"
-  },
   "SB-8945B22F": {
     "title": "Sixers steal one at the Garden tonight",
     "quip": "Embiid eats MSG alive when he feels like it",
@@ -893,5 +798,85 @@
     "title": "Bears beat the Patriots at Soldier Field",
     "quip": "Caleb Williams has the better offensive line today",
     "cached_at": "2026-10-22T00:30:26.186533+00:00"
+  },
+  "SB-4551674C": {
+    "title": "Patriots take down the Bears in Chicago",
+    "quip": "Maye in the Soldier Field wind, somehow fine",
+    "cached_at": "2026-10-22T13:26:16.989128+00:00"
+  },
+  "SB-9524999E": {
+    "title": "Grizzlies win at Golden State tonight",
+    "quip": "Ja in the building Steph built",
+    "cached_at": "2026-10-22T13:26:16.989128+00:00"
+  },
+  "SB-97603965": {
+    "title": "Nuggets upset the Thunder in OKC",
+    "quip": "Jokic doesn't care what seed you are",
+    "cached_at": "2026-10-22T13:26:16.989128+00:00"
+  },
+  "SB-810CE1B7": {
+    "title": "Clippers beat the Lakers at Crypto",
+    "quip": "Kawhi enjoys a quiet room full of courtside celebrities",
+    "cached_at": "2026-10-22T13:26:16.989128+00:00"
+  },
+  "SB-F1F7CE2B": {
+    "title": "Predators blow out the Bruins by three",
+    "quip": "a quiet night at the Garden, Boston hates that",
+    "cached_at": "2026-10-22T13:26:16.989128+00:00"
+  },
+  "SB-C39B0239": {
+    "title": "Cavs bury the Sixers by 15+",
+    "quip": "Mitchell and Mobley treating Philly like a scrimmage",
+    "cached_at": "2026-10-22T13:26:16.989128+00:00"
+  },
+  "SB-856963CE": {
+    "title": "Ducks hammer the Devils by four",
+    "quip": "Hughes brothers watching ducklings waddle over them",
+    "cached_at": "2026-10-22T13:26:16.989128+00:00"
+  },
+  "SB-8462F33D": {
+    "title": "Panthers crush the Penguins by six",
+    "quip": "Crosby deserves better than this Tkachuk fever dream",
+    "cached_at": "2026-10-22T13:26:16.989128+00:00"
+  },
+  "SB-F1D46AEC": {
+    "title": "Timr\u00e5 take down F\u00e4rjestad tonight",
+    "quip": "the little fishing town that keeps eating giants",
+    "cached_at": "2026-10-22T13:26:32.463523+00:00"
+  },
+  "SB-F10778F6": {
+    "title": "Djurg\u00e5rden stun Skellefte\u00e5 on the road",
+    "quip": "Stockholm kids crashing the party up north",
+    "cached_at": "2026-10-22T13:26:32.463523+00:00"
+  },
+  "SB-31E5367A": {
+    "title": "R\u00f6gle beat Fr\u00f6lunda by two or more",
+    "quip": "\u00c4ngelholm doesn't do polite one-goal wins",
+    "cached_at": "2026-10-22T13:26:32.463523+00:00"
+  },
+  "SB-1E61C189": {
+    "title": "Tappara handle Pelicans by two-plus tonight",
+    "quip": "Tampere treating Lahti like a scheduled scrimmage",
+    "cached_at": "2026-10-22T13:26:32.463523+00:00"
+  },
+  "SB-1BDB252E": {
+    "title": "Vazquez shocks Albert Gonzalez in the ring",
+    "quip": "every Rocky movie started with worse paperwork",
+    "cached_at": "2026-10-22T13:26:32.463523+00:00"
+  },
+  "SB-881ABB11": {
+    "title": "Tarik Zaina upsets Frank Martin",
+    "quip": "Martin's unbeaten record meets its Buster Douglas moment",
+    "cached_at": "2026-10-22T13:26:32.463523+00:00"
+  },
+  "SB-CAC4CA1C": {
+    "title": "Lions handle the Packers at Ford Field",
+    "quip": "Goff plays like a different quarterback indoors",
+    "cached_at": "2026-10-22T13:26:44.897376+00:00"
+  },
+  "SB-AF349BA2": {
+    "title": "Warriors take care of the Grizzlies at Chase",
+    "quip": "Curry still treats Memphis like a home game",
+    "cached_at": "2026-10-22T13:26:44.897376+00:00"
   }
 }
