@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-10-22T00:29:49.013266+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 6,
+    "polymarket": 4
+  },
+  "board": [
+    {
+      "ticker": "0x6839be9d8dd015ce2af84204b3ae8a91f862ff03f3d35eeddf914a4ad522f49e",
+      "title": "The Leafs make the playoffs next season",
+      "subtitle": "",
+      "payout": 2.17,
+      "tier": "green",
+      "quip": "2.17 is also the number of rounds Toronto has won since 1967",
+      "yes_price": "0.4600",
+      "volume": 9604.418906000003,
+      "category": "Other",
+      "close_time": "2027-04-16T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/which-teams-will-make-the-nhl-playoffs-2026-27",
+      "platform": "polymarket",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "the parade route gets printed and then quietly shredded sometime in early May",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "I have watched this team break hearts since I had a full hairline",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "Ontario's annual spring heartbreak",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "making the playoffs is the Leafs Super Bowl and they celebrate accordingly",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "Charlie Brown jogging up to the football with Lucy holding it again",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "2.17 is also the number of rounds Toronto has won since 1967",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "Matthews rips 60 again and I will believe every single time",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "like the Mets clinching a wild card and everybody immediately getting nervous",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXPITSNOWM-26DEC-10",
+      "title": "Pittsburgh gets over 10 inches of snow this December",
+      "subtitle": "In Dec 2026",
+      "yes_sub_title": "Above 10 inches",
+      "no_sub_title": "Above 10 inches",
+      "payout": 2.22,
+      "tier": "green",
+      "quip": "ten inches is a Tuesday there. eleven and they throw a parade",
+      "yes_price": "0.4500",
+      "volume": 500.0,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXPITSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 51.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "a man shovels his driveway in shorts, as God and Allegheny County intended",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "I moved away from lake effect and I would do it again tomorrow",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "salt truck szn",
+          "mode": 9,
+          "score": 3
+        },
+        {
+          "quip": "ten inches is a Tuesday there. eleven and they throw a parade",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Fargo but with worse accents and significantly better sandwiches",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Cleveland gets flurries, Pittsburgh gets buried, balance restored",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "\"yinz seein this squall line\" says a man already holding an Iron City",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "I'd shovel the whole North Side myself just to see the Point frozen",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "0xf8db515a7114bdcf34cd405cfaec1ef992771878a7521ba117e6d09cd86015fa",
+      "title": "The final score is one nobody picked",
+      "subtitle": "",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "None Of The Above has been undefeated since ballots were invented",
+      "yes_price": "0.3750",
+      "volume": 9917.959666,
+      "category": "Other",
+      "close_time": "2026-10-31T15:30:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/ere-fey-sit-2026-10-31-exact-score",
+      "platform": "polymarket",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "somewhere a 4-3 breaks out and twelve men lose their entire minds",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "I took 2-1 like a coward and that is on me",
+          "mode": 2,
+          "score": 5
+        },
+        {
+          "quip": "chaos, lightly salted",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "betting the field at the Derby and feeling smug about it",
+          "mode": 6,
+          "score": 6.5
+        },
+        {
+          "quip": "thirty-seven scorelines in a trenchcoat charging $2.67 at the door",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "None Of The Above has been undefeated since ballots were invented",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "every weird scoreline deserves representation and I am their attorney",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "\"it ended 5-4?\" yeah. \"in regulation?\" yeah",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0xc37f85182c9f8e6a25d9ac915e350f29ec6abd34adcfc75b42235214fcf1a8fd",
+      "title": "Kristi Noem leaves the Trump administration before 2027",
+      "subtitle": "",
+      "payout": 3.74,
+      "tier": "yellow",
+      "quip": "the resignation letter, then the podcast, then the ranch rebrand, in that order",
+      "yes_price": "0.2675",
+      "volume": 99393.16732299999,
+      "category": "World",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/who-will-leave-trump-administration-before-2027",
+      "platform": "polymarket",
+      "score": 53.0,
+      "quip_alts": [
+        {
+          "quip": "the resignation letter, then the podcast, then the ranch rebrand, in that order",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "I only learn a cabinet name right as they clean out the desk",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "DHS revolving door squeaks",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "South Dakota immediately pretends it never noticed she was gone",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "every season of Survivor ends with somebody walking to the boat",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "27 cents says she's out, which feels generous for a Tuesday",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "my Browns quarterback list and my DHS list are the same length",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"i'm not leaving, i'm transitioning to the private sector.\" same thing, ma'am",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXBANDANTES-27JAN",
+      "title": "Dantes gets banned from Twitch this year",
+      "subtitle": "Before Jan 2027",
+      "yes_sub_title": "Before Jan 2027",
+      "no_sub_title": "Before Jan 2027",
+      "payout": 6.67,
+      "tier": "yellow",
+      "quip": "a Twitch ban is a modern red card. three days, back in the lineup",
+      "yes_price": "0.1500",
+      "volume": 1806.75,
+      "category": "Social",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXBANDANTES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 78.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "the apology stream has better lighting than anything he's ever done",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "I don't know who this is and I'm in anyway, that's intimacy",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the purple screen cometh",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "a Twitch ban is a modern red card. three days, back in the lineup",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "$6.67 says a mod wakes up furious at 3am on a weekday",
+          "mode": 5,
+          "score": 6
+        },
+        {
+          "quip": "Icarus flew too close to a terms of service agreement",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "I love when a man gets timed out of his own job",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "\"it was a joke, chat. CHAT.\" and then fourteen days of nothing",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXEARTHQUAKECALIFORNIA-28",
+      "title": "California gets an 8.0 earthquake before 2028",
+      "subtitle": "Before 2028",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 7.14,
+      "tier": "orange",
+      "quip": "the Waffle House index goes dark somewhere outside Bakersfield",
+      "yes_price": "0.1400",
+      "volume": 15859.56,
+      "category": "Climate and Weather",
+      "close_time": "2028-12-31T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXEARTHQUAKECALIFORNIA?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 98.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "the Waffle House index goes dark somewhere outside Bakersfield",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "I keep one gallon of water under the sink and that's the whole plan",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "San Andreas clears its throat",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "LA drivers would still find a way to blame the 405",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "a 7.14 payout on an 8.0, nature pricing itself below market",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "The Rock already ran these numbers and the movie turned out fine",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "my cousin in Sacramento changes the subject every time I bring this up",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "like a Game 7 that nobody in the building bought a ticket for",
+          "mode": 6,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXELONMARS-99",
+      "title": "Elon Musk sets foot on Mars in his lifetime",
+      "subtitle": "Before 2099",
+      "yes_sub_title": "Mars",
+      "no_sub_title": "Mars",
+      "payout": 9.09,
+      "tier": "orange",
+      "quip": "$9.09 to watch a billionaire discover there is no WiFi",
+      "yes_price": "0.1100",
+      "volume": 122961.79,
+      "category": "Science and Technology",
+      "close_time": "2099-08-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXELONMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "first post from the surface is a meme and the ping is 22 minutes",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "I will watch that livestream start to finish and hate myself throughout",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the ultimate hard pivot",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "\"it's, uh, it's a planet. and we're, like, standing on it.\" incredible stuff",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "Willy Wonka with a golden ticket he printed in his own factory",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "$9.09 to watch a billionaire discover there is no WiFi",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "like LeBron buying the team so he can lock in his minutes",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "genuinely incredible and deeply annoying, I will feel both at once",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA puts boots on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 26.32,
+      "tier": "red",
+      "quip": "Boeing heard the deadline and laughed in subcontractor",
+      "yes_price": "0.0380",
+      "volume": 223025.17,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the lander slips to 2029 while someone reorders the commemorative coins",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "my grandfather watched his on a black and white set, I want mine",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "Artemis, we hardly knew ye",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "26 dollars and 32 cents, about what lunar regolith ships for",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "Kubrick is unavailable to help us this time around",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "I was promised flying cars, jetpacks, and now I'm promised this",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we're going back. bigger moon. beautiful moon.\" okay",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "Boeing heard the deadline and laughed in subcontractor",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26NOV",
+      "title": "US strikes a new Iran nuclear deal this year",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Nov 1, 2026",
+      "no_sub_title": "Before Nov 1, 2026",
+      "payout": 50.0,
+      "tier": "red",
+      "quip": "the Ross and Rachel of foreign policy, on a break since forever",
+      "yes_price": "0.0200",
+      "volume": 1287182.3,
+      "category": "Politics",
+      "close_time": "2026-11-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 130.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the handshake photo gets cropped three different ways by three different ministries",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "I have a Geneva tab open since 2015 that I refuse to close",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "centrifuges on a payment plan",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "fifty to one, same number I gave my fantasy team in August",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "the Ross and Rachel of foreign policy, on a break since forever",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "a buzzer beater launched from the opposite free throw line",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"we have a framework.\" a framework. a FRAMEWORK",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "State Department interns know that hotel breakfast buffet by heart now",
+          "mode": 7,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0x795ce0ad387f29cc77474ef1a628913e4e2a06549ac694332889a1964a359719",
+      "title": "Carlos Bruce wins the next Lima mayoral election",
+      "subtitle": "",
+      "payout": 400.0,
+      "tier": "purple",
+      "quip": "like caring deeply about a county commissioner race in rural Idaho",
+      "yes_price": "0.0025",
+      "volume": 96454.866451,
+      "category": "World",
+      "close_time": "2026-10-05T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/lima-mayoral-election-winner-20260724153924694",
+      "platform": "polymarket",
+      "score": 60.0,
+      "quip_alts": [
+        {
+          "quip": "I could not find Lima on a map and now I have a candidate",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "somebody in Miraflores is printing 400 flyers with money I gave them",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "mayor of my heart",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "400 to 1, roughly my odds of saying the full name correctly",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "like caring deeply about a county commissioner race in rural Idaho",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "a ceviche based foreign policy and I am fully listening",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "the Parks and Rec episode where the long shot actually lands it",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "\"Lima? like the bean?\" like eleven million people, buddy",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    }
+  ]
+}

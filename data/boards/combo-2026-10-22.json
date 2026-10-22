@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-10-22T00:30:32.785454+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "NCAAF": 7,
+    "Multi": 3
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-CE5FD789",
+      "title": "Kent State Golden Flashes wins + Buffalo Bulls wins",
+      "payout": 2.75,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617060082&selectionId=2174196",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Akron Zips @ Kent State Golden Flashes + Bowling Green Falcons @ Buffalo Bulls",
+      "market_type": "2-leg parlay",
+      "american_odds": 175,
+      "implied_probability": 0.364,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Akron Zips @ Kent State Golden Flashes",
+          "pick": "Kent State Golden Flashes wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617060082&selectionId=2174196",
+          "commence_time": "2026-10-24T17:00:00Z"
+        },
+        {
+          "matchup": "Bowling Green Falcons @ Buffalo Bulls",
+          "pick": "Buffalo Bulls wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617060622&selectionId=36143265",
+          "commence_time": "2026-10-24T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-24T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-B99BCBF6",
+      "title": "Kent State Golden Flashes wins + USC Trojans wins",
+      "payout": 2.75,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617060082&selectionId=2174196",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Akron Zips @ Kent State Golden Flashes + USC Trojans @ Wisconsin Badgers",
+      "market_type": "2-leg parlay",
+      "american_odds": 175,
+      "implied_probability": 0.364,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Akron Zips @ Kent State Golden Flashes",
+          "pick": "Kent State Golden Flashes wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617060082&selectionId=2174196",
+          "commence_time": "2026-10-24T17:00:00Z"
+        },
+        {
+          "matchup": "USC Trojans @ Wisconsin Badgers",
+          "pick": "USC Trojans wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617056676&selectionId=484731",
+          "commence_time": "2026-10-24T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-24T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-BA842605",
+      "title": "Buffalo Bulls wins + USC Trojans wins",
+      "payout": 2.75,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617060622&selectionId=36143265",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Bowling Green Falcons @ Buffalo Bulls + USC Trojans @ Wisconsin Badgers",
+      "market_type": "2-leg parlay",
+      "american_odds": 175,
+      "implied_probability": 0.364,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Bowling Green Falcons @ Buffalo Bulls",
+          "pick": "Buffalo Bulls wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617060622&selectionId=36143265",
+          "commence_time": "2026-10-24T19:30:00Z"
+        },
+        {
+          "matchup": "USC Trojans @ Wisconsin Badgers",
+          "pick": "USC Trojans wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617056676&selectionId=484731",
+          "commence_time": "2026-10-24T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-24T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-B99BCBF6",
+      "title": "Kent State Golden Flashes wins + USC Trojans wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:47515-3933456-6283511&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Akron Zips @ Kent State Golden Flashes + USC Trojans @ Wisconsin Badgers",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Akron Zips @ Kent State Golden Flashes",
+          "pick": "Kent State Golden Flashes wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47515-3933456-6283511&type=Single",
+          "commence_time": "2026-10-24T17:00:00Z"
+        },
+        {
+          "matchup": "USC Trojans @ Wisconsin Badgers",
+          "pick": "USC Trojans wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47559-3933501-6283598&type=Single",
+          "commence_time": "2026-10-24T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-24T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-92B8BFE9",
+      "title": "Kent State Golden Flashes wins + Philadelphia 76ers wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:47515-3933456-6283511&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Akron Zips @ Kent State Golden Flashes + Cleveland Cavaliers @ Philadelphia 76ers",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Akron Zips @ Kent State Golden Flashes",
+          "pick": "Kent State Golden Flashes wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47515-3933456-6283511&type=Single",
+          "commence_time": "2026-10-24T17:00:00Z"
+        },
+        {
+          "matchup": "Cleveland Cavaliers @ Philadelphia 76ers",
+          "pick": "Philadelphia 76ers wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884074-1551554236-2277417852&type=Single",
+          "commence_time": "2026-10-22T23:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-22T23:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-53756B14",
+      "title": "USC Trojans wins + Philadelphia 76ers wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:47559-3933501-6283598&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "USC Trojans @ Wisconsin Badgers + Cleveland Cavaliers @ Philadelphia 76ers",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "USC Trojans @ Wisconsin Badgers",
+          "pick": "USC Trojans wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47559-3933501-6283598&type=Single",
+          "commence_time": "2026-10-24T23:30:00Z"
+        },
+        {
+          "matchup": "Cleveland Cavaliers @ Philadelphia 76ers",
+          "pick": "Philadelphia 76ers wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=19884074-1551554236-2277417852&type=Single",
+          "commence_time": "2026-10-22T23:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-22T23:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-ED34A54B",
+      "title": "Boston Celtics wins + Anaheim Ducks +1.5",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028736320?coupon={pickType}|4383545904|{wagerAmount}",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "New York Knicks @ Boston Celtics + Anaheim Ducks @ New Jersey Devils",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York Knicks @ Boston Celtics",
+          "pick": "Boston Celtics wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028736320?coupon={pickType}|4383545904|{wagerAmount}",
+          "commence_time": "2026-10-23T23:10:00Z"
+        },
+        {
+          "matchup": "Anaheim Ducks @ New Jersey Devils",
+          "pick": "Anaheim Ducks +1.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028411079?coupon={pickType}|4384323091|{wagerAmount}",
+          "commence_time": "2026-10-22T23:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-22T23:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-FD590E85",
+      "title": "Baylor Bears wins + Kent State Golden Flashes wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617059873&selectionId=2129112",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Baylor Bears @ Kansas Jayhawks + Akron Zips @ Kent State Golden Flashes",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baylor Bears @ Kansas Jayhawks",
+          "pick": "Baylor Bears wins",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617059873&selectionId=2129112",
+          "commence_time": "2026-10-24T17:00:00Z"
+        },
+        {
+          "matchup": "Akron Zips @ Kent State Golden Flashes",
+          "pick": "Kent State Golden Flashes wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617060082&selectionId=2174196",
+          "commence_time": "2026-10-24T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-24T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-A38530A4",
+      "title": "Baylor Bears wins + Buffalo Bulls wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617059873&selectionId=2129112",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Baylor Bears @ Kansas Jayhawks + Bowling Green Falcons @ Buffalo Bulls",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baylor Bears @ Kansas Jayhawks",
+          "pick": "Baylor Bears wins",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617059873&selectionId=2129112",
+          "commence_time": "2026-10-24T17:00:00Z"
+        },
+        {
+          "matchup": "Bowling Green Falcons @ Buffalo Bulls",
+          "pick": "Buffalo Bulls wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617060622&selectionId=36143265",
+          "commence_time": "2026-10-24T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-24T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-CF225F03",
+      "title": "Baylor Bears wins + USC Trojans wins",
+      "payout": 2.79,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617059873&selectionId=2129112",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Baylor Bears @ Kansas Jayhawks + USC Trojans @ Wisconsin Badgers",
+      "market_type": "2-leg parlay",
+      "american_odds": 179,
+      "implied_probability": 0.358,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baylor Bears @ Kansas Jayhawks",
+          "pick": "Baylor Bears wins",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617059873&selectionId=2129112",
+          "commence_time": "2026-10-24T17:00:00Z"
+        },
+        {
+          "matchup": "USC Trojans @ Wisconsin Badgers",
+          "pick": "USC Trojans wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617056676&selectionId=484731",
+          "commence_time": "2026-10-24T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-24T17:00:00Z"
+    }
+  ]
+}
