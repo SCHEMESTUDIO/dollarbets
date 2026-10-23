@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-10-23T00:27:02.568973+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 7,
+    "polymarket": 3
+  },
+  "board": [
+    {
+      "ticker": "KXNBA1STTEAMDEF-27-ADAVIS23",
+      "title": "Anthony Davis makes All-Defensive First Team",
+      "subtitle": "2026-27 season",
+      "yes_sub_title": "Anthony Davis",
+      "no_sub_title": "Anthony Davis",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "Lakers fans about to repost ninety clips from the bubble",
+      "yes_price": "0.5000",
+      "volume": 53.46,
+      "category": "Sports",
+      "close_time": "2027-07-08T14:00:00Z",
+      "url": "https://kalshi.com/markets/KXNBA1STTEAMDEF?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 64.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i had him on my fantasy team in 2021 and i'm still recovering",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "Lakers fans about to repost ninety clips from the bubble",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "fifty cents on the eyebrow",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "Dallas gets one nice thing per decade and this is it",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "the defensive equivalent of a punter making the Pro Bowl",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"I've been doing this since I was 19. next question\"",
+          "mode": 4,
+          "score": 5
+        },
+        {
+          "quip": "pays two dollars, which is also his minutes restriction per quarter",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "every time i watch him erase a layup i forgive the whole decade",
+          "mode": 2,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x512292bc681cd33d03bd51841a0681de7840233e46c5d1de6200abf441e092fb",
+      "title": "A new Fable model ships by next October",
+      "subtitle": "",
+      "payout": 2.2,
+      "tier": "green",
+      "quip": "5.2, then 5.2-turbo, then 5.2-turbo-final-FINAL-v3",
+      "yes_price": "0.4550",
+      "volume": 9470.09921,
+      "category": "Science and Technology",
+      "close_time": "2026-10-30T03:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/next-fable-model-5pt2-released-byptptpt",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i haven't finished learning the last one and they're already shipping",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "5.2, then 5.2-turbo, then 5.2-turbo-final-FINAL-v3",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "ship it, i'm tired",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "launch stream opens with a guy in a vest saying \"profound\"",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "iPhone naming conventions, except the phone can lie to your mother",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "give me a decimal point and a benchmark chart and i'm fully in",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we've made it slightly less willing to make things up\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "all these models named after storybooks and not one can count",
+          "mode": 7,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0x557f39f1e6ce61ed34e803e48629a59183c5e00d1cc580f3acbc617edb3949b0",
+      "title": "Tate McRae's Housewife lands at number two this week",
+      "subtitle": "",
+      "payout": 2.41,
+      "tier": "green",
+      "quip": "the Buffalo Bills of the Hot 100",
+      "yes_price": "0.4150",
+      "volume": 9763.189897,
+      "category": "Other",
+      "close_time": "2026-10-27T23:59:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/billboard-hot-100-2-song-week-of-october-31",
+      "platform": "polymarket",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "i know every word and i have never once chosen to play it",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "second place has a sound",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "the Buffalo Bills of the Hot 100",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "forty thousand slow zooms over a kitchen island by Sunday",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "number two paying two forty one, numerology is real",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "whatever's at number one is a Wallen song and we all know it",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "canadian pop girl supremacy continues and i am sincerely thrilled about it",
+          "mode": 3,
+          "score": 4
+        },
+        {
+          "quip": "like being the Dauphin. close to the throne, zero power",
+          "mode": 8,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXDETSNOWM-26DEC-12",
+      "title": "Detroit gets over a foot of snow in December",
+      "subtitle": "In Dec 2026",
+      "yes_sub_title": "Above 12 inches",
+      "no_sub_title": "Above 12 inches",
+      "payout": 3.45,
+      "tier": "yellow",
+      "quip": "Atlanta gets four flakes and shuts down the interstate for a week",
+      "yes_price": "0.2900",
+      "volume": 301.0,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXDETSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 69.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i owned a shovel in Michigan for exactly one winter before it snapped",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "Detroit. December. shocking stuff",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "the Lions still play indoors and everyone drives there anyway",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "twelve inches, which in Detroit is called a Tuesday",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "Atlanta gets four flakes and shuts down the interstate for a week",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "the weather version of a wide open layup line",
+          "mode": 6,
+          "score": 5.5
+        },
+        {
+          "quip": "\"roads are fine. salt truck's out. put a coat on\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "i love watching a city just accept its fate like a grown adult",
+          "mode": 2,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNEXTOUTUS-26SEP28-KPAT",
+      "title": "Kash Patel is the first one out the door",
+      "subtitle": "HHS Secretary, Defense Secretary and FBI Director",
+      "yes_sub_title": "Kash Patel",
+      "no_sub_title": "Kash Patel",
+      "payout": 3.57,
+      "tier": "yellow",
+      "quip": "\"he was great. tremendous guy. i hardly knew him\"",
+      "yes_price": "0.2800",
+      "volume": 7449.47,
+      "category": "Politics",
+      "close_time": "2029-01-20T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNEXTOUTUS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 78.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "resignation letter arrives as a post with four exclamation points",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i never got around to memorizing his job description anyway",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "turnover is the brand",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "first off the bench in a blowout, except you're the coach",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "28 cents on the guy who was never going anywhere, allegedly",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"he was great. tremendous guy. i hardly knew him\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "i'm starting to think these are seasonal jobs with no benefits",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Survivor, except tribal council is a post at 2am",
+          "mode": 8,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0x492fb7f725ad6bbff8ce10bfbc75119599b958f7459b3e15241af33b809eaa08",
+      "title": "Turkey moves on a new constitution this year",
+      "subtitle": "",
+      "payout": 5.88,
+      "tier": "yellow",
+      "quip": "article one: Erdogan. article two: see article one",
+      "yes_price": "0.1700",
+      "volume": 9596.156085999999,
+      "category": "Other",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/turkish-constitutional-referendum-announced-in-2026-264",
+      "platform": "polymarket",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "i looked up how many constitutions Turkey has had and the number upset me",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "term limits are a suggestion",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "article one: Erdogan. article two: see article one",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "rewriting the rulebook while personally holding the trophy",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "\"the people demanded it. i personally went and asked them\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "the founding document gets a director's cut with deleted scenes",
+          "mode": 8,
+          "score": 6.5
+        },
+        {
+          "quip": "my entire grasp of Turkish politics is one guy and a lot of patience",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Europe clearing its throat and then saying absolutely nothing",
+          "mode": 7,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27",
+      "title": "The US and Iran sign a nuclear deal this year",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 10.1,
+      "tier": "orange",
+      "quip": "the Browns drafting a quarterback. every year. with total confidence",
+      "yes_price": "0.0990",
+      "volume": 1850937.03,
+      "category": "Politics",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i've typed this sentence so many times my keyboard finishes it for me",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "again? sure. okay. fine",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "Witkoff boarding a plane with a carry-on and no agenda",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "pays ten bucks, roughly one centrifuge at wholesale",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "the Browns drafting a quarterback. every year. with total confidence",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "\"we have a deal. beautiful deal. nobody has read it\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "Groundhog Day, except Bill Murray keeps landing in Oman",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "i just want it signed so i can stop pretending to understand enrichment",
+          "mode": 2,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXYELLVISITS-27MAR31-T5000000",
+      "title": "Yellowstone clears 5 million visitors this year",
+      "subtitle": "2026",
+      "yes_sub_title": "Above 5 million",
+      "no_sub_title": "Above 5 million",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "some guy in cargo shorts puts his toddler on an elk by June",
+      "yes_price": "0.0700",
+      "volume": 45146.74,
+      "category": "Economics",
+      "close_time": "2027-03-31T15:29:00Z",
+      "url": "https://kalshi.com/markets/KXYELLVISITS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 88.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "i went once, saw a bison, sat behind it for forty minutes",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the bison are outnumbered",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "some guy in cargo shorts puts his toddler on an elk by June",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "five million people, four parking spots, one bathroom",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Old Faithful is the halftime show and everyone leaves right after",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "and 4.8 million of them never once exit the vehicle",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "\"ma'am that is a nine hundred pound animal, not a photo op\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "i will be one of them and i will complain the entire time",
+          "mode": 2,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA puts a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 26.32,
+      "tier": "red",
+      "quip": "Buzz Aldrin warming up the right hand just in case",
+      "yes_price": "0.0380",
+      "volume": 223121.73,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i have been promised this my whole adult life and i still check dates",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "still waiting on the suits",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "flag planting ceremony interrupted by a dropped call with Houston",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "$26 payout, which is somehow still more than the rocks weigh",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "like scheduling the fantasy draft and nobody shows up",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"we did it in 1969 with a slide rule. what's your excuse\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "Buzz Aldrin warming up the right hand just in case",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "i aged out of caring about this and now it might just happen",
+          "mode": 2,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26MOKE-T3",
+      "title": "Moke strengthens into a Category 3 hurricane",
+      "subtitle": "Hurricane Moke",
+      "yes_sub_title": "Category 3 or above",
+      "no_sub_title": "Category 3 or above",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "that's a backup tight end's nickname, not a natural disaster",
+      "yes_price": "0.0100",
+      "volume": 8246.0,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 75.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "name like Moke, you either go Cat 3 or you go home",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "i would like to formally apologize to whoever had naming duty",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "Moke. MOKE. come on",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "a hundred dollars riding on a storm named like a smoothie",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "local anchor says \"Moke\" with a straight face, take fourteen",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "that's a backup tight end's nickname, not a natural disaster",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "Moke used Rain Dance. it was super effective",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "i'm rooting for the little guy and the little guy is a hurricane",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    }
+  ]
+}
