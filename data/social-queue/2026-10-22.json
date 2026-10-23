@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-23T05:11:08.158231+00:00",
+          "tweet_id": "2113498432740499468",
+          "reply_tweet_id": "2113498434384666967"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "6343415",
+        "page": "https://www.pexels.com/photo/sunrise-over-house-in-countryside-6343415/",
+        "photographer": "Intricate Explorer",
+        "license": "Pexels License",
+        "phrases": [
+          "empty office corridor dusk",
+          "prairie ranch gate evening"
+        ],
+        "tokens": {
+          "input_tokens": 3407,
+          "output_tokens": 32
         }
       }
     },
