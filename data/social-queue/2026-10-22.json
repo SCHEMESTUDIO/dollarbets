@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-23T18:03:13.935579+00:00",
+          "tweet_id": "2113692737119695269",
+          "reply_tweet_id": "2113692738902163868"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "openverse",
+        "id": "5926f070-1348-458f-be34-1e6100aeb1b5",
+        "page": "https://commons.wikimedia.org/w/index.php?curid=94424030",
+        "photographer": "Vyacheslav Argenberg",
+        "license": "CC BY 4.0",
+        "phrases": [
+          "empty hockey arena night",
+          "frozen pond dusk snow"
+        ],
+        "tokens": {
+          "input_tokens": 6186,
+          "output_tokens": 41
         }
       }
     },
