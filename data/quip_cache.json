@@ -1,64 +1,4 @@
 {
-  "SB-39FE6610": {
-    "title": "Penguins knock off the Mammoth in Utah",
-    "quip": "Crosby's still got frequent flyer miles on that wrist shot",
-    "cached_at": "2026-10-19T20:52:32.132871+00:00"
-  },
-  "SB-2EA86153": {
-    "title": "Flyers stun the Avalanche in Philly",
-    "quip": "Broad Street doesn't care about MacKinnon's point streak",
-    "cached_at": "2026-10-19T20:52:32.132871+00:00"
-  },
-  "SB-9D2EDADA": {
-    "title": "Celtics bury the Pistons by nine or more",
-    "quip": "Cade's fun until Tatum starts cooking from the logo",
-    "cached_at": "2026-10-19T20:52:32.132871+00:00"
-  },
-  "SB-B67AE9EB": {
-    "title": "Rangers-Ducks turns into a ten-goal track meet",
-    "quip": "somebody hide Shesterkin's water bottle before warmups",
-    "cached_at": "2026-10-19T20:52:32.132871+00:00"
-  },
-  "SB-D68204E8": {
-    "title": "Guardians blow out the Rays by eight",
-    "quip": "Tropicana catwalks trembling at a full Cleveland touchdown",
-    "cached_at": "2026-10-19T20:52:32.132871+00:00"
-  },
-  "SB-FECB141F": {
-    "title": "Australia beat South Africa in the Test",
-    "quip": "the baggy green doesn't travel badly, it travels smug",
-    "cached_at": "2026-10-19T20:52:47.596978+00:00"
-  },
-  "SB-EE0EDD65": {
-    "title": "Pakistan beat England at home",
-    "quip": "spin on a dustbowl, England's sweep shot goes to therapy",
-    "cached_at": "2026-10-19T20:52:47.596978+00:00"
-  },
-  "SB-76B9BAC1": {
-    "title": "Sport beat Jukurit by two or more",
-    "quip": "Mikkeli's silence after the empty-netter would be symphonic",
-    "cached_at": "2026-10-19T20:52:47.596978+00:00"
-  },
-  "SB-8DA63AE0": {
-    "title": "Niners handle the Commanders tonight",
-    "quip": "Jayden Daniels running for his life behind that line",
-    "cached_at": "2026-10-19T20:52:56.519182+00:00"
-  },
-  "SB-7B2220F2": {
-    "title": "Utah Mammoth take down the Penguins",
-    "quip": "Crosby's farewell tour hits a Salt Lake snowbank",
-    "cached_at": "2026-10-19T20:52:56.519182+00:00"
-  },
-  "SB-8E448297": {
-    "title": "Leafs keep it close in Columbus",
-    "quip": "Matthews rarely lets a night get truly ugly",
-    "cached_at": "2026-10-19T20:52:56.519182+00:00"
-  },
-  "SB-983F7E3C": {
-    "title": "Rangers beat the Ducks at the Garden",
-    "quip": "Shesterkin versus a roster still finding its passport",
-    "cached_at": "2026-10-19T20:52:56.519182+00:00"
-  },
   "SB-BC711713": {
     "title": "Stars skate past Bruins by two tonight",
     "quip": "Robertson eats, Swayman sulks",
@@ -948,5 +888,85 @@
     "title": "Leafs stay within a goal in Edmonton",
     "quip": "McDavid wins it, Matthews makes him sweat",
     "cached_at": "2026-10-23T19:46:35.438087+00:00"
+  },
+  "SB-064683B7": {
+    "title": "Bruins skate past Sharks by two tonight",
+    "quip": "the Garden doesn't do close games against San Jose",
+    "cached_at": "2026-10-24T00:19:21.654988+00:00"
+  },
+  "SB-E052C6ED": {
+    "title": "Oilers handle Maple Leafs by two tonight",
+    "quip": "McDavid against Toronto's blue line is rent money",
+    "cached_at": "2026-10-24T00:19:21.654988+00:00"
+  },
+  "SB-1FAE7874": {
+    "title": "Stanford upsets NC State on the Farm",
+    "quip": "the Wolfpack travel three time zones and arrive sleepy",
+    "cached_at": "2026-10-24T00:19:21.654988+00:00"
+  },
+  "SB-6936BD57": {
+    "title": "Kings knock off the Blazers tonight",
+    "quip": "light the beam, Sacramento, it's been a minute",
+    "cached_at": "2026-10-24T00:19:21.654988+00:00"
+  },
+  "SB-E311FC73": {
+    "title": "Avalanche bury Lightning by four tonight",
+    "quip": "MacKinnon at altitude turns Vasilevskiy into a pylon",
+    "cached_at": "2026-10-24T00:19:21.654988+00:00"
+  },
+  "SB-B60B4C6B": {
+    "title": "Blackhawks blow out Canadiens by five",
+    "quip": "Bedard authors the Original Six massacre nobody ordered",
+    "cached_at": "2026-10-24T00:19:21.654988+00:00"
+  },
+  "SB-D54D7DB5": {
+    "title": "Magic and Wolves erupt for 257+ tonight",
+    "quip": "Orlando's defense would have to join witness protection",
+    "cached_at": "2026-10-24T00:19:21.654988+00:00"
+  },
+  "SB-32EB2C64": {
+    "title": "Tokyo Verdy and Avispa Fukuoka manage one goal tonight",
+    "quip": "J-League defending, where the clean sheet is a love language",
+    "cached_at": "2026-10-24T00:19:36.441617+00:00"
+  },
+  "SB-B7461024": {
+    "title": "V\u00e4xj\u00f6 Lakers win in F\u00e4rjestad tonight",
+    "quip": "Sm\u00e5landers raiding V\u00e4rmland like it's a Viking reenactment",
+    "cached_at": "2026-10-24T00:19:36.441617+00:00"
+  },
+  "SB-90167BD2": {
+    "title": "Macarthur upset the Jets in Newcastle",
+    "quip": "the Bulls charging through Hunter Valley traffic",
+    "cached_at": "2026-10-24T00:19:36.441617+00:00"
+  },
+  "SB-05B236FD": {
+    "title": "KooKoo beat Jokerit by two or more",
+    "quip": "Kouvola doesn't do polite hockey, ask the Jokers",
+    "cached_at": "2026-10-24T00:19:36.441617+00:00"
+  },
+  "SB-A3AE2A1F": {
+    "title": "HIFK roll past HPK by two tonight",
+    "quip": "Helsinki's oldest club treating H\u00e4meenlinna like a warmup skate",
+    "cached_at": "2026-10-24T00:19:36.441617+00:00"
+  },
+  "SB-911C0ABB": {
+    "title": "Chopurov dominates Thicknesse on the scorecards",
+    "quip": "Thicknesse running out of names to hide behind",
+    "cached_at": "2026-10-24T00:19:44.057387+00:00"
+  },
+  "SB-4C43F6A1": {
+    "title": "Blues stay within a goal of the Hurricanes",
+    "quip": "Carolina shoots 40 times, scores twice, as tradition demands",
+    "cached_at": "2026-10-24T00:19:44.057387+00:00"
+  },
+  "SB-C64F6B8C": {
+    "title": "Bruins handle the Sharks in Boston",
+    "quip": "Pastrnak feasting on the Pacific's softest defense",
+    "cached_at": "2026-10-24T00:19:44.057387+00:00"
+  },
+  "SB-CB29C0D5": {
+    "title": "Oilers beat the Leafs in Edmonton",
+    "quip": "McDavid treats Toronto's blue line like traffic cones",
+    "cached_at": "2026-10-24T00:19:44.057387+00:00"
   }
 }

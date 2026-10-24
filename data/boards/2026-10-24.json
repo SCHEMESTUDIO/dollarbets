@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-10-24T00:19:08.181008+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 6,
+    "polymarket": 4
+  },
+  "board": [
+    {
+      "ticker": "KXMETEOR-30",
+      "title": "A major meteor strikes Earth before 2030",
+      "subtitle": "Large meteor strike",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 1.82,
+      "tier": "green",
+      "quip": "please let it clear the ocean and find Florida",
+      "yes_price": "0.5480",
+      "volume": 146591.24,
+      "category": "Science and Technology",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXMETEOR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 89.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Bruce Willis is 70 now and nobody at NASA wants to discuss it",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "my emergency kit is a bag of rice and a flashlight with no batteries",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "the dinosaurs' revenge arc",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "\"it's a rock. a very big rock. people are saying it's the biggest.\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "telescope guy becomes the most famous man alive for nine days",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "a helmet-to-helmet hit on a defenseless planet, no flag thrown",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "please let it clear the ocean and find Florida",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "space throwing hands after four billion years of trash talk",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "0x89d066248eddc1fc9635c8a5794055e0b82285d313e85b72e0aa9919a84cba66",
+      "title": "A Democrat wins Texas Railroad Commissioner this year",
+      "subtitle": "",
+      "payout": 2.2,
+      "tier": "green",
+      "quip": "Friday Night Lights, final episode, the whole town quietly turns blue",
+      "yes_price": "0.4550",
+      "volume": 9871.082491,
+      "category": "World",
+      "close_time": "2026-11-03T23:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/texas-railroad-commissioner-election-winner-2026",
+      "platform": "polymarket",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "i looked it up and it's oil and gas, not trains. i feel lied to",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the Railroad Commission regulates zero railroads and 183,000 wells, which is insane",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "Texas has a Democrat?",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "a Midland landman pours bourbon into his coffee at 9am and calls his guy",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "like Vanderbilt winning in Tuscaloosa on a night nobody televised it",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Friday Night Lights, final episode, the whole town quietly turns blue",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "\"we're gonna fix them trains, folks.\" sir, there are no trains",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "down-ballot Texas is the most underrated genre of chaos going",
+          "mode": 3,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "ticker": "0xb5dcee2c45820fbb1fbc744abff0748e59a210b6686c2d1bbc2b5102ea598b68",
+      "title": "The final score is one nobody listed",
+      "subtitle": "",
+      "payout": 2.7,
+      "tier": "green",
+      "quip": "like the end of No Country. nothing adds up and everyone drives home",
+      "yes_price": "0.3700",
+      "volume": 9917.959666,
+      "category": "Other",
+      "close_time": "2026-10-31T16:15:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/itsb-cat-pad-2026-10-31-exact-score",
+      "platform": "polymarket",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "i don't know what sport this is and i'm already screaming",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "somewhere a 7-4 is brewing and the graphics guy is not prepared",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "5-4 incoming, trust me",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "ugly scorelines are the only honest scorelines left",
+          "mode": 3,
+          "score": 4.5
+        },
+        {
+          "quip": "nine goals, two own goals, one red card. i said what i said",
+          "mode": 5,
+          "score": 6
+        },
+        {
+          "quip": "like the end of No Country. nothing adds up and everyone drives home",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "the 2013 Iron Bowl of final scores",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "whatever number it lands on, the keeper's getting blamed for all of them",
+          "mode": 7,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXEARTHQUAKECALIFORNIA-35",
+      "title": "California gets an 8.0 earthquake before 2035",
+      "subtitle": "Before 2035",
+      "yes_sub_title": "Before 2035",
+      "no_sub_title": "Before 2035",
+      "payout": 3.57,
+      "tier": "yellow",
+      "quip": "90 seconds of shaking and Malibu becomes genuinely beachfront property",
+      "yes_price": "0.2800",
+      "volume": 28879.79,
+      "category": "Climate and Weather",
+      "close_time": "2035-12-31T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXEARTHQUAKECALIFORNIA?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 88.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i keep water jugs in the garage and faith in absolutely nothing",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Nevada realtors wake up to 400 new saved listings and zero explanation",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "the Big One has a calendar",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "The Rock already flew a helicopter through this exact scenario",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "90 seconds of shaking and Malibu becomes genuinely beachfront property",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "finally a reason to leave LA that isn't the rent",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "\"everyone remain calm,\" says the man already under a doorframe sobbing",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "tectonic plates do not miss and they do not apologize",
+          "mode": 3,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "ticker": "KXBOSSNOWM-26DEC-10",
+      "title": "Boston gets over 10 inches of snow in December",
+      "subtitle": "In Dec 2026",
+      "yes_sub_title": "Above 10 inches",
+      "no_sub_title": "Above 10 inches",
+      "payout": 3.85,
+      "tier": "yellow",
+      "quip": "ten inches and every Dunkin inside Route 128 stays open out of pure spite",
+      "yes_price": "0.2600",
+      "volume": 1619.66,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXBOSSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 84.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i own one shovel, it's plastic, and it cracked in 2019",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the space savers come out and a lawn chair becomes legally binding property",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "ten inches is a Tuesday",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "Boston will not shut up about this until April",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "Gillette in December, nobody can feel their hands, somebody wins 9-6",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"ten inches? we got thirty-two in '78, kid, and we walked.\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "ten inches and every Dunkin inside Route 128 stays open out of pure spite",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "The Departed, but the whole third act is salting a stoop",
+          "mode": 8,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0x9c1e35fe68023147db17a2e5ca11aee3ab755891fe3c8e8891f02be08ee47097",
+      "title": "Bitcoin hits $150k by fall 2027",
+      "subtitle": "",
+      "payout": 5.88,
+      "tier": "yellow",
+      "quip": "like waiting on a Knicks title except the Knicks are software",
+      "yes_price": "0.1700",
+      "volume": 9822.631790000001,
+      "category": "Crypto",
+      "close_time": "2027-10-01T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/when-will-bitcoin-hit-150k",
+      "platform": "polymarket",
+      "score": 53.0,
+      "quip_alts": [
+        {
+          "quip": "i sold at 19k in 2021 and i think about it during meetings",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "my barber starts explaining cold storage again and i just let him",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "number go up, eventually",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "$150k and somebody opens a Lambo dealership inside a Chuck E. Cheese",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "like waiting on a Knicks title except the Knicks are software",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Saylor on a mountaintop, arms out, full Shawshank rain",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "El Salvador's entire national budget doing a backflip off the high dive",
+          "mode": 7,
+          "score": 6.5
+        },
+        {
+          "quip": "two more years is nothing, i waited longer than that for Dune",
+          "mode": 3,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXOAIANTH-40-OAI",
+      "title": "OpenAI goes public before Anthropic",
+      "subtitle": "Before 2040",
+      "yes_sub_title": "OpenAI",
+      "no_sub_title": "OpenAI",
+      "payout": 12.5,
+      "tier": "orange",
+      "quip": "Anthropic doing the Spurs thing: quiet, principled, no merch, nobody buys tickets",
+      "yes_price": "0.0800",
+      "volume": 210260.99,
+      "category": "Financials",
+      "close_time": "2040-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXOAIANTH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "Sam rings the bell and the bell is also a product launch",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "i'm buying one share purely for the shareholder letter",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "\"we are thrilled to be unprofitable at a truly historic scale.\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "safety team notified last",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "Anthropic doing the Spurs thing: quiet, principled, no merch, nobody buys tickets",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "this is the deposition scene in Social Network but everybody's wearing a vest",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "twelve bucks and change for the end of white collar work, fine",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "i love it when the machines still need our money",
+          "mode": 3,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26DEC",
+      "title": "US and Iran sign a nuclear deal this year",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Dec 1, 2026",
+      "no_sub_title": "Before Dec 1, 2026",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "like a Lakers blockbuster that gets reported every June and never happens",
+      "yes_price": "0.0700",
+      "volume": 306969.65,
+      "category": "Politics",
+      "close_time": "2026-12-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i have a Google alert for this and it has ruined several mornings",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the signing pen gets its own Instagram and 40,000 followers by Friday",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "\"they called me. they begged. i said fine, bring a cake.\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "centrifuges hate this trick",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "like a Lakers blockbuster that gets reported every June and never happens",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "Groundhog Day, except Bill Murray works for State and the hotel is in Geneva",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "deal number fourteen, and i'm told this is the real one",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "the Nobel committee quietly unblocking his number",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA puts a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 26.32,
+      "tier": "red",
+      "quip": "flag planted, stream buffers, your uncle calls it a soundstage by lunch",
+      "yes_price": "0.0380",
+      "volume": 223249.12,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i am calling out of work for this and i'm telling them why",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "flag planted, stream buffers, your uncle calls it a soundstage by lunch",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "we are so back",
+          "mode": 9,
+          "score": 3
+        },
+        {
+          "quip": "55 years between visits. worst return policy in American history",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "a 16 seed in the Final Four with two seasons to prepare",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Armstrong took the good line so this one's gonna freestyle and eat it",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "boots on regolith and i am genuinely emotional about regolith",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "\"the moon. tremendous moon. some people say the best one we have.\"",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x82f7834c85a5eb376fdfd662d60e5313a8a2c7ac749a8be826e58480b70db462",
+      "title": "Man City's punishment gets announced this month",
+      "subtitle": "",
+      "payout": 86.96,
+      "tier": "purple",
+      "quip": "Arsenal fans refreshing a PDF like it's a job offer",
+      "yes_price": "0.0115",
+      "volume": 9492.937532,
+      "category": "Other",
+      "close_time": "2026-10-24T03:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/manchester-city-punishment-announced-by",
+      "platform": "polymarket",
+      "score": 65.0,
+      "quip_alts": [
+        {
+          "quip": "115 charges, four years, and one email from a lawyer named Nigel",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "i had a different job when these charges were filed",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "the lawyers won again",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "Arsenal fans refreshing a PDF like it's a job offer",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "Deflategate with 200 more pages and nobody fun to yell at",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Bleak House, but everyone in the courtroom is wearing sky blue",
+          "mode": 8,
+          "score": 6.5
+        },
+        {
+          "quip": "the fine gets paid with couch change in Abu Dhabi",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "\"we are disappointed and will appeal,\" sent 4:59pm on a Friday",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    }
+  ]
+}
