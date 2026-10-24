@@ -1,64 +1,4 @@
 {
-  "SB-FE05CCD8": {
-    "title": "Leafs take down Blue Jackets in Columbus",
-    "quip": "Matthews doing Matthews things in Ohio",
-    "cached_at": "2026-10-20T13:19:31.686244+00:00"
-  },
-  "SB-0891FD87": {
-    "title": "Islanders beat Ducks by two or more",
-    "quip": "Anaheim's road trip keeps finding new floors",
-    "cached_at": "2026-10-20T13:19:31.686244+00:00"
-  },
-  "SB-D8E6C563": {
-    "title": "Liverpool and Villarreal settle for a draw",
-    "quip": "Anfield nights usually end louder than this",
-    "cached_at": "2026-10-20T13:19:31.686244+00:00"
-  },
-  "SB-BCF8108B": {
-    "title": "AEK Athens stun Man City at the Etihad",
-    "quip": "Pep's rotation experiment becomes a Greek tragedy",
-    "cached_at": "2026-10-20T13:19:31.686244+00:00"
-  },
-  "SB-E5AC726A": {
-    "title": "Spurs bury Thunder by 33+",
-    "quip": "Wemby blots out the sun over SGA",
-    "cached_at": "2026-10-20T13:19:31.686244+00:00"
-  },
-  "SB-5010EE36": {
-    "title": "Slovan Bratislava stun Roma at the Olimpico",
-    "quip": "Bratislava packing the Colosseum with lions of their own",
-    "cached_at": "2026-10-20T13:19:39.036453+00:00"
-  },
-  "SB-C9FE6D00": {
-    "title": "Ilves take down TPS in Turku tonight",
-    "quip": "the Tampere\u2013Turku grudge never gets old",
-    "cached_at": "2026-10-20T13:19:50.061920+00:00"
-  },
-  "SB-D20EA864": {
-    "title": "V\u00e4xj\u00f6 beat Lule\u00e5 by two or more",
-    "quip": "Lakers in five, wrong Lakers",
-    "cached_at": "2026-10-20T13:19:50.061920+00:00"
-  },
-  "SB-D2EDE85E": {
-    "title": "Pelicans bury HPK by multiple goals",
-    "quip": "Lahti's birds hunting in H\u00e4meenlinna, Zion not included",
-    "cached_at": "2026-10-20T13:19:50.061920+00:00"
-  },
-  "SB-7CFC2EB3": {
-    "title": "49ers handle the Falcons in Atlanta",
-    "quip": "Kyle Shanahan returns to his father's old haunt",
-    "cached_at": "2026-10-20T13:19:59.027237+00:00"
-  },
-  "SB-0CB7ED9A": {
-    "title": "Kings keep it close in Washington",
-    "quip": "Ovechkin scores, Kuemper keeps it a one-goal night",
-    "cached_at": "2026-10-20T13:19:59.027237+00:00"
-  },
-  "SB-A4584AC5": {
-    "title": "Rays stay within a run of the Brewers",
-    "quip": "American Family Field, where nobody runs away with anything",
-    "cached_at": "2026-10-20T13:19:59.027237+00:00"
-  },
   "SB-63FA4FB4": {
     "title": "Bruins steal one in Dallas tonight",
     "quip": "Swayman standing on his head in the Central",
@@ -958,5 +898,115 @@
     "title": "Heat handle the Hornets in Charlotte",
     "quip": "Spoelstra's conditioning program versus LaMelo's shrug",
     "cached_at": "2026-10-24T12:26:46.954179+00:00"
+  },
+  "SB-5E87863A": {
+    "title": "Leafs steal one in Edmonton tonight",
+    "quip": "McDavid scores four, Toronto wins anyway, hockey is broken",
+    "cached_at": "2026-10-24T18:34:59.736834+00:00"
+  },
+  "SB-7E9A37AF": {
+    "title": "Sharks sink the Bruins on Causeway Street",
+    "quip": "Celebrini is not here to be your rebuilding story",
+    "cached_at": "2026-10-24T18:34:59.736834+00:00"
+  },
+  "SB-D797D068": {
+    "title": "Senators handle the Rangers by two or more",
+    "quip": "Tkachuk bullying the Blueshirts into an early flight home",
+    "cached_at": "2026-10-24T18:34:59.736834+00:00"
+  },
+  "SB-A435AE2A": {
+    "title": "Nets shock the Cavs in Cleveland",
+    "quip": "Mitchell takes a night off, Brooklyn takes the game",
+    "cached_at": "2026-10-24T18:34:59.736834+00:00"
+  },
+  "SB-E30ED993": {
+    "title": "Bucks beat the Sixers by six-plus",
+    "quip": "Giannis in the paint, Philly out of answers",
+    "cached_at": "2026-10-24T18:34:59.736834+00:00"
+  },
+  "SB-570281B1": {
+    "title": "Hornets blow out the Heat by 17+",
+    "quip": "LaMelo cooking, Spoelstra calling timeouts into the void",
+    "cached_at": "2026-10-24T18:34:59.736834+00:00"
+  },
+  "SB-D936F9EC": {
+    "title": "Brewers hammer the Rays by seven runs",
+    "quip": "a seven-run Milwaukee crooked number, sausages racing in delight",
+    "cached_at": "2026-10-24T18:34:59.736834+00:00"
+  },
+  "SB-4F146A40": {
+    "title": "Devils bury the Kings by seven goals",
+    "quip": "Hughes brothers turning Jersey into a Quentin Tarantino third act",
+    "cached_at": "2026-10-24T18:34:59.736834+00:00"
+  },
+  "SB-E692FD26": {
+    "title": "Hull City stun Arsenal at the Emirates",
+    "quip": "2014 FA Cup final, but Hull keeps the two-goal lead",
+    "cached_at": "2026-10-24T18:35:08.310563+00:00"
+  },
+  "SB-2BF1D4C7": {
+    "title": "Elks keep it within a point in Regina",
+    "quip": "Mosaic Stadium watermelon helmets demand a nail-biter",
+    "cached_at": "2026-10-24T18:35:23.018358+00:00"
+  },
+  "SB-8E28F2C0": {
+    "title": "Kia Tigers handle Samsung Lions by two or more",
+    "quip": "bat flips travel further in Daegu",
+    "cached_at": "2026-10-24T18:35:23.018358+00:00"
+  },
+  "SB-7DB9CBAD": {
+    "title": "Santos and Bahia stay under three goals",
+    "quip": "Vila Belmiro turns into a chess match",
+    "cached_at": "2026-10-24T18:35:23.018358+00:00"
+  },
+  "SB-EFA3639F": {
+    "title": "Flamengo-Atletico Mineiro cracks four goals tonight",
+    "quip": "the Maracan\u00e3 doesn't do 1-0 afternoons",
+    "cached_at": "2026-10-24T18:35:23.018358+00:00"
+  },
+  "SB-E09E0E99": {
+    "title": "Rizespor and Trabzonspor stay under three",
+    "quip": "Black Sea derby, all elbows and no finishing",
+    "cached_at": "2026-10-24T18:35:23.018358+00:00"
+  },
+  "SB-440394AA": {
+    "title": "Redblacks upset Tiger-Cats in Hamilton",
+    "quip": "Ottawa crashing the party at Tim Hortons Field",
+    "cached_at": "2026-10-24T18:35:23.018358+00:00"
+  },
+  "SB-1CF891EC": {
+    "title": "Vitoria and Atletico Paranaense split the points",
+    "quip": "Barrad\u00e3o settles for a handshake",
+    "cached_at": "2026-10-24T18:35:23.018358+00:00"
+  },
+  "SB-AD439858": {
+    "title": "Botafogo win at Internacional",
+    "quip": "Glorioso spoiling the Beira-Rio singalong",
+    "cached_at": "2026-10-24T18:35:23.018358+00:00"
+  },
+  "SB-1EEF4D16": {
+    "title": "Volkanovski-Evloev goes the distance in a grind",
+    "quip": "Evloev's takedown chain is a lease, not a visit",
+    "cached_at": "2026-10-24T18:35:33.972129+00:00"
+  },
+  "SB-FDB62BAD": {
+    "title": "Rays and Brewers decided by a single run",
+    "quip": "American Family Field bullpen roulette, one spin only",
+    "cached_at": "2026-10-24T18:35:33.972129+00:00"
+  },
+  "SB-E89A35B7": {
+    "title": "Devils handle the Kings in Newark",
+    "quip": "Jack Hughes at home is just rude",
+    "cached_at": "2026-10-24T18:35:33.972129+00:00"
+  },
+  "SB-22F1E2CF": {
+    "title": "Steelers walk into New Orleans and win",
+    "quip": "T.J. Watt treats the Saints line like a turnstile",
+    "cached_at": "2026-10-24T18:35:33.972129+00:00"
+  },
+  "SB-D33381F4": {
+    "title": "Hurricanes take care of the Blues in St. Louis",
+    "quip": "Carolina forechecks like they're late for dinner",
+    "cached_at": "2026-10-24T18:35:33.972129+00:00"
   }
 }
