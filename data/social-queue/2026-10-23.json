@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-24T19:39:57.664613+00:00",
+          "tweet_id": "2114079467702284686",
+          "reply_tweet_id": "2114079469161914775"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "3730625",
+        "page": "https://www.pexels.com/photo/body-of-water-during-sunset-3730625/",
+        "photographer": "Suzy Hazelwood",
+        "license": "Pexels License",
+        "phrases": [
+          "storm clouds over ocean horizon",
+          "palm trees wind rain dusk"
+        ],
+        "tokens": {
+          "input_tokens": 3166,
+          "output_tokens": 36
         }
       }
     }
