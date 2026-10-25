@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-25T05:04:49.841848+00:00",
+          "tweet_id": "2114221621896782105",
+          "reply_tweet_id": "2114221623356317923"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "10846778",
+        "page": "https://www.pexels.com/photo/long-exposure-of-stars-in-a-night-sky-10846778/",
+        "photographer": "Nikita Zadykhin",
+        "license": "Pexels License",
+        "phrases": [
+          "night sky meteor shower desert",
+          "empty coastal highway dusk"
+        ],
+        "tokens": {
+          "input_tokens": 3382,
+          "output_tokens": 33
         }
       }
     },
