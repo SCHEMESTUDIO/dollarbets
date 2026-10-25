@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-10-25T13:00:53.430964+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 6,
+    "polymarket": 4
+  },
+  "board": [
+    {
+      "ticker": "KXBOIPASSENGERS-27JAN22-T5229399",
+      "title": "Boise Airport sets a new passenger record this year",
+      "subtitle": "2026",
+      "yes_sub_title": "Above 5,229,399 total passengers",
+      "no_sub_title": "Above 5,229,399 total passengers",
+      "payout": 1.61,
+      "tier": "green",
+      "quip": "like a mid-major making the Sweet 16 three years in a row",
+      "yes_price": "0.6200",
+      "volume": 18845.45,
+      "category": "Economics",
+      "close_time": "2027-02-19T14:59:00Z",
+      "url": "https://kalshi.com/markets/KXBOIPASSENGERS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 61.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "every arriving flight carrying one more guy who just discovered 'no state income tax'",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "Boise is the hottest airport in America and I will not be taking questions",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "Idaho is cooked",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "I've never been to Boise and somehow I already feel late",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "like a mid-major making the Sweet 16 three years in a row",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "passenger 5,229,400 gets a potato and a firm handshake at baggage claim",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"welcome home\" says the guy who moved from Santa Monica in 2021",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "Californians fled to Idaho so they could vote exactly the same way again",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXPITSNOWM-26DEC-12",
+      "title": "Pittsburgh gets over a foot of snow this December",
+      "subtitle": "In Dec 2026",
+      "yes_sub_title": "Above 12 inches",
+      "no_sub_title": "Above 12 inches",
+      "payout": 2.56,
+      "tier": "green",
+      "quip": "the Parkway East becomes a parking lot shaped like a parkway",
+      "yes_price": "0.3900",
+      "volume": 3569.22,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXPITSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 86.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "Pittsburgh under snow is just Pittsburgh with better lighting",
+          "mode": 7,
+          "score": 6
+        },
+        {
+          "quip": "the Parkway East becomes a parking lot shaped like a parkway",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "I bought snow tires once and moved two months later",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "I love a city that files a foot of snow under weather, not news",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "salt trucks eating good",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "like a Steelers playoff game nobody enjoyed and everybody still describes",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "twelve inches is a dusting here, ask literally anyone from Erie",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"yinz got milk? no? okay well, good luck out there\"",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXMARSVRAIL-50",
+      "title": "A human lands on Mars before California's bullet train",
+      "subtitle": "Before 2050",
+      "yes_sub_title": "Before 2050",
+      "no_sub_title": "Before 2050",
+      "payout": 2.86,
+      "tier": "green",
+      "quip": "Mars gets a functioning station before Bakersfield does",
+      "yes_price": "0.3500",
+      "volume": 16734.5,
+      "category": "Science and Technology",
+      "close_time": "2050-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXMARSVRAIL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 69.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "Mars gets a functioning station before Bakersfield does",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "I will be dead and the Merced segment will still be in procurement",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Matt Damon grows potatoes faster than that thing clears an environmental review",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "Fresno deserves this",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "environmental impact report pending",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "interplanetary travel being easier than California permitting is the funniest thing I know",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "by 2050 they'll have laid fourteen miles of track in Madera County",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "like a toddler beating the DMV line, and the toddler is in a spacesuit",
+          "mode": 6,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xb3058892fc4857ebe5919a320e6acce2a4924f253adc781df17c0e8694993377",
+      "title": "Republicans win PA-13 by 35 to 40 points",
+      "subtitle": "",
+      "payout": 3.67,
+      "tier": "yellow",
+      "quip": "\"we built a real grassroots operation here\" says man down thirty-eight",
+      "yes_price": "0.2725",
+      "volume": 9560.157098,
+      "category": "World",
+      "close_time": "2026-11-04T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/pa-13-house-margin-of-victory-2026",
+      "platform": "polymarket",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "I had to look up where PA-13 is and I regret the trip",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "central Pennsylvania voting like it fell asleep in 1988 and nobody woke it",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "the concession text goes out at 8:04 and ends with 'onward'",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "a formality with a scoreboard",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "like Alabama scheduling Mercer in week one and still covering",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "37 points is a margin, 41 points is a lifestyle",
+          "mode": 5,
+          "score": 3.5
+        },
+        {
+          "quip": "I love a district where the primary is the actual election",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "\"we built a real grassroots operation here\" says man down thirty-eight",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXLGRAM-26ROTY-OAM",
+      "title": "O Amor Nos Encontrou wins Latin Record of the Year",
+      "subtitle": "Record of the Year: 2026",
+      "yes_sub_title": "O Amor Nos Encontrou",
+      "no_sub_title": "O Amor Nos Encontrou",
+      "payout": 4.55,
+      "tier": "yellow",
+      "quip": "Brazil taking this is a Sun Belt school crashing the Frozen Four",
+      "yes_price": "0.2200",
+      "volume": 3674.86,
+      "category": "Entertainment",
+      "close_time": "2027-11-13T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXLGRAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 70.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "adding this to the playlist I pretend is for cooking",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "a song called 'love found us' winning anything is the correct outcome",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "the Oscars have Best Picture, we have four words that make you text an ex",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "Portuguese sweep incoming",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "my Spotify already knows and has been smug about it since August",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "Brazil taking this is a Sun Belt school crashing the Frozen Four",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"and the record of the year goes to\" then four minutes of ads",
+          "mode": 4,
+          "score": 6
+        },
+        {
+          "quip": "22 cents to find out if love wins, cheapest romance on the market",
+          "mode": 5,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0x99f81e0d29a27fd8444847073ae5b72e78a4ecccb8b79d48837dc9a27b5b1368",
+      "title": "Baton Rouge's river bottoms out between 4 and 5 feet",
+      "subtitle": "",
+      "payout": 5.35,
+      "tier": "yellow",
+      "quip": "Louisiana losing its water and somehow staying this humid",
+      "yes_price": "0.1870",
+      "volume": 9416.873604,
+      "category": "Other",
+      "close_time": "2026-12-02T04:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/lowest-mississippi-level-at-baton-rouge-by-november-30",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "I have a favorite river gauge now and my life has narrowed considerably",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "4.37 feet, I can feel it, don't ask me how",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "barges idling while a man in waders reads a stick with numbers on it",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "the river is dehydrated",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "hydrology is criminally under-covered and I am doing my part",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "Louisiana losing its water and somehow staying this humid",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "Huck Finn out here scraping bottom with a pole",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "like tracking a backup punter's net average, except wetter",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27",
+      "title": "The US signs a new Iran nuclear deal this year",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 10.1,
+      "tier": "orange",
+      "quip": "ten dollars for an agreement we have allegedly already signed four times",
+      "yes_price": "0.0990",
+      "volume": 1853733.83,
+      "category": "Politics",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "I've typed this sentence so often my keyboard finishes it for me",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "\"we have a concept of a deal\" is the quote I'm bracing for",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "Witkoff books the return flight before anybody caps a pen",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "ten to one, still no",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "ten dollars for an agreement we have allegedly already signed four times",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "like waiting on a Half-Life sequel, but with centrifuges",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "I'd genuinely love this, mostly so the news cycle finally moves on",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "Begun, the enrichment talks have",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x42dc04e485b5d8ec749326fe564820ee37a1c63425f43d7b0755a016afd5c4cb",
+      "title": "Bitcoin hits $87,500 this month",
+      "subtitle": "",
+      "payout": 11.76,
+      "tier": "orange",
+      "quip": "a 2-seed going out in the first round to somebody from Ohio",
+      "yes_price": "0.0850",
+      "volume": 979224.023042,
+      "category": "Crypto",
+      "close_time": "2026-11-01T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-october-2026",
+      "platform": "polymarket",
+      "score": 83.0,
+      "quip_alts": [
+        {
+          "quip": "my cost basis and I have agreed not to speak this week",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the posters sharpen the word capitulation and wait by the keyboard",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "watching a number fall alongside forty million strangers is my favorite sport",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "laser eyes on dim",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "87,500 is just 100k with the vibes surgically removed",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "a 2-seed going out in the first round to somebody from Ohio",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "the this is fine dog, except the dog owns a Ledger",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "\"I'm buying the dip\" says man who has bought every dip since March",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA lands a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 16.95,
+      "tier": "red",
+      "quip": "First Man, except the man is a slide deck",
+      "yes_price": "0.0590",
+      "volume": 225765.8,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "$16.95 is also roughly what every second of launch delay costs, probably",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "I have rewatched the Apollo documentary more times than NASA has launched anything",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the lander ships with a QR code to the gift shop",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "SLS idling at the curb",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "First Man, except the man is a slide deck",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "Houston squeezing in one parade before the budget hearing",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "I want the flag planting on a Sunday with an actual halftime show",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "like a college team announcing a bowl appearance for 2031",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0x460b0ea6f836d477d12e14fd5c0247e57550a62a548e03ee8083b0e1b658f33d",
+      "title": "XRP dips to 80 cents this month",
+      "subtitle": "",
+      "payout": 66.67,
+      "tier": "purple",
+      "quip": "it's the Nokia of crypto and that's unfair to Nokia",
+      "yes_price": "0.0150",
+      "volume": 9585.889431999998,
+      "category": "Other",
+      "close_time": "2026-11-01T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/what-price-will-xrp-hit-in-october-2026",
+      "platform": "polymarket",
+      "score": 60.0,
+      "quip_alts": [
+        {
+          "quip": "my cousin has held XRP since 2017 and has never once gone quiet",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "sixty-six dollars riding on a coin losing forty cents, poetry really",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "the army deploys to the replies with lawsuit screenshots from 2020",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "banks still not calling",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "sorry to everyone's uncle",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "I respect an XRP holder the way I respect a barnacle",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "it's the Nokia of crypto and that's unfair to Nokia",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "like a Jets fan buying playoff tickets in August, every single August",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    }
+  ]
+}
