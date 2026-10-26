@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-26T21:46:13.058989+00:00",
+          "tweet_id": "2114836016863260802",
+          "reply_tweet_id": "2114836018872328341"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "19472855",
+        "page": "https://www.pexels.com/photo/view-of-bright-sun-through-the-window-of-an-airplane-19472855/",
+        "photographer": "Traveler stories photos  \u65c5\u4eba\u6545\u4e8b\u76f8\u7247\u96c6",
+        "license": "Pexels License",
+        "phrases": [
+          "rain on office window dusk",
+          "empty subway platform night"
+        ],
+        "tokens": {
+          "input_tokens": 3390,
+          "output_tokens": 28
         }
       }
     }
