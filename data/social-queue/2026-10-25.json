@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-26T05:08:24.882230+00:00",
+          "tweet_id": "2114584911550321079",
+          "reply_tweet_id": "2114584913093759110"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "18016848",
+        "page": "https://www.pexels.com/photo/train-at-station-18016848/",
+        "photographer": "Yi\u011fit  KARAAL\u0130O\u011eLU",
+        "license": "Pexels License",
+        "phrases": [
+          "desert canyon dusk",
+          "empty railway platform night"
+        ],
+        "tokens": {
+          "input_tokens": 3855,
+          "output_tokens": 28
         }
       }
     },
