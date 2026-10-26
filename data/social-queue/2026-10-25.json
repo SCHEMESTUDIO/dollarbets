@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-26T19:33:51.400806+00:00",
+          "tweet_id": "2114802707185692900",
+          "reply_tweet_id": "2114802708876067298"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "29808579",
+        "page": "https://www.pexels.com/photo/serene-winter-landscape-in-kroderen-norway-29808579/",
+        "photographer": "Barnabas Davoti",
+        "license": "Pexels License",
+        "phrases": [
+          "snowy highway bridge dusk",
+          "streetlight snowfall empty road night"
+        ],
+        "tokens": {
+          "input_tokens": 4331,
+          "output_tokens": 36
         }
       }
     },
