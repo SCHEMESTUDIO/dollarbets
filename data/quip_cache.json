@@ -1,64 +1,4 @@
 {
-  "SB-6C2FEDD0": {
-    "title": "Jets steal one in Dallas tonight",
-    "quip": "Hellebuyck has seen worse than Oettinger",
-    "cached_at": "2026-10-22T19:43:51.482474+00:00"
-  },
-  "SB-8E072E4B": {
-    "title": "Bruins bury Predators by four or more",
-    "quip": "Pastrnak doesn't do polite in the third",
-    "cached_at": "2026-10-22T19:43:51.482474+00:00"
-  },
-  "SB-5C1D88FB": {
-    "title": "Cavs blow out Sixers by 18+",
-    "quip": "Mobley and Allen turning Philly's paint into a crime scene",
-    "cached_at": "2026-10-22T19:43:51.482474+00:00"
-  },
-  "SB-D5D1ED93": {
-    "title": "Cruzeiro and Remo trade four-plus goals tonight",
-    "quip": "Mineir\u00e3o crowd wants fireworks, not a 0-0 chess match",
-    "cached_at": "2026-10-22T19:44:07.312969+00:00"
-  },
-  "SB-16793C8F": {
-    "title": "K\u00e4rp\u00e4t handle KalPa by two or more",
-    "quip": "Oulu's ice runs colder than a Lapland January",
-    "cached_at": "2026-10-22T19:44:07.312969+00:00"
-  },
-  "SB-4AC6264D": {
-    "title": "SaiPa roll into Vaasa and beat Sport by two",
-    "quip": "Lappeenranta's finest treating Sport like a practice squad",
-    "cached_at": "2026-10-22T19:44:07.312969+00:00"
-  },
-  "SB-3FEC52CA": {
-    "title": "Perth Glory upset Brisbane Roar on the road",
-    "quip": "longest commute in world football ends with three points",
-    "cached_at": "2026-10-22T19:44:07.312969+00:00"
-  },
-  "SB-F7BABABA": {
-    "title": "Zimbabwe stun Afghanistan in the ODI",
-    "quip": "Sikandar Raza alone can ruin Rashid Khan's afternoon",
-    "cached_at": "2026-10-22T19:44:07.312969+00:00"
-  },
-  "SB-EB979D5D": {
-    "title": "Kocaelispor take down Alanyaspor on the road",
-    "quip": "newly promoted side crashing the Mediterranean beach party",
-    "cached_at": "2026-10-22T19:44:07.312969+00:00"
-  },
-  "SB-2A10B637": {
-    "title": "Commanders handle the Eagles at home tonight",
-    "quip": "Jayden Daniels keeps writing the NFC East script",
-    "cached_at": "2026-10-22T19:44:15.372528+00:00"
-  },
-  "SB-4CC3A862": {
-    "title": "Pelicans keep it close in Utah tonight",
-    "quip": "two lottery hopefuls trading buckets in Salt Lake",
-    "cached_at": "2026-10-22T19:44:15.372528+00:00"
-  },
-  "SB-2D70C80A": {
-    "title": "Jets stay within a goal of Dallas",
-    "quip": "Hellebuyck turns the Stars into a Jake Oettinger duel",
-    "cached_at": "2026-10-22T19:44:15.372528+00:00"
-  },
   "SB-2309C5A2": {
     "title": "Wild skate past Flames by two in Calgary",
     "quip": "Kirill Kaprizov does the heavy lifting again",
@@ -1008,5 +948,30 @@
     "title": "Bruins hang with Carolina in Raleigh",
     "quip": "Swayman keeps the Canes storm to a drizzle",
     "cached_at": "2026-10-26T14:54:54.879531+00:00"
+  },
+  "SB-1C890E41": {
+    "title": "Red Wings knock off Oilers in Edmonton",
+    "quip": "McDavid can't backcheck for an entire roster",
+    "cached_at": "2026-10-26T20:53:26.518791+00:00"
+  },
+  "SB-5EC090D3": {
+    "title": "Blues beat Canadiens by two or more",
+    "quip": "the Enterprise Center organ gets a full workout",
+    "cached_at": "2026-10-26T20:53:26.518791+00:00"
+  },
+  "SB-0B5692B7": {
+    "title": "Samsung Lions take down the Kia Tigers tonight",
+    "quip": "Daegu's blue wave swallows the Tigers whole",
+    "cached_at": "2026-10-26T20:53:42.146009+00:00"
+  },
+  "SB-88BE6960": {
+    "title": "Timr\u00e5 IK beat V\u00e4xj\u00f6 Lakers by two or more",
+    "quip": "Nordic hockey's answer to a Viking funeral",
+    "cached_at": "2026-10-26T20:53:42.146009+00:00"
+  },
+  "SB-B101F7D1": {
+    "title": "Oilers handle the Red Wings tonight",
+    "quip": "McDavid still skates like the tape's on fast-forward",
+    "cached_at": "2026-10-26T20:53:49.236143+00:00"
   }
 }
