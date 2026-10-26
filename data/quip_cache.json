@@ -1,144 +1,4 @@
 {
-  "SB-B692F443": {
-    "title": "Stars skate past Jets by two tonight",
-    "quip": "Robertson and Hintz don't do nail-biters",
-    "cached_at": "2026-10-22T00:30:03.053343+00:00"
-  },
-  "SB-4EA7E7BC": {
-    "title": "Bruins handle Predators by two at the Garden",
-    "quip": "Swayman turns Nashville into a shooting drill",
-    "cached_at": "2026-10-22T00:30:03.053343+00:00"
-  },
-  "SB-1EFB380B": {
-    "title": "Cardinals upset Cowboys in Dallas",
-    "quip": "Jerry's star gets stepped on by a bird",
-    "cached_at": "2026-10-22T00:30:03.053343+00:00"
-  },
-  "SB-14C013A8": {
-    "title": "Devils-Ducks track meet clears ten goals",
-    "quip": "Hughes brothers playing pond hockey in Newark",
-    "cached_at": "2026-10-22T00:30:03.053343+00:00"
-  },
-  "SB-7029C3D5": {
-    "title": "Everton stun Arsenal at the Emirates",
-    "quip": "Dyche ball, 1-0, grey skies, pure spite",
-    "cached_at": "2026-10-22T00:30:03.053343+00:00"
-  },
-  "SB-48273F71": {
-    "title": "Wizards humiliate Bucks by 25+",
-    "quip": "Giannis gets outscored by the entire DMV",
-    "cached_at": "2026-10-22T00:30:03.053343+00:00"
-  },
-  "SB-164B49CF": {
-    "title": "Aston Villa stun Barcelona at the Camp Nou",
-    "quip": "Emery's been drawing this one on napkins since 2010",
-    "cached_at": "2026-10-22T00:30:10.736160+00:00"
-  },
-  "SB-17897575": {
-    "title": "Leafs stay within a goal of the Rangers tonight",
-    "quip": "Shesterkin can only carry it so far",
-    "cached_at": "2026-10-22T00:30:26.186533+00:00"
-  },
-  "SB-43442512": {
-    "title": "Lakers handle the Warriors tonight",
-    "quip": "Luka and LeBron versus a 37-year-old Curry",
-    "cached_at": "2026-10-22T00:30:26.186533+00:00"
-  },
-  "SB-9CAFCD64": {
-    "title": "Kraken keep it close against the Mammoth tonight",
-    "quip": "Climate Pledge stays loud into the third",
-    "cached_at": "2026-10-22T00:30:26.186533+00:00"
-  },
-  "SB-E21AADF7": {
-    "title": "Bruins beat the Predators in Boston",
-    "quip": "Swayman turning the Garden into a vault again",
-    "cached_at": "2026-10-22T00:30:26.186533+00:00"
-  },
-  "SB-608B5885": {
-    "title": "Bears beat the Patriots at Soldier Field",
-    "quip": "Caleb Williams has the better offensive line today",
-    "cached_at": "2026-10-22T00:30:26.186533+00:00"
-  },
-  "SB-4551674C": {
-    "title": "Patriots take down the Bears in Chicago",
-    "quip": "Maye in the Soldier Field wind, somehow fine",
-    "cached_at": "2026-10-22T13:26:16.989128+00:00"
-  },
-  "SB-9524999E": {
-    "title": "Grizzlies win at Golden State tonight",
-    "quip": "Ja in the building Steph built",
-    "cached_at": "2026-10-22T13:26:16.989128+00:00"
-  },
-  "SB-97603965": {
-    "title": "Nuggets upset the Thunder in OKC",
-    "quip": "Jokic doesn't care what seed you are",
-    "cached_at": "2026-10-22T13:26:16.989128+00:00"
-  },
-  "SB-810CE1B7": {
-    "title": "Clippers beat the Lakers at Crypto",
-    "quip": "Kawhi enjoys a quiet room full of courtside celebrities",
-    "cached_at": "2026-10-22T13:26:16.989128+00:00"
-  },
-  "SB-F1F7CE2B": {
-    "title": "Predators blow out the Bruins by three",
-    "quip": "a quiet night at the Garden, Boston hates that",
-    "cached_at": "2026-10-22T13:26:16.989128+00:00"
-  },
-  "SB-C39B0239": {
-    "title": "Cavs bury the Sixers by 15+",
-    "quip": "Mitchell and Mobley treating Philly like a scrimmage",
-    "cached_at": "2026-10-22T13:26:16.989128+00:00"
-  },
-  "SB-856963CE": {
-    "title": "Ducks hammer the Devils by four",
-    "quip": "Hughes brothers watching ducklings waddle over them",
-    "cached_at": "2026-10-22T13:26:16.989128+00:00"
-  },
-  "SB-8462F33D": {
-    "title": "Panthers crush the Penguins by six",
-    "quip": "Crosby deserves better than this Tkachuk fever dream",
-    "cached_at": "2026-10-22T13:26:16.989128+00:00"
-  },
-  "SB-F1D46AEC": {
-    "title": "Timr\u00e5 take down F\u00e4rjestad tonight",
-    "quip": "the little fishing town that keeps eating giants",
-    "cached_at": "2026-10-22T13:26:32.463523+00:00"
-  },
-  "SB-F10778F6": {
-    "title": "Djurg\u00e5rden stun Skellefte\u00e5 on the road",
-    "quip": "Stockholm kids crashing the party up north",
-    "cached_at": "2026-10-22T13:26:32.463523+00:00"
-  },
-  "SB-31E5367A": {
-    "title": "R\u00f6gle beat Fr\u00f6lunda by two or more",
-    "quip": "\u00c4ngelholm doesn't do polite one-goal wins",
-    "cached_at": "2026-10-22T13:26:32.463523+00:00"
-  },
-  "SB-1E61C189": {
-    "title": "Tappara handle Pelicans by two-plus tonight",
-    "quip": "Tampere treating Lahti like a scheduled scrimmage",
-    "cached_at": "2026-10-22T13:26:32.463523+00:00"
-  },
-  "SB-1BDB252E": {
-    "title": "Vazquez shocks Albert Gonzalez in the ring",
-    "quip": "every Rocky movie started with worse paperwork",
-    "cached_at": "2026-10-22T13:26:32.463523+00:00"
-  },
-  "SB-881ABB11": {
-    "title": "Tarik Zaina upsets Frank Martin",
-    "quip": "Martin's unbeaten record meets its Buster Douglas moment",
-    "cached_at": "2026-10-22T13:26:32.463523+00:00"
-  },
-  "SB-CAC4CA1C": {
-    "title": "Lions handle the Packers at Ford Field",
-    "quip": "Goff plays like a different quarterback indoors",
-    "cached_at": "2026-10-22T13:26:44.897376+00:00"
-  },
-  "SB-AF349BA2": {
-    "title": "Warriors take care of the Grizzlies at Chase",
-    "quip": "Curry still treats Memphis like a home game",
-    "cached_at": "2026-10-22T13:26:44.897376+00:00"
-  },
   "SB-6C2FEDD0": {
     "title": "Jets steal one in Dallas tonight",
     "quip": "Hellebuyck has seen worse than Oettinger",
@@ -1043,5 +903,110 @@
     "title": "Seahawks upset the Chiefs in Seattle",
     "quip": "Lumen noise still ruins Mahomes' cadence",
     "cached_at": "2026-10-25T23:48:26.648567+00:00"
+  },
+  "SB-F8B4DF99": {
+    "title": "Brewers take down the Rays by two or more",
+    "quip": "Milwaukee's rotation treats Tropicana like a bullpen session",
+    "cached_at": "2026-10-26T14:54:25.564437+00:00"
+  },
+  "SB-AE9ECD26": {
+    "title": "Eagles handle the Cowboys at the Linc",
+    "quip": "tush push, green grass, Dak sideline grimace",
+    "cached_at": "2026-10-26T14:54:25.564437+00:00"
+  },
+  "SB-4C454718": {
+    "title": "Panthers upset the Packers at Lambeau",
+    "quip": "Bryce Young keeps quietly ruining Wisconsin weekends",
+    "cached_at": "2026-10-26T14:54:25.564437+00:00"
+  },
+  "SB-14E03EBA": {
+    "title": "Warriors steal one in Denver tonight",
+    "quip": "Steph in the altitude, Jokic rolling his eyes",
+    "cached_at": "2026-10-26T14:54:25.564437+00:00"
+  },
+  "SB-B6F2E6DB": {
+    "title": "Mavericks knock off the Heat in Miami",
+    "quip": "Spoelstra timeouts versus whatever Dallas is doing lately",
+    "cached_at": "2026-10-26T14:54:25.564437+00:00"
+  },
+  "SB-A1E3F6A0": {
+    "title": "Suns stun the Thunder in OKC",
+    "quip": "Booker needs one of those 45-point nights",
+    "cached_at": "2026-10-26T14:54:25.564437+00:00"
+  },
+  "SB-D2F905F5": {
+    "title": "Celtics bury the Bulls by 33 or more",
+    "quip": "Boston hitting 25 threes and everyone goes home early",
+    "cached_at": "2026-10-26T14:54:25.564437+00:00"
+  },
+  "SB-305B7BB4": {
+    "title": "Rangers blow out the Kings by four",
+    "quip": "Shesterkin shutout, empty netter, Garden singing goodbye",
+    "cached_at": "2026-10-26T14:54:25.564437+00:00"
+  },
+  "SB-E551852D": {
+    "title": "Flames crush the Maple Leafs by five",
+    "quip": "Toronto collapse fan fiction, Calgary edition, somehow canon",
+    "cached_at": "2026-10-26T14:54:25.564437+00:00"
+  },
+  "SB-B1C38CFF": {
+    "title": "Red Wings humiliate the Oilers by five",
+    "quip": "McDavid stares at the scoreboard like a betrayed king",
+    "cached_at": "2026-10-26T14:54:25.564437+00:00"
+  },
+  "SB-6863B24B": {
+    "title": "Bulls steal one in Boston tonight",
+    "quip": "Coby White heat check vs the Garden banners",
+    "cached_at": "2026-10-26T14:54:33.376832+00:00"
+  },
+  "SB-8021E8F9": {
+    "title": "Red Bulls stun Nashville on the road",
+    "quip": "high press meets Hany Mukhtar, chaos wins",
+    "cached_at": "2026-10-26T14:54:33.376832+00:00"
+  },
+  "SB-F13C0B3C": {
+    "title": "JYP handle Tappara by two tonight",
+    "quip": "Jyv\u00e4skyl\u00e4's ice is colder than Tappara's finishing",
+    "cached_at": "2026-10-26T14:54:44.912116+00:00"
+  },
+  "SB-0E099BDD": {
+    "title": "Zimbabwe upset Afghanistan in the T20",
+    "quip": "Rashid Khan's googly meets Sikandar Raza's spite",
+    "cached_at": "2026-10-26T14:54:44.912116+00:00"
+  },
+  "SB-8317D360": {
+    "title": "Basaksehir stun Besiktas at the Vodafone",
+    "quip": "the Black Eagles keep leaving the nest unlocked",
+    "cached_at": "2026-10-26T14:54:44.912116+00:00"
+  },
+  "SB-8C533C03": {
+    "title": "South Africa and Australia grind out a draw",
+    "quip": "five days, zero result, Bazball nowhere in sight",
+    "cached_at": "2026-10-26T14:54:44.912116+00:00"
+  },
+  "SB-A6E2BECE": {
+    "title": "Senators keep it close in Vegas",
+    "quip": "Brady Tkachuk doesn't let anything get lopsided",
+    "cached_at": "2026-10-26T14:54:54.879531+00:00"
+  },
+  "SB-B708AA03": {
+    "title": "Rockets handle the Hawks in Houston",
+    "quip": "Sengun cooking at the Toyota Center again",
+    "cached_at": "2026-10-26T14:54:54.879531+00:00"
+  },
+  "SB-1D1537BC": {
+    "title": "Cavs take care of the Wolves",
+    "quip": "Mitchell at home, the math checks out",
+    "cached_at": "2026-10-26T14:54:54.879531+00:00"
+  },
+  "SB-C1928B17": {
+    "title": "Pacers upset the Bucks in Milwaukee",
+    "quip": "Haliburton still owns this building",
+    "cached_at": "2026-10-26T14:54:54.879531+00:00"
+  },
+  "SB-E6BCE010": {
+    "title": "Bruins hang with Carolina in Raleigh",
+    "quip": "Swayman keeps the Canes storm to a drizzle",
+    "cached_at": "2026-10-26T14:54:54.879531+00:00"
   }
 }

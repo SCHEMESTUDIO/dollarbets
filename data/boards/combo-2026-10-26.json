@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-10-26T14:55:02.420101+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "NFL": 1,
+    "Multi": 9
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-69D5ED95",
+      "title": "Seattle Seahawks wins + Buffalo Bills wins",
+      "payout": 2.35,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.42",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48493-4204557-6794515&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Chicago Bears @ Seattle Seahawks + Baltimore Ravens @ Buffalo Bills",
+      "market_type": "2-leg parlay",
+      "american_odds": 135,
+      "implied_probability": 0.425,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Bears @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48493-4204557-6794515&type=Single",
+          "commence_time": "2026-11-03T01:20:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Buffalo Bills",
+          "pick": "Buffalo Bills wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48492-4204550-6794501&type=Single",
+          "commence_time": "2026-11-01T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-01T18:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-4F83935C",
+      "title": "Cleveland Cavaliers wins + Buffalo Bills wins",
+      "payout": 2.35,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.42",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20031521-1569439704-2326629482&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Minnesota Timberwolves @ Cleveland Cavaliers + Baltimore Ravens @ Buffalo Bills",
+      "market_type": "2-leg parlay",
+      "american_odds": 135,
+      "implied_probability": 0.425,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Minnesota Timberwolves @ Cleveland Cavaliers",
+          "pick": "Cleveland Cavaliers wins",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20031521-1569439704-2326629482&type=Single",
+          "commence_time": "2026-10-26T23:10:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Buffalo Bills",
+          "pick": "Buffalo Bills wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48492-4204550-6794501&type=Single",
+          "commence_time": "2026-11-01T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-26T23:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-990B2B82",
+      "title": "Calgary Flames +1.5 + Buffalo Bills wins",
+      "payout": 2.35,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.42",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20009058-1566766908-2319286213&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Toronto Maple Leafs @ Calgary Flames + Baltimore Ravens @ Buffalo Bills",
+      "market_type": "2-leg parlay",
+      "american_odds": 135,
+      "implied_probability": 0.425,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Toronto Maple Leafs @ Calgary Flames",
+          "pick": "Calgary Flames +1.5",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009058-1566766908-2319286213&type=Single",
+          "commence_time": "2026-10-27T00:40:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Buffalo Bills",
+          "pick": "Buffalo Bills wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48492-4204550-6794501&type=Single",
+          "commence_time": "2026-11-01T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-27T00:40:00Z"
+    },
+    {
+      "ticker": "PARLAY-F58F74F1",
+      "title": "Edmonton Oilers wins + Buffalo Bills wins",
+      "payout": 2.35,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.42",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20009059-1566767062-2319286716&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Detroit Red Wings @ Edmonton Oilers + Baltimore Ravens @ Buffalo Bills",
+      "market_type": "2-leg parlay",
+      "american_odds": 135,
+      "implied_probability": 0.425,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Detroit Red Wings @ Edmonton Oilers",
+          "pick": "Edmonton Oilers wins",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009059-1566767062-2319286716&type=Single",
+          "commence_time": "2026-10-27T01:40:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Buffalo Bills",
+          "pick": "Buffalo Bills wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48492-4204550-6794501&type=Single",
+          "commence_time": "2026-11-01T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-27T01:40:00Z"
+    },
+    {
+      "ticker": "PARLAY-DE038B6B",
+      "title": "Under 3.5 + Buffalo Bills wins",
+      "payout": 2.35,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.42",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7896501-207001182-801049717&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "D.C. United @ Toronto FC + Baltimore Ravens @ Buffalo Bills",
+      "market_type": "2-leg parlay",
+      "american_odds": 135,
+      "implied_probability": 0.425,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "D.C. United @ Toronto FC",
+          "pick": "Under 3.5",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7896501-207001182-801049717&type=Single",
+          "commence_time": "2026-10-28T23:30:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Buffalo Bills",
+          "pick": "Buffalo Bills wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48492-4204550-6794501&type=Single",
+          "commence_time": "2026-11-01T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-28T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-EDCE899F",
+      "title": "Over 2.5 + Buffalo Bills wins",
+      "payout": 2.35,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.42",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7896504-207003176-801057222&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Real Salt Lake @ Austin FC + Baltimore Ravens @ Buffalo Bills",
+      "market_type": "2-leg parlay",
+      "american_odds": 135,
+      "implied_probability": 0.425,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Real Salt Lake @ Austin FC",
+          "pick": "Over 2.5",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7896504-207003176-801057222&type=Single",
+          "commence_time": "2026-10-29T00:30:00Z"
+        },
+        {
+          "matchup": "Baltimore Ravens @ Buffalo Bills",
+          "pick": "Buffalo Bills wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48492-4204550-6794501&type=Single",
+          "commence_time": "2026-11-01T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-29T00:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-33045E8C",
+      "title": "Seattle Seahawks wins + Cleveland Cavaliers wins",
+      "payout": 2.37,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.42",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48493-4204557-6794515&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Chicago Bears @ Seattle Seahawks + Minnesota Timberwolves @ Cleveland Cavaliers",
+      "market_type": "2-leg parlay",
+      "american_odds": 137,
+      "implied_probability": 0.421,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Bears @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48493-4204557-6794515&type=Single",
+          "commence_time": "2026-11-03T01:20:00Z"
+        },
+        {
+          "matchup": "Minnesota Timberwolves @ Cleveland Cavaliers",
+          "pick": "Cleveland Cavaliers wins",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20031521-1569439704-2326629482&type=Single",
+          "commence_time": "2026-10-26T23:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-26T23:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-5E89CA8B",
+      "title": "Seattle Seahawks wins + Calgary Flames +1.5",
+      "payout": 2.37,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.42",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48493-4204557-6794515&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Chicago Bears @ Seattle Seahawks + Toronto Maple Leafs @ Calgary Flames",
+      "market_type": "2-leg parlay",
+      "american_odds": 137,
+      "implied_probability": 0.421,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Bears @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48493-4204557-6794515&type=Single",
+          "commence_time": "2026-11-03T01:20:00Z"
+        },
+        {
+          "matchup": "Toronto Maple Leafs @ Calgary Flames",
+          "pick": "Calgary Flames +1.5",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009058-1566766908-2319286213&type=Single",
+          "commence_time": "2026-10-27T00:40:00Z"
+        }
+      ],
+      "close_time": "2026-10-27T00:40:00Z"
+    },
+    {
+      "ticker": "PARLAY-3BAB092B",
+      "title": "Seattle Seahawks wins + Edmonton Oilers wins",
+      "payout": 2.37,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.42",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48493-4204557-6794515&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Chicago Bears @ Seattle Seahawks + Detroit Red Wings @ Edmonton Oilers",
+      "market_type": "2-leg parlay",
+      "american_odds": 137,
+      "implied_probability": 0.421,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Bears @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48493-4204557-6794515&type=Single",
+          "commence_time": "2026-11-03T01:20:00Z"
+        },
+        {
+          "matchup": "Detroit Red Wings @ Edmonton Oilers",
+          "pick": "Edmonton Oilers wins",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009059-1566767062-2319286716&type=Single",
+          "commence_time": "2026-10-27T01:40:00Z"
+        }
+      ],
+      "close_time": "2026-10-27T01:40:00Z"
+    },
+    {
+      "ticker": "PARLAY-7DD5F3A9",
+      "title": "Seattle Seahawks wins + Under 3.5",
+      "payout": 2.37,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.42",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48493-4204557-6794515&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Chicago Bears @ Seattle Seahawks + D.C. United @ Toronto FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 137,
+      "implied_probability": 0.421,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Bears @ Seattle Seahawks",
+          "pick": "Seattle Seahawks wins",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48493-4204557-6794515&type=Single",
+          "commence_time": "2026-11-03T01:20:00Z"
+        },
+        {
+          "matchup": "D.C. United @ Toronto FC",
+          "pick": "Under 3.5",
+          "odds": -185,
+          "implied_prob": "65%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7896501-207001182-801049717&type=Single",
+          "commence_time": "2026-10-28T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-28T23:30:00Z"
+    }
+  ]
+}

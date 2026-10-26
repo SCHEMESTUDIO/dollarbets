@@ -1,0 +1,597 @@
+{
+  "generated_at": "2026-10-26T14:54:07.021263+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket": 5
+  },
+  "board": [
+    {
+      "ticker": "KXBOIPASSENGERS-27JAN22-T5229399",
+      "title": "Boise Airport sets a passenger record this year",
+      "subtitle": "2026",
+      "yes_sub_title": "Above 5,229,399 total passengers",
+      "no_sub_title": "Above 5,229,399 total passengers",
+      "payout": 1.61,
+      "tier": "green",
+      "quip": "the Boise TSA line now starts outside at the rental car shuttle",
+      "yes_price": "0.6200",
+      "volume": 18853.3,
+      "category": "Economics",
+      "close_time": "2027-02-19T14:59:00Z",
+      "url": "https://kalshi.com/markets/KXBOIPASSENGERS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 53.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "the Boise TSA line now starts outside at the rental car shuttle",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i have never once thought about Boise and now i'm emotional about it",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "5,229,400 passengers and 5,229,399 of them just sold a condo in Sacramento",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Idaho has fallen",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "every guy who left California to own chickens, landing at 6am",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "like a mid-major hanging a banner nobody outside the county will read",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "i LOVE when a regional airport finally gets its moment",
+          "mode": 3,
+          "score": 4.5
+        },
+        {
+          "quip": "\"welcome to Boise. please remain seated until the mountains stop.\"",
+          "mode": 4,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "0xa73af3849cb731ec3e16c656be32df9189629d7e41fef33dbef8ccc8e3478ada",
+      "title": "Jahmyr Gibbs is the NFL's top scoring back this season",
+      "subtitle": "",
+      "payout": 2.04,
+      "tier": "green",
+      "quip": "condolences to everyone who spent a first rounder on a Cowboys back",
+      "yes_price": "0.4900",
+      "volume": 9652.416302000001,
+      "category": "Sports",
+      "close_time": "2027-01-27T04:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/fantasy-football-2026-27-rb-points-leader-20260807010548393",
+      "platform": "polymarket",
+      "score": 33.0,
+      "quip_alts": [
+        {
+          "quip": "i took him third overall and i will not be taking questions",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "Dan Campbell eats the kneecaps of whoever finishes second",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "like owning the fastest car in a parking garage with one ramp",
+          "mode": 6,
+          "score": 6
+        },
+        {
+          "quip": "fantasy football's final boss",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "Gibbs averages nine yards a carry on turf, i made that up and i'm right",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "Sonic the Hedgehog if Sonic had a Ford truck sponsorship",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "a man moving that fast with working knees is genuinely a miracle",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "condolences to everyone who spent a first rounder on a Cowboys back",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xd98f32140b26d49b215f12b76a340ac6a3b43a27cfd3e50e4847a1b096f21fff",
+      "title": "Trevor Giertuga wins the Thunder Bay mayor race",
+      "subtitle": "",
+      "payout": 2.06,
+      "tier": "green",
+      "quip": "like a conference tournament semifinal airing at 11am on channel 740",
+      "yes_price": "0.4850",
+      "volume": 9252.779689999998,
+      "category": "World",
+      "close_time": "2026-10-27T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/thunder-bay-mayoral-election-winner",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "here i am at 1am learning the issues facing Thunder Bay",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "victory party at the Tim Hortons, two tables reserved, cake at nine",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "like a conference tournament semifinal airing at 11am on channel 740",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "big night in Ontario",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "\"folks, i will fix the potholes before the lake freezes over.\"",
+          "mode": 4,
+          "score": 6
+        },
+        {
+          "quip": "a two dollar payout in a town with more moose than voters",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "i am sincerely rooting for a man named Giertuga and i can't explain why",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "biggest Thunder Bay news since they rerouted the Greyhound",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0x4c2d2eb7345d1766e6040d8f7acaee9ad5649f281b3ce6ad6cba4a4b95e1f1f9",
+      "title": "Democrats sweep Texas governor and senate",
+      "subtitle": "",
+      "payout": 3.64,
+      "tier": "yellow",
+      "quip": "like Rutgers winning the Big Ten in two sports in one spring",
+      "yes_price": "0.2750",
+      "volume": 9886.425351999998,
+      "category": "World",
+      "close_time": "2026-11-04T04:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/texas-senate-and-governor-combo-20260807213940452",
+      "platform": "polymarket",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "Austin annexes the Capitol and calls it a design district",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "i'll believe it when i see Beto holding both things over his head",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the Red Wedding, except the guests are yard signs",
+          "mode": 8,
+          "score": 6.5
+        },
+        {
+          "quip": "Texas, you feeling okay?",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "like Rutgers winning the Big Ten in two sports in one spring",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Houston turnout finally beating Houston traffic",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "$3.64 for something Texas hasn't done since gas was a dollar",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "i would rewatch that concession speech twelve consecutive times",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x87065cd84205cda7b8b5ba7713e13814a94737d43eaa130588707e3e7e83fd3c",
+      "title": "Tonight's game ends on some other scoreline",
+      "subtitle": "",
+      "payout": 4.44,
+      "tier": "yellow",
+      "quip": "4.44 payout, 4-4 final, i refuse to believe that's a coincidence",
+      "yes_price": "0.2250",
+      "volume": 9917.959666,
+      "category": "Other",
+      "close_time": "2026-10-31T15:00:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/epl-mac-bri-2026-10-31-exact-score",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "6-5 and both keepers get waived before the bus leaves",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i do not know what sport this is and i am fully in",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "anarchy, scoreline edition",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "4.44 payout, 4-4 final, i refuse to believe that's a coincidence",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "like picking none of the above and the ballot agreeing with you",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "i need a 7-3 in a sport not built to produce a 7-3",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "the 186-184 Pistons game but with worse cardio and more falling down",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"and that's nine. i've stopped writing them down, Jim.\"",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x3ba4fc66a7eed228ad7891342cb891471e82ececb157ec500520abe3e27cf4ff",
+      "title": "Jaafar Jackson is the most Googled actor this year",
+      "subtitle": "",
+      "payout": 6.04,
+      "tier": "yellow",
+      "quip": "every uncle in America typing \"is that the real son\" into Bing",
+      "yes_price": "0.1655",
+      "volume": 9600.3811,
+      "category": "Other",
+      "close_time": "2027-04-01T03:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/1-searched-actor-on-google-2026-20260718202053341",
+      "platform": "polymarket",
+      "score": 48.0,
+      "quip_alts": [
+        {
+          "quip": "i googled him twice writing this so i'm part of the problem",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "every uncle in America typing \"is that the real son\" into Bing",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "nepotism, except the kid can actually do the spin",
+          "mode": 8,
+          "score": 6.5
+        },
+        {
+          "quip": "the hat still works",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "six dollars says your mom brings this up at Thanksgiving unprompted",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "a Jackson back on top and i'm weirdly choked up about it",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "sorry to every guy out here with a whole Marvel trilogy",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "like a backup quarterback going viral off one preseason throw",
+          "mode": 6,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXMODELHIGH-27-1550-CHAT",
+      "title": "ChatGPT hits 1550 on Text Arena first",
+      "subtitle": "Before 2027",
+      "yes_sub_title": "ChatGPT",
+      "no_sub_title": "ChatGPT",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "1550 was also my SAT so we're basically coworkers now",
+      "yes_price": "0.0700",
+      "volume": 41677.4,
+      "category": "Science and Technology",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 117.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i'm still going to use it to rewrite a text to a girl",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Altman posts one lowercase word and three countries change their budgets",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "this is Alabama signing the number one class for the ninth straight February",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "incumbent nerd stays undefeated",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "1550 was also my SAT so we're basically coworkers now",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "we have robots doing varsity debate and i'm emotionally invested",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "Gemini watching the leaderboard like Salieri at the opera",
+          "mode": 8,
+          "score": 5.5
+        },
+        {
+          "quip": "computer. write my resignation. make it exactly 1550 words.",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXSEASNOWM-26DEC-10",
+      "title": "Seattle gets over 10 inches of snow this December",
+      "subtitle": "In Dec 2026",
+      "yes_sub_title": "Above 10 inches",
+      "no_sub_title": "Above 10 inches",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "Seattle drivers have earned whatever happens on that hill",
+      "yes_price": "0.0700",
+      "volume": 4069.87,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T07:59:00Z",
+      "url": "https://kalshi.com/markets/KXSEASNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 99.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "whole city abandons its cars on a 3% grade and walks home",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i watched Seattle handle one single inch and honestly i'm scared",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "Seattle drivers have earned whatever happens on that hill",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "ten inches, zero plows",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "10 inches, 14 dollars, and roughly four snowplows for an entire county",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "Frasier doing a whole bottle episode about the Queen Anne hill",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "i want to see a Cybertruck attempt that incline, for science",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "like Atlanta's ice day but with better coffee and more public crying",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA puts a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 30.3,
+      "tier": "red",
+      "quip": "thirty dollar payout, thirty billion in overruns, beautiful symmetry",
+      "yes_price": "0.0330",
+      "volume": 227166.75,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 129.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the flag gets there first, the astronaut is in Houston doing paperwork",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "they've been promising me this since i had a bedroom poster of it",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "thirty dollar payout, thirty billion in overruns, beautiful symmetry",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Artemis, call me back",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "you know the part in Interstellar where the textbook says it never happened",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "\"we are go for launch. pending one more review. and one after that.\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "put a guy up there and i will cry at my desk, openly",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "like a stadium renovation that keeps pushing the home opener back a year",
+          "mode": 6,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26SIMON-T5",
+      "title": "Hurricane Simon becomes a Category 5",
+      "subtitle": "Hurricane Simon",
+      "yes_sub_title": "Category 5 or above",
+      "no_sub_title": "Category 5 or above",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "Simon from Alvin and the Chipmunks has finally snapped",
+      "yes_price": "0.0100",
+      "volume": 17616.5,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 86.0,
+      "_specificity": 5,
+      "quip_alts": [
+        {
+          "quip": "nothing named Simon has ever been this strong, including my cousin Simon",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "Simon says evacuate",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "the local weather guy gets an entire year of content in one weekend",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "a hundred dollars and 180 mph, two numbers i cannot process together",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "the wind speeds on this thing are genuinely incredible",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "\"it's a big one. maybe the biggest. people are telling me that.\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "like a 16 seed hitting absolutely everything in the second half",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Simon from Alvin and the Chipmunks has finally snapped",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    }
+  ]
+}
