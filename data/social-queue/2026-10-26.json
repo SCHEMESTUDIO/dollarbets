@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-27T18:58:13.954130+00:00",
+          "tweet_id": "2115156129948799434",
+          "reply_tweet_id": "2115156131546820939"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "13706564",
+        "page": "https://www.pexels.com/photo/full-moon-in-the-night-sky-13706564/",
+        "photographer": "Tom Fisk",
+        "license": "Pexels License",
+        "phrases": [
+          "moon horizon night sky",
+          "empty launch pad dusk"
+        ],
+        "tokens": {
+          "input_tokens": 4103,
+          "output_tokens": 30
         }
       }
     },
