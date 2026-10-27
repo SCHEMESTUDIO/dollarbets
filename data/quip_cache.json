@@ -1,89 +1,4 @@
 {
-  "SB-992E761E": {
-    "title": "Falcons take down the 49ers at home",
-    "quip": "Bijan Robinson runs the Niners' linebackers into the turf",
-    "cached_at": "2026-10-23T19:46:11.179356+00:00"
-  },
-  "SB-CDFD508F": {
-    "title": "Wyoming knocks off Air Force in Laramie",
-    "quip": "altitude, wind, and a triple option that stalls at War Memorial",
-    "cached_at": "2026-10-23T19:46:11.179356+00:00"
-  },
-  "SB-5477DFCF": {
-    "title": "Mavs upset the Pacers in Indiana",
-    "quip": "Cooper Flagg ruins a perfectly nice evening in Indy",
-    "cached_at": "2026-10-23T19:46:11.179356+00:00"
-  },
-  "SB-41F02343": {
-    "title": "Blackhawks beat the Canadiens by two or more",
-    "quip": "Bedard treating Montreal's blue line like a cone drill",
-    "cached_at": "2026-10-23T19:46:11.179356+00:00"
-  },
-  "SB-DD1A8791": {
-    "title": "Celtics blow out the Knicks by 20+",
-    "quip": "Garden crowd filing out before Tatum's last three drops",
-    "cached_at": "2026-10-23T19:46:11.179356+00:00"
-  },
-  "SB-DF199158": {
-    "title": "Brewers bury the Rays by nine runs",
-    "quip": "Milwaukee turning a bullpen game into a batting cage",
-    "cached_at": "2026-10-23T19:46:11.179356+00:00"
-  },
-  "SB-321A05F6": {
-    "title": "Avalanche demolish the Lightning by six goals",
-    "quip": "MacKinnon in full Thanos mode, Vasilevskiy pulled by the second",
-    "cached_at": "2026-10-23T19:46:11.179356+00:00"
-  },
-  "SB-45706C29": {
-    "title": "Pitt stuns Miami in Coral Gables",
-    "quip": "the Panthers crash the party like a hurricane warning",
-    "cached_at": "2026-10-23T19:46:17.286774+00:00"
-  },
-  "SB-B8A62F56": {
-    "title": "JYP skate past \u00c4ss\u00e4t by two tonight",
-    "quip": "Jyv\u00e4skyl\u00e4 ice runs cold on Pori visitors",
-    "cached_at": "2026-10-23T19:46:27.855379+00:00"
-  },
-  "SB-D95C5186": {
-    "title": "Jokerit bury KooKoo by a pair",
-    "quip": "the Kouvola crowd heads for the sauna early",
-    "cached_at": "2026-10-23T19:46:27.855379+00:00"
-  },
-  "SB-3093BC05": {
-    "title": "TPS handle Lukko by two or more",
-    "quip": "Turku remembers what Rauma did last spring",
-    "cached_at": "2026-10-23T19:46:27.855379+00:00"
-  },
-  "SB-E157BF83": {
-    "title": "Emma Dolan upsets Shannon Ryan",
-    "quip": "Irish featherweight grudge match with real Dublin needle",
-    "cached_at": "2026-10-23T19:46:27.855379+00:00"
-  },
-  "SB-4ACFC4A5": {
-    "title": "Bj\u00f6rkl\u00f6ven stun Skellefte\u00e5 at home",
-    "quip": "Ume\u00e5's second tier dreams, Skellefte\u00e5's long bus ride",
-    "cached_at": "2026-10-23T19:46:27.855379+00:00"
-  },
-  "SB-EFD96A4F": {
-    "title": "Spurs handle the Rockets tonight",
-    "quip": "Wembanyama erases Houston's rim like a chalkboard",
-    "cached_at": "2026-10-23T19:46:35.438087+00:00"
-  },
-  "SB-3B21A201": {
-    "title": "Kings keep it close in New Jersey",
-    "quip": "Hughes scores, Kuemper keeps it to one",
-    "cached_at": "2026-10-23T19:46:35.438087+00:00"
-  },
-  "SB-61611E0A": {
-    "title": "Canadiens knock off the Blackhawks",
-    "quip": "Suzuki in Chicago, Bedard still waiting on help",
-    "cached_at": "2026-10-23T19:46:35.438087+00:00"
-  },
-  "SB-08FF1124": {
-    "title": "Leafs stay within a goal in Edmonton",
-    "quip": "McDavid wins it, Matthews makes him sweat",
-    "cached_at": "2026-10-23T19:46:35.438087+00:00"
-  },
   "SB-064683B7": {
     "title": "Bruins skate past Sharks by two tonight",
     "quip": "the Garden doesn't do close games against San Jose",
@@ -993,5 +908,55 @@
     "title": "Knicks take care of the Pistons at the Garden",
     "quip": "Brunson does Brunson things on 33rd Street",
     "cached_at": "2026-10-27T13:57:18.258988+00:00"
+  },
+  "SB-91C36A1F": {
+    "title": "Brewers beat Rays by two or more tonight",
+    "quip": "Milwaukee's rotation treats the Trop like a bullpen session",
+    "cached_at": "2026-10-27T20:25:25.906040+00:00"
+  },
+  "SB-8BE21C22": {
+    "title": "Canucks take down the Ducks in Anaheim",
+    "quip": "Quinn Hughes skating circles around a rebuild",
+    "cached_at": "2026-10-27T20:25:25.906040+00:00"
+  },
+  "SB-2E3F2BD7": {
+    "title": "Cardinals steal one in Seattle tonight",
+    "quip": "Kyler Murray plays better when nobody's watching",
+    "cached_at": "2026-10-27T20:25:31.832910+00:00"
+  },
+  "SB-18A3173D": {
+    "title": "BayStars steal one in Fukuoka tonight",
+    "quip": "Yokohama plays spoiler in the Hawks' own ballpark",
+    "cached_at": "2026-10-27T20:25:41.955780+00:00"
+  },
+  "SB-D49B776F": {
+    "title": "HPK stun K\u00e4rp\u00e4t in Oulu",
+    "quip": "H\u00e4meenlinna's finest crash the Raahe party",
+    "cached_at": "2026-10-27T20:25:41.955780+00:00"
+  },
+  "SB-BEC77B30": {
+    "title": "West Indies take the Test in Bangladesh",
+    "quip": "Caribbean pace on a Mirpur turner, somehow",
+    "cached_at": "2026-10-27T20:25:41.955780+00:00"
+  },
+  "SB-F3AA1AC8": {
+    "title": "F\u00e4rjestad beat Bryn\u00e4s by two or more",
+    "quip": "Karlstad doesn't do one-goal games this week",
+    "cached_at": "2026-10-27T20:25:41.955780+00:00"
+  },
+  "SB-FC6AE272": {
+    "title": "South Africa and Australia grind out a draw",
+    "quip": "five days, no winner, Boucher nods approvingly",
+    "cached_at": "2026-10-27T20:25:41.955780+00:00"
+  },
+  "SB-7151777B": {
+    "title": "Celtics handle the Nets at the Garden tonight",
+    "quip": "Brooklyn's rebuild meets Tatum's fourth quarter",
+    "cached_at": "2026-10-27T20:25:48.327637+00:00"
+  },
+  "SB-4A86BA52": {
+    "title": "Golden Knights take care of the Senators in Vegas",
+    "quip": "Eichel at home, Sens on a long road trip",
+    "cached_at": "2026-10-27T20:25:48.327637+00:00"
   }
 }
