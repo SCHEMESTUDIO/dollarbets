@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-27T05:26:04.823410+00:00",
+          "tweet_id": "2114951745025478834",
+          "reply_tweet_id": "2114951747185574237"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "openverse",
+        "id": "784b6e18-f6c8-45a3-8ebd-814c7cc0579c",
+        "page": "https://commons.wikimedia.org/w/index.php?curid=4024595",
+        "photographer": "Husond",
+        "license": "CC BY-SA 3.0",
+        "phrases": [
+          "empty theater marquee night",
+          "living room television glow dusk"
+        ],
+        "tokens": {
+          "input_tokens": 7827,
+          "output_tokens": 39
         }
       }
     },
