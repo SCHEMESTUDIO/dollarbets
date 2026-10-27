@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-27T21:26:43.287758+00:00",
+          "tweet_id": "2115193498391523640",
+          "reply_tweet_id": "2115193500065059150"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "831899",
+        "page": "https://www.pexels.com/photo/landscape-photo-of-sea-during-golden-hour-831899/",
+        "photographer": "Josh Sorenson",
+        "license": "Pexels License",
+        "phrases": [
+          "storm clouds over ocean horizon",
+          "palm trees bending wind rain"
+        ],
+        "tokens": {
+          "input_tokens": 3397,
+          "output_tokens": 35
         }
       }
     }
