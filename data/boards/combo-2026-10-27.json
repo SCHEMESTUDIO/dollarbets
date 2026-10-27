@@ -1,0 +1,437 @@
+{
+  "generated_at": "2026-10-27T01:11:13.544408+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "NCAAF": 1,
+    "Multi": 7,
+    "NHL": 2
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-AFA6716F",
+      "title": "Jacksonville State Gamecocks wins + Iowa Hawkeyes wins",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:47812-4009704-6432475&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Jacksonville State Gamecocks @ New Mexico State Aggies + Wisconsin Badgers @ Iowa Hawkeyes",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Jacksonville State Gamecocks @ New Mexico State Aggies",
+          "pick": "Jacksonville State Gamecocks wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47812-4009704-6432475&type=Single",
+          "commence_time": "2026-10-29T00:00:00Z"
+        },
+        {
+          "matchup": "Wisconsin Badgers @ Iowa Hawkeyes",
+          "pick": "Iowa Hawkeyes wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47980-4074036-6551668&type=Single",
+          "commence_time": "2026-10-31T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-29T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-81D51FB2",
+      "title": "Detroit Red Wings +1.5 + Iowa Hawkeyes wins",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20009059-1566767066-2319286724&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Detroit Red Wings @ Edmonton Oilers + Wisconsin Badgers @ Iowa Hawkeyes",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Detroit Red Wings @ Edmonton Oilers",
+          "pick": "Detroit Red Wings +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009059-1566767066-2319286724&type=Single",
+          "commence_time": "2026-10-27T01:40:00Z"
+        },
+        {
+          "matchup": "Wisconsin Badgers @ Iowa Hawkeyes",
+          "pick": "Iowa Hawkeyes wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47980-4074036-6551668&type=Single",
+          "commence_time": "2026-10-31T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-27T01:40:00Z"
+    },
+    {
+      "ticker": "PARLAY-02D08FAD",
+      "title": "Boston Bruins +1.5 + Iowa Hawkeyes wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20009067-1566768291-2319290595&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Boston Bruins @ Carolina Hurricanes + Wisconsin Badgers @ Iowa Hawkeyes",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.379,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Boston Bruins @ Carolina Hurricanes",
+          "pick": "Boston Bruins +1.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009067-1566768291-2319290595&type=Single",
+          "commence_time": "2026-10-28T00:00:00Z"
+        },
+        {
+          "matchup": "Wisconsin Badgers @ Iowa Hawkeyes",
+          "pick": "Iowa Hawkeyes wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47980-4074036-6551668&type=Single",
+          "commence_time": "2026-10-31T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-28T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-96774CA1",
+      "title": "Vegas Golden Knights wins + Iowa Hawkeyes wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20009069-1566768603-2319291591&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Ottawa Senators @ Vegas Golden Knights + Wisconsin Badgers @ Iowa Hawkeyes",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.379,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Ottawa Senators @ Vegas Golden Knights",
+          "pick": "Vegas Golden Knights wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009069-1566768603-2319291591&type=Single",
+          "commence_time": "2026-10-28T02:00:00Z"
+        },
+        {
+          "matchup": "Wisconsin Badgers @ Iowa Hawkeyes",
+          "pick": "Iowa Hawkeyes wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47980-4074036-6551668&type=Single",
+          "commence_time": "2026-10-31T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-28T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-8EDF4A67",
+      "title": "Jacksonville State Gamecocks wins + Detroit Red Wings +1.5",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:47812-4009704-6432475&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Jacksonville State Gamecocks @ New Mexico State Aggies + Detroit Red Wings @ Edmonton Oilers",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Jacksonville State Gamecocks @ New Mexico State Aggies",
+          "pick": "Jacksonville State Gamecocks wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47812-4009704-6432475&type=Single",
+          "commence_time": "2026-10-29T00:00:00Z"
+        },
+        {
+          "matchup": "Detroit Red Wings @ Edmonton Oilers",
+          "pick": "Detroit Red Wings +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009059-1566767066-2319286724&type=Single",
+          "commence_time": "2026-10-27T01:40:00Z"
+        }
+      ],
+      "close_time": "2026-10-27T01:40:00Z"
+    },
+    {
+      "ticker": "PARLAY-E493F24A",
+      "title": "Boston Bruins +1.5 + Jacksonville State Gamecocks wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20009067-1566768291-2319290595&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Boston Bruins @ Carolina Hurricanes + Jacksonville State Gamecocks @ New Mexico State Aggies",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Boston Bruins @ Carolina Hurricanes",
+          "pick": "Boston Bruins +1.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009067-1566768291-2319290595&type=Single",
+          "commence_time": "2026-10-28T00:00:00Z"
+        },
+        {
+          "matchup": "Jacksonville State Gamecocks @ New Mexico State Aggies",
+          "pick": "Jacksonville State Gamecocks wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47812-4009704-6432475&type=Single",
+          "commence_time": "2026-10-29T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-28T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-A13858C7",
+      "title": "Boston Bruins +1.5 + Detroit Red Wings +1.5",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20009067-1566768291-2319290595&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "NHL",
+      "matchup": "Boston Bruins @ Carolina Hurricanes + Detroit Red Wings @ Edmonton Oilers",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Boston Bruins @ Carolina Hurricanes",
+          "pick": "Boston Bruins +1.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009067-1566768291-2319290595&type=Single",
+          "commence_time": "2026-10-28T00:00:00Z"
+        },
+        {
+          "matchup": "Detroit Red Wings @ Edmonton Oilers",
+          "pick": "Detroit Red Wings +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009059-1566767066-2319286724&type=Single",
+          "commence_time": "2026-10-27T01:40:00Z"
+        }
+      ],
+      "close_time": "2026-10-27T01:40:00Z"
+    },
+    {
+      "ticker": "PARLAY-A1BD43B6",
+      "title": "Vegas Golden Knights wins + Jacksonville State Gamecocks wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20009069-1566768603-2319291591&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Ottawa Senators @ Vegas Golden Knights + Jacksonville State Gamecocks @ New Mexico State Aggies",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Ottawa Senators @ Vegas Golden Knights",
+          "pick": "Vegas Golden Knights wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009069-1566768603-2319291591&type=Single",
+          "commence_time": "2026-10-28T02:00:00Z"
+        },
+        {
+          "matchup": "Jacksonville State Gamecocks @ New Mexico State Aggies",
+          "pick": "Jacksonville State Gamecocks wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47812-4009704-6432475&type=Single",
+          "commence_time": "2026-10-29T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-28T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-1DAB69C3",
+      "title": "Vegas Golden Knights wins + Detroit Red Wings +1.5",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20009069-1566768603-2319291591&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "NHL",
+      "matchup": "Ottawa Senators @ Vegas Golden Knights + Detroit Red Wings @ Edmonton Oilers",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Ottawa Senators @ Vegas Golden Knights",
+          "pick": "Vegas Golden Knights wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009069-1566768603-2319291591&type=Single",
+          "commence_time": "2026-10-28T02:00:00Z"
+        },
+        {
+          "matchup": "Detroit Red Wings @ Edmonton Oilers",
+          "pick": "Detroit Red Wings +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009059-1566767066-2319286724&type=Single",
+          "commence_time": "2026-10-27T01:40:00Z"
+        }
+      ],
+      "close_time": "2026-10-27T01:40:00Z"
+    },
+    {
+      "ticker": "PARLAY-6035A83D",
+      "title": "Dallas Cowboys wins + Iowa Hawkeyes wins",
+      "payout": 2.68,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:43685-4085722-6573889&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Dallas Cowboys @ Philadelphia Eagles + Wisconsin Badgers @ Iowa Hawkeyes",
+      "market_type": "2-leg parlay",
+      "american_odds": 168,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Dallas Cowboys @ Philadelphia Eagles",
+          "pick": "Dallas Cowboys wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:43685-4085722-6573889&type=Single",
+          "commence_time": "2026-10-27T00:16:21Z"
+        },
+        {
+          "matchup": "Wisconsin Badgers @ Iowa Hawkeyes",
+          "pick": "Iowa Hawkeyes wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47980-4074036-6551668&type=Single",
+          "commence_time": "2026-10-31T16:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-27T00:16:21Z"
+    }
+  ]
+}

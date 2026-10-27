@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-10-27T01:10:22.303963+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 6,
+    "polymarket": 4
+  },
+  "board": [
+    {
+      "ticker": "KXDEELRIP-40-RIPP",
+      "title": "Rippling beats Deel to the IPO",
+      "subtitle": "Before 2040",
+      "yes_sub_title": "Rippling",
+      "no_sub_title": "Rippling",
+      "payout": 2.33,
+      "tier": "green",
+      "quip": "$2.33, exactly what the mole was getting per stolen document",
+      "yes_price": "0.4300",
+      "volume": 4398.93,
+      "category": "Financials",
+      "close_time": "2040-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXDEELRIP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 69.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "the S-1 risk factors section is just a deposition about a guy in a bathroom",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "I have used payroll software my whole life and could not name one feature",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "payroll beef goes public",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "$2.33, exactly what the mole was getting per stolen document",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "like the Jets watching the Bills play in January, again",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "somewhere a Deel employee is archiving a Slack channel very calmly",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "corporate espionage scandal to ringing the bell. what a country",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "the HR software Burr and Hamilton, except nobody rows across a river",
+          "mode": 8,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXDETSNOWM-26DEC-12",
+      "title": "Detroit gets over a foot of snow this December",
+      "subtitle": "In Dec 2026",
+      "yes_sub_title": "Above 12 inches",
+      "no_sub_title": "Above 12 inches",
+      "payout": 2.56,
+      "tier": "green",
+      "quip": "the Ice Bowl, except everyone is at Meijer buying milk and bread",
+      "yes_price": "0.3900",
+      "volume": 701.05,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXDETSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 51.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "I bought a shovel in 2019, used it once, still feel like a homeowner",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "Ford Field unaffected, which somehow makes it worse",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "salt truck season begins",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "12 inches of snow hiding 14 potholes, all technically the same pothole",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the Ice Bowl, except everyone is at Meijer buying milk and bread",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Michigan is the only place a foot of snow makes things look cleaner",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "\"nah it's a dry snow\" says man who cannot feel three fingers",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "like a Bills tailgate without the table-jumping, so just cold",
+          "mode": 6,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x910aabbfae28b3569929c31fb5461f4db13f7ddd427bdee1e696d313125838e3",
+      "title": "Puma Shen wins the next Taipei mayor race",
+      "subtitle": "",
+      "payout": 2.82,
+      "tier": "green",
+      "quip": "like a mid-major coach walking into a blue blood job and winning immediately",
+      "yes_price": "0.3540",
+      "volume": 950657.873029,
+      "category": "World",
+      "close_time": "2026-11-29T04:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "a man named Puma winning anything is good for the sport of politics",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "I have decided, on name alone, that this guy is my dude",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Beijing issues a statement, then a second longer statement nobody asked for",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "Puma over Reebok, confirmed",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "like a mid-major coach walking into a blue blood job and winning immediately",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "sanctioned by a superpower, elected by a city. that's a Bond cold open",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "Taipei deciding the next decade while we argue about a bike lane",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "he will be the 14th Taipei mayor and the first one I can name",
+          "mode": 5,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xf5487c7bcb8c9279c176ed5f2d011d5b446961dccb7da2bcfb726da901dd8710",
+      "title": "Ilhan Omar gets federally charged this year",
+      "subtitle": "",
+      "payout": 3.39,
+      "tier": "yellow",
+      "quip": "$3.39 is also what the courthouse vending machine wants for a water",
+      "yes_price": "0.2950",
+      "volume": 94720.30125399999,
+      "category": "Other",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/ilhan-omar-federally-charged-byptptpt",
+      "platform": "polymarket",
+      "score": 55.0,
+      "quip_alts": [
+        {
+          "quip": "my timeline has already tried and sentenced her roughly nine times",
+          "mode": 2,
+          "score": 5.5
+        },
+        {
+          "quip": "cable news clears the week, guests already in the chairs, ties pre-knotted",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "the indictment industrial complex",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "\"people are looking into it. very serious people. we'll see what happens\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "$3.39 is also what the courthouse vending machine wants for a water",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the political version of a bench clearing brawl where nobody throws hands",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Minnesota continues to be the most exhausting state in the union",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "everybody's a prosecutor until the actual paperwork shows up",
+          "mode": 8,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x79bd64792c2089ce7de36dc9cec0b546f544f20b50fe17e41e094978fe19a16a",
+      "title": "Cliff Booth lands a Best Production Design nomination",
+      "subtitle": "",
+      "payout": 4.65,
+      "tier": "yellow",
+      "quip": "production design is the long snapper of the Academy Awards",
+      "yes_price": "0.2150",
+      "volume": 9788.920124,
+      "category": "Other",
+      "close_time": "2027-03-15T03:59:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.com/event/oscars-2027-best-production-design-nominations-20261013180153422",
+      "platform": "polymarket",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "I would watch Brad Pitt fix a TV antenna for three straight hours",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Fincher shooting a Tarantino script like it's evidence photography",
+          "mode": 8,
+          "score": 6.5
+        },
+        {
+          "quip": "a set decorator somewhere just won an eBay war over 1977 ashtrays",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "wallpaper gets its flowers",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "the one category where actual craftsmen beat actual celebrities",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "production design is the long snapper of the Academy Awards",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "$4.65 says eighty percent of this movie happens in one wood-paneled den",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "the award they hand out while you're microwaving something",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "STARSHIPMARS-29DEC31",
+      "title": "Starship puts humans on Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Not Before 2030",
+      "payout": 6.67,
+      "tier": "yellow",
+      "quip": "the Donner Party, but the wagons are stainless steel and uninsured",
+      "yes_price": "0.1500",
+      "volume": 54993.81,
+      "category": "Companies",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 99.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "I can't get a package to arrive on the day the app promised",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "\"targeting 2028, realistically 2031, spiritually never\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "first onboard argument happens forty minutes after launch, over the music",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "a seven month layover",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "$6.67 is what they'll charge for water at the Mars gift shop",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "like guaranteeing a parade while sitting at 0-5 in November",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "humans on another planet though. I'd skip a Sunday for that",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "the Donner Party, but the wagons are stainless steel and uninsured",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNHLRECORDWORST-27-SEA",
+      "title": "Kraken finish dead last in the NHL next season",
+      "subtitle": "2026-27 season",
+      "yes_sub_title": "Seattle Kraken",
+      "no_sub_title": "Seattle Kraken",
+      "payout": 11.11,
+      "tier": "orange",
+      "quip": "the Mariners with sticks, same building energy, same July collapse",
+      "yes_price": "0.0900",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2027-05-31T14:00:00Z",
+      "url": "https://kalshi.com/markets/KXNHLRECORDWORST?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 74.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "I bought the hat because the logo rules and now I'm in this",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "the tank gets so obvious the Zamboni starts driving backwards",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "release the draft lottery",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "rain, coffee, and the first overall pick. Seattle gets the full package",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "the Mariners with sticks, same building energy, same July collapse",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "$11.11 payout and an eleven game skid in March. write that down",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "honestly losing in that arena with those churros is a fine life",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "release the Kraken. it immediately sinks",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26DEC",
+      "title": "The US signs a new Iran nuclear deal this year",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Dec 1, 2026",
+      "no_sub_title": "Before Dec 1, 2026",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "I have read this exact headline so often it registers as weather",
+      "yes_price": "0.0700",
+      "volume": 316592.74,
+      "category": "Politics",
+      "close_time": "2026-12-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "I have read this exact headline so often it registers as weather",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "commemorative pens get ordered before the delegation even lands",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "\"tremendous deal. maybe the best deal. we'll see what happens\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "the Geneva group project",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "like a trade that's been pending a physical since 2015",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "$14.29, or one club sandwich at the hotel where this happens",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "world peace arriving by fax machine would genuinely rule",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "a Swiss conference room being dusted for the ninth consecutive year",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA puts boots on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 30.3,
+      "tier": "red",
+      "quip": "a hundred billion dollars so a guy says wow into a bad mic",
+      "yes_price": "0.0330",
+      "volume": 227806.47,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "I'm calling in sick that day and I don't care who reads this",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "flag goes up, then forty minutes of a man describing one rock",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "moon: still there",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "a hundred billion dollars so a guy says wow into a bad mic",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "a franchise running the same 1969 highlight tape for sixty years",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"Houston, the vibes up here are immaculate\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "sincerely, I would get a little emotional. don't talk to me",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "we pulled this off once with less computer than my microwave",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x79d2035aecdb29df5cca8d6914da05c15faea6283770f4ba9223dd5fb231c688",
+      "title": "Moonshot ends October as the second-best agent lab",
+      "subtitle": "",
+      "payout": 90.91,
+      "tier": "purple",
+      "quip": "Buzz Aldrin would like a word about what second place does to a man",
+      "yes_price": "0.0110",
+      "volume": 9922.818741,
+      "category": "Science and Technology",
+      "close_time": "2026-10-31T16:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/second-best-ai-agent-lab-end-of-october-20260812152901709",
+      "platform": "polymarket",
+      "score": 53.0,
+      "quip_alts": [
+        {
+          "quip": "the Kimi fan accounts come online within the hour, posting benchmarks like box scores",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "I've been letting Kimi plan trips I have no intention of taking",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "silver medal, loud anthem",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "Buzz Aldrin would like a word about what second place does to a man",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "like a Big Ten team crashing the playoff while the pollsters refuse to move",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "$90.91 for a company your coworker will explain to you in April",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "a lab called Moonshot landing in second is genuinely good writing",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "every lab in San Francisco suddenly discovering Mandarin",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    }
+  ]
+}
