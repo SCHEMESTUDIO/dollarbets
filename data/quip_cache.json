@@ -1,54 +1,4 @@
 {
-  "SB-718A694E": {
-    "title": "Brewers beat Rays by two or more tonight",
-    "quip": "American Family Field hums when Milwaukee gets the early lead",
-    "cached_at": "2026-10-24T12:26:25.448325+00:00"
-  },
-  "SB-D773BE38": {
-    "title": "Coventry City knock off Fulham",
-    "quip": "the Sky Blues love a cup-tie ambush",
-    "cached_at": "2026-10-24T12:26:25.448325+00:00"
-  },
-  "SB-71D0B817": {
-    "title": "Spurs win at Stamford Bridge tonight",
-    "quip": "Chelsea's back four treats offside traps like performance art",
-    "cached_at": "2026-10-24T12:26:25.448325+00:00"
-  },
-  "SB-C5633E7D": {
-    "title": "Warriors steal one in Phoenix tonight",
-    "quip": "Curry in the desert, still allergic to being written off",
-    "cached_at": "2026-10-24T12:26:25.448325+00:00"
-  },
-  "SB-3E52A3A3": {
-    "title": "Ducks humiliate Flyers by five goals",
-    "quip": "Philly fans booing their own Santa all over again",
-    "cached_at": "2026-10-24T12:26:25.448325+00:00"
-  },
-  "SB-0D8035C9": {
-    "title": "Sixers and Bucks grind out a rock fight under 195",
-    "quip": "two teams playing like the shot clock owes them money",
-    "cached_at": "2026-10-24T12:26:25.448325+00:00"
-  },
-  "SB-C4458941": {
-    "title": "Malm\u00f6 Redhawks beat Timr\u00e5 by two or more tonight",
-    "quip": "Swedish hockey's answer to a polite eviction notice",
-    "cached_at": "2026-10-24T12:26:37.378047+00:00"
-  },
-  "SB-EAAE8F22": {
-    "title": "Aliev goes the distance, loses narrow to Dawson",
-    "quip": "Dawson grinds, Aliev survives \u2014 chain wrestling as lullaby",
-    "cached_at": "2026-10-24T12:26:46.954179+00:00"
-  },
-  "SB-4EED99A9": {
-    "title": "Miami (OH) beat Central Michigan on the road",
-    "quip": "the RedHawks remain the MAC's most boring correct answer",
-    "cached_at": "2026-10-24T12:26:46.954179+00:00"
-  },
-  "SB-B5D401AD": {
-    "title": "Heat handle the Hornets in Charlotte",
-    "quip": "Spoelstra's conditioning program versus LaMelo's shrug",
-    "cached_at": "2026-10-24T12:26:46.954179+00:00"
-  },
   "SB-5E87863A": {
     "title": "Leafs steal one in Edmonton tonight",
     "quip": "McDavid scores four, Toronto wins anyway, hockey is broken",
@@ -973,5 +923,70 @@
     "title": "Devils stay close to the Avalanche in Denver",
     "quip": "Jack Hughes doesn't get blown out at altitude",
     "cached_at": "2026-10-28T01:02:57.454636+00:00"
+  },
+  "SB-3936303A": {
+    "title": "Leafs skate past Kraken by two tonight",
+    "quip": "Matthews doesn't fly to Seattle for a one-goal grind",
+    "cached_at": "2026-10-28T14:50:34.251253+00:00"
+  },
+  "SB-1FFCE326": {
+    "title": "Brewers bury the Rays by six",
+    "quip": "Yelich turning the Trop into batting practice",
+    "cached_at": "2026-10-28T14:50:34.251253+00:00"
+  },
+  "SB-212206B5": {
+    "title": "Hawks humiliate the Heat by 21",
+    "quip": "Trae Young treating Spoelstra's defense like a street game",
+    "cached_at": "2026-10-28T14:50:34.251253+00:00"
+  },
+  "SB-78242C39": {
+    "title": "Flyers blow out the Capitals by four",
+    "quip": "Ovechkin's chase night turns into a Tortorella clinic",
+    "cached_at": "2026-10-28T14:50:34.251253+00:00"
+  },
+  "SB-7300B820": {
+    "title": "Flames torch Oilers by five in Edmonton",
+    "quip": "Battle of Alberta ends with McDavid staring at the ceiling",
+    "cached_at": "2026-10-28T14:50:34.251253+00:00"
+  },
+  "SB-C24ABE0B": {
+    "title": "Nogami drops Tanaka at home tonight",
+    "quip": "two Shos enter, one Sho leaves",
+    "cached_at": "2026-10-28T14:50:52.319513+00:00"
+  },
+  "SB-7110B38C": {
+    "title": "Oman upset UAE in the Gulf derby",
+    "quip": "the neighbors' spare room has a trophy case now",
+    "cached_at": "2026-10-28T14:50:52.319513+00:00"
+  },
+  "SB-CCBDB1B7": {
+    "title": "Kiekko-Espoo beat TPS by two or more",
+    "quip": "Espoo treating Turku like a weekend road trip",
+    "cached_at": "2026-10-28T14:50:52.319513+00:00"
+  },
+  "SB-4A6A67AD": {
+    "title": "HIFK blow out Ilves by two-plus tonight",
+    "quip": "Helsinki's loudest barn gets what it came for",
+    "cached_at": "2026-10-28T14:50:52.319513+00:00"
+  },
+  "SB-BA74B9A6": {
+    "title": "Lukko beat Jukurit by two or more",
+    "quip": "Rauma arrives in Mikkeli with bad intentions",
+    "cached_at": "2026-10-28T14:50:52.319513+00:00"
+  },
+  "SB-7E29BE12": {
+    "title": "Kraken stay within a goal of the Leafs tonight",
+    "quip": "Seattle's tight at home, Matthews or no Matthews",
+    "cached_at": "2026-10-28T14:51:02.161287+00:00"
+  },
+  "SB-50529308": {
+    "title": "Lakers take the hallway series from the Clippers",
+    "quip": "Luka and LeBron commute to the away locker room",
+    "cached_at": "2026-10-28T14:51:02.161287+00:00"
+  },
+  "SB-37B864A1": {
+    "title": "Wolves handle the Warriors in Minnesota",
+    "quip": "Ant's dunk reel, Steph's travel schedule, Target Center noise",
+    "cached_at": "2026-10-28T14:51:02.161287+00:00"
   }
 }
