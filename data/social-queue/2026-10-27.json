@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-28T21:50:16.181720+00:00",
+          "tweet_id": "2115561812380844386",
+          "reply_tweet_id": "2115561814113104134"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "27248113",
+        "page": "https://www.pexels.com/photo/the-moon-and-the-sun-are-seen-in-the-sky-27248113/",
+        "photographer": "Ayush Mann",
+        "license": "Pexels License",
+        "phrases": [
+          "moon horizon night sky",
+          "empty podium stadium dusk"
+        ],
+        "tokens": {
+          "input_tokens": 3635,
+          "output_tokens": 31
         }
       }
     }
