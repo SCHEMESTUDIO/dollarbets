@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-10-28T01:03:05.633581+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 7,
+    "NHL": 3
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-A1BD43B6",
+      "title": "Jacksonville State Gamecocks wins + Vegas Golden Knights wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:47812-4009704-6432475&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Jacksonville State Gamecocks @ New Mexico State Aggies + Ottawa Senators @ Vegas Golden Knights",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Jacksonville State Gamecocks @ New Mexico State Aggies",
+          "pick": "Jacksonville State Gamecocks wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47812-4009704-6432475&type=Single",
+          "commence_time": "2026-10-29T00:00:00Z"
+        },
+        {
+          "matchup": "Ottawa Senators @ Vegas Golden Knights",
+          "pick": "Vegas Golden Knights wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009069-1566768603-2319291591&type=Single",
+          "commence_time": "2026-10-28T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-28T02:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-63E3DBD3",
+      "title": "Jacksonville State Gamecocks wins + New Jersey Devils +1.5",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:47812-4009704-6432475&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Jacksonville State Gamecocks @ New Mexico State Aggies + New Jersey Devils @ Colorado Avalanche",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Jacksonville State Gamecocks @ New Mexico State Aggies",
+          "pick": "Jacksonville State Gamecocks wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47812-4009704-6432475&type=Single",
+          "commence_time": "2026-10-29T00:00:00Z"
+        },
+        {
+          "matchup": "New Jersey Devils @ Colorado Avalanche",
+          "pick": "New Jersey Devils +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009074-1566769413-2319294174&type=Single",
+          "commence_time": "2026-10-29T01:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-29T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-43D8E75E",
+      "title": "Vegas Golden Knights wins + New Jersey Devils +1.5",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20009069-1566768603-2319291591&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "NHL",
+      "matchup": "Ottawa Senators @ Vegas Golden Knights + New Jersey Devils @ Colorado Avalanche",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Ottawa Senators @ Vegas Golden Knights",
+          "pick": "Vegas Golden Knights wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009069-1566768603-2319291591&type=Single",
+          "commence_time": "2026-10-28T02:10:00Z"
+        },
+        {
+          "matchup": "New Jersey Devils @ Colorado Avalanche",
+          "pick": "New Jersey Devils +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009074-1566769413-2319294174&type=Single",
+          "commence_time": "2026-10-29T01:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-28T02:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-31FD2148",
+      "title": "Over 5.5 + Jacksonville State Gamecocks wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20009651-1572329465-2334468277&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "New Jersey Devils @ Dallas Stars + Jacksonville State Gamecocks @ New Mexico State Aggies",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New Jersey Devils @ Dallas Stars",
+          "pick": "Over 5.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009651-1572329465-2334468277&type=Single",
+          "commence_time": "2026-10-28T00:08:00Z"
+        },
+        {
+          "matchup": "Jacksonville State Gamecocks @ New Mexico State Aggies",
+          "pick": "Jacksonville State Gamecocks wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47812-4009704-6432475&type=Single",
+          "commence_time": "2026-10-29T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-28T00:08:00Z"
+    },
+    {
+      "ticker": "PARLAY-2D848148",
+      "title": "Over 5.5 + Vegas Golden Knights wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20009651-1572329465-2334468277&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "NHL",
+      "matchup": "New Jersey Devils @ Dallas Stars + Ottawa Senators @ Vegas Golden Knights",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New Jersey Devils @ Dallas Stars",
+          "pick": "Over 5.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009651-1572329465-2334468277&type=Single",
+          "commence_time": "2026-10-28T00:08:00Z"
+        },
+        {
+          "matchup": "Ottawa Senators @ Vegas Golden Knights",
+          "pick": "Vegas Golden Knights wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009069-1566768603-2319291591&type=Single",
+          "commence_time": "2026-10-28T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-28T00:08:00Z"
+    },
+    {
+      "ticker": "PARLAY-E2FD535C",
+      "title": "Over 5.5 + New Jersey Devils +1.5",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20009651-1572329465-2334468277&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "NHL",
+      "matchup": "New Jersey Devils @ Dallas Stars + New Jersey Devils @ Colorado Avalanche",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New Jersey Devils @ Dallas Stars",
+          "pick": "Over 5.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009651-1572329465-2334468277&type=Single",
+          "commence_time": "2026-10-28T00:08:00Z"
+        },
+        {
+          "matchup": "New Jersey Devils @ Colorado Avalanche",
+          "pick": "New Jersey Devils +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009074-1566769413-2319294174&type=Single",
+          "commence_time": "2026-10-29T01:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-28T00:08:00Z"
+    },
+    {
+      "ticker": "PARLAY-9F52784E",
+      "title": "Atlanta Hawks wins + Jacksonville State Gamecocks wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20030819-1569400319-2326523657&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Miami Heat @ Atlanta Hawks + Jacksonville State Gamecocks @ New Mexico State Aggies",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Heat @ Atlanta Hawks",
+          "pick": "Atlanta Hawks wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20030819-1569400319-2326523657&type=Single",
+          "commence_time": "2026-10-28T23:10:00Z"
+        },
+        {
+          "matchup": "Jacksonville State Gamecocks @ New Mexico State Aggies",
+          "pick": "Jacksonville State Gamecocks wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47812-4009704-6432475&type=Single",
+          "commence_time": "2026-10-29T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-28T23:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-7BC74670",
+      "title": "Atlanta Hawks wins + Vegas Golden Knights wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20030819-1569400319-2326523657&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Miami Heat @ Atlanta Hawks + Ottawa Senators @ Vegas Golden Knights",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Heat @ Atlanta Hawks",
+          "pick": "Atlanta Hawks wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20030819-1569400319-2326523657&type=Single",
+          "commence_time": "2026-10-28T23:10:00Z"
+        },
+        {
+          "matchup": "Ottawa Senators @ Vegas Golden Knights",
+          "pick": "Vegas Golden Knights wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009069-1566768603-2319291591&type=Single",
+          "commence_time": "2026-10-28T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-28T02:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-0CED1B5C",
+      "title": "Atlanta Hawks wins + New Jersey Devils +1.5",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20030819-1569400319-2326523657&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Miami Heat @ Atlanta Hawks + New Jersey Devils @ Colorado Avalanche",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Miami Heat @ Atlanta Hawks",
+          "pick": "Atlanta Hawks wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20030819-1569400319-2326523657&type=Single",
+          "commence_time": "2026-10-28T23:10:00Z"
+        },
+        {
+          "matchup": "New Jersey Devils @ Colorado Avalanche",
+          "pick": "New Jersey Devils +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009074-1566769413-2319294174&type=Single",
+          "commence_time": "2026-10-29T01:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-28T23:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-F68F4ED3",
+      "title": "Minnesota Timberwolves wins + Jacksonville State Gamecocks wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20030826-1569400342-2326523675&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Golden State Warriors @ Minnesota Timberwolves + Jacksonville State Gamecocks @ New Mexico State Aggies",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Golden State Warriors @ Minnesota Timberwolves",
+          "pick": "Minnesota Timberwolves wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20030826-1569400342-2326523675&type=Single",
+          "commence_time": "2026-10-29T00:10:00Z"
+        },
+        {
+          "matchup": "Jacksonville State Gamecocks @ New Mexico State Aggies",
+          "pick": "Jacksonville State Gamecocks wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47812-4009704-6432475&type=Single",
+          "commence_time": "2026-10-29T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-29T00:00:00Z"
+    }
+  ]
+}

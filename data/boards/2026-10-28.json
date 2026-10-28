@@ -1,0 +1,597 @@
+{
+  "generated_at": "2026-10-28T01:02:11.503343+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket": 5
+  },
+  "board": [
+    {
+      "ticker": "KXROBOTMARS-35",
+      "title": "A robot beats humans to Mars by 2035",
+      "subtitle": "Before 2035",
+      "yes_sub_title": "Before 2035",
+      "no_sub_title": "Before 2035",
+      "payout": 1.86,
+      "tier": "green",
+      "quip": "humanity, assistant coach now",
+      "yes_price": "0.5390",
+      "volume": 57361.04,
+      "category": "Science and Technology",
+      "close_time": "2035-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXROBOTMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 65.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "the robot plants the flag, waves at nobody, powers down for nine years",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "i've made peace with being the second species to get there",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "a metal guy doing the first ever Mars shuffle is genuinely sick",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "mission control: \"say something historic.\" robot: \"battery at four percent\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "$1.86 says i watch it happen from my couch with the lights off",
+          "mode": 5,
+          "score": 5
+        },
+        {
+          "quip": "somewhere Buzz Aldrin is already loading up the fist",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "humanity, assistant coach now",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "Elon's one slips on the last rung, obviously",
+          "mode": 7,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0x267de1156f571d8da9c4caada261a17ca7a44a8c6f518c1f6e9a395b17c577d4",
+      "title": "Ankalaev fights Ulberg next",
+      "subtitle": "",
+      "payout": 2.38,
+      "tier": "green",
+      "quip": "New Zealand striker against a Dagestani wrestler is Pac-12 offense versus SEC defense",
+      "yes_price": "0.4200",
+      "volume": 9525.833284,
+      "category": "Other",
+      "close_time": "2027-05-01T00:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/ufc-who-will-carlos-ulberg-fight-next",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i will buy this card and be asleep by the second prelim",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "\"that fight makes sense and we're gonna make it,\" then he books a YouTuber",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "Ulberg's walkout gets bleeped and Ankalaev stares at the canvas for 25 minutes",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "New Zealand striker against a Dagestani wrestler is Pac-12 offense versus SEC defense",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "City Kickboxing guys have the best corner energy in combat sports and i said what i said",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "five rounds of nothing, probably",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "$2.38 is less than this costs me per minute of hugging",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "light heavyweight: where exciting fights go to lie down",
+          "mode": 7,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXPITSNOWM-26DEC-12",
+      "title": "Pittsburgh gets over a foot of snow this December",
+      "subtitle": "In Dec 2026",
+      "yes_sub_title": "Above 12 inches",
+      "no_sub_title": "Above 12 inches",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "Primanti's starts putting snow on the sandwich, nobody complains",
+      "yes_price": "0.3400",
+      "volume": 3572.67,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXPITSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 68.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i'd shovel twelve inches to never hear about the Steelers offense again",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Primanti's starts putting snow on the sandwich, nobody complains",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "a foot of snow is Pittsburgh with better lighting",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "the parking chair economy goes full commodities desk",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "yinz are cooked",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "twelve inches, $2.94, one salt truck with a flat",
+          "mode": 5,
+          "score": 6
+        },
+        {
+          "quip": "snow coming down on the Monongahela is beautiful and i won't be taking questions",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "\"we're tracking a system,\" says the man who's been wrong since 1998",
+          "mode": 4,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x26e3f6d2038e20d271dd65b88c53cf0d2d6478ac66af3e59982b4367f0b9297c",
+      "title": "Pantami wins the Gombe State governor race",
+      "subtitle": "",
+      "payout": 4.08,
+      "tier": "yellow",
+      "quip": "first act in office: everyone relinks their SIM card, again",
+      "yes_price": "0.2450",
+      "volume": 9233.061342000003,
+      "category": "World",
+      "close_time": "2027-02-07T04:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/gombe-nigeria-governor-election-winner",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "here's me acting like i've followed Gombe politics since birth",
+          "mode": 2,
+          "score": 5
+        },
+        {
+          "quip": "the telecom minister running for governor is a general manager taking the head coaching job",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "first act in office: everyone relinks their SIM card, again",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "nobody tell the SIM registry",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "Nigerian state elections have the deepest lore in politics and i love them",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "$4.08 and a geography lesson, pretty efficient",
+          "mode": 5,
+          "score": 5
+        },
+        {
+          "quip": "every country has that one guy who just keeps getting new titles",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "\"we will digitize the state\" meaning a website that loads in 2031",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0x20d50462d91b116f520dc67e93d12ce15291be4faf644d1ed63b141f6ec1503a",
+      "title": "SSI releases a public model by next November",
+      "subtitle": "",
+      "payout": 4.65,
+      "tier": "yellow",
+      "quip": "the Chinese Democracy of language models",
+      "yes_price": "0.2150",
+      "volume": 9382.957795000002,
+      "category": "Science and Technology",
+      "close_time": "2026-12-01T04:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/ssi-public-model-released-by-20260810094604188",
+      "platform": "polymarket",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "i need Ilya to ship something so i can stop defending him at dinner",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "launch page is one sentence and four acres of white space",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "no products until superintelligence is an insane plan and i respect it enormously",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we have no product and no revenue.\" cool, here's thirty billion dollars",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "the Chinese Democracy of language models",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "safe, super, still hypothetical",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "$4.65 on the one model nobody is allowed to touch",
+          "mode": 5,
+          "score": 6
+        },
+        {
+          "quip": "like a five star recruit redshirting four straight years",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x20e7f138b0bcba2503d04b2a1c1f8517305f3bfb908ea1a99ec926d9b98709f9",
+      "title": "Betmoar launches a token by spring 2027",
+      "subtitle": "",
+      "payout": 5.41,
+      "tier": "yellow",
+      "quip": "name yourself Betmoar then act stunned when the letter arrives",
+      "yes_price": "0.1850",
+      "volume": 9268.003435,
+      "category": "Other",
+      "close_time": "2027-04-01T03:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/will-betmoar-launch-a-token-by",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "my wallet already holds nine tokens i can't name and can't sell",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "snapshot taken, discord melts, down seventy percent by Wednesday lunch",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "a company named Betmoar doing exactly what the name says and i'm not mad",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "\"it's not a security, it's a loyalty program with a chart\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "moar. always moar",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "the token launch is Senior Night for crypto apps",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "$5.41, roughly the gas fee to claim it",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "name yourself Betmoar then act stunned when the letter arrives",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "STARSHIPMARS-29DEC31",
+      "title": "Starship flies humans to Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Not Before 2030",
+      "payout": 8.33,
+      "tier": "orange",
+      "quip": "the Donner Party with a Starlink subscription",
+      "yes_price": "0.1200",
+      "volume": 55030.37,
+      "category": "Companies",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i can't get out of Newark on time but sure, Mars",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "the hatch opens and it's four guys who met on a podcast",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "the Donner Party with a Starlink subscription",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "\"definitely 2028, maybe 2026, probably 2031.\" thanks for the clarity",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "$8.33 and nine months without a bathroom door",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "see you in 2049",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "sincerely, people standing on another planet would rule and i'm in",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "the first Martian city gets named after a dog coin",
+          "mode": 7,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNHLRECORDWORST-27-SEA",
+      "title": "The Kraken finish dead last next season",
+      "subtitle": "2026-27 season",
+      "yes_sub_title": "Seattle Kraken",
+      "no_sub_title": "Seattle Kraken",
+      "payout": 12.5,
+      "tier": "orange",
+      "quip": "the Mariners of ice, with even less sun",
+      "yes_price": "0.0800",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2027-05-31T14:00:00Z",
+      "url": "https://kalshi.com/markets/KXNHLRECORDWORST?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 66.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "Seattle lines up for the annual beating, rain included",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "i drafted three of these guys in a pool and i deserve this",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "the compost bins at the arena start accepting the roster",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "the Mariners of ice, with even less sun",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "release the tank",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "$12.50, same as one beer in that very nice building",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Climate Pledge is still the prettiest arena in sports and i'd watch anything in it",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "Jets fan experience, but with a salmon on the sweater",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26NOV",
+      "title": "US signs a new Iran nuclear deal this year",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Nov 1, 2026",
+      "no_sub_title": "Before Nov 1, 2026",
+      "payout": 50.0,
+      "tier": "red",
+      "quip": "like a Browns rebuild where everyone insists this quarterback is different",
+      "yes_price": "0.0200",
+      "volume": 1518717.88,
+      "category": "Politics",
+      "close_time": "2026-11-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 135.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i have stopped learning the names of the negotiators entirely",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "handshake photo, two flags, everybody yelling again by Friday",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "$50 which is also what enriched uranium costs per gram in my head",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we have a deal, the best deal, people are crying, strong men\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "Groundhog Day except Bill Murray is wearing a lanyard in Geneva",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "centrifuges spinning, same as ever",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "like a Browns rebuild where everyone insists this quarterback is different",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "the Nobel committee quietly pre-filling the paperwork again",
+          "mode": 7,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x903a1387e6414be5529efc8f7757e30371e6698de9d68fa4ce33252009db69ef",
+      "title": "Bitcoin dips to $30K this year",
+      "subtitle": "",
+      "payout": 57.14,
+      "tier": "purple",
+      "quip": "\"we're still early,\" says the guy listing his Peloton",
+      "yes_price": "0.0175",
+      "volume": 942644.4966600001,
+      "category": "Crypto",
+      "close_time": "2027-01-01T05:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027",
+      "platform": "polymarket",
+      "score": 63.0,
+      "quip_alts": [
+        {
+          "quip": "if this hits i'm turning off my phone and getting a woodworking hobby",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "laser eyes come off the profile pictures within nine minutes",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "Miami quietly renames the conference back to Blockchain Week",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "$57 and change, which is also all i have left in that account",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "a seventy percent haircut is just a rebuild year with worse branding",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "digital gold, briefly digital",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "a crash that violent would be the most entertaining week of the year",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we're still early,\" says the guy listing his Peloton",
+          "mode": 4,
+          "score": 9
+        }
+      ]
+    }
+  ]
+}
