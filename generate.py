@@ -68,6 +68,20 @@ def market_link(market_ticker, from_slug=None):
     return f"/go/{market_ticker}/"
 
 
+def market_anchor(market_ticker):
+    """Stable on-page fragment id for a market card, e.g. "m-KXSNOW".
+
+    Structured data must not point at /go/ URLs: robots.txt blocks them, the
+    anchors already carry rel="nofollow", but a URL inside JSON-LD has no
+    nofollow, so every ItemList was handing Googlebot 10-20 blocked redirect
+    URLs a day. 449 of them sat in Search Console as "Blocked by robots.txt"
+    on 2026-10-29 while 55 real pages had never been crawled. ListItem urls
+    now point at the card on the page instead.
+    """
+    safe = re.sub(r"[^A-Za-z0-9_-]+", "-", str(market_ticker or "")).strip("-")
+    return f"m-{safe[:80]}" if safe else "m"
+
+
 # ── Analytics snippet ───────────────────────────────────────
 
 def analytics_head():
@@ -1256,6 +1270,29 @@ SHARED_CSS = """
     .footer-info-nav a { color: #806b5b; text-decoration: none; }
     .footer-info-nav a:hover { color: #b5470a; }
 
+    .explore-nav {
+      text-align: center;
+      font-size: 11px;
+      color: #6b5744;
+      padding: 14px 0 4px;
+      line-height: 2;
+      border-top: 1.5px solid #e8cdb5;
+      margin-top: 18px;
+    }
+    .explore-nav .explore-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #a08b77;
+      margin-right: 6px;
+    }
+    .explore-nav a { color: #6b5744; text-decoration: none; border-bottom: 1px solid #e8cdb5; }
+    .explore-nav a:hover { color: #b5470a; border-bottom-color: #b5470a; }
+    .explore-nav span:not(.explore-label) { color: #a08b77; }
+
+    .latest-guides { margin-top: 28px; }
+
     .board-nav-bottom {
       text-align: center;
       font-size: 10px;
@@ -1458,6 +1495,108 @@ def footer_info_nav():
     return f'    <div class="footer-info-nav">\n        {items}\n    </div>\n'
 
 
+# Section hubs that every page links to. Before 2026-10-29 the recap index,
+# the archetype index and the tier pages were reachable only from /sitemap/
+# (one inbound link each), and Googlebot, which fetches about three HTML
+# pages a day here, had never crawled them. A link from every page puts each
+# hub one click from the homepage and its children two.
+EXPLORE_LINKS = [
+    ("/guides/", "Guides"),
+    ("/trending/", "Trending markets"),
+    ("/hall-of-filth/", "Hall of Filth"),
+    ("/recap/", "Weekly recaps"),
+    ("/archetypes/", "Bet archetypes"),
+    ("/prediction-markets/", "Prediction markets"),
+    ("/sports-markets/", "Sports markets"),
+    ("/availability/", "Availability by state"),
+]
+TIER_LINKS = [
+    ("/tier/alive/", "Alive"),
+    ("/tier/heater/", "Heater"),
+    ("/tier/filthy/", "Filthy"),
+    ("/tier/respectable/", "Respectable"),
+    ("/tier/generational/", "Generational"),
+]
+
+
+def explore_nav(current=""):
+    """Site-wide strip of section hubs, rendered above the info footer."""
+    def item(href, label):
+        if current and href.strip("/") == current.strip("/"):
+            return f'<span>{label}</span>'
+        return f'<a href="{href}">{label}</a>'
+    sections = " &middot; ".join(item(h, l) for h, l in EXPLORE_LINKS)
+    tiers = " &middot; ".join(item(h, l) for h, l in TIER_LINKS)
+    return (
+        '    <nav class="explore-nav" aria-label="Explore">\n'
+        f'      <div><span class="explore-label">Explore</span> {sections}</div>\n'
+        f'      <div><span class="explore-label">Payout tiers</span> {tiers}</div>\n'
+        '    </nav>\n'
+    )
+
+
+def _editorial_pages():
+    """Indexable editorial pages from content/pages/*.json, newest first.
+
+    Read here (not only in generate_content.py) so the homepage can link the
+    newest guides. Trust pages and anything policy_noindex() refuses are
+    left out, so the homepage never links to a noindexed page.
+    """
+    content_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "content", "pages")
+    pages = []
+    for path in sorted(glob.glob(os.path.join(content_dir, "*.json"))):
+        try:
+            with open(path) as f:
+                data = json.load(f)
+        except (OSError, ValueError):
+            continue
+        seo = data.get("seo") or {}
+        canonical = seo.get("canonical") or ""
+        if not canonical.startswith("/") or not seo.get("h1"):
+            continue
+        if data.get("cluster") == "Trust Pages":
+            continue
+        if not data.get("slug"):
+            data["slug"] = canonical.strip("/")
+        noindex, _reason = policy_noindex(data)
+        if noindex:
+            continue
+        date = data.get("last_updated") or data.get("publish_date") or ""
+        pages.append((date, canonical, seo.get("h1", ""), data.get("format", "")))
+    pages.sort(key=lambda t: (t[0], t[1]), reverse=True)
+    return pages
+
+
+def latest_guides_html(limit=8):
+    """Homepage block: the newest guides, so the page Googlebot refreshes most
+    links the pages it has been slowest to discover."""
+    pages = _editorial_pages()[:limit]
+    if not pages:
+        return ""
+    items = []
+    for date, canonical, h1, _fmt in pages:
+        try:
+            when = datetime.fromisoformat(date).strftime("%b %d, %Y").replace(" 0", " ")
+        except ValueError:
+            when = ""
+        when_html = f'<div class="link-card-sub">{when}</div>' if when else ""
+        items.append(f"""      <li class="wager">
+        <a href="{canonical}" class="link-card">
+          <div class="link-card-title">{html.escape(h1)}</div>
+          {when_html}
+        </a>
+      </li>""")
+    return f"""
+    <section class="latest-guides" aria-labelledby="latest-guides-h">
+      <h2 class="section-head" id="latest-guides-h">From the guides</h2>
+      <ul class="board" role="list">
+{chr(10).join(items)}
+      </ul>
+      <div class="internal-links-row">more: <a href="/guides/">all guides</a> &middot; <a href="/hall-of-filth/">Hall of Filth</a> &middot; <a href="/recap/">weekly recaps</a> &middot; <a href="/trending/">trending markets</a></div>
+    </section>
+"""
+
+
 def page_shell(title, description, body, canonical="", noindex=False, current_nav="", extra_head="", sticky_html=None, compact_header=False, show_signup=True, article=False, og_image=None):
     og_image_url = og_image or f"{SITE_URL}/og-image.png"   # board pages pass the daily card
     """Wrap body content in the full HTML shell.
@@ -1589,6 +1728,7 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
 
 {SIGNUP_HTML + SCAN_LINE_HTML if show_signup else ""}
 
+{explore_nav(current_nav)}
 {footer_info_nav()}
 
     <footer class="footer">
@@ -1843,7 +1983,10 @@ def render_bet_card(m, is_longshot_pick=False):
     reg_note = " &middot; CFTC-regulated" if platform == "kalshi" else ""
     meta_line = f"{platform_name}{reg_note} &middot; {priced_in} chance priced in" if priced_in else platform_name
 
-    return f"""      <li class="wager{tier_class}">
+    anchor_id = market_anchor(ticker) if ticker else ""
+    id_attr = f' id="{anchor_id}"' if anchor_id else ""
+
+    return f"""      <li class="wager{tier_class}"{id_attr}>
         <div class="wager-card">
           <div class="wager-title-row">
             <div class="wager-title">{title}</div>
@@ -1888,7 +2031,9 @@ def render_longshot_hero(m):
     tier = m.get("tier", "purple")
     priced_in = "&lt;1%" if payout_val >= 100 else (f"{round(100 / payout_val)}%" if payout_val > 0 else "")
 
-    return f"""      <li class="wager">
+    hero_id = f' id="{market_anchor(ticker)}"' if ticker else ""
+
+    return f"""      <li class="wager"{hero_id}>
         <div class="hero-longshot">
           <div class="hero-longshot-notch-left"></div>
           <div class="hero-longshot-notch-right"></div>
@@ -1937,7 +2082,10 @@ def render_sports_bet_card(m, from_slug=None):
     priced_in = f"{round(100 / payout_val)}%" if payout_val > 0 else ""
     meta_line = f"{platform_name}{odds_badge} &middot; {priced_in} chance priced in" if priced_in else f"{platform_name}{odds_badge}"
 
-    return f"""      <li class="wager{tier_class}">
+    anchor_id = market_anchor(ticker) if ticker else ""
+    id_attr = f' id="{anchor_id}"' if anchor_id else ""
+
+    return f"""      <li class="wager{tier_class}"{id_attr}>
         <div class="wager-card">
           <div class="wager-title-row">
             <div class="wager-title">{title}</div>
@@ -2429,6 +2577,7 @@ def generate_daily_board(boards):
     # right after the longshot hero (show_signup=False suppresses the
     # page_shell bottom copy so it doesn't appear twice).
     body = render_bet_list(board, longshot_idx=longshot_idx, signup_after_hero=True)
+    body += latest_guides_html()
 
     # Homepage structured data: Organization + WebSite + ItemList
     market_items = []
@@ -2437,7 +2586,7 @@ def generate_daily_board(boards):
             "@type": "ListItem",
             "position": i,
             "name": m.get("title", ""),
-            "url": f"{SITE_URL}{market_link(m.get('ticker', ''))}",
+            "url": f"{SITE_URL}/#{market_anchor(m.get('ticker', ''))}",
         }))
 
     homepage_schema = f"""<script type="application/ld+json">{{
@@ -2903,7 +3052,7 @@ def generate_category_pages(all_bets):
                 "@type": "ListItem",
                 "position": i,
                 "name": m.get("title", ""),
-                "url": f"{SITE_URL}{market_link(m.get('ticker', ''))}",
+                "url": f"{SITE_URL}/{slug}/#{market_anchor(m.get('ticker', ''))}",
             }))
 
         cat_schema = f"""<script type="application/ld+json">{{
@@ -3063,8 +3212,7 @@ def generate_weekly_recaps(boards):
 
         blocks_html = "\n".join(blocks)
 
-        body = f"""    <h1 class="page-title">the week in dollar bets</h1>
-    <div class="byline" style="margin-bottom:14px">{week_label}</div>
+        body = f"""    <h1 class="page-title">The Week in Dollar Bets: {week_label}</h1>
     <div class="page-intro">
       <p>{len(unique_week)} markets featured across {len(week_boards)} days. Here's what stood out.</p>
     </div>
