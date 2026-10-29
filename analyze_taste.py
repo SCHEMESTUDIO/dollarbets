@@ -197,9 +197,18 @@ KEYWORD RULES (critical — failures here pollute downstream classification):
 
 Respond with ONLY the JSON object."""
 
+    # 2026-10-28: six consecutive Sunday runs (09-20 .. 10-25) returned ONLY
+    # a thinking block and stop_reason=max_tokens, so the style guide never
+    # learned from the 135 overrides. On claude-sonnet-5 thinking is on by
+    # default and shares max_tokens with the answer; 8,192 was all thinking.
+    # Adaptive thinking at low effort keeps the reasoning short, the budget
+    # leaves room for a cluster_review row per override, and a truncated
+    # answer now fails with a message that says so instead of "no text".
     body = json.dumps({
         "model": "claude-sonnet-5",
-        "max_tokens": 8192,
+        "max_tokens": 20000,
+        "thinking": {"type": "adaptive"},
+        "output_config": {"effort": "low"},
         "messages": [{"role": "user", "content": prompt}]
     }).encode()
 
@@ -216,9 +225,15 @@ Respond with ONLY the JSON object."""
 
     try:
         print("[taste] Calling Claude for taste analysis...", file=sys.stderr)
-        with urllib.request.urlopen(req, timeout=120) as resp:
+        with urllib.request.urlopen(req, timeout=600) as resp:
             raw = resp.read().decode()
             result = json.loads(raw)
+            if result.get("stop_reason") == "max_tokens":
+                usage = result.get("usage") or {}
+                raise ValueError(
+                    "Claude response truncated at max_tokens "
+                    f"(output_tokens={usage.get('output_tokens')}); raise "
+                    "max_tokens or trim the overrides window")
             text = claude_text(result)
 
             # Strip markdown fences if present
