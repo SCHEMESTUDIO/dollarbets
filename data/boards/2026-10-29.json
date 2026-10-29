@@ -1,0 +1,597 @@
+{
+  "generated_at": "2026-10-29T01:35:34.854138+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket": 5
+  },
+  "board": [
+    {
+      "ticker": "KXUTSKIVISITS-27JUL31-T6000000",
+      "title": "Utah tops 6 million skier visits next season",
+      "subtitle": "the 2026\u201327 ski season",
+      "yes_sub_title": "Above 6,000,000 skier visits",
+      "no_sub_title": "Above 6,000,000 skier visits",
+      "payout": 2.08,
+      "tier": "green",
+      "quip": "six million visits, four of them paid full price for a lift ticket",
+      "yes_price": "0.4800",
+      "volume": 13901.2,
+      "category": "Economics",
+      "close_time": "2027-07-31T15:29:00Z",
+      "url": "https://kalshi.com/markets/KXUTSKIVISITS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 89.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "Ikon pass holders form a militia by President's Day weekend",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i sat in a Little Cottonwood traffic jam once and i still flinch",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "powder morning, 7am, me lying to a manager who can see my calendar",
+          "mode": 2,
+          "score": 5.5
+        },
+        {
+          "quip": "greatest snow on earth, allegedly",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "six million visits, four of them paid full price for a lift ticket",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Mad Max, except every war rig is a Subaru with a ski rack",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "like Disney World if the lines occasionally had avalanches",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "i love when a whole state just DECIDES to be about one thing",
+          "mode": 3,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x90caebaefa747ef875d5243d690c98fd30ca6f515312b17e011a395cc68a0686",
+      "title": "Anthropic finishes as the #2 AI lab next year",
+      "subtitle": "",
+      "payout": 2.08,
+      "tier": "green",
+      "quip": "the Buffalo Bills of large language models",
+      "yes_price": "0.4800",
+      "volume": 9999.316676999999,
+      "category": "Science and Technology",
+      "close_time": "2026-12-01T04:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/2-ai-lab-end-of-november-style-control-on",
+      "platform": "polymarket",
+      "score": 33.0,
+      "quip_alts": [
+        {
+          "quip": "forever the silver medal",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "Claude is the only one that doesn't make me feel insane afterward",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "the Buffalo Bills of large language models",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "\"we remain deeply concerned about the thing we are shipping on Tuesday\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "the safety team celebrates by releasing a 90 page PDF nobody opens",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "always the bridesmaid, never the paperclip maximizer",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "ranked 2nd, 11th, and also 1st depending which chart you squint at",
+          "mode": 5,
+          "score": 6
+        },
+        {
+          "quip": "i genuinely root for these nerds and it is embarrassing in public",
+          "mode": 3,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUAPFILES-26OCT27-26NOV15",
+      "title": "Trump drops more UFO files before next November",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Nov 15, 2026",
+      "no_sub_title": "Before Nov 15, 2026",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "we're all Fox Mulder until the document is 94% black bar",
+      "yes_price": "0.3400",
+      "volume": 0.0,
+      "category": "Politics",
+      "close_time": "2026-11-15T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUAPFILES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 80.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "\"tremendous files. some of the greatest files. not from here, folks.\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "i'll read 900 redacted pages and tell everyone i found something",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the hearing's star witness is a radar tech named Dale from Pensacola",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "just give us the orbs",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "we're all Fox Mulder until the document is 94% black bar",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "like unwrapping a Christmas gift Reddit already mailed itself in 2017",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "47 pages released, 46 of them the cover sheet",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "i want the aliens so bad i am ready to be humiliated again",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xf39d1135c121a05625c7d32d3f1e1e420f2e5d1a10dda86f3831e43396c453fa",
+      "title": "Democrats win CT-02 by 20 to 25 points",
+      "subtitle": "",
+      "payout": 3.7,
+      "tier": "yellow",
+      "quip": "Mystic Pizza remains the last major event in this district",
+      "yes_price": "0.2700",
+      "volume": 9330.010031999998,
+      "category": "World",
+      "close_time": "2026-11-04T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/ct-02-house-margin-of-victory-2026",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "the concession speech happens in a Mohegan Sun parking garage around 11pm",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i have never thought about eastern Connecticut and now i'm emotionally involved",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "a 23 point blowout is the most exciting thing Norwich has planned",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "submarines vote blue, apparently",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "Mystic Pizza remains the last major event in this district",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "won by 22.4, decided by eleven guys at the Groton shipyard",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "like a 1 seed up 30 and the arena emptying at halftime",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "my only Connecticut opinion involved a rest stop. tonight that changes",
+          "mode": 2,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x0eac38a2c3cc0a5fe2c0466d0acd532247e3c14e0d722800a9037d14e2f1eb0c",
+      "title": "BYD gets off the Chinese military list by 2027",
+      "subtitle": "",
+      "payout": 6.25,
+      "tier": "yellow",
+      "quip": "every Decepticon began as a reasonably priced vehicle",
+      "yes_price": "0.1600",
+      "volume": 98489.82157500002,
+      "category": "Other",
+      "close_time": "2027-07-01T03:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/who-will-be-removed-from-chinese-military-companies-list-by-june-30-2027-20260706223230550",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "a Pentagon staffer googles \"is a hatchback a weapon\" and closes the laptop",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "my neighbor's BYD plays a little song when it parks and i'm unsettled",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "\"it's a family crossover, Senator. with blades.\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "every Decepticon began as a reasonably priced vehicle",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "like the NCAA quietly reinstating a program nobody remembers banning",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Elon refreshing this list every eleven minutes like it owes him money",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "i drove one in Lisbon and i have not been the same since",
+          "mode": 2,
+          "score": 5.5
+        },
+        {
+          "quip": "delisted. still faster than you",
+          "mode": 9,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xcb80581b70beb772b8e14a06bf9f45c53ff496fad03266ff67f7511619af3409",
+      "title": "Nashville and Philly clear 2.5 goals tonight",
+      "subtitle": "",
+      "payout": 6.9,
+      "tier": "yellow",
+      "quip": "Philadelphia booing their own third goal purely on principle",
+      "yes_price": "0.1450",
+      "volume": 97459.12844299998,
+      "category": "Other",
+      "close_time": "2026-10-29T00:30:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/mls-nas-phi-2026-10-28-more-markets",
+      "platform": "polymarket",
+      "score": 65.0,
+      "quip_alts": [
+        {
+          "quip": "third goal drops and the pedal steel guy loses complete control",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i've stood with the Sons of Ben once and it scared me straight",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "Philadelphia booing their own third goal purely on principle",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "MLS scoring like a Big 12 game, which is to say unregulated",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "goals. plural. revolutionary",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "Rocky did not run those steps for a scoreless draw",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "2.5 goals is not a real number and yet here we all are",
+          "mode": 5,
+          "score": 6
+        },
+        {
+          "quip": "i only learned Nashville had a team when they built the big stadium",
+          "mode": 2,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXMODELHIGH-27-1550-CLAU",
+      "title": "Claude is first to hit 1550 on Text Arena",
+      "subtitle": "Before 2027",
+      "yes_sub_title": "Claude",
+      "no_sub_title": "Claude",
+      "payout": 7.14,
+      "tier": "orange",
+      "quip": "1550 was also my SAT score and i have been coasting ever since",
+      "yes_price": "0.1400",
+      "volume": 81766.96,
+      "category": "Science and Technology",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 127.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Claude clears 1550 then writes a memo apologizing for clearing 1550",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "\"I should flag that I may be hallucinating this entire victory\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "i asked Claude for a quip and it asked how my week was going",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "the Gonzaga of chatbots finally cutting down something",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "polite robot, violent benchmark",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "1550 was also my SAT score and i have been coasting ever since",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "like Data finally beating Riker at poker and being weird about it",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "i love it when the nerdy one wins a thing",
+          "mode": 3,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27",
+      "title": "US strikes a new Iran nuclear deal this year",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 9.09,
+      "tier": "orange",
+      "quip": "this is the Jets announcing a franchise quarterback every single spring",
+      "yes_price": "0.1100",
+      "volume": 1862535.12,
+      "category": "Politics",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i have aged four years inside this one sentence",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "both sides sign, then post wildly different summaries within the hour",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "\"we have reached a framework for a framework,\" says a gray man in Geneva",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "this is the Jets announcing a franchise quarterback every single spring",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "the centrifuge discourse continues",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "the 47th agreement of the decade, 46 of which were a tweet",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "Groundhog Day, except Bill Murray is a nonproliferation analyst",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "i stopped updating my mental map of that region in like 2019",
+          "mode": 2,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26WILFRED-T2",
+      "title": "Wilfred becomes a Category 2 hurricane",
+      "subtitle": "Hurricane Wilfred",
+      "yes_sub_title": "Category 2 or above",
+      "no_sub_title": "Category 2 or above",
+      "payout": 20.0,
+      "tier": "red",
+      "quip": "Cantore lands and property values flee the county on foot",
+      "yes_price": "0.0500",
+      "volume": 119.48,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 78.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Wilfred sounds like a guy who ruins a wedding. Florida, assume the position",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "Cantore lands and property values flee the county on foot",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i have a cousin in Tampa who has earned one mild scare",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "nominative determinism, hurricane edition",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "Wilfred is the name of a dog in a Sundance movie, not this",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "a Category 2 takes exactly 20 shingles and one beloved gazebo",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "like a 2 seed. respectable, forgettable, still wrecks your weekend",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "i love when the weather has a little guy's name",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x6e452427de7f44cd74e9711c25d372d4994e6abaf213e3d2117921a25f0d6fc4",
+      "title": "Bitcoin dips to $72K this week",
+      "subtitle": "",
+      "payout": 95.24,
+      "tier": "purple",
+      "quip": "Miami penthouse brokers quietly editing the laser eyes off their headshots",
+      "yes_price": "0.0105",
+      "volume": 9918.672892,
+      "category": "Crypto",
+      "close_time": "2026-11-02T05:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-october-26-november-1-2026",
+      "platform": "polymarket",
+      "score": 53.0,
+      "quip_alts": [
+        {
+          "quip": "my portfolio is already down there waiting to greet it",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the crypto guys rediscover church that Sunday morning",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "$72k bitcoin, $95 payout, zero dollars remaining in my Coinbase",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "laser eyes off, briefly",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "the Titanic was also having a lovely trip for most of it",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "this is 28-3 and the Falcons still think they're fine",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Miami penthouse brokers quietly editing the laser eyes off their headshots",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "i have never wanted a number to fall this badly for no reason",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    }
+  ]
+}
