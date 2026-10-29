@@ -1,84 +1,4 @@
 {
-  "SB-3D9CD551": {
-    "title": "Chiefs keep it close in Seattle",
-    "quip": "Mahomes doesn't lose by two scores at Lumen",
-    "cached_at": "2026-10-25T18:43:07.003255+00:00"
-  },
-  "SB-39F2C136": {
-    "title": "Stars handle Islanders by two or more",
-    "quip": "Robertson and Hintz against a rebuild",
-    "cached_at": "2026-10-25T18:43:07.003255+00:00"
-  },
-  "SB-5C84FEBF": {
-    "title": "Jazz upset the Lakers in Salt Lake",
-    "quip": "altitude, Markkanen, and a LeBron load-management rumor",
-    "cached_at": "2026-10-25T18:43:07.003255+00:00"
-  },
-  "SB-640E792E": {
-    "title": "Nets stun the Pacers in Brooklyn",
-    "quip": "Barclays Center hosts an actual basketball result",
-    "cached_at": "2026-10-25T18:43:07.003255+00:00"
-  },
-  "SB-5174668E": {
-    "title": "Magic walk into the Garden and beat the Knicks",
-    "quip": "Banchero bullying Brunson's rim protection, such as it is",
-    "cached_at": "2026-10-25T18:43:07.003255+00:00"
-  },
-  "SB-019B47E4": {
-    "title": "Brewers blow out the Rays by five",
-    "quip": "Tropicana pitching meets Milwaukee's lineup from hell",
-    "cached_at": "2026-10-25T18:43:07.003255+00:00"
-  },
-  "SB-85A12B0F": {
-    "title": "Canadiens crush the Jets by four",
-    "quip": "Suzuki and Caufield silencing a Hellebuyck crowd",
-    "cached_at": "2026-10-25T18:43:07.003255+00:00"
-  },
-  "SB-C6DC0CC9": {
-    "title": "Blackhawks demolish the Panthers by four",
-    "quip": "Bedard hangs a four-spot on the defending champs",
-    "cached_at": "2026-10-25T18:43:07.003255+00:00"
-  },
-  "SB-A328036C": {
-    "title": "Jets stun the Dolphins tonight",
-    "quip": "even a broken clock beats Miami in December",
-    "cached_at": "2026-10-25T18:43:12.887872+00:00"
-  },
-  "SB-ED759264": {
-    "title": "Jets and Phoenix combine for four goals tonight",
-    "quip": "A-League defending remains a loose suggestion",
-    "cached_at": "2026-10-25T18:43:21.722502+00:00"
-  },
-  "SB-EC53B756": {
-    "title": "Macarthur and Wanderers grind out a two-goal night",
-    "quip": "Campbelltown's answer to a Scandinavian crime drama",
-    "cached_at": "2026-10-25T18:43:21.722502+00:00"
-  },
-  "SB-0498C1E2": {
-    "title": "Rizespor stun Trabzonspor in Black Sea derby",
-    "quip": "\u00c7aykur tea leaves spell doom for the big brother",
-    "cached_at": "2026-10-25T18:43:21.722502+00:00"
-  },
-  "SB-9C0B691E": {
-    "title": "Lakers handle the Jazz in Salt Lake",
-    "quip": "Luka in the altitude, Utah in the lottery",
-    "cached_at": "2026-10-25T18:43:29.671543+00:00"
-  },
-  "SB-663CC64F": {
-    "title": "Stars take care of the Islanders in Dallas",
-    "quip": "Robertson eats, the Isles fly home quiet",
-    "cached_at": "2026-10-25T18:43:29.671543+00:00"
-  },
-  "SB-113EC4CD": {
-    "title": "Panthers roll the Blackhawks in Chicago",
-    "quip": "Bedard's highlight reel doesn't come with wins",
-    "cached_at": "2026-10-25T18:43:29.671543+00:00"
-  },
-  "SB-508AFC38": {
-    "title": "Flames stay within a goal of the Leafs",
-    "quip": "Calgary loses close, the Saddledome specialty",
-    "cached_at": "2026-10-25T18:43:29.671543+00:00"
-  },
   "SB-B3D0AB11": {
     "title": "Wild skate past Canucks by two tonight",
     "quip": "Kaprizov does the thing he does in Vancouver",
@@ -913,5 +833,70 @@
     "title": "Islanders stay within a goal of the Wild",
     "quip": "Sorokin turns Minnesota's power play into homework",
     "cached_at": "2026-10-29T14:56:37.457712+00:00"
+  },
+  "SB-14166AC9": {
+    "title": "Blue Jackets steal one in Carolina tonight",
+    "quip": "Werenski quarterbacks the upset while Raleigh sleeps",
+    "cached_at": "2026-10-29T20:51:33.814387+00:00"
+  },
+  "SB-0DE7CC62": {
+    "title": "Hawks blow out the Cavs by 20+",
+    "quip": "Trae Young decides Mitchell needs a lesson",
+    "cached_at": "2026-10-29T20:51:33.814387+00:00"
+  },
+  "SB-D3BEEA92": {
+    "title": "Penguins bury Utah by five tonight",
+    "quip": "Crosby and Malkin treat the Mammoth like an expansion snack",
+    "cached_at": "2026-10-29T20:51:33.814387+00:00"
+  },
+  "SB-57013B30": {
+    "title": "\u00c4ss\u00e4t and HIFK trade six goals tonight",
+    "quip": "Liiga goalies on a Helsinki road trip, pads optional",
+    "cached_at": "2026-10-29T20:51:54.056298+00:00"
+  },
+  "SB-22F13917": {
+    "title": "TPS handle Pelicans by two or more",
+    "quip": "Turku's oldest rivalry, and Pelicans keep losing it",
+    "cached_at": "2026-10-29T20:51:54.056298+00:00"
+  },
+  "SB-1A47B483": {
+    "title": "Gr\u00eamio and Atletico Paranaense split the points",
+    "quip": "Arena do Gr\u00eamio nil-nil, the Renato Ga\u00facho special",
+    "cached_at": "2026-10-29T20:51:54.056298+00:00"
+  },
+  "SB-C52525B3": {
+    "title": "Atletico Mineiro and Cruzeiro settle for a draw",
+    "quip": "Cl\u00e1ssico Mineiro ends how it always ends: arguing",
+    "cached_at": "2026-10-29T20:51:54.056298+00:00"
+  },
+  "SB-FA35128B": {
+    "title": "Tappara beat Ilves by two or more",
+    "quip": "Tampere's derby, and Ilves always blinks first",
+    "cached_at": "2026-10-29T20:51:54.056298+00:00"
+  },
+  "SB-31243610": {
+    "title": "Vasco da Gama upset Flamengo tonight",
+    "quip": "S\u00e3o Janu\u00e1rio bouncing like it's 1998 again",
+    "cached_at": "2026-10-29T20:51:54.056298+00:00"
+  },
+  "SB-AAD746DF": {
+    "title": "Nikita Zon stuns Jaime Munguia",
+    "quip": "the Canelo fight gets cancelled by a nobody",
+    "cached_at": "2026-10-29T20:51:54.056298+00:00"
+  },
+  "SB-0E3C4E18": {
+    "title": "South Africa and Australia draw the Test",
+    "quip": "five days, rain in Durban, everybody shakes hands",
+    "cached_at": "2026-10-29T20:51:54.056298+00:00"
+  },
+  "SB-A9D94126": {
+    "title": "Wild handle the Islanders in St. Paul",
+    "quip": "Kirill Kaprizov eats Islanders defensemen for breakfast",
+    "cached_at": "2026-10-29T20:52:01.654517+00:00"
+  },
+  "SB-004418AA": {
+    "title": "Sharks take down the Canucks tonight",
+    "quip": "Macklin Celebrini has turned the tank into a rocket",
+    "cached_at": "2026-10-29T20:52:01.654517+00:00"
   }
 }
