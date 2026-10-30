@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-30T06:12:54.982181+00:00",
+          "tweet_id": "2116050695455744287",
+          "reply_tweet_id": "2116050696974029230"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "33796330",
+        "page": "https://www.pexels.com/photo/stunning-milky-way-over-buje-hills-croatia-33796330/",
+        "photographer": "Ljubisa Pokrajac",
+        "license": "Pexels License",
+        "phrases": [
+          "desert highway night sky",
+          "archive room filing cabinets dusk"
+        ],
+        "tokens": {
+          "input_tokens": 3856,
+          "output_tokens": 32
         }
       }
     },
