@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-10-30T01:36:52.476759+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 8,
+    "NCAAF": 2
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-66FF39AA",
+      "title": "Oregon Ducks wins + Denver Nuggets wins",
+      "payout": 2.55,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48004-4074059-6551713&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Northwestern Wildcats @ Oregon Ducks + Denver Nuggets @ Phoenix Suns",
+      "market_type": "2-leg parlay",
+      "american_odds": 155,
+      "implied_probability": 0.392,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Northwestern Wildcats @ Oregon Ducks",
+          "pick": "Oregon Ducks wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48004-4074059-6551713&type=Single",
+          "commence_time": "2026-10-31T19:30:00Z"
+        },
+        {
+          "matchup": "Denver Nuggets @ Phoenix Suns",
+          "pick": "Denver Nuggets wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20031633-1569446029-2326646612&type=Single",
+          "commence_time": "2026-10-31T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-31T02:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-CB8022A4",
+      "title": "Southern Mississippi Golden Eagles wins + Denver Nuggets wins",
+      "payout": 2.55,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:47969-4074026-6551645&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Southern Mississippi Golden Eagles @ UL Monroe Warhawks + Denver Nuggets @ Phoenix Suns",
+      "market_type": "2-leg parlay",
+      "american_odds": 155,
+      "implied_probability": 0.392,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Southern Mississippi Golden Eagles @ UL Monroe Warhawks",
+          "pick": "Southern Mississippi Golden Eagles wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47969-4074026-6551645&type=Single",
+          "commence_time": "2026-10-31T19:30:00Z"
+        },
+        {
+          "matchup": "Denver Nuggets @ Phoenix Suns",
+          "pick": "Denver Nuggets wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20031633-1569446029-2326646612&type=Single",
+          "commence_time": "2026-10-31T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-31T02:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-411E0571",
+      "title": "Oklahoma Sooners wins + Denver Nuggets wins",
+      "payout": 2.55,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:47964-4074020-6551634&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "South Carolina Gamecocks @ Oklahoma Sooners + Denver Nuggets @ Phoenix Suns",
+      "market_type": "2-leg parlay",
+      "american_odds": 155,
+      "implied_probability": 0.392,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "South Carolina Gamecocks @ Oklahoma Sooners",
+          "pick": "Oklahoma Sooners wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47964-4074020-6551634&type=Single",
+          "commence_time": "2026-10-31T20:15:00Z"
+        },
+        {
+          "matchup": "Denver Nuggets @ Phoenix Suns",
+          "pick": "Denver Nuggets wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20031633-1569446029-2326646612&type=Single",
+          "commence_time": "2026-10-31T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-31T02:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-89F420E0",
+      "title": "Buffalo Bills wins + Denver Nuggets wins",
+      "payout": 2.55,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48492-4204550-6794501&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Baltimore Ravens @ Buffalo Bills + Denver Nuggets @ Phoenix Suns",
+      "market_type": "2-leg parlay",
+      "american_odds": 155,
+      "implied_probability": 0.392,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Buffalo Bills",
+          "pick": "Buffalo Bills wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48492-4204550-6794501&type=Single",
+          "commence_time": "2026-11-01T18:00:00Z"
+        },
+        {
+          "matchup": "Denver Nuggets @ Phoenix Suns",
+          "pick": "Denver Nuggets wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20031633-1569446029-2326646612&type=Single",
+          "commence_time": "2026-10-31T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-31T02:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-9F9C924D",
+      "title": "Dallas Stars +2.5 + Denver Nuggets wins",
+      "payout": 2.55,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20009867-1573097969-2336610975&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Montr\u00e9al Canadiens @ Dallas Stars + Denver Nuggets @ Phoenix Suns",
+      "market_type": "2-leg parlay",
+      "american_odds": 155,
+      "implied_probability": 0.392,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Montr\u00e9al Canadiens @ Dallas Stars",
+          "pick": "Dallas Stars +2.5",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009867-1573097969-2336610975&type=Single",
+          "commence_time": "2026-10-30T00:08:32Z"
+        },
+        {
+          "matchup": "Denver Nuggets @ Phoenix Suns",
+          "pick": "Denver Nuggets wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20031633-1569446029-2326646612&type=Single",
+          "commence_time": "2026-10-31T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-30T00:08:32Z"
+    },
+    {
+      "ticker": "PARLAY-980DFBE8",
+      "title": "Under 6.5 + Denver Nuggets wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20009860-1573083011-2336571438&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Columbus Blue Jackets @ Carolina Hurricanes + Denver Nuggets @ Phoenix Suns",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.387,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Columbus Blue Jackets @ Carolina Hurricanes",
+          "pick": "Under 6.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009860-1573083011-2336571438&type=Single",
+          "commence_time": "2026-10-29T23:08:28Z"
+        },
+        {
+          "matchup": "Denver Nuggets @ Phoenix Suns",
+          "pick": "Denver Nuggets wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20031633-1569446029-2326646612&type=Single",
+          "commence_time": "2026-10-31T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-29T23:08:28Z"
+    },
+    {
+      "ticker": "PARLAY-40D0020E",
+      "title": "Vancouver Canucks +1.5 + Denver Nuggets wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20009148-1566778808-2319320902&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Vancouver Canucks @ San Jose Sharks + Denver Nuggets @ Phoenix Suns",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.387,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Vancouver Canucks @ San Jose Sharks",
+          "pick": "Vancouver Canucks +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20009148-1566778808-2319320902&type=Single",
+          "commence_time": "2026-10-30T02:10:00Z"
+        },
+        {
+          "matchup": "Denver Nuggets @ Phoenix Suns",
+          "pick": "Denver Nuggets wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20031633-1569446029-2326646612&type=Single",
+          "commence_time": "2026-10-31T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-30T02:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-D9A2F32F",
+      "title": "Under 3.5 + Denver Nuggets wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7899826-207241893-802933130&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "New York Red Bulls @ Nashville SC + Denver Nuggets @ Phoenix Suns",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.387,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York Red Bulls @ Nashville SC",
+          "pick": "Under 3.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7899826-207241893-802933130&type=Single",
+          "commence_time": "2026-11-01T21:30:00Z"
+        },
+        {
+          "matchup": "Denver Nuggets @ Phoenix Suns",
+          "pick": "Denver Nuggets wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20031633-1569446029-2326646612&type=Single",
+          "commence_time": "2026-10-31T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-31T02:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-D5A93BBB",
+      "title": "Oregon Ducks wins + Southern Mississippi Golden Eagles wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48004-4074059-6551713&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Northwestern Wildcats @ Oregon Ducks + Southern Mississippi Golden Eagles @ UL Monroe Warhawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Northwestern Wildcats @ Oregon Ducks",
+          "pick": "Oregon Ducks wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48004-4074059-6551713&type=Single",
+          "commence_time": "2026-10-31T19:30:00Z"
+        },
+        {
+          "matchup": "Southern Mississippi Golden Eagles @ UL Monroe Warhawks",
+          "pick": "Southern Mississippi Golden Eagles wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47969-4074026-6551645&type=Single",
+          "commence_time": "2026-10-31T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-31T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-4C4D0D7F",
+      "title": "Oregon Ducks wins + Oklahoma Sooners wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48004-4074059-6551713&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Northwestern Wildcats @ Oregon Ducks + South Carolina Gamecocks @ Oklahoma Sooners",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Northwestern Wildcats @ Oregon Ducks",
+          "pick": "Oregon Ducks wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48004-4074059-6551713&type=Single",
+          "commence_time": "2026-10-31T19:30:00Z"
+        },
+        {
+          "matchup": "South Carolina Gamecocks @ Oklahoma Sooners",
+          "pick": "Oklahoma Sooners wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47964-4074020-6551634&type=Single",
+          "commence_time": "2026-10-31T20:15:00Z"
+        }
+      ],
+      "close_time": "2026-10-31T19:30:00Z"
+    }
+  ]
+}
