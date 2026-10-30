@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-30T18:51:45.351740+00:00",
+          "tweet_id": "2116241663467171989",
+          "reply_tweet_id": "2116241665312624737"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "20598271",
+        "page": "https://www.pexels.com/photo/palm-tree-near-blocks-of-flats-at-night-20598271/",
+        "photographer": "Yi\u011fit  KARAAL\u0130O\u011eLU",
+        "license": "Pexels License",
+        "phrases": [
+          "Miami skyline dusk balcony",
+          "empty elevator lobby night"
+        ],
+        "tokens": {
+          "input_tokens": 3862,
+          "output_tokens": 34
         }
       }
     },
