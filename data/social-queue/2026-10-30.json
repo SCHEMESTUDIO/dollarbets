@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-31T20:36:34.879621+00:00",
+          "tweet_id": "2116630431688708103",
+          "reply_tweet_id": "2116630433307738363"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "12548694",
+        "page": "https://www.pexels.com/photo/3d-rendering-12548694/",
+        "photographer": "Yusuf P",
+        "license": "Pexels License",
+        "phrases": [
+          "empty baseball stadium dusk",
+          "server room dark aisle"
+        ],
+        "tokens": {
+          "input_tokens": 3855,
+          "output_tokens": 31
         }
       }
     }
