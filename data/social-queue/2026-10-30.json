@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-10-31T17:55:42.746433+00:00",
+          "tweet_id": "2116589947666714808",
+          "reply_tweet_id": "2116589949386441039"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "11903171",
+        "page": "https://www.pexels.com/photo/brown-dunes-in-the-desert-11903171/",
+        "photographer": "\u5149\u66e6 \u5218",
+        "license": "Pexels License",
+        "phrases": [
+          "red desert dunes dusk",
+          "shipping containers port night"
+        ],
+        "tokens": {
+          "input_tokens": 4096,
+          "output_tokens": 29
         }
       }
     },
