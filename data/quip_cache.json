@@ -1,89 +1,4 @@
 {
-  "SB-3A32FDF8": {
-    "title": "Eagles win in Washington tonight",
-    "quip": "the Tush Push doesn't care about your defensive front",
-    "cached_at": "2026-10-27T13:56:50.496438+00:00"
-  },
-  "SB-E6FCFE9B": {
-    "title": "Heat upset Celtics in Boston",
-    "quip": "Spoelstra draws up something illegal on a napkin",
-    "cached_at": "2026-10-27T13:56:50.496438+00:00"
-  },
-  "SB-1EFB380B": {
-    "title": "Cardinals shock Cowboys in Dallas",
-    "quip": "Dallas defense gives up yardage like it's a parking lot",
-    "cached_at": "2026-10-27T13:56:50.496438+00:00"
-  },
-  "SB-161F98C9": {
-    "title": "Bruins beat Carolina by two or more",
-    "quip": "Swayman stands on his head in Raleigh",
-    "cached_at": "2026-10-27T13:56:50.496438+00:00"
-  },
-  "SB-77B1810E": {
-    "title": "Pistons blow out Knicks by 14+",
-    "quip": "Cade Cunningham turning the Garden into a library",
-    "cached_at": "2026-10-27T13:56:50.496438+00:00"
-  },
-  "SB-04DAE603": {
-    "title": "Celtics bury Nets by 34+",
-    "quip": "Brooklyn's roster is a rebuild spreadsheet in shorts",
-    "cached_at": "2026-10-27T13:56:50.496438+00:00"
-  },
-  "SB-FD086967": {
-    "title": "Kings beat Spurs by 8+ in San Antonio",
-    "quip": "Sabonis out-rebounding Wembanyama is the whole movie",
-    "cached_at": "2026-10-27T13:56:50.496438+00:00"
-  },
-  "SB-178D1A76": {
-    "title": "Blue Jackets crush Flyers by six",
-    "quip": "Columbus hangs a touchdown on Broad Street, Rocky weeps",
-    "cached_at": "2026-10-27T13:56:50.496438+00:00"
-  },
-  "SB-B102FA3F": {
-    "title": "Nets steal one in Boston tonight",
-    "quip": "even the Garden parquet gets tired of banner talk",
-    "cached_at": "2026-10-27T13:56:58.961272+00:00"
-  },
-  "SB-0B86F56E": {
-    "title": "Kings upset Wembanyama and the Spurs",
-    "quip": "DeMar's ghost still haunts the Alamo",
-    "cached_at": "2026-10-27T13:56:58.961272+00:00"
-  },
-  "SB-937FBCEE": {
-    "title": "Sport take down KalPa in Liiga road trip",
-    "quip": "a team literally named Sport deserves one",
-    "cached_at": "2026-10-27T13:57:09.061788+00:00"
-  },
-  "SB-F138A06F": {
-    "title": "Arar Andales upsets Raito Kataoka",
-    "quip": "Filipino power punching travels well",
-    "cached_at": "2026-10-27T13:57:09.061788+00:00"
-  },
-  "SB-72E5BEB6": {
-    "title": "Miyo Yoshida shocks Skye Nicolson",
-    "quip": "someone finally cracks the Australian's featherweight fairy tale",
-    "cached_at": "2026-10-27T13:57:09.061788+00:00"
-  },
-  "SB-2A10B637": {
-    "title": "Commanders handle the Eagles tonight",
-    "quip": "Jayden Daniels keeps writing the NFC East script",
-    "cached_at": "2026-10-27T13:57:18.258988+00:00"
-  },
-  "SB-11AD7976": {
-    "title": "Sharks stay within a goal of the Sabres",
-    "quip": "Macklin Celebrini doesn't let it get ugly",
-    "cached_at": "2026-10-27T13:57:18.258988+00:00"
-  },
-  "SB-8492D65C": {
-    "title": "Rays keep it close against the Brewers",
-    "quip": "the Trop crowd gets a competitive nine innings",
-    "cached_at": "2026-10-27T13:57:18.258988+00:00"
-  },
-  "SB-5183A073": {
-    "title": "Knicks take care of the Pistons at the Garden",
-    "quip": "Brunson does Brunson things on 33rd Street",
-    "cached_at": "2026-10-27T13:57:18.258988+00:00"
-  },
   "SB-91C36A1F": {
     "title": "Brewers beat Rays by two or more tonight",
     "quip": "Milwaukee's rotation treats the Trop like a bullpen session",
@@ -958,5 +873,85 @@
     "title": "Canadiens beat the Penguins at the Bell Centre",
     "quip": "Caufield and Suzuki against Crosby's farewell tour math",
     "cached_at": "2026-10-31T01:30:05.415026+00:00"
+  },
+  "SB-53AAD8A9": {
+    "title": "City and Brighton pile on four-plus goals tonight",
+    "quip": "Haaland treats the Etihad like a shooting range",
+    "cached_at": "2026-10-31T14:16:41.310449+00:00"
+  },
+  "SB-9CD1E3E4": {
+    "title": "Lightning beat Predators by two or more",
+    "quip": "Kucherov stacks assists like Nashville stacks honky-tonks",
+    "cached_at": "2026-10-31T14:16:41.310449+00:00"
+  },
+  "SB-004C33CB": {
+    "title": "Oilers bury the Islanders by two-plus",
+    "quip": "McDavid at full speed is a Long Island parking violation",
+    "cached_at": "2026-10-31T14:16:41.310449+00:00"
+  },
+  "SB-3BC5CE9E": {
+    "title": "Boston College upsets Duke on the road",
+    "quip": "Duke still thinks football is a basketball warmup",
+    "cached_at": "2026-10-31T14:16:41.310449+00:00"
+  },
+  "SB-58382E08": {
+    "title": "Jazz handle the Blazers in Salt Lake",
+    "quip": "Lauri Markkanen enjoys the thin mountain air",
+    "cached_at": "2026-10-31T14:16:41.310449+00:00"
+  },
+  "SB-6B25FCA8": {
+    "title": "Rutgers shocks Michigan in Piscataway",
+    "quip": "Greg Schiano has been building toward this since 2005",
+    "cached_at": "2026-10-31T14:16:41.310449+00:00"
+  },
+  "SB-CB4D3865": {
+    "title": "Red Wings blow out the Blues by five",
+    "quip": "Hockeytown demands a Gordie Howe-sized statement",
+    "cached_at": "2026-10-31T14:16:41.310449+00:00"
+  },
+  "SB-E0FD32DE": {
+    "title": "Hornets and Sixers grind out an ugly under",
+    "quip": "two teams playing defense would be the real miracle",
+    "cached_at": "2026-10-31T14:16:41.310449+00:00"
+  },
+  "SB-E3E4841D": {
+    "title": "Stanford stuns Louisville on the road",
+    "quip": "Cardinal beats Cardinals, Audubon society stays neutral",
+    "cached_at": "2026-10-31T14:16:48.799807+00:00"
+  },
+  "SB-7717356B": {
+    "title": "Ilves skate past KalPa by two tonight",
+    "quip": "Tampere ice is colder for Kuopio visitors",
+    "cached_at": "2026-10-31T14:17:02.302889+00:00"
+  },
+  "SB-08AFFE07": {
+    "title": "JYP bury Jokerit by two in Jyv\u00e4skyl\u00e4",
+    "quip": "Jokerit's wandering circus parks in the wrong barn",
+    "cached_at": "2026-10-31T14:17:02.302889+00:00"
+  },
+  "SB-E5544C9F": {
+    "title": "Blue Bombers win in Toronto tonight",
+    "quip": "Zach Collaros loves a quiet Argos crowd",
+    "cached_at": "2026-10-31T14:17:02.302889+00:00"
+  },
+  "SB-D2C1872A": {
+    "title": "Vitoria stun Coritiba on the road",
+    "quip": "Barrad\u00e3o energy packed into the away kit",
+    "cached_at": "2026-10-31T14:17:02.302889+00:00"
+  },
+  "SB-BC83478C": {
+    "title": "Fenerbahce and Goztepe settle for a draw",
+    "quip": "Kad\u0131k\u00f6y roar fades into a shrug by minute 85",
+    "cached_at": "2026-10-31T14:17:02.302889+00:00"
+  },
+  "SB-5BEDC649": {
+    "title": "Blandon shocks Espinoza in title upset",
+    "quip": "Panama's answer to Buster Douglas, allegedly",
+    "cached_at": "2026-10-31T14:17:02.302889+00:00"
+  },
+  "SB-8B7F3D78": {
+    "title": "Spurs handle Crystal Palace at home",
+    "quip": "Palace left their cup-final magic in the cupboard",
+    "cached_at": "2026-10-31T14:17:10.029013+00:00"
   }
 }
