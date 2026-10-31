@@ -1,0 +1,435 @@
+{
+  "generated_at": "2026-10-31T01:30:13.893465+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 10
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-4C921010",
+      "title": "Atlanta Hawks wins + Southern Mississippi Golden Eagles wins",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20031636-1569446039-2326646620&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Atlanta Hawks @ New Orleans Pelicans + Southern Mississippi Golden Eagles @ UL Monroe Warhawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Hawks @ New Orleans Pelicans",
+          "pick": "Atlanta Hawks wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20031636-1569446039-2326646620&type=Single",
+          "commence_time": "2026-10-31T23:10:00Z"
+        },
+        {
+          "matchup": "Southern Mississippi Golden Eagles @ UL Monroe Warhawks",
+          "pick": "Southern Mississippi Golden Eagles wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47969-4074026-6551645&type=Single",
+          "commence_time": "2026-10-31T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-31T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-450C61C8",
+      "title": "Columbus Blue Jackets +1.5 + Southern Mississippi Golden Eagles wins",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20008815-1566740857-2319206240&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Columbus Blue Jackets @ Dallas Stars + Southern Mississippi Golden Eagles @ UL Monroe Warhawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Columbus Blue Jackets @ Dallas Stars",
+          "pick": "Columbus Blue Jackets +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20008815-1566740857-2319206240&type=Single",
+          "commence_time": "2026-11-01T00:10:00Z"
+        },
+        {
+          "matchup": "Southern Mississippi Golden Eagles @ UL Monroe Warhawks",
+          "pick": "Southern Mississippi Golden Eagles wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47969-4074026-6551645&type=Single",
+          "commence_time": "2026-10-31T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-31T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-DC269248",
+      "title": "Under 3.5 + Southern Mississippi Golden Eagles wins",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7898715-207243956-802942012&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Real Salt Lake @ San Jose Earthquakes + Southern Mississippi Golden Eagles @ UL Monroe Warhawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Real Salt Lake @ San Jose Earthquakes",
+          "pick": "Under 3.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7898715-207243956-802942012&type=Single",
+          "commence_time": "2026-10-31T21:00:00Z"
+        },
+        {
+          "matchup": "Southern Mississippi Golden Eagles @ UL Monroe Warhawks",
+          "pick": "Southern Mississippi Golden Eagles wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47969-4074026-6551645&type=Single",
+          "commence_time": "2026-10-31T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-31T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-5D60BF9E",
+      "title": "Under 3.5 + Southern Mississippi Golden Eagles wins",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7899657-207243881-802941795&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Seattle Sounders FC @ Vancouver Whitecaps FC + Southern Mississippi Golden Eagles @ UL Monroe Warhawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Seattle Sounders FC @ Vancouver Whitecaps FC",
+          "pick": "Under 3.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7899657-207243881-802941795&type=Single",
+          "commence_time": "2026-11-01T20:30:00Z"
+        },
+        {
+          "matchup": "Southern Mississippi Golden Eagles @ UL Monroe Warhawks",
+          "pick": "Southern Mississippi Golden Eagles wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47969-4074026-6551645&type=Single",
+          "commence_time": "2026-10-31T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-31T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-BDD34E8E",
+      "title": "Under 3.5 + Southern Mississippi Golden Eagles wins",
+      "payout": 2.61,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7899826-207241893-802933130&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "New York Red Bulls @ Nashville SC + Southern Mississippi Golden Eagles @ UL Monroe Warhawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 161,
+      "implied_probability": 0.383,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York Red Bulls @ Nashville SC",
+          "pick": "Under 3.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7899826-207241893-802933130&type=Single",
+          "commence_time": "2026-11-01T21:30:00Z"
+        },
+        {
+          "matchup": "Southern Mississippi Golden Eagles @ UL Monroe Warhawks",
+          "pick": "Southern Mississippi Golden Eagles wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47969-4074026-6551645&type=Single",
+          "commence_time": "2026-10-31T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-31T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-FE64F306",
+      "title": "Los Angeles Lakers wins + Southern Mississippi Golden Eagles wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20031632-1569446026-2326646610&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Los Angeles Lakers @ Golden State Warriors + Southern Mississippi Golden Eagles @ UL Monroe Warhawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.379,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Los Angeles Lakers @ Golden State Warriors",
+          "pick": "Los Angeles Lakers wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20031632-1569446026-2326646610&type=Single",
+          "commence_time": "2026-10-31T02:10:00Z"
+        },
+        {
+          "matchup": "Southern Mississippi Golden Eagles @ UL Monroe Warhawks",
+          "pick": "Southern Mississippi Golden Eagles wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47969-4074026-6551645&type=Single",
+          "commence_time": "2026-10-31T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-31T02:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-F9591A2E",
+      "title": "Montr\u00e9al Canadiens wins + Southern Mississippi Golden Eagles wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20008811-1566740663-2319205582&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Pittsburgh Penguins @ Montr\u00e9al Canadiens + Southern Mississippi Golden Eagles @ UL Monroe Warhawks",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.379,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Pittsburgh Penguins @ Montr\u00e9al Canadiens",
+          "pick": "Montr\u00e9al Canadiens wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20008811-1566740663-2319205582&type=Single",
+          "commence_time": "2026-10-31T23:10:00Z"
+        },
+        {
+          "matchup": "Southern Mississippi Golden Eagles @ UL Monroe Warhawks",
+          "pick": "Southern Mississippi Golden Eagles wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47969-4074026-6551645&type=Single",
+          "commence_time": "2026-10-31T19:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-31T19:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-11E7E076",
+      "title": "Atlanta Hawks wins + Columbus Blue Jackets +1.5",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20031636-1569446039-2326646620&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Atlanta Hawks @ New Orleans Pelicans + Columbus Blue Jackets @ Dallas Stars",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Hawks @ New Orleans Pelicans",
+          "pick": "Atlanta Hawks wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20031636-1569446039-2326646620&type=Single",
+          "commence_time": "2026-10-31T23:10:00Z"
+        },
+        {
+          "matchup": "Columbus Blue Jackets @ Dallas Stars",
+          "pick": "Columbus Blue Jackets +1.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20008815-1566740857-2319206240&type=Single",
+          "commence_time": "2026-11-01T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-10-31T23:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-84C4987F",
+      "title": "Atlanta Hawks wins + Under 3.5",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20031636-1569446039-2326646620&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Atlanta Hawks @ New Orleans Pelicans + Real Salt Lake @ San Jose Earthquakes",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Hawks @ New Orleans Pelicans",
+          "pick": "Atlanta Hawks wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20031636-1569446039-2326646620&type=Single",
+          "commence_time": "2026-10-31T23:10:00Z"
+        },
+        {
+          "matchup": "Real Salt Lake @ San Jose Earthquakes",
+          "pick": "Under 3.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7898715-207243956-802942012&type=Single",
+          "commence_time": "2026-10-31T21:00:00Z"
+        }
+      ],
+      "close_time": "2026-10-31T21:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-EC84EE9B",
+      "title": "Atlanta Hawks wins + Under 3.5",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20031636-1569446039-2326646620&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Atlanta Hawks @ New Orleans Pelicans + Seattle Sounders FC @ Vancouver Whitecaps FC",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Atlanta Hawks @ New Orleans Pelicans",
+          "pick": "Atlanta Hawks wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20031636-1569446039-2326646620&type=Single",
+          "commence_time": "2026-10-31T23:10:00Z"
+        },
+        {
+          "matchup": "Seattle Sounders FC @ Vancouver Whitecaps FC",
+          "pick": "Under 3.5",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7899657-207243881-802941795&type=Single",
+          "commence_time": "2026-11-01T20:30:00Z"
+        }
+      ],
+      "close_time": "2026-10-31T23:10:00Z"
+    }
+  ]
+}

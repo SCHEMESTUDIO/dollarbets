@@ -1,0 +1,597 @@
+{
+  "generated_at": "2026-10-31T01:29:15.777759+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket": 5
+  },
+  "board": [
+    {
+      "ticker": "0x1c4758cb0c76381eabb3a3ead2db00c6d1718b927c758870845789b729cebdac",
+      "title": "SPD joins the next Berlin government",
+      "subtitle": "",
+      "payout": 1.63,
+      "tier": "green",
+      "quip": "like hanging a banner for making the play-in",
+      "yes_price": "0.6145",
+      "volume": 9539.905877,
+      "category": "World",
+      "close_time": "2026-09-21T03:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/which-parties-will-be-in-next-berlin-state-government",
+      "platform": "polymarket",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "i have no business having a Berlin coalition opinion and yet here i am",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "four weeks of talks, one joint press conference, everybody walks out looking slapped",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "junior partner forever",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "like hanging a banner for making the play-in",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "coalition math is the most underrated sport in Europe and i will die on this",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "\"we will govern with responsibility.\" sir you got eighteen percent",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "Berlin can't open an airport but sure, assemble a cabinet",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "pays $1.63, roughly what a Berlin beer cost before everyone discovered Berlin",
+          "mode": 5,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXMETEOR-30",
+      "title": "A major meteor strikes Earth before 2030",
+      "subtitle": "Large meteor strike",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 2.13,
+      "tier": "green",
+      "quip": "let it land on an outlet mall, we have plenty",
+      "yes_price": "0.4700",
+      "volume": 158285.0,
+      "category": "Science and Technology",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXMETEOR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 101.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i clicked yes and then quietly googled where the nearest basement is",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "the sky flashes and six podcasts launch before the dust even lands",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "this is the stretch of Don't Look Up where everyone just keeps scrolling",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "rocks have been patient",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "$2.13 to watch the sky do a full Michael Bay",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "\"it's a very small meteor. tiny. tremendous crater though\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "let it land on an outlet mall, we have plenty",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "a space rock ending the discourse is the most exciting thing on this board",
+          "mode": 3,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "ticker": "0x034c380e3e3537e3c5ed01b4b46fda90cd3bdb4a237d90889bdfc49e2eb59cfb",
+      "title": "Von der Leyen visits Ukraine before 2027",
+      "subtitle": "",
+      "payout": 2.44,
+      "tier": "green",
+      "quip": "like your principal showing up in the third quarter to be seen",
+      "yes_price": "0.4100",
+      "volume": 95525.163453,
+      "category": "Science and Technology",
+      "close_time": "2027-01-01T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/who-will-visit-ukraine-by-december-31-20260729205841876",
+      "platform": "polymarket",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i genuinely thought she lived on that train at this point",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "overnight from Przemy\u015bl, flak jacket photo, funding announcement, back in Brussels by Friday",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "another sleeper train booked",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "like your principal showing up in the third quarter to be seen",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "$2.44 says Brussels keeps one very specific gray blazer on standby",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "i love a head of state who commutes to a war zone by rail",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "\"as long as it takes.\" slide six of the same deck, every time",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "the press pool arrives before the artillery does",
+          "mode": 7,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xde0a3f43eb86d7f614d92c8fe01fa9514dbc2aa91d25887076de32ac801bb4dc",
+      "title": "USD/JPY drops to 150 this year",
+      "subtitle": "",
+      "payout": 4.55,
+      "tier": "yellow",
+      "quip": "my first apartment, my bench press, and now the yen. all 150",
+      "yes_price": "0.2200",
+      "volume": 9606.865131999997,
+      "category": "Other",
+      "close_time": "2026-12-31T00:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/will-usdjpy-hit-in-2026-479",
+      "platform": "polymarket",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "i have lost money on the yen under three different presidents",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "a BOJ guy clears his throat and Tokyo loses its entire mind",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "yen remembers it exists",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "my first apartment, my bench press, and now the yen. all 150",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "a yen rally is Rutgers covering. it happens and nobody knows what to say",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "nothing wakes me up like a 3am intervention headline, genuinely electric",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "everybody who booked Tokyo for the cheap ramen is about to find out",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we are watching moves with a high sense of urgency\" and that's the entire statement",
+          "mode": 4,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x22818c9a43965f280f08e22667605df6418f3f5e621f206393931fd89e63c266",
+      "title": "Democrats win OH-13 by 20 to 25 points",
+      "subtitle": "",
+      "payout": 5.71,
+      "tier": "yellow",
+      "quip": "Ohio agreeing to be interesting for one single evening",
+      "yes_price": "0.1750",
+      "volume": 9990.406616,
+      "category": "World",
+      "close_time": "2026-11-04T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.com/event/oh-13-house-margin-of-victory-2026",
+      "platform": "polymarket",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "i could not find Ohio's 13th on a map and i have takes anyway",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Akron throws a party and the DNC emails about it before the balloons drop",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "Akron said enough",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "has to land between 20 and 25, so win by 26 and we all go home sad",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "covering a spread you also have to stay under, the worst parlay ever invented",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "LeBron's hometown going plus 22 is exactly the kind of thing he subtweets",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Ohio agreeing to be interesting for one single evening",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "a margin with a floor AND a ceiling, i'm sweating already",
+          "mode": 3,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "ticker": "KXUAPFILES-26OCT27-26NOV15",
+      "title": "Trump drops new UFO files this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Nov 15, 2026",
+      "no_sub_title": "Before Nov 15, 2026",
+      "payout": 6.25,
+      "tier": "yellow",
+      "quip": "\"they showed me the file. i said that is a lot of pages for a weather balloon\"",
+      "yes_price": "0.1600",
+      "volume": 0.0,
+      "category": "Politics",
+      "close_time": "2026-11-15T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUAPFILES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 77.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "\"they showed me the file. i said that is a lot of pages for a weather balloon\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "documents drop, ninety percent blacked out, Rogan books three guests before lunch",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i will read every page, understand nothing, and explain it to people anyway",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "redactions have redactions",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "somewhere a neuralyzer is blinking red on low battery",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "Nevada tourism quietly ordering more t-shirts",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "$6.25 for proof we're not alone and my cousin still won't text back",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "i want the grainy photo. i want it so badly it's embarrassing",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "STARSHIPMARS-29DEC31",
+      "title": "Starship puts humans on Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Not Before 2030",
+      "payout": 8.33,
+      "tier": "orange",
+      "quip": "four people, one toilet, seven months, and one guy who brought a guitar",
+      "yes_price": "0.1200",
+      "volume": 55056.69,
+      "category": "Companies",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 109.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i'll be watching this on a cracked phone in a Costco parking lot",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "four people, one toilet, seven months, and one guy who brought a guitar",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "launch window says no",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "first thing they do is play a recording of their kids and sob",
+          "mode": 8,
+          "score": 5.5
+        },
+        {
+          "quip": "eight bucks says humanity relocates before my lease is up",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we are targeting 2028\" which in his calendar is somewhere around 2041",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "a person standing on another planet before i turn forty is so sick",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "Boca Chica about to be the most important town in Texas, somehow",
+          "mode": 7,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXMSPSNOWM-26DEC-24",
+      "title": "Minneapolis gets over two feet of snow in December",
+      "subtitle": "In Dec 2026",
+      "yes_sub_title": "Above 24 inches",
+      "no_sub_title": "Above 24 inches",
+      "payout": 9.09,
+      "tier": "orange",
+      "quip": "two feet falls, the Vikings lose indoors, nobody mentions either thing again",
+      "yes_price": "0.1100",
+      "volume": 202.0,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T05:59:00Z",
+      "url": "https://kalshi.com/markets/KXMSPSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 89.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i left the midwest specifically to avoid this and i still check the radar",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "two feet falls, the Vikings lose indoors, nobody mentions either thing again",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "skyways earning their keep",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "the opening shot of Fargo except it's just a guy's commute",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "24 inches and a $9.09 payout, the only two numbers Minnesota respects",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "a city absorbing a blizzard and clocking in on time is beautiful to me",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "Wisconsin gets the same storm and will not shut up about it",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "two feet up there is a light jacket and a mild inconvenience",
+          "mode": 6,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXPOPESWIFT-27",
+      "title": "Taylor Swift meets Pope Leo XIV before 2027",
+      "subtitle": "Before Jan 1, 2027",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 20.0,
+      "tier": "red",
+      "quip": "Travis waiting in the car",
+      "yes_price": "0.0500",
+      "volume": 22096.47,
+      "category": "Politics",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXPOPESWIFT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the Vatican gift shop is stocking friendship bracelets by Tuesday",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "my mother would combust and i would be the one driving her to Rome",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Travis waiting in the car",
+          "mode": 9,
+          "score": 9
+        },
+        {
+          "quip": "\"we discussed the Eras Tour. she was lovely. very devout\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "the Met Gala but the dress code is actually enforced this time",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "twenty bucks says the swifties learn what a conclave is",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "pope and popstar in one frame would break my feed and i'd thank them",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "cardinals pretending they don't know every word of Cruel Summer",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x0808de4f0cfd47947f2d1be51f9a9c52ea0fec76f73a75cfbe79ddec98d8a908",
+      "title": "Democrats take the Senate, Republicans hold the House",
+      "subtitle": "",
+      "payout": 153.85,
+      "tier": "purple",
+      "quip": "pays 153 to 1, roughly the number of bills that would reach a desk",
+      "yes_price": "0.0065",
+      "volume": 9315007.455040997,
+      "category": "Other",
+      "close_time": "2026-11-04T04:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.com/event/balance-of-power-2026-midterms",
+      "platform": "polymarket",
+      "score": 55.0,
+      "quip_alts": [
+        {
+          "quip": "i have drawn this map on a napkin twice and it never survives contact",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "two years of nothing passing and both sides calling it a mandate",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "congress achieves perfect stalemate",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "pays 153 to 1, roughly the number of bills that would reach a desk",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "an Avengers lineup where every single one of them hates the others",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "calling a 15 seed and a 16 seed on the same bracket line",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "America voting for maximum inconvenience, as is the tradition",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "honestly a split like this would be the best television in years",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    }
+  ]
+}
