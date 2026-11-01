@@ -1,0 +1,604 @@
+{
+  "date": "2026-11-01",
+  "saved_at": "2026-11-01T10:01:47.726014+00:00",
+  "board_generated_at": "2026-11-01T00:44:56.194835+00:00",
+  "quip_pipeline": "v2",
+  "counts": {
+    "ship": 6,
+    "tweak": 1,
+    "alt": 2,
+    "mine": 1
+  },
+  "markets": [
+    {
+      "ticker": "KXHARVARDFUNDAPPEAL-HHS29",
+      "title": "The First Circuit fully affirms the Harvard funding ruling",
+      "category": "Politics",
+      "payout": 1.61,
+      "tier": "green",
+      "platform": "kalshi",
+      "shipped": "$1.61 is roughly what Harvard earns in interest while you read this",
+      "shipped_score": 8.5,
+      "shipped_mode": 5,
+      "pick": "ship",
+      "final": "$1.61 is roughly what Harvard earns in interest while you read this",
+      "edit": null,
+      "alt_index": null,
+      "alt_score": null,
+      "alt_mode": null,
+      "candidates": [
+        {
+          "quip": "the endowment guy exhales for the first time since March",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "i went to community college and somehow i'm still paying for this",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "crimson stays liquid",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "$1.61 is roughly what Harvard earns in interest while you read this",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the Social Network but it's three judges in Boston reading a PDF",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "Yale quietly praying for a remand",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "\"we have reviewed the record. you still can't get in\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "my cousin got waitlisted in 2011 and brings it up every Thanksgiving",
+          "mode": 2,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "0xb395b8d3e51a31c7b16137ea8754fe58d7212b44db924d104c4af5cecfc6911e",
+      "title": "Democrats win exactly 11 Pennsylvania House seats",
+      "category": "World",
+      "payout": 2.41,
+      "tier": "green",
+      "platform": "polymarket",
+      "shipped": "like calling the exact final score of a Big Ten mudfight",
+      "shipped_score": 8.5,
+      "shipped_mode": 6,
+      "pick": "ship",
+      "final": "like calling the exact final score of a Big Ten mudfight",
+      "edit": null,
+      "alt_index": null,
+      "alt_score": null,
+      "alt_mode": null,
+      "candidates": [
+        {
+          "quip": "EXACTLY eleven. i want this with a specificity that frightens me",
+          "mode": 2,
+          "score": 5
+        },
+        {
+          "quip": "Pennsylvania counts for nine days, then someone finds a tote bag in Erie",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "Scranton doing numbers again",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "eleven seats, 2.41 payout, both numbers appear on Fetterman's hoodie",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "like calling the exact final score of a Big Ten mudfight",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Philly votes, Pittsburgh votes, the middle votes for a guy named Gus",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "\"eleven seats. not a joke, folks. not a joke\"",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "a number that precise should be illegal and i'm obsessed with it",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXBOSSNOWM-26DEC-10",
+      "title": "Boston gets over 10 inches of snow next December",
+      "category": "Climate and Weather",
+      "payout": 2.94,
+      "tier": "green",
+      "platform": "kalshi",
+      "shipped": "the sad Ben Affleck paparazzi photo except now it's snowing on him",
+      "shipped_score": 8.5,
+      "shipped_mode": 8,
+      "pick": "ship",
+      "final": "the sad Ben Affleck paparazzi photo except now it's snowing on him",
+      "edit": null,
+      "alt_index": null,
+      "alt_score": null,
+      "alt_mode": null,
+      "candidates": [
+        {
+          "quip": "Market Basket out of bread by Tuesday, fistfight in aisle six",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i own a shovel exclusively for moments like this",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "space savers deployed",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "Boston earns its weather the way it earns everything, loudly",
+          "mode": 7,
+          "score": 5.5
+        },
+        {
+          "quip": "\"ten inches? that's a Tuesday, kid. pahk the cah\"",
+          "mode": 4,
+          "score": 5.5
+        },
+        {
+          "quip": "ten inches, and the channel 7 guy calls it the Storm of the Century",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "the sad Ben Affleck paparazzi photo except now it's snowing on him",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "a nor'easter is just winter hitting a walk-off",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x8370df67e2e6eb6e1ea37bd8a63c69f0e9c85f4cc7c645211f5675ed907b0319",
+      "title": "Ashton Jeanty clears 974.5 rushing yards next season",
+      "category": "Sports",
+      "payout": 4.65,
+      "tier": "yellow",
+      "platform": "polymarket",
+      "shipped": "thirty carries, two hundred yards, Raiders punt from the 40 anyway",
+      "shipped_score": 8.5,
+      "shipped_mode": 1,
+      "pick": "alt",
+      "final": "feed him, cowards",
+      "edit": null,
+      "alt_index": 2,
+      "alt_score": 6.5,
+      "alt_mode": 9,
+      "candidates": [
+        {
+          "quip": "i drafted him in the second round and i have not slept since",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "thirty carries, two hundred yards, Raiders punt from the 40 anyway",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "feed him, cowards",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "974.5. that half yard is where my money goes to die",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "the Boise State pipeline producing while Vegas produces absolutely nothing",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "every yard earned against eleven defenders and zero blockers",
+          "mode": 7,
+          "score": 6
+        },
+        {
+          "quip": "blue turf kid lands in a casino town. that's a Scorsese cold open",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "a thousand-yard back in Las Vegas is a genuine civic miracle",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "0x20e7f138b0bcba2503d04b2a1c1f8517305f3bfb908ea1a99ec926d9b98709f9",
+      "title": "Betmoar launches a token by 2027",
+      "category": "Other",
+      "payout": 5.41,
+      "tier": "yellow",
+      "platform": "polymarket",
+      "shipped": "this is the part of Goodfellas where everybody suddenly buys a boat",
+      "shipped_score": 8.5,
+      "shipped_mode": 8,
+      "pick": "ship",
+      "final": "this is the part of Goodfellas where everybody suddenly buys a boat",
+      "edit": null,
+      "alt_index": null,
+      "alt_score": null,
+      "alt_mode": null,
+      "candidates": [
+        {
+          "quip": "whitepaper arrives in Comic Sans, liquidity arrives never",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i will buy this at 3am and tell absolutely nobody",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "airdrop my beloved",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "launches at $5.41, bottoms at a nickel, relaunches with a new logo",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "\"ser. ser. have you looked at the tokenomics, ser\"",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "naming yourself Betmoar and then shipping a coin is almost honest",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "this is the part of Goodfellas where everybody suddenly buys a boat",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Betmoar. two syllables, one command, i respect the clarity",
+          "mode": 3,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "0xbb0d2443a9c76fce0910ca7a602f3a6d56bc676c9a1b078829fd20a782e2560f",
+      "title": "RFK Jr. leaves the Trump administration before 2027",
+      "category": "World",
+      "payout": 5.56,
+      "tier": "yellow",
+      "platform": "polymarket",
+      "shipped": "podcast circuit by spring, shirtless pushup video by June, supplement line by fall",
+      "shipped_score": 9,
+      "shipped_mode": 1,
+      "pick": "ship",
+      "final": "podcast circuit by spring, shirtless pushup video by June, supplement line by fall",
+      "edit": null,
+      "alt_index": null,
+      "alt_score": null,
+      "alt_mode": null,
+      "candidates": [
+        {
+          "quip": "podcast circuit by spring, shirtless pushup video by June, supplement line by fall",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "i'm not saying i'd miss him. i'm saying the news gets boring",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the worm resigns too",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "\"i have decided to spend more time with the bears\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "like a closer who keeps blowing saves and keeps getting the ball",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "18 percent, which is also how much of my grocery list survived him",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "somewhere a raw milk dairy is checking on its valuation",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "he exits the way Michael Scott exited. three episodes of long goodbye",
+          "mode": 8,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "STARSHIPMARS-29DEC31",
+      "title": "Starship flies humans to Mars before 2030",
+      "category": "Companies",
+      "payout": 8.33,
+      "tier": "orange",
+      "platform": "kalshi",
+      "shipped": "this is the Browns announcing a parade route in August",
+      "shipped_score": 9,
+      "shipped_mode": 6,
+      "pick": "tweak",
+      "final": "like the Browns announcing a parade route in August",
+      "edit": "like the Browns announcing a parade route in August",
+      "alt_index": null,
+      "alt_score": null,
+      "alt_mode": null,
+      "candidates": [
+        {
+          "quip": "they livestream the launch and cut the feed at the worst possible second",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i'd go. i have nothing on until Thursday",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "five years. sure. great",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "Interstellar had better snacks and a worse schedule",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "crew of three, two seats, one guy pretending he loves camping",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"the window opens in 2028\" and closes directly on my hopes",
+          "mode": 4,
+          "score": 6
+        },
+        {
+          "quip": "humans on another planet before i finish my dentist appointments. unbelievable",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "this is the Browns announcing a parade route in August",
+          "mode": 6,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "ticker": "KXELONMARS-99",
+      "title": "Elon Musk sets foot on Mars in his lifetime",
+      "category": "Science and Technology",
+      "payout": 10.0,
+      "tier": "orange",
+      "platform": "kalshi",
+      "shipped": "the owner flying to the away game to give the locker room speech",
+      "shipped_score": 8.5,
+      "shipped_mode": 6,
+      "pick": "ship",
+      "final": "the owner flying to the away game to give the locker room speech",
+      "edit": null,
+      "alt_index": null,
+      "alt_score": null,
+      "alt_mode": null,
+      "candidates": [
+        {
+          "quip": "first post from Mars is a meme and the latency murders the punchline",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i would watch every second of this and complain the entire time",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the ultimate work trip",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "\"yeah so, Mars, uh, probably. i mean it's doable\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "the Martian except the potatoes require a premium subscription",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "the owner flying to the away game to give the locker room speech",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Mars gravity is 38% of Earth's, same percentage of his posting that's sincere",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "a guy from Pretoria standing on a red rock is genuinely cinema",
+          "mode": 3,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA lands a person on the Moon before 2028",
+      "category": "Science and Technology",
+      "payout": 30.3,
+      "tier": "red",
+      "platform": "kalshi",
+      "shipped": "Buzz Aldrin is going to punch somebody again and he will be correct",
+      "shipped_score": 9,
+      "shipped_mode": 8,
+      "pick": "mine",
+      "final": "Helmet comes off and it's Sydney Sweeney and the entire thing was an ad for sports betting.",
+      "edit": "Helmet comes off and it's Sydney Sweeney and the entire thing was an ad for sports betting.",
+      "alt_index": null,
+      "alt_score": null,
+      "alt_mode": null,
+      "candidates": [
+        {
+          "quip": "they land it and immediately plant a flag with a QR code on it",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "my grandfather watched it live in 1969, i get a delayed press release",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the ladder is late",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "the suit is 95 percent finished and has been for nine years",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Buzz Aldrin is going to punch somebody again and he will be correct",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "the Jets of government agencies, but with much better press conferences",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we are targeting 2027\" was also what they said about 2024",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "boots on the moon again and i'm crying in a Wawa parking lot",
+          "mode": 3,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "0xc90894254e1f804e3087e89288d192b529287b7de6e3f5230c06868f7777661d",
+      "title": "Israel blames Iran for the plane stabbing this month",
+      "category": "Other",
+      "payout": 133.33,
+      "tier": "purple",
+      "platform": "polymarket",
+      "shipped": "press conference at four, satellite imagery of seat 14C",
+      "shipped_score": 8.5,
+      "shipped_mode": 1,
+      "pick": "alt",
+      "final": "my flying anxiety did not need a geopolitical subplot",
+      "edit": null,
+      "alt_index": 7,
+      "alt_score": 7.5,
+      "alt_mode": 2,
+      "candidates": [
+        {
+          "quip": "i read this three times and still don't know what happened on that plane",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "press conference at four, satellite imagery of seat 14C",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "oddly specific, this one",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "one dollar turns into 133, same number of acronyms in the statement",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "Clue, except the room is row 14 and nobody agrees on the weapon",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "blaming the away fans before the replay even finishes loading",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we have the evidence. we will present it at a later date\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "my flying anxiety did not need a geopolitical subplot",
+          "mode": 2,
+          "score": 7.5
+        }
+      ]
+    }
+  ]
+}

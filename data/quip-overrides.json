@@ -82,7 +82,7 @@
   },
   {
     "date": "2026-04-29",
-    "title": "Will SpaceX’s IPO valuation be between 1.50T and 1.75T?",
+    "title": "Will SpaceX\u2019s IPO valuation be between 1.50T and 1.75T?",
     "category": "Science and Technology",
     "payout": 3,
     "tier": "green",
@@ -109,7 +109,7 @@
   },
   {
     "date": "2026-04-29",
-    "title": "No change in the Selic rate after Bank of Brazil’s April 2026 meeting?",
+    "title": "No change in the Selic rate after Bank of Brazil\u2019s April 2026 meeting?",
     "category": "Other",
     "payout": 41.67,
     "tier": "red",
@@ -163,7 +163,7 @@
   },
   {
     "date": "2026-05-01",
-    "title": "Will Donald Trump be the #1 rank on Google’s Year in Search 2026 Global – People?",
+    "title": "Will Donald Trump be the #1 rank on Google\u2019s Year in Search 2026 Global \u2013 People?",
     "category": "Entertainment",
     "payout": 4.76,
     "tier": "yellow",
@@ -185,7 +185,7 @@
     "category": "Science and Technology",
     "payout": 90.91,
     "tier": "purple",
-    "original_quip": "泰勒絲 could not be reached for comment",
+    "original_quip": "\u6cf0\u52d2\u7d72 could not be reached for comment",
     "editor_quip": "if geopolitics was Catan, this is like blocking longest road with a port"
   },
   {
@@ -244,7 +244,7 @@
   },
   {
     "date": "2026-05-01",
-    "title": "Will François Hollande win the 2027 French presidential election?",
+    "title": "Will Fran\u00e7ois Hollande win the 2027 French presidential election?",
     "category": "World",
     "payout": 20.2,
     "tier": "red",
@@ -379,7 +379,7 @@
   },
   {
     "date": "2026-05-05",
-    "title": "PSG wins the 2025–26 Champions League",
+    "title": "PSG wins the 2025\u201326 Champions League",
     "category": "Other",
     "payout": 3.17,
     "tier": "yellow",
@@ -617,7 +617,7 @@
     "category": "World",
     "payout": 13.7,
     "tier": "orange",
-    "original_quip": "here we go again — Whitesnake, probably",
+    "original_quip": "here we go again \u2014 Whitesnake, probably",
     "editor_quip": "Ok Go - \"Here It Goes Again\" as performed by the Supreme Court"
   },
   {
@@ -725,12 +725,12 @@
     "category": "Science and Technology",
     "payout": 6.45,
     "tier": "yellow",
-    "original_quip": "the machines are assembling their résumés",
+    "original_quip": "the machines are assembling their r\u00e9sum\u00e9s",
     "editor_quip": "WWF but make it computers "
   },
   {
     "date": "2026-05-15",
-    "title": "Elon posts exactly 200–219 tweets in a week",
+    "title": "Elon posts exactly 200\u2013219 tweets in a week",
     "category": "Other",
     "payout": 12.12,
     "tier": "orange",
@@ -1225,5 +1225,27 @@
     "original_quip": "Colorado quietly seething in a Vail parking garage",
     "editor_quip": "The Park City lift line starts in the Vail parking lot",
     "source": "quip-room-2026-09-16"
+  },
+  {
+    "date": "2026-11-01",
+    "title": "Starship flies humans to Mars before 2030",
+    "category": "Companies",
+    "payout": 8.33,
+    "tier": "orange",
+    "original_quip": "this is the Browns announcing a parade route in August",
+    "editor_quip": "like the Browns announcing a parade route in August",
+    "source": "quip-room-2026-11-01",
+    "verdict": "tweak"
+  },
+  {
+    "date": "2026-11-01",
+    "title": "NASA lands a person on the Moon before 2028",
+    "category": "Science and Technology",
+    "payout": 30.3,
+    "tier": "red",
+    "original_quip": "Buzz Aldrin is going to punch somebody again and he will be correct",
+    "editor_quip": "Helmet comes off and it's Sydney Sweeney and the entire thing was an ad for sports betting.",
+    "source": "quip-room-2026-11-01",
+    "verdict": "mine"
   }
 ]

@@ -65,7 +65,8 @@
           "mode": 2,
           "score": 7
         }
-      ]
+      ],
+      "quip_verdict": "ship"
     },
     {
       "ticker": "0xb395b8d3e51a31c7b16137ea8754fe58d7212b44db924d104c4af5cecfc6911e",
@@ -123,7 +124,8 @@
           "mode": 3,
           "score": 5.5
         }
-      ]
+      ],
+      "quip_verdict": "ship"
     },
     {
       "ticker": "KXBOSSNOWM-26DEC-10",
@@ -182,7 +184,8 @@
           "mode": 3,
           "score": 7.5
         }
-      ]
+      ],
+      "quip_verdict": "ship"
     },
     {
       "ticker": "0x8370df67e2e6eb6e1ea37bd8a63c69f0e9c85f4cc7c645211f5675ed907b0319",
@@ -190,7 +193,7 @@
       "subtitle": "",
       "payout": 4.65,
       "tier": "yellow",
-      "quip": "thirty carries, two hundred yards, Raiders punt from the 40 anyway",
+      "quip": "feed him, cowards",
       "yes_price": "0.2150",
       "volume": 9897.133666000002,
       "category": "Sports",
@@ -240,7 +243,9 @@
           "mode": 3,
           "score": 7.5
         }
-      ]
+      ],
+      "quip_machine": "thirty carries, two hundred yards, Raiders punt from the 40 anyway",
+      "quip_verdict": "alt"
     },
     {
       "ticker": "0x20e7f138b0bcba2503d04b2a1c1f8517305f3bfb908ea1a99ec926d9b98709f9",
@@ -298,7 +303,8 @@
           "mode": 3,
           "score": 8
         }
-      ]
+      ],
+      "quip_verdict": "ship"
     },
     {
       "ticker": "0xbb0d2443a9c76fce0910ca7a602f3a6d56bc676c9a1b078829fd20a782e2560f",
@@ -356,7 +362,8 @@
           "mode": 8,
           "score": 8
         }
-      ]
+      ],
+      "quip_verdict": "ship"
     },
     {
       "ticker": "STARSHIPMARS-29DEC31",
@@ -366,7 +373,7 @@
       "no_sub_title": "Not Before 2030",
       "payout": 8.33,
       "tier": "orange",
-      "quip": "this is the Browns announcing a parade route in August",
+      "quip": "like the Browns announcing a parade route in August",
       "yes_price": "0.1200",
       "volume": 55062.2,
       "category": "Companies",
@@ -415,7 +422,9 @@
           "mode": 6,
           "score": 9
         }
-      ]
+      ],
+      "quip_machine": "this is the Browns announcing a parade route in August",
+      "quip_verdict": "tweak"
     },
     {
       "ticker": "KXELONMARS-99",
@@ -474,7 +483,8 @@
           "mode": 3,
           "score": 8
         }
-      ]
+      ],
+      "quip_verdict": "ship"
     },
     {
       "ticker": "MOON-27DEC31",
@@ -484,7 +494,7 @@
       "no_sub_title": "Before 2028",
       "payout": 30.3,
       "tier": "red",
-      "quip": "Buzz Aldrin is going to punch somebody again and he will be correct",
+      "quip": "Helmet comes off and it's Sydney Sweeney and the entire thing was an ad for sports betting.",
       "yes_price": "0.0330",
       "volume": 228264.57,
       "category": "Science and Technology",
@@ -533,7 +543,9 @@
           "mode": 3,
           "score": 8.5
         }
-      ]
+      ],
+      "quip_machine": "Buzz Aldrin is going to punch somebody again and he will be correct",
+      "quip_verdict": "mine"
     },
     {
       "ticker": "0xc90894254e1f804e3087e89288d192b529287b7de6e3f5230c06868f7777661d",
@@ -541,7 +553,7 @@
       "subtitle": "",
       "payout": 133.33,
       "tier": "purple",
-      "quip": "press conference at four, satellite imagery of seat 14C",
+      "quip": "my flying anxiety did not need a geopolitical subplot",
       "yes_price": "0.0075",
       "volume": 981824.1131160001,
       "category": "Other",
@@ -591,7 +603,10 @@
           "mode": 2,
           "score": 7.5
         }
-      ]
+      ],
+      "quip_machine": "press conference at four, satellite imagery of seat 14C",
+      "quip_verdict": "alt"
     }
-  ]
+  ],
+  "quip_reviewed_at": "2026-11-01T10:01:47.726014+00:00"
 }
