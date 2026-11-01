@@ -74,6 +74,34 @@ The flow:
 
 ---
 
+## The market wall (2026-11-01)
+
+`/go/<ticker>/` no longer sends a visitor to one book. `api/go.py` calls `market_wall.py`, which renders one page
+per visitor from the country and state on the request: every book that can take the pick there, **paying books
+first by `rank`** (James's call on affiliate terms, never by payout), unpaid books last. The top paying book carries
+a gold "featured" pill. Two exceptions: a visitor arriving from a page whose path names a book (`crazy-kalshi-bets`,
+`funny-polymarket-bets`) sees that book first; a market no paying book carries shows its own book first.
+Books, ranks, geo, link rules, and the on/off switches live in `config/market-wall.json`; the same or nearest
+market on each other venue comes from `data/alternatives.json`, written by `scanner.py` every morning (Kalshi
+matches are priced with one API call each; Robinhood and Coinbase mirror the Kalshi entry because they trade
+Kalshi's contracts). Sports picks show PrizePicks and Underdog as the paying route (hub links, labelled "find it
+on", with a note that pick'em pays a multiplier) and the pick's own sportsbook below when it is licensed in the
+visitor's state. A ticker that has left today's board is looked up across every board file.
+
+**No age tick.** The 2026-05-18 checkbox gate was a prerequisite for the big-sportsbook affiliate applications,
+which James is not filing (state registration costs). The books check age and location at sign-up; the wall says
+so in its fine print. `db_age_ack` is no longer written. Restore the gate from git history if those applications
+are ever filed.
+
+**Measurement.** GA4 events `wall_view` (ticker, region, rows, top_book, kind), `wall_click` (book, relation,
+pays, region), and `affiliate_blocked` (no eligible book), all under the site's consent cookies. The
+`affiliate_click` document listener on the boards still fires on the way in.
+
+**Going live with a book:** paste its tracking link into `affiliate_url` (or `affiliate_id` + `tracking_param_name`)
+in `config/market-wall.json`, add its host to `_ALLOWED_REDIRECT_HOSTS` in `api/go.py` if new, redeploy. Switch the
+whole wall off with `enabled: false` (the legacy interstitial returns), or per category / country with the
+`off_for_*` lists. Crypto.com OG is not registered yet: its affiliate link will carry the venue's real URL.
+
 ## Current platform configuration
 
 ### Kalshi ✓ (enabled)

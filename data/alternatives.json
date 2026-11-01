@@ -1,0 +1,183 @@
+{
+ "generated_at": "2026-11-01T08:53:03.128086+00:00",
+ "markets": {
+  "KXHARVARDFUNDAPPEAL-HHS29": {
+   "title": "The First Circuit fully affirms the Harvard funding ruling",
+   "platform": "kalshi",
+   "payout": 1.61,
+   "url": "https://kalshi.com/markets/KXHARVARDFUNDAPPEAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Politics",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXHARVARDFUNDAPPEAL-HHS29",
+     "title": "The First Circuit fully affirms the Harvard funding ruling",
+     "url": "https://kalshi.com/markets/KXHARVARDFUNDAPPEAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 1.61,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "0xb395b8d3e51a31c7b16137ea8754fe58d7212b44db924d104c4af5cecfc6911e": {
+   "title": "Democrats win exactly 11 Pennsylvania House seats",
+   "platform": "polymarket",
+   "payout": 2.41,
+   "url": "https://polymarket.com/event/how-many-house-seats-will-the-democrats-win-in-pennsylvania",
+   "category": "World",
+   "alts": {
+    "polymarket": {
+     "ticker": "0xb395b8d3e51a31c7b16137ea8754fe58d7212b44db924d104c4af5cecfc6911e",
+     "title": "Democrats win exactly 11 Pennsylvania House seats",
+     "url": "https://polymarket.com/event/how-many-house-seats-will-the-democrats-win-in-pennsylvania",
+     "payout": 2.41,
+     "same": true,
+     "sim": 1.0
+    },
+    "kalshi": {
+     "ticker": "KXHOUSEWINSTATE-PAD-A12",
+     "title": "How many House seats will Democrats win in Pennsylvania?",
+     "url": "https://kalshi.com/markets/KXHOUSEWINSTATE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 50.0,
+     "same": false,
+     "sim": 0.62
+    }
+   }
+  },
+  "KXBOSSNOWM-26DEC-10": {
+   "title": "Boston gets over 10 inches of snow next December",
+   "platform": "kalshi",
+   "payout": 2.94,
+   "url": "https://kalshi.com/markets/KXBOSSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Climate and Weather",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXBOSSNOWM-26DEC-10",
+     "title": "Boston gets over 10 inches of snow next December",
+     "url": "https://kalshi.com/markets/KXBOSSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 2.94,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "0x8370df67e2e6eb6e1ea37bd8a63c69f0e9c85f4cc7c645211f5675ed907b0319": {
+   "title": "Ashton Jeanty clears 974.5 rushing yards next season",
+   "platform": "polymarket",
+   "payout": 4.65,
+   "url": "https://polymarket.com/event/ashton-jeanty-rushing-yards-2026-27",
+   "category": "Sports",
+   "alts": {
+    "polymarket": {
+     "ticker": "0x8370df67e2e6eb6e1ea37bd8a63c69f0e9c85f4cc7c645211f5675ed907b0319",
+     "title": "Ashton Jeanty clears 974.5 rushing yards next season",
+     "url": "https://polymarket.com/event/ashton-jeanty-rushing-yards-2026-27",
+     "payout": 4.65,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "0x20e7f138b0bcba2503d04b2a1c1f8517305f3bfb908ea1a99ec926d9b98709f9": {
+   "title": "Betmoar launches a token by 2027",
+   "platform": "polymarket",
+   "payout": 5.41,
+   "url": "https://polymarket.com/event/will-betmoar-launch-a-token-by",
+   "category": "Other",
+   "alts": {
+    "polymarket": {
+     "ticker": "0x20e7f138b0bcba2503d04b2a1c1f8517305f3bfb908ea1a99ec926d9b98709f9",
+     "title": "Betmoar launches a token by 2027",
+     "url": "https://polymarket.com/event/will-betmoar-launch-a-token-by",
+     "payout": 5.41,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "0xbb0d2443a9c76fce0910ca7a602f3a6d56bc676c9a1b078829fd20a782e2560f": {
+   "title": "RFK Jr. leaves the Trump administration before 2027",
+   "platform": "polymarket",
+   "payout": 5.56,
+   "url": "https://polymarket.com/event/who-will-leave-trump-administration-before-2027",
+   "category": "World",
+   "alts": {
+    "polymarket": {
+     "ticker": "0xbb0d2443a9c76fce0910ca7a602f3a6d56bc676c9a1b078829fd20a782e2560f",
+     "title": "RFK Jr. leaves the Trump administration before 2027",
+     "url": "https://polymarket.com/event/who-will-leave-trump-administration-before-2027",
+     "payout": 5.56,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "STARSHIPMARS-29DEC31": {
+   "title": "Starship flies humans to Mars before 2030",
+   "platform": "kalshi",
+   "payout": 8.33,
+   "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Companies",
+   "alts": {
+    "kalshi": {
+     "ticker": "STARSHIPMARS-29DEC31",
+     "title": "Starship flies humans to Mars before 2030",
+     "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 8.33,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXELONMARS-99": {
+   "title": "Elon Musk sets foot on Mars in his lifetime",
+   "platform": "kalshi",
+   "payout": 10.0,
+   "url": "https://kalshi.com/markets/KXELONMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Science and Technology",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXELONMARS-99",
+     "title": "Elon Musk sets foot on Mars in his lifetime",
+     "url": "https://kalshi.com/markets/KXELONMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 10.0,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "MOON-27DEC31": {
+   "title": "NASA lands a person on the Moon before 2028",
+   "platform": "kalshi",
+   "payout": 30.3,
+   "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Science and Technology",
+   "alts": {
+    "kalshi": {
+     "ticker": "MOON-27DEC31",
+     "title": "NASA lands a person on the Moon before 2028",
+     "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 30.3,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "0xc90894254e1f804e3087e89288d192b529287b7de6e3f5230c06868f7777661d": {
+   "title": "Israel blames Iran for the plane stabbing this month",
+   "platform": "polymarket",
+   "payout": 133.33,
+   "url": "https://polymarket.com/event/israel-accuses-iranproxies-of-plane-stabbing-incident-by-oct-31",
+   "category": "Other",
+   "alts": {
+    "polymarket": {
+     "ticker": "0xc90894254e1f804e3087e89288d192b529287b7de6e3f5230c06868f7777661d",
+     "title": "Israel blames Iran for the plane stabbing this month",
+     "url": "https://polymarket.com/event/israel-accuses-iranproxies-of-plane-stabbing-incident-by-oct-31",
+     "payout": 133.33,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  }
+ }
+}

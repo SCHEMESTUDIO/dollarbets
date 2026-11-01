@@ -233,6 +233,7 @@ jobs:
           git config user.name "Dollar Bets Bot"
           git config user.email "bot@dollarbets.lol"
           git add data/boards/
+          git add data/alternatives.json 2>/dev/null || true
           # sports_scanner.py caches Claude titles/quips by ticker (3-day TTL) in
           # data/quip_cache.json so a pick that persists across the day's runs
           # keeps the same copy and is not re-generated. The cache only helps if
