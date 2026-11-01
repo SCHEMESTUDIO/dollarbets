@@ -1,7 +1,7 @@
 {
   "meta": {
     "note": "Per-market lessons from the editor's verdicts on machine candidates. Rendered into the judge prompt (prompts/quip-judge.md, {{LESSONS}}). Append a lesson per market each time he reviews a board; keep each one to what he did and why it beat the machine's pick.",
-    "updated_at": "2026-09-16",
+    "updated_at": "2026-11-01",
     "scoreboard": {
       "2026-09-12": {
         "ship": 2,
@@ -15,8 +15,17 @@
         "tweak": 1,
         "alt": 0,
         "mine": 3
+      },
+      "2026-11-01": {
+        "ship": 6,
+        "tweak": 1,
+        "alt": 2,
+        "mine": 1
       }
-    }
+    },
+    "reviewed_dates": [
+      "2026-11-01"
+    ]
   },
   "lessons": [
     {
@@ -118,6 +127,30 @@
       "date": "2026-09-16",
       "ticker": "0x46a8b55c8c9491f12133f9612615e256062754dba0170619f654ba6e6dbb3ee1",
       "text": "Trump and Putin meet in Russia. Shipped untouched: \"away game, hostile crowd, no replay review, no timeouts\". Sports vocabulary as a list, escalating, on a geopolitics market."
+    },
+    {
+      "date": "2026-11-01",
+      "ticker": "0x8370df67e2e6eb6e1ea37bd8a63c69f0e9c85f4cc7c645211f5675ed907b0319",
+      "verdict": "alt",
+      "text": "Ashton Jeanty clears 974.5 rushing yards next season. Shipped (scored 8.5): \"thirty carries, two hundred yards, Raiders punt from the 40 anyway\". He took the candidate scored 6.5, \"feed him, cowards\", instead. When the highest-scored line does the joke's work for you, he'll still trade it down for three words that just demand the obvious."
+    },
+    {
+      "date": "2026-11-01",
+      "ticker": "STARSHIPMARS-29DEC31",
+      "verdict": "tweak",
+      "text": "Starship flies humans to Mars before 2030. Shipped (scored 9): \"this is the Browns announcing a parade route in August\". He reworded it to \"like the Browns announcing a parade route in August\". He didn't trade modes, he traded cadence: \"like\" slows the line down just enough to sound said aloud, not written."
+    },
+    {
+      "date": "2026-11-01",
+      "ticker": "MOON-27DEC31",
+      "verdict": "mine",
+      "text": "NASA lands a person on the Moon before 2028. Shipped (scored 9): \"Buzz Aldrin is going to punch somebody again and he will be correct\". He wrote \"Helmet comes off and it's Sydney Sweeney and the entire thing was an ad for sports betting.\". He'll skip the line that cashes in on everyone already knowing the reference and write the fake headline nobody asked for instead."
+    },
+    {
+      "date": "2026-11-01",
+      "ticker": "0xc90894254e1f804e3087e89288d192b529287b7de6e3f5230c06868f7777661d",
+      "verdict": "alt",
+      "text": "Israel blames Iran for the plane stabbing this month. Shipped (scored 8.5): \"press conference at four, satellite imagery of seat 14C\". He took the candidate scored 7.5, \"my flying anxiety did not need a geopolitical subplot\", instead. He'll give up a point of score to put himself in the joke instead of staging the news for us."
     }
   ]
 }
