@@ -53,6 +53,26 @@ Set these in Vercel Dashboard → Settings → Environment Variables:
 8. Vercel detects the commit and rebuilds the site
 9. ~30 seconds later, changes are live
 
+## Quip room (`/admin/quips/`)
+
+The daily review of the machine's quips, same password and token as `/admin/`. For each
+market on a board it shows the shipped line with the judge's score and mode, the other
+candidates with their scores, and four verdicts: **ship** (leave it), **tweak** (your
+rewording), **alt** (a candidate was better), **mine** (your own line). Saving writes one
+commit through `/api/quips`:
+
+- `data/quip-verdicts/<date>.json`: the record (every market, what shipped, what you did)
+- `data/boards/<date>.json`: your lines go live; the machine's line is kept in `quip_machine`
+- `data/quip-overrides.json`: a row per tweak / mine, the example set for the generator and judge
+
+That push runs `quip-lessons.yml`, which writes a lesson per changed market into
+`data/quip-lessons.json`, so the next board is judged against your latest verdicts.
+Re-saving a board replaces its record and rows. The board list marks what is still
+unreviewed; the count of **mine** is the number to drive down.
+
+`GITHUB_TOKEN` must be a personal access token, not an Actions token: a push made with an
+Actions token does not trigger workflows, and the lessons step would never run.
+
 ## Security notes
 
 - The `/admin/` page is `noindex, nofollow` — search engines won't find it

@@ -1,0 +1,58 @@
+name: Quip Lessons
+
+# When the editor saves a review in the quip room (/admin/quips/), /api/quips commits
+# data/quip-verdicts/<date>.json. This turns that record into judge lessons in
+# data/quip-lessons.json (prompts/quip-judge.md renders them as {{LESSONS}}), so the
+# next board is judged against his latest verdicts without anyone running a script.
+#
+# Secrets required: ANTHROPIC_API_KEY (one short Sonnet call per changed market).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/quip-verdicts/**'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Board date (YYYY-MM-DD) to re-ingest; blank = every unprocessed record'
+        required: false
+        default: ''
+
+concurrency:
+  group: quip-lessons
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  lessons:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Write lessons from the verdict record(s)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 scripts/quip_lessons.py ${{ github.event.inputs.date }}
+
+      - name: Commit lessons
+        run: |
+          git config user.name "Dollar Bets Bot"
+          git config user.email "bot@dollarbets.lol"
+          git add data/quip-lessons.json
+          if git diff --staged --quiet; then
+            echo "No lesson changes to commit"
+            exit 0
+          fi
+          git commit -m "quip room: lessons from $(date -u +%Y-%m-%d) review"
+          git pull --rebase
+          git push

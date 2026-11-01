@@ -51,6 +51,7 @@
   "rewrites": [
     { "source": "/api/login", "destination": "/api/login.py" },
     { "source": "/api/board", "destination": "/api/board.py" },
+    { "source": "/api/quips", "destination": "/api/quips.py" },
     { "source": "/api/subscribe", "destination": "/api/subscribe.py" },
     { "source": "/go/:slug/", "destination": "/api/go.py?market=:slug" },
     { "source": "/go/:slug", "destination": "/api/go.py?market=:slug" }
