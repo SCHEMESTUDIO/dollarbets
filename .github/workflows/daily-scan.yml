@@ -101,6 +101,29 @@ jobs:
               except Exception as e:
                   print(f'WARN: Could not verify {slug}: {e}')
 
+          # Spot-check: Polymarket US URLs resolve on the US gateway
+          for m in [m for m in board if m.get('platform') == 'polymarket_us']:
+              url = m['url']
+              match = re.search(r'polymarket\.us/event/([^/?#]+)(?:\?marketSlug=([^&#]+))?', url)
+              if not match:
+                  print(f'WARN: Bad Polymarket US URL format: {url}')
+                  bad += 1
+                  continue
+              ev_slug, m_slug = match.group(1), match.group(2)
+              try:
+                  api = f'https://gateway.polymarket.us/v1/events/slug/{ev_slug}'
+                  req = urllib.request.Request(api, headers={'Accept':'application/json','User-Agent':'DollarBets/1.0'})
+                  with urllib.request.urlopen(req, timeout=10) as resp:
+                      ev = (json.loads(resp.read().decode()) or {}).get('event') or {}
+                      open_slugs = [x.get('slug') for x in ev.get('markets') or [] if x.get('active') and not x.get('closed')]
+                      if not ev.get('slug') or (m_slug and m_slug not in open_slugs):
+                          print(f'WARN: Polymarket US market not open: {url}')
+                          bad += 1
+                      else:
+                          print(f'OK: {ev_slug} / {m_slug}')
+              except Exception as e:
+                  print(f'WARN: Could not verify {ev_slug}: {e}')
+
           if bad > 0:
               print(f'WARNING: {bad} Polymarket URL(s) may be broken — board deployed anyway')
 

@@ -45,7 +45,7 @@ There is no middle "commentary-only" tier any more. The previous client-side ban
 
 - `blocked_countries`: US + EU countries where blocked (NL, PL, FR, BE, CH, PT, HU, IT) + GB, AU, CN, HK, IN, JP, KR + sanctioned nations
 - US blocked because Polymarket operates outside US regulatory framework
-- Polymarket US (polymarket.us) is a separate CFTC-regulated venue with its own catalogue; registered as partner `polymarket_us`, disabled until markets can be mapped at scan time
+- Polymarket US (polymarket.us) is a separate CFTC-regulated venue with its own catalogue; partner `polymarket_us`, US only, 18+, and since 2026-11-01 the primary Polymarket source in `scanner.py` (international is capped at two cards per board and only for markets the US venue does not carry)
 
 ## Outstanding business actions
 

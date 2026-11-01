@@ -83,16 +83,18 @@ The flow:
 - **Geo rules**: Available worldwide except US states AZ, IL, MA, MD, MI, MT, NV, OH
 - **Priority**: 1 (highest)
 
-### Polymarket (enabled, no affiliate ID)
-- **Status**: Live for visitors outside the blocked list; `affiliate_id` empty (Polymarket's referral programme needs $10k of own trading volume to issue a code, and it pays a share of net fees, not CPA)
-- **Blocked countries**: US, GB, AU, CN, HK, IN, JP, KR, NL, PL, FR, BE, CH, PT, HU, IT, plus sanctioned nations
-- **US visitors (since 2026-11-01)**: `api/go.py` serves `polymarket_us_html()` instead of the generic unavailable page: it explains that the market is on the international exchange, links polymarket.us to browse, and lists the Kalshi markets on today's board (`_pick_related_markets(..., exclude_platform="polymarket")`). `generate.py` also hides Polymarket cards client-side for US visitors (`HIDE_POLYMARKET_FOR_US`, class `pm-card`, `html.us-visitor` set from `/api/geo/`). Reason: 78% of traffic is US and a third of tracked clicks were Polymarket cards landing on "not available in your region".
+### Polymarket US ✓ (enabled, primary Polymarket source since 2026-11-01)
+- **Status**: Live. `scanner.py` crawls the CFTC-regulated US venue (`gateway.polymarket.us/v1`, no key) across culture, crypto, finance, geopolitics, technology, macro, science, weather, and a capped slice of politics; `normalize_poly_us_market` prices from the Yes side's best ask (same basis as Kalshi), composes multi-market titles ("Oscar Nominees: Best Actress: Emma Stone"), and stores the venue's own URL shape `https://polymarket.us/event/<event>?marketSlug=<market>`. Tickers are `pmus-<market id>`.
+- **Why**: 78% of visitors are US and cannot open the international exchange; James, 2026-11-01: lean into Polymarket US, keep international only for what the US venue lacks.
+- **Geo**: `allowed_countries: ["US"]`, 18+. Non-US visitors get the standard unavailable page.
+- **Affiliate**: none on the US venue as of 2026-11-01; `affiliate_id` empty. `link_resolver` keeps the full board URL (no param to append).
 - **Priority**: 2
 
-### Polymarket US (disabled, registered)
-- **Status**: Registered in `partners.json`, `enabled: false`. Polymarket's CFTC-regulated US venue (polymarket.us, launched 2025-12-03) has its own catalogue and slug scheme (`/event/bilbrd-1song-2026-11-07`), so a polymarket.com market cannot be mapped by ticker. Its public API (`https://gateway.polymarket.us/v1/search?query=`, no key) matches on Polymarket's question text, not our rewritten titles, and a check of 30 board markets found no reliable equivalents.
-- **To enable**: board data must carry a verified `us_slug` per market (resolved at scan time, never guessed at click time), then `polymarket.us` goes through the normal interstitial. Host is already on the redirect allowlist.
-- **Affiliate**: none on the US venue as of 2026-11-01.
+### Polymarket international (enabled, residual only)
+- **Status**: Crawled as before, but `prefer_polymarket_us()` drops any candidate whose title overlaps a US-venue market, and `POLY_INTL_CAP = 2` caps it at two cards per board.
+- **Blocked countries**: US, GB, AU, CN, HK, IN, JP, KR, NL, PL, FR, BE, CH, PT, HU, IT, plus sanctioned nations; `affiliate_id` empty (Polymarket's referral programme needs $10k of own trading volume and pays a share of net fees).
+- **US visitors**: `api/go.py` serves `polymarket_us_html()` (explains the split, links polymarket.us, lists the Kalshi and Polymarket US markets on today's board); `generate.py` hides these cards on the homepage for US visitors and labels them elsewhere (`HIDE_POLYMARKET_FOR_US`).
+- **Priority**: 3
 
 ### Coinbase (disabled, stub)
 - **Status**: Stub
