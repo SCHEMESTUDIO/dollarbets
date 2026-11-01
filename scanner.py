@@ -33,7 +33,7 @@ POLY_US_CATEGORIES = ["culture", "crypto", "finance", "geopolitics", "technology
 POLY_US_POLITICS_MAX_EVENTS = 1600
 # International Polymarket keeps at most this many cards per board, and only
 # for markets the US venue does not carry (see prefer_polymarket_us).
-POLY_INTL_CAP = 2
+POLY_INTL_CAP = 0  # James, 2026-11-01: no international Polymarket cards on the boards
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
 # QUIP MODEL TIERS (2026-08-08). The quips ARE the product, the volume is
@@ -2742,7 +2742,10 @@ def build_board(events, poly_candidates=None):
               file=sys.stderr)
 
     # Step 2: Fetch markets for top ~100 events to get prices + tradability data
-    top_n = min(100, len(scored_events))
+    # 400, not 100 (James, 2026-11-01): the 100 cap priced only 76 of 20,604
+    # open Kalshi events against 2,259 Polymarket US candidates. Kalshi is the
+    # novelty supply now that international Polymarket is off the boards.
+    top_n = min(400, len(scored_events))
     print(f"[scanner] Fetching prices for top {top_n} events...", file=sys.stderr)
 
     candidates = []
@@ -3098,6 +3101,96 @@ def build_board(events, poly_candidates=None):
     return board
 
 
+# ── Alternatives index (market wall) ────────────────────────
+
+def _price_kalshi_event(event_ticker):
+    """Best Yes ask across an event's markets -> (payout, market_ticker) or None."""
+    best = None
+    for m in fetch_markets_for_event(event_ticker) or []:
+        p = calc_payout(m)
+        if p and (best is None or p > best[0]):
+            best = (p, m.get("ticker") or event_ticker)
+    return best
+
+
+def build_alternatives_index(board, kalshi_events, poly_us_candidates, poly_intl_candidates,
+                             threshold=0.4, max_kalshi_prices=40):
+    """For every market on today's board, the same or nearest market on each
+    other venue, with its price where we have one. Written to
+    data/alternatives.json for api/go.py's market wall.
+
+    Shape: {ticker: {"title", "platform", "payout", "url", "category",
+                     "alts": {venue: {"ticker", "title", "url", "payout", "same", "sim"}}}}
+    `same` is true for the market's own venue; every other entry is a title
+    match (dates and numbers stripped) at >= threshold and is labelled
+    "similar" on the wall. Robinhood and Coinbase mirror the kalshi entry.
+    Kalshi prices are fetched for matched events only (one call each)."""
+    kalshi_titles = []
+    for e in kalshi_events or []:
+        t = (e.get("title") or "").strip()
+        if t:
+            kalshi_titles.append((_normalize_title_nodate(t), t, e))
+    us_norm = [(_normalize_title_nodate(c["title"]), c) for c in poly_us_candidates or []]
+    intl_norm = [(_normalize_title_nodate(c["title"]), c) for c in poly_intl_candidates or []]
+
+    def best(norm, pool):
+        top, top_sim = None, 0.0
+        for n, item in pool:
+            sim = _title_similarity(norm, n)
+            if sim > top_sim:
+                top, top_sim = item, sim
+        return (top, top_sim) if top_sim >= threshold else (None, 0.0)
+
+    index = {}
+    kalshi_price_calls = 0
+    for m in board:
+        ticker = m.get("ticker")
+        if not ticker:
+            continue
+        plat = m.get("platform") or "kalshi"
+        norm = _normalize_title_nodate(m.get("title", ""))
+        entry = {"title": m.get("title", ""), "platform": plat, "payout": m.get("payout"),
+                 "url": m.get("url", ""), "category": m.get("category", ""), "alts": {}}
+        entry["alts"][plat] = {"ticker": ticker, "title": m.get("title", ""), "url": m.get("url", ""),
+                               "payout": m.get("payout"), "same": True, "sim": 1.0}
+        if plat != "kalshi":
+            ev_hit = best(norm, [(n, (t, e)) for n, t, e in kalshi_titles])
+            if ev_hit[0]:
+                t, e = ev_hit[0]
+                ev_ticker = e.get("event_ticker") or e.get("ticker") or ""
+                payout, m_ticker = None, ev_ticker
+                if kalshi_price_calls < max_kalshi_prices and ev_ticker:
+                    kalshi_price_calls += 1
+                    priced = _price_kalshi_event(ev_ticker)
+                    if priced:
+                        payout, m_ticker = priced
+                entry["alts"]["kalshi"] = {"ticker": m_ticker, "title": t,
+                                           "url": kalshi_url(e.get("series_ticker", ev_ticker)),
+                                           "payout": payout, "same": False, "sim": round(ev_hit[1], 2)}
+        if plat != "polymarket_us":
+            hit, sim = best(norm, us_norm)
+            if hit:
+                entry["alts"]["polymarket_us"] = {"ticker": hit["ticker"], "title": hit["title"], "url": hit["url"],
+                                                  "payout": hit["payout"], "same": False, "sim": round(sim, 2)}
+        if plat != "polymarket":
+            hit, sim = best(norm, intl_norm)
+            if hit:
+                entry["alts"]["polymarket"] = {"ticker": hit["ticker"], "title": hit["title"], "url": hit["url"],
+                                               "payout": hit["payout"], "same": False, "sim": round(sim, 2)}
+        index[ticker] = entry
+    print(f"[scanner:alts] alternatives for {len(index)} markets, {kalshi_price_calls} Kalshi price lookups",
+          file=sys.stderr)
+    return index
+
+
+def write_alternatives_index(index):
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "alternatives.json")
+    payload = {"generated_at": datetime.now(timezone.utc).isoformat(), "markets": index}
+    with open(path, "w") as f:
+        json.dump(payload, f, indent=1)
+    print(f"[scanner:alts] wrote {path}", file=sys.stderr)
+
+
 # ── Main ─────────────────────────────────────────────────────
 
 def main():
@@ -3141,6 +3234,7 @@ def main():
             poly_us_candidates = []
 
         # US venue first; the international exchange only fills what it lacks.
+        poly_intl_all = list(poly_candidates)  # every international candidate, for the alternatives index
         poly_candidates = poly_us_candidates + prefer_polymarket_us(poly_candidates, poly_us_candidates)
 
         # Dump today's crawl titles to the corpus so future scans can compute
@@ -3160,6 +3254,13 @@ def main():
         else:
             print(f"[scanner] {len(events)} Kalshi events found", file=sys.stderr)
             board = build_board(events, poly_candidates=poly_candidates)
+
+    # Alternatives index for the market wall (best effort; never fails the scan)
+    if not use_sample:
+        try:
+            write_alternatives_index(build_alternatives_index(board, events, poly_us_candidates, poly_intl_all))
+        except Exception as e:
+            print(f"[scanner:alts] FAILED (non-fatal): {e}", file=sys.stderr)
 
     # Count platform mix for logging
     kalshi_on_board = sum(1 for m in board if m.get("platform") not in ("polymarket", "polymarket_us"))

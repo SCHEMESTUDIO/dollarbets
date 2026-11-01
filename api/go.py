@@ -38,6 +38,11 @@ _ALLOWED_REDIRECT_HOSTS = {
     "kalshi.com", "www.kalshi.com",
     "polymarket.com", "www.polymarket.com",
     "polymarket.us", "www.polymarket.us",
+    # Market wall books (config/market-wall.json)
+    "robinhood.com", "www.robinhood.com",
+    "smarkets.com", "www.smarkets.com",
+    "prizepicks.com", "app.prizepicks.com", "www.prizepicks.com",
+    "underdogfantasy.com", "www.underdogfantasy.com",
     "coinbase.com", "www.coinbase.com",
     "sportsbook.fanduel.com",
     "draftkings.com", "www.draftkings.com", "sportsbook.draftkings.com",
@@ -77,6 +82,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from link_resolver import resolve_market_destination
+import market_wall
 
 
 POLYMARKET_GAMMA_API = "https://gamma-api.polymarket.com"
@@ -1110,6 +1116,32 @@ def find_market_in_board(market_id, board_data):
 
 
 class handler(BaseHTTPRequestHandler):
+    def _referer_path(self):
+        ref = self.headers.get("Referer") or ""
+        try:
+            p = urlparse(ref)
+            return p.path if p.netloc.endswith("dollarbets.lol") else ""
+        except Exception:
+            return ""
+
+    def _serve_wall(self, market, kind, own_row=None, back_path="/"):
+        """Render the market wall for this visitor; True if served."""
+        cfg = market_wall.load_config()
+        country = self.headers.get("x-vercel-ip-country", "")
+        region = self.headers.get("x-vercel-ip-region", "")
+        if not market_wall.wall_enabled(cfg, market.get("category"), country):
+            return False
+        info = market_wall.build_rows(market, kind, country, region, self._referer_path(),
+                                      own_row=own_row, allow=_is_allowed_destination, cfg=cfg)
+        body = market_wall.wall_html(market, kind, info, back_path=back_path)
+        self.send_response(200)
+        self.send_header("Content-Type", "text/html; charset=utf-8")
+        self.send_header("Cache-Control", "no-store")
+        self.send_header("X-Robots-Tag", "noindex, nofollow")
+        self.end_headers()
+        self.wfile.write(body.encode("utf-8"))
+        return True
+
     def do_GET(self):
         # Parse query parameters
         parsed = urlparse(self.path)
@@ -1170,6 +1202,11 @@ class handler(BaseHTTPRequestHandler):
             is_us = (user_country or "").upper() == "US"
 
             def _show_unavailable(_unused=None):
+                # Market wall first: the pick's own book is closed here, so the
+                # wall shows the pick'em books and anything else open in-state.
+                if self._serve_wall(market, "sports", own_row={"url": None, "eligible": False},
+                                    back_path=sb_back_path):
+                    return
                 # Pull a few related markets from the same sports board so the
                 # page isn't a dead end. source_slug maps to the file prefix:
                 # the-lineup→sports, underdogs→underdogs, the-ocho→ocho, etc.
@@ -1239,6 +1276,10 @@ class handler(BaseHTTPRequestHandler):
                 return
 
             # Serve interstitial before redirecting to sportsbook
+            if self._serve_wall(market, "sports", own_row={"url": url, "eligible": True},
+                                back_path=sb_back_path):
+                return
+
             html_body = interstitial_html(
                 book_display, url, title,
                 min_age=PLATFORM_MIN_AGE.get(book_slug, 21),
@@ -1325,6 +1366,13 @@ class handler(BaseHTTPRequestHandler):
         # Load current board data
         board_data = load_latest_board_data()
         market = find_market_in_board(market_id, board_data)
+
+        if not market:
+            # Older boards still carry the record (recap, tier, archetype and
+            # content pages link markets long after they leave today's board).
+            stale_market, stale_kind = market_wall.find_market_any_board(market_id)
+            if stale_market and stale_kind == "prediction":
+                market = stale_market
 
         if not market:
             # Market not found in current board data (stale link, removed
@@ -1424,6 +1472,16 @@ class handler(BaseHTTPRequestHandler):
         market_url = market.get("url", "")
         if platform == "polymarket":
             market_url = resolve_polymarket_url(market_url)
+
+        # Market wall (config/market-wall.json): every book open to this
+        # visitor, paying books first. Falls through to the legacy single-
+        # destination flow only when the wall is switched off.
+        wall_market = dict(market)
+        wall_market["platform"] = platform
+        if market_url:
+            wall_market["url"] = market_url
+        if self._serve_wall(wall_market, "prediction", back_path="/"):
+            return
 
         # Resolve to best eligible partner
         result = resolve_market_destination(

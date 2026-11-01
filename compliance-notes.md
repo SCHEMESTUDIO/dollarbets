@@ -71,3 +71,14 @@ There is no middle "commentary-only" tier any more. The previous client-side ban
 
 Note: Existing CTA labels in `link_resolver.py` already use safe language ("view market", "see odds").
 The words "bet" and "wager" appear in editorial copy (quips, headlines) but these are editorial/commentary, not calls to action.
+
+## Market wall (2026-11-01)
+
+The leaving interstitial is replaced by the market wall (`market_wall.py`): one page listing every book open to the
+visitor's country and state, paying books first. The age checkbox is gone by James's decision: age and location
+checks sit with each book at sign-up, and the fine print says so with the highest minimum age among the books shown
+(21 when Kalshi or a sportsbook is on the wall). Every outbound link is `rel="nofollow sponsored"` and must pass the
+redirect host allowlist. No VPN or geo-circumvention offer appears on the wall: every book listed blocks VPN use in its
+terms, Polymarket's US block is a CFTC matter, and an affiliate inducing a visitor around a geoblock would breach the
+programmes the wall exists to earn from.
+
