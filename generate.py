@@ -1712,7 +1712,7 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="impact-site-verification" value="0c011746-123b-4389-b193-e87487b2a961">
+  <meta name='impact-site-verification' value='0c011746-123b-4389-b193-e87487b2a961'>
   <title>{safe_title}</title>
   <meta name="description" content="{safe_desc}">
   {noindex_tag}
