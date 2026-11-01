@@ -1,69 +1,4 @@
 {
-  "SB-3936303A": {
-    "title": "Leafs skate past Kraken by two tonight",
-    "quip": "Matthews doesn't fly to Seattle for a one-goal grind",
-    "cached_at": "2026-10-28T14:50:34.251253+00:00"
-  },
-  "SB-1FFCE326": {
-    "title": "Brewers bury the Rays by six",
-    "quip": "Yelich turning the Trop into batting practice",
-    "cached_at": "2026-10-28T14:50:34.251253+00:00"
-  },
-  "SB-212206B5": {
-    "title": "Hawks humiliate the Heat by 21",
-    "quip": "Trae Young treating Spoelstra's defense like a street game",
-    "cached_at": "2026-10-28T14:50:34.251253+00:00"
-  },
-  "SB-78242C39": {
-    "title": "Flyers blow out the Capitals by four",
-    "quip": "Ovechkin's chase night turns into a Tortorella clinic",
-    "cached_at": "2026-10-28T14:50:34.251253+00:00"
-  },
-  "SB-7300B820": {
-    "title": "Flames torch Oilers by five in Edmonton",
-    "quip": "Battle of Alberta ends with McDavid staring at the ceiling",
-    "cached_at": "2026-10-28T14:50:34.251253+00:00"
-  },
-  "SB-C24ABE0B": {
-    "title": "Nogami drops Tanaka at home tonight",
-    "quip": "two Shos enter, one Sho leaves",
-    "cached_at": "2026-10-28T14:50:52.319513+00:00"
-  },
-  "SB-7110B38C": {
-    "title": "Oman upset UAE in the Gulf derby",
-    "quip": "the neighbors' spare room has a trophy case now",
-    "cached_at": "2026-10-28T14:50:52.319513+00:00"
-  },
-  "SB-CCBDB1B7": {
-    "title": "Kiekko-Espoo beat TPS by two or more",
-    "quip": "Espoo treating Turku like a weekend road trip",
-    "cached_at": "2026-10-28T14:50:52.319513+00:00"
-  },
-  "SB-4A6A67AD": {
-    "title": "HIFK blow out Ilves by two-plus tonight",
-    "quip": "Helsinki's loudest barn gets what it came for",
-    "cached_at": "2026-10-28T14:50:52.319513+00:00"
-  },
-  "SB-BA74B9A6": {
-    "title": "Lukko beat Jukurit by two or more",
-    "quip": "Rauma arrives in Mikkeli with bad intentions",
-    "cached_at": "2026-10-28T14:50:52.319513+00:00"
-  },
-  "SB-7E29BE12": {
-    "title": "Kraken stay within a goal of the Leafs tonight",
-    "quip": "Seattle's tight at home, Matthews or no Matthews",
-    "cached_at": "2026-10-28T14:51:02.161287+00:00"
-  },
-  "SB-50529308": {
-    "title": "Lakers take the hallway series from the Clippers",
-    "quip": "Luka and LeBron commute to the away locker room",
-    "cached_at": "2026-10-28T14:51:02.161287+00:00"
-  },
-  "SB-37B864A1": {
-    "title": "Wolves handle the Warriors in Minnesota",
-    "quip": "Ant's dunk reel, Steph's travel schedule, Target Center noise",
-    "cached_at": "2026-10-28T14:51:02.161287+00:00"
-  },
   "SB-83F3129E": {
     "title": "Devils steal one in Colorado tonight",
     "quip": "Jack Hughes going back to Denver with the groceries",
@@ -1113,5 +1048,65 @@
     "title": "Ducks stay within a goal of the Senators",
     "quip": "Anaheim's rebuild has at least learned to lose politely",
     "cached_at": "2026-11-01T14:44:00.915066+00:00"
+  },
+  "SB-8E869CED": {
+    "title": "Raptors stun the Lakers in LA tonight",
+    "quip": "Scottie Barnes doesn't care about LeBron's legacy tour",
+    "cached_at": "2026-11-01T20:08:40.609395+00:00"
+  },
+  "SB-3A32FDF8": {
+    "title": "Eagles spoil the Commanders at home",
+    "quip": "Saquon finds a seam, DC goes quiet",
+    "cached_at": "2026-11-01T20:08:40.609395+00:00"
+  },
+  "SB-3573151B": {
+    "title": "Chargers take the LA crossover from the Rams",
+    "quip": "Herbert's hair versus Stafford's shoulder, SoFi split-screen",
+    "cached_at": "2026-11-01T20:08:40.609395+00:00"
+  },
+  "SB-30FFF802": {
+    "title": "Nets blow out the Pacers by 15+",
+    "quip": "Rick Carlisle's whiteboard spontaneously combusts",
+    "cached_at": "2026-11-01T20:08:40.609395+00:00"
+  },
+  "SB-CAC7253C": {
+    "title": "Wild bury the Capitals by six goals",
+    "quip": "Kaprizov ends the Ovechkin farewell tour in daylight",
+    "cached_at": "2026-11-01T20:08:40.609395+00:00"
+  },
+  "SB-C5EC5522": {
+    "title": "Bragantino and Santos grind out a low-scoring night",
+    "quip": "Neymar's hometown club still allergic to the final pass",
+    "cached_at": "2026-11-01T20:08:52.757251+00:00"
+  },
+  "SB-14FE1AF8": {
+    "title": "Oman upset the Netherlands in ODI play",
+    "quip": "Muscat's finest treat the Dutch like a warm-up fixture",
+    "cached_at": "2026-11-01T20:08:52.757251+00:00"
+  },
+  "SB-3C614B8E": {
+    "title": "Genclerbirligi and Alanyaspor split the points",
+    "quip": "Ankara nil-nil, the S\u00fcper Lig's favorite lullaby",
+    "cached_at": "2026-11-01T20:08:52.757251+00:00"
+  },
+  "SB-2A10B637": {
+    "title": "Commanders handle the Eagles tonight",
+    "quip": "Jayden Daniels does not respect NFC East hierarchy",
+    "cached_at": "2026-11-01T20:09:01.629280+00:00"
+  },
+  "SB-C43E418F": {
+    "title": "Wild stay within a goal of the Capitals",
+    "quip": "Ovechkin scores, Minnesota shrugs, nobody runs away",
+    "cached_at": "2026-11-01T20:09:01.629280+00:00"
+  },
+  "SB-7A286B46": {
+    "title": "Utah's Mammoth trample the Flyers",
+    "quip": "a brand-new franchise bullying Broad Street, rudely",
+    "cached_at": "2026-11-01T20:09:01.629280+00:00"
+  },
+  "SB-5C0DEF23": {
+    "title": "Pacers take care of the Nets",
+    "quip": "Brooklyn's roster reads like a G League tryout sheet",
+    "cached_at": "2026-11-01T20:09:01.629280+00:00"
   }
 }
