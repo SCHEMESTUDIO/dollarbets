@@ -21,6 +21,19 @@ from datetime import datetime, timezone
 KALSHI_API = "https://api.elections.kalshi.com/trade-api/v2"
 KALSHI_REFERRAL = "e690aa11-1f29-49d1-b27f-d5e6ccf38d9f"
 POLYMARKET_API = "https://gamma-api.polymarket.com"
+# Polymarket US: the CFTC-regulated venue (polymarket.us, live 2025-12-03).
+# Primary Polymarket source since 2026-11-01 (James: 78% of visitors are US
+# and cannot open the international exchange). Public API, no key.
+POLYMARKET_US_API = "https://gateway.polymarket.us/v1"
+# Categories crawled on the US venue. Sports is left to sports_scanner.py.
+# Politics is 1,200+ events of midterm seat bins; crawl all of them so the
+# cross-venue match sees every seat (a 400 cap let CT-04 through on 11-01).
+POLY_US_CATEGORIES = ["culture", "crypto", "finance", "geopolitics", "technology",
+                      "macro", "science", "weather", "politics"]
+POLY_US_POLITICS_MAX_EVENTS = 1600
+# International Polymarket keeps at most this many cards per board, and only
+# for markets the US venue does not carry (see prefer_polymarket_us).
+POLY_INTL_CAP = 2
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
 # QUIP MODEL TIERS (2026-08-08). The quips ARE the product, the volume is
@@ -456,6 +469,227 @@ def normalize_poly_market(pm):
     }
 
 
+def _poly_us_get(path, params=None):
+    """GET against the Polymarket US gateway. Same retry shape as _poly_api_get."""
+    url = f"{POLYMARKET_US_API}{path}"
+    if params:
+        parts = []
+        for k, v in params.items():
+            if v is None:
+                continue
+            if isinstance(v, (list, tuple)):
+                parts.extend(f"{k}={x}" for x in v)
+            else:
+                parts.append(f"{k}={v}")
+        url += "?" + "&".join(parts)
+    req = urllib.request.Request(url, headers={
+        "Accept": "application/json",
+        "User-Agent": "DollarBets/1.0"
+    })
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                return json.loads(resp.read().decode())
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < 2:
+                time.sleep(2 * (attempt + 1))
+                continue
+            print(f"[scanner:poly_us] API error: {e} ({url})", file=sys.stderr)
+            return None
+        except (urllib.error.URLError, OSError, TimeoutError) as e:
+            if attempt < 2:
+                time.sleep(2)
+                continue
+            print(f"[scanner:poly_us] API error after retries: {e} ({url})", file=sys.stderr)
+            return None
+
+
+def fetch_polymarket_us_events():
+    """Crawl active, open Polymarket US events by category, with their
+    nested markets. Returns a list of event dicts. ~20 calls."""
+    out = []
+    seen = set()
+    for cat in POLY_US_CATEGORIES:
+        cap = POLY_US_POLITICS_MAX_EVENTS if cat == "politics" else 2000
+        offset = 0
+        while offset < cap:
+            data = _poly_us_get("/events", {"active": "true", "closed": "false",
+                                            "limit": 200, "offset": offset,
+                                            "categories": cat})
+            events = (data or {}).get("events") or []
+            for e in events:
+                eid = e.get("id")
+                if eid and eid not in seen:
+                    seen.add(eid)
+                    out.append(e)
+            if len(events) < 200:
+                break
+            offset += 200
+    print(f"[scanner:poly_us] {len(out)} active events across {len(POLY_US_CATEGORIES)} categories",
+          file=sys.stderr)
+    return out
+
+
+_POLY_US_SKIP_PATTERNS = [
+    # Range bins and seat-by-seat bins read as fragments, not wagers
+    "price range", "margin of victory", "price at ", "price on ",
+    "temperature in", "hottest years",
+]
+
+
+def normalize_poly_us_market(event, market):
+    """Convert one Polymarket US market (nested in its event) into a candidate
+    dict in the same shape as normalize_poly_market.
+
+    Price: the Yes side's `price` is the best ask (checked 2026-11-01 against
+    bestAskQuote on /v1/markets), so $1 / price is what a dollar buys, the
+    same basis as Kalshi's yes_ask. Volume is not published on the US venue;
+    tradability comes from whether the No side has a price (a two-sided book).
+    URL: polymarket.us addresses one market inside an event as
+    /event/<event slug>?marketSlug=<market slug>, as its own site does.
+    """
+    if not market.get("active") or market.get("closed"):
+        return None
+    if market.get("status") not in (None, "MARKET_STATUS_OPEN"):
+        return None
+    question = (market.get("question") or "").strip()
+    if not question:
+        return None
+    ev_slug = event.get("slug") or ""
+    m_slug = market.get("slug") or ""
+    if not ev_slug or not m_slug:
+        return None
+
+    sides = market.get("marketSides") or []
+    yes = next((x for x in sides if x.get("long")), None)
+    no = next((x for x in sides if x.get("long") is False), None)
+    if not yes or yes.get("tradable") is False:
+        return None
+    try:
+        yes_price = float(yes.get("price") or 0)
+    except (ValueError, TypeError):
+        return None
+    if yes_price <= 0 or yes_price >= 1.0:
+        return None
+    payout = round(1.0 / yes_price, 2)
+    if payout < 1.5:
+        return None
+
+    # Multi-market events: "Oscar Nominees: Best Actress" + "Emma Stone".
+    # Compose a standalone question; the quip pass rewrites titles anyway.
+    sub = (market.get("title") or "").strip()
+    markets_in_event = len(event.get("markets") or [])
+    if sub and markets_in_event > 1 and sub.lower() not in question.lower():
+        title = f"{question}: {sub}"
+    else:
+        title = question
+    q_lower = title.lower()
+    if any(pat in q_lower for pat in _POLY_US_SKIP_PATTERNS):
+        return None
+    if re.search(r'between\s+[\d$£€]+.*and\s+[\d$£€]+', q_lower):
+        return None
+    if re.search(r'\d+-\d+\s*(mm|cm|°|degrees|inches|mph|kmh|%)', q_lower):
+        return None
+
+    tag_labels = [t.get("label") or t.get("slug") or "" for t in (event.get("tags") or [])]
+    tag_labels.append(event.get("category") or "")
+    category = _poly_tags_to_category(tag_labels, title)
+
+    end_date = market.get("endDate") or event.get("endDate") or ""
+    tier = payout_tier(payout)
+    hook_score = score_cultural_hook({"title": title, "sub_title": "", "category": category})
+
+    # Tradability: no volume on the US venue. A priced No side means someone
+    # is bidding; a one-sided book gets the same ghost-town penalty as a
+    # sub-100-volume Polymarket market.
+    two_sided = bool(no and no.get("price"))
+    trad_score = 0 if two_sided else -20
+
+    fresh_score = 0
+    if end_date:
+        try:
+            close_dt = datetime.fromisoformat(end_date.replace("Z", "+00:00"))
+            days_left = (close_dt - datetime.now(timezone.utc)).total_seconds() / 86400
+            if days_left <= 1:
+                fresh_score += 20
+            elif days_left <= 3:
+                fresh_score += 15
+            elif days_left <= 7:
+                fresh_score += 10
+            elif days_left <= 14:
+                fresh_score += 5
+            if days_left > 365:
+                fresh_score -= 10
+        except (ValueError, TypeError):
+            pass
+
+    specificity = score_specificity(title)
+    if specificity >= 15 and trad_score < -5:
+        trad_score = -5
+    editorial_score = hook_score + score_payout_drama(payout) + fresh_score + trad_score + specificity
+
+    return {
+        "ticker": f"pmus-{market.get('id')}",
+        "title": title,
+        "subtitle": "",
+        "payout": payout,
+        "tier": tier,
+        "quip": generate_quip(title, category),
+        "yes_price": f"{yes_price:.4f}",
+        "volume": 0,
+        "category": category,
+        "close_time": end_date,
+        "_specificity": specificity,
+        "url": f"https://polymarket.us/event/{ev_slug}?marketSlug={m_slug}",
+        "platform": "polymarket_us",
+        "score": editorial_score,
+        "_source": "polymarket_us",
+        "_title_lower": title.lower().strip(),
+    }
+
+
+_DATE_WORDS = {
+    "january", "february", "march", "april", "may", "june", "july", "august",
+    "september", "october", "november", "december", "jan", "feb", "mar", "apr",
+    "jun", "jul", "aug", "sep", "sept", "oct", "nov", "dec", "end", "year",
+    "month", "week", "today", "tonight", "et", "pm", "am",
+}
+
+
+def _normalize_title_nodate(title):
+    """_normalize_title minus dates and numbers. Resolution dates are shared by
+    unrelated markets ("by December 31, 2026" matched "Pandemic?: By December
+    31, 2026" at 0.4), so the cross-venue match ignores them."""
+    words = _normalize_title(title).split()
+    return " ".join(w for w in words
+                    if w not in _DATE_WORDS and not re.fullmatch(r"[\d,.$%:]+(st|nd|rd|th)?", w))
+
+
+def prefer_polymarket_us(intl_candidates, us_candidates, similarity_threshold=0.4):
+    """Drop international Polymarket candidates that the US venue also lists.
+
+    James, 2026-11-01: lean into Polymarket US and keep the international
+    exchange only for markets the US venue does not carry. Matching is
+    normalised title overlap with dates and numbers removed, at a lower bar
+    than dedup_cross_platform because a false drop costs one international
+    card and a false keep sends 78% of visitors to a market they cannot open.
+    """
+    if not us_candidates:
+        return intl_candidates
+    us_norms = [_normalize_title_nodate(c["title"]) for c in us_candidates]
+    kept = []
+    dropped = 0
+    for c in intl_candidates:
+        n = _normalize_title_nodate(c["title"])
+        if any(_title_similarity(n, u) >= similarity_threshold for u in us_norms):
+            dropped += 1
+            continue
+        kept.append(c)
+    print(f"[scanner:poly_us] International Polymarket: {len(intl_candidates)} candidates, "
+          f"{dropped} also on the US venue dropped, {len(kept)} kept", file=sys.stderr)
+    return kept
+
+
 def _poly_tags_to_category(tags, question):
     """Map Polymarket tags to Kalshi-style categories for consistent scoring."""
     tag_str = " ".join(t.lower() for t in tags) if tags else ""
@@ -490,6 +724,8 @@ def _validate_url(url):
     """
     if "polymarket.com/event/" in url:
         return _validate_polymarket_url(url)
+    if "polymarket.us/event/" in url:
+        return _validate_polymarket_us_url(url)
 
     # Non-Polymarket: HEAD request
     try:
@@ -502,6 +738,38 @@ def _validate_url(url):
         return False
     except (urllib.error.URLError, OSError, TimeoutError):
         return True  # Network error — benefit of the doubt
+
+
+def _validate_polymarket_us_url(url):
+    """Validate a polymarket.us event URL: the event slug must resolve on the
+    US gateway and, when the URL names a market, that market must be open."""
+    match = re.search(r'polymarket\.us/event/([^/?#]+)(?:\?marketSlug=([^&#]+))?', url)
+    if not match:
+        return False
+    ev_slug, m_slug = match.group(1), match.group(2)
+    try:
+        req = urllib.request.Request(f"{POLYMARKET_US_API}/events/slug/{ev_slug}", headers={
+            "Accept": "application/json", "User-Agent": "DollarBets/1.0"})
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            data = json.loads(resp.read().decode())
+    except urllib.error.HTTPError:
+        print(f"[scanner:validate] Polymarket US slug NOT FOUND: {ev_slug}", file=sys.stderr)
+        return False
+    except (urllib.error.URLError, OSError, TimeoutError, json.JSONDecodeError):
+        return True  # Network error — benefit of the doubt
+    event = (data or {}).get("event") or {}
+    if not event.get("slug"):
+        return False
+    if m_slug:
+        for m in event.get("markets") or []:
+            if m.get("slug") == m_slug:
+                ok = bool(m.get("active")) and not m.get("closed")
+                if not ok:
+                    print(f"[scanner:validate] Polymarket US market closed: {m_slug}", file=sys.stderr)
+                return ok
+        print(f"[scanner:validate] Polymarket US market NOT in event: {m_slug}", file=sys.stderr)
+        return False
+    return True
 
 
 def _validate_polymarket_url(url):
@@ -1637,7 +1905,7 @@ def _corpus_dir():
     return os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "corpus")
 
 
-def dump_corpus_snapshot(events, poly_markets):
+def dump_corpus_snapshot(events, poly_markets, poly_us_markets=None):
     """Write today's crawl titles to data/corpus/YYYY-MM-DD.json so that
     future scans can compute entity-verb co-occurrence over a rolling
     window. Idempotent — overwriting the file is fine, today's data is
@@ -1661,6 +1929,10 @@ def dump_corpus_snapshot(events, poly_markets):
         t = (p.get("question") or "").strip()
         if t:
             titles.append({"text": t, "platform": "polymarket"})
+    for p in poly_us_markets or []:
+        t = (p.get("question") or "").strip()
+        if t:
+            titles.append({"text": t, "platform": "polymarket_us"})
 
     with open(path, "w") as f:
         json.dump({"date": date, "titles": titles}, f)
@@ -2415,11 +2687,12 @@ def dedup_cross_platform(kalshi_candidates, poly_candidates, similarity_threshol
         if pi not in poly_matched:
             merged.append(pc)
 
-    kalshi_count = sum(1 for m in merged if m.get("_source") != "polymarket")
+    kalshi_count = sum(1 for m in merged if m.get("_source") not in ("polymarket", "polymarket_us"))
     poly_count = sum(1 for m in merged if m.get("_source") == "polymarket")
+    poly_us_count = sum(1 for m in merged if m.get("_source") == "polymarket_us")
     dedup_count = sum(1 for m in merged if "_dedup" in m)
     print(f"[scanner:dedup] Merged: {len(merged)} candidates "
-          f"({kalshi_count} Kalshi, {poly_count} Poly, {dedup_count} cross-platform picks)",
+          f"({kalshi_count} Kalshi, {poly_us_count} Poly US, {poly_count} Poly intl, {dedup_count} cross-platform picks)",
           file=sys.stderr)
 
     return merged
@@ -2644,7 +2917,7 @@ def build_board(events, poly_candidates=None):
     tier_counts = {"green": 0, "yellow": 0, "orange": 0, "red": 0, "purple": 0}
     tier_targets = {"green": 3, "yellow": 3, "orange": 2, "red": 1, "purple": 1}
     category_counts = {}
-    platform_counts = {"kalshi": 0, "polymarket": 0}
+    platform_counts = {"kalshi": 0, "polymarket": 0, "polymarket_us": 0}
     used_tickers = set()
     used_titles = set()  # prevent same question appearing twice (e.g. Kalshi price tiers)
 
@@ -2660,6 +2933,8 @@ def build_board(events, poly_candidates=None):
         if category_counts.get(cat, 0) >= CATEGORY_CAP:
             return False
         if platform_counts.get(plat, 0) >= PLATFORM_CAP:
+            return False
+        if plat == "polymarket" and platform_counts.get(plat, 0) >= POLY_INTL_CAP:
             return False
         return True
 
@@ -2771,7 +3046,7 @@ def build_board(events, poly_candidates=None):
     poly_failed = 0
     for m in board:
         plat = m.get("platform") or m.get("_source") or "kalshi"
-        if plat == "polymarket":
+        if plat in ("polymarket", "polymarket_us"):
             url = m.get("url", "")
             poly_checked += 1
             if url and not _validate_url(url):
@@ -2801,7 +3076,9 @@ def build_board(events, poly_candidates=None):
     # Recount after validation
     final_kalshi = sum(1 for m in board if (m.get("platform") or m.get("_source") or "kalshi") == "kalshi")
     final_poly = sum(1 for m in board if (m.get("platform") or m.get("_source") or "kalshi") == "polymarket")
-    print(f"[scanner] Board platform mix (final): kalshi={final_kalshi}, polymarket={final_poly}", file=sys.stderr)
+    final_poly_us = sum(1 for m in board if (m.get("platform") or m.get("_source") or "kalshi") == "polymarket_us")
+    print(f"[scanner] Board platform mix (final): kalshi={final_kalshi}, polymarket_us={final_poly_us}, "
+          f"polymarket={final_poly}", file=sys.stderr)
 
     # Sort: smallest to largest payout
     board.sort(key=lambda x: x["payout"])
@@ -2848,11 +3125,29 @@ def main():
             print(f"[scanner:poly] FAILED — falling back to Kalshi only: {e}", file=sys.stderr)
             poly_candidates = []
 
+        print("[scanner] Fetching events from Polymarket US...", file=sys.stderr)
+        poly_us_candidates = []
+        poly_us_raw = []
+        try:
+            for ev in fetch_polymarket_us_events():
+                for mk in ev.get("markets") or []:
+                    poly_us_raw.append(mk)
+                    candidate = normalize_poly_us_market(ev, mk)
+                    if candidate:
+                        poly_us_candidates.append(candidate)
+            print(f"[scanner:poly_us] {len(poly_us_candidates)} valid Polymarket US candidates", file=sys.stderr)
+        except Exception as e:
+            print(f"[scanner:poly_us] FAILED — continuing without the US venue: {e}", file=sys.stderr)
+            poly_us_candidates = []
+
+        # US venue first; the international exchange only fills what it lacks.
+        poly_candidates = poly_us_candidates + prefer_polymarket_us(poly_candidates, poly_us_candidates)
+
         # Dump today's crawl titles to the corpus so future scans can compute
         # entity-verb co-occurrence over a rolling window. Best-effort —
         # corpus failure shouldn't crash the scan.
         try:
-            dump_corpus_snapshot(events, poly_raw)
+            dump_corpus_snapshot(events, poly_raw, poly_us_raw)
         except Exception as e:
             print(f"[scanner] Corpus dump failed (non-fatal): {e}", file=sys.stderr)
 
@@ -2867,15 +3162,16 @@ def main():
             board = build_board(events, poly_candidates=poly_candidates)
 
     # Count platform mix for logging
-    kalshi_on_board = sum(1 for m in board if m.get("platform") != "polymarket")
+    kalshi_on_board = sum(1 for m in board if m.get("platform") not in ("polymarket", "polymarket_us"))
     poly_on_board = sum(1 for m in board if m.get("platform") == "polymarket")
+    poly_us_on_board = sum(1 for m in board if m.get("platform") == "polymarket_us")
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "market_count": len(board),
-        "source": "kalshi+polymarket",
+        "source": "kalshi+polymarket_us+polymarket",
         "quip_pipeline": os.environ.get("QUIP_PIPELINE", "v1").lower(),
-        "platform_mix": {"kalshi": kalshi_on_board, "polymarket": poly_on_board},
+        "platform_mix": {"kalshi": kalshi_on_board, "polymarket_us": poly_us_on_board, "polymarket": poly_on_board},
         "board": board,
     }
 

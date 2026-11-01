@@ -155,6 +155,7 @@ SPORTSBOOK_DISPLAY_NAMES = {
 PLATFORM_MIN_AGE = {
     "kalshi": 21,
     "polymarket": 18,
+    "polymarket_us": 18,
     "coinbase": 18,
     "fanduel": 21,
     "draftkings": 21,
@@ -1340,6 +1341,8 @@ class handler(BaseHTTPRequestHandler):
                 inferred_slug = "kalshi"
             elif market_id.startswith("0x"):
                 inferred_slug = "polymarket"
+            elif market_id.startswith("pmus-"):
+                inferred_slug = "polymarket_us"
 
             if inferred_slug is None:
                 # Can't safely infer — return to homepage rather than
@@ -1355,7 +1358,7 @@ class handler(BaseHTTPRequestHandler):
             # the contract address). Their base_url in partners.json points
             # at a 404-equivalent page. Bounce stale 0x tickers home instead
             # of dumping the user on a broken third-party page.
-            if inferred_slug == "polymarket":
+            if inferred_slug in ("polymarket", "polymarket_us"):
                 self.send_response(302)
                 self.send_header("Location", "/")
                 self.send_header("Cache-Control", "no-cache")
@@ -1478,7 +1481,7 @@ class handler(BaseHTTPRequestHandler):
 
         # Serve jurisdiction interstitial instead of instant redirect
         platform_name = result.get("platform", "the market platform")
-        display_names = {"kalshi": "Kalshi", "polymarket": "Polymarket", "coinbase": "Coinbase International"}
+        display_names = {"kalshi": "Kalshi", "polymarket": "Polymarket", "polymarket_us": "Polymarket US", "coinbase": "Coinbase International"}
         display_names.update(SPORTSBOOK_DISPLAY_NAMES)
         display_name = display_names.get(platform_name, platform_name)
 

@@ -184,6 +184,12 @@ def _build_partner_url(partner, market_id, market_url=None):
         else:
             return f"{base}/{market_id}"
 
+    # Polymarket US: the board stores the full event URL including
+    # ?marketSlug=<market>, which is how polymarket.us addresses one market
+    # inside a multi-market event. Keep it; there is no affiliate param.
+    if partner.get("slug") == "polymarket_us" and market_url:
+        return market_url
+
     # Other platforms: prefer market_url when available
     if market_url:
         clean_url = market_url.split("?")[0]
@@ -208,6 +214,7 @@ def _cta_label_for_partner(partner):
     safe_labels = {
         "kalshi": "view market",
         "polymarket": "see odds",
+        "polymarket_us": "see odds",
         "coinbase": "open market",
         "sportsbook": "view contract"
     }

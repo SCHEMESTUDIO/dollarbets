@@ -59,7 +59,7 @@
       "softened_countries": [],
       "min_age": 18,
       "requires_disclaimer": true,
-      "priority_rank": 2,
+      "priority_rank": 3,
       "market_url_format": "{base_url}/{market_id}?{tracking_param_name}={affiliate_id}"
     },
     {
@@ -68,7 +68,7 @@
       "base_url": "https://polymarket.us/event",
       "affiliate_id": "",
       "tracking_param_name": "ref",
-      "enabled": false,
+      "enabled": true,
       "allowed_countries": [
         "US"
       ],
@@ -76,9 +76,9 @@
       "softened_countries": [],
       "min_age": 18,
       "requires_disclaimer": true,
-      "priority_rank": 3,
+      "priority_rank": 2,
       "market_url_format": "{base_url}/{market_id}",
-      "_note": "Polymarket's CFTC-regulated US venue (launched 2025-12-03). Separate catalogue and slug scheme from polymarket.com, so a polymarket.com market cannot be mapped to it by ticker; api/go.py sends US visitors on a Polymarket card to an explanation page that links polymarket.us for browsing. Enable only once board data carries a verified us_slug per market. No referral programme on the US venue as of 2026-11-01."
+      "_note": "Polymarket's CFTC-regulated US venue (launched 2025-12-03). Primary Polymarket source since 2026-11-01 (James: 78% of traffic is US). scanner.py sources markets from gateway.polymarket.us and stores the full event URL (event slug + marketSlug) in board data; link_resolver keeps that query string. No referral programme on the US venue as of 2026-11-01."
     },
     {
       "slug": "coinbase",

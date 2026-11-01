@@ -1847,6 +1847,7 @@ function shareTo(e, platform, btn) {{
 PLATFORM_LOGOS = {
     "kalshi": '<svg class="logo-kalshi" viewBox="0 0 60 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Courier New,Courier,monospace" font-size="14" font-weight="700" letter-spacing="-0.5">Kalshi</text></svg>',
     "polymarket": '<svg class="logo-polymarket" viewBox="0 0 90 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Courier New,Courier,monospace" font-size="14" font-weight="700" letter-spacing="-0.5">Polymarket</text></svg>',
+    "polymarket_us": '<svg class="logo-polymarket" viewBox="0 0 112 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Courier New,Courier,monospace" font-size="14" font-weight="700" letter-spacing="-0.5">Polymarket US</text></svg>',
     "fanduel": '<svg class="logo-sportsbook" viewBox="0 0 70 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Courier New,Courier,monospace" font-size="14" font-weight="700" letter-spacing="-0.5">FanDuel</text></svg>',
     "draftkings": '<svg class="logo-sportsbook" viewBox="0 0 90 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Courier New,Courier,monospace" font-size="14" font-weight="700" letter-spacing="-0.5">DraftKings</text></svg>',
     "betmgm": '<svg class="logo-sportsbook" viewBox="0 0 65 16" xmlns="http://www.w3.org/2000/svg" fill="#2d2319"><text x="0" y="13" font-family="Courier New,Courier,monospace" font-size="14" font-weight="700" letter-spacing="-0.5">BetMGM</text></svg>',
@@ -1996,6 +1997,7 @@ def platform_card_class(platform, hero=False):
 PLATFORM_DISPLAY_NAMES = {
     "kalshi": "Kalshi",
     "polymarket": "Polymarket",
+    "polymarket_us": "Polymarket US",
     "fanduel": "FanDuel",
     "draftkings": "DraftKings",
     "betmgm": "BetMGM",
