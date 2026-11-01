@@ -129,8 +129,27 @@ def analytics_head():
         window.dbRegion = region;
         document.dispatchEvent(new CustomEvent('db:region', {{ detail: region }}));
       }}
-      var choice = cookie('db_consent'), region = cookie('db_region');
+      // Country drives one thing: US visitors do not see Polymarket cards
+      // (international exchange, blocked for the US; see HIDE_POLYMARKET_FOR_US
+      // in generate.py). Cached 30 days in db_country; '' = unknown.
+      function markCountry(c) {{
+        window.dbCountry = c || null;
+        if (c === 'US') document.documentElement.classList.add('us-visitor');
+      }}
+      function storeCountry(c) {{
+        document.cookie = 'db_country=' + (c || '') + ';max-age=2592000;path=/;samesite=lax;secure';
+        markCountry(c);
+      }}
+      var choice = cookie('db_consent'), region = cookie('db_region'), country = cookie('db_country');
       window.dbRegion = region;
+      if (country !== null) markCountry(country);
+      else if (choice || region) {{
+        // Consent already settled on an earlier visit; one lookup for the country.
+        fetch('/api/geo/', {{ credentials: 'omit' }})
+          .then(function(r) {{ return r.json(); }})
+          .then(function(j) {{ storeCountry(j && j.country ? String(j.country).toUpperCase() : ''); }})
+          .catch(function() {{}});
+      }}
       if (choice === 'accept') {{ grant(); return; }}
       if (choice === 'decline') {{ deny(); return; }}
       if (region === 'row') {{ grant(); return; }}
@@ -141,6 +160,7 @@ def analytics_head():
           var eu = !j || j.consent_required !== false;
           var reg = eu ? 'eu' : 'row';
           document.cookie = 'db_region=' + reg + ';max-age=2592000;path=/;samesite=lax;secure';
+          storeCountry(j && j.country ? String(j.country).toUpperCase() : '');
           if (eu) deny(); else grant();
           announce(reg);
         }})
@@ -491,6 +511,14 @@ SHARED_CSS = """
     .board { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px; }
 
     .wager { }
+    /* US visitors cannot open Polymarket markets (see HIDE_POLYMARKET_FOR_US).
+       Homepage board: the cards are hidden, the hero stays. Everywhere else the
+       category boards are mostly Polymarket (crypto 15/15, politics 17/18 on
+       2026-11-01), so hiding would empty the page; the meta line says so instead. */
+    html.us-visitor body.home .pm-card:not(.pm-hero) { display: none; }
+    html.us-visitor .pm-card .wager-meta::after,
+    html.us-visitor .pm-card .hero-longshot-meta::after,
+    html.us-visitor .pm-card .ranked-meta::after { content: " · not available in the US"; }
 
     /* Standard bet card */
     .wager-card {
@@ -1597,7 +1625,12 @@ def latest_guides_html(limit=8):
 """
 
 
-def page_shell(title, description, body, canonical="", noindex=False, current_nav="", extra_head="", sticky_html=None, compact_header=False, show_signup=True, article=False, og_image=None):
+def _body_class_attr(article, body_class=""):
+    classes = [c for c in (("article" if article else ""), body_class) if c]
+    return f' class="{" ".join(classes)}"' if classes else ""
+
+
+def page_shell(title, description, body, canonical="", noindex=False, current_nav="", extra_head="", sticky_html=None, compact_header=False, show_signup=True, article=False, og_image=None, body_class=""):
     og_image_url = og_image or f"{SITE_URL}/og-image.png"   # board pages pass the daily card
     """Wrap body content in the full HTML shell.
 
@@ -1709,7 +1742,7 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
   <style>{SHARED_CSS}
   </style>
 </head>
-<body{' class="article"' if article else ''}>
+<body{_body_class_attr(article, body_class)}>
   <div class="container">
 
     <header class="header">
@@ -1939,6 +1972,27 @@ TIER_COLORS = {
     "purple": "#9c5ec7",
 }
 
+# US visitors cannot open the board's Polymarket markets (international
+# exchange; Polymarket US is a separate venue with a different catalogue), so
+# their cards are hidden client-side once /api/geo/ reports country == US.
+# Server HTML is identical for everyone; the hide is a class on <html>.
+# James, 2026-11-01. Set False to show every card to every visitor again.
+HIDE_POLYMARKET_FOR_US = True
+
+
+def platform_card_class(platform, hero=False):
+    """Extra class marking a card whose market US visitors cannot open.
+
+    `pm-card` alone hides the card for US visitors on the homepage board and
+    appends "not available in the US" to the meta line everywhere. The hero
+    longshot adds `pm-hero` so it is annotated but never hidden: the page
+    would otherwise lose its top for 78% of visitors on a Polymarket day.
+    """
+    if not (HIDE_POLYMARKET_FOR_US and platform == "polymarket"):
+        return ""
+    return " pm-card pm-hero" if hero else " pm-card"
+
+
 PLATFORM_DISPLAY_NAMES = {
     "kalshi": "Kalshi",
     "polymarket": "Polymarket",
@@ -1986,7 +2040,7 @@ def render_bet_card(m, is_longshot_pick=False):
     anchor_id = market_anchor(ticker) if ticker else ""
     id_attr = f' id="{anchor_id}"' if anchor_id else ""
 
-    return f"""      <li class="wager{tier_class}"{id_attr}>
+    return f"""      <li class="wager{tier_class}{platform_card_class(platform)}"{id_attr}>
         <div class="wager-card">
           <div class="wager-title-row">
             <div class="wager-title">{title}</div>
@@ -2033,7 +2087,7 @@ def render_longshot_hero(m):
 
     hero_id = f' id="{market_anchor(ticker)}"' if ticker else ""
 
-    return f"""      <li class="wager"{hero_id}>
+    return f"""      <li class="wager{platform_card_class(platform, hero=True)}"{hero_id}>
         <div class="hero-longshot">
           <div class="hero-longshot-notch-left"></div>
           <div class="hero-longshot-notch-right"></div>
@@ -2248,7 +2302,7 @@ def render_board_promo(board_data=None, position="top", platform_filter=None):
         num_class = "rank-1" if rank == 1 else "rank-other"
         tier_class = f"tier-{tier}" if tier else ""
 
-        cards.append(f"""        <div class="ranked-card {tier_class}">
+        cards.append(f"""        <div class="ranked-card {tier_class}{platform_card_class(platform)}">
           <div class="ranked-card-inner">
             <div class="rank-numeral {num_class}">{rank}</div>
             <div class="ranked-card-body">
@@ -2619,6 +2673,7 @@ def generate_daily_board(boards):
         current_nav="/",
         extra_head=homepage_schema,
         show_signup=False,
+        body_class="home",
     )
 
     write_page("index.html", html)

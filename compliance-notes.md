@@ -14,12 +14,14 @@ Compliance is enforced at the `/go/` redirect layer, not on the board pages. Eve
 ### What every user sees on the site
 - The same board, same legend, same disclosure strip ("we earn affiliate commissions when you sign up to kalshi or polymarket through our links…")
 - No region-aware copy on the homepage or board pages
+- One exception since 2026-11-01: board cards for Polymarket markets carry class `pm-card` and are hidden by CSS once `/api/geo/` reports `country == "US"` (`html.us-visitor`). The HTML is the same for everyone; US visitors cannot open those markets, so the cards are not shown to them. Content pages are not affected.
 
 ### What happens at /go/{ticker}
 The redirect handler (`api/go.py`) reads the user's country from Vercel headers and looks up the destination partner in `config/partners.json`. There are two possible outcomes:
 
 1. **Partner is available in this region** → show jurisdiction interstitial → redirect to partner's market URL with affiliate params
 2. **Partner is blocked in this region** → render `unavailable_html()` page explaining why (named partner, named region) and suggesting alternatives where applicable
+3. **US visitor on a Polymarket market** → render `polymarket_us_html()`: the market is on Polymarket's international exchange, which does not take US customers; the page links polymarket.us (the separate CFTC-regulated venue) for browsing and lists the Kalshi markets on today's board. No redirect to a guessed Polymarket US market.
 
 There is no middle "commentary-only" tier any more. The previous client-side banner/CTA-softening behavior was removed on 2026-05-12; geo enforcement happens entirely at click-through against a specific partner.
 
@@ -43,6 +45,7 @@ There is no middle "commentary-only" tier any more. The previous client-side ban
 
 - `blocked_countries`: US + EU countries where blocked (NL, PL, FR, BE, CH, PT, HU, IT) + GB, AU, CN, HK, IN, JP, KR + sanctioned nations
 - US blocked because Polymarket operates outside US regulatory framework
+- Polymarket US (polymarket.us) is a separate CFTC-regulated venue with its own catalogue; registered as partner `polymarket_us`, disabled until markets can be mapped at scan time
 
 ## Outstanding business actions
 

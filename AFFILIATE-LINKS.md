@@ -83,10 +83,16 @@ The flow:
 - **Geo rules**: Available worldwide except US states AZ, IL, MA, MD, MI, MT, NV, OH
 - **Priority**: 1 (highest)
 
-### Polymarket (disabled, stub)
-- **Status**: Stub — ready for implementation
-- **Blocked countries**: NL, PL, FR, BE, CH, PT, HU, IT, UA, RU, IR, KP, CU, SY, BY, VE, MM, SG, AR
+### Polymarket (enabled, no affiliate ID)
+- **Status**: Live for visitors outside the blocked list; `affiliate_id` empty (Polymarket's referral programme needs $10k of own trading volume to issue a code, and it pays a share of net fees, not CPA)
+- **Blocked countries**: US, GB, AU, CN, HK, IN, JP, KR, NL, PL, FR, BE, CH, PT, HU, IT, plus sanctioned nations
+- **US visitors (since 2026-11-01)**: `api/go.py` serves `polymarket_us_html()` instead of the generic unavailable page: it explains that the market is on the international exchange, links polymarket.us to browse, and lists the Kalshi markets on today's board (`_pick_related_markets(..., exclude_platform="polymarket")`). `generate.py` also hides Polymarket cards client-side for US visitors (`HIDE_POLYMARKET_FOR_US`, class `pm-card`, `html.us-visitor` set from `/api/geo/`). Reason: 78% of traffic is US and a third of tracked clicks were Polymarket cards landing on "not available in your region".
 - **Priority**: 2
+
+### Polymarket US (disabled, registered)
+- **Status**: Registered in `partners.json`, `enabled: false`. Polymarket's CFTC-regulated US venue (polymarket.us, launched 2025-12-03) has its own catalogue and slug scheme (`/event/bilbrd-1song-2026-11-07`), so a polymarket.com market cannot be mapped by ticker. Its public API (`https://gateway.polymarket.us/v1/search?query=`, no key) matches on Polymarket's question text, not our rewritten titles, and a check of 30 board markets found no reliable equivalents.
+- **To enable**: board data must carry a verified `us_slug` per market (resolved at scan time, never guessed at click time), then `polymarket.us` goes through the normal interstitial. Host is already on the redirect allowlist.
+- **Affiliate**: none on the US venue as of 2026-11-01.
 
 ### Coinbase (disabled, stub)
 - **Status**: Stub
