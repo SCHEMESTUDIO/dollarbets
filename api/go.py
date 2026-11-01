@@ -37,6 +37,7 @@ def _is_valid_market_id(value):
 _ALLOWED_REDIRECT_HOSTS = {
     "kalshi.com", "www.kalshi.com",
     "polymarket.com", "www.polymarket.com",
+    "polymarket.us", "www.polymarket.us",
     "coinbase.com", "www.coinbase.com",
     "sportsbook.fanduel.com",
     "draftkings.com", "www.draftkings.com", "sportsbook.draftkings.com",
@@ -286,12 +287,15 @@ def load_latest_sports_board():
         return None
 
 
-def _pick_related_markets(board_source_path_prefix, exclude_ticker, n=4):
+def _pick_related_markets(board_source_path_prefix, exclude_ticker, n=4,
+                          exclude_platform=None):
     """Pick a few markets from a board file as escape-hatch suggestions.
 
     `board_source_path_prefix` is e.g. "sports" or "underdogs" or "" (for the
     main date-stamped prediction-market board). `exclude_ticker` is the
     ticker that just got blocked — we won't suggest it back to the user.
+    `exclude_platform` drops every market on that platform, so a US visitor
+    blocked from Polymarket is only offered markets they can actually open.
 
     Returns a list of {"title": str, "href": str} dicts ready to render.
     Always returns a list (possibly empty); never raises.
@@ -315,6 +319,8 @@ def _pick_related_markets(board_source_path_prefix, exclude_ticker, n=4):
         for m in data.get("board", []):
             t = m.get("ticker", "")
             if not t or t == exclude_ticker:
+                continue
+            if exclude_platform and m.get("platform") == exclude_platform:
                 continue
             title = m.get("title", "").strip()
             if not title:
@@ -648,6 +654,75 @@ def unavailable_html(market_id, platform_display, user_country, partner_config,
   <div class="note"><strong>{safe_platform}</strong> is available in: {available_html}</div>
   {related_block_html}
   <div class="note">other markets on the <a href="/">homepage</a> may be available near you.</div>
+
+  <a class="back" href="/">back to dollar bets &raquo;</a>
+
+  <div class="fine">dollar bets is an editorial site. we do not operate markets or verify user eligibility.</div>
+</div>
+</body>
+</html>"""
+
+
+def polymarket_us_html(market_title, related_markets=None):
+    """Page for a US visitor who clicked a Polymarket card.
+
+    The board lists markets from Polymarket's international exchange, which does
+    not serve the US. Polymarket US (polymarket.us, CFTC-regulated since its
+    December 2025 launch) is a separate venue with its own, smaller catalogue
+    and its own slugs, so there is no reliable way to land the visitor on the
+    same market. Rather than a dead end ("not available in your region"), say
+    what happened, offer the US venue to browse, and list the Kalshi markets on
+    today's board, which a US visitor can open.
+
+    `related_markets` is a list of {"title", "href"} dicts (internal /go/ links
+    only). All dynamic values are HTML-escaped before interpolation.
+    """
+    safe_title = html.escape(str(market_title or ""), quote=True)
+    if related_markets:
+        related_items = "".join(
+            f'<li><a href="{html.escape(m["href"], quote=True)}">{html.escape(m["title"], quote=True)}</a></li>'
+            for m in related_markets
+        )
+        related_block_html = f"""
+  <div class="note related">
+    <p>markets on today's board you can open from the US:</p>
+    <ul>
+      {related_items}
+    </ul>
+  </div>"""
+    else:
+        related_block_html = ""
+    title_line = f"<p>the wager: <strong>{safe_title}</strong></p>" if safe_title else ""
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>not on Polymarket US &middot; dollar bets</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;900&family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+{UNAVAILABLE_SHARED_CSS}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="wordmark">
+    <a href="/" class="wordmark-text">DOLLAR<span>BETS</span></a>
+    <span class="status-label">not on Polymarket US</span>
+  </div>
+
+  <div class="ticket">
+    <h1>this market is on Polymarket's international exchange</h1>
+    {title_line}
+    <p>you appear to be in the <strong>United States</strong>. Polymarket's international exchange does not take US customers, and this market is not listed on <strong>Polymarket US</strong>, the separate CFTC-regulated venue, which carries its own markets.</p>
+  </div>
+
+  <div class="note">Polymarket US is open to adults 18 and over in most states. you can browse what it does list at <a href="https://polymarket.us/" rel="noopener nofollow">polymarket.us</a>, which checks eligibility at sign-up.</div>
+  {related_block_html}
+  <div class="note">Polymarket sets this restriction. dollar bets has no say in platform availability.</div>
 
   <a class="back" href="/">back to dollar bets &raquo;</a>
 
@@ -1357,6 +1432,23 @@ class handler(BaseHTTPRequestHandler):
         )
 
         if not result["eligible"]:
+            # US visitor on a Polymarket card: the board's Polymarket markets are
+            # on the international exchange (blocked for US in partners.json).
+            # Polymarket US is a different venue with a different catalogue, so
+            # explain and offer the Kalshi markets on today's board instead of
+            # the generic "not available in your region" page. 78% of the
+            # site's traffic is US and a third of tracked clicks are Polymarket
+            # cards (GA4, 90 days to 2026-10-31), so this page is not an edge case.
+            if platform == "polymarket" and (user_country or "").upper() == "US":
+                related = _pick_related_markets("", market_id, n=4, exclude_platform="polymarket")
+                html_body = polymarket_us_html(market.get("title", ""), related_markets=related)
+                self.send_response(200)
+                self.send_header("Content-Type", "text/html; charset=utf-8")
+                self.send_header("Cache-Control", "no-cache")
+                self.end_headers()
+                self.wfile.write(html_body.encode("utf-8"))
+                return
+
             # Load partner config for the blocked platform to show availability info
             site_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
             config_path = os.path.join(site_dir, "config", "partners.json")
