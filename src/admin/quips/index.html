@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>dollar bets · quip room</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎙️</text></svg>">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #f4f3ee; color: #2a2a2a; font-family: 'Courier New', Courier, monospace; font-size: 13px; line-height: 1.5; min-height: 100vh; }
+    .container { max-width: 760px; margin: 0 auto; padding: 24px 16px; }
+    .site-title { font-size: 18px; font-weight: 700; color: #111; letter-spacing: -0.5px; }
+    .tagline { font-size: 12px; color: #999; margin-top: 2px; }
+    hr { border: none; border-top: 1px solid #d5d4cd; margin: 14px 0; }
+    a { color: #222; }
+
+    #login-screen { margin-top: 40px; text-align: center; }
+    #login-screen .login-label { font-size: 14px; font-weight: 700; color: #333; margin-bottom: 12px; }
+    .login-row { display: flex; gap: 8px; max-width: 340px; margin: 0 auto; }
+    input, select, textarea { background: #fff; border: 1px solid #ccc; border-radius: 2px; color: #222; font-family: 'Courier New', monospace; font-size: 13px; padding: 8px 10px; }
+    input:focus, select:focus, textarea:focus { outline: none; border-color: #888; }
+    .login-row input { flex: 1; }
+    button, .btn { background: #222; color: #f4f3ee; border: none; border-radius: 2px; font-family: 'Courier New', monospace; font-size: 12px; font-weight: 700; padding: 8px 16px; cursor: pointer; letter-spacing: 0.3px; }
+    button:hover { background: #444; }
+    button:disabled { background: #aaa; cursor: not-allowed; }
+    .btn-outline { background: transparent; color: #333; border: 1px solid #999; text-decoration: none; }
+    .btn-outline:hover { background: #eee; }
+    .error { color: #8b0000; font-size: 12px; margin-top: 8px; }
+    .success { color: #2d6a2d; font-size: 12px; margin-top: 8px; }
+
+    #editor-screen { display: none; }
+    .toolbar { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; }
+    .toolbar select { min-width: 220px; }
+    .toolbar .spacer { flex: 1; }
+    .status-bar { font-size: 11px; color: #999; margin-bottom: 14px; letter-spacing: 0.3px; }
+    .howto { font-size: 12px; color: #666; background: #faf9f5; border: 1px solid #e8e7e0; border-radius: 3px; padding: 10px 12px; margin-bottom: 14px; }
+    .howto b { color: #333; }
+    .reviewed-note { font-size: 12px; color: #2d6a2d; background: #eef5ee; border: 1px solid #cfe0cf; border-radius: 3px; padding: 8px 12px; margin-bottom: 14px; }
+
+    .bet-card { background: #faf9f5; border: 1px solid #e8e7e0; border-bottom-width: 2px; border-bottom-color: #d8d7d0; border-radius: 3px; padding: 12px; margin-bottom: 10px; }
+    .bet-card.done { border-left: 3px solid #2d6a2d; }
+    .bet-card.needs { border-left: 3px solid #c5a030; }
+    .bet-header { display: flex; align-items: baseline; gap: 8px; margin-bottom: 2px; }
+    .bet-tier { font-size: 16px; flex-shrink: 0; }
+    .bet-title { font-size: 13px; font-weight: 700; color: #222; flex: 1; }
+    .bet-payout { font-size: 13px; font-weight: 700; color: #555; white-space: nowrap; }
+    .bet-meta { font-size: 11px; color: #999; margin-left: 24px; margin-bottom: 8px; }
+
+    .lab { font-size: 11px; color: #888; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px; margin-top: 8px; }
+    .lab .sc { color: #555; text-transform: none; letter-spacing: 0; font-weight: 400; margin-left: 6px; }
+    .shipped { font-size: 14px; color: #111; padding: 4px 0 2px; }
+    .shipped.replaced { color: #999; text-decoration: line-through; }
+    .live-line { font-size: 14px; color: #111; padding: 2px 0; }
+    .live-line b { color: #2d6a2d; font-size: 11px; text-transform: uppercase; letter-spacing: 0.4px; margin-right: 6px; }
+
+    .verdict { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 4px; }
+    .verdict label { font-size: 12px; cursor: pointer; display: flex; align-items: center; gap: 5px; }
+    .edit-box { margin-top: 6px; }
+    .edit-box textarea { width: 100%; font-size: 13px; min-height: 34px; resize: vertical; }
+    .cands { margin-top: 6px; }
+    .cands summary { font-size: 11px; color: #777; cursor: pointer; text-transform: uppercase; letter-spacing: 0.4px; font-weight: 700; }
+    .cands ol { list-style: none; margin-top: 4px; }
+    .cands li { display: grid; grid-template-columns: 18px 34px 1fr; gap: 6px; align-items: baseline; padding: 3px 0; border-top: 1px dotted #e3e2db; font-size: 12.5px; }
+    .cands li.is-shipped { color: #999; }
+    .cands li .n { font-weight: 700; color: #555; font-size: 11px; }
+    .cands li .m { color: #aaa; font-size: 10.5px; margin-left: 6px; }
+    .cands input[type=radio] { margin: 0; cursor: pointer; }
+    .cms-footer { margin-top: 24px; font-size: 11px; color: #aaa; }
+    @media (max-width: 480px) { .toolbar select { min-width: 100%; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="site-title">dollar bets &middot; quip room</div>
+      <div class="tagline">one verdict per market. your lines go live and teach the judge.</div>
+    </div>
+    <hr>
+
+    <div id="login-screen">
+      <div class="login-label">editor password</div>
+      <div class="login-row">
+        <input type="password" id="password-input" placeholder="password" onkeydown="if(event.key==='Enter')doLogin()">
+        <button onclick="doLogin()">login</button>
+      </div>
+      <div id="login-error" class="error"></div>
+    </div>
+
+    <div id="editor-screen">
+      <div class="toolbar">
+        <select id="date-select" onchange="loadBoard(this.value)"><option value="">loading boards...</option></select>
+        <button onclick="loadBoard(document.getElementById('date-select').value)" class="btn-outline">refresh</button>
+        <span class="spacer"></span>
+        <a href="/admin/" class="btn btn-outline">&larr; board cms</a>
+        <button id="save-btn" onclick="saveVerdicts()" disabled>save verdicts</button>
+        <button onclick="doLogout()" class="btn-outline">logout</button>
+      </div>
+      <div id="status-bar" class="status-bar"></div>
+      <div class="howto">
+        <b>ship</b> = the line is a 9, leave it. <b>tweak</b> = your rewording of it. <b>alt</b> = tick a candidate in the fold.
+        <b>mine</b> = your own line. Saving puts your lines on the live board and writes a lesson into the judge for every market you changed.
+        The number to drive down is <b>mine</b>.
+      </div>
+      <div id="reviewed-note" class="reviewed-note" style="display:none"></div>
+      <div id="board-container"></div>
+      <div id="save-status"></div>
+    </div>
+
+    <div class="cms-footer">
+      <p>dollar bets quip room &middot; verdicts commit to git &middot; the judge reads them on the next board</p>
+    </div>
+  </div>
+
+<script>
+// ── State ────────────────────────────────────────────────
+let TOKEN = sessionStorage.getItem('cms_token') || '';
+let CURRENT_DATE = '';
+let BOARD_SHA = '';
+let BOARD = null;          // the board file as served
+let VERDICTS = {};         // ticker → {pick, edit, alt}
+let REVIEWED = null;       // existing verdict record, if any
+
+const API = '/api';
+const TIER_EMOJI = {green:'🟩', yellow:'🟨', orange:'🟧', red:'🟥', purple:'🟪'};
+const MODES = {1:'invented consequence', 2:'confession', 3:'dumb enthusiasm', 4:'impression',
+               5:"the bet's own number", 6:'sideways comparison', 7:'unfair at a place',
+               8:'shared reference', 9:'deadpan tag'};
+
+// ── Auth (shares the token with /admin/) ─────────────────
+async function doLogin() {
+  const pw = document.getElementById('password-input').value;
+  const errEl = document.getElementById('login-error');
+  errEl.textContent = '';
+  try {
+    const res = await fetch(`${API}/login`, {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({password: pw})});
+    const data = await res.json();
+    if (!res.ok) { errEl.textContent = data.error || 'login failed'; return; }
+    TOKEN = data.token;
+    sessionStorage.setItem('cms_token', TOKEN);
+    showEditor();
+  } catch (e) { errEl.textContent = 'connection error'; }
+}
+function doLogout() {
+  TOKEN = '';
+  sessionStorage.removeItem('cms_token');
+  document.getElementById('editor-screen').style.display = 'none';
+  document.getElementById('login-screen').style.display = 'block';
+  document.getElementById('password-input').value = '';
+}
+function authHeaders() { return {'Content-Type': 'application/json', 'Authorization': `Bearer ${TOKEN}`}; }
+
+// ── Boards ───────────────────────────────────────────────
+async function showEditor() {
+  document.getElementById('login-screen').style.display = 'none';
+  document.getElementById('editor-screen').style.display = 'block';
+  await loadDates();
+}
+async function loadDates() {
+  setStatus('loading boards...');
+  const sel = document.getElementById('date-select');
+  try {
+    const res = await fetch(`${API}/quips`, {headers: authHeaders()});
+    if (res.status === 401) { doLogout(); return; }
+    const data = await res.json();
+    if (!res.ok) { setStatus('error: ' + data.error); return; }
+    const boards = data.boards || [];
+    sel.innerHTML = '';
+    boards.forEach(b => {
+      const o = document.createElement('option');
+      o.value = b.date;
+      o.textContent = `${b.date} · ${b.reviewed ? 'reviewed' : 'not reviewed'}`;
+      sel.appendChild(o);
+    });
+    const pending = boards.filter(b => !b.reviewed).length;
+    const first = boards.find(b => !b.reviewed) || boards[0];
+    if (!first) { setStatus('no boards found'); return; }
+    sel.value = first.date;
+    setStatus(`${boards.length} boards in the last two weeks · ${pending} not reviewed`);
+    await loadBoard(first.date);
+  } catch (e) { setStatus('error: ' + e.message); }
+}
+async function loadBoard(dateStr) {
+  if (!dateStr) return;
+  setStatus(`loading ${dateStr}...`);
+  VERDICTS = {}; REVIEWED = null;
+  document.getElementById('save-status').innerHTML = '';
+  try {
+    const res = await fetch(`${API}/quips?date=${dateStr}`, {headers: authHeaders()});
+    if (res.status === 401) { doLogout(); return; }
+    const data = await res.json();
+    if (!res.ok) { setStatus('error: ' + data.error); return; }
+    CURRENT_DATE = dateStr; BOARD_SHA = data.board_sha; BOARD = data.board; REVIEWED = data.verdict;
+    if (REVIEWED) {
+      REVIEWED.markets.forEach(r => { VERDICTS[r.ticker] = {pick: r.pick, edit: r.edit || '', alt: r.alt_index}; });
+    }
+    renderBoard();
+    setStatus(`${dateStr} · ${(BOARD.board || []).length} markets · pipeline ${BOARD.quip_pipeline || 'v1'} · sha:${(BOARD_SHA || '').slice(0, 7)}`);
+  } catch (e) { setStatus('error: ' + e.message); }
+}
+
+// ── Helpers mirrored from api/quips.py ───────────────────
+const shippedLine = m => ((m.quip_machine || m.quip || '')).trim();
+function finalLine(m, v) {
+  if (!v) return null;
+  if (v.pick === 'ship') return shippedLine(m);
+  if (v.pick === 'alt') return ((m.quip_alts || [])[v.alt] || {}).quip || null;
+  return (v.edit || '').trim() || null;
+}
+function verdictProblem(m, v) {
+  if (!v || !v.pick) return 'needs a verdict';
+  const alts = m.quip_alts || [];
+  if (v.pick === 'tweak' || v.pick === 'mine') {
+    const e = (v.edit || '').trim();
+    if (!e) return `${v.pick} needs the line`;
+    if (e === shippedLine(m)) return 'that is the shipped line unchanged';
+  }
+  if (v.pick === 'alt') {
+    if (!(Number.isInteger(v.alt) && v.alt >= 0 && v.alt < alts.length)) return 'tick a candidate';
+    if ((alts[v.alt].quip || '').trim() === shippedLine(m)) return 'that candidate is the shipped line';
+  }
+  return '';
+}
+function counts() {
+  const c = {ship: 0, tweak: 0, alt: 0, mine: 0};
+  Object.values(VERDICTS).forEach(v => { if (v && c[v.pick] !== undefined) c[v.pick]++; });
+  return c;
+}
+
+// ── Render ───────────────────────────────────────────────
+function renderBoard() {
+  const container = document.getElementById('board-container');
+  const note = document.getElementById('reviewed-note');
+  container.innerHTML = '';
+  if (REVIEWED) {
+    const c = REVIEWED.counts || {};
+    note.style.display = 'block';
+    note.textContent = `reviewed ${(REVIEWED.saved_at || '').replace('T', ' ').slice(0, 16)} UTC · ${c.ship || 0} ship / ${c.tweak || 0} tweak / ${c.alt || 0} alt / ${c.mine || 0} mine. Saving again replaces that record.`;
+  } else {
+    note.style.display = 'none';
+  }
+  (BOARD.board || []).forEach((m, i) => container.appendChild(renderCard(m, i)));
+  updateSaveBtn();
+}
+function renderCard(m, i) {
+  const v = VERDICTS[m.ticker];
+  const shipped = shippedLine(m);
+  const alts = m.quip_alts || [];
+  const pickC = alts.find(a => (a.quip || '').trim() === shipped);
+  const card = document.createElement('div');
+  card.className = 'bet-card';
+  card.dataset.ticker = m.ticker;
+  const problem = verdictProblem(m, v);
+  card.classList.add(problem ? 'needs' : 'done');
+  const fin = finalLine(m, v);
+  const changed = fin && fin !== shipped;
+  const scoreTxt = pickC ? `score ${pickC.score ?? '–'} · ${MODES[pickC.mode] || pickC.mode || ''}` : 'no judge record';
+
+  card.innerHTML = `
+    <div class="bet-header">
+      <span class="bet-tier">${TIER_EMOJI[m.tier] || '⬜'}</span>
+      <span class="bet-title">${esc(m.title)}</span>
+      <span class="bet-payout">$${m.payout}</span>
+    </div>
+    <div class="bet-meta">${esc(m.platform || 'kalshi')} · ${esc(m.category || '')}${m.yes_price !== undefined ? ' · yes ' + esc(m.yes_price) : ''}</div>
+    <div class="lab">shipped <span class="sc">${esc(scoreTxt)}</span></div>
+    <div class="shipped ${changed ? 'replaced' : ''}">${esc(shipped)}</div>
+    ${changed ? `<div class="live-line"><b>${v.pick === 'alt' ? 'alt' : 'yours'}</b>${esc(fin)}</div>` : ''}
+    <div class="lab">verdict ${problem ? `<span class="sc" style="color:#c5a030">${esc(problem)}</span>` : ''}</div>
+    <div class="verdict" role="radiogroup">
+      ${['ship', 'tweak', 'alt', 'mine'].map(p => `
+        <label><input type="radio" name="pick-${i}" value="${p}" ${v && v.pick === p ? 'checked' : ''} onchange="setPick('${esc(m.ticker)}', '${p}')">
+          <span>${{ship: 'ship as is', tweak: 'tweak', alt: 'an alt was better', mine: 'mine'}[p]}</span></label>`).join('')}
+    </div>
+    <div class="edit-box" style="display:${v && (v.pick === 'tweak' || v.pick === 'mine') ? 'block' : 'none'}">
+      <textarea placeholder="the line you'd actually ship" oninput="setEdit('${esc(m.ticker)}', this.value)">${esc(v && v.edit || '')}</textarea>
+    </div>
+    <details class="cands" ${v && v.pick === 'alt' ? 'open' : ''}>
+      <summary>${alts.length} candidates with judge scores</summary>
+      <ol>
+        ${alts.map((a, k) => {
+          const isShipped = (a.quip || '').trim() === shipped;
+          return `<li class="${isShipped ? 'is-shipped' : ''}">
+            <input type="radio" name="alt-${i}" value="${k}" ${isShipped ? 'disabled title="this is the shipped line"' : ''} ${v && v.pick === 'alt' && v.alt === k ? 'checked' : ''} onchange="setAlt('${esc(m.ticker)}', ${k})">
+            <span class="n">${a.score ?? '–'}</span>
+            <span>${esc(a.quip)}<span class="m">${esc(MODES[a.mode] || a.mode || '')}</span></span></li>`;
+        }).join('')}
+      </ol>
+    </details>`;
+  return card;
+}
+function rerender(ticker) {
+  const old = document.querySelector(`.bet-card[data-ticker="${CSS.escape(ticker)}"]`);
+  const idx = (BOARD.board || []).findIndex(m => m.ticker === ticker);
+  if (!old || idx < 0) return;
+  const fresh = renderCard(BOARD.board[idx], idx);
+  old.replaceWith(fresh);
+  updateSaveBtn();
+}
+function setPick(ticker, pick) {
+  const m = BOARD.board.find(x => x.ticker === ticker);
+  const v = VERDICTS[ticker] || {pick: null, edit: '', alt: null};
+  v.pick = pick;
+  if (pick === 'tweak' && !(v.edit || '').trim()) v.edit = shippedLine(m);
+  if (pick === 'mine' && (v.edit || '').trim() === shippedLine(m)) v.edit = '';
+  VERDICTS[ticker] = v;
+  rerender(ticker);
+  if (pick === 'tweak' || pick === 'mine') {
+    const ta = document.querySelector(`.bet-card[data-ticker="${CSS.escape(ticker)}"] textarea`);
+    if (ta) { ta.focus(); ta.setSelectionRange(ta.value.length, ta.value.length); }
+  }
+}
+function setEdit(ticker, value) {
+  const v = VERDICTS[ticker] || {pick: null, edit: '', alt: null};
+  v.edit = value;
+  VERDICTS[ticker] = v;
+  const card = document.querySelector(`.bet-card[data-ticker="${CSS.escape(ticker)}"]`);
+  const m = BOARD.board.find(x => x.ticker === ticker);
+  const problem = verdictProblem(m, v);
+  card.classList.toggle('needs', !!problem);
+  card.classList.toggle('done', !problem);
+  updateSaveBtn();
+}
+function setAlt(ticker, k) {
+  const v = VERDICTS[ticker] || {pick: null, edit: '', alt: null};
+  v.pick = 'alt'; v.alt = k;
+  VERDICTS[ticker] = v;
+  rerender(ticker);
+}
+function updateSaveBtn() {
+  const btn = document.getElementById('save-btn');
+  const board = (BOARD && BOARD.board) || [];
+  const missing = board.filter(m => verdictProblem(m, VERDICTS[m.ticker])).length;
+  const c = counts();
+  btn.disabled = board.length === 0 || missing > 0;
+  btn.textContent = missing > 0
+    ? `save verdicts (${missing} to go)`
+    : `${REVIEWED ? 're-save' : 'save'} verdicts · ${c.ship} ship / ${c.tweak} tweak / ${c.alt} alt / ${c.mine} mine`;
+}
+
+// ── Save ─────────────────────────────────────────────────
+async function saveVerdicts() {
+  const btn = document.getElementById('save-btn');
+  const statusEl = document.getElementById('save-status');
+  btn.disabled = true; btn.textContent = 'saving...'; statusEl.innerHTML = '';
+  const payload = {};
+  Object.entries(VERDICTS).forEach(([t, v]) => { payload[t] = {pick: v.pick, edit: v.edit || '', alt: v.alt}; });
+  try {
+    const res = await fetch(`${API}/quips`, {method: 'POST', headers: authHeaders(),
+      body: JSON.stringify({date: CURRENT_DATE, board_sha: BOARD_SHA, verdicts: payload})});
+    const data = await res.json();
+    if (!res.ok) {
+      statusEl.innerHTML = `<div class="error">${esc(data.error || 'save failed')}</div>`;
+      updateSaveBtn();
+      return;
+    }
+    const c = data.counts || {};
+    await loadBoard(CURRENT_DATE);   // clears save-status, so the message goes after
+    await refreshDateLabel();
+    statusEl.innerHTML = `<div class="success">saved · commit ${esc((data.commit || '').slice(0, 7))} · ${c.ship} ship / ${c.tweak} tweak / ${c.alt} alt / ${c.mine} mine · your lines are live in about a minute; the judge gets the lessons a few minutes after.</div>`;
+  } catch (e) {
+    statusEl.innerHTML = `<div class="error">${esc(e.message)}</div>`;
+    updateSaveBtn();
+  }
+}
+async function refreshDateLabel() {
+  const sel = document.getElementById('date-select');
+  const o = [...sel.options].find(x => x.value === CURRENT_DATE);
+  if (o) o.textContent = `${CURRENT_DATE} · reviewed`;
+}
+
+// ── Utils ────────────────────────────────────────────────
+function setStatus(msg) { document.getElementById('status-bar').textContent = msg; }
+function esc(s) { return String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c])); }
+
+// ── Init ─────────────────────────────────────────────────
+if (TOKEN) showEditor();
+</script>
+</body>
+</html>

@@ -13,6 +13,8 @@ Every conflict we've ever had came from breaking the ownership rule below.
 - `content/**` page JSONs — daily-article + gsc-weekly quick-win edits
 - `CLAUDE.md` — wiki-update workflow maintains it
 - `public/**` — generated output
+- `data/quip-verdicts/**`, `data/quip-lessons.json` — quip room (written by `/api/quips`
+  on save and by the quip-lessons workflow; `data/quip-overrides.json` likewise)
 
 **Human-owned — edited locally, never by workflows:**
 - Site code (`generate*.py`, templates, styles, `vercel.json`)
