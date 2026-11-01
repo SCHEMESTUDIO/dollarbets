@@ -26,10 +26,11 @@ POLYMARKET_API = "https://gamma-api.polymarket.com"
 # and cannot open the international exchange). Public API, no key.
 POLYMARKET_US_API = "https://gateway.polymarket.us/v1"
 # Categories crawled on the US venue. Sports is left to sports_scanner.py.
-# Politics is 1,200+ events of midterm seat bins, so it is capped separately.
+# Politics is 1,200+ events of midterm seat bins; crawl all of them so the
+# cross-venue match sees every seat (a 400 cap let CT-04 through on 11-01).
 POLY_US_CATEGORIES = ["culture", "crypto", "finance", "geopolitics", "technology",
                       "macro", "science", "weather", "politics"]
-POLY_US_POLITICS_MAX_EVENTS = 400
+POLY_US_POLITICS_MAX_EVENTS = 1600
 # International Polymarket keeps at most this many cards per board, and only
 # for markets the US venue does not carry (see prefer_polymarket_us).
 POLY_INTL_CAP = 2
