@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-11-01T00:45:43.228295+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "NCAAF": 1,
+    "Multi": 9
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-8035760B",
+      "title": "San Diego State Aztecs wins + Oklahoma State Cowboys wins",
+      "payout": 2.18,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.46",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48033-4074087-6551769&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Washington State Cougars @ San Diego State Aztecs + Oklahoma State Cowboys @ Iowa State Cyclones",
+      "market_type": "2-leg parlay",
+      "american_odds": 118,
+      "implied_probability": 0.458,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington State Cougars @ San Diego State Aztecs",
+          "pick": "San Diego State Aztecs wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48033-4074087-6551769&type=Single",
+          "commence_time": "2026-10-31T23:02:34Z"
+        },
+        {
+          "matchup": "Oklahoma State Cowboys @ Iowa State Cyclones",
+          "pick": "Oklahoma State Cowboys wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47956-4074012-6551617&type=Single",
+          "commence_time": "2026-10-31T23:10:49Z"
+        }
+      ],
+      "close_time": "2026-10-31T23:02:34Z"
+    },
+    {
+      "ticker": "PARLAY-7762ECF9",
+      "title": "Arizona Wildcats wins + San Diego State Aztecs wins",
+      "payout": 2.21,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20057631-1572717003-2335555741&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "UCLA Bruins @ Arizona Wildcats + Washington State Cougars @ San Diego State Aztecs",
+      "market_type": "2-leg parlay",
+      "american_odds": 121,
+      "implied_probability": 0.452,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "UCLA Bruins @ Arizona Wildcats",
+          "pick": "Arizona Wildcats wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20057631-1572717003-2335555741&type=Single",
+          "commence_time": "2026-11-03T03:00:00Z"
+        },
+        {
+          "matchup": "Washington State Cougars @ San Diego State Aztecs",
+          "pick": "San Diego State Aztecs wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48033-4074087-6551769&type=Single",
+          "commence_time": "2026-10-31T23:02:34Z"
+        }
+      ],
+      "close_time": "2026-10-31T23:02:34Z"
+    },
+    {
+      "ticker": "PARLAY-8D1F9816",
+      "title": "Arizona Wildcats wins + Oklahoma State Cowboys wins",
+      "payout": 2.21,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20057631-1572717003-2335555741&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "UCLA Bruins @ Arizona Wildcats + Oklahoma State Cowboys @ Iowa State Cyclones",
+      "market_type": "2-leg parlay",
+      "american_odds": 121,
+      "implied_probability": 0.452,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "UCLA Bruins @ Arizona Wildcats",
+          "pick": "Arizona Wildcats wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20057631-1572717003-2335555741&type=Single",
+          "commence_time": "2026-11-03T03:00:00Z"
+        },
+        {
+          "matchup": "Oklahoma State Cowboys @ Iowa State Cyclones",
+          "pick": "Oklahoma State Cowboys wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47956-4074012-6551617&type=Single",
+          "commence_time": "2026-10-31T23:10:49Z"
+        }
+      ],
+      "close_time": "2026-10-31T23:10:49Z"
+    },
+    {
+      "ticker": "PARLAY-E05CE7C4",
+      "title": "Under 5.5 + San Diego State Aztecs wins",
+      "payout": 2.21,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20008901-1573838066-2338594996&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Columbus Blue Jackets @ Dallas Stars + Washington State Cougars @ San Diego State Aztecs",
+      "market_type": "2-leg parlay",
+      "american_odds": 121,
+      "implied_probability": 0.452,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Columbus Blue Jackets @ Dallas Stars",
+          "pick": "Under 5.5",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20008901-1573838066-2338594996&type=Single",
+          "commence_time": "2026-11-01T00:08:37Z"
+        },
+        {
+          "matchup": "Washington State Cougars @ San Diego State Aztecs",
+          "pick": "San Diego State Aztecs wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48033-4074087-6551769&type=Single",
+          "commence_time": "2026-10-31T23:02:34Z"
+        }
+      ],
+      "close_time": "2026-10-31T23:02:34Z"
+    },
+    {
+      "ticker": "PARLAY-BA37ADAE",
+      "title": "Under 5.5 + Oklahoma State Cowboys wins",
+      "payout": 2.21,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20008901-1573838066-2338594996&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Columbus Blue Jackets @ Dallas Stars + Oklahoma State Cowboys @ Iowa State Cyclones",
+      "market_type": "2-leg parlay",
+      "american_odds": 121,
+      "implied_probability": 0.452,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Columbus Blue Jackets @ Dallas Stars",
+          "pick": "Under 5.5",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20008901-1573838066-2338594996&type=Single",
+          "commence_time": "2026-11-01T00:08:37Z"
+        },
+        {
+          "matchup": "Oklahoma State Cowboys @ Iowa State Cyclones",
+          "pick": "Oklahoma State Cowboys wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47956-4074012-6551617&type=Single",
+          "commence_time": "2026-10-31T23:10:49Z"
+        }
+      ],
+      "close_time": "2026-10-31T23:10:49Z"
+    },
+    {
+      "ticker": "PARLAY-EE528834",
+      "title": "Nashville SC wins + San Diego State Aztecs wins",
+      "payout": 2.21,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7899826-206750801-799133997&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "New York Red Bulls @ Nashville SC + Washington State Cougars @ San Diego State Aztecs",
+      "market_type": "2-leg parlay",
+      "american_odds": 121,
+      "implied_probability": 0.452,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York Red Bulls @ Nashville SC",
+          "pick": "Nashville SC wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7899826-206750801-799133997&type=Single",
+          "commence_time": "2026-11-01T21:30:00Z"
+        },
+        {
+          "matchup": "Washington State Cougars @ San Diego State Aztecs",
+          "pick": "San Diego State Aztecs wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48033-4074087-6551769&type=Single",
+          "commence_time": "2026-10-31T23:02:34Z"
+        }
+      ],
+      "close_time": "2026-10-31T23:02:34Z"
+    },
+    {
+      "ticker": "PARLAY-CDA1F000",
+      "title": "Nashville SC wins + Oklahoma State Cowboys wins",
+      "payout": 2.21,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.45",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7899826-206750801-799133997&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "New York Red Bulls @ Nashville SC + Oklahoma State Cowboys @ Iowa State Cyclones",
+      "market_type": "2-leg parlay",
+      "american_odds": 121,
+      "implied_probability": 0.452,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York Red Bulls @ Nashville SC",
+          "pick": "Nashville SC wins",
+          "odds": -200,
+          "implied_prob": "67%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7899826-206750801-799133997&type=Single",
+          "commence_time": "2026-11-01T21:30:00Z"
+        },
+        {
+          "matchup": "Oklahoma State Cowboys @ Iowa State Cyclones",
+          "pick": "Oklahoma State Cowboys wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47956-4074012-6551617&type=Single",
+          "commence_time": "2026-10-31T23:10:49Z"
+        }
+      ],
+      "close_time": "2026-10-31T23:10:49Z"
+    },
+    {
+      "ticker": "PARLAY-47FEA01E",
+      "title": "Pittsburgh Steelers wins + San Diego State Aztecs wins",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48494-4204563-6794527&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Cleveland Browns @ Pittsburgh Steelers + Washington State Cougars @ San Diego State Aztecs",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.443,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Cleveland Browns @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48494-4204563-6794527&type=Single",
+          "commence_time": "2026-11-01T18:00:00Z"
+        },
+        {
+          "matchup": "Washington State Cougars @ San Diego State Aztecs",
+          "pick": "San Diego State Aztecs wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48033-4074087-6551769&type=Single",
+          "commence_time": "2026-10-31T23:02:34Z"
+        }
+      ],
+      "close_time": "2026-10-31T23:02:34Z"
+    },
+    {
+      "ticker": "PARLAY-959FC1AA",
+      "title": "Pittsburgh Steelers wins + Oklahoma State Cowboys wins",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48494-4204563-6794527&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Cleveland Browns @ Pittsburgh Steelers + Oklahoma State Cowboys @ Iowa State Cyclones",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.443,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Cleveland Browns @ Pittsburgh Steelers",
+          "pick": "Pittsburgh Steelers wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48494-4204563-6794527&type=Single",
+          "commence_time": "2026-11-01T18:00:00Z"
+        },
+        {
+          "matchup": "Oklahoma State Cowboys @ Iowa State Cyclones",
+          "pick": "Oklahoma State Cowboys wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:47956-4074012-6551617&type=Single",
+          "commence_time": "2026-10-31T23:10:49Z"
+        }
+      ],
+      "close_time": "2026-10-31T23:10:49Z"
+    },
+    {
+      "ticker": "PARLAY-FC35FB7E",
+      "title": "Detroit Lions wins + San Diego State Aztecs wins",
+      "payout": 2.25,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.44",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48488-4204562-6794525&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Minnesota Vikings @ Detroit Lions + Washington State Cougars @ San Diego State Aztecs",
+      "market_type": "2-leg parlay",
+      "american_odds": 125,
+      "implied_probability": 0.443,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Minnesota Vikings @ Detroit Lions",
+          "pick": "Detroit Lions wins",
+          "odds": -190,
+          "implied_prob": "66%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48488-4204562-6794525&type=Single",
+          "commence_time": "2026-11-01T18:00:00Z"
+        },
+        {
+          "matchup": "Washington State Cougars @ San Diego State Aztecs",
+          "pick": "San Diego State Aztecs wins",
+          "odds": -210,
+          "implied_prob": "68%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48033-4074087-6551769&type=Single",
+          "commence_time": "2026-10-31T23:02:34Z"
+        }
+      ],
+      "close_time": "2026-10-31T23:02:34Z"
+    }
+  ]
+}

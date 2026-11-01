@@ -1,54 +1,4 @@
 {
-  "SB-91C36A1F": {
-    "title": "Brewers beat Rays by two or more tonight",
-    "quip": "Milwaukee's rotation treats the Trop like a bullpen session",
-    "cached_at": "2026-10-27T20:25:25.906040+00:00"
-  },
-  "SB-8BE21C22": {
-    "title": "Canucks take down the Ducks in Anaheim",
-    "quip": "Quinn Hughes skating circles around a rebuild",
-    "cached_at": "2026-10-27T20:25:25.906040+00:00"
-  },
-  "SB-2E3F2BD7": {
-    "title": "Cardinals steal one in Seattle tonight",
-    "quip": "Kyler Murray plays better when nobody's watching",
-    "cached_at": "2026-10-27T20:25:31.832910+00:00"
-  },
-  "SB-18A3173D": {
-    "title": "BayStars steal one in Fukuoka tonight",
-    "quip": "Yokohama plays spoiler in the Hawks' own ballpark",
-    "cached_at": "2026-10-27T20:25:41.955780+00:00"
-  },
-  "SB-D49B776F": {
-    "title": "HPK stun K\u00e4rp\u00e4t in Oulu",
-    "quip": "H\u00e4meenlinna's finest crash the Raahe party",
-    "cached_at": "2026-10-27T20:25:41.955780+00:00"
-  },
-  "SB-BEC77B30": {
-    "title": "West Indies take the Test in Bangladesh",
-    "quip": "Caribbean pace on a Mirpur turner, somehow",
-    "cached_at": "2026-10-27T20:25:41.955780+00:00"
-  },
-  "SB-F3AA1AC8": {
-    "title": "F\u00e4rjestad beat Bryn\u00e4s by two or more",
-    "quip": "Karlstad doesn't do one-goal games this week",
-    "cached_at": "2026-10-27T20:25:41.955780+00:00"
-  },
-  "SB-FC6AE272": {
-    "title": "South Africa and Australia grind out a draw",
-    "quip": "five days, no winner, Boucher nods approvingly",
-    "cached_at": "2026-10-27T20:25:41.955780+00:00"
-  },
-  "SB-7151777B": {
-    "title": "Celtics handle the Nets at the Garden tonight",
-    "quip": "Brooklyn's rebuild meets Tatum's fourth quarter",
-    "cached_at": "2026-10-27T20:25:48.327637+00:00"
-  },
-  "SB-4A86BA52": {
-    "title": "Golden Knights take care of the Senators in Vegas",
-    "quip": "Eichel at home, Sens on a long road trip",
-    "cached_at": "2026-10-27T20:25:48.327637+00:00"
-  },
   "SB-F43ED4E5": {
     "title": "Golden Knights bury Senators by two or more",
     "quip": "Eichel at home, Ottawa's road trip ends in neon",
@@ -1058,5 +1008,90 @@
     "title": "Sharks keep it close against Ottawa",
     "quip": "Celebrini won't let it get ugly",
     "cached_at": "2026-10-31T19:43:04.678065+00:00"
+  },
+  "SB-B75BAD1E": {
+    "title": "Durden handles Osbourne comfortably tonight",
+    "quip": "Durden grinds, Osbourne gets walked to the fence",
+    "cached_at": "2026-11-01T00:45:11.507687+00:00"
+  },
+  "SB-F46E990D": {
+    "title": "Mammoth bury the Flyers by two",
+    "quip": "a herd of woolly tusks loose in South Philly",
+    "cached_at": "2026-11-01T00:45:11.507687+00:00"
+  },
+  "SB-608492D5": {
+    "title": "Rangers beat McDavid's Oilers by two",
+    "quip": "Shesterkin turning the Garden into a brick wall",
+    "cached_at": "2026-11-01T00:45:11.507687+00:00"
+  },
+  "SB-0679C96E": {
+    "title": "Liverpool and Arsenal split the points at Anfield",
+    "quip": "two 1-0 managers meeting in the middle",
+    "cached_at": "2026-11-01T00:45:11.507687+00:00"
+  },
+  "SB-A1462D32": {
+    "title": "Flames upset the Avalanche in Denver",
+    "quip": "Wolf standing on his head at altitude",
+    "cached_at": "2026-11-01T00:45:11.507687+00:00"
+  },
+  "SB-CEFBF912": {
+    "title": "Timberwolves stun the Spurs in San Antonio",
+    "quip": "Ant Edwards personally ruining Wemby highlight night",
+    "cached_at": "2026-11-01T00:45:11.507687+00:00"
+  },
+  "SB-E072808A": {
+    "title": "Penguins rout the Canadiens by three in Montreal",
+    "quip": "Crosby throwing one last haymaker at the Bell Centre",
+    "cached_at": "2026-11-01T00:45:11.507687+00:00"
+  },
+  "SB-E8A03ABD": {
+    "title": "Pelicans-Hawks explodes past 262",
+    "quip": "nobody plays defense, Trae Young least of all",
+    "cached_at": "2026-11-01T00:45:11.507687+00:00"
+  },
+  "SB-F35BC09E": {
+    "title": "Amed SK and Ey\u00fcpspor grind out a low-scoring night",
+    "quip": "Diyarbak\u0131r nights, two goals max, everyone home early",
+    "cached_at": "2026-11-01T00:45:27.953471+00:00"
+  },
+  "SB-EB026FA2": {
+    "title": "Basaksehir and Samsunspor stay under two goals",
+    "quip": "Fatih Terim Stadium doing its best library impression",
+    "cached_at": "2026-11-01T00:45:27.953471+00:00"
+  },
+  "SB-D906053B": {
+    "title": "JEF United Chiba upset Avispa Fukuoka",
+    "quip": "Chiba's J2 exile funds get spent on one good afternoon",
+    "cached_at": "2026-11-01T00:45:27.953471+00:00"
+  },
+  "SB-797B069D": {
+    "title": "Yokohama Marinos and Kawasaki Frontale split the points",
+    "quip": "the Kanagawa derby ends exactly as neighbors should",
+    "cached_at": "2026-11-01T00:45:27.953471+00:00"
+  },
+  "SB-B4B90C1D": {
+    "title": "Central Coast Mariners stun Melbourne Victory away",
+    "quip": "Gosford's finest crashing AAMI Park like uninvited wedding guests",
+    "cached_at": "2026-11-01T00:45:27.953471+00:00"
+  },
+  "SB-66BA4FDF": {
+    "title": "Oilers keep it close at the Garden",
+    "quip": "McDavid doesn't let games get away from him",
+    "cached_at": "2026-11-01T00:45:36.353932+00:00"
+  },
+  "SB-200D0E61": {
+    "title": "Celtics handle the Heat at home",
+    "quip": "Tatum at TD Garden, rent money",
+    "cached_at": "2026-11-01T00:45:36.353932+00:00"
+  },
+  "SB-EFDD24F4": {
+    "title": "Flyers stay within one of Utah",
+    "quip": "Tortorella teams don't get blown out",
+    "cached_at": "2026-11-01T00:45:36.353932+00:00"
+  },
+  "SB-18687F1E": {
+    "title": "Avalanche beat Flames by two or more",
+    "quip": "MacKinnon treats Alberta road trips like batting practice",
+    "cached_at": "2026-11-01T00:45:36.353932+00:00"
   }
 }
