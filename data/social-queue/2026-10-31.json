@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-01T06:42:24.317298+00:00",
+          "tweet_id": "2116782892202262803",
+          "reply_tweet_id": "2116782893842206853"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "openverse",
+        "id": "c0279388-ca7d-456b-9906-1ac19b1dd374",
+        "page": "https://commons.wikimedia.org/w/index.php?curid=77579878",
+        "photographer": "Utagawa Hiroshige",
+        "license": "CC0 1.0",
+        "phrases": [
+          "tokyo skyline night rain",
+          "empty gym bench dusk"
+        ],
+        "tokens": {
+          "input_tokens": 7586,
+          "output_tokens": 42
         }
       }
     },
