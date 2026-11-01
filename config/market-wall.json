@@ -209,6 +209,28 @@
       "rank": 2
     },
     {
+      "slug": "prophetx",
+      "name": "ProphetX",
+      "kind": "exchange",
+      "markets": "sports",
+      "pays": true,
+      "program": "affiliate promo-code deals (Covers, RotoWire, Sports Betting Dime carry them); no public sign-up page, apply via prophetx.co contact",
+      "affiliate_url": "",
+      "affiliate_id": "",
+      "tracking_param_name": "",
+      "url": "https://www.prophetx.co/",
+      "link": "hub",
+      "mirror": null,
+      "countries": [
+        "US"
+      ],
+      "min_age": 18,
+      "label": "sports exchange",
+      "blurb": "same bet, priced peer to peer. not available in Nevada.",
+      "regulator": "America's Sports Prediction Exchange",
+      "rank": 3
+    },
+    {
       "slug": "fanduel",
       "name": "FanDuel",
       "kind": "sportsbook",
