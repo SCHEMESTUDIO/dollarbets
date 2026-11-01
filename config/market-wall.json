@@ -50,6 +50,52 @@
       "rank": 2
     },
     {
+      "slug": "webull",
+      "name": "Webull",
+      "kind": "exchange",
+      "markets": "prediction",
+      "pays": true,
+      "program": "Webull Affiliate Program for creators and publishers: apply at https://act.webullapp.com/mktb/partners/us/individual (needs a Webull brokerage account; rewards not stated publicly, approval up to 3 business days)",
+      "affiliate_url": "",
+      "affiliate_id": "",
+      "tracking_param_name": "",
+      "url": "https://www.webull.com/prediction-markets",
+      "link": "hub",
+      "mirror": "kalshi",
+      "countries": [
+        "US"
+      ],
+      "min_age": 18,
+      "label": "trades Kalshi's contract",
+      "blurb": "same price as Kalshi; politics and culture markets are in the app",
+      "regulator": "CFTC-regulated via KalshiEX",
+      "rank": 3,
+      "enabled": true
+    },
+    {
+      "slug": "public",
+      "name": "Public",
+      "kind": "exchange",
+      "markets": "prediction",
+      "pays": false,
+      "enabled": false,
+      "program": "no verifiable affiliate programme as of 2026-11-01 (aggregators cite Everflow at $10 an install and a closed FlexOffers listing; public.com has no affiliate page). Carries Kalshi's contracts with web deep links per market (public.com/prediction-markets/<slug>), so it is the easiest mirror to deep-link once a programme exists.",
+      "affiliate_url": "",
+      "affiliate_id": "",
+      "tracking_param_name": "",
+      "url": "https://public.com/prediction-markets",
+      "link": "hub",
+      "mirror": "kalshi",
+      "countries": [
+        "US"
+      ],
+      "min_age": 18,
+      "label": "trades Kalshi's contract",
+      "blurb": "",
+      "regulator": "CFTC-regulated via KalshiEX",
+      "rank": 5
+    },
+    {
       "slug": "kalshi",
       "name": "Kalshi",
       "kind": "exchange",

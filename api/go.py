@@ -44,6 +44,8 @@ _ALLOWED_REDIRECT_HOSTS = {
     "prizepicks.com", "app.prizepicks.com", "www.prizepicks.com",
     "underdogfantasy.com", "www.underdogfantasy.com",
     "prophetx.co", "www.prophetx.co",
+    "webull.com", "www.webull.com",
+    "public.com", "www.public.com",
     "coinbase.com", "www.coinbase.com",
     "sportsbook.fanduel.com",
     "draftkings.com", "www.draftkings.com", "sportsbook.draftkings.com",

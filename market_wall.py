@@ -175,6 +175,8 @@ def build_rows(market, kind, country, region, referer_path, own_row=None, allow=
 
     rows = []
     for book in cfg.get("books") or []:
+        if book.get("enabled") is False:
+            continue
         bm = book.get("markets", "both")
         if kind == "sports" and bm == "prediction":
             continue
