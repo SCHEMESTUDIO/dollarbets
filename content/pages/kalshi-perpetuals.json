@@ -138,5 +138,7 @@
       "a": "Under the programme Kalshi filed with the CFTC, a 10% rebate on perps trading fees for three months, provided you trade $50 of notional perps volume within seven days of signing up. Kalshi's help centre says offer details vary by campaign and promo credits can expire within seven days, so check the terms shown in the app."
     }
   ],
-  "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate markets, hold your money, or give trading advice. Perpetual futures involve leverage and carry a significant risk of loss, including the whole of your margin; the leverage limits, fees, and referral terms on this page are Kalshi's and change without notice, so the figures in the app govern. Kalshi pays Dollar Bets a share of referred traders' perps fees as described above. Availability is decided by Kalshi at sign-up."
+  "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate markets, hold your money, or give trading advice. Perpetual futures involve leverage and carry a significant risk of loss, including the whole of your margin; the leverage limits, fees, and referral terms on this page are Kalshi's and change without notice, so the figures in the app govern. Kalshi pays Dollar Bets a share of referred traders' perps fees as described above. Availability is decided by Kalshi at sign-up.",
+  "promo_match": "kalshi_perps",
+  "promo_header": "Crypto price markets on recent boards"
 }
