@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-11-02T01:23:08.424859+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 7,
+    "NCAAB": 3
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-CACD6390",
+      "title": "Denver Nuggets wins + Columbia Lions wins",
+      "payout": 2.57,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621370029&selectionId=237492",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Portland Trail Blazers @ Denver Nuggets + Elon Phoenix @ Columbia Lions",
+      "market_type": "2-leg parlay",
+      "american_odds": 157,
+      "implied_probability": 0.389,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Portland Trail Blazers @ Denver Nuggets",
+          "pick": "Denver Nuggets wins",
+          "odds": -166,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621370029&selectionId=237492",
+          "commence_time": "2026-11-03T02:10:00Z"
+        },
+        {
+          "matchup": "Elon Phoenix @ Columbia Lions",
+          "pick": "Columbia Lions wins",
+          "odds": -166,
+          "implied_prob": "62%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621736309&selectionId=4876311",
+          "commence_time": "2026-11-03T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-03T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-B9B4D7C4",
+      "title": "Troy Trojans wins + Denver Nuggets wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621726468&selectionId=5145605",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Massachusetts Minutemen @ Troy Trojans + Portland Trail Blazers @ Denver Nuggets",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Massachusetts Minutemen @ Troy Trojans",
+          "pick": "Troy Trojans wins",
+          "odds": -164,
+          "implied_prob": "62%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621726468&selectionId=5145605",
+          "commence_time": "2026-11-03T00:00:00Z"
+        },
+        {
+          "matchup": "Portland Trail Blazers @ Denver Nuggets",
+          "pick": "Denver Nuggets wins",
+          "odds": -166,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621370029&selectionId=237492",
+          "commence_time": "2026-11-03T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-03T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-6B87E0B3",
+      "title": "Troy Trojans wins + Columbia Lions wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621726468&selectionId=5145605",
+      "sport": "basketball_ncaab",
+      "sport_display": "NCAAB",
+      "matchup": "Massachusetts Minutemen @ Troy Trojans + Elon Phoenix @ Columbia Lions",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Massachusetts Minutemen @ Troy Trojans",
+          "pick": "Troy Trojans wins",
+          "odds": -164,
+          "implied_prob": "62%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621726468&selectionId=5145605",
+          "commence_time": "2026-11-03T00:00:00Z"
+        },
+        {
+          "matchup": "Elon Phoenix @ Columbia Lions",
+          "pick": "Columbia Lions wins",
+          "odds": -166,
+          "implied_prob": "62%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621736309&selectionId=4876311",
+          "commence_time": "2026-11-03T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-03T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-5D17DCD3",
+      "title": "BYU Cougars wins + Denver Nuggets wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620629459&selectionId=715476",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Ohio State Buckeyes @ BYU Cougars + Portland Trail Blazers @ Denver Nuggets",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Ohio State Buckeyes @ BYU Cougars",
+          "pick": "BYU Cougars wins",
+          "odds": -164,
+          "implied_prob": "62%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620629459&selectionId=715476",
+          "commence_time": "2026-11-03T01:00:00Z"
+        },
+        {
+          "matchup": "Portland Trail Blazers @ Denver Nuggets",
+          "pick": "Denver Nuggets wins",
+          "odds": -166,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621370029&selectionId=237492",
+          "commence_time": "2026-11-03T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-03T01:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-09C7974A",
+      "title": "BYU Cougars wins + Columbia Lions wins",
+      "payout": 2.58,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620629459&selectionId=715476",
+      "sport": "basketball_ncaab",
+      "sport_display": "NCAAB",
+      "matchup": "Ohio State Buckeyes @ BYU Cougars + Elon Phoenix @ Columbia Lions",
+      "market_type": "2-leg parlay",
+      "american_odds": 158,
+      "implied_probability": 0.388,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Ohio State Buckeyes @ BYU Cougars",
+          "pick": "BYU Cougars wins",
+          "odds": -164,
+          "implied_prob": "62%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620629459&selectionId=715476",
+          "commence_time": "2026-11-03T01:00:00Z"
+        },
+        {
+          "matchup": "Elon Phoenix @ Columbia Lions",
+          "pick": "Columbia Lions wins",
+          "odds": -166,
+          "implied_prob": "62%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621736309&selectionId=4876311",
+          "commence_time": "2026-11-03T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-03T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-46291AE7",
+      "title": "Charles Oliveira wins + Denver Nuggets wins",
+      "payout": 2.59,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617827896&selectionId=4867822",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Diego Lopes @ Charles Oliveira + Portland Trail Blazers @ Denver Nuggets",
+      "market_type": "2-leg parlay",
+      "american_odds": 159,
+      "implied_probability": 0.386,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Diego Lopes @ Charles Oliveira",
+          "pick": "Charles Oliveira wins",
+          "odds": -162,
+          "implied_prob": "62%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617827896&selectionId=4867822",
+          "commence_time": "2026-12-13T04:00:00Z"
+        },
+        {
+          "matchup": "Portland Trail Blazers @ Denver Nuggets",
+          "pick": "Denver Nuggets wins",
+          "odds": -166,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621370029&selectionId=237492",
+          "commence_time": "2026-11-03T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-03T02:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-AE883789",
+      "title": "Charles Oliveira wins + Columbia Lions wins",
+      "payout": 2.59,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617827896&selectionId=4867822",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Diego Lopes @ Charles Oliveira + Elon Phoenix @ Columbia Lions",
+      "market_type": "2-leg parlay",
+      "american_odds": 159,
+      "implied_probability": 0.386,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Diego Lopes @ Charles Oliveira",
+          "pick": "Charles Oliveira wins",
+          "odds": -162,
+          "implied_prob": "62%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617827896&selectionId=4867822",
+          "commence_time": "2026-12-13T04:00:00Z"
+        },
+        {
+          "matchup": "Elon Phoenix @ Columbia Lions",
+          "pick": "Columbia Lions wins",
+          "odds": -166,
+          "implied_prob": "62%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621736309&selectionId=4876311",
+          "commence_time": "2026-11-03T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-03T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-F4A2F3E1",
+      "title": "Troy Trojans wins + BYU Cougars wins",
+      "payout": 2.59,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621726468&selectionId=5145605",
+      "sport": "basketball_ncaab",
+      "sport_display": "NCAAB",
+      "matchup": "Massachusetts Minutemen @ Troy Trojans + Ohio State Buckeyes @ BYU Cougars",
+      "market_type": "2-leg parlay",
+      "american_odds": 159,
+      "implied_probability": 0.386,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Massachusetts Minutemen @ Troy Trojans",
+          "pick": "Troy Trojans wins",
+          "odds": -164,
+          "implied_prob": "62%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621726468&selectionId=5145605",
+          "commence_time": "2026-11-03T00:00:00Z"
+        },
+        {
+          "matchup": "Ohio State Buckeyes @ BYU Cougars",
+          "pick": "BYU Cougars wins",
+          "odds": -164,
+          "implied_prob": "62%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620629459&selectionId=715476",
+          "commence_time": "2026-11-03T01:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-03T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-F50F82FE",
+      "title": "UMass Minutemen wins + Denver Nuggets wins",
+      "payout": 2.6,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620365389&selectionId=2560733",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Ball State Cardinals @ UMass Minutemen + Portland Trail Blazers @ Denver Nuggets",
+      "market_type": "2-leg parlay",
+      "american_odds": 160,
+      "implied_probability": 0.384,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Ball State Cardinals @ UMass Minutemen",
+          "pick": "UMass Minutemen wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620365389&selectionId=2560733",
+          "commence_time": "2026-11-05T00:00:00Z"
+        },
+        {
+          "matchup": "Portland Trail Blazers @ Denver Nuggets",
+          "pick": "Denver Nuggets wins",
+          "odds": -166,
+          "implied_prob": "62%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621370029&selectionId=237492",
+          "commence_time": "2026-11-03T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-03T02:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-818883D3",
+      "title": "UMass Minutemen wins + Columbia Lions wins",
+      "payout": 2.6,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620365389&selectionId=2560733",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Ball State Cardinals @ UMass Minutemen + Elon Phoenix @ Columbia Lions",
+      "market_type": "2-leg parlay",
+      "american_odds": 160,
+      "implied_probability": 0.384,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Ball State Cardinals @ UMass Minutemen",
+          "pick": "UMass Minutemen wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620365389&selectionId=2560733",
+          "commence_time": "2026-11-05T00:00:00Z"
+        },
+        {
+          "matchup": "Elon Phoenix @ Columbia Lions",
+          "pick": "Columbia Lions wins",
+          "odds": -166,
+          "implied_prob": "62%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621736309&selectionId=4876311",
+          "commence_time": "2026-11-03T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-03T00:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-11-02T01:22:11.919684+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 6,
+    "polymarket_us": 4,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "KXNFLSZNRECORD-27SACK-Y",
+      "title": "Someone breaks the single-season sack record",
+      "subtitle": "Sack - 2026-27",
+      "yes_sub_title": "Over 23 sacks",
+      "no_sub_title": "Over 23 sacks",
+      "payout": 1.64,
+      "tier": "green",
+      "quip": "this is the Bo Jackson Tecmo Bowl run but the man weighs 270",
+      "yes_price": "0.6100",
+      "volume": 1003.2,
+      "category": "Sports",
+      "close_time": "2027-01-18T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNFLSZNRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 44.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "Strahan books a full week of morning television to be gracious about it",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "I've watched Favre lie down for sack 22.5 more times than I've called my mother",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "23 sacks, 17 of them against whoever Carolina starts at left tackle",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "quarterbacks entering witness protection",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "my fantasy defense finally does one thing with its life",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "this is the Bo Jackson Tecmo Bowl run but the man weighs 270",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "a grown man making 23 other grown men lie down. beautiful stuff",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "coach at the podium: 'we just let him play fast.' sure buddy",
+          "mode": 4,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXMETEOR-30",
+      "title": "A major meteor hits Earth before 2030",
+      "subtitle": "Large meteor strike",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 2.13,
+      "tier": "green",
+      "quip": "Bruce Willis retired and apparently nobody drafted a plan B",
+      "yes_price": "0.4690",
+      "volume": 158599.04,
+      "category": "Science and Technology",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXMETEOR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 101.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "I'd like it on a Monday, around 8:45, right before the standup",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the insurance adjuster shows up at the crater with a clipboard and some questions",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "Bruce Willis retired and apparently nobody drafted a plan B",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "finally, a real deadline",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "the dinosaurs had worse radar and roughly the same reaction we'll have",
+          "mode": 7,
+          "score": 6.5
+        },
+        {
+          "quip": "$2.13 to watch the sky do what my 401k already did",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "space throwing hands at us is the most exciting thing on the calendar",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "NASA guy on cable at 7pm: 'it's small. it's fine. it's mostly fine.'",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXPITSNOWM-26DEC-12",
+      "title": "Pittsburgh gets over a foot of snow next December",
+      "subtitle": "In Dec 2026",
+      "yes_sub_title": "Above 12 inches",
+      "no_sub_title": "Above 12 inches",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "yinz seen the radar? get the bread. get the eggs. get two breads.",
+      "yes_price": "0.3400",
+      "volume": 3572.67,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXPITSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 68.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "I own a snowblower in a city that gets two inches. let me have this",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "the Parkway East becomes one long parking lot of people eating Primanti's in their cars",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "salt trucks are undefeated",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "12 inches minimum or the entire city demands a refund from God",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "yinz seen the radar? get the bread. get the eggs. get two breads.",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "like a Bills game wandered 200 miles southwest and decided to stay",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "snow football in Pittsburgh is the last honest thing left in America",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "I want a blizzard game at Acrisure so badly I'm embarrassing myself",
+          "mode": 2,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXESOCCERGAME-26NOV012038HURRBONY-HURR",
+      "title": "Flamengo win today",
+      "subtitle": "HURR vs BONY (Nov 1)",
+      "yes_sub_title": "Flamengo (Hurricane)",
+      "no_sub_title": "Flamengo (Hurricane)",
+      "payout": 3.85,
+      "tier": "yellow",
+      "quip": "Flamengo fans travel like Alabama fans if Alabama had access to fireworks",
+      "yes_price": "0.2600",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-16T01:38:00Z",
+      "url": "https://kalshi.com/markets/KXESOCCERGAME?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 44.0,
+      "_specificity": 0,
+      "quip_alts": [
+        {
+          "quip": "Maracan\u00e3 in full flare smoke is the best lighting in all of sports",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "I have adopted a Brazilian club for 90 minutes and I am all in",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "a drum line wakes up Rio at 4am and not one complaint gets filed",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "Rio does not sleep tonight",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "Flamengo fans travel like Alabama fans if Alabama had access to fireworks",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "Zico is somewhere nodding and that should genuinely frighten you",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "I'm learning the chant phonetically and butchering it by halftime",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "commentator screaming for nine uninterrupted seconds, as God intended",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1123863",
+      "title": "Ella Langley wins CMA Song of the Year",
+      "subtitle": "",
+      "payout": 4.55,
+      "tier": "yellow",
+      "quip": "I will absolutely cry to this in a rented Tahoe outside a Buc-ee's",
+      "yes_price": "0.2200",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2026-12-03T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/cma-soty-2026-11-18?marketSlug=tac-cma-soty-2026-11-18-beher",
+      "platform": "polymarket_us",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "I will absolutely cry to this in a rented Tahoe outside a Buc-ee's",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "every bar on Broadway plays it forty times tomorrow and nobody says stop",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "country music produced an actual song again and I'm thrilled about it",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "Morgan Wallen claps politely",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "like a mid-major taking the one seed while everyone claims they saw it coming",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "rough night for the six men nominated for songs about trucks",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "'thank you God, my mama, and whoever let me keep the bridge'",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "this song got me through a drive I had no business making",
+          "mode": 2,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1886513",
+      "title": "Doing Life is Netflix's top movie this week",
+      "subtitle": "",
+      "payout": 5.88,
+      "tier": "yellow",
+      "quip": "somewhere Scorsese is lying face down on a hardwood floor",
+      "yes_price": "0.1700",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2026-11-18T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/ntflx-1movglbl-2026-11-03?marketSlug=ccrc-ntflx-1movglbl-2026-11-03-doilif",
+      "platform": "polymarket_us",
+      "score": 48.0,
+      "quip_alts": [
+        {
+          "quip": "I'll get 40 minutes in and fall asleep with every light on, as is tradition",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "autoplay trailer gets me at 11:58pm and I'm gone until two in the morning",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "watched everywhere, beloved nowhere",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "90 million households, zero of them can name a single character",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the global top ten is a bowl game nobody set an alarm for",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "somewhere Scorsese is lying face down on a hardwood floor",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "sincerely, I respect a title that just tells you what happens",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "'babe what are we watching' 'something' 'okay'",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXTRDBAN-25DEC31-27",
+      "title": "Congress bans its own stock trading by next year",
+      "subtitle": "Before Jan 21, 2029",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before 2027",
+      "payout": 7.14,
+      "tier": "orange",
+      "quip": "like the NCAA opening an investigation into the NCAA",
+      "yes_price": "0.1400",
+      "volume": 131806.85,
+      "category": "Politics",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXTRDBAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 134.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "my entire portfolio is copying a 74-year-old's disclosure forms, so now what",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the spouses take over by Thursday and not one person brings it up",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "they will not do this",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "asking the House to confiscate its own slot machine, politely, in writing",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "like the NCAA opening an investigation into the NCAA",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "unironically the most popular idea in America, which is exactly why it dies",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "'I don't even know what I own, my financial guy handles all that'",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "honestly I'd miss reading those filings like a horoscope",
+          "mode": 2,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXMODELHIGH-27-1550-CLAU",
+      "title": "Claude is first to hit 1550 on Text Arena",
+      "subtitle": "Before 2027",
+      "yes_sub_title": "Claude",
+      "no_sub_title": "Claude",
+      "payout": 7.69,
+      "tier": "orange",
+      "quip": "1550 was my SAT score and I also peaked immediately after",
+      "yes_price": "0.1300",
+      "volume": 84516.12,
+      "category": "Science and Technology",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Claude is the only one who tells me my idea is thoughtful, so yeah I'm rooting",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Anthropic celebrates with a 90-page safety memo about celebrating",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "the polite one wins the brawl. nature is healing",
+          "mode": 6,
+          "score": 6
+        },
+        {
+          "quip": "the vegan wins the cookout",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "'I want to acknowledge the complexity of this victory'",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "Ned Flanders takes the belt and thanks the other fellas",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "1550 was my SAT score and I also peaked immediately after",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "ChatGPT guys already drafting the asterisk thread",
+          "mode": 7,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-470595",
+      "title": "Tennessee Senate turnout tops 2.4 million",
+      "subtitle": "",
+      "payout": 50.0,
+      "tier": "red",
+      "quip": "2.4 million is 23 Neyland Stadiums and every one of them shows up",
+      "yes_price": "0.0200",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-01-15T00:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/usseto-tn-2026-11-03?marketSlug=vtc-usseto-tn-2026-11-03-gt2pt4m",
+      "platform": "polymarket_us",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "I have never been this invested in Knoxville's civic habits",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "lines out the door in Memphis and a church fish fry doing absurd numbers",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "Big Orange turnout machine",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "2.4 million is 23 Neyland Stadiums and every one of them shows up",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "a Tuesday pulling SEC Saturday attendance, which should not be legal",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "getting 2.4 million Tennesseans off the couch in a state engineered for the couch",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "'heavy early vote out of Rutherford County' guy drawing circles at 9pm",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "I'm tracking a county map like it owes me money",
+          "mode": 2,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1122539",
+      "title": "Michigan is the closer Senate race",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "decided by 400 votes in a township with one stoplight and a Dairy Queen",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-01-15T00:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/usseclose-mi-nh-2026-11-03?marketSlug=cmovcuss-usseclose-mi-nh-2026-11-03-nh",
+      "platform": "polymarket_us",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "I'll be up at 3am waiting on Wayne County like an absolute lunatic",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "recount lawyers land at Detroit Metro before the networks call anything",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "Wayne County, as always",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "decided by 400 votes in a township with one stoplight and a Dairy Queen",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "Kornacki rolls the sleeves past the elbow for this one",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "New Hampshire being boring is the most New Hampshire option available",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "nothing in this country gets tighter than a Michigan statewide and I love it",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "I'll be refreshing a county clerk's webpage like it's a box score",
+          "mode": 2,
+          "score": 7
+        }
+      ]
+    }
+  ]
+}
