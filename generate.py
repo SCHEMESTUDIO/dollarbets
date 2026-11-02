@@ -2258,13 +2258,16 @@ def _pick_promo_bets(board, count=3):
     return picks
 
 
-def render_board_promo(board_data=None, position="top", platform_filter=None):
+def render_board_promo(board_data=None, position="top", platform_filter=None, header=None, cta=None):
     """Render ranked top-5 bet cards for content pages (Ticket Stand design).
 
     Args:
         board_data: The board dict (with "board" key). If None, loads latest.
         position: "top" or "bottom" — kept for backward compat, ignored (always top-5).
         platform_filter: "kalshi" or "polymarket" to filter by platform first.
+        header: replaces "On the board this morning" (a page that hands in its own
+            selection of markets, e.g. recent crypto-price markets, names it).
+        cta: replaces the "See all N on today's board" footer link text.
     """
     if board_data is None:
         boards = load_all_boards()
@@ -2325,11 +2328,11 @@ def render_board_promo(board_data=None, position="top", platform_filter=None):
     total = len(bets)
 
     return f"""    <div class="board-promo">
-      <div class="board-promo-header">On the board this morning</div>
+      <div class="board-promo-header">{_e(header) if header else "On the board this morning"}</div>
       <div style="display:flex;flex-direction:column;gap:12px;">
 {cards_html}
       </div>
-      <a href="/" class="board-promo-cta">See all {total} on today's board &rarr;</a>
+      <a href="/" class="board-promo-cta">{_e(cta) if cta else f"See all {total} on today's board"} &rarr;</a>
     </div>"""
 
 

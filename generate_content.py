@@ -341,6 +341,31 @@ def render_internal_links(links):
 
 # ── Compliance footer ──────────────────────────────────────
 
+PROMO_MATCH_DAYS = 14
+
+
+def matched_markets(boards, book_slug, limit=5):
+    """Markets from the newest PROMO_MATCH_DAYS boards that the market-wall book
+    `book_slug` shows for (its `show_for` rule in config/market-wall.json), newest
+    first, one per ticker, at most `limit`. [] if the book or rule is missing."""
+    import market_wall
+    cfg = market_wall.load_config()
+    book = next((b for b in (cfg.get("books") or []) if b.get("slug") == book_slug), None)
+    if not book or not book.get("show_for"):
+        return []
+    seen, out = set(), []
+    for _date, data in reversed(boards[-PROMO_MATCH_DAYS:]):
+        for m in data.get("board") or []:
+            t = m.get("ticker") or ""
+            if not t or t in seen or not market_wall._book_shows_for(book, m):
+                continue
+            seen.add(t)
+            out.append(m)
+            if len(out) >= limit:
+                return out
+    return out
+
+
 def render_compliance(text):
     """Render compliance disclaimer."""
     if not text:
@@ -463,7 +488,21 @@ def generate_content_page(page_data):
     _boards = load_all_boards()
     _latest_board = _boards[-1][1] if _boards else None
     _promo_pos = page_data.get("promo") or ("top" if fmt in PROMO_TOP_FORMATS else "bottom")
-    board_promo = render_board_promo(_latest_board, position=_promo_pos, platform_filter=_pf) if _promo_pos != "none" else ""
+    _match = page_data.get("promo_match")
+    if _promo_pos == "none":
+        board_promo = ""
+    elif _match:
+        # The page asks for the markets a market-wall book fits (its show_for rule),
+        # pulled from the last PROMO_MATCH_DAYS boards, newest first, one per ticker.
+        _picked = matched_markets(_boards, _match)
+        if _picked:
+            board_promo = render_board_promo({"board": _picked}, position=_promo_pos,
+                                             header=page_data.get("promo_header") or "Price markets on recent boards",
+                                             cta="See today's board")
+        else:
+            board_promo = render_board_promo(_latest_board, position=_promo_pos, platform_filter=_pf)
+    else:
+        board_promo = render_board_promo(_latest_board, position=_promo_pos, platform_filter=_pf)
     if board_promo and _promo_pos == "top":
         if not _strip_done: body_parts.append(_strip_html); _strip_done = True
         body_parts.append(board_promo)
