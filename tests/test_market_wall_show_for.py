@@ -38,6 +38,13 @@ def main():
     assert market_wall._book_shows_for(PERPS, ETH_OTHER), "title match"
     assert not market_wall._book_shows_for(PERPS, POL), "politics must not match"
     assert market_wall._book_shows_for({"slug": "x"}, POL), "no show_for means everywhere"
+    for title in ("Silver hits $72 this month", "Gold above $4,000 by Friday", "WTI oil price above $100 this year",
+                  "S&P 500 closes above 7,000 in 2026", "Nasdaq record high this week", "ETH above $3,000 on Friday",
+                  "XRP hits $2 this month"):
+        assert market_wall._book_shows_for(PERPS, {"title": title, "category": "Other"}), title
+    for title in ("Jake Burger wins the AL Gold Glove at first", "Silver Spoon wins Best Picture",
+                  "Oil spill cleanup finished by June", "Dow Constantine re-elected", "Solid gold toilet sold at auction"):
+        assert not market_wall._book_shows_for(PERPS, {"title": title, "category": "Other"}), title
 
     rows, info = rows_for(BTC)
     slugs = [r["slug"] for r in rows]

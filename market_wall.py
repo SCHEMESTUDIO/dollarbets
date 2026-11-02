@@ -128,8 +128,9 @@ def _book_allows_country(book, country):
 
 def _book_shows_for(book, market):
     """A book with `show_for` appears only on markets it fits: the market's
-    category is in show_for.categories (case-insensitive) or its title holds
-    one of show_for.title_terms. Books without show_for show everywhere."""
+    category is in show_for.categories (case-insensitive), its title holds one
+    of show_for.title_terms, or matches one of show_for.title_regex. Books
+    without show_for show everywhere."""
     rule = book.get("show_for")
     if not rule:
         return True
@@ -137,7 +138,11 @@ def _book_shows_for(book, market):
     if cat and cat in [c.lower() for c in (rule.get("categories") or [])]:
         return True
     title = (market.get("title") or "").lower()
-    return any(term.lower() in title for term in (rule.get("title_terms") or []))
+    if any(term.lower() in title for term in (rule.get("title_terms") or [])):
+        return True
+    # title_regex: case-insensitive patterns for words that need boundaries or
+    # company ("gold" the metal, not the Gold Glove; "oil" with a price).
+    return any(re.search(rx, title, re.I) for rx in (rule.get("title_regex") or []))
 
 
 def _destination(book, url):

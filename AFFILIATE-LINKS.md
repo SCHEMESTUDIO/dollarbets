@@ -128,10 +128,12 @@ whole wall off with `enabled: false` (the legacy interstitial returns), or per c
   at unpublished volume tiers; paid monthly as Kalshi **bonus credits** that must be traded once and closed before withdrawal
   and expire in 30 days. Referee gets 10% off perps fees for 3 months (cap $50k). Kalshi may move the rate 0-80% and end the
   programme at any time; two-year term. Kalshi's help centre (16071412) says offer terms vary by campaign.
-- **Where it shows**: the wall row has `show_for: {categories: ["crypto"], title_terms: [bitcoin, btc, ethereum, ...]}`
+- **Where it shows**: the wall row has `show_for` (category `crypto`, coin names as `title_terms`, and `title_regex` for
+  metals, energy, and US indices, which need word boundaries and a price word so "Gold Glove" and "Dow Constantine" miss)
   and a `note` printed under the rows, because the wall's fine print says "never a cut of your bet" and this deal is a
   share of trading fees. The page `/kalshi-perpetuals/` overrides the article strip with `affiliate_strip` for the same reason.
-  Kalshi also runs perps on gold, silver, oil, and US indices; widen `title_terms` if those markets ever reach the board.
+  That is every underlying Kalshi perps lists (James, 2026-11-02: widen beyond crypto); the row is still tied to the pick,
+  never shown on every market, because a paying "browse" row would outrank the market the visitor clicked.
 - **Not routed through `/go/`**: it is a hub link, not a market, so it carries no ticker and no geo interstitial. US-only
   (`countries: ["US"]`), 18+.
 
