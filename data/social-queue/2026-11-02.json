@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-11-02T01:23:35.619841+00:00",
+  "board_date": "2026-11-02",
+  "link_mode": "reply",
+  "selections": [
+    {
+      "ticker": "KXNFLSZNRECORD-27SACK-Y",
+      "rank": 1,
+      "selection_reason": "Quip is absurdist and lands perfectly standalone; 270lb pass rusher is culturally legible; Bo Jackson reference ages well",
+      "title": "Someone breaks the single-season sack record",
+      "quip": "this is the Bo Jackson Tecmo Bowl run but the man weighs 270",
+      "payout": 1.64,
+      "platform": null,
+      "tier": "green",
+      "category": "Sports",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/KXNFLSZNRECORD-27SACK-Y/",
+      "image_url": "https://www.dollarbets.lol/share/KXNFLSZNRECORD-27SACK-Y/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/KXNFLSZNRECORD-27SACK-Y/og.png",
+      "content": {
+        "x_tweet_text": "this is the Bo Jackson Tecmo Bowl run but the man weighs 270",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-02",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Someone breaks the single-season sack record</b>\n\n\u201c<i>this is the Bo Jackson Tecmo Bowl run but the man weighs 270</i>\u201d\n\n$1 pays $1.64\n\n<a href=\"https://www.dollarbets.lol/share/KXNFLSZNRECORD-27SACK-Y/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-1123863",
+      "rank": 2,
+      "selection_reason": "Quip is hyper-specific Americana that reads like a personal confession; Buc-ee's/Tahoe combo is screenshot-worthy; 4.55 payout seems cheap for a real possibility",
+      "title": "Ella Langley wins CMA Song of the Year",
+      "quip": "I will absolutely cry to this in a rented Tahoe outside a Buc-ee's",
+      "payout": 4.55,
+      "platform": "polymarket_us",
+      "tier": "yellow",
+      "category": "Entertainment",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1123863/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1123863/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1123863/og.png",
+      "content": {
+        "x_tweet_text": "I will absolutely cry to this in a rented Tahoe outside a Buc-ee's",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-02",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Ella Langley wins CMA Song of the Year</b>\n\n\u201c<i>I will absolutely cry to this in a rented Tahoe outside a Buc-ee&#x27;s</i>\u201d\n\n$1 pays $4.55\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1123863/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-1122539",
+      "rank": 3,
+      "selection_reason": "today's filthy little longshot \u2014 the board's own hero pick",
+      "title": "Michigan is the closer Senate race",
+      "quip": "decided by 400 votes in a township with one stoplight and a Dairy Queen",
+      "payout": 100.0,
+      "platform": "polymarket_us",
+      "tier": "purple",
+      "category": "World",
+      "card_variant": "ticket",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1122539/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1122539/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1122539/og.png",
+      "content": {
+        "x_tweet_text": "decided by 400 votes in a township with one stoplight and a Dairy Queen",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-02",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Michigan is the closer Senate race</b>\n\n\u201c<i>decided by 400 votes in a township with one stoplight and a Dairy Queen</i>\u201d\n\n$1 pays $100\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1122539/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    }
+  ]
+}
