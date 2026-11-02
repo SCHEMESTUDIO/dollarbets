@@ -143,3 +143,16 @@ delete. Keep entries short; link evidence.
   Pages.csv means "earned no impressions", not "not indexed" (2026-06-05).
 - ~~daily-article.yml nightly writer (09:30 UTC, part of the 07-13 cloud
   migration)~~ → retired 2026-07-28; replaced by Postwerks publishing.
+
+- **2026-11-02 — Sitemap back on the static path; api/sitemap.py removed.**
+  The 2026-08-20 serverless workaround made `/sitemap.xml` a 307 to the
+  function. GSC's sitemaps API showed the 2026-08-21 submission with no
+  download ever and `isPending: true` 73 days later, no error text; the six
+  SCHEME sites that serve a static sitemap at 200 are all read. Google's
+  Sitemaps report doc: "Redirects are not followed." So the redirect and the
+  `functions` block are gone from vercel.json and `api/sitemap.py` is
+  deleted. The May–Aug "could not be read" most likely had the same cause on
+  the apex→www 308 (submissions on the wrong host side), unproven.
+  `/sitemap-data.xml` was submitted to GSC on 2026-11-02 as the redirect-free
+  proof; retire it and the headshotswithabird.com proxy once
+  `https://www.dollarbets.lol/sitemap.xml` shows a download date.

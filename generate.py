@@ -3632,9 +3632,13 @@ def generate_sitemap(pages):
 </urlset>"""
 
     write_page("sitemap.xml", xml)
-    # Second copy on a redirect-free path: /sitemap.xml now 307s to
-    # /api/sitemap.py (see vercel.json + api/sitemap.py, 2026-08-20), and the
-    # function needs a loop-free URL to fetch when its bundled copy is missing.
+    # Second copy at /sitemap-data.xml. From 2026-08-20 to 2026-11-02
+    # /sitemap.xml 307'd to api/sitemap.py and this was the function's
+    # fallback; GSC never downloaded the redirected sitemap once (its report
+    # says "Redirects are not followed"), so /sitemap.xml is static again.
+    # This copy stays as the redirect-free URL submitted to GSC on 2026-11-02
+    # to prove the static path reads; drop it once /sitemap.xml shows a
+    # download date.
     write_page("sitemap-data.xml", xml)
 
 
