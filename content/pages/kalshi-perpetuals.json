@@ -4,7 +4,7 @@
   "cluster": "Kalshi",
   "priority": 60,
   "publish_date": "2026-11-02",
-  "last_updated": "2026-11-03",
+  "last_updated": "2026-11-02",
   "promo": "bottom",
   "seo": {
     "title": "Kalshi Perpetuals Explained | Dollar Bets",
@@ -132,9 +132,13 @@
     {
       "q": "How are perps different from Kalshi's bitcoin event contracts?",
       "a": "An event contract asks a yes-or-no question (bitcoin above $150,000 by a date) and pays $1 or nothing, so the most you lose is the price you paid. A perp is a leveraged position on the price itself, with no expiry, funding payments every eight hours, and liquidation if the move against you exhausts your margin."
+    },
+    {
+      "q": "What does the referral link actually give me?",
+      "a": "Under the programme Kalshi filed with the CFTC, a 10% rebate on perps trading fees for three months, provided you trade $50 of notional perps volume within seven days of signing up. Kalshi's help centre says offer details vary by campaign and promo credits can expire within seven days, so check the terms shown in the app."
     }
   ],
   "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate markets, hold your money, or give trading advice. Perpetual futures involve leverage and carry a significant risk of loss, including the whole of your margin; the leverage limits, fees, and referral terms on this page are Kalshi's and change without notice, so the figures in the app govern. Kalshi pays Dollar Bets a share of referred traders' perps fees as described above. Availability is decided by Kalshi at sign-up.",
   "promo_match": "kalshi_perps",
-  "promo_header": "Crypto and commodity price markets on recent boards"
+  "promo_header": "Crypto price markets on recent boards"
 }
