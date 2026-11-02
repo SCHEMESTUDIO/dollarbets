@@ -450,7 +450,11 @@ def generate_content_page(page_data):
 
     # Affiliate disclosure mini-strip — platform-specific per the mock
     _strip_platforms = _pf if _pf else "kalshi or polymarket"
-    _strip_html = f'    <div class="affiliate-strip">Affiliate disclosure: Dollar Bets earns a commission if you sign up to {_strip_platforms.replace("kalshi", "Kalshi").replace("polymarket", "Polymarket")} through our links, never a cut of your bet, and we never hold your money. <a href="/affiliate-disclosure/">Full disclosure &rarr;</a></div>'
+    # A page may replace the strip's wording when the deal it carries is not the sign-up
+    # commission (the Kalshi perps page: a share of trading fees, which the default line denies).
+    _strip_text = page_data.get("affiliate_strip") or (
+        f'Affiliate disclosure: Dollar Bets earns a commission if you sign up to {_strip_platforms.replace("kalshi", "Kalshi").replace("polymarket", "Polymarket")} through our links, never a cut of your bet, and we never hold your money.')
+    _strip_html = f'    <div class="affiliate-strip">{_strip_text} <a href="/affiliate-disclosure/">Full disclosure &rarr;</a></div>'
     _strip_done = False
     if (hero_html and _hero_pos == "top"):
         body_parts.insert(len(body_parts) - 1, _strip_html); _strip_done = True  # before the ticket

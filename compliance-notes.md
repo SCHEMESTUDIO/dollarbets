@@ -82,3 +82,12 @@ redirect host allowlist. No VPN or geo-circumvention offer appears on the wall: 
 terms, Polymarket's US block is a CFTC matter, and an affiliate inducing a visitor around a geoblock would breach the
 programmes the wall exists to earn from.
 
+## Kalshi perps referral (2026-11-02)
+
+A second Kalshi code (perpetuals programme, CFTC filing 2026-07-24) pays a 30% share of a referred trader's perps
+fees for a year. That is a share of exchange fees, not of the trader's stake or winnings, but it is not the sign-up
+commission the site-wide disclosure describes, so every surface that carries the link states it in its own words:
+the wall `note` on `kalshi_perps`, the `affiliate_strip` override and the compliance block on `/kalshi-perpetuals/`.
+The link never appears on a market link or on any non-crypto surface. Perps are leveraged futures; the page prints
+Kalshi's own liquidation warning and never frames them as a $1 bet.
+

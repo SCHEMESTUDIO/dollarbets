@@ -1,5 +1,5 @@
 {
-  "_note": "The market wall (James, 2026-11-01) replaces the leaving interstitial on /go/. Books are ordered: paying and eligible first, by `rank` (1 = the best affiliate terms, James's call, not by payout), unpaid books (Kalshi, the two Polymarkets, unregistered sportsbooks) last, also by rank. The top paying book carries the gold 'featured' pill. No age tick: the book checks age and location at sign-up; the fine print says so. Exceptions in market_wall.py: a visitor arriving from a page whose path names a book (kalshi, polymarket) sees that book first; a market no paying book carries shows its own book first. `pays` means the book runs an affiliate programme we can join without state registration; `affiliate_url` (a full tracking link) or `affiliate_id` + `tracking_param_name` turn a plain link into a paid one. `mirror: kalshi` means the book trades Kalshi's contracts, so a Kalshi market is the same market there (Robinhood, Coinbase). `link`: `ticker` = the market's own URL from board data; `alt` = the alternatives index's match on that venue; `hub` = the book's landing page (no deep link known). Switch the whole wall off with `enabled`, or per category / country with the `off_for_*` lists.",
+  "_note": "The market wall (James, 2026-11-01) replaces the leaving interstitial on /go/. Books are ordered: paying and eligible first, by `rank` (1 = the best affiliate terms, James's call, not by payout), unpaid books (Kalshi, the two Polymarkets, unregistered sportsbooks) last, also by rank. The top paying book carries the gold 'featured' pill. No age tick: the book checks age and location at sign-up; the fine print says so. Exceptions in market_wall.py: a visitor arriving from a page whose path names a book (kalshi, polymarket) sees that book first; a market no paying book carries shows its own book first. `pays` means the book runs an affiliate programme we can join without state registration; `affiliate_url` (a full tracking link) or `affiliate_id` + `tracking_param_name` turn a plain link into a paid one. `mirror: kalshi` means the book trades Kalshi's contracts, so a Kalshi market is the same market there (Robinhood, Coinbase). `link`: `ticker` = the market's own URL from board data; `alt` = the alternatives index's match on that venue; `hub` = the book's landing page (no deep link known). Switch the whole wall off with `enabled`, or per category / country with the `off_for_*` lists. `show_for` (categories / title_terms) limits a book to the markets it fits: Kalshi Perps shows only on markets about a price it trades: crypto, metals, energy, US indices. `note` is a line printed under the rows whenever that book is listed.",
   "enabled": true,
   "off_for_categories": [],
   "off_for_countries": [],
@@ -71,6 +71,49 @@
       "regulator": "CFTC-regulated via KalshiEX",
       "rank": 3,
       "enabled": true
+    },
+    {
+      "slug": "kalshi_perps",
+      "name": "Kalshi Perps",
+      "kind": "exchange",
+      "markets": "prediction",
+      "pays": true,
+      "program": "KalshiEX Perpetuals Referral Program (CFTC filing 2026-07-24): 30% of a referred trader's net perps fees for 12 months, capped $1,000 per trader, paid as Kalshi bonus credits; the trader gets a 10% perps fee rebate for 3 months. Counts only if they trade $50 notional in perps within 7 days. Covers every underlying Kalshi perps lists (crypto, metals, energy, US indices). A separate code from the site's event-contract referral (config/partners.json).",
+      "affiliate_url": "https://kalshi.com/p/67c22c43-d33d-4f42-b2f9-01464e034bc2",
+      "affiliate_id": "",
+      "tracking_param_name": "",
+      "url": "https://kalshi.com/perps",
+      "link": "hub",
+      "mirror": null,
+      "show_for": {
+        "categories": [
+          "crypto"
+        ],
+        "title_terms": [
+          "bitcoin",
+          "ethereum",
+          "solana",
+          "dogecoin",
+          "hyperliquid",
+          "crypto"
+        ],
+        "title_regex": [
+          "\\b(btc|eth|sol|xrp|doge|hype|near|ether)\\b",
+          "\\b(gold|silver|copper|platinum|palladium)\\b.*(\\$|price|ounce|\\boz\\b|hits|above|below|record)",
+          "(\\$|price|ounce|\\boz\\b).*\\b(gold|silver|copper|platinum|palladium)\\b",
+          "\\b(oil|crude|wti|brent)\\b.*(\\$|price|barrel|hits|above|below)",
+          "s&(amp;)?p ?500|nasdaq|dow jones|us tech 100|us large cap|russell 2000|stock market"
+        ]
+      },
+      "countries": [
+        "US"
+      ],
+      "min_age": 18,
+      "label": "leveraged price trade, no expiry",
+      "blurb": "up to 15.8x on gold and 6.8x on bitcoin, traded from a separate margin account",
+      "regulator": "CFTC-regulated via Kalshi Prime (FCM)",
+      "note": "Kalshi Perps is a different product from the market on your ticket: a leveraged futures position on the coin's price that can be liquidated, with 10% off perps fees for three months when you sign up through our link. Kalshi pays Dollar Bets a share of a new trader's perps fees for a year. <a href=\"/kalshi-perpetuals/\">How Kalshi perps work &rarr;</a>",
+      "rank": 4
     },
     {
       "slug": "public",

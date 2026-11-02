@@ -116,6 +116,27 @@ whole wall off with `enabled: false` (the legacy interstitial returns), or per c
 - **Geo rules**: Available worldwide except US states AZ, IL, MA, MD, MI, MT, NV, OH
 - **Priority**: 1 (highest)
 
+### Kalshi Perps ✓ (enabled on the market wall, crypto markets only, 2026-11-02)
+- **What it is**: a second Kalshi referral code, for the **KalshiEX Perpetuals Referral Program** (CFTC filing 2026-07-24,
+  https://www.cftc.gov/filings/orgrules/rules07242611808.pdf). Separate from the event-contract code above: a Kalshi
+  account is attributed to one code, first valid referral wins, so this code must **never** replace `partners.json`'s
+  `affiliate_id` on market links. It only pays if the new account trades $50 notional of perps within 7 days.
+- **Link**: `https://kalshi.com/p/67c22c43-d33d-4f42-b2f9-01464e034bc2` (resolves to sign-up with `return_to=/perps`).
+  Lives in `config/market-wall.json` as book `kalshi_perps` (`affiliate_url`) and in `content/pages/kalshi-perpetuals.json`
+  as a `data-affiliate="1" data-platform="kalshi_perps"` anchor, which `analytics_head()` counts as `affiliate_click`.
+- **Terms (filing)**: 30% of the referee's net perps fees for 12 months, cap $1,000 per referee, plus flat payments up to $500
+  at unpublished volume tiers; paid monthly as Kalshi **bonus credits** that must be traded once and closed before withdrawal
+  and expire in 30 days. Referee gets 10% off perps fees for 3 months (cap $50k). Kalshi may move the rate 0-80% and end the
+  programme at any time; two-year term. Kalshi's help centre (16071412) says offer terms vary by campaign.
+- **Where it shows**: the wall row has `show_for` (category `crypto`, coin names as `title_terms`, and `title_regex` for
+  metals, energy, and US indices, which need word boundaries and a price word so "Gold Glove" and "Dow Constantine" miss)
+  and a `note` printed under the rows, because the wall's fine print says "never a cut of your bet" and this deal is a
+  share of trading fees. The page `/kalshi-perpetuals/` overrides the article strip with `affiliate_strip` for the same reason.
+  That is every underlying Kalshi perps lists (James, 2026-11-02: widen beyond crypto); the row is still tied to the pick,
+  never shown on every market, because a paying "browse" row would outrank the market the visitor clicked.
+- **Not routed through `/go/`**: it is a hub link, not a market, so it carries no ticker and no geo interstitial. US-only
+  (`countries: ["US"]`), 18+.
+
 ### Polymarket US ✓ (enabled, primary Polymarket source since 2026-11-01)
 - **Status**: Live. `scanner.py` crawls the CFTC-regulated US venue (`gateway.polymarket.us/v1`, no key) across culture, crypto, finance, geopolitics, technology, macro, science, weather, and a capped slice of politics; `normalize_poly_us_market` prices from the Yes side's best ask (same basis as Kalshi), composes multi-market titles ("Oscar Nominees: Best Actress: Emma Stone"), and stores the venue's own URL shape `https://polymarket.us/event/<event>?marketSlug=<market>`. Tickers are `pmus-<market id>`.
 - **Why**: 78% of visitors are US and cannot open the international exchange; James, 2026-11-01: lean into Polymarket US, keep international only for what the US venue lacks.

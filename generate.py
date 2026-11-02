@@ -170,7 +170,7 @@ def analytics_head():
     gtag('config', '{GA4_ID}', {{ anonymize_ip: true }});
     // Track all outbound affiliate clicks with rich dimensions
     document.addEventListener('click', function(e) {{
-      var link = e.target.closest('a[href^="/go/"]');
+      var link = e.target.closest('a[href^="/go/"], a[data-affiliate]');
       if (link) {{
         gtag('event', 'affiliate_click', {{
           platform: link.dataset.platform || 'unknown',
