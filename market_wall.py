@@ -126,6 +126,20 @@ def _book_allows_country(book, country):
     return c in [x.upper() for x in allowed]
 
 
+def _book_shows_for(book, market):
+    """A book with `show_for` appears only on markets it fits: the market's
+    category is in show_for.categories (case-insensitive) or its title holds
+    one of show_for.title_terms. Books without show_for show everywhere."""
+    rule = book.get("show_for")
+    if not rule:
+        return True
+    cat = (market.get("category") or "").strip().lower()
+    if cat and cat in [c.lower() for c in (rule.get("categories") or [])]:
+        return True
+    title = (market.get("title") or "").lower()
+    return any(term.lower() in title for term in (rule.get("title_terms") or []))
+
+
 def _destination(book, url):
     """The outbound URL: a full affiliate link wins, else the book's own
     param appended, else the plain URL."""
@@ -177,6 +191,8 @@ def build_rows(market, kind, country, region, referer_path, own_row=None, allow=
     for book in cfg.get("books") or []:
         if book.get("enabled") is False:
             continue
+        if not _book_shows_for(book, market):
+            continue
         bm = book.get("markets", "both")
         if kind == "sports" and bm == "prediction":
             continue
@@ -227,6 +243,7 @@ def build_rows(market, kind, country, region, referer_path, own_row=None, allow=
             "label": book.get("label", ""), "blurb": book.get("blurb", ""),
             "regulator": book.get("regulator", ""), "min_age": int(book.get("min_age") or 18),
             "rank": int(book.get("rank") or 50),
+            "note": book.get("note", ""),
             "url": dest, "eligible": eligible_here,
         })
 
@@ -404,6 +421,13 @@ def wall_html(market, kind, info, back_path="/", consent_region_cookie=True):
     pickem_note = ""
     if any(r["kind"] == "pickem" for r in rows):
         pickem_note = '<div class="note">pick\'em apps pay a fixed multiplier on a 2-pick or more, not a line, so the payout is not comparable to a sportsbook.</div>'
+    book_notes = ""
+    seen_notes = set()
+    for r in rows:
+        n = r.get("note") or ""
+        if n and n not in seen_notes:
+            seen_notes.add(n)
+            book_notes += f'<div class="note">{n}</div>'
     expander = ""
     if other:
         other_label = f"books outside {place}"
@@ -462,6 +486,7 @@ def wall_html(market, kind, info, back_path="/", consent_region_cookie=True):
   <div class="rows" id="rows">{rows_html if rows else '<div class="empty">nothing we list is open to you for this pick. the board has plenty that is.</div>'}</div>
   {similar_note}
   {pickem_note}
+  {book_notes}
   {expander}
 
   <div class="fine">you must be {gate_age} or older and in a place where the book operates; every book checks both at sign-up, and dollar bets doesn't. dollar bets is paid by some of these books when you sign up, never a cut of your bet, and never holds your money. we aren't an agent of any book. struggling with gambling? <a href="/responsible-gambling/">get help &rarr;</a> &middot; <a href="{_e(back_path)}">back to the board</a></div>

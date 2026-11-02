@@ -1,0 +1,142 @@
+{
+  "slug": "kalshi-perpetuals",
+  "format": "explainer",
+  "cluster": "Kalshi",
+  "priority": 60,
+  "publish_date": "2026-11-02",
+  "last_updated": "2026-11-02",
+  "promo": "bottom",
+  "seo": {
+    "title": "Kalshi Perpetuals Explained | Dollar Bets",
+    "h1": "Kalshi Perpetuals Explained",
+    "meta_description": "Kalshi perps are CFTC-regulated perpetual futures on bitcoin, ether, gold, oil, and stock indices, with up to 15x leverage and no expiry. What they cost, who can trade them, how liquidation works, and how the referral fee rebate works.",
+    "canonical": "/kalshi-perpetuals/"
+  },
+  "affiliate_strip": "Affiliate disclosure: Kalshi pays Dollar Bets a share of the perps trading fees of anyone who signs up through our perps link, for a year, in Kalshi bonus credits. Our event-contract links pay a sign-up commission. Neither is a cut of your bet, and we never hold your money.",
+  "summary": "Kalshi perpetuals, or perps, are leveraged futures contracts on the price of bitcoin, ether, solana, gold, silver, oil, and US stock indices. They never expire, you can go long or short, and the leverage runs from about 3x on solana to nearly 16x on gold. They are a separate product from the $1 yes-or-no contracts Dollar Bets covers, with their own margin account, their own application, and the ability to lose your whole stake in an afternoon.",
+  "quick_answer": "Kalshi perpetuals are CFTC-regulated perpetual futures: a leveraged bet that a price goes up or down, with no expiry date, settled in dollars. Kalshi lists them on bitcoin, ether, solana, and a dozen other coins, plus gold, silver, copper, oil, and the big US stock indices, with maximum leverage from 2.4x to 15.8x depending on the market. You trade them from a separate margin account that you apply for, fees run 0.12% of the position's full notional value for most people, and a position gets liquidated when a move against you eats the margin. Sign up through a referral link and Kalshi takes 10% off your perps fees for three months.",
+  "hero_bet": null,
+  "internal_links": [
+    {
+      "text": "the craziest Kalshi bets right now",
+      "url": "/crazy-kalshi-bets/"
+    },
+    {
+      "text": "crypto vs sports betting: where does $1 go further?",
+      "url": "/crypto-vs-sports-betting/"
+    },
+    {
+      "text": "altcoin moonshot bets",
+      "url": "/altcoin-moonshot-bets/"
+    },
+    {
+      "text": "best prediction market sites",
+      "url": "/best-prediction-market-sites/"
+    },
+    {
+      "text": "apps where you can bet on anything",
+      "url": "/bet-on-anything/"
+    },
+    {
+      "text": "affiliate disclosure",
+      "url": "/affiliate-disclosure/"
+    }
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Everything else on this site is a contract that pays $1 or nothing. Kalshi perpetuals are the other thing Kalshi sells, and they work the opposite way: you put up margin, pick a direction on a price, and your position gains or loses continuously, with no finish line and a trapdoor underneath it called liquidation. Kalshi says they are the first perpetual futures a CFTC-regulated US exchange has offered natively to US residents; the announcement is on <a href=\"https://www.businesswire.com/news/home/20260529217813/en/Kalshi-Launches-First-Ever-Perpetual-Futures-in-America\" rel=\"noopener\">Business Wire</a>. This page is what they are, what they cost, and whether a $1 bettor has any business near them."
+    },
+    {
+      "type": "heading",
+      "content": "What a perpetual actually is"
+    },
+    {
+      "type": "text",
+      "content": "A normal futures contract expires on a date. A perpetual never does, so a mechanism called funding keeps its price tied to the real price of the thing. Every eight hours, at 12 AM, 8 AM, and 4 PM Eastern, Kalshi compares the perp's price with the spot index. If the perp trades above spot, everyone who is long pays everyone who is short a small amount; if it trades below, shorts pay longs. Kalshi caps the rate at 2% per interval in either direction and rounds anything under 0.01% to zero. Funding is separate from fees and can run in your favour. On a position you hold for weeks it adds up either way, and Kalshi's own <a href=\"https://help.kalshi.com/en/articles/14679970-what-are-perpetual-futures\" rel=\"noopener\">help centre</a> says it can eat a profit even when the price went your way."
+    },
+    {
+      "type": "text",
+      "content": "The bitcoin contract is the reference. One contract is 0.0001 BTC, so about $8 at today's prices, priced off the CF Benchmarks Bitcoin Real-Time Index, margined in US dollars, tradable around the clock, and cleared by Kalshi Klear, Kalshi's own CFTC-regulated clearinghouse. The <a href=\"https://help.kalshi.com/en/articles/15357587-btc-perpetual-futures-contract-specifications\" rel=\"noopener\">contract specification</a> has the rest. Ether, solana, XRP, dogecoin, Hyperliquid, and a long tail of smaller coins follow the same shape, as do gold, silver, copper, platinum, palladium, WTI oil, and perps on the US Tech 100 and US Large Cap indices."
+    },
+    {
+      "type": "heading",
+      "content": "How much leverage, and what it does to you"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi's <a href=\"https://kalshi.com/perps\" rel=\"noopener\">perps page</a> prints a maximum leverage per market, and it moves. On the day this page was written it showed 6.8x on bitcoin, 4.9x on ether, 3.5x on solana, 2.4x on Hyperliquid, 6x on WTI oil, 9x on silver, 11.8x on the US Tech 100, 14.6x on US Large Cap, and 15.8x on gold, which is where the site's \"up to 15x\" headline comes from. Gold gets the most leverage because it moves the least; a meme coin gets the least because it does not."
+    },
+    {
+      "type": "text",
+      "content": "Leverage multiplies both directions. Kalshi's help centre works it through at 5x, where $100 of margin controls $500 of exposure, so a 10% move in the price is a $50 swing in your account, half your stake. Its warning for the top of the bitcoin range is blunter: at 6x leverage, a 17% move against you wipes out your entire margin. When your balance drops below the maintenance threshold you get a margin call, and if you do not top it up, Kalshi Klear closes the position for you. In the Kalshi app margin is isolated, so a liquidation takes the margin on that one position and not your whole account. Stop-loss and take-profit orders can be attached when you open the trade, and the help centre suggests using them."
+    },
+    {
+      "type": "heading",
+      "content": "What it costs"
+    },
+    {
+      "type": "text",
+      "content": "Perps fees are a percentage of the position's full notional value rather than of the margin you put up. Kalshi's <a href=\"https://kalshi.com/fee-schedule?product=perps\" rel=\"noopener\">Invest fee schedule</a> starts at 0.120% for a taker (an order that fills immediately) and 0.020% for a maker (an order that rests on the book) for anyone under $100,000 of 30-day trailing volume, and steps down through five tiers to 0.010% taker and zero maker above $1 billion. The fee is charged on the way in and on the way out."
+    },
+    {
+      "type": "text",
+      "content": "So the $100-at-5x trade above is a $500 position, and a market order to open it costs 60 cents, with another 60 cents to close. That is a 1.2% round trip on your actual $100, before funding, which is why the help centre has an article titled \"why leverage makes fees look larger.\" For comparison, a Kalshi event contract costs between 7 cents and $1.75 per 100 contracts in taker fees, and the most you can lose on it is what you paid."
+    },
+    {
+      "type": "heading",
+      "content": "Who can trade them"
+    },
+    {
+      "type": "text",
+      "content": "US residents with a KYC-verified Kalshi account, and nobody else for now; Kalshi says international access may come later. Perps are not switched on by default. You apply for a margin account from the Perpetuals section of the app, answer a short questionnaire about your trading experience, your familiarity with leveraged products, and your finances, wait for a review that Kalshi says is usually quick, and then sit through a mandatory tutorial before your first trade. The <a href=\"https://help.kalshi.com/en/articles/15357656-applying-for-perpetuals-access\" rel=\"noopener\">application article</a> walks through it."
+    },
+    {
+      "type": "text",
+      "content": "The margin account is a different pot from your predictions balance, run by Kalshi Prime, a registered futures commission merchant, and the money sits in a segregated account as CFTC rules require. You fund it by ACH, wire, Apple Pay, PayPal, Venmo, or Cash App, in dollars; there is no crypto wallet involved and Kalshi makes a point of saying you do not need a VPN, which tells you who the offshore perps exchanges were serving. Kalshi's own event-contract state fights do not map onto perps one for one, so if the app lets you open a margin account where you are, that is the current answer."
+    },
+    {
+      "type": "heading",
+      "content": "The referral rebate, and what we get"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi runs a referral programme for perps that it filed with the CFTC in July 2026, and the <a href=\"https://www.cftc.gov/filings/orgrules/rules07242611808.pdf\" rel=\"noopener\">filing</a> is the clearest statement of the terms. A new trader who signs up through a referral link gets a 10% rebate on perps trading fees, maker and taker, for three months, capped at $50,000 of rebate per person, which is not a cap anyone reading this will meet. The referral only counts if the new account trades at least $50 of notional perps volume within seven days of registering, and each account can be referred once, through one code, so a Kalshi account you already have cannot be re-referred."
+    },
+    {
+      "type": "text",
+      "content": "Our link is <a href=\"https://kalshi.com/p/67c22c43-d33d-4f42-b2f9-01464e034bc2\" target=\"_blank\" rel=\"nofollow sponsored noopener\" data-affiliate=\"1\" data-platform=\"kalshi_perps\">kalshi.com/p/67c22c43</a>, which opens Kalshi's sign-up page and sends you to the perps application afterwards. What we get is spelled out in the same filing: 30% of the net perps fees a referred trader pays for twelve months, capped at $1,000 per trader, paid in Kalshi bonus credits that we have to trade with before we can withdraw. Kalshi's <a href=\"https://help.kalshi.com/en/articles/16071412-perps-promotions-bonuses-credits\" rel=\"noopener\">promotions article</a> adds that the exact offer varies by campaign and that promo credits land in the perps account, cannot be withdrawn themselves, and may expire within seven days if unused, so read the terms in the app before you count on the rebate. If you only ever trade event contracts, sign up through any of our ordinary Kalshi links instead; the perps code does nothing for you."
+    },
+    {
+      "type": "heading",
+      "content": "Should a dollar bettor care?"
+    },
+    {
+      "type": "text",
+      "content": "Mostly no. The whole premise of this site is that a dollar on a 60-to-1 longshot is a cheap, bounded way to have a view on the world: the most you lose is the dollar. A perp has no bound except liquidation, and a long weekend of funding payments can lose you money on a position that ended up in the right place. If what you want is exposure to bitcoin at $150,000, the <a href=\"/crypto-vs-sports-betting/\">event contract</a> that pays $1 if it gets there is the same opinion with the loss capped at your stake, and it lives on the board here every morning. Perps are for people who want to trade the price itself, with leverage, on a regulated venue that reports to the CFTC instead of an offshore one that does not. For those people it is a real improvement, and a different hobby from this one."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are Kalshi perpetuals legal in the US?",
+      "a": "Yes. Kalshi is a CFTC-regulated designated contract market, Kalshi Klear is its CFTC-regulated clearinghouse, and Kalshi Prime is the registered futures commission merchant that holds perps margin. The product is open to US residents only, after KYC and a margin-account application, and it is not offered internationally."
+    },
+    {
+      "q": "What is the minimum trade?",
+      "a": "One bitcoin contract is 0.0001 BTC, which Kalshi puts at about $8 at current prices. There is a separate $50 notional threshold that a new account must trade within seven days for a referral to count."
+    },
+    {
+      "q": "Can I lose more than I deposit?",
+      "a": "In the Kalshi app margin is isolated per position, so a liquidation takes the margin on that trade. Kalshi says liquidation happens when your balance falls below the maintenance margin and Kalshi Klear then closes the position. Funding payments and fees are taken from the margin account too, so the practical answer is that a position can go to zero quickly and leverage makes that quicker."
+    },
+    {
+      "q": "How are perps different from Kalshi's bitcoin event contracts?",
+      "a": "An event contract asks a yes-or-no question (bitcoin above $150,000 by a date) and pays $1 or nothing, so the most you lose is the price you paid. A perp is a leveraged position on the price itself, with no expiry, funding payments every eight hours, and liquidation if the move against you exhausts your margin."
+    },
+    {
+      "q": "What does the referral link actually give me?",
+      "a": "Under the programme Kalshi filed with the CFTC, a 10% rebate on perps trading fees for three months, provided you trade $50 of notional perps volume within seven days of signing up. Kalshi's help centre says offer details vary by campaign and promo credits can expire within seven days, so check the terms shown in the app."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate markets, hold your money, or give trading advice. Perpetual futures involve leverage and carry a significant risk of loss, including the whole of your margin; the leverage limits, fees, and referral terms on this page are Kalshi's and change without notice, so the figures in the app govern. Kalshi pays Dollar Bets a share of referred traders' perps fees as described above. Availability is decided by Kalshi at sign-up."
+}
