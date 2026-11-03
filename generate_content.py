@@ -480,7 +480,7 @@ def generate_content_page(page_data):
     # so the strip stays as a standing compliance layer. Do not narrow it to the books that pay today.
     _strip_platforms = _pf if _pf else "kalshi or polymarket"
     _strip_text = page_data.get("affiliate_strip") or (
-        f'Affiliate disclosure: Dollar Bets earns a commission if you sign up to {_strip_platforms.replace("kalshi", "Kalshi").replace("polymarket", "Polymarket")} through our links, never a cut of your bet, and we never hold your money.')
+        f'Affiliate disclosure: Dollar Bets may earn a commission if you sign up to {_strip_platforms.replace("kalshi", "Kalshi").replace("polymarket", "Polymarket")} through our links, never a cut of your bet, and we never hold your money.')
     _strip_html = f'    <div class="affiliate-strip">{_strip_text} <a href="/affiliate-disclosure/">Full disclosure &rarr;</a></div>'
     _strip_done = False
     if (hero_html and _hero_pos == "top"):
