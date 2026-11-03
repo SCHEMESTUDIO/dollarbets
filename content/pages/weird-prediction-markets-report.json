@@ -1,21 +1,21 @@
 {
   "slug": "weird-prediction-markets-report",
-  "format": "historical_story",
+  "format": "explainer",
   "seo": {
-    "title": "Weird Prediction Markets Report: 131 Days of Data | Dollar Bets",
-    "h1": "The Weird Prediction Markets Report",
-    "meta_description": "707 markets, 131 days, one board. We crunched our own archive to find the longshots, the lingerers, and the wildest odds swings in weird prediction markets.",
+    "title": "Weird Prediction Markets Report: 162 Days of Data | Dollar Bets",
+    "h1": "Weird Prediction Markets Report: 162 Days, 832 Markets, One Robot on Mars",
+    "meta_description": "We archived our own board for 162 days straight. 76.8% of markets lasted one day, the Moon market hit 81, and one odds swing moved 62 points in a week.",
     "canonical": "/weird-prediction-markets-report/"
   },
-  "summary": "76.8% of the 707 markets that ever hit our board showed up exactly once and vanished forever. This report mines 131 days of our own daily snapshots to find the six $2,000 longshots, the 62-day moon-landing holdout, and the UFO-files market that swung 62 points in six days.",
-  "quick_answer": "Our 131-day archive of 707 unique markets shows the board is dominated by churn — 76.8% of markets appear only once — while a small cluster of slow-moving Science/Climate markets like the NASA Moon landing bet (62 days) linger far longer than anything else. Six markets hit the steepest payout tier recorded, $1 pays $2,000.",
+  "summary": "76.8% of the 832 markets that ever hit our board vanished after one day. The survivors are weirdly specific: a Moon landing market at 81 days, a Mars robot at 24, and Taylor Swift's papal audience rumor outlasting most presidencies.",
+  "quick_answer": "Our 162-day archive of the Dollar Bets board shows 639 of 832 unique markets (76.8%) appeared only once, while a stubborn handful — led by the NASA Moon landing market at 81 days — stuck around for months. Volume and payouts swung wildly month to month, peaking in June.",
   "internal_links": [
     {
       "text": "today's board",
       "url": "/"
     },
     {
-      "text": "funny prediction markets",
+      "text": "funny Polymarket bets",
       "url": "/funny-polymarket-bets/"
     },
     {
@@ -26,49 +26,49 @@
   "body": [
     {
       "type": "heading",
-      "content": "707 markets, one board, zero chill"
+      "content": "the number that stopped us mid-scroll"
     },
     {
       "type": "text",
-      "content": "Here's the number that stopped us mid-scroll: 76.8% of everything that's ever made our board — 543 markets out of 707 — showed up exactly once and never came back. One day in the sun, then gone. That's not a bug in our tracking. That's just what the internet's weirdest dollar wagers actually do."
+      "content": "76.8% of everything that's ever landed on the Dollar Bets board showed up for exactly one day and then vanished. Six hundred and thirty-nine markets, out of 832 unique ones we've tracked since April 25, got their fifteen minutes and ghosted. The board is a goldfish with excellent taste."
     },
     {
       "type": "text",
-      "content": "This report comes entirely from our own daily board snapshots — 131 days of them, April 25 through October 3, 2026, covering 707 unique markets across 1,307 total board slots. Nobody licensed us this data and nobody else has it, because nobody else is screenshotting the same curated top-10 every morning."
+      "content": "This is our own first-party data — 162 days of daily snapshots of our curated top-10(ish) market board, archived since late April and run back through our own files. 832 unique markets have rotated through 1,608 total board slots."
     },
     {
       "type": "heading",
-      "content": "the longshots that made the cut"
+      "content": "the headline numbers"
     },
     {
       "type": "text",
-      "content": "Ten markets on our board paid out at odds steep enough to make a casino blush, and six of them hit the same number on the nose: $1 pays $2,000. A Georgia GOP Senate longshot. A three-day Elon tweet-count bet. WTI crude supposedly touching $175. A Bitcoin price-at-3AM market. An Ethereum coin-flip dressed up as a market. And \"Primetime opens to $22 million or more.\""
+      "content": "Over seven full months plus a slice of November, the board swung from a quiet 58 slots in April up to 300-slot months in May, June, and October. Median daily volume on featured markets ranged from a sleepy $2,601 in early November to a muscular $25,285 in June. Average payout per dollar bet drifted between $16.93 and $39.65 depending on the month."
     },
     {
-      "type": "list",
-      "content": [
-        "Georgia nominee bet: \"a lottery ticket filing for office\"",
-        "WTI at $175: \"someone's short-selling the sun\"",
-        "Bitcoin-at-3AM bet: \"someone set an alarm for this exact moment\"",
-        "Lebanon's Taqaddom Party ($666.67 payout): \"Hezbollah pivoting to competitive pickleball\"",
-        "Solana crash to $70: \"Challenger deep has an easier floor to hit\""
-      ]
+      "type": "heading",
+      "content": "the longshots that made us laugh out loud"
     },
     {
       "type": "text",
-      "content": "Every single one of the six $2,000-payout markets lasted exactly one day on the board. That's the pattern with the truly absurd stuff — it's not built to linger, it's built to make you do a double take and move on."
+      "content": "Ten markets hit our board paying out at $500 or more per dollar, and the top tier — six separate markets paying a flat $2,000 — all lasted exactly one day each. Jonathan McColumn's run at Georgia's GOP Senate nomination got filed as \"a lottery ticket filing for office.\" WTI crude hitting $175 became \"someone's short-selling the sun.\" Crypto showed up twice in the $2,000 tier, including Ethereum moving a specific direction in a specific one-hour window — \"a dollar on whether the number goes left or right.\""
     },
     {
       "type": "heading",
       "content": "the markets that wouldn't leave"
     },
     {
-      "type": "text",
-      "content": "While hundreds of markets flamed out in 24 hours, a handful refused to go away. The moon landing market — \"Will NASA land a person on the Moon before 2028?\" — sat on the board for 62 days, the longest run in the entire archive, captioned \"one small bet for man.\" Right behind it: Starship reaching Mars before 2030 (23 days), Taylor Swift getting a papal audience (20 days), and two earthquake markets logging 19 and 18 days."
+      "type": "list",
+      "content": [
+        "NASA landing a person on the Moon before 2028 — 81 days, first spotted April 26, still live November 3: \"one small bet for man\"",
+        "Starship carrying humans to Mars before 2030 — 30 days",
+        "A humanoid robot walking on Mars before any human — 24 days, \"the Terminator but make it NASA's problem\"",
+        "California's 8.0 earthquake market — 24 days, \"shaking the liberals to their very core\"",
+        "Taylor Swift getting a papal audience — 22 days, \"Bejeweled, Vatican edit\""
+      ]
     },
     {
       "type": "text",
-      "content": "What's notable about this list: it skews heavily Science and Technology and Climate and Weather — the stuff that's slow-moving by nature, where the news doesn't resolve itself in a week. Those markets don't need a daily headline to stay relevant."
+      "content": "Notice the pattern: space, earthquakes, and Taylor Swift are apparently the three load-bearing pillars of this board's longevity. Everything else is a day trip."
     },
     {
       "type": "heading",
@@ -76,7 +76,7 @@
     },
     {
       "type": "text",
-      "content": "That 76.8% one-day share isn't just a quirk of the longshot list — it's the dominant behavior of the entire board. Our board is explicitly built to surface whatever's weirdest or most relevant that day, so high churn is the design working as intended, not a glitch. Check back next week and you won't see the same ten markets."
+      "content": "639 of 832 markets — again, 76.8% — never saw a second sunrise on our board. Prediction markets tied to single games, tweets, or news cycles get scanned, featured, and replaced fast. Rippling IPOing before Deel managed 19 days, which by this board's standards makes it basically a tenured professor."
     },
     {
       "type": "heading",
@@ -84,15 +84,15 @@
     },
     {
       "type": "text",
-      "content": "Some markets didn't just show up and disappear — they had a full emotional arc. The biggest mover in the archive: \"Trump drops more UFO files this month,\" which went from 3% to 65% in six tracked days, a 62-point swing. Close behind, a single-season receiving yards record market swung 46 points in three days, and \"Humans on Mars before 2050\" drifted nearly 39 points over months rather than days."
+      "content": "The single biggest price move belongs to \"Trump drops more UFO files this month\" — yes-price swung 62 points in six tracked days. Sports had its own fireworks: the single-season receiving yards record moved 46 points in three days, and the single-season sack record moved 44 points in three days. Climate markets were the slow burn — \"Will 2026 be the hottest year ever?\" moved 37 points, but stretched over 15 days."
     },
     {
       "type": "heading",
-      "content": "the board, month by month"
+      "content": "month over month: what the board actually looked like"
     },
     {
       "type": "text",
-      "content": "Our board started small — just 58 slots in April — then scaled up to a steady 300 slots a month through May and June before settling into a lower, choppier rhythm for the back half of the year. Median volume per market roughly tripled from April's $8,108 to a peak of $25,285 in June, the same month that produced three of our six $2,000 longshots."
+      "content": "April was a 58-slot trial run dominated by Science and Technology and Sports. By May and June the board exploded to 300 slots a month, with Other and Science and Technology trading the top category spot almost every month after. Volume peaked in June at a median $25,285 and mean payout of $39.65, with June, July, September, and October all topping out at $2,000 max payouts. November, three days in, is running thin at 30 slots and $2,601 median volume."
     },
     {
       "type": "heading",
@@ -100,36 +100,36 @@
     },
     {
       "type": "text",
-      "content": "Our board is a curated daily top-10 (sometimes up to 30 slots), hand-picked for being interesting — this measures what made our board, not the full universe of every prediction market that exists. Coverage also has gaps: 12 days missing after July 25, 3 after August 11, and a 14-day gap after August 26. Payouts shown are illustrative snapshots from the dates listed, not current or guaranteed prices."
+      "content": "Our board is a curated daily top-10(ish) selection, not the entire universe of Kalshi and Polymarket markets — this measures what made our board, not \"the market\" writ large. There are snapshot gaps (12 days after July 25, 3 more after August 11, 14 days from late August into September 10), so some markets' true days-on-board could run longer than recorded. Category tags are our scanner's own labels — useful for trends, imperfect in the weeds."
     }
   ],
   "faqs": [
     {
+      "q": "Is this every prediction market that exists?",
+      "a": "No — it's every market that made our daily curated board across 162 snapshot days. Think of it as a sample of what we found interesting enough to feature, not a full market census."
+    },
+    {
       "q": "Why do so many markets only last one day?",
-      "a": "Because the board is designed to surface what's freshest and weirdest each day, not to run a fixed leaderboard. With 707 unique markets across 131 days, most are one-and-done by construction — that's 76.8% of the whole archive."
+      "a": "Most of what lands on the board is tied to a specific event, game, or news cycle that resolves fast, so our curation naturally rotates fresh markets in constantly — 76.8% of everything we've tracked only ever showed up once."
     },
     {
-      "q": "What counts as a \"longshot\" here?",
-      "a": "Markets where $1 would have paid out the most if they'd resolved yes at the price we recorded — in this dataset, that tops out at $2,000, a tier reached by six different markets across Other and Crypto categories."
+      "q": "What's the longest-running market on the board?",
+      "a": "\"Will NASA land a person on the Moon before 2028?\" — 81 days on the board and counting as of November 3, making it the board's senior citizen by a wide margin."
     },
     {
-      "q": "Why did some markets swing so hard in price?",
-      "a": "Markets move when new information or sentiment shifts fast — a UFO-files market jumping from 3% to 65% in six days reflects a real news cycle, not a glitch in our tracking. We log the price on the day we snapshot it, a point-in-time read, not a live feed."
-    },
-    {
-      "q": "Is this the same thing as Dollar Bets' daily board?",
-      "a": "No — the daily board is today's curated picks. This report is the aggregate history behind it: 131 days of snapshots turned into first-party research on how our own board behaves over time."
+      "q": "Are these payout numbers still accurate?",
+      "a": "No — payouts shown here are historical snapshots from when each market was featured; prices move, and none of this is an indication of what a market pays today. Check the live board for current odds before anything else."
     }
   ],
-  "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate prediction markets, and nothing here is betting or financial advice. Figures reflect our own historical snapshots and may not match current live prices — check the actual platform before assuming anything is still available.",
+  "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate prediction markets, accept wagers, or offer financial advice. Prediction market prices are volatile and can swing sharply on new information; nothing here is a guarantee of future performance.",
   "publish_date": "2026-08-09",
-  "last_updated": "2026-10-03",
+  "last_updated": "2026-11-03",
   "cluster": "Weird Bets",
   "priority": 75,
   "hero_bet": {
     "title": "NASA lands a person on the Moon before 2028",
-    "payout": 25.0,
-    "quip": "one small step, one giant stack of unopened Boeing invoices",
+    "payout": 30.3,
+    "quip": "they plant the flag and immediately receive a cease and desist from Elon",
     "tier": "red",
     "sourcePlatform": "Kalshi",
     "marketType": "prediction_market",
