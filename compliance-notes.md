@@ -12,7 +12,7 @@ It does NOT operate markets, take bets, hold funds, provide financial advice, or
 Compliance is enforced at the `/go/` redirect layer, not on the board pages. Every visitor sees the same editorial content; partner availability is checked only when a user clicks a market link, and only against the specific partner being opened.
 
 ### What every user sees on the site
-- The same board, same legend, same disclosure strip (Polymarket pays us nothing since no programme exists with either venue, so Polymarket pages say so; Kalshi pages name the Kalshi commission)
+- The same board, same legend, same disclosure strip ("we may earn affiliate commissions when you sign up to kalshi or polymarket through our links…"), kept on books that do not pay yet as a standing compliance layer (James, 2026-11-03)
 - No region-aware copy on the homepage or board pages
 - One exception since 2026-11-01: board cards for Polymarket markets carry class `pm-card` and are hidden by CSS once `/api/geo/` reports `country == "US"` (`html.us-visitor`). The HTML is the same for everyone; US visitors cannot open those markets, so the cards are not shown to them. Content pages are not affected.
 

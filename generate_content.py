@@ -476,15 +476,11 @@ def generate_content_page(page_data):
     # Affiliate disclosure mini-strip — platform-specific per the mock
     # A page may replace the strip's wording when the deal it carries is not the sign-up
     # commission (the Kalshi perps page: a share of trading fees, which the default line denies).
-    # Polymarket has no affiliate programme with us (AFFILIATE-LINKS.md, both venues), so a Polymarket
-    # page may not claim a sign-up commission from it.
-    if _pf == "polymarket":
-        _default_strip = "Affiliate disclosure: Polymarket pays Dollar Bets nothing. When the same market trades on a book that pays us, our market page lists that book too, and we earn a commission if you sign up there. We never take a cut of your bet or hold your money."
-    elif _pf == "kalshi":
-        _default_strip = "Affiliate disclosure: Dollar Bets earns a commission if you sign up to Kalshi through our links, never a cut of your bet, and we never hold your money."
-    else:
-        _default_strip = "Affiliate disclosure: Dollar Bets earns a commission if you sign up to Kalshi or another paying book through our links, never a cut of your bet, and we never hold your money. Polymarket pays us nothing."
-    _strip_text = page_data.get("affiliate_strip") or _default_strip
+    # Deliberate on every platform, paying or not (James, 2026-11-03): payments are being turned on,
+    # so the strip stays as a standing compliance layer. Do not narrow it to the books that pay today.
+    _strip_platforms = _pf if _pf else "kalshi or polymarket"
+    _strip_text = page_data.get("affiliate_strip") or (
+        f'Affiliate disclosure: Dollar Bets may earn a commission if you sign up to {_strip_platforms.replace("kalshi", "Kalshi").replace("polymarket", "Polymarket")} through our links, never a cut of your bet, and we never hold your money.')
     _strip_html = f'    <div class="affiliate-strip">{_strip_text} <a href="/affiliate-disclosure/">Full disclosure &rarr;</a></div>'
     _strip_done = False
     if (hero_html and _hero_pos == "top"):
