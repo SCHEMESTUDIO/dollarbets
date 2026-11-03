@@ -1442,7 +1442,7 @@ def _latest_board_meta():
                 date_str = datetime.fromisoformat(latest_date).strftime("%B %d, %Y").replace(" 0", " ")
             except ValueError:
                 date_str = latest_date
-            scan_time_et = None
+            scan_time_et = scan_date_et = None
             generated_at = latest_data.get("generated_at", "")
             if generated_at:
                 try:
@@ -1451,6 +1451,7 @@ def _latest_board_meta():
                     et = dt.astimezone(ZoneInfo("America/New_York"))
                     hour = et.strftime("%I:%M").lstrip("0")
                     scan_time_et = f"{hour}{et.strftime('%p').lower()} ET"
+                    scan_date_et = et.strftime("%B %d, %Y").replace(" 0", " ")
                 except Exception:
                     scan_time_et = None
             board = latest_data.get("board", [])
@@ -1458,6 +1459,7 @@ def _latest_board_meta():
             meta = {
                 "date_str": date_str,
                 "scan_time_et": scan_time_et,
+                "scan_date_et": scan_date_et,  # the board file is named by UTC day; an evening ET scan is the day before
                 "market_count": len(board),
                 "venue_count": len(venues),
             }

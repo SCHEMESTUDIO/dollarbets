@@ -455,7 +455,7 @@ def generate_content_page(page_data):
     def _nyt_ds(ds):
         try: return nyt_date(datetime.strptime(ds, "%B %d, %Y").date())
         except Exception: return ds
-    _read = f"read {_bm['scan_time_et']} on {_nyt_ds(_bm['date_str'])}" if _bm.get("scan_time_et") else (f"read {_nyt_ds(_bm['date_str'])}" if _bm.get("date_str") else "read each morning")
+    _read = f"read {_bm['scan_time_et']} on {_nyt_ds(_bm.get('scan_date_et') or _bm['date_str'])}" if _bm.get("scan_time_et") else (f"read {_nyt_ds(_bm['date_str'])}" if _bm.get("date_str") else "read each morning")
     _src = "Polymarket" if _pf == "polymarket" else "Kalshi" if _pf == "kalshi" else "Kalshi and Polymarket"
     body_parts.append(f'    <div class="sourcing">Prices from {_src}, {_read} &middot; <a href="/editorial-policy/">Editorial policy</a> &middot; <a href="/editorial-policy/#corrections">Corrections</a></div>')
 
@@ -474,11 +474,17 @@ def generate_content_page(page_data):
         body_parts.append(hero_html)
 
     # Affiliate disclosure mini-strip — platform-specific per the mock
-    _strip_platforms = _pf if _pf else "kalshi or polymarket"
     # A page may replace the strip's wording when the deal it carries is not the sign-up
     # commission (the Kalshi perps page: a share of trading fees, which the default line denies).
-    _strip_text = page_data.get("affiliate_strip") or (
-        f'Affiliate disclosure: Dollar Bets earns a commission if you sign up to {_strip_platforms.replace("kalshi", "Kalshi").replace("polymarket", "Polymarket")} through our links, never a cut of your bet, and we never hold your money.')
+    # Polymarket has no affiliate programme with us (AFFILIATE-LINKS.md, both venues), so a Polymarket
+    # page may not claim a sign-up commission from it.
+    if _pf == "polymarket":
+        _default_strip = "Affiliate disclosure: Polymarket pays Dollar Bets nothing. When the same market trades on a book that pays us, our market page lists that book too, and we earn a commission if you sign up there. We never take a cut of your bet or hold your money."
+    elif _pf == "kalshi":
+        _default_strip = "Affiliate disclosure: Dollar Bets earns a commission if you sign up to Kalshi through our links, never a cut of your bet, and we never hold your money."
+    else:
+        _default_strip = "Affiliate disclosure: Dollar Bets earns a commission if you sign up to Kalshi or another paying book through our links, never a cut of your bet, and we never hold your money. Polymarket pays us nothing."
+    _strip_text = page_data.get("affiliate_strip") or _default_strip
     _strip_html = f'    <div class="affiliate-strip">{_strip_text} <a href="/affiliate-disclosure/">Full disclosure &rarr;</a></div>'
     _strip_done = False
     if (hero_html and _hero_pos == "top"):

@@ -12,7 +12,7 @@
   "hero_bet": {
     "title": "Taylor Swift meets Pope Leo XIV before 2027",
     "payout": 16.67,
-    "quip": "Bejeweled, Vatican edit. A regulated US futures exchange listed this the day Leo was elected and volume crossed $18,700.",
+    "quip": "Bejeweled, Vatican edit. A regulated US futures exchange listed this the day Leo was elected, and more than 22,000 contracts have traded.",
     "tier": "red",
     "sourcePlatform": "Kalshi",
     "marketType": "prediction_market",
@@ -80,10 +80,10 @@
     {
       "type": "list",
       "items": [
-        "Taylor Swift meets Pope Leo XIV before Jan 1, 2027: $1 returns $16.67. Kalshi listed this the day Leo XIV was elected. Volume crossed $18,700. The crowd puts the probability at 6%. The crowd may be optimistic.",
-        "NASA lands on the Moon before 2028: $1 returns $13.89. The deadline moved from 2027 to 2028 and the implied odds barely moved — still about 7 cents. Artemis's track record is doing a lot of work in that number.",
-        "California hits an 8.0 earthquake before 2028: $1 returns $6.25. The crowd says 16%. That is not a comforting probability from a seismology standpoint.",
-        "So Easy (To Fall In Love) lands a Grammy nomination in 2027: $1 returns $4.55. Kalshi lists individual Grammy nomination contracts on purpose."
+        "Taylor Swift meets Pope Leo XIV before Jan 1, 2027: $1 returns $16.67. Kalshi listed this the day Leo XIV was elected, and more than 22,000 contracts have traded. The crowd puts the probability at 6%. The crowd may be optimistic.",
+        "NASA lands on the Moon before 2028: $1 returns $30.30. The crowd has it at about 3 cents, then about 30 cents for before 2029, so the market has already picked its year. Artemis's track record is doing a lot of work in those numbers.",
+        "California hits an 8.0 earthquake before 2028: $1 returns $16.67 at a 6-cent ask, on a thin book with a 2-cent bid. That is still not a comforting probability from a seismology standpoint.",
+        "So Easy (To Fall In Love) lands a Record of the Year nomination: $1 returns $50. Kalshi lists individual Grammy nomination contracts on purpose."
       ]
     },
     {
@@ -100,11 +100,11 @@
     },
     {
       "type": "text",
-      "content": "The funniest Kalshi bets are the ones a regulated futures exchange had no business listing and listed anyway. Taylor Swift meeting Pope Leo XIV before 2027 went up the day Leo was elected and has traded more than $18,700; the crowd prices it at about 6%, so $1 returns $16.67 if the Vatican gets a Bejeweled edit. Kalshi also lists individual Grammy nomination contracts, which means you can back one specific song, So Easy (To Fall In Love), to be nominated in 2027 at $1 returning $4.55."
+      "content": "The funniest Kalshi bets are the ones a regulated futures exchange had no business listing and listed anyway. Taylor Swift meeting Pope Leo XIV before 2027 went up the day Leo was elected and more than 22,000 contracts have traded; the crowd prices it at about 6%, so $1 returns $16.67 if the Vatican gets a Bejeweled edit. Kalshi also lists individual Grammy nomination contracts, which means you can back one specific song, So Easy (To Fall In Love), for Record of the Year at $1 returning $50."
     },
     {
       "type": "text",
-      "content": "Then there is KXALIENS-27, the contract on whether the U.S. government officially confirms extraterrestrial life or technology before January 1, 2027. When we last read it (July 30, 2026) it was offered at 7.3 cents against a 7.2-cent bid with more than 9 million contracts of open interest, which is a lot of money on a bureaucratic act that has never happened in eighty years of the government studying the question. One correction while we are here. The 'Jesus returns by 2026' market that gets pasted into every list of funny Kalshi bets is on Polymarket. Kalshi's own oddball is the alien contract."
+      "content": "Then there is KXALIENS-27, the contract on whether the U.S. government officially confirms extraterrestrial life or technology before January 1, 2027. It is offered at 4.2 cents against a 4.1-cent bid with more than 9 million contracts of open interest, which is a lot of money on a bureaucratic act that has never happened in eighty years of the government studying the question. One correction while we are here. The 'Jesus returns by 2026' market that gets pasted into every list of funny Kalshi bets is on Polymarket. Kalshi's own oddball is the alien contract."
     },
     {
       "type": "heading",
@@ -116,7 +116,7 @@
     },
     {
       "type": "text",
-      "content": "The most ridiculous Kalshi bets by subject matter are the art-auction markets, a whole slate tied to real auction-house results. The headline contract asks which painting will be the year's most expensive sale, and traders were pricing roughly a 48% chance the top lot clears $300 million against a record of $117 million, the price da Vinci's Salvator Mundi fetched at Christie's in 2017. Individual lot contracts had already traded real money, $5,341 on a 1924 Matisse and $3,610 on an 1888 Van Gogh, both at Sotheby's. A Van Gogh contract settles the same mechanical way a jobs-report contract does, which is the whole joke and the whole point."
+      "content": "The most ridiculous Kalshi bets by subject matter are the art-auction markets, a whole slate tied to real auction-house results. The headline contract asks how much the year's most expensive sale will fetch, and traders bid 23 cents and ask 35 on the top lot clearing $300 million. The record is $450.3 million, the price da Vinci's Salvator Mundi fetched at Christie's in 2017. Individual lot contracts had already traded real money, $5,341 on a 1924 Matisse and $3,610 on an 1888 Van Gogh, both at Sotheby's. A Van Gogh contract settles the same mechanical way a jobs-report contract does, which is the whole joke and the whole point."
     },
     {
       "type": "heading",
@@ -239,7 +239,7 @@
   ],
   "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate markets or provide betting advice. Kalshi is a separate, CFTC-regulated platform. All markets mentioned are illustrative of market types available. Odds and availability change. Most longshot bets will lose. Some links may be affiliate links — see our affiliate disclosure.",
   "publish_date": "2026-05-11",
-  "last_updated": "2026-09-20",
+  "last_updated": "2026-11-03",
   "cluster": "Weird Bets",
   "priority": 82,
   "video": {
