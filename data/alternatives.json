@@ -1,181 +1,173 @@
 {
- "generated_at": "2026-11-02T01:22:11.918922+00:00",
+ "generated_at": "2026-11-03T03:24:13.825071+00:00",
  "markets": {
-  "KXNFLSZNRECORD-27SACK-Y": {
-   "title": "Someone breaks the single-season sack record",
+  "KXNHLF10G-26NOV04CHIFLA-Y": {
+   "title": "Blackhawks-Panthers sees a goal in the first ten minutes",
    "platform": "kalshi",
-   "payout": 1.64,
-   "url": "https://kalshi.com/markets/KXNFLSZNRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 1.52,
+   "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Sports",
    "alts": {
     "kalshi": {
-     "ticker": "KXNFLSZNRECORD-27SACK-Y",
-     "title": "Someone breaks the single-season sack record",
-     "url": "https://kalshi.com/markets/KXNFLSZNRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 1.64,
+     "ticker": "KXNHLF10G-26NOV04CHIFLA-Y",
+     "title": "Blackhawks-Panthers sees a goal in the first ten minutes",
+     "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 1.52,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXMETEOR-30": {
-   "title": "A major meteor hits Earth before 2030",
+  "pmus-1280058": {
+   "title": "Neymar is the most Googled person of 2026",
+   "platform": "polymarket_us",
+   "payout": 2.22,
+   "url": "https://polymarket.us/event/gsearch-1person-2026?marketSlug=gsrc-gsearch-1person-2026-neymar",
+   "category": "Other",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-1280058",
+     "title": "Neymar is the most Googled person of 2026",
+     "url": "https://polymarket.us/event/gsearch-1person-2026?marketSlug=gsrc-gsearch-1person-2026-neymar",
+     "payout": 2.22,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-1446971": {
+   "title": "The Debut lands a Best Casting nomination",
+   "platform": "polymarket_us",
+   "payout": 2.78,
+   "url": "https://polymarket.us/event/oscars-nom-bstcast-2027-01-21?marketSlug=tac-oscars-nom-bstcast-2027-01-21-debut",
+   "category": "Entertainment",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-1446971",
+     "title": "The Debut lands a Best Casting nomination",
+     "url": "https://polymarket.us/event/oscars-nom-bstcast-2027-01-21?marketSlug=tac-oscars-nom-bstcast-2027-01-21-debut",
+     "payout": 2.78,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXUCL1HBTTS-26NOV04BVBRBB-BTTS": {
+   "title": "Dortmund and Betis both score in the first half",
    "platform": "kalshi",
-   "payout": 2.13,
-   "url": "https://kalshi.com/markets/KXMETEOR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 3.45,
+   "url": "https://kalshi.com/markets/KXUCL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Sports",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXUCL1HBTTS-26NOV04BVBRBB-BTTS",
+     "title": "Dortmund and Betis both score in the first half",
+     "url": "https://kalshi.com/markets/KXUCL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 3.45,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-1446219": {
+   "title": "Clayface gets a Best Makeup nomination",
+   "platform": "polymarket_us",
+   "payout": 4.0,
+   "url": "https://polymarket.us/event/oscars-nom-bstmakeup-2027-01-21?marketSlug=tac-oscars-nom-bstmakeup-2027-01-21-clayfa",
    "category": "Science and Technology",
    "alts": {
-    "kalshi": {
-     "ticker": "KXMETEOR-30",
-     "title": "A major meteor hits Earth before 2030",
-     "url": "https://kalshi.com/markets/KXMETEOR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 2.13,
+    "polymarket_us": {
+     "ticker": "pmus-1446219",
+     "title": "Clayface gets a Best Makeup nomination",
+     "url": "https://polymarket.us/event/oscars-nom-bstmakeup-2027-01-21?marketSlug=tac-oscars-nom-bstmakeup-2027-01-21-clayfa",
+     "payout": 4.0,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXPITSNOWM-26DEC-12": {
-   "title": "Pittsburgh gets over a foot of snow next December",
-   "platform": "kalshi",
-   "payout": 2.94,
-   "url": "https://kalshi.com/markets/KXPITSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Climate and Weather",
-   "alts": {
-    "kalshi": {
-     "ticker": "KXPITSNOWM-26DEC-12",
-     "title": "Pittsburgh gets over a foot of snow next December",
-     "url": "https://kalshi.com/markets/KXPITSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 2.94,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "KXESOCCERGAME-26NOV012038HURRBONY-HURR": {
-   "title": "Flamengo win today",
-   "platform": "kalshi",
-   "payout": 3.85,
-   "url": "https://kalshi.com/markets/KXESOCCERGAME?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Sports",
-   "alts": {
-    "kalshi": {
-     "ticker": "KXESOCCERGAME-26NOV012038HURRBONY-HURR",
-     "title": "Flamengo win today",
-     "url": "https://kalshi.com/markets/KXESOCCERGAME?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 3.85,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-1123863": {
-   "title": "Ella Langley wins CMA Song of the Year",
+  "pmus-800686": {
+   "title": "Lecornu is out as French PM this year",
    "platform": "polymarket_us",
-   "payout": 4.55,
-   "url": "https://polymarket.us/event/cma-soty-2026-11-18?marketSlug=tac-cma-soty-2026-11-18-beher",
-   "category": "Entertainment",
+   "payout": 5.56,
+   "url": "https://polymarket.us/event/wrldld-2026-12-31?marketSlug=opdc-wrldld-2026-12-31-seblec",
+   "category": "World",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1123863",
-     "title": "Ella Langley wins CMA Song of the Year",
-     "url": "https://polymarket.us/event/cma-soty-2026-11-18?marketSlug=tac-cma-soty-2026-11-18-beher",
-     "payout": 4.55,
+     "ticker": "pmus-800686",
+     "title": "Lecornu is out as French PM this year",
+     "url": "https://polymarket.us/event/wrldld-2026-12-31?marketSlug=opdc-wrldld-2026-12-31-seblec",
+     "payout": 5.56,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-1886513": {
-   "title": "Doing Life is Netflix's top movie this week",
-   "platform": "polymarket_us",
-   "payout": 5.88,
-   "url": "https://polymarket.us/event/ntflx-1movglbl-2026-11-03?marketSlug=ccrc-ntflx-1movglbl-2026-11-03-doilif",
-   "category": "Entertainment",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-1886513",
-     "title": "Doing Life is Netflix's top movie this week",
-     "url": "https://polymarket.us/event/ntflx-1movglbl-2026-11-03?marketSlug=ccrc-ntflx-1movglbl-2026-11-03-doilif",
-     "payout": 5.88,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "KXTRDBAN-25DEC31-27": {
-   "title": "Congress bans its own stock trading by next year",
+  "KXUSAIRANAGREEMENT-27": {
+   "title": "The US strikes a new Iran nuclear deal this year",
    "platform": "kalshi",
-   "payout": 7.14,
-   "url": "https://kalshi.com/markets/KXTRDBAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 8.33,
+   "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Politics",
    "alts": {
     "kalshi": {
-     "ticker": "KXTRDBAN-25DEC31-27",
-     "title": "Congress bans its own stock trading by next year",
-     "url": "https://kalshi.com/markets/KXTRDBAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 7.14,
+     "ticker": "KXUSAIRANAGREEMENT-27",
+     "title": "The US strikes a new Iran nuclear deal this year",
+     "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 8.33,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXMODELHIGH-27-1550-CLAU": {
-   "title": "Claude is first to hit 1550 on Text Arena",
+  "pmus-914660": {
+   "title": "Dems take Texas and Michigan, GOP holds Maine",
+   "platform": "polymarket_us",
+   "payout": 10.0,
+   "url": "https://polymarket.us/event/ussec-tx-mi-me-2026-11-03?marketSlug=cpoc-ussec-tx-mi-me-2026-11-03-dtx-dmi-rme",
+   "category": "World",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-914660",
+     "title": "Dems take Texas and Michigan, GOP holds Maine",
+     "url": "https://polymarket.us/event/ussec-tx-mi-me-2026-11-03?marketSlug=cpoc-ussec-tx-mi-me-2026-11-03-dtx-dmi-rme",
+     "payout": 10.0,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "MOON-27DEC31": {
+   "title": "NASA lands a person on the Moon before 2028",
    "platform": "kalshi",
-   "payout": 7.69,
-   "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 30.3,
+   "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Science and Technology",
    "alts": {
     "kalshi": {
-     "ticker": "KXMODELHIGH-27-1550-CLAU",
-     "title": "Claude is first to hit 1550 on Text Arena",
-     "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 7.69,
+     "ticker": "MOON-27DEC31",
+     "title": "NASA lands a person on the Moon before 2028",
+     "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 30.3,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-470595": {
-   "title": "Tennessee Senate turnout tops 2.4 million",
-   "platform": "polymarket_us",
-   "payout": 50.0,
-   "url": "https://polymarket.us/event/usseto-tn-2026-11-03?marketSlug=vtc-usseto-tn-2026-11-03-gt2pt4m",
-   "category": "World",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-470595",
-     "title": "Tennessee Senate turnout tops 2.4 million",
-     "url": "https://polymarket.us/event/usseto-tn-2026-11-03?marketSlug=vtc-usseto-tn-2026-11-03-gt2pt4m",
-     "payout": 50.0,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-1122539": {
-   "title": "Michigan is the closer Senate race",
+  "pmus-1886532": {
+   "title": "From tops the global Netflix charts this week",
    "platform": "polymarket_us",
    "payout": 100.0,
-   "url": "https://polymarket.us/event/usseclose-mi-nh-2026-11-03?marketSlug=cmovcuss-usseclose-mi-nh-2026-11-03-nh",
-   "category": "World",
+   "url": "https://polymarket.us/event/ntflx-1shwglbl-2026-11-03?marketSlug=ccrc-ntflx-1shwglbl-2026-11-03-from",
+   "category": "Entertainment",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1122539",
-     "title": "Michigan is the closer Senate race",
-     "url": "https://polymarket.us/event/usseclose-mi-nh-2026-11-03?marketSlug=cmovcuss-usseclose-mi-nh-2026-11-03-nh",
+     "ticker": "pmus-1886532",
+     "title": "From tops the global Netflix charts this week",
+     "url": "https://polymarket.us/event/ntflx-1shwglbl-2026-11-03?marketSlug=ccrc-ntflx-1shwglbl-2026-11-03-from",
      "payout": 100.0,
      "same": true,
      "sim": 1.0
-    },
-    "kalshi": {
-     "ticker": "KXCLOSERMINHSEN-26NOV10-NHSEN",
-     "title": "Closer Senate Race: Michigan or New Hampshire?",
-     "url": "https://kalshi.com/markets/KXCLOSERMINHSEN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 4.55,
-     "same": false,
-     "sim": 0.5
     }
    }
   }

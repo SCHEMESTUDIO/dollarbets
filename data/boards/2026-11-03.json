@@ -1,0 +1,597 @@
+{
+  "generated_at": "2026-11-03T03:24:13.825727+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 4,
+    "polymarket_us": 6,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "KXNHLF10G-26NOV04CHIFLA-Y",
+      "title": "Blackhawks-Panthers sees a goal in the first ten minutes",
+      "subtitle": "CHI vs FLA (Nov 4)",
+      "yes_sub_title": "Goal in first 10 min",
+      "no_sub_title": "Goal in first 10 min",
+      "payout": 1.52,
+      "tier": "green",
+      "quip": "Chicago's defensive zone coverage is a group project where nobody shows up",
+      "yes_price": "0.6600",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-07T00:30:00Z",
+      "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 44.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i'm not even back from the beer line and Florida's up one",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "first shift, first mistake",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "horn goes off while i'm still arguing with an usher about my seat",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "ten minutes is 600 seconds and these two need maybe 40",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "Chicago's defensive zone coverage is a group project where nobody shows up",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "like the opening of Up. quick, devastating, everyone's crying by minute four",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "early goals are the best goals. the beer is still cold",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "\"and we are underway. OH and already a scoring chance\"",
+          "mode": 4,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1280058",
+      "title": "Neymar is the most Googled person of 2026",
+      "subtitle": "",
+      "payout": 2.22,
+      "tier": "green",
+      "quip": "this is Johnny Manziel outdrawing the entire NFL",
+      "yes_price": "0.4500",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/gsearch-1person-2026?marketSlug=gsrc-gsearch-1person-2026-neymar",
+      "platform": "polymarket_us",
+      "score": 33.0,
+      "quip_alts": [
+        {
+          "quip": "i have not thought about this man since he rolled off the pitch in 2018",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the hair alone deserves it",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "World Cup summer, one hamstring, forty thousand think pieces about his ankle",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "this is Johnny Manziel outdrawing the entire NFL",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "beating every head of state on earth with a limp and a stream account",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "45 percent of those searches are just \"is neymar still playing\"",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "theatrical collapsing is a real sport and he is the undisputed GOAT",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "i googled him twice this year and both times i meant somebody else",
+          "mode": 2,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1446971",
+      "title": "The Debut lands a Best Casting nomination",
+      "subtitle": "",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "first one of these ever handed out. Lord of the Rings got robbed retroactively",
+      "yes_price": "0.3600",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-02-05T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-nom-bstcast-2027-01-21?marketSlug=tac-oscars-nom-bstcast-2027-01-21-debut",
+      "platform": "polymarket_us",
+      "score": 33.0,
+      "quip_alts": [
+        {
+          "quip": "i have seen zero of these films and i am already furious about the snubs",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "casting has an Oscar now",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "a casting director is rehearsing a speech into her bathroom mirror right now",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "the mid-major getting an at-large bid and everyone pretending they saw it coming",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "first one of these ever handed out. Lord of the Rings got robbed retroactively",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "finally a trophy for the person who said \"what about that guy\"",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "the Academy adding categories like a league adding playoff teams",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "i'll be at the party claiming i called this back in October",
+          "mode": 2,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUCL1HBTTS-26NOV04BVBRBB-BTTS",
+      "title": "Dortmund and Betis both score in the first half",
+      "subtitle": "BVB vs RBB (Nov 4)",
+      "yes_sub_title": "1st Half: Both Teams To Score",
+      "no_sub_title": "1st Half: Both Teams To Score",
+      "payout": 3.45,
+      "tier": "yellow",
+      "quip": "45 minutes of Big 12 football with significantly better haircuts",
+      "yes_price": "0.2900",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-06T20:00:00Z",
+      "url": "https://kalshi.com/markets/KXUCL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 79.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "Dortmund's back line treats defending like a cardio warmup",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "both keepers having a night",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "i only tune in for the chaos and these guys have never once failed me",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Isco still walking around with the cheat codes in his pocket",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "Kovac ages eleven years before the halftime whistle even blows",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "45 minutes of Big 12 football with significantly better haircuts",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "the Yellow Wall did not get out of bed for a 0-0",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "i looked up at the 29th minute and it was somehow already 2-2",
+          "mode": 5,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1446219",
+      "title": "Clayface gets a Best Makeup nomination",
+      "subtitle": "",
+      "payout": 4.0,
+      "tier": "yellow",
+      "quip": "$4 of clay, two hundred million of CGI, one little statue",
+      "yes_price": "0.2500",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2027-02-05T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-nom-bstmakeup-2027-01-21?marketSlug=tac-oscars-nom-bstmakeup-2027-01-21-clayfa",
+      "platform": "polymarket_us",
+      "score": 38.0,
+      "quip_alts": [
+        {
+          "quip": "the guy is made of clay. of COURSE the makeup department ate",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "i will sit through two hours about a mud man and i will have a great time",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "mud guy wins awards",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "acceptance speech is a bucket of slip and a shoutout to Sculpey",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "the Academy loves prosthetics the way voters love a biopic nose",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "i respect this like i respect a long snapper making the Pro Bowl",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we used nine hundred pounds of real clay.\" sir. please",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "$4 of clay, two hundred million of CGI, one little statue",
+          "mode": 5,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-800686",
+      "title": "Lecornu is out as French PM this year",
+      "subtitle": "",
+      "payout": 5.56,
+      "tier": "yellow",
+      "quip": "it's the Spinal Tap drummer seat with a nicer office",
+      "yes_price": "0.1800",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/wrldld-2026-12-31?marketSlug=opdc-wrldld-2026-12-31-seblec",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "i stopped learning the names, i just call him the guy",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "France changing PMs seasonally",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "Matignon keeps the nameplate on velcro for exactly this reason",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "French prime minister is the Raiders head coaching job of Europe",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "it's the Spinal Tap drummer seat with a nicer office",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "Paris is protesting either way, might as well give them a theme",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "nothing more French than a government folding before the first warm day",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "i opened his Wikipedia page once. closed it. correctly",
+          "mode": 2,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27",
+      "title": "The US strikes a new Iran nuclear deal this year",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 8.33,
+      "tier": "orange",
+      "quip": "this is the Jets drafting a quarterback. we do this every single year",
+      "yes_price": "0.1200",
+      "volume": 1891167.58,
+      "category": "Politics",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the engraved signing pens have been sitting in a Geneva closet since 2019",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i set a Google alert for this and it has genuinely ruined my mornings",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "centrifuges remain undefeated",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "this is the Jets drafting a quarterback. we do this every single year",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "Charlie Brown and the football, except both of them are enriched",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "the 2015 deal, but 12 percent of it, and nobody reads the annex",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "\"tremendous deal. the best deal anyone has ever been handed, frankly\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "i renew my passport more often than these people renew the talks",
+          "mode": 2,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-914660",
+      "title": "Dems take Texas and Michigan, GOP holds Maine",
+      "subtitle": "",
+      "payout": 10.0,
+      "tier": "orange",
+      "quip": "Maine: lobster, moose, and whatever it is Susan Collins is doing up there",
+      "yes_price": "0.1000",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-01-15T00:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/ussec-tx-mi-me-2026-11-03?marketSlug=cpoc-ussec-tx-mi-me-2026-11-03-dtx-dmi-rme",
+      "platform": "polymarket_us",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "i would need a map, three coffees and a priest to walk through this",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Maine goes rogue again",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "Texas flips and the legislature redraws the whole map before brunch",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "picking a 14 seed, a 3 seed, and a feeling",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "Maine: lobster, moose, and whatever it is Susan Collins is doing up there",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "Texas going blue is somebody's Red Wedding, and the invitations are out",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "three states, ten dollars, and nobody in my family speaks at Thanksgiving",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "i'm from Michigan and even i think this is pretty ambitious",
+          "mode": 2,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA lands a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 30.3,
+      "tier": "red",
+      "quip": "they plant the flag and immediately receive a cease and desist from Elon",
+      "yes_price": "0.0330",
+      "volume": 228584.57,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "they plant the flag and immediately receive a cease and desist from Elon",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i have been promised this moon since middle school and i'm now balding",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "the moon can wait",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "$30 is roughly the per-astronaut budget remaining at this point",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Kubrick isn't around to help them out this time",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "launch delays stacking up like Cowboys playoff hopes in November",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we are go for... hold. we are no longer go\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "i would take a sick day for this and i'd tell my boss why",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1886532",
+      "title": "From tops the global Netflix charts this week",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "Harold Perrineau escaped one island and immediately got stuck in a town",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2026-11-18T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/ntflx-1shwglbl-2026-11-03?marketSlug=ccrc-ntflx-1shwglbl-2026-11-03-from",
+      "platform": "polymarket_us",
+      "score": 48.0,
+      "quip_alts": [
+        {
+          "quip": "i watched four episodes of this and now i check my locks twice",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the monsters smile. great",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "everybody finds it Sunday night and nobody sleeps before Monday standup",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "a 12 seed crashing the Final Four of television",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Harold Perrineau escaped one island and immediately got stuck in a town",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "a hundred dollars, and nobody in that town can leave either",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "i will defend small town horror until the day i am taken",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "the algorithm finally doing something besides shoving Love Is Blind at me",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    }
+  ]
+}
