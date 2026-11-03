@@ -4,19 +4,19 @@
   "seo": {
     "title": "The Craziest and Funniest Polymarket Bets | Dollar Bets",
     "h1": "The Craziest and Funniest Polymarket Bets",
-    "meta_description": "Craziest and weirdest Polymarket bets, ranked — the most ridiculous prediction markets, funniest bets, meme coins, celebrity chaos, political absurdity, and questions nobody asked but everyone wants answered. All real, all live on Polymarket.",
+    "meta_description": "Craziest and weirdest Polymarket bets, priced in what $1 returns: Oscar longshots, celebrity chaos, political absurdity, and how the old ones settled.",
     "canonical": "/funny-polymarket-bets/"
   },
   "summary": "Funny prediction markets have a permanent home: it's Polymarket. If you're hunting the funniest bets on the internet, this is the motherlode — meme coins, celebrity scandals, political theater, and questions that have no business being financial instruments — all priced by the crowd, all live right now.",
   "quick_answer": "The funniest Polymarket bets include meme-tier markets (will a celebrity do something absurd), viral political props (debate moments, tweet predictions), crypto culture bets, and pop culture outcomes that have no business being financial instruments. Many trade at pennies, meaning $1 returns big if the joke becomes reality.",
   "hero_bet": {
-    "title": "Claude crashes 3-5 times in July",
-    "payout": 8.97,
-    "quip": "The crowd priced whether the AI would fall over this month. It has an order book. It has liquidity. It has opinions about HAL's uptime.",
-    "tier": "orange",
-    "sourcePlatform": "Polymarket",
+    "title": "Clayface gets a Best Makeup nomination",
+    "payout": 4.0,
+    "quip": "The crowd gives a man made of clay one chance in four at a makeup nomination. Someone at the Academy has to decide how much of him counts.",
+    "tier": "yellow",
+    "sourcePlatform": "Polymarket US",
     "marketType": "prediction_market",
-    "url": "/go/0xe5d4fe1d6aacf881968455574854b995a0c2ac766ead9148b95a5ae2a3d1ce40/"
+    "ticker": "pmus-1446219"
   },
   "internal_links": [
     {
@@ -59,11 +59,11 @@
     },
     {
       "type": "text",
-      "content": "Funny prediction markets are a genre now, and Polymarket is its biggest stage. Polymarket is a crypto-based prediction market where the crowd prices everything from presidential elections to whether a specific celebrity will get arrested this month. It runs on the Polygon blockchain, settles in USDC, and has become the internet's unofficial scoreboard for chaos. The funny bets are why most people discover it."
+      "content": "Funny prediction markets are a genre now, and Polymarket is their biggest stage. There are two of it. The international exchange runs on the Polygon blockchain, settles in USDC, and does not take US customers; Polymarket US is a separate venue with its own catalogue for US traders. Between them the crowd prices everything from presidential elections to who Google says got searched the most. The funny bets are why most people discover it."
     },
     {
       "type": "text",
-      "content": "The recipe for a funny prediction market is consistent: take a question that sounds like a joke, attach real money to it, and watch the crowd price it with total sincerity. The comedy isn't the market existing — it's the order book. Somebody out there has a six-figure position on a question their family doesn't know they think about."
+      "content": "The recipe for a funny prediction market is consistent: take a question that sounds like a joke, attach real money to it, and watch the crowd price it with total sincerity. The comedy is the order book. Somebody out there has a six-figure position on a question their family doesn't know they think about."
     },
     {
       "type": "text",
@@ -79,11 +79,11 @@
     },
     {
       "type": "text",
-      "content": "For the state of the genre as of mid-July 2026, look at what's actually live and trading. A Polymarket contract on whether Claude — the AI writing half the internet's homework — will crash three-to-five times this month sits around an 11-cent yes, which is the crowd politely saying the machine has a small but non-zero chance of eating dirt on schedule. A dollar there returns about nine if the outages land in the window. That's the whole bit: a serious order book on a deeply unserious question."
+      "content": "Here is what is trading now on Polymarket US. Clayface getting a Best Makeup nomination sits at 25 cents, so a dollar returns $4 if the Academy agrees a man made of clay counts as makeup. Neymar as the most Googled person of 2026 is at 45 cents, a $2.22 return on one footballer outrunning the whole news cycle. Sébastien Lecornu leaving the French premiership before the year ends is at 18 cents, which pays $5.56 and still looks cheap for that job."
     },
     {
       "type": "text",
-      "content": "The best part is the implied probabilities, because the number is the punchline. 'MegaETH drops an airdrop by year's end' is priced near 21 cents — a fifth of the crowd betting the money printer runs in Ethereum dialect. 'Cameron Boozer wins NBA Rookie of the Year' trades around 22 cents, an entire market built on the premise that a draft night went wrong and everyone has to live with it. And somewhere in Oslo, a very specific person has money on 'IK Start beats Vålerenga 2-3' — not wins, not 3-1, exactly 2-3 — trading at a coin-flip. Those numbers contain more information than any pundit take, and they're funnier, too."
+      "content": "The international exchange is stranger, and the number is the punchline. Whether Betmoar launches a token by March 31, 2027 is priced at 18.5 cents, $5.41 on a Polymarket trading tool doing the most predictable thing available to it. Mohammad-Bagher Ghalibaf as TIME Person of the Year is about 4 cents, roughly $23 on the dollar. Shohei Ohtani as the most searched person on Google this year is under a penny, about $125 if the two-way star outruns everyone. Those numbers contain more information than any pundit take, and they're funnier, too."
     },
     {
       "type": "heading",
@@ -95,7 +95,7 @@
     },
     {
       "type": "text",
-      "content": "The truly ridiculous ones earn their reputation through the gap between the stakes and the subject — and sometimes through the payout. Right now a Polymarket contract on 'Bitcoin hits an all-time high by September' is trading near a penny and a half, which turns a single dollar into roughly sixty-four if the number goes up where the sun doesn't shine on this timeline. Nearly a million dollars of volume sits on that one longshot. These aren't joke markets — Polymarket has real money in them, moved by people who think they have edge. That's the most ridiculous part."
+      "content": "The truly ridiculous ones earn their reputation through the gap between the stakes and the subject, and the results are part of the joke. More than $980,000 traded on whether Israel would accuse Iran or its proxies of a plane stabbing by October 31; it closed under a penny and resolved No. Whether Claude, the AI, would go down three to five times in July drew about $11,800 and also resolved No. These aren't joke markets. Polymarket has real money in them, moved by people who think they have edge. That's the most ridiculous part."
     },
     {
       "type": "heading",
@@ -151,11 +151,11 @@
     },
     {
       "type": "text",
-      "content": "Kalshi is CFTC-regulated and sticks to event contracts the regulator approves. Polymarket runs on crypto and has a much wider range of markets because the listing process is more open. That means Polymarket gets the truly weird stuff — the markets that a regulated exchange would never touch. Celebrity drama, meme culture, internet trends — Polymarket prices them all."
+      "content": "Kalshi is CFTC-regulated and sticks to event contracts the regulator approves. Polymarket's international exchange runs on crypto and has a much wider range of markets because the listing process is more open. That means it gets the truly weird stuff, the markets a regulated exchange would never touch: celebrity drama, meme culture, internet trends. Polymarket US is a separate venue with its own catalogue, and that is where a US trader finds Polymarket's Oscar and Google-search longshots."
     },
     {
       "type": "text",
-      "content": "The tradeoff is trust and structure. Kalshi resolves contracts based on official data sources. Polymarket uses a decentralized oracle system, which occasionally creates disputes about how a market should resolve. The funny bets are funnier on Polymarket, but the resolution is messier. For pure entertainment, Polymarket wins. For clean resolution, Kalshi wins. For a side-by-side of the craziest markets on each platform right now, see the Polymarket vs. Kalshi comparison."
+      "content": "The tradeoff is trust and structure. Kalshi resolves contracts based on official data sources. Polymarket's international exchange uses a decentralized oracle system, which occasionally creates disputes about how a market should resolve. The funny bets are funnier on Polymarket and the resolution is messier. For pure entertainment, Polymarket wins. For clean resolution, Kalshi wins. For a side-by-side of the craziest markets on each platform right now, see the Polymarket vs. Kalshi comparison."
     },
     {
       "type": "heading",
@@ -169,7 +169,7 @@
   "faqs": [
     {
       "q": "Is Polymarket legal in the US?",
-      "a": "Polymarket's availability varies by jurisdiction. It operates as a crypto-based platform and has faced regulatory scrutiny. US users should check current availability and terms before participating."
+      "a": "The international exchange does not take US customers. Polymarket US (polymarket.us) is a separate venue for US traders, 18 and over, with its own catalogue. Check its terms for your state before you trade."
     },
     {
       "q": "What's the minimum bet on Polymarket?",
@@ -181,12 +181,12 @@
     },
     {
       "q": "How do Polymarket bets resolve?",
-      "a": "Polymarket uses a decentralized oracle system (UMA) to determine outcomes. Market creators define resolution criteria upfront. Disputes can be escalated to a community vote."
+      "a": "On the international exchange, a decentralized oracle system (UMA) determines outcomes. Market creators define resolution criteria upfront, and disputes can be escalated to a community vote. Polymarket US publishes its own rules on each market."
     }
   ],
   "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate prediction markets or place bets on behalf of users. Polymarket is a separate platform with its own terms, risks, and regulatory status. Availability varies by jurisdiction. Prediction market contracts involve risk of total loss. Some links may be affiliate links — see our affiliate disclosure.",
   "publish_date": "2026-05-11",
-  "last_updated": "2026-10-05",
+  "last_updated": "2026-11-03",
   "cluster": "Weird Bets",
   "priority": 80
 }
