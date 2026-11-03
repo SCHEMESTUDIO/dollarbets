@@ -1694,7 +1694,7 @@ def page_shell(title, description, body, canonical="", noindex=False, current_na
         nav_block = f'<nav aria-label="Boards" class="nav">{nav_html(current_nav)}</nav>'
         # Dated commission disclosure + trust strip — rendered together,
         # directly below the page's main content on every non-compact page.
-        below_board_strips = f"""    <div class="disclosure-strip">{date_str}: we scan <strong>CFTC-regulated exchanges</strong> and major prediction markets every morning. We earn a commission if you sign up through our links, never a cut of your bet, and we never hold your money.</div>
+        below_board_strips = f"""    <div class="disclosure-strip">{date_str}: we scan <strong>CFTC-regulated exchanges</strong> and major prediction markets every morning. We may earn a commission if you sign up through our links, never a cut of your bet, and we never hold your money.</div>
     <div class="trust-strip">Tiny stakes, huge maybes. Dollar Bets is entertainment-first market discovery: not betting advice, not financial advice, and not a guarantee that any market is available where you live. Odds and markets change. <a href="/responsible-gambling/">Gamble responsibly</a>. <a href="/availability/">Check availability</a>.</div>"""
 
     if sticky_html is None:
