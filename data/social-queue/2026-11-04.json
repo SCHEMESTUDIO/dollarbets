@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-11-04T16:20:01.641440+00:00",
+  "board_date": "2026-11-04",
+  "link_mode": "reply",
+  "selections": [
+    {
+      "ticker": "pmus-2036821",
+      "rank": 1,
+      "selection_reason": "The quip is perfect standalone comedy\u2014specific uncle energy that lands immediately, and the 3.33 payout makes the specificity feel even funnier",
+      "title": "Bitcoin reaches $87,500 this month",
+      "quip": "87,500 is the exact figure my uncle swore he would sell at in 2021",
+      "payout": 3.33,
+      "platform": "polymarket_us",
+      "tier": "yellow",
+      "category": "Crypto",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-2036821/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-2036821/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-2036821/og.png",
+      "content": {
+        "x_tweet_text": "87,500 is the exact figure my uncle swore he would sell at in 2021",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-04",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Bitcoin reaches $87,500 this month</b>\n\n\u201c<i>87,500 is the exact figure my uncle swore he would sell at in 2021</i>\u201d\n\n$1 pays $3.33\n\n<a href=\"https://www.dollarbets.lol/share/pmus-2036821/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-1280056",
+      "rank": 2,
+      "selection_reason": "The 'man who loves ranch' line is pure Dollar Bets voice, Travis Kelce is culturally unavoidable, and the Travis/Nobel contrast is exactly the kind of thing people screenshot",
+      "title": "Travis Kelce is the most Googled person of 2026",
+      "quip": "sorry to the Nobel laureates, you lost to a man who loves ranch",
+      "payout": 2.22,
+      "platform": "polymarket_us",
+      "tier": "green",
+      "category": "Other",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1280056/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1280056/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1280056/og.png",
+      "content": {
+        "x_tweet_text": "sorry to the Nobel laureates, you lost to a man who loves ranch",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-04",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Travis Kelce is the most Googled person of 2026</b>\n\n\u201c<i>sorry to the Nobel laureates, you lost to a man who loves ranch</i>\u201d\n\n$1 pays $2.22\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1280056/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-1122715",
+      "rank": 3,
+      "selection_reason": "today's filthy little longshot \u2014 the board's own hero pick",
+      "title": "Mississippi is the closer Senate race",
+      "quip": "Mississippi hanging around like a 16 seed at the under-eight timeout",
+      "payout": 100.0,
+      "platform": "polymarket_us",
+      "tier": "purple",
+      "category": "World",
+      "card_variant": "ticket",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1122715/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1122715/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1122715/og.png",
+      "content": {
+        "x_tweet_text": "Mississippi hanging around like a 16 seed at the under-eight timeout",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-04",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Mississippi is the closer Senate race</b>\n\n\u201c<i>Mississippi hanging around like a 16 seed at the under-eight timeout</i>\u201d\n\n$1 pays $100\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1122715/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    }
+  ]
+}
