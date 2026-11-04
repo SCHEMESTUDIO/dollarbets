@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-11-04T16:03:05.448513+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket_us": 5,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "KXLOLFBARON-26NOV051700BLGDK-2-DK",
+      "title": "Dplus KIA takes the first baron in Game 2",
+      "subtitle": "Game 2: BLG vs. DK (Nov 5)",
+      "yes_sub_title": "Dplus KIA",
+      "no_sub_title": "Dplus KIA",
+      "payout": 2.04,
+      "tier": "green",
+      "quip": "T1 fans watching this with their arms folded",
+      "yes_price": "0.4900",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-07T22:00:00Z",
+      "url": "https://kalshi.com/markets/KXLOLFBARON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 69.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "baron buff, three inhibitors gone, somebody's keyboard already in the parking lot",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i've explained the worm to my dad six years running and he still says dragon",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the big purple worm",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "like winning the overtime coin toss and never giving the ball back",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "baron took exactly 204 hits and i counted every single one",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "\"STEAL. HE STOLE IT.\" and my downstairs neighbor files another complaint",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "a giant snake deciding an international sporting event is the best thing we ever built",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "T1 fans watching this with their arms folded",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1280056",
+      "title": "Travis Kelce is the most Googled person of 2026",
+      "subtitle": "",
+      "payout": 2.22,
+      "tier": "green",
+      "quip": "sorry to the Nobel laureates, you lost to a man who loves ranch",
+      "yes_price": "0.4500",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/gsearch-1person-2026?marketSlug=gsrc-gsearch-1person-2026-trakel",
+      "platform": "polymarket_us",
+      "score": 33.0,
+      "quip_alts": [
+        {
+          "quip": "i have never once searched this man and somehow i know his shoe size",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "google autocomplete gives up and just shows a photo of a tight end",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "the nation has a type",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "America googling Kelce while the Library of Alexandria quietly burns",
+          "mode": 8,
+          "score": 6.5
+        },
+        {
+          "quip": "45 percent of those searches are people checking if they broke up",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "sorry to the Nobel laureates, you lost to a man who loves ranch",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "my browser history is a crime scene and he is somehow still in it",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "a guy who hugs his mom that hard deserves the entire internet",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-287335",
+      "title": "John Malkovich wins Best Actor",
+      "subtitle": "",
+      "payout": 2.33,
+      "tier": "green",
+      "quip": "this is Clint Eastwood entering the dunk contest at 71 and placing",
+      "yes_price": "0.4300",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-03-29T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-03-14-2027-bestacto?marketSlug=tac-oscars-03-14-2027-bestacto-johmal",
+      "platform": "polymarket_us",
+      "score": 33.0,
+      "quip_alts": [
+        {
+          "quip": "Being John Malkovich was a documentary and the Academy took 27 years to confirm it",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "i would watch this man read a tire warranty out loud",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the voice wins again",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "\"thank you\" delivered in the exact cadence of a bomb threat",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "he holds the statue like it owes him money and walks off mid-orchestra",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "this is Clint Eastwood entering the dunk contest at 71 and placing",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "43 years of being the politest terrifying man alive finally cashing",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "every 29 year old with a jawline going home in a rented tux",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXUECL1HSPREAD-26NOV05FCCIBE-FCC2",
+      "title": "Copenhagen leads by two-plus at halftime",
+      "subtitle": "FCC vs IBE (Nov 5)",
+      "yes_sub_title": "Copenhagen wins the 1H by more than 1.5 goals",
+      "no_sub_title": "Copenhagen wins the 1H by more than 1.5 goals",
+      "payout": 3.23,
+      "tier": "yellow",
+      "quip": "like going up 21-0 before the student section finds its seats",
+      "yes_price": "0.3100",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-07T20:00:00Z",
+      "url": "https://kalshi.com/markets/KXUECL1HSPREAD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 84.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "two in the first half and Parken starts the thunder clap before the whistle",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i could not find Iberia on a map and i am about to be rude to them",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "halftime oranges taste better",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "like going up 21-0 before the student section finds its seats",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Iberia's keeper checking the clock like a man working a double",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "3.23 goals by the break, i rounded up because i believe",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "two-nil at the break is the calmest i get all week",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "\"and that is the half\" said over a man being subbed off in shame",
+          "mode": 4,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2036821",
+      "title": "Bitcoin reaches $87,500 this month",
+      "subtitle": "",
+      "payout": 3.33,
+      "tier": "yellow",
+      "quip": "87,500 is the exact figure my uncle swore he would sell at in 2021",
+      "yes_price": "0.3000",
+      "volume": 0,
+      "category": "Crypto",
+      "close_time": "2026-12-01T05:30:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/btc-hit-h-m-2026-11?marketSlug=cpc-btc-hit-h-m-2026-11-87500",
+      "platform": "polymarket_us",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "my cost basis is a private matter between me and my therapist",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "laser eyes back on the avatars by Thursday, gone again by Lent",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "number go up, barely",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "87,500 is the exact figure my uncle swore he would sell at in 2021",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "this is a backup quarterback going 11 for 14 in garbage time",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "the guy who only tweets the word few is typing again",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "Saylor sees this and buys more with money found in a couch",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "genuinely love watching a spreadsheet have feelings",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURCAT-26OMAR-T5",
+      "title": "Hurricane Omar becomes a Category 5",
+      "subtitle": "Hurricane Omar",
+      "yes_sub_title": "Category 5 or above",
+      "no_sub_title": "Category 5 or above",
+      "payout": 4.17,
+      "tier": "yellow",
+      "quip": "Cantore lands and the local Waffle House locks its own doors",
+      "yes_price": "0.2400",
+      "volume": 56.0,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 56.0,
+      "_specificity": 5,
+      "quip_alts": [
+        {
+          "quip": "Cantore lands and the local Waffle House locks its own doors",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "you name a storm Omar and this is precisely what he does",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "the ocean is cooking",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "i read spaghetti models the way other people read horoscopes",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the Day After Tomorrow guy was just filing early",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "157 mph, which is also how fast my landlord ignores a text",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "an eye you can see from orbit is nature doing a full flex",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "\"outer bands now, Lester\" he says, hugging a stop sign for balance",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1621023",
+      "title": "Roger Marshall takes Sedgwick County",
+      "subtitle": "",
+      "payout": 8.33,
+      "tier": "orange",
+      "quip": "victory speech at a Freddy's Frozen Custard, two mics, one of them works",
+      "yes_price": "0.1200",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2026-11-18T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/usse-ks-sed-2026-11-03?marketSlug=pvwc-usse-ks-sed-2026-11-03-rep",
+      "platform": "polymarket_us",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "Wichita calling a Senate race is Fresno picking Best Picture",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "i learned the word Sedgwick today and plan to use it all week",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Kansas does Kansas things",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "victory speech at a Freddy's Frozen Custard, two mics, one of them works",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "the plains quietly running this country from a strip mall",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "wins by 8,333 votes and one church pancake breakfast",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "a doctor in the Senate, which explains the bedside manner",
+          "mode": 8,
+          "score": 6
+        },
+        {
+          "quip": "county level politics is the last honest sport we have",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27",
+      "title": "US agrees to a new Iran nuclear deal this year",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 12.35,
+      "tier": "orange",
+      "quip": "\"we have an agreement. the most beautiful enrichment, honestly, people are stunned\"",
+      "yes_price": "0.0810",
+      "volume": 1930626.52,
+      "category": "Politics",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Witkoff boards a plane to Oman with a binder and a fresh tan",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i have reinstalled a news app for considerably less than this",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "centrifuges spinning down, allegedly",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "\"we have an agreement. the most beautiful enrichment, honestly, people are stunned\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "like the two friends who break up and reconcile on a group trip",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "somewhere a mustache in a think tank is aging in real time",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "the 12th framework for an agreement about a future framework",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "i would love the world to be less stupid for one whole quarter",
+          "mode": 3,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXPOPESWIFT-27",
+      "title": "Taylor Swift meets Pope Leo XIV this year",
+      "subtitle": "Before Jan 1, 2027",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 16.67,
+      "tier": "red",
+      "quip": "the Pope gets a friendship bracelet and wears it over the ring",
+      "yes_price": "0.0600",
+      "volume": 22117.65,
+      "category": "Politics",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXPOPESWIFT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 112.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the Pope gets a friendship bracelet and wears it over the ring",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i would watch this on a jumbotron in a church parking lot",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "two popes, one room",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "\"bless you, my child\" \"thank you so much, this is so crazy\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "Sistine ceiling quietly repainted in lavender haze overnight",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "Chiefs fans will tell you he is basically on the coaching staff now",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "two Americans in Rome and only one of them got a white smoke announcement",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "a crossover nobody requested that every single person would watch",
+          "mode": 3,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1122715",
+      "title": "Mississippi is the closer Senate race",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "Mississippi hanging around like a 16 seed at the under-eight timeout",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-01-15T00:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/usseclose-ms-mn-2026-11-03?marketSlug=cmovcuss-usseclose-ms-mn-2026-11-03-mn",
+      "platform": "polymarket_us",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "Mississippi hanging around like a 16 seed at the under-eight timeout",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "i did not have Mississippi on the bingo card and i made the card",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the Delta stirs",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "cable news graphics guy frantically building a Mississippi county map at 9pm",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "Minnesota voting exactly as it has since the invention of hotdish",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "decided by 100 votes in a county with two polling places and one pen",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "this is the part of the movie where the sleepy town has a secret",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "love a state showing up thirty years late to its own party",
+          "mode": 3,
+          "score": 7
+        }
+      ]
+    }
+  ]
+}
