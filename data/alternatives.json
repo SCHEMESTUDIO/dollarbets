@@ -1,181 +1,181 @@
 {
- "generated_at": "2026-11-04T16:03:05.447857+00:00",
+ "generated_at": "2026-11-05T02:04:40.015525+00:00",
  "markets": {
-  "KXLOLFBARON-26NOV051700BLGDK-2-DK": {
-   "title": "Dplus KIA takes the first baron in Game 2",
-   "platform": "kalshi",
+  "pmus-1464728": {
+   "title": "Bruno Mars wins Best R&B Song",
+   "platform": "polymarket_us",
    "payout": 2.04,
-   "url": "https://kalshi.com/markets/KXLOLFBARON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Sports",
+   "url": "https://polymarket.us/event/grammys-brbs-2027-02-07?marketSlug=tac-grammys-brbs-2027-02-07-danme",
+   "category": "Entertainment",
    "alts": {
-    "kalshi": {
-     "ticker": "KXLOLFBARON-26NOV051700BLGDK-2-DK",
-     "title": "Dplus KIA takes the first baron in Game 2",
-     "url": "https://kalshi.com/markets/KXLOLFBARON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+    "polymarket_us": {
+     "ticker": "pmus-1464728",
+     "title": "Bruno Mars wins Best R&B Song",
+     "url": "https://polymarket.us/event/grammys-brbs-2027-02-07?marketSlug=tac-grammys-brbs-2027-02-07-danme",
      "payout": 2.04,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-1280056": {
-   "title": "Travis Kelce is the most Googled person of 2026",
+  "pmus-1873004": {
+   "title": "Cat in the Hat clears 50% on Rotten Tomatoes",
    "platform": "polymarket_us",
-   "payout": 2.22,
-   "url": "https://polymarket.us/event/gsearch-1person-2026?marketSlug=gsrc-gsearch-1person-2026-trakel",
+   "payout": 2.04,
+   "url": "https://polymarket.us/event/t-cathat-2026-11-09?marketSlug=rotc-t-cathat-2026-11-09-gte50",
    "category": "Other",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1280056",
-     "title": "Travis Kelce is the most Googled person of 2026",
-     "url": "https://polymarket.us/event/gsearch-1person-2026?marketSlug=gsrc-gsearch-1person-2026-trakel",
-     "payout": 2.22,
+     "ticker": "pmus-1873004",
+     "title": "Cat in the Hat clears 50% on Rotten Tomatoes",
+     "url": "https://polymarket.us/event/t-cathat-2026-11-09?marketSlug=rotc-t-cathat-2026-11-09-gte50",
+     "payout": 2.04,
      "same": true,
      "sim": 1.0
+    },
+    "kalshi": {
+     "ticker": "KXRT-CAT-90",
+     "title": "The Cat in the Hat \u00b7 Rotten Tomatoes score",
+     "url": "https://kalshi.com/markets/KXRT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 100.0,
+     "same": false,
+     "sim": 0.57
     }
    }
   },
-  "pmus-287335": {
-   "title": "John Malkovich wins Best Actor",
+  "pmus-1323200": {
+   "title": "US birth rate climbs above 53 this year",
    "platform": "polymarket_us",
-   "payout": 2.33,
-   "url": "https://polymarket.us/event/oscars-03-14-2027-bestacto?marketSlug=tac-oscars-03-14-2027-bestacto-johmal",
-   "category": "Entertainment",
+   "payout": 2.86,
+   "url": "https://polymarket.us/event/usbirth-gfr-2026?marketSlug=gfrc-usbirth-gfr-2026-gte53pt0",
+   "category": "Science and Technology",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-287335",
-     "title": "John Malkovich wins Best Actor",
-     "url": "https://polymarket.us/event/oscars-03-14-2027-bestacto?marketSlug=tac-oscars-03-14-2027-bestacto-johmal",
-     "payout": 2.33,
+     "ticker": "pmus-1323200",
+     "title": "US birth rate climbs above 53 this year",
+     "url": "https://polymarket.us/event/usbirth-gfr-2026?marketSlug=gfrc-usbirth-gfr-2026-gte53pt0",
+     "payout": 2.86,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXUECL1HSPREAD-26NOV05FCCIBE-FCC2": {
-   "title": "Copenhagen leads by two-plus at halftime",
+  "KXUECL1HTOTAL-26NOV05FCMAJA-3": {
+   "title": "Three or more goals in the first half",
    "platform": "kalshi",
-   "payout": 3.23,
-   "url": "https://kalshi.com/markets/KXUECL1HSPREAD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 5.0,
+   "url": "https://kalshi.com/markets/KXUECL1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Sports",
    "alts": {
     "kalshi": {
-     "ticker": "KXUECL1HSPREAD-26NOV05FCCIBE-FCC2",
-     "title": "Copenhagen leads by two-plus at halftime",
-     "url": "https://kalshi.com/markets/KXUECL1HSPREAD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 3.23,
+     "ticker": "KXUECL1HTOTAL-26NOV05FCMAJA-3",
+     "title": "Three or more goals in the first half",
+     "url": "https://kalshi.com/markets/KXUECL1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 5.0,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-2036821": {
-   "title": "Bitcoin reaches $87,500 this month",
+  "pmus-470212": {
+   "title": "Florida Senate turnout tops 8.5 million",
    "platform": "polymarket_us",
-   "payout": 3.33,
-   "url": "https://polymarket.us/event/btc-hit-h-m-2026-11?marketSlug=cpc-btc-hit-h-m-2026-11-87500",
-   "category": "Crypto",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-2036821",
-     "title": "Bitcoin reaches $87,500 this month",
-     "url": "https://polymarket.us/event/btc-hit-h-m-2026-11?marketSlug=cpc-btc-hit-h-m-2026-11-87500",
-     "payout": 3.33,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "KXHURCAT-26OMAR-T5": {
-   "title": "Hurricane Omar becomes a Category 5",
-   "platform": "kalshi",
-   "payout": 4.17,
-   "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Climate and Weather",
-   "alts": {
-    "kalshi": {
-     "ticker": "KXHURCAT-26OMAR-T5",
-     "title": "Hurricane Omar becomes a Category 5",
-     "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 4.17,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-1621023": {
-   "title": "Roger Marshall takes Sedgwick County",
-   "platform": "polymarket_us",
-   "payout": 8.33,
-   "url": "https://polymarket.us/event/usse-ks-sed-2026-11-03?marketSlug=pvwc-usse-ks-sed-2026-11-03-rep",
+   "payout": 5.0,
+   "url": "https://polymarket.us/event/usseto-fl-2026-11-03?marketSlug=vtc-usseto-fl-2026-11-03-gt8pt5m",
    "category": "World",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1621023",
-     "title": "Roger Marshall takes Sedgwick County",
-     "url": "https://polymarket.us/event/usse-ks-sed-2026-11-03?marketSlug=pvwc-usse-ks-sed-2026-11-03-rep",
-     "payout": 8.33,
+     "ticker": "pmus-470212",
+     "title": "Florida Senate turnout tops 8.5 million",
+     "url": "https://polymarket.us/event/usseto-fl-2026-11-03?marketSlug=vtc-usseto-fl-2026-11-03-gt8pt5m",
+     "payout": 5.0,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXUSAIRANAGREEMENT-27": {
-   "title": "US agrees to a new Iran nuclear deal this year",
+  "KXAUCTIONRECORD-27-CLA-110747000": {
+   "title": "A Monet sells past $110 million this season",
    "platform": "kalshi",
-   "payout": 12.35,
+   "payout": 5.56,
+   "url": "https://kalshi.com/markets/KXAUCTIONRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Entertainment",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXAUCTIONRECORD-27-CLA-110747000",
+     "title": "A Monet sells past $110 million this season",
+     "url": "https://kalshi.com/markets/KXAUCTIONRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 5.56,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "STARSHIPMARS-29DEC31": {
+   "title": "Starship flies humans to Mars before 2030",
+   "platform": "kalshi",
+   "payout": 10.0,
+   "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Companies",
+   "alts": {
+    "kalshi": {
+     "ticker": "STARSHIPMARS-29DEC31",
+     "title": "Starship flies humans to Mars before 2030",
+     "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 10.0,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXUSAIRANAGREEMENT-27-27FEB": {
+   "title": "US signs a new Iran nuclear deal",
+   "platform": "kalshi",
+   "payout": 11.11,
    "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Politics",
    "alts": {
     "kalshi": {
-     "ticker": "KXUSAIRANAGREEMENT-27",
-     "title": "US agrees to a new Iran nuclear deal this year",
+     "ticker": "KXUSAIRANAGREEMENT-27-27FEB",
+     "title": "US signs a new Iran nuclear deal",
      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 12.35,
+     "payout": 11.11,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXPOPESWIFT-27": {
-   "title": "Taylor Swift meets Pope Leo XIV this year",
+  "KXHURPATHHAWAII-26DEC": {
+   "title": "A hurricane makes landfall in Hawaii this year",
    "platform": "kalshi",
    "payout": 16.67,
-   "url": "https://kalshi.com/markets/KXPOPESWIFT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Politics",
+   "url": "https://kalshi.com/markets/KXHURPATHHAWAII?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Climate and Weather",
    "alts": {
     "kalshi": {
-     "ticker": "KXPOPESWIFT-27",
-     "title": "Taylor Swift meets Pope Leo XIV this year",
-     "url": "https://kalshi.com/markets/KXPOPESWIFT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "ticker": "KXHURPATHHAWAII-26DEC",
+     "title": "A hurricane makes landfall in Hawaii this year",
+     "url": "https://kalshi.com/markets/KXHURPATHHAWAII?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
      "payout": 16.67,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-1122715": {
-   "title": "Mississippi is the closer Senate race",
+  "pmus-1048617": {
+   "title": "Natalie Portman lands a Best Actress nomination",
    "platform": "polymarket_us",
    "payout": 100.0,
-   "url": "https://polymarket.us/event/usseclose-ms-mn-2026-11-03?marketSlug=cmovcuss-usseclose-ms-mn-2026-11-03-mn",
-   "category": "World",
+   "url": "https://polymarket.us/event/oscars-nom-bstactre-2027-01-21?marketSlug=tac-oscars-nom-bstactre-2027-01-21-natpor",
+   "category": "Science and Technology",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1122715",
-     "title": "Mississippi is the closer Senate race",
-     "url": "https://polymarket.us/event/usseclose-ms-mn-2026-11-03?marketSlug=cmovcuss-usseclose-ms-mn-2026-11-03-mn",
+     "ticker": "pmus-1048617",
+     "title": "Natalie Portman lands a Best Actress nomination",
+     "url": "https://polymarket.us/event/oscars-nom-bstactre-2027-01-21?marketSlug=tac-oscars-nom-bstactre-2027-01-21-natpor",
      "payout": 100.0,
      "same": true,
      "sim": 1.0
-    },
-    "kalshi": {
-     "ticker": "KXCLOSERMNMSSEN-26NOV10-MNSEN",
-     "title": "Closer Senate Race: Minnesota or Mississippi?",
-     "url": "https://kalshi.com/markets/KXCLOSERMNMSSEN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 50.0,
-     "same": false,
-     "sim": 0.57
     }
    }
   }

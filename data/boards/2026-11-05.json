@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-11-05T02:04:40.016154+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket_us": 5,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "pmus-1464728",
+      "title": "Bruno Mars wins Best R&B Song",
+      "subtitle": "",
+      "payout": 2.04,
+      "tier": "green",
+      "quip": "$2.04 is somehow the cheapest thing in the entire city of Las Vegas",
+      "yes_price": "0.4900",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-02-22T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/grammys-brbs-2027-02-07?marketSlug=tac-grammys-brbs-2027-02-07-danme",
+      "platform": "polymarket_us",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "my gym playlist is now a Grammy-decorated body of work",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Bruno walks up, thanks the Hooligans, glides offstage, nobody in the room blinks",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "silk pajamas guy wins again",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "the man hasn't missed since 2010 and i'm tired of pretending that's normal",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "$2.04 is somehow the cheapest thing in the entire city of Las Vegas",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "this is a one-seed getting a 16-seed in the first round, with better shoes",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "dance with me, like Patrick Swayze is about to come through the floor",
+          "mode": 8,
+          "score": 5
+        },
+        {
+          "quip": "\"i'd like to thank the pompadour. none of this happens without her.\"",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1873004",
+      "title": "Cat in the Hat clears 50% on Rotten Tomatoes",
+      "subtitle": "",
+      "payout": 2.04,
+      "tier": "green",
+      "quip": "50 percent is also what i got in Spanish II and they passed me",
+      "yes_price": "0.4900",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2026-11-24T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/t-cathat-2026-11-09?marketSlug=rotc-t-cathat-2026-11-09-gte50",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "i have not recovered from the 2003 one and i was eleven years old",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Mike Myers watching this from a bunker with both fists clenched",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "low bar, cleared sideways",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "50 percent is also what i got in Spanish II and they passed me",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Thing One and Thing Two getting a full redemption arc is not what Seuss meant",
+          "mode": 8,
+          "score": 6.5
+        },
+        {
+          "quip": "honestly pulling for the hat. that hat has been through some things",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "like a MAC team covering on a Tuesday. shocking but legal",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"we fixed him. the cat is clean now. the cat tested negative.\"",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1323200",
+      "title": "US birth rate climbs above 53 this year",
+      "subtitle": "",
+      "payout": 2.86,
+      "tier": "green",
+      "quip": "JD Vance personally going door to door with a bassinet and a clipboard",
+      "yes_price": "0.3500",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2027-04-15T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/usbirth-gfr-2026?marketSlug=gfrc-usbirth-gfr-2026-gte53pt0",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "i'm doing my part by contributing nothing whatsoever, you're welcome",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "JD Vance personally going door to door with a bassinet and a clipboard",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "strollers cost a mortgage now",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "53 babies per 1000 women and roughly 14,000 Labradoodles",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Children of Men except the twist is daycare pricing in Austin",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "i'm pro new people. more of them. love to see the little guys",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "Florida doing the heavy lifting on this one as usual",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"have you considered a fourth?\" asks a man with a podcast studio in his garage",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXUECL1HTOTAL-26NOV05FCMAJA-3",
+      "title": "Three or more goals in the first half",
+      "subtitle": "FCM vs AJA (Nov 5)",
+      "yes_sub_title": "Over 2.5 1H goals scored",
+      "no_sub_title": "Over 2.5 1H goals scored",
+      "payout": 5.0,
+      "tier": "yellow",
+      "quip": "this is the Monstars quarter and the back line is the Tune Squad",
+      "yes_price": "0.2000",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-07T17:45:00Z",
+      "url": "https://kalshi.com/markets/KXUECL1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 74.0,
+      "_specificity": 0,
+      "quip_alts": [
+        {
+          "quip": "both keepers conceding by the twelfth minute and refusing eye contact at the whistle",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "i need all three before my beer gets warm, that's the only ask",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "defenders on their lunch break",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "three goals in 45 minutes turns one dollar into five. beautiful arithmetic",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "basically asking a hockey team to come out and play soccer for us",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "first halves are supposed to be boring and i want this one ruined",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "this is the Monstars quarter and the back line is the Tune Squad",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "\"early goal. then another. and now, ladies and gentlemen, complete madness.\"",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-470212",
+      "title": "Florida Senate turnout tops 8.5 million",
+      "subtitle": "",
+      "payout": 5.0,
+      "tier": "yellow",
+      "quip": "the Villages mobilized early",
+      "yes_price": "0.2000",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-01-15T00:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/usseto-fl-2026-11-03?marketSlug=vtc-usseto-fl-2026-11-03-gt8pt5m",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "8.5 million Floridians leaving the house on purpose, in the heat, voluntarily",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "i'll believe Florida does anything on schedule when i personally see it",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "lines wrapping around every church gym in Broward by 7am",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "the Villages mobilized early",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "8.5 million voters, 11 million alligators, nobody wants to run those numbers",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "democracy hits different when it's 94 degrees and humid",
+          "mode": 3,
+          "score": 4.5
+        },
+        {
+          "quip": "Florida Man finally gets a civic arc and i'm emotional about it",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "turnout like a Gators home game, with marginally worse parking",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXAUCTIONRECORD-27-CLA-110747000",
+      "title": "A Monet sells past $110 million this season",
+      "subtitle": "Monet",
+      "yes_sub_title": "Above $110,747,000",
+      "no_sub_title": "Above $110,747,000",
+      "payout": 5.56,
+      "tier": "yellow",
+      "quip": "$110 million for a pond and my rent went up $200 this year",
+      "yes_price": "0.1800",
+      "volume": 13796.18,
+      "category": "Entertainment",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXAUCTIONRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 94.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "some guy in Geneva raises a paddle and ruins everybody's afternoon",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "i could do the water lilies. i simply choose not to",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "haystacks remain undefeated",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "$110 million for a pond and my rent went up $200 this year",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Thomas Crown is already in the vents as we speak",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "the blurry pond guy has been eating for 150 years straight. respect",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "Monet entering his Shohei Ohtani deferred-money contract era",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "\"do i hear one hundred eleven? yes. yes i absolutely do.\"",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "STARSHIPMARS-29DEC31",
+      "title": "Starship flies humans to Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Not Before 2030",
+      "payout": 10.0,
+      "tier": "orange",
+      "quip": "like guaranteeing a Super Bowl at your rookie introductory press conference",
+      "yes_price": "0.1000",
+      "volume": 55340.97,
+      "category": "Companies",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i can't get a connecting flight to Denver without three hours on a tarmac",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "first crew lands, posts a selfie, gets ratioed from 140 million miles out",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "a Cybertruck with a windshield",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "four years, nine months, and one extremely unresolved bathroom situation",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "McConaughey already filmed the documentary and he's not even going",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "people on Mars this decade would be completely unhinged and i want it badly",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "like guaranteeing a Super Bowl at your rookie introductory press conference",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "\"it's gonna be awesome. 2027. honestly maybe sooner. probably 2026.\"",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-27FEB",
+      "title": "US signs a new Iran nuclear deal",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Feb 1, 2027",
+      "no_sub_title": "Before Feb 1, 2027",
+      "payout": 11.11,
+      "tier": "orange",
+      "quip": "Lucy with the football, except the football is enriched to 60 percent",
+      "yes_price": "0.0900",
+      "volume": 41576.34,
+      "category": "Politics",
+      "close_time": "2027-02-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i have stopped learning the names of the negotiators, it's self-care",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "commemorative signing pens ordered in bulk, engraved, shipped, quietly returned",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "the per diem industry thrives",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "eleven whole dollars to watch two countries almost shake hands",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Lucy with the football, except the football is enriched to 60 percent",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "i would genuinely love one nice thing to happen this calendar year",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "Oman quietly becoming the most important country on earth again",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "\"we have a deal. a beautiful deal. maybe the greatest deal ever made.\"",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURPATHHAWAII-26DEC",
+      "title": "A hurricane makes landfall in Hawaii this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before 2027",
+      "no_sub_title": "Before 2027",
+      "payout": 16.67,
+      "tier": "red",
+      "quip": "Florida eats six of these a year and never gets a lei",
+      "yes_price": "0.0600",
+      "volume": 178300.32,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURPATHHAWAII?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "Hawaii has had it too good for too long, frankly",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "i'd feel worse about this if my honeymoon quote hadn't come back at nine grand",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "paradise receives a notification",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "every surfer on the North Shore paddling TOWARD it like absolute lunatics",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "last one was Iniki in 1992, which is also my debit card PIN",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the Pacific finally sending something over besides cruise ships and jet lag",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "the Moana sequel nobody asked for and everyone will watch",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "Florida eats six of these a year and never gets a lei",
+          "mode": 6,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1048617",
+      "title": "Natalie Portman lands a Best Actress nomination",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "Natalie Portman in anything. i don't need the plot. i'm already seated",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2027-02-05T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-nom-bstactre-2027-01-21?marketSlug=tac-oscars-nom-bstactre-2027-01-21-natpor",
+      "platform": "polymarket_us",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "i still think about the swan movie more often than i'd like to admit",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "she shows up, says almost nothing, wins anyway, the room exhales",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "she already has two",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "a hundred bucks riding on a Harvard degree and one Star Wars apology",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Padm\u00e9 finally getting her flowers and the prequels get a little revenge",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "Natalie Portman in anything. i don't need the plot. i'm already seated",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "like a veteran center making the Pro Bowl on name recognition alone",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"she's been working this whole time. you just weren't watching.\"",
+          "mode": 4,
+          "score": 6.5
+        }
+      ]
+    }
+  ]
+}
