@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-05T22:46:53.694545+00:00",
+          "tweet_id": "2118475165482791152",
+          "reply_tweet_id": "2118475167034745280"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "18346132",
+        "page": "https://www.pexels.com/photo/river-and-town-behind-18346132/",
+        "photographer": "Traveler stories photos  \u65c5\u4eba\u6545\u4e8b\u76f8\u7247\u96c6",
+        "license": "Pexels License",
+        "phrases": [
+          "empty courthouse steps dusk",
+          "cotton field road evening"
+        ],
+        "tokens": {
+          "input_tokens": 4088,
+          "output_tokens": 31
         }
       }
     }
