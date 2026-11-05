@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-05T20:48:56.238539+00:00",
+          "tweet_id": "2118445480489160935",
+          "reply_tweet_id": "2118445482007552076"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "18665841",
+        "page": "https://www.pexels.com/photo/dark-railway-station-18665841/",
+        "photographer": "Yi\u011fit  KARAAL\u0130O\u011eLU",
+        "license": "Pexels License",
+        "phrases": [
+          "empty stadium tunnel night",
+          "diner counter dusk"
+        ],
+        "tokens": {
+          "input_tokens": 4336,
+          "output_tokens": 30
         }
       }
     },
