@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-11-05T02:05:46.612620+00:00",
+  "board_date": "2026-11-05",
+  "link_mode": "reply",
+  "selections": [
+    {
+      "ticker": "pmus-1323200",
+      "rank": 1,
+      "selection_reason": "Quip is a perfect standalone joke about JD Vance's natalist agenda, the market is politically legible and weird, and $2.86 payout feels appropriately skeptical",
+      "title": "US birth rate climbs above 53 this year",
+      "quip": "JD Vance personally going door to door with a bassinet and a clipboard",
+      "payout": 2.86,
+      "platform": "polymarket_us",
+      "tier": "green",
+      "category": "Science and Technology",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1323200/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1323200/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1323200/og.png",
+      "content": {
+        "x_tweet_text": "JD Vance personally going door to door with a bassinet and a clipboard",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-05",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>US birth rate climbs above 53 this year</b>\n\n\u201c<i>JD Vance personally going door to door with a bassinet and a clipboard</i>\u201d\n\n$1 pays $2.86\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1323200/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "KXAUCTIONRECORD-27-CLA-110747000",
+      "rank": 2,
+      "selection_reason": "Relatable class-rage quip lands hard on its own, art market context is specific enough to screenshot, and the $5.56 payout creates satisfying cognitive dissonance",
+      "title": "A Monet sells past $110 million this season",
+      "quip": "$110 million for a pond and my rent went up $200 this year",
+      "payout": 5.56,
+      "platform": null,
+      "tier": "yellow",
+      "category": "Entertainment",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/KXAUCTIONRECORD-27-CLA-110747000/",
+      "image_url": "https://www.dollarbets.lol/share/KXAUCTIONRECORD-27-CLA-110747000/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/KXAUCTIONRECORD-27-CLA-110747000/og.png",
+      "content": {
+        "x_tweet_text": "$110 million for a pond and my rent went up $200 this year",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-05",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>A Monet sells past $110 million this season</b>\n\n\u201c<i>$110 million for a pond and my rent went up $200 this year</i>\u201d\n\n$1 pays $5.56\n\n<a href=\"https://www.dollarbets.lol/share/KXAUCTIONRECORD-27-CLA-110747000/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-1048617",
+      "rank": 3,
+      "selection_reason": "today's filthy little longshot \u2014 the board's own hero pick",
+      "title": "Natalie Portman lands a Best Actress nomination",
+      "quip": "Natalie Portman in anything. i don't need the plot. i'm already seated",
+      "payout": 100.0,
+      "platform": "polymarket_us",
+      "tier": "purple",
+      "category": "Science and Technology",
+      "card_variant": "ticket",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1048617/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1048617/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1048617/og.png",
+      "content": {
+        "x_tweet_text": "Natalie Portman in anything. i don't need the plot. i'm already seated",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-05",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Natalie Portman lands a Best Actress nomination</b>\n\n\u201c<i>Natalie Portman in anything. i don&#x27;t need the plot. i&#x27;m already seated</i>\u201d\n\n$1 pays $100\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1048617/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    }
+  ]
+}
