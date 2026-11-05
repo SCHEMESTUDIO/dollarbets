@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-05T07:11:11.533304+00:00",
+          "tweet_id": "2118239688129421451",
+          "reply_tweet_id": "2118239689974903088"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "openverse",
+        "id": "4fc4e89f-b7a6-4253-9192-9102a3ec0065",
+        "page": "https://www.rawpixel.com/image/3301999/free-photo-image-summer-drive-asphalt-car-images-pictures",
+        "photographer": "unknown",
+        "license": "CC0 1.0",
+        "phrases": [
+          "server room night",
+          "empty highway dusk"
+        ],
+        "tokens": {
+          "input_tokens": 7831,
+          "output_tokens": 33
         }
       }
     },
