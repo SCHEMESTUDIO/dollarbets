@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-06T22:15:19.332156+00:00",
+          "tweet_id": "2118829607898292350",
+          "reply_tweet_id": "2118829609915736502"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "16308803",
+        "page": "https://www.pexels.com/photo/person-sitting-in-darkness-on-corridor-16308803/",
+        "photographer": "Yi\u011fit  KARAAL\u0130O\u011eLU",
+        "license": "Pexels License",
+        "phrases": [
+          "empty cinema seats dark",
+          "red carpet stairs night"
+        ],
+        "tokens": {
+          "input_tokens": 3410,
+          "output_tokens": 30
         }
       }
     }
