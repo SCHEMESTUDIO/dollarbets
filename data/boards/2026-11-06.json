@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-11-06T02:04:43.708041+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 6,
+    "polymarket_us": 4,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "KXMLBSS-26AL1B-BRICE22",
+      "title": "Ben Rice wins the AL first base Silver Slugger",
+      "subtitle": "AL First Baseman 2026",
+      "yes_sub_title": "Ben Rice",
+      "no_sub_title": "Ben Rice",
+      "payout": 1.67,
+      "tier": "green",
+      "quip": "Boston watching another Yankee accept a trophy shaped like a bat",
+      "yes_price": "0.6000",
+      "volume": 868.12,
+      "category": "Sports",
+      "close_time": "2026-12-08T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMLBSS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 59.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "Yankees PR already filming the eleven minute mini doc about his swing",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i took him in the 19th round and told absolutely nobody, obviously",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "a guy named Rice slugging in the Bronx. baseball is undefeated",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "first base is back",
+          "mode": 9,
+          "score": 3
+        },
+        {
+          "quip": "he gets a silver bat, i get $1.67, somehow we both eat",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "like your backup quarterback winning the Heisman by week four",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Boston watching another Yankee accept a trophy shaped like a bat",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"Rice Rice Baby\" and the entire stadium groans in unison",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXEARTHQUAKEJAPAN-30",
+      "title": "Japan gets an 8.0 earthquake before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "ground moves, trains run twelve minutes late, somebody apologizes on television",
+      "yes_price": "0.3400",
+      "volume": 46151.2,
+      "category": "Climate and Weather",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXEARTHQUAKEJAPAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 84.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "ground moves, trains run twelve minutes late, somebody apologizes on television",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i watched one NHK alert video and now i sleep near the door",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Japanese engineering versus plate tectonics is the heavyweight bout of our lifetime",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "the plates are impatient",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "Tokyo towers are legally required to sway like a guy at a wedding",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "tectonics going hurry up offense on a continent with no timeouts",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "California is going to see this and get competitive about it",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "the cold open of every disaster movie, except the scientist is correct",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXSNOWXMASDC-25DEC26-0",
+      "title": "It snows in DC on Christmas",
+      "subtitle": "On Dec 25, 2026",
+      "yes_sub_title": "Above 0 inches",
+      "no_sub_title": "Above 0 inches",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "DC handles two inches the exact way Atlanta handles two inches",
+      "yes_price": "0.3400",
+      "volume": 0.0,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-26T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXSNOWXMASDC?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 64.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "federal government closes for a dusting, as is the holy tradition",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i will drive to Virginia for half an inch and i won't apologize",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "snow on the Mall makes even lobbyists look like small children",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "salt trucks win again",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "above zero inches means one flake on a Prius hood and i'm counting",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "DC handles two inches the exact way Atlanta handles two inches",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Congress is out, so nobody important gets inconvenienced by it",
+          "mode": 7,
+          "score": 6.5
+        },
+        {
+          "quip": "Bing Crosby had a whole plan and this city keeps fumbling it",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1466016",
+      "title": "A$AP Rocky wins Best Rap Album",
+      "subtitle": "",
+      "payout": 3.03,
+      "tier": "yellow",
+      "quip": "Rihanna standing up before they finish reading the nominee",
+      "yes_price": "0.3300",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-02-22T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/grammys-rapalb-2027-02-07?marketSlug=tac-grammys-rapalb-2027-02-07-dont",
+      "platform": "polymarket_us",
+      "score": 38.0,
+      "quip_alts": [
+        {
+          "quip": "Rihanna standing up before they finish reading the nominee",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i waited so long for this album i forgot what it was called",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Harlem's best dressed man makes a record, wins a thing, incredible",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "the fit will be insane",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "four years of delays for a nine second acceptance speech",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "like the guy who only shows up in the playoffs taking MVP",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "Recording Academy finally picks a rapper who dresses better than they do",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "testifies, acquitted, drops album, wins Grammy. what an arc for a man",
+          "mode": 8,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXLIGAMX1HBTTS-26NOV06ALASLA-BTTS",
+      "title": "Atlante and Santos Laguna both score in the first half",
+      "subtitle": "ALA vs SLA (Nov 6)",
+      "yes_sub_title": "1st Half: Both Teams To Score",
+      "no_sub_title": "1st Half: Both Teams To Score",
+      "payout": 3.7,
+      "tier": "yellow",
+      "quip": "like a Big 12 shootout where nobody on either roster owns a safety",
+      "yes_price": "0.2700",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-09T03:00:00Z",
+      "url": "https://kalshi.com/markets/KXLIGAMX1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 79.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "two goals by the 40th and the keepers start waving at each other",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i have never watched a minute of this league and tonight i become a scholar",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Mexican second division defending is a public service and i thank them",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "defense is a choice",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "both keepers listed questionable with vibes",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "like a Big 12 shootout where nobody on either roster owns a safety",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Atlante hasn't been relevant since your dad had a full head of hair",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "first forty five minutes of a Michael Bay movie, but with throw-ins",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1446919",
+      "title": "Behemoth! lands a Best Original Score nomination",
+      "subtitle": "",
+      "payout": 4.55,
+      "tier": "yellow",
+      "quip": "composer finds out mid Target run and drops the oat milk",
+      "yes_price": "0.2200",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-02-05T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-nom-bstscore-2027-01-21?marketSlug=tac-oscars-nom-bstscore-2027-01-21-behemo",
+      "platform": "polymarket_us",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "composer finds out mid Target run and drops the oat milk",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i have not seen Behemoth! and i already own the vinyl",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "any movie with an exclamation point in the title deserves a horn section",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "brass section ate",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "nine minutes of strings and forty one minutes of a man yelling BEHEMOTH",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "the mid-major of awards season sneaking in with an at-large bid",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "the Academy nominating a score not one human being has hummed",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "Hans Zimmer heard the title and said that's my seat",
+          "mode": 8,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-171029",
+      "title": "Kamala Harris announces a 2026 presidential run",
+      "subtitle": "",
+      "payout": 8.33,
+      "tier": "orange",
+      "quip": "like your ex texting in December because the holidays got quiet",
+      "yes_price": "0.1200",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/uspres28-12-31-2026?marketSlug=cranc-uspres28-12-31-2026-kamhar",
+      "platform": "polymarket_us",
+      "score": 55.0,
+      "quip_alts": [
+        {
+          "quip": "the entire podcast circuit clears its January calendar within the hour",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i am not emotionally prepared to do 2024 again and yet",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "\"unburdened by what has been\" into a podium with a brand new logo",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "the coconut tree stirs",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "launch video filmed in three states she already lost by six",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "like your ex texting in December because the holidays got quiet",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "honestly bring everybody back, make it a battle royale, i'm watching all of it",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "the band reuniting when nobody asked the band to reunite",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-27FEB",
+      "title": "The US signs a new Iran nuclear deal this year",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Feb 1, 2027",
+      "no_sub_title": "Before Feb 1, 2027",
+      "payout": 9.09,
+      "tier": "orange",
+      "quip": "$9.09 and a signed JPEG of a centrifuge, enjoy",
+      "yes_price": "0.1100",
+      "volume": 43811.14,
+      "category": "Politics",
+      "close_time": "2027-02-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "handshake photo, two flags, somebody's uncle narrating it over stock music",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "i renew my gym membership less often than this country renews Iran",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "\"they called me. they said sir, the centrifuges. i said spin them down\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "Geneva's busiest week ever",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "$9.09 and a signed JPEG of a centrifuge, enjoy",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "like a coaching staff unveiling a new scheme with the same exact roster",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "the Nobel committee has stopped answering the phone at this point",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "Groundhog Day, except Bill Murray works at the State Department",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA puts a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 30.3,
+      "tier": "red",
+      "quip": "somebody get a quote from the Kubrick estate real quick",
+      "yes_price": "0.0330",
+      "volume": 228615.57,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "they plant the flag and immediately catch a cease and desist",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i'll be two years older and that thing will look exactly the same",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "humans back on the moon would heal me for roughly a weekend",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "Starship needs a minute",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "one lander, one flag, and thirty dollars of duct tape",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "like selling tickets to a stadium with zero concrete poured",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "the moon sat there four billion years. it can wait on us",
+          "mode": 7,
+          "score": 6.5
+        },
+        {
+          "quip": "somebody get a quote from the Kubrick estate real quick",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2099067",
+      "title": "Gas tops $4.12 this week",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "Costco line reaches Nevada",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2026-11-17T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/usgas-week-2026-11-09?marketSlug=aaagaspc-usgas-week-2026-11-09-gt4pt1200",
+      "platform": "polymarket_us",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "Facebook aunts resume posting the pump photo with eleven crying emojis",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i will drive eleven miles to save four cents, as God intended",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "honestly let it rip, make the Tahoe guys suffer alongside me",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "Costco line reaches Nevada",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "$4.12 a gallon and a hundred bucks for anybody who saw it coming",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "a 16 seed winning the whole thing, except it happens at Wawa",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "California reading this number like it's a coupon",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "Mad Max opened with a move this small, just saying nothing",
+          "mode": 8,
+          "score": 7
+        }
+      ]
+    }
+  ]
+}

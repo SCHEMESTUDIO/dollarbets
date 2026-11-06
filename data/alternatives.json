@@ -1,178 +1,178 @@
 {
- "generated_at": "2026-11-05T02:04:40.015525+00:00",
+ "generated_at": "2026-11-06T02:04:43.707330+00:00",
  "markets": {
-  "pmus-1464728": {
-   "title": "Bruno Mars wins Best R&B Song",
-   "platform": "polymarket_us",
-   "payout": 2.04,
-   "url": "https://polymarket.us/event/grammys-brbs-2027-02-07?marketSlug=tac-grammys-brbs-2027-02-07-danme",
-   "category": "Entertainment",
+  "KXMLBSS-26AL1B-BRICE22": {
+   "title": "Ben Rice wins the AL first base Silver Slugger",
+   "platform": "kalshi",
+   "payout": 1.67,
+   "url": "https://kalshi.com/markets/KXMLBSS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Sports",
    "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-1464728",
-     "title": "Bruno Mars wins Best R&B Song",
-     "url": "https://polymarket.us/event/grammys-brbs-2027-02-07?marketSlug=tac-grammys-brbs-2027-02-07-danme",
-     "payout": 2.04,
+    "kalshi": {
+     "ticker": "KXMLBSS-26AL1B-BRICE22",
+     "title": "Ben Rice wins the AL first base Silver Slugger",
+     "url": "https://kalshi.com/markets/KXMLBSS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 1.67,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-1873004": {
-   "title": "Cat in the Hat clears 50% on Rotten Tomatoes",
+  "KXEARTHQUAKEJAPAN-30": {
+   "title": "Japan gets an 8.0 earthquake before 2030",
+   "platform": "kalshi",
+   "payout": 2.94,
+   "url": "https://kalshi.com/markets/KXEARTHQUAKEJAPAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Climate and Weather",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXEARTHQUAKEJAPAN-30",
+     "title": "Japan gets an 8.0 earthquake before 2030",
+     "url": "https://kalshi.com/markets/KXEARTHQUAKEJAPAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 2.94,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXSNOWXMASDC-25DEC26-0": {
+   "title": "It snows in DC on Christmas",
+   "platform": "kalshi",
+   "payout": 2.94,
+   "url": "https://kalshi.com/markets/KXSNOWXMASDC?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Climate and Weather",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXSNOWXMASDC-25DEC26-0",
+     "title": "It snows in DC on Christmas",
+     "url": "https://kalshi.com/markets/KXSNOWXMASDC?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 2.94,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-1466016": {
+   "title": "A$AP Rocky wins Best Rap Album",
    "platform": "polymarket_us",
-   "payout": 2.04,
-   "url": "https://polymarket.us/event/t-cathat-2026-11-09?marketSlug=rotc-t-cathat-2026-11-09-gte50",
-   "category": "Other",
+   "payout": 3.03,
+   "url": "https://polymarket.us/event/grammys-rapalb-2027-02-07?marketSlug=tac-grammys-rapalb-2027-02-07-dont",
+   "category": "Entertainment",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1873004",
-     "title": "Cat in the Hat clears 50% on Rotten Tomatoes",
-     "url": "https://polymarket.us/event/t-cathat-2026-11-09?marketSlug=rotc-t-cathat-2026-11-09-gte50",
-     "payout": 2.04,
+     "ticker": "pmus-1466016",
+     "title": "A$AP Rocky wins Best Rap Album",
+     "url": "https://polymarket.us/event/grammys-rapalb-2027-02-07?marketSlug=tac-grammys-rapalb-2027-02-07-dont",
+     "payout": 3.03,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXLIGAMX1HBTTS-26NOV06ALASLA-BTTS": {
+   "title": "Atlante and Santos Laguna both score in the first half",
+   "platform": "kalshi",
+   "payout": 3.7,
+   "url": "https://kalshi.com/markets/KXLIGAMX1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Sports",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXLIGAMX1HBTTS-26NOV06ALASLA-BTTS",
+     "title": "Atlante and Santos Laguna both score in the first half",
+     "url": "https://kalshi.com/markets/KXLIGAMX1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 3.7,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-1446919": {
+   "title": "Behemoth! lands a Best Original Score nomination",
+   "platform": "polymarket_us",
+   "payout": 4.55,
+   "url": "https://polymarket.us/event/oscars-nom-bstscore-2027-01-21?marketSlug=tac-oscars-nom-bstscore-2027-01-21-behemo",
+   "category": "Entertainment",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-1446919",
+     "title": "Behemoth! lands a Best Original Score nomination",
+     "url": "https://polymarket.us/event/oscars-nom-bstscore-2027-01-21?marketSlug=tac-oscars-nom-bstscore-2027-01-21-behemo",
+     "payout": 4.55,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-171029": {
+   "title": "Kamala Harris announces a 2026 presidential run",
+   "platform": "polymarket_us",
+   "payout": 8.33,
+   "url": "https://polymarket.us/event/uspres28-12-31-2026?marketSlug=cranc-uspres28-12-31-2026-kamhar",
+   "category": "World",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-171029",
+     "title": "Kamala Harris announces a 2026 presidential run",
+     "url": "https://polymarket.us/event/uspres28-12-31-2026?marketSlug=cranc-uspres28-12-31-2026-kamhar",
+     "payout": 8.33,
      "same": true,
      "sim": 1.0
     },
     "kalshi": {
-     "ticker": "KXRT-CAT-90",
-     "title": "The Cat in the Hat \u00b7 Rotten Tomatoes score",
-     "url": "https://kalshi.com/markets/KXRT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 100.0,
+     "ticker": "KXKAMALARUN-28-27JAN01",
+     "title": "Will Kamala Harris announce a presidential run?",
+     "url": "https://kalshi.com/markets/KXKAMALARUN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 11.11,
      "same": false,
-     "sim": 0.57
-    }
-   }
-  },
-  "pmus-1323200": {
-   "title": "US birth rate climbs above 53 this year",
-   "platform": "polymarket_us",
-   "payout": 2.86,
-   "url": "https://polymarket.us/event/usbirth-gfr-2026?marketSlug=gfrc-usbirth-gfr-2026-gte53pt0",
-   "category": "Science and Technology",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-1323200",
-     "title": "US birth rate climbs above 53 this year",
-     "url": "https://polymarket.us/event/usbirth-gfr-2026?marketSlug=gfrc-usbirth-gfr-2026-gte53pt0",
-     "payout": 2.86,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "KXUECL1HTOTAL-26NOV05FCMAJA-3": {
-   "title": "Three or more goals in the first half",
-   "platform": "kalshi",
-   "payout": 5.0,
-   "url": "https://kalshi.com/markets/KXUECL1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Sports",
-   "alts": {
-    "kalshi": {
-     "ticker": "KXUECL1HTOTAL-26NOV05FCMAJA-3",
-     "title": "Three or more goals in the first half",
-     "url": "https://kalshi.com/markets/KXUECL1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 5.0,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-470212": {
-   "title": "Florida Senate turnout tops 8.5 million",
-   "platform": "polymarket_us",
-   "payout": 5.0,
-   "url": "https://polymarket.us/event/usseto-fl-2026-11-03?marketSlug=vtc-usseto-fl-2026-11-03-gt8pt5m",
-   "category": "World",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-470212",
-     "title": "Florida Senate turnout tops 8.5 million",
-     "url": "https://polymarket.us/event/usseto-fl-2026-11-03?marketSlug=vtc-usseto-fl-2026-11-03-gt8pt5m",
-     "payout": 5.0,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "KXAUCTIONRECORD-27-CLA-110747000": {
-   "title": "A Monet sells past $110 million this season",
-   "platform": "kalshi",
-   "payout": 5.56,
-   "url": "https://kalshi.com/markets/KXAUCTIONRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Entertainment",
-   "alts": {
-    "kalshi": {
-     "ticker": "KXAUCTIONRECORD-27-CLA-110747000",
-     "title": "A Monet sells past $110 million this season",
-     "url": "https://kalshi.com/markets/KXAUCTIONRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 5.56,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "STARSHIPMARS-29DEC31": {
-   "title": "Starship flies humans to Mars before 2030",
-   "platform": "kalshi",
-   "payout": 10.0,
-   "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Companies",
-   "alts": {
-    "kalshi": {
-     "ticker": "STARSHIPMARS-29DEC31",
-     "title": "Starship flies humans to Mars before 2030",
-     "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 10.0,
-     "same": true,
-     "sim": 1.0
+     "sim": 0.67
     }
    }
   },
   "KXUSAIRANAGREEMENT-27-27FEB": {
-   "title": "US signs a new Iran nuclear deal",
+   "title": "The US signs a new Iran nuclear deal this year",
    "platform": "kalshi",
-   "payout": 11.11,
+   "payout": 9.09,
    "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Politics",
    "alts": {
     "kalshi": {
      "ticker": "KXUSAIRANAGREEMENT-27-27FEB",
-     "title": "US signs a new Iran nuclear deal",
+     "title": "The US signs a new Iran nuclear deal this year",
      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 11.11,
+     "payout": 9.09,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXHURPATHHAWAII-26DEC": {
-   "title": "A hurricane makes landfall in Hawaii this year",
+  "MOON-27DEC31": {
+   "title": "NASA puts a person on the Moon before 2028",
    "platform": "kalshi",
-   "payout": 16.67,
-   "url": "https://kalshi.com/markets/KXHURPATHHAWAII?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Climate and Weather",
-   "alts": {
-    "kalshi": {
-     "ticker": "KXHURPATHHAWAII-26DEC",
-     "title": "A hurricane makes landfall in Hawaii this year",
-     "url": "https://kalshi.com/markets/KXHURPATHHAWAII?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 16.67,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-1048617": {
-   "title": "Natalie Portman lands a Best Actress nomination",
-   "platform": "polymarket_us",
-   "payout": 100.0,
-   "url": "https://polymarket.us/event/oscars-nom-bstactre-2027-01-21?marketSlug=tac-oscars-nom-bstactre-2027-01-21-natpor",
+   "payout": 30.3,
+   "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Science and Technology",
    "alts": {
+    "kalshi": {
+     "ticker": "MOON-27DEC31",
+     "title": "NASA puts a person on the Moon before 2028",
+     "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 30.3,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-2099067": {
+   "title": "Gas tops $4.12 this week",
+   "platform": "polymarket_us",
+   "payout": 100.0,
+   "url": "https://polymarket.us/event/usgas-week-2026-11-09?marketSlug=aaagaspc-usgas-week-2026-11-09-gt4pt1200",
+   "category": "Other",
+   "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1048617",
-     "title": "Natalie Portman lands a Best Actress nomination",
-     "url": "https://polymarket.us/event/oscars-nom-bstactre-2027-01-21?marketSlug=tac-oscars-nom-bstactre-2027-01-21-natpor",
+     "ticker": "pmus-2099067",
+     "title": "Gas tops $4.12 this week",
+     "url": "https://polymarket.us/event/usgas-week-2026-11-09?marketSlug=aaagaspc-usgas-week-2026-11-09-gt4pt1200",
      "payout": 100.0,
      "same": true,
      "sim": 1.0
