@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-06T20:05:17.409126+00:00",
+          "tweet_id": "2118796883770450256",
+          "reply_tweet_id": "2118796885922123898"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "39412339",
+        "page": "https://www.pexels.com/photo/elegant-white-water-lily-among-lily-pads-39412339/",
+        "photographer": "Phil Evenden",
+        "license": "Pexels License",
+        "phrases": [
+          "empty auction room chairs",
+          "lily pond dusk water"
+        ],
+        "tokens": {
+          "input_tokens": 4093,
+          "output_tokens": 29
         }
       }
     },
