@@ -1,94 +1,4 @@
 {
-  "SB-D8FD306A": {
-    "title": "Canadiens handle Jets by two tonight",
-    "quip": "Bell Centre still believes in Cole Caufield",
-    "cached_at": "2026-11-02T17:47:15.678712+00:00"
-  },
-  "SB-3C8F745A": {
-    "title": "Sharks bury Flames by two or more",
-    "quip": "Macklin Celebrini turning San Jose watchable again",
-    "cached_at": "2026-11-02T17:47:15.678712+00:00"
-  },
-  "SB-1CF7F5E3": {
-    "title": "Everton stun Newcastle at St James' Park",
-    "quip": "Moyes era nostalgia with better away kits",
-    "cached_at": "2026-11-02T17:47:15.678712+00:00"
-  },
-  "SB-1B3FD86E": {
-    "title": "Suarez finishes Jandiroba before the third",
-    "quip": "nobody out-wrestles Tatiana, not even a judoka",
-    "cached_at": "2026-11-02T17:47:15.678712+00:00"
-  },
-  "SB-CF0ED834": {
-    "title": "Kings upset Mavericks in Dallas tonight",
-    "quip": "DeRozan mid-range clinic in a half-empty AAC",
-    "cached_at": "2026-11-02T17:47:15.678712+00:00"
-  },
-  "SB-555ECEFE": {
-    "title": "Bruins blow out Golden Knights by five",
-    "quip": "Swayman pitching a shutout while Pastrnak hunts a hat trick",
-    "cached_at": "2026-11-02T17:47:15.678712+00:00"
-  },
-  "SB-D9CA597B": {
-    "title": "Central Connecticut stuns Temple in Philly",
-    "quip": "Blue Devils crashing the Liacouras Center like Rocky up the steps",
-    "cached_at": "2026-11-02T17:47:22.537711+00:00"
-  },
-  "SB-679E71F0": {
-    "title": "Kashiwa and Kawasaki trade four-plus goals tonight",
-    "quip": "J-League defending is a suggestion, not a system",
-    "cached_at": "2026-11-02T17:47:35.545417+00:00"
-  },
-  "SB-BF5BCC81": {
-    "title": "Adelaide and Melbourne Victory grind out a low-scoring night",
-    "quip": "two goals max, then everyone walks to the tram",
-    "cached_at": "2026-11-02T17:47:35.545417+00:00"
-  },
-  "SB-DE4D23A2": {
-    "title": "Shimizu and Tokyo Verdy clear three goals tonight",
-    "quip": "S-Pulse backline leaks like an old Shizuoka roof",
-    "cached_at": "2026-11-02T17:47:35.545417+00:00"
-  },
-  "SB-A9AB1BCC": {
-    "title": "Chapecoense upset Mirassol at home",
-    "quip": "the Cond\u00e1 faithful still sing louder than anyone",
-    "cached_at": "2026-11-02T17:47:35.545417+00:00"
-  },
-  "SB-E0199606": {
-    "title": "Internacional and Coritiba settle for a draw",
-    "quip": "Beira-Rio nil-nil, the purest Brazilian art form",
-    "cached_at": "2026-11-02T17:47:35.545417+00:00"
-  },
-  "SB-7F738286": {
-    "title": "Hawks take down the Pacers in Indiana",
-    "quip": "Trae Young still owns that building rent-free",
-    "cached_at": "2026-11-02T17:47:46.233356+00:00"
-  },
-  "SB-CE212773": {
-    "title": "Rockets handle the Celtics in Houston",
-    "quip": "Sengun's elbow passes against a Boston center rotation",
-    "cached_at": "2026-11-02T17:47:46.233356+00:00"
-  },
-  "SB-A8CFCA13": {
-    "title": "McNeese sends UAB home from Lake Charles",
-    "quip": "Amir Khan's walk-in entrance is still undefeated",
-    "cached_at": "2026-11-02T17:47:46.233356+00:00"
-  },
-  "SB-17793B78": {
-    "title": "Binghamton keeps it respectable at Northwestern",
-    "quip": "America East teams covering in Evanston, a quiet tradition",
-    "cached_at": "2026-11-02T17:47:46.233356+00:00"
-  },
-  "SB-481D2ADF": {
-    "title": "San Francisco runs Radford out by double digits",
-    "quip": "Chris Gerlufsen's Dons don't do close at home",
-    "cached_at": "2026-11-02T17:47:46.233356+00:00"
-  },
-  "SB-BB9C2E3E": {
-    "title": "Jets and Canadiens go down to the wire",
-    "quip": "Hellebuyck makes everything a one-goal movie",
-    "cached_at": "2026-11-02T17:47:46.233356+00:00"
-  },
   "SB-C12D650B": {
     "title": "United and Roma trade four-plus goals at Old Trafford",
     "quip": "Old Trafford defending remains a public safety concern",
@@ -848,5 +758,90 @@
     "title": "Everton handle Coventry City",
     "quip": "Championship cup runs die at Hill Dickinson",
     "cached_at": "2026-11-06T15:39:14.096708+00:00"
+  },
+  "SB-58476859": {
+    "title": "Southern hangs tough with TCU in Fort Worth",
+    "quip": "SWAC band plays through the whole fourth quarter",
+    "cached_at": "2026-11-06T21:15:27.485158+00:00"
+  },
+  "SB-1867BC22": {
+    "title": "Olli Maatta puts up a point against the Wild",
+    "quip": "the quiet defenseman sneaks onto the scoresheet",
+    "cached_at": "2026-11-06T21:15:27.485158+00:00"
+  },
+  "SB-BA108FD7": {
+    "title": "Capitals beat Panthers by two or more",
+    "quip": "Ovechkin still dents the back-to-back champs",
+    "cached_at": "2026-11-06T21:15:27.485158+00:00"
+  },
+  "SB-D0A5FEE9": {
+    "title": "Wizards upset the Hawks in Atlanta",
+    "quip": "even State Farm Arena can't cover this liability",
+    "cached_at": "2026-11-06T21:15:27.485158+00:00"
+  },
+  "SB-1EEE67D1": {
+    "title": "Blue Jackets blow out Sabres by four",
+    "quip": "Buffalo's goalie leaves a note and a forwarding address",
+    "cached_at": "2026-11-06T21:15:27.485158+00:00"
+  },
+  "SB-679E71F0": {
+    "title": "Kashiwa and Kawasaki trade four-plus goals tonight",
+    "quip": "J-League defending is a suggestion, not a system",
+    "cached_at": "2026-11-06T21:15:44.095468+00:00"
+  },
+  "SB-41596480": {
+    "title": "Goztepe and Basaksehir combine for four goals tonight",
+    "quip": "Izmir sunshine, Istanbul chaos, nobody marking anybody",
+    "cached_at": "2026-11-06T21:15:44.095468+00:00"
+  },
+  "SB-DE4D23A2": {
+    "title": "Shimizu and Tokyo Verdy clear three goals tonight",
+    "quip": "S-Pulse backline keeps leaving the gate open",
+    "cached_at": "2026-11-06T21:15:44.095468+00:00"
+  },
+  "SB-93CBCED1": {
+    "title": "Vitoria upset Fluminense at the Barradao",
+    "quip": "Barradao in full voice eats Flu's midfield alive",
+    "cached_at": "2026-11-06T21:15:44.095468+00:00"
+  },
+  "SB-230771DF": {
+    "title": "Blue Bombers steal one in Montreal",
+    "quip": "Zach Collaros loves ruining a Molson Stadium evening",
+    "cached_at": "2026-11-06T21:15:44.095468+00:00"
+  },
+  "SB-8B2D69E3": {
+    "title": "Islanders keep it close against the Devils",
+    "quip": "Jack Hughes scores, Sorokin keeps it respectable",
+    "cached_at": "2026-11-06T21:15:54.421452+00:00"
+  },
+  "SB-FBD46466": {
+    "title": "Raptors go into Milwaukee and win",
+    "quip": "Giannis alone against a whole roster again",
+    "cached_at": "2026-11-06T21:15:54.421452+00:00"
+  },
+  "SB-C189C074": {
+    "title": "Jos\u00e9 Henrique outpoints Jonny Parsons comfortably",
+    "quip": "three rounds of Parsons backing toward the fence",
+    "cached_at": "2026-11-06T21:15:54.421452+00:00"
+  },
+  "SB-66F57361": {
+    "title": "Sabres handle the Blue Jackets at home",
+    "quip": "Tage Thompson wingspan does the rest",
+    "cached_at": "2026-11-06T21:15:54.421452+00:00"
+  },
+  "SB-70AEE15E": {
+    "title": "TCU buries Southern by 24+",
+    "quip": "a guarantee game, honoring the guarantee",
+    "cached_at": "2026-11-06T21:15:54.421452+00:00"
+  },
+  "SB-1FDA3D80": {
+    "title": "Lakers take care of the Blazers",
+    "quip": "Luka and LeBron versus a rebuild",
+    "cached_at": "2026-11-06T21:15:54.421452+00:00"
+  },
+  "SB-C5FC53B5": {
+    "title": "Hurricanes beat the Blackhawks by two",
+    "quip": "Carolina's forecheck meets Chicago's learning curve",
+    "cached_at": "2026-11-06T21:15:54.421452+00:00"
   }
 }
