@@ -1,145 +1,145 @@
 {
- "generated_at": "2026-11-06T02:04:43.707330+00:00",
+ "generated_at": "2026-11-07T01:41:44.580502+00:00",
  "markets": {
-  "KXMLBSS-26AL1B-BRICE22": {
-   "title": "Ben Rice wins the AL first base Silver Slugger",
+  "KXHURCAT-26VICKY-T5": {
+   "title": "Vicky strengthens into a Category 5 hurricane",
    "platform": "kalshi",
-   "payout": 1.67,
-   "url": "https://kalshi.com/markets/KXMLBSS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Sports",
-   "alts": {
-    "kalshi": {
-     "ticker": "KXMLBSS-26AL1B-BRICE22",
-     "title": "Ben Rice wins the AL first base Silver Slugger",
-     "url": "https://kalshi.com/markets/KXMLBSS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 1.67,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "KXEARTHQUAKEJAPAN-30": {
-   "title": "Japan gets an 8.0 earthquake before 2030",
-   "platform": "kalshi",
-   "payout": 2.94,
-   "url": "https://kalshi.com/markets/KXEARTHQUAKEJAPAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 2.22,
+   "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Climate and Weather",
    "alts": {
     "kalshi": {
-     "ticker": "KXEARTHQUAKEJAPAN-30",
-     "title": "Japan gets an 8.0 earthquake before 2030",
-     "url": "https://kalshi.com/markets/KXEARTHQUAKEJAPAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 2.94,
+     "ticker": "KXHURCAT-26VICKY-T5",
+     "title": "Vicky strengthens into a Category 5 hurricane",
+     "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 2.22,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXSNOWXMASDC-25DEC26-0": {
-   "title": "It snows in DC on Christmas",
-   "platform": "kalshi",
-   "payout": 2.94,
-   "url": "https://kalshi.com/markets/KXSNOWXMASDC?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Climate and Weather",
-   "alts": {
-    "kalshi": {
-     "ticker": "KXSNOWXMASDC-25DEC26-0",
-     "title": "It snows in DC on Christmas",
-     "url": "https://kalshi.com/markets/KXSNOWXMASDC?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 2.94,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-1466016": {
-   "title": "A$AP Rocky wins Best Rap Album",
+  "pmus-1323220": {
+   "title": "Union membership rises in 2027",
    "platform": "polymarket_us",
-   "payout": 3.03,
-   "url": "https://polymarket.us/event/grammys-rapalb-2027-02-07?marketSlug=tac-grammys-rapalb-2027-02-07-dont",
-   "category": "Entertainment",
+   "payout": 2.7,
+   "url": "https://polymarket.us/event/usunion-rise-2027?marketSlug=unmbc-usunion-rise-2027-yes",
+   "category": "Other",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1466016",
-     "title": "A$AP Rocky wins Best Rap Album",
-     "url": "https://polymarket.us/event/grammys-rapalb-2027-02-07?marketSlug=tac-grammys-rapalb-2027-02-07-dont",
-     "payout": 3.03,
+     "ticker": "pmus-1323220",
+     "title": "Union membership rises in 2027",
+     "url": "https://polymarket.us/event/usunion-rise-2027?marketSlug=unmbc-usunion-rise-2027-yes",
+     "payout": 2.7,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXLIGAMX1HBTTS-26NOV06ALASLA-BTTS": {
-   "title": "Atlante and Santos Laguna both score in the first half",
+  "pmus-2098066": {
+   "title": "The government shuts down before 2027",
+   "platform": "polymarket_us",
+   "payout": 2.94,
+   "url": "https://polymarket.us/event/usfedgvmt-by-2026-12-31?marketSlug=gsc-usfedgvmt-by-2026-12-31-2026-12-31",
+   "category": "World",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-2098066",
+     "title": "The government shuts down before 2027",
+     "url": "https://polymarket.us/event/usfedgvmt-by-2026-12-31?marketSlug=gsc-usfedgvmt-by-2026-12-31-2026-12-31",
+     "payout": 2.94,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-171030": {
+   "title": "Rahm Emanuel announces a presidential run this year",
+   "platform": "polymarket_us",
+   "payout": 3.7,
+   "url": "https://polymarket.us/event/uspres28-12-31-2026?marketSlug=cranc-uspres28-12-31-2026-rahema",
+   "category": "World",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-171030",
+     "title": "Rahm Emanuel announces a presidential run this year",
+     "url": "https://polymarket.us/event/uspres28-12-31-2026?marketSlug=cranc-uspres28-12-31-2026-rahema",
+     "payout": 3.7,
+     "same": true,
+     "sim": 1.0
+    },
+    "kalshi": {
+     "ticker": "KXEMANUELRUN-28-27JAN01",
+     "title": "Will Rahm Emanuel announce a presidential run?",
+     "url": "https://kalshi.com/markets/KXEMANUELRUN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 2.33,
+     "same": false,
+     "sim": 0.67
+    }
+   }
+  },
+  "KXSERIEA1HBTTS-26NOV08MONATA-BTTS": {
+   "title": "Monza and Atalanta both score in the first half",
    "platform": "kalshi",
    "payout": 3.7,
-   "url": "https://kalshi.com/markets/KXLIGAMX1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "url": "https://kalshi.com/markets/KXSERIEA1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Sports",
    "alts": {
     "kalshi": {
-     "ticker": "KXLIGAMX1HBTTS-26NOV06ALASLA-BTTS",
-     "title": "Atlante and Santos Laguna both score in the first half",
-     "url": "https://kalshi.com/markets/KXLIGAMX1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "ticker": "KXSERIEA1HBTTS-26NOV08MONATA-BTTS",
+     "title": "Monza and Atalanta both score in the first half",
+     "url": "https://kalshi.com/markets/KXSERIEA1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
      "payout": 3.7,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-1446919": {
-   "title": "Behemoth! lands a Best Original Score nomination",
+  "KXSERIEA1HBTTS-26NOV08FIOJUV-BTTS": {
+   "title": "Fiorentina and Juventus both score in the first half",
+   "platform": "kalshi",
+   "payout": 4.0,
+   "url": "https://kalshi.com/markets/KXSERIEA1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Sports",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXSERIEA1HBTTS-26NOV08FIOJUV-BTTS",
+     "title": "Fiorentina and Juventus both score in the first half",
+     "url": "https://kalshi.com/markets/KXSERIEA1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 4.0,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-1446253": {
+   "title": "Mike Leigh lands a Best Director nomination",
    "platform": "polymarket_us",
-   "payout": 4.55,
-   "url": "https://polymarket.us/event/oscars-nom-bstscore-2027-01-21?marketSlug=tac-oscars-nom-bstscore-2027-01-21-behemo",
+   "payout": 12.5,
+   "url": "https://polymarket.us/event/oscars-nom-bstdir-2027-01-21?marketSlug=tac-oscars-nom-bstdir-2027-01-21-miklei",
    "category": "Entertainment",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1446919",
-     "title": "Behemoth! lands a Best Original Score nomination",
-     "url": "https://polymarket.us/event/oscars-nom-bstscore-2027-01-21?marketSlug=tac-oscars-nom-bstscore-2027-01-21-behemo",
-     "payout": 4.55,
+     "ticker": "pmus-1446253",
+     "title": "Mike Leigh lands a Best Director nomination",
+     "url": "https://polymarket.us/event/oscars-nom-bstdir-2027-01-21?marketSlug=tac-oscars-nom-bstdir-2027-01-21-miklei",
+     "payout": 12.5,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-171029": {
-   "title": "Kamala Harris announces a 2026 presidential run",
-   "platform": "polymarket_us",
-   "payout": 8.33,
-   "url": "https://polymarket.us/event/uspres28-12-31-2026?marketSlug=cranc-uspres28-12-31-2026-kamhar",
-   "category": "World",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-171029",
-     "title": "Kamala Harris announces a 2026 presidential run",
-     "url": "https://polymarket.us/event/uspres28-12-31-2026?marketSlug=cranc-uspres28-12-31-2026-kamhar",
-     "payout": 8.33,
-     "same": true,
-     "sim": 1.0
-    },
-    "kalshi": {
-     "ticker": "KXKAMALARUN-28-27JAN01",
-     "title": "Will Kamala Harris announce a presidential run?",
-     "url": "https://kalshi.com/markets/KXKAMALARUN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 11.11,
-     "same": false,
-     "sim": 0.67
-    }
-   }
-  },
-  "KXUSAIRANAGREEMENT-27-27FEB": {
-   "title": "The US signs a new Iran nuclear deal this year",
+  "KXUSAIRANAGREEMENT-27": {
+   "title": "US and Iran sign a nuclear deal this year",
    "platform": "kalshi",
-   "payout": 9.09,
+   "payout": 12.82,
    "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Politics",
    "alts": {
     "kalshi": {
-     "ticker": "KXUSAIRANAGREEMENT-27-27FEB",
-     "title": "The US signs a new Iran nuclear deal this year",
+     "ticker": "KXUSAIRANAGREEMENT-27",
+     "title": "US and Iran sign a nuclear deal this year",
      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 9.09,
+     "payout": 12.82,
      "same": true,
      "sim": 1.0
     }
@@ -162,17 +162,17 @@
     }
    }
   },
-  "pmus-2099067": {
-   "title": "Gas tops $4.12 this week",
+  "pmus-1446820": {
+   "title": "The Invite wins Best Film Editing",
    "platform": "polymarket_us",
    "payout": 100.0,
-   "url": "https://polymarket.us/event/usgas-week-2026-11-09?marketSlug=aaagaspc-usgas-week-2026-11-09-gt4pt1200",
-   "category": "Other",
+   "url": "https://polymarket.us/event/oscars-03-14-2027-bestedit?marketSlug=tac-oscars-03-14-2027-bestedit-invite",
+   "category": "Entertainment",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-2099067",
-     "title": "Gas tops $4.12 this week",
-     "url": "https://polymarket.us/event/usgas-week-2026-11-09?marketSlug=aaagaspc-usgas-week-2026-11-09-gt4pt1200",
+     "ticker": "pmus-1446820",
+     "title": "The Invite wins Best Film Editing",
+     "url": "https://polymarket.us/event/oscars-03-14-2027-bestedit?marketSlug=tac-oscars-03-14-2027-bestedit-invite",
      "payout": 100.0,
      "same": true,
      "sim": 1.0

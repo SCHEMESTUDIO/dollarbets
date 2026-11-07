@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-11-07T01:41:44.581126+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket_us": 5,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "KXHURCAT-26VICKY-T5",
+      "title": "Vicky strengthens into a Category 5 hurricane",
+      "subtitle": "Hurricane Vicky",
+      "yes_sub_title": "Category 5 or above",
+      "no_sub_title": "Category 5 or above",
+      "payout": 2.22,
+      "tier": "green",
+      "quip": "$2.22 payout, 222 mph gusts, i'm just pointing it out",
+      "yes_price": "0.4500",
+      "volume": 70.0,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-02T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 66.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the Weather Channel guy already standing in a parking lot getting hit by a cooler",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "my patio furniture has survived four of these and i'm starting to resent it",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "$2.22 payout, 222 mph gusts, i'm just pointing it out",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "Vicky from HR, unhinged",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "a Cat 5 is just the ocean hitting a lat spread",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "\"we've never seen a storm like this. people are calling it the biggest one\"",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "like a 16 seed that quietly recruited three NBA guys",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "the Gulf coast condo market about to get some honest feedback",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1323220",
+      "title": "Union membership rises in 2027",
+      "subtitle": "",
+      "payout": 2.7,
+      "tier": "green",
+      "quip": "dues are $2.70 a month and somehow the dental is incredible",
+      "yes_price": "0.3700",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2028-01-29T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/usunion-rise-2027?marketSlug=unmbc-usunion-rise-2027-yes",
+      "platform": "polymarket_us",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "my uncle has been waiting on this since the Carter administration and he will not shut up",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the baristas unionize, then immediately strike over the oat milk surcharge",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "Norma Rae up on the table with the sign again, 2027 remaster",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "solidarity forever, i guess",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "dues are $2.70 a month and somehow the dental is incredible",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "i genuinely love when the little guy shows up with a lawyer",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "every podcast host now describing himself as labor",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "like the players association but for people who actually lift things",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2098066",
+      "title": "The government shuts down before 2027",
+      "subtitle": "",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "day 34 and the TSA line officially begins in Delaware",
+      "yes_price": "0.3400",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/usfedgvmt-by-2026-12-31?marketSlug=gsc-usfedgvmt-by-2026-12-31-2026-12-31",
+      "platform": "polymarket_us",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i've stopped learning the names of the people who keep doing this to us",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "national parks go feral and the bison take back Jackson Hole",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "congress's annual molt",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "\"we're going to close it. and frankly, closing it is very beautiful\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "Parks and Rec did a whole arc on this and it was funnier",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "day 34 and the TSA line officially begins in Delaware",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "i miss the furlough-era Smithsonian, empty halls, pure vibes",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "like a sitcom that keeps running the same bottle episode every season",
+          "mode": 6,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-171030",
+      "title": "Rahm Emanuel announces a presidential run this year",
+      "subtitle": "",
+      "payout": 3.7,
+      "tier": "yellow",
+      "quip": "he sent you a fish",
+      "yes_price": "0.2700",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/uspres28-12-31-2026?marketSlug=cranc-uspres28-12-31-2026-rahema",
+      "platform": "polymarket_us",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "i will be learning a surprising amount about ballet this spring",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "first campaign ad is him swearing at a whiteboard in a Des Moines Hampton Inn",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "he sent you a fish",
+          "mode": 9,
+          "score": 9
+        },
+        {
+          "quip": "Ari Gold finally running for something real",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "$3.70 and he drops an f-bomb inside the first thirty seconds",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "a profane ballet dancer with nine and a half fingers, this country has earned him",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "Chicago has notes. Chicago has several pages of notes",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "like hiring a hockey enforcer to run your kid's PTA",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXSERIEA1HBTTS-26NOV08MONATA-BTTS",
+      "title": "Monza and Atalanta both score in the first half",
+      "subtitle": "MON vs ATA (Nov 8)",
+      "yes_sub_title": "1st Half: Both Teams To Score",
+      "no_sub_title": "1st Half: Both Teams To Score",
+      "payout": 3.7,
+      "tier": "yellow",
+      "quip": "like a Big 12 shootout broke out in Lombardy",
+      "yes_price": "0.2700",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-10T14:00:00Z",
+      "url": "https://kalshi.com/markets/KXSERIEA1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 79.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "both keepers beaten before my beer is even cold",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "i need my goals before halftime, i have things going on after",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "defending optional until halftime",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "like a Big 12 shootout broke out in Lombardy",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "two goals, forty five minutes, $3.70, the math is gorgeous",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "Atalanta score in bunches and Monza take it extremely personally",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "\"we press, they press, everyone is tired, this is football\"",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "Monza fans learning what a high line costs",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXSERIEA1HBTTS-26NOV08FIOJUV-BTTS",
+      "title": "Fiorentina and Juventus both score in the first half",
+      "subtitle": "FIO vs JUV (Nov 8)",
+      "yes_sub_title": "1st Half: Both Teams To Score",
+      "no_sub_title": "1st Half: Both Teams To Score",
+      "payout": 4.0,
+      "tier": "yellow",
+      "quip": "like asking the Uffizi to install a jumbotron by noon",
+      "yes_price": "0.2500",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-10T19:45:00Z",
+      "url": "https://kalshi.com/markets/KXSERIEA1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 79.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "scoring before halftime goes against everything Juventus believe in",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "i asked Florence for goals and got a guided museum tour",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "0-0 is Juve's love language",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "somebody scores in the 44th and the Franchi completely loses the plot",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "four dollars for two early goals and Italy says absolutely not",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "the Franchi under lights is one of the great rooms on earth",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "this is a Big Ten game being asked to play like a Pac-12 game",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "like asking the Uffizi to install a jumbotron by noon",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1446253",
+      "title": "Mike Leigh lands a Best Director nomination",
+      "subtitle": "",
+      "payout": 12.5,
+      "tier": "orange",
+      "quip": "\"haven't seen it. voting for it. he's due\"",
+      "yes_price": "0.0800",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-02-05T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-nom-bstdir-2027-01-21?marketSlug=tac-oscars-nom-bstdir-2027-01-21-miklei",
+      "platform": "polymarket_us",
+      "score": 53.0,
+      "quip_alts": [
+        {
+          "quip": "i will pretend i have seen every one of these by February",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "an 82 year old Brit making people sob in a kitchen, beautiful stuff",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "Letterboxd goes down, comes back, posts 900 words about a teapot",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "british sadness, fully nominated",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "$12.50 is one ticket to a theater that isn't playing it",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "like a mid-major coach getting a one seed at 82 years old",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"haven't seen it. voting for it. he's due\"",
+          "mode": 4,
+          "score": 9
+        },
+        {
+          "quip": "the Academy remembering England exists roughly once a decade",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27",
+      "title": "US and Iran sign a nuclear deal this year",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 12.82,
+      "tier": "orange",
+      "quip": "like a band announcing a reunion every single spring",
+      "yes_price": "0.0780",
+      "volume": 1964203.58,
+      "category": "Politics",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the signing pen gets its own Truth Social post before the ink dries",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "\"we have a deal. nobody has ever seen a deal of this quality\"",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "deal season, year eleven",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "the twelfth draft of the same four pages",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "i stopped updating my mental map of that region sometime in 2019",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "like a band announcing a reunion every single spring",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "honestly nothing moves me like two foreign ministers doing an awkward handshake",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "i need somebody to text me when it's actually signed because i'm out",
+          "mode": 2,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA puts a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 30.3,
+      "tier": "red",
+      "quip": "the rocket is a PDF",
+      "yes_price": "0.0330",
+      "volume": 228775.19,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "flag goes up and within an hour there's lunar acreage listed on Zillow",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i was promised this when i was nine and i have held a grudge since",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the rocket is a PDF",
+          "mode": 9,
+          "score": 9
+        },
+        {
+          "quip": "pays thirty to one, same odds my Costco rotisserie survives the drive home",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "the Apollo guys did it with a slide rule and three cigarettes",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we're going back to the moon. and the moon, frankly, is going to pay\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "one boot in gray dust on live TV would genuinely wreck me",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "like scheduling a rematch fifty five years after the first game",
+          "mode": 6,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1446820",
+      "title": "The Invite wins Best Film Editing",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "like a walk-on hitting the game winner and the broadcast misspelling his name",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-03-29T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-03-14-2027-bestedit?marketSlug=tac-oscars-03-14-2027-bestedit-invite",
+      "platform": "polymarket_us",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "i have never heard of this and somehow that feels like my failing",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "a hundred bucks riding on a movie i cannot find on any app i pay for",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "never heard of her",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "the editor thanks three people and the orchestra starts playing on word four",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "editing is the one category where the actual craft shows up and bows",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "four other nominees clapping for a film they absolutely did not watch",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "like a walk-on hitting the game winner and the broadcast misspelling his name",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "the Moonlight envelope guy quietly updating his resume again",
+          "mode": 8,
+          "score": 8
+        }
+      ]
+    }
+  ]
+}
