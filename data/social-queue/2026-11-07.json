@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-11-07T01:43:01.784607+00:00",
+  "board_date": "2026-11-07",
+  "link_mode": "reply",
+  "selections": [
+    {
+      "ticker": "pmus-171030",
+      "rank": 1,
+      "selection_reason": "Rahm Emanuel + fish reference is instantly absurd and specific enough to make people stop scrolling; clean standalone quip",
+      "title": "Rahm Emanuel announces a presidential run this year",
+      "quip": "he sent you a fish",
+      "payout": 3.7,
+      "platform": "polymarket_us",
+      "tier": "yellow",
+      "category": "World",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-171030/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-171030/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-171030/og.png",
+      "content": {
+        "x_tweet_text": "he sent you a fish",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-07",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Rahm Emanuel announces a presidential run this year</b>\n\n\u201c<i>he sent you a fish</i>\u201d\n\n$1 pays $3.70\n\n<a href=\"https://www.dollarbets.lol/share/pmus-171030/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "rank": 2,
+      "selection_reason": "Moon landing as a PDF is perfectly dry and absurd; $30.30 payout makes the bet feel absurdly cheap for something so unlikely",
+      "title": "NASA puts a person on the Moon before 2028",
+      "quip": "the rocket is a PDF",
+      "payout": 30.3,
+      "platform": null,
+      "tier": "red",
+      "category": "Science and Technology",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/MOON-27DEC31/",
+      "image_url": "https://www.dollarbets.lol/share/MOON-27DEC31/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/MOON-27DEC31/og.png",
+      "content": {
+        "x_tweet_text": "the rocket is a PDF",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-07",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>NASA puts a person on the Moon before 2028</b>\n\n\u201c<i>the rocket is a PDF</i>\u201d\n\n$1 pays $30.30\n\n<a href=\"https://www.dollarbets.lol/share/MOON-27DEC31/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-1446820",
+      "rank": 3,
+      "selection_reason": "today's filthy little longshot \u2014 the board's own hero pick",
+      "title": "The Invite wins Best Film Editing",
+      "quip": "like a walk-on hitting the game winner and the broadcast misspelling his name",
+      "payout": 100.0,
+      "platform": "polymarket_us",
+      "tier": "purple",
+      "category": "Entertainment",
+      "card_variant": "ticket",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1446820/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1446820/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1446820/og.png",
+      "content": {
+        "x_tweet_text": "like a walk-on hitting the game winner and the broadcast misspelling his name",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-07",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>The Invite wins Best Film Editing</b>\n\n\u201c<i>like a walk-on hitting the game winner and the broadcast misspelling his name</i>\u201d\n\n$1 pays $100\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1446820/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    }
+  ]
+}
