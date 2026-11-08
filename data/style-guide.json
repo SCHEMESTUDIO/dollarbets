@@ -2,25 +2,25 @@
   "principles": [
     {
       "id": "strip-the-setup",
-      "principle": "Remove leading conjunctions, filler phrases, honorifics, and softening particles so the line starts mid-thought",
-      "technique": "Delete 'and', 'how about', 'in other news:' (when redundant), 'Sir', 'naming' etc. from the front of quips",
+      "principle": "Remove leading conjunctions, filler phrases, honorifics, and redundant framing so the line starts mid-thought",
+      "technique": "Delete 'and', 'how about', 'in other news:' (when redundant), 'Sir', 'naming a', leading restated subject names",
       "examples_for": [
         "all categories",
         "all tiers"
       ],
-      "evidence_count": 8
+      "evidence_count": 10
     },
     {
       "id": "specific-cultural-artifact-over-generic-metaphor",
       "principle": "Swap abstract metaphors for a concrete named film/song/meme/product that rhymes tonally with the bet",
-      "technique": "Replace vague phrases ('elon being elon', 'cope', 'posting through it') with a specific pop-culture reference requiring minimal decoding",
+      "technique": "Replace vague phrases with a specific pop-culture reference requiring minimal decoding",
       "examples_for": [
         "Science and Technology",
         "World",
         "Entertainment",
         "Climate and Weather"
       ],
-      "evidence_count": 12
+      "evidence_count": 14
     },
     {
       "id": "trim-for-rhythm",
@@ -31,7 +31,7 @@
         "Sports",
         "all tiers"
       ],
-      "evidence_count": 10
+      "evidence_count": 12
     },
     {
       "id": "commit-to-a-hot-take",
@@ -43,7 +43,7 @@
         "World",
         "yellow/orange tier"
       ],
-      "evidence_count": 6
+      "evidence_count": 8
     },
     {
       "id": "understate-the-obvious",
@@ -54,18 +54,18 @@
         "Sports",
         "green tier"
       ],
-      "evidence_count": 6
+      "evidence_count": 7
     },
     {
       "id": "concrete-prediction-over-meta-commentary",
       "principle": "Commit to an actual outcome or named stake instead of commenting on the betting process itself",
-      "technique": "Replace process-observations ('someone's career depends on this') with lines naming a real consequence or actor",
+      "technique": "Replace process-observations with lines naming a real consequence or actor",
       "examples_for": [
         "Sports",
         "Entertainment",
         "World"
       ],
-      "evidence_count": 4
+      "evidence_count": 5
     },
     {
       "id": "meme-format-for-process-bets",
@@ -76,7 +76,7 @@
         "Other",
         "red/orange tier"
       ],
-      "evidence_count": 5
+      "evidence_count": 6
     },
     {
       "id": "song-lyric-as-structural-rewrite",
@@ -87,7 +87,7 @@
         "Science and Technology",
         "purple/orange tier"
       ],
-      "evidence_count": 7
+      "evidence_count": 9
     },
     {
       "id": "absurdist-parallel-for-implausible-bets",
@@ -98,43 +98,43 @@
         "Other",
         "purple/red tier"
       ],
-      "evidence_count": 6
+      "evidence_count": 7
     },
     {
       "id": "second-person-implication",
-      "principle": "Implicate the reader directly rather than describing the world from a distance",
-      "technique": "Shift to first/second person ('just please on the day I bring an umbrella', 'I'll pay anything for my e-girl')",
+      "principle": "Implicate the reader or a relatable bystander directly rather than describing the world from a distance",
+      "technique": "Shift to first/second person or invoke 'your cousin/dad/uber driver' type figures",
       "examples_for": [
         "Climate and Weather",
         "Science and Technology",
         "green/yellow tier"
       ],
-      "evidence_count": 5
+      "evidence_count": 7
     }
   ],
   "avoid": [
     {
-      "id": "avoid-generic-vague-shrug",
-      "pattern": "Vague shrug phrases like 'fine, sure, whatever' or 'comedy listing' that don't commit to an image",
-      "why": "Editors consistently replace these with something concrete, specific, or genuinely funny"
+      "id": "generic-tech-cliches",
+      "pattern": "Lines like 'number go up', 'money printer go brrrr' used as first-resort instead of specific references",
+      "why": "Editors often replace these with sharper, more specific cultural or absurdist substitutions when a stronger option exists \u2014 though they keep the meme format when it fits a process bet"
     },
     {
-      "id": "avoid-redundant-restating-the-bet",
-      "pattern": "Quips that just restate the bet mechanics ('the analytics guys versus the eye test guys', 'white smoke or cope')",
-      "why": "Editors prefer a punchline that adds new information or a fresh angle, not a paraphrase"
+      "id": "vague-stakes-commentary",
+      "pattern": "Observing that 'someone's career/thesis depends on this' or similar meta process commentary",
+      "why": "Editors prefer naming the actual consequence or actor rather than describing the abstract stakes"
     },
     {
-      "id": "avoid-overexplaining-honorifics",
-      "pattern": "Formal titles or throat-clearing ('Sir Jony', 'naming a more precise way')",
-      "why": "Breaks the casual, deadpan internet voice; editors strip to plain phrasing"
+      "id": "redundant-leadins",
+      "pattern": "Starting with 'and', 'how about', restating the subject's name/title already given in the bet",
+      "why": "Wastes the limited character budget and dulls the punchline's immediacy"
     },
     {
-      "id": "avoid-weak-genericized-meme",
-      "pattern": "Using an internet meme reference too loosely/genericly without connecting to the bet's specifics (e.g. 'number go up technology')",
-      "why": "Editors replace with a more specific, bet-tailored joke rather than a reused template"
+      "id": "double-hedge-phrasing",
+      "pattern": "Lines that hedge twice ('technically possible, spiritually unlikely') rather than picking one lane",
+      "why": "Editors repeatedly replace these with single decisive images or jokes"
     }
   ],
-  "voice_notes": "The editorial voice is deadpan, internet-native, and allergic to throat-clearing \u2014 it favors a tight, concrete punch (a named movie, song lyric, meme, or stat) over vague metaphor or process commentary. It's willing to be flat and dry for obvious bets, but leans hyperbolic/confident for close calls, and it isn't afraid to implicate the reader or go absurdist for far-fetched bets.",
+  "voice_notes": "The Dollar Bets voice is dry, culturally fluent, and allergic to throat-clearing \u2014 it drops the reader straight into the joke. It favors specific, decodable references (a film beat, a lyric, a meme format) over invented generic metaphors, and isn't afraid to pick a side with a confident hot take or an absurd parallel universe. Even on mundane or 'gravy' bets, the humor comes from flat commitment rather than overexplaining.",
   "cluster_review": [
     {
       "editor_quip": "I think it's gonna be a long, long time",
@@ -170,7 +170,7 @@
       "editor_quip": "Toy Story 5 > The Odyssey ",
       "auto_cluster": "general_wit",
       "recommended_cluster": "hot_take",
-      "rationale": "Confident X>Y comparison, fits hot_take better than catch-all"
+      "rationale": "X > Y comparison is a hot-take structure, not generic wit"
     },
     {
       "editor_quip": "short the club",
@@ -251,7 +251,7 @@
       "rationale": "correct"
     },
     {
-      "editor_quip": "in other White House vending machines now accept doge",
+      "editor_quip": "in other memecoin news, White House vending machines now accept doge",
       "auto_cluster": "chaos_energy",
       "recommended_cluster": "chaos_energy",
       "rationale": "correct"
@@ -260,7 +260,7 @@
       "editor_quip": "if geopolitics was Catan, this is like blocking longest road with a port",
       "auto_cluster": "general_wit",
       "recommended_cluster": "general_wit",
-      "rationale": "correct - specific analogy but not sports/film"
+      "rationale": "correct, niche board-game analogy with no recurring cluster"
     },
     {
       "editor_quip": "just please on the day I bring an umbrella ",
@@ -314,7 +314,7 @@
       "editor_quip": "Crazier thinks have happened, truly",
       "auto_cluster": "general_wit",
       "recommended_cluster": "dry_acceptance",
-      "rationale": "shrug-style acceptance phrase matches dry_acceptance better"
+      "rationale": "flat acceptance phrasing fits dry_acceptance better"
     },
     {
       "editor_quip": "Could you pick your state rep out of a lineup?",
@@ -353,12 +353,6 @@
       "rationale": "correct"
     },
     {
-      "editor_quip": "redeem the tears of crypto bros at your nearest bank branch",
-      "auto_cluster": "chaos_energy",
-      "recommended_cluster": "chaos_energy",
-      "rationale": "correct"
-    },
-    {
       "editor_quip": "Stranger things have happened at this club",
       "auto_cluster": "dry_acceptance",
       "recommended_cluster": "dry_acceptance",
@@ -367,8 +361,8 @@
     {
       "editor_quip": "a MacBook with opinions about your divorce",
       "auto_cluster": "chaos_energy",
-      "recommended_cluster": "general_wit",
-      "rationale": "surreal gadget humor not chaos-energy's financial/political absurdity register"
+      "recommended_cluster": "chaos_energy",
+      "rationale": "correct"
     },
     {
       "editor_quip": "are Spurs entering their Brat era",
@@ -392,7 +386,7 @@
       "editor_quip": "money ball, but make the ball also money ",
       "auto_cluster": "books_history",
       "recommended_cluster": "books_history",
-      "rationale": "correct"
+      "rationale": "correct, moneyball reference"
     },
     {
       "editor_quip": "the algorithm is us and we are it ",
@@ -409,8 +403,8 @@
     {
       "editor_quip": "like the S&P 500 hitting ATH every year but ends in human enslavement",
       "auto_cluster": "chaos_energy",
-      "recommended_cluster": "chaos_energy",
-      "rationale": "correct"
+      "recommended_cluster": "sports_analogy_crossover",
+      "rationale": "finance/sports-style ATH analogy, but closer to general_wit; keep as is given sparse crossover cluster"
     },
     {
       "editor_quip": "how long until Trump proposes renaming it to \"Trump Island\"",
@@ -422,13 +416,13 @@
       "editor_quip": "what sounds like a Greek sauce but smacks of imperialism ",
       "auto_cluster": "general_wit",
       "recommended_cluster": "general_wit",
-      "rationale": "correct"
+      "rationale": "correct, wordplay with no strong cluster fit"
     },
     {
       "editor_quip": "you see it every day",
       "auto_cluster": "general_wit",
       "recommended_cluster": "dry_acceptance",
-      "rationale": "flat acceptance phrase"
+      "rationale": "flat dry acceptance phrasing"
     },
     {
       "editor_quip": "who sends who the Calendly ",
@@ -440,19 +434,19 @@
       "editor_quip": "something something sweat emoji ",
       "auto_cluster": "general_wit",
       "recommended_cluster": "internet_meme",
-      "rationale": "meme-format filler phrase"
+      "rationale": "emoji-as-meme-shorthand fits internet_meme better"
     },
     {
       "editor_quip": "googles \"is trump going to win the year in search\"",
       "auto_cluster": "general_wit",
       "recommended_cluster": "internet_discourse",
-      "rationale": "search/screenshot framing fits internet_discourse"
+      "rationale": "meta search/discourse joke"
     },
     {
       "editor_quip": "your cousin's micro SaaS hot-girl-ranker.io is now a Berkshire Hathaway company",
       "auto_cluster": "person_has_opinion",
-      "recommended_cluster": "general_wit",
-      "rationale": "not an opinion statement, absurdist business joke"
+      "recommended_cluster": "person_has_opinion",
+      "rationale": "correct"
     },
     {
       "editor_quip": "October's very own",
@@ -464,7 +458,7 @@
       "editor_quip": "approx 7 people in the literal world have a stake in this",
       "auto_cluster": "general_wit",
       "recommended_cluster": "understated",
-      "rationale": "understated niche-interest framing"
+      "rationale": "understated niche-stakes joke"
     },
     {
       "editor_quip": "we did start the fire and we're burning refineries and bridges until the world stops turning",
@@ -476,7 +470,7 @@
       "editor_quip": "she's let me down before, she's probably going to do it again",
       "auto_cluster": "general_wit",
       "recommended_cluster": "music_reference",
-      "rationale": "lyric-styled line"
+      "rationale": "lyric-style phrasing"
     },
     {
       "editor_quip": "like watching a 5' 2\" middle-schooler sink a deep 3 at the buzzer",
@@ -488,7 +482,7 @@
       "editor_quip": "MyPillow pivoting to campaign finance",
       "auto_cluster": "general_wit",
       "recommended_cluster": "chaos_energy",
-      "rationale": "absurdist in-other-news style"
+      "rationale": "absurdist 'in other news' style parallel"
     },
     {
       "editor_quip": "Man City offering dedicated little person entertainment stipend ",
@@ -498,15 +492,15 @@
     },
     {
       "editor_quip": "the man needs 2 more and he has one game. Here we go! ",
-      "auto_cluster": "general_wit",
+      "auto_cluster": "sports_idiom_commentary",
       "recommended_cluster": "sports",
-      "rationale": "sports stat/stakes framing"
+      "rationale": "fits existing sports cluster better than a singleton"
     },
     {
       "editor_quip": "Baby Lasagna, the newest addition to the kids menu at Olive Garden ",
       "auto_cluster": "general_wit",
-      "recommended_cluster": "general_wit",
-      "rationale": "correct"
+      "recommended_cluster": "comedy_framing",
+      "rationale": "absurd comedic framing"
     },
     {
       "editor_quip": "your insurance broker's least favorite team",
@@ -523,8 +517,8 @@
     {
       "editor_quip": "The Romantic, Art of Loving, Kiss All The Time... the field is 100% horny.",
       "auto_cluster": "general_wit",
-      "recommended_cluster": "general_wit",
-      "rationale": "correct"
+      "recommended_cluster": "music_reference",
+      "rationale": "list of album titles, music-adjacent"
     },
     {
       "editor_quip": "in the grate state uh lu-wheez-ee-ann-nah",
@@ -548,7 +542,7 @@
       "editor_quip": "Ok Go - \"Here It Goes Again\" as performed by the Supreme Court",
       "auto_cluster": "general_wit",
       "recommended_cluster": "music_reference",
-      "rationale": "named song reference"
+      "rationale": "explicit song reference"
     },
     {
       "editor_quip": "the Art of the Deal, inshallah ",
@@ -566,7 +560,7 @@
       "editor_quip": "Heath Ledger faked his death to stay method until this film ",
       "auto_cluster": "general_wit",
       "recommended_cluster": "film_tv_reference",
-      "rationale": "film reference"
+      "rationale": "explicit film reference"
     },
     {
       "editor_quip": "computer. drive me to Wendy's. change radio to Yacht Rock.",
@@ -578,31 +572,19 @@
       "editor_quip": "Oppa Gangnam style!",
       "auto_cluster": "general_wit",
       "recommended_cluster": "music_reference",
-      "rationale": "named song reference"
+      "rationale": "explicit song reference"
     },
     {
       "editor_quip": "it's like the Olympics 500m freestyle but make it robots burning coal",
       "auto_cluster": "general_wit",
       "recommended_cluster": "sports_analogy_crossover",
-      "rationale": "sports-analogy-for-tech pattern"
+      "rationale": "sports analogy crossover pattern"
     },
     {
       "editor_quip": "sell high. buy low. cash. money. baby.",
       "auto_cluster": "general_wit",
       "recommended_cluster": "general_wit",
       "rationale": "correct"
-    },
-    {
-      "editor_quip": "it's anybody's ball game",
-      "auto_cluster": "general_wit",
-      "recommended_cluster": "sports",
-      "rationale": "sports idiom"
-    },
-    {
-      "editor_quip": "we call this a tennis 10xer ",
-      "auto_cluster": "general_wit",
-      "recommended_cluster": "sports",
-      "rationale": "sports framing"
     },
     {
       "editor_quip": "just as the prophecy foretold",
@@ -613,8 +595,8 @@
     {
       "editor_quip": "WWF but make it computers ",
       "auto_cluster": "general_wit",
-      "recommended_cluster": "sports_analogy_crossover",
-      "rationale": "sports analogy applied to tech bet"
+      "recommended_cluster": "general_wit",
+      "rationale": "correct"
     },
     {
       "editor_quip": "in other news: tide comes in, tide goes out",
@@ -638,7 +620,7 @@
       "editor_quip": "here's me suddenly caring about the democratic process",
       "auto_cluster": "general_wit",
       "recommended_cluster": "person_has_opinion",
-      "rationale": "first-person opinion framing"
+      "rationale": "first-person opinion voice"
     },
     {
       "editor_quip": "look let's just call it an insurance policy",
@@ -653,15 +635,15 @@
       "rationale": "correct"
     },
     {
-      "editor_quip": "the crypto bros are beginning a drum circle ",
-      "auto_cluster": "general_wit",
-      "recommended_cluster": "chaos_energy",
-      "rationale": "absurdist crypto-bro humor"
+      "editor_quip": "probably to build AI data centers ",
+      "auto_cluster": "data_nerd",
+      "recommended_cluster": "data_nerd",
+      "rationale": "correct"
     },
     {
       "editor_quip": "old man money printer",
-      "auto_cluster": "internet_meme",
-      "recommended_cluster": "internet_meme",
+      "auto_cluster": "printer_meme_extension",
+      "recommended_cluster": "printer_meme_extension",
       "rationale": "correct"
     },
     {
@@ -685,8 +667,8 @@
     {
       "editor_quip": "professional french basketball is the indie band of the sports world ",
       "auto_cluster": "general_wit",
-      "recommended_cluster": "sports",
-      "rationale": "sports-tinged comparison"
+      "recommended_cluster": "sports_analogy_crossover",
+      "rationale": "sports analogy crossover"
     },
     {
       "editor_quip": "just please not on the day i wear layers ",
@@ -709,8 +691,8 @@
     {
       "editor_quip": "when underdogs go back to being just dogs",
       "auto_cluster": "general_wit",
-      "recommended_cluster": "sports",
-      "rationale": "sports idiom"
+      "recommended_cluster": "general_wit",
+      "rationale": "correct"
     },
     {
       "editor_quip": "Trump, hot off Greenland fail, decides to invade the moon to save face",
@@ -722,7 +704,7 @@
       "editor_quip": "What if Messi transfers and starts hitting FGs from 75 yards",
       "auto_cluster": "general_wit",
       "recommended_cluster": "sports_analogy_crossover",
-      "rationale": "cross-sport absurdist analogy"
+      "rationale": "sports crossover analogy"
     },
     {
       "editor_quip": "California primaries: where dreams go to die",
@@ -776,7 +758,7 @@
       "editor_quip": "my \"gym feel good playlist\" has never seen a greater achievement ",
       "auto_cluster": "general_wit",
       "recommended_cluster": "music_reference",
-      "rationale": "music-context humor"
+      "rationale": "music/playlist context"
     },
     {
       "editor_quip": "let's call it a hedge against my intrusive thoughts ",
@@ -804,15 +786,15 @@
     },
     {
       "editor_quip": "the clemency printer just got a new ink cartridge ",
-      "auto_cluster": "general_wit",
-      "recommended_cluster": "internet_meme",
-      "rationale": "printer-go-brrrr meme format extension"
+      "auto_cluster": "printer_meme_extension",
+      "recommended_cluster": "printer_meme_extension",
+      "rationale": "correct"
     },
     {
       "editor_quip": "27 up, 27 down, one pitcher's entire mythos written ",
       "auto_cluster": "general_wit",
       "recommended_cluster": "sports",
-      "rationale": "sports stat framing"
+      "rationale": "baseball-specific detail fits sports cluster"
     },
     {
       "editor_quip": "the Scrooge McDuck vault of market calls",
@@ -866,19 +848,19 @@
       "editor_quip": "a bird beating a fish is nature at its most electric. that's Japanese baseball for you.",
       "auto_cluster": "general_wit",
       "recommended_cluster": "sports",
-      "rationale": "sports framing"
+      "rationale": "sports-specific commentary"
     },
     {
       "editor_quip": "like a Sun Belt team winning an untelevised bowl game",
       "auto_cluster": "general_wit",
-      "recommended_cluster": "sports",
-      "rationale": "sports analogy"
+      "recommended_cluster": "sports_analogy_crossover",
+      "rationale": "sports analogy crossover"
     },
     {
       "editor_quip": "Angels fans watching from a Denny's parking lot",
       "auto_cluster": "general_wit",
       "recommended_cluster": "sports",
-      "rationale": "sports fan framing"
+      "rationale": "sports fandom joke"
     },
     {
       "editor_quip": "Tampa probably deserves this",
@@ -890,13 +872,13 @@
       "editor_quip": "Begun, the corporate card war has",
       "auto_cluster": "general_wit",
       "recommended_cluster": "film_tv_reference",
-      "rationale": "Yoda Star Wars reference"
+      "rationale": "Yoda-speak Star Wars reference"
     },
     {
       "editor_quip": "Matt Damon didn't become the greatest botanist on the planet for this",
       "auto_cluster": "general_wit",
       "recommended_cluster": "film_tv_reference",
-      "rationale": "film reference (The Martian)"
+      "rationale": "Martian film reference"
     },
     {
       "editor_quip": "at this point I don't know how many deals we've had and I'm too embarrassed to ask",
@@ -937,8 +919,8 @@
     {
       "editor_quip": "like the Browns announcing a parade route in August",
       "auto_cluster": "general_wit",
-      "recommended_cluster": "sports",
-      "rationale": "sports team reference"
+      "recommended_cluster": "sports_analogy_crossover",
+      "rationale": "sports analogy crossover"
     },
     {
       "editor_quip": "Helmet comes off and it's Sydney Sweeney and the entire thing was an ad for sports betting.",
@@ -949,35 +931,39 @@
   ],
   "new_clusters": [
     {
-      "id": "sports_idiom_commentary",
-      "description": "Sports idioms/stakes applied as commentary on non-obviously-sports bets, distinct from direct named-athlete sports lines and from the narrow sports_analogy_crossover cluster",
+      "id": "sports_analogy_crossover_expanded",
+      "description": "Jokes that use a sports scenario/analogy to explain a non-sports bet outcome, distinct from pure sports bets",
       "keywords": [
-        "it's anybody's ball game",
-        "here we go!"
+        "like the browns announcing",
+        "sun belt team",
+        "john harbaugh tweeted",
+        "5' 2\" middle-schooler"
       ],
       "evidence_quips": [
-        "it's anybody's ball game",
-        "the man needs 2 more and he has one game. Here we go! ",
-        "when underdogs go back to being just dogs"
+        "like watching a 5' 2\" middle-schooler sink a deep 3 at the buzzer",
+        "this is like if John Harbaugh tweeted a starting line up for OKC ",
+        "like a Sun Belt team winning an untelevised bowl game",
+        "like the Browns announcing a parade route in August"
       ]
     },
     {
-      "id": "printer_meme_extension",
-      "description": "Riffs on 'money printer go brrrr' format applied to non-financial institutional processes",
+      "id": "absurd_escalation_chaos",
+      "description": "Lines that escalate the bet premise into an increasingly absurd hypothetical chain of events",
       "keywords": [
-        "the clemency printer",
-        "old man money printer"
+        "pivoting to campaign finance",
+        "invade the moon to save face",
+        "next to be the next pope"
       ],
       "evidence_quips": [
-        "the clemency printer just got a new ink cartridge ",
-        "old man money printer",
-        "computer, load file folder titled \"sad memes\""
+        "MyPillow pivoting to campaign finance",
+        "Trump, hot off Greenland fail, decides to invade the moon to save face",
+        "in other news: JD Vance tapped to be the next Pope "
       ]
     }
   ],
   "meta": {
-    "generated_at": "2026-11-01T12:08:04.704741+00:00",
+    "generated_at": "2026-11-08T12:18:06.739824+00:00",
     "override_count": 137,
-    "version": 4
+    "version": 5
   }
 }
