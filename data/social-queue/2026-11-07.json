@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-08T06:30:37.260835+00:00",
+          "tweet_id": "2119316641733652640",
+          "reply_tweet_id": "2119316643176431951"
         },
         "telegram_channel": {
           "posted": false,
@@ -40,6 +40,9 @@
           "posted_at": null,
           "message_id": null
         }
+      },
+      "photo": {
+        "used": false
       }
     },
     {
