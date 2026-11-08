@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-11-08T01:10:56.775900+00:00",
+  "board_date": "2026-11-08",
+  "link_mode": "reply",
+  "selections": [
+    {
+      "ticker": "pmus-228394",
+      "rank": 1,
+      "selection_reason": "Standalone quip is perfect\u2014sharp observation about Trump's character that lands without needing the title, and the payout is juicy enough to make people double-take",
+      "title": "Trump resigns before 2028",
+      "quip": "$2.86 on a man who has never once left a room voluntarily",
+      "payout": 2.86,
+      "platform": "polymarket_us",
+      "tier": "green",
+      "category": "World",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-228394/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-228394/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-228394/og.png",
+      "content": {
+        "x_tweet_text": "$2.86 on a man who has never once left a room voluntarily",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-08",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Trump resigns before 2028</b>\n\n\u201c<i>$2.86 on a man who has never once left a room voluntarily</i>\u201d\n\n$1 pays $2.86\n\n<a href=\"https://www.dollarbets.lol/share/pmus-228394/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-2267885",
+      "rank": 2,
+      "selection_reason": "The self-aware irony of the payout barely covering what you're betting on is genuinely funny, and diesel prices hit different culturally right now",
+      "title": "Diesel tops $6.25 this week",
+      "quip": "$6.25 a gallon and a $7.14 payout buys you one gallon, congrats",
+      "payout": 7.14,
+      "platform": "polymarket_us",
+      "tier": "orange",
+      "category": "Other",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-2267885/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-2267885/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-2267885/og.png",
+      "content": {
+        "x_tweet_text": "$6.25 a gallon and a $7.14 payout buys you one gallon, congrats",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-08",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Diesel tops $6.25 this week</b>\n\n\u201c<i>$6.25 a gallon and a $7.14 payout buys you one gallon, congrats</i>\u201d\n\n$1 pays $7.14\n\n<a href=\"https://www.dollarbets.lol/share/pmus-2267885/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-1447497",
+      "rank": 3,
+      "selection_reason": "today's filthy little longshot \u2014 the board's own hero pick",
+      "title": "Bitter Christmas wins Best International Feature",
+      "quip": "Letterboxd buckles and six thousand guys rewrite their top four overnight",
+      "payout": 100.0,
+      "platform": "polymarket_us",
+      "tier": "purple",
+      "category": "Entertainment",
+      "card_variant": "ticket",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1447497/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1447497/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1447497/og.png",
+      "content": {
+        "x_tweet_text": "Letterboxd buckles and six thousand guys rewrite their top four overnight",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-08",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Bitter Christmas wins Best International Feature</b>\n\n\u201c<i>Letterboxd buckles and six thousand guys rewrite their top four overnight</i>\u201d\n\n$1 pays $100\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1447497/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    }
+  ]
+}
