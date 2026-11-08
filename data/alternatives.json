@@ -1,35 +1,35 @@
 {
- "generated_at": "2026-11-07T01:41:44.580502+00:00",
+ "generated_at": "2026-11-08T01:09:46.275822+00:00",
  "markets": {
-  "KXHURCAT-26VICKY-T5": {
-   "title": "Vicky strengthens into a Category 5 hurricane",
-   "platform": "kalshi",
-   "payout": 2.22,
-   "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Climate and Weather",
+  "pmus-2113515": {
+   "title": "Callum Turner is the next James Bond",
+   "platform": "polymarket_us",
+   "payout": 2.63,
+   "url": "https://polymarket.us/event/nextbond-2026-12-31?marketSlug=njbc-nextbond-2026-12-31-caltur",
+   "category": "Entertainment",
    "alts": {
-    "kalshi": {
-     "ticker": "KXHURCAT-26VICKY-T5",
-     "title": "Vicky strengthens into a Category 5 hurricane",
-     "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 2.22,
+    "polymarket_us": {
+     "ticker": "pmus-2113515",
+     "title": "Callum Turner is the next James Bond",
+     "url": "https://polymarket.us/event/nextbond-2026-12-31?marketSlug=njbc-nextbond-2026-12-31-caltur",
+     "payout": 2.63,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-1323220": {
-   "title": "Union membership rises in 2027",
+  "pmus-228394": {
+   "title": "Trump resigns before 2028",
    "platform": "polymarket_us",
-   "payout": 2.7,
-   "url": "https://polymarket.us/event/usunion-rise-2027?marketSlug=unmbc-usunion-rise-2027-yes",
-   "category": "Other",
+   "payout": 2.86,
+   "url": "https://polymarket.us/event/trump-resig?marketSlug=opdc-trump-resig-2027-12-31",
+   "category": "World",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1323220",
-     "title": "Union membership rises in 2027",
-     "url": "https://polymarket.us/event/usunion-rise-2027?marketSlug=unmbc-usunion-rise-2027-yes",
-     "payout": 2.7,
+     "ticker": "pmus-228394",
+     "title": "Trump resigns before 2028",
+     "url": "https://polymarket.us/event/trump-resig?marketSlug=opdc-trump-resig-2027-12-31",
+     "payout": 2.86,
      "same": true,
      "sim": 1.0
     }
@@ -52,94 +52,86 @@
     }
    }
   },
-  "pmus-171030": {
-   "title": "Rahm Emanuel announces a presidential run this year",
-   "platform": "polymarket_us",
-   "payout": 3.7,
-   "url": "https://polymarket.us/event/uspres28-12-31-2026?marketSlug=cranc-uspres28-12-31-2026-rahema",
-   "category": "World",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-171030",
-     "title": "Rahm Emanuel announces a presidential run this year",
-     "url": "https://polymarket.us/event/uspres28-12-31-2026?marketSlug=cranc-uspres28-12-31-2026-rahema",
-     "payout": 3.7,
-     "same": true,
-     "sim": 1.0
-    },
-    "kalshi": {
-     "ticker": "KXEMANUELRUN-28-27JAN01",
-     "title": "Will Rahm Emanuel announce a presidential run?",
-     "url": "https://kalshi.com/markets/KXEMANUELRUN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 2.33,
-     "same": false,
-     "sim": 0.67
-    }
-   }
-  },
-  "KXSERIEA1HBTTS-26NOV08MONATA-BTTS": {
-   "title": "Monza and Atalanta both score in the first half",
+  "KXEREDIVISIE1HTOTAL-26NOV08CAMPSV-3": {
+   "title": "Three goals before halftime tonight",
    "platform": "kalshi",
-   "payout": 3.7,
-   "url": "https://kalshi.com/markets/KXSERIEA1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 3.85,
+   "url": "https://kalshi.com/markets/KXEREDIVISIE1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Sports",
    "alts": {
     "kalshi": {
-     "ticker": "KXSERIEA1HBTTS-26NOV08MONATA-BTTS",
-     "title": "Monza and Atalanta both score in the first half",
-     "url": "https://kalshi.com/markets/KXSERIEA1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 3.7,
+     "ticker": "KXEREDIVISIE1HTOTAL-26NOV08CAMPSV-3",
+     "title": "Three goals before halftime tonight",
+     "url": "https://kalshi.com/markets/KXEREDIVISIE1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 3.85,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXSERIEA1HBTTS-26NOV08FIOJUV-BTTS": {
-   "title": "Fiorentina and Juventus both score in the first half",
+  "KXNFLALLPRO-271STDEF-ZALLEN99": {
+   "title": "Zach Allen makes All-Pro First Team defense",
    "platform": "kalshi",
-   "payout": 4.0,
-   "url": "https://kalshi.com/markets/KXSERIEA1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 4.35,
+   "url": "https://kalshi.com/markets/KXNFLALLPRO?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Sports",
    "alts": {
     "kalshi": {
-     "ticker": "KXSERIEA1HBTTS-26NOV08FIOJUV-BTTS",
-     "title": "Fiorentina and Juventus both score in the first half",
-     "url": "https://kalshi.com/markets/KXSERIEA1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 4.0,
+     "ticker": "KXNFLALLPRO-271STDEF-ZALLEN99",
+     "title": "Zach Allen makes All-Pro First Team defense",
+     "url": "https://kalshi.com/markets/KXNFLALLPRO?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 4.35,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-1446253": {
-   "title": "Mike Leigh lands a Best Director nomination",
+  "pmus-1003017": {
+   "title": "The Fed holds rates steady in December",
    "platform": "polymarket_us",
-   "payout": 12.5,
-   "url": "https://polymarket.us/event/oscars-nom-bstdir-2027-01-21?marketSlug=tac-oscars-nom-bstdir-2027-01-21-miklei",
-   "category": "Entertainment",
+   "payout": 4.55,
+   "url": "https://polymarket.us/event/usfed-fomc-2026-12-09?marketSlug=rdc-usfed-fomc-2026-12-09-nochng",
+   "category": "Other",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1446253",
-     "title": "Mike Leigh lands a Best Director nomination",
-     "url": "https://polymarket.us/event/oscars-nom-bstdir-2027-01-21?marketSlug=tac-oscars-nom-bstdir-2027-01-21-miklei",
-     "payout": 12.5,
+     "ticker": "pmus-1003017",
+     "title": "The Fed holds rates steady in December",
+     "url": "https://polymarket.us/event/usfed-fomc-2026-12-09?marketSlug=rdc-usfed-fomc-2026-12-09-nochng",
+     "payout": 4.55,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-2267885": {
+   "title": "Diesel tops $6.25 this week",
+   "platform": "polymarket_us",
+   "payout": 7.14,
+   "url": "https://polymarket.us/event/usdsl-day-2026-11-08?marketSlug=aaagaspc-usdsl-day-2026-11-08-gt6pt2550",
+   "category": "Other",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-2267885",
+     "title": "Diesel tops $6.25 this week",
+     "url": "https://polymarket.us/event/usdsl-day-2026-11-08?marketSlug=aaagaspc-usdsl-day-2026-11-08-gt6pt2550",
+     "payout": 7.14,
      "same": true,
      "sim": 1.0
     }
    }
   },
   "KXUSAIRANAGREEMENT-27": {
-   "title": "US and Iran sign a nuclear deal this year",
+   "title": "The US cuts a new Iran nuclear deal this year",
    "platform": "kalshi",
-   "payout": 12.82,
+   "payout": 14.93,
    "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Politics",
    "alts": {
     "kalshi": {
      "ticker": "KXUSAIRANAGREEMENT-27",
-     "title": "US and Iran sign a nuclear deal this year",
+     "title": "The US cuts a new Iran nuclear deal this year",
      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 12.82,
+     "payout": 14.93,
      "same": true,
      "sim": 1.0
     }
@@ -162,17 +154,17 @@
     }
    }
   },
-  "pmus-1446820": {
-   "title": "The Invite wins Best Film Editing",
+  "pmus-1447497": {
+   "title": "Bitter Christmas wins Best International Feature",
    "platform": "polymarket_us",
    "payout": 100.0,
-   "url": "https://polymarket.us/event/oscars-03-14-2027-bestedit?marketSlug=tac-oscars-03-14-2027-bestedit-invite",
+   "url": "https://polymarket.us/event/oscars-03-14-2027-bestintl?marketSlug=tac-oscars-03-14-2027-bestintl-bitchr",
    "category": "Entertainment",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1446820",
-     "title": "The Invite wins Best Film Editing",
-     "url": "https://polymarket.us/event/oscars-03-14-2027-bestedit?marketSlug=tac-oscars-03-14-2027-bestedit-invite",
+     "ticker": "pmus-1447497",
+     "title": "Bitter Christmas wins Best International Feature",
+     "url": "https://polymarket.us/event/oscars-03-14-2027-bestintl?marketSlug=tac-oscars-03-14-2027-bestintl-bitchr",
      "payout": 100.0,
      "same": true,
      "sim": 1.0

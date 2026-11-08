@@ -1,0 +1,597 @@
+{
+  "generated_at": "2026-11-08T01:09:46.276414+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 4,
+    "polymarket_us": 6,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "pmus-2113515",
+      "title": "Callum Turner is the next James Bond",
+      "subtitle": "",
+      "payout": 2.63,
+      "tier": "green",
+      "quip": "38 cents on a guy my mom will call \"the Fantastic Beasts one\"",
+      "yes_price": "0.3800",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/nextbond-2026-12-31?marketSlug=njbc-nextbond-2026-12-31-caltur",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "Amazon announces the Bond cinematic universe, episode one is about Q's nephew",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i had to google him and then i had to sit down",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "a British man who looks fine in a suit. revolutionary",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "\"Turner. Callum Turner.\" say it out loud. hear that? nothing",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "38 cents on a guy my mom will call \"the Fantastic Beasts one\"",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "this is the Jets drafting a quarterback nobody mocked to them",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "somewhere Henry Cavill is doing push ups for absolutely no reason",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "licensed, mildly, to kill",
+          "mode": 9,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-228394",
+      "title": "Trump resigns before 2028",
+      "subtitle": "",
+      "payout": 2.86,
+      "tier": "green",
+      "quip": "$2.86 on a man who has never once left a room voluntarily",
+      "yes_price": "0.3500",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2028-01-15T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/trump-resig?marketSlug=opdc-trump-resig-2027-12-31",
+      "platform": "polymarket_us",
+      "score": 33.0,
+      "quip_alts": [
+        {
+          "quip": "President Vance renames an airport on day one and nobody stops him",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i would watch that farewell address like it's a Super Bowl halftime",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "\"i've decided to resign and frankly it's the greatest resignation anyone's ever seen\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "$2.86 on a man who has never once left a room voluntarily",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "like Brady retiring and then unretiring before the ink dried",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "my Florida relatives throwing a party either way, different reasons",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "helicopter wave on the South Lawn, the full Nixon exit choreography",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "he has never quit anything",
+          "mode": 9,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2098066",
+      "title": "The government shuts down before 2027",
+      "subtitle": "",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "the Smithsonian pandas don't even flinch at this anymore",
+      "yes_price": "0.3400",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/usfedgvmt-by-2026-12-31?marketSlug=gsc-usfedgvmt-by-2026-12-31-2026-12-31",
+      "platform": "polymarket_us",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "park bathrooms padlocked and my cousin camping there anyway, out of spite",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "my friend at the FAA has an Etsy shop warmed up already",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "nothing unites this country quite like furloughing it",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "\"we have the votes,\" says a man who does not have the votes",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "34 cents on Congress continuing to be Congress",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "the NHL lockout except nobody missed the product",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "the Smithsonian pandas don't even flinch at this anymore",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "an annual tradition now",
+          "mode": 9,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXEREDIVISIE1HTOTAL-26NOV08CAMPSV-3",
+      "title": "Three goals before halftime tonight",
+      "subtitle": "CAM vs PSV (Nov 8)",
+      "yes_sub_title": "Over 2.5 1H goals scored",
+      "no_sub_title": "Over 2.5 1H goals scored",
+      "payout": 3.85,
+      "tier": "yellow",
+      "quip": "Pac-12 After Dark energy except everyone's wearing shin guards",
+      "yes_price": "0.2600",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-10T15:45:00Z",
+      "url": "https://kalshi.com/markets/KXEREDIVISIE1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 74.0,
+      "_specificity": 0,
+      "quip_alts": [
+        {
+          "quip": "both keepers quietly updating LinkedIn during the halftime team talk",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i get up for a beer and come back down two goals",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "scoring before the pretzel guy finishes his second lap. electric",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "manager at the break: \"lads. have we considered defending at all\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "three goals in 45 minutes, a full October for some clubs",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Pac-12 After Dark energy except everyone's wearing shin guards",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "two center backs about to get their names said on national radio",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "defending optional until 46",
+          "mode": 9,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXNFLALLPRO-271STDEF-ZALLEN99",
+      "title": "Zach Allen makes All-Pro First Team defense",
+      "subtitle": "1st Team Defense (2026-27)",
+      "yes_sub_title": "Zach Allen",
+      "no_sub_title": "Zach Allen",
+      "payout": 4.35,
+      "tier": "yellow",
+      "quip": "\"he's just a system guy\" said every guard he has personally relocated",
+      "yes_price": "0.2300",
+      "volume": 1935.0,
+      "category": "Sports",
+      "close_time": "2027-02-22T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNFLALLPRO?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 74.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "Sean Payton takes full credit on three podcasts before the trophy ships",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i started an IDP league purely so this man could ruin my weekends",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "interior pressure guys finally getting flowers and i'm standing up at my desk",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "\"he's just a system guy\" said every guard he has personally relocated",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "23 cents on a man whose job is ruining other men's Sundays",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Orange Crush cosplay that somehow got the fit exactly right",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "AFC West quarterbacks already scheduling their massages for those two weeks",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "he eats guards. simply",
+          "mode": 9,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1003017",
+      "title": "The Fed holds rates steady in December",
+      "subtitle": "",
+      "payout": 4.55,
+      "tier": "yellow",
+      "quip": "punting on fourth and one from the opponent's 38",
+      "yes_price": "0.2200",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2026-12-24T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/usfed-fomc-2026-12-09?marketSlug=rdc-usfed-fomc-2026-12-09-nochng",
+      "platform": "polymarket_us",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "Powell says \"data dependent\" and four hundred analysts start typing at once",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i still don't know what a basis point does to my actual life",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we will remain patient.\" sir. you've been patient since the Biden administration",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "22 cents on a room of economists choosing, together, to do nothing",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "punting on fourth and one from the opponent's 38",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "i will refresh that page at 2pm like it's my own draft pick",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "doing nothing, loudly, in front of cameras. that's a craft",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "nothing happens, again, thrillingly",
+          "mode": 9,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2267885",
+      "title": "Diesel tops $6.25 this week",
+      "subtitle": "",
+      "payout": 7.14,
+      "tier": "orange",
+      "quip": "$6.25 a gallon and a $7.14 payout buys you one gallon, congrats",
+      "yes_price": "0.1400",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2026-11-16T04:59:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/usdsl-day-2026-11-08?marketSlug=aaagaspc-usdsl-day-2026-11-08-gt6pt2550",
+      "platform": "polymarket_us",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "every trucker in Ohio simultaneously discovers the word \"surcharge\"",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "my uncle's F-350 officially becomes a decorative lawn sculpture",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "$6.25 a gallon and a $7.14 payout buys you one gallon, congrats",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "\"it's the refineries\" says a guy who has never seen a refinery",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "the away-game bus tab now costs more than the recruiting budget",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "your paper towels arriving Thursday with a small apology attached",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "i love when a number nobody watches starts running the whole economy",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "Christmas arrives in March",
+          "mode": 9,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27",
+      "title": "The US cuts a new Iran nuclear deal this year",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 14.93,
+      "tier": "orange",
+      "quip": "like Michigan and Ohio State agreeing to just not play this year",
+      "yes_price": "0.0670",
+      "volume": 2005401.9,
+      "category": "Politics",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "two flags, one handshake photo, somebody's uncle walks out with a watch",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i have a Geneva tab open from 2015 and it has never loaded",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we have a framework\" is diplomat for \"we have a lunch reservation\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "fifteen bucks says the centrifuges get a LinkedIn update before i do",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "like Michigan and Ohio State agreeing to just not play this year",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "men in gray suits photographed smiling is still the purest genre",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "the Vienna hotel staff already know everyone's room preferences by heart",
+          "mode": 7,
+          "score": 6.5
+        },
+        {
+          "quip": "i've seen this one",
+          "mode": 9,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA puts a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 30.3,
+      "tier": "red",
+      "quip": "we pulled it off in 1969 with a calculator. do it again, cowards",
+      "yes_price": "0.0330",
+      "volume": 228925.19,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "first words on the lunar surface are a sixteen second sponsor read",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i am going to cry. telling you now so it isn't weird later",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "we pulled it off in 1969 with a calculator. do it again, cowards",
+          "mode": 3,
+          "score": 9
+        },
+        {
+          "quip": "\"Houston, copy that.\" Houston has no idea what's happening either",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "30 to 1 against physics, paperwork, and one enormous Boeing invoice",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "a franchise announcing a rebuild and then quietly winning 60 games",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "the flag will be polyester and it will look so bad in 4K",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "the rocket's still in Alabama",
+          "mode": 9,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1447497",
+      "title": "Bitter Christmas wins Best International Feature",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "Letterboxd buckles and six thousand guys rewrite their top four overnight",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-03-29T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-03-14-2027-bestintl?marketSlug=tac-oscars-03-14-2027-bestintl-bitchr",
+      "platform": "polymarket_us",
+      "score": 38.0,
+      "quip_alts": [
+        {
+          "quip": "Letterboxd buckles and six thousand guys rewrite their top four overnight",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i will say i saw it in theaters. i will not have seen it",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "a movie called Bitter Christmas winning anything is my kind of Tuesday",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "speech runs long in a language the orchestra is too polite to play over",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "a hundred dollars riding on one theater in Brooklyn with 40 seats",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the 16 seed walking into the Dolby Theatre with nothing to lose",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Bong Joon-ho already warned you about the one inch tall barrier",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "subtitles stay undefeated",
+          "mode": 9,
+          "score": 7.5
+        }
+      ]
+    }
+  ]
+}

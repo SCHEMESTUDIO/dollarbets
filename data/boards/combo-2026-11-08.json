@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-11-08T01:10:30.570302+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 9,
+    "NFL": 1
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-83141035",
+      "title": "New York Giants wins + Western Kentucky Hilltoppers wins",
+      "payout": 2.64,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.38",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:44026-3451294-5411269&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "New York Giants @ Philadelphia Eagles + Western Kentucky Hilltoppers @ Tennessee Tech Golden Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 164,
+      "implied_probability": 0.378,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New York Giants @ Philadelphia Eagles",
+          "pick": "New York Giants wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44026-3451294-5411269&type=Single",
+          "commence_time": "2026-11-08T18:00:00Z"
+        },
+        {
+          "matchup": "Western Kentucky Hilltoppers @ Tennessee Tech Golden Eagles",
+          "pick": "Western Kentucky Hilltoppers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20084595-1576262951-2345106482&type=Single",
+          "commence_time": "2026-11-08T20:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-08T18:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-5A150781",
+      "title": "Denver Broncos wins + New York Giants wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:44012-3451278-5411240&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "NFL",
+      "matchup": "Denver Broncos @ Carolina Panthers + New York Giants @ Philadelphia Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Denver Broncos @ Carolina Panthers",
+          "pick": "Denver Broncos wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44012-3451278-5411240&type=Single",
+          "commence_time": "2026-11-08T18:00:00Z"
+        },
+        {
+          "matchup": "New York Giants @ Philadelphia Eagles",
+          "pick": "New York Giants wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44026-3451294-5411269&type=Single",
+          "commence_time": "2026-11-08T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-08T18:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-141D12D6",
+      "title": "Denver Broncos wins + Western Kentucky Hilltoppers wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:44012-3451278-5411240&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Denver Broncos @ Carolina Panthers + Western Kentucky Hilltoppers @ Tennessee Tech Golden Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Denver Broncos @ Carolina Panthers",
+          "pick": "Denver Broncos wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44012-3451278-5411240&type=Single",
+          "commence_time": "2026-11-08T18:00:00Z"
+        },
+        {
+          "matchup": "Western Kentucky Hilltoppers @ Tennessee Tech Golden Eagles",
+          "pick": "Western Kentucky Hilltoppers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20084595-1576262951-2345106482&type=Single",
+          "commence_time": "2026-11-08T20:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-08T18:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-F646C3B0",
+      "title": "Over 6.5 + New York Giants wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20010459-1576442840-2345553954&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Utah Mammoth @ Ottawa Senators + New York Giants @ Philadelphia Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Utah Mammoth @ Ottawa Senators",
+          "pick": "Over 6.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20010459-1576442840-2345553954&type=Single",
+          "commence_time": "2026-11-08T00:19:03Z"
+        },
+        {
+          "matchup": "New York Giants @ Philadelphia Eagles",
+          "pick": "New York Giants wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44026-3451294-5411269&type=Single",
+          "commence_time": "2026-11-08T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-08T00:19:03Z"
+    },
+    {
+      "ticker": "PARLAY-044068EC",
+      "title": "Over 6.5 + Western Kentucky Hilltoppers wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20010459-1576442840-2345553954&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Utah Mammoth @ Ottawa Senators + Western Kentucky Hilltoppers @ Tennessee Tech Golden Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Utah Mammoth @ Ottawa Senators",
+          "pick": "Over 6.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20010459-1576442840-2345553954&type=Single",
+          "commence_time": "2026-11-08T00:19:03Z"
+        },
+        {
+          "matchup": "Western Kentucky Hilltoppers @ Tennessee Tech Golden Eagles",
+          "pick": "Western Kentucky Hilltoppers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20084595-1576262951-2345106482&type=Single",
+          "commence_time": "2026-11-08T20:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-08T00:19:03Z"
+    },
+    {
+      "ticker": "PARLAY-7006EE3D",
+      "title": "Over 5.5 + New York Giants wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20010463-1576455413-2345589275&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "San Jose Sharks @ Dallas Stars + New York Giants @ Philadelphia Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Jose Sharks @ Dallas Stars",
+          "pick": "Over 5.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20010463-1576455413-2345589275&type=Single",
+          "commence_time": "2026-11-08T01:08:42Z"
+        },
+        {
+          "matchup": "New York Giants @ Philadelphia Eagles",
+          "pick": "New York Giants wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44026-3451294-5411269&type=Single",
+          "commence_time": "2026-11-08T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-08T01:08:42Z"
+    },
+    {
+      "ticker": "PARLAY-D721C5F2",
+      "title": "Over 5.5 + Western Kentucky Hilltoppers wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20010463-1576455413-2345589275&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "San Jose Sharks @ Dallas Stars + Western Kentucky Hilltoppers @ Tennessee Tech Golden Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Jose Sharks @ Dallas Stars",
+          "pick": "Over 5.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20010463-1576455413-2345589275&type=Single",
+          "commence_time": "2026-11-08T01:08:42Z"
+        },
+        {
+          "matchup": "Western Kentucky Hilltoppers @ Tennessee Tech Golden Eagles",
+          "pick": "Western Kentucky Hilltoppers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20084595-1576262951-2345106482&type=Single",
+          "commence_time": "2026-11-08T20:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-08T01:08:42Z"
+    },
+    {
+      "ticker": "PARLAY-DFBD3FAF",
+      "title": "FC Dallas wins + New York Giants wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7903344-207023173-801263255&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Colorado Rapids @ FC Dallas + New York Giants @ Philadelphia Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Colorado Rapids @ FC Dallas",
+          "pick": "FC Dallas wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7903344-207023173-801263255&type=Single",
+          "commence_time": "2026-11-08T00:10:00Z"
+        },
+        {
+          "matchup": "New York Giants @ Philadelphia Eagles",
+          "pick": "New York Giants wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44026-3451294-5411269&type=Single",
+          "commence_time": "2026-11-08T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-08T00:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-11DB44D2",
+      "title": "FC Dallas wins + Western Kentucky Hilltoppers wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7903344-207023173-801263255&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Colorado Rapids @ FC Dallas + Western Kentucky Hilltoppers @ Tennessee Tech Golden Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.369,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Colorado Rapids @ FC Dallas",
+          "pick": "FC Dallas wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7903344-207023173-801263255&type=Single",
+          "commence_time": "2026-11-08T00:10:00Z"
+        },
+        {
+          "matchup": "Western Kentucky Hilltoppers @ Tennessee Tech Golden Eagles",
+          "pick": "Western Kentucky Hilltoppers wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20084595-1576262951-2345106482&type=Single",
+          "commence_time": "2026-11-08T20:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-08T00:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-0EBDC684",
+      "title": "Northern Arizona Lumberjacks +27.5 + New York Giants wins",
+      "payout": 2.75,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20083158-1576434295-2345532474&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Northern Arizona Lumberjacks @ New Mexico Lobos + New York Giants @ Philadelphia Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 175,
+      "implied_probability": 0.364,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Northern Arizona Lumberjacks @ New Mexico Lobos",
+          "pick": "Northern Arizona Lumberjacks +27.5",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20083158-1576434295-2345532474&type=Single",
+          "commence_time": "2026-11-07T23:00:00Z"
+        },
+        {
+          "matchup": "New York Giants @ Philadelphia Eagles",
+          "pick": "New York Giants wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44026-3451294-5411269&type=Single",
+          "commence_time": "2026-11-08T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-07T23:00:00Z"
+    }
+  ]
+}

@@ -1,29 +1,4 @@
 {
-  "SB-3EBECAA9": {
-    "title": "Palace and Liverpool grind out a low-scoring one",
-    "quip": "Selhurst Park turns every title chase into a trench war",
-    "cached_at": "2026-11-03T21:29:05.945690+00:00"
-  },
-  "SB-57BDCAB8": {
-    "title": "Red Wings upset the Lightning in Tampa",
-    "quip": "Larkin's still got a grudge list and Vasilevskiy's on it",
-    "cached_at": "2026-11-03T21:29:05.945690+00:00"
-  },
-  "SB-8443DDC5": {
-    "title": "Fullerton shocks San Diego State on the road",
-    "quip": "Big West Titans walking into Viejas like they own the deed",
-    "cached_at": "2026-11-03T21:29:05.945690+00:00"
-  },
-  "SB-0D031D5C": {
-    "title": "Botafogo and Atletico Mineiro keep it under two goals",
-    "quip": "Hulk needs a key to that Nilton Santos lock",
-    "cached_at": "2026-11-03T21:29:17.869888+00:00"
-  },
-  "SB-CAA05551": {
-    "title": "Leafs stay within a goal of Utah tonight",
-    "quip": "Toronto specializes in close games, then losing them in June",
-    "cached_at": "2026-11-03T21:29:25.397235+00:00"
-  },
   "SB-F180407A": {
     "title": "Kings skate past Sharks by two tonight",
     "quip": "Kuemper makes the Sharks look like preseason",
@@ -923,5 +898,100 @@
     "title": "Niagara runs past Morgan State tonight",
     "quip": "Purple Eagles protect the nest in Lewiston",
     "cached_at": "2026-11-07T19:52:09.943688+00:00"
+  },
+  "SB-BD63F675": {
+    "title": "Eagles handle the Giants tonight",
+    "quip": "Saquon runs it back on his old employer",
+    "cached_at": "2026-11-08T01:09:57.446174+00:00"
+  },
+  "SB-399D36A1": {
+    "title": "Thunder bury Wizards by 31-plus",
+    "quip": "SGA out by the third, Washington still losing",
+    "cached_at": "2026-11-08T01:09:57.446174+00:00"
+  },
+  "SB-494F14DA": {
+    "title": "Leafs beat Canadiens by three or more",
+    "quip": "an Original Six beatdown Carey Price never signed off on",
+    "cached_at": "2026-11-08T01:09:57.446174+00:00"
+  },
+  "SB-AFA2EE10": {
+    "title": "Hawks-Nets grinds under 199",
+    "quip": "two bricklaying crews, one Gordon Ramsay level of raw",
+    "cached_at": "2026-11-08T01:09:57.446174+00:00"
+  },
+  "SB-54D4E46A": {
+    "title": "SE Missouri stuns South Carolina in Columbia",
+    "quip": "Redhawks treating Colonial Life Arena like a guarantee-game ambush",
+    "cached_at": "2026-11-08T01:10:03.867883+00:00"
+  },
+  "SB-BC98CF5D": {
+    "title": "Sacramento State shocks Santa Clara on the road",
+    "quip": "Hornets flying into Leavey Center like uninvited wedding guests",
+    "cached_at": "2026-11-08T01:10:03.867883+00:00"
+  },
+  "SB-0628F672": {
+    "title": "Rivera Figueroa upsets Abraham Perez tonight",
+    "quip": "Puerto Rican flyweight speed beats the scorecard math",
+    "cached_at": "2026-11-08T01:10:14.095706+00:00"
+  },
+  "SB-C9F9DDA8": {
+    "title": "West Indies take down Bangladesh in Test",
+    "quip": "Caribbean pace finds a pulse in Mirpur",
+    "cached_at": "2026-11-08T01:10:14.095706+00:00"
+  },
+  "SB-7592BC77": {
+    "title": "Afghanistan beat Zimbabwe in the Test",
+    "quip": "Rashid Khan's generation now plays the long format",
+    "cached_at": "2026-11-08T01:10:14.095706+00:00"
+  },
+  "SB-4226694E": {
+    "title": "Deon Nicholson shocks Atif Oberlton",
+    "quip": "Philly's golden boy meets the wrong journeyman",
+    "cached_at": "2026-11-08T01:10:14.095706+00:00"
+  },
+  "SB-AE29CE22": {
+    "title": "Genclerbirligi stun Besiktas in Istanbul",
+    "quip": "the Black Eagles trip over their own ladder",
+    "cached_at": "2026-11-08T01:10:14.095706+00:00"
+  },
+  "SB-1C2CFF97": {
+    "title": "Milo\u0161evi\u0107 dominates Cachoeira on the cards tonight",
+    "quip": "Pedrita swings hard, Nina swings straighter",
+    "cached_at": "2026-11-08T01:10:24.349805+00:00"
+  },
+  "SB-97BD0193": {
+    "title": "Penguins keep it close in LA tonight",
+    "quip": "Crosby and Kopitar, two museum pieces still working",
+    "cached_at": "2026-11-08T01:10:24.349805+00:00"
+  },
+  "SB-FF0953E8": {
+    "title": "Panthers hang with Bruins in Boston tonight",
+    "quip": "Barkov versus the Garden, decided by one puck",
+    "cached_at": "2026-11-08T01:10:24.349805+00:00"
+  },
+  "SB-D8FC9721": {
+    "title": "Devils and Leafs decided by a single goal",
+    "quip": "Hughes versus Matthews, nobody runs away with it",
+    "cached_at": "2026-11-08T01:10:24.349805+00:00"
+  },
+  "SB-8E5B1694": {
+    "title": "Lightning and Jets go down to the wire",
+    "quip": "Kucherov and Hellebuyck trading punches all night",
+    "cached_at": "2026-11-08T01:10:24.349805+00:00"
+  },
+  "SB-75DEE9CD": {
+    "title": "Pistons handle the Lakers in Detroit",
+    "quip": "Cade Cunningham runs Little Caesars like a landlord",
+    "cached_at": "2026-11-08T01:10:24.349805+00:00"
+  },
+  "SB-6870926D": {
+    "title": "Patriots beat the Packers in Foxborough",
+    "quip": "Drake Maye has made Gillette scary again",
+    "cached_at": "2026-11-08T01:10:24.349805+00:00"
+  },
+  "SB-C262260B": {
+    "title": "UNLV beats Wyoming in Vegas",
+    "quip": "Allegiant Stadium is a bad place to visit",
+    "cached_at": "2026-11-08T01:10:24.349805+00:00"
   }
 }
