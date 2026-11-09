@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-11-09T01:30:28.976842+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket_us": 5,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "KXSNOWXMASCHI-25DEC26-0",
+      "title": "It snows in Chicago on Christmas",
+      "subtitle": "On Dec 25, 2026",
+      "yes_sub_title": "Above 0 inches",
+      "no_sub_title": "Above 0 inches",
+      "payout": 2.38,
+      "tier": "green",
+      "quip": "2.38 inches exactly and my dad still won't salt the driveway",
+      "yes_price": "0.4200",
+      "volume": 35.31,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-26T05:59:00Z",
+      "url": "https://kalshi.com/markets/KXSNOWXMASCHI?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 74.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "O'Hare cancels 400 flights and everyone somehow blames the mayor by noon",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i grew up near there, christmas snow is just a gray ankle trap",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Chicago in December. the shocking outcome would be sunshine",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "lake effect does its job",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "Home Alone was a documentary and nobody in that house panicked",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "white christmas rules and i refuse to be cool about it",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "2.38 inches exactly and my dad still won't salt the driveway",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "the Bears punting on third down is less reliable than this",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2049738",
+      "title": "Gas drops below $3.75 this month",
+      "subtitle": "",
+      "payout": 2.56,
+      "tier": "green",
+      "quip": "California reading this through a thin film of tears",
+      "yes_price": "0.3900",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2026-12-08T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/usgas-lowm-2026-11-30?marketSlug=aaagaspc-usgas-lowm-2026-11-30-lt3pt7500",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "i filled up at $3.79 yesterday like an absolute clown",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "dad sends the family chat a photo of the pump. no caption, no context",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "$3.74 and i'm driving forty minutes across town to save ninety cents",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "road trip season reopens",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "nothing in life hits like the numbers stopping before you flinch",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "\"folks, gas is down. some say the lowest anyone has ever seen it\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "California reading this through a thin film of tears",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "the Costco pump line now longer than a Black Friday door buster",
+          "mode": 6,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXDJTATTACKVANCE-26NOV-26DEC01",
+      "title": "Trump publicly rips JD Vance by next December",
+      "subtitle": "2027",
+      "yes_sub_title": "Before Dec 1, 2026",
+      "no_sub_title": "Before Dec 1, 2026",
+      "payout": 4.35,
+      "tier": "yellow",
+      "quip": "like a head coach calling his starting quarterback day to day in October",
+      "yes_price": "0.2300",
+      "volume": 512.66,
+      "category": "Politics",
+      "close_time": "2026-12-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXDJTATTACKVANCE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 76.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "\"JD, great guy, tremendous hair, couldn't sell lemonade in his own state\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "the eyeliner discourse returns within fourteen minutes of the post",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i've seen this show before and i know exactly what season two does",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the vice presidency, undefeated",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "Dwight getting stripped of assistant regional manager in front of the whole office",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "like a head coach calling his starting quarterback day to day in October",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Ohio exports two things and this is somehow the better one",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "$4.35 payout, same price as a bottled water at Mar-a-Lago",
+          "mode": 5,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1464576",
+      "title": "KATSEYE's PINKY UP lands a Grammy nod",
+      "subtitle": "",
+      "payout": 4.55,
+      "tier": "yellow",
+      "quip": "nobody tell the 74 year old jazz voter what he just approved",
+      "yes_price": "0.2200",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2026-12-01T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/grammys-nom-bdpr-2026-11-16?marketSlug=tac-grammys-nom-bdpr-2026-11-16-pinup",
+      "platform": "polymarket_us",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "my algorithm fed me this for six weeks and i finally went limp",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the hook was engineered in a lab and i am the happy lab rat",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "dance pop gets a trophy and gets renamed again by February",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "the pipeline works",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "nobody tell the 74 year old jazz voter what he just approved",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "a mid major getting a 12 seed and the whole bracket nodding",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "somewhere a rock band applies to be considered a genre again",
+          "mode": 7,
+          "score": 6.5
+        },
+        {
+          "quip": "$4.55, roughly what the song earns in streaming every eleven seconds",
+          "mode": 5,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2036819",
+      "title": "Bitcoin touches $85,000 this month",
+      "subtitle": "",
+      "payout": 6.25,
+      "tier": "yellow",
+      "quip": "El Salvador refreshing the page like it's a scratch ticket",
+      "yes_price": "0.1600",
+      "volume": 0,
+      "category": "Crypto",
+      "close_time": "2026-12-01T05:30:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/btc-hit-h-m-2026-11?marketSlug=cpc-btc-hit-h-m-2026-11-85000",
+      "platform": "polymarket_us",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "the laser eyes come back out of the drawer, slightly dusty",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i swore i'd stop checking at 2am and look where we are",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "number go up, barely",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "eighty five thousand dollars for a number that still works. incredible",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "$85,000 is also what the guy at my coffee shop lost in 2022",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the Jets winning in week twelve. technically relevant, deeply unserious",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we are so back\" says man who has said that eleven times this year",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "El Salvador refreshing the page like it's a scratch ticket",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXELONMARS-99",
+      "title": "Elon Musk sets foot on Mars",
+      "subtitle": "Before 2099",
+      "yes_sub_title": "Mars",
+      "no_sub_title": "Mars",
+      "payout": 9.09,
+      "tier": "orange",
+      "quip": "LeBron announcing he will suit up for the 2044 Olympics",
+      "yes_price": "0.1100",
+      "volume": 126532.05,
+      "category": "Science and Technology",
+      "close_time": "2099-08-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXELONMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "first post from the surface is a dog meme and it buffers for fourteen minutes",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i'd watch that landing stream live and hate myself the entire time",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "\"Mars. incredible place. no regulators. no unions. i love it here\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "someone check the return ticket",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "a man standing on another planet is sick and i won't be normal about it",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "LeBron announcing he will suit up for the 2044 Olympics",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "$9.09 to watch the richest man permanently leave the building",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Earth throwing the quietest going away party in recorded history",
+          "mode": 7,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1593064",
+      "title": "Wubby's 24 Hour Tag wins Best Streamed Event",
+      "subtitle": "",
+      "payout": 11.11,
+      "tier": "orange",
+      "quip": "tag. the recess game. for a full day. genuinely beautiful stuff",
+      "yes_price": "0.0900",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2026-11-27T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/tsa-event-2026-11-12?marketSlug=tac-tsa-event-2026-11-12-24htag",
+      "platform": "polymarket_us",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i watched four hours of grown men hiding in a warehouse and regret none of it",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "tag. the recess game. for a full day. genuinely beautiful stuff",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "recess finally got funding",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "acceptance speech runs forty minutes and gets demonetized halfway through",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "this is the Pro Bowl except somebody actually tries",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "somewhere a Nielsen executive quietly shuts his laptop and walks into the sea",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "$11.11, roughly the hourly wage of being it",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the Oscars could never, they'd need a seating chart and three lawyers",
+          "mode": 7,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXSATOSHIBTCYEAR-27",
+      "title": "Satoshi moves some Bitcoin before 2027",
+      "subtitle": "Before 2027",
+      "yes_sub_title": "Before 2027",
+      "no_sub_title": "Before 2027",
+      "payout": 25.0,
+      "tier": "red",
+      "quip": "Keyser S\u00f6ze walking out of the precinct and losing the limp",
+      "yes_price": "0.0400",
+      "volume": 1102107.75,
+      "category": "Crypto",
+      "close_time": "2027-01-01T05:00:00Z",
+      "url": "https://kalshi.com/markets/KXSATOSHIBTCYEAR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 136.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "entire market liquidates in nine minutes and the guy was just testing a password",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i'd like to formally apologize for everything i said about that wallet",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "\"hey sorry, wrong button,\" posted from a forum account last active in 2009",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "the ghost checks his mail",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "Keyser S\u00f6ze walking out of the precinct and losing the limp",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Jordan unretiring by fax, except your rent is riding on the fax",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "$25 on a wallet that hasn't twitched since the first Obama inauguration",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "a dormant address waking up would be the most dramatic moment finance ever gets",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "KXTRUMPSAY-26NOV09-PRED",
+      "title": "Trump says \"prediction market\" out loud",
+      "subtitle": "Before Nov 9, 2026",
+      "yes_sub_title": "Prediction Market / Predictive Market",
+      "no_sub_title": "Prediction Market / Predictive Market",
+      "payout": 50.0,
+      "tier": "red",
+      "quip": "Madden learning one new stat in 2004 and saying it ninety times a quarter",
+      "yes_price": "0.0200",
+      "volume": 10010.13,
+      "category": "Mentions",
+      "close_time": "2026-11-09T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXTRUMPSAY?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 151.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "\"the predictive markets. they predict. nobody has predicted like this before\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "i'm less shocked by this than by him nailing a three syllable word",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Don Jr explains it on the plane and it's in every rally by Thursday",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "new favorite phrase unlocked",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "Madden learning one new stat in 2004 and saying it ninety times a quarter",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "this is precisely how bigly started, and look what that did to us",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "fifty bucks for two words. the man contains astonishing range",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "watching a 79 year old discover fresh jargon live is electric television",
+          "mode": 3,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1446808",
+      "title": "Digger wins Best Costume Design",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "i have not seen Digger and i will be extremely loud about its lapels",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-03-29T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-03-14-2027-bestcostume?marketSlug=tac-oscars-03-14-2027-bestcostume-digger",
+      "platform": "polymarket_us",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "i have not seen Digger and i will be extremely loud about its lapels",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "winner thanks a man who hand dyed 400 yards of wool in a garage",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "costume twitter goes nuclear",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "$100 for a film called Digger, which sounds like a Bond villain's nephew",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "the Dune sandwear industrial complex finally drops a round",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "a 16 seed cutting down nets while the broadcast cuts to a truck ad",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "costume design is the one craft category nobody can fake and i will die here",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "the period drama lobby weeping directly into their corsets",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    }
+  ]
+}
