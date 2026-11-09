@@ -67,10 +67,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-09T23:08:51.000976+00:00",
+          "tweet_id": "2119930242152509605",
+          "reply_tweet_id": "2119930243742101741"
         },
         "telegram_channel": {
           "posted": false,
@@ -81,6 +81,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "18435551",
+        "page": "https://www.pexels.com/photo/traffic-in-a-city-18435551/",
+        "photographer": "aboodi vesakaran",
+        "license": "Pexels License",
+        "phrases": [
+          "truck stop night rain",
+          "empty highway dusk"
+        ],
+        "tokens": {
+          "input_tokens": 3408,
+          "output_tokens": 27
         }
       }
     },
