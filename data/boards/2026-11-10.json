@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-11-10T04:03:40.777454+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket_us": 5,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "KXNHLF10G-26NOV11NYRCGY-Y",
+      "title": "Somebody scores in the first 10 minutes tonight",
+      "subtitle": "NYR vs CGY (Nov 11)",
+      "yes_sub_title": "Goal in first 10 min",
+      "no_sub_title": "Goal in first 10 min",
+      "payout": 1.56,
+      "tier": "green",
+      "quip": "the Flying V coming out of retirement on the first shift",
+      "yes_price": "0.6400",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-14T00:30:00Z",
+      "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 31.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "beer guy hasn't even made it back to his seat yet",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i watch one period and go to bed. this is my window",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "puck drops, scoreboard moves",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "statistically 64 percent of all hockey occurs before the first TV timeout",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "Calgary conceding before the anthem reverb has cleared the rafters",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "\"we talked all week about starting on time\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "like a college team taking the opening kickoff to the house",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "the Flying V coming out of retirement on the first shift",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2113516",
+      "title": "Theo James is the next James Bond",
+      "subtitle": "",
+      "payout": 2.04,
+      "tier": "green",
+      "quip": "first scene he orders a martini and the bartender says sir this is a Soho House",
+      "yes_price": "0.4900",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/nextbond-2026-12-31?marketSlug=njbc-nextbond-2026-12-31-thejam",
+      "platform": "polymarket_us",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "i watched an entire season of television for this man's jawline alone",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "first scene he orders a martini and the bartender says sir this is a Soho House",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "\"the name's James. also James\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "hot guy gets job",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "every other screen test is now a very expensive home video",
+          "mode": 7,
+          "score": 6.5
+        },
+        {
+          "quip": "White Lotus to Aston Martin, fastest pipeline in Europe",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "finally a Bond who could plausibly ruin my entire life",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "49 cents of Britishness and the full $2.04 of cheekbone",
+          "mode": 5,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1445903",
+      "title": "Paul Giamatti wins Best Supporting Actor",
+      "subtitle": "",
+      "payout": 3.7,
+      "tier": "yellow",
+      "quip": "$3.70 is exactly what that bottle was worth in Sideways",
+      "yes_price": "0.2700",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-03-29T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-03-14-2027-bestsupacto?marketSlug=tac-oscars-03-14-2027-bestsupacto-paugia",
+      "platform": "polymarket_us",
+      "score": 38.0,
+      "quip_alts": [
+        {
+          "quip": "i will absolutely cry when he thanks his mother",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "no merlot at the afterparty",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "finally, the angry man wins",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "he gets eleven seconds, then the orchestra tries him and loses",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "the Academy cannot resist a tired man in a cardigan",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "Giamatti yelling is a renewable national resource and we waste it",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "\"i am not drinking any more supporting roles\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "$3.70 is exactly what that bottle was worth in Sideways",
+          "mode": 5,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNYCSNOWXMAS-25DEC26-0",
+      "title": "It snows in NYC on Christmas",
+      "subtitle": "On Dec 25, 2026",
+      "yes_sub_title": "Above 0 inches",
+      "no_sub_title": "Above 0 inches",
+      "payout": 4.17,
+      "tier": "yellow",
+      "quip": "Home Alone was filmed in a climate we no longer have access to",
+      "yes_price": "0.2400",
+      "volume": 136.13,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-26T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXNYCSNOWXMAS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 89.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i'd take a blizzard over three hours of my uncle's opinions",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "one flake hits Midtown and 400 people stop walking to film it",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "slush by noon",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "Jersey gets six inches and we get a damp sidewalk",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "snow on Christmas is the last miracle i'm still signed up for",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "Home Alone was filmed in a climate we no longer have access to",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "NY1 guy crouched in a parking lot with a ruler and a dream",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "$4.17 buys you one (1) festive coffee and zero (0) gloves",
+          "mode": 5,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1322706",
+      "title": "Mortgage rates fall to 6.90% this year",
+      "subtitle": "",
+      "payout": 6.25,
+      "tier": "yellow",
+      "quip": "your dad explaining he locked in at 18 percent and enjoyed it",
+      "yes_price": "0.1600",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/usmort30-lw-yr-2026-12-31?marketSlug=pmmsc-usmort30-lw-yr-2026-12-31-lte6pt90",
+      "platform": "polymarket_us",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "six ninety. nice",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "i will still be renting and my walls will still be paper",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Zillow becomes a dating app again, guys posting kitchens as thirst traps",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "your dad explaining he locked in at 18 percent and enjoyed it",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "the Big Short guy slowly turning his head toward the camera",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "a tenth of a point is a whole vacation, i'm serious",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "$6.25 payout does not cover the appraisal fee or your dignity",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"rates are coming down\" he says, for the fourth straight year",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNEXTDEF-29-RDES",
+      "title": "DeSantis becomes the next Secretary of Defense",
+      "subtitle": "Next Secretary of Defense",
+      "yes_sub_title": "Ron DeSantis",
+      "no_sub_title": "Ron DeSantis",
+      "payout": 9.09,
+      "tier": "orange",
+      "quip": "the Navy did absolutely nothing to earn this",
+      "yes_price": "0.1100",
+      "volume": 16938.18,
+      "category": "Politics",
+      "close_time": "2029-01-20T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXNEXTDEF?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 101.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "first Pentagon briefing opens with a slideshow about Florida math scores",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "the white boots return to active duty",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Tallahassee goes to war",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "the Navy did absolutely nothing to earn this",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "i'd pay money to watch him do a flight deck handshake line",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "\"we will not comply\" he says, to the building he runs",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "a SecDef who has already gone to war with a theme park",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "$9.09 and a pair of extremely tall boots",
+          "mode": 5,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-425812",
+      "title": "Marco Rubio wins the 2028 election",
+      "subtitle": "",
+      "payout": 9.09,
+      "tier": "orange",
+      "quip": "inaugural address pauses for a water bottle. the Mall goes insane",
+      "yes_price": "0.1100",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2028-11-22T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/usp-2028-11-07?marketSlug=ewc-usp-2028-11-07-marrub",
+      "platform": "polymarket_us",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i can't believe he's still here and honestly neither can he",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "inaugural address pauses for a water bottle. the Mall goes insane",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "the Poland Spring finally reaches the Resolute Desk",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "little Marco, big desk",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "every man who lost to Trump gets his turn eventually",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "\"let me just... excuse me... one second here...\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "a comeback nobody requested and i respect it completely",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "$9.09 to watch a 2016 debate clip become a presidency",
+          "mode": 5,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXIPHONERELEASE-IPHONE18-27FEB01",
+      "title": "Apple ships the iPhone 18 by early 2027",
+      "subtitle": "iPhone 18",
+      "yes_sub_title": "Before February 2027",
+      "no_sub_title": "Before February 2027",
+      "payout": 25.0,
+      "tier": "red",
+      "quip": "your 17 already lives in a drawer next to a dead vape",
+      "yes_price": "0.0400",
+      "volume": 69173.4,
+      "category": "Financials",
+      "close_time": "2027-02-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXIPHONERELEASE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 126.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "it's thinner, the camera bump is worse, you pre-order anyway",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "my phone is three years old and i bring it up unprompted",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "\"and we think you're going to love it\"",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "number goes up yearly",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "$25 payout against a $1,400 phone, the math is stunning",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "your 17 already lives in a drawer next to a dead vape",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "Tim Cook walking out in the quarter zip of destiny",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "new color. i'm in. please don't talk to me",
+          "mode": 3,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXBTCMAX100-26-NOV",
+      "title": "Bitcoin is above $100K by next December",
+      "subtitle": "2026",
+      "yes_sub_title": "Before December 2026",
+      "no_sub_title": "Before December 2026",
+      "payout": 50.0,
+      "tier": "red",
+      "quip": "Saylor in the villain lair, lights off, suspiciously calm",
+      "yes_price": "0.0200",
+      "volume": 321300.64,
+      "category": "Crypto",
+      "close_time": "2026-12-01T05:00:00Z",
+      "url": "https://kalshi.com/markets/KXBTCMAX100?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 126.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "my cost basis remains an open police investigation",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "laser eyes come out of storage, dusty but fully operational",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "six figures or therapy",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "Saylor in the villain lair, lights off, suspiciously calm",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "the guy who sold at 34k is still posting through it",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we're still early\" he types from his mother's kitchen",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "$50 for a number we have already visited twice",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "i love six figures. i love them so much it scares people",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1446315",
+      "title": "Project Hail Mary wins Best Casting",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "like handing a Gold Glove to the actual baseball",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2027-03-29T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-03-14-2027-bestcast?marketSlug=tac-oscars-03-14-2027-bestcast-prohai",
+      "platform": "polymarket_us",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "fist my bump",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Rocky accepts in a tiny tuxedo and the room absolutely loses it",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i read the book twice and i will be unbearable about this",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "like handing a Gold Glove to the actual baseball",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "\"question? question?\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "casting Gosling as a sad science teacher is simply correct",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "$100 for an award they invented last Tuesday",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "casting directors get one trophy and it goes to a space rock",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    }
+  ]
+}

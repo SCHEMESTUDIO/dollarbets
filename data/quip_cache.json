@@ -1,109 +1,4 @@
 {
-  "SB-96165FD4": {
-    "title": "Sabres skate past Blue Jackets by two",
-    "quip": "Tage Thompson is six-foot-six of bad news",
-    "cached_at": "2026-11-06T02:04:59.319787+00:00"
-  },
-  "SB-6B2C0E26": {
-    "title": "Predators steal one in Denver",
-    "quip": "Saros has made a career out of ruining MacKinnon's night",
-    "cached_at": "2026-11-06T02:04:59.319787+00:00"
-  },
-  "SB-75195AD6": {
-    "title": "Cavs-Sixers track meet clears 240",
-    "quip": "Mitchell and Maxey don't believe in defensive stops",
-    "cached_at": "2026-11-06T02:04:59.319787+00:00"
-  },
-  "SB-605831B3": {
-    "title": "Flames burn Ducks by two or more",
-    "quip": "Anaheim's road trips end the way Oregon Trail does",
-    "cached_at": "2026-11-06T02:04:59.319787+00:00"
-  },
-  "SB-24E634C6": {
-    "title": "Jazz upset Mavericks in Dallas",
-    "quip": "Lauri Markkanen walks in and empties the clip",
-    "cached_at": "2026-11-06T02:04:59.319787+00:00"
-  },
-  "SB-C5EAF2AB": {
-    "title": "Raiders shock 49ers in the Bay",
-    "quip": "Maxx Crosby plays every snap like it's personal",
-    "cached_at": "2026-11-06T02:04:59.319787+00:00"
-  },
-  "SB-4198F57F": {
-    "title": "Warriors bury Heat by 21+",
-    "quip": "Steph hits seven in the third and Spo calls everything",
-    "cached_at": "2026-11-06T02:04:59.319787+00:00"
-  },
-  "SB-38448A20": {
-    "title": "Eastern Michigan stuns Xavier at the Cintas",
-    "quip": "Eagles roll into Cincinnati like the bus from Hoosiers",
-    "cached_at": "2026-11-06T02:04:59.319787+00:00"
-  },
-  "SB-DF3D14E1": {
-    "title": "Kings stun the Spurs in Sacramento",
-    "quip": "light the beam, bury Wemby's highlight reel",
-    "cached_at": "2026-11-06T02:05:07.192453+00:00"
-  },
-  "SB-EFAF04E9": {
-    "title": "Eastern Washington shocks Oregon in Eugene",
-    "quip": "the Eagles fly out of Cheney with Duck feathers",
-    "cached_at": "2026-11-06T02:05:07.192453+00:00"
-  },
-  "SB-110E86AF": {
-    "title": "American Eagles topple Clemson in Death Valley",
-    "quip": "a DC commuter school rolls Dabo's rock",
-    "cached_at": "2026-11-06T02:05:07.192453+00:00"
-  },
-  "SB-01B6DA22": {
-    "title": "Osaka derby stays locked under three goals",
-    "quip": "Gamba and Cerezo treat the ball like unexploded ordnance",
-    "cached_at": "2026-11-06T02:05:16.639491+00:00"
-  },
-  "SB-6E6C06BD": {
-    "title": "Julia Igel upsets Kayla Allen",
-    "quip": "Igel writing her own Million Dollar Baby third act",
-    "cached_at": "2026-11-06T02:05:16.639491+00:00"
-  },
-  "SB-67231478": {
-    "title": "Connal McDonald shocks Lucas Roehrig",
-    "quip": "McDonald arriving like a Scottish Rocky Balboa sequel nobody greenlit",
-    "cached_at": "2026-11-06T02:05:16.639491+00:00"
-  },
-  "SB-9296B1C5": {
-    "title": "Rangers keep it close against the Flyers tonight",
-    "quip": "Shesterkin turns the Garden into a phone booth",
-    "cached_at": "2026-11-06T02:05:28.450610+00:00"
-  },
-  "SB-3169C39D": {
-    "title": "Penguins stay within a goal spill of the Bruins",
-    "quip": "Crosby doesn't do blowouts, even at 38",
-    "cached_at": "2026-11-06T02:05:28.450610+00:00"
-  },
-  "SB-82E02567": {
-    "title": "Warriors handle the Heat at Chase tonight",
-    "quip": "Curry sees Miami defense and starts humming",
-    "cached_at": "2026-11-06T02:05:28.450610+00:00"
-  },
-  "SB-375EAABE": {
-    "title": "Thunder roll past the Grizzlies in Memphis",
-    "quip": "SGA gets to the line before the anthem ends",
-    "cached_at": "2026-11-06T02:05:28.450610+00:00"
-  },
-  "SB-EFE01D69": {
-    "title": "Mercyhurst keeps it respectable against Notre Dame",
-    "quip": "the Lakers of Erie, Pennsylvania, demand garbage time dignity",
-    "cached_at": "2026-11-06T02:05:28.450610+00:00"
-  },
-  "SB-1C19CFA9": {
-    "title": "Timberwolves take care of the Pelicans",
-    "quip": "Ant Edwards against a Zion-shaped absence",
-    "cached_at": "2026-11-06T02:05:28.450610+00:00"
-  },
-  "SB-6C319EF3": {
-    "title": "Blue Jackets lose a one-goal nailbiter in Buffalo",
-    "quip": "two teams allergic to comfortable margins",
-    "cached_at": "2026-11-06T02:05:28.450610+00:00"
-  },
   "SB-5E366437": {
     "title": "Wyoming and Idaho State clear 150 in Laramie",
     "quip": "altitude in Laramie does nothing for anyone's defense",
@@ -963,5 +858,95 @@
     "title": "Mavs beat the Pacers in Dallas",
     "quip": "Indiana's injury report reads like a hospital chart",
     "cached_at": "2026-11-09T18:18:01.052831+00:00"
+  },
+  "SB-54174BDB": {
+    "title": "Avalanche bury the Leafs by two or more tonight",
+    "quip": "MacKinnon treats Scotiabank Arena like a practice rink",
+    "cached_at": "2026-11-10T04:03:57.186587+00:00"
+  },
+  "SB-D2D9BF2B": {
+    "title": "Devils handle the Jets by two in Winnipeg",
+    "quip": "Hughes brothers doing chores in the cold",
+    "cached_at": "2026-11-10T04:03:57.186587+00:00"
+  },
+  "SB-BC6BA31B": {
+    "title": "Senators beat the Capitals by two tonight",
+    "quip": "Tkachuk bullying Ovechkin's farewell tour",
+    "cached_at": "2026-11-10T04:03:57.186587+00:00"
+  },
+  "SB-3B51B559": {
+    "title": "Portland Pilots spoil the party in Hawai'i",
+    "quip": "jet lag is a mid-major's best teammate",
+    "cached_at": "2026-11-10T04:03:57.186587+00:00"
+  },
+  "SB-BC801391": {
+    "title": "Jazz upset the Heat in Salt Lake",
+    "quip": "altitude and Lauri Markkanen, a cruel combo",
+    "cached_at": "2026-11-10T04:03:57.186587+00:00"
+  },
+  "SB-3930586E": {
+    "title": "Bucks shock the Knicks at the Garden",
+    "quip": "Giannis silencing Spike Lee in person",
+    "cached_at": "2026-11-10T04:03:57.186587+00:00"
+  },
+  "SB-09E8B991": {
+    "title": "Wyoming stuns North Carolina in Chapel Hill",
+    "quip": "Laramie cowboys riding into the Dean Dome uninvited",
+    "cached_at": "2026-11-10T04:03:57.186587+00:00"
+  },
+  "SB-AD8C947E": {
+    "title": "Maryland-Eastern Shore shocks Boston College",
+    "quip": "the Hawks writing their own Hoosiers ending",
+    "cached_at": "2026-11-10T04:03:57.186587+00:00"
+  },
+  "SB-BDBA688B": {
+    "title": "Warriors-Pelicans turns into a defensive rock fight",
+    "quip": "Steph Curry forgets the three-point line exists entirely",
+    "cached_at": "2026-11-10T04:03:57.186587+00:00"
+  },
+  "SB-98D5DC1A": {
+    "title": "Siena stuns Dayton inside UD Arena",
+    "quip": "the Red Scare crowd goes quiet like a church basement",
+    "cached_at": "2026-11-10T04:04:04.178226+00:00"
+  },
+  "SB-683B6C77": {
+    "title": "Knicks handle the Bucks at the Garden",
+    "quip": "Brunson in the Garden, business as usual",
+    "cached_at": "2026-11-10T04:04:21.702186+00:00"
+  },
+  "SB-44E4CC35": {
+    "title": "Wild beat Canadiens but keep it to one",
+    "quip": "Montreal's Bell Centre crowd gets its money's worth",
+    "cached_at": "2026-11-10T04:04:21.702186+00:00"
+  },
+  "SB-200D0E61": {
+    "title": "Celtics take care of the Heat in Boston",
+    "quip": "Tatum's house, Spoelstra's homework assignment",
+    "cached_at": "2026-11-10T04:04:21.702186+00:00"
+  },
+  "SB-A6156898": {
+    "title": "Red Wings keep it within a goal in St. Louis",
+    "quip": "Larkin's crew doesn't lose quietly",
+    "cached_at": "2026-11-10T04:04:21.702186+00:00"
+  },
+  "SB-20B68626": {
+    "title": "Nuggets stay within single digits in Houston",
+    "quip": "Jokic keeps every game walking distance",
+    "cached_at": "2026-11-10T04:04:21.702186+00:00"
+  },
+  "SB-1B36886F": {
+    "title": "Belmont beats Lipscomb in the Battle of the Boulevard",
+    "quip": "Nashville's quietest rivalry, loudest gym",
+    "cached_at": "2026-11-10T04:04:21.702186+00:00"
+  },
+  "SB-8F05B181": {
+    "title": "Avalanche beat the Leafs in Toronto",
+    "quip": "MacKinnon doing his usual damage on Bay Street",
+    "cached_at": "2026-11-10T04:04:21.702186+00:00"
+  },
+  "SB-71B0E528": {
+    "title": "App State keeps it respectable at Auburn",
+    "quip": "Mountaineers remember what they did to Michigan",
+    "cached_at": "2026-11-10T04:04:21.702186+00:00"
   }
 }
