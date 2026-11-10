@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-10T20:38:06.294681+00:00",
+          "tweet_id": "2120254693616001266",
+          "reply_tweet_id": "2120254695398674807"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "openverse",
+        "id": "3ad0adc0-83cf-4eb9-9a43-2d983385cec1",
+        "page": "https://commons.wikimedia.org/w/index.php?curid=44043652",
+        "photographer": "Victor Grigas",
+        "license": "CC BY-SA 3.0",
+        "phrases": [
+          "server room night",
+          "coastal highway dusk volcano"
+        ],
+        "tokens": {
+          "input_tokens": 5246,
+          "output_tokens": 37
         }
       }
     },
