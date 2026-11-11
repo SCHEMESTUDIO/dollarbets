@@ -1,79 +1,4 @@
 {
-  "SB-BDBCE7F1": {
-    "title": "Colts upset the Cowboys in Indy",
-    "quip": "Dallas defense still looking for its keys",
-    "cached_at": "2026-11-07T19:51:43.600838+00:00"
-  },
-  "SB-053534FB": {
-    "title": "Magic walk into Chase Center and win",
-    "quip": "Banchero doesn't care about Steph's warmup routine",
-    "cached_at": "2026-11-07T19:51:43.600838+00:00"
-  },
-  "SB-DE1D32EF": {
-    "title": "Pacers run the Nuggets off the floor",
-    "quip": "Jokic in transition defense is a slow-motion tragedy",
-    "cached_at": "2026-11-07T19:51:43.600838+00:00"
-  },
-  "SB-C75B0375": {
-    "title": "Cavs blow out the Knicks by 15+",
-    "quip": "Mitchell cooking Brunson until the fourth is garbage time",
-    "cached_at": "2026-11-07T19:51:43.600838+00:00"
-  },
-  "SB-CFB33B61": {
-    "title": "Rangers hang five on the Kraken in Seattle",
-    "quip": "Shesterkin shutout, Panarin hat trick, Seattle books an exorcist",
-    "cached_at": "2026-11-07T19:51:43.600838+00:00"
-  },
-  "SB-39E1D97D": {
-    "title": "Hawks-Nets defensive slog stays under 186",
-    "quip": "two bricklayers union locals meeting in Atlanta",
-    "cached_at": "2026-11-07T19:51:43.600838+00:00"
-  },
-  "SB-5D479D3E": {
-    "title": "Colorado State stuns Boise State on the blue-turf road trip",
-    "quip": "Rams playing spoiler on Ashton Jeanty highlight night",
-    "cached_at": "2026-11-07T19:51:50.985675+00:00"
-  },
-  "SB-2C31E7FB": {
-    "title": "Rutgers walks into Camp Randall and beats Wisconsin",
-    "quip": "Greg Schiano ruining Jump Around for 80,000 people",
-    "cached_at": "2026-11-07T19:51:50.985675+00:00"
-  },
-  "SB-BF5BCC81": {
-    "title": "Adelaide and Melbourne Victory grind out a low-scoring night",
-    "quip": "two goals max, and one's probably an own goal",
-    "cached_at": "2026-11-07T19:52:02.896043+00:00"
-  },
-  "SB-89DC7D45": {
-    "title": "KT Wiz handle Samsung Lions in Daegu",
-    "quip": "the Wiz bats wake up before the Lions bullpen does",
-    "cached_at": "2026-11-07T19:52:02.896043+00:00"
-  },
-  "SB-707D0E61": {
-    "title": "Cheavon Clarke upsets Chris Billam-Smith",
-    "quip": "Bournemouth's favorite son meets a very bad Tuesday",
-    "cached_at": "2026-11-07T19:52:02.896043+00:00"
-  },
-  "SB-38B34079": {
-    "title": "Amaury Massenaux shocks Sam Hickey",
-    "quip": "the Scotsman's homecoming party gets crashed by a Frenchman",
-    "cached_at": "2026-11-07T19:52:02.896043+00:00"
-  },
-  "SB-B14D93CC": {
-    "title": "Ivan Balaz stuns Damazion Vanhouter",
-    "quip": "Rocky II energy, except nobody bought a ticket",
-    "cached_at": "2026-11-07T19:52:02.896043+00:00"
-  },
-  "SB-DAE39E16": {
-    "title": "Saints handle the Browns tonight",
-    "quip": "Cleveland's quarterback room is still a group project",
-    "cached_at": "2026-11-07T19:52:09.943688+00:00"
-  },
-  "SB-357DBC78": {
-    "title": "Niagara runs past Morgan State tonight",
-    "quip": "Purple Eagles protect the nest in Lewiston",
-    "cached_at": "2026-11-07T19:52:09.943688+00:00"
-  },
   "SB-BD63F675": {
     "title": "Eagles handle the Giants tonight",
     "quip": "Saquon runs it back on his old employer",
@@ -828,5 +753,95 @@
     "title": "Red Wings hang tough in Florida",
     "quip": "Larkin surviving the Panthers' sunshine buzzsaw",
     "cached_at": "2026-11-11T15:50:59.979065+00:00"
+  },
+  "SB-1120BA57": {
+    "title": "Oilers skate past Flyers by two tonight",
+    "quip": "McDavid treats Philadelphia's blue line like a traffic cone drill",
+    "cached_at": "2026-11-11T22:27:56.173620+00:00"
+  },
+  "SB-9780DB85": {
+    "title": "Marquette upsets Michigan on the road",
+    "quip": "Shaka Smart's press eats Dusty May's bigs alive",
+    "cached_at": "2026-11-11T22:27:56.173620+00:00"
+  },
+  "SB-F58A40B9": {
+    "title": "Bruins beat Canadiens by two-plus tonight",
+    "quip": "the Original Six grudge, same ending as always",
+    "cached_at": "2026-11-11T22:27:56.173620+00:00"
+  },
+  "SB-0B4997BF": {
+    "title": "NC Central stuns VMI on the road",
+    "quip": "MEAC road warriors crash the Keydets' parade",
+    "cached_at": "2026-11-11T22:27:56.173620+00:00"
+  },
+  "SB-6A13E428": {
+    "title": "Celtics bury Raptors by 22-plus tonight",
+    "quip": "Tatum and Brown treating Scotiabank Arena like a shootaround",
+    "cached_at": "2026-11-11T22:27:56.173620+00:00"
+  },
+  "SB-26E81F1E": {
+    "title": "Sacramento State stings Central Michigan on the road",
+    "quip": "Hornets crashing the Chippewas' picnic in Mount Pleasant",
+    "cached_at": "2026-11-11T22:28:02.116544+00:00"
+  },
+  "SB-48F6DFA4": {
+    "title": "Oral Roberts shocks Tulsa across town",
+    "quip": "Golden Eagles robbing the Golden Hurricane of its own nickname",
+    "cached_at": "2026-11-11T22:28:02.116544+00:00"
+  },
+  "SB-E3A8D3D9": {
+    "title": "Timr\u00e5 upset V\u00e4xj\u00f6 Lakers on the road tonight",
+    "quip": "Timr\u00e5 packing Norrland spite in the carry-on",
+    "cached_at": "2026-11-11T22:28:13.794580+00:00"
+  },
+  "SB-E32F2BCD": {
+    "title": "Tappara beat HIFK by two or more",
+    "quip": "Nokia Arena hospitality ends at the blue line",
+    "cached_at": "2026-11-11T22:28:13.794580+00:00"
+  },
+  "SB-316AA99F": {
+    "title": "HPK handle Jukurit by a two-goal cushion",
+    "quip": "H\u00e4meenlinna's finest making Mikkeli regret the bus ride",
+    "cached_at": "2026-11-11T22:28:13.794580+00:00"
+  },
+  "SB-24BB8067": {
+    "title": "SaiPa beat Ilves by multiple goals tonight",
+    "quip": "Lappeenranta remembers every single thing Tampere said",
+    "cached_at": "2026-11-11T22:28:13.794580+00:00"
+  },
+  "SB-520D135F": {
+    "title": "Djurg\u00e5rden stun F\u00e4rjestad in Karlstad",
+    "quip": "Stockholm's oldest grudge takes the train west",
+    "cached_at": "2026-11-11T22:28:13.794580+00:00"
+  },
+  "SB-D84DE867": {
+    "title": "Sri Lanka stun Pakistan in the Test",
+    "quip": "spin, patience, and a Prabath Jayasuriya fever dream",
+    "cached_at": "2026-11-11T22:28:13.794580+00:00"
+  },
+  "SB-7769AE92": {
+    "title": "Schramm shocks Aguilar in the ring",
+    "quip": "the Rocky steps, but in Buenos Aires",
+    "cached_at": "2026-11-11T22:28:13.794580+00:00"
+  },
+  "SB-4EC38D5E": {
+    "title": "Sharks keep it close against the Penguins tonight",
+    "quip": "Macklin Celebrini doesn't do blowouts anymore",
+    "cached_at": "2026-11-11T22:28:22.462168+00:00"
+  },
+  "SB-B12335E9": {
+    "title": "Michigan handles Marquette at home",
+    "quip": "Shaka Smart's press meets Crisler Center noise",
+    "cached_at": "2026-11-11T22:28:22.462168+00:00"
+  },
+  "SB-8A631169": {
+    "title": "Flyers hang tough with the Oilers in Edmonton",
+    "quip": "Tortorella teams don't leak six to McDavid",
+    "cached_at": "2026-11-11T22:28:22.462168+00:00"
+  },
+  "SB-2E921DC3": {
+    "title": "West Georgia beats UNC Asheville outright",
+    "quip": "the Wolves eat in the Big South basement",
+    "cached_at": "2026-11-11T22:28:22.462168+00:00"
   }
 }
