@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-11T06:55:09.476623+00:00",
+          "tweet_id": "2120409980096405866",
+          "reply_tweet_id": "2120409981728006321"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "40910691",
+        "page": "https://www.pexels.com/photo/serene-landscape-with-bare-trees-in-iraq-40910691/",
+        "photographer": "khezez  | \u062e\u0632\u0627\u0632",
+        "license": "Pexels License",
+        "phrases": [
+          "vineyard rows dusk",
+          "empty theater seats dark"
+        ],
+        "tokens": {
+          "input_tokens": 3632,
+          "output_tokens": 30
         }
       }
     },
