@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-11-11T01:48:48.768504+00:00",
+  "board_date": "2026-11-11",
+  "link_mode": "reply",
+  "selections": [
+    {
+      "ticker": "pmus-2407979",
+      "rank": 1,
+      "selection_reason": "Quip is perfect standalone \u2014 the absurdity of diplomatic news breaking on Truth Social is immediately legible and the 11:1 payout makes it feel like a real gamble",
+      "title": "Trump meets Kim Jong Un next year",
+      "quip": "Seoul finding out from Truth Social like the rest of us",
+      "payout": 11.11,
+      "platform": "polymarket_us",
+      "tier": "orange",
+      "category": "World",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-2407979/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-2407979/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-2407979/og.png",
+      "content": {
+        "x_tweet_text": "Seoul finding out from Truth Social like the rest of us",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-11",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Trump meets Kim Jong Un next year</b>\n\n\u201c<i>Seoul finding out from Truth Social like the rest of us</i>\u201d\n\n$1 pays $11.11\n\n<a href=\"https://www.dollarbets.lol/share/pmus-2407979/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "KXSNOWXMASDET-25DEC26-0",
+      "rank": 2,
+      "selection_reason": "Specific Detroit/Hamtramck reference is culturally sharp, the quip works without the title, and Christmas snow betting at 1.89 is the right flavor of 'why are we betting this'",
+      "title": "It snows in Detroit on Christmas",
+      "quip": "Santa pulls into Hamtramck and immediately gets stuck behind a plow",
+      "payout": 1.89,
+      "platform": null,
+      "tier": "green",
+      "category": "Climate and Weather",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/KXSNOWXMASDET-25DEC26-0/",
+      "image_url": "https://www.dollarbets.lol/share/KXSNOWXMASDET-25DEC26-0/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/KXSNOWXMASDET-25DEC26-0/og.png",
+      "content": {
+        "x_tweet_text": "Santa pulls into Hamtramck and immediately gets stuck behind a plow",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-11",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>It snows in Detroit on Christmas</b>\n\n\u201c<i>Santa pulls into Hamtramck and immediately gets stuck behind a plow</i>\u201d\n\n$1 pays $1.89\n\n<a href=\"https://www.dollarbets.lol/share/KXSNOWXMASDET-25DEC26-0/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-1445920",
+      "rank": 3,
+      "selection_reason": "today's filthy little longshot \u2014 the board's own hero pick",
+      "title": "Miles Teller wins Best Supporting Actor",
+      "quip": "the Academy would hand it to a horse before this happens",
+      "payout": 100.0,
+      "platform": "polymarket_us",
+      "tier": "purple",
+      "category": "Entertainment",
+      "card_variant": "ticket",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1445920/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1445920/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1445920/og.png",
+      "content": {
+        "x_tweet_text": "the Academy would hand it to a horse before this happens",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-11",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Miles Teller wins Best Supporting Actor</b>\n\n\u201c<i>the Academy would hand it to a horse before this happens</i>\u201d\n\n$1 pays $100\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1445920/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    }
+  ]
+}
