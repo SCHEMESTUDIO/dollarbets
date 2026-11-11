@@ -1,170 +1,170 @@
 {
- "generated_at": "2026-11-10T04:03:40.776765+00:00",
+ "generated_at": "2026-11-11T01:47:34.696671+00:00",
  "markets": {
-  "KXNHLF10G-26NOV11NYRCGY-Y": {
-   "title": "Somebody scores in the first 10 minutes tonight",
+  "KXNHLF10G-26NOV11TBBUF-Y": {
+   "title": "A goal lands in the first 10 minutes tonight",
    "platform": "kalshi",
-   "payout": 1.56,
+   "payout": 1.59,
    "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Sports",
    "alts": {
     "kalshi": {
-     "ticker": "KXNHLF10G-26NOV11NYRCGY-Y",
-     "title": "Somebody scores in the first 10 minutes tonight",
+     "ticker": "KXNHLF10G-26NOV11TBBUF-Y",
+     "title": "A goal lands in the first 10 minutes tonight",
      "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 1.56,
+     "payout": 1.59,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-2113516": {
-   "title": "Theo James is the next James Bond",
-   "platform": "polymarket_us",
-   "payout": 2.04,
-   "url": "https://polymarket.us/event/nextbond-2026-12-31?marketSlug=njbc-nextbond-2026-12-31-thejam",
-   "category": "Entertainment",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-2113516",
-     "title": "Theo James is the next James Bond",
-     "url": "https://polymarket.us/event/nextbond-2026-12-31?marketSlug=njbc-nextbond-2026-12-31-thejam",
-     "payout": 2.04,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-1445903": {
-   "title": "Paul Giamatti wins Best Supporting Actor",
-   "platform": "polymarket_us",
-   "payout": 3.7,
-   "url": "https://polymarket.us/event/oscars-03-14-2027-bestsupacto?marketSlug=tac-oscars-03-14-2027-bestsupacto-paugia",
-   "category": "Entertainment",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-1445903",
-     "title": "Paul Giamatti wins Best Supporting Actor",
-     "url": "https://polymarket.us/event/oscars-03-14-2027-bestsupacto?marketSlug=tac-oscars-03-14-2027-bestsupacto-paugia",
-     "payout": 3.7,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "KXNYCSNOWXMAS-25DEC26-0": {
-   "title": "It snows in NYC on Christmas",
+  "KXSNOWXMASDET-25DEC26-0": {
+   "title": "It snows in Detroit on Christmas",
    "platform": "kalshi",
-   "payout": 4.17,
-   "url": "https://kalshi.com/markets/KXNYCSNOWXMAS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 1.89,
+   "url": "https://kalshi.com/markets/KXSNOWXMASDET?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Climate and Weather",
    "alts": {
     "kalshi": {
-     "ticker": "KXNYCSNOWXMAS-25DEC26-0",
-     "title": "It snows in NYC on Christmas",
-     "url": "https://kalshi.com/markets/KXNYCSNOWXMAS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 4.17,
+     "ticker": "KXSNOWXMASDET-25DEC26-0",
+     "title": "It snows in Detroit on Christmas",
+     "url": "https://kalshi.com/markets/KXSNOWXMASDET?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 1.89,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-1322706": {
-   "title": "Mortgage rates fall to 6.90% this year",
+  "pmus-853933": {
+   "title": "Ezra Frech finishes runner-up on Dancing With The Stars",
    "platform": "polymarket_us",
-   "payout": 6.25,
-   "url": "https://polymarket.us/event/usmort30-lw-yr-2026-12-31?marketSlug=pmmsc-usmort30-lw-yr-2026-12-31-lte6pt90",
-   "category": "Other",
+   "payout": 4.55,
+   "url": "https://polymarket.us/event/dwts-s35-2-2026-11-17?marketSlug=rtc-dwts-s35-2-2026-11-17-ezrfre",
+   "category": "Science and Technology",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1322706",
-     "title": "Mortgage rates fall to 6.90% this year",
-     "url": "https://polymarket.us/event/usmort30-lw-yr-2026-12-31?marketSlug=pmmsc-usmort30-lw-yr-2026-12-31-lte6pt90",
-     "payout": 6.25,
+     "ticker": "pmus-853933",
+     "title": "Ezra Frech finishes runner-up on Dancing With The Stars",
+     "url": "https://polymarket.us/event/dwts-s35-2-2026-11-17?marketSlug=rtc-dwts-s35-2-2026-11-17-ezrfre",
+     "payout": 4.55,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXNEXTDEF-29-RDES": {
-   "title": "DeSantis becomes the next Secretary of Defense",
-   "platform": "kalshi",
-   "payout": 9.09,
-   "url": "https://kalshi.com/markets/KXNEXTDEF?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Politics",
-   "alts": {
-    "kalshi": {
-     "ticker": "KXNEXTDEF-29-RDES",
-     "title": "DeSantis becomes the next Secretary of Defense",
-     "url": "https://kalshi.com/markets/KXNEXTDEF?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 9.09,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-425812": {
-   "title": "Marco Rubio wins the 2028 election",
+  "pmus-1941591": {
+   "title": "OpenAI confirms an IPO by early 2027",
    "platform": "polymarket_us",
-   "payout": 9.09,
-   "url": "https://polymarket.us/event/usp-2028-11-07?marketSlug=ewc-usp-2028-11-07-marrub",
+   "payout": 4.55,
+   "url": "https://polymarket.us/event/openai?marketSlug=ipcc-openai-2027-03-31",
+   "category": "Science and Technology",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-1941591",
+     "title": "OpenAI confirms an IPO by early 2027",
+     "url": "https://polymarket.us/event/openai?marketSlug=ipcc-openai-2027-03-31",
+     "payout": 4.55,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-2407969": {
+   "title": "Russ Vought gets impeached by mid-2027",
+   "platform": "polymarket_us",
+   "payout": 5.26,
+   "url": "https://polymarket.us/event/congress-impeach-2027-06-30?marketSlug=pic-congress-impeach-2027-06-30-vought",
    "category": "World",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-425812",
-     "title": "Marco Rubio wins the 2028 election",
-     "url": "https://polymarket.us/event/usp-2028-11-07?marketSlug=ewc-usp-2028-11-07-marrub",
-     "payout": 9.09,
+     "ticker": "pmus-2407969",
+     "title": "Russ Vought gets impeached by mid-2027",
+     "url": "https://polymarket.us/event/congress-impeach-2027-06-30?marketSlug=pic-congress-impeach-2027-06-30-vought",
+     "payout": 5.26,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXIPHONERELEASE-IPHONE18-27FEB01": {
-   "title": "Apple ships the iPhone 18 by early 2027",
+  "pmus-1446829": {
+   "title": "The Odyssey wins Best Production Design",
+   "platform": "polymarket_us",
+   "payout": 7.69,
+   "url": "https://polymarket.us/event/oscars-03-14-2027-bestprod?marketSlug=tac-oscars-03-14-2027-bestprod-odysse",
+   "category": "Entertainment",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-1446829",
+     "title": "The Odyssey wins Best Production Design",
+     "url": "https://polymarket.us/event/oscars-03-14-2027-bestprod?marketSlug=tac-oscars-03-14-2027-bestprod-odysse",
+     "payout": 7.69,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-2407979": {
+   "title": "Trump meets Kim Jong Un next year",
+   "platform": "polymarket_us",
+   "payout": 11.11,
+   "url": "https://polymarket.us/event/meet-trump-kim?marketSlug=pintc-meet-trump-kim-2026-12-31",
+   "category": "World",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-2407979",
+     "title": "Trump meets Kim Jong Un next year",
+     "url": "https://polymarket.us/event/meet-trump-kim?marketSlug=pintc-meet-trump-kim-2026-12-31",
+     "payout": 11.11,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXTRDBAN-25DEC31-27": {
+   "title": "Congress bans its own stock trading by next year",
    "platform": "kalshi",
-   "payout": 25.0,
-   "url": "https://kalshi.com/markets/KXIPHONERELEASE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Financials",
+   "payout": 18.18,
+   "url": "https://kalshi.com/markets/KXTRDBAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Politics",
    "alts": {
     "kalshi": {
-     "ticker": "KXIPHONERELEASE-IPHONE18-27FEB01",
-     "title": "Apple ships the iPhone 18 by early 2027",
-     "url": "https://kalshi.com/markets/KXIPHONERELEASE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 25.0,
+     "ticker": "KXTRDBAN-25DEC31-27",
+     "title": "Congress bans its own stock trading by next year",
+     "url": "https://kalshi.com/markets/KXTRDBAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 18.18,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXBTCMAX100-26-NOV": {
-   "title": "Bitcoin is above $100K by next December",
+  "KXHURRLANDNE3-31DEC26-YES": {
+   "title": "A Category 3 hurricane hits the Northeast next year",
    "platform": "kalshi",
    "payout": 50.0,
-   "url": "https://kalshi.com/markets/KXBTCMAX100?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Crypto",
+   "url": "https://kalshi.com/markets/KXHURRLANDNE3?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Climate and Weather",
    "alts": {
     "kalshi": {
-     "ticker": "KXBTCMAX100-26-NOV",
-     "title": "Bitcoin is above $100K by next December",
-     "url": "https://kalshi.com/markets/KXBTCMAX100?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "ticker": "KXHURRLANDNE3-31DEC26-YES",
+     "title": "A Category 3 hurricane hits the Northeast next year",
+     "url": "https://kalshi.com/markets/KXHURRLANDNE3?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
      "payout": 50.0,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-1446315": {
-   "title": "Project Hail Mary wins Best Casting",
+  "pmus-1445920": {
+   "title": "Miles Teller wins Best Supporting Actor",
    "platform": "polymarket_us",
    "payout": 100.0,
-   "url": "https://polymarket.us/event/oscars-03-14-2027-bestcast?marketSlug=tac-oscars-03-14-2027-bestcast-prohai",
-   "category": "Science and Technology",
+   "url": "https://polymarket.us/event/oscars-03-14-2027-bestsupacto?marketSlug=tac-oscars-03-14-2027-bestsupacto-miltel",
+   "category": "Entertainment",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1446315",
-     "title": "Project Hail Mary wins Best Casting",
-     "url": "https://polymarket.us/event/oscars-03-14-2027-bestcast?marketSlug=tac-oscars-03-14-2027-bestcast-prohai",
+     "ticker": "pmus-1445920",
+     "title": "Miles Teller wins Best Supporting Actor",
+     "url": "https://polymarket.us/event/oscars-03-14-2027-bestsupacto?marketSlug=tac-oscars-03-14-2027-bestsupacto-miltel",
      "payout": 100.0,
      "same": true,
      "sim": 1.0

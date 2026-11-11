@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-11-11T01:48:23.895874+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "yellow": 10
+  },
+  "sport_mix": {
+    "NCAAF": 1,
+    "Multi": 9
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-71A5145D",
+      "title": "North Texas Mean Green wins + Kent State Golden Flashes +5.5",
+      "payout": 3.11,
+      "tier": "yellow",
+      "quip": "bread and butter",
+      "yes_price": "0.32",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623057898&selectionId=593458",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "North Texas Mean Green @ UTSA Roadrunners + Kent State Golden Flashes @ Bowling Green Falcons",
+      "market_type": "2-leg parlay",
+      "american_odds": 211,
+      "implied_probability": 0.321,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "North Texas Mean Green @ UTSA Roadrunners",
+          "pick": "North Texas Mean Green wins",
+          "odds": -130,
+          "implied_prob": "56%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623057898&selectionId=593458",
+          "commence_time": "2026-11-15T02:00:00Z"
+        },
+        {
+          "matchup": "Kent State Golden Flashes @ Bowling Green Falcons",
+          "pick": "Kent State Golden Flashes +5.5",
+          "odds": -132,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622676262&selectionId=2174196",
+          "commence_time": "2026-11-11T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-11T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-21F18608",
+      "title": "Boston Celtics -5.5 + Kent State Golden Flashes +5.5",
+      "payout": 3.11,
+      "tier": "yellow",
+      "quip": "business as usual",
+      "yes_price": "0.32",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623733468&selectionId=60427",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Boston Celtics @ Philadelphia 76ers + Kent State Golden Flashes @ Bowling Green Falcons",
+      "market_type": "2-leg parlay",
+      "american_odds": 211,
+      "implied_probability": 0.321,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Boston Celtics @ Philadelphia 76ers",
+          "pick": "Boston Celtics -5.5",
+          "odds": -130,
+          "implied_prob": "56%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623733468&selectionId=60427",
+          "commence_time": "2026-11-11T01:14:00Z"
+        },
+        {
+          "matchup": "Kent State Golden Flashes @ Bowling Green Falcons",
+          "pick": "Kent State Golden Flashes +5.5",
+          "odds": -132,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622676262&selectionId=2174196",
+          "commence_time": "2026-11-11T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-11T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-C6AD69AD",
+      "title": "Under 144.5 + Kent State Golden Flashes +5.5",
+      "payout": 3.11,
+      "tier": "yellow",
+      "quip": "the fundamentals",
+      "yes_price": "0.32",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624099475&selectionId=7017824",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Charleston Southern Buccaneers @ Wake Forest Demon Deacons + Kent State Golden Flashes @ Bowling Green Falcons",
+      "market_type": "2-leg parlay",
+      "american_odds": 211,
+      "implied_probability": 0.321,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Charleston Southern Buccaneers @ Wake Forest Demon Deacons",
+          "pick": "Under 144.5",
+          "odds": -130,
+          "implied_prob": "56%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624099475&selectionId=7017824",
+          "commence_time": "2026-11-11T00:00:00Z"
+        },
+        {
+          "matchup": "Kent State Golden Flashes @ Bowling Green Falcons",
+          "pick": "Kent State Golden Flashes +5.5",
+          "odds": -132,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622676262&selectionId=2174196",
+          "commence_time": "2026-11-11T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-11T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-96771FBD",
+      "title": "Washington St Cougars -7.5 + Kent State Golden Flashes +5.5",
+      "payout": 3.11,
+      "tier": "yellow",
+      "quip": "the boring middle",
+      "yes_price": "0.32",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624071581&selectionId=675922",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Washington St Cougars @ Duquesne Dukes + Kent State Golden Flashes @ Bowling Green Falcons",
+      "market_type": "2-leg parlay",
+      "american_odds": 211,
+      "implied_probability": 0.321,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington St Cougars @ Duquesne Dukes",
+          "pick": "Washington St Cougars -7.5",
+          "odds": -130,
+          "implied_prob": "56%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624071581&selectionId=675922",
+          "commence_time": "2026-11-11T00:00:00Z"
+        },
+        {
+          "matchup": "Kent State Golden Flashes @ Bowling Green Falcons",
+          "pick": "Kent State Golden Flashes +5.5",
+          "odds": -132,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622676262&selectionId=2174196",
+          "commence_time": "2026-11-11T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-11T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-5B8110F8",
+      "title": "Iona Gaels +6.5 + Kent State Golden Flashes +5.5",
+      "payout": 3.11,
+      "tier": "yellow",
+      "quip": "autopilot engaged",
+      "yes_price": "0.32",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624070200&selectionId=662739",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Iona Gaels @ Fordham Rams + Kent State Golden Flashes @ Bowling Green Falcons",
+      "market_type": "2-leg parlay",
+      "american_odds": 211,
+      "implied_probability": 0.321,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Iona Gaels @ Fordham Rams",
+          "pick": "Iona Gaels +6.5",
+          "odds": -130,
+          "implied_prob": "56%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624070200&selectionId=662739",
+          "commence_time": "2026-11-11T00:00:00Z"
+        },
+        {
+          "matchup": "Kent State Golden Flashes @ Bowling Green Falcons",
+          "pick": "Kent State Golden Flashes +5.5",
+          "odds": -132,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622676262&selectionId=2174196",
+          "commence_time": "2026-11-11T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-11T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-286451CC",
+      "title": "Villanova Wildcats -12.5 + Kent State Golden Flashes +5.5",
+      "payout": 3.11,
+      "tier": "yellow",
+      "quip": "no surprises here",
+      "yes_price": "0.32",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624072860&selectionId=675919",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "La Salle Explorers @ Villanova Wildcats + Kent State Golden Flashes @ Bowling Green Falcons",
+      "market_type": "2-leg parlay",
+      "american_odds": 211,
+      "implied_probability": 0.321,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "La Salle Explorers @ Villanova Wildcats",
+          "pick": "Villanova Wildcats -12.5",
+          "odds": -130,
+          "implied_prob": "56%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624072860&selectionId=675919",
+          "commence_time": "2026-11-11T00:00:00Z"
+        },
+        {
+          "matchup": "Kent State Golden Flashes @ Bowling Green Falcons",
+          "pick": "Kent State Golden Flashes +5.5",
+          "odds": -132,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622676262&selectionId=2174196",
+          "commence_time": "2026-11-11T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-11T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-09959357",
+      "title": "Troy Trojans +1.5 + Kent State Golden Flashes +5.5",
+      "payout": 3.11,
+      "tier": "yellow",
+      "quip": "water is wet",
+      "yes_price": "0.32",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624072449&selectionId=5145605",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Loyola Marymount Lions @ Troy Trojans + Kent State Golden Flashes @ Bowling Green Falcons",
+      "market_type": "2-leg parlay",
+      "american_odds": 211,
+      "implied_probability": 0.321,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Loyola Marymount Lions @ Troy Trojans",
+          "pick": "Troy Trojans +1.5",
+          "odds": -130,
+          "implied_prob": "56%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624072449&selectionId=5145605",
+          "commence_time": "2026-11-11T00:00:00Z"
+        },
+        {
+          "matchup": "Kent State Golden Flashes @ Bowling Green Falcons",
+          "pick": "Kent State Golden Flashes +5.5",
+          "odds": -132,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622676262&selectionId=2174196",
+          "commence_time": "2026-11-11T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-11T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-BDB0E192",
+      "title": "Rhode Island Rams -5.5 + Kent State Golden Flashes +5.5",
+      "payout": 3.11,
+      "tier": "yellow",
+      "quip": "just showing up",
+      "yes_price": "0.32",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624100466&selectionId=721613",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Maine Black Bears @ Rhode Island Rams + Kent State Golden Flashes @ Bowling Green Falcons",
+      "market_type": "2-leg parlay",
+      "american_odds": 211,
+      "implied_probability": 0.321,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Maine Black Bears @ Rhode Island Rams",
+          "pick": "Rhode Island Rams -5.5",
+          "odds": -130,
+          "implied_prob": "56%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624100466&selectionId=721613",
+          "commence_time": "2026-11-11T00:00:00Z"
+        },
+        {
+          "matchup": "Kent State Golden Flashes @ Bowling Green Falcons",
+          "pick": "Kent State Golden Flashes +5.5",
+          "odds": -132,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622676262&selectionId=2174196",
+          "commence_time": "2026-11-11T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-11T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-60540B06",
+      "title": "Virginia Tech Hokies +4.5 + Kent State Golden Flashes +5.5",
+      "payout": 3.11,
+      "tier": "yellow",
+      "quip": "no surprises here",
+      "yes_price": "0.32",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624059303&selectionId=708786",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Virginia Tech Hokies @ Iowa Hawkeyes + Kent State Golden Flashes @ Bowling Green Falcons",
+      "market_type": "2-leg parlay",
+      "american_odds": 211,
+      "implied_probability": 0.321,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Virginia Tech Hokies @ Iowa Hawkeyes",
+          "pick": "Virginia Tech Hokies +4.5",
+          "odds": -130,
+          "implied_prob": "56%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624059303&selectionId=708786",
+          "commence_time": "2026-11-11T00:01:25Z"
+        },
+        {
+          "matchup": "Kent State Golden Flashes @ Bowling Green Falcons",
+          "pick": "Kent State Golden Flashes +5.5",
+          "odds": -132,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622676262&selectionId=2174196",
+          "commence_time": "2026-11-11T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-11T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-6F242423",
+      "title": "Wright St Raiders -10.5 + Kent State Golden Flashes +5.5",
+      "payout": 3.11,
+      "tier": "yellow",
+      "quip": "the safe bet",
+      "yes_price": "0.32",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624070586&selectionId=705249",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Wright St Raiders @ Toledo Rockets + Kent State Golden Flashes @ Bowling Green Falcons",
+      "market_type": "2-leg parlay",
+      "american_odds": 211,
+      "implied_probability": 0.321,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Wright St Raiders @ Toledo Rockets",
+          "pick": "Wright St Raiders -10.5",
+          "odds": -130,
+          "implied_prob": "56%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624070586&selectionId=705249",
+          "commence_time": "2026-11-11T00:02:08Z"
+        },
+        {
+          "matchup": "Kent State Golden Flashes @ Bowling Green Falcons",
+          "pick": "Kent State Golden Flashes +5.5",
+          "odds": -132,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622676262&selectionId=2174196",
+          "commence_time": "2026-11-11T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-11T00:00:00Z"
+    }
+  ]
+}

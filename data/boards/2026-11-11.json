@@ -1,0 +1,597 @@
+{
+  "generated_at": "2026-11-11T01:47:34.697317+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 4,
+    "polymarket_us": 6,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "KXNHLF10G-26NOV11TBBUF-Y",
+      "title": "A goal lands in the first 10 minutes tonight",
+      "subtitle": "TB vs BUF (Nov 11)",
+      "yes_sub_title": "Goal in first 10 min",
+      "no_sub_title": "Goal in first 10 min",
+      "payout": 1.59,
+      "tier": "green",
+      "quip": "popcorn still in the microwave and it's already 1-0",
+      "yes_price": "0.6300",
+      "volume": 156.25,
+      "category": "Sports",
+      "close_time": "2026-11-14T00:00:00Z",
+      "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 61.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i have ten minutes to find the stream and i will use nine of them",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "popcorn still in the microwave and it's already 1-0",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "the first shift tax",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "i'm putting $1.59 on somebody forgetting to backcheck before the anthem echo dies",
+          "mode": 5,
+          "score": 5.5
+        },
+        {
+          "quip": "this is the hockey version of a kickoff return touchdown",
+          "mode": 6,
+          "score": 6
+        },
+        {
+          "quip": "computer. skip to minute eleven. i already know how this goes",
+          "mode": 4,
+          "score": 6
+        },
+        {
+          "quip": "Buffalo fans learning that the puck goes both directions",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "ten minutes of unhinged hockey is more commitment than most of my relationships",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXSNOWXMASDET-25DEC26-0",
+      "title": "It snows in Detroit on Christmas",
+      "subtitle": "On Dec 25, 2026",
+      "yes_sub_title": "Above 0 inches",
+      "no_sub_title": "Above 0 inches",
+      "payout": 1.89,
+      "tier": "green",
+      "quip": "Santa pulls into Hamtramck and immediately gets stuck behind a plow",
+      "yes_price": "0.5300",
+      "volume": 15.24,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-26T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXSNOWXMASDET?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 44.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "my uncle in Warren has already salted the driveway twice for nothing",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Santa pulls into Hamtramck and immediately gets stuck behind a plow",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "white Christmas, gray everything else",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "above zero inches means one flake and a Lions highlight counts",
+          "mode": 5,
+          "score": 6
+        },
+        {
+          "quip": "Cleveland is doing this too and nobody wrote it down",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "Bing Crosby wrote the song, Michigan does the actual paperwork",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "the last holiday tradition that hasn't been sponsored by anybody",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "\"it's not accumulating, it's a dusting.\" that's my dad, every year",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-853933",
+      "title": "Ezra Frech finishes runner-up on Dancing With The Stars",
+      "subtitle": "",
+      "payout": 4.55,
+      "tier": "yellow",
+      "quip": "losing the final is just the Buffalo Bills experience with sequins",
+      "yes_price": "0.2200",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2026-12-02T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/dwts-s35-2-2026-11-17?marketSlug=rtc-dwts-s35-2-2026-11-17-ezrfre",
+      "platform": "polymarket_us",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i have never watched one episode and i have strong opinions about Bruno",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "mirrorball slips away and he high jumps clean over the host",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "silver again, sort of",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "losing the final is just the Buffalo Bills experience with sequins",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "$4.55 on a man who can jump higher than your ceiling",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "a Paralympic gold medalist doing the paso doble is peak American television",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "beaten by somebody whose entire job is being on camera",
+          "mode": 7,
+          "score": 6.5
+        },
+        {
+          "quip": "\"ezra, that was... a journey.\" sir that was a quickstep",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1941591",
+      "title": "OpenAI confirms an IPO by early 2027",
+      "subtitle": "",
+      "payout": 4.55,
+      "tier": "yellow",
+      "quip": "the Facebook IPO except the product already knows about my therapist",
+      "yes_price": "0.2200",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2027-07-15T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/openai?marketSlug=ipcc-openai-2027-03-31",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "i will buy one share and bring it up at every dinner",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Sam rings the bell, the model watches, says nothing, remembers",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "my e-girl goes public",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "ticker OPEN, opens at $4.55, closes at the heat death of the universe",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "the Facebook IPO except the product already knows about my therapist",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Weyland Corp also had a very strong S-1, if memory serves",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "finally retail gets to lose money on something they actually use daily",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we are slightly concerned about shareholder value.\" cool. same, buddy",
+          "mode": 4,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2407969",
+      "title": "Russ Vought gets impeached by mid-2027",
+      "subtitle": "",
+      "payout": 5.26,
+      "tier": "yellow",
+      "quip": "19 cents on the man who wants OMB to have 19 employees",
+      "yes_price": "0.1900",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-07-15T03:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/congress-impeach-2027-06-30?marketSlug=pic-congress-impeach-2027-06-30-vought",
+      "platform": "polymarket_us",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "i had to look up which agency he is currently dismantling",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "impeached Thursday, back at his desk Monday, door locked from inside",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "impeaching the budget guy",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "the House suddenly remembering it was assigned homework",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "like benching the coordinator while the head coach keeps calling plays",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "19 cents on the man who wants OMB to have 19 employees",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Project 2025 definitely had a chapter about this exact afternoon",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "nothing wakes me up like a Tuesday afternoon impeachment vote",
+          "mode": 3,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1446829",
+      "title": "The Odyssey wins Best Production Design",
+      "subtitle": "",
+      "payout": 7.69,
+      "tier": "orange",
+      "quip": "production design is the offensive line award of the Oscars",
+      "yes_price": "0.1300",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-03-29T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-03-14-2027-bestprod?marketSlug=tac-oscars-03-14-2027-bestprod-odysse",
+      "platform": "polymarket_us",
+      "score": 53.0,
+      "quip_alts": [
+        {
+          "quip": "they built a real ship and sailed it and that rules completely",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "i'm driving three hours to whatever city still has the big screen",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Nolan thanks the carpenters, forgets four cast members, walks off",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "boats beat green screens",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "Homer finally gets a credit and a union card",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "production design is the offensive line award of the Oscars",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "sorry to the film that built one kitchen in Brooklyn",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "$7.69 for a set that cost nine figures. incredible value",
+          "mode": 5,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2407979",
+      "title": "Trump meets Kim Jong Un next year",
+      "subtitle": "",
+      "payout": 11.11,
+      "tier": "orange",
+      "quip": "Seoul finding out from Truth Social like the rest of us",
+      "yes_price": "0.0900",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2028-01-15T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/meet-trump-kim?marketSlug=pintc-meet-trump-kim-2026-12-31",
+      "platform": "polymarket_us",
+      "score": 48.0,
+      "quip_alts": [
+        {
+          "quip": "they hug at the DMZ and launch a joint memecoin by Friday",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i genuinely miss the summit era and i hate that about myself",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "\"he writes me beautiful letters. tremendous penmanship. nobody writes like him\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "letters are back, baby",
+          "mode": 9,
+          "score": 3
+        },
+        {
+          "quip": "a reunion tour nobody asked for that everybody watches anyway",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "eleven dollars says they step over the line again for the photo",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "Seoul finding out from Truth Social like the rest of us",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "the Rodman documentary quietly ordering a second season",
+          "mode": 8,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXTRDBAN-25DEC31-27",
+      "title": "Congress bans its own stock trading by next year",
+      "subtitle": "Before Jan 21, 2029",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before 2027",
+      "payout": 18.18,
+      "tier": "red",
+      "quip": "the committee met twice about it and bought Nvidia both times",
+      "yes_price": "0.0550",
+      "volume": 138158.8,
+      "category": "Politics",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXTRDBAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 129.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "my portfolio and Nancy's portfolio are not having the same decade",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "it passes and every spouse in Virginia develops a sudden trading hobby",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "turkeys, voting, christmas, etc",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "18 to 1 on lawmakers volunteering to become poorer",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "the committee met twice about it and bought Nvidia both times",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "like asking the refs to ban themselves from the betting pool",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "honestly i'd watch that floor debate with a beer, every single word",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "Mr Smith goes to Washington and immediately opens a Schwab account",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXHURRLANDNE3-31DEC26-YES",
+      "title": "A Category 3 hurricane hits the Northeast next year",
+      "subtitle": "in the Northeast United States \u00b7 Oct 6, 2026 through Dec 31, 2026",
+      "yes_sub_title": "Category 3 or higher landfall",
+      "no_sub_title": "Category 3 or higher landfall",
+      "payout": 50.0,
+      "tier": "red",
+      "quip": "that scene from the Perfect Storm except it's downtown Providence",
+      "yes_price": "0.0200",
+      "volume": 70658.28,
+      "category": "Climate and Weather",
+      "close_time": "2027-01-01T04:58:00Z",
+      "url": "https://kalshi.com/markets/KXHURRLANDNE3?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 139.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Florida finally gets to watch somebody else board up the windows",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "i've seen what a nor'easter does to my car and that was rain",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Boston harbor becomes Boston, briefly, and history repeats itself wetly",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "the Hamptons get a lesson",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "that scene from the Perfect Storm except it's downtown Providence",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "50 to 1 and Connecticut still won't move the patio furniture",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "a real hurricane hitting Hartford would be the most interesting thing ever to happen there",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we're getting some bands out here in Montauk, Jim.\" guy hugging a light pole",
+          "mode": 4,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1445920",
+      "title": "Miles Teller wins Best Supporting Actor",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "the Academy would hand it to a horse before this happens",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-03-29T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-03-14-2027-bestsupacto?marketSlug=tac-oscars-03-14-2027-bestsupacto-miltel",
+      "platform": "polymarket_us",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "i still think about him drumming until his hands bled and i'm not seeking help",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "not quite my tempo. okay actually that was the perfect tempo",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "he wins and JK Simmons stands up in the back and nods once",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "Rooster gets his flowers",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "a hundred dollars on this means i finally pay my brother back",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "the piano scene guy holding a gold statue would heal something in me",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "the Academy would hand it to a horse before this happens",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"i want to thank the bowling alley.\" miles. read the room",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    }
+  ]
+}
