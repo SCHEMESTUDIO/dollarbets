@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-12T07:31:35.482961+00:00",
+          "tweet_id": "2120781536496623965",
+          "reply_tweet_id": "2120781538375729639"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "40566714",
+        "page": "https://www.pexels.com/photo/stunning-horsehead-nebula-in-black-and-white-40566714/",
+        "photographer": "Dennis Ariel",
+        "license": "Pexels License",
+        "phrases": [
+          "empty theater seats dusk",
+          "starfield deep space night"
+        ],
+        "tokens": {
+          "input_tokens": 3854,
+          "output_tokens": 29
         }
       }
     }
