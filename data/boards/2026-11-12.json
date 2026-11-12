@@ -1,0 +1,597 @@
+{
+  "generated_at": "2026-11-12T16:39:11.712316+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 4,
+    "polymarket_us": 6,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "pmus-2113512",
+      "title": "Pierce Brosnan is the next James Bond",
+      "subtitle": "",
+      "payout": 2.04,
+      "tier": "green",
+      "quip": "like Favre unretiring except the Jets are MI6",
+      "yes_price": "0.4900",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/nextbond-2026-12-31?marketSlug=njbc-nextbond-2026-12-31-piebro",
+      "platform": "polymarket_us",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "the new gadget is a hip replacement that fires darts",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "i would absolutely watch a 72 year old Bond outrun a Prius",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "bring back the guy who drove with a cell phone steering wheel",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "nobody else wanted it",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "$2.04, roughly what his first martini cost in 1995",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Remington Steele erasure officially over, and we all suffer",
+          "mode": 7,
+          "score": 6
+        },
+        {
+          "quip": "like Favre unretiring except the Jets are MI6",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "Mamma Mia proved the man can hold a note AND a Walther",
+          "mode": 8,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2113524",
+      "title": "Jonathan Bailey is the next James Bond",
+      "subtitle": "",
+      "payout": 2.04,
+      "tier": "green",
+      "quip": "Bridgerton with a license",
+      "yes_price": "0.4900",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/nextbond-2026-12-31?marketSlug=njbc-nextbond-2026-12-31-jonbai",
+      "platform": "polymarket_us",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "the Bond girls are going to be SO safe",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "my mother has seen every episode this man has ever filmed",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "Fiyero with a license to kill and better cardio",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "Bridgerton with a license",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "like taking a tight end in the first round. inexplicable until it works",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "49 cents says the tux already fits",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "somewhere a guy is typing a very long comment about this",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "sincerely, the cheekbones have been ready for years",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2376254",
+      "title": "The GTA VI album sells 175k+ its first week",
+      "subtitle": "",
+      "payout": 2.86,
+      "tier": "green",
+      "quip": "175k sold, 174k playing while someone flattens a hot dog cart",
+      "yes_price": "0.3500",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/gtavialbum-2026-12-31?marketSlug=adwsc-gtavialbum-2026-12-31-gte175k",
+      "platform": "polymarket_us",
+      "score": 47.0,
+      "quip_alts": [
+        {
+          "quip": "every fake radio station in Vice City now a Billboard contender",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i will buy four copies and listen to exactly none of them",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "175k sold, 174k playing while someone flattens a hot dog cart",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the radio won",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "Rockstar invented a rapper and he's charting above real ones",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "yeah i'm into the new stuff. mostly what plays in the stolen taxi.",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "Spotify Wrapped is going to be humiliating for millions of men",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "like the halftime show outselling the team that hosted it",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1445733",
+      "title": "Werwulf wins Best Makeup and Hairstyling",
+      "subtitle": "",
+      "payout": 3.33,
+      "tier": "yellow",
+      "quip": "makeup and hair is the special teams unit of the Oscars",
+      "yes_price": "0.3000",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2027-03-29T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-03-14-2027-bestmakeup?marketSlug=tac-oscars-03-14-2027-bestmakeup-werwul",
+      "platform": "polymarket_us",
+      "score": 38.0,
+      "quip_alts": [
+        {
+          "quip": "Eggers accepts in a period-accurate wool cloak and says nothing",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i watch this category like it's the fourth quarter and i'm not sorry",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the Wolfman finally gets his flowers 85 years late",
+          "mode": 8,
+          "score": 6
+        },
+        {
+          "quip": "fur guys finally eating",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "$3.33 for prosthetic hair. that's three dollars of glue",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "makeup and hair is the special teams unit of the Oscars",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "condolences to whatever biopic turned a guy into a slightly older guy",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "practical effects nation, this is our Super Bowl",
+          "mode": 3,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-234499",
+      "title": "Midterm House turnout lands between 115 and 120 million",
+      "subtitle": "",
+      "payout": 4.55,
+      "tier": "yellow",
+      "quip": "Florida will somehow mail theirs twice and count it once",
+      "yes_price": "0.2200",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-01-15T00:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/hrep-to-2026-11-03?marketSlug=vtc-hrep-to-2026-11-03-115-120m",
+      "platform": "polymarket_us",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "here's me pretending i have any idea what 2018 turnout was",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the five million in that margin are all deciding at 6:40pm",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "120 million people and 119 million of them annoyed about parking",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "democracy, narrow band",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "like calling the exact attendance at a Thursday night Jets game",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Florida will somehow mail theirs twice and count it once",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "Steve Kornacki already has the khakis laid out for this",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "i love a number with a range. so much room to be correct",
+          "mode": 3,
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUEFANL1HBTTS-26NOV13BULISL-BTTS",
+      "title": "Bulgaria and Iceland both score in the first half",
+      "subtitle": "BUL vs ISL (Nov 13)",
+      "yes_sub_title": "1st Half: Both Teams To Score",
+      "no_sub_title": "1st Half: Both Teams To Score",
+      "payout": 5.56,
+      "tier": "yellow",
+      "quip": "Iceland has fewer people than Cleveland and scores whenever it wants",
+      "yes_price": "0.1800",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-15T19:45:00Z",
+      "url": "https://kalshi.com/markets/KXUEFANL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 79.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "the thunderclap goes off in minute 41 and i get goosebumps at work",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i have never watched Bulgarian football and i'm suddenly all the way in",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Iceland has fewer people than Cleveland and scores whenever it wants",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "two goals, one half",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "18 cents to see anything happen before the orange slices",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Sofia in November is a sentence, not a destination",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "like a MAC Tuesday where both offenses forget how to tackle",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "Mighty Ducks flying V, but the volcano commentator is doing the voiceover",
+          "mode": 8,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-205136",
+      "title": "A US-Iran deal dilutes Iran's uranium",
+      "subtitle": "",
+      "payout": 9.09,
+      "tier": "orange",
+      "quip": "\"we're gonna dilute it. tremendously diluted. nobody dilutes like us.\"",
+      "yes_price": "0.1100",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/us-iran-contnts-2026-?marketSlug=dipcc-us-iran-contnts-2026--dilut",
+      "platform": "polymarket_us",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "i had to look up what dilution means and i'm still unclear",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "somebody in a basement doing chemistry homework for the whole planet",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "like watering down the good bottle before your in-laws arrive",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "add water, press send",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "nine to one odds on a middle school chemistry set",
+          "mode": 5,
+          "score": 6
+        },
+        {
+          "quip": "Breaking Bad except everyone is cheering for the purity to drop",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we're gonna dilute it. tremendously diluted. nobody dilutes like us.\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "every centrifuge guy quietly updating his LinkedIn tonight",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXUAPFILES-26OCT27-26NOV15",
+      "title": "Trump releases new UFO files this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Nov 15, 2026",
+      "no_sub_title": "Before Nov 15, 2026",
+      "payout": 12.5,
+      "tier": "orange",
+      "quip": "900 page PDF, 880 pages of black rectangles, one blurry duck",
+      "yes_price": "0.0800",
+      "volume": 109.39,
+      "category": "Politics",
+      "close_time": "2026-11-15T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUAPFILES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "900 page PDF, 880 pages of black rectangles, one blurry duck",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "i will read every page at 2am and understand absolutely none of it",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Mulder has been holding this poster up since 1993",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "redacted, but vibes",
+          "mode": 9,
+          "score": 3
+        },
+        {
+          "quip": "12 dollars and fifty cents says it's a weather balloon again",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Nevada shrugs, Congress holds a hearing, nobody blinks",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "i want to believe and i am done being embarrassed about it",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "like a team finally posting the injury report in August",
+          "mode": 6,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27",
+      "title": "US signs a new Iran nuclear deal this year",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 18.87,
+      "tier": "red",
+      "quip": "like a trade that gets voided at the physical every single deadline",
+      "yes_price": "0.0530",
+      "volume": 2062233.49,
+      "category": "Politics",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "my notifications have taken me hostage over this exact sentence",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "handshake photo, two flags, one guy in the back on his phone",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "like a trade that gets voided at the physical every single deadline",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Geneva's busiest week",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "$18.87 and a signing pen that nobody gets to keep",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "Groundhog Day, except Bill Murray is a State Department envoy",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "the Nobel committee screening its calls all autumn",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "honestly sign anything, i am begging at this point",
+          "mode": 3,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNCAAFFIRSTTDTEAM-26NOV14ASUUCF-NONE",
+      "title": "Neither team scores a touchdown tonight",
+      "subtitle": "ASU vs UCF (Nov 14)",
+      "yes_sub_title": "No team",
+      "no_sub_title": "No team",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "the Jets have been rehearsing for this their entire franchise history",
+      "yes_price": "0.0100",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-16T20:30:00Z",
+      "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 54.0,
+      "_specificity": 5,
+      "quip_alts": [
+        {
+          "quip": "four hours of punts and a kicker gets the Gatorade bath",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i would watch every snap of this and text about it constantly",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "a 6-3 game in November sleet, nature healing itself",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "field goal kickers ascend",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "100 bucks for zero touchdowns. the only honest exchange rate left",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "defense wins championships and apparently also pays rent",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "the Jets have been rehearsing for this their entire franchise history",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "computer, skip to the fourth quarter. actually no, keep the punts.",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    }
+  ]
+}

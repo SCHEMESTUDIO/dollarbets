@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-11-12T16:40:04.606510+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 8,
+    "NHL": 2
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-22D08176",
+      "title": "Western Michigan Broncos wins + Florida Panthers wins",
+      "payout": 2.52,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20096201-1577651958-2348806687&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Western Michigan Broncos @ Fort Wayne Mastodons + Detroit Red Wings @ Florida Panthers",
+      "market_type": "2-leg parlay",
+      "american_odds": 152,
+      "implied_probability": 0.397,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Western Michigan Broncos @ Fort Wayne Mastodons",
+          "pick": "Western Michigan Broncos wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20096201-1577651958-2348806687&type=Single",
+          "commence_time": "2026-11-13T00:00:00Z"
+        },
+        {
+          "matchup": "Detroit Red Wings @ Florida Panthers",
+          "pick": "Florida Panthers wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076229-1575284557-2342468975&type=Single",
+          "commence_time": "2026-11-13T00:40:00Z"
+        }
+      ],
+      "close_time": "2026-11-13T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-22D08176",
+      "title": "Western Michigan Broncos wins + Detroit Red Wings +1.5",
+      "payout": 2.52,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20096201-1577651958-2348806687&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Western Michigan Broncos @ Fort Wayne Mastodons + Detroit Red Wings @ Florida Panthers",
+      "market_type": "2-leg parlay",
+      "american_odds": 152,
+      "implied_probability": 0.397,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Western Michigan Broncos @ Fort Wayne Mastodons",
+          "pick": "Western Michigan Broncos wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20096201-1577651958-2348806687&type=Single",
+          "commence_time": "2026-11-13T00:00:00Z"
+        },
+        {
+          "matchup": "Detroit Red Wings @ Florida Panthers",
+          "pick": "Detroit Red Wings +1.5",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076229-1575284561-2342468983&type=Single",
+          "commence_time": "2026-11-13T00:40:00Z"
+        }
+      ],
+      "close_time": "2026-11-13T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-0B0BB8C0",
+      "title": "Western Michigan Broncos wins + Winnipeg Jets +1.5",
+      "payout": 2.52,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20096201-1577651958-2348806687&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Western Michigan Broncos @ Fort Wayne Mastodons + Winnipeg Jets @ Dallas Stars",
+      "market_type": "2-leg parlay",
+      "american_odds": 152,
+      "implied_probability": 0.397,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Western Michigan Broncos @ Fort Wayne Mastodons",
+          "pick": "Western Michigan Broncos wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20096201-1577651958-2348806687&type=Single",
+          "commence_time": "2026-11-13T00:00:00Z"
+        },
+        {
+          "matchup": "Winnipeg Jets @ Dallas Stars",
+          "pick": "Winnipeg Jets +1.5",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076234-1575284952-2342470166&type=Single",
+          "commence_time": "2026-11-13T01:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-13T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-FC757F4B",
+      "title": "Florida Panthers wins + Winnipeg Jets +1.5",
+      "payout": 2.52,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20076229-1575284557-2342468975&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "NHL",
+      "matchup": "Detroit Red Wings @ Florida Panthers + Winnipeg Jets @ Dallas Stars",
+      "market_type": "2-leg parlay",
+      "american_odds": 152,
+      "implied_probability": 0.397,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Detroit Red Wings @ Florida Panthers",
+          "pick": "Florida Panthers wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076229-1575284557-2342468975&type=Single",
+          "commence_time": "2026-11-13T00:40:00Z"
+        },
+        {
+          "matchup": "Winnipeg Jets @ Dallas Stars",
+          "pick": "Winnipeg Jets +1.5",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076234-1575284952-2342470166&type=Single",
+          "commence_time": "2026-11-13T01:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-13T00:40:00Z"
+    },
+    {
+      "ticker": "PARLAY-FC757F4B",
+      "title": "Detroit Red Wings +1.5 + Winnipeg Jets +1.5",
+      "payout": 2.52,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.40",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20076229-1575284561-2342468983&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "NHL",
+      "matchup": "Detroit Red Wings @ Florida Panthers + Winnipeg Jets @ Dallas Stars",
+      "market_type": "2-leg parlay",
+      "american_odds": 152,
+      "implied_probability": 0.397,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Detroit Red Wings @ Florida Panthers",
+          "pick": "Detroit Red Wings +1.5",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076229-1575284561-2342468983&type=Single",
+          "commence_time": "2026-11-13T00:40:00Z"
+        },
+        {
+          "matchup": "Winnipeg Jets @ Dallas Stars",
+          "pick": "Winnipeg Jets +1.5",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076234-1575284952-2342470166&type=Single",
+          "commence_time": "2026-11-13T01:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-13T00:40:00Z"
+    },
+    {
+      "ticker": "PARLAY-9E00F8D9",
+      "title": "Pittsburgh Panthers wins + Western Michigan Broncos wins",
+      "payout": 2.55,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48753-4307276-6978581&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Florida State Seminoles @ Pittsburgh Panthers + Western Michigan Broncos @ Fort Wayne Mastodons",
+      "market_type": "2-leg parlay",
+      "american_odds": 155,
+      "implied_probability": 0.392,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Florida State Seminoles @ Pittsburgh Panthers",
+          "pick": "Pittsburgh Panthers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48753-4307276-6978581&type=Single",
+          "commence_time": "2026-11-14T00:00:00Z"
+        },
+        {
+          "matchup": "Western Michigan Broncos @ Fort Wayne Mastodons",
+          "pick": "Western Michigan Broncos wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20096201-1577651958-2348806687&type=Single",
+          "commence_time": "2026-11-13T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-13T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-F47E388E",
+      "title": "Pittsburgh Panthers wins + Florida Panthers wins",
+      "payout": 2.55,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48753-4307276-6978581&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Florida State Seminoles @ Pittsburgh Panthers + Detroit Red Wings @ Florida Panthers",
+      "market_type": "2-leg parlay",
+      "american_odds": 155,
+      "implied_probability": 0.392,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Florida State Seminoles @ Pittsburgh Panthers",
+          "pick": "Pittsburgh Panthers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48753-4307276-6978581&type=Single",
+          "commence_time": "2026-11-14T00:00:00Z"
+        },
+        {
+          "matchup": "Detroit Red Wings @ Florida Panthers",
+          "pick": "Florida Panthers wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076229-1575284557-2342468975&type=Single",
+          "commence_time": "2026-11-13T00:40:00Z"
+        }
+      ],
+      "close_time": "2026-11-13T00:40:00Z"
+    },
+    {
+      "ticker": "PARLAY-F47E388E",
+      "title": "Pittsburgh Panthers wins + Detroit Red Wings +1.5",
+      "payout": 2.55,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48753-4307276-6978581&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Florida State Seminoles @ Pittsburgh Panthers + Detroit Red Wings @ Florida Panthers",
+      "market_type": "2-leg parlay",
+      "american_odds": 155,
+      "implied_probability": 0.392,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Florida State Seminoles @ Pittsburgh Panthers",
+          "pick": "Pittsburgh Panthers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48753-4307276-6978581&type=Single",
+          "commence_time": "2026-11-14T00:00:00Z"
+        },
+        {
+          "matchup": "Detroit Red Wings @ Florida Panthers",
+          "pick": "Detroit Red Wings +1.5",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076229-1575284561-2342468983&type=Single",
+          "commence_time": "2026-11-13T00:40:00Z"
+        }
+      ],
+      "close_time": "2026-11-13T00:40:00Z"
+    },
+    {
+      "ticker": "PARLAY-8B0AA860",
+      "title": "Pittsburgh Panthers wins + Winnipeg Jets +1.5",
+      "payout": 2.55,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48753-4307276-6978581&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Florida State Seminoles @ Pittsburgh Panthers + Winnipeg Jets @ Dallas Stars",
+      "market_type": "2-leg parlay",
+      "american_odds": 155,
+      "implied_probability": 0.392,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Florida State Seminoles @ Pittsburgh Panthers",
+          "pick": "Pittsburgh Panthers wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48753-4307276-6978581&type=Single",
+          "commence_time": "2026-11-14T00:00:00Z"
+        },
+        {
+          "matchup": "Winnipeg Jets @ Dallas Stars",
+          "pick": "Winnipeg Jets +1.5",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076234-1575284952-2342470166&type=Single",
+          "commence_time": "2026-11-13T01:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-13T01:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-21FBC2FD",
+      "title": "Washington Huskies wins + Western Michigan Broncos wins",
+      "payout": 2.55,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.39",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48864-4328589-7019347&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Washington Huskies @ Michigan State Spartans + Western Michigan Broncos @ Fort Wayne Mastodons",
+      "market_type": "2-leg parlay",
+      "american_odds": 155,
+      "implied_probability": 0.392,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington Huskies @ Michigan State Spartans",
+          "pick": "Washington Huskies wins",
+          "odds": -165,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48864-4328589-7019347&type=Single",
+          "commence_time": "2026-11-14T21:15:00Z"
+        },
+        {
+          "matchup": "Western Michigan Broncos @ Fort Wayne Mastodons",
+          "pick": "Western Michigan Broncos wins",
+          "odds": -170,
+          "implied_prob": "63%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20096201-1577651958-2348806687&type=Single",
+          "commence_time": "2026-11-13T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-13T00:00:00Z"
+    }
+  ]
+}

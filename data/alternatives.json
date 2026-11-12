@@ -1,170 +1,178 @@
 {
- "generated_at": "2026-11-11T01:47:34.696671+00:00",
+ "generated_at": "2026-11-12T16:39:11.711689+00:00",
  "markets": {
-  "KXNHLF10G-26NOV11TBBUF-Y": {
-   "title": "A goal lands in the first 10 minutes tonight",
+  "pmus-2113512": {
+   "title": "Pierce Brosnan is the next James Bond",
+   "platform": "polymarket_us",
+   "payout": 2.04,
+   "url": "https://polymarket.us/event/nextbond-2026-12-31?marketSlug=njbc-nextbond-2026-12-31-piebro",
+   "category": "Entertainment",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-2113512",
+     "title": "Pierce Brosnan is the next James Bond",
+     "url": "https://polymarket.us/event/nextbond-2026-12-31?marketSlug=njbc-nextbond-2026-12-31-piebro",
+     "payout": 2.04,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-2113524": {
+   "title": "Jonathan Bailey is the next James Bond",
+   "platform": "polymarket_us",
+   "payout": 2.04,
+   "url": "https://polymarket.us/event/nextbond-2026-12-31?marketSlug=njbc-nextbond-2026-12-31-jonbai",
+   "category": "Science and Technology",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-2113524",
+     "title": "Jonathan Bailey is the next James Bond",
+     "url": "https://polymarket.us/event/nextbond-2026-12-31?marketSlug=njbc-nextbond-2026-12-31-jonbai",
+     "payout": 2.04,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-2376254": {
+   "title": "The GTA VI album sells 175k+ its first week",
+   "platform": "polymarket_us",
+   "payout": 2.86,
+   "url": "https://polymarket.us/event/gtavialbum-2026-12-31?marketSlug=adwsc-gtavialbum-2026-12-31-gte175k",
+   "category": "Entertainment",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-2376254",
+     "title": "The GTA VI album sells 175k+ its first week",
+     "url": "https://polymarket.us/event/gtavialbum-2026-12-31?marketSlug=adwsc-gtavialbum-2026-12-31-gte175k",
+     "payout": 2.86,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-1445733": {
+   "title": "Werwulf wins Best Makeup and Hairstyling",
+   "platform": "polymarket_us",
+   "payout": 3.33,
+   "url": "https://polymarket.us/event/oscars-03-14-2027-bestmakeup?marketSlug=tac-oscars-03-14-2027-bestmakeup-werwul",
+   "category": "Science and Technology",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-1445733",
+     "title": "Werwulf wins Best Makeup and Hairstyling",
+     "url": "https://polymarket.us/event/oscars-03-14-2027-bestmakeup?marketSlug=tac-oscars-03-14-2027-bestmakeup-werwul",
+     "payout": 3.33,
+     "same": true,
+     "sim": 1.0
+    },
+    "kalshi": {
+     "ticker": "KXOSCARNOMMAKEUP-27-CRY",
+     "title": "Oscar nominees: Best Makeup and Hairstyling",
+     "url": "https://kalshi.com/markets/KXOSCARNOMMAKEUP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 20.0,
+     "same": false,
+     "sim": 0.5
+    }
+   }
+  },
+  "pmus-234499": {
+   "title": "Midterm House turnout lands between 115 and 120 million",
+   "platform": "polymarket_us",
+   "payout": 4.55,
+   "url": "https://polymarket.us/event/hrep-to-2026-11-03?marketSlug=vtc-hrep-to-2026-11-03-115-120m",
+   "category": "World",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-234499",
+     "title": "Midterm House turnout lands between 115 and 120 million",
+     "url": "https://polymarket.us/event/hrep-to-2026-11-03?marketSlug=vtc-hrep-to-2026-11-03-115-120m",
+     "payout": 4.55,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXUEFANL1HBTTS-26NOV13BULISL-BTTS": {
+   "title": "Bulgaria and Iceland both score in the first half",
    "platform": "kalshi",
-   "payout": 1.59,
-   "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 5.56,
+   "url": "https://kalshi.com/markets/KXUEFANL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Sports",
    "alts": {
     "kalshi": {
-     "ticker": "KXNHLF10G-26NOV11TBBUF-Y",
-     "title": "A goal lands in the first 10 minutes tonight",
-     "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 1.59,
+     "ticker": "KXUEFANL1HBTTS-26NOV13BULISL-BTTS",
+     "title": "Bulgaria and Iceland both score in the first half",
+     "url": "https://kalshi.com/markets/KXUEFANL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 5.56,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXSNOWXMASDET-25DEC26-0": {
-   "title": "It snows in Detroit on Christmas",
-   "platform": "kalshi",
-   "payout": 1.89,
-   "url": "https://kalshi.com/markets/KXSNOWXMASDET?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Climate and Weather",
-   "alts": {
-    "kalshi": {
-     "ticker": "KXSNOWXMASDET-25DEC26-0",
-     "title": "It snows in Detroit on Christmas",
-     "url": "https://kalshi.com/markets/KXSNOWXMASDET?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 1.89,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-853933": {
-   "title": "Ezra Frech finishes runner-up on Dancing With The Stars",
+  "pmus-205136": {
+   "title": "A US-Iran deal dilutes Iran's uranium",
    "platform": "polymarket_us",
-   "payout": 4.55,
-   "url": "https://polymarket.us/event/dwts-s35-2-2026-11-17?marketSlug=rtc-dwts-s35-2-2026-11-17-ezrfre",
-   "category": "Science and Technology",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-853933",
-     "title": "Ezra Frech finishes runner-up on Dancing With The Stars",
-     "url": "https://polymarket.us/event/dwts-s35-2-2026-11-17?marketSlug=rtc-dwts-s35-2-2026-11-17-ezrfre",
-     "payout": 4.55,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-1941591": {
-   "title": "OpenAI confirms an IPO by early 2027",
-   "platform": "polymarket_us",
-   "payout": 4.55,
-   "url": "https://polymarket.us/event/openai?marketSlug=ipcc-openai-2027-03-31",
-   "category": "Science and Technology",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-1941591",
-     "title": "OpenAI confirms an IPO by early 2027",
-     "url": "https://polymarket.us/event/openai?marketSlug=ipcc-openai-2027-03-31",
-     "payout": 4.55,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-2407969": {
-   "title": "Russ Vought gets impeached by mid-2027",
-   "platform": "polymarket_us",
-   "payout": 5.26,
-   "url": "https://polymarket.us/event/congress-impeach-2027-06-30?marketSlug=pic-congress-impeach-2027-06-30-vought",
+   "payout": 9.09,
+   "url": "https://polymarket.us/event/us-iran-contnts-2026-?marketSlug=dipcc-us-iran-contnts-2026--dilut",
    "category": "World",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-2407969",
-     "title": "Russ Vought gets impeached by mid-2027",
-     "url": "https://polymarket.us/event/congress-impeach-2027-06-30?marketSlug=pic-congress-impeach-2027-06-30-vought",
-     "payout": 5.26,
+     "ticker": "pmus-205136",
+     "title": "A US-Iran deal dilutes Iran's uranium",
+     "url": "https://polymarket.us/event/us-iran-contnts-2026-?marketSlug=dipcc-us-iran-contnts-2026--dilut",
+     "payout": 9.09,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-1446829": {
-   "title": "The Odyssey wins Best Production Design",
-   "platform": "polymarket_us",
-   "payout": 7.69,
-   "url": "https://polymarket.us/event/oscars-03-14-2027-bestprod?marketSlug=tac-oscars-03-14-2027-bestprod-odysse",
-   "category": "Entertainment",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-1446829",
-     "title": "The Odyssey wins Best Production Design",
-     "url": "https://polymarket.us/event/oscars-03-14-2027-bestprod?marketSlug=tac-oscars-03-14-2027-bestprod-odysse",
-     "payout": 7.69,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-2407979": {
-   "title": "Trump meets Kim Jong Un next year",
-   "platform": "polymarket_us",
-   "payout": 11.11,
-   "url": "https://polymarket.us/event/meet-trump-kim?marketSlug=pintc-meet-trump-kim-2026-12-31",
-   "category": "World",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-2407979",
-     "title": "Trump meets Kim Jong Un next year",
-     "url": "https://polymarket.us/event/meet-trump-kim?marketSlug=pintc-meet-trump-kim-2026-12-31",
-     "payout": 11.11,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "KXTRDBAN-25DEC31-27": {
-   "title": "Congress bans its own stock trading by next year",
+  "KXUAPFILES-26OCT27-26NOV15": {
+   "title": "Trump releases new UFO files this year",
    "platform": "kalshi",
-   "payout": 18.18,
-   "url": "https://kalshi.com/markets/KXTRDBAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 12.5,
+   "url": "https://kalshi.com/markets/KXUAPFILES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Politics",
    "alts": {
     "kalshi": {
-     "ticker": "KXTRDBAN-25DEC31-27",
-     "title": "Congress bans its own stock trading by next year",
-     "url": "https://kalshi.com/markets/KXTRDBAN?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 18.18,
+     "ticker": "KXUAPFILES-26OCT27-26NOV15",
+     "title": "Trump releases new UFO files this year",
+     "url": "https://kalshi.com/markets/KXUAPFILES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 12.5,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXHURRLANDNE3-31DEC26-YES": {
-   "title": "A Category 3 hurricane hits the Northeast next year",
+  "KXUSAIRANAGREEMENT-27": {
+   "title": "US signs a new Iran nuclear deal this year",
    "platform": "kalshi",
-   "payout": 50.0,
-   "url": "https://kalshi.com/markets/KXHURRLANDNE3?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Climate and Weather",
+   "payout": 18.87,
+   "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Politics",
    "alts": {
     "kalshi": {
-     "ticker": "KXHURRLANDNE3-31DEC26-YES",
-     "title": "A Category 3 hurricane hits the Northeast next year",
-     "url": "https://kalshi.com/markets/KXHURRLANDNE3?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 50.0,
+     "ticker": "KXUSAIRANAGREEMENT-27",
+     "title": "US signs a new Iran nuclear deal this year",
+     "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 18.87,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-1445920": {
-   "title": "Miles Teller wins Best Supporting Actor",
-   "platform": "polymarket_us",
+  "KXNCAAFFIRSTTDTEAM-26NOV14ASUUCF-NONE": {
+   "title": "Neither team scores a touchdown tonight",
+   "platform": "kalshi",
    "payout": 100.0,
-   "url": "https://polymarket.us/event/oscars-03-14-2027-bestsupacto?marketSlug=tac-oscars-03-14-2027-bestsupacto-miltel",
-   "category": "Entertainment",
+   "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Sports",
    "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-1445920",
-     "title": "Miles Teller wins Best Supporting Actor",
-     "url": "https://polymarket.us/event/oscars-03-14-2027-bestsupacto?marketSlug=tac-oscars-03-14-2027-bestsupacto-miltel",
+    "kalshi": {
+     "ticker": "KXNCAAFFIRSTTDTEAM-26NOV14ASUUCF-NONE",
+     "title": "Neither team scores a touchdown tonight",
+     "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
      "payout": 100.0,
      "same": true,
      "sim": 1.0
