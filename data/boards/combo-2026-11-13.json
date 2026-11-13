@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-11-13T02:28:55.641513+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 9,
+    "NCAAF": 1
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-10381E0C",
+      "title": "UCF Knights wins + Washington Wizards wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48882-4328614-7019400&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Arizona State Sun Devils @ UCF Knights + Detroit Pistons @ Washington Wizards",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.37,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Arizona State Sun Devils @ UCF Knights",
+          "pick": "UCF Knights wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48882-4328614-7019400&type=Single",
+          "commence_time": "2026-11-14T20:30:00Z"
+        },
+        {
+          "matchup": "Detroit Pistons @ Washington Wizards",
+          "pick": "Washington Wizards wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20050733-1571894376-2333266971&type=Single",
+          "commence_time": "2026-11-13T00:12:00Z"
+        }
+      ],
+      "close_time": "2026-11-13T00:12:00Z"
+    },
+    {
+      "ticker": "PARLAY-E5132803",
+      "title": "Detroit Lions wins + UCF Knights wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:44011-3451276-5411237&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "New England Patriots @ Detroit Lions + Arizona State Sun Devils @ UCF Knights",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New England Patriots @ Detroit Lions",
+          "pick": "Detroit Lions wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44011-3451276-5411237&type=Single",
+          "commence_time": "2026-11-15T14:30:00Z"
+        },
+        {
+          "matchup": "Arizona State Sun Devils @ UCF Knights",
+          "pick": "UCF Knights wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48882-4328614-7019400&type=Single",
+          "commence_time": "2026-11-14T20:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-14T20:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-0E519086",
+      "title": "Detroit Lions wins + Washington Wizards wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:44011-3451276-5411237&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "New England Patriots @ Detroit Lions + Detroit Pistons @ Washington Wizards",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New England Patriots @ Detroit Lions",
+          "pick": "Detroit Lions wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44011-3451276-5411237&type=Single",
+          "commence_time": "2026-11-15T14:30:00Z"
+        },
+        {
+          "matchup": "Detroit Pistons @ Washington Wizards",
+          "pick": "Washington Wizards wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20050733-1571894376-2333266971&type=Single",
+          "commence_time": "2026-11-13T00:12:00Z"
+        }
+      ],
+      "close_time": "2026-11-13T00:12:00Z"
+    },
+    {
+      "ticker": "PARLAY-4F7EDD6E",
+      "title": "Under 6.5 + UCF Knights wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20075958-1578220038-2350383523&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Washington Capitals @ New Jersey Devils + Arizona State Sun Devils @ UCF Knights",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington Capitals @ New Jersey Devils",
+          "pick": "Under 6.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20075958-1578220038-2350383523&type=Single",
+          "commence_time": "2026-11-13T00:09:00Z"
+        },
+        {
+          "matchup": "Arizona State Sun Devils @ UCF Knights",
+          "pick": "UCF Knights wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48882-4328614-7019400&type=Single",
+          "commence_time": "2026-11-14T20:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-13T00:09:00Z"
+    },
+    {
+      "ticker": "PARLAY-49E24E04",
+      "title": "Under 6.5 + Washington Wizards wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20075958-1578220038-2350383523&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Washington Capitals @ New Jersey Devils + Detroit Pistons @ Washington Wizards",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington Capitals @ New Jersey Devils",
+          "pick": "Under 6.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20075958-1578220038-2350383523&type=Single",
+          "commence_time": "2026-11-13T00:09:00Z"
+        },
+        {
+          "matchup": "Detroit Pistons @ Washington Wizards",
+          "pick": "Washington Wizards wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20050733-1571894376-2333266971&type=Single",
+          "commence_time": "2026-11-13T00:12:00Z"
+        }
+      ],
+      "close_time": "2026-11-13T00:09:00Z"
+    },
+    {
+      "ticker": "PARLAY-4C870AE1",
+      "title": "Minnesota Wild -2.5 + UCF Knights wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20076395-1578220376-2350384560&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Minnesota Wild @ Toronto Maple Leafs + Arizona State Sun Devils @ UCF Knights",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Minnesota Wild @ Toronto Maple Leafs",
+          "pick": "Minnesota Wild -2.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076395-1578220376-2350384560&type=Single",
+          "commence_time": "2026-11-13T00:10:00Z"
+        },
+        {
+          "matchup": "Arizona State Sun Devils @ UCF Knights",
+          "pick": "UCF Knights wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48882-4328614-7019400&type=Single",
+          "commence_time": "2026-11-14T20:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-13T00:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-AC202ABC",
+      "title": "Minnesota Wild -2.5 + Washington Wizards wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20076395-1578220376-2350384560&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Minnesota Wild @ Toronto Maple Leafs + Detroit Pistons @ Washington Wizards",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Minnesota Wild @ Toronto Maple Leafs",
+          "pick": "Minnesota Wild -2.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076395-1578220376-2350384560&type=Single",
+          "commence_time": "2026-11-13T00:10:00Z"
+        },
+        {
+          "matchup": "Detroit Pistons @ Washington Wizards",
+          "pick": "Washington Wizards wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20050733-1571894376-2333266971&type=Single",
+          "commence_time": "2026-11-13T00:12:00Z"
+        }
+      ],
+      "close_time": "2026-11-13T00:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-9BB63327",
+      "title": "Under 6.5 + UCF Knights wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20076397-1578237302-2350427015&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Buffalo Sabres @ Chicago Blackhawks + Arizona State Sun Devils @ UCF Knights",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Buffalo Sabres @ Chicago Blackhawks",
+          "pick": "Under 6.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076397-1578237302-2350427015&type=Single",
+          "commence_time": "2026-11-13T01:09:00Z"
+        },
+        {
+          "matchup": "Arizona State Sun Devils @ UCF Knights",
+          "pick": "UCF Knights wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48882-4328614-7019400&type=Single",
+          "commence_time": "2026-11-14T20:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-13T01:09:00Z"
+    },
+    {
+      "ticker": "PARLAY-926490F7",
+      "title": "Under 6.5 + Washington Wizards wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20076397-1578237302-2350427015&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Buffalo Sabres @ Chicago Blackhawks + Detroit Pistons @ Washington Wizards",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Buffalo Sabres @ Chicago Blackhawks",
+          "pick": "Under 6.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076397-1578237302-2350427015&type=Single",
+          "commence_time": "2026-11-13T01:09:00Z"
+        },
+        {
+          "matchup": "Detroit Pistons @ Washington Wizards",
+          "pick": "Washington Wizards wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20050733-1571894376-2333266971&type=Single",
+          "commence_time": "2026-11-13T00:12:00Z"
+        }
+      ],
+      "close_time": "2026-11-13T00:12:00Z"
+    },
+    {
+      "ticker": "PARLAY-902000FF",
+      "title": "Auburn Tigers wins + UCF Knights wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48845-4328571-7019311&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Auburn Tigers @ Mississippi State Bulldogs + Arizona State Sun Devils @ UCF Knights",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Auburn Tigers @ Mississippi State Bulldogs",
+          "pick": "Auburn Tigers wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48845-4328571-7019311&type=Single",
+          "commence_time": "2026-11-14T17:00:00Z"
+        },
+        {
+          "matchup": "Arizona State Sun Devils @ UCF Knights",
+          "pick": "UCF Knights wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48882-4328614-7019400&type=Single",
+          "commence_time": "2026-11-14T20:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-14T17:00:00Z"
+    }
+  ]
+}

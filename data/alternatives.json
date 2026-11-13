@@ -1,168 +1,168 @@
 {
- "generated_at": "2026-11-12T16:39:11.711689+00:00",
+ "generated_at": "2026-11-13T02:28:08.388852+00:00",
  "markets": {
-  "pmus-2113512": {
-   "title": "Pierce Brosnan is the next James Bond",
+  "KXNHLF10G-26NOV13NSHVGK-Y": {
+   "title": "Someone scores in the first ten minutes tonight",
+   "platform": "kalshi",
+   "payout": 1.67,
+   "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Sports",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXNHLF10G-26NOV13NSHVGK-Y",
+     "title": "Someone scores in the first ten minutes tonight",
+     "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 1.67,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-1464584": {
+   "title": "Bruno Mars wins Best Pop Solo Performance",
    "platform": "polymarket_us",
    "payout": 2.04,
-   "url": "https://polymarket.us/event/nextbond-2026-12-31?marketSlug=njbc-nextbond-2026-12-31-piebro",
+   "url": "https://polymarket.us/event/grammys-bpsp-2027-02-07?marketSlug=tac-grammys-bpsp-2027-02-07-risit",
    "category": "Entertainment",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-2113512",
-     "title": "Pierce Brosnan is the next James Bond",
-     "url": "https://polymarket.us/event/nextbond-2026-12-31?marketSlug=njbc-nextbond-2026-12-31-piebro",
+     "ticker": "pmus-1464584",
+     "title": "Bruno Mars wins Best Pop Solo Performance",
+     "url": "https://polymarket.us/event/grammys-bpsp-2027-02-07?marketSlug=tac-grammys-bpsp-2027-02-07-risit",
      "payout": 2.04,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-2113524": {
-   "title": "Jonathan Bailey is the next James Bond",
-   "platform": "polymarket_us",
-   "payout": 2.04,
-   "url": "https://polymarket.us/event/nextbond-2026-12-31?marketSlug=njbc-nextbond-2026-12-31-jonbai",
-   "category": "Science and Technology",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-2113524",
-     "title": "Jonathan Bailey is the next James Bond",
-     "url": "https://polymarket.us/event/nextbond-2026-12-31?marketSlug=njbc-nextbond-2026-12-31-jonbai",
-     "payout": 2.04,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-2376254": {
-   "title": "The GTA VI album sells 175k+ its first week",
-   "platform": "polymarket_us",
-   "payout": 2.86,
-   "url": "https://polymarket.us/event/gtavialbum-2026-12-31?marketSlug=adwsc-gtavialbum-2026-12-31-gte175k",
-   "category": "Entertainment",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-2376254",
-     "title": "The GTA VI album sells 175k+ its first week",
-     "url": "https://polymarket.us/event/gtavialbum-2026-12-31?marketSlug=adwsc-gtavialbum-2026-12-31-gte175k",
-     "payout": 2.86,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-1445733": {
-   "title": "Werwulf wins Best Makeup and Hairstyling",
-   "platform": "polymarket_us",
-   "payout": 3.33,
-   "url": "https://polymarket.us/event/oscars-03-14-2027-bestmakeup?marketSlug=tac-oscars-03-14-2027-bestmakeup-werwul",
-   "category": "Science and Technology",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-1445733",
-     "title": "Werwulf wins Best Makeup and Hairstyling",
-     "url": "https://polymarket.us/event/oscars-03-14-2027-bestmakeup?marketSlug=tac-oscars-03-14-2027-bestmakeup-werwul",
-     "payout": 3.33,
      "same": true,
      "sim": 1.0
     },
     "kalshi": {
-     "ticker": "KXOSCARNOMMAKEUP-27-CRY",
-     "title": "Oscar nominees: Best Makeup and Hairstyling",
-     "url": "https://kalshi.com/markets/KXOSCARNOMMAKEUP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 20.0,
+     "ticker": "KXGRAMMYNOM-69BPSP-MAT",
+     "title": "Grammy Nominees: Best Pop Solo Performance",
+     "url": "https://kalshi.com/markets/KXGRAMMYNOM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 25.0,
      "same": false,
-     "sim": 0.5
+     "sim": 0.44
     }
    }
   },
-  "pmus-234499": {
-   "title": "Midterm House turnout lands between 115 and 120 million",
-   "platform": "polymarket_us",
-   "payout": 4.55,
-   "url": "https://polymarket.us/event/hrep-to-2026-11-03?marketSlug=vtc-hrep-to-2026-11-03-115-120m",
-   "category": "World",
+  "KXSNOWXMASCHI-25DEC26-0": {
+   "title": "It snows in Chicago on Christmas",
+   "platform": "kalshi",
+   "payout": 2.5,
+   "url": "https://kalshi.com/markets/KXSNOWXMASCHI?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Climate and Weather",
    "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-234499",
-     "title": "Midterm House turnout lands between 115 and 120 million",
-     "url": "https://polymarket.us/event/hrep-to-2026-11-03?marketSlug=vtc-hrep-to-2026-11-03-115-120m",
-     "payout": 4.55,
+    "kalshi": {
+     "ticker": "KXSNOWXMASCHI-25DEC26-0",
+     "title": "It snows in Chicago on Christmas",
+     "url": "https://kalshi.com/markets/KXSNOWXMASCHI?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 2.5,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXUEFANL1HBTTS-26NOV13BULISL-BTTS": {
-   "title": "Bulgaria and Iceland both score in the first half",
-   "platform": "kalshi",
-   "payout": 5.56,
-   "url": "https://kalshi.com/markets/KXUEFANL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Sports",
+  "pmus-1323224": {
+   "title": "America builds 1.3 million homes next year",
+   "platform": "polymarket_us",
+   "payout": 3.33,
+   "url": "https://polymarket.us/event/uscompl-2026?marketSlug=hucmc-uscompl-2026-gte1pt30m",
+   "category": "Other",
    "alts": {
-    "kalshi": {
-     "ticker": "KXUEFANL1HBTTS-26NOV13BULISL-BTTS",
-     "title": "Bulgaria and Iceland both score in the first half",
-     "url": "https://kalshi.com/markets/KXUEFANL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+    "polymarket_us": {
+     "ticker": "pmus-1323224",
+     "title": "America builds 1.3 million homes next year",
+     "url": "https://polymarket.us/event/uscompl-2026?marketSlug=hucmc-uscompl-2026-gte1pt30m",
+     "payout": 3.33,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-228395": {
+   "title": "Zelenskyy is out as Ukraine's president by mid-2027",
+   "platform": "polymarket_us",
+   "payout": 5.0,
+   "url": "https://polymarket.us/event/zelenskyy-presuk?marketSlug=opdc-zelenskyy-presuk-2027-06-30",
+   "category": "World",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-228395",
+     "title": "Zelenskyy is out as Ukraine's president by mid-2027",
+     "url": "https://polymarket.us/event/zelenskyy-presuk?marketSlug=opdc-zelenskyy-presuk-2027-06-30",
+     "payout": 5.0,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-1057602": {
+   "title": "A state bans vaccine mandates by 2027",
+   "platform": "polymarket_us",
+   "payout": 5.56,
+   "url": "https://polymarket.us/event/anyst-vaxmandban?marketSlug=lawec-anyst-vaxmandban-2027-12-31",
+   "category": "World",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-1057602",
+     "title": "A state bans vaccine mandates by 2027",
+     "url": "https://polymarket.us/event/anyst-vaxmandban?marketSlug=lawec-anyst-vaxmandban-2027-12-31",
      "payout": 5.56,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-205136": {
-   "title": "A US-Iran deal dilutes Iran's uranium",
-   "platform": "polymarket_us",
+  "KXUSAIRANAGREEMENT-27-27FEB": {
+   "title": "The US cuts a new Iran nuclear deal this year",
+   "platform": "kalshi",
    "payout": 9.09,
-   "url": "https://polymarket.us/event/us-iran-contnts-2026-?marketSlug=dipcc-us-iran-contnts-2026--dilut",
-   "category": "World",
+   "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Politics",
    "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-205136",
-     "title": "A US-Iran deal dilutes Iran's uranium",
-     "url": "https://polymarket.us/event/us-iran-contnts-2026-?marketSlug=dipcc-us-iran-contnts-2026--dilut",
+    "kalshi": {
+     "ticker": "KXUSAIRANAGREEMENT-27-27FEB",
+     "title": "The US cuts a new Iran nuclear deal this year",
+     "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
      "payout": 9.09,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXUAPFILES-26OCT27-26NOV15": {
-   "title": "Trump releases new UFO files this year",
-   "platform": "kalshi",
+  "pmus-1280068": {
+   "title": "Jude Bellingham is the most googled person next year",
+   "platform": "polymarket_us",
    "payout": 12.5,
-   "url": "https://kalshi.com/markets/KXUAPFILES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Politics",
+   "url": "https://polymarket.us/event/gsearch-1person-2026?marketSlug=gsrc-gsearch-1person-2026-judbel",
+   "category": "Other",
    "alts": {
-    "kalshi": {
-     "ticker": "KXUAPFILES-26OCT27-26NOV15",
-     "title": "Trump releases new UFO files this year",
-     "url": "https://kalshi.com/markets/KXUAPFILES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+    "polymarket_us": {
+     "ticker": "pmus-1280068",
+     "title": "Jude Bellingham is the most googled person next year",
+     "url": "https://polymarket.us/event/gsearch-1person-2026?marketSlug=gsrc-gsearch-1person-2026-judbel",
      "payout": 12.5,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXUSAIRANAGREEMENT-27": {
-   "title": "US signs a new Iran nuclear deal this year",
+  "MOON-27DEC31": {
+   "title": "NASA puts a person on the Moon before 2028",
    "platform": "kalshi",
-   "payout": 18.87,
-   "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Politics",
+   "payout": 28.57,
+   "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Science and Technology",
    "alts": {
     "kalshi": {
-     "ticker": "KXUSAIRANAGREEMENT-27",
-     "title": "US signs a new Iran nuclear deal this year",
-     "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 18.87,
+     "ticker": "MOON-27DEC31",
+     "title": "NASA puts a person on the Moon before 2028",
+     "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 28.57,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXNCAAFFIRSTTDTEAM-26NOV14ASUUCF-NONE": {
+  "KXNCAAFFIRSTTDTEAM-26NOV14PURIOWA-NONE": {
    "title": "Neither team scores a touchdown tonight",
    "platform": "kalshi",
    "payout": 100.0,
@@ -170,7 +170,7 @@
    "category": "Sports",
    "alts": {
     "kalshi": {
-     "ticker": "KXNCAAFFIRSTTDTEAM-26NOV14ASUUCF-NONE",
+     "ticker": "KXNCAAFFIRSTTDTEAM-26NOV14PURIOWA-NONE",
      "title": "Neither team scores a touchdown tonight",
      "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
      "payout": 100.0,
