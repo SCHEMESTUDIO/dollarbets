@@ -1,99 +1,4 @@
 {
-  "SB-C124E8E8": {
-    "title": "Islanders skate past Sharks by two or more",
-    "quip": "Sorokin in the shark tank, business as usual",
-    "cached_at": "2026-11-09T18:17:29.642138+00:00"
-  },
-  "SB-E326622F": {
-    "title": "Wild bury Canadiens by multiple goals in Montreal",
-    "quip": "Kaprizov ruining another night at the Bell Centre",
-    "cached_at": "2026-11-09T18:17:29.642138+00:00"
-  },
-  "SB-64ABFD56": {
-    "title": "Hornets upset Cavaliers in Charlotte tonight",
-    "quip": "LaMelo in chaos mode, Cleveland's problem now",
-    "cached_at": "2026-11-09T18:17:29.642138+00:00"
-  },
-  "SB-45DB31AB": {
-    "title": "Pelicans stun Warriors at Chase Center",
-    "quip": "Zion vs the Splash Brothers' retirement tour",
-    "cached_at": "2026-11-09T18:17:29.642138+00:00"
-  },
-  "SB-D1DF791B": {
-    "title": "Wizards pull the upset in Detroit",
-    "quip": "Cade's night off, Washington's night on",
-    "cached_at": "2026-11-09T18:17:29.642138+00:00"
-  },
-  "SB-2E0BBB35": {
-    "title": "Hawks humiliate Lakers by 20-plus in Atlanta",
-    "quip": "Trae Young auditioning for a Netflix revenge thriller",
-    "cached_at": "2026-11-09T18:17:29.642138+00:00"
-  },
-  "SB-E0382A6E": {
-    "title": "Stonehill shocks Columbia in Morningside Heights",
-    "quip": "Ivy League tuition can't buy perimeter defense",
-    "cached_at": "2026-11-09T18:17:37.320943+00:00"
-  },
-  "SB-BB99D5FB": {
-    "title": "Ilves skate past Pelicans by two tonight",
-    "quip": "Tampere ice doesn't negotiate with Lahti",
-    "cached_at": "2026-11-09T18:17:51.492599+00:00"
-  },
-  "SB-352DACE9": {
-    "title": "Sport upset Kiekko-Espoo in Espoo",
-    "quip": "Vaasa's finest crashing the housewarming",
-    "cached_at": "2026-11-09T18:17:51.492599+00:00"
-  },
-  "SB-0F44AFBB": {
-    "title": "HV71 bury Lule\u00e5 by two tonight",
-    "quip": "J\u00f6nk\u00f6ping remembers what the trophy case is for",
-    "cached_at": "2026-11-09T18:17:51.492599+00:00"
-  },
-  "SB-BD692525": {
-    "title": "Hawks knock off the Phoenix in Melbourne",
-    "quip": "Wollongong driving up the M1 with bad intentions",
-    "cached_at": "2026-11-09T18:17:51.492599+00:00"
-  },
-  "SB-339ACCAE": {
-    "title": "Jukurit handle \u00c4ss\u00e4t by two",
-    "quip": "Mikkeli has no notes for Pori",
-    "cached_at": "2026-11-09T18:17:51.492599+00:00"
-  },
-  "SB-5295FBEF": {
-    "title": "Pakistan beat Sri Lanka in the Test",
-    "quip": "Rawalpindi dust doing the heavy lifting",
-    "cached_at": "2026-11-09T18:17:51.492599+00:00"
-  },
-  "SB-FBF4A6B6": {
-    "title": "Richmond stun Carlton in the rivalry game",
-    "quip": "Tiger Army doesn't read the ladder, only the scoreboard",
-    "cached_at": "2026-11-09T18:17:51.492599+00:00"
-  },
-  "SB-06F3134C": {
-    "title": "Seydi Coupe shocks Viddal Riley",
-    "quip": "the Love Island arc ends with a Rocky III ending",
-    "cached_at": "2026-11-09T18:17:51.492599+00:00"
-  },
-  "SB-AFC5604C": {
-    "title": "Jets keep it close against the Devils tonight",
-    "quip": "Hellebuyck turns Winnipeg into a one-goal rerun",
-    "cached_at": "2026-11-09T18:18:01.052831+00:00"
-  },
-  "SB-7B934A36": {
-    "title": "Chiefs handle the Falcons in Atlanta",
-    "quip": "Mahomes has seen this movie, Penix hasn't",
-    "cached_at": "2026-11-09T18:18:01.052831+00:00"
-  },
-  "SB-70536D08": {
-    "title": "Leafs stay within a goal of Colorado",
-    "quip": "Matthews and MacKinnon trading punches till the horn",
-    "cached_at": "2026-11-09T18:18:01.052831+00:00"
-  },
-  "SB-BEF18FB4": {
-    "title": "Mavs beat the Pacers in Dallas",
-    "quip": "Indiana's injury report reads like a hospital chart",
-    "cached_at": "2026-11-09T18:18:01.052831+00:00"
-  },
   "SB-54174BDB": {
     "title": "Avalanche bury the Leafs by two or more tonight",
     "quip": "MacKinnon treats Scotiabank Arena like a practice rink",
@@ -773,5 +678,105 @@
     "title": "Packers beat the Vikings at Lambeau",
     "quip": "Love keeps the Minnesota misery streak alive",
     "cached_at": "2026-11-13T15:54:50.370280+00:00"
+  },
+  "SB-A2538FB5": {
+    "title": "Alcorn St keeps it close against Tarleton State",
+    "quip": "losing with dignity is still a skill",
+    "cached_at": "2026-11-13T21:47:32.765481+00:00"
+  },
+  "SB-266F75B9": {
+    "title": "Jets skate past Blackhawks by two or more",
+    "quip": "Hellebuyck turns Chicago into a highlight reel for nobody",
+    "cached_at": "2026-11-13T21:47:32.765481+00:00"
+  },
+  "SB-9246B508": {
+    "title": "Canadiens handle Avalanche by multiple goals tonight",
+    "quip": "the Bell Centre still eats visiting contenders",
+    "cached_at": "2026-11-13T21:47:32.765481+00:00"
+  },
+  "SB-C3D81EA2": {
+    "title": "Canucks bury Rangers by three or more",
+    "quip": "Shesterkin leaves with the thousand-yard stare",
+    "cached_at": "2026-11-13T21:47:32.765481+00:00"
+  },
+  "SB-D7638FD6": {
+    "title": "Georgia Southern shocks UCF in Orlando",
+    "quip": "Eagles walk into the Big 12 and steal the furniture",
+    "cached_at": "2026-11-13T21:47:32.765481+00:00"
+  },
+  "SB-2F0E9F3F": {
+    "title": "JYP skate past Pelicans by two or more",
+    "quip": "Jyv\u00e4skyl\u00e4 ice runs cold, Lahti colder",
+    "cached_at": "2026-11-13T21:47:50.195426+00:00"
+  },
+  "SB-1BA88602": {
+    "title": "Malm\u00f6 Redhawks bury V\u00e4xj\u00f6 Lakers by two",
+    "quip": "the \u00d6resund crowd wants a statement",
+    "cached_at": "2026-11-13T21:47:50.195426+00:00"
+  },
+  "SB-5349AADB": {
+    "title": "Sport beat HPK by multiple goals tonight",
+    "quip": "Vaasa's finest finally live up to the name",
+    "cached_at": "2026-11-13T21:47:50.195426+00:00"
+  },
+  "SB-E1518D26": {
+    "title": "\u00c4ss\u00e4t handle Jokerit by two tonight",
+    "quip": "Pori's bears don't negotiate with clowns",
+    "cached_at": "2026-11-13T21:47:50.195426+00:00"
+  },
+  "SB-A2898836": {
+    "title": "Yaqubov upsets Erdenbat in the ring",
+    "quip": "Tajik pressure versus Mongolian stubbornness, pick a myth",
+    "cached_at": "2026-11-13T21:47:50.195426+00:00"
+  },
+  "SB-9DC1F4A1": {
+    "title": "Phoenix upset Melbourne United across town",
+    "quip": "little brother keys the family car",
+    "cached_at": "2026-11-13T21:47:50.195426+00:00"
+  },
+  "SB-AC895F4E": {
+    "title": "K\u00e4rp\u00e4t beat Tappara by two goals",
+    "quip": "Oulu weasels raiding the Tampere henhouse",
+    "cached_at": "2026-11-13T21:47:50.195426+00:00"
+  },
+  "SB-0AFC4723": {
+    "title": "Melendez Salgado shocks Elijah Flores",
+    "quip": "the Rocky III montage starts right about now",
+    "cached_at": "2026-11-13T21:47:50.195426+00:00"
+  },
+  "SB-1B3DA79B": {
+    "title": "Knicks handle the Pacers in Indiana",
+    "quip": "Brunson treats Gainbridge like a second home",
+    "cached_at": "2026-11-13T21:48:00.809916+00:00"
+  },
+  "SB-59B5A5BF": {
+    "title": "Oilers-Leafs decided by a single goal",
+    "quip": "McDavid and Matthews rarely leave early",
+    "cached_at": "2026-11-13T21:48:00.809916+00:00"
+  },
+  "SB-B6CFDB68": {
+    "title": "Jets-Blackhawks stays a one-goal game",
+    "quip": "Bedard keeps it close, Hellebuyck keeps it closer",
+    "cached_at": "2026-11-13T21:48:00.809916+00:00"
+  },
+  "SB-7B934A36": {
+    "title": "Chiefs win in Atlanta",
+    "quip": "Mahomes has done this exact thing before",
+    "cached_at": "2026-11-13T21:48:00.809916+00:00"
+  },
+  "SB-6FB8CD0B": {
+    "title": "Tarleton State routs Alcorn State by 15+",
+    "quip": "Stephenville hospitality ends at tipoff",
+    "cached_at": "2026-11-13T21:48:00.809916+00:00"
+  },
+  "SB-C97FC8D5": {
+    "title": "Flames and Kings separated by one goal",
+    "quip": "Dustin Wolf keeps Calgary within arm's reach",
+    "cached_at": "2026-11-13T21:48:00.809916+00:00"
+  },
+  "SB-6699FC00": {
+    "title": "Golden Knights beat the Predators at home",
+    "quip": "Eichel on the Strip, business as usual",
+    "cached_at": "2026-11-13T21:48:00.809916+00:00"
   }
 }
