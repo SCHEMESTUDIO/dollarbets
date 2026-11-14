@@ -1,0 +1,114 @@
+{
+  "slug": "stossel-odds",
+  "format": "comparison",
+  "seo": {
+    "title": "Kalshi vs. Polymarket: Bonuses, Fees Compared | Dollar Bets",
+    "h1": "Kalshi vs. Polymarket: Bonuses, Fees, and Market Coverage Compared",
+    "meta_description": "Kalshi's $60 bonus vs Polymarket's $25, taker fees down to the penny, and who actually wins on volume. The full November 2026 breakdown.",
+    "canonical": "/stossel-odds/"
+  },
+  "summary": "Kalshi's VIP60 code pays a $60 bonus but makes you trade $25 to earn it; Polymarket's SIBONUS gives $25 with zero trading required. Fees are nearly identical for takers, but Kalshi charges makers on 156 series while Polymarket US charges makers nothing.",
+  "quick_answer": "Kalshi currently offers a bigger welcome bonus ($60 via VIP60) but requires qualifying trades, while Polymarket's $25 SIBONUS bonus needs no trades. Taker fees are nearly identical between the two, but Polymarket US is fee-free for makers while Kalshi charges maker fees on about 156 series.",
+  "internal_links": [
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "content": "sign-up offers, side by side"
+    },
+    {
+      "type": "text",
+      "content": "For November 2026, Kalshi's promo code VIP60 offers a $60 bonus for depositing at least $10 and completing $25 in qualifying trades, while Polymarket's promo code SIBONUS gives eligible new users a $25 bonus after depositing $10, with no qualifying trade required."
+    },
+    {
+      "type": "list",
+      "content": [
+        "Kalshi: $60 trading bonus, code VIP60, deposit $10 and trade $25 to qualify",
+        "Polymarket: $25 trading bonus, code SIBONUS, deposit $10, no trade required"
+      ]
+    },
+    {
+      "type": "text",
+      "content": "Kalshi offers the larger guaranteed welcome bonus at $60, while Polymarket provides an easier-to-claim $25 bonus with no qualifying trades required. That trade-off, bigger payout versus fewer hoops, shows up across most third-party trackers comparing the two this month, though bonus terms and codes change often enough that the live offer pages are the only reliable source."
+    },
+    {
+      "type": "heading",
+      "content": "trading fees: close, but not identical"
+    },
+    {
+      "type": "text",
+      "content": "The fee gap between the two exchanges has shrunk sharply in 2026 after a round of rate changes on both sides. Kalshi's standard rate is 0.07, so $1.75 for takers it's a wash, Polymarket US and Kalshi charge almost the same taker fee (about $1.74 vs $1.75 per 100 contracts at 50¢)."
+    },
+    {
+      "type": "text",
+      "content": "The real difference shows up on the maker side. Kalshi charges maker fees on about 156 series (around $0.44 per 100 contracts at 50¢), including NFL, NBA, MLB, CPI and Fed markets, while Polymarket US makers pay nothing and the largest makers earn a rebate."
+    },
+    {
+      "type": "list",
+      "content": [
+        "Taker fee (50¢ contract, 100 contracts): Kalshi ~$1.75 vs Polymarket US ~$1.74",
+        "Maker fee: Kalshi ~$0.44 per 100 contracts on ~156 series vs Polymarket US $0 for most makers, with rebates for large ones",
+        "Deposit/withdrawal: Kalshi debit deposits can run 2% but bank/wire/real-time transfers are free; Polymarket US publishes no deposit fee and withdrawals are free"
+      ]
+    },
+    {
+      "type": "text",
+      "content": "One tracker's maker-side comparison on a $40 position found that for a taker, Polymarket US saves you 24¢ on a $40 position, while for a maker, the swing is 72¢ on the same position. Outside the US, the math shifts further in Polymarket's favor: Polymarket International charges $0.75–$1.75 per 100 shares by category, geopolitics is free, and makers earn a 15–25% rebate."
+    },
+    {
+      "type": "heading",
+      "content": "where each platform wins on volume and depth"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi's annual volume reached $39.7B (year to Feb 2026), with 87% in sports, against Polymarket's $36.2B over the same period, 38% of which was sports. At size, Kalshi showed 0.11¢ slippage on 50,000 contracts compared with 0.05¢ slippage on Polymarket, though Polymarket carried a higher top-of-book ask."
+    },
+    {
+      "type": "text",
+      "content": "More recent monthly snapshots tell a similar story about where the volume actually sits: Kalshi logged $37.7B in July 2026 volume against $5.0B on Polymarket US and $7.9B on Polymarket International. Kalshi's U.S. markets span sports, politics, economics, weather, and culture alongside crypto, while Polymarket's U.S. markets cover sports, economics, and elections as of April 2026. Kalshi also pays roughly 3-4% APY on uninvested funds, a feature Polymarket doesn't match."
+    },
+    {
+      "type": "heading",
+      "content": "the verdict trackers keep landing on"
+    },
+    {
+      "type": "text",
+      "content": "Pulling the independent comparisons together, the shorthand that keeps recurring is consistent: Polymarket US charges less per trade, while Kalshi offers far more markets, deeper liquidity, and faster cash-outs than most traders expect. On a standard 50¢ contract, Kalshi's taker fee runs about 3.5% of stake, compared with about 2.5% on Polymarket US."
+    },
+    {
+      "type": "text",
+      "content": "Structurally, the two exchanges are closer than their branding suggests: Kalshi runs its own exchange, KalshiEX, and clearinghouse, Kalshi Klear, while Polymarket runs its own exchange, QCX, and clearinghouse, QC Clearing. Rate schedules on both platforms have already been revised more than once in 2026, and bonus codes expire or get swapped out on no particular schedule."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which platform has the bigger sign-up bonus, Kalshi or Polymarket?",
+      "a": "Kalshi's current code, VIP60, pays a $60 bonus but requires a $10 deposit and $25 in qualifying trades. Polymarket's SIBONUS code pays $25 with just a $10 deposit and no trading requirement."
+    },
+    {
+      "q": "Is Kalshi or Polymarket cheaper to trade on?",
+      "a": "Taker fees are nearly identical, about $1.75 on Kalshi versus $1.74 on Polymarket US per 100 contracts at 50¢. The bigger gap is on maker fees, where Kalshi charges on about 156 series and Polymarket US charges nothing."
+    },
+    {
+      "q": "Which platform has more trading volume?",
+      "a": "Kalshi led with $39.7B in annual volume through February 2026 versus Polymarket's $36.2B, and Kalshi's lead widened by July 2026 with $37.7B against a combined roughly $13B across Polymarket US and International."
+    },
+    {
+      "q": "Does either platform pay interest on cash balances?",
+      "a": "Kalshi pays roughly 3-4% APY on uninvested funds sitting in an account, a feature Polymarket does not currently offer."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate prediction markets, and this is not financial or betting advice. Fees, bonuses, and volume figures referenced above are point-in-time snapshots that move constantly; confirm current terms directly on each platform before trading. Dollar Bets earns affiliate commissions when readers sign up to Kalshi or Polymarket through our links; we don't take a cut of any bet or get paid more if you lose. See our full affiliate disclosure, and if betting stops being fun, stop, and visit our responsible gambling resources for help.",
+  "publish_date": "2026-11-14",
+  "last_updated": "2026-11-14",
+  "cluster": "Platform Comparisons",
+  "priority": 70
+}
