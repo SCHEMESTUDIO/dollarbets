@@ -1,0 +1,116 @@
+{
+  "slug": "kalshi-vs-polymarket",
+  "format": "comparison",
+  "seo": {
+    "title": "Kalshi vs Polymarket: Volume, Fees, Legality | Dollar Bets",
+    "h1": "Kalshi vs Polymarket: Which One Actually Fits How You Trade",
+    "meta_description": "Kalshi vs Polymarket compared on volume ($97.3B vs $20.2B), fees, legality, and sports market depth — the real numbers, not a vague 'both are good' take.",
+    "canonical": "/kalshi-vs-polymarket/"
+  },
+  "summary": "Kalshi handles nearly five times Polymarket's trading volume, $97.3 billion vs $20.2 billion in the 30 days to November 2, 2026, driven almost entirely by sports. Polymarket counters with broader market variety, a separate US app, and a flatter fee structure. Which fits you depends on category, order type, and whether you're even allowed to trade on the international exchange.",
+  "quick_answer": "Kalshi wins on raw volume and sports depth, handling about 76% of combined daily liquidity and $174.5 billion year-to-date versus Polymarket's $64.9 billion. Polymarket offers more total open markets and a flatter category-based fee model, but US traders must use the separate Polymarket US app rather than the international exchange.",
+  "internal_links": [
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Kalshi now dwarfs Polymarket on raw trading volume, and the gap keeps widening. Kalshi handles nearly five times as much volume as Polymarket's two exchanges combined: $97.3 billion compared with $20.2 billion in the 30 days to November 2, 2026, based on DeFi Rate data. Zoom out to the full-year picture and the lead is even starker: Kalshi has recorded $174.5 billion in trading volume since the start of 2026, around 2.7 times Polymarket's $64.9 billion."
+    },
+    {
+      "type": "heading",
+      "content": "markets and liquidity: who actually trades what"
+    },
+    {
+      "type": "text",
+      "content": "Both exchanges have leaned hard into sports as the primary volume driver, but by very different margins. Pew Research Center data shows sports account for 80 percent of Kalshi's volume and 39 percent of Polymarket's since July 2024. Kalshi's own trade files put $127.2 billion of its year-to-date volume on sports markets, almost 73% of the platform total, with basketball and football carrying much of that load; the new NFL season has seen daily volumes hit $2 billion, with October and November nudging $3.5–$4 billion."
+    },
+    {
+      "type": "text",
+      "content": "Polymarket's sports book has grown too, just from a smaller base. Polymarket posted $64.9 billion in volume over the same period, with sports producing $18.5 billion, representing 28.5% of Polymarket's total. A large share of what's left doesn't sort neatly into any single category: unclassified markets accounted for $24.7 billion, roughly 38% of Polymarket's total volume. Kalshi has more total markets and far more depth on sports contracts specifically; Polymarket currently lists 20,304 open or active events against Kalshi's 13,894, so there's more raw variety to scroll through even if any given Polymarket market trades thinner."
+    },
+    {
+      "type": "heading",
+      "content": "geography and legal status: the part that decides it for most people"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi is a CFTC-registered designated contract market, the first to trade directly on event outcomes, and that federal registration is why it can operate across the country in principle. State gambling regulators have still contested its sports contracts specifically in several jurisdictions, and the list of active disputes shifts by the month. Never assume your state is clear just because Kalshi lists a market; check the platform directly before you fund an account."
+    },
+    {
+      "type": "text",
+      "content": "Polymarket's story now splits in two. The original international exchange blocks a long list of jurisdictions outright and has barred US users since 2022. A separate, US-specific product exists for domestic traders: Polymarket US traded $15.0 billion in the 30 days to November 2, 2026, compared with $5.2 billion on the international exchange. So \"Polymarket\" now means two different platforms depending on where you're logging in from, and confusing them is an easy way to end up locked out of a position."
+    },
+    {
+      "type": "heading",
+      "content": "fees: two very different formulas"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi's general taker fee is round up(M x 0.07 x C x P x (1 - P)), where M is a per-series multiplier, and a maker pays about 25% of that formula, capped at $0.44 per 100 contracts. The fee peaks at the 50-cent midpoint: a 100-contract trade at 50¢ costs $1.75 as a taker and $0.44 as a maker, while a $0.01 contract costs a taker just $0.0007. Of the 16,078 series Kalshi listed on 11 November 2026, 15,883 used the standard taker fee with no maker fee at all."
+    },
+    {
+      "type": "text",
+      "content": "Polymarket runs a flatter, category-based model: taker fees of 0.75% to 1.80% depending on category, while makers trade free and earn 20-50% rebates for providing liquidity. Broken down further, that's 0.04 for politics and finance, 0.05 for sports, 0.07 for crypto, and zero for geopolitics. Neither platform charges to deposit via its native rail, and Kalshi's settlement, membership and ACH transfers are free."
+    },
+    {
+      "type": "list",
+      "content": [
+        "Kalshi taker fee: 0.07 × C × P × (1−P), capped ~$1.75/100 contracts at 50¢",
+        "Kalshi maker fee: ~25% of taker rate, only on ~160 designated series",
+        "Polymarket taker fee: 0.75%–1.80% by category; makers pay $0 and get 20-50% rebates",
+        "Deposits: free via bank/ACH on Kalshi; gas fee only (USDC/Polygon) on Polymarket's international exchange"
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "ux and discovery: app-first versus browser-first"
+    },
+    {
+      "type": "text",
+      "content": "Kalshi ships a mobile app with markets organized into a grid by category. Polymarket's international exchange is still web-first in feel, with a scrolling market feed that surfaces thousands of contracts across a wider range of categories, including many niche or thinly traded ones. That breadth is a feature if you're hunting for a specific obscure event, and a liability if you just want to check three prices and leave."
+    },
+    {
+      "type": "heading",
+      "content": "who should actually use which"
+    },
+    {
+      "type": "text",
+      "content": "Traders who want the deepest sports book, the most active daily volume, and a straightforward bank-funded account should check Kalshi first — it handled about 76% of volume ($108.8 billion) over Oct 14-Nov 12, 2026, with Polymarket US second at about 11%. Traders who want a wider spread of smaller, varied markets, or who are trading from outside the US, should check Polymarket, keeping in mind US residents use the separate Polymarket US app rather than the international site. Fee-sensitive traders making frequent small trades should compare the two fee tables above against the specific category and order type they plan to use, since neither platform is uniformly cheaper."
+    },
+    {
+      "type": "text",
+      "content": "The overlap is real. Both now run sports books that make up the bulk of their volume, and the line between \"a Kalshi trader\" and \"a Polymarket trader\" matters less than it did two years ago. Category, order type, and funding method decide this more than either platform's marketing does."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which has more trading volume, Kalshi or Polymarket?",
+      "a": "Kalshi, by a wide margin. Kalshi posted $97.3 billion in the 30 days to November 2, 2026 versus Polymarket's $20.2 billion combined across both its exchanges, and $174.5 billion year-to-date versus Polymarket's $64.9 billion."
+    },
+    {
+      "q": "Can US residents use Polymarket?",
+      "a": "Not the original international exchange, which has barred US users since 2022. US traders use the separate Polymarket US app, which traded $15.0 billion in the 30 days to November 2, 2026."
+    },
+    {
+      "q": "Which platform has lower fees?",
+      "a": "It depends on contract price, category, and order type. Kalshi's taker fee peaks at the 50-cent midpoint (about $1.75 per 100 contracts) while Polymarket charges a flat 0.75%-1.80% by category with free maker trades and rebates — there's no single cheaper platform across the board."
+    },
+    {
+      "q": "Which platform is better for sports markets?",
+      "a": "Kalshi, by volume share: sports make up about 73% of Kalshi's year-to-date volume ($127.2 billion) versus 28.5% of Polymarket's ($18.5 billion)."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate prediction markets or accept wagers. Prediction market availability and legality vary by state and country — check your local regulations and each platform's terms before funding an account. Nothing here is betting, financial, or legal advice.",
+  "publish_date": "2026-11-14",
+  "last_updated": "2026-11-14",
+  "cluster": "Platform Comparisons",
+  "priority": 8
+}
