@@ -1,49 +1,4 @@
 {
-  "SB-8DD865D1": {
-    "title": "Clippers knock off the Suns in Phoenix",
-    "quip": "the desert has never been kind to Booker's supporting cast",
-    "cached_at": "2026-11-10T16:04:11.595846+00:00"
-  },
-  "SB-19BB91D4": {
-    "title": "Falcons upset the Chiefs in Atlanta",
-    "quip": "Mahomes in a dome, Bijan on the ground, sure",
-    "cached_at": "2026-11-10T16:04:11.595846+00:00"
-  },
-  "SB-1FAD7856": {
-    "title": "Avalanche bury the Leafs by three in Toronto",
-    "quip": "MacKinnon treats Scotiabank Arena like a practice rink",
-    "cached_at": "2026-11-10T16:04:11.595846+00:00"
-  },
-  "SB-1600C879": {
-    "title": "Celtics humiliate the Sixers by 18+",
-    "quip": "Tatum raining threes while Philly's injury report writes itself",
-    "cached_at": "2026-11-10T16:04:11.595846+00:00"
-  },
-  "SB-D66C4A6A": {
-    "title": "V\u00e4xj\u00f6 skate past Timr\u00e5 by two or more",
-    "quip": "the SHL's tidiest machine keeps the gears greased",
-    "cached_at": "2026-11-10T16:04:25.984344+00:00"
-  },
-  "SB-1C02FB51": {
-    "title": "Taipans ambush the Kings in Cairns",
-    "quip": "the Snakepit still makes visitors forget their own offense",
-    "cached_at": "2026-11-10T16:04:25.984344+00:00"
-  },
-  "SB-81427743": {
-    "title": "Pakistan beat Sri Lanka in the Test",
-    "quip": "Rawalpindi dust, reverse swing, and old ghosts waking up",
-    "cached_at": "2026-11-10T16:04:25.984344+00:00"
-  },
-  "SB-40DFE5B6": {
-    "title": "Rhode Island runs Maine off the floor by 18+",
-    "quip": "the Rams keep the Ryan Center scoreboard spinning",
-    "cached_at": "2026-11-10T16:04:34.007514+00:00"
-  },
-  "SB-10BFE268": {
-    "title": "Suns handle the Clippers in Phoenix tonight",
-    "quip": "Booker at home, Harden in a back-to-back fog",
-    "cached_at": "2026-11-10T16:04:34.007514+00:00"
-  },
   "SB-6F16ECCF": {
     "title": "Rangers skate past Flames by two tonight",
     "quip": "Shesterkin's shutout math, Calgary's offense cooperating",
@@ -853,5 +808,90 @@
     "title": "Hurricanes beat Kraken by two or more",
     "quip": "Raleigh's forecheck turns Seattle into chowder",
     "cached_at": "2026-11-14T14:45:44.776031+00:00"
+  },
+  "SB-6D8DAF81": {
+    "title": "Wild skate past Bruins by two or more",
+    "quip": "Kaprizov doing the heavy lifting on Causeway Street",
+    "cached_at": "2026-11-14T20:24:22.258546+00:00"
+  },
+  "SB-12010606": {
+    "title": "Jets upset the Bills at home",
+    "quip": "the Rodgers revenge arc nobody asked for",
+    "cached_at": "2026-11-14T20:24:22.258546+00:00"
+  },
+  "SB-A393FF3D": {
+    "title": "Pelicans stun Nuggets in New Orleans",
+    "quip": "Zion versus Jokic, two gravity wells colliding",
+    "cached_at": "2026-11-14T20:24:22.258546+00:00"
+  },
+  "SB-8C5E7C8E": {
+    "title": "Cavs bury the Mavs by 30+",
+    "quip": "Mitchell and Mobley turning Cleveland into a crime scene",
+    "cached_at": "2026-11-14T20:24:22.258546+00:00"
+  },
+  "SB-5B6015A7": {
+    "title": "Purdue stuns Iowa in Kinnick tonight",
+    "quip": "Kinnick after dark turns Boilermakers into folk heroes",
+    "cached_at": "2026-11-14T20:24:29.165188+00:00"
+  },
+  "SB-A3DBD49C": {
+    "title": "Amed SK and Rizespor grind out a low-scoring night",
+    "quip": "Diyarbak\u0131r defending like the walls of the old city",
+    "cached_at": "2026-11-14T20:24:43.732537+00:00"
+  },
+  "SB-695ACDAD": {
+    "title": "Mariners and Perth Glory trade four-plus goals tonight",
+    "quip": "A-League defending remains a strictly optional hobby",
+    "cached_at": "2026-11-14T20:24:43.732537+00:00"
+  },
+  "SB-D5920B78": {
+    "title": "Coritiba and Santos keep it tight and ugly",
+    "quip": "Neymar's knees aren't unlocking this one",
+    "cached_at": "2026-11-14T20:24:43.732537+00:00"
+  },
+  "SB-A17E42D5": {
+    "title": "Bahia and Coritiba hit four goals tonight",
+    "quip": "Fonte Nova crowd wants fireworks, not a chess match",
+    "cached_at": "2026-11-14T20:24:43.732537+00:00"
+  },
+  "SB-78D261C8": {
+    "title": "Ilves beat SaiPa by two or more",
+    "quip": "Tampere is Finland's hockey capital for a reason",
+    "cached_at": "2026-11-14T20:24:43.732537+00:00"
+  },
+  "SB-7AB77809": {
+    "title": "Atletico Mineiro steal it at Mirassol",
+    "quip": "Hulk still bullying defenders like it's 2013",
+    "cached_at": "2026-11-14T20:24:43.732537+00:00"
+  },
+  "SB-51FBB351": {
+    "title": "Breakers shock the Kings in Sydney",
+    "quip": "Kiwi raiding party crashes the Qudos Bank Arena",
+    "cached_at": "2026-11-14T20:24:43.732537+00:00"
+  },
+  "SB-181422B5": {
+    "title": "Chapecoense and Vasco split the points",
+    "quip": "two clubs allergic to closing out a match",
+    "cached_at": "2026-11-14T20:24:43.732537+00:00"
+  },
+  "SB-E1DC5B94": {
+    "title": "Alexander Flores knocks off David Adeleye",
+    "quip": "every heavyweight is one right hand from rewriting the script",
+    "cached_at": "2026-11-14T20:24:43.732537+00:00"
+  },
+  "SB-89C24F4A": {
+    "title": "Bruins keep it close against the Wild tonight",
+    "quip": "Kirill the Thrill only needs one goal of daylight",
+    "cached_at": "2026-11-14T20:24:52.415723+00:00"
+  },
+  "SB-75C3E66A": {
+    "title": "Mavs steal one in Cleveland tonight",
+    "quip": "Garland and Mitchell can't guard everybody",
+    "cached_at": "2026-11-14T20:24:52.415723+00:00"
+  },
+  "SB-671D17F4": {
+    "title": "Mammoth bury the Sharks in Utah",
+    "quip": "Macklin Celebrini deserves better teammates than this",
+    "cached_at": "2026-11-14T20:24:52.415723+00:00"
   }
 }
