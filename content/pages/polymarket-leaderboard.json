@@ -1,0 +1,136 @@
+{
+  "slug": "polymarket-leaderboard",
+  "format": "comparison",
+  "seo": {
+    "title": "Polymarket Leaderboard Trackers, Ranked | Dollar Bets",
+    "h1": "Polymarket Leaderboard Trackers, Ranked",
+    "meta_description": "Polymarket's own leaderboard caps at 1,050 wallets and hides losers. We compare Polynyx, Polycopy, Polytrackers, Kairos and more to find who's really winning.",
+    "canonical": "/polymarket-leaderboard/"
+  },
+  "summary": "Polymarket's own leaderboard caps out around 1,050 wallets and hides anyone running a net loss, so a whole category of third-party trackers exists to rank the same traders differently — by category, cadence, cross-platform comparison, or copy-trade button. The answer changes depending which one you open.",
+  "quick_answer": "There's no single definitive Polymarket leaderboard — Polymarket's own board caps at 1,050 wallets and hides losers, while third-party trackers like Polycopy, Polynyx, Polytrackers, Kairos.trade and Predicting.top each rank traders differently by methodology, window, and coverage. Polycopy is best for category filtering plus copy trading; Polytrackers updates fastest; Kairos.trade and Predicting.top are best for Polymarket-vs-Kalshi comparisons.",
+  "internal_links": [
+    {
+      "text": "today's board",
+      "url": "/"
+    },
+    {
+      "text": "about Dollar Bets",
+      "url": "/about/"
+    }
+  ],
+  "body": [
+    {
+      "type": "text",
+      "content": "Polymarket's own leaderboard caps out around 1,050 wallets and hides anyone running a net loss, which is why a whole category of third-party sites exists to rank the same traders differently: by category, by copyability, by win rate, or across platforms entirely. We put the main ones side by side. If you're trying to find out who's actually winning right now, which tracker you open changes the answer."
+    },
+    {
+      "type": "heading",
+      "content": "the field, head to head"
+    },
+    {
+      "type": "list",
+      "content": [
+        "Polynyx — 200,000+ wallets, live updates, Polymarket only, no copy trading, ROI/win %/unrealized PnL columns (some gated as Premium)",
+        "Polytrackers — undisclosed coverage, updates every 10 minutes, Polymarket only, one-click copy, has a \"follow score\" per wallet",
+        "Predicts.guru — undisclosed coverage, daily snapshot, Polymarket only, no copy trading, simple all-time and weekly rankings",
+        "Polycopy — 500,000+ wallets, live/daily, Polymarket only, one-click or Auto Copy bots, category filters, free tier plus $30/month Premium",
+        "Kairos.trade — undisclosed coverage, live, Polymarket and Kalshi, no copy trading, side-by-side cross-platform all-time board",
+        "Predicting.top — undisclosed coverage, Polymarket and Kalshi, no copy trading, single combined leaderboard across both platforms",
+        "Predictr — user-selected wallets, real-time, Polymarket only, copy trading, built around following specific wallets rather than a static list",
+        "Banana Predict — undisclosed coverage, live, Polymarket only, copy trading, copytrade button attached directly to each row"
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "1. polycopy, best for category filtering and copy trading together"
+    },
+    {
+      "type": "text",
+      "content": "Polycopy pairs the biggest wallet count on this list with the feature most of its competitors skip entirely: category filters. Polycopy lets you see who's winning across every category, Sports, Politics, Crypto, Weather, and more, and follow the best and copy what makes sense for you. The all-time board updates from verified on-chain P&L, with the top wallet right now at approximately +$22.1M lifetime profit across 43.0M shares traded. Following is free; the service is free to start, with Premium at $30/month."
+    },
+    {
+      "type": "heading",
+      "content": "2. polytrackers, best update frequency"
+    },
+    {
+      "type": "text",
+      "content": "Polytrackers rebuilds its board every 10 minutes and layers a \"follow score\" on top of raw profit, something no other tracker here does by default. It also runs separate weekly and all-time views rather than collapsing everything into one table, and every row carries a one-click copy action next to the wallet."
+    },
+    {
+      "type": "heading",
+      "content": "3. polynyx, best for raw metrics depth"
+    },
+    {
+      "type": "text",
+      "content": "Polynyx is the only tracker on this list that surfaces ROI, win percentage, and unrealized PnL as standard columns rather than add-ons, though several of those columns sit behind a paywall on the public page. Its topline number matches the rest of the field: 200k+ wallets ranked by net realized PnL, volume and ROI. Theo4 leads with $22.1M net realized profit."
+    },
+    {
+      "type": "heading",
+      "content": "4. kairos.trade and predicting.top, best for polymarket vs. kalshi comparisons"
+    },
+    {
+      "type": "text",
+      "content": "These two are the only trackers here that put Polymarket and Kalshi traders on the same page instead of treating them as separate ecosystems. Kairos frames its all-time board as answering \"who's made the most, ever,\" and currently has swisstony leading on cumulative profit, with Theo4 and Fredi9999 close behind, two of the four accounts run by \"Théo,\" the French trader who cleared roughly $85 million on the 2024 U.S. election. Predicting.top runs a similar combined list, with RN1 on Polymarket at +$14.83M all-time and BallerinaCapuccina on Kalshi at +$7.27M all-time near the top of its board. Neither offers copy trading; both exist purely to answer \"who's better, on which platform.\""
+    },
+    {
+      "type": "heading",
+      "content": "5. predicts.guru, best for a quick, no-frills check"
+    },
+    {
+      "type": "text",
+      "content": "If you just want the top five names without columns to parse, Predicts.guru keeps it simple: 1 Theo4 +$22.1M · 2 swisstony +$18.5M · 3 Fredi9999 +$16.6M · 4 RN1 +$13.5M · 5 kch123 +$11.4M. There's no copy trading, no category split, and no cross-platform view. It's a lookup."
+    },
+    {
+      "type": "heading",
+      "content": "6. predictr and banana predict, best for acting on a leaderboard rather than just reading it"
+    },
+    {
+      "type": "text",
+      "content": "These two treat the leaderboard as a launchpad rather than a destination. Predictr is the fastest way to trade on Polymarket and copy top traders, anywhere and on any device, and lets you track both top performers and emerging wallets rather than just scrolling a static list. Banana Predict works the same way from the Polymarket side: copy the wallet address or use Copytrade directly from their leaderboard profile to mirror their next move on the exact same market and odds. Worth noting if you're shopping for this category generally: Polymarket itself has no follow or copy feature, the leaderboard shows you who's winning but gives you no way to act on it beyond opening their profile and manually placing the same trades. Every copy-trading tool on this list exists to close that specific gap."
+    },
+    {
+      "type": "heading",
+      "content": "why the same trader ranks differently on every board"
+    },
+    {
+      "type": "text",
+      "content": "Methodology drives the divergence: some boards rank by lifetime realized PnL only, others blend in unrealized position value, and Polynyx explicitly breaks out Unrealized as its own column where most competitors show $0 across the board. Window matters too: Polytrackers runs separate Top Traders This Week and all-time tables, while Polycopy's category pages rank the last 30 days specifically, so a wallet that's cold this month can still sit near the top of an all-time board. Coverage also matters: Polymarket's own capped, loser-hiding board versus the hundreds of thousands of wallets some third-party trackers index means a trader can be invisible on one page and top-50 on another purely because of which wallets that board chooses to show."
+    },
+    {
+      "type": "heading",
+      "content": "which one to actually use"
+    },
+    {
+      "type": "text",
+      "content": "For category-specific digging (who's best at crypto markets, who's best at sports), Polycopy's filtered views are the only option on this list built for that out of the box. For speed and raw refresh rate, Polytrackers' 10-minute cycle beats the daily-snapshot trackers. For comparing Polymarket against Kalshi directly rather than treating them as separate universes, Kairos.trade and Predicting.top are the two built for that question specifically. And if the goal was never \"who's winning\" but \"how do I do what they're doing,\" Predictr and Banana Predict are the tools built around the copy, not the chart."
+    },
+    {
+      "type": "text",
+      "content": "Leaderboard position, on any of these boards, is a record of what already happened. It isn't a signal for what happens next."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why doesn't Polymarket's own leaderboard match third-party trackers?",
+      "a": "Polymarket's native board caps out around 1,050 wallets and hides accounts running a net loss, while third-party trackers like Polynyx and Polycopy index hundreds of thousands of wallets with their own methodology, so a trader can be invisible on one and top-50 on another."
+    },
+    {
+      "q": "Which Polymarket leaderboard tracker is best for copy trading?",
+      "a": "Polycopy, Polytrackers, Predictr, and Banana Predict all offer one-click or automated copy trading directly from leaderboard rows; Polycopy also adds category filters, while Predictr and Banana Predict build their whole product around following specific wallets."
+    },
+    {
+      "q": "Can I compare Polymarket and Kalshi traders on the same leaderboard?",
+      "a": "Yes — Kairos.trade and Predicting.top both run combined all-time boards that rank traders across Polymarket and Kalshi together, which is something Polymarket's own leaderboard and most single-platform trackers don't do."
+    },
+    {
+      "q": "Does a high leaderboard rank mean a trader will keep winning?",
+      "a": "No. Leaderboard position on any of these boards reflects what already happened, not a prediction of future performance — rankings shift based on window (weekly vs. all-time) and whether unrealized positions are counted."
+    }
+  ],
+  "compliance": "Dollar Bets is an editorial and entertainment site. We do not operate prediction markets, leaderboard trackers, or copy-trading tools, and we don't recommend specific wallets to follow. Prediction market trading involves real financial risk, including total loss of funds; leaderboard rankings reflect past performance only and are not indicative of future results. Dollar Bets earns affiliate commissions when readers sign up to Kalshi or Polymarket through our links.",
+  "publish_date": "2026-11-14",
+  "last_updated": "2026-11-14",
+  "cluster": "Polymarket Tools",
+  "priority": 65
+}
