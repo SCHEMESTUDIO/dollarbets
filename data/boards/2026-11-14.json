@@ -1,0 +1,596 @@
+{
+  "generated_at": "2026-11-14T02:03:49.262287+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 3,
+    "polymarket_us": 7,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "pmus-2037107",
+      "title": "Solana dips to $70 this month",
+      "subtitle": "",
+      "payout": 2.44,
+      "tier": "green",
+      "quip": "Miami nightclub guys quietly listing the Cybertruck on Facebook Marketplace",
+      "yes_price": "0.4100",
+      "volume": 0,
+      "category": "Crypto",
+      "close_time": "2026-12-01T05:30:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/sol-hit-l-m-2026-11?marketSlug=cpcsol-sol-hit-l-m-2026-11-70",
+      "platform": "polymarket_us",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "the Solana guy at my gym pivots to selling supplements by Friday",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i bought at 240 and i think about it during work meetings",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "down bad, Solana edition",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "$70 coin, $2.44 payout, my therapist charges more than both combined",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "like a lottery pick starting in the G League by Thanksgiving",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Miami nightclub guys quietly listing the Cybertruck on Facebook Marketplace",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we are still so early,\" he says, from inside the burning building",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "nothing in nature is more electric than a chart going straight down",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-610069",
+      "title": "Bitcoin falls below $60,000 this year",
+      "subtitle": "",
+      "payout": 2.63,
+      "tier": "green",
+      "quip": "El Salvador checking the couch cushions with a flashlight",
+      "yes_price": "0.3800",
+      "volume": 0,
+      "category": "Crypto",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/btc-hitprice-low-yr-12-31-2026?marketSlug=cpc-btc-hitprice-low-yr-12-31-2026-60k",
+      "platform": "polymarket_us",
+      "score": 38.0,
+      "quip_alts": [
+        {
+          "quip": "i have never owned bitcoin and i still feel this one in my knees",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "laser eyes come off every avatar in one coordinated silent sigh",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "the halving didn't save us",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "like the Jets starting 4-0 and then remembering they're the Jets",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "The Big Short, except everyone in it is wearing a Coinbase hoodie",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "El Salvador checking the couch cushions with a flashlight",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "pays $2.63, which is also what i paid for coffee in 2019",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "a number falling this hard is genuinely beautiful craftsmanship",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2444112",
+      "title": "Ian Buck is the next NVIDIA CEO",
+      "subtitle": "",
+      "payout": 4.0,
+      "tier": "yellow",
+      "quip": "first act as CEO: jacket. leather. immediately",
+      "yes_price": "0.2500",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2029-01-15T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/nvidiaceo-2028-12-31?marketSlug=nphc-nvidiaceo-2028-12-31-ianbuc",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "i have googled this man twice and still cannot picture his face",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "first act as CEO: jacket. leather. immediately",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "CUDA guy ascends",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "like promoting the coordinator who actually drew up the entire playbook",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Michael Scott leaves and it's Jim, and nobody in the office is ready",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "\"so, uh, i invented CUDA\" is an insane thing to say in an interview",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "Jensen's jacket does not transfer with the title and i need that clarified",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "parallel computing nerd inherits a four trillion dollar company. incredible",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2057641",
+      "title": "Alaska diesel tops $6.10 this month",
+      "subtitle": "",
+      "payout": 4.17,
+      "tier": "yellow",
+      "quip": "$6.10 a gallon, $4.17 back, and a moose watching you cry",
+      "yes_price": "0.2400",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2026-12-08T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/akdsl-month-2026-11-30?marketSlug=aaagaspc-akdsl-month-2026-11-30-gt6pt1000",
+      "platform": "polymarket_us",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "i have never been to Alaska and this still feels personal",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "guy in Fairbanks does the math and leaves the truck running until spring",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "Alaska tax, again",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "$6.10 a gallon, $4.17 back, and a moose watching you cry",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "paying California prices without receiving any of the California",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "this is what you get for living where the sun clocks out in October",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "Ice Road Truckers, but the real danger is the Chevron receipt",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "i love that one state just decides fuel costs whatever it wants",
+          "mode": 2,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXUEFANL1HTOTAL-26NOV15ESPENG-3",
+      "title": "Three or more goals before halftime",
+      "subtitle": "ESP vs ENG (Nov 15)",
+      "yes_sub_title": "Over 2.5 1H goals scored",
+      "no_sub_title": "Over 2.5 1H goals scored",
+      "payout": 6.25,
+      "tier": "yellow",
+      "quip": "a soccer match scoring like a Big 12 basketball game",
+      "yes_price": "0.1600",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-17T19:45:00Z",
+      "url": "https://kalshi.com/markets/KXUEFANL1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 69.0,
+      "_specificity": 0,
+      "quip_alts": [
+        {
+          "quip": "both keepers shake hands at the 40th minute and agree to stop trying",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i left to make a sandwich and missed the entire scoreline",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "defending is optional today",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "a soccer match scoring like a Big 12 basketball game",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "three goals in forty five minutes pays $6.25. i'd watch that for free",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "both back lines appear to be here on a student visa",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "first half chaos is the purest product in sports and i will not be taking questions",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "\"we'll fix it at the break,\" says a man who will fix nothing",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-276848",
+      "title": "Lana Del Rey gets a #1 album this year",
+      "subtitle": "",
+      "payout": 9.09,
+      "tier": "orange",
+      "quip": "Nashville was not ready for her and frankly deserves it",
+      "yes_price": "0.1100",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-01-10T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/bilbrd-1album-any2026?marketSlug=ccpc-bilbrd-1album-any2026-lanrey",
+      "platform": "polymarket_us",
+      "score": 55.0,
+      "quip_alts": [
+        {
+          "quip": "my ex is going to be insufferable about this and she has earned it",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "every coffee shop in Brooklyn switches to one single playlist overnight",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "sad girl autumn returns",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "like a veteran closer coming back in August and throwing 99 again",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "Born to Die, forced to debut at number one",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "$9.09 says the country album lands and ruins everybody's October",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "same gorgeous song for fifteen years and i am still completely in",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Nashville was not ready for her and frankly deserves it",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-916564",
+      "title": "Congress passes an AI safety bill this year",
+      "subtitle": "",
+      "payout": 10.0,
+      "tier": "orange",
+      "quip": "nobody in that room has seen Terminator and i can absolutely tell",
+      "yes_price": "0.1000",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-07-15T03:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/usleg-aisfty?marketSlug=lawec-usleg-aisfty-2026-12-31",
+      "platform": "polymarket_us",
+      "score": 63.0,
+      "quip_alts": [
+        {
+          "quip": "subcommittee hearing where a senator asks if ChatGPT is a Chinese app",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i would read this bill. i would. i am lying",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the robots wrote it",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "\"and we've added a provision, very strong provision, no more sentience\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "Congress moving at the speed of a Thursday night Jaguars game",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "ten dollars back for a law nobody in that building can define",
+          "mode": 5,
+          "score": 6
+        },
+        {
+          "quip": "nobody in that room has seen Terminator and i can absolutely tell",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "the average age in that chamber predates the pocket calculator",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXMODELHIGH-27-1550-CHAT",
+      "title": "ChatGPT is first to 1550 on Text Arena",
+      "subtitle": "Before 2027",
+      "yes_sub_title": "ChatGPT",
+      "no_sub_title": "ChatGPT",
+      "payout": 33.33,
+      "tier": "red",
+      "quip": "33 dollars on a 1550. my SAT score was worse than both numbers",
+      "yes_price": "0.0300",
+      "volume": 46739.02,
+      "category": "Science and Technology",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 130.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i still say please and thank you to it like an absolute coward",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "Sam Altman posts one lowercase sentence and three industries get restructured",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "the default wins again",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "rooting for this is rooting for the 1998 Yankees in a bar fight",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "33 dollars on a 1550. my SAT score was worse than both numbers",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "the Rudy story, except Rudy was already the starting quarterback",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "something sincerely sick about a chatbot carrying around a chess rating",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "\"as a large language model i cannot gloat. anyway\"",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-26DEC",
+      "title": "The US cuts a new Iran nuclear deal this year",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Dec 1, 2026",
+      "no_sub_title": "Before Dec 1, 2026",
+      "payout": 50.0,
+      "tier": "red",
+      "quip": "like the Browns announcing their franchise quarterback for the ninth time",
+      "yes_price": "0.0200",
+      "volume": 785119.26,
+      "category": "Politics",
+      "close_time": "2026-12-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i have been told this was happening every year since high school",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "handshake photo, two flags, nobody in the frame has read the document",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "the forever bet",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "like the Browns announcing their franchise quarterback for the ninth time",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "fifty to one, and i have still seen this exact headline fifty times",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"we have a concept of a framework toward a possible understanding\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "the Groundhog Day sequel nobody greenlit and everybody keeps watching",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "diplomacy is the longest running show on television and i am still tuning in",
+          "mode": 3,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1444268",
+      "title": "Ryusuke Hamaguchi wins Best Director",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "like a mid-major coach taking the entire bracket apart in April",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-03-29T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-03-14-2027-bestdir?marketSlug=tac-oscars-03-14-2027-bestdir-ryuham",
+      "platform": "polymarket_us",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "i will pretend i finished Drive My Car and you cannot stop me",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "the Academy gives a standing ovation for a film none of them completed",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "three hour runtime vindicated",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "like a mid-major coach taking the entire bracket apart in April",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "a hundred bucks for a man who makes cars feel like therapy sessions",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "the Parasite moment, except everyone has to learn a new name first",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "Letterboxd ascends to heaven, Hollywood checks its phone",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "the guy makes two people in a sedan feel like the Super Bowl and i'm invested",
+          "mode": 3,
+          "score": 8
+        }
+      ]
+    }
+  ]
+}

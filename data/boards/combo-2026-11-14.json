@@ -1,0 +1,437 @@
+{
+  "generated_at": "2026-11-14T02:04:33.832676+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "yellow": 10
+  },
+  "sport_mix": {
+    "NCAAF": 4,
+    "Multi": 5,
+    "NHL": 1
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-8551D525",
+      "title": "Auburn Tigers wins + Temple Owls wins",
+      "payout": 3.03,
+      "tier": "yellow",
+      "quip": "no surprises here",
+      "yes_price": "0.33",
+      "category": "sports-parlay",
+      "platform": "draftkings",
+      "platform_display": "DraftKings",
+      "url": "https://sportsbook.draftkings.com/?outcomes=0ML87098645_3",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Auburn Tigers @ Mississippi State Bulldogs + UAB Blazers @ Temple Owls",
+      "market_type": "2-leg parlay",
+      "american_odds": 203,
+      "implied_probability": 0.329,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Auburn Tigers @ Mississippi State Bulldogs",
+          "pick": "Auburn Tigers wins",
+          "odds": -135,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML87098645_3",
+          "commence_time": "2026-11-14T17:00:00Z"
+        },
+        {
+          "matchup": "UAB Blazers @ Temple Owls",
+          "pick": "Temple Owls wins",
+          "odds": -135,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML87098654_1",
+          "commence_time": "2026-11-14T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-14T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-2D615317",
+      "title": "Auburn Tigers wins + Washington Huskies wins",
+      "payout": 3.03,
+      "tier": "yellow",
+      "quip": "the boring middle",
+      "yes_price": "0.33",
+      "category": "sports-parlay",
+      "platform": "draftkings",
+      "platform_display": "DraftKings",
+      "url": "https://sportsbook.draftkings.com/?outcomes=0ML87098645_3",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Auburn Tigers @ Mississippi State Bulldogs + Washington Huskies @ Michigan State Spartans",
+      "market_type": "2-leg parlay",
+      "american_odds": 203,
+      "implied_probability": 0.329,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Auburn Tigers @ Mississippi State Bulldogs",
+          "pick": "Auburn Tigers wins",
+          "odds": -135,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML87098645_3",
+          "commence_time": "2026-11-14T17:00:00Z"
+        },
+        {
+          "matchup": "Washington Huskies @ Michigan State Spartans",
+          "pick": "Washington Huskies wins",
+          "odds": -135,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML87098692_3",
+          "commence_time": "2026-11-14T21:15:00Z"
+        }
+      ],
+      "close_time": "2026-11-14T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-51283DB2",
+      "title": "Temple Owls wins + Washington Huskies wins",
+      "payout": 3.03,
+      "tier": "yellow",
+      "quip": "as sure as gravity",
+      "yes_price": "0.33",
+      "category": "sports-parlay",
+      "platform": "draftkings",
+      "platform_display": "DraftKings",
+      "url": "https://sportsbook.draftkings.com/?outcomes=0ML87098654_1",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "UAB Blazers @ Temple Owls + Washington Huskies @ Michigan State Spartans",
+      "market_type": "2-leg parlay",
+      "american_odds": 203,
+      "implied_probability": 0.329,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "UAB Blazers @ Temple Owls",
+          "pick": "Temple Owls wins",
+          "odds": -135,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML87098654_1",
+          "commence_time": "2026-11-14T18:00:00Z"
+        },
+        {
+          "matchup": "Washington Huskies @ Michigan State Spartans",
+          "pick": "Washington Huskies wins",
+          "odds": -135,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.draftkings.com/?outcomes=0ML87098692_3",
+          "commence_time": "2026-11-14T21:15:00Z"
+        }
+      ],
+      "close_time": "2026-11-14T18:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-F47721AE",
+      "title": "Washington Huskies wins + North Texas Mean Green wins",
+      "payout": 3.03,
+      "tier": "yellow",
+      "quip": "the boring middle",
+      "yes_price": "0.33",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48864-4328589-7019347&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Washington Huskies @ Michigan State Spartans + North Texas Mean Green @ UTSA Roadrunners",
+      "market_type": "2-leg parlay",
+      "american_odds": 203,
+      "implied_probability": 0.329,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington Huskies @ Michigan State Spartans",
+          "pick": "Washington Huskies wins",
+          "odds": -135,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48864-4328589-7019347&type=Single",
+          "commence_time": "2026-11-14T21:15:00Z"
+        },
+        {
+          "matchup": "North Texas Mean Green @ UTSA Roadrunners",
+          "pick": "North Texas Mean Green wins",
+          "odds": -135,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48854-4328579-7019327&type=Single",
+          "commence_time": "2026-11-15T02:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-14T21:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-AB2996A1",
+      "title": "Washington Huskies wins + Over 6.5",
+      "payout": 3.03,
+      "tier": "yellow",
+      "quip": "no surprises here",
+      "yes_price": "0.33",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48864-4328589-7019347&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Washington Huskies @ Michigan State Spartans + Edmonton Oilers @ Toronto Maple Leafs",
+      "market_type": "2-leg parlay",
+      "american_odds": 203,
+      "implied_probability": 0.329,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington Huskies @ Michigan State Spartans",
+          "pick": "Washington Huskies wins",
+          "odds": -135,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48864-4328589-7019347&type=Single",
+          "commence_time": "2026-11-14T21:15:00Z"
+        },
+        {
+          "matchup": "Edmonton Oilers @ Toronto Maple Leafs",
+          "pick": "Over 6.5",
+          "odds": -135,
+          "implied_prob": "57%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076251-1575287531-2342477966&type=Single",
+          "commence_time": "2026-11-15T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-14T21:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-53C0B9C5",
+      "title": "Washington Huskies wins + Ottawa Senators wins",
+      "payout": 3.03,
+      "tier": "yellow",
+      "quip": "tuesday energy",
+      "yes_price": "0.33",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48864-4328589-7019347&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Washington Huskies @ Michigan State Spartans + Ottawa Senators @ Pittsburgh Penguins",
+      "market_type": "2-leg parlay",
+      "american_odds": 203,
+      "implied_probability": 0.329,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington Huskies @ Michigan State Spartans",
+          "pick": "Washington Huskies wins",
+          "odds": -135,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48864-4328589-7019347&type=Single",
+          "commence_time": "2026-11-14T21:15:00Z"
+        },
+        {
+          "matchup": "Ottawa Senators @ Pittsburgh Penguins",
+          "pick": "Ottawa Senators wins",
+          "odds": -135,
+          "implied_prob": "57%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076248-1575286952-2342476196&type=Single",
+          "commence_time": "2026-11-15T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-14T21:15:00Z"
+    },
+    {
+      "ticker": "PARLAY-3B252808",
+      "title": "North Texas Mean Green wins + Over 6.5",
+      "payout": 3.03,
+      "tier": "yellow",
+      "quip": "tuesday energy",
+      "yes_price": "0.33",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48854-4328579-7019327&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "North Texas Mean Green @ UTSA Roadrunners + Edmonton Oilers @ Toronto Maple Leafs",
+      "market_type": "2-leg parlay",
+      "american_odds": 203,
+      "implied_probability": 0.329,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "North Texas Mean Green @ UTSA Roadrunners",
+          "pick": "North Texas Mean Green wins",
+          "odds": -135,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48854-4328579-7019327&type=Single",
+          "commence_time": "2026-11-15T02:00:00Z"
+        },
+        {
+          "matchup": "Edmonton Oilers @ Toronto Maple Leafs",
+          "pick": "Over 6.5",
+          "odds": -135,
+          "implied_prob": "57%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076251-1575287531-2342477966&type=Single",
+          "commence_time": "2026-11-15T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-15T00:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-B90E7937",
+      "title": "North Texas Mean Green wins + Ottawa Senators wins",
+      "payout": 3.03,
+      "tier": "yellow",
+      "quip": "another day at the office",
+      "yes_price": "0.33",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48854-4328579-7019327&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "North Texas Mean Green @ UTSA Roadrunners + Ottawa Senators @ Pittsburgh Penguins",
+      "market_type": "2-leg parlay",
+      "american_odds": 203,
+      "implied_probability": 0.329,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "North Texas Mean Green @ UTSA Roadrunners",
+          "pick": "North Texas Mean Green wins",
+          "odds": -135,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48854-4328579-7019327&type=Single",
+          "commence_time": "2026-11-15T02:00:00Z"
+        },
+        {
+          "matchup": "Ottawa Senators @ Pittsburgh Penguins",
+          "pick": "Ottawa Senators wins",
+          "odds": -135,
+          "implied_prob": "57%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076248-1575286952-2342476196&type=Single",
+          "commence_time": "2026-11-15T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-15T00:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-8B321A5C",
+      "title": "Over 6.5 + Ottawa Senators wins",
+      "payout": 3.03,
+      "tier": "yellow",
+      "quip": "business as usual",
+      "yes_price": "0.33",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20076251-1575287531-2342477966&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "NHL",
+      "matchup": "Edmonton Oilers @ Toronto Maple Leafs + Ottawa Senators @ Pittsburgh Penguins",
+      "market_type": "2-leg parlay",
+      "american_odds": 203,
+      "implied_probability": 0.329,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Edmonton Oilers @ Toronto Maple Leafs",
+          "pick": "Over 6.5",
+          "odds": -135,
+          "implied_prob": "57%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076251-1575287531-2342477966&type=Single",
+          "commence_time": "2026-11-15T00:10:00Z"
+        },
+        {
+          "matchup": "Ottawa Senators @ Pittsburgh Penguins",
+          "pick": "Ottawa Senators wins",
+          "odds": -135,
+          "implied_prob": "57%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20076248-1575286952-2342476196&type=Single",
+          "commence_time": "2026-11-15T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-15T00:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-AB6611C5",
+      "title": "Oklahoma Sooners wins + Under 6.5",
+      "payout": 3.07,
+      "tier": "yellow",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.33",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623053443&selectionId=484724",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Ole Miss Rebels @ Oklahoma Sooners + Detroit Red Wings @ Tampa Bay Lightning",
+      "market_type": "2-leg parlay",
+      "american_odds": 207,
+      "implied_probability": 0.326,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Ole Miss Rebels @ Oklahoma Sooners",
+          "pick": "Oklahoma Sooners wins",
+          "odds": -132,
+          "implied_prob": "57%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623053443&selectionId=484724",
+          "commence_time": "2026-11-14T21:15:00Z"
+        },
+        {
+          "matchup": "Detroit Red Wings @ Tampa Bay Lightning",
+          "pick": "Under 6.5",
+          "odds": -134,
+          "implied_prob": "57%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624617810&selectionId=7017912",
+          "commence_time": "2026-11-15T00:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-14T21:15:00Z"
+    }
+  ]
+}
