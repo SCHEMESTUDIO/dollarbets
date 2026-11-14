@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-11-14T02:04:58.595581+00:00",
+  "board_date": "2026-11-14",
+  "link_mode": "reply",
+  "selections": [
+    {
+      "ticker": "pmus-610069",
+      "rank": 1,
+      "selection_reason": "The quip is instantly funny without the title, the market is absurdly specific (Ian Buck leather jacket CEO bit), and 4:1 odds on a niche tech prediction is properly postable",
+      "title": "Bitcoin falls below $60,000 this year",
+      "quip": "El Salvador checking the couch cushions with a flashlight",
+      "payout": 2.63,
+      "platform": "polymarket_us",
+      "tier": "green",
+      "category": "Crypto",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-610069/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-610069/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-610069/og.png",
+      "content": {
+        "x_tweet_text": "El Salvador checking the couch cushions with a flashlight",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-14",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Bitcoin falls below $60,000 this year</b>\n\n\u201c<i>El Salvador checking the couch cushions with a flashlight</i>\u201d\n\n$1 pays $2.63\n\n<a href=\"https://www.dollarbets.lol/share/pmus-610069/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-2057641",
+      "rank": 2,
+      "selection_reason": "Alaska diesel pricing is culturally legible and weird, the quip nails the regional specificity with the moose detail, and the 4.17 payout is interesting enough to make someone double-take",
+      "title": "Alaska diesel tops $6.10 this month",
+      "quip": "$6.10 a gallon, $4.17 back, and a moose watching you cry",
+      "payout": 4.17,
+      "platform": "polymarket_us",
+      "tier": "yellow",
+      "category": "Other",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-2057641/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-2057641/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-2057641/og.png",
+      "content": {
+        "x_tweet_text": "$6.10 a gallon, $4.17 back, and a moose watching you cry",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-14",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Alaska diesel tops $6.10 this month</b>\n\n\u201c<i>$6.10 a gallon, $4.17 back, and a moose watching you cry</i>\u201d\n\n$1 pays $4.17\n\n<a href=\"https://www.dollarbets.lol/share/pmus-2057641/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-1444268",
+      "rank": 3,
+      "selection_reason": "today's filthy little longshot \u2014 the board's own hero pick",
+      "title": "Ryusuke Hamaguchi wins Best Director",
+      "quip": "like a mid-major coach taking the entire bracket apart in April",
+      "payout": 100.0,
+      "platform": "polymarket_us",
+      "tier": "purple",
+      "category": "Entertainment",
+      "card_variant": "ticket",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1444268/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1444268/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1444268/og.png",
+      "content": {
+        "x_tweet_text": "like a mid-major coach taking the entire bracket apart in April",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-14",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Ryusuke Hamaguchi wins Best Director</b>\n\n\u201c<i>like a mid-major coach taking the entire bracket apart in April</i>\u201d\n\n$1 pays $100\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1444268/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    }
+  ]
+}
