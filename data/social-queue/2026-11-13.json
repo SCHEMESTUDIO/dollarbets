@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-14T21:38:52.377570+00:00",
+          "tweet_id": "2121719537997414586",
+          "reply_tweet_id": "2121719539670847922"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "5982830",
+        "page": "https://www.pexels.com/photo/dry-grass-in-cloudy-day-5982830/",
+        "photographer": "Jamie Saw",
+        "license": "Pexels License",
+        "phrases": [
+          "empty football stadium night rain",
+          "goal post fog field dusk"
+        ],
+        "tokens": {
+          "input_tokens": 3154,
+          "output_tokens": 31
         }
       }
     }
