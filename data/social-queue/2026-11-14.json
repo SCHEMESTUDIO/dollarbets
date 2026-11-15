@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-15T06:56:49.418432+00:00",
+          "tweet_id": "2121859950905299022",
+          "reply_tweet_id": "2121859952721506381"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "37539053",
+        "page": "https://www.pexels.com/photo/serene-beach-fishing-scene-with-two-rods-37539053/",
+        "photographer": "Eros Sack",
+        "license": "Pexels License",
+        "phrases": [
+          "empty beach dusk el salvador",
+          "sofa living room night flashlight"
+        ],
+        "tokens": {
+          "input_tokens": 3623,
+          "output_tokens": 34
         }
       }
     },
