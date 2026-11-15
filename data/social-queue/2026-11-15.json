@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-11-15T01:37:33.038639+00:00",
+  "board_date": "2026-11-15",
+  "link_mode": "reply",
+  "selections": [
+    {
+      "ticker": "pmus-2360205",
+      "rank": 1,
+      "selection_reason": "The quip is perfect standalone (New Jersey gas pump attendant joke lands immediately), the market is hyper-specific/regional, and 8.33 odds feel weirdly generous for something this plausible",
+      "title": "New Jersey gas tops $4.08 this week",
+      "quip": "$4.08 and the guy still won't let you touch the nozzle",
+      "payout": 8.33,
+      "platform": "polymarket_us",
+      "tier": "orange",
+      "category": "Other",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-2360205/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-2360205/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-2360205/og.png",
+      "content": {
+        "x_tweet_text": "$4.08 and the guy still won't let you touch the nozzle",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-15",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>New Jersey gas tops $4.08 this week</b>\n\n\u201c<i>$4.08 and the guy still won&#x27;t let you touch the nozzle</i>\u201d\n\n$1 pays $8.33\n\n<a href=\"https://www.dollarbets.lol/share/pmus-2360205/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-1464632",
+      "rank": 2,
+      "selection_reason": "The 'Alabama of award categories' recruiting joke is sharp and self-contained, Bruno Mars is culturally legible, and 2.04 odds on a genuinely funny premise makes people double-take",
+      "title": "Bruno Mars wins Best R&B Solo Performance",
+      "quip": "the Alabama of award categories. recruiting never stops",
+      "payout": 2.04,
+      "platform": "polymarket_us",
+      "tier": "green",
+      "category": "Entertainment",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1464632/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1464632/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1464632/og.png",
+      "content": {
+        "x_tweet_text": "the Alabama of award categories. recruiting never stops",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-15",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Bruno Mars wins Best R&amp;B Solo Performance</b>\n\n\u201c<i>the Alabama of award categories. recruiting never stops</i>\u201d\n\n$1 pays $2.04\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1464632/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-1445916",
+      "rank": 3,
+      "selection_reason": "today's filthy little longshot \u2014 the board's own hero pick",
+      "title": "Travis Scott wins Best Supporting Actor",
+      "quip": "like a punter taking MVP in a landslide",
+      "payout": 100.0,
+      "platform": "polymarket_us",
+      "tier": "purple",
+      "category": "Entertainment",
+      "card_variant": "ticket",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1445916/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1445916/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1445916/og.png",
+      "content": {
+        "x_tweet_text": "like a punter taking MVP in a landslide",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-15",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Travis Scott wins Best Supporting Actor</b>\n\n\u201c<i>like a punter taking MVP in a landslide</i>\u201d\n\n$1 pays $100\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1445916/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    }
+  ]
+}
