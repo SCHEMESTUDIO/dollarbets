@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-11-15T01:37:09.417625+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "NCAAF": 3,
+    "Multi": 7
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-61034286",
+      "title": "Arizona State Sun Devils -13.5 + Utah State Aggies wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48882-4558604-7493119&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Arizona State Sun Devils @ UCF Knights + Utah State Aggies @ San Diego State Aztecs",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Arizona State Sun Devils @ UCF Knights",
+          "pick": "Arizona State Sun Devils -13.5",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48882-4558604-7493119&type=Single",
+          "commence_time": "2026-11-14T22:30:00Z"
+        },
+        {
+          "matchup": "Utah State Aggies @ San Diego State Aztecs",
+          "pick": "Utah State Aggies wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48970-4328700-7019571&type=Single",
+          "commence_time": "2026-11-15T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-14T22:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-BE5D325D",
+      "title": "Arizona State Sun Devils -13.5 + Oklahoma Sooners wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48882-4558604-7493119&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Arizona State Sun Devils @ UCF Knights + Ole Miss Rebels @ Oklahoma Sooners",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Arizona State Sun Devils @ UCF Knights",
+          "pick": "Arizona State Sun Devils -13.5",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48882-4558604-7493119&type=Single",
+          "commence_time": "2026-11-14T22:30:00Z"
+        },
+        {
+          "matchup": "Ole Miss Rebels @ Oklahoma Sooners",
+          "pick": "Oklahoma Sooners wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48870-4328596-7019361&type=Single",
+          "commence_time": "2026-11-15T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-14T22:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-E5132803",
+      "title": "Arizona State Sun Devils -13.5 + Detroit Lions wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48882-4558604-7493119&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Arizona State Sun Devils @ UCF Knights + New England Patriots @ Detroit Lions",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Arizona State Sun Devils @ UCF Knights",
+          "pick": "Arizona State Sun Devils -13.5",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48882-4558604-7493119&type=Single",
+          "commence_time": "2026-11-14T22:30:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Detroit Lions",
+          "pick": "Detroit Lions wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44011-3451276-5411237&type=Single",
+          "commence_time": "2026-11-15T14:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-14T22:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-83EA46EE",
+      "title": "Utah State Aggies wins + Oklahoma Sooners wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48970-4328700-7019571&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Utah State Aggies @ San Diego State Aztecs + Ole Miss Rebels @ Oklahoma Sooners",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Utah State Aggies @ San Diego State Aztecs",
+          "pick": "Utah State Aggies wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48970-4328700-7019571&type=Single",
+          "commence_time": "2026-11-15T02:30:00Z"
+        },
+        {
+          "matchup": "Ole Miss Rebels @ Oklahoma Sooners",
+          "pick": "Oklahoma Sooners wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48870-4328596-7019361&type=Single",
+          "commence_time": "2026-11-15T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-15T02:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-6A70D375",
+      "title": "Utah State Aggies wins + Detroit Lions wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48970-4328700-7019571&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Utah State Aggies @ San Diego State Aztecs + New England Patriots @ Detroit Lions",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Utah State Aggies @ San Diego State Aztecs",
+          "pick": "Utah State Aggies wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48970-4328700-7019571&type=Single",
+          "commence_time": "2026-11-15T02:30:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Detroit Lions",
+          "pick": "Detroit Lions wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44011-3451276-5411237&type=Single",
+          "commence_time": "2026-11-15T14:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-15T02:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-475533AE",
+      "title": "Oklahoma Sooners wins + Detroit Lions wins",
+      "payout": 2.85,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:48870-4328596-7019361&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Ole Miss Rebels @ Oklahoma Sooners + New England Patriots @ Detroit Lions",
+      "market_type": "2-leg parlay",
+      "american_odds": 185,
+      "implied_probability": 0.35,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Ole Miss Rebels @ Oklahoma Sooners",
+          "pick": "Oklahoma Sooners wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48870-4328596-7019361&type=Single",
+          "commence_time": "2026-11-15T18:00:00Z"
+        },
+        {
+          "matchup": "New England Patriots @ Detroit Lions",
+          "pick": "Detroit Lions wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44011-3451276-5411237&type=Single",
+          "commence_time": "2026-11-15T14:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-15T14:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-721DB923",
+      "title": "Sacramento St Hornets wins + Arizona State Sun Devils -13.5",
+      "payout": 2.9,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20104956-1578562961-2351302778&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "UC Davis Aggies @ Sacramento St Hornets + Arizona State Sun Devils @ UCF Knights",
+      "market_type": "2-leg parlay",
+      "american_odds": 190,
+      "implied_probability": 0.345,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "UC Davis Aggies @ Sacramento St Hornets",
+          "pick": "Sacramento St Hornets wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20104956-1578562961-2351302778&type=Single",
+          "commence_time": "2026-11-15T01:02:05Z"
+        },
+        {
+          "matchup": "Arizona State Sun Devils @ UCF Knights",
+          "pick": "Arizona State Sun Devils -13.5",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48882-4558604-7493119&type=Single",
+          "commence_time": "2026-11-14T22:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-14T22:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-A8DD520E",
+      "title": "Sacramento St Hornets wins + Utah State Aggies wins",
+      "payout": 2.9,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20104956-1578562961-2351302778&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "UC Davis Aggies @ Sacramento St Hornets + Utah State Aggies @ San Diego State Aztecs",
+      "market_type": "2-leg parlay",
+      "american_odds": 190,
+      "implied_probability": 0.345,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "UC Davis Aggies @ Sacramento St Hornets",
+          "pick": "Sacramento St Hornets wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20104956-1578562961-2351302778&type=Single",
+          "commence_time": "2026-11-15T01:02:05Z"
+        },
+        {
+          "matchup": "Utah State Aggies @ San Diego State Aztecs",
+          "pick": "Utah State Aggies wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48970-4328700-7019571&type=Single",
+          "commence_time": "2026-11-15T02:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-15T01:02:05Z"
+    },
+    {
+      "ticker": "PARLAY-0C2C81CB",
+      "title": "Sacramento St Hornets wins + Oklahoma Sooners wins",
+      "payout": 2.9,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20104956-1578562961-2351302778&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "UC Davis Aggies @ Sacramento St Hornets + Ole Miss Rebels @ Oklahoma Sooners",
+      "market_type": "2-leg parlay",
+      "american_odds": 190,
+      "implied_probability": 0.345,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "UC Davis Aggies @ Sacramento St Hornets",
+          "pick": "Sacramento St Hornets wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20104956-1578562961-2351302778&type=Single",
+          "commence_time": "2026-11-15T01:02:05Z"
+        },
+        {
+          "matchup": "Ole Miss Rebels @ Oklahoma Sooners",
+          "pick": "Oklahoma Sooners wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:48870-4328596-7019361&type=Single",
+          "commence_time": "2026-11-15T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-15T01:02:05Z"
+    },
+    {
+      "ticker": "PARLAY-3B40F3CC",
+      "title": "Sacramento St Hornets wins + Detroit Lions wins",
+      "payout": 2.9,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20104956-1578562961-2351302778&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "UC Davis Aggies @ Sacramento St Hornets + New England Patriots @ Detroit Lions",
+      "market_type": "2-leg parlay",
+      "american_odds": 190,
+      "implied_probability": 0.345,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "UC Davis Aggies @ Sacramento St Hornets",
+          "pick": "Sacramento St Hornets wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20104956-1578562961-2351302778&type=Single",
+          "commence_time": "2026-11-15T01:02:05Z"
+        },
+        {
+          "matchup": "New England Patriots @ Detroit Lions",
+          "pick": "Detroit Lions wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44011-3451276-5411237&type=Single",
+          "commence_time": "2026-11-15T14:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-15T01:02:05Z"
+    }
+  ]
+}

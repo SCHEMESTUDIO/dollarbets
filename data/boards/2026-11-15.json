@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-11-15T01:36:17.148434+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket_us": 5,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "pmus-1464632",
+      "title": "Bruno Mars wins Best R&B Solo Performance",
+      "subtitle": "",
+      "payout": 2.04,
+      "tier": "green",
+      "quip": "the Alabama of award categories. recruiting never stops",
+      "yes_price": "0.4900",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-02-22T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/grammys-brbsp-2027-02-07?marketSlug=tac-grammys-brbsp-2027-02-07-whyyou",
+      "platform": "polymarket_us",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "undefeated in human history",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "this is his 93rd Grammy and the man is somehow 40",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "I own two of his albums and would not describe myself as a fan",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "I will be hearing this at a wedding in June against my will",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "he thanks his band, winks once, and vanishes for four years",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "somewhere a Weeknd guy is writing a very long tweet about it",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "the Alabama of award categories. recruiting never stops",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"thank you to Peter Gene Hernandez, who never doubted me\"",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1048256",
+      "title": "Virginie Efira gets a Best Actress nomination",
+      "subtitle": "",
+      "payout": 2.22,
+      "tier": "green",
+      "quip": "the long-awaited Emily in Paris apology tour",
+      "yes_price": "0.4500",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2027-02-05T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-nom-bstactre-2027-01-21?marketSlug=tac-oscars-nom-bstactre-2027-01-21-virefi",
+      "platform": "polymarket_us",
+      "score": 33.0,
+      "quip_alts": [
+        {
+          "quip": "subtitles finally paying off",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "I have not seen the film and I am already recommending it loudly",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "I'd like the French to keep making movies I pretend to have watched",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the Academy discovering France exists roughly once per decade",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "French cinema is the mid-major that keeps covering the spread",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Letterboxd guys sprinting to backfill their year-end lists by morning",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "the long-awaited Emily in Paris apology tour",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "nobody on earth makes a face like that. sincerely incredible stuff",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXSNOWXMASCHI-25DEC26-0",
+      "title": "Chicago gets snow on Christmas",
+      "subtitle": "On Dec 25, 2026",
+      "yes_sub_title": "Above 0 inches",
+      "no_sub_title": "Above 0 inches",
+      "payout": 2.27,
+      "tier": "green",
+      "quip": "Kevin McCallister stress-testing municipal snow response",
+      "yes_price": "0.4400",
+      "volume": 72.19,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-26T05:59:00Z",
+      "url": "https://kalshi.com/markets/KXSNOWXMASCHI?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 58.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "above zero inches. poetry",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "0.1 inches counts, which is the most Chicago sentence ever written",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "my uncle calls this nothing while shoveling for forty straight minutes",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "I drove Lake Shore in this once and I have not recovered",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Florida gets nothing again and that remains correct",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "Lake Michigan presses the button on a whim and ruins O'Hare",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "Kevin McCallister stress-testing municipal snow response",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "snow on Christmas is the last miracle that still shows up on time",
+          "mode": 3,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUEFANL1HBTTS-26NOV16GERNED-BTTS",
+      "title": "Both teams score in the first half",
+      "subtitle": "GER vs NED (Nov 16)",
+      "yes_sub_title": "1st Half: Both Teams To Score",
+      "no_sub_title": "1st Half: Both Teams To Score",
+      "payout": 3.23,
+      "tier": "yellow",
+      "quip": "like a Big 12 shootout breaking out inside a Big Ten stadium",
+      "yes_price": "0.3100",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-18T19:45:00Z",
+      "url": "https://kalshi.com/markets/KXUEFANL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 66.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "45 minutes, two goals, done",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "I will be asleep by the 30th minute and I know this about myself",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "I cannot name a single German defender anymore and that's a real problem",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the Dutch back line defending like a group project at 11pm",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "like a Big 12 shootout breaking out inside a Big Ten stadium",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "both managers shrug at halftime and agree to just keep doing that",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "31 cents for chaos before the orange slices come out",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "orange and white both finding the net early is genuinely great television",
+          "mode": 3,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "ticker": "KXSPACEXMARS-30",
+      "title": "SpaceX lands something on Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Before 2030",
+      "payout": 4.76,
+      "tier": "yellow",
+      "quip": "first object on Mars is a Cybertruck with a parking ticket already",
+      "yes_price": "0.2100",
+      "volume": 102279.6,
+      "category": "Science and Technology",
+      "close_time": "2030-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXSPACEXMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "anything. the bar is anything",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "\"anything\" includes a scorched panel, which is how he got my 21 cents",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "I just want a rover to find a Starship door and say nothing",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "I'll take a bolt. a hinge. one charred bracket. I'm easy",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "first object on Mars is a Cybertruck with a parking ticket already",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "the Wall-E opening montage, but filed as a mission plan",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "Boeing watching this with a lukewarm coffee and three lawyers",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "\"we landed it. sideways, sure. but landed\"",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-205141",
+      "title": "Netanyahu is still PM after the next election",
+      "subtitle": "",
+      "payout": 6.67,
+      "tier": "yellow",
+      "quip": "the final boss with three separate health bars and a cutscene",
+      "yes_price": "0.1500",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-11-02T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/isrpol-pm-2026-10-27?marketSlug=mlaec-isrpol-pm-2026-10-27-bennet",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "he simply does not leave",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "he's held this job longer than I've had a checking account",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "I started following this in high school and I am no longer in high school",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Belichick, except the contract renews itself while you sleep",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "the final boss with three separate health bars and a cutscene",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "six times he's won this job and the furniture hasn't moved once",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "the Knesset quietly installs a cot behind the podium",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "say whatever you want, the survival instinct here is olympic",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2360205",
+      "title": "New Jersey gas tops $4.08 this week",
+      "subtitle": "",
+      "payout": 8.33,
+      "tier": "orange",
+      "quip": "$4.08 and the guy still won't let you touch the nozzle",
+      "yes_price": "0.1200",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2026-11-24T04:59:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/njgas-week-2026-11-16?marketSlug=aaagaspc-njgas-week-2026-11-16-gt4pt0800",
+      "platform": "polymarket_us",
+      "score": 55.0,
+      "quip_alts": [
+        {
+          "quip": "Jersey, at the pump, again",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "I'd pay five bucks just for the right to pump it myself",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "my tank is on E and I'm praying to the Parkway gods",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "$4.08 and the guy still won't let you touch the nozzle",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "turnpike Cinnabon raises prices out of solidarity by Thursday",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "New Jersey deserves this and honestly deserves a little worse",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "the Sopranos ended before anybody had to pay this",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "nothing unites a state like a number going up outside the Wawa",
+          "mode": 3,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXUEFANL1HSPREAD-26NOV16GERNED-NED2",
+      "title": "Netherlands wins the first half by two",
+      "subtitle": "GER vs NED (Nov 16)",
+      "yes_sub_title": "Netherlands wins the 1H by more than 1.5 goals",
+      "no_sub_title": "Netherlands wins the 1H by more than 1.5 goals",
+      "payout": 12.5,
+      "tier": "orange",
+      "quip": "Germany at halftime, staring deep into a bratwurst",
+      "yes_price": "0.0800",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-18T19:45:00Z",
+      "url": "https://kalshi.com/markets/KXUEFANL1HSPREAD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 74.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "orange crush, half an hour",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "I'd watch the German bench reaction shot on a permanent loop",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "I'm setting an alarm for a first half. that's where I am now",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Germany at halftime, staring deep into a bratwurst",
+          "mode": 7,
+          "score": 9
+        },
+        {
+          "quip": "like being down 21 before the wings even show up",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "12.5x for 45 minutes of work is consultant money",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "1974 revenge, served at room temperature",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "a nation's group chat goes silent at the 41st minute",
+          "mode": 1,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUAPFILES-26OCT27-26NOV15",
+      "title": "Trump releases new UFO files this year",
+      "subtitle": "In 2026",
+      "yes_sub_title": "Before Nov 15, 2026",
+      "no_sub_title": "Before Nov 15, 2026",
+      "payout": 20.0,
+      "tier": "red",
+      "quip": "\"these are the files. yes, all of them. yes, all of them\"",
+      "yes_price": "0.0500",
+      "volume": 114.8,
+      "category": "Politics",
+      "close_time": "2026-11-15T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUAPFILES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 127.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "PDF, 20 bucks, aliens",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "I will read four pages and then go to bed furious",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "I want the grainy photos. give me the grainy photos",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "a twenty dollar payout for the truth, cheaper than the documentary",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "page 400 is a redacted weather balloon and a smiley face",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "the Pentagon shredder pulling a double shift and a half",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "Mulder has been dead inside for thirty years waiting on this",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "\"these are the files. yes, all of them. yes, all of them\"",
+          "mode": 4,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1445916",
+      "title": "Travis Scott wins Best Supporting Actor",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "like a punter taking MVP in a landslide",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-03-29T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-03-14-2027-bestsupacto?marketSlug=tac-oscars-03-14-2027-bestsupacto-trasco",
+      "platform": "polymarket_us",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "the Academy on lean",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "I would watch that entire ceremony with my whole chest",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "if this hits I'm framing the ticket next to my diploma",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "he says \"it's lit\", drops the statue, and leaves the stage",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "one dollar becomes a hundred and Utopia becomes a trilogy",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "somewhere Daniel Day-Lewis unretires purely out of spite",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "like a punter taking MVP in a landslide",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Brando sent an activist. Travis sends a Cactus Jack hoodie",
+          "mode": 8,
+          "score": 9
+        }
+      ]
+    }
+  ]
+}

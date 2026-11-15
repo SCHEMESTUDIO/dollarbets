@@ -1,186 +1,186 @@
 {
- "generated_at": "2026-11-14T02:03:49.261609+00:00",
+ "generated_at": "2026-11-15T01:36:17.147793+00:00",
  "markets": {
-  "pmus-2037107": {
-   "title": "Solana dips to $70 this month",
+  "pmus-1464632": {
+   "title": "Bruno Mars wins Best R&B Solo Performance",
    "platform": "polymarket_us",
-   "payout": 2.44,
-   "url": "https://polymarket.us/event/sol-hit-l-m-2026-11?marketSlug=cpcsol-sol-hit-l-m-2026-11-70",
-   "category": "Crypto",
+   "payout": 2.04,
+   "url": "https://polymarket.us/event/grammys-brbsp-2027-02-07?marketSlug=tac-grammys-brbsp-2027-02-07-whyyou",
+   "category": "Entertainment",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-2037107",
-     "title": "Solana dips to $70 this month",
-     "url": "https://polymarket.us/event/sol-hit-l-m-2026-11?marketSlug=cpcsol-sol-hit-l-m-2026-11-70",
-     "payout": 2.44,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-610069": {
-   "title": "Bitcoin falls below $60,000 this year",
-   "platform": "polymarket_us",
-   "payout": 2.63,
-   "url": "https://polymarket.us/event/btc-hitprice-low-yr-12-31-2026?marketSlug=cpc-btc-hitprice-low-yr-12-31-2026-60k",
-   "category": "Crypto",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-610069",
-     "title": "Bitcoin falls below $60,000 this year",
-     "url": "https://polymarket.us/event/btc-hitprice-low-yr-12-31-2026?marketSlug=cpc-btc-hitprice-low-yr-12-31-2026-60k",
-     "payout": 2.63,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-2444112": {
-   "title": "Ian Buck is the next NVIDIA CEO",
-   "platform": "polymarket_us",
-   "payout": 4.0,
-   "url": "https://polymarket.us/event/nvidiaceo-2028-12-31?marketSlug=nphc-nvidiaceo-2028-12-31-ianbuc",
-   "category": "Other",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-2444112",
-     "title": "Ian Buck is the next NVIDIA CEO",
-     "url": "https://polymarket.us/event/nvidiaceo-2028-12-31?marketSlug=nphc-nvidiaceo-2028-12-31-ianbuc",
-     "payout": 4.0,
+     "ticker": "pmus-1464632",
+     "title": "Bruno Mars wins Best R&B Solo Performance",
+     "url": "https://polymarket.us/event/grammys-brbsp-2027-02-07?marketSlug=tac-grammys-brbsp-2027-02-07-whyyou",
+     "payout": 2.04,
      "same": true,
      "sim": 1.0
     },
     "kalshi": {
-     "ticker": "KXNVDACEO-29JAN-PGEL",
-     "title": "Who will be the next CEO of NVIDIA?",
-     "url": "https://kalshi.com/markets/KXNVDACEO?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "ticker": "KXGRAMMY-BRBSP69-TIE",
+     "title": "Grammy Winner: Best R&B Solo Performance",
+     "url": "https://kalshi.com/markets/KXGRAMMY?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
      "payout": 100.0,
      "same": false,
-     "sim": 0.43
+     "sim": 0.44
     }
    }
   },
-  "pmus-2057641": {
-   "title": "Alaska diesel tops $6.10 this month",
+  "pmus-1048256": {
+   "title": "Virginie Efira gets a Best Actress nomination",
    "platform": "polymarket_us",
-   "payout": 4.17,
-   "url": "https://polymarket.us/event/akdsl-month-2026-11-30?marketSlug=aaagaspc-akdsl-month-2026-11-30-gt6pt1000",
-   "category": "Other",
+   "payout": 2.22,
+   "url": "https://polymarket.us/event/oscars-nom-bstactre-2027-01-21?marketSlug=tac-oscars-nom-bstactre-2027-01-21-virefi",
+   "category": "Science and Technology",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-2057641",
-     "title": "Alaska diesel tops $6.10 this month",
-     "url": "https://polymarket.us/event/akdsl-month-2026-11-30?marketSlug=aaagaspc-akdsl-month-2026-11-30-gt6pt1000",
-     "payout": 4.17,
+     "ticker": "pmus-1048256",
+     "title": "Virginie Efira gets a Best Actress nomination",
+     "url": "https://polymarket.us/event/oscars-nom-bstactre-2027-01-21?marketSlug=tac-oscars-nom-bstactre-2027-01-21-virefi",
+     "payout": 2.22,
      "same": true,
      "sim": 1.0
-    },
-    "kalshi": {
-     "ticker": "KXDIESELMONAK-26NOV30-T7.2000",
-     "title": "Alaska diesel prices in Nov 2026",
-     "url": "https://kalshi.com/markets/KXDIESELMONAK?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 10.0,
-     "same": false,
-     "sim": 0.5
     }
    }
   },
-  "KXUEFANL1HTOTAL-26NOV15ESPENG-3": {
-   "title": "Three or more goals before halftime",
+  "KXSNOWXMASCHI-25DEC26-0": {
+   "title": "Chicago gets snow on Christmas",
    "platform": "kalshi",
-   "payout": 6.25,
-   "url": "https://kalshi.com/markets/KXUEFANL1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 2.27,
+   "url": "https://kalshi.com/markets/KXSNOWXMASCHI?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Climate and Weather",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXSNOWXMASCHI-25DEC26-0",
+     "title": "Chicago gets snow on Christmas",
+     "url": "https://kalshi.com/markets/KXSNOWXMASCHI?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 2.27,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXUEFANL1HBTTS-26NOV16GERNED-BTTS": {
+   "title": "Both teams score in the first half",
+   "platform": "kalshi",
+   "payout": 3.23,
+   "url": "https://kalshi.com/markets/KXUEFANL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Sports",
    "alts": {
     "kalshi": {
-     "ticker": "KXUEFANL1HTOTAL-26NOV15ESPENG-3",
-     "title": "Three or more goals before halftime",
-     "url": "https://kalshi.com/markets/KXUEFANL1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 6.25,
+     "ticker": "KXUEFANL1HBTTS-26NOV16GERNED-BTTS",
+     "title": "Both teams score in the first half",
+     "url": "https://kalshi.com/markets/KXUEFANL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 3.23,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-276848": {
-   "title": "Lana Del Rey gets a #1 album this year",
-   "platform": "polymarket_us",
-   "payout": 9.09,
-   "url": "https://polymarket.us/event/bilbrd-1album-any2026?marketSlug=ccpc-bilbrd-1album-any2026-lanrey",
-   "category": "Entertainment",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-276848",
-     "title": "Lana Del Rey gets a #1 album this year",
-     "url": "https://polymarket.us/event/bilbrd-1album-any2026?marketSlug=ccpc-bilbrd-1album-any2026-lanrey",
-     "payout": 9.09,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-916564": {
-   "title": "Congress passes an AI safety bill this year",
-   "platform": "polymarket_us",
-   "payout": 10.0,
-   "url": "https://polymarket.us/event/usleg-aisfty?marketSlug=lawec-usleg-aisfty-2026-12-31",
-   "category": "World",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-916564",
-     "title": "Congress passes an AI safety bill this year",
-     "url": "https://polymarket.us/event/usleg-aisfty?marketSlug=lawec-usleg-aisfty-2026-12-31",
-     "payout": 10.0,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "KXMODELHIGH-27-1550-CHAT": {
-   "title": "ChatGPT is first to 1550 on Text Arena",
+  "KXSPACEXMARS-30": {
+   "title": "SpaceX lands something on Mars before 2030",
    "platform": "kalshi",
-   "payout": 33.33,
-   "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 4.76,
+   "url": "https://kalshi.com/markets/KXSPACEXMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Science and Technology",
    "alts": {
     "kalshi": {
-     "ticker": "KXMODELHIGH-27-1550-CHAT",
-     "title": "ChatGPT is first to 1550 on Text Arena",
-     "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 33.33,
+     "ticker": "KXSPACEXMARS-30",
+     "title": "SpaceX lands something on Mars before 2030",
+     "url": "https://kalshi.com/markets/KXSPACEXMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 4.76,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXUSAIRANAGREEMENT-27-26DEC": {
-   "title": "The US cuts a new Iran nuclear deal this year",
+  "pmus-205141": {
+   "title": "Netanyahu is still PM after the next election",
+   "platform": "polymarket_us",
+   "payout": 6.67,
+   "url": "https://polymarket.us/event/isrpol-pm-2026-10-27?marketSlug=mlaec-isrpol-pm-2026-10-27-bennet",
+   "category": "World",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-205141",
+     "title": "Netanyahu is still PM after the next election",
+     "url": "https://polymarket.us/event/isrpol-pm-2026-10-27?marketSlug=mlaec-isrpol-pm-2026-10-27-bennet",
+     "payout": 6.67,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-2360205": {
+   "title": "New Jersey gas tops $4.08 this week",
+   "platform": "polymarket_us",
+   "payout": 8.33,
+   "url": "https://polymarket.us/event/njgas-week-2026-11-16?marketSlug=aaagaspc-njgas-week-2026-11-16-gt4pt0800",
+   "category": "Other",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-2360205",
+     "title": "New Jersey gas tops $4.08 this week",
+     "url": "https://polymarket.us/event/njgas-week-2026-11-16?marketSlug=aaagaspc-njgas-week-2026-11-16-gt4pt0800",
+     "payout": 8.33,
+     "same": true,
+     "sim": 1.0
+    },
+    "kalshi": {
+     "ticker": "KXAAAGASWNJ-26NOV16-4.0600",
+     "title": "New Jersey gas prices this week",
+     "url": "https://kalshi.com/markets/KXAAAGASWNJ?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 11.11,
+     "same": false,
+     "sim": 0.6
+    }
+   }
+  },
+  "KXUEFANL1HSPREAD-26NOV16GERNED-NED2": {
+   "title": "Netherlands wins the first half by two",
    "platform": "kalshi",
-   "payout": 50.0,
-   "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 12.5,
+   "url": "https://kalshi.com/markets/KXUEFANL1HSPREAD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Sports",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXUEFANL1HSPREAD-26NOV16GERNED-NED2",
+     "title": "Netherlands wins the first half by two",
+     "url": "https://kalshi.com/markets/KXUEFANL1HSPREAD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 12.5,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXUAPFILES-26OCT27-26NOV15": {
+   "title": "Trump releases new UFO files this year",
+   "platform": "kalshi",
+   "payout": 20.0,
+   "url": "https://kalshi.com/markets/KXUAPFILES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Politics",
    "alts": {
     "kalshi": {
-     "ticker": "KXUSAIRANAGREEMENT-27-26DEC",
-     "title": "The US cuts a new Iran nuclear deal this year",
-     "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 50.0,
+     "ticker": "KXUAPFILES-26OCT27-26NOV15",
+     "title": "Trump releases new UFO files this year",
+     "url": "https://kalshi.com/markets/KXUAPFILES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 20.0,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-1444268": {
-   "title": "Ryusuke Hamaguchi wins Best Director",
+  "pmus-1445916": {
+   "title": "Travis Scott wins Best Supporting Actor",
    "platform": "polymarket_us",
    "payout": 100.0,
-   "url": "https://polymarket.us/event/oscars-03-14-2027-bestdir?marketSlug=tac-oscars-03-14-2027-bestdir-ryuham",
+   "url": "https://polymarket.us/event/oscars-03-14-2027-bestsupacto?marketSlug=tac-oscars-03-14-2027-bestsupacto-trasco",
    "category": "Entertainment",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1444268",
-     "title": "Ryusuke Hamaguchi wins Best Director",
-     "url": "https://polymarket.us/event/oscars-03-14-2027-bestdir?marketSlug=tac-oscars-03-14-2027-bestdir-ryuham",
+     "ticker": "pmus-1445916",
+     "title": "Travis Scott wins Best Supporting Actor",
+     "url": "https://polymarket.us/event/oscars-03-14-2027-bestsupacto?marketSlug=tac-oscars-03-14-2027-bestsupacto-trasco",
      "payout": 100.0,
      "same": true,
      "sim": 1.0
