@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-15T19:27:44.117393+00:00",
+          "tweet_id": "2122048924035023280",
+          "reply_tweet_id": "2122048925553275079"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "8875557",
+        "page": "https://www.pexels.com/photo/photo-of-white-snow-covering-the-ground-and-trees-8875557/",
+        "photographer": "Barnabas Davoti",
+        "license": "Pexels License",
+        "phrases": [
+          "remote fuel pumps snow dusk",
+          "spruce forest highway winter fog"
+        ],
+        "tokens": {
+          "input_tokens": 3871,
+          "output_tokens": 37
         }
       }
     },
