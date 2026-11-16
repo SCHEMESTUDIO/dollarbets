@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-11-16T01:40:07.013724+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket_us": 5,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "pmus-2506435",
+      "title": "26 or more ships pass through Hormuz next week",
+      "subtitle": "",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "oil guys watching a webcam of water like it's the Super Bowl",
+      "yes_price": "0.5000",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2026-12-08T14:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/hormuz-week-2026-11-22?marketSlug=stsc-hormuz-week-2026-11-22-ge26",
+      "platform": "polymarket_us",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "I now know the tanker schedule better than my own dentist appointments",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "oil guys watching a webcam of water like it's the Super Bowl",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "ship number 26 is two jet skis in a trench coat",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "boats doing boat things",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "'all clear, captain. nobody shot at us today, somehow'",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "like counting freight trains in Ohio except everyone's gas depends on it",
+          "mode": 6,
+          "score": 6.5
+        },
+        {
+          "quip": "somewhere a Houston man is furious that nothing happened",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "I have a Strait of Hormuz tab open and it is affecting my marriage",
+          "mode": 2,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2567878",
+      "title": "Bitcoin closes up over the next 15 minutes",
+      "subtitle": "",
+      "payout": 2.5,
+      "tier": "green",
+      "quip": "Jack Bauer unraveled entire conspiracies in less time than this",
+      "yes_price": "0.4000",
+      "volume": 0,
+      "category": "Crypto",
+      "close_time": "2026-11-16T02:15:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.us/event/btc-updown-15m-2026-11-16-0130z?marketSlug=cpc-btc-updown-15m-2026-11-16-0130z",
+      "platform": "polymarket_us",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "fifteen minutes is already longer than I can go without checking",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "candle turns green and a guy in Miami buys a jet ski",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "little number go wiggle",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "bitcoin moves forty dollars and someone writes nine hundred words about it",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Jack Bauer unraveled entire conspiracies in less time than this",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "'zoom out,' he whispers, directly into the fifteen minute chart",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "like a coin flip if the coin had a podcast and a newsletter",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "I love anything that resolves before my coffee goes cold",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXCONCACAFNL1HSPREAD-26NOV16CANGTM-CAN2",
+      "title": "Canada leads Guatemala by two at halftime",
+      "subtitle": "CAN vs GTM (Nov 16)",
+      "yes_sub_title": "Canada wins the 1H by more than 1.5 goals",
+      "no_sub_title": "Canada wins the 1H by more than 1.5 goals",
+      "payout": 3.23,
+      "tier": "yellow",
+      "quip": "the Leafs couldn't do this in 45 minutes, 45 days, or 58 years",
+      "yes_price": "0.3100",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-19T01:00:00Z",
+      "url": "https://kalshi.com/markets/KXCONCACAFNL1HSPREAD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 89.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "Canada goes up two and apologizes to the linesman on the way off",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "the Leafs couldn't do this in 45 minutes, 45 days, or 58 years",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "I had to look up where Canada plays home games and I'm not proud",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "sorry aboot the scoreline",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "'that's two, eh. we'll take it from here, bud'",
+          "mode": 4,
+          "score": 5.5
+        },
+        {
+          "quip": "the Guatemala bus ride home gets very quiet around minute thirty",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "3-0 at the break and Davies still has a whole half left",
+          "mode": 5,
+          "score": 5.5
+        },
+        {
+          "quip": "Alphonso Davies at full speed is the best thing in this hemisphere",
+          "mode": 3,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2546506",
+      "title": "Ethereum closes the hour green",
+      "subtitle": "",
+      "payout": 3.57,
+      "tier": "yellow",
+      "quip": "the JV squad of crypto hitting one late free throw",
+      "yes_price": "0.2800",
+      "volume": 0,
+      "category": "Crypto",
+      "close_time": "2026-11-16T02:30:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.us/event/eth-updown-1h-2026-11-16-0100z?marketSlug=cpceth-eth-updown-1h-2026-11-16-0100z",
+      "platform": "polymarket_us",
+      "score": 55.0,
+      "quip_alts": [
+        {
+          "quip": "'ultrasound money,' he says, to a sixty minute candle, alone",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "I have an hourly alarm and it is not for drinking water",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "one hour, green, done",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "ETH ticks up and four hundred people call it the flippening again",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "ethereum up eleven dollars, timeline up four thousand posts",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "like Groundhog Day except the groundhog is a gas fee",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "the JV squad of crypto hitting one late free throw",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "sixty straight minutes of hope and I am fully on board",
+          "mode": 3,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "ticker": "KXCONCACAFNL1HBTTS-26NOV16MTQARU-BTTS",
+      "title": "Martinique and Aruba both score in the first half",
+      "subtitle": "MTQ vs ARU (Nov 16)",
+      "yes_sub_title": "1st Half: Both Teams To Score",
+      "no_sub_title": "1st Half: Both Teams To Score",
+      "payout": 4.76,
+      "tier": "yellow",
+      "quip": "the only thing softer than that Aruba back line is the sunscreen aisle",
+      "yes_price": "0.2100",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-19T00:00:00Z",
+      "url": "https://kalshi.com/markets/KXCONCACAFNL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 89.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "like two resort towns settling a timeshare dispute in cleats",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "I did not know Martinique had a team and now I own the kit",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "both score and all 106,000 Arubans lose it simultaneously",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Caribbean football hours, baby",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "celebration runs straight into the ocean, match delayed nine minutes",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "'and it's in! both of them! somebody turn the beach speaker up!'",
+          "mode": 4,
+          "score": 6.5
+        },
+        {
+          "quip": "the only thing softer than that Aruba back line is the sunscreen aisle",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "two goals before halftime on an island pitch is the good stuff",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIREGULATOR-28JAN01-27JAN01",
+      "title": "The US creates a national AI regulator before 2027",
+      "subtitle": "US national AI regulator",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 7.14,
+      "tier": "orange",
+      "quip": "budget of $7.14 and one intern who knows what a token is",
+      "yes_price": "0.1400",
+      "volume": 2620.52,
+      "category": "Politics",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIREGULATOR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 91.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "first official act is asking ChatGPT to write its own charter",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "'senator, define algorithm.' 'it's like a very fast computer, son'",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "I'd apply but my search history is a national security event",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "new agency, old fax machine",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "budget of $7.14 and one intern who knows what a token is",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "Skynet files its first compliance report, on paper, in triplicate",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "congress still can't open a PDF but sure, regulate the robots",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "like putting a crossing guard in front of a freight train",
+          "mode": 6,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2111010",
+      "title": "Candace Owens announces a presidential run before 2028",
+      "subtitle": "",
+      "payout": 10.0,
+      "tier": "orange",
+      "quip": "campaign launch is a four hour livestream about Brigitte Macron",
+      "yes_price": "0.1000",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2028-01-15T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/uspres28-12-31-2027?marketSlug=cranc-uspres28-12-31-2027-canowe",
+      "platform": "polymarket_us",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "campaign launch is a four hour livestream about Brigitte Macron",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "the podcast to primary pipeline is now a four lane highway",
+          "mode": 6,
+          "score": 6.5
+        },
+        {
+          "quip": "I am not ready for that debate stage and neither is the moderator",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "ring light, Iowa, destiny",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "ten bucks and a ring light is the entire New Hampshire ground game",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "'I've done my own research on the electoral college and I have concerns'",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "somewhere a political consultant closes his laptop and walks into the sea",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "I would watch every single minute of this and despise myself after",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA puts a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 16.95,
+      "tier": "red",
+      "quip": "moon rocks going for $16.95 at Spencer's by Christmas",
+      "yes_price": "0.0590",
+      "volume": 230857.26,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 124.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "first words from the surface are a thank you to a crypto exchange",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "moon rocks going for $16.95 at Spencer's by Christmas",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "Kubrick isn't around to shoot it, so now they have to actually go",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "I will cry at my desk and tell absolutely nobody",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "moon. again. sure",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "Boeing hears the deadline and laughs into a styrofoam cup",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "'Houston, we are on the surface. also smash that subscribe'",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "flags, dust, a guy hopping around. I'm in regardless",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "KXMODELHIGH-27-1550-GROK",
+      "title": "Grok is first to hit 1550 on Text Arena",
+      "subtitle": "Before 2027",
+      "yes_sub_title": "Grok",
+      "no_sub_title": "Grok",
+      "payout": 50.0,
+      "tier": "red",
+      "quip": "1550 was my SAT score and I have coasted on it for a decade",
+      "yes_price": "0.0200",
+      "volume": 23958.3,
+      "category": "Science and Technology",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 127.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "1550 was my SAT score and I have coasted on it for a decade",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Elon quote tweets the leaderboard until the servers beg for mercy",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "'based,' said the model, to a room containing no people",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "the edgelord wins something",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "HAL never once had to grind ranked",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "my laptop fan spun up just from reading the word Grok",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "OpenAI staff quietly opening Zillow listings in Ohio",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "the rude one finally wins and I respect the commitment",
+          "mode": 3,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1464565",
+      "title": "Tyla lands a Best Pop Vocal Album nomination",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "like a 12 seed nobody wants to draw in the second round",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2026-12-01T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/grammys-nom-bpva-2026-11-16?marketSlug=tac-grammys-nom-bpva-2026-11-16-pop",
+      "platform": "polymarket_us",
+      "score": 38.0,
+      "quip_alts": [
+        {
+          "quip": "Water played in every Uber I took in 2024 and I never skipped it once",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the Academy discovers amapiano and immediately forms a subcommittee about it",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "'the water girl? yeah, fine, put her on the list'",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "pour one out, literally",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "a hundred bucks says that acceptance speech out-dances the entire telecast",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "like a 12 seed nobody wants to draw in the second round",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Beyonc\u00e9 eyeing the pop category like a hostile takeover",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "South African pop sneaking into the big room and I'm thrilled",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    }
+  ]
+}

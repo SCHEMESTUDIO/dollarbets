@@ -1,94 +1,4 @@
 {
-  "SB-1120BA57": {
-    "title": "Oilers skate past Flyers by two tonight",
-    "quip": "McDavid treats Philadelphia's blue line like a traffic cone drill",
-    "cached_at": "2026-11-11T22:27:56.173620+00:00"
-  },
-  "SB-9780DB85": {
-    "title": "Marquette upsets Michigan on the road",
-    "quip": "Shaka Smart's press eats Dusty May's bigs alive",
-    "cached_at": "2026-11-11T22:27:56.173620+00:00"
-  },
-  "SB-F58A40B9": {
-    "title": "Bruins beat Canadiens by two-plus tonight",
-    "quip": "the Original Six grudge, same ending as always",
-    "cached_at": "2026-11-11T22:27:56.173620+00:00"
-  },
-  "SB-0B4997BF": {
-    "title": "NC Central stuns VMI on the road",
-    "quip": "MEAC road warriors crash the Keydets' parade",
-    "cached_at": "2026-11-11T22:27:56.173620+00:00"
-  },
-  "SB-6A13E428": {
-    "title": "Celtics bury Raptors by 22-plus tonight",
-    "quip": "Tatum and Brown treating Scotiabank Arena like a shootaround",
-    "cached_at": "2026-11-11T22:27:56.173620+00:00"
-  },
-  "SB-26E81F1E": {
-    "title": "Sacramento State stings Central Michigan on the road",
-    "quip": "Hornets crashing the Chippewas' picnic in Mount Pleasant",
-    "cached_at": "2026-11-11T22:28:02.116544+00:00"
-  },
-  "SB-48F6DFA4": {
-    "title": "Oral Roberts shocks Tulsa across town",
-    "quip": "Golden Eagles robbing the Golden Hurricane of its own nickname",
-    "cached_at": "2026-11-11T22:28:02.116544+00:00"
-  },
-  "SB-E3A8D3D9": {
-    "title": "Timr\u00e5 upset V\u00e4xj\u00f6 Lakers on the road tonight",
-    "quip": "Timr\u00e5 packing Norrland spite in the carry-on",
-    "cached_at": "2026-11-11T22:28:13.794580+00:00"
-  },
-  "SB-E32F2BCD": {
-    "title": "Tappara beat HIFK by two or more",
-    "quip": "Nokia Arena hospitality ends at the blue line",
-    "cached_at": "2026-11-11T22:28:13.794580+00:00"
-  },
-  "SB-316AA99F": {
-    "title": "HPK handle Jukurit by a two-goal cushion",
-    "quip": "H\u00e4meenlinna's finest making Mikkeli regret the bus ride",
-    "cached_at": "2026-11-11T22:28:13.794580+00:00"
-  },
-  "SB-24BB8067": {
-    "title": "SaiPa beat Ilves by multiple goals tonight",
-    "quip": "Lappeenranta remembers every single thing Tampere said",
-    "cached_at": "2026-11-11T22:28:13.794580+00:00"
-  },
-  "SB-520D135F": {
-    "title": "Djurg\u00e5rden stun F\u00e4rjestad in Karlstad",
-    "quip": "Stockholm's oldest grudge takes the train west",
-    "cached_at": "2026-11-11T22:28:13.794580+00:00"
-  },
-  "SB-D84DE867": {
-    "title": "Sri Lanka stun Pakistan in the Test",
-    "quip": "spin, patience, and a Prabath Jayasuriya fever dream",
-    "cached_at": "2026-11-11T22:28:13.794580+00:00"
-  },
-  "SB-7769AE92": {
-    "title": "Schramm shocks Aguilar in the ring",
-    "quip": "the Rocky steps, but in Buenos Aires",
-    "cached_at": "2026-11-11T22:28:13.794580+00:00"
-  },
-  "SB-4EC38D5E": {
-    "title": "Sharks keep it close against the Penguins tonight",
-    "quip": "Macklin Celebrini doesn't do blowouts anymore",
-    "cached_at": "2026-11-11T22:28:22.462168+00:00"
-  },
-  "SB-B12335E9": {
-    "title": "Michigan handles Marquette at home",
-    "quip": "Shaka Smart's press meets Crisler Center noise",
-    "cached_at": "2026-11-11T22:28:22.462168+00:00"
-  },
-  "SB-8A631169": {
-    "title": "Flyers hang tough with the Oilers in Edmonton",
-    "quip": "Tortorella teams don't leak six to McDavid",
-    "cached_at": "2026-11-11T22:28:22.462168+00:00"
-  },
-  "SB-2E921DC3": {
-    "title": "West Georgia beats UNC Asheville outright",
-    "quip": "the Wolves eat in the Big South basement",
-    "cached_at": "2026-11-11T22:28:22.462168+00:00"
-  },
   "SB-AF9304BD": {
     "title": "Wild handle the Leafs by two or more tonight",
     "quip": "Kaprizov enjoys a quiet night in Toronto",
@@ -1028,5 +938,85 @@
     "title": "Ducks knock off the Flames in Anaheim",
     "quip": "Zegras-era Anaheim finally has teeth",
     "cached_at": "2026-11-15T20:49:23.788415+00:00"
+  },
+  "SB-D4ABFAAD": {
+    "title": "Warriors handle the Pelicans in New Orleans",
+    "quip": "Zion's knees versus Steph's wrists, pick a side",
+    "cached_at": "2026-11-16T01:40:21.252398+00:00"
+  },
+  "SB-F8624A9A": {
+    "title": "Magic upset the Celtics in Boston",
+    "quip": "Banchero plays the party crasher at the Garden",
+    "cached_at": "2026-11-16T01:40:21.252398+00:00"
+  },
+  "SB-748A9EB1": {
+    "title": "Canucks stun Vegas on the Strip",
+    "quip": "Demko standing on his head under the neon",
+    "cached_at": "2026-11-16T01:40:21.252398+00:00"
+  },
+  "SB-072D0E19": {
+    "title": "Kings knock off the Thunder in Sacramento",
+    "quip": "light the beam and ruin SGA's evening",
+    "cached_at": "2026-11-16T01:40:21.252398+00:00"
+  },
+  "SB-54963239": {
+    "title": "Alabama St shocks San Jos\u00e9 St on the road",
+    "quip": "SWAC road trip ends with Spartans in flames",
+    "cached_at": "2026-11-16T01:40:21.252398+00:00"
+  },
+  "SB-BF2068D9": {
+    "title": "Knicks bury the Raptors by five or more",
+    "quip": "Brunson treats Scotiabank Arena like his living room",
+    "cached_at": "2026-11-16T01:40:21.252398+00:00"
+  },
+  "SB-38D584F5": {
+    "title": "Flyers blow out McDavid's Oilers by three",
+    "quip": "Gritty assembling the Broad Street Bullies for one last job",
+    "cached_at": "2026-11-16T01:40:21.252398+00:00"
+  },
+  "SB-8F894278": {
+    "title": "Richmond upsets Virginia Tech in Blacksburg",
+    "quip": "Spiders crawling into Cassell Coliseum like it's Charlotte's Web",
+    "cached_at": "2026-11-16T01:40:26.951145+00:00"
+  },
+  "SB-2DB05D35": {
+    "title": "Jukurit and Jokerit light the lamp six times tonight",
+    "quip": "Mikkeli ice runs hot when Jokerit visit",
+    "cached_at": "2026-11-16T01:40:36.986919+00:00"
+  },
+  "SB-FBB4D26F": {
+    "title": "\u00d6rebro beat Timr\u00e5 by two or more tonight",
+    "quip": "Timr\u00e5's blue line folds like a Sundsvall deck chair",
+    "cached_at": "2026-11-16T01:40:36.986919+00:00"
+  },
+  "SB-F2C3CEF7": {
+    "title": "Bj\u00f6rkl\u00f6ven upset the V\u00e4xj\u00f6 Lakers on the road",
+    "quip": "Ume\u00e5's wolves crashing the champions' living room",
+    "cached_at": "2026-11-16T01:40:36.986919+00:00"
+  },
+  "SB-1D2F536C": {
+    "title": "Athletico Paranaense stun Flamengo at the Maracan\u00e3",
+    "quip": "Furac\u00e3o weather forecast for Rio, Gabigol unaware",
+    "cached_at": "2026-11-16T01:40:36.986919+00:00"
+  },
+  "SB-40F54CC7": {
+    "title": "Thunder roll past Kings in Sacramento",
+    "quip": "SGA treats the Kings like a layup line",
+    "cached_at": "2026-11-16T01:40:44.809781+00:00"
+  },
+  "SB-43FBD43F": {
+    "title": "Celtics handle Magic at the Garden",
+    "quip": "Paolo's night ends in a Tatum step-back",
+    "cached_at": "2026-11-16T01:40:44.809781+00:00"
+  },
+  "SB-80A8B140": {
+    "title": "Canadiens keep it close at MSG",
+    "quip": "Shesterkin bends, Montreal's kids don't break",
+    "cached_at": "2026-11-16T01:40:44.809781+00:00"
+  },
+  "SB-C30277DD": {
+    "title": "Niners take care of Vikings at the Stick",
+    "quip": "Purdy at home is quietly a problem",
+    "cached_at": "2026-11-16T01:40:44.809781+00:00"
   }
 }
