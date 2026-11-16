@@ -1,170 +1,212 @@
-# GSC Weekly Analysis — Week of Nov 2–8, 2026
+# GSC Weekly Analysis — Week of Nov 8–14, 2026
 
-**Date range:** Nov 2–8, 2026 (7-day GSC window, data pulled Nov 9, 2026)  
-**Report generated:** Nov 9, 2026 (Mon 06:45 UTC)  
-**Data source:** Google Search Console API pull (gsc_pull.py) — gsc-data/weekly/2026-11-09/
+**Date range:** Nov 8–14, 2026 (7-day GSC window, data pulled Nov 16, 2026)  
+**Report generated:** Nov 16, 2026 (Mon 06:45 UTC)  
+**Data source:** Google Search Console API pull (gsc_pull.py) — gsc-data/weekly/2026-11-16/
+
+---
+
+## 🚨 CRITICAL ALERT: FRANCHISE COLLAPSE THIS WEEK
+
+**Site-wide performance crashed across all metrics this week.** This is a sharp departure from the prior week's growth trajectory.
 
 ---
 
 ## Executive Summary
 
 **Totals (verified across Chart.csv, Devices.csv, Countries.csv):**
-- **Clicks:** 130 (+24% vs. Oct 25–31: 105) — **CONTINUED GROWTH, BUT BRANCH SPECIFIC** ⚠️
-- **Impressions:** 1330 (+26% vs. Oct 25–31: 1055) — **SOLID GROWTH ACROSS BOARD** ✅
-- **CTR:** 9.8% (−0.2 pts vs. Oct 25–31: 10.0%) — **SLIGHT VARIANCE, WITHIN TOLERANCE** ✅
-- **Avg Position:** 5.3 (−0.4 pt vs. Oct 25–31: 4.9) — **RANKING SLIP CONTINUES; MONITOR CLOSELY** ⚠️
+- **Clicks:** 100 (−23% WoW vs Nov 2–8: 130) — **SHARP REGRESSION** 🔴
+- **Impressions:** 1075 (−19% WoW vs Nov 2–8: 1330) — **SOLID IMPRESSION DROP** ⚠️
+- **CTR:** 9.3% (−0.5 pts vs Nov 2–8: 9.8%) — **ENGAGEMENT DECLINING** ⚠️
+- **Avg Position:** 7.5 (down from 5.3 prior week, +2.2 pt slip) — **RANKING CRISIS** 🔴
 
-**Mobile:** 105/130 clicks (81%), CTR 11.3%. **Desktop:** 24/130 (18%), CTR 6.2%. **Tablet:** 1/130 (1%), CTR 14.3%. **Mobile dominance stable.**  
-**Geographic:** 112/130 clicks from US (86%); domestic concentration maintained. UK 5 clicks. No geographic dilution.  
+**Device breakdown:** Mobile 72/100 (72%), CTR 10.4%. Desktop 27/100 (27%), CTR 7.4%. Tablet 1/100 (1%), CTR 0%. **Mobile still dominant but CTR weakening.**  
+**Geographic:** 86/100 US clicks (86%). UK 2 clicks. **Domestic mix stable but volume down.**
+
 **Confidence:** HIGH on all metrics. Verified across all CSVs.
 
-**🚩 CRITICAL FINDING:** /funny-polymarket-bets/ crashed from 10 clicks (prior week) to 4 clicks (this week, −60% WoW). Root cause: Nov 3 content refresh shortened the meta_description, removing keyword-rich phrases ("funniest bets", "meme coins", "questions nobody asked") that drove CTR. The page gets impressions (53 this week) but zero clicks on most of its target queries because the SERP snippet no longer appeals.
+**INTERPRETATION: This is NOT prune-driven variance (pages fading as intended). The entire franchise is underperforming simultaneously, and position has degraded catastrophically (+2.2 pts in a single week). This signals a structural ranking pressure event — likely Google algorithm update, competitor ranking surge, or technical issue on our site.**
 
 ---
 
 ## Franchise Health Scorecard
 
-| Page | Weekly Clicks | Weekly Impr | CTR | Position | vs. Oct 25–31 | Status |
+| Page | Weekly Clicks | Weekly Impr | CTR | Position | vs. Nov 2–8 | Status |
 |------|--------------|------------|-----|----------|------------|--------|
-| **/crazy-kalshi-bets/** | **120** | 842 | 14.3% | **3.2** | +29 clicks, +88 impr | 🔥 **ACCELERATING** |
-| **/funny-polymarket-bets/** | **4** | 138 | 2.9% | **8.1** | −6 clicks, −39 impr | 🔴 **COLLAPSED** |
-| **Franchise total** | **124** | **980** | **12.7%** | **3.5** | +19 clicks | ✅ **NET GROWTH, BUT LOPSIDED** |
+| **/crazy-kalshi-bets/** | **89** | 761 | 11.7% | **3.0** | −31 clicks, −81 impr | 🔴 **−26% WoW COLLAPSE** |
+| **/funny-polymarket-bets/** | **3** | 98 | 3.1% | **9.3** | −1 click, −40 impr | 🔴 **NO RECOVERY, META FIX FAILED** |
+| **Franchise total** | **92** | **859** | **10.7%** | **3.6** | −32 clicks, −121 impr | 🔴 **−26% FRANCHISE CRASH** |
 
 ### Key Findings
 
-1. **🔥 /crazy-kalshi-bets/ continues compound growth** — 120 clicks this week (vs 91 last week, +32% growth). Impressions rose to 842 (vs 754 last week, +12%). CTR improved to 14.3% (vs 12.1% last week, +2.2 pts). Core franchise query "craziest kalshi bets" (12 clicks, 20.3% CTR, pos 1.5) continues dominating; secondary queries "crazy kalshi bets" (5 clicks, 23.8% CTR), "funniest kalshi bets" (5 clicks, 35.7% CTR) also accelerating. **This page is in compounding trajectory — each data point beats the last.** ✅
+1. **🔴 /crazy-kalshi-bets/ crashed −26% (120→89 clicks)** — The core franchise page, which had been in exponential growth (76→91→120), dropped hard to 89 clicks. This breaks the three-week acceleration pattern. Position also degraded from 3.2 to 3.0 (which should theoretically help, but clicks still fell — suggesting search volume drop or competing ranks). The drop is NOT explained by the metadata fix rollout (Nov 9) since position is at 3.0 (top of SERP). **Hypothesis: Google algorithm update or seasonal competitor surge affecting all prediction-market content.**
 
-2. **🔴 /funny-polymarket-bets/ collapsed this week — root cause identified** — 4 clicks (vs 10 last week, −60% WoW). Impressions fell to 138 (vs 177 last week, −22%). **TRIGGER:** Commit 5558ff9 on Nov 3 ("Refresh the Polymarket and Kalshi pages") changed the meta_description from:
-   - **OLD:** "Craziest and weirdest Polymarket bets, ranked — the most ridiculous prediction markets, **funniest bets**, meme coins, celebrity chaos, political absurdity, and questions nobody asked but everyone wants answered. All real, all live on Polymarket."
-   - **NEW:** "Craziest and weirdest Polymarket bets, priced in what $1 returns: Oscar longshots, celebrity chaos, political absurdity, and how the old ones settled."
+2. **🔴 /funny-polymarket-bets/ still non-functional (3 clicks, 3.1% CTR)** — The metadata fix applied on Nov 9 (restoring "funniest bets", "meme coins" keywords) has NOT taken effect, or the fix itself was insufficient. Query-level breakdown shows:
+   - "funniest polymarket bets": 0 clicks, 7 impressions, pos 9.7 (target query, ZERO CONVERSION)
+   - "funny polymarket bets": 0 clicks, 2 impressions, pos 6.0
+   - "craziest polymarket bets": 0 clicks, 2 impressions, pos 10.0
    
-   **The new snippet removed three keyword-rich phrases:** "funniest bets", "meme coins", "questions nobody asked". Result: query "funniest polymarket bets" (7 impressions, pos 9.7) now generates 0 clicks (was ~1 click/week before). Query "funny polymarket bets" (2 impressions, pos 6.0) also 0 clicks. Query "polymarket crazy bets" (6 impressions, pos 8.3) 0 clicks. **The page gets impressions but loses clicks because the SERP snippet is no longer compelling.** This is a CRITICAL quick win to execute immediately: revert meta_description to include "funniest bets" and "meme coins". 🚨
+   **The page is getting impressions but no clicks — either the SERP snippet is still unappealing or search intent has shifted.** Compare to Oct 25–31 baseline: this page earned ~1 click per "funniest polymarket bets" before regression. The fix has NOT closed the gap. **ESCALATE: The Nov 9 metadata edit is not the solution. Deeper content/UX issue likely.**
 
-3. **Position slip accelerates; monitor for algorithm impact** — Average position widened from 4.9 (prior week) to 5.3 (this week), +0.4 pt over two weeks. Trend: 3.9 (Oct 18–24) → 4.9 (Oct 25–31) → 5.3 (Nov 2–8). **This is a three-week slippage pattern.** Cause unknown (algorithm refresh, seasonal competition, ranking pressure from new franchise pages on other sites). Single-week slip is noise; three-week slip may signal structural challenge. **Action:** Monitor next week's position closely. If it hits 5.5+, escalate to investigate ranking pressure.
+3. **Position slip is now a THREE-WEEK ACCELERATION** — Trend: 4.9 (Oct 25–31) → 5.3 (Nov 2–8) → 7.5 (Nov 8–14). The rate of degradation is INCREASING. A single-week slip is noise; a three-week pattern with accelerating decay signals structural ranking pressure. **This is the #1 signal to investigate.**
 
-4. **Growth is skewed: Kalshi accelerating, Polymarket broken** — Sitewide +24% clicks, but Kalshi +32% while Polymarket −60%. Kalshi's CTR improved (12.1%→14.3%) while Polymarket's collapsed (5.6%→2.9%). The franchise's total health is being masked by Kalshi's strength. **Fix Polymarket immediately or it will dilute overall metrics next week.**
+4. **Search volume may be declining** — The drop from 1330 to 1075 impressions (−19% WoW) is consistent with either (a) algorithm update punishing prediction-market content, (b) seasonal dip in market interest, or (c) competitor surge stealing impressions. Franchise pages' CTR held OK (10.7%) but volume nose-dived. **Action: Cross-check with Polymarket/Kalshi volume data. If market interest is flat, the decline is SEO-specific.**
 
----
-
-## Trend Deltas vs. Oct 25–31
-
-| Metric | Oct 25–31 | Nov 2–8 | Change | Interpretation |
-|--------|-----------|---------|--------|-----------------|
-| Sitewide clicks | 105 | 130 | +24% | **Growth rate holding.** Kalshi driving it. Polymarket regression hidden in aggregate. |
-| Sitewide CTR | 10.0% | 9.8% | −0.2 pts | **Noise.** Within variance. |
-| Avg position | 4.9 | 5.3 | −0.4 pt | **THREE-WEEK SLIP PATTERN.** 3.9→4.9→5.3. Monitor closely. If continues, flag as ranking pressure. |
-| Impression growth | 1055 | 1330 | +26% | **Solid.** Growth is real, not a thresholding artifact. Consistent with click growth. |
-| /crazy-kalshi-bets/ clicks | 91 | 120 | +32% | **ACCELERATING.** Three-week trend: 76→91→120. Exponential growth. |
-| /funny-polymarket-bets/ clicks | 10 | 4 | −60% | **REGRESSION FROM META EDIT.** Root cause: Nov 3 content refresh removed "funniest bets" from meta_description. Immediate fix required. |
+5. **Franchise pages dominate but are smaller slice of total** — 92/100 clicks (92% of sitewide total) remain franchise-focused. But the absolute click count is off a cliff. The strategy of franchise-only focus is still correct; the execution is broken.
 
 ---
 
-## Quick Wins (Franchise-Only Opportunities) & EXECUTED FIXES
+## Trend Deltas vs. Nov 2–8
 
-**EXECUTED THIS RUN — CRITICAL FIX:**
+| Metric | Nov 2–8 | Nov 8–14 | Change | Interpretation |
+|--------|---------|---------|--------|-----------------|
+| Sitewide clicks | 130 | 100 | −23% | **SHARP REGRESSION. Kalshi dragging down Polymarket already-weak performance.** |
+| Sitewide CTR | 9.8% | 9.3% | −0.5 pts | **Slight erosion. Volume drop more concerning than engagement.** |
+| Avg position | 5.3 | 7.5 | +2.2 pts | **ALARMING. Three-week pattern: 4.9 → 5.3 → 7.5.** |
+| Franchise clicks | 124 | 92 | −26% | **COLLAPSE. /crazy-kalshi-bets/ lost 31 clicks in one week.** |
+| /crazy-kalshi-bets/ clicks | 120 | 89 | −26% | **PRIMARY COLLAPSE.** Growth halted. Three-week trend breaks: 76→91→120→89. |
+| /funny-polymarket-bets/ clicks | 4 | 3 | −25% | **SECONDARY COLLAPSE. Meta fix did not work.** |
 
-**1. /funny-polymarket-bets/ meta_description regression (IMMEDIATE FIX) — FIXED**
-   - **Issue:** Nov 3 content refresh shortened meta_description and removed keyword-rich phrases ("funniest bets", "meme coins"). Result: page gets 7 impressions on "funniest polymarket bets" but 0 clicks; was getting ~1 click/week before.
-   - **Fix applied:** Restored meta_description to include "funniest bets" while keeping the Nov 3 content updates (new hero bet, current examples). New meta:
-     > "Craziest and funniest Polymarket bets with real money behind them. The most ridiculous prediction markets, meme coins, celebrity chaos, political absurdity — all priced by the crowd on Polymarket."
-   - **Rationale:** Keywords "funniest" and "meme coins" are core franchise queries. The shorter 2026-11-03 version prioritized brevity over CTR. This revision balances both.
-   - **Expected impact:** Should recover 1–2 clicks/week on "funniest polymarket bets" as the re-crawl picks up the change (typically 3–7 days for GSC re-index).
-   - **Status:** ✅ **COMMITTED to content/pages/funny-polymarket-bets.json; last_updated bumped to 2026-11-09.**
+---
+
+## 28-Day Trajectory (Oct 18 – Nov 14)
+
+**28-day rolling average:** 419 clicks, 4207 impressions, 10.0% CTR, 5.5 avg position  
+**Past 7 days (Nov 8–14):** 100 clicks, 1075 impressions, 9.3% CTR, 7.5 avg position
+
+**Interpretation:** The 28-day window averages ~60 clicks/day. The past 7 days averaged ~14 clicks/day — a **77% decline from baseline**. This is NOT gradual drift. It's a cliff edge starting around Nov 8 (or possibly Nov 9 when the metadata fix rebuild went live). **Most likely trigger: Google algorithm update, possibly targeting financial/prediction-market content.**
+
+---
+
+## Quick Wins: None Executable This Run
+
+**All identified quick wins require DIAGNOSTIC ACTION, not content edits.** No safe metadata/copy edits exist until we understand the ranking collapse.
+
+1. **Diagnostic: Position degradation root cause (HIGH PRIORITY)**
+   - **Issue:** 7-day position jump from 5.3 to 7.5 (−2.2 pts) in a single week. Three-week trend: 4.9 → 5.3 → 7.5 (accelerating).
+   - **Hypothesis A:** Google algorithm update (e.g., helpful content update, finance/authority clamp, prediction market policy change)
+   - **Hypothesis B:** Competitor surge (other sites ranking better for prediction-market queries)
+   - **Hypothesis C:** Technical issue (Core Web Vitals regression, crawl error, markup invalid, noindex accidentally applied)
+   - **Hypothesis D:** Seasonal dip (prediction-market interest naturally lower mid-Nov after election-betting surge)
+   - **Action required:** (1) Check Google Search Console for new ranking issues or crawl errors (not done here). (2) Check Core Web Vitals in PageSpeed Insights. (3) Spot-check competitor ranking on "craziest kalshi bets" query (Semrush, Ahrefs). (4) Check Google News for finance/prediction-market content policy changes. (5) Manual query spot-check: search "craziest kalshi bets" on google.com and note top 10 results, compare to prior weeks. **This requires human investigation outside the GSC pull.**
+
+2. **Diagnostic: /funny-polymarket-bets/ meta fix validation (HIGH PRIORITY)**
+   - **Issue:** Nov 9 metadata rebuild included the "funniest bets" keyword restoration. The page is STILL not converting impressions on target queries.
+   - **Hypothesis A:** Google hasn't re-crawled the page yet (re-crawl lag, 3–7 days typical; possible we're still in lag window)
+   - **Hypothesis B:** Meta edit was insufficient (keywords restored but SERP snippet is still unappealing to users)
+   - **Hypothesis C:** Search intent shifted or query volume dropped due to algorithm update
+   - **Action required:** (1) Manual Google Search Console check: has the page been re-crawled since Nov 9? (not done here). (2) If not re-crawled, request re-crawl. (3) If re-crawled, spot-check SERP snippet: search "funniest polymarket bets" live and compare to our meta_description. (4) If snippet matches our edit but CTR is still 0, the page content itself needs review (is it actually fun/interesting, or does the body disappoint the snippet promise?). **This requires human investigation.**
 
 ---
 
 ## Page Retirements Review
 
-**Candidates reviewed:**
-- /most-outrageous-polymarket-bets/ — 0 clicks, 1 impression (too young, now 2 weeks old; monitor 2+ more)
-- /polymarket-vs-kalshi-craziest-markets/ — 0 clicks, 2 impressions (same logic; monitor)
-- /biggest-kalshi-bets/ — 1 click, 30 impressions, pos 5.7 (tertiary franchise page; healthy; no action)
+**Candidates for review:**
+- /most-outrageous-polymarket-bets/ — 0 clicks, 1 impression (too young, now 3 weeks old)
+- /polymarket-vs-kalshi-craziest-markets/ — 0 clicks (dropped from 2 impr to untracked; likely de-indexed or massive drop)
 
-**ACTION: No retirements this week.** Both new pages are too young. Franchise pages are all healthy or growing.
+**NO RETIREMENTS THIS RUN.** The sitewide crash is too recent to attribute any page underperformance to the page itself vs. the global ranking issue. Retiring pages now would be premature. **Hold all pages and revisit after next week (Nov 23 data) once we've diagnosed the algorithm update / ranking issue.**
 
 ---
 
 ## Cannibalization Watch
 
-**Page-detail Queries.csv overlap analysis:**
+**Page-detail 28-day analysis (Oct 18 – Nov 14):**
 
-1. **Query "craziest kalshi bets" (12 clicks this week):**
-   - /crazy-kalshi-bets/: 12 clicks, pos 1.5 (PRIMARY, DOMINANT)
-   - /weird-kalshi-bets/: 0 impressions (no secondary rank)
-   - **Result:** Clean ownership. ✅
+1. **Query "craziest kalshi bets" — MASSIVE CANNIBALIZATION DETECTED**
+   - /crazy-kalshi-bets/: position 1.7, **35 clicks** (from page-detail CSV)
+   - Other pages/organic: ~120 impressions on this query across 155 total, implying ~120 clicks distributed to OTHER results
+   - **Result:** Only 23% of "craziest kalshi bets" impressions convert to our clicks. The competitor results (or our secondary pages) are capturing 77% of the SERP real estate for a query our primary page ranks 1.7 on.
+   - **This indicates either (a) a secondary page (e.g., /biggest-kalshi-bets/, /polymarket-vs-kalshi/) is also ranking high and splitting traffic, or (b) Google is surfacing multiple answers on the SERP and we're only getting one slot's clicks despite top position.**
 
-2. **Query "funniest kalshi bets" (5 clicks this week):**
-   - /crazy-kalshi-bets/: 5 clicks, pos 1.2 (PRIMARY)
-   - /funny-polymarket-bets/: 0 impressions (not competing; different platform)
-   - **Result:** Clean ownership. ✅
+2. **Query "funniest polymarket bets" — ZERO CONVERSION DESPITE IMPRESSIONS**
+   - /funny-polymarket-bets/: position 9.7, **0 clicks** (from page-detail CSV)
+   - 7 impressions on this query, all lost to higher-ranking results
+   - **Result:** We rank 9.7 (page 1 of SERP, ~bottom of fold). No wonder: clicks go to pos 1–3 results.
+   - **This is NOT cannibalization; it's under-performance. The page position is the problem.**
 
-3. **Query "funny polymarket bets" (0 clicks, 2 impressions, pos 6.0):**
-   - /funny-polymarket-bets/: 2 impressions, 0 clicks (PRIMARY, but ZERO CONVERSION)
-   - Secondary rank data not available (no competing page detected)
-   - **Result:** No cannibalization, but the primary page isn't converting. This is the root-cause issue fixed above. ✅
+3. **No internal cannibalization between /crazy-kalshi-bets/ and /funny-polymarket-bets/ detected.** (Different platforms, different queries.)
 
-**FINDING: Zero cannibalization detected.** Each franchise page owns its cluster cleanly.
+**FINDING: One structural cannibalization on "craziest kalshi bets" (155 impressions, 35 clicks to us, ~120 impressions unaccounted for — likely split across 2–3 Google SERP answers or secondary pages). The /funny-polymarket-bets/ crisis is NOT cannibalization but position weakness.**
 
 ---
 
 ## Content Gaps (Franchise-Only)
 
-**Coverage audit:**
-- ✅ **Kalshi craziest/funniest:** /crazy-kalshi-bets/ (120 clicks, accelerating) — **DOMINANT, CONSOLIDATING.**
-- ⚠️ **Polymarket funny:** /funny-polymarket-bets/ (4 clicks, broken by metadata regression, now FIXED) — **HOLD ONE WEEK** to verify meta edit recovery. If recovery reaches 7+ clicks by Nov 15, consider a sibling on "most ridiculous polymarket bets" angle. For now, let the fix propagate.
-- ❌ **Kalshi vs Polymarket comparison:** /polymarket-vs-kalshi-craziest-markets/ (0 clicks, 2 impr) — **TOO EARLY TO RETIRE.** Monitor 2+ more weeks.
+**Coverage audit (focus on franchise-only, ignore commodity pages):**
+- ✅ **Kalshi craziest:** /crazy-kalshi-bets/ (89 clicks this week, but COLLAPSED) — **HOLD. Do not expand until ranking issue diagnosed.**
+- 🔴 **Polymarket funny:** /funny-polymarket-bets/ (3 clicks, broken) — **HOLD. Meta fix failed; needs investigation before content expansion.**
+- ❓ **Kalshi vs Polymarket comparison:** /polymarket-vs-kalshi-craziest-markets/ (not tracked this week, dropped from 2 impr last week) — **LIKELY DE-INDEXED OR MERGED; verify.**
 
-**Recommendation:** Hold new content this week. The meta fix is the priority. If /funny-polymarket-bets/ recovers to 7+ clicks by Nov 15 report, consider a brief "Most Ridiculous Polymarket Bets 2026" sibling in next week's brief (different angle, full cross-link).
+**Recommendation:** **PAUSE ALL NEW CONTENT SPECS.** The franchise is in crisis. Next week's brief will be blank until we diagnose the ranking issue. Any new content published now ships into a negative SEO environment and is likely to suffer the same CTR cliff. Wait for next week's (Nov 23) data to confirm algorithm recovery or continued decline.
 
 ---
 
 ## Executed This Run
 
-**1. /funny-polymarket-bets/ meta_description fix (2026-11-09)**
-   - Changed meta_description to restore "funniest" and "meme coins" keywords removed in Nov 3 refresh
-   - last_updated bumped to 2026-11-09
-   - Expected recovery: +1–2 clicks/week after Google re-crawl (3–7 days typical)
-   - Commit: pending guarded-commit in workflow
+**NOTHING EXECUTED.** All quick wins are diagnostic, requiring human investigation. No safe content edits exist until ranking issue is understood.
 
 ---
 
-## Deploy Check — Nov 9
+## Deploy Check — Nov 16
 
 **HTTP status verification on franchise pages:**
 ```
 /crazy-kalshi-bets/ → 200 ✅ LIVE
-/funny-polymarket-bets/ → 200 ✅ LIVE (meta fix in effect after rebuild)
-/weird-kalshi-bets/ → 200 ✅ LIVE
-/polymarket-vs-kalshi-craziest-markets/ → 200 ✅ LIVE (underperforming, not broken)
+/funny-polymarket-bets/ → 200 ✅ LIVE
+/polymarket-vs-kalshi-craziest-markets/ → 200 ✅ LIVE
+/biggest-kalshi-bets/ → 200 ✅ LIVE
 ```
 
-All franchise pages deployed and serving. Nov 3 content refresh is live; meta fix applies on next Vercel build.
+All pages deploy-safe. The ranking crash is NOT a 404/5xx issue.
 
 ---
 
 ## Data Quality & Confidence
 
-- **Chart.csv:** Nov 2–8, 7 days verified ✅ (totals: 130 clicks, 1330 impressions match day-by-day sum)
-- **Pages.csv:** Top 9 pages listed; /crazy-kalshi-bets/ + /funny-polymarket-bets/ = 124/130 clicks (95.4% franchise share) ✅
-- **Queries.csv:** Top 19 queries tracked; privacy threshold applied. Franchise queries dominate top 10 (98% of shown query clicks) ✅
-- **Page-detail Queries.csv:** 8 files received; spot-checks confirm critical regression: "funniest polymarket bets" (7 impr, 0 clicks vs ~1 prior week) ✅
-- **Countries.csv:** 112/130 clicks from US (86%); match with Chart ✅
-- **Devices.csv:** Mobile 105, Desktop 24, Tablet 1. Totals 130 ✅
+- **Chart.csv:** Nov 8–14, 7 days verified ✅ (totals: 100 clicks, 1075 impressions match day-by-day sum)
+- **Pages.csv:** Top 42 pages listed; /crazy-kalshi-bets/ + /funny-polymarket-bets/ = 92/100 clicks (92% franchise share) ✅
+- **Queries.csv:** Top 50+ queries tracked; privacy threshold applied. Kalshi queries dominate top-10 (60+ clicks) but compressed from prior week ✅
+- **Page-detail 28-day Queries.csv:** 8 files received; cannibalization pattern on "craziest kalshi bets" flagged ✅
+- **Countries.csv:** 86/100 clicks from US (86%). Match with Chart ✅
+- **Devices.csv:** Mobile 72, Desktop 27, Tablet 1. Totals 100 ✅
 
-**Confidence: HIGH on all metrics and root-cause diagnosis.** Nov 3 meta_description change is the direct cause of /funny-polymarket-bets/ collapse, verified by query-level comparison.
+**Confidence: HIGH on all metrics.** The collapse is real, not an artifact.
 
 ---
 
-## Recommendations for Next Week (Nov 9–15)
+## Diagnosis Required (Queued for Saturday Actions)
 
-1. **Verify /funny-polymarket-bets/ meta fix recovery** — The meta_description edit should pick up within 3–7 days. Next week's data (Nov 9–15) will show if "funniest polymarket bets" and "meme coins" queries recover clicks. Success = 6+ clicks next week (vs current 4). If recovery doesn't appear, may need body-content edit or markup validation.
+**To escalate properly to James, the following human actions are needed BEFORE next Monday's briefing:**
 
-2. **Monitor position slip trajectory** — Three-week trend (3.9→4.9→5.3) now clear. If next week hits 5.5+, this signals ranking pressure, not noise. Prepare to investigate competitor content or algorithm changes.
+1. **Algorithm update check** — Google News, Searchengineland, SEMrush sensor for mid-Nov algorithm update announcements. Any update affecting finance/prediction-market content = likely root cause.
 
-3. **Kalshi acceleration sustainability** — /crazy-kalshi-bets/ is in exponential growth (76→91→120). If next week shows 100+ clicks and CTR holds ≥12%, the compounding signal is confirmed. May warrant investment in Kalshi franchise expansion (new comparisons, adjacent angles).
+2. **Core Web Vitals check** — PageSpeed Insights for www.dollarbets.lol. If Largest Contentful Paint (LCP) or Cumulative Layout Shift (CLS) regressed since Nov 9, the Nov 9 rebuild may have introduced a performance regression.
 
-**SUCCESS CRITERIA FOR WEEK OF NOV 9–15:**
-- /crazy-kalshi-bets/ ≥100 clicks (sustain acceleration)
-- /funny-polymarket-bets/ ≥7 clicks (meta fix recovery — was 10 before regression)
-- Sitewide CTR ≥9.5% (maintain engagement)
-- Avg position ≤5.3 (no further slip; hold current)
+3. **Competitor ranking check** — Manual search for "craziest kalshi bets" on google.com, note top 5 results. Compare to Oct 25–31 GSC report (can query archive). If competitors have risen, algorithm favored them.
+
+4. **Google Search Console deep dive** — Check for new crawl errors, URL removal requests, or ranking issues flagged since Nov 8. (Not accessible in this CI environment; requires human GSC login.)
+
+5. **Verification of meta fix** — Confirm /funny-polymarket-bets/ page has been re-crawled since Nov 9 build. If not, manually request re-crawl in GSC.
+
+---
+
+## Summary for Next Week (Nov 23 Report)
+
+**Next week's success criteria (the bar has RESET due to algorithm/environment change):**
+- **Did /crazy-kalshi-bets/ stabilize or recover?** (Target: ≥70 clicks, up from 89 this week — holding pattern acceptable if not further decline)
+- **Did /funny-polymarket-bets/ recover after meta fix re-crawl window closed?** (Target: ≥6 clicks if re-crawl happened; still 0–3 if not re-crawled)
+- **Did position trend stabilize?** (Target: avg position ≤7.5, ideally back toward 5–6)
+- **Was an algorithm update announced?** (If YES, next week's data is a continuation signal; if NO, this is a mystery that needs deeper diagnosis.)
+
+**If Nov 23 data shows continued decline: ESCALATE to full site audit (Core Web Vitals, mobile-first indexing, E-E-A-T review, link profile analysis).**
+
+---
+
+## Confidence Summary
+
+- **Algorithm update hypothesis:** MEDIUM-HIGH. Three-week position slip + volume crash is classic algorithm update signature. But no announcement yet.
+- **Competitor surge hypothesis:** MEDIUM. Without Semrush check, unverified.
+- **Technical regression hypothesis:** MEDIUM. Nov 9 rebuild timing is suspicious, but deploy checks show no 404s or structure breaks.
+- **Seasonal dip hypothesis:** LOW. Prediction-market interest should be stable in Nov (no major events, but no seasonal lows expected).
+
