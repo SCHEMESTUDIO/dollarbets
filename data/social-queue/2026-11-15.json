@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-17T00:58:25.078738+00:00",
+          "tweet_id": "2122494530914275666",
+          "reply_tweet_id": "2122494532331897308"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "40175117",
+        "page": "https://www.pexels.com/photo/abstract-reflection-of-bare-trees-in-rain-puddle-40175117/",
+        "photographer": "Alina Echo",
+        "license": "Pexels License",
+        "phrases": [
+          "empty theater seats night",
+          "stadium floodlights rain"
+        ],
+        "tokens": {
+          "input_tokens": 4314,
+          "output_tokens": 29
         }
       }
     }
