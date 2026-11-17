@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-11-17T04:26:27.037381+00:00",
+  "board_date": "2026-11-17",
+  "link_mode": "reply",
+  "selections": [
+    {
+      "ticker": "pmus-1323213",
+      "rank": 1,
+      "selection_reason": "Quip is instantly legible standalone\u2014the tariff/port comparison hits without needing the title, good odds, and nobody's posted tariff revenue recently",
+      "title": "US tariff revenue hits $300 billion in FY27",
+      "quip": "Long Beach doing Coachella numbers and nobody's having fun",
+      "payout": 2.27,
+      "platform": "polymarket_us",
+      "tier": "green",
+      "category": "Other",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1323213/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1323213/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1323213/og.png",
+      "content": {
+        "x_tweet_text": "Long Beach doing Coachella numbers and nobody's having fun",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-17",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>US tariff revenue hits $300 billion in FY27</b>\n\n\u201c<i>Long Beach doing Coachella numbers and nobody&#x27;s having fun</i>\u201d\n\n$1 pays $2.27\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1323213/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-1446196",
+      "rank": 2,
+      "selection_reason": "Specific film reference that lands as a joke about delayed recognition, solid 5.88 payout, and entertainment category hasn't been touched in recent posts",
+      "title": "Mariana di Girolamo gets a Best Supporting Actress nod",
+      "quip": "she took a flamethrower to a city in Ema and they noticed eight years later",
+      "payout": 5.88,
+      "platform": "polymarket_us",
+      "tier": "yellow",
+      "category": "Entertainment",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1446196/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1446196/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1446196/og.png",
+      "content": {
+        "x_tweet_text": "she took a flamethrower to a city in Ema and they noticed eight years later",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-17",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Mariana di Girolamo gets a Best Supporting Actress nod</b>\n\n\u201c<i>she took a flamethrower to a city in Ema and they noticed eight years later</i>\u201d\n\n$1 pays $5.88\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1446196/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-1280073",
+      "rank": 3,
+      "selection_reason": "today's filthy little longshot \u2014 the board's own hero pick",
+      "title": "Joe Burrow is 2026's most Googled person",
+      "quip": "$100 on a man who dresses like a ski movie villain",
+      "payout": 100.0,
+      "platform": "polymarket_us",
+      "tier": "purple",
+      "category": "Other",
+      "card_variant": "ticket",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1280073/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1280073/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1280073/og.png",
+      "content": {
+        "x_tweet_text": "$100 on a man who dresses like a ski movie villain",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-17",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Joe Burrow is 2026&#x27;s most Googled person</b>\n\n\u201c<i>$100 on a man who dresses like a ski movie villain</i>\u201d\n\n$1 pays $100\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1280073/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    }
+  ]
+}
