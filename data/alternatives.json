@@ -1,181 +1,181 @@
 {
- "generated_at": "2026-11-16T01:40:07.013130+00:00",
+ "generated_at": "2026-11-17T04:25:14.440562+00:00",
  "markets": {
-  "pmus-2506435": {
-   "title": "26 or more ships pass through Hormuz next week",
+  "KXMLBSS-26AL1B-BRICE22": {
+   "title": "Ben Rice wins the AL first base Silver Slugger",
+   "platform": "kalshi",
+   "payout": 1.67,
+   "url": "https://kalshi.com/markets/KXMLBSS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Sports",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXMLBSS-26AL1B-BRICE22",
+     "title": "Ben Rice wins the AL first base Silver Slugger",
+     "url": "https://kalshi.com/markets/KXMLBSS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 1.67,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-2506357": {
+   "title": "Seven ships squeeze through Hormuz in one day",
    "platform": "polymarket_us",
-   "payout": 2.0,
-   "url": "https://polymarket.us/event/hormuz-week-2026-11-22?marketSlug=stsc-hormuz-week-2026-11-22-ge26",
+   "payout": 2.17,
+   "url": "https://polymarket.us/event/hormuz-highw-2026-11-22?marketSlug=stsc-hormuz-highw-2026-11-22-ge7",
    "category": "World",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-2506435",
-     "title": "26 or more ships pass through Hormuz next week",
-     "url": "https://polymarket.us/event/hormuz-week-2026-11-22?marketSlug=stsc-hormuz-week-2026-11-22-ge26",
-     "payout": 2.0,
+     "ticker": "pmus-2506357",
+     "title": "Seven ships squeeze through Hormuz in one day",
+     "url": "https://polymarket.us/event/hormuz-highw-2026-11-22?marketSlug=stsc-hormuz-highw-2026-11-22-ge7",
+     "payout": 2.17,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-2567878": {
-   "title": "Bitcoin closes up over the next 15 minutes",
+  "pmus-1323213": {
+   "title": "US tariff revenue hits $300 billion in FY27",
    "platform": "polymarket_us",
-   "payout": 2.5,
-   "url": "https://polymarket.us/event/btc-updown-15m-2026-11-16-0130z?marketSlug=cpc-btc-updown-15m-2026-11-16-0130z",
-   "category": "Crypto",
+   "payout": 2.27,
+   "url": "https://polymarket.us/event/ustariff-fy2027?marketSlug=cusdc-ustariff-fy2027-gte300b",
+   "category": "Other",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-2567878",
-     "title": "Bitcoin closes up over the next 15 minutes",
-     "url": "https://polymarket.us/event/btc-updown-15m-2026-11-16-0130z?marketSlug=cpc-btc-updown-15m-2026-11-16-0130z",
-     "payout": 2.5,
+     "ticker": "pmus-1323213",
+     "title": "US tariff revenue hits $300 billion in FY27",
+     "url": "https://polymarket.us/event/ustariff-fy2027?marketSlug=cusdc-ustariff-fy2027-gte300b",
+     "payout": 2.27,
      "same": true,
      "sim": 1.0
-    }
-   }
-  },
-  "KXCONCACAFNL1HSPREAD-26NOV16CANGTM-CAN2": {
-   "title": "Canada leads Guatemala by two at halftime",
-   "platform": "kalshi",
-   "payout": 3.23,
-   "url": "https://kalshi.com/markets/KXCONCACAFNL1HSPREAD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Sports",
-   "alts": {
+    },
     "kalshi": {
-     "ticker": "KXCONCACAFNL1HSPREAD-26NOV16CANGTM-CAN2",
-     "title": "Canada leads Guatemala by two at halftime",
-     "url": "https://kalshi.com/markets/KXCONCACAFNL1HSPREAD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 3.23,
-     "same": true,
-     "sim": 1.0
+     "ticker": "KXTARIFFREVENUE-26DEC31-T350",
+     "title": "US tariff revenue for 2026",
+     "url": "https://kalshi.com/markets/KXTARIFFREVENUE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 16.67,
+     "same": false,
+     "sim": 0.5
     }
    }
   },
-  "pmus-2546506": {
-   "title": "Ethereum closes the hour green",
+  "pmus-2592842": {
+   "title": "Bitcoin ticks up this hour",
    "platform": "polymarket_us",
-   "payout": 3.57,
-   "url": "https://polymarket.us/event/eth-updown-1h-2026-11-16-0100z?marketSlug=cpceth-eth-updown-1h-2026-11-16-0100z",
+   "payout": 3.7,
+   "url": "https://polymarket.us/event/btc-updown-1h-2026-11-17-0400z?marketSlug=cpc-btc-updown-1h-2026-11-17-0400z",
    "category": "Crypto",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-2546506",
-     "title": "Ethereum closes the hour green",
-     "url": "https://polymarket.us/event/eth-updown-1h-2026-11-16-0100z?marketSlug=cpceth-eth-updown-1h-2026-11-16-0100z",
-     "payout": 3.57,
+     "ticker": "pmus-2592842",
+     "title": "Bitcoin ticks up this hour",
+     "url": "https://polymarket.us/event/btc-updown-1h-2026-11-17-0400z?marketSlug=cpc-btc-updown-1h-2026-11-17-0400z",
+     "payout": 3.7,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXCONCACAFNL1HBTTS-26NOV16MTQARU-BTTS": {
-   "title": "Martinique and Aruba both score in the first half",
+  "KXUEFANL1H-26NOV17ISRAUT-ISR": {
+   "title": "Israel wins the first half tonight",
    "platform": "kalshi",
    "payout": 4.76,
-   "url": "https://kalshi.com/markets/KXCONCACAFNL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "url": "https://kalshi.com/markets/KXUEFANL1H?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Sports",
    "alts": {
     "kalshi": {
-     "ticker": "KXCONCACAFNL1HBTTS-26NOV16MTQARU-BTTS",
-     "title": "Martinique and Aruba both score in the first half",
-     "url": "https://kalshi.com/markets/KXCONCACAFNL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "ticker": "KXUEFANL1H-26NOV17ISRAUT-ISR",
+     "title": "Israel wins the first half tonight",
+     "url": "https://kalshi.com/markets/KXUEFANL1H?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
      "payout": 4.76,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXUSAIREGULATOR-28JAN01-27JAN01": {
-   "title": "The US creates a national AI regulator before 2027",
+  "pmus-1446196": {
+   "title": "Mariana di Girolamo gets a Best Supporting Actress nod",
+   "platform": "polymarket_us",
+   "payout": 5.88,
+   "url": "https://polymarket.us/event/oscars-nom-bstsupactre-2027-01-21?marketSlug=tac-oscars-nom-bstsupactre-2027-01-21-mardi",
+   "category": "Entertainment",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-1446196",
+     "title": "Mariana di Girolamo gets a Best Supporting Actress nod",
+     "url": "https://polymarket.us/event/oscars-nom-bstsupactre-2027-01-21?marketSlug=tac-oscars-nom-bstsupactre-2027-01-21-mardi",
+     "payout": 5.88,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "STARSHIPMARS-29DEC31": {
+   "title": "Starship flies humans to Mars before 2030",
    "platform": "kalshi",
    "payout": 7.14,
-   "url": "https://kalshi.com/markets/KXUSAIREGULATOR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Politics",
+   "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Companies",
    "alts": {
     "kalshi": {
-     "ticker": "KXUSAIREGULATOR-28JAN01-27JAN01",
-     "title": "The US creates a national AI regulator before 2027",
-     "url": "https://kalshi.com/markets/KXUSAIREGULATOR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "ticker": "STARSHIPMARS-29DEC31",
+     "title": "Starship flies humans to Mars before 2030",
+     "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
      "payout": 7.14,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-2111010": {
-   "title": "Candace Owens announces a presidential run before 2028",
+  "pmus-287302": {
+   "title": "The Michael Jackson biopic gets a Best Picture nod",
    "platform": "polymarket_us",
    "payout": 10.0,
-   "url": "https://polymarket.us/event/uspres28-12-31-2027?marketSlug=cranc-uspres28-12-31-2027-canowe",
-   "category": "World",
+   "url": "https://polymarket.us/event/oscars-nom-2027-01-31-bestpic?marketSlug=tac-oscars-nom-2027-01-31-bestpic-michae",
+   "category": "Entertainment",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-2111010",
-     "title": "Candace Owens announces a presidential run before 2028",
-     "url": "https://polymarket.us/event/uspres28-12-31-2027?marketSlug=cranc-uspres28-12-31-2027-canowe",
+     "ticker": "pmus-287302",
+     "title": "The Michael Jackson biopic gets a Best Picture nod",
+     "url": "https://polymarket.us/event/oscars-nom-2027-01-31-bestpic?marketSlug=tac-oscars-nom-2027-01-31-bestpic-michae",
      "payout": 10.0,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "MOON-27DEC31": {
-   "title": "NASA puts a person on the Moon before 2028",
+  "KXUSAIRANAGREEMENT-27": {
+   "title": "US and Iran sign a nuclear deal this year",
    "platform": "kalshi",
-   "payout": 16.95,
-   "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Science and Technology",
+   "payout": 25.0,
+   "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Politics",
    "alts": {
     "kalshi": {
-     "ticker": "MOON-27DEC31",
-     "title": "NASA puts a person on the Moon before 2028",
-     "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 16.95,
+     "ticker": "KXUSAIRANAGREEMENT-27",
+     "title": "US and Iran sign a nuclear deal this year",
+     "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 25.0,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXMODELHIGH-27-1550-GROK": {
-   "title": "Grok is first to hit 1550 on Text Arena",
-   "platform": "kalshi",
-   "payout": 50.0,
-   "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Science and Technology",
-   "alts": {
-    "kalshi": {
-     "ticker": "KXMODELHIGH-27-1550-GROK",
-     "title": "Grok is first to hit 1550 on Text Arena",
-     "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 50.0,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-1464565": {
-   "title": "Tyla lands a Best Pop Vocal Album nomination",
+  "pmus-1280073": {
+   "title": "Joe Burrow is 2026's most Googled person",
    "platform": "polymarket_us",
    "payout": 100.0,
-   "url": "https://polymarket.us/event/grammys-nom-bpva-2026-11-16?marketSlug=tac-grammys-nom-bpva-2026-11-16-pop",
-   "category": "Entertainment",
+   "url": "https://polymarket.us/event/gsearch-1person-2026?marketSlug=gsrc-gsearch-1person-2026-joebur",
+   "category": "Other",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1464565",
-     "title": "Tyla lands a Best Pop Vocal Album nomination",
-     "url": "https://polymarket.us/event/grammys-nom-bpva-2026-11-16?marketSlug=tac-grammys-nom-bpva-2026-11-16-pop",
+     "ticker": "pmus-1280073",
+     "title": "Joe Burrow is 2026's most Googled person",
+     "url": "https://polymarket.us/event/gsearch-1person-2026?marketSlug=gsrc-gsearch-1person-2026-joebur",
      "payout": 100.0,
      "same": true,
      "sim": 1.0
-    },
-    "kalshi": {
-     "ticker": "KXGRAMMYNOM-69BDPR-REC",
-     "title": "Grammy Nominees: Best Pop Vocal Album",
-     "url": "https://kalshi.com/markets/KXGRAMMYNOM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 33.33,
-     "same": false,
-     "sim": 0.44
     }
    }
   }

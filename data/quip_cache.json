@@ -1,114 +1,4 @@
 {
-  "SB-74B79AC6": {
-    "title": "Golden Knights bury Predators by two tonight",
-    "quip": "Eichel on the power play, Nashville on the ropes",
-    "cached_at": "2026-11-13T02:28:23.721521+00:00"
-  },
-  "SB-9A5452C9": {
-    "title": "Liverpool-United rains four goals at Anfield",
-    "quip": "Salah and Bruno don't do goalless draws",
-    "cached_at": "2026-11-13T02:28:23.721521+00:00"
-  },
-  "SB-4F252283": {
-    "title": "Canadiens blow out Bruins by four",
-    "quip": "Suzuki and Caufield treating the Garden like a driveway",
-    "cached_at": "2026-11-13T02:28:23.721521+00:00"
-  },
-  "SB-147F231F": {
-    "title": "Kings beat Islanders by two in LA",
-    "quip": "Kuemper turns Crypto.com into a vault",
-    "cached_at": "2026-11-13T02:28:23.721521+00:00"
-  },
-  "SB-457459F1": {
-    "title": "Bulls upset Hawks in Chicago",
-    "quip": "Giddey triple-double energy, Trae Young scowl incoming",
-    "cached_at": "2026-11-13T02:28:23.721521+00:00"
-  },
-  "SB-2D5835F9": {
-    "title": "Pacers knock off Knicks in Indiana",
-    "quip": "Haliburton still haunts Madison Square Garden group chats",
-    "cached_at": "2026-11-13T02:28:23.721521+00:00"
-  },
-  "SB-B2F5E2A5": {
-    "title": "Warriors shock Spurs in San Antonio",
-    "quip": "Curry heat check versus Wembanyama's wingspan, roll the tape",
-    "cached_at": "2026-11-13T02:28:23.721521+00:00"
-  },
-  "SB-9F16E1F4": {
-    "title": "Jazz stun Rockets in Houston",
-    "quip": "Lauri Markkanen decides to ruin Ime Udoka's evening",
-    "cached_at": "2026-11-13T02:28:23.721521+00:00"
-  },
-  "SB-96A15DED": {
-    "title": "Merrimack stuns Florida in the Swamp",
-    "quip": "North Andover's finest crash the national championship parade",
-    "cached_at": "2026-11-13T02:28:23.721521+00:00"
-  },
-  "SB-F15F61FA": {
-    "title": "Capitals thrash Devils by two in Jersey",
-    "quip": "Ovechkin, 40, still auditioning for the final act",
-    "cached_at": "2026-11-13T02:28:23.721521+00:00"
-  },
-  "SB-C39C1B50": {
-    "title": "JYP skate past KooKoo by two in Kouvola",
-    "quip": "Jyv\u00e4skyl\u00e4's finest treat KooKoo like a practice jersey",
-    "cached_at": "2026-11-13T02:28:37.962227+00:00"
-  },
-  "SB-1B6E4763": {
-    "title": "TPS bury Jokerit by two or more tonight",
-    "quip": "Turku remembers what Jokerit used to be",
-    "cached_at": "2026-11-13T02:28:37.962227+00:00"
-  },
-  "SB-E69906B0": {
-    "title": "R\u00f6gle handle Fr\u00f6lunda by two in \u00c4ngelholm",
-    "quip": "the little club from \u00c4ngelholm keeps eating giants",
-    "cached_at": "2026-11-13T02:28:37.962227+00:00"
-  },
-  "SB-494E5733": {
-    "title": "Zimbabwe upset Afghanistan in the Test",
-    "quip": "Sikandar Raza has done sillier things before lunch",
-    "cached_at": "2026-11-13T02:28:37.962227+00:00"
-  },
-  "SB-29114BFB": {
-    "title": "Cedeno shocks unbeaten Orobio",
-    "quip": "somebody forgot to tell Hendri about the prospect timeline",
-    "cached_at": "2026-11-13T02:28:37.962227+00:00"
-  },
-  "SB-99F3C641": {
-    "title": "Islanders keep it close in LA",
-    "quip": "Sorokin standing on his head in Kubrick's old city",
-    "cached_at": "2026-11-13T02:28:49.214404+00:00"
-  },
-  "SB-2FBC89B2": {
-    "title": "Colts handle the Dolphins in Indy",
-    "quip": "Miami's season ended somewhere around September",
-    "cached_at": "2026-11-13T02:28:49.214404+00:00"
-  },
-  "SB-5C6B9B23": {
-    "title": "Red Wings hang with the Panthers in Sunrise",
-    "quip": "Larkin doesn't flinch at back-to-back banners",
-    "cached_at": "2026-11-13T02:28:49.214404+00:00"
-  },
-  "SB-7970C15F": {
-    "title": "Pistons stay within a goal-line of the Wizards",
-    "quip": "Cade Cunningham plays down to the room",
-    "cached_at": "2026-11-13T02:28:49.214404+00:00"
-  },
-  "SB-AC4E6C38": {
-    "title": "Senators stay tight with the Avalanche",
-    "quip": "Tkachuk bullying MacKinnon's friends all night",
-    "cached_at": "2026-11-13T02:28:49.214404+00:00"
-  },
-  "SB-A49D268A": {
-    "title": "Grizzlies take down the Pelicans in New Orleans",
-    "quip": "Ja's Memphis still owns the Smoothie King lease",
-    "cached_at": "2026-11-13T02:28:49.214404+00:00"
-  },
-  "SB-A7BF6283": {
-    "title": "Predators keep it tight in Vegas",
-    "quip": "Saros turning the Fortress into a waiting room",
-    "cached_at": "2026-11-13T02:28:49.214404+00:00"
-  },
   "SB-4E0E17F7": {
     "title": "Falcons hang tough with Chiefs in Atlanta",
     "quip": "Bijan Robinson keeps it a one-score heartbreak",
@@ -1033,5 +923,100 @@
     "title": "Warriors beat the Pelicans in New Orleans",
     "quip": "Curry still ruins Thursdays in the Smoothie King Center",
     "cached_at": "2026-11-16T17:55:57.426386+00:00"
+  },
+  "SB-24A6A30D": {
+    "title": "Raptors handle the Knicks up north",
+    "quip": "Scottie Barnes doing chores in his own house",
+    "cached_at": "2026-11-17T04:25:30.622669+00:00"
+  },
+  "SB-2C0479A6": {
+    "title": "Islanders beat Blue Jackets by two or more",
+    "quip": "Sorokin turning Columbus shooters into pen pals",
+    "cached_at": "2026-11-17T04:25:30.622669+00:00"
+  },
+  "SB-7DAC80B6": {
+    "title": "Sabres win in Philly by multiple goals",
+    "quip": "Buffalo ruining a perfectly good Flyers evening",
+    "cached_at": "2026-11-17T04:25:30.622669+00:00"
+  },
+  "SB-D2350609": {
+    "title": "Hornets stun the Lakers in LA",
+    "quip": "LaMelo treating Crypto.com Arena like an open gym",
+    "cached_at": "2026-11-17T04:25:30.622669+00:00"
+  },
+  "SB-D72CBC51": {
+    "title": "Pistons walk into San Antonio and beat the Spurs",
+    "quip": "Cade Cunningham unbothered by the Wembanyama wingspan",
+    "cached_at": "2026-11-17T04:25:30.622669+00:00"
+  },
+  "SB-6F2826F6": {
+    "title": "Titans upset the Cowboys in Dallas",
+    "quip": "Jerry's star-spangled soap opera adds another sad episode",
+    "cached_at": "2026-11-17T04:25:30.622669+00:00"
+  },
+  "SB-8938318E": {
+    "title": "Bruins blow out the Kings by four",
+    "quip": "the Garden organ playing somebody off the ice",
+    "cached_at": "2026-11-17T04:25:30.622669+00:00"
+  },
+  "SB-F5EBA04A": {
+    "title": "Eastern Washington shocks Utah in Salt Lake",
+    "quip": "Cheney, Washington, population: suddenly very loud",
+    "cached_at": "2026-11-17T04:25:30.622669+00:00"
+  },
+  "SB-B2AE0124": {
+    "title": "Suns beat Nuggets by a single bucket",
+    "quip": "Jokic triple-double, Booker dagger, Denver silence, chef's kiss",
+    "cached_at": "2026-11-17T04:25:30.622669+00:00"
+  },
+  "SB-A65EAB00": {
+    "title": "Bucknell upsets Akron tonight in Lewisburg",
+    "quip": "Patriot League gym, MAC dreams, somebody's leaving Bison-stomped",
+    "cached_at": "2026-11-17T04:25:36.437421+00:00"
+  },
+  "SB-B3164525": {
+    "title": "F\u00e4rjestad handle Fr\u00f6lunda by two or more tonight",
+    "quip": "Karlstad ice is where Gothenburg road trips go to die",
+    "cached_at": "2026-11-17T04:25:44.853825+00:00"
+  },
+  "SB-64B8B67C": {
+    "title": "Link\u00f6ping bury HV71 by multiple goals tonight",
+    "quip": "the \u00d6sterg\u00f6tland derby gets lopsided, J\u00f6nk\u00f6ping packs it in early",
+    "cached_at": "2026-11-17T04:25:44.853825+00:00"
+  },
+  "SB-53AD1FAD": {
+    "title": "Chargers handle Ravens in Baltimore tonight",
+    "quip": "Herbert's hair stays perfect in the rain",
+    "cached_at": "2026-11-17T04:25:54.332446+00:00"
+  },
+  "SB-CE5CDEC3": {
+    "title": "Suns keep it close in Denver",
+    "quip": "Jokic gets his triple-double, Booker gets the cover",
+    "cached_at": "2026-11-17T04:25:54.332446+00:00"
+  },
+  "SB-1C652329": {
+    "title": "Ducks-Blues decided by a single goal",
+    "quip": "somebody's pulling the goalie with ninety seconds left",
+    "cached_at": "2026-11-17T04:25:54.332446+00:00"
+  },
+  "SB-2C506479": {
+    "title": "Davidson handles Charlotte in the Queen City feud",
+    "quip": "Steph's alma mater still runs this town",
+    "cached_at": "2026-11-17T04:25:54.332446+00:00"
+  },
+  "SB-02FB09F6": {
+    "title": "Lightning burn the Capitals in Tampa",
+    "quip": "Vasilevskiy eats Ovechkin's one-timer for breakfast",
+    "cached_at": "2026-11-17T04:25:54.332446+00:00"
+  },
+  "SB-6A30C4EA": {
+    "title": "Southern Miss takes care of UT-Arlington",
+    "quip": "Hattiesburg is a long, bad trip from Arlington",
+    "cached_at": "2026-11-17T04:25:54.332446+00:00"
+  },
+  "SB-ECA0A0CD": {
+    "title": "Knicks win north of the border tonight",
+    "quip": "Brunson treats Scotiabank Arena like a home game",
+    "cached_at": "2026-11-17T04:25:54.332446+00:00"
   }
 }

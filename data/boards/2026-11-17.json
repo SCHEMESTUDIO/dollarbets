@@ -1,0 +1,597 @@
+{
+  "generated_at": "2026-11-17T04:25:14.441218+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 4,
+    "polymarket_us": 6,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "KXMLBSS-26AL1B-BRICE22",
+      "title": "Ben Rice wins the AL first base Silver Slugger",
+      "subtitle": "AL First Baseman 2026",
+      "yes_sub_title": "Ben Rice",
+      "no_sub_title": "Ben Rice",
+      "payout": 1.67,
+      "tier": "green",
+      "quip": "somewhere a Red Sox fan is already typing",
+      "yes_price": "0.6000",
+      "volume": 868.12,
+      "category": "Sports",
+      "close_time": "2026-12-08T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMLBSS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 39.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "i didn't know his name in April and now i'm defending him in public",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the short porch in right field gets thanked by name in the speech",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "a guy named Rice swinging a bat called a Slugger. poetry",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "grain fed power",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "60 cents on a Dartmouth kid out-hitting the entire American League",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "like the backup who takes the job and never hands it back",
+          "mode": 6,
+          "score": 6
+        },
+        {
+          "quip": "somewhere a Red Sox fan is already typing",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "my uncle calls him the kid and the kid is 27",
+          "mode": 2,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2506357",
+      "title": "Seven ships squeeze through Hormuz in one day",
+      "subtitle": "",
+      "payout": 2.17,
+      "tier": "green",
+      "quip": "like counting cars in a Waffle House lot to call the recession",
+      "yes_price": "0.4600",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2026-12-08T14:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/hormuz-highw-2026-11-22?marketSlug=stsc-hormuz-highw-2026-11-22-ge7",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "spent my whole morning watching tanker cams like a lava lamp",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "an analyst zooms way in, whispers that's a seventh, gets promoted",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "ship seven is a guy on a jet ski with a GoPro",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "boats: still doing it",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "the entire world economy is a boat parade and i LOVE that",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "the Ever Given walked so these seven could sail",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "like counting cars in a Waffle House lot to call the recession",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "i can name three tankers now and that is three too many",
+          "mode": 2,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1323213",
+      "title": "US tariff revenue hits $300 billion in FY27",
+      "subtitle": "",
+      "payout": 2.27,
+      "tier": "green",
+      "quip": "Long Beach doing Coachella numbers and nobody's having fun",
+      "yes_price": "0.4400",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2027-10-28T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/ustariff-fy2027?marketSlug=cusdc-ustariff-fy2027-gte300b",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "$300 billion and my share of it was one hoodie from Guangzhou",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "i paid eleven dollars of customs on a candle and called it patriotism",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "Treasury prints a novelty check, nobody shows up to hold the other end",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "tariffs: the national hobby",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "Smoot and Hawley trending for the worst possible reason",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "a tax you're apparently allowed to root for",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "Long Beach doing Coachella numbers and nobody's having fun",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "like a Vegas resort fee applied to an entire hemisphere",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2592842",
+      "title": "Bitcoin ticks up this hour",
+      "subtitle": "",
+      "payout": 3.7,
+      "tier": "yellow",
+      "quip": "babe come to bed. one more candle. babe",
+      "yes_price": "0.2700",
+      "volume": 0,
+      "category": "Crypto",
+      "close_time": "2026-11-17T05:30:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.us/event/btc-updown-1h-2026-11-17-0400z?marketSlug=cpc-btc-updown-1h-2026-11-17-0400z",
+      "platform": "polymarket_us",
+      "score": 55.0,
+      "quip_alts": [
+        {
+          "quip": "i check this chart more often than i check my own texts",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "sixty minutes of my life riding a candle the width of a hair",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "hour long attention span",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "27 cents to care for one hour. i've paid way more for less",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "an entire casino compressed into one hour is genuinely elite engineering",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "like picking which raindrop wins the race down the window",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "babe come to bed. one more candle. babe",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "the Groundhog Day of financial products, minus the character growth",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUEFANL1H-26NOV17ISRAUT-ISR",
+      "title": "Israel wins the first half tonight",
+      "subtitle": "ISR vs AUT (Nov 17)",
+      "yes_sub_title": "Israel wins 1st Half",
+      "no_sub_title": "Israel wins 1st Half",
+      "payout": 4.76,
+      "tier": "yellow",
+      "quip": "like leading after one quarter of a Thursday night game",
+      "yes_price": "0.2100",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-19T19:45:00Z",
+      "url": "https://kalshi.com/markets/KXUEFANL1H?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 69.0,
+      "_specificity": 5,
+      "quip_alts": [
+        {
+          "quip": "halftime heroes only",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "i have never cared about 45 specific minutes this hard",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "they go up at the whistle and the second half becomes somebody else's job",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "like leading after one quarter of a Thursday night game",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "first halves are the appetizer and i am an appetizer guy",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "21 cents buys 45 minutes of commitment, my kind of relationship",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "Leeroy Jenkins strategy that somehow works for exactly one half",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "lads we only have to be good until the whistle",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1446196",
+      "title": "Mariana di Girolamo gets a Best Supporting Actress nod",
+      "subtitle": "",
+      "payout": 5.88,
+      "tier": "yellow",
+      "quip": "she took a flamethrower to a city in Ema and they noticed eight years later",
+      "yes_price": "0.1700",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-02-05T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-nom-bstsupactre-2027-01-21?marketSlug=tac-oscars-nom-bstsupactre-2027-01-21-mardi",
+      "platform": "polymarket_us",
+      "score": 38.0,
+      "quip_alts": [
+        {
+          "quip": "i will absolutely pretend i have seen this one",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "letterboxd guys sprinting to backdate a four and a half star review",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "Chilean cinema getting its flowers is sincerely the best news today",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "subtitles are so back",
+          "mode": 9,
+          "score": 3
+        },
+        {
+          "quip": "like a mid major guard going lottery and everybody acting unsurprised",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "17 cents says the Academy finally finished a movie with subtitles",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "she took a flamethrower to a city in Ema and they noticed eight years later",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "my letterboxd is about to get extremely dishonest",
+          "mode": 2,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "STARSHIPMARS-29DEC31",
+      "title": "Starship flies humans to Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Not Before 2030",
+      "payout": 7.14,
+      "tier": "orange",
+      "quip": "$7.14 is also roughly what the in flight wifi will run you",
+      "yes_price": "0.1400",
+      "volume": 55631.98,
+      "category": "Companies",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "they land and immediately start arguing about who got the window seat",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i'd go. i have nothing going on until March",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "seven year road trip",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "$7.14 is also roughly what the in flight wifi will run you",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "Interstellar docking scene except it's one guy with an allen wrench",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "humans on Mars this decade would be so stupidly cool i'd cry",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "ground control says six months. he says we leave Thursday",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "my Mars bag is packed and it's chapstick and spite",
+          "mode": 2,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-287302",
+      "title": "The Michael Jackson biopic gets a Best Picture nod",
+      "subtitle": "",
+      "payout": 10.0,
+      "tier": "orange",
+      "quip": "i will see it. i will feel weird. i will see it again",
+      "yes_price": "0.1000",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-02-15T04:00:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.us/event/oscars-nom-2027-01-31-bestpic?marketSlug=tac-oscars-nom-2027-01-31-bestpic-michae",
+      "platform": "polymarket_us",
+      "score": 48.0,
+      "quip_alts": [
+        {
+          "quip": "Academy voters practicing how to clap with one eyebrow fully raised",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i will see it. i will feel weird. i will see it again",
+          "mode": 2,
+          "score": 9
+        },
+        {
+          "quip": "a moonwalk into discourse",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "ten dollar payout, roughly ten thousand incoming takes",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "like Bohemian Rhapsody if there were a lawyer in every single frame",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "the needle drops alone are worth the ticket and you know it",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "and the nominees are...everybody please look at the floor",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "my mom still has the Thriller vinyl and exactly zero questions",
+          "mode": 2,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27",
+      "title": "US and Iran sign a nuclear deal this year",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 25.0,
+      "tier": "red",
+      "quip": "like your uncle announcing he quit smoking at every Thanksgiving",
+      "yes_price": "0.0400",
+      "volume": 2079756.11,
+      "category": "Politics",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 115.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i have aged four years waiting for this sentence to be true",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "pens uncapped in Geneva, whole thing cancelled before lunch",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "centrifuges stay spinning",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "25 to 1 that adults get in the room",
+          "mode": 5,
+          "score": 4.5
+        },
+        {
+          "quip": "it's the Lucy and the football of foreign policy",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "picture the handshake photo though. framed. gold frame. above the mantle",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "like your uncle announcing he quit smoking at every Thanksgiving",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "a deal, a beautiful deal, the best deal, deal number nine",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1280073",
+      "title": "Joe Burrow is 2026's most Googled person",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "$100 on a man who dresses like a ski movie villain",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/gsearch-1person-2026?marketSlug=gsrc-gsearch-1person-2026-joebur",
+      "platform": "polymarket_us",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "the entire planet typing joe burrow glasses outfit into one search bar",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i've googled his wrist more than my own symptoms",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "ohio did this",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "$100 on a man who dresses like a ski movie villain",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "outsearching every pope and pop star with a Cincinnati zip code",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "the fits are undefeated and the algorithm figured it out first",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "siri, who is the guy with the chain and the sad eyes",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "Zoolander energy attached to a 65 percent completion rate",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    }
+  ]
+}
