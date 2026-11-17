@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-17T21:54:09.895280+00:00",
+          "tweet_id": "2122810549859709250",
+          "reply_tweet_id": "2122810551763865649"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "4135319",
+        "page": "https://www.pexels.com/photo/stairs-of-a-building-from-the-glass-windows-4135319/",
+        "photographer": "Steve Pancrate",
+        "license": "Pexels License",
+        "phrases": [
+          "marble government building dusk",
+          "empty office corridor night"
+        ],
+        "tokens": {
+          "input_tokens": 3627,
+          "output_tokens": 27
         }
       }
     },
