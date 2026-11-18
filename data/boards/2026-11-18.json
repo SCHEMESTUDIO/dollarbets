@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-11-18T03:24:03.073159+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket_us": 5,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "KXSNOWXMASMSP-25DEC26-0",
+      "title": "It snows in Minneapolis on Christmas",
+      "subtitle": "On Dec 25, 2026",
+      "yes_sub_title": "Above 0 inches",
+      "no_sub_title": "Above 0 inches",
+      "payout": 2.08,
+      "tier": "green",
+      "quip": "$2.08 is the exact price of ice melt at the Cub Foods",
+      "yes_price": "0.4800",
+      "volume": 25.38,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-26T05:59:00Z",
+      "url": "https://kalshi.com/markets/KXSNOWXMASMSP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 79.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "Minneapolis earning its entire personality in one afternoon",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "i grew up shoveling this. pay me and i'll shovel it again",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "my uncle already has the snowblower idling in the driveway, december 3rd",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "just December being December",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "every Christmas card ever printed, now confirmed by the National Weather Service",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "\"ope, lemme scooch past ya\" at four inches an hour",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "snow on the 25th in Minnesota is America working exactly as designed",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "$2.08 is the exact price of ice melt at the Cub Foods",
+          "mode": 5,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1048269",
+      "title": "Tom Cruise lands a Best Actor nomination",
+      "subtitle": "",
+      "payout": 2.17,
+      "tier": "green",
+      "quip": "like LeBron getting his flowers only after the knees went",
+      "yes_price": "0.4600",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2027-02-05T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-nom-bstact-2027-01-21?marketSlug=tac-oscars-nom-bstact-2027-01-21-tomcru",
+      "platform": "polymarket_us",
+      "score": 33.0,
+      "quip_alts": [
+        {
+          "quip": "he accepts it hanging off the side of the Dolby Theatre",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i will not be normal about this. the man broke his ankle for us",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "\"I do my own campaigning\" then laughs for eleven straight seconds",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "finally, a man who runs",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "Maverick never got one either. consider this for Goose",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "the Academy apologizing for forty years of pretending sprinting isn't acting",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "sincerely the biggest movie star alive and i'm thrilled for the guy",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "like LeBron getting his flowers only after the knees went",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1048288",
+      "title": "Zendaya gets a Best Actress nomination",
+      "subtitle": "",
+      "payout": 4.55,
+      "tier": "yellow",
+      "quip": "Tom Holland crying in row four wearing a very small suit",
+      "yes_price": "0.2200",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2027-02-05T04:00:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.us/event/oscars-nom-bstactre-2027-01-21?marketSlug=tac-oscars-nom-bstactre-2027-01-21-zenday",
+      "platform": "polymarket_us",
+      "score": 38.0,
+      "quip_alts": [
+        {
+          "quip": "i have no notes, i just need her to bring Challengers energy",
+          "mode": 2,
+          "score": 5.5
+        },
+        {
+          "quip": "Tom Holland crying in row four wearing a very small suit",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "Euphoria to Oscars pipeline",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "the Academy finally watching something a person under 40 watched",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "\"who wants the ball\" wrong movie, still works, keep rolling",
+          "mode": 4,
+          "score": 5
+        },
+        {
+          "quip": "a tennis throuple got somebody an Oscar nod and i love it here",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "$4.55 is roughly the cost of one earring she wears that night",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "the stillsuit paid off. Shai-Hulud votes yes",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2509948",
+      "title": "Ethereum dips to $1,700 this week",
+      "subtitle": "",
+      "payout": 4.76,
+      "tier": "yellow",
+      "quip": "$1,700 is also what i paid for the monitor i'm watching this on",
+      "yes_price": "0.2100",
+      "volume": 0,
+      "category": "Crypto",
+      "close_time": "2026-11-20T22:30:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.us/event/eth-hit-l-w-2026-11-20?marketSlug=cpceth-eth-hit-l-w-2026-11-20-1700",
+      "platform": "polymarket_us",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "my cost basis just sent me a letter it wrote by hand",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "Vitalik posts nine thousand words about thinking in decades",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "number go down technology",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "$1,700 is also what i paid for the monitor i'm watching this on",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "every Discord with a flame emoji in the name goes silent",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "honestly a gorgeous number. clean, round, completely devastating",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "like a 13 seed up eleven before the first media timeout",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "\"we are still so early\" he says, from underground",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1444235",
+      "title": "Denis Villeneuve wins Best Director",
+      "subtitle": "",
+      "payout": 5.56,
+      "tier": "yellow",
+      "quip": "acceptance speech is forty seconds of silence and one enormous horn",
+      "yes_price": "0.1800",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-03-29T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-03-14-2027-bestdir?marketSlug=tac-oscars-03-14-2027-bestdir-denvil",
+      "platform": "polymarket_us",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "i will sit through three hours of sand and i will thank him",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "acceptance speech is forty seconds of silence and one enormous horn",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "the spice flowed, the Academy finally paid the toll",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "the sand guy wins",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "condolences to every director who relied on dialogue",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "nobody shoots a desert like this man and i'll die on that hill",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "$5.56 payout, same as the runtime in hours",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Villeneuve is the Popovich of letting silence cook for twenty minutes",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXBRASILEIRO1HTOTAL-26NOV19VDGINT-3",
+      "title": "Three or more goals in the first half",
+      "subtitle": "VDG vs INT (Nov 19)",
+      "yes_sub_title": "Over 2.5 1H goals scored",
+      "no_sub_title": "Over 2.5 1H goals scored",
+      "payout": 7.14,
+      "tier": "orange",
+      "quip": "this is a Pac-12 After Dark scoreline with cleats on",
+      "yes_price": "0.1400",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-21T22:30:00Z",
+      "url": "https://kalshi.com/markets/KXBRASILEIRO1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 79.0,
+      "_specificity": 0,
+      "quip_alts": [
+        {
+          "quip": "both keepers shaking hands at halftime out of mutual apology",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "i had this on in the background and now i'm standing up",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "defense optional, apparently",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "somebody's back line is getting reassigned to the youth academy tonight",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "this is a Pac-12 After Dark scoreline with cleats on",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"GOOOOOL\" three times before the pretzel guy makes it back",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "first half goals are the only ones i actually trust",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "three goals in 45 minutes, a full season of Serie A content",
+          "mode": 5,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2440243",
+      "title": "Louisiana goes Democratic in 2028",
+      "subtitle": "",
+      "payout": 14.49,
+      "tier": "orange",
+      "quip": "roughly as likely as a pass interference call going the Saints' way",
+      "yes_price": "0.0690",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2028-11-22T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/usp-la-2028-11-07?marketSlug=pvwc-usp-la-2028-11-07-dem",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "the campaign bus gets gumbo, then a police escort out of the parish",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "Louisiana would sooner secede twice and build a third bridge",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "pigs, flight, Baton Rouge",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "$14.49 is one daiquiri on Bourbon and i'd spend it there",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Huey Long claws out of the swamp to ask what year it is",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "i would fly down just to watch the map turn blue over the boot",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "roughly as likely as a pass interference call going the Saints' way",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "\"we are gonna compete everywhere\" says a man who has never competed there",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXAUCTIONRECORD-27-CLA-110747000",
+      "title": "A Monet smashes his auction record this year",
+      "subtitle": "Monet",
+      "yes_sub_title": "Above $110,747,000",
+      "no_sub_title": "Above $110,747,000",
+      "payout": 20.0,
+      "tier": "red",
+      "quip": "$110 million for a pond. my rent went up $90 and i moved",
+      "yes_price": "0.0500",
+      "volume": 23085.36,
+      "category": "Entertainment",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXAUCTIONRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 139.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "a man in Geneva lifts a paddle and ruins somebody's entire quarter",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "i own a water lilies poster from a college bookstore. we're basically twins",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "$110 million for a pond. my rent went up $90 and i moved",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "pond, lily, hundred million",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "billionaires rediscovering blurry flowers for the ninth consecutive decade",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "\"do i hear one fifteen\" he asks a phone, while holding a phone",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "the man painted the same pond 250 times and it absolutely worked",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "Thomas Crown is awake and he has notes",
+          "mode": 8,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "TESLACEOCHANGE-26",
+      "title": "Elon Musk is out as Tesla CEO before 2027",
+      "subtitle": "Before 2027",
+      "yes_sub_title": "Before 2027",
+      "no_sub_title": "Not Before 2027",
+      "payout": 33.33,
+      "tier": "red",
+      "quip": "\"stepping back to focus on\" ten second pause \"the robots\"",
+      "yes_price": "0.0300",
+      "volume": 99216.68,
+      "category": "Companies",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXTESLACEOCHANGE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 122.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "new CEO announces the Cybertruck is a boat now. nothing else changes",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i would reread that resignation post forty times and still have questions",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "he'll still be tweeting",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "$33.33 and he would post about the number three separate times",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "\"stepping back to focus on\" ten second pause \"the robots\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "stock up nine percent on the news, which tells you plenty",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "it's Godfather III. he tries to go legitimate and i'm not buying it",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "like Belichick leaving New England. the hoodie goes, the vibes go with it",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXCONCACAFNL1HBTTS-26NOV17MEXJAM-BTTS",
+      "title": "Mexico and Jamaica both score in the first half",
+      "subtitle": "MEX vs JAM (Nov 17)",
+      "yes_sub_title": "1st Half: Both Teams To Score",
+      "no_sub_title": "1st Half: Both Teams To Score",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "the Azteca crowd immediately does the thing that gets Mexico fined again",
+      "yes_price": "0.0100",
+      "volume": 72840.45,
+      "category": "Sports",
+      "close_time": "2026-11-20T02:30:00Z",
+      "url": "https://kalshi.com/markets/KXCONCACAFNL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 121.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "the Azteca crowd immediately does the thing that gets Mexico fined again",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i will be awake at a stupid hour for the Reggae Boyz, no regrets",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "everybody scores before halftime",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "a hundred bucks off a dollar. that's basically a flight to Kingston",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "like a 14-10 first quarter in a game everyone promised would be ugly",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "the Mexican back line swinging open like a hotel lobby door",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "Jamaica putting one past Mexico is one of my favorite things in sports",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "\"Ochoa saves that\" says a guy who has not watched since 2014",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    }
+  ]
+}

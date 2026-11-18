@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-11-18T03:24:47.352971+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "NCAAF": 4,
+    "Multi": 6
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-8E4FA4E2",
+      "title": "Cincinnati Bearcats wins + UMass Minutemen wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:49547-4449652-7262070&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Colorado Buffaloes @ Cincinnati Bearcats + Akron Zips @ UMass Minutemen",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Colorado Buffaloes @ Cincinnati Bearcats",
+          "pick": "Cincinnati Bearcats wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49547-4449652-7262070&type=Single",
+          "commence_time": "2026-11-21T17:00:00Z"
+        },
+        {
+          "matchup": "Akron Zips @ UMass Minutemen",
+          "pick": "UMass Minutemen wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49228-4406512-7172730&type=Single",
+          "commence_time": "2026-11-19T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-19T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-2233519C",
+      "title": "Northwestern Wildcats wins + UMass Minutemen wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:49541-4449646-7262057&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Northwestern Wildcats @ Minnesota Golden Gophers + Akron Zips @ UMass Minutemen",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Northwestern Wildcats @ Minnesota Golden Gophers",
+          "pick": "Northwestern Wildcats wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49541-4449646-7262057&type=Single",
+          "commence_time": "2026-11-21T17:00:00Z"
+        },
+        {
+          "matchup": "Akron Zips @ UMass Minutemen",
+          "pick": "UMass Minutemen wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49228-4406512-7172730&type=Single",
+          "commence_time": "2026-11-19T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-19T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-354ACCA6",
+      "title": "Oklahoma State Cowboys wins + UMass Minutemen wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:49582-4449688-7262141&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Oklahoma State Cowboys @ Arizona State Sun Devils + Akron Zips @ UMass Minutemen",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Oklahoma State Cowboys @ Arizona State Sun Devils",
+          "pick": "Oklahoma State Cowboys wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49582-4449688-7262141&type=Single",
+          "commence_time": "2026-11-22T03:15:00Z"
+        },
+        {
+          "matchup": "Akron Zips @ UMass Minutemen",
+          "pick": "UMass Minutemen wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49228-4406512-7172730&type=Single",
+          "commence_time": "2026-11-19T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-19T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-BE44D4B5",
+      "title": "Brooklyn Nets wins + UMass Minutemen wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20050507-1571887847-2333247535&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Chicago Bulls @ Brooklyn Nets + Akron Zips @ UMass Minutemen",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Bulls @ Brooklyn Nets",
+          "pick": "Brooklyn Nets wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20050507-1571887847-2333247535&type=Single",
+          "commence_time": "2026-11-19T00:40:00Z"
+        },
+        {
+          "matchup": "Akron Zips @ UMass Minutemen",
+          "pick": "UMass Minutemen wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49228-4406512-7172730&type=Single",
+          "commence_time": "2026-11-19T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-19T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-01E8BDAA",
+      "title": "Ole Miss Rebels -34.5 + UMass Minutemen wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20113924-1580032978-2355187777&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Nicholls St Colonels @ Ole Miss Rebels + Akron Zips @ UMass Minutemen",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Nicholls St Colonels @ Ole Miss Rebels",
+          "pick": "Ole Miss Rebels -34.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20113924-1580032978-2355187777&type=Single",
+          "commence_time": "2026-11-18T01:30:00Z"
+        },
+        {
+          "matchup": "Akron Zips @ UMass Minutemen",
+          "pick": "UMass Minutemen wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49228-4406512-7172730&type=Single",
+          "commence_time": "2026-11-19T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-18T01:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-67E2AFDB",
+      "title": "Tennessee Tech Golden Eagles wins + UMass Minutemen wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20115412-1579803452-2354598300&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Tennessee Tech Golden Eagles @ UNC Asheville Bulldogs + Akron Zips @ UMass Minutemen",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Tennessee Tech Golden Eagles @ UNC Asheville Bulldogs",
+          "pick": "Tennessee Tech Golden Eagles wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20115412-1579803452-2354598300&type=Single",
+          "commence_time": "2026-11-18T23:30:00Z"
+        },
+        {
+          "matchup": "Akron Zips @ UMass Minutemen",
+          "pick": "UMass Minutemen wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49228-4406512-7172730&type=Single",
+          "commence_time": "2026-11-19T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-18T23:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-3874202C",
+      "title": "Presbyterian Blue Hose wins + UMass Minutemen wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20115401-1579803315-2354597967&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Mercer Bears @ Presbyterian Blue Hose + Akron Zips @ UMass Minutemen",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Mercer Bears @ Presbyterian Blue Hose",
+          "pick": "Presbyterian Blue Hose wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20115401-1579803315-2354597967&type=Single",
+          "commence_time": "2026-11-19T00:00:00Z"
+        },
+        {
+          "matchup": "Akron Zips @ UMass Minutemen",
+          "pick": "UMass Minutemen wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49228-4406512-7172730&type=Single",
+          "commence_time": "2026-11-19T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-19T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-7C54640E",
+      "title": "Over 3.5 + UMass Minutemen wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7911761-207785348-806770229&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "FC Cincinnati @ Orlando City SC + Akron Zips @ UMass Minutemen",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "FC Cincinnati @ Orlando City SC",
+          "pick": "Over 3.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7911761-207785348-806770229&type=Single",
+          "commence_time": "2026-11-20T00:30:00Z"
+        },
+        {
+          "matchup": "Akron Zips @ UMass Minutemen",
+          "pick": "UMass Minutemen wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49228-4406512-7172730&type=Single",
+          "commence_time": "2026-11-19T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-19T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-804AEA89",
+      "title": "Over 2.5 + UMass Minutemen wins",
+      "payout": 2.67,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7912983-207830727-807130544&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Houston Dynamo @ San Jose Earthquakes + Akron Zips @ UMass Minutemen",
+      "market_type": "2-leg parlay",
+      "american_odds": 167,
+      "implied_probability": 0.374,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Houston Dynamo @ San Jose Earthquakes",
+          "pick": "Over 2.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7912983-207830727-807130544&type=Single",
+          "commence_time": "2026-11-25T03:00:00Z"
+        },
+        {
+          "matchup": "Akron Zips @ UMass Minutemen",
+          "pick": "UMass Minutemen wins",
+          "odds": -160,
+          "implied_prob": "62%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49228-4406512-7172730&type=Single",
+          "commence_time": "2026-11-19T00:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-19T00:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-D953FF63",
+      "title": "UMass Minutemen wins + Ohio State Buckeyes wins",
+      "payout": 2.69,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624313970&selectionId=2560733",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Akron Zips @ UMass Minutemen + Ohio State Buckeyes @ Nebraska Cornhuskers",
+      "market_type": "2-leg parlay",
+      "american_odds": 169,
+      "implied_probability": 0.371,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Akron Zips @ UMass Minutemen",
+          "pick": "UMass Minutemen wins",
+          "odds": -156,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624313970&selectionId=2560733",
+          "commence_time": "2026-11-19T00:00:00Z"
+        },
+        {
+          "matchup": "Ohio State Buckeyes @ Nebraska Cornhuskers",
+          "pick": "Ohio State Buckeyes wins",
+          "odds": -156,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625006693&selectionId=484727",
+          "commence_time": "2026-11-21T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-19T00:00:00Z"
+    }
+  ]
+}

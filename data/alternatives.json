@@ -1,178 +1,194 @@
 {
- "generated_at": "2026-11-17T04:25:14.440562+00:00",
+ "generated_at": "2026-11-18T03:24:03.072072+00:00",
  "markets": {
-  "KXMLBSS-26AL1B-BRICE22": {
-   "title": "Ben Rice wins the AL first base Silver Slugger",
+  "KXSNOWXMASMSP-25DEC26-0": {
+   "title": "It snows in Minneapolis on Christmas",
    "platform": "kalshi",
-   "payout": 1.67,
-   "url": "https://kalshi.com/markets/KXMLBSS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Sports",
+   "payout": 2.08,
+   "url": "https://kalshi.com/markets/KXSNOWXMASMSP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Climate and Weather",
    "alts": {
     "kalshi": {
-     "ticker": "KXMLBSS-26AL1B-BRICE22",
-     "title": "Ben Rice wins the AL first base Silver Slugger",
-     "url": "https://kalshi.com/markets/KXMLBSS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 1.67,
+     "ticker": "KXSNOWXMASMSP-25DEC26-0",
+     "title": "It snows in Minneapolis on Christmas",
+     "url": "https://kalshi.com/markets/KXSNOWXMASMSP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 2.08,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-2506357": {
-   "title": "Seven ships squeeze through Hormuz in one day",
+  "pmus-1048269": {
+   "title": "Tom Cruise lands a Best Actor nomination",
    "platform": "polymarket_us",
    "payout": 2.17,
-   "url": "https://polymarket.us/event/hormuz-highw-2026-11-22?marketSlug=stsc-hormuz-highw-2026-11-22-ge7",
-   "category": "World",
+   "url": "https://polymarket.us/event/oscars-nom-bstact-2027-01-21?marketSlug=tac-oscars-nom-bstact-2027-01-21-tomcru",
+   "category": "Science and Technology",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-2506357",
-     "title": "Seven ships squeeze through Hormuz in one day",
-     "url": "https://polymarket.us/event/hormuz-highw-2026-11-22?marketSlug=stsc-hormuz-highw-2026-11-22-ge7",
+     "ticker": "pmus-1048269",
+     "title": "Tom Cruise lands a Best Actor nomination",
+     "url": "https://polymarket.us/event/oscars-nom-bstact-2027-01-21?marketSlug=tac-oscars-nom-bstact-2027-01-21-tomcru",
      "payout": 2.17,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-1323213": {
-   "title": "US tariff revenue hits $300 billion in FY27",
+  "pmus-1048288": {
+   "title": "Zendaya gets a Best Actress nomination",
    "platform": "polymarket_us",
-   "payout": 2.27,
-   "url": "https://polymarket.us/event/ustariff-fy2027?marketSlug=cusdc-ustariff-fy2027-gte300b",
-   "category": "Other",
+   "payout": 4.55,
+   "url": "https://polymarket.us/event/oscars-nom-bstactre-2027-01-21?marketSlug=tac-oscars-nom-bstactre-2027-01-21-zenday",
+   "category": "Science and Technology",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1323213",
-     "title": "US tariff revenue hits $300 billion in FY27",
-     "url": "https://polymarket.us/event/ustariff-fy2027?marketSlug=cusdc-ustariff-fy2027-gte300b",
-     "payout": 2.27,
+     "ticker": "pmus-1048288",
+     "title": "Zendaya gets a Best Actress nomination",
+     "url": "https://polymarket.us/event/oscars-nom-bstactre-2027-01-21?marketSlug=tac-oscars-nom-bstactre-2027-01-21-zenday",
+     "payout": 4.55,
      "same": true,
      "sim": 1.0
-    },
-    "kalshi": {
-     "ticker": "KXTARIFFREVENUE-26DEC31-T350",
-     "title": "US tariff revenue for 2026",
-     "url": "https://kalshi.com/markets/KXTARIFFREVENUE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 16.67,
-     "same": false,
-     "sim": 0.5
     }
    }
   },
-  "pmus-2592842": {
-   "title": "Bitcoin ticks up this hour",
+  "pmus-2509948": {
+   "title": "Ethereum dips to $1,700 this week",
    "platform": "polymarket_us",
-   "payout": 3.7,
-   "url": "https://polymarket.us/event/btc-updown-1h-2026-11-17-0400z?marketSlug=cpc-btc-updown-1h-2026-11-17-0400z",
+   "payout": 4.76,
+   "url": "https://polymarket.us/event/eth-hit-l-w-2026-11-20?marketSlug=cpceth-eth-hit-l-w-2026-11-20-1700",
    "category": "Crypto",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-2592842",
-     "title": "Bitcoin ticks up this hour",
-     "url": "https://polymarket.us/event/btc-updown-1h-2026-11-17-0400z?marketSlug=cpc-btc-updown-1h-2026-11-17-0400z",
-     "payout": 3.7,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "KXUEFANL1H-26NOV17ISRAUT-ISR": {
-   "title": "Israel wins the first half tonight",
-   "platform": "kalshi",
-   "payout": 4.76,
-   "url": "https://kalshi.com/markets/KXUEFANL1H?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Sports",
-   "alts": {
-    "kalshi": {
-     "ticker": "KXUEFANL1H-26NOV17ISRAUT-ISR",
-     "title": "Israel wins the first half tonight",
-     "url": "https://kalshi.com/markets/KXUEFANL1H?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "ticker": "pmus-2509948",
+     "title": "Ethereum dips to $1,700 this week",
+     "url": "https://polymarket.us/event/eth-hit-l-w-2026-11-20?marketSlug=cpceth-eth-hit-l-w-2026-11-20-1700",
      "payout": 4.76,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-1446196": {
-   "title": "Mariana di Girolamo gets a Best Supporting Actress nod",
+  "pmus-1444235": {
+   "title": "Denis Villeneuve wins Best Director",
    "platform": "polymarket_us",
-   "payout": 5.88,
-   "url": "https://polymarket.us/event/oscars-nom-bstsupactre-2027-01-21?marketSlug=tac-oscars-nom-bstsupactre-2027-01-21-mardi",
+   "payout": 5.56,
+   "url": "https://polymarket.us/event/oscars-03-14-2027-bestdir?marketSlug=tac-oscars-03-14-2027-bestdir-denvil",
    "category": "Entertainment",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1446196",
-     "title": "Mariana di Girolamo gets a Best Supporting Actress nod",
-     "url": "https://polymarket.us/event/oscars-nom-bstsupactre-2027-01-21?marketSlug=tac-oscars-nom-bstsupactre-2027-01-21-mardi",
-     "payout": 5.88,
+     "ticker": "pmus-1444235",
+     "title": "Denis Villeneuve wins Best Director",
+     "url": "https://polymarket.us/event/oscars-03-14-2027-bestdir?marketSlug=tac-oscars-03-14-2027-bestdir-denvil",
+     "payout": 5.56,
      "same": true,
      "sim": 1.0
+    },
+    "polymarket": {
+     "ticker": "0xa761499b476815841358aa8637de487f37c2739ad7913923d42c883342909212",
+     "title": "Will Denis Villeneuve be nominated for Best Director at the 99th Academy Awards?",
+     "url": "https://polymarket.com/event/oscars-2027-best-director-nominations-20261013180153422",
+     "payout": 1.55,
+     "same": false,
+     "sim": 0.5
     }
    }
   },
-  "STARSHIPMARS-29DEC31": {
-   "title": "Starship flies humans to Mars before 2030",
+  "KXBRASILEIRO1HTOTAL-26NOV19VDGINT-3": {
+   "title": "Three or more goals in the first half",
    "platform": "kalshi",
    "payout": 7.14,
-   "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Companies",
+   "url": "https://kalshi.com/markets/KXBRASILEIRO1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Sports",
    "alts": {
     "kalshi": {
-     "ticker": "STARSHIPMARS-29DEC31",
-     "title": "Starship flies humans to Mars before 2030",
-     "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "ticker": "KXBRASILEIRO1HTOTAL-26NOV19VDGINT-3",
+     "title": "Three or more goals in the first half",
+     "url": "https://kalshi.com/markets/KXBRASILEIRO1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
      "payout": 7.14,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-287302": {
-   "title": "The Michael Jackson biopic gets a Best Picture nod",
+  "pmus-2440243": {
+   "title": "Louisiana goes Democratic in 2028",
    "platform": "polymarket_us",
-   "payout": 10.0,
-   "url": "https://polymarket.us/event/oscars-nom-2027-01-31-bestpic?marketSlug=tac-oscars-nom-2027-01-31-bestpic-michae",
+   "payout": 14.49,
+   "url": "https://polymarket.us/event/usp-la-2028-11-07?marketSlug=pvwc-usp-la-2028-11-07-dem",
+   "category": "World",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-2440243",
+     "title": "Louisiana goes Democratic in 2028",
+     "url": "https://polymarket.us/event/usp-la-2028-11-07?marketSlug=pvwc-usp-la-2028-11-07-dem",
+     "payout": 14.49,
+     "same": true,
+     "sim": 1.0
+    },
+    "kalshi": {
+     "ticker": "KXSENATENOM-LAD-28-MLAN",
+     "title": "Louisiana Democratic Senate nominee? (2028)",
+     "url": "https://kalshi.com/markets/KXSENATENOM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 11.76,
+     "same": false,
+     "sim": 0.4
+    }
+   }
+  },
+  "KXAUCTIONRECORD-27-CLA-110747000": {
+   "title": "A Monet smashes his auction record this year",
+   "platform": "kalshi",
+   "payout": 20.0,
+   "url": "https://kalshi.com/markets/KXAUCTIONRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Entertainment",
    "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-287302",
-     "title": "The Michael Jackson biopic gets a Best Picture nod",
-     "url": "https://polymarket.us/event/oscars-nom-2027-01-31-bestpic?marketSlug=tac-oscars-nom-2027-01-31-bestpic-michae",
-     "payout": 10.0,
+    "kalshi": {
+     "ticker": "KXAUCTIONRECORD-27-CLA-110747000",
+     "title": "A Monet smashes his auction record this year",
+     "url": "https://kalshi.com/markets/KXAUCTIONRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 20.0,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXUSAIRANAGREEMENT-27": {
-   "title": "US and Iran sign a nuclear deal this year",
+  "TESLACEOCHANGE-26": {
+   "title": "Elon Musk is out as Tesla CEO before 2027",
    "platform": "kalshi",
-   "payout": 25.0,
-   "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Politics",
+   "payout": 33.33,
+   "url": "https://kalshi.com/markets/KXTESLACEOCHANGE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Companies",
    "alts": {
     "kalshi": {
-     "ticker": "KXUSAIRANAGREEMENT-27",
-     "title": "US and Iran sign a nuclear deal this year",
-     "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 25.0,
+     "ticker": "TESLACEOCHANGE-26",
+     "title": "Elon Musk is out as Tesla CEO before 2027",
+     "url": "https://kalshi.com/markets/KXTESLACEOCHANGE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 33.33,
      "same": true,
      "sim": 1.0
+    },
+    "polymarket_us": {
+     "ticker": "pmus-234521",
+     "title": "Elon Musk Announced Out As Tesla CEO?",
+     "url": "https://polymarket.us/event/elonmusk-tsla-ceo?marketSlug=apdc-elonmusk-tsla-ceo-2026-12-31",
+     "payout": 20.0,
+     "same": false,
+     "sim": 0.75
     }
    }
   },
-  "pmus-1280073": {
-   "title": "Joe Burrow is 2026's most Googled person",
-   "platform": "polymarket_us",
+  "KXCONCACAFNL1HBTTS-26NOV17MEXJAM-BTTS": {
+   "title": "Mexico and Jamaica both score in the first half",
+   "platform": "kalshi",
    "payout": 100.0,
-   "url": "https://polymarket.us/event/gsearch-1person-2026?marketSlug=gsrc-gsearch-1person-2026-joebur",
-   "category": "Other",
+   "url": "https://kalshi.com/markets/KXCONCACAFNL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Sports",
    "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-1280073",
-     "title": "Joe Burrow is 2026's most Googled person",
-     "url": "https://polymarket.us/event/gsearch-1person-2026?marketSlug=gsrc-gsearch-1person-2026-joebur",
+    "kalshi": {
+     "ticker": "KXCONCACAFNL1HBTTS-26NOV17MEXJAM-BTTS",
+     "title": "Mexico and Jamaica both score in the first half",
+     "url": "https://kalshi.com/markets/KXCONCACAFNL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
      "payout": 100.0,
      "same": true,
      "sim": 1.0
