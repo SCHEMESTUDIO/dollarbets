@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-18T21:35:53.603937+00:00",
+          "tweet_id": "2123168339383968142",
+          "reply_tweet_id": "2123168341363699936"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "29304539",
+        "page": "https://www.pexels.com/photo/eerie-halloween-costume-with-dark-mystery-29304539/",
+        "photographer": "Jimmy Elizarraras",
+        "license": "Pexels License",
+        "phrases": [
+          "empty theater seats night",
+          "city street lights dusk"
+        ],
+        "tokens": {
+          "input_tokens": 4117,
+          "output_tokens": 27
         }
       }
     },
