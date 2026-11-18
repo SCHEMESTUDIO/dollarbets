@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-11-18T03:25:14.109262+00:00",
+  "board_date": "2026-11-18",
+  "link_mode": "reply",
+  "selections": [
+    {
+      "ticker": "pmus-1444235",
+      "rank": 1,
+      "selection_reason": "Villeneuve's reputation for silence/minimalism is perfect setup; the quip lands without needing the market title, and $5.56 payout is surprisingly spicy for a niche Oscar bet",
+      "title": "Denis Villeneuve wins Best Director",
+      "quip": "acceptance speech is forty seconds of silence and one enormous horn",
+      "payout": 5.56,
+      "platform": "polymarket_us",
+      "tier": "yellow",
+      "category": "Entertainment",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1444235/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1444235/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1444235/og.png",
+      "content": {
+        "x_tweet_text": "acceptance speech is forty seconds of silence and one enormous horn",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-18",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Denis Villeneuve wins Best Director</b>\n\n\u201c<i>acceptance speech is forty seconds of silence and one enormous horn</i>\u201d\n\n$1 pays $5.56\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1444235/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-1048288",
+      "rank": 2,
+      "selection_reason": "Tom Holland crying in a tiny suit is immediately visual and funny; Zendaya nom is culturally legible; $4.55 payout makes it feel like a real gamble",
+      "title": "Zendaya gets a Best Actress nomination",
+      "quip": "Tom Holland crying in row four wearing a very small suit",
+      "payout": 4.55,
+      "platform": "polymarket_us",
+      "tier": "yellow",
+      "category": "Science and Technology",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1048288/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1048288/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1048288/og.png",
+      "content": {
+        "x_tweet_text": "Tom Holland crying in row four wearing a very small suit",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-18",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Zendaya gets a Best Actress nomination</b>\n\n\u201c<i>Tom Holland crying in row four wearing a very small suit</i>\u201d\n\n$1 pays $4.55\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1048288/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "TESLACEOCHANGE-26",
+      "rank": 3,
+      "selection_reason": "The 'stepping back to focus on the robots' pause is pure Elon deflection energy; $33.33 is a wild payout that makes the market itself the joke; CEO departure is perennially relevant",
+      "title": "Elon Musk is out as Tesla CEO before 2027",
+      "quip": "\"stepping back to focus on\" ten second pause \"the robots\"",
+      "payout": 33.33,
+      "platform": null,
+      "tier": "red",
+      "category": "Companies",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/TESLACEOCHANGE-26/",
+      "image_url": "https://www.dollarbets.lol/share/TESLACEOCHANGE-26/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/TESLACEOCHANGE-26/og.png",
+      "content": {
+        "x_tweet_text": "\"stepping back to focus on\" ten second pause \"the robots\"",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-18",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Elon Musk is out as Tesla CEO before 2027</b>\n\n\u201c<i>&quot;stepping back to focus on&quot; ten second pause &quot;the robots&quot;</i>\u201d\n\n$1 pays $33.33\n\n<a href=\"https://www.dollarbets.lol/share/TESLACEOCHANGE-26/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    }
+  ]
+}
