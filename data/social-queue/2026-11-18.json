@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-19T21:48:23.731968+00:00",
+          "tweet_id": "2123533873678057497",
+          "reply_tweet_id": "2123533875536183592"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "37441913",
+        "page": "https://www.pexels.com/photo/elegant-hallway-with-ornate-arches-and-red-carpet-37441913/",
+        "photographer": "Cihat Dede",
+        "license": "Pexels License",
+        "phrases": [
+          "empty theater seats night",
+          "red carpet stanchions dusk"
+        ],
+        "tokens": {
+          "input_tokens": 3857,
+          "output_tokens": 31
         }
       }
     },
