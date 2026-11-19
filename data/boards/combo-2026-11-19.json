@@ -1,0 +1,435 @@
+{
+  "generated_at": "2026-11-19T03:02:35.236073+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 10
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-9EEC407B",
+      "title": "Chicago Bears wins + Brooklyn Nets +28.5",
+      "payout": 2.84,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578397209&selectionId=50194",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Chicago Bears @ Detroit Lions + Chicago Bulls @ Brooklyn Nets",
+      "market_type": "2-leg parlay",
+      "american_odds": 184,
+      "implied_probability": 0.352,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Bears @ Detroit Lions",
+          "pick": "Chicago Bears wins",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578397209&selectionId=50194",
+          "commence_time": "2026-11-26T18:00:00Z"
+        },
+        {
+          "matchup": "Chicago Bulls @ Brooklyn Nets",
+          "pick": "Brooklyn Nets +28.5",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625897827&selectionId=6500320",
+          "commence_time": "2026-11-19T00:41:00Z"
+        }
+      ],
+      "close_time": "2026-11-19T00:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-6DDAE602",
+      "title": "Temple Owls wins + Chicago Bears wins",
+      "payout": 2.89,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624315149&selectionId=2118872",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Rice Owls @ Temple Owls + Chicago Bears @ Detroit Lions",
+      "market_type": "2-leg parlay",
+      "american_odds": 189,
+      "implied_probability": 0.346,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Rice Owls @ Temple Owls",
+          "pick": "Temple Owls wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624315149&selectionId=2118872",
+          "commence_time": "2026-11-20T00:30:00Z"
+        },
+        {
+          "matchup": "Chicago Bears @ Detroit Lions",
+          "pick": "Chicago Bears wins",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578397209&selectionId=50194",
+          "commence_time": "2026-11-26T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-20T00:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-9243A221",
+      "title": "Temple Owls wins + Brooklyn Nets +28.5",
+      "payout": 2.89,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624315149&selectionId=2118872",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Rice Owls @ Temple Owls + Chicago Bulls @ Brooklyn Nets",
+      "market_type": "2-leg parlay",
+      "american_odds": 189,
+      "implied_probability": 0.346,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Rice Owls @ Temple Owls",
+          "pick": "Temple Owls wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624315149&selectionId=2118872",
+          "commence_time": "2026-11-20T00:30:00Z"
+        },
+        {
+          "matchup": "Chicago Bulls @ Brooklyn Nets",
+          "pick": "Brooklyn Nets +28.5",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625897827&selectionId=6500320",
+          "commence_time": "2026-11-19T00:41:00Z"
+        }
+      ],
+      "close_time": "2026-11-19T00:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-0681E2F1",
+      "title": "John Mitchell wins + Chicago Bears wins",
+      "payout": 2.89,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626674111&selectionId=79249880",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "John Mitchell @ Shoaib Yousaf + Chicago Bears @ Detroit Lions",
+      "market_type": "2-leg parlay",
+      "american_odds": 189,
+      "implied_probability": 0.346,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "John Mitchell @ Shoaib Yousaf",
+          "pick": "John Mitchell wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626674111&selectionId=79249880",
+          "commence_time": "2026-11-21T15:10:00Z"
+        },
+        {
+          "matchup": "Chicago Bears @ Detroit Lions",
+          "pick": "Chicago Bears wins",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578397209&selectionId=50194",
+          "commence_time": "2026-11-26T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-21T15:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-ACF4DD09",
+      "title": "John Mitchell wins + Brooklyn Nets +28.5",
+      "payout": 2.89,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.35",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626674111&selectionId=79249880",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "John Mitchell @ Shoaib Yousaf + Chicago Bulls @ Brooklyn Nets",
+      "market_type": "2-leg parlay",
+      "american_odds": 189,
+      "implied_probability": 0.346,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "John Mitchell @ Shoaib Yousaf",
+          "pick": "John Mitchell wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626674111&selectionId=79249880",
+          "commence_time": "2026-11-21T15:10:00Z"
+        },
+        {
+          "matchup": "Chicago Bulls @ Brooklyn Nets",
+          "pick": "Brooklyn Nets +28.5",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625897827&selectionId=6500320",
+          "commence_time": "2026-11-19T00:41:00Z"
+        }
+      ],
+      "close_time": "2026-11-19T00:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-69BA5E62",
+      "title": "Washington Capitals wins + Chicago Bears wins",
+      "payout": 2.91,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626647414&selectionId=25610",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Buffalo Sabres @ Washington Capitals + Chicago Bears @ Detroit Lions",
+      "market_type": "2-leg parlay",
+      "american_odds": 191,
+      "implied_probability": 0.343,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Buffalo Sabres @ Washington Capitals",
+          "pick": "Washington Capitals wins",
+          "odds": -137,
+          "implied_prob": "58%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626647414&selectionId=25610",
+          "commence_time": "2026-11-20T00:10:00Z"
+        },
+        {
+          "matchup": "Chicago Bears @ Detroit Lions",
+          "pick": "Chicago Bears wins",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578397209&selectionId=50194",
+          "commence_time": "2026-11-26T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-20T00:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-D9DAA91C",
+      "title": "Washington Capitals wins + Brooklyn Nets +28.5",
+      "payout": 2.91,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626647414&selectionId=25610",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Buffalo Sabres @ Washington Capitals + Chicago Bulls @ Brooklyn Nets",
+      "market_type": "2-leg parlay",
+      "american_odds": 191,
+      "implied_probability": 0.343,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Buffalo Sabres @ Washington Capitals",
+          "pick": "Washington Capitals wins",
+          "odds": -137,
+          "implied_prob": "58%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626647414&selectionId=25610",
+          "commence_time": "2026-11-20T00:10:00Z"
+        },
+        {
+          "matchup": "Chicago Bulls @ Brooklyn Nets",
+          "pick": "Brooklyn Nets +28.5",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625897827&selectionId=6500320",
+          "commence_time": "2026-11-19T00:41:00Z"
+        }
+      ],
+      "close_time": "2026-11-19T00:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-B44DC318",
+      "title": "Tampa Bay Lightning wins + Chicago Bears wins",
+      "payout": 2.91,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625245681&selectionId=25609",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Edmonton Oilers @ Tampa Bay Lightning + Chicago Bears @ Detroit Lions",
+      "market_type": "2-leg parlay",
+      "american_odds": 191,
+      "implied_probability": 0.343,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Edmonton Oilers @ Tampa Bay Lightning",
+          "pick": "Tampa Bay Lightning wins",
+          "odds": -137,
+          "implied_prob": "58%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625245681&selectionId=25609",
+          "commence_time": "2026-11-20T00:40:00Z"
+        },
+        {
+          "matchup": "Chicago Bears @ Detroit Lions",
+          "pick": "Chicago Bears wins",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578397209&selectionId=50194",
+          "commence_time": "2026-11-26T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-20T00:40:00Z"
+    },
+    {
+      "ticker": "PARLAY-824D71E3",
+      "title": "Tampa Bay Lightning wins + Brooklyn Nets +28.5",
+      "payout": 2.91,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625245681&selectionId=25609",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Edmonton Oilers @ Tampa Bay Lightning + Chicago Bulls @ Brooklyn Nets",
+      "market_type": "2-leg parlay",
+      "american_odds": 191,
+      "implied_probability": 0.343,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Edmonton Oilers @ Tampa Bay Lightning",
+          "pick": "Tampa Bay Lightning wins",
+          "odds": -137,
+          "implied_prob": "58%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625245681&selectionId=25609",
+          "commence_time": "2026-11-20T00:40:00Z"
+        },
+        {
+          "matchup": "Chicago Bulls @ Brooklyn Nets",
+          "pick": "Brooklyn Nets +28.5",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625897827&selectionId=6500320",
+          "commence_time": "2026-11-19T00:41:00Z"
+        }
+      ],
+      "close_time": "2026-11-19T00:41:00Z"
+    },
+    {
+      "ticker": "PARLAY-A20AD048",
+      "title": "Northwestern Wildcats wins + Chicago Bears wins",
+      "payout": 2.91,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999759&selectionId=661962",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Northwestern Wildcats @ Minnesota Golden Gophers + Chicago Bears @ Detroit Lions",
+      "market_type": "2-leg parlay",
+      "american_odds": 191,
+      "implied_probability": 0.344,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Northwestern Wildcats @ Minnesota Golden Gophers",
+          "pick": "Northwestern Wildcats wins",
+          "odds": -138,
+          "implied_prob": "58%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999759&selectionId=661962",
+          "commence_time": "2026-11-21T17:00:00Z"
+        },
+        {
+          "matchup": "Chicago Bears @ Detroit Lions",
+          "pick": "Chicago Bears wins",
+          "odds": -146,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.578397209&selectionId=50194",
+          "commence_time": "2026-11-26T18:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-21T17:00:00Z"
+    }
+  ]
+}

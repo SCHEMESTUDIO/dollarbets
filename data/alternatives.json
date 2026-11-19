@@ -1,197 +1,189 @@
 {
- "generated_at": "2026-11-18T03:24:03.072072+00:00",
+ "generated_at": "2026-11-19T03:01:41.918898+00:00",
  "markets": {
-  "KXSNOWXMASMSP-25DEC26-0": {
-   "title": "It snows in Minneapolis on Christmas",
+  "KXSNOWXMASMKE-25DEC26-0": {
+   "title": "It snows in Milwaukee on Christmas",
    "platform": "kalshi",
-   "payout": 2.08,
-   "url": "https://kalshi.com/markets/KXSNOWXMASMSP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 2.0,
+   "url": "https://kalshi.com/markets/KXSNOWXMASMKE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Climate and Weather",
    "alts": {
     "kalshi": {
-     "ticker": "KXSNOWXMASMSP-25DEC26-0",
-     "title": "It snows in Minneapolis on Christmas",
-     "url": "https://kalshi.com/markets/KXSNOWXMASMSP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 2.08,
+     "ticker": "KXSNOWXMASMKE-25DEC26-0",
+     "title": "It snows in Milwaukee on Christmas",
+     "url": "https://kalshi.com/markets/KXSNOWXMASMKE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 2.0,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-1048269": {
-   "title": "Tom Cruise lands a Best Actor nomination",
-   "platform": "polymarket_us",
-   "payout": 2.17,
-   "url": "https://polymarket.us/event/oscars-nom-bstact-2027-01-21?marketSlug=tac-oscars-nom-bstact-2027-01-21-tomcru",
-   "category": "Science and Technology",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-1048269",
-     "title": "Tom Cruise lands a Best Actor nomination",
-     "url": "https://polymarket.us/event/oscars-nom-bstact-2027-01-21?marketSlug=tac-oscars-nom-bstact-2027-01-21-tomcru",
-     "payout": 2.17,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-1048288": {
-   "title": "Zendaya gets a Best Actress nomination",
-   "platform": "polymarket_us",
-   "payout": 4.55,
-   "url": "https://polymarket.us/event/oscars-nom-bstactre-2027-01-21?marketSlug=tac-oscars-nom-bstactre-2027-01-21-zenday",
-   "category": "Science and Technology",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-1048288",
-     "title": "Zendaya gets a Best Actress nomination",
-     "url": "https://polymarket.us/event/oscars-nom-bstactre-2027-01-21?marketSlug=tac-oscars-nom-bstactre-2027-01-21-zenday",
-     "payout": 4.55,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-2509948": {
-   "title": "Ethereum dips to $1,700 this week",
-   "platform": "polymarket_us",
-   "payout": 4.76,
-   "url": "https://polymarket.us/event/eth-hit-l-w-2026-11-20?marketSlug=cpceth-eth-hit-l-w-2026-11-20-1700",
-   "category": "Crypto",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-2509948",
-     "title": "Ethereum dips to $1,700 this week",
-     "url": "https://polymarket.us/event/eth-hit-l-w-2026-11-20?marketSlug=cpceth-eth-hit-l-w-2026-11-20-1700",
-     "payout": 4.76,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-1444235": {
-   "title": "Denis Villeneuve wins Best Director",
-   "platform": "polymarket_us",
-   "payout": 5.56,
-   "url": "https://polymarket.us/event/oscars-03-14-2027-bestdir?marketSlug=tac-oscars-03-14-2027-bestdir-denvil",
-   "category": "Entertainment",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-1444235",
-     "title": "Denis Villeneuve wins Best Director",
-     "url": "https://polymarket.us/event/oscars-03-14-2027-bestdir?marketSlug=tac-oscars-03-14-2027-bestdir-denvil",
-     "payout": 5.56,
-     "same": true,
-     "sim": 1.0
-    },
-    "polymarket": {
-     "ticker": "0xa761499b476815841358aa8637de487f37c2739ad7913923d42c883342909212",
-     "title": "Will Denis Villeneuve be nominated for Best Director at the 99th Academy Awards?",
-     "url": "https://polymarket.com/event/oscars-2027-best-director-nominations-20261013180153422",
-     "payout": 1.55,
-     "same": false,
-     "sim": 0.5
-    }
-   }
-  },
-  "KXBRASILEIRO1HTOTAL-26NOV19VDGINT-3": {
-   "title": "Three or more goals in the first half",
+  "KXMLS1HBTTS-26NOV19ORLCIN-BTTS": {
+   "title": "Both teams score in the first half",
    "platform": "kalshi",
-   "payout": 7.14,
-   "url": "https://kalshi.com/markets/KXBRASILEIRO1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 2.94,
+   "url": "https://kalshi.com/markets/KXMLS1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Sports",
    "alts": {
     "kalshi": {
-     "ticker": "KXBRASILEIRO1HTOTAL-26NOV19VDGINT-3",
-     "title": "Three or more goals in the first half",
-     "url": "https://kalshi.com/markets/KXBRASILEIRO1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 7.14,
+     "ticker": "KXMLS1HBTTS-26NOV19ORLCIN-BTTS",
+     "title": "Both teams score in the first half",
+     "url": "https://kalshi.com/markets/KXMLS1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 2.94,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-2440243": {
-   "title": "Louisiana goes Democratic in 2028",
+  "pmus-2407965": {
+   "title": "Todd Blanche gets impeached by mid-2027",
    "platform": "polymarket_us",
-   "payout": 14.49,
-   "url": "https://polymarket.us/event/usp-la-2028-11-07?marketSlug=pvwc-usp-la-2028-11-07-dem",
+   "payout": 3.45,
+   "url": "https://polymarket.us/event/congress-impeach-2027-06-30?marketSlug=pic-congress-impeach-2027-06-30-blanche",
    "category": "World",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-2440243",
-     "title": "Louisiana goes Democratic in 2028",
-     "url": "https://polymarket.us/event/usp-la-2028-11-07?marketSlug=pvwc-usp-la-2028-11-07-dem",
-     "payout": 14.49,
+     "ticker": "pmus-2407965",
+     "title": "Todd Blanche gets impeached by mid-2027",
+     "url": "https://polymarket.us/event/congress-impeach-2027-06-30?marketSlug=pic-congress-impeach-2027-06-30-blanche",
+     "payout": 3.45,
      "same": true,
      "sim": 1.0
     },
     "kalshi": {
-     "ticker": "KXSENATENOM-LAD-28-MLAN",
-     "title": "Louisiana Democratic Senate nominee? (2028)",
-     "url": "https://kalshi.com/markets/KXSENATENOM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 11.76,
+     "ticker": "KXBLANCHEIMPEACH-28JAN01-27APR01",
+     "title": "Will Todd Blanche be impeached?",
+     "url": "https://kalshi.com/markets/KXBLANCHEIMPEACH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 3.12,
      "same": false,
-     "sim": 0.4
+     "sim": 0.6
     }
    }
   },
-  "KXAUCTIONRECORD-27-CLA-110747000": {
-   "title": "A Monet smashes his auction record this year",
-   "platform": "kalshi",
-   "payout": 20.0,
-   "url": "https://kalshi.com/markets/KXAUCTIONRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+  "pmus-1446240": {
+   "title": "Shaun the Sheep gets an Oscar nomination",
+   "platform": "polymarket_us",
+   "payout": 3.85,
+   "url": "https://polymarket.us/event/oscars-nom-bstanim-2027-01-21?marketSlug=tac-oscars-nom-bstanim-2027-01-21-shathe",
    "category": "Entertainment",
    "alts": {
-    "kalshi": {
-     "ticker": "KXAUCTIONRECORD-27-CLA-110747000",
-     "title": "A Monet smashes his auction record this year",
-     "url": "https://kalshi.com/markets/KXAUCTIONRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 20.0,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "TESLACEOCHANGE-26": {
-   "title": "Elon Musk is out as Tesla CEO before 2027",
-   "platform": "kalshi",
-   "payout": 33.33,
-   "url": "https://kalshi.com/markets/KXTESLACEOCHANGE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Companies",
-   "alts": {
-    "kalshi": {
-     "ticker": "TESLACEOCHANGE-26",
-     "title": "Elon Musk is out as Tesla CEO before 2027",
-     "url": "https://kalshi.com/markets/KXTESLACEOCHANGE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 33.33,
-     "same": true,
-     "sim": 1.0
-    },
     "polymarket_us": {
-     "ticker": "pmus-234521",
-     "title": "Elon Musk Announced Out As Tesla CEO?",
-     "url": "https://polymarket.us/event/elonmusk-tsla-ceo?marketSlug=apdc-elonmusk-tsla-ceo-2026-12-31",
-     "payout": 20.0,
-     "same": false,
-     "sim": 0.75
+     "ticker": "pmus-1446240",
+     "title": "Shaun the Sheep gets an Oscar nomination",
+     "url": "https://polymarket.us/event/oscars-nom-bstanim-2027-01-21?marketSlug=tac-oscars-nom-bstanim-2027-01-21-shathe",
+     "payout": 3.85,
+     "same": true,
+     "sim": 1.0
     }
    }
   },
-  "KXCONCACAFNL1HBTTS-26NOV17MEXJAM-BTTS": {
-   "title": "Mexico and Jamaica both score in the first half",
+  "KXMLS1HTOTAL-26NOV19ORLCIN-3": {
+   "title": "Three or more goals before halftime",
    "platform": "kalshi",
-   "payout": 100.0,
-   "url": "https://kalshi.com/markets/KXCONCACAFNL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 4.0,
+   "url": "https://kalshi.com/markets/KXMLS1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Sports",
    "alts": {
     "kalshi": {
-     "ticker": "KXCONCACAFNL1HBTTS-26NOV17MEXJAM-BTTS",
-     "title": "Mexico and Jamaica both score in the first half",
-     "url": "https://kalshi.com/markets/KXCONCACAFNL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "ticker": "KXMLS1HTOTAL-26NOV19ORLCIN-3",
+     "title": "Three or more goals before halftime",
+     "url": "https://kalshi.com/markets/KXMLS1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 4.0,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-1279277": {
+   "title": "Vucic becomes Serbia's next prime minister",
+   "platform": "polymarket_us",
+   "payout": 7.69,
+   "url": "https://polymarket.us/event/srbpm-2026-10-25?marketSlug=mlaec-srbpm-2026-10-25-alevuc",
+   "category": "World",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-1279277",
+     "title": "Vucic becomes Serbia's next prime minister",
+     "url": "https://polymarket.us/event/srbpm-2026-10-25?marketSlug=mlaec-srbpm-2026-10-25-alevuc",
+     "payout": 7.69,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-2362058": {
+   "title": "Half Man gets a Golden Globe nomination",
+   "platform": "polymarket_us",
+   "payout": 10.0,
+   "url": "https://polymarket.us/event/globes-nom-ltd-2026-12-07?marketSlug=tac-globes-nom-ltd-2026-12-07-halman",
+   "category": "Entertainment",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-2362058",
+     "title": "Half Man gets a Golden Globe nomination",
+     "url": "https://polymarket.us/event/globes-nom-ltd-2026-12-07?marketSlug=tac-globes-nom-ltd-2026-12-07-halman",
+     "payout": 10.0,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXOAIPERSONALAGENT-27JAN01-26DEC01": {
+   "title": "OpenAI ships a personal AI agent next year",
+   "platform": "kalshi",
+   "payout": 20.0,
+   "url": "https://kalshi.com/markets/KXOAIPERSONALAGENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Science and Technology",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXOAIPERSONALAGENT-27JAN01-26DEC01",
+     "title": "OpenAI ships a personal AI agent next year",
+     "url": "https://kalshi.com/markets/KXOAIPERSONALAGENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 20.0,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXSATOSHIBTCYEAR-27": {
+   "title": "Satoshi moves Bitcoin before 2027",
+   "platform": "kalshi",
+   "payout": 25.0,
+   "url": "https://kalshi.com/markets/KXSATOSHIBTCYEAR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Crypto",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXSATOSHIBTCYEAR-27",
+     "title": "Satoshi moves Bitcoin before 2027",
+     "url": "https://kalshi.com/markets/KXSATOSHIBTCYEAR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 25.0,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-234515": {
+   "title": "Meta has the top AI coding model next year",
+   "platform": "polymarket_us",
+   "payout": 100.0,
+   "url": "https://polymarket.us/event/code1-2026-12-31?marketSlug=aimrc-code1-2026-12-31-meta",
+   "category": "Science and Technology",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-234515",
+     "title": "Meta has the top AI coding model next year",
+     "url": "https://polymarket.us/event/code1-2026-12-31?marketSlug=aimrc-code1-2026-12-31-meta",
      "payout": 100.0,
      "same": true,
      "sim": 1.0
+    },
+    "kalshi": {
+     "ticker": "KXTOPMODEL-26NOV30-CLAU55",
+     "title": "Top AI model this month",
+     "url": "https://kalshi.com/markets/KXTOPMODEL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 100.0,
+     "same": false,
+     "sim": 0.43
     }
    }
   }

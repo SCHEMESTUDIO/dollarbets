@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-11-19T03:01:41.919327+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket_us": 5,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "KXSNOWXMASMKE-25DEC26-0",
+      "title": "It snows in Milwaukee on Christmas",
+      "subtitle": "On Dec 25, 2026",
+      "yes_sub_title": "Above 0 inches",
+      "no_sub_title": "Above 0 inches",
+      "payout": 2.0,
+      "tier": "green",
+      "quip": "Milwaukee earns this one. Chicago gets rain and deserves it",
+      "yes_price": "0.5000",
+      "volume": 9.21,
+      "category": "Climate and Weather",
+      "close_time": "2026-12-26T05:59:00Z",
+      "url": "https://kalshi.com/markets/KXSNOWXMASMKE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 59.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "the whole tailgate turns into a snow globe with brats in it",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "my family announces the first flake like it's breaking news",
+          "mode": 2,
+          "score": 5.5
+        },
+        {
+          "quip": "I've shoveled worse for free",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Wisconsin does Wisconsin things",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "0.1 inches and the entire city starts acting like Aspen",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Love Actually, except everyone's in a Starter jacket outside a Kwik Trip",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Milwaukee earns this one. Chicago gets rain and deserves it",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"honey get the shovel, it's doing the thing again\"",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXMLS1HBTTS-26NOV19ORLCIN-BTTS",
+      "title": "Both teams score in the first half",
+      "subtitle": "ORL vs CIN (Nov 19)",
+      "yes_sub_title": "1st Half: Both Teams To Score",
+      "no_sub_title": "1st Half: Both Teams To Score",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "Cincinnati has earned exactly one good half of anything",
+      "yes_price": "0.3400",
+      "volume": 52.63,
+      "category": "Sports",
+      "close_time": "2026-11-22T00:30:00Z",
+      "url": "https://kalshi.com/markets/KXMLS1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 94.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "both keepers walk off at halftime refusing to make eye contact",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "I only need 45 minutes of effort. from anybody",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "score early, both of you",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "$2.94 riding on somebody having a moment in the 31st minute",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "\"just put it in the net, man\" my dad, 2003, every sport",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "a goal before halftime is the purest substance on earth",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "Cincinnati has earned exactly one good half of anything",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "the Fast and Furious of soccer halves. nobody touches the brakes",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2407965",
+      "title": "Todd Blanche gets impeached by mid-2027",
+      "subtitle": "",
+      "payout": 3.45,
+      "tier": "yellow",
+      "quip": "impeaching the deputy is like ejecting the third base coach",
+      "yes_price": "0.2900",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-07-15T03:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/congress-impeach-2027-06-30?marketSlug=pic-congress-impeach-2027-06-30-blanche",
+      "platform": "polymarket_us",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "I had to google him and I resent the whole afternoon",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "C-SPAN briefly outdraws the NBA, then everyone goes back to sleep",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "who? oh. HIM",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "impeaching the deputy is like ejecting the third base coach",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "$3.45 to watch a guy you couldn't pick out of a lineup get a trial",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "\"great lawyer. tremendous. one of the best. anyway, never met him\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "impeachment season is my Shark Week",
+          "mode": 2,
+          "score": 5.5
+        },
+        {
+          "quip": "the side character from the sequel somehow gets a spinoff",
+          "mode": 8,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1446240",
+      "title": "Shaun the Sheep gets an Oscar nomination",
+      "subtitle": "",
+      "payout": 3.85,
+      "tier": "yellow",
+      "quip": "condolences to the Minions, sincerely nobody",
+      "yes_price": "0.2600",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-02-05T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-nom-bstanim-2027-01-21?marketSlug=tac-oscars-nom-bstanim-2027-01-21-shathe",
+      "platform": "polymarket_us",
+      "score": 33.0,
+      "quip_alts": [
+        {
+          "quip": "claymation is undefeated and I will scrap with the Pixar guy outside",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "a sheep is having a better year than me, again",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Aardman never misses",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "Academy voters rewatching it alone at 1am and tearing up a little",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "$3.85 on a sheep. my grandfather at least bet on horses",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "the mid-major that quietly ruins everyone's bracket",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "condolences to the Minions, sincerely nobody",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"the Beast. of Mossy. Bottom\" said with full BBC gravitas",
+          "mode": 4,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXMLS1HTOTAL-26NOV19ORLCIN-3",
+      "title": "Three or more goals before halftime",
+      "subtitle": "ORL vs CIN (Nov 19)",
+      "yes_sub_title": "Over 2.5 1H goals scored",
+      "no_sub_title": "Over 2.5 1H goals scored",
+      "payout": 4.0,
+      "tier": "yellow",
+      "quip": "basically a hockey period with better hair and more flopping",
+      "yes_price": "0.2500",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-22T00:30:00Z",
+      "url": "https://kalshi.com/markets/KXMLS1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 74.0,
+      "_specificity": 0,
+      "quip_alts": [
+        {
+          "quip": "halftime whistle blows and both managers just stare at the carpet",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "I need total chaos for 45 minutes and then a nap",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "defense is not invited",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "three goals, 45 minutes, $4, and whatever's left of my blood pressure",
+          "mode": 5,
+          "score": 6
+        },
+        {
+          "quip": "basically a hockey period with better hair and more flopping",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "this is the sport at its dumbest and I'm standing up for it",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "whichever center back is involved, condolences to his mother",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "the opening of Saving Private Ryan, from the back line's perspective",
+          "mode": 8,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1279277",
+      "title": "Vucic becomes Serbia's next prime minister",
+      "subtitle": "",
+      "payout": 7.69,
+      "tier": "orange",
+      "quip": "Putin ran this exact play and it went great for him",
+      "yes_price": "0.1300",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-04-16T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/srbpm-2026-10-25?marketSlug=mlaec-srbpm-2026-10-25-alevuc",
+      "platform": "polymarket_us",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "he takes the smaller office and somehow walks out with more power",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "Putin ran this exact play and it went great for him",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "I love when a guy changes chairs and calls it an election",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "I checked and he's been running things since I was in college",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "same guy, new nameplate",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "the Jordan-on-the-Wizards comeback, but for the Balkans",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "$7.69 on a man who simply will not leave the building",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"I am stepping down. into the job directly beside this one\"",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2362058",
+      "title": "Half Man gets a Golden Globe nomination",
+      "subtitle": "",
+      "payout": 10.0,
+      "tier": "orange",
+      "quip": "cast gets seated by the bathroom, drinks heavily, loses to a miniseries about grief",
+      "yes_price": "0.1000",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2026-12-22T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/globes-nom-ltd-2026-12-07?marketSlug=tac-globes-nom-ltd-2026-12-07-halman",
+      "platform": "polymarket_us",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "I haven't seen it and I'm already defending it at a party",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "best title since Hot Fuzz and it isn't close",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "half man, full nomination",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "cast gets seated by the bathroom, drinks heavily, loses to a miniseries about grief",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "ten bucks says I still can't name the streamer it's on",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "the 14 seed of prestige television",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "half man, half amazing, all limited series",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "the Globes nominating anything with a strange title, as is tradition",
+          "mode": 7,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "KXOAIPERSONALAGENT-27JAN01-26DEC01",
+      "title": "OpenAI ships a personal AI agent next year",
+      "subtitle": "Product feature rollout",
+      "yes_sub_title": "Before Dec 1, 2026",
+      "no_sub_title": "Before Dec 1, 2026",
+      "payout": 20.0,
+      "tier": "red",
+      "quip": "I want it to answer my mother. that's the entire use case",
+      "yes_price": "0.0500",
+      "volume": 56441.51,
+      "category": "Science and Technology",
+      "close_time": "2026-12-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXOAIPERSONALAGENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 131.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "it books my dentist appointment and then cancels it out of empathy",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "I want it to answer my mother. that's the entire use case",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "agent orders the wrong pizza",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "\"buy the oat milk. no. the OTHER oat milk\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "20x on a thing Sam Altman teases roughly every eleven days",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Jarvis, except there's a subscription tier and it forgets my address",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "finally something handling my inbox while I rot productively in bed",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "every junior analyst in Manhattan updating a resume very quietly",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXSATOSHIBTCYEAR-27",
+      "title": "Satoshi moves Bitcoin before 2027",
+      "subtitle": "Before 2027",
+      "yes_sub_title": "Before 2027",
+      "no_sub_title": "Before 2027",
+      "payout": 25.0,
+      "tier": "red",
+      "quip": "\"hey guys sorry, phone was dead\"",
+      "yes_price": "0.0400",
+      "volume": 1331410.53,
+      "category": "Crypto",
+      "close_time": "2027-01-01T05:00:00Z",
+      "url": "https://kalshi.com/markets/KXSATOSHIBTCYEAR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 131.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "one wallet twitches and six trillion dollars evaporates before lunch",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "I'd sell the car just to watch that transaction confirm",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the ghost logs in",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "like the Ark opening at the end. everybody's face melts",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "$25 to see a man wake up from a sixteen year nap",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "nothing gets me going like a dead man's keys moving",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "crypto Twitter would not survive the hour and that's fine",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"hey guys sorry, phone was dead\"",
+          "mode": 4,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-234515",
+      "title": "Meta has the top AI coding model next year",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "Zuck does a shirtless podcast about it and calls it a redemption arc",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/code1-2026-12-31?marketSlug=aimrc-code1-2026-12-31-meta",
+      "platform": "polymarket_us",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "I would owe several people a long and humiliating apology",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "Llama rides again",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "Zuck does a shirtless podcast about it and calls it a redemption arc",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "100 to 1, which honestly feels generous to the metaverse guy",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "this is the Jets winning a Super Bowl with a rookie quarterback",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "a Rocky montage, except it's a man buying researchers one at a time",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "I'll be rooting for the underdog with 400 billion dollars",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "everyone who left for Anthropic staring at a ceiling at 3am",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    }
+  ]
+}
