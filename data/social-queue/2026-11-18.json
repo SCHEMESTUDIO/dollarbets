@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-19T07:45:44.760880+00:00",
+          "tweet_id": "2123321814013075525",
+          "reply_tweet_id": "2123321815778865544"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "openverse",
+        "id": "91a453f2-2d5d-4151-b4de-5a5828c056a1",
+        "page": "https://commons.wikimedia.org/w/index.php?curid=39195221",
+        "photographer": "Famartin",
+        "license": "CC BY-SA 4.0",
+        "phrases": [
+          "empty theater stage night",
+          "desert dunes dusk"
+        ],
+        "tokens": {
+          "input_tokens": 7341,
+          "output_tokens": 38
         }
       }
     },
