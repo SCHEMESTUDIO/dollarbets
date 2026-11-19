@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-19T23:41:59.588501+00:00",
+          "tweet_id": "2123562461471076848",
+          "reply_tweet_id": "2123562463018799329"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "12866948",
+        "page": "https://www.pexels.com/photo/square-18-12866948/",
+        "photographer": "Yusuf P",
+        "license": "Pexels License",
+        "phrases": [
+          "empty factory floor night",
+          "highway at dusk rain"
+        ],
+        "tokens": {
+          "input_tokens": 3400,
+          "output_tokens": 28
         }
       }
     }
