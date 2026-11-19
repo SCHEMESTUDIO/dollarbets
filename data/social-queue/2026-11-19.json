@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-11-19T03:03:04.328230+00:00",
+  "board_date": "2026-11-19",
+  "link_mode": "reply",
+  "selections": [
+    {
+      "ticker": "KXSATOSHIBTCYEAR-27",
+      "rank": 1,
+      "selection_reason": "Quip is perfect standalone\u2014absurdist humor about Satoshi's inactivity lands immediately, $25 payout is hilariously high for a dollar bet",
+      "title": "Satoshi moves Bitcoin before 2027",
+      "quip": "\"hey guys sorry, phone was dead\"",
+      "payout": 25.0,
+      "platform": null,
+      "tier": "red",
+      "category": "Crypto",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/KXSATOSHIBTCYEAR-27/",
+      "image_url": "https://www.dollarbets.lol/share/KXSATOSHIBTCYEAR-27/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/KXSATOSHIBTCYEAR-27/og.png",
+      "content": {
+        "x_tweet_text": "\"hey guys sorry, phone was dead\"",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-19",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Satoshi moves Bitcoin before 2027</b>\n\n\u201c<i>&quot;hey guys sorry, phone was dead&quot;</i>\u201d\n\n$1 pays $25\n\n<a href=\"https://www.dollarbets.lol/share/KXSATOSHIBTCYEAR-27/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "KXMLS1HBTTS-26NOV19ORLCIN-BTTS",
+      "rank": 2,
+      "selection_reason": "Cincinnati roast is surgical and doesn't need the market to be funny, nearly 3:1 payout creates that 'wait really?' reaction",
+      "title": "Both teams score in the first half",
+      "quip": "Cincinnati has earned exactly one good half of anything",
+      "payout": 2.94,
+      "platform": null,
+      "tier": "green",
+      "category": "Sports",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/KXMLS1HBTTS-26NOV19ORLCIN-BTTS/",
+      "image_url": "https://www.dollarbets.lol/share/KXMLS1HBTTS-26NOV19ORLCIN-BTTS/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/KXMLS1HBTTS-26NOV19ORLCIN-BTTS/og.png",
+      "content": {
+        "x_tweet_text": "Cincinnati has earned exactly one good half of anything",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-19",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Both teams score in the first half</b>\n\n\u201c<i>Cincinnati has earned exactly one good half of anything</i>\u201d\n\n$1 pays $2.94\n\n<a href=\"https://www.dollarbets.lol/share/KXMLS1HBTTS-26NOV19ORLCIN-BTTS/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-234515",
+      "rank": 3,
+      "selection_reason": "today's filthy little longshot \u2014 the board's own hero pick",
+      "title": "Meta has the top AI coding model next year",
+      "quip": "Zuck does a shirtless podcast about it and calls it a redemption arc",
+      "payout": 100.0,
+      "platform": "polymarket_us",
+      "tier": "purple",
+      "category": "Science and Technology",
+      "card_variant": "ticket",
+      "share_url": "https://www.dollarbets.lol/share/pmus-234515/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-234515/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-234515/og.png",
+      "content": {
+        "x_tweet_text": "Zuck does a shirtless podcast about it and calls it a redemption arc",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-19",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Meta has the top AI coding model next year</b>\n\n\u201c<i>Zuck does a shirtless podcast about it and calls it a redemption arc</i>\u201d\n\n$1 pays $100\n\n<a href=\"https://www.dollarbets.lol/share/pmus-234515/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    }
+  ]
+}
