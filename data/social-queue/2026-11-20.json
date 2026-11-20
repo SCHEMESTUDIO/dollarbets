@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-11-20T02:57:33.423810+00:00",
+  "board_date": "2026-11-20",
+  "link_mode": "reply",
+  "selections": [
+    {
+      "ticker": "pmus-1322702",
+      "rank": 1,
+      "selection_reason": "Quip is a perfect standalone zinger about mortgage pain, weird payout ratio (12.50), and the housing market is culturally urgent without being overdone lately",
+      "title": "The 30-year mortgage hits 7.60% this year",
+      "quip": "like a car payment, except the car is a hallway in Tempe",
+      "payout": 12.5,
+      "platform": "polymarket_us",
+      "tier": "orange",
+      "category": "Other",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1322702/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1322702/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1322702/og.png",
+      "content": {
+        "x_tweet_text": "like a car payment, except the car is a hallway in Tempe",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-20",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>The 30-year mortgage hits 7.60% this year</b>\n\n\u201c<i>like a car payment, except the car is a hallway in Tempe</i>\u201d\n\n$1 pays $12.50\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1322702/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "KXDEELRIP-40-RIPP",
+      "rank": 2,
+      "selection_reason": "Quip lands hard on startup drama (the phone flushing reference is specific and funny), market is legible to tech people, 2.38 payout gives that 'cheap odds' reaction",
+      "title": "Rippling beats Deel to the IPO",
+      "quip": "the guy flushed his phone for nothing",
+      "payout": 2.38,
+      "platform": null,
+      "tier": "green",
+      "category": "Financials",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/KXDEELRIP-40-RIPP/",
+      "image_url": "https://www.dollarbets.lol/share/KXDEELRIP-40-RIPP/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/KXDEELRIP-40-RIPP/og.png",
+      "content": {
+        "x_tweet_text": "the guy flushed his phone for nothing",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-20",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Rippling beats Deel to the IPO</b>\n\n\u201c<i>the guy flushed his phone for nothing</i>\u201d\n\n$1 pays $2.38\n\n<a href=\"https://www.dollarbets.lol/share/KXDEELRIP-40-RIPP/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "KXNCAAFFIRSTTDTEAM-26NOV21BYUKU-NONE",
+      "rank": 3,
+      "selection_reason": "today's filthy little longshot \u2014 the board's own hero pick",
+      "title": "No team scores a touchdown tonight",
+      "quip": "Ravens-Steelers 2008 energy, where nobody enjoyed a single thing",
+      "payout": 100.0,
+      "platform": null,
+      "tier": "purple",
+      "category": "Sports",
+      "card_variant": "ticket",
+      "share_url": "https://www.dollarbets.lol/share/KXNCAAFFIRSTTDTEAM-26NOV21BYUKU-NONE/",
+      "image_url": "https://www.dollarbets.lol/share/KXNCAAFFIRSTTDTEAM-26NOV21BYUKU-NONE/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/KXNCAAFFIRSTTDTEAM-26NOV21BYUKU-NONE/og.png",
+      "content": {
+        "x_tweet_text": "Ravens-Steelers 2008 energy, where nobody enjoyed a single thing",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-20",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>No team scores a touchdown tonight</b>\n\n\u201c<i>Ravens-Steelers 2008 energy, where nobody enjoyed a single thing</i>\u201d\n\n$1 pays $100\n\n<a href=\"https://www.dollarbets.lol/share/KXNCAAFFIRSTTDTEAM-26NOV21BYUKU-NONE/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    }
+  ]
+}
