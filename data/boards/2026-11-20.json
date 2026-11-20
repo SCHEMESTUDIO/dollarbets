@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-11-20T02:56:14.751541+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket_us": 5,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "KXNHLF10G-26NOV21NYIDET-Y",
+      "title": "Somebody scores in the first 10 minutes tonight",
+      "subtitle": "NYI vs DET (Nov 21)",
+      "yes_sub_title": "Goal in first 10 min",
+      "no_sub_title": "Goal in first 10 min",
+      "payout": 1.72,
+      "tier": "green",
+      "quip": "goal at 1:72 of the first period, a time that does not exist",
+      "yes_price": "0.5800",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-24T00:00:00Z",
+      "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 31.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "i am always in the bathroom for this, always",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "beer line guy hears the horn and decides the beer line is his home now",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "goal at 1:72 of the first period, a time that does not exist",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "ten minutes of actual effort",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "like a touchdown on the opening drive before anybody finds their seat",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "Detroit scores early then spends fifty minutes apologizing to the building",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "nothing in sports is more honest than a first shift goal",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "the Pixar short before the movie, except a man gets cross-checked",
+          "mode": 8,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXDEELRIP-40-RIPP",
+      "title": "Rippling beats Deel to the IPO",
+      "subtitle": "Before 2040",
+      "yes_sub_title": "Rippling",
+      "no_sub_title": "Rippling",
+      "payout": 2.38,
+      "tier": "green",
+      "quip": "the guy flushed his phone for nothing",
+      "yes_price": "0.4200",
+      "volume": 4400.93,
+      "category": "Financials",
+      "close_time": "2040-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXDEELRIP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 69.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "the guy flushed his phone for nothing",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "i have used both of these and still cannot tell you what they do",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "somewhere a Deel exec is googling Dublin bathroom renovation costs",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "payroll beef, surprisingly lethal",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "the S-1 has an entire risk factor titled toilets",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "HR software rivalry with more espionage than an actual intelligence budget",
+          "mode": 6,
+          "score": 6
+        },
+        {
+          "quip": "two payroll companies hating each other is the best thing in tech",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "\"we have the utmost respect for our competitors,\" says man hiring a PI",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2434237",
+      "title": "Inflation tops 3.7% in November",
+      "subtitle": "",
+      "payout": 2.7,
+      "tier": "green",
+      "quip": "boomers calling this nothing from inside a paid-off house",
+      "yes_price": "0.3700",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2026-12-25T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/uscpi-nov-yoy-2026-12-10?marketSlug=cpic-uscpi-nov-yoy-2026-12-10-gt3pt7pct",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "a single banana now requires a co-signer",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "i bought store brand cereal and told everyone i prefer it",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Powell walks in and four governors suddenly have to take a call",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "number go up, bad",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "boomers calling this nothing from inside a paid-off house",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "like your rent jumping while the hallway light stays broken",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "\"transitory,\" he whispers, into a nineteen dollar burrito",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "inflation is the last American product still beating expectations",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2116970",
+      "title": "GPT Terra 6.2 lands before 2027",
+      "subtitle": "",
+      "payout": 3.57,
+      "tier": "yellow",
+      "quip": "two Terras from Skynet, one from Clippy",
+      "yes_price": "0.2800",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2027-03-15T03:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/openai-gpt-terra-gte6pt2?marketSlug=aimc-openai-gpt-terra-gte6pt2-2026-12-31",
+      "platform": "polymarket_us",
+      "score": 50.0,
+      "quip_alts": [
+        {
+          "quip": "they skip to Terra 9 because counting was a legacy constraint",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "i'm still on the old model and she knows my whole situation",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Terra 6.2 writes its own launch post and calls itself humble",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "naming conventions have officially surrendered",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "version numbers moving like iPhone colorways now",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "\"this one is a little spooky,\" he says, as he does every time",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "two Terras from Skynet, one from Clippy",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "i will install it at 3am like a Call of Duty patch",
+          "mode": 2,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2362813",
+      "title": "I Play Rocky lands a Golden Globe nod",
+      "subtitle": "",
+      "payout": 4.76,
+      "tier": "yellow",
+      "quip": "fifth nomination this decade for a guy who punches frozen beef",
+      "yes_price": "0.2100",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2026-12-22T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/globes-nom-picmc-2026-12-07?marketSlug=tac-globes-nom-picmc-2026-12-07-ipla",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "a movie about Rocky getting nominated is the most Rocky outcome available",
+          "mode": 8,
+          "score": 6
+        },
+        {
+          "quip": "i will absolutely sit through a movie about a man writing a movie",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "\"yo Adrian, i'm a supporting character in my own origin story\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "underdog movie about an underdog",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "Musical or Comedy, where studios launder a drama into a trophy",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "Stallone shows up, hugs the actor, nobody can tell them apart afterward",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "like a cover band getting a Grammy nod and fully deserving it",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "fifth nomination this decade for a guy who punches frozen beef",
+          "mode": 5,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2639687",
+      "title": "Angie Craig wins Minnesota's Democratic Senate nod",
+      "subtitle": "",
+      "payout": 6.25,
+      "tier": "yellow",
+      "quip": "Fargo season six, except it's a senate primary",
+      "yes_price": "0.1600",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-08-25T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/ussep-mn-2027-08-10-dem?marketSlug=enwc-ussep-mn-2027-08-10-dem-angcra",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "i googled a Minnesota primary at 11pm on a Tuesday, willingly",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the DFL convention ends with a standing ovation and three resignations",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "DFL remains an unhinged acronym",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "Fargo season six, except it's a senate primary",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "\"you betcha\" is a legally binding campaign promise up there",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "Minnesota politics is quietly the most entertaining league in the country",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "wins by six points and exactly one Prince reference",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "loser gets a lake named after him, that's the arrangement",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "STARSHIPMARS-29DEC31",
+      "title": "Starship puts humans on Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Not Before 2030",
+      "payout": 8.33,
+      "tier": "orange",
+      "quip": "i cannot get a package out of Memphis in three days",
+      "yes_price": "0.1200",
+      "volume": 55722.28,
+      "category": "Companies",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i cannot get a package out of Memphis in three days",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "first crew lands and immediately starts a podcast about resilience",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "\"we're targeting 2030\" is a dialect and i am now fluent",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "2030 is four Thanksgivings away",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "$8.33 buys roughly one minute of Martian oxygen, i'm told",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "like announcing a stadium with no parking, no roof, no team",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "anybody volunteering for this is running from something back here",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "humans on Mars this decade would genuinely rewire my brain",
+          "mode": 3,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1322702",
+      "title": "The 30-year mortgage hits 7.60% this year",
+      "subtitle": "",
+      "payout": 12.5,
+      "tier": "orange",
+      "quip": "like a car payment, except the car is a hallway in Tempe",
+      "yes_price": "0.0800",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/usmort30-hi-yr-2026-12-31?marketSlug=pmmsc-usmort30-hi-yr-2026-12-31-gte7pt60",
+      "platform": "polymarket_us",
+      "score": 55.0,
+      "quip_alts": [
+        {
+          "quip": "i will be renting until the heat death and honestly, fine",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "realtor says \"historically normal\" with a completely straight face",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "the starter home is extinct",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "monthly payment now includes a kidney and partial custody",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "like a car payment, except the car is a hallway in Tempe",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "guys who locked three percent are posting about avocado toast again",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "Michael Burry back on the drums, sadder tempo this time",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "\"rates come down next year,\" he says, for the ninth straight year",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA lands a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 15.38,
+      "tier": "red",
+      "quip": "$15.38 an hour, same as the guy parking the rover",
+      "yes_price": "0.0650",
+      "volume": 230904.32,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "three presidents and one uncle have promised me this already",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "landing feed cuts to a Temu ad and nobody even flinches",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "$15.38 an hour, same as the guy parking the rover",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "second moon era, allegedly",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "like rebooting a franchise nobody asked to see rebooted",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "\"we did it with a slide rule,\" says Buzz, visibly annoyed",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "Armstrong pulled it off with a calculator and a haircut",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "if they actually do it i'm taking the whole day off",
+          "mode": 3,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXNCAAFFIRSTTDTEAM-26NOV21BYUKU-NONE",
+      "title": "No team scores a touchdown tonight",
+      "subtitle": "BYU vs KU (Nov 21)",
+      "yes_sub_title": "No team",
+      "no_sub_title": "No team",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "Ravens-Steelers 2008 energy, where nobody enjoyed a single thing",
+      "yes_price": "0.0100",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-23T17:00:00Z",
+      "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 46.0,
+      "_specificity": 5,
+      "quip_alts": [
+        {
+          "quip": "fourth quarter and both coaches start punting on first down",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i would watch every snap and tell everyone it was beautiful",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "final 6-3, kicker gets the game ball and a book deal",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "field goals and violence only",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "Ravens-Steelers 2008 energy, where nobody enjoyed a single thing",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "both offensive coordinators updating LinkedIn before halftime ends",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "\"we're gonna establish the run,\" and they did, 2.1 yards a pop",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "a hundred bucks on grown men failing to reach a painted line",
+          "mode": 3,
+          "score": 8
+        }
+      ]
+    }
+  ]
+}

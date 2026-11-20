@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-11-20T02:57:08.110820+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 9,
+    "NCAAF": 1
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-E7E6E27F",
+      "title": "Cincinnati Bearcats wins + Over 4.5",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:49547-4449652-7262070&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Colorado Buffaloes @ Cincinnati Bearcats + Anaheim Ducks @ Colorado Avalanche",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.37,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Colorado Buffaloes @ Cincinnati Bearcats",
+          "pick": "Cincinnati Bearcats wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49547-4449652-7262070&type=Single",
+          "commence_time": "2026-11-21T17:00:00Z"
+        },
+        {
+          "matchup": "Anaheim Ducks @ Colorado Avalanche",
+          "pick": "Over 4.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20099034-1580646057-2356834644&type=Single",
+          "commence_time": "2026-11-20T02:09:02Z"
+        }
+      ],
+      "close_time": "2026-11-20T02:09:02Z"
+    },
+    {
+      "ticker": "PARLAY-13F52705",
+      "title": "Indiana Hoosiers wins + Cincinnati Bearcats wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20120215-1580503115-2356451238&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Kentucky Wildcats @ Indiana Hoosiers + Colorado Buffaloes @ Cincinnati Bearcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Kentucky Wildcats @ Indiana Hoosiers",
+          "pick": "Indiana Hoosiers wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20120215-1580503115-2356451238&type=Single",
+          "commence_time": "2026-11-21T01:00:00Z"
+        },
+        {
+          "matchup": "Colorado Buffaloes @ Cincinnati Bearcats",
+          "pick": "Cincinnati Bearcats wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49547-4449652-7262070&type=Single",
+          "commence_time": "2026-11-21T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-21T01:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-D40A7653",
+      "title": "Indiana Hoosiers wins + Over 4.5",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20120215-1580503115-2356451238&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Kentucky Wildcats @ Indiana Hoosiers + Anaheim Ducks @ Colorado Avalanche",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Kentucky Wildcats @ Indiana Hoosiers",
+          "pick": "Indiana Hoosiers wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20120215-1580503115-2356451238&type=Single",
+          "commence_time": "2026-11-21T01:00:00Z"
+        },
+        {
+          "matchup": "Anaheim Ducks @ Colorado Avalanche",
+          "pick": "Over 4.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20099034-1580646057-2356834644&type=Single",
+          "commence_time": "2026-11-20T02:09:02Z"
+        }
+      ],
+      "close_time": "2026-11-20T02:09:02Z"
+    },
+    {
+      "ticker": "PARLAY-1B4430BF",
+      "title": "Memphis Tigers wins + Cincinnati Bearcats wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:49508-4449611-7261983&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Memphis Tigers @ Navy Midshipmen + Colorado Buffaloes @ Cincinnati Bearcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Memphis Tigers @ Navy Midshipmen",
+          "pick": "Memphis Tigers wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49508-4449611-7261983&type=Single",
+          "commence_time": "2026-11-21T17:00:00Z"
+        },
+        {
+          "matchup": "Colorado Buffaloes @ Cincinnati Bearcats",
+          "pick": "Cincinnati Bearcats wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49547-4449652-7262070&type=Single",
+          "commence_time": "2026-11-21T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-21T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-239D5A64",
+      "title": "Memphis Tigers wins + Over 4.5",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:49508-4449611-7261983&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Memphis Tigers @ Navy Midshipmen + Anaheim Ducks @ Colorado Avalanche",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Memphis Tigers @ Navy Midshipmen",
+          "pick": "Memphis Tigers wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49508-4449611-7261983&type=Single",
+          "commence_time": "2026-11-21T17:00:00Z"
+        },
+        {
+          "matchup": "Anaheim Ducks @ Colorado Avalanche",
+          "pick": "Over 4.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20099034-1580646057-2356834644&type=Single",
+          "commence_time": "2026-11-20T02:09:02Z"
+        }
+      ],
+      "close_time": "2026-11-20T02:09:02Z"
+    },
+    {
+      "ticker": "PARLAY-19B5DE41",
+      "title": "Carolina Panthers wins + Cincinnati Bearcats wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "rent money",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:44028-3451296-5411274&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Baltimore Ravens @ Carolina Panthers + Colorado Buffaloes @ Cincinnati Bearcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Carolina Panthers",
+          "pick": "Carolina Panthers wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44028-3451296-5411274&type=Single",
+          "commence_time": "2026-11-22T18:00:00Z"
+        },
+        {
+          "matchup": "Colorado Buffaloes @ Cincinnati Bearcats",
+          "pick": "Cincinnati Bearcats wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49547-4449652-7262070&type=Single",
+          "commence_time": "2026-11-21T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-21T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-A3821C94",
+      "title": "Carolina Panthers wins + Over 4.5",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "business as usual",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:44028-3451296-5411274&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Baltimore Ravens @ Carolina Panthers + Anaheim Ducks @ Colorado Avalanche",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baltimore Ravens @ Carolina Panthers",
+          "pick": "Carolina Panthers wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44028-3451296-5411274&type=Single",
+          "commence_time": "2026-11-22T18:00:00Z"
+        },
+        {
+          "matchup": "Anaheim Ducks @ Colorado Avalanche",
+          "pick": "Over 4.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20099034-1580646057-2356834644&type=Single",
+          "commence_time": "2026-11-20T02:09:02Z"
+        }
+      ],
+      "close_time": "2026-11-20T02:09:02Z"
+    },
+    {
+      "ticker": "PARLAY-BB925716",
+      "title": "Chicago Bulls wins + Cincinnati Bearcats wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20099861-1578074479-2349966815&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Washington Wizards @ Chicago Bulls + Colorado Buffaloes @ Cincinnati Bearcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington Wizards @ Chicago Bulls",
+          "pick": "Chicago Bulls wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20099861-1578074479-2349966815&type=Single",
+          "commence_time": "2026-11-21T01:10:00Z"
+        },
+        {
+          "matchup": "Colorado Buffaloes @ Cincinnati Bearcats",
+          "pick": "Cincinnati Bearcats wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49547-4449652-7262070&type=Single",
+          "commence_time": "2026-11-21T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-21T01:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-900A623B",
+      "title": "Chicago Bulls wins + Over 4.5",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20099861-1578074479-2349966815&type=Single",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Washington Wizards @ Chicago Bulls + Anaheim Ducks @ Colorado Avalanche",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Washington Wizards @ Chicago Bulls",
+          "pick": "Chicago Bulls wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "basketball_nba",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20099861-1578074479-2349966815&type=Single",
+          "commence_time": "2026-11-21T01:10:00Z"
+        },
+        {
+          "matchup": "Anaheim Ducks @ Colorado Avalanche",
+          "pick": "Over 4.5",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20099034-1580646057-2356834644&type=Single",
+          "commence_time": "2026-11-20T02:09:02Z"
+        }
+      ],
+      "close_time": "2026-11-20T02:09:02Z"
+    },
+    {
+      "ticker": "PARLAY-9AAB2704",
+      "title": "Under 3.5 + Cincinnati Bearcats wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=2:7912619-207817413-807031695&type=Single",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Portland Timbers @ FC Dallas + Colorado Buffaloes @ Cincinnati Bearcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Portland Timbers @ FC Dallas",
+          "pick": "Under 3.5",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=2:7912619-207817413-807031695&type=Single",
+          "commence_time": "2026-11-21T21:00:00Z"
+        },
+        {
+          "matchup": "Colorado Buffaloes @ Cincinnati Bearcats",
+          "pick": "Cincinnati Bearcats wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:49547-4449652-7262070&type=Single",
+          "commence_time": "2026-11-21T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-21T17:00:00Z"
+    }
+  ]
+}
