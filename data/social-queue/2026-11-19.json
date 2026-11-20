@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-20T07:37:44.306839+00:00",
+          "tweet_id": "2123682186628845991",
+          "reply_tweet_id": "2123682188306600077"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "998723",
+        "page": "https://www.pexels.com/photo/photo-of-forest-998723/",
+        "photographer": "Lukas Hartmann",
+        "license": "Pexels License",
+        "phrases": [
+          "server room night",
+          "empty cabin forest dusk"
+        ],
+        "tokens": {
+          "input_tokens": 3382,
+          "output_tokens": 26
         }
       }
     },
