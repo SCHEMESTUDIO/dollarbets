@@ -1118,6 +1118,50 @@ def find_market_in_board(market_id, board_data):
     return None
 
 
+def find_market_in_kalshi_top(market_id):
+    """A board-shaped record for a market on /best-kalshi-bets-today/.
+
+    That page lists live Kalshi markets from data/kalshi-top.json, most of which
+    were never on a Dollar Bets board. Without this lookup their links fell to
+    the stale-ticker branch below, a bare redirect that skips the market wall,
+    the age gate and the regional checks. Returns None when the ticker is not
+    in the file.
+    """
+    if not market_id.startswith("KX"):
+        return None
+    site_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    try:
+        with open(os.path.join(site_dir, "data", "kalshi-top.json")) as f:
+            rows = json.load(f).get("markets") or []
+        row = next((r for r in rows if r.get("ticker") == market_id), None)
+        if not row:
+            return None
+        with open(os.path.join(site_dir, "config", "partners.json")) as f:
+            partner = next((p for p in json.load(f).get("partners", []) if p.get("slug") == "kalshi"), {})
+    except (OSError, json.JSONDecodeError):
+        return None
+    # Kalshi's market pages live at the series ticker, as on the board records.
+    series = row.get("series_ticker") or (row.get("event_ticker") or market_id).split("-")[0]
+    if not _is_valid_market_id(series):
+        return None
+    url = f"https://kalshi.com/markets/{series}"
+    if partner.get("affiliate_id"):
+        url += f"?referral={partner['affiliate_id']}"
+    head = row.get("event_title") or row.get("title") or ""
+    side = row.get("yes_label") or ""
+    ask = float(row.get("yes_ask") or 0)
+    return {
+        "ticker": market_id,
+        "title": f"{head}: {side}" if side and side.lower() != head.lower() else head,
+        "platform": "kalshi",
+        "category": row.get("category") or "",
+        "url": url,
+        "payout": round(1 / ask, 2) if 0 < ask < 1 else 0,
+        "yes_price": f"{ask:.4f}",
+        "close_time": row.get("close_time") or "",
+    }
+
+
 class handler(BaseHTTPRequestHandler):
     def _referer_path(self):
         ref = self.headers.get("Referer") or ""
@@ -1376,6 +1420,9 @@ class handler(BaseHTTPRequestHandler):
             stale_market, stale_kind = market_wall.find_market_any_board(market_id)
             if stale_market and stale_kind == "prediction":
                 market = stale_market
+
+        if not market:
+            market = find_market_in_kalshi_top(market_id)
 
         if not market:
             # Market not found in current board data (stale link, removed
