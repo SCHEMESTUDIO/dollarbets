@@ -248,7 +248,7 @@ def build_faq_schema(faqs):
 def build_video_block(video, seo):
     """Optional `video` block on a content page (Postwerks video/PROTOCOL.md, 2026-09-20):
     {"youtube_id", "title", "description", "upload_date" (YYYY-MM-DD), "duration_seconds", "transcript"?, "thumbnail"?}.
-    Renders a portrait YouTube Shorts embed above the article body plus VideoObject JSON-LD, so the page
+    Renders a portrait YouTube Shorts embed below the article body plus VideoObject JSON-LD, so the page
     itself can earn a video result (Search Console searchAppearance = VIDEO). Returns (html, schema_tag);
     both empty when the page has no video. Nothing here is fetched at build time."""
     if not video or not video.get("youtube_id"):
@@ -536,8 +536,6 @@ def generate_content_page(page_data):
 
     article_inner, _cut = reduce_dashes(article_inner, keep=0)
     video_html, video_schema = build_video_block(page_data.get("video"), seo)
-    if video_html:
-        body_parts.append(video_html)  # the Short, above the article body, where a video result is earned
     body_parts.append(f"""    <div class="article-body">
 {article_inner}
     </div>""")
@@ -548,6 +546,11 @@ def generate_content_page(page_data):
         body_parts.extend(_below)
     if not _strip_done:
         body_parts.append(_strip_html)  # no affiliate element on the page; disclosure still shown
+
+    if video_html:
+        # The Short sits below the article and its promo (moved 2026-11-21: above the body it read as
+        # spam, and Search Console never showed the page as a video result).
+        body_parts.append(video_html.replace("margin:0 0 20px 0", "margin:28px 0 20px 0", 1))
 
     # Internal links
     body_parts.append(render_internal_links(page_data.get("internal_links", [])))
