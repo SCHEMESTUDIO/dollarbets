@@ -11,12 +11,23 @@ Public API, no key. Stdlib only.
 Fails closed: a partial pull (API error part-way, or a page budget hit) exits 1 and leaves the old
 file in place, because "most traded" computed from part of the catalogue would be wrong.
 """
-import json, os, sys, time, datetime, urllib.request, urllib.error
+import json, os, re, sys, time, datetime, urllib.request, urllib.error
 
 API = "https://api.elections.kalshi.com/trade-api/v2"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Category pages (/kalshi-nfl-bets-today/ and friends). A market joins a bucket by its series
+# ticker or by Kalshi's own category. Keep in step with CATEGORIES in generate_best_kalshi.py.
+BUCKETS = {
+    "nfl": lambda series, cat: bool(re.match(r"KXNFL|KXSB$|KXNEXTTEAMNFL", series)),
+    "nba": lambda series, cat: bool(re.match(r"KXNBA", series)),
+    "ufc": lambda series, cat: bool(re.match(r"KXUFC", series)),
+    "tennis": lambda series, cat: bool(re.match(r"KXATP|KXWTA|KXITF", series)),
+    "crypto": lambda series, cat: cat == "Crypto",
+    "weather": lambda series, cat: cat == "Climate and Weather" or bool(re.match(r"KXRAIN|KXHIGH|KXLOW|KXSNOW|KXTEMP|KXHURR|KXTORNADO", series)),
+}
+BUCKET_KEEP = 80         # rows kept per bucket, by 24-hour volume
 MAX_PAGES = 600          # 200 events a page; the catalogue was about 100 pages in November 2026
-KEEP = 250               # rows kept by 24-hour volume, and again for markets settling soon
+KEEP = 200               # rows kept by 24-hour volume, and again for markets settling soon
 
 
 def get(url):
@@ -71,8 +82,9 @@ def main():
                     "yes_label": m.get("yes_sub_title") or "",
                     "yes_ask": ask,
                     "volume_24h": vol,
-                    "close_time": m.get("close_time") or "",
-                    "expected_expiration_time": m.get("expected_expiration_time") or "",
+                    # When the market is expected to settle: the earlier of the two times Kalshi gives.
+                    "close_time": min([t for t in (m.get("close_time"), m.get("expected_expiration_time")) if t] or [""]),
+                    "buckets": [b for b, test in BUCKETS.items() if test(ev.get("series_ticker") or "", ev.get("category") or "")],
                 })
         cursor = d.get("cursor") or ""
         if not cursor:
@@ -91,15 +103,31 @@ def main():
     for is_sports in (True, False):
         per_event = {}
         for r in rows:
-            when = min(t for t in (r["expected_expiration_time"], r["close_time"]) if t) if (r["expected_expiration_time"] or r["close_time"]) else ""
+            when = r["close_time"]
             if when and when <= soon_cut and r["ticker"] not in seen and (r["category"] == "Sports") == is_sports:
                 per_event.setdefault(r["event_ticker"], r)
-        keep += sorted(per_event.values(), key=lambda r: -r["volume_24h"])[:KEEP]
+        chosen = sorted(per_event.values(), key=lambda r: -r["volume_24h"])[:KEEP]
+        keep += chosen
+        seen |= {r["ticker"] for r in chosen}
+    bucket_stats = {}
+    for b in BUCKETS:
+        mine = [r for r in rows if b in r["buckets"]]
+        bucket_stats[b] = {"traded_24h": len(mine), "contracts_24h": round(sum(r["volume_24h"] for r in mine)),
+                           "events": len({r["event_ticker"] for r in mine})}
+        # One row per event first, so a 40-rung ladder cannot use the whole allowance, then the rest.
+        firsts, extra, ev_seen = [], [], set()
+        for r in mine:
+            (extra if r["event_ticker"] in ev_seen else firsts).append(r)
+            ev_seen.add(r["event_ticker"])
+        for r in (firsts + extra)[:BUCKET_KEEP]:
+            if r["ticker"] not in seen:
+                seen.add(r["ticker"]); keep.append(r)
     doc = {
         "generated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "source": API + "/events",
         "events_read": events, "active_markets": active, "traded_24h": traded,
         "contracts_24h": round(sum(r["volume_24h"] for r in rows)),
+        "buckets": bucket_stats,
         "markets": keep,
     }
     os.makedirs(os.path.dirname(out), exist_ok=True)

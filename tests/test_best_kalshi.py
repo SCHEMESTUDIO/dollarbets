@@ -24,3 +24,12 @@ assert (head, out) == ("BYU vs Kansas", "BYU")
 rows = [{"event_ticker": "A", "v": 1}, {"event_ticker": "A", "v": 2}, {"event_ticker": "B", "v": 3}]
 assert [r["v"] for r in g.one_per_event(rows, 5)] == [1, 3]
 print("ok: kalshi fee table, display helpers")
+
+# Category slugs must match the sitemap list in generate.py and the buckets in the puller.
+import re
+gen = open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "generate.py")).read()
+pull = open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "scripts", "kalshi_top.py")).read()
+for c in g.CATEGORIES:
+    assert f'"{c["slug"]}"' in gen, c["slug"]
+    assert re.search(rf'^\s*"{c["key"]}": lambda', pull, re.M), c["key"]
+print("ok: category slugs in sitemap, buckets in puller")
