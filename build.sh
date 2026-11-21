@@ -104,6 +104,9 @@ python3 generate_content.py
 # /trending/ — live-volume page (Polymarket 24h volume + today's board). Non-fatal.
 python3 generate_trending.py || echo "[build] WARNING: trending page failed (non-fatal)"
 
+# /best-kalshi-bets-today/ + /kalshi-payout-calculator/ (reads data/kalshi-top.json). Non-fatal.
+python3 generate_best_kalshi.py || echo "[build] WARNING: best-kalshi pages failed (non-fatal)"
+
 # Copy static source files (admin CMS, etc.)
 if [ -d "src" ]; then
   echo "[build] Copying static source files..."

@@ -1533,6 +1533,8 @@ def footer_info_nav():
 EXPLORE_LINKS = [
     ("/guides/", "Guides"),
     ("/trending/", "Trending markets"),
+    ("/best-kalshi-bets-today/", "Best Kalshi bets today"),
+    ("/kalshi-payout-calculator/", "Kalshi payout calculator"),
     ("/hall-of-filth/", "Hall of Filth"),
     ("/recap/", "Weekly recaps"),
     ("/archetypes/", "Bet archetypes"),
@@ -4363,6 +4365,11 @@ def main():
     # /trending/ is built by generate_trending.py (live volume page, 2026-09-12).
     if not any(e[0] == "/trending/" for e in sitemap_pages):
         sitemap_pages.append(("/trending/", 0.8))
+    # Built by generate_best_kalshi.py (2026-11-21): the daily Kalshi list and the payout calculator.
+    # The list changes every scan; the calculator does not, so it carries no lastmod.
+    for _e in (("/best-kalshi-bets-today/", 0.8), ("/kalshi-payout-calculator/", 0.7, NO_LASTMOD)):
+        if not any(e[0] == _e[0] for e in sitemap_pages):
+            sitemap_pages.append(_e)
 
     # Include the HTML sitemap itself in the XML sitemap so it's indexable.
     sitemap_entry = ("/sitemap/", 0.3, NO_LASTMOD)
