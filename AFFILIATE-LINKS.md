@@ -98,7 +98,7 @@ pays, region), and `affiliate_blocked` (no eligible book), all under the site's 
 `affiliate_click` document listener on the boards still fires on the way in.
 
 **Kalshi mirrors (2026-11-01).** Robinhood, Coinbase, Webull, and Public all trade Kalshi's contracts through KalshiEX, so
-each is a "same market" row at Kalshi's price. Robinhood and Coinbase run on Impact (dollarbets.lol verified there 2026-11-01);
+each is a "same market" row at Kalshi's price. Robinhood runs on Impact (dollarbets.lol verified there 2026-11-01). Coinbase rejected our Impact application, so its row carries James's personal referral link (`https://www.coinbase.com/join/QNMMPV7`, 2026-11-12) as `affiliate_url`;
 Webull runs its own creator/publisher programme (apply from a Webull brokerage account); Public has no verifiable programme
 and sits in the registry with `enabled: false` until one exists. A per-book `enabled: false` hides a book without deleting it.
 
