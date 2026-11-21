@@ -1535,6 +1535,7 @@ EXPLORE_LINKS = [
     ("/trending/", "Trending markets"),
     ("/best-kalshi-bets-today/", "Best Kalshi bets today"),
     ("/kalshi-payout-calculator/", "Kalshi payout calculator"),
+    ("/kalshi-fees/", "Kalshi fees"),
     ("/hall-of-filth/", "Hall of Filth"),
     ("/recap/", "Weekly recaps"),
     ("/archetypes/", "Bet archetypes"),
@@ -4367,7 +4368,11 @@ def main():
         sitemap_pages.append(("/trending/", 0.8))
     # Built by generate_best_kalshi.py (2026-11-21): the daily Kalshi list and the payout calculator.
     # The list changes every scan; the calculator does not, so it carries no lastmod.
-    for _e in (("/best-kalshi-bets-today/", 0.8), ("/kalshi-payout-calculator/", 0.7, NO_LASTMOD)):
+    # Category lists and the fees page (2026-11-21). Slugs mirror CATEGORIES in generate_best_kalshi.py.
+    _kalshi_cats = ("kalshi-nfl-bets-today", "kalshi-nba-bets-today", "kalshi-ufc-bets-today",
+                    "kalshi-tennis-bets-today", "kalshi-crypto-markets-today", "kalshi-weather-markets-today")
+    for _e in (("/best-kalshi-bets-today/", 0.8), ("/kalshi-payout-calculator/", 0.7, NO_LASTMOD),
+               ("/kalshi-fees/", 0.7, NO_LASTMOD)) + tuple((f"/{_c}/", 0.7) for _c in _kalshi_cats):
         if not any(e[0] == _e[0] for e in sitemap_pages):
             sitemap_pages.append(_e)
 

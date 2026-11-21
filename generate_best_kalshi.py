@@ -24,6 +24,24 @@ MIN_HOURS_LEFT = 3
 STALE_HOURS = 36   # older than this and the live lists are dropped; the page says so
 FEE_RATE = 0.07    # Kalshi fee schedule: fees = round up(M x 0.07 x C x P x (1-P))
 MAKER_RATE = 0.0175
+FEES_PATH = "/kalshi-fees/"
+CHIP_CSS = '<style>.section-chips a[aria-current="page"]{background:#2d2319;color:#fdf6ee;border-color:#2d2319}</style>'
+# Category pages. Keys match BUCKETS in scripts/kalshi_top.py. "what" is the one factual line
+# about what Kalshi lists, written from the series seen in the feed; keep it checkable.
+CATEGORIES = [
+    {"key": "nfl", "slug": "kalshi-nfl-bets-today", "name": "NFL", "h1": "Kalshi NFL Bets Today", "noun": "NFL markets",
+     "what": "Kalshi lists NFL game winners, point spreads, total points, and touchdown markets, plus season futures such as the Pro Football Champion and the conference championships."},
+    {"key": "nba", "slug": "kalshi-nba-bets-today", "name": "NBA", "h1": "Kalshi NBA Bets Today", "noun": "NBA markets",
+     "what": "Kalshi lists NBA game winners and point spreads for each night's slate, plus season futures such as the champion, the conference champions, and the MVP."},
+    {"key": "ufc", "slug": "kalshi-ufc-bets-today", "name": "UFC", "h1": "Kalshi UFC Bets Today", "noun": "UFC markets",
+     "what": "Kalshi lists a winner market for each fight on a UFC card, method-of-victory markets on some fights, and markets on who holds each title at the end of the year."},
+    {"key": "tennis", "slug": "kalshi-tennis-bets-today", "name": "Tennis", "h1": "Kalshi Tennis Bets Today", "noun": "tennis markets",
+     "what": "Kalshi lists match winners across the ATP, WTA, Challenger, and ITF tours, exact-score markets on some matches, tournament winners, and the year-end No. 1 ranking."},
+    {"key": "crypto", "slug": "kalshi-crypto-markets-today", "name": "Crypto", "h1": "Kalshi Crypto Markets Today", "noun": "crypto markets",
+     "what": "Kalshi lists Bitcoin price ladders that settle the same day, 15-minute price markets on Bitcoin, Ether, XRP, and Dogecoin, and year-end price markets."},
+    {"key": "weather", "slug": "kalshi-weather-markets-today", "name": "Weather", "h1": "Kalshi Weather Markets Today", "noun": "weather and climate markets",
+     "what": "Kalshi lists daily high-temperature, low-temperature, and rain markets by city, and longer-dated markets on record-hot months and years, earthquakes, and ski-resort opening dates."},
+]
 CALC_UPDATED = datetime.date(2026, 11, 21)  # move when the calculator or the fee schedule changes
 
 
@@ -119,6 +137,33 @@ def section(key, label, note, rows, now):
             + "".join(card(r, i + 1, now) for i, r in enumerate(rows)) + "</div>")
 
 
+def category_nav(current):
+    links = [("all", LIST_PATH, "All")] + [(c["key"], "/" + c["slug"] + "/", c["name"]) for c in CATEGORIES]
+    out = []
+    for key, href, label in links:
+        cur = ' aria-current="page"' if key == current else ""
+        out.append('<a href="' + href + '"' + cur + ">" + esc(label) + "</a>")
+    return '<nav class="nav section-chips" aria-label="Kalshi by category">' + "".join(out) + "</nav>"
+
+
+def live_rows(d, now):
+    """Rows fit to show: priced 2¢ to 98¢ and settling at least MIN_HOURS_LEFT after the read."""
+    ms = []
+    for m in d["markets"]:
+        st = settles(m, now)
+        if st and (st - d["_gen"]).total_seconds() < MIN_HOURS_LEFT * 3600: continue
+        if not (0.02 <= m["yes_ask"] <= 0.98): continue
+        m["_days"] = (st - now).total_seconds() / 86400 if st else 9999
+        ms.append(m)
+    ms.sort(key=lambda m: -m["volume_24h"])
+    return ms
+
+
+def read_line_for(d):
+    g = et(d["_gen"])
+    return f"read {g.strftime('%-I:%M %p').replace('AM', 'a.m.').replace('PM', 'p.m.')} ET on {nyt_date(g.date())}"
+
+
 def load():
     try:
         d = json.load(open(DATA))
@@ -203,18 +248,20 @@ def build_list(now):
     <div class="sourcing">{sourcing} &middot; <a href="/editorial-policy/">Editorial policy</a></div>
     <p class="dek" role="doc-abstract">{dek}</p>
     {stats}
+    <div class="hub-kicker" style="margin-top:18px">By category</div>
+    {category_nav("all")}
     {'<nav class="nav section-chips" aria-label="Sections">' + "".join(chips) + '</nav>' if chips else ''}
     {chr(10).join(parts)}
     <div class="article-body" style="margin-top:22px">
       <h2 id="how">How these lists are made</h2>
       <p>Every open Kalshi market that traded in the last 24 hours is read three times a day and sorted by measures you can check: contracts traded, the price of Yes, and when the market settles. One market is shown per event, so a 30-rung price ladder takes one row. No editor chose a row, and no row is a tip.</p>
-      <p>The price is what one Yes contract costs. Each contract pays $1 if it lands, so a 25¢ contract pays $4 for every $1 staked and an 80¢ contract pays $1.25. The price is also the market's estimate of the chance: at 25¢ the market expects the bet to lose three times in four. Payouts on this page are before Kalshi's trading fee. The <a href="{CALC_PATH}">Kalshi payout calculator</a> works out the fee, the profit, and the break-even chance for any price and stake.</p>
+      <p>The price is what one Yes contract costs. Each contract pays $1 if it lands, so a 25¢ contract pays $4 for every $1 staked and an 80¢ contract pays $1.25. The price is also the market's estimate of the chance: at 25¢ the market expects the bet to lose three times in four. Payouts on this page are before <a href="{FEES_PATH}">Kalshi's trading fee</a>. The <a href="{CALC_PATH}">Kalshi payout calculator</a> works out the fee, the profit, and the break-even chance for any price and stake.</p>
       <p>Volume counts contracts changing hands. Two large traders arguing can put a market above one with thousands of small buyers. Prices move between reads, so check the live price on Kalshi before you buy.</p>
       <h2 id="faq">Frequently asked questions</h2>
       {faq_html}
     </div>
     <div class="affiliate-strip">Affiliate disclosure: Dollar Bets may earn a commission if you sign up to Kalshi through our links, never a cut of your bet. <a href="/affiliate-disclosure/">Full disclosure &rarr;</a></div>
-    <div class="internal-links"><div class="internal-links-row">related: <a href="/crazy-kalshi-bets/">craziest Kalshi bets</a> &middot; <a href="{CALC_PATH}">Kalshi payout calculator</a> &middot; <a href="/trending/">trending markets</a> &middot; <a href="/kalshi-vs-polymarket/">Kalshi vs. Polymarket</a></div></div>
+    <div class="internal-links"><div class="internal-links-row">related: <a href="/crazy-kalshi-bets/">craziest Kalshi bets</a> &middot; <a href="{CALC_PATH}">Kalshi payout calculator</a> &middot; <a href="{FEES_PATH}">Kalshi fees</a> &middot; <a href="/trending/">trending markets</a> &middot; <a href="/kalshi-vs-polymarket/">Kalshi vs. Polymarket</a></div></div>
     <div class="compliance-strip">Dollar Bets is an editorial and entertainment site. We do not operate markets or provide betting advice. Kalshi is a CFTC-regulated exchange, age-gated and not available in every state. Most longshot bets lose.</div>
     {LIST_JS}"""
     schema = [
@@ -226,7 +273,7 @@ def build_list(now):
         title=f"Best Kalshi Bets Today ({nice}) | Dollar Bets",
         description=f"Best Kalshi bets today, ranked by contracts traded, price, and settlement time: most traded, closest calls, favorites, and longshots. Updated {nice}.",
         body=body, canonical=LIST_PATH,
-        extra_head="".join(f'<script type="application/ld+json">{json.dumps(s)}</script>' for s in schema),
+        extra_head=CHIP_CSS + "".join(f'<script type="application/ld+json">{json.dumps(s)}</script>' for s in schema),
         compact_header=True, article=True, sticky_html="")
     write_page("best-kalshi-bets-today/index.html", out)
     print(f"[best-kalshi] live data {'fresh' if fresh else 'absent or stale'}, {len(parts)} sections, {len(kalshi_board)} board picks")
@@ -362,7 +409,7 @@ def build_calc(now):
       {faq_html}
     </div>
     <div class="affiliate-strip">Affiliate disclosure: Dollar Bets may earn a commission if you sign up to Kalshi through our links, never a cut of your bet. <a href="/affiliate-disclosure/">Full disclosure &rarr;</a></div>
-    <div class="internal-links"><div class="internal-links-row">related: <a href="{LIST_PATH}">best Kalshi bets today</a> &middot; <a href="/crazy-kalshi-bets/">craziest Kalshi bets</a> &middot; <a href="/kalshi-vs-polymarket/">Kalshi vs. Polymarket</a> &middot; <a href="/kalshi-perpetuals/">Kalshi perpetuals</a></div></div>
+    <div class="internal-links"><div class="internal-links-row">related: <a href="{LIST_PATH}">best Kalshi bets today</a> &middot; <a href="{FEES_PATH}">Kalshi fees</a> &middot; <a href="/crazy-kalshi-bets/">craziest Kalshi bets</a> &middot; <a href="/kalshi-vs-polymarket/">Kalshi vs. Polymarket</a> &middot; <a href="/kalshi-perpetuals/">Kalshi perpetuals</a></div></div>
     <div class="compliance-strip">Dollar Bets is an editorial and entertainment site. We do not operate markets or provide betting advice. This calculator is an estimate from Kalshi's published fee schedule; fees on some markets differ. Kalshi is a CFTC-regulated exchange, age-gated and not available in every state.</div>
     <script>{CALC_JS}</script>"""
     schema = [
@@ -381,10 +428,159 @@ def build_calc(now):
     print("[best-kalshi] calculator page written")
 
 
+def build_category(cfg, now):
+    d = load()
+    fresh = bool(d) and (now - d["_gen"]).total_seconds() < STALE_HOURS * 3600
+    path = f"/{cfg['slug']}/"
+    today = et(now).date()
+    nice = nyt_date(today)
+    parts, chips, dek, sourcing, stats = [], [], "", "", ""
+    rows = [m for m in live_rows(d, now) if cfg["key"] in (m.get("buckets") or [])] if fresh else []
+    if rows:
+        soon = [m for m in rows if m["_days"] <= 3]
+        groups = [
+            ("soon", "Most traded, settling soon", "settles within three days", one_per_event(soon, 12)),
+            ("coinflips", "Closest calls", "priced between 40¢ and 60¢", one_per_event([m for m in soon if 0.40 <= m["yes_ask"] <= 0.60], 8)),
+            ("favorites", "Heavy favorites", "priced at 80¢ or more", one_per_event([m for m in soon if 0.80 <= m["yes_ask"] <= 0.97], 6)),
+            ("longshots", "Longshots", "priced at 15¢ or less, settles within a week", [m for m in rows if m["yes_ask"] <= 0.15 and m["_days"] <= 7][:8]),
+            ("later", "Futures and longer-dated", "settles in more than three days", one_per_event([m for m in rows if m["_days"] > 3], 10)),
+        ]
+        for key, label, note, rs in groups:
+            sec = section(key, label, note, rs, now)
+            if sec:
+                parts.append(sec); chips.append(f'<a href="#{key}">{label}</a>')
+        st = (d.get("buckets") or {}).get(cfg["key"]) or {}
+        if st:
+            stats = (f'<div class="hub-stats"><div class="hub-stat"><div class="l">Markets that traded</div><div class="v">{st.get("traded_24h", 0):,}</div></div>'
+                     f'<div class="hub-stat"><div class="l">Contracts in 24h</div><div class="v">{count(st.get("contracts_24h", 0))}</div></div>'
+                     f'<div class="hub-stat"><div class="l">Events</div><div class="v">{st.get("events", 0):,}</div></div></div>')
+        top = (groups[0][3] or groups[4][3])[:3]
+        bits = []
+        for m in top:
+            head, out = names(m)
+            bits.append(f"{esc(head)} ({esc(out)} at {cents(m['yes_ask'])}, pays {pays(m['yes_ask'])} per $1)")
+        lead = f"{st['traded_24h']:,} Kalshi {cfg['noun']} traded in the last 24 hours. " if st.get("traded_24h") else ""
+        dek = lead + "The most traded: " + "; ".join(bits) + "."
+        sourcing = f"Prices and volume from Kalshi's public market data, {read_line_for(d)}; refreshed three times a day"
+    else:
+        dek = f"No Kalshi {cfg['noun']} traded in the last read. The full list of today's most-traded Kalshi markets is linked below."
+        sourcing = "Kalshi's public market data; refreshed three times a day"
+    faqs = [
+        (f"What {cfg['noun']} does Kalshi offer?", cfg["what"]),
+        (f"How do Kalshi {cfg['noun']} pay out?",
+         "Each contract pays $1 if the outcome happens and nothing if it does not. The price is what you pay for that $1, so a 40¢ contract pays $2.50 for every $1 staked, before Kalshi's trading fee."),
+        ("How is this list ranked?",
+         "By contracts traded in the last 24 hours, with one row per event. The lists are automatic and are not tips."),
+    ]
+    faq_html = "".join(f'<h3>{esc(q)}</h3><p>{esc(a)}</p>' for q, a in faqs)
+    body = f"""    <h1 class="page-title">{esc(cfg["h1"])}</h1>
+    <div class="byline">By <a href="/about/">Dollar Bets Staff</a> &middot; Updated <time datetime="{today.isoformat()}">{nice}</time></div>
+    <div class="sourcing">{sourcing} &middot; <a href="/editorial-policy/">Editorial policy</a></div>
+    <p class="dek" role="doc-abstract">{dek}</p>
+    {stats}
+    <div class="hub-kicker" style="margin-top:18px">By category</div>
+    {category_nav(cfg["key"])}
+    {'<nav class="nav section-chips" aria-label="Sections">' + "".join(chips) + '</nav>' if chips else ''}
+    {chr(10).join(parts)}
+    <div class="article-body" style="margin-top:22px">
+      <h2 id="how">How to read this page</h2>
+      <p>{esc(cfg["what"])} This page reads every one that traded in the last 24 hours, three times a day, and sorts them by contracts traded, the price of Yes, and when they settle. No editor chose a row, and no row is a tip.</p>
+      <p>The price is what one Yes contract costs, and each contract pays $1 if it lands. Payouts here are before <a href="{FEES_PATH}">Kalshi's trading fee</a>; the <a href="{CALC_PATH}">Kalshi payout calculator</a> works out the fee and the profit for any price and stake. Prices move between reads, so check the live price on Kalshi before you buy.</p>
+      <h2 id="faq">Frequently asked questions</h2>
+      {faq_html}
+    </div>
+    <div class="affiliate-strip">Affiliate disclosure: Dollar Bets may earn a commission if you sign up to Kalshi through our links, never a cut of your bet. <a href="/affiliate-disclosure/">Full disclosure &rarr;</a></div>
+    <div class="internal-links"><div class="internal-links-row">related: <a href="{LIST_PATH}">best Kalshi bets today</a> &middot; <a href="{CALC_PATH}">Kalshi payout calculator</a> &middot; <a href="{FEES_PATH}">Kalshi fees</a> &middot; <a href="/crazy-kalshi-bets/">craziest Kalshi bets</a></div></div>
+    <div class="compliance-strip">Dollar Bets is an editorial and entertainment site. We do not operate markets or provide betting advice. Kalshi is a CFTC-regulated exchange, age-gated and not available in every state. Most longshot bets lose.</div>
+    {LIST_JS}"""
+    schema = [
+        {"@context": "https://schema.org", "@type": "WebPage", "name": cfg["h1"], "url": SITE_URL + path, "dateModified": today.isoformat(),
+         "description": f"Kalshi {cfg['noun']} ranked by contracts traded, price, and time to settlement."},
+        {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faqs]},
+    ]
+    out = page_shell(
+        title=f"{cfg['h1']} ({nice}) | Dollar Bets",
+        description=f"Kalshi {cfg['noun']} today, ranked by contracts traded: most traded, closest calls, and longshots, with prices and payouts. Updated {nice}.",
+        body=body, canonical=path, noindex=not rows,
+        extra_head=CHIP_CSS + "".join(f'<script type="application/ld+json">{json.dumps(sc)}</script>' for sc in schema),
+        compact_header=True, article=True, sticky_html="")
+    write_page(f"{cfg['slug']}/index.html", out)
+    print(f"[best-kalshi] {cfg['slug']}: {len(rows)} rows, {len(parts)} sections{'' if rows else ' (noindex, no data)'}")
+
+
+def build_fees(now):
+    today = CALC_UPDATED
+    nice = nyt_date(today)
+    prices = (0.01, 0.05, 0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80, 0.90, 0.95, 0.99)
+    rows = "".join(
+        f"<tr><td>{cents(p)}</td><td>${fee(1, p):.2f}</td><td>${fee(100, p):.2f}</td><td>{100*FEE_RATE*(1-p):.1f}%</td><td>{100*(p + FEE_RATE*p*(1-p)):.2f}%</td></tr>"
+        for p in prices)
+    faqs = [
+        ("Does Kalshi charge fees?",
+         "Yes. Kalshi charges a trading fee when an order matches immediately: 0.07 times the number of contracts, times the price, times one minus the price, rounded up. There is no fee to settle a winning contract and no membership fee."),
+        ("How much are Kalshi fees on a $100 trade?",
+         "It depends on the price. $100 of contracts at 50¢ carries a $3.50 fee. $100 of contracts at 10¢ carries $6.30, and $100 of contracts at 90¢ carries $0.70. The fee as a share of your stake is 7% times one minus the price."),
+        ("How do you avoid Kalshi fees?",
+         "Kalshi charges the trading fee on orders that match immediately. A limit order that rests on the order book and is filled later pays no trading fee on most markets. Some markets carry a smaller maker fee, listed in Kalshi's fee schedule."),
+        ("Does Kalshi charge to deposit or withdraw?",
+         "Kalshi's fee schedule lists no fee for ACH deposits or withdrawals and a maximum fee of 2% on debit card deposits. Kalshi does not add a fee to wire deposits, though your bank may. Crypto deposits and withdrawals may carry fees from Kalshi's payment processor."),
+        ("Are Kalshi fees lower than a sportsbook's?",
+         "On an even-money bet, yes. A sportsbook's standard -110 line needs a 52.38% win rate to break even. A Kalshi contract bought at 50¢ with the trading fee needs 51.75%, and one bought with a resting order needs 50%."),
+    ]
+    faq_html = "".join(f'<h3>{esc(q)}</h3><p>{esc(a)}</p>' for q, a in faqs)
+    body = f"""    <h1 class="page-title">Kalshi Fees</h1>
+    <div class="byline">By <a href="/about/">Dollar Bets Staff</a> &middot; Updated <time datetime="{today.isoformat()}">{nice}</time></div>
+    <div class="sourcing">From <a href="https://kalshi.com/docs/kalshi-fee-schedule.pdf" rel="noopener">Kalshi's fee schedule</a>, effective July 7, 2026 &middot; <a href="/editorial-policy/">Editorial policy</a></div>
+    <p class="dek" role="doc-abstract">Kalshi charges a trading fee of 0.07 &times; contracts &times; price &times; (1 &minus; price), rounded up, when your order matches immediately. That is at most 1.75¢ per contract, at a price of 50¢. Settlement is free, and a resting limit order pays no fee on most markets.</p>
+    <div class="article-body" style="margin-top:6px">
+      <h2 id="table">Kalshi trading fee by price</h2>
+      <table class="fee-table"><thead><tr><th>Price</th><th>Fee, 1 contract</th><th>Fee, 100 contracts</th><th>Fee as share of stake</th><th>Break-even chance</th></tr></thead><tbody>{rows}</tbody></table>
+      <p>The fee is charged on what you stand to win, weighted by the chance of winning it, so it peaks at 50¢ and falls away toward 1¢ and 99¢. As a share of your stake it runs the other way: a cheap longshot pays close to 7% of the stake in fees, and a 90¢ favorite pays 0.7%. The break-even column is the win rate a buyer needs at that price once the fee is paid.</p>
+      <a class="calc-cta" href="{CALC_PATH}">Work out the fee on your trade &raquo;</a>
+      <h2 id="taker">When Kalshi charges the fee</h2>
+      <p>The trading fee applies to orders that are matched immediately against orders already on the book. Buying at the offered price is that kind of order. Selling a position before the market settles is a second trade, with its own fee at the selling price.</p>
+      <p>An order that is not matched immediately rests on the book. On most markets a resting order pays no trading fee when it is later filled. Kalshi lists the markets that carry a maker fee: 0.0175 &times; contracts &times; price &times; (1 &minus; price), a quarter of the standard rate. Canceling a resting order costs nothing.</p>
+      <p>Some markets use a fee multiplier that raises or lowers the standard rate. The order ticket on Kalshi shows the exact fee before you confirm.</p>
+      <h2 id="other">Settlement, deposits, and withdrawals</h2>
+      <ul class="article-list">
+        <li><strong>Settlement:</strong> no fee. A winning contract pays its full $1.</li>
+        <li><strong>Membership:</strong> no fee.</li>
+        <li><strong>ACH deposits and withdrawals:</strong> no fee.</li>
+        <li><strong>Debit card deposits:</strong> a maximum fee of 2%.</li>
+        <li><strong>Wire deposits:</strong> no fee from Kalshi. Your bank may charge its own.</li>
+        <li><strong>Crypto deposits and withdrawals:</strong> may carry fees from Kalshi's payment processor, shown before the transaction.</li>
+      </ul>
+      <h2 id="sportsbook">Kalshi fees against a sportsbook line</h2>
+      <p>A sportsbook builds its charge into the odds. At the standard -110 on both sides, a bettor risks $110 to win $100 and needs to win 52.38% of the time to break even. A Kalshi contract bought at 50¢ costs 51.75¢ with the fee, so the break-even is 51.75%. Bought with a resting order on a market with no maker fee, it is 50%.</p>
+      <p>The comparison holds at even money. Kalshi prices are set by other traders, so the price itself can be better or worse than a sportsbook's line on the same game.</p>
+      <h2 id="faq">Frequently asked questions</h2>
+      {faq_html}
+    </div>
+    <div class="affiliate-strip">Affiliate disclosure: Dollar Bets may earn a commission if you sign up to Kalshi through our links, never a cut of your bet. <a href="/affiliate-disclosure/">Full disclosure &rarr;</a></div>
+    <div class="internal-links"><div class="internal-links-row">related: <a href="{CALC_PATH}">Kalshi payout calculator</a> &middot; <a href="{LIST_PATH}">best Kalshi bets today</a> &middot; <a href="/kalshi-vs-polymarket/">Kalshi vs. Polymarket</a> &middot; <a href="/kalshi-perpetuals/">Kalshi perpetuals</a></div></div>
+    <div class="compliance-strip">Dollar Bets is an editorial and entertainment site. We do not operate markets or provide betting advice. Fees are from Kalshi's published fee schedule and can change; fees on some markets differ. Kalshi is a CFTC-regulated exchange, age-gated and not available in every state.</div>"""
+    schema = [
+        {"@context": "https://schema.org", "@type": "Article", "headline": "Kalshi Fees", "url": SITE_URL + FEES_PATH, "datePublished": today.isoformat(), "dateModified": today.isoformat(),
+         "author": {"@type": "Organization", "name": "Dollar Bets"}, "publisher": {"@type": "Organization", "name": "Dollar Bets"}},
+        {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faqs]},
+    ]
+    out = page_shell(
+        title="Kalshi Fees: What Every Trade Costs | Dollar Bets",
+        description="Kalshi fees explained: the trading fee formula, a fee table by price, when a limit order pays nothing, and deposit and withdrawal costs.",
+        body=body, canonical=FEES_PATH,
+        extra_head=f"<style>{CALC_CSS}</style>" + "".join(f'<script type="application/ld+json">{json.dumps(sc)}</script>' for sc in schema),
+        compact_header=True, article=True, sticky_html="")
+    write_page("kalshi-fees/index.html", out)
+    print("[best-kalshi] fees page written")
+
+
 def main():
     now = datetime.datetime.now(datetime.timezone.utc)
     build_list(now)
+    for cfg in CATEGORIES:
+        build_category(cfg, now)
     build_calc(now)
+    build_fees(now)
 
 
 if __name__ == "__main__":
