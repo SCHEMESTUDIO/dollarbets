@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-11-21T03:05:57.076076+00:00",
+  "board_date": "2026-11-21",
+  "link_mode": "reply",
+  "selections": [
+    {
+      "ticker": "pmus-287229",
+      "rank": 1,
+      "selection_reason": "Quip is instantly legible and darkly funny standalone, measles outbreak is culturally current and weird enough to screenshot, solid 2.27 payout",
+      "title": "US measles cases top 7,500 this year",
+      "quip": "Oregon Trail, but the river crossing is a Whole Foods parking lot",
+      "payout": 2.27,
+      "platform": "polymarket_us",
+      "tier": "green",
+      "category": "Science and Technology",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-287229/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-287229/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-287229/og.png",
+      "content": {
+        "x_tweet_text": "Oregon Trail, but the river crossing is a Whole Foods parking lot",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-21",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>US measles cases top 7,500 this year</b>\n\n\u201c<i>Oregon Trail, but the river crossing is a Whole Foods parking lot</i>\u201d\n\n$1 pays $2.27\n\n<a href=\"https://www.dollarbets.lol/share/pmus-287229/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "STARSHIPMARS-29DEC31",
+      "rank": 2,
+      "selection_reason": "Mars volunteering joke lands hard without context, Starship is culturally legible/meme-ready, 8.33 payout is juicy enough to make people click",
+      "title": "Starship puts humans on Mars before 2030",
+      "quip": "whoever volunteers for this has already been divorced at least twice",
+      "payout": 8.33,
+      "platform": null,
+      "tier": "orange",
+      "category": "Companies",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/STARSHIPMARS-29DEC31/",
+      "image_url": "https://www.dollarbets.lol/share/STARSHIPMARS-29DEC31/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/STARSHIPMARS-29DEC31/og.png",
+      "content": {
+        "x_tweet_text": "whoever volunteers for this has already been divorced at least twice",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-21",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Starship puts humans on Mars before 2030</b>\n\n\u201c<i>whoever volunteers for this has already been divorced at least twice</i>\u201d\n\n$1 pays $8.33\n\n<a href=\"https://www.dollarbets.lol/share/STARSHIPMARS-29DEC31/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-1446842",
+      "rank": 3,
+      "selection_reason": "today's filthy little longshot \u2014 the board's own hero pick",
+      "title": "Disclosure Day wins Best Original Score",
+      "quip": "like a 13 seed cutting down the nets with a walk-on at center",
+      "payout": 100.0,
+      "platform": "polymarket_us",
+      "tier": "purple",
+      "category": "Entertainment",
+      "card_variant": "ticket",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1446842/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1446842/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1446842/og.png",
+      "content": {
+        "x_tweet_text": "like a 13 seed cutting down the nets with a walk-on at center",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-21",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Disclosure Day wins Best Original Score</b>\n\n\u201c<i>like a 13 seed cutting down the nets with a walk-on at center</i>\u201d\n\n$1 pays $100\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1446842/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    }
+  ]
+}
