@@ -1,42 +1,50 @@
 {
- "generated_at": "2026-11-20T02:56:14.750980+00:00",
+ "generated_at": "2026-11-21T03:04:41.302597+00:00",
  "markets": {
-  "KXNHLF10G-26NOV21NYIDET-Y": {
-   "title": "Somebody scores in the first 10 minutes tonight",
+  "KXNHLF10G-26NOV22CARNYR-Y": {
+   "title": "A goal lands in the first 10 minutes tonight",
    "platform": "kalshi",
-   "payout": 1.72,
+   "payout": 1.67,
    "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Sports",
    "alts": {
     "kalshi": {
-     "ticker": "KXNHLF10G-26NOV21NYIDET-Y",
-     "title": "Somebody scores in the first 10 minutes tonight",
+     "ticker": "KXNHLF10G-26NOV22CARNYR-Y",
+     "title": "A goal lands in the first 10 minutes tonight",
      "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 1.72,
+     "payout": 1.67,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXDEELRIP-40-RIPP": {
-   "title": "Rippling beats Deel to the IPO",
-   "platform": "kalshi",
-   "payout": 2.38,
-   "url": "https://kalshi.com/markets/KXDEELRIP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Financials",
+  "pmus-287229": {
+   "title": "US measles cases top 7,500 this year",
+   "platform": "polymarket_us",
+   "payout": 2.27,
+   "url": "https://polymarket.us/event/measles-us-2026-12-31?marketSlug=dccc-measles-us-2026-12-31-gt7500",
+   "category": "Science and Technology",
    "alts": {
-    "kalshi": {
-     "ticker": "KXDEELRIP-40-RIPP",
-     "title": "Rippling beats Deel to the IPO",
-     "url": "https://kalshi.com/markets/KXDEELRIP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 2.38,
+    "polymarket_us": {
+     "ticker": "pmus-287229",
+     "title": "US measles cases top 7,500 this year",
+     "url": "https://polymarket.us/event/measles-us-2026-12-31?marketSlug=dccc-measles-us-2026-12-31-gt7500",
+     "payout": 2.27,
      "same": true,
      "sim": 1.0
+    },
+    "kalshi": {
+     "ticker": "KXMEASLES-27-10000",
+     "title": "Measles cases in 2027?",
+     "url": "https://kalshi.com/markets/KXMEASLES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 6.25,
+     "same": false,
+     "sim": 0.5
     }
    }
   },
   "pmus-2434237": {
-   "title": "Inflation tops 3.7% in November",
+   "title": "Inflation comes in above 3.7% in November",
    "platform": "polymarket_us",
    "payout": 2.7,
    "url": "https://polymarket.us/event/uscpi-nov-yoy-2026-12-10?marketSlug=cpic-uscpi-nov-yoy-2026-12-10-gt3pt7pct",
@@ -44,7 +52,7 @@
    "alts": {
     "polymarket_us": {
      "ticker": "pmus-2434237",
-     "title": "Inflation tops 3.7% in November",
+     "title": "Inflation comes in above 3.7% in November",
      "url": "https://polymarket.us/event/uscpi-nov-yoy-2026-12-10?marketSlug=cpic-uscpi-nov-yoy-2026-12-10-gt3pt7pct",
      "payout": 2.7,
      "same": true,
@@ -52,52 +60,60 @@
     }
    }
   },
-  "pmus-2116970": {
-   "title": "GPT Terra 6.2 lands before 2027",
+  "pmus-2147429": {
+   "title": "Texas enacts a data center moratorium this year",
    "platform": "polymarket_us",
-   "payout": 3.57,
-   "url": "https://polymarket.us/event/openai-gpt-terra-gte6pt2?marketSlug=aimc-openai-gpt-terra-gte6pt2-2026-12-31",
-   "category": "Science and Technology",
+   "payout": 3.12,
+   "url": "https://polymarket.us/event/tx-datactrmor?marketSlug=lawec-tx-datactrmor-2026-12-31",
+   "category": "World",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-2116970",
-     "title": "GPT Terra 6.2 lands before 2027",
-     "url": "https://polymarket.us/event/openai-gpt-terra-gte6pt2?marketSlug=aimc-openai-gpt-terra-gte6pt2-2026-12-31",
-     "payout": 3.57,
+     "ticker": "pmus-2147429",
+     "title": "Texas enacts a data center moratorium this year",
+     "url": "https://polymarket.us/event/tx-datactrmor?marketSlug=lawec-tx-datactrmor-2026-12-31",
+     "payout": 3.12,
      "same": true,
      "sim": 1.0
+    },
+    "polymarket": {
+     "ticker": "0xada358aecc6681e630ff79ecb925d9f06a2da1ab2d271590f2e4251a6f8f41e6",
+     "title": "Will Texas enact a data center moratorium by June 30, 2027?",
+     "url": "https://polymarket.com/event/texas-enacts-data-center-moratorium-by-20260928",
+     "payout": 6.45,
+     "same": false,
+     "sim": 0.67
     }
    }
   },
-  "pmus-2362813": {
-   "title": "I Play Rocky lands a Golden Globe nod",
-   "platform": "polymarket_us",
+  "KXNCAAFFIRSTTDTEAM-26NOV21RUTGPSU-RUTG": {
+   "title": "Rutgers scores the game's first touchdown",
+   "platform": "kalshi",
    "payout": 4.76,
-   "url": "https://polymarket.us/event/globes-nom-picmc-2026-12-07?marketSlug=tac-globes-nom-picmc-2026-12-07-ipla",
-   "category": "Entertainment",
+   "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Sports",
    "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-2362813",
-     "title": "I Play Rocky lands a Golden Globe nod",
-     "url": "https://polymarket.us/event/globes-nom-picmc-2026-12-07?marketSlug=tac-globes-nom-picmc-2026-12-07-ipla",
+    "kalshi": {
+     "ticker": "KXNCAAFFIRSTTDTEAM-26NOV21RUTGPSU-RUTG",
+     "title": "Rutgers scores the game's first touchdown",
+     "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
      "payout": 4.76,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-2639687": {
-   "title": "Angie Craig wins Minnesota's Democratic Senate nod",
+  "pmus-1279173": {
+   "title": "Stefan Krkobabic becomes Serbia's next prime minister",
    "platform": "polymarket_us",
-   "payout": 6.25,
-   "url": "https://polymarket.us/event/ussep-mn-2027-08-10-dem?marketSlug=enwc-ussep-mn-2027-08-10-dem-angcra",
+   "payout": 5.26,
+   "url": "https://polymarket.us/event/srbpm-2026-10-25?marketSlug=mlaec-srbpm-2026-10-25-stekrk",
    "category": "World",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-2639687",
-     "title": "Angie Craig wins Minnesota's Democratic Senate nod",
-     "url": "https://polymarket.us/event/ussep-mn-2027-08-10-dem?marketSlug=enwc-ussep-mn-2027-08-10-dem-angcra",
-     "payout": 6.25,
+     "ticker": "pmus-1279173",
+     "title": "Stefan Krkobabic becomes Serbia's next prime minister",
+     "url": "https://polymarket.us/event/srbpm-2026-10-25?marketSlug=mlaec-srbpm-2026-10-25-stekrk",
+     "payout": 5.26,
      "same": true,
      "sim": 1.0
     }
@@ -120,35 +136,10 @@
     }
    }
   },
-  "pmus-1322702": {
-   "title": "The 30-year mortgage hits 7.60% this year",
-   "platform": "polymarket_us",
-   "payout": 12.5,
-   "url": "https://polymarket.us/event/usmort30-hi-yr-2026-12-31?marketSlug=pmmsc-usmort30-hi-yr-2026-12-31-gte7pt60",
-   "category": "Other",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-1322702",
-     "title": "The 30-year mortgage hits 7.60% this year",
-     "url": "https://polymarket.us/event/usmort30-hi-yr-2026-12-31?marketSlug=pmmsc-usmort30-hi-yr-2026-12-31-gte7pt60",
-     "payout": 12.5,
-     "same": true,
-     "sim": 1.0
-    },
-    "kalshi": {
-     "ticker": "KXFM30YMTG-27EOY-T6.00",
-     "title": "30-year mortgage rate at the end of 2027",
-     "url": "https://kalshi.com/markets/KXFM30YMTG?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 1.32,
-     "same": false,
-     "sim": 0.5
-    }
-   }
-  },
   "MOON-27DEC31": {
    "title": "NASA lands a person on the Moon before 2028",
    "platform": "kalshi",
-   "payout": 15.38,
+   "payout": 13.33,
    "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Science and Technology",
    "alts": {
@@ -156,23 +147,40 @@
      "ticker": "MOON-27DEC31",
      "title": "NASA lands a person on the Moon before 2028",
      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 15.38,
+     "payout": 13.33,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXNCAAFFIRSTTDTEAM-26NOV21BYUKU-NONE": {
-   "title": "No team scores a touchdown tonight",
-   "platform": "kalshi",
-   "payout": 100.0,
-   "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Sports",
+  "pmus-276826": {
+   "title": "sombr lands a #1 album this year",
+   "platform": "polymarket_us",
+   "payout": 50.0,
+   "url": "https://polymarket.us/event/bilbrd-1album-any2026?marketSlug=ccpc-bilbrd-1album-any2026-sombr",
+   "category": "Entertainment",
    "alts": {
-    "kalshi": {
-     "ticker": "KXNCAAFFIRSTTDTEAM-26NOV21BYUKU-NONE",
-     "title": "No team scores a touchdown tonight",
-     "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+    "polymarket_us": {
+     "ticker": "pmus-276826",
+     "title": "sombr lands a #1 album this year",
+     "url": "https://polymarket.us/event/bilbrd-1album-any2026?marketSlug=ccpc-bilbrd-1album-any2026-sombr",
+     "payout": 50.0,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-1446842": {
+   "title": "Disclosure Day wins Best Original Score",
+   "platform": "polymarket_us",
+   "payout": 100.0,
+   "url": "https://polymarket.us/event/oscars-03-14-2027-bestscore?marketSlug=tac-oscars-03-14-2027-bestscore-disday",
+   "category": "Entertainment",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-1446842",
+     "title": "Disclosure Day wins Best Original Score",
+     "url": "https://polymarket.us/event/oscars-03-14-2027-bestscore?marketSlug=tac-oscars-03-14-2027-bestscore-disday",
      "payout": 100.0,
      "same": true,
      "sim": 1.0

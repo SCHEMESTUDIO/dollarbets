@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-11-21T03:05:31.806398+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "NCAAF": 5,
+    "Multi": 5
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-4BF28F7A",
+      "title": "Cincinnati Bearcats wins + Delaware Blue Hens wins",
+      "payout": 2.9,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999579&selectionId=36007278",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Colorado Buffaloes @ Cincinnati Bearcats + Delaware Blue Hens @ New Mexico State Aggies",
+      "market_type": "2-leg parlay",
+      "american_odds": 190,
+      "implied_probability": 0.345,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Colorado Buffaloes @ Cincinnati Bearcats",
+          "pick": "Cincinnati Bearcats wins",
+          "odds": -142,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999579&selectionId=36007278",
+          "commence_time": "2026-11-21T17:00:00Z"
+        },
+        {
+          "matchup": "Delaware Blue Hens @ New Mexico State Aggies",
+          "pick": "Delaware Blue Hens wins",
+          "odds": -142,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625001680&selectionId=661910",
+          "commence_time": "2026-11-21T20:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-21T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-02F1D1C1",
+      "title": "Marshall Thundering Herd wins + Cincinnati Bearcats wins",
+      "payout": 2.92,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625002371&selectionId=532782",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Georgia State Panthers @ Marshall Thundering Herd + Colorado Buffaloes @ Cincinnati Bearcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 192,
+      "implied_probability": 0.342,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Georgia State Panthers @ Marshall Thundering Herd",
+          "pick": "Marshall Thundering Herd wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625002371&selectionId=532782",
+          "commence_time": "2026-11-21T21:00:00Z"
+        },
+        {
+          "matchup": "Colorado Buffaloes @ Cincinnati Bearcats",
+          "pick": "Cincinnati Bearcats wins",
+          "odds": -142,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999579&selectionId=36007278",
+          "commence_time": "2026-11-21T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-21T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-3FE35513",
+      "title": "Marshall Thundering Herd wins + Delaware Blue Hens wins",
+      "payout": 2.92,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625002371&selectionId=532782",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Georgia State Panthers @ Marshall Thundering Herd + Delaware Blue Hens @ New Mexico State Aggies",
+      "market_type": "2-leg parlay",
+      "american_odds": 192,
+      "implied_probability": 0.342,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Georgia State Panthers @ Marshall Thundering Herd",
+          "pick": "Marshall Thundering Herd wins",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625002371&selectionId=532782",
+          "commence_time": "2026-11-21T21:00:00Z"
+        },
+        {
+          "matchup": "Delaware Blue Hens @ New Mexico State Aggies",
+          "pick": "Delaware Blue Hens wins",
+          "odds": -142,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625001680&selectionId=661910",
+          "commence_time": "2026-11-21T20:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-21T20:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-13F52705",
+      "title": "Kentucky Wildcats +14.5 + Cincinnati Bearcats wins",
+      "payout": 2.92,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626992904&selectionId=332189",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Kentucky Wildcats @ Indiana Hoosiers + Colorado Buffaloes @ Cincinnati Bearcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 192,
+      "implied_probability": 0.342,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Kentucky Wildcats @ Indiana Hoosiers",
+          "pick": "Kentucky Wildcats +14.5",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626992904&selectionId=332189",
+          "commence_time": "2026-11-21T01:00:00Z"
+        },
+        {
+          "matchup": "Colorado Buffaloes @ Cincinnati Bearcats",
+          "pick": "Cincinnati Bearcats wins",
+          "odds": -142,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999579&selectionId=36007278",
+          "commence_time": "2026-11-21T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-21T01:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-26512C9E",
+      "title": "Kentucky Wildcats +14.5 + Delaware Blue Hens wins",
+      "payout": 2.92,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626992904&selectionId=332189",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Kentucky Wildcats @ Indiana Hoosiers + Delaware Blue Hens @ New Mexico State Aggies",
+      "market_type": "2-leg parlay",
+      "american_odds": 192,
+      "implied_probability": 0.342,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Kentucky Wildcats @ Indiana Hoosiers",
+          "pick": "Kentucky Wildcats +14.5",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626992904&selectionId=332189",
+          "commence_time": "2026-11-21T01:00:00Z"
+        },
+        {
+          "matchup": "Delaware Blue Hens @ New Mexico State Aggies",
+          "pick": "Delaware Blue Hens wins",
+          "odds": -142,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625001680&selectionId=661910",
+          "commence_time": "2026-11-21T20:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-21T01:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-D946948E",
+      "title": "Over 5.5 + Cincinnati Bearcats wins",
+      "payout": 2.92,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626714822&selectionId=7017911",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "New Jersey Devils @ St Louis Blues + Colorado Buffaloes @ Cincinnati Bearcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 192,
+      "implied_probability": 0.342,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New Jersey Devils @ St Louis Blues",
+          "pick": "Over 5.5",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626714822&selectionId=7017911",
+          "commence_time": "2026-11-22T00:00:00Z"
+        },
+        {
+          "matchup": "Colorado Buffaloes @ Cincinnati Bearcats",
+          "pick": "Cincinnati Bearcats wins",
+          "odds": -142,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999579&selectionId=36007278",
+          "commence_time": "2026-11-21T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-21T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-3818B3C1",
+      "title": "Over 5.5 + Delaware Blue Hens wins",
+      "payout": 2.92,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626714822&selectionId=7017911",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "New Jersey Devils @ St Louis Blues + Delaware Blue Hens @ New Mexico State Aggies",
+      "market_type": "2-leg parlay",
+      "american_odds": 192,
+      "implied_probability": 0.342,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "New Jersey Devils @ St Louis Blues",
+          "pick": "Over 5.5",
+          "odds": -140,
+          "implied_prob": "58%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626714822&selectionId=7017911",
+          "commence_time": "2026-11-22T00:00:00Z"
+        },
+        {
+          "matchup": "Delaware Blue Hens @ New Mexico State Aggies",
+          "pick": "Delaware Blue Hens wins",
+          "odds": -142,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625001680&selectionId=661910",
+          "commence_time": "2026-11-21T20:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-21T20:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-1B4430BF",
+      "title": "Memphis Tigers wins + Cincinnati Bearcats wins",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999744&selectionId=975027",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Memphis Tigers @ Navy Midshipmen + Colorado Buffaloes @ Cincinnati Bearcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 194,
+      "implied_probability": 0.34,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Memphis Tigers @ Navy Midshipmen",
+          "pick": "Memphis Tigers wins",
+          "odds": -138,
+          "implied_prob": "58%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999744&selectionId=975027",
+          "commence_time": "2026-11-21T17:00:00Z"
+        },
+        {
+          "matchup": "Colorado Buffaloes @ Cincinnati Bearcats",
+          "pick": "Cincinnati Bearcats wins",
+          "odds": -142,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999579&selectionId=36007278",
+          "commence_time": "2026-11-21T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-21T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-4809C170",
+      "title": "Memphis Tigers wins + Delaware Blue Hens wins",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999744&selectionId=975027",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Memphis Tigers @ Navy Midshipmen + Delaware Blue Hens @ New Mexico State Aggies",
+      "market_type": "2-leg parlay",
+      "american_odds": 194,
+      "implied_probability": 0.34,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Memphis Tigers @ Navy Midshipmen",
+          "pick": "Memphis Tigers wins",
+          "odds": -138,
+          "implied_prob": "58%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999744&selectionId=975027",
+          "commence_time": "2026-11-21T17:00:00Z"
+        },
+        {
+          "matchup": "Delaware Blue Hens @ New Mexico State Aggies",
+          "pick": "Delaware Blue Hens wins",
+          "odds": -142,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625001680&selectionId=661910",
+          "commence_time": "2026-11-21T20:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-21T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-4F2E5185",
+      "title": "Over 6.5 + Cincinnati Bearcats wins",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.34",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626714874&selectionId=7017911",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Anaheim Ducks @ Utah Mammoth + Colorado Buffaloes @ Cincinnati Bearcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 194,
+      "implied_probability": 0.34,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Anaheim Ducks @ Utah Mammoth",
+          "pick": "Over 6.5",
+          "odds": -138,
+          "implied_prob": "58%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626714874&selectionId=7017911",
+          "commence_time": "2026-11-22T02:00:00Z"
+        },
+        {
+          "matchup": "Colorado Buffaloes @ Cincinnati Bearcats",
+          "pick": "Cincinnati Bearcats wins",
+          "odds": -142,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624999579&selectionId=36007278",
+          "commence_time": "2026-11-21T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-21T17:00:00Z"
+    }
+  ]
+}

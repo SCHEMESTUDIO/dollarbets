@@ -1,0 +1,597 @@
+{
+  "generated_at": "2026-11-21T03:04:41.303322+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 4,
+    "polymarket_us": 6,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "KXNHLF10G-26NOV22CARNYR-Y",
+      "title": "A goal lands in the first 10 minutes tonight",
+      "subtitle": "CAR vs NYR (Nov 22)",
+      "yes_sub_title": "Goal in first 10 min",
+      "no_sub_title": "Goal in first 10 min",
+      "payout": 1.67,
+      "tier": "green",
+      "quip": "Rangers crowd booing by minute eleven either way",
+      "yes_price": "0.6000",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-24T17:30:00Z",
+      "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 31.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "puck drops, i go get a beer, miss the whole thing, worth it",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "i have never once been in my seat for the first ten minutes",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "early goals, late arrivals",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "ten minutes and $1.67, the exact cost of arena mustard",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Rangers crowd booing by minute eleven either way",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "like a first quarter dunk in a game nobody watches until April",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Miracle on Ice except the montage starts immediately",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "a goal before the nachos arrive is the purest form of hockey",
+          "mode": 3,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-287229",
+      "title": "US measles cases top 7,500 this year",
+      "subtitle": "",
+      "payout": 2.27,
+      "tier": "green",
+      "quip": "Oregon Trail, but the river crossing is a Whole Foods parking lot",
+      "yes_price": "0.4400",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/measles-us-2026-12-31?marketSlug=dccc-measles-us-2026-12-31-gt7500",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "anti-vax moms discovering the 1850s had a certain vibe",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "i got my MMR twice already and i'm getting it again out of spite",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the 1800s are back",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "7,500 cases and one guy on Facebook blaming the chemtrails",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "pediatricians dusting off the poster they assumed was decoration",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "Oregon Trail, but the river crossing is a Whole Foods parking lot",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we did our research,\" she says, holding an Instagram carousel",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "incredible comeback season for a disease we beat in 2000",
+          "mode": 3,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2434237",
+      "title": "Inflation comes in above 3.7% in November",
+      "subtitle": "",
+      "payout": 2.7,
+      "tier": "green",
+      "quip": "a single banana is now $3.70 and comes with a warranty",
+      "yes_price": "0.3700",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2026-12-25T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/uscpi-nov-yoy-2026-12-10?marketSlug=cpic-uscpi-nov-yoy-2026-12-10-gt3pt7pct",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "a single banana is now $3.70 and comes with a warranty",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "my grocery run has turned into a quarterly earnings call",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the egg guy returns",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "Powell sweating through shirt number two before the podium",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "somewhere a Fed governor is telling you to try store brand",
+          "mode": 7,
+          "score": 7
+        },
+        {
+          "quip": "\"transitory,\" he whispers, to nobody, in a parking garage",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "i do love when the number goes up, keeps the month spicy",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "CPI doing the Lakers thing where it refuses to be irrelevant",
+          "mode": 6,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2147429",
+      "title": "Texas enacts a data center moratorium this year",
+      "subtitle": "",
+      "payout": 3.12,
+      "tier": "yellow",
+      "quip": "3.12 gigawatts and a $3.12 payout. somewhere Doc Brown is nodding",
+      "yes_price": "0.3200",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2029-01-15T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/tx-datactrmor?marketSlug=lawec-tx-datactrmor-2026-12-31",
+      "platform": "polymarket_us",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "Texas puts the AI in time-out and ERCOT sends flowers",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "i did not have Texas regulating anything on my card this year",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "the grid said enough",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "Abbott picking air conditioning over the robots, and honestly, respect",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "3.12 gigawatts and a $3.12 payout. somewhere Doc Brown is nodding",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "this is Texas telling the cloud to get off its lawn",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "i love a state built on oil suddenly saying no to electricity",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "\"y'all got enough servers,\" says man in boots, correctly",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXNCAAFFIRSTTDTEAM-26NOV21RUTGPSU-RUTG",
+      "title": "Rutgers scores the game's first touchdown",
+      "subtitle": "RUTG vs PSU (Nov 21)",
+      "yes_sub_title": "Rutgers",
+      "no_sub_title": "Rutgers",
+      "payout": 4.76,
+      "tier": "yellow",
+      "quip": "Piscataway erupts, then quietly remembers there are three more quarters",
+      "yes_price": "0.2100",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-23T20:30:00Z",
+      "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 56.0,
+      "_specificity": 5,
+      "quip_alts": [
+        {
+          "quip": "this is the whole Rutgers season and i'm happy for them",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "my uncle went to Rutgers and we do not bring it up",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Jersey's one good drive",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "like your beer league team scoring on the opening shift",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Piscataway erupts, then quietly remembers there are three more quarters",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "$4.76 and a complimentary tour of a New Brunswick parking deck",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "birthplace of college football finally allowed a nice thing",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "Sopranos opening credits energy on a seven yard slant",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1279173",
+      "title": "Stefan Krkobabic becomes Serbia's next prime minister",
+      "subtitle": "",
+      "payout": 5.26,
+      "tier": "yellow",
+      "quip": "a Serbian coalition is the NBA trade deadline with more cigarettes",
+      "yes_price": "0.1900",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-04-16T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/srbpm-2026-10-25?marketSlug=mlaec-srbpm-2026-10-25-stekrk",
+      "platform": "polymarket_us",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "i said Krkobabic out loud and my phone called my mother",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "i'm going to pretend i've followed Serbian politics since 2012",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "vowels are optional here",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "Belgrade caf\u00e9s arguing about this until 4am, which is just Tuesday",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "a Serbian coalition is the NBA trade deadline with more cigarettes",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "that name is a Mortal Kombat fatality and you know it",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "eleven consonants, one prime minister, zero press conferences in English",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Serbia deserves a leader autocorrect flat out refuses to learn",
+          "mode": 7,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "STARSHIPMARS-29DEC31",
+      "title": "Starship puts humans on Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Not Before 2030",
+      "payout": 8.33,
+      "tier": "orange",
+      "quip": "whoever volunteers for this has already been divorced at least twice",
+      "yes_price": "0.1200",
+      "volume": 55723.06,
+      "category": "Companies",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Interstellar, except the docking scene is a software update pushed overnight",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "i will watch the launch live and then cry at my desk",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "four years. sure, buddy",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "first words spoken on Mars are a Starlink ad read",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "whoever volunteers for this has already been divorced at least twice",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "humans on Mars by 2030 would genuinely be the hardest thing i've ever seen",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "\"we'll iterate.\" the ship exploded. \"that's data.\"",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "$8.33, same price as the water at the Mars gift shop",
+          "mode": 5,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA lands a person on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 13.33,
+      "tier": "orange",
+      "quip": "Russia watching this with a bowl of soup and no comment",
+      "yes_price": "0.0750",
+      "volume": 230913.32,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i'm requesting the day off work and my boss is denying it",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "flag goes in, then somebody asks for one more take for content",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "the moon, again, somehow",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "like rebooting the same movie with worse lighting and a bigger budget",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "93 billion in and the payout is $13.33, beautiful math",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Apollo 13 but everyone on board has a GoPro and a podcast",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Russia watching this with a bowl of soup and no comment",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "i need that dust kicked up in 4K so unbelievably bad",
+          "mode": 3,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-276826",
+      "title": "sombr lands a #1 album this year",
+      "subtitle": "",
+      "payout": 50.0,
+      "tier": "red",
+      "quip": "\"who?\" says my dad, humming along in the Honda",
+      "yes_price": "0.0200",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-01-10T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/bilbrd-1album-any2026?marketSlug=ccpc-bilbrd-1album-any2026-sombr",
+      "platform": "polymarket_us",
+      "score": 55.0,
+      "quip_alts": [
+        {
+          "quip": "my sister's playlist is about to be insufferable and completely correct",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the lowercase name alone is doing fifty dollars of heavy lifting",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "lowercase boy, uppercase chart",
+          "mode": 9,
+          "score": 5.5
+        },
+        {
+          "quip": "vinyl guy at the mall re-sorts the whole front display by Friday",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "like a mid-major grabbing a one seed while nobody checks the bracket",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Spotify Wrapped already knows and plans to hold it over me",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "sad guitar kid at the summit, let the boy have it",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "\"who?\" says my dad, humming along in the Honda",
+          "mode": 4,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1446842",
+      "title": "Disclosure Day wins Best Original Score",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "like a 13 seed cutting down the nets with a walk-on at center",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-03-29T03:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-03-14-2027-bestscore?marketSlug=tac-oscars-03-14-2027-bestscore-disday",
+      "platform": "polymarket_us",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "composer gets up there, thanks the aliens, gets played off immediately",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i have not seen this movie and i will defend it violently",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the aliens have a theme",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "a hundred bucks on a film i cannot locate on any service",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Close Encounters five notes, now with ninety strings and a choir",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "Academy voters nodding like they made it past the first act",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "give the trumpet guy the gold man, he earned every second",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "like a 13 seed cutting down the nets with a walk-on at center",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    }
+  ]
+}
