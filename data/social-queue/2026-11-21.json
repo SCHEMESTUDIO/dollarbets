@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-22T22:43:21.100943+00:00",
+          "tweet_id": "2124634867573166147",
+          "reply_tweet_id": "2124634869015924966"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "openverse",
+        "id": "8e467559-743d-411d-b725-bbbf1c6553cc",
+        "page": "https://commons.wikimedia.org/w/index.php?curid=36590098",
+        "photographer": "Bj\u00f8rn Christian T\u00f8rrissen derivative work: George Tsiagalakis",
+        "license": "CC BY-SA 3.0",
+        "phrases": [
+          "empty concert hall night",
+          "orchestra pit sheet music stand"
+        ],
+        "tokens": {
+          "input_tokens": 8283,
+          "output_tokens": 42
         }
       }
     }
