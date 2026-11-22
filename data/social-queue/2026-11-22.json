@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-11-22T02:01:41.904166+00:00",
+  "board_date": "2026-11-22",
+  "link_mode": "reply",
+  "selections": [
+    {
+      "ticker": "pmus-2506397",
+      "rank": 1,
+      "selection_reason": "Quip is completely self-contained and funny without needing the title; Suez shipping is weirdly specific and culturally legible; $2.94 payout has that 'wait really?' energy.",
+      "title": "320 ships squeeze through the Suez this week",
+      "quip": "320 ships and 319 of them hauling something i bought at 2am",
+      "payout": 2.94,
+      "platform": "polymarket_us",
+      "tier": "green",
+      "category": "World",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-2506397/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-2506397/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-2506397/og.png",
+      "content": {
+        "x_tweet_text": "320 ships and 319 of them hauling something i bought at 2am",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-22",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>320 ships squeeze through the Suez this week</b>\n\n\u201c<i>320 ships and 319 of them hauling something i bought at 2am</i>\u201d\n\n$1 pays $2.94\n\n<a href=\"https://www.dollarbets.lol/share/pmus-2506397/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-1048254",
+      "rank": 2,
+      "selection_reason": "Joe Jackson reference lands hard as standalone dark humor; Jaafar Jackson nomination is culturally specific enough to screenshot; $9.09 odds are juicy enough to comment on.",
+      "title": "Jaafar Jackson scores a Best Actor nomination",
+      "quip": "somewhere Joe Jackson is nodding and that is the unsettling part",
+      "payout": 9.09,
+      "platform": "polymarket_us",
+      "tier": "orange",
+      "category": "Science and Technology",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1048254/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1048254/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1048254/og.png",
+      "content": {
+        "x_tweet_text": "somewhere Joe Jackson is nodding and that is the unsettling part",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-22",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Jaafar Jackson scores a Best Actor nomination</b>\n\n\u201c<i>somewhere Joe Jackson is nodding and that is the unsettling part</i>\u201d\n\n$1 pays $9.09\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1048254/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-521802",
+      "rank": 3,
+      "selection_reason": "today's filthy little longshot \u2014 the board's own hero pick",
+      "title": "Cry to Heaven wins Best Picture",
+      "quip": "this is a 16 seed cutting the nets while CBS scrambles for any b-roll",
+      "payout": 100.0,
+      "platform": "polymarket_us",
+      "tier": "purple",
+      "category": "Entertainment",
+      "card_variant": "ticket",
+      "share_url": "https://www.dollarbets.lol/share/pmus-521802/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-521802/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-521802/og.png",
+      "content": {
+        "x_tweet_text": "this is a 16 seed cutting the nets while CBS scrambles for any b-roll",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-22",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Cry to Heaven wins Best Picture</b>\n\n\u201c<i>this is a 16 seed cutting the nets while CBS scrambles for any b-roll</i>\u201d\n\n$1 pays $100\n\n<a href=\"https://www.dollarbets.lol/share/pmus-521802/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    }
+  ]
+}
