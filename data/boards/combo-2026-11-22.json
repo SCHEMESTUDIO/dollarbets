@@ -1,0 +1,435 @@
+{
+  "generated_at": "2026-11-22T02:01:02.259036+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 10
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-329FE2EF",
+      "title": "San Francisco 49ers wins + Utah Mammoth wins",
+      "payout": 2.76,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028824897?coupon={pickType}|4421549971|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Seattle Seahawks @ San Francisco 49ers + Anaheim Ducks @ Utah Mammoth",
+      "market_type": "2-leg parlay",
+      "american_odds": 176,
+      "implied_probability": 0.362,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Seattle Seahawks @ San Francisco 49ers",
+          "pick": "San Francisco 49ers wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028824897?coupon={pickType}|4421549971|{wagerAmount}",
+          "commence_time": "2026-11-29T21:25:00Z"
+        },
+        {
+          "matchup": "Anaheim Ducks @ Utah Mammoth",
+          "pick": "Utah Mammoth wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028410114?coupon={pickType}|4424632113|{wagerAmount}",
+          "commence_time": "2026-11-22T02:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-22T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-676AA2C0",
+      "title": "Robert Whittaker wins + Utah Mammoth wins",
+      "payout": 2.76,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1029916420?coupon={pickType}|4423219393|{wagerAmount}",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Robert Whittaker @ Bogdan Guskov + Anaheim Ducks @ Utah Mammoth",
+      "market_type": "2-leg parlay",
+      "american_odds": 176,
+      "implied_probability": 0.362,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Robert Whittaker @ Bogdan Guskov",
+          "pick": "Robert Whittaker wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029916420?coupon={pickType}|4423219393|{wagerAmount}",
+          "commence_time": "2027-02-06T20:00:00Z"
+        },
+        {
+          "matchup": "Anaheim Ducks @ Utah Mammoth",
+          "pick": "Utah Mammoth wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028410114?coupon={pickType}|4424632113|{wagerAmount}",
+          "commence_time": "2026-11-22T02:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-22T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-33EBDAAA",
+      "title": "Over 2.5 + Utah Mammoth wins",
+      "payout": 2.76,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1029801388?coupon={pickType}|4418703625|{wagerAmount}",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Houston Dynamo @ San Jose Earthquakes + Anaheim Ducks @ Utah Mammoth",
+      "market_type": "2-leg parlay",
+      "american_odds": 176,
+      "implied_probability": 0.362,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Houston Dynamo @ San Jose Earthquakes",
+          "pick": "Over 2.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029801388?coupon={pickType}|4418703625|{wagerAmount}",
+          "commence_time": "2026-11-25T03:00:00Z"
+        },
+        {
+          "matchup": "Anaheim Ducks @ Utah Mammoth",
+          "pick": "Utah Mammoth wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028410114?coupon={pickType}|4424632113|{wagerAmount}",
+          "commence_time": "2026-11-22T02:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-22T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-9B388B14",
+      "title": "Chicago Bears wins + Utah Mammoth wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028824835?coupon={pickType}|4421487498|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Chicago Bears @ Detroit Lions + Anaheim Ducks @ Utah Mammoth",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Chicago Bears @ Detroit Lions",
+          "pick": "Chicago Bears wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028824835?coupon={pickType}|4421487498|{wagerAmount}",
+          "commence_time": "2026-11-26T18:00:00Z"
+        },
+        {
+          "matchup": "Anaheim Ducks @ Utah Mammoth",
+          "pick": "Utah Mammoth wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028410114?coupon={pickType}|4424632113|{wagerAmount}",
+          "commence_time": "2026-11-22T02:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-22T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-7E7AD97B",
+      "title": "Miami Heat wins + Utah Mammoth wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "clock in, cash out",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028754397?coupon={pickType}|4427237358|{wagerAmount}",
+      "sport": "basketball_nba",
+      "sport_display": "Multi",
+      "matchup": "Oklahoma City Thunder @ Miami Heat + Anaheim Ducks @ Utah Mammoth",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Oklahoma City Thunder @ Miami Heat",
+          "pick": "Miami Heat wins",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "basketball_nba",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028754397?coupon={pickType}|4427237358|{wagerAmount}",
+          "commence_time": "2026-11-22T23:10:00Z"
+        },
+        {
+          "matchup": "Anaheim Ducks @ Utah Mammoth",
+          "pick": "Utah Mammoth wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028410114?coupon={pickType}|4424632113|{wagerAmount}",
+          "commence_time": "2026-11-22T02:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-22T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-39D0C618",
+      "title": "Radford Highlanders -3.5 + Utah Mammoth wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "routine maintenance",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1029080436?coupon={pickType}|4427228642|{wagerAmount}",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Radford Highlanders @ Chattanooga Mocs + Anaheim Ducks @ Utah Mammoth",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Radford Highlanders @ Chattanooga Mocs",
+          "pick": "Radford Highlanders -3.5",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029080436?coupon={pickType}|4427228642|{wagerAmount}",
+          "commence_time": "2026-11-22T00:02:04Z"
+        },
+        {
+          "matchup": "Anaheim Ducks @ Utah Mammoth",
+          "pick": "Utah Mammoth wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028410114?coupon={pickType}|4424632113|{wagerAmount}",
+          "commence_time": "2026-11-22T02:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-22T00:02:04Z"
+    },
+    {
+      "ticker": "PARLAY-C466BA57",
+      "title": "Under 3.5 + Utah Mammoth wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1029931248?coupon={pickType}|4427188577|{wagerAmount}",
+      "sport": "soccer_usa_mls",
+      "sport_display": "Multi",
+      "matchup": "Nashville SC @ FC Cincinnati + Anaheim Ducks @ Utah Mammoth",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Nashville SC @ FC Cincinnati",
+          "pick": "Under 3.5",
+          "odds": -148,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029931248?coupon={pickType}|4427188577|{wagerAmount}",
+          "commence_time": "2026-11-28T23:30:00Z"
+        },
+        {
+          "matchup": "Anaheim Ducks @ Utah Mammoth",
+          "pick": "Utah Mammoth wins",
+          "odds": -152,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028410114?coupon={pickType}|4424632113|{wagerAmount}",
+          "commence_time": "2026-11-22T02:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-22T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-F6518726",
+      "title": "San Francisco 49ers wins + Robert Whittaker wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028824897?coupon={pickType}|4421549971|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Seattle Seahawks @ San Francisco 49ers + Robert Whittaker @ Bogdan Guskov",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Seattle Seahawks @ San Francisco 49ers",
+          "pick": "San Francisco 49ers wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028824897?coupon={pickType}|4421549971|{wagerAmount}",
+          "commence_time": "2026-11-29T21:25:00Z"
+        },
+        {
+          "matchup": "Robert Whittaker @ Bogdan Guskov",
+          "pick": "Robert Whittaker wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029916420?coupon={pickType}|4423219393|{wagerAmount}",
+          "commence_time": "2027-02-06T20:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-29T21:25:00Z"
+    },
+    {
+      "ticker": "PARLAY-05BA2A71",
+      "title": "San Francisco 49ers wins + Over 2.5",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1028824897?coupon={pickType}|4421549971|{wagerAmount}",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Seattle Seahawks @ San Francisco 49ers + Houston Dynamo @ San Jose Earthquakes",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Seattle Seahawks @ San Francisco 49ers",
+          "pick": "San Francisco 49ers wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1028824897?coupon={pickType}|4421549971|{wagerAmount}",
+          "commence_time": "2026-11-29T21:25:00Z"
+        },
+        {
+          "matchup": "Houston Dynamo @ San Jose Earthquakes",
+          "pick": "Over 2.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029801388?coupon={pickType}|4418703625|{wagerAmount}",
+          "commence_time": "2026-11-25T03:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-25T03:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-7C59850A",
+      "title": "Robert Whittaker wins + Over 2.5",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "autopilot engaged",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betrivers",
+      "platform_display": "BetRivers",
+      "url": "https://{state}.betrivers.com/?page=sportsbook#event/1029916420?coupon={pickType}|4423219393|{wagerAmount}",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Robert Whittaker @ Bogdan Guskov + Houston Dynamo @ San Jose Earthquakes",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Robert Whittaker @ Bogdan Guskov",
+          "pick": "Robert Whittaker wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029916420?coupon={pickType}|4423219393|{wagerAmount}",
+          "commence_time": "2027-02-06T20:00:00Z"
+        },
+        {
+          "matchup": "Houston Dynamo @ San Jose Earthquakes",
+          "pick": "Over 2.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "soccer_usa_mls",
+          "deep_link": "https://{state}.betrivers.com/?page=sportsbook#event/1029801388?coupon={pickType}|4418703625|{wagerAmount}",
+          "commence_time": "2026-11-25T03:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-25T03:00:00Z"
+    }
+  ]
+}

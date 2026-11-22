@@ -1,0 +1,596 @@
+{
+  "generated_at": "2026-11-22T02:00:01.772395+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 3,
+    "polymarket_us": 7,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "pmus-1048269",
+      "title": "Tom Cruise lands a Best Actor nomination",
+      "subtitle": "",
+      "payout": 2.56,
+      "tier": "green",
+      "quip": "Les Grossman getting snubbed remains the actual crime here",
+      "yes_price": "0.3900",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2027-02-05T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-nom-bstact-2027-01-21?marketSlug=tac-oscars-nom-bstact-2027-01-21-tomcru",
+      "platform": "polymarket_us",
+      "score": 33.0,
+      "quip_alts": [
+        {
+          "quip": "he accepts it hanging off a biplane somewhere over Burbank",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i have watched this man run for thirty years and never once seen him sit",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "\"i did the nomination myself. no stunt double.\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "finally, an award for cardio",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "i'll take a 63-year-old man outrunning the Academy for 39 cents",
+          "mode": 5,
+          "score": 6
+        },
+        {
+          "quip": "the guy saved cinema and is now quietly sending us the invoice",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "Les Grossman getting snubbed remains the actual crime here",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "this is Brady making the Pro Bowl at 47 and everybody nodding",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2714927",
+      "title": "GTA VI clears 54 million copies by next year",
+      "subtitle": "",
+      "payout": 2.56,
+      "tier": "green",
+      "quip": "54 million copies, 54 million guys parked outside a virtual strip club",
+      "yes_price": "0.3900",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/ttwo-gta6units-2026-12-31?marketSlug=kpic-ttwo-gta6units-2026-12-31-gte54m",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "i have taken the week off work and i don't care who knows",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "national productivity falls off a cliff, Powell calls an emergency meeting about it",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "54 million copies, 54 million guys parked outside a virtual strip club",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "goodbye, everyone i know",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "this is the Super Bowl if the Super Bowl took eleven years to kick off",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "i will pay eighty dollars for this and i will say thank you",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "Lucia and Jason about to be more famous than any couple you've met",
+          "mode": 8,
+          "score": 6.5
+        },
+        {
+          "quip": "\"yeah i'll be down in five minutes\" he lied, for 300 hours",
+          "mode": 4,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2506397",
+      "title": "320 ships squeeze through the Suez this week",
+      "subtitle": "",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "320 ships and 319 of them hauling something i bought at 2am",
+      "yes_price": "0.3400",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2026-12-08T14:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/suez-week-2026-11-22?marketSlug=stsc-suez-week-2026-11-22-ge320",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "i monitor canal throughput now. this is what the internet did to me",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "shipping lanes calm down and suddenly everyone's couch arrives three weeks early",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "320 ships and 319 of them hauling something i bought at 2am",
+          "mode": 5,
+          "score": 9
+        },
+        {
+          "quip": "big week for boats",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "Ever Given sitting this one out like a guy who got banned from the bar",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "maritime chokepoints are genuinely elite content and nobody wants to admit it",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "i'm treating this like a Tuesday matinee doubleheader and watching every pitch",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "\"captain, there's three hundred of them\" \"then we go single file\"",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-166136",
+      "title": "James Talarico is TIME's 2026 Person of the Year",
+      "subtitle": "",
+      "payout": 4.35,
+      "tier": "yellow",
+      "quip": "the Democrats finally found a quarterback and immediately ran him on fourth down",
+      "yes_price": "0.2300",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/2026?marketSlug=tpoyc-2026-jamtal",
+      "platform": "polymarket_us",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "a Texas seminary kid has fully colonized my For You page",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "cover shoot, soft lighting, hand on a Bible, Ted Cruz subtweeting by dinner",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "the Democrats finally found a quarterback and immediately ran him on fourth down",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Texas, of all places",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "23 cents on a man half the country still spells wrong",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "quoting scripture back at them is the most devastating move in American politics",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "Mr. Smith Goes to Washington, except the C-SPAN clip does 40 million",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "\"person of the year. never heard of him. tremendous guy, i'm told.\"",
+          "mode": 4,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXSERIEA1H-26NOV22ACMFRO-FRO",
+      "title": "Frosinone wins the first half today",
+      "subtitle": "ACM vs FRO (Nov 22)",
+      "yes_sub_title": "Frosinone wins 1st Half",
+      "no_sub_title": "Frosinone wins 1st Half",
+      "payout": 5.0,
+      "tier": "yellow",
+      "quip": "Lazio fans couldn't find this town with a map and a guide",
+      "yes_price": "0.2000",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-24T17:00:00Z",
+      "url": "https://kalshi.com/markets/KXSERIEA1H?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 74.0,
+      "_specificity": 5,
+      "quip_alts": [
+        {
+          "quip": "winning a half is the Serie B version of a moral victory",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "i have never been to Frosinone and i am now emotionally involved",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "45 minutes of glory",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "halftime whistle, the town declares a holiday, second half ruins everything",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "five dollars for 45 minutes of Italian second division. i've paid more for less",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Italian second division is the last honest product on television",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "\u00abforza Frosinone\u00bb screamed by a man with a cigarette and no shirt",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "Lazio fans couldn't find this town with a map and a guide",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1446196",
+      "title": "Mariana di Girolamo gets a Best Supporting Actress nod",
+      "subtitle": "",
+      "payout": 5.0,
+      "tier": "yellow",
+      "quip": "every Letterboxd account in Brooklyn restructuring their top four by midnight",
+      "yes_price": "0.2000",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-02-05T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-nom-bstsupactre-2027-01-21?marketSlug=tac-oscars-nom-bstsupactre-2027-01-21-mardi",
+      "platform": "polymarket_us",
+      "score": 38.0,
+      "quip_alts": [
+        {
+          "quip": "i will absolutely pretend i've seen this at a party tonight",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Chilean cinema walked in and cleared the entire buffet table",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "name of the year",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "every Letterboxd account in Brooklyn restructuring their top four by midnight",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "20 cents on the actress my film guy has been screaming about since 2019",
+          "mode": 5,
+          "score": 5
+        },
+        {
+          "quip": "remember Ema? the one with the flamethrower? that woman",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "this is a mid-major guard going 11-for-14 in the Sweet Sixteen",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"she's Chilean\" \"wonderful\" \"you haven't seen it\" \"i've seen it\"",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1048254",
+      "title": "Jaafar Jackson scores a Best Actor nomination",
+      "subtitle": "",
+      "payout": 9.09,
+      "tier": "orange",
+      "quip": "somewhere Joe Jackson is nodding and that is the unsettling part",
+      "yes_price": "0.1100",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2027-02-05T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-nom-bstact-2027-01-21?marketSlug=tac-oscars-nom-bstact-2027-01-21-jaajac",
+      "platform": "polymarket_us",
+      "score": 53.0,
+      "quip_alts": [
+        {
+          "quip": "the Academy claps, the estate's lawyers remain standing throughout",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i am not emotionally prepared to hear that voice come out of a nephew",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "playing your own uncle is the hardest assignment in the history of acting",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "nepotism, but like, earned",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "this is Ken Griffey Jr. showing up with the exact same swing",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "9 to 1 the moonwalk gets a standing ovation inside the Dolby",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "somewhere Joe Jackson is nodding and that is the unsettling part",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "one \"hee-hee\" into the mic and 94 million people lose their minds",
+          "mode": 4,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27-27FEB",
+      "title": "The US signs a new Iran nuclear deal before 2027",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Feb 1, 2027",
+      "no_sub_title": "Before Feb 1, 2027",
+      "payout": 14.29,
+      "tier": "orange",
+      "quip": "like a franchise rebuilding for nine straight years and calling it a window",
+      "yes_price": "0.0700",
+      "volume": 79056.12,
+      "category": "Politics",
+      "close_time": "2027-02-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 136.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i've been hearing about this deal since i had a different job and better knees",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "signing ceremony, two pens, forty cameras, and nothing survives until Thursday",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "$14.29 for a handshake that gets undone the second somebody files to run",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "the forever negotiation continues",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "like a franchise rebuilding for nine straight years and calling it a window",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we have a framework.\" they always have a framework",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "Groundhog Day, except everyone's in a gray suit in Switzerland",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "honestly i'd be thrilled. mostly i'd just be stunned",
+          "mode": 3,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXPOPESWIFT-27",
+      "title": "Taylor Swift meets Pope Leo XIV this year",
+      "subtitle": "Before Jan 1, 2027",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 20.0,
+      "tier": "red",
+      "quip": "he blesses the setlist, she adds a Vatican date, the Swifties riot in Latin",
+      "yes_price": "0.0500",
+      "volume": 22171.03,
+      "category": "Politics",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXPOPESWIFT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 125.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "he blesses the setlist, she adds a Vatican date, the Swifties riot in Latin",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "i would rewatch that handshake forty times and then forty more",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "\"your holiness, i'm so sorry, but i have to ask about the bracelets\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "two people in white",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "20 bucks says she leaves with a rosary and he leaves with beads",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "i need to watch the first American pope attempt a friendship bracelet",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "a Dan Brown novel where the final secret is merch",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "Travis waiting in the hallway holding both of their phones",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-521802",
+      "title": "Cry to Heaven wins Best Picture",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "this is a 16 seed cutting the nets while CBS scrambles for any b-roll",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-03-29T03:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/oscars-03-14-2027-bestpic?marketSlug=tac-oscars-03-14-2027-bestpic-cryhea",
+      "platform": "polymarket_us",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "i have never heard of this film and i am suddenly $100 invested",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "an acceptance speech in two languages and nobody in Ohio understands either one",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "a penny on the dollar, which is also roughly the marketing budget",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "never heard of her",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "this is a 16 seed cutting the nets while CBS scrambles for any b-roll",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "the Anne Rice extended universe coming for the Dolby Theatre at last",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "period dramas about Italian opera boys are ALWAYS underrated and i'll die on it",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "\"and the winner is...\" long pause \"...i'm sorry, how do we say this\"",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    }
+  ]
+}
