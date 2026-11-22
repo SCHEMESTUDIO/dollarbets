@@ -1,104 +1,4 @@
 {
-  "SB-9A5452C9": {
-    "title": "Liverpool and United trade four-plus goals at Anfield",
-    "quip": "both defences still auditioning for the Sunday league",
-    "cached_at": "2026-11-18T03:24:17.654542+00:00"
-  },
-  "SB-91C4CEE4": {
-    "title": "United and Brentford grind out a two-goal snoozer",
-    "quip": "Old Trafford silence, broken only by the away end",
-    "cached_at": "2026-11-18T03:24:17.654542+00:00"
-  },
-  "SB-E0AA5D39": {
-    "title": "Devils handle the Canadiens by two or more",
-    "quip": "Hughes against a rebuild is a formality",
-    "cached_at": "2026-11-18T03:24:17.654542+00:00"
-  },
-  "SB-F332F7C9": {
-    "title": "Pacers upset the Rockets in Indiana",
-    "quip": "Haliburton loves ruining a good Houston road trip",
-    "cached_at": "2026-11-18T03:24:17.654542+00:00"
-  },
-  "SB-95AA47AE": {
-    "title": "Wizards stun the Raptors north of the border",
-    "quip": "even the Wizards win one in February",
-    "cached_at": "2026-11-18T03:24:17.654542+00:00"
-  },
-  "SB-480C28B9": {
-    "title": "Coppin State shocks La Salle in Philadelphia",
-    "quip": "the Eagles crash Big Five week uninvited",
-    "cached_at": "2026-11-18T03:24:17.654542+00:00"
-  },
-  "SB-B79CC425": {
-    "title": "Clippers bury the Jazz by 25 or more",
-    "quip": "Lauri resting means Utah plays the G League card",
-    "cached_at": "2026-11-18T03:24:17.654542+00:00"
-  },
-  "SB-8F2B9E4C": {
-    "title": "Montana State walks into the Kennel and wins",
-    "quip": "Bobcats slay Gonzaga, Spokane declares a day of mourning",
-    "cached_at": "2026-11-18T03:24:17.654542+00:00"
-  },
-  "SB-6B98FEB8": {
-    "title": "Ducks keep it within a goal in St. Louis",
-    "quip": "Gibson stands on his head, Anaheim still loses, poetry",
-    "cached_at": "2026-11-18T03:24:17.654542+00:00"
-  },
-  "SB-98D665C1": {
-    "title": "Morehead St shocks Ohio in Athens",
-    "quip": "Eagles raid the Convo like it's a mid-major Thermopylae",
-    "cached_at": "2026-11-18T03:24:23.244872+00:00"
-  },
-  "SB-C03154C8": {
-    "title": "Coritiba upset Santos at Couto Pereira",
-    "quip": "Neymar's old club keeps finding new ways to suffer",
-    "cached_at": "2026-11-18T03:24:31.180264+00:00"
-  },
-  "SB-84F8494C": {
-    "title": "Bangladesh beat South Africa in the Test",
-    "quip": "the Mirpur spin web swallowed them whole once already",
-    "cached_at": "2026-11-18T03:24:31.180264+00:00"
-  },
-  "SB-1507639F": {
-    "title": "Lakers handle the Hornets at home tonight",
-    "quip": "LeBron vs the LaMelo highlight reel, gravity wins",
-    "cached_at": "2026-11-18T03:24:41.039287+00:00"
-  },
-  "SB-1D688B4B": {
-    "title": "Avalanche stay within a goal of Utah",
-    "quip": "MacKinnon doesn't lose quietly, even in Salt Lake",
-    "cached_at": "2026-11-18T03:24:41.039287+00:00"
-  },
-  "SB-2BA233EC": {
-    "title": "Bruins keep it close in Detroit",
-    "quip": "Swayman and Original Six spite, one-goal special",
-    "cached_at": "2026-11-18T03:24:41.039287+00:00"
-  },
-  "SB-B661CAC0": {
-    "title": "Cavs take care of the Grizzlies",
-    "quip": "Mitchell at home, Memphis still searching for Ja",
-    "cached_at": "2026-11-18T03:24:41.039287+00:00"
-  },
-  "SB-9BAB83D3": {
-    "title": "Texas A&M-CC keeps it respectable at Rice",
-    "quip": "Owls win, Islanders cover, everyone drives home fine",
-    "cached_at": "2026-11-18T03:24:41.039287+00:00"
-  },
-  "SB-7F3C8627": {
-    "title": "North Dakota beats SIU-Edwardsville by four-plus",
-    "quip": "Fighting Hawks and a January night in Grand Forks",
-    "cached_at": "2026-11-18T03:24:41.039287+00:00"
-  },
-  "SB-CE2CD5B9": {
-    "title": "Georgia Southern stays close to Middle Tennessee",
-    "quip": "Statesboro gym noise is worth six points easy",
-    "cached_at": "2026-11-18T03:24:41.039287+00:00"
-  },
-  "SB-3A5543C3": {
-    "title": "Nets edge the Bulls in Brooklyn",
-    "quip": "somebody has to win this one, apparently",
-    "cached_at": "2026-11-18T03:24:41.039287+00:00"
-  },
   "SB-71D37CD1": {
     "title": "Caps skate past Sabres by two tonight",
     "quip": "Ovechkin still bullies Buffalo like it's 2010",
@@ -938,5 +838,65 @@
     "title": "Morehead State keeps it respectable at Elon",
     "quip": "the Phoenix win, the Eagles still cover dinner",
     "cached_at": "2026-11-22T02:00:55.957891+00:00"
+  },
+  "SB-251EF523": {
+    "title": "Bulls keep it close against Nuggets tonight",
+    "quip": "Jokic wins, but the United Center stays loud",
+    "cached_at": "2026-11-22T15:54:40.556365+00:00"
+  },
+  "SB-7EF61B76": {
+    "title": "Thunder-Heat grinds under 222 tonight",
+    "quip": "Spoelstra turning Miami into a locked storm door",
+    "cached_at": "2026-11-22T15:54:40.556365+00:00"
+  },
+  "SB-5ACEE10C": {
+    "title": "Lightning blow past Sabres by three",
+    "quip": "Kucherov treats Buffalo like a practice jersey",
+    "cached_at": "2026-11-22T15:54:40.556365+00:00"
+  },
+  "SB-CBE5AEA4": {
+    "title": "Giants upset Jaguars at MetLife",
+    "quip": "Trevor Lawrence meets the Jersey swamp",
+    "cached_at": "2026-11-22T15:54:40.556365+00:00"
+  },
+  "SB-133DC706": {
+    "title": "Man United win at Anfield",
+    "quip": "Amorim's away-day gremlins live at Anfield",
+    "cached_at": "2026-11-22T15:54:40.556365+00:00"
+  },
+  "SB-0852120A": {
+    "title": "Rangers smother Hurricanes by four",
+    "quip": "Shesterkin plays wall, Garden erupts, Carolina forgets hockey",
+    "cached_at": "2026-11-22T15:54:40.556365+00:00"
+  },
+  "SB-7B76846A": {
+    "title": "Pistons-Hawks turns into a rock fight under 186",
+    "quip": "Cade and Trae both forget the rim exists",
+    "cached_at": "2026-11-22T15:54:40.556365+00:00"
+  },
+  "SB-A56B8618": {
+    "title": "Chicago State shocks Marquette tonight",
+    "quip": "a program with no conference storming Fiserv Forum like Hoosiers",
+    "cached_at": "2026-11-22T15:54:47.424475+00:00"
+  },
+  "SB-A8636AA0": {
+    "title": "Canucks keep it close against the Blackhawks",
+    "quip": "Quinn Hughes drags Vancouver to a one-goal loss",
+    "cached_at": "2026-11-22T15:55:02.600404+00:00"
+  },
+  "SB-8DB2A8C6": {
+    "title": "Oilers stay within a goal of the Blues",
+    "quip": "McDavid doesn't let anything become a blowout",
+    "cached_at": "2026-11-22T15:55:02.600404+00:00"
+  },
+  "SB-71B27F73": {
+    "title": "Wyoming handles Duquesne in Laramie",
+    "quip": "7,220 feet of altitude does the scouting report",
+    "cached_at": "2026-11-22T15:55:02.600404+00:00"
+  },
+  "SB-81516E1A": {
+    "title": "Hurricanes win in Madison Square Garden tonight",
+    "quip": "Rod Brind'Amour's forecheck versus the Rangers power play",
+    "cached_at": "2026-11-22T15:55:02.600404+00:00"
   }
 }
