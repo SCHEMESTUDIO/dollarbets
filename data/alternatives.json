@@ -1,127 +1,127 @@
 {
- "generated_at": "2026-11-22T02:00:01.771556+00:00",
+ "generated_at": "2026-11-23T02:18:11.136318+00:00",
  "markets": {
-  "pmus-1048269": {
-   "title": "Tom Cruise lands a Best Actor nomination",
+  "pmus-2638026": {
+   "title": "36+ ships cross Bab el-Mandeb in one day",
    "platform": "polymarket_us",
-   "payout": 2.56,
-   "url": "https://polymarket.us/event/oscars-nom-bstact-2027-01-21?marketSlug=tac-oscars-nom-bstact-2027-01-21-tomcru",
-   "category": "Science and Technology",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-1048269",
-     "title": "Tom Cruise lands a Best Actor nomination",
-     "url": "https://polymarket.us/event/oscars-nom-bstact-2027-01-21?marketSlug=tac-oscars-nom-bstact-2027-01-21-tomcru",
-     "payout": 2.56,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-2714927": {
-   "title": "GTA VI clears 54 million copies by next year",
-   "platform": "polymarket_us",
-   "payout": 2.56,
-   "url": "https://polymarket.us/event/ttwo-gta6units-2026-12-31?marketSlug=kpic-ttwo-gta6units-2026-12-31-gte54m",
-   "category": "Other",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-2714927",
-     "title": "GTA VI clears 54 million copies by next year",
-     "url": "https://polymarket.us/event/ttwo-gta6units-2026-12-31?marketSlug=kpic-ttwo-gta6units-2026-12-31-gte54m",
-     "payout": 2.56,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-2506397": {
-   "title": "320 ships squeeze through the Suez this week",
-   "platform": "polymarket_us",
-   "payout": 2.94,
-   "url": "https://polymarket.us/event/suez-week-2026-11-22?marketSlug=stsc-suez-week-2026-11-22-ge320",
+   "payout": 2.0,
+   "url": "https://polymarket.us/event/bab-el-mandeb-highw-2026-11-29?marketSlug=stsc-bab-el-mandeb-highw-2026-11-29-ge36",
    "category": "World",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-2506397",
-     "title": "320 ships squeeze through the Suez this week",
-     "url": "https://polymarket.us/event/suez-week-2026-11-22?marketSlug=stsc-suez-week-2026-11-22-ge320",
-     "payout": 2.94,
+     "ticker": "pmus-2638026",
+     "title": "36+ ships cross Bab el-Mandeb in one day",
+     "url": "https://polymarket.us/event/bab-el-mandeb-highw-2026-11-29?marketSlug=stsc-bab-el-mandeb-highw-2026-11-29-ge36",
+     "payout": 2.0,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-166136": {
-   "title": "James Talarico is TIME's 2026 Person of the Year",
+  "pmus-2760939": {
+   "title": "Marvell data center revenue tops $2.8 billion",
    "platform": "polymarket_us",
-   "payout": 4.35,
-   "url": "https://polymarket.us/event/2026?marketSlug=tpoyc-2026-jamtal",
+   "payout": 2.27,
+   "url": "https://polymarket.us/event/mrvl-q3dcrev-2026-12-01-above?marketSlug=kpic-mrvl-q3dcrev-2026-12-01-above-2pt8b",
    "category": "Other",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-166136",
-     "title": "James Talarico is TIME's 2026 Person of the Year",
-     "url": "https://polymarket.us/event/2026?marketSlug=tpoyc-2026-jamtal",
-     "payout": 4.35,
+     "ticker": "pmus-2760939",
+     "title": "Marvell data center revenue tops $2.8 billion",
+     "url": "https://polymarket.us/event/mrvl-q3dcrev-2026-12-01-above?marketSlug=kpic-mrvl-q3dcrev-2026-12-01-above-2pt8b",
+     "payout": 2.27,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-1446219": {
+   "title": "Clayface lands a makeup and hairstyling Oscar nod",
+   "platform": "polymarket_us",
+   "payout": 3.12,
+   "url": "https://polymarket.us/event/oscars-nom-bstmakeup-2027-01-21?marketSlug=tac-oscars-nom-bstmakeup-2027-01-21-clayfa",
+   "category": "Science and Technology",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-1446219",
+     "title": "Clayface lands a makeup and hairstyling Oscar nod",
+     "url": "https://polymarket.us/event/oscars-nom-bstmakeup-2027-01-21?marketSlug=tac-oscars-nom-bstmakeup-2027-01-21-clayfa",
+     "payout": 3.12,
      "same": true,
      "sim": 1.0
     },
     "kalshi": {
-     "ticker": "KXTIME-26-AND",
-     "title": "Time's Person of the Year for 2026",
-     "url": "https://kalshi.com/markets/KXTIME?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 100.0,
+     "ticker": "KXOSCARNOMMAKEUP-27-CRY",
+     "title": "Oscar nominees: Best Makeup and Hairstyling",
+     "url": "https://kalshi.com/markets/KXOSCARNOMMAKEUP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 20.0,
      "same": false,
-     "sim": 0.4
+     "sim": 0.44
     }
    }
   },
-  "KXSERIEA1H-26NOV22ACMFRO-FRO": {
-   "title": "Frosinone wins the first half today",
+  "KXHURCAT-26MARCO-T2": {
+   "title": "Marco strengthens into a Category 2 hurricane",
    "platform": "kalshi",
-   "payout": 5.0,
-   "url": "https://kalshi.com/markets/KXSERIEA1H?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Sports",
+   "payout": 3.12,
+   "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Climate and Weather",
    "alts": {
     "kalshi": {
-     "ticker": "KXSERIEA1H-26NOV22ACMFRO-FRO",
-     "title": "Frosinone wins the first half today",
-     "url": "https://kalshi.com/markets/KXSERIEA1H?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 5.0,
+     "ticker": "KXHURCAT-26MARCO-T2",
+     "title": "Marco strengthens into a Category 2 hurricane",
+     "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 3.12,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-1446196": {
-   "title": "Mariana di Girolamo gets a Best Supporting Actress nod",
+  "pmus-2362451": {
+   "title": "Crime Junkie snags a Golden Globe podcast nod",
    "platform": "polymarket_us",
-   "payout": 5.0,
-   "url": "https://polymarket.us/event/oscars-nom-bstsupactre-2027-01-21?marketSlug=tac-oscars-nom-bstsupactre-2027-01-21-mardi",
-   "category": "Entertainment",
+   "payout": 3.85,
+   "url": "https://polymarket.us/event/globes-nom-pod-2026-12-07?marketSlug=tac-globes-nom-pod-2026-12-07-crijun",
+   "category": "Other",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1446196",
-     "title": "Mariana di Girolamo gets a Best Supporting Actress nod",
-     "url": "https://polymarket.us/event/oscars-nom-bstsupactre-2027-01-21?marketSlug=tac-oscars-nom-bstsupactre-2027-01-21-mardi",
-     "payout": 5.0,
+     "ticker": "pmus-2362451",
+     "title": "Crime Junkie snags a Golden Globe podcast nod",
+     "url": "https://polymarket.us/event/globes-nom-pod-2026-12-07?marketSlug=tac-globes-nom-pod-2026-12-07-crijun",
+     "payout": 3.85,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-1048254": {
-   "title": "Jaafar Jackson scores a Best Actor nomination",
-   "platform": "polymarket_us",
+  "KXBTCPRICE-130000-27JUL08": {
+   "title": "Bitcoin is above $130K by summer 2027",
+   "platform": "kalshi",
+   "payout": 8.33,
+   "url": "https://kalshi.com/markets/KXBTCPRICE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Crypto",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXBTCPRICE-130000-27JUL08",
+     "title": "Bitcoin is above $130K by summer 2027",
+     "url": "https://kalshi.com/markets/KXBTCPRICE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 8.33,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXMODELHIGH-27-1550-CLAU": {
+   "title": "Claude is first to hit 1550 on Text Arena",
+   "platform": "kalshi",
    "payout": 9.09,
-   "url": "https://polymarket.us/event/oscars-nom-bstact-2027-01-21?marketSlug=tac-oscars-nom-bstact-2027-01-21-jaajac",
+   "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Science and Technology",
    "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-1048254",
-     "title": "Jaafar Jackson scores a Best Actor nomination",
-     "url": "https://polymarket.us/event/oscars-nom-bstact-2027-01-21?marketSlug=tac-oscars-nom-bstact-2027-01-21-jaajac",
+    "kalshi": {
+     "ticker": "KXMODELHIGH-27-1550-CLAU",
+     "title": "Claude is first to hit 1550 on Text Arena",
+     "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
      "payout": 9.09,
      "same": true,
      "sim": 1.0
@@ -129,50 +129,50 @@
    }
   },
   "KXUSAIRANAGREEMENT-27-27FEB": {
-   "title": "The US signs a new Iran nuclear deal before 2027",
+   "title": "US strikes a new Iran nuclear deal",
    "platform": "kalshi",
-   "payout": 14.29,
+   "payout": 12.5,
    "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Politics",
    "alts": {
     "kalshi": {
      "ticker": "KXUSAIRANAGREEMENT-27-27FEB",
-     "title": "The US signs a new Iran nuclear deal before 2027",
+     "title": "US strikes a new Iran nuclear deal",
      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 14.29,
+     "payout": 12.5,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXPOPESWIFT-27": {
-   "title": "Taylor Swift meets Pope Leo XIV this year",
-   "platform": "kalshi",
-   "payout": 20.0,
-   "url": "https://kalshi.com/markets/KXPOPESWIFT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Politics",
+  "pmus-2506448": {
+   "title": "Hormuz averages 60+ ships a day this year",
+   "platform": "polymarket_us",
+   "payout": 33.33,
+   "url": "https://polymarket.us/event/hormuz-highavg-2026-12-31?marketSlug=stsc-hormuz-highavg-2026-12-31-ge60",
+   "category": "World",
    "alts": {
-    "kalshi": {
-     "ticker": "KXPOPESWIFT-27",
-     "title": "Taylor Swift meets Pope Leo XIV this year",
-     "url": "https://kalshi.com/markets/KXPOPESWIFT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 20.0,
+    "polymarket_us": {
+     "ticker": "pmus-2506448",
+     "title": "Hormuz averages 60+ ships a day this year",
+     "url": "https://polymarket.us/event/hormuz-highavg-2026-12-31?marketSlug=stsc-hormuz-highavg-2026-12-31-ge60",
+     "payout": 33.33,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-521802": {
-   "title": "Cry to Heaven wins Best Picture",
+  "pmus-287294": {
+   "title": "Adam Driver wins Best Actor",
    "platform": "polymarket_us",
    "payout": 100.0,
-   "url": "https://polymarket.us/event/oscars-03-14-2027-bestpic?marketSlug=tac-oscars-03-14-2027-bestpic-cryhea",
+   "url": "https://polymarket.us/event/oscars-03-14-2027-bestacto?marketSlug=tac-oscars-03-14-2027-bestacto-adadri",
    "category": "Entertainment",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-521802",
-     "title": "Cry to Heaven wins Best Picture",
-     "url": "https://polymarket.us/event/oscars-03-14-2027-bestpic?marketSlug=tac-oscars-03-14-2027-bestpic-cryhea",
+     "ticker": "pmus-287294",
+     "title": "Adam Driver wins Best Actor",
+     "url": "https://polymarket.us/event/oscars-03-14-2027-bestacto?marketSlug=tac-oscars-03-14-2027-bestacto-adadri",
      "payout": 100.0,
      "same": true,
      "sim": 1.0
