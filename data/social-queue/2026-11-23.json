@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-24T23:16:09.446970+00:00",
+          "tweet_id": "2125367899040719207",
+          "reply_tweet_id": "2125367900915523738"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "37532484",
+        "page": "https://www.pexels.com/photo/charming-narrow-street-in-barcelona-at-sunset-37532484/",
+        "photographer": "Alex M",
+        "license": "Pexels License",
+        "phrases": [
+          "microphone studio desk night",
+          "empty suburban street dusk"
+        ],
+        "tokens": {
+          "input_tokens": 3861,
+          "output_tokens": 30
         }
       }
     },
