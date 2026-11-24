@@ -1,0 +1,597 @@
+{
+  "generated_at": "2026-11-24T05:49:53.654235+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 4,
+    "polymarket_us": 6,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "pmus-795854",
+      "title": "GPT-7 ships before July 2027",
+      "subtitle": "",
+      "payout": 2.04,
+      "tier": "green",
+      "quip": "costs $2.04 a month and only answers in haiku",
+      "yes_price": "0.4900",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2028-01-15T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/openai-gpt-7?marketSlug=aimc-openai-gpt-7-2027-06-30",
+      "platform": "polymarket_us",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "they skip GPT-6 entirely because Sam doesn't like the number six",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "i still say please and thank you. the habit has outlived three models",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "costs $2.04 a month and only answers in haiku",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "\"we're not saying it's AGI. we're saying please don't ask it that\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "number go up, fine",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "like Rocky sequels. each one louder, each one more certain of itself",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "i will cry at the demo again and i've made peace with that",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "this is just the Madden release schedule with substantially more electricity",
+          "mode": 6,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2714924",
+      "title": "GTA VI sells 51 million copies by next year",
+      "subtitle": "",
+      "payout": 2.04,
+      "tier": "green",
+      "quip": "51 million copies, 50 million still parked on the first mission",
+      "yes_price": "0.4900",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/ttwo-gta6units-2026-12-31?marketSlug=kpic-ttwo-gta6units-2026-12-31-gte51m",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "i'll buy it twice and log nine total hours, both times",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "national productivity falls off a cliff and nobody writes the report",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "51 million copies, 50 million still parked on the first mission",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Rockstar prints, we obey",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "the Super Bowl if the Super Bowl had an eight year halftime",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Vice City with a mortgage simulator and we will all say thank you",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "i have never cared more about a fictional Florida in my life",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "\"delayed to November.\" thank you sir, may i have another",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1279695",
+      "title": "Lindsay Clancy is America's most Googled person next year",
+      "subtitle": "",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "Keith Morrison recorded the voiceover months ago, just in case",
+      "yes_price": "0.3600",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/gsearch-1person-us-2026?marketSlug=gsrc-gsearch-1person-us-2026-lincla",
+      "platform": "polymarket_us",
+      "score": 33.0,
+      "quip_alts": [
+        {
+          "quip": "i have never typed this name and the algorithm is already reaching for me",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "every guy with two mics and a ring light is booking studio time",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "true crime is the actual national pastime, football is just louder",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Netflix already sent the email",
+          "mode": 9,
+          "score": 8.5
+        },
+        {
+          "quip": "Google's top ten and nine of them i'd have to go look up",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "Keith Morrison recorded the voiceover months ago, just in case",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "i'd have guessed Taylor Swift and been wrong every year since 2014",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "this country searches for the saddest available thing, every time, without fail",
+          "mode": 7,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXAFCCL1HBTTS-26NOV24RATJOH-BTTS",
+      "title": "Both teams score in the first half tonight",
+      "subtitle": "RAT vs JOH (Nov 24)",
+      "yes_sub_title": "1st Half: Both Teams To Score",
+      "no_sub_title": "1st Half: Both Teams To Score",
+      "payout": 4.0,
+      "tier": "yellow",
+      "quip": "it's 6am here and i'm emotionally invested in Ratchaburi. rough stretch",
+      "yes_price": "0.2500",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-11-26T12:15:00Z",
+      "url": "https://kalshi.com/markets/KXAFCCL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 89.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "like a Big Ten game where somebody accidentally hangs 45",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "it's 6am here and i'm emotionally invested in Ratchaburi. rough stretch",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "two goals by the 40th and i'm cancelling everything after lunch",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "defense optional, apparently",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "somebody's center back wanders off around minute 12 and never comes back",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "Johor is a genuine juggernaut and nobody in your office has any idea",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "Ratchaburi scoring is the part i need somebody to walk me through",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "\"and both keepers have agreed to simply vibe this evening\"",
+          "mode": 4,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1057606",
+      "title": "A state bans new data centers next year",
+      "subtitle": "",
+      "payout": 4.17,
+      "tier": "yellow",
+      "quip": "Virginia finally admitting the entire state is one humming server closet",
+      "yes_price": "0.2400",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2028-01-15T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/anyst-datactrmor?marketSlug=lawec-anyst-datactrmor-2026-12-31",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "the whole model gets rerouted to a shed in Wyoming with a box fan",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i support this right up until my chatbot takes nine seconds",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "Virginia finally admitting the entire state is one humming server closet",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "the grid said no",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "400 acres, zero jobs, and a hum you can hear from bed",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "Footloose except the town council is banning GPUs instead of dancing",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "local zoning meetings remain the last real blood sport in America",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "\"sir, your training run is cancelled, the township voted Tuesday\"",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXUCL1HTOTAL-26NOV24GALAVL-3",
+      "title": "Three or more goals before halftime",
+      "subtitle": "GAL vs AVL (Nov 24)",
+      "yes_sub_title": "Over 2.5 1H goals scored",
+      "no_sub_title": "Over 2.5 1H goals scored",
+      "payout": 5.26,
+      "tier": "yellow",
+      "quip": "a first half that scores like a Big 12 Saturday",
+      "yes_price": "0.1900",
+      "volume": 2465.33,
+      "category": "Sports",
+      "close_time": "2026-11-26T17:45:00Z",
+      "url": "https://kalshi.com/markets/KXUCL1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 114.0,
+      "_specificity": 0,
+      "quip_alts": [
+        {
+          "quip": "i cannot sit through another nil nil. i have aged out of patience",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "both managers tear up the tactics board and go full playground",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "a first half that scores like a Big 12 Saturday",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "defending is a choice",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "three by the 45th and somebody's assistant coach quits in the tunnel",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "the Fast and Furious of first halves. nobody touches the brake",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "goals before your beer gets warm is the purest form of this sport",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "\"we spoke about staying compact at the break.\" sir, it was 3-1",
+          "mode": 4,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2440253",
+      "title": "Democrats win Missouri in 2028",
+      "subtitle": "",
+      "payout": 10.0,
+      "tier": "orange",
+      "quip": "like Vanderbilt winning the SEC. possible, upsetting, nobody is prepared",
+      "yes_price": "0.1000",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2028-11-22T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/usp-mo-2028-11-07?marketSlug=pvwc-usp-mo-2028-11-07-dem",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "the entire party relocates to Branson and starts a residency",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i'll believe it when my uncle in Springfield changes his yard sign",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "if Missouri flips, something extremely wrong has happened in 46 other states",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "Show Me State, show me",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "like Vanderbilt winning the SEC. possible, upsetting, nobody is prepared",
+          "mode": 6,
+          "score": 9
+        },
+        {
+          "quip": "the Red Wedding, but for consultants in a St. Louis ballroom",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "i would drive to Kansas City just to witness the faces",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "last time was 1996 and all of us have been through things since",
+          "mode": 5,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXMODELHIGH-27-1550-CLAU",
+      "title": "Claude hits 1550 on Text Arena first",
+      "subtitle": "Before 2027",
+      "yes_sub_title": "Claude",
+      "no_sub_title": "Claude",
+      "payout": 11.11,
+      "tier": "orange",
+      "quip": "1550 is a perfect SAT with one typo in the essay",
+      "yes_price": "0.0900",
+      "volume": 107980.73,
+      "category": "Science and Technology",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 127.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "Claude's the one i apologize to, so honestly this feels earned",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Anthropic posts the chart, then a 9,000 word blog about being worried",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "the polite kid wins the science fair and the bullies all log off",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "constitution gang stays winning",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "1550 is a perfect SAT with one typo in the essay",
+          "mode": 8,
+          "score": 9
+        },
+        {
+          "quip": "\"i want to be careful here, but i did just win\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "i'm pulling for the one that writes like it has read books",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "San Francisco will not shut up about this for a full calendar month",
+          "mode": 7,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXAUCTIONRECORD-27-CLA-110747000",
+      "title": "A Monet sells for over $110 million this year",
+      "subtitle": "Monet",
+      "yes_sub_title": "Above $110,747,000",
+      "no_sub_title": "Above $110,747,000",
+      "payout": 20.0,
+      "tier": "red",
+      "quip": "$110,747,000 and the paddle goes up like it's a used Civic",
+      "yes_price": "0.0500",
+      "volume": 98375.01,
+      "category": "Entertainment",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXAUCTIONRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 131.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "a guy in a Zurich basement quietly adds another lily pad to the wall",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i have a Monet poster from my dorm and i refuse to throw it out",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "$110,747,000 and the paddle goes up like it's a used Civic",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "haystacks never miss",
+          "mode": 9,
+          "score": 6.5
+        },
+        {
+          "quip": "Thomas Crown rules still apply. somebody's walking out with a briefcase",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "water lilies outlasting every single person who ever doubted a pond",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "a hedge fund guy buying a garden he will never once look at",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "\"sold.\" room applauds. nobody in that room has seen a haystack",
+          "mode": 4,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2711060",
+      "title": "Sabrina Carpenter finishes 2026 as America's #2 artist",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "Salieri, except Salieri was hot and had a tour bus",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2026-12-17T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/sptfy-2-artst-us-yr-2026?marketSlug=ccrc-sptfy-2-artst-us-yr-2026-sabcar",
+      "platform": "polymarket_us",
+      "score": 45.0,
+      "quip_alts": [
+        {
+          "quip": "i know every word to Espresso against my will and i've made peace",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "whoever's number one spends the entire year pretending not to check",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "silver still gets you a parade through your actual hometown",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "second is extremely good actually",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "one spot short and she'll bring it up in exactly 100 interviews",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "Salieri, except Salieri was hot and had a tour bus",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "pop being fun again is my favorite development of this entire decade",
+          "mode": 3,
+          "score": 5.5
+        },
+        {
+          "quip": "sorry to whoever lands at number three, it's over for you",
+          "mode": 7,
+          "score": 8
+        }
+      ]
+    }
+  ]
+}

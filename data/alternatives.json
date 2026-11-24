@@ -1,178 +1,170 @@
 {
- "generated_at": "2026-11-23T02:18:11.136318+00:00",
+ "generated_at": "2026-11-24T05:49:53.653584+00:00",
  "markets": {
-  "pmus-2638026": {
-   "title": "36+ ships cross Bab el-Mandeb in one day",
+  "pmus-795854": {
+   "title": "GPT-7 ships before July 2027",
    "platform": "polymarket_us",
-   "payout": 2.0,
-   "url": "https://polymarket.us/event/bab-el-mandeb-highw-2026-11-29?marketSlug=stsc-bab-el-mandeb-highw-2026-11-29-ge36",
-   "category": "World",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-2638026",
-     "title": "36+ ships cross Bab el-Mandeb in one day",
-     "url": "https://polymarket.us/event/bab-el-mandeb-highw-2026-11-29?marketSlug=stsc-bab-el-mandeb-highw-2026-11-29-ge36",
-     "payout": 2.0,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-2760939": {
-   "title": "Marvell data center revenue tops $2.8 billion",
-   "platform": "polymarket_us",
-   "payout": 2.27,
-   "url": "https://polymarket.us/event/mrvl-q3dcrev-2026-12-01-above?marketSlug=kpic-mrvl-q3dcrev-2026-12-01-above-2pt8b",
-   "category": "Other",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-2760939",
-     "title": "Marvell data center revenue tops $2.8 billion",
-     "url": "https://polymarket.us/event/mrvl-q3dcrev-2026-12-01-above?marketSlug=kpic-mrvl-q3dcrev-2026-12-01-above-2pt8b",
-     "payout": 2.27,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-1446219": {
-   "title": "Clayface lands a makeup and hairstyling Oscar nod",
-   "platform": "polymarket_us",
-   "payout": 3.12,
-   "url": "https://polymarket.us/event/oscars-nom-bstmakeup-2027-01-21?marketSlug=tac-oscars-nom-bstmakeup-2027-01-21-clayfa",
+   "payout": 2.04,
+   "url": "https://polymarket.us/event/openai-gpt-7?marketSlug=aimc-openai-gpt-7-2027-06-30",
    "category": "Science and Technology",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1446219",
-     "title": "Clayface lands a makeup and hairstyling Oscar nod",
-     "url": "https://polymarket.us/event/oscars-nom-bstmakeup-2027-01-21?marketSlug=tac-oscars-nom-bstmakeup-2027-01-21-clayfa",
-     "payout": 3.12,
-     "same": true,
-     "sim": 1.0
-    },
-    "kalshi": {
-     "ticker": "KXOSCARNOMMAKEUP-27-CRY",
-     "title": "Oscar nominees: Best Makeup and Hairstyling",
-     "url": "https://kalshi.com/markets/KXOSCARNOMMAKEUP?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 20.0,
-     "same": false,
-     "sim": 0.44
-    }
-   }
-  },
-  "KXHURCAT-26MARCO-T2": {
-   "title": "Marco strengthens into a Category 2 hurricane",
-   "platform": "kalshi",
-   "payout": 3.12,
-   "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Climate and Weather",
-   "alts": {
-    "kalshi": {
-     "ticker": "KXHURCAT-26MARCO-T2",
-     "title": "Marco strengthens into a Category 2 hurricane",
-     "url": "https://kalshi.com/markets/KXHURCAT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 3.12,
+     "ticker": "pmus-795854",
+     "title": "GPT-7 ships before July 2027",
+     "url": "https://polymarket.us/event/openai-gpt-7?marketSlug=aimc-openai-gpt-7-2027-06-30",
+     "payout": 2.04,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-2362451": {
-   "title": "Crime Junkie snags a Golden Globe podcast nod",
+  "pmus-2714924": {
+   "title": "GTA VI sells 51 million copies by next year",
    "platform": "polymarket_us",
-   "payout": 3.85,
-   "url": "https://polymarket.us/event/globes-nom-pod-2026-12-07?marketSlug=tac-globes-nom-pod-2026-12-07-crijun",
+   "payout": 2.04,
+   "url": "https://polymarket.us/event/ttwo-gta6units-2026-12-31?marketSlug=kpic-ttwo-gta6units-2026-12-31-gte51m",
    "category": "Other",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-2362451",
-     "title": "Crime Junkie snags a Golden Globe podcast nod",
-     "url": "https://polymarket.us/event/globes-nom-pod-2026-12-07?marketSlug=tac-globes-nom-pod-2026-12-07-crijun",
-     "payout": 3.85,
+     "ticker": "pmus-2714924",
+     "title": "GTA VI sells 51 million copies by next year",
+     "url": "https://polymarket.us/event/ttwo-gta6units-2026-12-31?marketSlug=kpic-ttwo-gta6units-2026-12-31-gte51m",
+     "payout": 2.04,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXBTCPRICE-130000-27JUL08": {
-   "title": "Bitcoin is above $130K by summer 2027",
+  "pmus-1279695": {
+   "title": "Lindsay Clancy is America's most Googled person next year",
+   "platform": "polymarket_us",
+   "payout": 2.78,
+   "url": "https://polymarket.us/event/gsearch-1person-us-2026?marketSlug=gsrc-gsearch-1person-us-2026-lincla",
+   "category": "Other",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-1279695",
+     "title": "Lindsay Clancy is America's most Googled person next year",
+     "url": "https://polymarket.us/event/gsearch-1person-us-2026?marketSlug=gsrc-gsearch-1person-us-2026-lincla",
+     "payout": 2.78,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXAFCCL1HBTTS-26NOV24RATJOH-BTTS": {
+   "title": "Both teams score in the first half tonight",
    "platform": "kalshi",
-   "payout": 8.33,
-   "url": "https://kalshi.com/markets/KXBTCPRICE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Crypto",
+   "payout": 4.0,
+   "url": "https://kalshi.com/markets/KXAFCCL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Sports",
    "alts": {
     "kalshi": {
-     "ticker": "KXBTCPRICE-130000-27JUL08",
-     "title": "Bitcoin is above $130K by summer 2027",
-     "url": "https://kalshi.com/markets/KXBTCPRICE?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 8.33,
+     "ticker": "KXAFCCL1HBTTS-26NOV24RATJOH-BTTS",
+     "title": "Both teams score in the first half tonight",
+     "url": "https://kalshi.com/markets/KXAFCCL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 4.0,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-1057606": {
+   "title": "A state bans new data centers next year",
+   "platform": "polymarket_us",
+   "payout": 4.17,
+   "url": "https://polymarket.us/event/anyst-datactrmor?marketSlug=lawec-anyst-datactrmor-2026-12-31",
+   "category": "World",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-1057606",
+     "title": "A state bans new data centers next year",
+     "url": "https://polymarket.us/event/anyst-datactrmor?marketSlug=lawec-anyst-datactrmor-2026-12-31",
+     "payout": 4.17,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXUCL1HTOTAL-26NOV24GALAVL-3": {
+   "title": "Three or more goals before halftime",
+   "platform": "kalshi",
+   "payout": 5.26,
+   "url": "https://kalshi.com/markets/KXUCL1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Sports",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXUCL1HTOTAL-26NOV24GALAVL-3",
+     "title": "Three or more goals before halftime",
+     "url": "https://kalshi.com/markets/KXUCL1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 5.26,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-2440253": {
+   "title": "Democrats win Missouri in 2028",
+   "platform": "polymarket_us",
+   "payout": 10.0,
+   "url": "https://polymarket.us/event/usp-mo-2028-11-07?marketSlug=pvwc-usp-mo-2028-11-07-dem",
+   "category": "World",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-2440253",
+     "title": "Democrats win Missouri in 2028",
+     "url": "https://polymarket.us/event/usp-mo-2028-11-07?marketSlug=pvwc-usp-mo-2028-11-07-dem",
+     "payout": 10.0,
      "same": true,
      "sim": 1.0
     }
    }
   },
   "KXMODELHIGH-27-1550-CLAU": {
-   "title": "Claude is first to hit 1550 on Text Arena",
+   "title": "Claude hits 1550 on Text Arena first",
    "platform": "kalshi",
-   "payout": 9.09,
+   "payout": 11.11,
    "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Science and Technology",
    "alts": {
     "kalshi": {
      "ticker": "KXMODELHIGH-27-1550-CLAU",
-     "title": "Claude is first to hit 1550 on Text Arena",
+     "title": "Claude hits 1550 on Text Arena first",
      "url": "https://kalshi.com/markets/KXMODELHIGH?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 9.09,
+     "payout": 11.11,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXUSAIRANAGREEMENT-27-27FEB": {
-   "title": "US strikes a new Iran nuclear deal",
+  "KXAUCTIONRECORD-27-CLA-110747000": {
+   "title": "A Monet sells for over $110 million this year",
    "platform": "kalshi",
-   "payout": 12.5,
-   "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Politics",
+   "payout": 20.0,
+   "url": "https://kalshi.com/markets/KXAUCTIONRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Entertainment",
    "alts": {
     "kalshi": {
-     "ticker": "KXUSAIRANAGREEMENT-27-27FEB",
-     "title": "US strikes a new Iran nuclear deal",
-     "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 12.5,
+     "ticker": "KXAUCTIONRECORD-27-CLA-110747000",
+     "title": "A Monet sells for over $110 million this year",
+     "url": "https://kalshi.com/markets/KXAUCTIONRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 20.0,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-2506448": {
-   "title": "Hormuz averages 60+ ships a day this year",
-   "platform": "polymarket_us",
-   "payout": 33.33,
-   "url": "https://polymarket.us/event/hormuz-highavg-2026-12-31?marketSlug=stsc-hormuz-highavg-2026-12-31-ge60",
-   "category": "World",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-2506448",
-     "title": "Hormuz averages 60+ ships a day this year",
-     "url": "https://polymarket.us/event/hormuz-highavg-2026-12-31?marketSlug=stsc-hormuz-highavg-2026-12-31-ge60",
-     "payout": 33.33,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-287294": {
-   "title": "Adam Driver wins Best Actor",
+  "pmus-2711060": {
+   "title": "Sabrina Carpenter finishes 2026 as America's #2 artist",
    "platform": "polymarket_us",
    "payout": 100.0,
-   "url": "https://polymarket.us/event/oscars-03-14-2027-bestacto?marketSlug=tac-oscars-03-14-2027-bestacto-adadri",
+   "url": "https://polymarket.us/event/sptfy-2-artst-us-yr-2026?marketSlug=ccrc-sptfy-2-artst-us-yr-2026-sabcar",
    "category": "Entertainment",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-287294",
-     "title": "Adam Driver wins Best Actor",
-     "url": "https://polymarket.us/event/oscars-03-14-2027-bestacto?marketSlug=tac-oscars-03-14-2027-bestacto-adadri",
+     "ticker": "pmus-2711060",
+     "title": "Sabrina Carpenter finishes 2026 as America's #2 artist",
+     "url": "https://polymarket.us/event/sptfy-2-artst-us-yr-2026?marketSlug=ccrc-sptfy-2-artst-us-yr-2026-sabcar",
      "payout": 100.0,
      "same": true,
      "sim": 1.0
