@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-11-24T05:52:46.262777+00:00",
+  "board_date": "2026-11-24",
+  "link_mode": "reply",
+  "selections": [
+    {
+      "ticker": "pmus-1279695",
+      "rank": 1,
+      "selection_reason": "Keith Morrison voiceover joke is perfectly dry and specific; Lindsay Clancy is culturally legible; $2.78 payout is interesting without being obvious",
+      "title": "Lindsay Clancy is America's most Googled person next year",
+      "quip": "Keith Morrison recorded the voiceover months ago, just in case",
+      "payout": 2.78,
+      "platform": "polymarket_us",
+      "tier": "green",
+      "category": "Other",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1279695/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1279695/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1279695/og.png",
+      "content": {
+        "x_tweet_text": "Keith Morrison recorded the voiceover months ago, just in case",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-24",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Lindsay Clancy is America&#x27;s most Googled person next year</b>\n\n\u201c<i>Keith Morrison recorded the voiceover months ago, just in case</i>\u201d\n\n$1 pays $2.78\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1279695/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-2440253",
+      "rank": 2,
+      "selection_reason": "Vanderbilt/SEC comparison is a razor-sharp sports analogy that lands standalone; Democrats winning Missouri is genuinely weird; $10 payout rewards conviction on a long shot",
+      "title": "Democrats win Missouri in 2028",
+      "quip": "like Vanderbilt winning the SEC. possible, upsetting, nobody is prepared",
+      "payout": 10.0,
+      "platform": "polymarket_us",
+      "tier": "orange",
+      "category": "World",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-2440253/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-2440253/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-2440253/og.png",
+      "content": {
+        "x_tweet_text": "like Vanderbilt winning the SEC. possible, upsetting, nobody is prepared",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-24",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Democrats win Missouri in 2028</b>\n\n\u201c<i>like Vanderbilt winning the SEC. possible, upsetting, nobody is prepared</i>\u201d\n\n$1 pays $10\n\n<a href=\"https://www.dollarbets.lol/share/pmus-2440253/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-2711060",
+      "rank": 3,
+      "selection_reason": "today's filthy little longshot \u2014 the board's own hero pick",
+      "title": "Sabrina Carpenter finishes 2026 as America's #2 artist",
+      "quip": "Salieri, except Salieri was hot and had a tour bus",
+      "payout": 100.0,
+      "platform": "polymarket_us",
+      "tier": "purple",
+      "category": "Entertainment",
+      "card_variant": "ticket",
+      "share_url": "https://www.dollarbets.lol/share/pmus-2711060/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-2711060/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-2711060/og.png",
+      "content": {
+        "x_tweet_text": "Salieri, except Salieri was hot and had a tour bus",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-24",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Sabrina Carpenter finishes 2026 as America&#x27;s #2 artist</b>\n\n\u201c<i>Salieri, except Salieri was hot and had a tour bus</i>\u201d\n\n$1 pays $100\n\n<a href=\"https://www.dollarbets.lol/share/pmus-2711060/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    }
+  ]
+}
