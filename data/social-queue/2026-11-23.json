@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-25T01:30:07.575808+00:00",
+          "tweet_id": "2125401613489820102",
+          "reply_tweet_id": "2125401615272477004"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "40910691",
+        "page": "https://www.pexels.com/photo/serene-landscape-with-bare-trees-in-iraq-40910691/",
+        "photographer": "khezez  | \u062e\u0632\u0627\u0632",
+        "license": "Pexels License",
+        "phrases": [
+          "empty theater stage night",
+          "desert road dusk"
+        ],
+        "tokens": {
+          "input_tokens": 4090,
+          "output_tokens": 26
         }
       }
     }
