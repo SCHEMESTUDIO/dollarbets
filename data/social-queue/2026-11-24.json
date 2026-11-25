@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-25T08:57:59.550912+00:00",
+          "tweet_id": "2125514322746957959",
+          "reply_tweet_id": "2125514324114313638"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "16155190",
+        "page": "https://www.pexels.com/photo/fog-over-house-at-night-16155190/",
+        "photographer": "Isaac Mitchell",
+        "license": "Pexels License",
+        "phrases": [
+          "suburban house porch night rain",
+          "empty driveway streetlight fog"
+        ],
+        "tokens": {
+          "input_tokens": 3865,
+          "output_tokens": 33
         }
       }
     },
