@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-11-25T04:52:46.861621+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 9,
+    "NCAAF": 1
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-43A86650",
+      "title": "Buffalo Bills wins + Toledo Rockets wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:44069-3451339-5411358&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Kansas City Chiefs @ Buffalo Bills + Toledo Rockets @ Ohio Bobcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Kansas City Chiefs @ Buffalo Bills",
+          "pick": "Buffalo Bills wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44069-3451339-5411358&type=Single",
+          "commence_time": "2026-11-27T01:20:00Z"
+        },
+        {
+          "matchup": "Toledo Rockets @ Ohio Bobcats",
+          "pick": "Toledo Rockets wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50270-4542088-7455530&type=Single",
+          "commence_time": "2026-11-27T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-27T01:20:00Z"
+    },
+    {
+      "ticker": "PARLAY-24A101B7",
+      "title": "CSU Northridge Matadors wins + Toledo Rockets wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20135487-1582082040-2360650811&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "CSU Northridge Matadors @ Weber State Wildcats + Toledo Rockets @ Ohio Bobcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "CSU Northridge Matadors @ Weber State Wildcats",
+          "pick": "CSU Northridge Matadors wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20135487-1582082040-2360650811&type=Single",
+          "commence_time": "2026-11-25T23:00:00Z"
+        },
+        {
+          "matchup": "Toledo Rockets @ Ohio Bobcats",
+          "pick": "Toledo Rockets wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50270-4542088-7455530&type=Single",
+          "commence_time": "2026-11-27T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-25T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-95E62143",
+      "title": "Minnesota Wild wins + Toledo Rockets wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20099750-1578064724-2349938780&type=Single",
+      "sport": "icehockey_nhl",
+      "sport_display": "Multi",
+      "matchup": "Utah Mammoth @ Minnesota Wild + Toledo Rockets @ Ohio Bobcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Utah Mammoth @ Minnesota Wild",
+          "pick": "Minnesota Wild wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20099750-1578064724-2349938780&type=Single",
+          "commence_time": "2026-11-26T01:10:00Z"
+        },
+        {
+          "matchup": "Toledo Rockets @ Ohio Bobcats",
+          "pick": "Toledo Rockets wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50270-4542088-7455530&type=Single",
+          "commence_time": "2026-11-27T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-26T01:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-E27EF246",
+      "title": "Jafel Filho wins + Toledo Rockets wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20115918-1579932949-2354928948&type=Single",
+      "sport": "mma_mixed_martial_arts",
+      "sport_display": "Multi",
+      "matchup": "Jafel Filho @ Bruno Silva + Toledo Rockets @ Ohio Bobcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Jafel Filho @ Bruno Silva",
+          "pick": "Jafel Filho wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "mma_mixed_martial_arts",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20115918-1579932949-2354928948&type=Single",
+          "commence_time": "2026-12-05T15:00:00Z"
+        },
+        {
+          "matchup": "Toledo Rockets @ Ohio Bobcats",
+          "pick": "Toledo Rockets wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50270-4542088-7455530&type=Single",
+          "commence_time": "2026-11-27T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-27T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-5B914228",
+      "title": "Northwestern Wildcats wins + Washington State Cougars wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "as sure as gravity",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627658233&selectionId=661962",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Illinois Fighting Illini @ Northwestern Wildcats + San Diego State Aztecs @ Washington State Cougars",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Illinois Fighting Illini @ Northwestern Wildcats",
+          "pick": "Northwestern Wildcats wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627658233&selectionId=661962",
+          "commence_time": "2026-11-28T17:30:00Z"
+        },
+        {
+          "matchup": "San Diego State Aztecs @ Washington State Cougars",
+          "pick": "Washington State Cougars wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627785148&selectionId=662041",
+          "commence_time": "2026-11-28T23:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-28T17:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-299FF6A6",
+      "title": "Northwestern Wildcats wins + CSU Northridge Matadors wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627658233&selectionId=661962",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Illinois Fighting Illini @ Northwestern Wildcats + CSU Northridge Matadors @ Weber State Wildcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Illinois Fighting Illini @ Northwestern Wildcats",
+          "pick": "Northwestern Wildcats wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627658233&selectionId=661962",
+          "commence_time": "2026-11-28T17:30:00Z"
+        },
+        {
+          "matchup": "CSU Northridge Matadors @ Weber State Wildcats",
+          "pick": "CSU Northridge Matadors wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628412179&selectionId=3530469",
+          "commence_time": "2026-11-25T23:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-25T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-C071E19C",
+      "title": "Northwestern Wildcats wins + Minnesota Wild wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627658233&selectionId=661962",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Illinois Fighting Illini @ Northwestern Wildcats + Utah Mammoth @ Minnesota Wild",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Illinois Fighting Illini @ Northwestern Wildcats",
+          "pick": "Northwestern Wildcats wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627658233&selectionId=661962",
+          "commence_time": "2026-11-28T17:30:00Z"
+        },
+        {
+          "matchup": "Utah Mammoth @ Minnesota Wild",
+          "pick": "Minnesota Wild wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627270168&selectionId=25604",
+          "commence_time": "2026-11-26T01:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-26T01:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-2858E3BC",
+      "title": "Washington State Cougars wins + CSU Northridge Matadors wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627785148&selectionId=662041",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "San Diego State Aztecs @ Washington State Cougars + CSU Northridge Matadors @ Weber State Wildcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Diego State Aztecs @ Washington State Cougars",
+          "pick": "Washington State Cougars wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627785148&selectionId=662041",
+          "commence_time": "2026-11-28T23:30:00Z"
+        },
+        {
+          "matchup": "CSU Northridge Matadors @ Weber State Wildcats",
+          "pick": "CSU Northridge Matadors wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628412179&selectionId=3530469",
+          "commence_time": "2026-11-25T23:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-25T23:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-7532DC4F",
+      "title": "Washington State Cougars wins + Minnesota Wild wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627785148&selectionId=662041",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "San Diego State Aztecs @ Washington State Cougars + Utah Mammoth @ Minnesota Wild",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "San Diego State Aztecs @ Washington State Cougars",
+          "pick": "Washington State Cougars wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627785148&selectionId=662041",
+          "commence_time": "2026-11-28T23:30:00Z"
+        },
+        {
+          "matchup": "Utah Mammoth @ Minnesota Wild",
+          "pick": "Minnesota Wild wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627270168&selectionId=25604",
+          "commence_time": "2026-11-26T01:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-26T01:10:00Z"
+    },
+    {
+      "ticker": "PARLAY-09DB45B3",
+      "title": "CSU Northridge Matadors wins + Minnesota Wild wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "fanduel",
+      "platform_display": "FanDuel",
+      "url": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628412179&selectionId=3530469",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "CSU Northridge Matadors @ Weber State Wildcats + Utah Mammoth @ Minnesota Wild",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "CSU Northridge Matadors @ Weber State Wildcats",
+          "pick": "CSU Northridge Matadors wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628412179&selectionId=3530469",
+          "commence_time": "2026-11-25T23:00:00Z"
+        },
+        {
+          "matchup": "Utah Mammoth @ Minnesota Wild",
+          "pick": "Minnesota Wild wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627270168&selectionId=25604",
+          "commence_time": "2026-11-26T01:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-25T23:00:00Z"
+    }
+  ]
+}
