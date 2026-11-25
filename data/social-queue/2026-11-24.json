@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-25T22:45:15.191650+00:00",
+          "tweet_id": "2125722509588762999",
+          "reply_tweet_id": "2125722511228743681"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "27916384",
+        "page": "https://www.pexels.com/photo/a-brown-cow-standing-in-a-field-with-trees-27916384/",
+        "photographer": "Ruben Boekeloo",
+        "license": "Pexels License",
+        "phrases": [
+          "empty stadium bleachers dusk",
+          "missouri farmland road rain"
+        ],
+        "tokens": {
+          "input_tokens": 4097,
+          "output_tokens": 34
         }
       }
     },
