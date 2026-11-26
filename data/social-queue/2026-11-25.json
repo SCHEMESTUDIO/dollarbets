@@ -80,10 +80,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-26T22:35:27.133270+00:00",
+          "tweet_id": "2126082430977094109",
+          "reply_tweet_id": "2126082432612929617"
         },
         "telegram_channel": {
           "posted": false,
@@ -94,6 +94,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "36400306",
+        "page": "https://www.pexels.com/photo/snowy-lakeside-house-in-winter-setting-36400306/",
+        "photographer": "_ Whittington",
+        "license": "Pexels License",
+        "phrases": [
+          "snowy row house street dusk",
+          "empty parking space snowbank night"
+        ],
+        "tokens": {
+          "input_tokens": 3631,
+          "output_tokens": 32
         }
       }
     },
