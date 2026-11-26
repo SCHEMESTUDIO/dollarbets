@@ -25,10 +25,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-26T08:44:28.045437+00:00",
+          "tweet_id": "2125873306737795281",
+          "reply_tweet_id": "2125873308331561135"
         },
         "telegram_channel": {
           "posted": false,
@@ -39,6 +39,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "pexels",
+        "id": "29094001",
+        "page": "https://www.pexels.com/photo/black-and-white-glass-block-window-in-brick-wall-29094001/",
+        "photographer": "Anton Ivanov",
+        "license": "Pexels License",
+        "phrases": [
+          "empty office cubicles dusk",
+          "warehouse loading dock night"
+        ],
+        "tokens": {
+          "input_tokens": 3636,
+          "output_tokens": 32
         }
       }
     },
