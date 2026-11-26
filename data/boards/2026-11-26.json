@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-11-26T04:02:19.697307+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket_us": 5,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "KXFIRSTVETO120-28-27MAR01",
+      "title": "Trump vetoes a bill before March 2027",
+      "subtitle": "Before Jan 1, 2028",
+      "yes_sub_title": "Before Mar 1, 2027",
+      "no_sub_title": "Before Mar 1, 2027",
+      "payout": 1.82,
+      "tier": "green",
+      "quip": "i didn't know we still had a Congress passing things",
+      "yes_price": "0.5500",
+      "volume": 347.47,
+      "category": "Politics",
+      "close_time": "2027-03-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXFIRSTVETO120?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 65.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "the Sharpie gets a promotion and its own Secret Service detail",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i didn't know we still had a Congress passing things",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "\"nobody's ever vetoed like this. people say sir, the pen is beautiful.\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "the veto pen is now made of gold leaf and Diet Coke",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "Michael Scott voice: i declare VETO",
+          "mode": 8,
+          "score": 7
+        },
+        {
+          "quip": "democracy's little speed bump",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "the legislative version of spiking the ball on your own one yard line",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "i will watch that pen ceremony like it's a title fight",
+          "mode": 2,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-234509",
+      "title": "Delcy Rodr\u00edguez is out in Venezuela by 2027",
+      "subtitle": "",
+      "payout": 2.56,
+      "tier": "green",
+      "quip": "an interim president of an interim president. Venezuela's doing a group project",
+      "yes_price": "0.3900",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2027-07-15T03:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/delrod-venpres?marketSlug=opdc-delrod-venpres-2027-06-30",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "i learned her name eleven days ago and now this",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the Doral bakeries are already piping frosting onto a very large cake",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "an interim president of an interim president. Venezuela's doing a group project",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "job security down there: nonexistent",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "the average Venezuelan presidency now lasts 39 weeks and one phone call",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "like Game of Thrones season eight, everybody gets a turn on the chair",
+          "mode": 8,
+          "score": 6.5
+        },
+        {
+          "quip": "\"we are stable. extremely stable,\" says the man zipping a suitcase",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "every time i check in on Caracas there's a new guy behind the desk",
+          "mode": 2,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2897521",
+      "title": "Rob Lowe's The Outsider tops Netflix this week",
+      "subtitle": "",
+      "payout": 2.94,
+      "tier": "green",
+      "quip": "2.94 billion viewers, all of them on somebody else's account",
+      "yes_price": "0.3400",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2026-12-16T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/ntflx-1movglbl-2026-12-01?marketSlug=ccrc-ntflx-1movglbl-2026-12-01-roblow",
+      "platform": "polymarket_us",
+      "score": 33.0,
+      "quip_alts": [
+        {
+          "quip": "i will watch this with my mom and we will both cry",
+          "mode": 2,
+          "score": 6
+        },
+        {
+          "quip": "Rob Lowe has been 54 since 1997 and i respect it enormously",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "a Brat Pack group chat lights up for the first time since 2012",
+          "mode": 1,
+          "score": 5
+        },
+        {
+          "quip": "Rob Lowe stays undefeated",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "Sam Seaborn never lost an argument, he just moved to streaming",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "the Netflix top ten is the Sun Belt of cinema and that's fine",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "2.94 billion viewers, all of them on somebody else's account",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "beating whatever algorithm sludge they filmed in a Budapest parking garage",
+          "mode": 7,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNCAAFFIRSTTDTEAM-26NOV26TCUTTU-TCU",
+      "title": "TCU scores the game's first touchdown",
+      "subtitle": "TCU vs TTU (Nov 26)",
+      "yes_sub_title": "TCU",
+      "no_sub_title": "TCU",
+      "payout": 3.45,
+      "tier": "yellow",
+      "quip": "i love that their mascot shoots blood out of its eyes. genuinely",
+      "yes_price": "0.2900",
+      "volume": 39.99,
+      "category": "Sports",
+      "close_time": "2026-11-29T01:00:00Z",
+      "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 73.0,
+      "_specificity": 5,
+      "quip_alts": [
+        {
+          "quip": "i have no stake in Fort Worth and yet here i am, standing",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "the horned frog does the blood-from-the-eyes thing on the jumbotron, children scream",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "Big 12 football, where somebody scores before the anthem finishes echoing",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "frogs out front early",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "i love that their mascot shoots blood out of its eyes. genuinely",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "29 seconds in and nobody on that defense attempts a tackle",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "\"we scripted our first fifteen plays\" says a man who scripted four",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "clear eyes, full hearts, purple everywhere",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1279552",
+      "title": "Stranger Things is Google's most searched show in 2026",
+      "subtitle": "",
+      "payout": 4.35,
+      "tier": "yellow",
+      "quip": "i quit in season three and i'm still typing it into the bar",
+      "yes_price": "0.2300",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/gsearch-1tvshow-2026?marketSlug=gsrc-gsearch-1tvshow-2026-strthi",
+      "platform": "polymarket_us",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "i quit in season three and i'm still typing it into the bar",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "the kids are 34 now and still riding bikes through Hawkins at dusk",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "the Upside Down won",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "still the only show my entire family will sit through, god help us",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "this is the Stones booking a stadium tour in 2026 and selling it out",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "condolences to every prestige drama, Netflix just owns the search bar",
+          "mode": 7,
+          "score": 6
+        },
+        {
+          "quip": "season 23 and Will is somehow still missing",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "run that Kate Bush song back one more time, for the economy",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXUAPFILES-26NOV23-26DEC15",
+      "title": "Trump releases new UFO files by next December",
+      "subtitle": "Before Feb 1, 2027",
+      "yes_sub_title": "Before Dec 15, 2026",
+      "no_sub_title": "Before Dec 15, 2026",
+      "payout": 5.26,
+      "tier": "yellow",
+      "quip": "every page redacted except a Denny's receipt from Roswell, 1951",
+      "yes_price": "0.1900",
+      "volume": 715.21,
+      "category": "Politics",
+      "close_time": "2026-12-15T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUAPFILES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "\"they showed me the craft. i said is that a craft? they said sir.\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "i will read all 900 pages and learn nothing, as is tradition",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "every page redacted except a Denny's receipt from Roswell, 1951",
+          "mode": 1,
+          "score": 9
+        },
+        {
+          "quip": "the aliens are so cooked",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "19 pages, 18 of them black rectangles, one of them a map of Ohio",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "give me the X-Files theme over a Rose Garden presser, i'm begging",
+          "mode": 8,
+          "score": 6.5
+        },
+        {
+          "quip": "i don't want the briefings, i want the cow mutilation annex",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the JFK files did this to me once and i will fall for it again",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2753280",
+      "title": "Solana dips to $60 this week",
+      "subtitle": "",
+      "payout": 10.0,
+      "tier": "orange",
+      "quip": "the Solana guys discover hiking, buy poles, post about elevation",
+      "yes_price": "0.1000",
+      "volume": 0,
+      "category": "Crypto",
+      "close_time": "2026-11-27T22:30:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.us/event/sol-hit-l-w-2026-11-27?marketSlug=cpcsol-sol-hit-l-w-2026-11-27-60",
+      "platform": "polymarket_us",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "my cost basis is a crime scene and the police stopped responding",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "the Solana guys discover hiking, buy poles, post about elevation",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i check the chart at red lights now, which is new for me",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "sixty dollars, baby",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "$60 coin, $10 payout, both numbers feel vaguely illegal",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "like opening your fantasy team after three byes and a Thursday injury",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "the Miami conference circuit about to get real quiet real fast",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "it's not a loss until you sell, said the man, selling",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2360208",
+      "title": "Alibaba is the third-best AI company this month",
+      "subtitle": "",
+      "payout": 10.0,
+      "tier": "orange",
+      "quip": "Ricky Bobby voice: if you ain't first you're Alibaba",
+      "yes_price": "0.1000",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2026-12-14T17:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/company3-mnth-2026-11-30?marketSlug=aimrc-company3-mnth-2026-11-30-alibab",
+      "platform": "polymarket_us",
+      "score": 53.0,
+      "quip_alts": [
+        {
+          "quip": "i cannot name the top two and i refuse to go look",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "i've been using Qwen for a month and telling absolutely nobody",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Jack Ma reappears, says nothing, disappears into a Hangzhou fog",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "bronze still shiny enough",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "third place, ten bucks, zero Americans surprised",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "Ricky Bobby voice: if you ain't first you're Alibaba",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "somewhere a San Francisco founder is doing breathwork about this",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "a shopping website casually cooking half of Silicon Valley is extremely funny to me",
+          "mode": 3,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXAUCTIONRECORD-27-CLA-110747000",
+      "title": "A Monet sells for over $110 million this year",
+      "subtitle": "Monet",
+      "yes_sub_title": "Above $110,747,000",
+      "no_sub_title": "Above $110,747,000",
+      "payout": 33.33,
+      "tier": "red",
+      "quip": "Ferris Bueller skipped school to stare at a painting worth less than this",
+      "yes_price": "0.0300",
+      "volume": 114468.17,
+      "category": "Entertainment",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXAUCTIONRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 131.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i had a Monet poster in a dorm so technically we're both collectors",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "straight into a Geneva freeport where nobody sees it for forty years",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "$110,747,000 and the buyer still asks whether the frame's included",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "water lilies, insane money",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "a man painted one pond 250 times and became a permanent flex. respect",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "i've never raised a paddle in my life but i'd raise it for lilies",
+          "mode": 2,
+          "score": 6.5
+        },
+        {
+          "quip": "congrats to whichever crypto guy desperately needed a tax event",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "Ferris Bueller skipped school to stare at a painting worth less than this",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXNCAAFFIRSTTDTEAM-26NOV27NEBIOWA-NONE",
+      "title": "Nobody scores a touchdown in this game",
+      "subtitle": "NEB vs IOWA (Nov 27)",
+      "yes_sub_title": "No team",
+      "no_sub_title": "No team",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "give me a 2-0 safety game. i'm serious, i'd watch it twice",
+      "yes_price": "0.0100",
+      "volume": 93.51,
+      "category": "Sports",
+      "close_time": "2026-11-29T17:00:00Z",
+      "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 48.0,
+      "_specificity": 5,
+      "quip_alts": [
+        {
+          "quip": "both coaches shake hands and agree never to speak of this again",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i would watch every snap of this and complain the entire time",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "field goals and sadness",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "final score 6 to 3, a hundred bucks, one very cold stadium",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "a November night game with the heat off and the offense in storage",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "the punters are the only two employees earning anything tonight",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "give me a 2-0 safety game. i'm serious, i'd watch it twice",
+          "mode": 3,
+          "score": 8.5
+        },
+        {
+          "quip": "defense wins championships and also ruins perfectly good Saturdays",
+          "mode": 8,
+          "score": 7.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,170 +1,178 @@
 {
- "generated_at": "2026-11-25T04:52:04.663915+00:00",
+ "generated_at": "2026-11-26T04:02:19.696734+00:00",
  "markets": {
-  "pmus-1987015": {
-   "title": "Keke Palmer hosts SNL this December",
-   "platform": "polymarket_us",
-   "payout": 2.04,
-   "url": "https://polymarket.us/event/snlhost-2026-12?marketSlug=phc-snlhost-2026-12-kekpal",
-   "category": "Entertainment",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-1987015",
-     "title": "Keke Palmer hosts SNL this December",
-     "url": "https://polymarket.us/event/snlhost-2026-12?marketSlug=phc-snlhost-2026-12-kekpal",
-     "payout": 2.04,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-2362483": {
-   "title": "Pardon My Take wins the Golden Globe for podcast",
-   "platform": "polymarket_us",
-   "payout": 2.08,
-   "url": "https://polymarket.us/event/globes-pod-2027-01-10?marketSlug=tac-globes-pod-2027-01-10-parmy",
-   "category": "Other",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-2362483",
-     "title": "Pardon My Take wins the Golden Globe for podcast",
-     "url": "https://polymarket.us/event/globes-pod-2027-01-10?marketSlug=tac-globes-pod-2027-01-10-parmy",
-     "payout": 2.08,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-2863567": {
-   "title": "Tame Impala and JENNIE win Record of the Year",
-   "platform": "polymarket_us",
-   "payout": 2.13,
-   "url": "https://polymarket.us/event/grammys-roty-2027-02-07?marketSlug=tac-grammys-roty-2027-02-07-dracul",
-   "category": "Entertainment",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-2863567",
-     "title": "Tame Impala and JENNIE win Record of the Year",
-     "url": "https://polymarket.us/event/grammys-roty-2027-02-07?marketSlug=tac-grammys-roty-2027-02-07-dracul",
-     "payout": 2.13,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-2249982": {
-   "title": "November jobs report comes in above 125,000",
-   "platform": "polymarket_us",
-   "payout": 3.12,
-   "url": "https://polymarket.us/event/usnfp-sa-november-2026-12-04?marketSlug=nfpc-usnfp-sa-november-2026-12-04-gt125k",
-   "category": "Other",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-2249982",
-     "title": "November jobs report comes in above 125,000",
-     "url": "https://polymarket.us/event/usnfp-sa-november-2026-12-04?marketSlug=nfpc-usnfp-sa-november-2026-12-04-gt125k",
-     "payout": 3.12,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "KXPITSNOWM-26DEC-12": {
-   "title": "Pittsburgh gets over a foot of snow this December",
+  "KXFIRSTVETO120-28-27MAR01": {
+   "title": "Trump vetoes a bill before March 2027",
    "platform": "kalshi",
-   "payout": 3.45,
-   "url": "https://kalshi.com/markets/KXPITSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Climate and Weather",
+   "payout": 1.82,
+   "url": "https://kalshi.com/markets/KXFIRSTVETO120?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Politics",
    "alts": {
     "kalshi": {
-     "ticker": "KXPITSNOWM-26DEC-12",
-     "title": "Pittsburgh gets over a foot of snow this December",
-     "url": "https://kalshi.com/markets/KXPITSNOWM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "ticker": "KXFIRSTVETO120-28-27MAR01",
+     "title": "Trump vetoes a bill before March 2027",
+     "url": "https://kalshi.com/markets/KXFIRSTVETO120?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 1.82,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-234509": {
+   "title": "Delcy Rodr\u00edguez is out in Venezuela by 2027",
+   "platform": "polymarket_us",
+   "payout": 2.56,
+   "url": "https://polymarket.us/event/delrod-venpres?marketSlug=opdc-delrod-venpres-2027-06-30",
+   "category": "World",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-234509",
+     "title": "Delcy Rodr\u00edguez is out in Venezuela by 2027",
+     "url": "https://polymarket.us/event/delrod-venpres?marketSlug=opdc-delrod-venpres-2027-06-30",
+     "payout": 2.56,
+     "same": true,
+     "sim": 1.0
+    },
+    "polymarket": {
+     "ticker": "0x96c949597678892339dde0918f28906ac12f1334c0d6a539d7884c944b4b39bc",
+     "title": "Will Delcy Rodr\u00edguez be the next leader out before 2027?",
+     "url": "https://polymarket.com/event/next-leader-out-of-power-before-2027-no-starmer-or-petro-20260630194619406",
+     "payout": 666.67,
+     "same": false,
+     "sim": 0.43
+    }
+   }
+  },
+  "pmus-2897521": {
+   "title": "Rob Lowe's The Outsider tops Netflix this week",
+   "platform": "polymarket_us",
+   "payout": 2.94,
+   "url": "https://polymarket.us/event/ntflx-1movglbl-2026-12-01?marketSlug=ccrc-ntflx-1movglbl-2026-12-01-roblow",
+   "category": "Entertainment",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-2897521",
+     "title": "Rob Lowe's The Outsider tops Netflix this week",
+     "url": "https://polymarket.us/event/ntflx-1movglbl-2026-12-01?marketSlug=ccrc-ntflx-1movglbl-2026-12-01-roblow",
+     "payout": 2.94,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXNCAAFFIRSTTDTEAM-26NOV26TCUTTU-TCU": {
+   "title": "TCU scores the game's first touchdown",
+   "platform": "kalshi",
+   "payout": 3.45,
+   "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Sports",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXNCAAFFIRSTTDTEAM-26NOV26TCUTTU-TCU",
+     "title": "TCU scores the game's first touchdown",
+     "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
      "payout": 3.45,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXUECL1HBTTS-26NOV26HAJSTT-BTTS": {
-   "title": "Both teams score in the first half tonight",
-   "platform": "kalshi",
-   "payout": 4.0,
-   "url": "https://kalshi.com/markets/KXUECL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Sports",
+  "pmus-1279552": {
+   "title": "Stranger Things is Google's most searched show in 2026",
+   "platform": "polymarket_us",
+   "payout": 4.35,
+   "url": "https://polymarket.us/event/gsearch-1tvshow-2026?marketSlug=gsrc-gsearch-1tvshow-2026-strthi",
+   "category": "Other",
    "alts": {
-    "kalshi": {
-     "ticker": "KXUECL1HBTTS-26NOV26HAJSTT-BTTS",
-     "title": "Both teams score in the first half tonight",
-     "url": "https://kalshi.com/markets/KXUECL1HBTTS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 4.0,
+    "polymarket_us": {
+     "ticker": "pmus-1279552",
+     "title": "Stranger Things is Google's most searched show in 2026",
+     "url": "https://polymarket.us/event/gsearch-1tvshow-2026?marketSlug=gsrc-gsearch-1tvshow-2026-strthi",
+     "payout": 4.35,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "MOON-27DEC31": {
-   "title": "NASA lands boots on the Moon before 2028",
+  "KXUAPFILES-26NOV23-26DEC15": {
+   "title": "Trump releases new UFO files by next December",
    "platform": "kalshi",
-   "payout": 7.94,
-   "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Science and Technology",
-   "alts": {
-    "kalshi": {
-     "ticker": "MOON-27DEC31",
-     "title": "NASA lands boots on the Moon before 2028",
-     "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 7.94,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "KXUSAIRANAGREEMENT-27-27FEB": {
-   "title": "The US signs a new Iran nuclear deal this year",
-   "platform": "kalshi",
-   "payout": 12.5,
-   "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 5.26,
+   "url": "https://kalshi.com/markets/KXUAPFILES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Politics",
    "alts": {
     "kalshi": {
-     "ticker": "KXUSAIRANAGREEMENT-27-27FEB",
-     "title": "The US signs a new Iran nuclear deal this year",
-     "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 12.5,
+     "ticker": "KXUAPFILES-26NOV23-26DEC15",
+     "title": "Trump releases new UFO files by next December",
+     "url": "https://kalshi.com/markets/KXUAPFILES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 5.26,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-2037165": {
-   "title": "XRP climbs to $1.80 this month",
+  "pmus-2753280": {
+   "title": "Solana dips to $60 this week",
    "platform": "polymarket_us",
-   "payout": 25.0,
-   "url": "https://polymarket.us/event/xrp-hit-h-m-2026-11?marketSlug=cpcxrp-xrp-hit-h-m-2026-11-1p8",
+   "payout": 10.0,
+   "url": "https://polymarket.us/event/sol-hit-l-w-2026-11-27?marketSlug=cpcsol-sol-hit-l-w-2026-11-27-60",
    "category": "Crypto",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-2037165",
-     "title": "XRP climbs to $1.80 this month",
-     "url": "https://polymarket.us/event/xrp-hit-h-m-2026-11?marketSlug=cpcxrp-xrp-hit-h-m-2026-11-1p8",
-     "payout": 25.0,
+     "ticker": "pmus-2753280",
+     "title": "Solana dips to $60 this week",
+     "url": "https://polymarket.us/event/sol-hit-l-w-2026-11-27?marketSlug=cpcsol-sol-hit-l-w-2026-11-27-60",
+     "payout": 10.0,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-287310": {
-   "title": "Gavin Newsom gets arrested this year",
+  "pmus-2360208": {
+   "title": "Alibaba is the third-best AI company this month",
    "platform": "polymarket_us",
-   "payout": 100.0,
-   "url": "https://polymarket.us/event/group-2026-12-31?marketSlug=iarc-group-2026-12-31-gavnew",
-   "category": "World",
+   "payout": 10.0,
+   "url": "https://polymarket.us/event/company3-mnth-2026-11-30?marketSlug=aimrc-company3-mnth-2026-11-30-alibab",
+   "category": "Science and Technology",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-287310",
-     "title": "Gavin Newsom gets arrested this year",
-     "url": "https://polymarket.us/event/group-2026-12-31?marketSlug=iarc-group-2026-12-31-gavnew",
+     "ticker": "pmus-2360208",
+     "title": "Alibaba is the third-best AI company this month",
+     "url": "https://polymarket.us/event/company3-mnth-2026-11-30?marketSlug=aimrc-company3-mnth-2026-11-30-alibab",
+     "payout": 10.0,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXAUCTIONRECORD-27-CLA-110747000": {
+   "title": "A Monet sells for over $110 million this year",
+   "platform": "kalshi",
+   "payout": 33.33,
+   "url": "https://kalshi.com/markets/KXAUCTIONRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Entertainment",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXAUCTIONRECORD-27-CLA-110747000",
+     "title": "A Monet sells for over $110 million this year",
+     "url": "https://kalshi.com/markets/KXAUCTIONRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 33.33,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXNCAAFFIRSTTDTEAM-26NOV27NEBIOWA-NONE": {
+   "title": "Nobody scores a touchdown in this game",
+   "platform": "kalshi",
+   "payout": 100.0,
+   "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Sports",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXNCAAFFIRSTTDTEAM-26NOV27NEBIOWA-NONE",
+     "title": "Nobody scores a touchdown in this game",
+     "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
      "payout": 100.0,
      "same": true,
      "sim": 1.0
