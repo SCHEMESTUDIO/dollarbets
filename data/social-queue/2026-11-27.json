@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-11-27T04:02:45.275410+00:00",
+  "board_date": "2026-11-27",
+  "link_mode": "reply",
+  "selections": [
+    {
+      "ticker": "KXUSSAUDINUCLEAR-27-27JAN01",
+      "rank": 1,
+      "selection_reason": "Absurdist quip lands perfectly standalone, nuclear/LIV Golf mashup is culturally legible, 10:1 payout is a nice surprise for a dollar bet",
+      "title": "The US and Saudi nuclear deal takes effect",
+      "quip": "LIV Golf but the ball is enriched",
+      "payout": 10.0,
+      "platform": null,
+      "tier": "orange",
+      "category": "Politics",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/KXUSSAUDINUCLEAR-27-27JAN01/",
+      "image_url": "https://www.dollarbets.lol/share/KXUSSAUDINUCLEAR-27-27JAN01/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/KXUSSAUDINUCLEAR-27-27JAN01/og.png",
+      "content": {
+        "x_tweet_text": "LIV Golf but the ball is enriched",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-27",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>The US and Saudi nuclear deal takes effect</b>\n\n\u201c<i>LIV Golf but the ball is enriched</i>\u201d\n\n$1 pays $10\n\n<a href=\"https://www.dollarbets.lol/share/KXUSSAUDINUCLEAR-27-27JAN01/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-1323115",
+      "rank": 2,
+      "selection_reason": "Dickens reference is funny and specific without needing context, chicken thighs as inflation proxy is relatable, 2.78 payout is solid for a commodities bet",
+      "title": "Beef prices fall to $6.50 by New Year's",
+      "quip": "i have been eating chicken thighs like a man in a Dickens novel",
+      "payout": 2.78,
+      "platform": "polymarket_us",
+      "tier": "green",
+      "category": "Other",
+      "card_variant": "tile",
+      "share_url": "https://www.dollarbets.lol/share/pmus-1323115/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-1323115/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-1323115/og.png",
+      "content": {
+        "x_tweet_text": "i have been eating chicken thighs like a man in a Dickens novel",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-27",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Beef prices fall to $6.50 by New Year&#x27;s</b>\n\n\u201c<i>i have been eating chicken thighs like a man in a Dickens novel</i>\u201d\n\n$1 pays $2.78\n\n<a href=\"https://www.dollarbets.lol/share/pmus-1323115/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    },
+    {
+      "ticker": "pmus-166295",
+      "rank": 3,
+      "selection_reason": "today's filthy little longshot \u2014 the board's own hero pick",
+      "title": "Meta owns the best AI model by end of 2026",
+      "quip": "shirtless jiu-jitsu post captioned with a benchmark chart, no words",
+      "payout": 100.0,
+      "platform": "polymarket_us",
+      "tier": "purple",
+      "category": "Science and Technology",
+      "card_variant": "ticket",
+      "share_url": "https://www.dollarbets.lol/share/pmus-166295/",
+      "image_url": "https://www.dollarbets.lol/share/pmus-166295/card.png",
+      "og_image_url": "https://www.dollarbets.lol/share/pmus-166295/og.png",
+      "content": {
+        "x_tweet_text": "shirtless jiu-jitsu post captioned with a benchmark chart, no words",
+        "x_reply_text": "the odds, and the rest of today\u2019s board \u2192 https://www.dollarbets.lol/?utm_source=x&utm_medium=daily_card&utm_content=2026-11-27",
+        "x_link_mode": "reply",
+        "telegram_caption_html": "<b>Meta owns the best AI model by end of 2026</b>\n\n\u201c<i>shirtless jiu-jitsu post captioned with a benchmark chart, no words</i>\u201d\n\n$1 pays $100\n\n<a href=\"https://www.dollarbets.lol/share/pmus-166295/\">see the card \u2192</a>"
+      },
+      "posts": {
+        "x": {
+          "posted": false,
+          "posted_at": null,
+          "tweet_id": null,
+          "reply_tweet_id": null
+        },
+        "telegram_channel": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        },
+        "telegram_group": {
+          "posted": false,
+          "posted_at": null,
+          "message_id": null
+        }
+      }
+    }
+  ]
+}
