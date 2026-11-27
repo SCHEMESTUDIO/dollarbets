@@ -135,10 +135,10 @@
       },
       "posts": {
         "x": {
-          "posted": false,
-          "posted_at": null,
-          "tweet_id": null,
-          "reply_tweet_id": null
+          "posted": true,
+          "posted_at": "2026-11-27T01:06:48.555288+00:00",
+          "tweet_id": "2126120521318490485",
+          "reply_tweet_id": "2126120522815812053"
         },
         "telegram_channel": {
           "posted": false,
@@ -149,6 +149,22 @@
           "posted": false,
           "posted_at": null,
           "message_id": null
+        }
+      },
+      "photo": {
+        "used": true,
+        "source": "openverse",
+        "id": "116b904a-66b5-4cae-bf36-3a2c9fed20ea",
+        "page": "https://commons.wikimedia.org/w/index.php?curid=72733471",
+        "photographer": "Louise Norris",
+        "license": "CC BY-SA 4.0",
+        "phrases": [
+          "capitol building dusk rain",
+          "empty dining room candlelight"
+        ],
+        "tokens": {
+          "input_tokens": 8045,
+          "output_tokens": 41
         }
       }
     }
