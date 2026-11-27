@@ -1,181 +1,189 @@
 {
- "generated_at": "2026-11-26T04:02:19.696734+00:00",
+ "generated_at": "2026-11-27T04:01:25.378990+00:00",
  "markets": {
-  "KXFIRSTVETO120-28-27MAR01": {
-   "title": "Trump vetoes a bill before March 2027",
+  "KXNHLF10G-26NOV27COLMIN-Y": {
+   "title": "Somebody scores in the first 10 minutes tonight",
    "platform": "kalshi",
-   "payout": 1.82,
-   "url": "https://kalshi.com/markets/KXFIRSTVETO120?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Politics",
-   "alts": {
-    "kalshi": {
-     "ticker": "KXFIRSTVETO120-28-27MAR01",
-     "title": "Trump vetoes a bill before March 2027",
-     "url": "https://kalshi.com/markets/KXFIRSTVETO120?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 1.82,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-234509": {
-   "title": "Delcy Rodr\u00edguez is out in Venezuela by 2027",
-   "platform": "polymarket_us",
-   "payout": 2.56,
-   "url": "https://polymarket.us/event/delrod-venpres?marketSlug=opdc-delrod-venpres-2027-06-30",
-   "category": "World",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-234509",
-     "title": "Delcy Rodr\u00edguez is out in Venezuela by 2027",
-     "url": "https://polymarket.us/event/delrod-venpres?marketSlug=opdc-delrod-venpres-2027-06-30",
-     "payout": 2.56,
-     "same": true,
-     "sim": 1.0
-    },
-    "polymarket": {
-     "ticker": "0x96c949597678892339dde0918f28906ac12f1334c0d6a539d7884c944b4b39bc",
-     "title": "Will Delcy Rodr\u00edguez be the next leader out before 2027?",
-     "url": "https://polymarket.com/event/next-leader-out-of-power-before-2027-no-starmer-or-petro-20260630194619406",
-     "payout": 666.67,
-     "same": false,
-     "sim": 0.43
-    }
-   }
-  },
-  "pmus-2897521": {
-   "title": "Rob Lowe's The Outsider tops Netflix this week",
-   "platform": "polymarket_us",
-   "payout": 2.94,
-   "url": "https://polymarket.us/event/ntflx-1movglbl-2026-12-01?marketSlug=ccrc-ntflx-1movglbl-2026-12-01-roblow",
-   "category": "Entertainment",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-2897521",
-     "title": "Rob Lowe's The Outsider tops Netflix this week",
-     "url": "https://polymarket.us/event/ntflx-1movglbl-2026-12-01?marketSlug=ccrc-ntflx-1movglbl-2026-12-01-roblow",
-     "payout": 2.94,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "KXNCAAFFIRSTTDTEAM-26NOV26TCUTTU-TCU": {
-   "title": "TCU scores the game's first touchdown",
-   "platform": "kalshi",
-   "payout": 3.45,
-   "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 1.64,
+   "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Sports",
    "alts": {
     "kalshi": {
-     "ticker": "KXNCAAFFIRSTTDTEAM-26NOV26TCUTTU-TCU",
-     "title": "TCU scores the game's first touchdown",
-     "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 3.45,
+     "ticker": "KXNHLF10G-26NOV27COLMIN-Y",
+     "title": "Somebody scores in the first 10 minutes tonight",
+     "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 1.64,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-1279552": {
-   "title": "Stranger Things is Google's most searched show in 2026",
+  "pmus-2434215": {
+   "title": "Core inflation runs hot this month",
    "platform": "polymarket_us",
-   "payout": 4.35,
-   "url": "https://polymarket.us/event/gsearch-1tvshow-2026?marketSlug=gsrc-gsearch-1tvshow-2026-strthi",
+   "payout": 2.27,
+   "url": "https://polymarket.us/event/uscpicore-nov-mom-2026-12-10?marketSlug=cpic-uscpicore-nov-mom-2026-12-10-gt0pt2pct",
    "category": "Other",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-1279552",
-     "title": "Stranger Things is Google's most searched show in 2026",
-     "url": "https://polymarket.us/event/gsearch-1tvshow-2026?marketSlug=gsrc-gsearch-1tvshow-2026-strthi",
+     "ticker": "pmus-2434215",
+     "title": "Core inflation runs hot this month",
+     "url": "https://polymarket.us/event/uscpicore-nov-mom-2026-12-10?marketSlug=cpic-uscpicore-nov-mom-2026-12-10-gt0pt2pct",
+     "payout": 2.27,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-1323115": {
+   "title": "Beef prices fall to $6.50 by New Year's",
+   "platform": "polymarket_us",
+   "payout": 2.78,
+   "url": "https://polymarket.us/event/usbeef-lw-yr-2026-12-31?marketSlug=gbapc-usbeef-lw-yr-2026-12-31-lte6pt50",
+   "category": "Other",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-1323115",
+     "title": "Beef prices fall to $6.50 by New Year's",
+     "url": "https://polymarket.us/event/usbeef-lw-yr-2026-12-31?marketSlug=gbapc-usbeef-lw-yr-2026-12-31-lte6pt50",
+     "payout": 2.78,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-2110996": {
+   "title": "Greg Abbott announces a presidential run",
+   "platform": "polymarket_us",
+   "payout": 4.35,
+   "url": "https://polymarket.us/event/uspres28-12-31-2027?marketSlug=cranc-uspres28-12-31-2027-greabb",
+   "category": "World",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-2110996",
+     "title": "Greg Abbott announces a presidential run",
+     "url": "https://polymarket.us/event/uspres28-12-31-2027?marketSlug=cranc-uspres28-12-31-2027-greabb",
      "payout": 4.35,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXUAPFILES-26NOV23-26DEC15": {
-   "title": "Trump releases new UFO files by next December",
+  "KXLIGUE11H-26NOV28MANLIL-MAN": {
+   "title": "Le Mans leads at halftime tonight",
    "platform": "kalshi",
-   "payout": 5.26,
-   "url": "https://kalshi.com/markets/KXUAPFILES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Politics",
-   "alts": {
-    "kalshi": {
-     "ticker": "KXUAPFILES-26NOV23-26DEC15",
-     "title": "Trump releases new UFO files by next December",
-     "url": "https://kalshi.com/markets/KXUAPFILES?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 5.26,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-2753280": {
-   "title": "Solana dips to $60 this week",
-   "platform": "polymarket_us",
-   "payout": 10.0,
-   "url": "https://polymarket.us/event/sol-hit-l-w-2026-11-27?marketSlug=cpcsol-sol-hit-l-w-2026-11-27-60",
-   "category": "Crypto",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-2753280",
-     "title": "Solana dips to $60 this week",
-     "url": "https://polymarket.us/event/sol-hit-l-w-2026-11-27?marketSlug=cpcsol-sol-hit-l-w-2026-11-27-60",
-     "payout": 10.0,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-2360208": {
-   "title": "Alibaba is the third-best AI company this month",
-   "platform": "polymarket_us",
-   "payout": 10.0,
-   "url": "https://polymarket.us/event/company3-mnth-2026-11-30?marketSlug=aimrc-company3-mnth-2026-11-30-alibab",
-   "category": "Science and Technology",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-2360208",
-     "title": "Alibaba is the third-best AI company this month",
-     "url": "https://polymarket.us/event/company3-mnth-2026-11-30?marketSlug=aimrc-company3-mnth-2026-11-30-alibab",
-     "payout": 10.0,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "KXAUCTIONRECORD-27-CLA-110747000": {
-   "title": "A Monet sells for over $110 million this year",
-   "platform": "kalshi",
-   "payout": 33.33,
-   "url": "https://kalshi.com/markets/KXAUCTIONRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Entertainment",
-   "alts": {
-    "kalshi": {
-     "ticker": "KXAUCTIONRECORD-27-CLA-110747000",
-     "title": "A Monet sells for over $110 million this year",
-     "url": "https://kalshi.com/markets/KXAUCTIONRECORD?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 33.33,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "KXNCAAFFIRSTTDTEAM-26NOV27NEBIOWA-NONE": {
-   "title": "Nobody scores a touchdown in this game",
-   "platform": "kalshi",
-   "payout": 100.0,
-   "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 4.55,
+   "url": "https://kalshi.com/markets/KXLIGUE11H?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Sports",
    "alts": {
     "kalshi": {
-     "ticker": "KXNCAAFFIRSTTDTEAM-26NOV27NEBIOWA-NONE",
-     "title": "Nobody scores a touchdown in this game",
-     "url": "https://kalshi.com/markets/KXNCAAFFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "ticker": "KXLIGUE11H-26NOV28MANLIL-MAN",
+     "title": "Le Mans leads at halftime tonight",
+     "url": "https://kalshi.com/markets/KXLIGUE11H?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 4.55,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-287338": {
+   "title": "Josephine lands a Best Picture nomination",
+   "platform": "polymarket_us",
+   "payout": 6.67,
+   "url": "https://polymarket.us/event/oscars-nom-2027-01-31-bestpic?marketSlug=tac-oscars-nom-2027-01-31-bestpic-joseph",
+   "category": "Entertainment",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-287338",
+     "title": "Josephine lands a Best Picture nomination",
+     "url": "https://polymarket.us/event/oscars-nom-2027-01-31-bestpic?marketSlug=tac-oscars-nom-2027-01-31-bestpic-joseph",
+     "payout": 6.67,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXUSSAUDINUCLEAR-27-27JAN01": {
+   "title": "The US and Saudi nuclear deal takes effect",
+   "platform": "kalshi",
+   "payout": 10.0,
+   "url": "https://kalshi.com/markets/KXUSSAUDINUCLEAR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Politics",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXUSSAUDINUCLEAR-27-27JAN01",
+     "title": "The US and Saudi nuclear deal takes effect",
+     "url": "https://kalshi.com/markets/KXUSSAUDINUCLEAR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 10.0,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "MOON-27DEC31": {
+   "title": "NASA puts boots on the Moon before 2028",
+   "platform": "kalshi",
+   "payout": 10.1,
+   "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Science and Technology",
+   "alts": {
+    "kalshi": {
+     "ticker": "MOON-27DEC31",
+     "title": "NASA puts boots on the Moon before 2028",
+     "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 10.1,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXUSAIRANAGREEMENT-27": {
+   "title": "The US cuts a new Iran nuclear deal",
+   "platform": "kalshi",
+   "payout": 40.0,
+   "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Politics",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXUSAIRANAGREEMENT-27",
+     "title": "The US cuts a new Iran nuclear deal",
+     "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 40.0,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-166295": {
+   "title": "Meta owns the best AI model by end of 2026",
+   "platform": "polymarket_us",
+   "payout": 100.0,
+   "url": "https://polymarket.us/event/company1-2026-12-31?marketSlug=aimrc-company1-2026-12-31-meta",
+   "category": "Science and Technology",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-166295",
+     "title": "Meta owns the best AI model by end of 2026",
+     "url": "https://polymarket.us/event/company1-2026-12-31?marketSlug=aimrc-company1-2026-12-31-meta",
      "payout": 100.0,
      "same": true,
      "sim": 1.0
+    },
+    "kalshi": {
+     "ticker": "KXLLM1-26DEC31-BAID",
+     "title": "Best AI at the end of 2026?",
+     "url": "https://kalshi.com/markets/KXLLM1?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 500.0,
+     "same": false,
+     "sim": 0.4
+    },
+    "polymarket": {
+     "ticker": "0x51ababc7c3480cb48532de8488762947d8999a524218ade1388473a89a797829",
+     "title": "Will DeepSeek have the best AI model at the end of November 2026?",
+     "url": "https://polymarket.com/event/which-company-has-the-best-ai-model-end-of-november",
+     "payout": 2000.0,
+     "same": false,
+     "sim": 0.43
     }
    }
   }

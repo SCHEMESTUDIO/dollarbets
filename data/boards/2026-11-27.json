@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-11-27T04:01:25.379548+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 5,
+    "polymarket_us": 5,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "KXNHLF10G-26NOV27COLMIN-Y",
+      "title": "Somebody scores in the first 10 minutes tonight",
+      "subtitle": "COL vs MIN (Nov 27)",
+      "yes_sub_title": "Goal in first 10 min",
+      "no_sub_title": "Goal in first 10 min",
+      "payout": 1.64,
+      "tier": "green",
+      "quip": "Mighty Ducks flying V at 9:58 and the whole arena is drunk",
+      "yes_price": "0.6100",
+      "volume": 21.34,
+      "category": "Sports",
+      "close_time": "2026-11-29T21:00:00Z",
+      "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 48.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "the beer guy hasn't even made it up the stairs yet",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i microwaved nachos and missed the entire thing standing up",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "early goals are the most honest goals in all of sports",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "first period, first blood",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "$1.64 for ten minutes of work, better hourly than my first job",
+          "mode": 5,
+          "score": 5.5
+        },
+        {
+          "quip": "like a Big 12 shootout except everyone involved is holding a knife",
+          "mode": 6,
+          "score": 7.5
+        },
+        {
+          "quip": "Minnesota treats this as a state holiday regardless of who scores",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "Mighty Ducks flying V at 9:58 and the whole arena is drunk",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2434215",
+      "title": "Core inflation runs hot this month",
+      "subtitle": "",
+      "payout": 2.27,
+      "tier": "green",
+      "quip": "a burrito is nineteen dollars and they removed the guac entirely",
+      "yes_price": "0.4400",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2026-12-25T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/uscpicore-nov-mom-2026-12-10?marketSlug=cpic-uscpicore-nov-mom-2026-12-10-gt0pt2pct",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "my grocery list has quietly become a wishlist",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "a burrito is nineteen dollars and they removed the guac entirely",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "Powell squinting at one spreadsheet in a dark room at 4am",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "the number is bad",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "I love when a single decimal point ruins everybody's week",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "economists on TV saying transitory into a bathroom mirror again",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "like finding out your rent went up via a Post-it note",
+          "mode": 6,
+          "score": 6.5
+        },
+        {
+          "quip": "we're gonna need a bigger decimal",
+          "mode": 8,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1323115",
+      "title": "Beef prices fall to $6.50 by New Year's",
+      "subtitle": "",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "i have been eating chicken thighs like a man in a Dickens novel",
+      "yes_price": "0.3600",
+      "volume": 0,
+      "category": "Other",
+      "close_time": "2027-01-28T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/usbeef-lw-yr-2026-12-31?marketSlug=gbapc-usbeef-lw-yr-2026-12-31-lte6pt50",
+      "platform": "polymarket_us",
+      "score": 40.0,
+      "quip_alts": [
+        {
+          "quip": "i have been eating chicken thighs like a man in a Dickens novel",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "the entire country turns back into a steakhouse by January 2nd",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "$2.78 payout gets you roughly four ounces of ground chuck",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "burger summer, finally",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "Ron Swanson lights a candle",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "this is the beef version of gas dipping under three bucks",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "vegetarians quietly losing their entire moral argument overnight",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "I will personally grill for the whole block, no invitations needed",
+          "mode": 3,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2110996",
+      "title": "Greg Abbott announces a presidential run",
+      "subtitle": "",
+      "payout": 4.35,
+      "tier": "yellow",
+      "quip": "like a mid-major coach taking the Nebraska job. inevitable, slightly sad",
+      "yes_price": "0.2300",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2028-01-15T04:00:00Z",
+      "_specificity": 20,
+      "url": "https://polymarket.us/event/uspres28-12-31-2027?marketSlug=cranc-uspres28-12-31-2027-greabb",
+      "platform": "polymarket_us",
+      "score": 35.0,
+      "quip_alts": [
+        {
+          "quip": "\"we're bringing Texas to Washington, folks. all of it. the whole thing.\"",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "the announcement video gets filmed entirely in front of one truck",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i am relocating my Bloomberg terminal to a Buc-ee's for this",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "everybody runs eventually",
+          "mode": 9,
+          "score": 4.5
+        },
+        {
+          "quip": "like a mid-major coach taking the Nebraska job. inevitable, slightly sad",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Texas really about to do this to the rest of us again",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "4.35x on a guy whose signature policy is a buoy in a river",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "that primary debate stage becomes a county fair and I'm thrilled",
+          "mode": 3,
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXLIGUE11H-26NOV28MANLIL-MAN",
+      "title": "Le Mans leads at halftime tonight",
+      "subtitle": "MAN vs LIL (Nov 28)",
+      "yes_sub_title": "Le Mans wins 1st Half",
+      "no_sub_title": "Le Mans wins 1st Half",
+      "payout": 4.55,
+      "tier": "yellow",
+      "quip": "Ford v Ferrari except Christian Bale is a left back",
+      "yes_price": "0.2200",
+      "volume": 315.33,
+      "category": "Sports",
+      "close_time": "2026-11-30T19:45:00Z",
+      "url": "https://kalshi.com/markets/KXLIGUE11H?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 94.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "forty five minutes of French second division is still three hours of your life",
+          "mode": 6,
+          "score": 7
+        },
+        {
+          "quip": "a club named after a car race jumping out early is correct",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "they lead at half and then simply drive for twenty four hours",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "Ford v Ferrari except Christian Bale is a left back",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "i only know this town from a Matt Damon movie and i stand by it",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "halftime heroes, full-time mystery",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "nobody in America has ever said these two words out loud",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "$4.55 for 45 minutes, cheaper than my last stadium beer",
+          "mode": 5,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-287338",
+      "title": "Josephine lands a Best Picture nomination",
+      "subtitle": "",
+      "payout": 6.67,
+      "tier": "yellow",
+      "quip": "i have not seen it, i will lie about it, we move",
+      "yes_price": "0.1500",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-02-15T04:00:00Z",
+      "_specificity": 10,
+      "url": "https://polymarket.us/event/oscars-nom-2027-01-31-bestpic?marketSlug=tac-oscars-nom-2027-01-31-bestpic-joseph",
+      "platform": "polymarket_us",
+      "score": 38.0,
+      "quip_alts": [
+        {
+          "quip": "i have not seen it, i will lie about it, we move",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "they recut the trailer with strings and suddenly everyone's dad is crying",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "one-word title energy is undefeated inside that room",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "the Academy loves a name",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "like a 12 seed in the Sweet Sixteen and everyone claims they knew",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "Napoleon weeping somewhere, in a historically inaccurate hat",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "15 cents for a film my theater played twice, both times at 11am",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "\"it's about a woman. and also time. it's really about time.\"",
+          "mode": 4,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSSAUDINUCLEAR-27-27JAN01",
+      "title": "The US and Saudi nuclear deal takes effect",
+      "subtitle": "the bilateral U.S.\u2013Saudi agreement for peaceful nuclear cooperation under Section 123 of the Atomic Energy Act has entered into force and become legally operative between the two governments",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 10.0,
+      "tier": "orange",
+      "quip": "LIV Golf but the ball is enriched",
+      "yes_price": "0.1000",
+      "volume": 14880.61,
+      "category": "Politics",
+      "close_time": "2027-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXUSSAUDINUCLEAR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 99.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "groundbreaking ceremony with gold shovels and a DJ on the sand",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "i keep nodding at this headline like i know what a 123 Agreement is",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "\"they have so much sand. tremendous sand. we're giving them reactors.\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "LIV Golf but the ball is enriched",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "nuclear, but make it hospitality",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "10x on a document nobody in my life has read, myself included",
+          "mode": 5,
+          "score": 6.5
+        },
+        {
+          "quip": "honestly the most normal thing happening in that entire region right now",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "this is how every single season of Homeland started",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "MOON-27DEC31",
+      "title": "NASA puts boots on the Moon before 2028",
+      "subtitle": "Moon landing",
+      "yes_sub_title": "Before 2028",
+      "no_sub_title": "Before 2028",
+      "payout": 10.1,
+      "tier": "orange",
+      "quip": "Apollo 13 energy except the duct tape is a vendor contract",
+      "yes_price": "0.0990",
+      "volume": 232967.57,
+      "category": "Science and Technology",
+      "close_time": "2027-12-31T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "flag plant gets interrupted by a livestream donation alert ding",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "i am calling out of work that day and i will not be subtle",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "\"one small step\" and then immediately a sponsor read",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "this is the Jets announcing a parade route in August",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "moon, two more Christmases",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "$10.10 payout, roughly what the lander costs per bolt",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "i want to watch a grown man cry inside a helmet again",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "Apollo 13 energy except the duct tape is a vendor contract",
+          "mode": 8,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27",
+      "title": "The US cuts a new Iran nuclear deal",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 40.0,
+      "tier": "red",
+      "quip": "a coaching carousel where the same four guys keep getting rehired",
+      "yes_price": "0.0250",
+      "volume": 2139105.53,
+      "category": "Politics",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 115.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i have aged one full presidential term waiting on this sentence",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "signing ceremony photo where none of the hands actually touch",
+          "mode": 1,
+          "score": 7
+        },
+        {
+          "quip": "a coaching carousel where the same four guys keep getting rehired",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "deal number nine",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "40 to 1, and my fantasy team somehow has better odds",
+          "mode": 5,
+          "score": 6
+        },
+        {
+          "quip": "\"we made a beautiful deal. we may do another one Thursday.\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "honestly i would watch the entire negotiation on C-SPAN with snacks",
+          "mode": 3,
+          "score": 6.5
+        },
+        {
+          "quip": "the Ocean's Eleven of diplomacy except the vault is empty every time",
+          "mode": 8,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-166295",
+      "title": "Meta owns the best AI model by end of 2026",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "shirtless jiu-jitsu post captioned with a benchmark chart, no words",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/company1-2026-12-31?marketSlug=aimrc-company1-2026-12-31-meta",
+      "platform": "polymarket_us",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "i would have to respect Zuck and i am not emotionally prepared",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "shirtless jiu-jitsu post captioned with a benchmark chart, no words",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "100x on one dollar, which is 0.0000001 of one researcher's bonus",
+          "mode": 5,
+          "score": 7
+        },
+        {
+          "quip": "like the Knicks winning a title. the city simply combusts",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "Llama's revenge arc",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "i genuinely love when the guy who bought everybody finally wins",
+          "mode": 3,
+          "score": 5
+        },
+        {
+          "quip": "\"we're open sourcing it. also it lives in your glasses now.\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "every other lab texting their recruiter back within the hour",
+          "mode": 7,
+          "score": 7
+        }
+      ]
+    }
+  ]
+}

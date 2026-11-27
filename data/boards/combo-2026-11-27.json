@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-11-27T04:02:06.044960+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "NCAAF": 4,
+    "Multi": 6
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-9CA80CEA",
+      "title": "Toledo Rockets wins + Virginia Tech Hokies wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:50270-4542088-7455530&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Toledo Rockets @ Ohio Bobcats + Virginia Cavaliers @ Virginia Tech Hokies",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.37,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Toledo Rockets @ Ohio Bobcats",
+          "pick": "Toledo Rockets wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50270-4542088-7455530&type=Single",
+          "commence_time": "2026-11-27T17:00:00Z"
+        },
+        {
+          "matchup": "Virginia Cavaliers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50313-4559815-7496516&type=Single",
+          "commence_time": "2026-11-28T20:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-27T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-457D991B",
+      "title": "Toledo Rockets wins + Bowling Green Falcons wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "no surprises here",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:50270-4542088-7455530&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Toledo Rockets @ Ohio Bobcats + UMass Minutemen @ Bowling Green Falcons",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.37,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Toledo Rockets @ Ohio Bobcats",
+          "pick": "Toledo Rockets wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50270-4542088-7455530&type=Single",
+          "commence_time": "2026-11-27T17:00:00Z"
+        },
+        {
+          "matchup": "UMass Minutemen @ Bowling Green Falcons",
+          "pick": "Bowling Green Falcons wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50305-4559807-7496500&type=Single",
+          "commence_time": "2026-11-28T20:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-27T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-2F77571A",
+      "title": "Virginia Tech Hokies wins + Bowling Green Falcons wins",
+      "payout": 2.71,
+      "tier": "green",
+      "quip": "the sun also rises",
+      "yes_price": "0.37",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:50313-4559815-7496516&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Virginia Cavaliers @ Virginia Tech Hokies + UMass Minutemen @ Bowling Green Falcons",
+      "market_type": "2-leg parlay",
+      "american_odds": 171,
+      "implied_probability": 0.37,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Virginia Cavaliers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50313-4559815-7496516&type=Single",
+          "commence_time": "2026-11-28T20:00:00Z"
+        },
+        {
+          "matchup": "UMass Minutemen @ Bowling Green Falcons",
+          "pick": "Bowling Green Falcons wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50305-4559807-7496500&type=Single",
+          "commence_time": "2026-11-28T20:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-28T20:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-1646A397",
+      "title": "San Francisco 49ers wins + Toledo Rockets wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:44075-3451345-5411370&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Seattle Seahawks @ San Francisco 49ers + Toledo Rockets @ Ohio Bobcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Seattle Seahawks @ San Francisco 49ers",
+          "pick": "San Francisco 49ers wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44075-3451345-5411370&type=Single",
+          "commence_time": "2026-11-29T21:25:00Z"
+        },
+        {
+          "matchup": "Toledo Rockets @ Ohio Bobcats",
+          "pick": "Toledo Rockets wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50270-4542088-7455530&type=Single",
+          "commence_time": "2026-11-27T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-27T17:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-41496DAC",
+      "title": "San Francisco 49ers wins + Virginia Tech Hokies wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "the safe bet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:44075-3451345-5411370&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Seattle Seahawks @ San Francisco 49ers + Virginia Cavaliers @ Virginia Tech Hokies",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Seattle Seahawks @ San Francisco 49ers",
+          "pick": "San Francisco 49ers wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44075-3451345-5411370&type=Single",
+          "commence_time": "2026-11-29T21:25:00Z"
+        },
+        {
+          "matchup": "Virginia Cavaliers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50313-4559815-7496516&type=Single",
+          "commence_time": "2026-11-28T20:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-28T20:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-29359051",
+      "title": "San Francisco 49ers wins + Bowling Green Falcons wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:44075-3451345-5411370&type=Single",
+      "sport": "americanfootball_nfl",
+      "sport_display": "Multi",
+      "matchup": "Seattle Seahawks @ San Francisco 49ers + UMass Minutemen @ Bowling Green Falcons",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Seattle Seahawks @ San Francisco 49ers",
+          "pick": "San Francisco 49ers wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_nfl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:44075-3451345-5411370&type=Single",
+          "commence_time": "2026-11-29T21:25:00Z"
+        },
+        {
+          "matchup": "UMass Minutemen @ Bowling Green Falcons",
+          "pick": "Bowling Green Falcons wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50305-4559807-7496500&type=Single",
+          "commence_time": "2026-11-28T20:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-28T20:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-D9AF965A",
+      "title": "Gonzaga Bulldogs wins + Toledo Rockets wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20140724-1582408504-2361523832&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Baylor Bears @ Gonzaga Bulldogs + Toledo Rockets @ Ohio Bobcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baylor Bears @ Gonzaga Bulldogs",
+          "pick": "Gonzaga Bulldogs wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20140724-1582408504-2361523832&type=Single",
+          "commence_time": "2026-11-27T04:30:00Z"
+        },
+        {
+          "matchup": "Toledo Rockets @ Ohio Bobcats",
+          "pick": "Toledo Rockets wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50270-4542088-7455530&type=Single",
+          "commence_time": "2026-11-27T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-27T04:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-C079886A",
+      "title": "Gonzaga Bulldogs wins + Virginia Tech Hokies wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "water is wet",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20140724-1582408504-2361523832&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Baylor Bears @ Gonzaga Bulldogs + Virginia Cavaliers @ Virginia Tech Hokies",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baylor Bears @ Gonzaga Bulldogs",
+          "pick": "Gonzaga Bulldogs wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20140724-1582408504-2361523832&type=Single",
+          "commence_time": "2026-11-27T04:30:00Z"
+        },
+        {
+          "matchup": "Virginia Cavaliers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50313-4559815-7496516&type=Single",
+          "commence_time": "2026-11-28T20:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-27T04:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-58F5420A",
+      "title": "Gonzaga Bulldogs wins + Bowling Green Falcons wins",
+      "payout": 2.74,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20140724-1582408504-2361523832&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Baylor Bears @ Gonzaga Bulldogs + UMass Minutemen @ Bowling Green Falcons",
+      "market_type": "2-leg parlay",
+      "american_odds": 174,
+      "implied_probability": 0.365,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Baylor Bears @ Gonzaga Bulldogs",
+          "pick": "Gonzaga Bulldogs wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20140724-1582408504-2361523832&type=Single",
+          "commence_time": "2026-11-27T04:30:00Z"
+        },
+        {
+          "matchup": "UMass Minutemen @ Bowling Green Falcons",
+          "pick": "Bowling Green Falcons wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50305-4559807-7496500&type=Single",
+          "commence_time": "2026-11-28T20:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-27T04:30:00Z"
+    },
+    {
+      "ticker": "PARLAY-B9136F25",
+      "title": "Northwestern Wildcats wins + Toledo Rockets wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "just showing up",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:50328-4559832-7496574&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "NCAAF",
+      "matchup": "Illinois Fighting Illini @ Northwestern Wildcats + Toledo Rockets @ Ohio Bobcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Illinois Fighting Illini @ Northwestern Wildcats",
+          "pick": "Northwestern Wildcats wins",
+          "odds": -145,
+          "implied_prob": "59%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50328-4559832-7496574&type=Single",
+          "commence_time": "2026-11-28T17:30:00Z"
+        },
+        {
+          "matchup": "Toledo Rockets @ Ohio Bobcats",
+          "pick": "Toledo Rockets wins",
+          "odds": -155,
+          "implied_prob": "61%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50270-4542088-7455530&type=Single",
+          "commence_time": "2026-11-27T17:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-27T17:00:00Z"
+    }
+  ]
+}
