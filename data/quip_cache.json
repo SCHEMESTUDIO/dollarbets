@@ -1,89 +1,4 @@
 {
-  "SB-B425B565": {
-    "title": "Georgia Southern stuns Northern Kentucky on the road",
-    "quip": "the Norse boat springs a leak in Highland Heights",
-    "cached_at": "2026-11-23T19:48:57.831475+00:00"
-  },
-  "SB-93BD2E67": {
-    "title": "Maple Leafs win in Elmont tonight",
-    "quip": "UBS Arena still smells like a Leafs road win",
-    "cached_at": "2026-11-23T19:48:57.831475+00:00"
-  },
-  "SB-38042594": {
-    "title": "Bucks upset the Raptors in Toronto",
-    "quip": "Giannis treats Scotiabank Arena like a parking spot",
-    "cached_at": "2026-11-23T19:48:57.831475+00:00"
-  },
-  "SB-B52D5480": {
-    "title": "Canadiens bury the Kings by four or more",
-    "quip": "Suzuki and Caufield turning the Bell Centre into a karaoke bar",
-    "cached_at": "2026-11-23T19:48:57.831475+00:00"
-  },
-  "SB-DC0CA2F3": {
-    "title": "Hornets blow out the Grizzlies by 17+",
-    "quip": "LaMelo in Buzz City, Ja watching the scoreboard melt",
-    "cached_at": "2026-11-23T19:48:57.831475+00:00"
-  },
-  "SB-708157DC": {
-    "title": "Sixers humiliate the Blazers by 34+",
-    "quip": "Embiid auditions for a Roland Emmerich disaster film",
-    "cached_at": "2026-11-23T19:48:57.831475+00:00"
-  },
-  "SB-68EFEDF1": {
-    "title": "Senators and Flames combine for 12+ goals",
-    "quip": "both goalies file for workers comp by the second intermission",
-    "cached_at": "2026-11-23T19:48:57.831475+00:00"
-  },
-  "SB-2E818B20": {
-    "title": "Titans stun the Jaguars in Jacksonville",
-    "quip": "Cam Ward ruins Trevor Lawrence's Sunday on purpose",
-    "cached_at": "2026-11-23T19:49:03.683839+00:00"
-  },
-  "SB-3F71CDEB": {
-    "title": "Texas A&M-CC shocks the Shockers in Wichita",
-    "quip": "Islanders pull up to Koch Arena like Ocean's Eleven",
-    "cached_at": "2026-11-23T19:49:03.683839+00:00"
-  },
-  "SB-B4F8EF56": {
-    "title": "Gr\u00eamio steal three points at Santos tonight",
-    "quip": "Neymar's homecoming tour hits a Porto Alegre speed bump",
-    "cached_at": "2026-11-23T19:49:11.591081+00:00"
-  },
-  "SB-42617168": {
-    "title": "Nelson Hysa shocks Agit Kabayel",
-    "quip": "the Albanian David packing one very heavy sling",
-    "cached_at": "2026-11-23T19:49:11.591081+00:00"
-  },
-  "SB-E3ABA121": {
-    "title": "Cavs handle the Bulls in Chicago",
-    "quip": "Mitchell treats the United Center like a layup line",
-    "cached_at": "2026-11-23T19:49:20.462839+00:00"
-  },
-  "SB-4CDA336F": {
-    "title": "Wild and Sharks go down to the wire",
-    "quip": "Kaprizov wins it, but San Jose hangs around",
-    "cached_at": "2026-11-23T19:49:20.462839+00:00"
-  },
-  "SB-818D5C74": {
-    "title": "Indiana State knocks off East Carolina",
-    "quip": "the Sycamores still carry Larry Bird's ghost",
-    "cached_at": "2026-11-23T19:49:20.462839+00:00"
-  },
-  "SB-3876B9C4": {
-    "title": "Suns beat the Pelicans in New Orleans",
-    "quip": "Booker against a Zion-less injury report",
-    "cached_at": "2026-11-23T19:49:20.462839+00:00"
-  },
-  "SB-40B05969": {
-    "title": "Canadiens take down the Kings at the Bell Centre",
-    "quip": "Caufield and Suzuki in front of the loudest barn",
-    "cached_at": "2026-11-23T19:49:20.462839+00:00"
-  },
-  "SB-1B767542": {
-    "title": "Northern Kentucky tops Georgia Southern",
-    "quip": "the Norse defend the Highland Heights fortress",
-    "cached_at": "2026-11-23T19:49:20.462839+00:00"
-  },
   "SB-F387832B": {
     "title": "Jazz keep it respectable in LA tonight",
     "quip": "Lauri Markkanen doesn't do garbage time quietly",
@@ -818,5 +733,140 @@
     "title": "South Alabama handles App State tonight",
     "quip": "no more Michigan upsets on the resume",
     "cached_at": "2026-11-27T17:50:31.533302+00:00"
+  },
+  "SB-A7561F86": {
+    "title": "Devils beat Jets by two or more tonight",
+    "quip": "Jack Hughes at the Rock, lights out",
+    "cached_at": "2026-11-28T03:49:05.917669+00:00"
+  },
+  "SB-883EFF98": {
+    "title": "Pacers take down the Bulls in Chicago",
+    "quip": "Haliburton plays the United Center like a piano",
+    "cached_at": "2026-11-28T03:49:05.917669+00:00"
+  },
+  "SB-4FE22D5A": {
+    "title": "Rangers handle Flames by two-plus tonight",
+    "quip": "Shesterkin turns Calgary into a highlight reel for nobody",
+    "cached_at": "2026-11-28T03:49:05.917669+00:00"
+  },
+  "SB-072F88FB": {
+    "title": "Penguins beat Leafs by two or more",
+    "quip": "Crosby still reserves a wing in Toronto's nightmare hotel",
+    "cached_at": "2026-11-28T03:49:05.917669+00:00"
+  },
+  "SB-22408685": {
+    "title": "Golden Knights bury Canadiens by two-plus",
+    "quip": "Montreal's kids meet the Vegas buzzsaw at altitude of noise",
+    "cached_at": "2026-11-28T03:49:05.917669+00:00"
+  },
+  "SB-BF979B69": {
+    "title": "Brentford upset Manchester United at Old Trafford",
+    "quip": "the Bees have done this before and enjoyed it",
+    "cached_at": "2026-11-28T03:49:05.917669+00:00"
+  },
+  "SB-CED7BBEC": {
+    "title": "Coastal Carolina shocks James Madison on the road",
+    "quip": "teal turf energy versus the Dukes' alleged inevitability",
+    "cached_at": "2026-11-28T03:49:05.917669+00:00"
+  },
+  "SB-2E818B20": {
+    "title": "Titans stun Jaguars in Jacksonville",
+    "quip": "Tennessee plays spoiler like a toddler with a Sharpie",
+    "cached_at": "2026-11-28T03:49:05.917669+00:00"
+  },
+  "SB-B2AD019A": {
+    "title": "Grizzlies blow out Timberwolves by 18-plus",
+    "quip": "Ja in full Grinch mode, stealing Minnesota's whole December",
+    "cached_at": "2026-11-28T03:49:05.917669+00:00"
+  },
+  "SB-F6EF8755": {
+    "title": "Saints upset the Packers in New Orleans",
+    "quip": "the Superdome still owes Green Bay nothing",
+    "cached_at": "2026-11-28T03:49:13.199969+00:00"
+  },
+  "SB-E29BA857": {
+    "title": "Missouri State shocks Liberty on the road",
+    "quip": "Bears crash the Flames party like Kool-Aid Man",
+    "cached_at": "2026-11-28T03:49:13.199969+00:00"
+  },
+  "SB-A616F04D": {
+    "title": "Kashiwa and Hiroshima grind out a low-scoring night",
+    "quip": "two goals max, like a Kurosawa standoff",
+    "cached_at": "2026-11-28T03:49:26.874179+00:00"
+  },
+  "SB-3163EEF4": {
+    "title": "SaiPa handle Jokerit by two or more",
+    "quip": "Lappeenranta ice, Jokerit's bus ride home gets longer",
+    "cached_at": "2026-11-28T03:49:26.874179+00:00"
+  },
+  "SB-859960C7": {
+    "title": "TPS cruise past Kiekko-Espoo by two",
+    "quip": "Turku's old guard versus Espoo's expansion dreams",
+    "cached_at": "2026-11-28T03:49:26.874179+00:00"
+  },
+  "SB-1C42E5E2": {
+    "title": "Mariners knock off Auckland at home",
+    "quip": "Gosford faithful want the trans-Tasman bragging rights",
+    "cached_at": "2026-11-28T03:49:26.874179+00:00"
+  },
+  "SB-770CA0AB": {
+    "title": "Kyoto and Cerezo split the points",
+    "quip": "Sanga's press meets Osaka's patience, nobody blinks",
+    "cached_at": "2026-11-28T03:49:26.874179+00:00"
+  },
+  "SB-6F94439D": {
+    "title": "Shimizu stun Urawa in Japan",
+    "quip": "S-Pulse orange crush against the Reds' traveling army",
+    "cached_at": "2026-11-28T03:49:26.874179+00:00"
+  },
+  "SB-42617168": {
+    "title": "Nelson Hysa shocks Agit Kabayel",
+    "quip": "the Cinderella Man script, only in German heavyweight dubbing",
+    "cached_at": "2026-11-28T03:49:26.874179+00:00"
+  },
+  "SB-F27FD46F": {
+    "title": "Texas A&M keeps the Lone Star Showdown close",
+    "quip": "Kyle Field doesn't hand out blowouts to Austin",
+    "cached_at": "2026-11-28T03:49:39.804485+00:00"
+  },
+  "SB-B8387125": {
+    "title": "Utah hangs with the Stars in Dallas",
+    "quip": "Mammoth don't go extinct quietly",
+    "cached_at": "2026-11-28T03:49:39.804485+00:00"
+  },
+  "SB-CC322241": {
+    "title": "Ducks keep the Freeway Faceoff tight in LA",
+    "quip": "the 5 freeway rivalry always ends in traffic",
+    "cached_at": "2026-11-28T03:49:39.804485+00:00"
+  },
+  "SB-2831D79B": {
+    "title": "Rangers handle the Flames at the Garden",
+    "quip": "Shesterkin at home, lights on Broadway",
+    "cached_at": "2026-11-28T03:49:39.804485+00:00"
+  },
+  "SB-75688F7C": {
+    "title": "Magic beat the Wizards in Washington",
+    "quip": "Banchero against a team still in the lottery mines",
+    "cached_at": "2026-11-28T03:49:39.804485+00:00"
+  },
+  "SB-639A7C5C": {
+    "title": "UConn wins at Wyoming",
+    "quip": "altitude's rough, but so is Laramie's offense",
+    "cached_at": "2026-11-28T03:49:39.804485+00:00"
+  },
+  "SB-77610E3A": {
+    "title": "Kraken stay within a goal of the Oilers",
+    "quip": "McDavid scores, Seattle still answers the bell",
+    "cached_at": "2026-11-28T03:49:39.804485+00:00"
+  },
+  "SB-B1ED46D7": {
+    "title": "Alabama keeps it close against Miami",
+    "quip": "Coleman Coliseum doesn't let visitors run away",
+    "cached_at": "2026-11-28T03:49:39.804485+00:00"
+  },
+  "SB-54BEFA00": {
+    "title": "Towson beats Buffalo at home",
+    "quip": "SECU Arena, Tigers, and a very long bus ride",
+    "cached_at": "2026-11-28T03:49:39.804485+00:00"
   }
 }

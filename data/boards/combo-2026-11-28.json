@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-11-28T03:49:48.169267+00:00",
+  "board_type": "combo-meal",
+  "board_name": "the combo meal",
+  "market_count": 10,
+  "source": "odds_api",
+  "tier_mix": {
+    "green": 10
+  },
+  "sport_mix": {
+    "Multi": 7,
+    "NCAAB": 3
+  },
+  "board": [
+    {
+      "ticker": "PARLAY-7062A6E9",
+      "title": "Virginia Tech Hokies wins + Wichita St Shockers +1.5",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "checking all the boxes",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:50313-4559815-7496516&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Virginia Cavaliers @ Virginia Tech Hokies + Wichita St Shockers @ Kentucky Wildcats",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Virginia Cavaliers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50313-4559815-7496516&type=Single",
+          "commence_time": "2026-11-28T20:00:00Z"
+        },
+        {
+          "matchup": "Wichita St Shockers @ Kentucky Wildcats",
+          "pick": "Wichita St Shockers +1.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20143336-1582614787-2362083638&type=Single",
+          "commence_time": "2026-11-28T02:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-28T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-D47E7279",
+      "title": "Virginia Tech Hokies wins + Ball State Cardinals wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "paint drying, but profitable",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:50313-4559815-7496516&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Virginia Cavaliers @ Virginia Tech Hokies + Ball State Cardinals @ Southern Indiana Screaming Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Virginia Cavaliers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50313-4559815-7496516&type=Single",
+          "commence_time": "2026-11-28T20:00:00Z"
+        },
+        {
+          "matchup": "Ball State Cardinals @ Southern Indiana Screaming Eagles",
+          "pick": "Ball State Cardinals wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20145953-1582760951-2362484705&type=Single",
+          "commence_time": "2026-11-28T19:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-28T19:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-970EC069",
+      "title": "Virginia Tech Hokies wins + Towson Tigers wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:50313-4559815-7496516&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Virginia Cavaliers @ Virginia Tech Hokies + Buffalo Bulls @ Towson Tigers",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Virginia Cavaliers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50313-4559815-7496516&type=Single",
+          "commence_time": "2026-11-28T20:00:00Z"
+        },
+        {
+          "matchup": "Buffalo Bulls @ Towson Tigers",
+          "pick": "Towson Tigers wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20146192-1582772222-2362515557&type=Single",
+          "commence_time": "2026-11-28T20:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-28T20:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-09743677",
+      "title": "Virginia Tech Hokies wins + Dallas Stars wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "like taking candy from a vending machine",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:50313-4559815-7496516&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Virginia Cavaliers @ Virginia Tech Hokies + Utah Mammoth @ Dallas Stars",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Virginia Cavaliers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50313-4559815-7496516&type=Single",
+          "commence_time": "2026-11-28T20:00:00Z"
+        },
+        {
+          "matchup": "Utah Mammoth @ Dallas Stars",
+          "pick": "Dallas Stars wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20099778-1578069450-2349953632&type=Single",
+          "commence_time": "2026-11-29T01:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-28T20:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-088AC18F",
+      "title": "Virginia Tech Hokies wins + Los Angeles Kings wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "steady hands",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=6:50313-4559815-7496516&type=Single",
+      "sport": "americanfootball_ncaaf",
+      "sport_display": "Multi",
+      "matchup": "Virginia Cavaliers @ Virginia Tech Hokies + Anaheim Ducks @ Los Angeles Kings",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Virginia Cavaliers @ Virginia Tech Hokies",
+          "pick": "Virginia Tech Hokies wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "americanfootball_ncaaf",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=6:50313-4559815-7496516&type=Single",
+          "commence_time": "2026-11-28T20:00:00Z"
+        },
+        {
+          "matchup": "Anaheim Ducks @ Los Angeles Kings",
+          "pick": "Los Angeles Kings wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20099780-1578069781-2349954674&type=Single",
+          "commence_time": "2026-11-29T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-28T20:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-69FE19FF",
+      "title": "Wichita St Shockers +1.5 + Ball State Cardinals wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "tuesday energy",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20143336-1582614787-2362083638&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "NCAAB",
+      "matchup": "Wichita St Shockers @ Kentucky Wildcats + Ball State Cardinals @ Southern Indiana Screaming Eagles",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Wichita St Shockers @ Kentucky Wildcats",
+          "pick": "Wichita St Shockers +1.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20143336-1582614787-2362083638&type=Single",
+          "commence_time": "2026-11-28T02:00:00Z"
+        },
+        {
+          "matchup": "Ball State Cardinals @ Southern Indiana Screaming Eagles",
+          "pick": "Ball State Cardinals wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20145953-1582760951-2362484705&type=Single",
+          "commence_time": "2026-11-28T19:00:00Z"
+        }
+      ],
+      "close_time": "2026-11-28T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-2831ECDE",
+      "title": "Wichita St Shockers +1.5 + Towson Tigers wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "bread and butter",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20143336-1582614787-2362083638&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "NCAAB",
+      "matchup": "Wichita St Shockers @ Kentucky Wildcats + Buffalo Bulls @ Towson Tigers",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Wichita St Shockers @ Kentucky Wildcats",
+          "pick": "Wichita St Shockers +1.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20143336-1582614787-2362083638&type=Single",
+          "commence_time": "2026-11-28T02:00:00Z"
+        },
+        {
+          "matchup": "Buffalo Bulls @ Towson Tigers",
+          "pick": "Towson Tigers wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20146192-1582772222-2362515557&type=Single",
+          "commence_time": "2026-11-28T20:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-28T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-8440AA2E",
+      "title": "Wichita St Shockers +1.5 + Dallas Stars wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "the boring middle",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20143336-1582614787-2362083638&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Wichita St Shockers @ Kentucky Wildcats + Utah Mammoth @ Dallas Stars",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Wichita St Shockers @ Kentucky Wildcats",
+          "pick": "Wichita St Shockers +1.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20143336-1582614787-2362083638&type=Single",
+          "commence_time": "2026-11-28T02:00:00Z"
+        },
+        {
+          "matchup": "Utah Mammoth @ Dallas Stars",
+          "pick": "Dallas Stars wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20099778-1578069450-2349953632&type=Single",
+          "commence_time": "2026-11-29T01:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-28T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-9376DF45",
+      "title": "Wichita St Shockers +1.5 + Los Angeles Kings wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "the fundamentals",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20143336-1582614787-2362083638&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "Multi",
+      "matchup": "Wichita St Shockers @ Kentucky Wildcats + Anaheim Ducks @ Los Angeles Kings",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Wichita St Shockers @ Kentucky Wildcats",
+          "pick": "Wichita St Shockers +1.5",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20143336-1582614787-2362083638&type=Single",
+          "commence_time": "2026-11-28T02:00:00Z"
+        },
+        {
+          "matchup": "Anaheim Ducks @ Los Angeles Kings",
+          "pick": "Los Angeles Kings wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "icehockey_nhl",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20099780-1578069781-2349954674&type=Single",
+          "commence_time": "2026-11-29T02:10:00Z"
+        }
+      ],
+      "close_time": "2026-11-28T02:00:00Z"
+    },
+    {
+      "ticker": "PARLAY-D01450DD",
+      "title": "Ball State Cardinals wins + Towson Tigers wins",
+      "payout": 2.78,
+      "tier": "green",
+      "quip": "another day at the office",
+      "yes_price": "0.36",
+      "category": "sports-parlay",
+      "platform": "betmgm",
+      "platform_display": "BetMGM",
+      "url": "https://sports.{state}.betmgm.com/en/sports?options=20145953-1582760951-2362484705&type=Single",
+      "sport": "basketball_ncaab",
+      "sport_display": "NCAAB",
+      "matchup": "Ball State Cardinals @ Southern Indiana Screaming Eagles + Buffalo Bulls @ Towson Tigers",
+      "market_type": "2-leg parlay",
+      "american_odds": 178,
+      "implied_probability": 0.36,
+      "has_deep_link": true,
+      "type": "parlay",
+      "num_legs": 2,
+      "legs": [
+        {
+          "matchup": "Ball State Cardinals @ Southern Indiana Screaming Eagles",
+          "pick": "Ball State Cardinals wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20145953-1582760951-2362484705&type=Single",
+          "commence_time": "2026-11-28T19:00:00Z"
+        },
+        {
+          "matchup": "Buffalo Bulls @ Towson Tigers",
+          "pick": "Towson Tigers wins",
+          "odds": -150,
+          "implied_prob": "60%",
+          "sport": "basketball_ncaab",
+          "deep_link": "https://sports.{state}.betmgm.com/en/sports?options=20146192-1582772222-2362515557&type=Single",
+          "commence_time": "2026-11-28T20:30:00Z"
+        }
+      ],
+      "close_time": "2026-11-28T19:00:00Z"
+    }
+  ]
+}

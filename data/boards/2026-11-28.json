@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-11-28T03:48:48.310348+00:00",
+  "market_count": 10,
+  "source": "kalshi+polymarket_us+polymarket",
+  "quip_pipeline": "v2",
+  "platform_mix": {
+    "kalshi": 6,
+    "polymarket_us": 4,
+    "polymarket": 0
+  },
+  "board": [
+    {
+      "ticker": "KXDEMFIRSTWINNOM-28-FCW",
+      "title": "Whoever wins the first state wins the Democratic nomination",
+      "subtitle": "In 2028",
+      "yes_sub_title": "Winner of first state contest",
+      "no_sub_title": "Winner of first state contest",
+      "payout": 1.92,
+      "tier": "green",
+      "quip": "calling the Final Four off a November exhibition in Maui",
+      "yes_price": "0.5200",
+      "volume": 210.0,
+      "category": "Elections",
+      "close_time": "2028-11-07T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXDEMFIRSTWINNOM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 34.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "i will be watching a high school gym in Iowa like it's the Super Bowl",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "a state with more cows than people, running the whole operation again",
+          "mode": 7,
+          "score": 7.5
+        },
+        {
+          "quip": "democracy's soft opening",
+          "mode": 9,
+          "score": 5
+        },
+        {
+          "quip": "a county of 40,000 picking for 330 million, great system, love it here",
+          "mode": 5,
+          "score": 7.5
+        },
+        {
+          "quip": "sixteen candidates simultaneously discover a lifelong passion for corn subsidies",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "like a movie that tells you the ending in the first ten minutes",
+          "mode": 8,
+          "score": 5.5
+        },
+        {
+          "quip": "calling the Final Four off a November exhibition in Maui",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "I already have a favorite and he has not announced and may not exist",
+          "mode": 2,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXNFLFIRSTTDTEAM-26NOV29LVCLE-LV",
+      "title": "Raiders score the game's first touchdown",
+      "subtitle": "LV vs CLE (Nov 29)",
+      "yes_sub_title": "Las Vegas",
+      "no_sub_title": "Las Vegas",
+      "payout": 2.38,
+      "tier": "green",
+      "quip": "Al Davis clawing out of the ground for one red zone trip",
+      "yes_price": "0.4200",
+      "volume": 36.93,
+      "category": "Sports",
+      "close_time": "2026-12-02T01:20:00Z",
+      "url": "https://kalshi.com/markets/KXNFLFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 74.0,
+      "_specificity": 10,
+      "quip_alts": [
+        {
+          "quip": "me, a man with nothing at stake, screaming for the Raiders at noon",
+          "mode": 2,
+          "score": 5
+        },
+        {
+          "quip": "even Vegas doesn't want the Raiders doing anything first",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "silver and black mathematics",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "they score, then immediately get flagged for how they celebrate it",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "the Raiders have not scored first since the Carter administration, i'm told",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Al Davis clawing out of the ground for one red zone trip",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "the first touchdown of a football game is the purest substance known to man",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "the kid picked last hitting the opening bucket and never shutting up",
+          "mode": 6,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-2885758",
+      "title": "Six or more ships clear Hormuz in a day next week",
+      "subtitle": "",
+      "payout": 2.86,
+      "tier": "green",
+      "quip": "the Suez boat guy watching all this over a bowl of cereal",
+      "yes_price": "0.3500",
+      "volume": 0,
+      "category": "World",
+      "close_time": "2026-12-22T14:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/hormuz-highw-2026-12-06?marketSlug=stsc-hormuz-highw-2026-12-06-ge6",
+      "platform": "polymarket_us",
+      "score": 30.0,
+      "quip_alts": [
+        {
+          "quip": "i have become a man who checks tanker counts before coffee",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "six whole boats deciding what i pay for gas on Thursday",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "boat math, oil consequences",
+          "mode": 9,
+          "score": 3.5
+        },
+        {
+          "quip": "\"captain, there's a seventh ship.\" \"do not jinx this\"",
+          "mode": 4,
+          "score": 7
+        },
+        {
+          "quip": "somewhere a guy with binoculars gets a raise and a better folding chair",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "the Suez boat guy watching all this over a bowl of cereal",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "shipping lanes are the most underrated spectator sport on the planet",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "entire global economy balanced on a puddle between two angry countries",
+          "mode": 7,
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1446171",
+      "title": "Robert Pattinson lands a Best Supporting Actor nomination",
+      "subtitle": "",
+      "payout": 3.45,
+      "tier": "yellow",
+      "quip": "29 cents and a British accent walk into the Dolby Theatre",
+      "yes_price": "0.2900",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-02-05T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/oscars-nom-bstsupact-2027-01-21?marketSlug=tac-oscars-nom-bstsupact-2027-01-21-robpat",
+      "platform": "polymarket_us",
+      "score": 38.0,
+      "quip_alts": [
+        {
+          "quip": "I owe this man a formal apology for everything I said in 2009",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "go tell 2010 me that Edward Cullen gets nominated. he will fight you",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "sparkle to statuette",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "the Academy finally sat down and watched the weird ones",
+          "mode": 1,
+          "score": 6
+        },
+        {
+          "quip": "nobody has pivoted harder in my lifetime and I respect it violently",
+          "mode": 3,
+          "score": 6
+        },
+        {
+          "quip": "like a punter making the Pro Bowl purely on vibes and leg",
+          "mode": 6,
+          "score": 8
+        },
+        {
+          "quip": "\"I was in a vampire movie once.\" sir, you were in five",
+          "mode": 4,
+          "score": 7.5
+        },
+        {
+          "quip": "29 cents and a British accent walk into the Dolby Theatre",
+          "mode": 5,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "KXMARSVRAIL-50",
+      "title": "Humans reach Mars before California's high-speed rail runs",
+      "subtitle": "Before 2050",
+      "yes_sub_title": "Before 2050",
+      "no_sub_title": "Before 2050",
+      "payout": 3.45,
+      "tier": "yellow",
+      "quip": "Andy Dufresne tunneled out of Shawshank faster than this thing lays track",
+      "yes_price": "0.2900",
+      "volume": 17322.86,
+      "category": "Science and Technology",
+      "close_time": "2050-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXMARSVRAIL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 99.0,
+      "_specificity": 15,
+      "quip_alts": [
+        {
+          "quip": "Fresno to Bakersfield: the final frontier",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "i will be dead and the Central Valley will still be a construction zone",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "Mars has fewer permits",
+          "mode": 9,
+          "score": 8
+        },
+        {
+          "quip": "first Martian offers to consult on the environmental impact review",
+          "mode": 1,
+          "score": 7.5
+        },
+        {
+          "quip": "Andy Dufresne tunneled out of Shawshank faster than this thing lays track",
+          "mode": 8,
+          "score": 8.5
+        },
+        {
+          "quip": "currently 22 miles of track and one very expensive roundabout",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "i am rooting for both of these and expecting absolutely neither",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "the Browns winning a Super Bowl before the Jets win a game",
+          "mode": 6,
+          "score": 8
+        }
+      ]
+    },
+    {
+      "ticker": "KXSERIEA1HTOTAL-26NOV29ROMMON-3",
+      "title": "Three or more goals in the first half tonight",
+      "subtitle": "ROM vs MON (Nov 29)",
+      "yes_sub_title": "Over 2.5 1H goals scored",
+      "no_sub_title": "Over 2.5 1H goals scored",
+      "payout": 4.17,
+      "tier": "yellow",
+      "quip": "soccer's version of a 14-12 football game, which is to say unhinged",
+      "yes_price": "0.2400",
+      "volume": 0.0,
+      "category": "Sports",
+      "close_time": "2026-12-01T17:00:00Z",
+      "url": "https://kalshi.com/markets/KXSERIEA1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 69.0,
+      "_specificity": 0,
+      "quip_alts": [
+        {
+          "quip": "i need chaos before halftime or i'm just folding laundry with a TV on",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "defending is a choice",
+          "mode": 9,
+          "score": 7
+        },
+        {
+          "quip": "both managers writing entirely new words on the whiteboard at the break",
+          "mode": 1,
+          "score": 6.5
+        },
+        {
+          "quip": "three goals in 45 minutes is a free concert and nobody told you",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "soccer's version of a 14-12 football game, which is to say unhinged",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "2.5 goals, a number invented specifically to ruin my Saturday",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "some center back gets subbed off at minute 38 and fully deserves it",
+          "mode": 7,
+          "score": 8
+        },
+        {
+          "quip": "keeper doing the Home Alone face as the third one goes in",
+          "mode": 8,
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "ticker": "STARSHIPMARS-29DEC31",
+      "title": "Starship puts humans on Mars before 2030",
+      "subtitle": "Before 2030",
+      "yes_sub_title": "Before 2030",
+      "no_sub_title": "Not Before 2030",
+      "payout": 7.69,
+      "tier": "orange",
+      "quip": "$7.69 to watch a stainless steel grain silo leave the planet",
+      "yes_price": "0.1300",
+      "volume": 55893.53,
+      "category": "Companies",
+      "close_time": "2030-01-01T04:59:00Z",
+      "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 119.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "crew manifest: three engineers and whoever posted the most",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "i'd go. i'd absolutely go. nobody has asked me",
+          "mode": 2,
+          "score": 8
+        },
+        {
+          "quip": "\"we're targeting 2028.\" sir, you said that about the truck",
+          "mode": 4,
+          "score": 8.5
+        },
+        {
+          "quip": "pack light, pack forever",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "Interstellar, except the corn is a sponsorship read",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "$7.69 to watch a stainless steel grain silo leave the planet",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "a rocket that big going that far is unbelievably cool and i won't apologize",
+          "mode": 3,
+          "score": 7
+        },
+        {
+          "quip": "Boca Chica beach closed again and i'm supposed to feel bad about it",
+          "mode": 7,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-1465667",
+      "title": "Megan Moroney wins Best Contemporary Country Album",
+      "subtitle": "",
+      "payout": 11.11,
+      "tier": "orange",
+      "quip": "speech thanks God, her mom, and one guy who deserves much worse",
+      "yes_price": "0.0900",
+      "volume": 0,
+      "category": "Entertainment",
+      "close_time": "2027-02-22T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/grammys-bcca-2027-02-07?marketSlug=tac-grammys-bcca-2027-02-07-clo9",
+      "platform": "polymarket_us",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "my truck does not exist but this record has me pricing one out",
+          "mode": 2,
+          "score": 7.5
+        },
+        {
+          "quip": "contemporary country is pop in a hat and I'm completely at peace with that",
+          "mode": 3,
+          "score": 8
+        },
+        {
+          "quip": "hat on, trophy up",
+          "mode": 9,
+          "score": 4
+        },
+        {
+          "quip": "speech thanks God, her mom, and one guy who deserves much worse",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "eleven dollars riding on a lemonade-flavored breakup album, sure",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "Shania paved this road and Nashville still put a toll booth on it",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "a man in Texas is composing a very long Facebook post right now",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "a rookie taking the award while the veterans split the room",
+          "mode": 6,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "ticker": "KXUSAIRANAGREEMENT-27",
+      "title": "The US signs a new Iran nuclear deal this year",
+      "subtitle": "Before Jan 20, 2029",
+      "yes_sub_title": "Before Jan 1, 2027",
+      "no_sub_title": "Before Jan 1, 2027",
+      "payout": 33.33,
+      "tier": "red",
+      "quip": "like a trade both GMs deny for six weeks before the physical",
+      "yes_price": "0.0300",
+      "volume": 2141976.83,
+      "category": "Politics",
+      "close_time": "2027-01-01T15:00:00Z",
+      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+      "score": 120.0,
+      "_specificity": 20,
+      "quip_alts": [
+        {
+          "quip": "i have typed the word centrifuge more times this year than my own name",
+          "mode": 2,
+          "score": 8.5
+        },
+        {
+          "quip": "Geneva's busiest catering year",
+          "mode": 9,
+          "score": 6
+        },
+        {
+          "quip": "\"tremendous paper. the best paper. nobody's ever seen paper like this\"",
+          "mode": 4,
+          "score": 8
+        },
+        {
+          "quip": "three cents of hope, roughly a penny per signature",
+          "mode": 5,
+          "score": 8
+        },
+        {
+          "quip": "handshake photo framed in March, quietly removed by June",
+          "mode": 1,
+          "score": 8
+        },
+        {
+          "quip": "the Ocean's Eleven of diplomacy where everybody's lying about the vault",
+          "mode": 8,
+          "score": 7.5
+        },
+        {
+          "quip": "like a trade both GMs deny for six weeks before the physical",
+          "mode": 6,
+          "score": 8.5
+        },
+        {
+          "quip": "sincerely, I would love this. I just do not believe a word of it",
+          "mode": 3,
+          "score": 7.5
+        }
+      ]
+    },
+    {
+      "ticker": "pmus-166295",
+      "title": "Meta owns the top AI model at the end of 2026",
+      "subtitle": "",
+      "payout": 100.0,
+      "tier": "purple",
+      "quip": "somewhere in Menlo Park a very expensive llama is sweating",
+      "yes_price": "0.0100",
+      "volume": 0,
+      "category": "Science and Technology",
+      "close_time": "2027-01-15T04:00:00Z",
+      "_specificity": 15,
+      "url": "https://polymarket.us/event/company1-2026-12-31?marketSlug=aimrc-company1-2026-12-31-meta",
+      "platform": "polymarket_us",
+      "score": 43.0,
+      "quip_alts": [
+        {
+          "quip": "Zuck announcing it shirtless, from a pool, mid armbar",
+          "mode": 1,
+          "score": 8.5
+        },
+        {
+          "quip": "i will personally eat a hat and then post the video",
+          "mode": 2,
+          "score": 7
+        },
+        {
+          "quip": "100 to 1, deservedly",
+          "mode": 9,
+          "score": 7.5
+        },
+        {
+          "quip": "$100 payout, which is roughly one Meta researcher's lunch budget",
+          "mode": 5,
+          "score": 8.5
+        },
+        {
+          "quip": "an underdog with eighty billion dollars is my favorite kind of underdog",
+          "mode": 3,
+          "score": 7.5
+        },
+        {
+          "quip": "Rudy, except Rudy owns the stadium, the team, and your photos",
+          "mode": 8,
+          "score": 8
+        },
+        {
+          "quip": "somewhere in Menlo Park a very expensive llama is sweating",
+          "mode": 7,
+          "score": 8.5
+        },
+        {
+          "quip": "i still have a Facebook account so this would be my revenge arc",
+          "mode": 2,
+          "score": 6.5
+        }
+      ]
+    }
+  ]
+}

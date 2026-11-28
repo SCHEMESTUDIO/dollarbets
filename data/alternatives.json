@@ -1,161 +1,169 @@
 {
- "generated_at": "2026-11-27T04:01:25.378990+00:00",
+ "generated_at": "2026-11-28T03:48:48.309683+00:00",
  "markets": {
-  "KXNHLF10G-26NOV27COLMIN-Y": {
-   "title": "Somebody scores in the first 10 minutes tonight",
+  "KXDEMFIRSTWINNOM-28-FCW": {
+   "title": "Whoever wins the first state wins the Democratic nomination",
    "platform": "kalshi",
-   "payout": 1.64,
-   "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 1.92,
+   "url": "https://kalshi.com/markets/KXDEMFIRSTWINNOM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Elections",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXDEMFIRSTWINNOM-28-FCW",
+     "title": "Whoever wins the first state wins the Democratic nomination",
+     "url": "https://kalshi.com/markets/KXDEMFIRSTWINNOM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 1.92,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "KXNFLFIRSTTDTEAM-26NOV29LVCLE-LV": {
+   "title": "Raiders score the game's first touchdown",
+   "platform": "kalshi",
+   "payout": 2.38,
+   "url": "https://kalshi.com/markets/KXNFLFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Sports",
    "alts": {
     "kalshi": {
-     "ticker": "KXNHLF10G-26NOV27COLMIN-Y",
-     "title": "Somebody scores in the first 10 minutes tonight",
-     "url": "https://kalshi.com/markets/KXNHLF10G?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 1.64,
+     "ticker": "KXNFLFIRSTTDTEAM-26NOV29LVCLE-LV",
+     "title": "Raiders score the game's first touchdown",
+     "url": "https://kalshi.com/markets/KXNFLFIRSTTDTEAM?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 2.38,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "pmus-2434215": {
-   "title": "Core inflation runs hot this month",
+  "pmus-2885758": {
+   "title": "Six or more ships clear Hormuz in a day next week",
    "platform": "polymarket_us",
-   "payout": 2.27,
-   "url": "https://polymarket.us/event/uscpicore-nov-mom-2026-12-10?marketSlug=cpic-uscpicore-nov-mom-2026-12-10-gt0pt2pct",
-   "category": "Other",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-2434215",
-     "title": "Core inflation runs hot this month",
-     "url": "https://polymarket.us/event/uscpicore-nov-mom-2026-12-10?marketSlug=cpic-uscpicore-nov-mom-2026-12-10-gt0pt2pct",
-     "payout": 2.27,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-1323115": {
-   "title": "Beef prices fall to $6.50 by New Year's",
-   "platform": "polymarket_us",
-   "payout": 2.78,
-   "url": "https://polymarket.us/event/usbeef-lw-yr-2026-12-31?marketSlug=gbapc-usbeef-lw-yr-2026-12-31-lte6pt50",
-   "category": "Other",
-   "alts": {
-    "polymarket_us": {
-     "ticker": "pmus-1323115",
-     "title": "Beef prices fall to $6.50 by New Year's",
-     "url": "https://polymarket.us/event/usbeef-lw-yr-2026-12-31?marketSlug=gbapc-usbeef-lw-yr-2026-12-31-lte6pt50",
-     "payout": 2.78,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-2110996": {
-   "title": "Greg Abbott announces a presidential run",
-   "platform": "polymarket_us",
-   "payout": 4.35,
-   "url": "https://polymarket.us/event/uspres28-12-31-2027?marketSlug=cranc-uspres28-12-31-2027-greabb",
+   "payout": 2.86,
+   "url": "https://polymarket.us/event/hormuz-highw-2026-12-06?marketSlug=stsc-hormuz-highw-2026-12-06-ge6",
    "category": "World",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-2110996",
-     "title": "Greg Abbott announces a presidential run",
-     "url": "https://polymarket.us/event/uspres28-12-31-2027?marketSlug=cranc-uspres28-12-31-2027-greabb",
-     "payout": 4.35,
+     "ticker": "pmus-2885758",
+     "title": "Six or more ships clear Hormuz in a day next week",
+     "url": "https://polymarket.us/event/hormuz-highw-2026-12-06?marketSlug=stsc-hormuz-highw-2026-12-06-ge6",
+     "payout": 2.86,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXLIGUE11H-26NOV28MANLIL-MAN": {
-   "title": "Le Mans leads at halftime tonight",
-   "platform": "kalshi",
-   "payout": 4.55,
-   "url": "https://kalshi.com/markets/KXLIGUE11H?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Sports",
-   "alts": {
-    "kalshi": {
-     "ticker": "KXLIGUE11H-26NOV28MANLIL-MAN",
-     "title": "Le Mans leads at halftime tonight",
-     "url": "https://kalshi.com/markets/KXLIGUE11H?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 4.55,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "pmus-287338": {
-   "title": "Josephine lands a Best Picture nomination",
+  "pmus-1446171": {
+   "title": "Robert Pattinson lands a Best Supporting Actor nomination",
    "platform": "polymarket_us",
-   "payout": 6.67,
-   "url": "https://polymarket.us/event/oscars-nom-2027-01-31-bestpic?marketSlug=tac-oscars-nom-2027-01-31-bestpic-joseph",
+   "payout": 3.45,
+   "url": "https://polymarket.us/event/oscars-nom-bstsupact-2027-01-21?marketSlug=tac-oscars-nom-bstsupact-2027-01-21-robpat",
    "category": "Entertainment",
    "alts": {
     "polymarket_us": {
-     "ticker": "pmus-287338",
-     "title": "Josephine lands a Best Picture nomination",
-     "url": "https://polymarket.us/event/oscars-nom-2027-01-31-bestpic?marketSlug=tac-oscars-nom-2027-01-31-bestpic-joseph",
-     "payout": 6.67,
+     "ticker": "pmus-1446171",
+     "title": "Robert Pattinson lands a Best Supporting Actor nomination",
+     "url": "https://polymarket.us/event/oscars-nom-bstsupact-2027-01-21?marketSlug=tac-oscars-nom-bstsupact-2027-01-21-robpat",
+     "payout": 3.45,
      "same": true,
      "sim": 1.0
     }
    }
   },
-  "KXUSSAUDINUCLEAR-27-27JAN01": {
-   "title": "The US and Saudi nuclear deal takes effect",
+  "KXMARSVRAIL-50": {
+   "title": "Humans reach Mars before California's high-speed rail runs",
    "platform": "kalshi",
-   "payout": 10.0,
-   "url": "https://kalshi.com/markets/KXUSSAUDINUCLEAR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-   "category": "Politics",
-   "alts": {
-    "kalshi": {
-     "ticker": "KXUSSAUDINUCLEAR-27-27JAN01",
-     "title": "The US and Saudi nuclear deal takes effect",
-     "url": "https://kalshi.com/markets/KXUSSAUDINUCLEAR?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 10.0,
-     "same": true,
-     "sim": 1.0
-    }
-   }
-  },
-  "MOON-27DEC31": {
-   "title": "NASA puts boots on the Moon before 2028",
-   "platform": "kalshi",
-   "payout": 10.1,
-   "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "payout": 3.45,
+   "url": "https://kalshi.com/markets/KXMARSVRAIL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Science and Technology",
    "alts": {
     "kalshi": {
-     "ticker": "MOON-27DEC31",
-     "title": "NASA puts boots on the Moon before 2028",
-     "url": "https://kalshi.com/markets/KXMOON?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 10.1,
+     "ticker": "KXMARSVRAIL-50",
+     "title": "Humans reach Mars before California's high-speed rail runs",
+     "url": "https://kalshi.com/markets/KXMARSVRAIL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 3.45,
      "same": true,
      "sim": 1.0
+    }
+   }
+  },
+  "KXSERIEA1HTOTAL-26NOV29ROMMON-3": {
+   "title": "Three or more goals in the first half tonight",
+   "platform": "kalshi",
+   "payout": 4.17,
+   "url": "https://kalshi.com/markets/KXSERIEA1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Sports",
+   "alts": {
+    "kalshi": {
+     "ticker": "KXSERIEA1HTOTAL-26NOV29ROMMON-3",
+     "title": "Three or more goals in the first half tonight",
+     "url": "https://kalshi.com/markets/KXSERIEA1HTOTAL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 4.17,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "STARSHIPMARS-29DEC31": {
+   "title": "Starship puts humans on Mars before 2030",
+   "platform": "kalshi",
+   "payout": 7.69,
+   "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+   "category": "Companies",
+   "alts": {
+    "kalshi": {
+     "ticker": "STARSHIPMARS-29DEC31",
+     "title": "Starship puts humans on Mars before 2030",
+     "url": "https://kalshi.com/markets/KXSTARSHIPMARS?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 7.69,
+     "same": true,
+     "sim": 1.0
+    }
+   }
+  },
+  "pmus-1465667": {
+   "title": "Megan Moroney wins Best Contemporary Country Album",
+   "platform": "polymarket_us",
+   "payout": 11.11,
+   "url": "https://polymarket.us/event/grammys-bcca-2027-02-07?marketSlug=tac-grammys-bcca-2027-02-07-clo9",
+   "category": "Entertainment",
+   "alts": {
+    "polymarket_us": {
+     "ticker": "pmus-1465667",
+     "title": "Megan Moroney wins Best Contemporary Country Album",
+     "url": "https://polymarket.us/event/grammys-bcca-2027-02-07?marketSlug=tac-grammys-bcca-2027-02-07-clo9",
+     "payout": 11.11,
+     "same": true,
+     "sim": 1.0
+    },
+    "kalshi": {
+     "ticker": "KXGRAMMY-BCCA69-TIE",
+     "title": "Grammy Winner: Best Contemporary Country Album",
+     "url": "https://kalshi.com/markets/KXGRAMMY?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 50.0,
+     "same": false,
+     "sim": 0.44
     }
    }
   },
   "KXUSAIRANAGREEMENT-27": {
-   "title": "The US cuts a new Iran nuclear deal",
+   "title": "The US signs a new Iran nuclear deal this year",
    "platform": "kalshi",
-   "payout": 40.0,
+   "payout": 33.33,
    "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
    "category": "Politics",
    "alts": {
     "kalshi": {
      "ticker": "KXUSAIRANAGREEMENT-27",
-     "title": "The US cuts a new Iran nuclear deal",
+     "title": "The US signs a new Iran nuclear deal this year",
      "url": "https://kalshi.com/markets/KXUSAIRANAGREEMENT?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 40.0,
+     "payout": 33.33,
      "same": true,
      "sim": 1.0
     }
    }
   },
   "pmus-166295": {
-   "title": "Meta owns the best AI model by end of 2026",
+   "title": "Meta owns the top AI model at the end of 2026",
    "platform": "polymarket_us",
    "payout": 100.0,
    "url": "https://polymarket.us/event/company1-2026-12-31?marketSlug=aimrc-company1-2026-12-31-meta",
@@ -163,27 +171,19 @@
    "alts": {
     "polymarket_us": {
      "ticker": "pmus-166295",
-     "title": "Meta owns the best AI model by end of 2026",
+     "title": "Meta owns the top AI model at the end of 2026",
      "url": "https://polymarket.us/event/company1-2026-12-31?marketSlug=aimrc-company1-2026-12-31-meta",
      "payout": 100.0,
      "same": true,
      "sim": 1.0
     },
     "kalshi": {
-     "ticker": "KXLLM1-26DEC31-BAID",
-     "title": "Best AI at the end of 2026?",
-     "url": "https://kalshi.com/markets/KXLLM1?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
-     "payout": 500.0,
+     "ticker": "KXTOPMODEL-26NOV30-CLAU55",
+     "title": "Top AI model this month",
+     "url": "https://kalshi.com/markets/KXTOPMODEL?referral=e690aa11-1f29-49d1-b27f-d5e6ccf38d9f",
+     "payout": 100.0,
      "same": false,
-     "sim": 0.4
-    },
-    "polymarket": {
-     "ticker": "0x51ababc7c3480cb48532de8488762947d8999a524218ade1388473a89a797829",
-     "title": "Will DeepSeek have the best AI model at the end of November 2026?",
-     "url": "https://polymarket.com/event/which-company-has-the-best-ai-model-end-of-november",
-     "payout": 2000.0,
-     "same": false,
-     "sim": 0.43
+     "sim": 0.6
     }
    }
   }
